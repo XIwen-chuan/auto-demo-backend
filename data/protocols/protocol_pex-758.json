@@ -1,0 +1,246 @@
+{
+    "identity": "pex-758",
+    "title": "<p>Standard protocols for detection of human CMV-specific T cells</p>",
+    "content": [
+        {
+            "header": "Introduction",
+            "content": "<p>This protocol describes detection CMV-reactive T cells in human PBMC. Briefly, PBMC are stimulated with CMV lysate for 18 hours. Afterwards, CMV-reactive CD4<sup>+</sup> and CD8<sup>+</sup> T cells are detected by intracellular staining of cytokines, including IFN-\u03b3. Our group has applied this method to frozen PBMC samples from patients with advanced melanoma.</p><p><br></p>"
+        },
+        {
+            "header": "Reagents",
+            "content": "<p><strong>Reagents</strong></p><p>RPMI1640 without phenol red (BE12918F, Lonza-Biozym)</p><p>FCS (10270, Gibco)</p><p>DMSO (D2650, Sigma)</p><p>Glutamax100X (35050038, Gibco-life)</p><p>Pen-Strep 100X (15140-122, Gibco-life)</p><p>Human AB Serum, heat-inactivated pooled male-only (ZKT T\u00fcbingen)</p><p>CMV Lysate (AR03041PU-N, Origene)</p><p>\u03b1CD28 (340975, BD)</p><p>\u03b1CD49d (340976, BD)</p><p>\u03b1PD-1 (MAB10864, R&amp;D)</p><p>\u03b1CTLA-4 (MAB3254, R&amp;D)</p><p>Mouse IgG1 Isotype Control (MAB002, R&amp;D)</p><p>Protein Transport Inhibitor Cocktail 500X (00-4980-93, eBioscience)</p><p>Cell Stimulation Cocktail 500X (00-4970-93, eBioscience)</p><p>SEB (S4881-1MG, Sigma-Aldrich)</p><p>DPBS without Ca2+ or Mg2+ (D8537, Sigma)</p><p>Cell Staining Buffer (420201, BioLegend)</p><p>FcR Blocking Reagent (120-003-855, Miltenyi Biotec)</p><p>IC Fixation Buffer (00-8222, eBioscience)</p><p>Permeabilization Buffer (00-8333, eBioscience)</p><p>Ecotainer Aqua dest. (0082423E, Braun)</p><p>ViaKrome 808 Fixable Viability Dye (C36628, Beckman Coulter)</p><p>Human FcR blocking reagent (130-059-901, Miltenyi)</p><p>Brilliant Stain Buffer Plus (566385, BD)</p><p>Antibodies: see Figure 1</p><p><br></p><p>&nbsp;&nbsp;</p><p><strong>Materials</strong></p><p>Cryotubes (72.380, Sarstedt)</p><p>Freezing Container, \u201cMr. Frosty\u201d (5100-0001, Nalgene)</p><p>96-well plate round bottom (3399, Corning)</p><p>96-well plate polypropylene, V-bottom (3357, Corning)</p>"
+        },
+        {
+            "header": "Equipment",
+            "content": "<p>Cytoflex LX cytometer: U3-V5-B3-Y5-R3-I2 (Beckman Coulter)</p><p>CytExpert version 2.4 Acquisition and Analysis Software (Beckman Coulter)</p><p>Kaluza analysis software v.2.1 (Beckman Coulter)</p>"
+        },
+        {
+            "header": "Procedure",
+            "content": "<p><strong>1. REAGENT PREPARATION</strong></p><p><strong>1.1 Freezing Medium 1</strong></p><p>1.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Add 20 ml FCS to 30 ml RPMI 1640</p><p>2.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Freezing medium 1 can be stored up to 1 month at 4\u00b0C</p><p>&nbsp;</p><p><strong>1.2 Freezing Medium 2</strong></p><p>1.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Add 10 ml DMSO to 40 ml FCS</p><p>2.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Freezing medium 2 can be stored up to 1 month at 4\u00b0C</p><p>&nbsp;</p><p><strong>1.3 Culture medium</strong></p><p>1.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Add 9.3 ml of RPMI 1640 into a falcon tube.</p><p>2.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Add 0.5 ml of human AB serum (HABS)</p><p>3.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Add 0.1 ml of GlutaMax</p><p>4.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Add 0.1 ml of Pen-Strep</p><p>&nbsp;</p><p><strong>2. CELL FREEZING</strong></p><p>1.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Pre-cool cryotubes, freezing container and all reagents to 4\u00b0C,</p><p>2.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Work on ice using cold reagents in the laminar flow hood</p><p>3.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Add 1 ml Freezing Medium 1 to up to 20 x 10<sup>6</sup> pelleted PBMC</p><p>4.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Incubate 20 min on ice</p><p>5.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Slowly add 1 ml cold Freezing Medium 2</p><p>6.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Mix by gently pipetting</p><p>7.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Transfer 1 ml of cell suspension (10 x 10<sup>6</sup> cells/ml) per cryotube</p><p>8.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Place cryotubes in a freezing container and store at -80\u00b0C</p><p>9.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;After 1 day, remove cryotubes from freezing container and store them at -80\u00b0C for up to 6 months</p><p>10.&nbsp;&nbsp;Alternatively, samples can be stored in liquid nitrogen for longer than 6 months</p><p><br></p><p><strong>3. CELL THAWING</strong></p><p>1.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Pre-warm water bath to 37\u00b0C</p><p>2.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Thaw cells quickly by swirling the cryotube in the water bath (&lt;60 seconds)</p><p>3.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Before last ice crystal melts, place cryotube in a cold rack</p><p>4.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Transfer the content of the cryotube into a falcon tube</p><p>5.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Add 10 ml of cold PBS containing 10% human AB serum dropwise</p><p>6.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Count cells</p><p>7.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Centrifuge at 200 g for 10 min</p><p>8.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Aspirate supernatant using vacuum pump</p><p>9.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Resuspend cell pellet in culture medium at up to 10 x 10<sup>6</sup>/ml</p><p>10.&nbsp;&nbsp;&nbsp;Add 150 \u00b5l of cell suspension per well in a 96-well plate</p><p>11.&nbsp;&nbsp;&nbsp;Incubate for 6 hours at 37\u00b0C 5% CO<sub>2</sub> before proceeding with stimulation</p><p><br></p><p><br></p><p><strong>4. IN VITRO RESTIMULATION WITH CMV LYSATE</strong></p><p>1.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Add 5 \u00b5g/ml CMV lysate to each well. </p><p>2.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Add 1\u00b5g/ml \u03b1CD28 and \u03b1CD49d to each well.</p><p>3.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;As a negative control, leave one unstimulated well</p><p>4.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Optionally, add 5\u00b5g/ml \u03b1PD1, \u03b1CTLA-4 or isotype control to the corresponding wells</p><p>5.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Incubate for 18 hours at 37\u00b0C 5% CO<sub>2</sub></p><p>6.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;In the last 4 hours of incubation, add 2 \u00b5l/ml Protein Transport Inhibitor Cocktail to all the wells (0.3 \u00b5l 500X stock per well containing 150 \u00b5l medium)</p><p>7.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;As a positive control, add 10 \u00b5g/ml SEB for 18 hours or alternatively 2 \u00b5l/ml Cell Stimulation Cocktail to one well for the last 4 hours.</p><p><br></p><p><strong>&nbsp;</strong></p><p><strong>5. INTRACELLULAR CYTOKINE STAINING</strong></p><p>1.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Transfer cells from culture wells into a polypropylene V bottom 96 well plate</p><p>2.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Centrifuge at 1400rpm for 3 min </p><p>3.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Resuspend pellet in 20 \u00b5l PBS containing ViaKrome Fixable Viability Dye 808 (32,5\u00b5l dye/ml)</p><p>4.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Incubate for 20 min at RT in the dark</p><p>5.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Wash samples with 180 \u00b5l Cell Staining Buffer (CSB) by centrifugation at 1400 rpm for 3 min </p><p>6.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Aspirate supernatant using vacuum pump</p><p>7.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Add 10 \u00b5l 10% FcR block in CSB and shake at 800 rpm for 60'' in a rotary shake</p><p>8.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Incubate at 4 \u00b0C for 15 min in the dark</p><p>9.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Add 20 \u00b5l surface antibodies mastermix as indicated in Figure 1</p><p>10.&nbsp;  Shake at 800 rpm for 5 min and incubate for further 25 min at 4\u00b0C in the dark</p><p>11.  &nbsp;Wash samples with 170 \u00b5l CSB by centrifugation at 1400 rpm for 3 min </p><p>12.  &nbsp;Aspirate supernatant using vacuum pump </p><p>13.  &nbsp;Add 40 \u00b5l CSB to each well and resuspend cell pellets</p><p>14.&nbsp;  Add 50 \u00b5l IC Fixation Buffer </p><p>15.&nbsp;  Incubate for 30 min at RT in the dark</p><p>16.&nbsp; &nbsp;Wash samples with 110 \u00b5l Perm Buffer by centrifugation at 1400 rpm for 3 min </p><p>17.&nbsp;  Aspirate supernatant using vacuum pump </p><p>18.&nbsp;  Add 40 \u00b5l intracellular antibody mastermix as indicated in Figure 1. </p><p>19.&nbsp;  Shake at 800 rpm for 5 min and incubate for further 25 min at RT in the dark</p><p>20.  &nbsp;Wash samples with 160 \u00b5l Perm Buffer by centrifugation at 1400 rpm for 3 min</p><p>21.&nbsp;  Aspirate supernatant using vacuum pump </p><p>22.  &nbsp;Wash samples with 200 \u00b5l Perm Buffer by centrifugation at 1400 rpm for 3 min</p><p>23.&nbsp;  Aspirate supernatant using vacuum pump </p><p>24.&nbsp;  Resuspend in 150 \u00b5l CSB for analysis by flow cytometry</p><p><br></p><p>&nbsp;</p><p><strong>6. ANALYSIS OF DATA </strong></p><p>Our gating strategy for analysis of IFN-\u03b3-producing T cells is shown in Figure 2. Samples were acquired using a Cytoflex LX cytometer (Beckman Coulter) and analysed with Kaluza analysis software v.2.1</p><p><br></p>"
+        },
+        {
+            "header": "Troubleshooting",
+            "content": ""
+        },
+        {
+            "header": "Time Taken",
+            "content": ""
+        },
+        {
+            "header": "Anticipated Results",
+            "content": ""
+        },
+        {
+            "header": "References",
+            "content": ""
+        },
+        {
+            "header": "Acknowledgements",
+            "content": ""
+        }
+    ],
+    "attributes": {
+        "acceptedTermsAndConditions": true,
+        "allowDirectSubmit": true,
+        "archivedVersions": [],
+        "articleType": "Method Article",
+        "associatedPublications": [
+            {
+                "doi": "10.1038/s41467-021-21572-y",
+                "date": "",
+                "title": "",
+                "authors": "",
+                "journal": "",
+                "logo": ""
+            }
+        ],
+        "authors": [
+            {
+                "id": 5649048,
+                "identity": "277b10e9-b926-42b4-b022-ab17b2e2d18c",
+                "order_by": 1,
+                "name": "Paloma Riquelme",
+                "email": "paloma.riquelme@ukr.de",
+                "orcid": "https://orcid.org/0000-0001-8962-3156",
+                "institution": "Department of Surgery, University Hospital Regensburg, Germany",
+                "correspondingAuthor": true,
+                "prefix": "",
+                "firstName": "Paloma",
+                "middleName": "",
+                "lastName": "Riquelme",
+                "suffix": ""
+            },
+            {
+                "id": 5649049,
+                "identity": "42176d80-3c95-40c1-abd1-10986466d583",
+                "order_by": 2,
+                "name": "James A. Hutchinson",
+                "email": "",
+                "orcid": "https://orcid.org/0000-0002-1199-4210",
+                "institution": "Department of Surgery, University Hospital Regensburg, Germany",
+                "correspondingAuthor": false,
+                "prefix": "",
+                "firstName": "James",
+                "middleName": "A.",
+                "lastName": "Hutchinson",
+                "suffix": ""
+            }
+        ],
+        "badges": [],
+        "createdAt": "2019-10-14 12:20:32",
+        "currentVersionCode": 1,
+        "declarations": "",
+        "doi": "10.21203/rs.3.pex-758/v1",
+        "doiUrl": "https://doi.org/10.21203/rs.3.pex-758/v1",
+        "draftVersion": [],
+        "editorialEvents": [],
+        "editorialNote": "",
+        "failedWorkflow": [],
+        "files": [
+            {
+                "id": 6612090,
+                "identity": "c64d2ee9-20c8-459b-add2-f4cf2e9ddc16",
+                "added_by": "auto",
+                "created_at": "2021-03-04 16:47:16",
+                "extension": "jpg",
+                "order_by": 1,
+                "title": "Figure 1",
+                "display": "",
+                "copyAsset": false,
+                "role": "figure",
+                "size": 3458757,
+                "visible": true,
+                "origin": "",
+                "legend": "Flow cytometry panel for detecting CMV-reactive T cells",
+                "description": "",
+                "filename": "Fig1.CytokinepanelCMV.jpg",
+                "url": "https://assets.researchsquare.com/files/pex-758/v1/2dc73da435ade855591fa798.jpg"
+            },
+            {
+                "id": 6611971,
+                "identity": "7c1e6835-641a-4b62-934d-aff6377fc90e",
+                "added_by": "auto",
+                "created_at": "2021-03-04 16:44:16",
+                "extension": "jpg",
+                "order_by": 2,
+                "title": "Figure 2",
+                "display": "",
+                "copyAsset": false,
+                "role": "figure",
+                "size": 6837959,
+                "visible": true,
+                "origin": "",
+                "legend": "Gating strategy for analysis of IFN-\u03b3-producing T cells",
+                "description": "",
+                "filename": "Fig2.CMVIFNggating.jpg",
+                "url": "https://assets.researchsquare.com/files/pex-758/v1/e095790ba00ff2a719fab824.jpg"
+            },
+            {
+                "id": 13675413,
+                "identity": "dc2adbce-f724-4ff1-927c-24e051292493",
+                "added_by": "auto",
+                "created_at": "2021-09-17 11:26:34",
+                "extension": "pdf",
+                "order_by": 0,
+                "title": "",
+                "display": "",
+                "copyAsset": false,
+                "role": "manuscript-pdf",
+                "size": 389771,
+                "visible": true,
+                "origin": "",
+                "legend": "",
+                "description": "",
+                "filename": "manuscript.pdf",
+                "url": "https://assets.researchsquare.com/files/pex-758/v1/f12b07bf-b928-44a9-80c0-421d0681d698.pdf"
+            }
+        ],
+        "financialInterests": "The authors declare no competing financial interests",
+        "fulltextSource": "",
+        "fullText": "",
+        "funders": [],
+        "hasOptedInToPreprint": true,
+        "hasPassedJournalQc": "",
+        "hideJournal": true,
+        "highlight": "",
+        "institution": "",
+        "isAuthorSuppliedPdf": false,
+        "isDeskRejected": "",
+        "isHiddenFromSearch": false,
+        "isInQc": false,
+        "isInWorkflow": false,
+        "journal": {
+            "display": true,
+            "email": "protocol.exchange@nature.com",
+            "identity": "protocol-exchange",
+            "isNatureJournal": false,
+            "hasQc": false,
+            "allowDirectSubmit": true,
+            "externalIdentity": "",
+            "sideBox": "",
+            "submissionUrl": "https://protocolexchange.researchsquare.com/submission",
+            "title": "Protocol Exchange",
+            "twitterHandle": ""
+        },
+        "keywords": "Flow Cytometry, Cytomegalovirus, CMV, intracellular cytokine staining, IFN-\u03b3, TNF-\u03b1, IL-17, IL-4, CD69",
+        "license": {
+            "name": "CC BY 4.0",
+            "url": "https://creativecommons.org/licenses/by/4.0/"
+        },
+        "manuscriptAbstract": "<p>This document describes protocols used for <em>in vitro</em> restimulation of cryopreserved PBMC with CMV lysates and subsequent detection of CMV-specific CD4<sup>+</sup> and CD8<sup>+</sup> T cells by intracellular staining of cytokines.</p>",
+        "manuscriptTitle": "Standard protocols for detection of human CMV-specific T cells",
+        "msid": "",
+        "msnumber": "",
+        "nonDraftVersions": [
+            {
+                "code": 1,
+                "date": "2021-03-04 16:44:14",
+                "doi": "10.21203/rs.3.pex-758/v1",
+                "editorialEvents": [
+                    {
+                        "type": "communityComments",
+                        "content": 0
+                    }
+                ],
+                "status": "published",
+                "journal": {
+                    "display": true,
+                    "email": "info@researchsquare.com",
+                    "identity": "researchsquare",
+                    "isNatureJournal": false,
+                    "hasQc": true,
+                    "allowDirectSubmit": true,
+                    "externalIdentity": "",
+                    "sideBox": "",
+                    "submissionUrl": "/submission",
+                    "title": "Research Square",
+                    "twitterHandle": "researchsquare"
+                }
+            }
+        ],
+        "origin": "",
+        "ownerIdentity": "a16d1954-516f-11e9-9e20-12b504df345a",
+        "owner": [],
+        "postedDate": "March 4th, 2021",
+        "published": true,
+        "revision": "",
+        "status": "posted",
+        "subjectAreas": [
+            {
+                "id": 1285509,
+                "name": "Biological techniques"
+            },
+            {
+                "id": 1285510,
+                "name": "Immunology"
+            }
+        ],
+        "tags": [],
+        "versionOfRecord": [],
+        "versionCreatedAt": "2021-03-04 16:44:14",
+        "video": "",
+        "vorDoi": "",
+        "vorDoiUrl": "",
+        "workflowStages": []
+    }
+}

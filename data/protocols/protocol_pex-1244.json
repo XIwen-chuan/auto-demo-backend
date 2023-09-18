@@ -1,0 +1,239 @@
+{
+    "identity": "pex-1244",
+    "title": "<p>Chromosome Conformation Capture with Nuclear Titrated Capture-C (NuTi Capture-C)</p>",
+    "content": [
+        {
+            "header": "Introduction",
+            "content": ""
+        },
+        {
+            "header": "Reagents",
+            "content": "<p><strong>3C library preparation.</strong></p><p>37% formaldehyde (Sigma: 47608-250ML)</p><p>1 M Glycine (Sigma: G1726)</p><p>PBS (Invitrogen: 10010031)</p><p>PCR Grade Water (Ambion: AM9932)</p><p>Tris, pH 8 (Invitrogen: AM9855G)</p><p>NaCl (Invitrogen: AM9760G)</p><p>0.2% Igepal CA-630 (Sigma: I8896)</p><p>1 tab cOmplete Protease Inhibitor Cocktail (Sigma: 11873580001)</p><p>20% SDS (Invitrogen: AM9820)</p><p>Triton-X 100, 20% v/v solution in water (Sigma: T8787)</p><p><em>Dpn</em>II HC (NEB: R0543M)</p><p>T4 DNA HC Ligase (Life Tech: EL0013)</p><p>Tris-EDTA (TE) Buffer Solution (Sigma: 93302)</p><p>Proteinase K (Thermo Fisher: EO0491)</p><p>RNAse (Roche: 1119915)</p><p>Absolute Ethanol (VWR: 20821.330)</p><p>Phenol-Chloroform-Isoamylalcohol (PCI), 25:24:1 (Sigma: 77617)</p><p>Light PhaseLock Gel Tubes (5Prime: 733-2477)</p><p>3 M NaOAc, pH 5.6 (Invitrogen: AM9740)</p><p>GlycoBlue (Thermo Fisher: AM9515)</p><p>Qubit dsDNA BR Assay kit (Invitrogen: Q32850)</p><p>KAPA Sybr Fast Universal (KAPA: KK4602)</p><p>qPCR primers (See Figure 1)</p><p><br></p><p><strong>3C library Indexing</strong></p><p>6 \u00b5g 3C library</p><p>PCR Grade Water (Ambion: AM9932)</p><p>Covaris microTUBE AFA Fiber pre-split snap-cap 6x16mm (Covaris: 520045)</p><p>Agencourt Ampure XP SPRI Beads (Beckman Coulter: A63881)</p><p>Absolute Ethanol (Make fresh 80% v/v solution in water) (VWR: 20821.330)</p><p>D1000 Reagents (Agilent: 50675583)</p><p>D1000 Loading Tips (Agilent: 50675153)</p><p>D1000 ScreenTape (Agilent: 50675582)</p><p>NEBNext Ultra II (New England: 7645S/L)</p><p>NEBNext Multiplex Oligos for Illumina Primer set 1 (New England: E7335S/L)</p><p>NEBNext Multiplex Oligos for Illumina Primer set 2 (New England: E7500S/L)</p><p>Herculase II Fusion Polymerase kit (Agilent: 600677)</p><p>Qubit dsDNA BR Assay kit (Invitrogen: Q32850)</p><p><br></p><p><strong>Biotinylated Oligonucleotide Capture</strong></p><p>1.5-2 \u00b5g indexed 3C library</p><p>Biotinylated Oligonucleotides (design using <a href=\"http://apps.molbiol.ox.ac.uk/CaptureC/cgi-bin/CapSequm.cgi\" rel=\"noopener noreferrer\" target=\"_blank\">Capsqeum2</a>)</p><p>1 \u00b5g/\u00b5l Mouse COT DNA (Invitrogen: 18440016)</p><p>Nimblegen SeqCap EZ HE-oligo kit A (Roche: 06777287001)</p><p>Nimblegen SeqCap EZ HE-oligo kit B (Roche: 06777317001)</p><p>Nimblegen SeqCap EZ Accessory kit v2 (Roche: 07145594001)</p><p>Nimblegen SeqCap EZ Hybridisation and wash kit (Roche: 05634261001)</p><p>PCR Grade Water (Ambion: AM9932)</p><p>M-270 Streptavidin Dynabeads (Invitrogen: 65305)</p><p>Agencourt Ampure XP SPRI Beads (Beckman Coulter: A63881)</p><p>Qubit dsDNA HS Assay Kit (Invitrogen: Q32851)</p><p>High Sensitivity D1000 Reagents (Agilent: 5067 5585)</p><p>High Sensitivity D1000 ScreenTape (Agilent: 5067-5584)</p><p>D1000 Loading Tips (Agilent: 50675153)</p><p>D1000 Reagents (Agilent: 50675583)</p><p>D1000 ScreenTape (Agilent: 50675582)</p><p>KAPA Library Quantification Complete Kit, Universal (KAPA: KK4824)</p><p><br></p><p><strong>Fresh Lysis buffer</strong> \u2013 for 10 samples:</p><p>Make ahead of time and put it on roller in cold room to dissolve and cool</p><p>&nbsp;500 \u00b5l 1 M Tris pH 8 (10 mM)</p><p>100 \u00b5l 5 M NaCl (10 mM)</p><p>1 ml 10% Igepal CA-630 (0.2%)</p><p>1 tab cOmplete Protease Inhibitor Cocktail</p><p>48.4 ml PCR Grade Water</p>"
+        },
+        {
+            "header": "Equipment",
+            "content": "<p>Eppendorf Thermomixer C (Eppendorf: 5382000031)</p><p>Nanodrop One, or equivalent (ThermoFischer: ND-ONE-W)</p><p>Qubit 4 Fluorometer, or equivalent (ThermoFisher: Q33238)</p><p>qPCR Thermocycler</p><p>M220 Focused Ultrasonicator, or equivalent (Covaris: 500295)</p><p>DynaMag-2 (Invitrogen: 13221D)</p><p>Agilent 4200 TapeStation, or equivalent (Agilent: G2991AA)</p><p>PCR Thermocycler</p><p>Speedy Vac vacuum centrifuge, or equivalent</p><p>NEBNext Magnetic Isolation Rack, or equivalent (NEB: S1515S)</p>"
+        },
+        {
+            "header": "Procedure",
+            "content": "<p><strong>3C Library Generation</strong></p><p><em>Formaldehyde fixation (2 hours)</em></p><p>1. Pre-cool large centrifuge to 4\u00b0C. Chill glycine, PBS, and lysis buffer.</p><p>2. Collect cells from tissue or culture and make single-cell suspensions of cells of 5 x 10<sup>6</sup> cells in 5 mL of growth media. (Can scale up, keep cell concentration consistent).</p><p>3. Add 270 \u00b5L 37% formaldehyde and incubate for 10 min at RT tumbling (2% final conc.).</p><p>4. Quench by adding 750 \u00b5L 1M cold glycine (1/8 of the final volume. 125 mM final conc.).</p><p>5. Centrifuge for 10 min at 500 rcf (4\u00b0C).</p><p>6. Wash pellet by gently re-suspending in 5 mL cold PBS.</p><p>7. Centrifuge for 10 min at 500 rcf (4\u00b0C), gently remove supernatant without disturbing pellet.</p><p>8. Re-suspend pellet in 5 mL ice-cold lysis buffer (make fresh).</p><p>9. Incubate for 20 min on ice.</p><p>10. Centrifuge for 10 min at 500 rcf (4\u00b0C), gently remove supernatant without disturbing pellet.</p><p>11. Wash pellet by gently re-suspending in 5 mL cold PBS.</p><p>12. Centrifuge for 10 min at 500 rcf (4\u00b0C), gently remove supernatant without disturbing pellet.</p><p>13. Re-suspend pellet in 1 mL PBS and transfer to 1.7 mL microtube.</p><p>14. Snap freeze (ethanol and dry ice OR liquid nitrogen).</p><p>&nbsp;</p><p><em>** SAFE STOPPING POINT \u2013 Store fixed cells at -80\u00baC **</em></p><p><strong>&nbsp;</strong></p><p><em>DpnII Restriction enzyme digest (1 day)</em></p><p>1. Pre-warm Eppendorf ThermoMixer to 37\u00b0C.</p><p>2. Defrost fixed cells on ice.</p><p>3. Centrifuge for 15 min at 500 rcf (4\u00b0C), gently remove supernatant without disturbing pellet.</p><p>4. Re-suspend pellet in 215 \u00b5L 1x <em>Dpn</em>II buffer.</p><p>5. Transfer 15 \u00b5L to a new tube for the undigested control (Control 1).</p><p>6. To the remaining 200 \u00b5L of sample add (in order), 437 \u00b5L of water, 60 \u00b5L of 10x Restriction buffer, and 10 \u00b5L of 20% SDS (0.28% final conc.).</p><p>6. To the remaining 200 \u00b5L of sample add (in order), 437 \u00b5L of water, 60 \u00b5L of 10x Restriction buffer, and 10 \u00b5L of 20% SDS (0.28% final conc.).</p><p>7. To Control 1 add, 227.5 \u00b5L of water, 28.5 \u00b5L of 10c Restriction buffer, and 4 \u00b5L of 20% SDS.</p><p>8. Shake horizontally at 500 rpm (intermittent: 30s on / 30s off) for 1 hr at 37\u00b0C using Eppendorf ThermoMixer to permeabilize the nuceli.</p><p>9. Neutralise the SDS by adding 66\u00b5L of 20% Triton X 100 to the 3C digestion and 25 \u00b5L to Control 1 (1.67% final conc.).</p><p>10. Shake horizontally for 1 hr at 37\u00b0C, 500 rpm (intermittent: 30s on / 30s off).</p><p>11. Add 10 \u00b5L <em>Dpn</em>II restriction enzyme (500U) to the digestion sample.</p><p>12. Shake horizontally for 2-3 hrs at 37\u00b0C, 500 rpm (intermittent: 30s on / 30s off).</p><p>13. Add a further 10 \u00b5L <em>Dpn</em>II (500 U) and incubate overnight at 37\u00baC.</p><p>14. The following morning add a final 10 \u00b5L of <em>Dpn</em>II and incubate for another 5-6 hours.</p><p><br></p><p><em>Ligation &amp; de-crosslinking (2 days)</em></p><p>1. Take 100 \u00b5L from the digestion reaction to make Control 2 (Digested, un-ligated control)</p><p>2. Add 200 \u00b5L PCR grade water to Control 2.</p><p>3. Store both Control 1 and Control 2 at -20\u00baC until required.</p><p>4. Place the digests on the 65\u00b0C block for 15 min to heat inactivate <em>Dpn</em>II.</p><p>5. Immediately cool digests on ice.</p><p>6. Cool the Eppendorf ThermoMixer to 16\u00b0C.</p><p>7. Add 500 \u00b5L water and 134 \u00b5L 10x Ligation buffer to the digest.</p><p>8. Add 8 \u00b5L T4 Ligase (240 U).</p><p>9. Incubate at 16\u00baC for ~22 hrs while shaking, 500 rpm (intermittent: 30s on / 30s off).</p><p>10. Pellet nuclei by centrifucation at 500 rcf for 15 min (room temp).</p><p>11. Gently remove all of the supernatant without disturbing nuclear pellet, and transfer to a new tube.</p><p>12. Store the retained supernatant as a safe guard in case pellet was difficult to visualise and was disturbed.</p><p>13. Resuspend nuclear pellet in 300 \u00b5L of TE buffer.</p><p>14. Add 5 \u00b5l Proteinase K (3 U).</p><p>15. Remove Control 1 and Control 2 from freezer.</p><p>16. Add 3 \u00b5L of Proteinase K (1.8 U) to each control.</p><p>17. Incubate 3C library, Control 1, and Control 2 at 65\u00baC overnight.</p><p><em>&nbsp;</em></p><p><em>DNA Extraction (4 hours)</em></p><p>1. Cool samples to 37\u00b0C</p><p>2. Add 5 \u00b5L RNAse (7.5 mU) to each tube.</p><p>3. Incubate 30 min at 37\u00b0C on a thermomixer (500 rpm, intermittent: 30s on / 30s off).</p><p>4. Prepare PhaseLock tubes by spinning at 5,000 rcf for 2 min.</p><p>5. Add 310 \u00b5L phenol-chloroform isoamylalcohol (PCI) to each sample.</p><p>6. Vortex thoroughly to mix.</p><p>7. Transfer each sample to a PhaseLock tube and centrifuge for 10 min at 12,600 rcf (room temp).</p><p>8.&nbsp;Transfer the upper layer to a new microcentrifuge tube, avoiding the viscous interface.</p><p>9. Add 30 \u00b5L of 3M sodium acetate (NaOAc) and 1 \u00b5L of glycoblue.</p><p>10. Mix by inversion.</p><p>11. Add 900 \u00b5L of 100% ethanol and mix thoroughly by inversion (75% final conc.).</p><p>12. Incubate at -20\u00baC for at least 2 hrs.</p><p>&nbsp;</p><p><em>** SAFE STOPPING POINT \u2013 Store precipitation reaction at -20\u00baC for several days **</em></p><p>&nbsp;</p><p>13. Precool centrifuge to 4\u00b0C, chill 70% ethanol.</p><p>14. Pellet DNA by centrifugation at 21,000 rcf for 30 min (4\u00baC).</p><p>15. Discard supernatant and wash pellet in 1 mL 70% cold ethanol.</p><p>16. Centrifuge for 2 min at 21,000 rcf (4\u00baC).</p><p>17. Remove ethanol and repeat ethanol wash for a total of two washes.</p><p>18. Spin in benchtop microcentrifuge and remove residual ethanol with a low volume pipette.</p><p>19. Air dry at room temperature (~20 min).</p><p>20. Re-suspend DNA pellet in PCR grade water at 4\u00baC overnight (Controls, 30 \u00b5L. 3C library: 137 \u00b5L).</p><p><br></p><p><em>Library quality control (4 hours)</em></p><p>1. Make a 1% agarose gel using TAE.</p><p>2. Run agarose gel using 10 \u00b5L of each control and 5 \u00b5L of 3C library.</p><p>3. Perform quantitative real-time PCR on control 1 and control 2 to determine digestion efficiency.</p><p>4. Determine 3C library DNA concentration using 2 \u00b5L in a Qubit BR assay.</p><p>&nbsp;</p><p><em>** SAFE STOPPING POINT \u2013 Store 3C library at -20\u00baC **</em></p><p><br></p><p><strong>3C library indexing</strong></p><p><em>Sonication (1 hour)</em></p><p>** Sonication conditions should be determined for each machine with high molecular weight genomic DNA **</p><p><br></p><p>1. Transfer 130 \u00b5L of 3C library to a Covaris microTUBE.</p><p>2. Shear DNA to 200 bp. Covaris M220 settings:</p><p><br></p><p><em>-&nbsp;Duration:</em> 130 sec.</p><p><em>- Peak power:</em> 70.0</p><p><em>- Duty factor: </em>20%</p><p><em>- Cycles/burst: </em>1000</p><p><br></p><p>3. Transfer sonicated DNA to a new microcentrifuge tube containing 230 \u00b5L of Ampure XP SPRI beads.</p><p>4. Mix by pipetting up and down 10 times, allow to bind at room temp for 5 min.</p><p>5. Place on magnetic stand, discard liquid when clear (~5 min).</p><p>6. Add 700 \u03bcL of fresh 80% ethanol without removing from magnetic stand. Avoid disturbing beads by running the ethanol down the front of tube.</p><p>7. Allow to sit on the magnetic stand for 30 seconds then remove ethanol.</p><p>8. Repeat ethanol wash with a further 700 \u00b5L of ethanol.</p><p>9. Remove ethanol, spin tube on a microfuge and replace on magnetic stand.</p><p>10. Remove residual ethanol with a P10 pipette, taking care not to remove any beads.</p><p>11. Air Dry at room temperature on magnetic stand until matt in appearance \u2013 take care not to over dry the beads as this will result in increased DNA losses. Cracks will appear when beads have overdried.</p><p>12. Remove from magnetic stand and re-suspend beads in 55 \u03bcL PCR Grade water.</p><p>13. Incubate at room temperature for 2 min to elute.</p><p>14. Place on magnetic stand and allow beads to clear (~5 min).</p><p>15. Recover 53 \u00b5L of DNA to a new tube.</p><p>16. Assess sonication efficiency using 1 \u00b5L of DNA and a D1000 TapeStation.</p><p>17. Quantify recovered material with a BR Qubit (use 2 \u00b5l).</p><p>18. Dilute sonicated DNA to a have a maximum concentration of 40 ng/\u00b5L.</p><p>&nbsp;</p><p><em>** SAFE STOPPING POINT \u2013 Store Sonicated DNA at -20\u00baC **</em></p><p><strong>&nbsp;</strong></p><p><em>Addition of Sequencing Adaptors (3 hours)</em></p><p>** Modified protocol for the NEBNext Ultra II indexing kit **</p><p><br></p><p>1. Combine 50 \u00b5L of sonicated DNA (\u22642 \u00b5g), 7 \u00b5L 10x End Prep Buffer (Green) and 3 \u00b5L End Prep Enzyme (Green) in a PCR tube.</p><p>2. Mix by pipetting.</p><p>3. Using a thermocycler incubate at 20\u00baC (45 min) and then 65\u00baC (30 min) with the lid set to 75\u00baC.</p><p>4. Add 30 \u00b5L Ultra II Ligation Master Mix (Red), 7 \u00b5L NEBNext Adaptor (Red), 1 \u00b5L Ligation Enhancer (Red). 5. Mix by pipetting.</p><p>6. Incubate in a thermocycler for 30 min at 20\u00b0C (lid off).</p><p>7. Add 3 \u00b5L of USER<sup>TM</sup> Enzyme (Red).</p><p>8. Mix by pipetting.</p><p>9. Incubate in a thermocycle for 30 min at 37\u00b0C (lid: 47\u00b0C).</p><p>10. Transfer to a microcentrifuge tube containing 180 \u00b5L of AmpureXP Beads (1.8x).</p><p>11. Mix by pipetting up and down 10 times, allow to bind at room temp for 5 min.</p><p>12. Place on magnetic stand, discard liquid when clear (~5 min).</p><p>13. Add 700 \u03bcL of fresh 80% ethanol without removing from magnetic stand. Avoid disturbing beads by running the ethanol down the front of tube.</p><p>14. Allow to sit on the magnetic stand for 30 seconds then remove ethanol.</p><p>15. Repeat ethanol wash with a further 700 \u00b5L of ethanol.</p><p>16. Remove ethanol, spin tube on a microfuge and replace on magnetic stand.</p><p>17. Remove residual ethanol with a P10 pipette, taking care not to remove any beads.</p><p>18. Air Dry at room temperature on magnetic stand until matt in appearance \u2013 take care not to over dry the beads as this will result in increased DNA losses. Cracks will appear when beads have overdried.</p><p>19. Remove from magnetic stand and re-suspend beads in 60 \u03bcL PCR Grade water.</p><p>20. Incubate at room temperature for 2 min to elute.</p><p>21. Place on magnetic stand and allow beads to clear (~5 min).</p><p>22. Adaptor ligation can be assesed using 1 \u00b5L of DNA and a D1000 TapeStation.</p><p>23. Recover DNA by transferring 28.5 \u00b5L to each of two new PCR tubes.</p><p><br></p><p><em>PCR addition of indices (2 hours)</em></p><p>** Generally two identical reactions with the same index are performed for each sample, however using a different index in each reaction can increase library complexity or allow different capture reactions to be performed and then multiplexed for sequencing **</p><p><br></p><p>1. To each PCR tube containing 28.5 \u00b5L of adaptor ligated library add: 5 \u00b5L of NEB Universal Primer, 5 \u00b5L NEB Index Primer, 10 \u00b5L 5x Herculase II buffer, 0.5 \u00b5L dNTP, and 1 \u00b5L of Herculase DNA polymerase. Mix by pitpetting.</p><p>2. Amplify DNA using the following conditions (Lid: 108\u00baC):</p><p><br></p><p><em>- Step 1: </em>98\u00b0C (30 sec)</p><p><em>- Step 2: </em>98\u00b0C (10 sec)</p><p><em>- Step 3:</em><strong> </strong>65\u00b0C (30 sec)</p><p><em>- Step 4: </em>72\u00b0C (30 sec)</p><p><em>- Step 5: </em>Go to Step 2 for 6 total cycles</p><p><em>- Step 6: </em>72\u00b0C (5 min)&nbsp;&nbsp;</p><p><em>- Step 7: </em>4\u00b0C (Hold)</p><p>&nbsp;</p><p>3. Combine identical reaction in a microcentrifuge tube containing 180 \u00b5L of AmpureXP Beads (1.8x).</p><p>4. Mix by pipetting up and down 10 times, allow to bind at room temp for 5 min.</p><p>5. Place on magnetic stand, discard liquid when clear (~5 min).</p><p>6. Add 700 \u03bcL of fresh 80% ethanol without removing from magnetic stand. Avoid disturbing beads by running the ethanol down the front of tube.</p><p>7. Allow to sit on the magnetic stand for 30 seconds then remove ethanol.</p><p>8. Repeat ethanol wash with a further 700 \u00b5L of ethanol.</p><p>9. Remove ethanol, spin tube on a microfuge and replace on magnetic stand.</p><p>10. Remove residual ethanol with a P10 pipette, taking care not to remove any beads.</p><p>11. Air Dry at room temperature on magnetic stand until matt in appearance \u2013 take care not to over dry the beads as this will result in increased DNA losses. Cracks will appear when beads have overdried.</p><p>12. Remove from magnetic stand and re-suspend beads in 55 \u03bcL PCR Grade water.</p><p>13. Incubate at room temperature for 2 min to elute.</p><p>14. Place on magnetic stand and allow beads to clear (~5 min).</p><p>15. Recover DNA by transferring 53 \u00b5L to a new microcentrifuge tube.</p><p>16. Assess indexing sucess using 1 \u00b5L of DNA and a D1000 TapeStation.</p><p>17. Quantify Indexed 3C DNA using 2 \u00b5L in a Qubit BR reaction.</p><p><br></p><p><em>** SAFE STOPPING POINT \u2013 Store Indexed 3C Library at -20\u00baC **</em></p><p>&nbsp;<strong> </strong></p><p><strong>Biotinylated Oligonucleotide Capture 1</strong></p><p>** Biotinylated target enrichment is performed using custom oligonucleotide pools with Nimblegen SeqCap reagents.**</p><p><br></p><p><em>Oligonucelotide Preparation (1 hour)</em></p><p>1. Reconstitute individual or pools of oligonucleotides to a stock concentration so that each unique oligonucleotide is stored at \u22651 \u00b5M.</p><p>2. Generate pools of oligonucleotides by mixing in exact 1:1 stoichiometric ratio.</p><p>3. Make working solution of oligonucleotides by diluting pools so that<em> each unique oligonucleotide</em> is at 2.9 nM, a total of 34 \u00b5L is required for both captures when performing a standard 3 v 3 experiment with six libraries.</p><p><em>** e.g. The desired concentration for a pool of 12 oligonucleotides is 34.8 nM (12 x 2.9 nM).**</em></p><p>4. Re-suspend Nimblegen oligonucleotides according to the Nimblegen protocol.</p><p>- Add 120 \u00b5L PCR grade water to the HE Univeral Oligo tube (1 mM) and vortex.</p><p>- Add 10 \u00b5L PCR grade water to the HE Index Oligo tube (1 mM) and vortex.</p><p>- Add 480 \u00b5L PCR Grade water to the Post-LM-PCR Oligos.</p><p>&nbsp;</p><p><em>Hybridisation Reaction (4 days)</em></p><p>** The following instructions are for six multiplexed libraries in a standard 3 v 3 experiment, adjust volumes accordingly to suit experiment complexity. Experiments with more than six libraries should be split over multiple tubes after Step 3 **</p><p><br></p><p>1. Heat vacuum centrifuge to 55\u00b0C</p><p>2.&nbsp;Combine 1-2 \u00b5g of six differentially indexed samples at exactly 1:1 ratios by mass in a PCR tube.</p><p>3.&nbsp;Add 30 \u00b5L COT DNA (5 \u00b5L per library), 6 \u00b5L of TS-HE Universal oligo (1 \u00b5L per library) and 1 \u00b5L of each index specific TS-HE index oligo.</p><p>4. Vacuum centrifuge at 55\u00baC with tube lids open until sample is completely dry.</p><p>5. Preheat two thermocyclers, one to 95\u00baC (lid: 105\u00baC) and one to 47\u00baC (lid: 47\u00baC).</p><p>6. Add 45 \u03bcL 2x Hybridisation Buffer (vial 5, 7.5 \u00b5L per library) and 18 \u00b5L of (Hybridisation Component A (vial 3 \u00b5L per library).</p><p>7. Spin down to bottom in minifuge.</p><p>8. Preheat 29 \u00b5L of pooled biotinylated oligonucleotides probes in a PCR tube on the 47\u00baC thermocycler (4.5 \u00b5L per library, plus 2 \u00b5L residual).</p><p>9. Denature the multiplexed 3C library mix by heating to 95\u00b0C for 10 min.</p><p>10. Trasnfer the tube containing denature DNA to the 47\u00baC thermocyler.</p><p>11. Add 27 \u00b5L of pre-warmed oligonucleotide probes to denatured DNA, mix by pipetting but take care as the mixture will be gloopy.</p><p>12. Label PCR machine to prevent it being inadvertently turned off.</p><p>13. Incubate at 47\u00b0C for between 22 and 72 hours. (72 hours allows incubations to occur over weekends)</p><p><br></p><p><em>Wash Buffer and Bead Preparation (1 hour)</em></p><p>1. Preheat Thermomixer to 47\u00baC, place Streptavadin beads on bench to come to room temp.</p><p>2. Prepare wash buffers:</p><p><br></p><p><em>- Stringent Wash buffer (400 \u00b5L per library): </em>two tubes, each with 122 \u00b5L 10x buffer and 1,098 \u00b5L of water.</p><p><em>- Wash buffer I (300 \u00b5L per library): </em>two tubes, each with 94 \u00b5L of 10x buffer and 846 \u00b5L of water.</p><p><em>- Wash buffer II (200 \u00b5L per library): </em>one tube with 124 \u00b5L of 10x buffer and 1,116 \u00b5L of water.</p><p>- Wash buffe<em>r III (200 \u00b5L per library)</em>: one tube with 124 \u00b5L of 10x buffer and 1,116 \u00b5L of water.</p><p><em>- Bead Wash buffer (500 \u00b5L per library): </em>two tubes, each with 610 \u00b5L 2.5x buffer and 915 \u00b5L of water.</p><p><br></p><p>3. Transfer 620 \u00b5L of Wash buffer I to a new tube and place in the 47\u00baC thermomixer.</p><p>4. Place both tubes of Stringent Wash buffer in the 47\u00baC thermomixer.</p><p>5. Add 600 \u00b5L of streptavadin beads (100 \u00b5L per library) into a low bind tube.</p><p>6. Place on magnetic stand, remove liquid once clear (~30 sec).</p><p>7. Add 1,200 \u03bcL of 1x Bead Wash buffer (double the original volume of beads).</p><p>8. Vortex to re-suspend the beads, spin briefly and replace on magnet.</p><p>9. Remove liquid once clear (30 seconds).</p><p>10. Add 1,200 \u03bcL of 1x Bead Wash buffer to perform a second wash.</p><p>12. Vortex to re-suspend the beads, spin briefly and replace on magnet.</p><p>13. Remove liquid once clear (30 seconds).</p><p>14. Resuspend beads in 600 \u00b5L of 1x Bead Wash buffer (original volume of beads).</p><p>15. Vortex to re-suspend the beads, spin briefly and replace on magnet.</p><p>&nbsp;</p><p><em>Binding of Biotinylated Oligonucleotides (2 hours)</em></p><p>1. Briefly spin the hybridisation reaction to ensure it is at the bottom of the tube, replace at 47\u00baC.</p><p>2. Remove the Bead Wash buffer from streptavadin beads.</p><p>3. Transfer the 90 \u00b5L hybridisation reaction to the streptavidin beads, mix thoroughly by pipetting 10 times.</p><p>4. Place on ThermoMixer at 47\u00b0C (600 rpm) for 45 min, if beads settle out then pipette to resuspend.</p><p>5. Add 600 \u03bcL of 47\u00baC 1x Wash buffer I (100 \u00b5L per library) to the bead mixture.</p><p>6. Mix by vortexing for 10 sec, briefly spin to collect at bottom of the tube.</p><p>7. Place in magnetic stand and discard all the liquid when clear (~30 sec).</p><p>8. Add 1,200 \u03bcL of heated Stringent Wash buffer (200 \u00b5L per library) and mix by vortexing.</p><p>9. Incubate on ThermoMixer for 5 mins at 47\u00b0C, 600 rpm.</p><p>10. Briefly spin to collect at bottom of the tube.</p><p>11. Place in magnetic stand and discard all the liquid when clear (~30 sec)</p><p>12. Add another 1,200 \u03bcL of heated Stringent Wash buffer (200 \u00b5L per library) and mix by vortexing.</p><p>13. Incubate on ThermoMixer for 5 mins at 47\u00b0C, 600 rpm.</p><p>14. Briefly spin to collect at bottom of the tube.</p><p>15. Place in magnetic stand and discard all the liquid when clear (~30 sec).</p><p>16. Remove from the stand and add 1,200 \u00b5L of room temp 1x Wash buffer I (200 \u00b5L per library).</p><p>17. Mix by vortexing for 2 min.</p><p>18. Briefly spin to collect at bottom of the tube.</p><p>19. Place in magnetic stand and discard all the liquid when clear (~30 sec).</p><p>20. Remove from the stand and add 1,200 \u00b5L of 1x Wash buffer II (200 \u00b5L per library).</p><p>21. Mix by vortexing for 1 min.</p><p>22. Briefly spin to collect at bottom of the tube.</p><p>23. Place in magnetic stand and discard all the liquid when clear (~30 sec).</p><p>24. Remove from the stand and add 1,200 \u00b5L of 1x Wash buffer III (200 \u00b5L per library).</p><p>25. Mix by vortexing for 30 sec.</p><p>26. Briefly spin to collect at bottom of the tube.</p><p>27. Place in magnetic stand and discard all the liquid when clear (~30 sec).</p><p>28. Remove from the stand and add 240 \u00b5L of PCR grade water (40 \u00b5L per library).</p><p><br></p><p><em>** SAFE STOPPING POINT \u2013 Store bead bound DNA at -20\u00baC **</em></p><p>&nbsp;</p><p><em>Amplification of Captured DNA (2 hours)</em></p><p>1. To the 240 \u00b5L of bead bound DNA add, 300 \u00b5L KAPA HiFI HotStart ready Mix (50 \u00b5L per library) and 60 \u00b5L of POST-LM_PCR Oligo 1&amp;2 (10 \u00b5L per library).</p><p>2. Mix by pipetting and separate across 12 PCR tubes (50 \u00b5L each, two tubes per library)</p><p>3. Amplify DNA using the following conditions (Lid: 108\u00baC):</p><p><br></p><p><em>- Step 1: </em>98\u00b0C (45 sec)</p><p><em>- Step 2: </em>98\u00b0C (15 sec)</p><p><em>- Step 3:</em><strong> </strong>60\u00b0C (30 sec)</p><p><em>- Step 4: </em>72\u00b0C (30 sec)</p><p><em>- Step 5: </em>Go to Step 2 for 10 total cycles</p><p><em>- Step 6: </em>72\u00b0C (60 sec)&nbsp;&nbsp;</p><p><em>- Step 7: </em>4\u00b0C (Hold)</p><p>&nbsp;</p><p>4. Transfer PCR tubes to a magnetic rack and allow solution to clear (~30 sec).</p><p>5. Combine amplification reactions into a single microcentrifuge tube 1,080 \u00b5L of AmpureXP Beads (180 \u00b5L per library).</p><p>6. Mix by pipetting up and down 10 times, allow to bind at room temp for 5 min.</p><p>7. Place on magnetic stand, discard liquid when clear (~5 min).</p><p>8. Add 1,200 \u03bcL of fresh 80% ethanol without removing from magnetic stand. Avoid disturbing beads by running the ethanol down the front of tube.</p><p>9. Allow to sit on the magnetic stand for 30 seconds then remove ethanol.</p><p>10. Repeat ethanol wash with a further 1,200 \u00b5L of ethanol.</p><p>11. Remove ethanol, spin tube on a microfuge and replace on magnetic stand.</p><p>12. Remove residual ethanol with a P10 pipette, taking care not to remove any beads.</p><p>13. Air dry at room temperature on magnetic stand until matt in appearance \u2013 take care not to over dry the beads as this will result in increased DNA losses. Cracks will appear when beads have overdried.</p><p>14. Remove from magnetic stand and re-suspend beads in 105 \u03bcL PCR Grade water.</p><p>15. Incubate at room temperature for 2 min to elute.</p><p>16. Place on magnetic stand and allow beads to clear (~5 min).</p><p>17. Recover DNA by transferring 103 \u00b5L to a new microcentrifuge tube.</p><p>18. Assess DNA size using 1 \u00b5L in a D1000 TapeStation with High Sensitivity reagents.</p><p>19. Quantify Captured 3C DNA using 2 \u00b5L in a Qubit HS reaction.</p><p><br></p><p><em>** SAFE STOPPING POINT \u2013 Store Amplified Captured DNA at -20\u00baC **</em></p><p><br></p><p><strong>Biotinylated Oligonucleotide Capture 2 (Double Capture)</strong></p><p>** The total DNA recovered is likely &lt;2 \u00b5g and is therefore treated as a single library for double capture. If over 2 \u00b5g of DNA is recovered treat as two libraries. **</p><p><br></p><p>1.&nbsp;&nbsp;&nbsp;Using total amplified DNA from Capture 1, perform the steps described above for <em>Hybridisation Reaction</em>, <em>Wash Buffer and Bead Preparation</em>, <em>Binding of Biotinylated Oligonucleotides </em>and <em>Amplification of Captured DNA</em> as described but treating the reaction as a single library (volumes provided) with the following modifications:</p><p><br></p><p><em>Hybridisation Reaction:</em></p><p>- Use 0.16 \u00b5L of each TS-HE Index oligo (Step 4)</p><p>- Preheat 7 \u00b5L of oligonucleotide pool (Step 8)</p><p>- Incubate at 47\u00baC for between 18 and 22 hours (Step 13)</p><p><br></p><p><em>Amplification of Captured DNA:</em></p><p>- Elute in 55 \u00b5L of PCR grade water (Step 14)</p><p><em>- </em>Recvoer 53 \u00b5L of DNA (Step 17)</p><p>- Assess DNA size 1 \u00b5L in a D1000 TapeStation with standard reagents. (Step 18)</p><p>- Quantify Captured 3C DNA using 2 \u00b5L in a Qubit BR reaction (Step 19).</p><p><br></p><p><em>** SAFE STOPPING POINT \u2013 Store Amplified Double Captured DNA at -20\u00baC **</em></p><p>&nbsp;</p><p><strong>Library sequencing.&nbsp;</strong></p><p>1. Using Qubit determined concentration dilute 20 \u00b5L of Double Captured DNA to 10 nM.</p><p>2. Use KAPA Library Quantification Kit with 1:10,000 and 1:20,000 dilutions to determine concentration with size correction.</p><p>3. Using the KAPA determined concentration dilute Double Captured DNA to 4 nM (or Sequence Facility specified concentration).</p><p>4. Sequence using paired-end reads. Gold standard sequencing uses 150 bp reads which enable reconstruction of entire indexed fragments and identification of restriction sites. However, 75 bp paired reads are sufficient for analysis and can be considerably cheaper.</p>"
+        },
+        {
+            "header": "Troubleshooting",
+            "content": ""
+        },
+        {
+            "header": "Time Taken",
+            "content": ""
+        },
+        {
+            "header": "Anticipated Results",
+            "content": ""
+        },
+        {
+            "header": "References",
+            "content": "<p>Davies J.O. et al. Multiplexed analysis of chromosome conformation at vastly improved sensitivity. <em>Nat Methods</em>. 13(1):74-80. doi:10.1038/nmeth.3664 (2016)</p>"
+        }
+    ],
+    "attributes": {
+        "acceptedTermsAndConditions": true,
+        "allowDirectSubmit": true,
+        "archivedVersions": [],
+        "articleType": "Method Article",
+        "associatedPublications": [
+            {
+                "doi": "10.1038/s41467-020-20809-6",
+                "date": "2021-01-22 11:40:00",
+                "title": "High-resolution targeted 3C interrogation of cis-regulatory element organization at genome-wide scale",
+                "authors": [
+                    "Damien J. Downes",
+                    "Robert A. Beagrie",
+                    "Matthew E. Gosden",
+                    "Jelena Telenius",
+                    "Stephanie J. Carpenter",
+                    "Lea Nussbaum",
+                    "Sara De Ornellas",
+                    "Martin Sergeant",
+                    "Chris Q. Eijsbouts",
+                    "Ron Schwessinger",
+                    "Jon Kerry",
+                    "Nigel Roberts",
+                    "Arun Shivalingam",
+                    "Afaf El-Sagheer",
+                    "A. Marieke Oudelaar",
+                    "Tom Brown",
+                    "Veronica J. Buckle",
+                    "James O. J. Davies",
+                    "Jim R. Hughes"
+                ],
+                "journal": "Nature Communications",
+                "logo": ""
+            }
+        ],
+        "authors": [
+            {
+                "id": 3992794,
+                "identity": "c0f6a6ce-d603-49a1-928f-a3ee201247ca",
+                "order_by": 0,
+                "name": "Damien J. Downes",
+                "email": "damien.downes@ndcls.ox.ac.uk",
+                "orcid": "https://orcid.org/0000-0002-5034-0869",
+                "institution": "Oxford University",
+                "correspondingAuthor": true,
+                "prefix": "",
+                "firstName": "Damien",
+                "middleName": "J.",
+                "lastName": "Downes",
+                "suffix": ""
+            },
+            {
+                "id": 3992795,
+                "identity": "6437e245-8fa4-4eb9-a549-62047ffc5c39",
+                "order_by": 1,
+                "name": "Jim R. Hughes",
+                "email": "",
+                "orcid": "https://orcid.org/0000-0002-8955-7256",
+                "institution": "Oxford University",
+                "correspondingAuthor": false,
+                "prefix": "",
+                "firstName": "Jim",
+                "middleName": "R.",
+                "lastName": "Hughes",
+                "suffix": ""
+            }
+        ],
+        "badges": [],
+        "createdAt": "2020-10-26 11:16:11",
+        "currentVersionCode": 1,
+        "declarations": "",
+        "doi": "10.21203/rs.3.pex-1244/v1",
+        "doiUrl": "https://doi.org/10.21203/rs.3.pex-1244/v1",
+        "draftVersion": [],
+        "editorialEvents": [],
+        "editorialNote": "",
+        "failedWorkflow": [],
+        "files": [
+            {
+                "id": 5348337,
+                "identity": "f253c628-626a-44f0-b762-c1a3e145e415",
+                "added_by": "auto",
+                "created_at": "2021-01-28 18:54:27",
+                "extension": "png",
+                "order_by": 1,
+                "title": "Figure 1",
+                "display": "",
+                "copyAsset": false,
+                "role": "figure",
+                "size": 79966,
+                "visible": true,
+                "origin": "",
+                "legend": "Mouse 3C qPCR Primers. Primer pairs flanking a DpnII site (Dpn_cut) and within a DpnII fragment (Uncut) are used to determine cutting efficiency using Control 1 (Undigested DNA) and Control 2 (Digested DNA). ",
+                "description": "",
+                "filename": "3CqPCR.png",
+                "url": "https://assets.researchsquare.com/files/pex-1244/v1/003711593c8dd7543f83a2ea.png"
+            },
+            {
+                "id": 13652779,
+                "identity": "56f8a72a-3814-4343-a30d-e1c825a14c8a",
+                "added_by": "auto",
+                "created_at": "2021-09-17 09:50:38",
+                "extension": "pdf",
+                "order_by": 0,
+                "title": "",
+                "display": "",
+                "copyAsset": false,
+                "role": "manuscript-pdf",
+                "size": 343235,
+                "visible": true,
+                "origin": "",
+                "legend": "",
+                "description": "",
+                "filename": "manuscript.pdf",
+                "url": "https://assets.researchsquare.com/files/pex-1244/v1/6b0e44f4-5712-4886-890a-043102aa32c0.pdf"
+            }
+        ],
+        "financialInterests": "",
+        "fulltextSource": "",
+        "fullText": "",
+        "funders": [],
+        "hasOptedInToPreprint": true,
+        "hasPassedJournalQc": "",
+        "hideJournal": true,
+        "highlight": "",
+        "institution": "",
+        "isAuthorSuppliedPdf": false,
+        "isDeskRejected": "",
+        "isHiddenFromSearch": false,
+        "isInQc": false,
+        "isInWorkflow": false,
+        "journal": {
+            "display": true,
+            "email": "protocol.exchange@nature.com",
+            "identity": "protocol-exchange",
+            "isNatureJournal": false,
+            "hasQc": false,
+            "allowDirectSubmit": true,
+            "externalIdentity": "",
+            "sideBox": "",
+            "submissionUrl": "https://protocolexchange.researchsquare.com/submission",
+            "title": "Protocol Exchange",
+            "twitterHandle": ""
+        },
+        "keywords": "Chromosome conformation capture, gene regulation, genome structure",
+        "license": {
+            "name": "CC BY 4.0",
+            "url": "https://creativecommons.org/licenses/by/4.0/"
+        },
+        "manuscriptAbstract": "<p>NuTi Capture-C is a Chromosome Conformation Capture (3C) approach, which can very efficiently identify chromatin interactions at target viewpoints at high resolution. The addition of high-throughput sequencing adaptors prior to enrichment allows for multiplexing of replicates and comparison samples. This method is an improvement on the previous NG Capture-C<sup>1</sup> method in that modifications have been made to the <em>in situ</em> 3C method to improve nuclear integrity (Nuclear 3C). Additionally, capture has been optimised to viewpoint complexity through titration, maximising on target sequence specificity. The experiment will take several weeks and provide reproducible interaction profiles for tens to thousands of viewpoints of interest.</p>",
+        "manuscriptTitle": "Chromosome Conformation Capture with Nuclear Titrated Capture-C (NuTi Capture-C)",
+        "msid": "",
+        "msnumber": "",
+        "nonDraftVersions": [
+            {
+                "code": 1,
+                "date": "2021-01-28 18:54:25",
+                "doi": "10.21203/rs.3.pex-1244/v1",
+                "editorialEvents": [
+                    {
+                        "type": "communityComments",
+                        "content": 0
+                    }
+                ],
+                "status": "published",
+                "journal": {
+                    "display": true,
+                    "email": "info@researchsquare.com",
+                    "identity": "researchsquare",
+                    "isNatureJournal": false,
+                    "hasQc": true,
+                    "allowDirectSubmit": true,
+                    "externalIdentity": "",
+                    "sideBox": "",
+                    "submissionUrl": "/submission",
+                    "title": "Research Square",
+                    "twitterHandle": "researchsquare"
+                }
+            }
+        ],
+        "origin": "",
+        "ownerIdentity": "9f6c195b-b4e1-4b29-bb29-65d0a372aab5",
+        "owner": [],
+        "postedDate": "January 28th, 2021",
+        "published": true,
+        "revision": "",
+        "status": "posted",
+        "subjectAreas": [
+            {
+                "id": 882979,
+                "name": "Biological techniques"
+            }
+        ],
+        "tags": [],
+        "versionOfRecord": [],
+        "versionCreatedAt": "2021-01-28 18:54:25",
+        "video": "",
+        "vorDoi": "",
+        "vorDoiUrl": "",
+        "workflowStages": []
+    }
+}
