@@ -2,7 +2,7 @@ import os
 import json
 import re
 
-from fastapi import FastAPI
+from fastapi import FastAPI, HTTPException
 
 app = FastAPI()
 
@@ -48,7 +48,7 @@ async def get_graph(filename: str):
         pro_type = match.group(1)
         num = int(match.group(2))
     else:
-        print("没有匹配到结果")
+        raise HTTPException(status_code=404, detail="文件不存在")
 
     # 构建文件名
     filename = f"{pro_type}-{num}_graphData.json"
@@ -56,7 +56,7 @@ async def get_graph(filename: str):
 
     # 检查文件是否存在
     if not os.path.exists(filepath):
-        return {"error": "文件不存在"}
+        raise HTTPException(status_code=404, detail="文件不存在")
 
     # 读取JSON文件内容
     with open(filepath, "r", encoding="utf-8") as file:
@@ -64,7 +64,7 @@ async def get_graph(filename: str):
             data = json.load(file)
             return data
         except json.JSONDecodeError:
-            return {"error": "JSON解码错误"}
+            raise HTTPException(status_code=400, detail="JSON解码错误")
 
 
 @app.get("/api/protocol/")
