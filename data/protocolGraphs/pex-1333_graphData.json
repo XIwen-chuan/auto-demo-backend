@@ -1,1 +1,1609 @@
-{"cells":[{"shape":"edge","attrs":{"line":{"stroke":"#A2B1C3"}},"id":"d434a6ab-fa90-4839-b5d8-e9f1d23cded8","zIndex":0,"source":{"cell":"2dfd88f3-62a1-483b-957d-239185a1899a","port":"60550e06-447e-45e1-a44b-13934226a7bb"},"target":{"cell":"10809c32-fcc6-45db-a5bb-e4413e33811c","port":"9245180d-7e25-40a4-bdcb-36541ad78920"}},{"shape":"edge","attrs":{"line":{"stroke":"#A2B1C3"}},"id":"89fc0238-ca4c-4c33-bdcd-3ca7de1b789a","zIndex":0,"source":{"cell":"418906b4-03c9-4411-aa0d-bde714aa199d","port":"2de48b91-1ed8-4208-8c6d-2c31e531275a"},"target":{"cell":"716b984a-4412-446c-af8c-5be54bfe06cb","port":"aecf0105-4f5c-4e1e-b0d8-e8af3af07b86"}},{"shape":"edge","attrs":{"line":{"stroke":"#A2B1C3"}},"id":"8f3c795c-7ee4-4052-91d4-876ec81b7121","zIndex":0,"source":{"cell":"716b984a-4412-446c-af8c-5be54bfe06cb","port":"60550e06-447e-45e1-a44b-13934226a7bb"},"target":{"cell":"a2377954-f9e8-46b9-9662-8288fa4949dc","port":"9245180d-7e25-40a4-bdcb-36541ad78920"}},{"shape":"edge","attrs":{"line":{"stroke":"#A2B1C3"}},"id":"82ab14b1-0f77-43b1-8dcb-ffea9758594c","zIndex":0,"source":{"cell":"10809c32-fcc6-45db-a5bb-e4413e33811c","port":"60550e06-447e-45e1-a44b-13934226a7bb"},"target":{"cell":"716b984a-4412-446c-af8c-5be54bfe06cb","port":"9245180d-7e25-40a4-bdcb-36541ad78920"}},{"shape":"edge","attrs":{"line":{"stroke":"#A2B1C3"}},"id":"0aa4d7c2-7068-41fd-8117-ce3f7e897e2a","zIndex":0,"source":{"cell":"a2377954-f9e8-46b9-9662-8288fa4949dc","port":"60550e06-447e-45e1-a44b-13934226a7bb"},"target":{"cell":"98228205-6d6d-400d-b7c6-a082ea39f0ed","port":"9245180d-7e25-40a4-bdcb-36541ad78920"}},{"shape":"edge","attrs":{"line":{"stroke":"#A2B1C3"}},"id":"a3edfc51-4f3b-479e-abdd-c488010330c1","zIndex":0,"source":{"cell":"98228205-6d6d-400d-b7c6-a082ea39f0ed","port":"60550e06-447e-45e1-a44b-13934226a7bb"},"target":{"cell":"2dfdc64b-3426-4c3d-a8a0-a65ca86c2f44","port":"9245180d-7e25-40a4-bdcb-36541ad78920"}},{"shape":"edge","attrs":{"line":{"stroke":"#A2B1C3"}},"id":"380b67f2-a60f-4b40-b8e8-e67d79c5f69c","zIndex":0,"source":{"cell":"2dfdc64b-3426-4c3d-a8a0-a65ca86c2f44","port":"60550e06-447e-45e1-a44b-13934226a7bb"},"target":{"cell":"466d66bd-a01c-4875-986b-ca1796e9cde9","port":"9245180d-7e25-40a4-bdcb-36541ad78920"}},{"shape":"edge","attrs":{"line":{"stroke":"#A2B1C3"}},"id":"17a295c2-5849-43d2-9ed4-b32ee33a63f9","zIndex":0,"source":{"cell":"466d66bd-a01c-4875-986b-ca1796e9cde9","port":"60550e06-447e-45e1-a44b-13934226a7bb"},"target":{"cell":"601decaf-5c83-402a-9906-a21abc03949d","port":"9245180d-7e25-40a4-bdcb-36541ad78920"}},{"shape":"edge","attrs":{"line":{"stroke":"#A2B1C3"}},"id":"1bb030c4-dd10-4bcb-8613-6999b6cff6f0","zIndex":0,"source":{"cell":"601decaf-5c83-402a-9906-a21abc03949d","port":"60550e06-447e-45e1-a44b-13934226a7bb"},"target":{"cell":"d7ce737e-6d41-4cf4-9772-e097becb376e","port":"9245180d-7e25-40a4-bdcb-36541ad78920"}},{"shape":"edge","attrs":{"line":{"stroke":"#A2B1C3"}},"id":"e7b2eceb-94ce-428a-b85a-46093a74b8bb","zIndex":0,"source":{"cell":"f91d97a8-4165-477f-b986-1dd3b2cea49b","port":"2de48b91-1ed8-4208-8c6d-2c31e531275a"},"target":{"cell":"d7ce737e-6d41-4cf4-9772-e097becb376e","port":"aecf0105-4f5c-4e1e-b0d8-e8af3af07b86"}},{"shape":"edge","attrs":{"line":{"stroke":"#A2B1C3"}},"id":"3c5e2df4-75fb-4787-b1a4-369217efb38e","zIndex":0,"source":{"cell":"b1134d8d-64fa-468b-afad-ceb109a124c4","port":"2de48b91-1ed8-4208-8c6d-2c31e531275a"},"target":{"cell":"d7ce737e-6d41-4cf4-9772-e097becb376e","port":"aecf0105-4f5c-4e1e-b0d8-e8af3af07b86"}},{"shape":"edge","attrs":{"line":{"stroke":"#A2B1C3"}},"id":"a72e8f53-41bf-4538-88f1-b8c32cc4a793","zIndex":0,"source":{"cell":"fadd17eb-7009-4094-911a-0d32fc1ef156","port":"2de48b91-1ed8-4208-8c6d-2c31e531275a"},"target":{"cell":"d7ce737e-6d41-4cf4-9772-e097becb376e","port":"aecf0105-4f5c-4e1e-b0d8-e8af3af07b86"}},{"shape":"edge","attrs":{"line":{"stroke":"#A2B1C3"}},"id":"955a6bee-e771-443f-9362-6b9f7caee50d","zIndex":0,"source":{"cell":"d7ce737e-6d41-4cf4-9772-e097becb376e","port":"6b7e2b4c-376f-4afc-a69d-5b1bb6cbc06b"},"target":{"cell":"9ac9f396-5a57-4870-a14f-4f39ee232681","port":"aecf0105-4f5c-4e1e-b0d8-e8af3af07b86"}},{"shape":"edge","attrs":{"line":{"stroke":"#A2B1C3"}},"id":"47528e28-fa53-422b-8389-55c3f89e2c20","zIndex":0,"source":{"cell":"9ac9f396-5a57-4870-a14f-4f39ee232681","port":"9245180d-7e25-40a4-bdcb-36541ad78920"},"target":{"cell":"986fc5a3-a119-4500-abb5-38d9b5bae38e","port":"60550e06-447e-45e1-a44b-13934226a7bb"}},{"shape":"edge","attrs":{"line":{"stroke":"#A2B1C3"}},"id":"c55c087b-567f-4e29-87f6-4ae1b70f9522","zIndex":0,"source":{"cell":"986fc5a3-a119-4500-abb5-38d9b5bae38e","port":"9245180d-7e25-40a4-bdcb-36541ad78920"},"target":{"cell":"91da877a-fd41-41f5-8e63-1541cab1f24e","port":"60550e06-447e-45e1-a44b-13934226a7bb"}},{"shape":"edge","attrs":{"line":{"stroke":"#A2B1C3"}},"id":"138ed1bf-01a3-4cea-9ffa-96af1dabac6b","zIndex":0,"source":{"cell":"fefa1fd5-8ca4-4036-b870-11b638e385c0","port":"7ccdfedc-4c48-4efe-a036-45d71357a99d"},"target":{"cell":"91da877a-fd41-41f5-8e63-1541cab1f24e","port":"6b7e2b4c-376f-4afc-a69d-5b1bb6cbc06b"}},{"shape":"edge","attrs":{"line":{"stroke":"#A2B1C3"}},"id":"ff48849f-2fc6-4bc2-9e28-0a5836b74bd9","zIndex":0,"source":{"cell":"91da877a-fd41-41f5-8e63-1541cab1f24e","port":"9245180d-7e25-40a4-bdcb-36541ad78920"},"target":{"cell":"200dee41-90b3-4c95-a243-1fb30220f0c9","port":"60550e06-447e-45e1-a44b-13934226a7bb"}},{"shape":"edge","attrs":{"line":{"stroke":"#A2B1C3"}},"id":"ce4d37ba-7c30-4e92-a9dd-aa16d8435ec0","zIndex":0,"source":{"cell":"200dee41-90b3-4c95-a243-1fb30220f0c9","port":"9245180d-7e25-40a4-bdcb-36541ad78920"},"target":{"cell":"47e25972-beca-4791-8c0d-a8a59d674ac5","port":"60550e06-447e-45e1-a44b-13934226a7bb"}},{"shape":"edge","attrs":{"line":{"stroke":"#A2B1C3"}},"id":"9d57f2b8-d0cd-42aa-965f-43964d3d8676","zIndex":0,"source":{"cell":"47e25972-beca-4791-8c0d-a8a59d674ac5","port":"9245180d-7e25-40a4-bdcb-36541ad78920"},"target":{"cell":"85617b6e-3bf2-4147-a8f2-82569c629a52","port":"60550e06-447e-45e1-a44b-13934226a7bb"}},{"shape":"edge","attrs":{"line":{"stroke":"#A2B1C3"}},"id":"a17f72fc-3fac-4867-993d-237dc2fbadca","zIndex":0,"source":{"cell":"85617b6e-3bf2-4147-a8f2-82569c629a52","port":"9245180d-7e25-40a4-bdcb-36541ad78920"},"target":{"cell":"84a11d71-3aae-4025-809b-77ef269e5045","port":"60550e06-447e-45e1-a44b-13934226a7bb"}},{"shape":"edge","attrs":{"line":{"stroke":"#A2B1C3"}},"id":"a867b416-0920-4265-ad0b-07ba7f8130e6","zIndex":0,"source":{"cell":"84a11d71-3aae-4025-809b-77ef269e5045","port":"9245180d-7e25-40a4-bdcb-36541ad78920"},"target":{"cell":"a61ffe8a-0273-4133-8c8f-0626b0a78a1c","port":"60550e06-447e-45e1-a44b-13934226a7bb"}},{"shape":"edge","attrs":{"line":{"stroke":"#A2B1C3"}},"id":"2e49ad0e-745c-46ee-ac34-6400eb65847f","zIndex":0,"source":{"cell":"a61ffe8a-0273-4133-8c8f-0626b0a78a1c","port":"9245180d-7e25-40a4-bdcb-36541ad78920"},"target":{"cell":"ae58dd66-ccf3-4df5-b068-40ee14d4fdf6","port":"60550e06-447e-45e1-a44b-13934226a7bb"}},{"shape":"edge","attrs":{"line":{"stroke":"#A2B1C3"}},"id":"8e543b5b-82c5-436f-8aa8-5f9cbf4fdfa5","zIndex":0,"source":{"cell":"ee2d7e35-cb39-42eb-ae55-61d5c3d584d9","port":"7ccdfedc-4c48-4efe-a036-45d71357a99d"},"target":{"cell":"a61ffe8a-0273-4133-8c8f-0626b0a78a1c","port":"6b7e2b4c-376f-4afc-a69d-5b1bb6cbc06b"}},{"shape":"edge","attrs":{"line":{"stroke":"#A2B1C3"}},"id":"b6752477-c720-4b25-b301-a9ba6f840fbe","zIndex":0,"source":{"cell":"ef634766-42fe-4ec5-9bc9-98352627c4d2","port":"7ccdfedc-4c48-4efe-a036-45d71357a99d"},"target":{"cell":"200dee41-90b3-4c95-a243-1fb30220f0c9","port":"6b7e2b4c-376f-4afc-a69d-5b1bb6cbc06b"}},{"shape":"edge","attrs":{"line":{"stroke":"#A2B1C3"}},"id":"c3d4676a-a7ec-4371-ba5a-5f4f54b03423","zIndex":0,"source":{"cell":"14b075b4-e528-4625-91d0-8283f97c08ab","port":"7ccdfedc-4c48-4efe-a036-45d71357a99d"},"target":{"cell":"9ac9f396-5a57-4870-a14f-4f39ee232681","port":"6b7e2b4c-376f-4afc-a69d-5b1bb6cbc06b"}},{"shape":"edge","attrs":{"line":{"stroke":"#A2B1C3"}},"id":"cf09392d-04b7-483e-abd9-c8f8a3f2a3ff","zIndex":0,"source":{"cell":"fc7156f8-2258-4c17-9083-bb39023ab15b","port":"7ccdfedc-4c48-4efe-a036-45d71357a99d"},"target":{"cell":"85617b6e-3bf2-4147-a8f2-82569c629a52","port":"6b7e2b4c-376f-4afc-a69d-5b1bb6cbc06b"}},{"shape":"edge","attrs":{"line":{"stroke":"#A2B1C3"}},"id":"960eff6e-bc5d-43a3-9ed7-13af0bc913e0","zIndex":0,"source":{"cell":"ae58dd66-ccf3-4df5-b068-40ee14d4fdf6","port":"6b7e2b4c-376f-4afc-a69d-5b1bb6cbc06b"},"target":{"cell":"7513260b-b29a-4a24-b077-f1f731e76149","port":"aecf0105-4f5c-4e1e-b0d8-e8af3af07b86"}},{"shape":"edge","attrs":{"line":{"stroke":"#A2B1C3"}},"id":"b605e289-6e9c-48fc-8259-d6b3bc34ce2c","zIndex":0,"source":{"cell":"7513260b-b29a-4a24-b077-f1f731e76149","port":"60550e06-447e-45e1-a44b-13934226a7bb"},"target":{"cell":"13ee122f-4c28-48b3-9a41-c09c36434e4e","port":"9245180d-7e25-40a4-bdcb-36541ad78920"}},{"shape":"edge","attrs":{"line":{"stroke":"#A2B1C3"}},"id":"349784db-87a4-42ba-abc6-a8f9cde8b696","zIndex":0,"source":{"cell":"13ee122f-4c28-48b3-9a41-c09c36434e4e","port":"60550e06-447e-45e1-a44b-13934226a7bb"},"target":{"cell":"919f9d6b-8f0e-441f-9f8c-d417ec1c7ff7","port":"9245180d-7e25-40a4-bdcb-36541ad78920"}},{"shape":"edge","attrs":{"line":{"stroke":"#A2B1C3"}},"id":"d8acabf1-d73e-44e9-9a1c-e70cd0044c03","zIndex":0,"source":{"cell":"3a2f7078-3461-4979-8fa0-3524413c2784","port":"7ccdfedc-4c48-4efe-a036-45d71357a99d"},"target":{"cell":"13ee122f-4c28-48b3-9a41-c09c36434e4e","port":"6b7e2b4c-376f-4afc-a69d-5b1bb6cbc06b"}},{"shape":"edge","attrs":{"line":{"stroke":"#A2B1C3"}},"id":"485fa474-8663-4ddb-9f45-b2dc867b99bc","zIndex":0,"source":{"cell":"919f9d6b-8f0e-441f-9f8c-d417ec1c7ff7","port":"60550e06-447e-45e1-a44b-13934226a7bb"},"target":{"cell":"2f8563d1-5606-42b9-9969-20370c0fa04d","port":"9245180d-7e25-40a4-bdcb-36541ad78920"}},{"shape":"edge","attrs":{"line":{"stroke":"#A2B1C3"}},"id":"637c193c-cacc-4d3d-8556-ee5e1124196a","zIndex":0,"source":{"cell":"2f8563d1-5606-42b9-9969-20370c0fa04d","port":"60550e06-447e-45e1-a44b-13934226a7bb"},"target":{"cell":"51a1ec91-199d-4dc3-b87b-80b198f07587","port":"9245180d-7e25-40a4-bdcb-36541ad78920"}},{"shape":"edge","attrs":{"line":{"stroke":"#A2B1C3"}},"id":"7b764724-d0d4-4a5b-b069-35a65fafa7e3","zIndex":0,"source":{"cell":"51a1ec91-199d-4dc3-b87b-80b198f07587","port":"60550e06-447e-45e1-a44b-13934226a7bb"},"target":{"cell":"a4a45448-33bd-4b02-9836-f3770a29421e","port":"9245180d-7e25-40a4-bdcb-36541ad78920"}},{"shape":"edge","attrs":{"line":{"stroke":"#A2B1C3"}},"id":"ad62ebb1-da6c-4fa5-af48-230bdf806017","zIndex":0,"source":{"cell":"a4a45448-33bd-4b02-9836-f3770a29421e","port":"60550e06-447e-45e1-a44b-13934226a7bb"},"target":{"cell":"0d2e28a9-cf2d-42e3-bc02-79d613f9a23f","port":"9245180d-7e25-40a4-bdcb-36541ad78920"}},{"shape":"edge","attrs":{"line":{"stroke":"#A2B1C3"}},"id":"107ef7ce-43aa-4290-a8ee-ff7a81daaf56","zIndex":0,"source":{"cell":"0d2e28a9-cf2d-42e3-bc02-79d613f9a23f","port":"60550e06-447e-45e1-a44b-13934226a7bb"},"target":{"cell":"b32f7bb9-139c-4db0-96ea-5720b0712420","port":"9245180d-7e25-40a4-bdcb-36541ad78920"}},{"shape":"edge","attrs":{"line":{"stroke":"#A2B1C3"}},"id":"23b08fcf-04e5-4960-9c1a-aa30393f7732","zIndex":0,"source":{"cell":"b32f7bb9-139c-4db0-96ea-5720b0712420","port":"60550e06-447e-45e1-a44b-13934226a7bb"},"target":{"cell":"d815168a-2fc9-432c-854a-63df71bbc829","port":"9245180d-7e25-40a4-bdcb-36541ad78920"}},{"shape":"edge","attrs":{"line":{"stroke":"#A2B1C3"}},"id":"a984c3c5-5f56-4146-ab57-9172d6dc4e2c","zIndex":0,"source":{"cell":"d815168a-2fc9-432c-854a-63df71bbc829","port":"60550e06-447e-45e1-a44b-13934226a7bb"},"target":{"cell":"a2cb5fa1-3d83-4ca6-a169-f3c9a1f757de","port":"9245180d-7e25-40a4-bdcb-36541ad78920"}},{"shape":"edge","attrs":{"line":{"stroke":"#A2B1C3"}},"id":"652ffa69-c892-4ae1-b5d8-e32b14654210","zIndex":0,"source":{"cell":"a2cb5fa1-3d83-4ca6-a169-f3c9a1f757de","port":"6b7e2b4c-376f-4afc-a69d-5b1bb6cbc06b"},"target":{"cell":"68d90ca3-8f95-48ba-8200-49f07572215e","port":"aecf0105-4f5c-4e1e-b0d8-e8af3af07b86"}},{"shape":"edge","attrs":{"line":{"stroke":"#A2B1C3"}},"id":"85ae38ca-391a-44f3-a45d-0c733c43a0a4","zIndex":0,"source":{"cell":"68d90ca3-8f95-48ba-8200-49f07572215e","port":"9245180d-7e25-40a4-bdcb-36541ad78920"},"target":{"cell":"ffea44eb-3a3c-4f8c-b16b-a274e7e159c3","port":"60550e06-447e-45e1-a44b-13934226a7bb"}},{"shape":"edge","attrs":{"line":{"stroke":"#A2B1C3"}},"id":"398bd943-ab79-4809-8113-43c84a08d6ae","zIndex":0,"source":{"cell":"ffea44eb-3a3c-4f8c-b16b-a274e7e159c3","port":"9245180d-7e25-40a4-bdcb-36541ad78920"},"target":{"cell":"07ad5545-c706-4a24-b005-b84e63984cee","port":"60550e06-447e-45e1-a44b-13934226a7bb"}},{"shape":"edge","attrs":{"line":{"stroke":"#A2B1C3"}},"id":"c0688f8c-2c0c-4e7c-a39a-9b21da77fb7f","zIndex":0,"source":{"cell":"07ad5545-c706-4a24-b005-b84e63984cee","port":"9245180d-7e25-40a4-bdcb-36541ad78920"},"target":{"cell":"370f0918-5789-49be-b91c-6ea99927b18a","port":"60550e06-447e-45e1-a44b-13934226a7bb"}},{"shape":"edge","attrs":{"line":{"stroke":"#A2B1C3"}},"id":"81bd4875-ec3e-42dd-af2c-54946da13684","zIndex":0,"source":{"cell":"370f0918-5789-49be-b91c-6ea99927b18a","port":"9245180d-7e25-40a4-bdcb-36541ad78920"},"target":{"cell":"420119dd-aa1a-436b-a752-9d6f7ea12cd6","port":"60550e06-447e-45e1-a44b-13934226a7bb"}},{"shape":"edge","attrs":{"line":{"stroke":"#A2B1C3"}},"id":"44b54baa-da86-464e-ba13-f2b5cb11463f","zIndex":0,"source":{"cell":"420119dd-aa1a-436b-a752-9d6f7ea12cd6","port":"9245180d-7e25-40a4-bdcb-36541ad78920"},"target":{"cell":"c85c8529-cd0b-4967-9be9-7b96870b3c29","port":"60550e06-447e-45e1-a44b-13934226a7bb"}},{"shape":"edge","attrs":{"line":{"stroke":"#A2B1C3"}},"id":"e9f9c170-c983-4dc2-8688-0165ca61d354","zIndex":0,"source":{"cell":"c85c8529-cd0b-4967-9be9-7b96870b3c29","port":"9245180d-7e25-40a4-bdcb-36541ad78920"},"target":{"cell":"be26ea23-f20b-46a4-8f1c-57138c181938","port":"60550e06-447e-45e1-a44b-13934226a7bb"}},{"shape":"edge","attrs":{"line":{"stroke":"#A2B1C3"}},"id":"914eda26-76a7-4466-ae90-d7a5b08e91ea","zIndex":0,"source":{"cell":"be26ea23-f20b-46a4-8f1c-57138c181938","port":"9245180d-7e25-40a4-bdcb-36541ad78920"},"target":{"cell":"a1abcec4-4e8e-4be7-8bb4-8570c052f513","port":"60550e06-447e-45e1-a44b-13934226a7bb"}},{"shape":"edge","attrs":{"line":{"stroke":"#A2B1C3"}},"id":"8f7dfaba-6a50-4241-b6d1-5020fddd4918","zIndex":0,"source":{"cell":"a1abcec4-4e8e-4be7-8bb4-8570c052f513","port":"9245180d-7e25-40a4-bdcb-36541ad78920"},"target":{"cell":"dae31d75-cb2a-4884-85d7-1238910058c2","port":"60550e06-447e-45e1-a44b-13934226a7bb"}},{"shape":"edge","attrs":{"line":{"stroke":"#A2B1C3"}},"id":"9982e771-7484-431f-b21e-a38c69b3e7da","zIndex":0,"source":{"cell":"dae31d75-cb2a-4884-85d7-1238910058c2","port":"6b7e2b4c-376f-4afc-a69d-5b1bb6cbc06b"},"target":{"cell":"7582f118-8aae-4988-aaeb-7502f1d7e2e7","port":"aecf0105-4f5c-4e1e-b0d8-e8af3af07b86"}},{"shape":"edge","attrs":{"line":{"stroke":"#A2B1C3","targetMarker":"","strokeDasharray":"5 5"}},"id":"430328f5-6363-4074-896e-cc57667e46b3","zIndex":0,"router":{"name":"normal"},"source":{"cell":"7582f118-8aae-4988-aaeb-7502f1d7e2e7","port":"60550e06-447e-45e1-a44b-13934226a7bb"},"target":{"cell":"c01d3261-0576-4c7d-b067-4fd902fd5da2","port":"bbb192df-f49e-4d15-92bc-4204277fe937"}},{"shape":"edge","attrs":{"line":{"stroke":"#A2B1C3","targetMarker":"","strokeDasharray":"5 5"}},"id":"1929fcd0-130e-472d-ae6c-1cd37ac8b935","zIndex":0,"router":{"name":"normal"},"source":{"cell":"c01d3261-0576-4c7d-b067-4fd902fd5da2","port":"32567784-9b70-4c44-ba47-28ec9c1a1d93"},"target":{"cell":"82f8d7bd-22fa-4f6f-8e10-d712ade3320a","port":"9245180d-7e25-40a4-bdcb-36541ad78920"}},{"shape":"edge","attrs":{"line":{"stroke":"#A2B1C3","targetMarker":"","strokeDasharray":"5 5"}},"id":"c26fa5c5-adfa-4de6-b96c-8540e6e5e2a4","zIndex":0,"router":{"name":"normal"},"source":{"cell":"82f8d7bd-22fa-4f6f-8e10-d712ade3320a","port":"60550e06-447e-45e1-a44b-13934226a7bb"},"target":{"cell":"a7b71c25-ad19-4188-9497-83bbb250ec21","port":"bbb192df-f49e-4d15-92bc-4204277fe937"}},{"shape":"edge","attrs":{"line":{"stroke":"#A2B1C3","targetMarker":"","strokeDasharray":"5 5"}},"id":"521a7389-89ca-48b4-958f-a4db1f34b899","zIndex":0,"router":{"name":"normal"},"source":{"cell":"a7b71c25-ad19-4188-9497-83bbb250ec21","port":"32567784-9b70-4c44-ba47-28ec9c1a1d93"},"target":{"cell":"49ad15c8-74bd-4fab-aa82-980cbd291ce2","port":"9245180d-7e25-40a4-bdcb-36541ad78920"}},{"shape":"edge","attrs":{"line":{"stroke":"#A2B1C3"}},"id":"bcc1fd87-6a9d-4b9f-89ff-c832dfa4dd6f","zIndex":0,"source":{"cell":"2305e8ea-81a3-4209-93c5-ef766ed48963","port":"60550e06-447e-45e1-a44b-13934226a7bb"},"target":{"cell":"b3716c4f-ae15-4a6c-93da-ef04c7744075","port":"9245180d-7e25-40a4-bdcb-36541ad78920"}},{"shape":"edge","attrs":{"line":{"stroke":"#A2B1C3"}},"id":"71ec198b-d100-4ef4-a76d-3d3b54676405","zIndex":0,"source":{"cell":"b3716c4f-ae15-4a6c-93da-ef04c7744075","port":"60550e06-447e-45e1-a44b-13934226a7bb"},"target":{"cell":"8dd94fe4-0682-4145-9c44-cb479d00392d","port":"9245180d-7e25-40a4-bdcb-36541ad78920"}},{"shape":"edge","attrs":{"line":{"stroke":"#A2B1C3"}},"id":"c9692dfb-7e3a-43f2-83fa-bd63502dbfa0","zIndex":0,"source":{"cell":"8dd94fe4-0682-4145-9c44-cb479d00392d","port":"60550e06-447e-45e1-a44b-13934226a7bb"},"target":{"cell":"547ff8df-a573-4773-852d-a2c315c91ab9","port":"9245180d-7e25-40a4-bdcb-36541ad78920"}},{"shape":"edge","attrs":{"line":{"stroke":"#A2B1C3"}},"id":"301bf65f-d8f0-4cd7-8852-90448658906c","zIndex":0,"source":{"cell":"547ff8df-a573-4773-852d-a2c315c91ab9","port":"60550e06-447e-45e1-a44b-13934226a7bb"},"target":{"cell":"9b85f2d0-ed35-4d90-8ba7-efba9c7f7fac","port":"9245180d-7e25-40a4-bdcb-36541ad78920"}},{"shape":"edge","attrs":{"line":{"stroke":"#A2B1C3"}},"id":"0a60e7ab-d5a9-4a42-a409-e063633252e5","zIndex":0,"source":{"cell":"bfbef6bb-d73e-4b9f-abbb-5ca0b7c483c2","port":"60550e06-447e-45e1-a44b-13934226a7bb"},"target":{"cell":"e29d133b-ef14-4853-94f7-4204c0c1dce5","port":"9245180d-7e25-40a4-bdcb-36541ad78920"}},{"shape":"edge","attrs":{"line":{"stroke":"#A2B1C3"}},"id":"544148d8-82d3-4976-88a1-d24c6586ed88","zIndex":0,"source":{"cell":"e29d133b-ef14-4853-94f7-4204c0c1dce5","port":"60550e06-447e-45e1-a44b-13934226a7bb"},"target":{"cell":"9cf86031-39c9-4123-a873-57568f4db7b0","port":"9245180d-7e25-40a4-bdcb-36541ad78920"}},{"shape":"edge","attrs":{"line":{"stroke":"#A2B1C3"}},"id":"1633e385-ba86-4075-a1eb-9e8fe7da86e2","zIndex":0,"source":{"cell":"9cf86031-39c9-4123-a873-57568f4db7b0","port":"60550e06-447e-45e1-a44b-13934226a7bb"},"target":{"cell":"f84696fa-c918-4a14-b049-d1e561854920","port":"9245180d-7e25-40a4-bdcb-36541ad78920"}},{"shape":"edge","attrs":{"line":{"stroke":"#A2B1C3"}},"id":"3d5e0bc3-8a21-4b7c-b780-3b843559a251","zIndex":0,"source":{"cell":"f84696fa-c918-4a14-b049-d1e561854920","port":"60550e06-447e-45e1-a44b-13934226a7bb"},"target":{"cell":"7f6b8928-d90d-483c-9eb3-5acefd451a75","port":"9245180d-7e25-40a4-bdcb-36541ad78920"}},{"shape":"edge","attrs":{"line":{"stroke":"#A2B1C3"}},"id":"4094a439-f1c4-4adb-a507-1b1fc0844888","zIndex":0,"source":{"cell":"7f6b8928-d90d-483c-9eb3-5acefd451a75","port":"60550e06-447e-45e1-a44b-13934226a7bb"},"target":{"cell":"7bcc5e82-47cf-4469-85e5-871f8e3ddbd0","port":"9245180d-7e25-40a4-bdcb-36541ad78920"}},{"shape":"edge","attrs":{"line":{"stroke":"#A2B1C3"}},"id":"2d52cf02-f9ce-4649-8349-d4a0e4fb7c8b","zIndex":0,"source":{"cell":"7bcc5e82-47cf-4469-85e5-871f8e3ddbd0","port":"60550e06-447e-45e1-a44b-13934226a7bb"},"target":{"cell":"1f5e6fb4-d7d3-47d1-a105-ca62216fc676","port":"9245180d-7e25-40a4-bdcb-36541ad78920"}},{"shape":"edge","attrs":{"line":{"stroke":"#A2B1C3"}},"id":"2a40877e-b9e9-4190-87f5-7a6d38259b84","zIndex":0,"source":{"cell":"1f5e6fb4-d7d3-47d1-a105-ca62216fc676","port":"60550e06-447e-45e1-a44b-13934226a7bb"},"target":{"cell":"7afffaa5-26a9-48ce-9909-4c5ba766e3ec","port":"9245180d-7e25-40a4-bdcb-36541ad78920"}},{"position":{"x":140,"y":120},"size":{"width":130,"height":82},"view":"react-shape-view","shape":"custom-react-shape","ports":{"groups":{"top":{"position":"top","attrs":{"circle":{"r":4,"magnet":true,"stroke":"#5F95FF","strokeWidth":1,"fill":"#fff","style":{"visibility":"hidden"}}}},"right":{"position":"right","attrs":{"circle":{"r":4,"magnet":true,"stroke":"#5F95FF","strokeWidth":1,"fill":"#fff","style":{"visibility":"hidden"}}}},"bottom":{"position":"bottom","attrs":{"circle":{"r":4,"magnet":true,"stroke":"#5F95FF","strokeWidth":1,"fill":"#fff","style":{"visibility":"hidden"}}}},"left":{"position":"left","attrs":{"circle":{"r":4,"magnet":true,"stroke":"#5F95FF","strokeWidth":1,"fill":"#fff","style":{"visibility":"hidden"}}}}},"items":[{"group":"top","id":"aecf0105-4f5c-4e1e-b0d8-e8af3af07b86"},{"group":"right","id":"60550e06-447e-45e1-a44b-13934226a7bb"},{"group":"bottom","id":"6b7e2b4c-376f-4afc-a69d-5b1bb6cbc06b"},{"group":"left","id":"9245180d-7e25-40a4-bdcb-36541ad78920"}]},"id":"2dfd88f3-62a1-483b-957d-239185a1899a","data":{"protoText":"Remove media, wash cells once with 4°-16° PBS and aspirate PBS."},"type":"textNode","zIndex":1},{"position":{"x":300,"y":120},"size":{"width":130,"height":82},"view":"react-shape-view","shape":"custom-react-shape","ports":{"groups":{"top":{"position":"top","attrs":{"circle":{"r":4,"magnet":true,"stroke":"#5F95FF","strokeWidth":1,"fill":"#fff","style":{"visibility":"hidden"}}}},"right":{"position":"right","attrs":{"circle":{"r":4,"magnet":true,"stroke":"#5F95FF","strokeWidth":1,"fill":"#fff","style":{"visibility":"hidden"}}}},"bottom":{"position":"bottom","attrs":{"circle":{"r":4,"magnet":true,"stroke":"#5F95FF","strokeWidth":1,"fill":"#fff","style":{"visibility":"hidden"}}}},"left":{"position":"left","attrs":{"circle":{"r":4,"magnet":true,"stroke":"#5F95FF","strokeWidth":1,"fill":"#fff","style":{"visibility":"hidden"}}}}},"items":[{"group":"top","id":"aecf0105-4f5c-4e1e-b0d8-e8af3af07b86"},{"group":"right","id":"60550e06-447e-45e1-a44b-13934226a7bb"},{"group":"bottom","id":"6b7e2b4c-376f-4afc-a69d-5b1bb6cbc06b"},{"group":"left","id":"9245180d-7e25-40a4-bdcb-36541ad78920"}]},"id":"10809c32-fcc6-45db-a5bb-e4413e33811c","data":{"protoText":"Remove media, wash cells once with 4°-16° PBS and aspirate PBS."},"type":"textNode","zIndex":2},{"position":{"x":470,"y":120},"size":{"width":145,"height":82},"view":"react-shape-view","shape":"custom-react-shape","ports":{"groups":{"top":{"position":"top","attrs":{"circle":{"r":4,"magnet":true,"stroke":"#5F95FF","strokeWidth":1,"fill":"#fff","style":{"visibility":"hidden"}}}},"right":{"position":"right","attrs":{"circle":{"r":4,"magnet":true,"stroke":"#5F95FF","strokeWidth":1,"fill":"#fff","style":{"visibility":"hidden"}}}},"bottom":{"position":"bottom","attrs":{"circle":{"r":4,"magnet":true,"stroke":"#5F95FF","strokeWidth":1,"fill":"#fff","style":{"visibility":"hidden"}}}},"left":{"position":"left","attrs":{"circle":{"r":4,"magnet":true,"stroke":"#5F95FF","strokeWidth":1,"fill":"#fff","style":{"visibility":"hidden"}}}}},"items":[{"group":"top","id":"aecf0105-4f5c-4e1e-b0d8-e8af3af07b86"},{"group":"right","id":"60550e06-447e-45e1-a44b-13934226a7bb"},{"group":"bottom","id":"6b7e2b4c-376f-4afc-a69d-5b1bb6cbc06b"},{"group":"left","id":"9245180d-7e25-40a4-bdcb-36541ad78920"}]},"id":"716b984a-4412-446c-af8c-5be54bfe06cb","data":{"protoText":"Add ~1 ml CLIP lysis buffer per 15 cm plate and scrape to collect."},"type":"textNode","zIndex":3},{"position":{"x":380,"y":-140},"size":{"width":250,"height":128},"view":"react-shape-view","shape":"custom-react-shape","ports":{"groups":{"top":{"position":"top","attrs":{"circle":{"r":4,"magnet":true,"stroke":"#5F95FF","strokeWidth":1,"fill":"#fff","style":{"visibility":"hidden"}}}},"right":{"position":"right","attrs":{"circle":{"r":4,"magnet":true,"stroke":"#5F95FF","strokeWidth":1,"fill":"#fff","style":{"visibility":"hidden"}}}},"bottom":{"position":"bottom","attrs":{"circle":{"r":4,"magnet":true,"stroke":"#5F95FF","strokeWidth":1,"fill":"#fff","style":{"visibility":"hidden"}}}},"left":{"position":"left","attrs":{"circle":{"r":4,"magnet":true,"stroke":"#5F95FF","strokeWidth":1,"fill":"#fff","style":{"visibility":"hidden"}}}}},"items":[{"group":"top","id":"7ccdfedc-4c48-4efe-a036-45d71357a99d"},{"group":"right","id":"3adac6fe-dd36-4676-b525-35e99e05281a"},{"group":"bottom","id":"2de48b91-1ed8-4208-8c6d-2c31e531275a"},{"group":"left","id":"a640d4aa-25f3-43f9-b645-263ed0be73d5"}]},"id":"418906b4-03c9-4411-aa0d-bde714aa199d","data":{"protoText":"CLIP lysis buffer (Tris pH 7.5 50 mM, NaCl 200 mM, EDTA 1 mM, glycerol 10%, NP40 0.1%, Triton-X 100 1%, N-lauroylsarcosine 0.5%)"},"type":"inputNode","zIndex":4},{"position":{"x":658,"y":129},"size":{"width":115,"height":64},"view":"react-shape-view","shape":"custom-react-shape","ports":{"groups":{"top":{"position":"top","attrs":{"circle":{"r":4,"magnet":true,"stroke":"#5F95FF","strokeWidth":1,"fill":"#fff","style":{"visibility":"hidden"}}}},"right":{"position":"right","attrs":{"circle":{"r":4,"magnet":true,"stroke":"#5F95FF","strokeWidth":1,"fill":"#fff","style":{"visibility":"hidden"}}}},"bottom":{"position":"bottom","attrs":{"circle":{"r":4,"magnet":true,"stroke":"#5F95FF","strokeWidth":1,"fill":"#fff","style":{"visibility":"hidden"}}}},"left":{"position":"left","attrs":{"circle":{"r":4,"magnet":true,"stroke":"#5F95FF","strokeWidth":1,"fill":"#fff","style":{"visibility":"hidden"}}}}},"items":[{"group":"top","id":"aecf0105-4f5c-4e1e-b0d8-e8af3af07b86"},{"group":"right","id":"60550e06-447e-45e1-a44b-13934226a7bb"},{"group":"bottom","id":"6b7e2b4c-376f-4afc-a69d-5b1bb6cbc06b"},{"group":"left","id":"9245180d-7e25-40a4-bdcb-36541ad78920"}]},"id":"a2377954-f9e8-46b9-9662-8288fa4949dc","data":{"protoText":" Freeze in dry ice and store at -80°."},"type":"textNode","zIndex":5},{"position":{"x":830,"y":129},"size":{"width":115,"height":64},"view":"react-shape-view","shape":"custom-react-shape","ports":{"groups":{"top":{"position":"top","attrs":{"circle":{"r":4,"magnet":true,"stroke":"#5F95FF","strokeWidth":1,"fill":"#fff","style":{"visibility":"hidden"}}}},"right":{"position":"right","attrs":{"circle":{"r":4,"magnet":true,"stroke":"#5F95FF","strokeWidth":1,"fill":"#fff","style":{"visibility":"hidden"}}}},"bottom":{"position":"bottom","attrs":{"circle":{"r":4,"magnet":true,"stroke":"#5F95FF","strokeWidth":1,"fill":"#fff","style":{"visibility":"hidden"}}}},"left":{"position":"left","attrs":{"circle":{"r":4,"magnet":true,"stroke":"#5F95FF","strokeWidth":1,"fill":"#fff","style":{"visibility":"hidden"}}}}},"items":[{"group":"top","id":"aecf0105-4f5c-4e1e-b0d8-e8af3af07b86"},{"group":"right","id":"60550e06-447e-45e1-a44b-13934226a7bb"},{"group":"bottom","id":"6b7e2b4c-376f-4afc-a69d-5b1bb6cbc06b"},{"group":"left","id":"9245180d-7e25-40a4-bdcb-36541ad78920"}]},"id":"98228205-6d6d-400d-b7c6-a082ea39f0ed","data":{"protoText":"Thaw lysates by hand and then keep at 4°."},"type":"textNode","zIndex":7},{"position":{"x":993,"y":111},"size":{"width":160,"height":100},"view":"react-shape-view","shape":"custom-react-shape","ports":{"groups":{"top":{"position":"top","attrs":{"circle":{"r":4,"magnet":true,"stroke":"#5F95FF","strokeWidth":1,"fill":"#fff","style":{"visibility":"hidden"}}}},"right":{"position":"right","attrs":{"circle":{"r":4,"magnet":true,"stroke":"#5F95FF","strokeWidth":1,"fill":"#fff","style":{"visibility":"hidden"}}}},"bottom":{"position":"bottom","attrs":{"circle":{"r":4,"magnet":true,"stroke":"#5F95FF","strokeWidth":1,"fill":"#fff","style":{"visibility":"hidden"}}}},"left":{"position":"left","attrs":{"circle":{"r":4,"magnet":true,"stroke":"#5F95FF","strokeWidth":1,"fill":"#fff","style":{"visibility":"hidden"}}}}},"items":[{"group":"top","id":"aecf0105-4f5c-4e1e-b0d8-e8af3af07b86"},{"group":"right","id":"60550e06-447e-45e1-a44b-13934226a7bb"},{"group":"bottom","id":"6b7e2b4c-376f-4afc-a69d-5b1bb6cbc06b"},{"group":"left","id":"9245180d-7e25-40a4-bdcb-36541ad78920"}]},"id":"2dfdc64b-3426-4c3d-a8a0-a65ca86c2f44","data":{"protoText":"Sonicate lysate for 20-30 seconds at 7 second bursts with microtip sonicator at 10% power"},"type":"textNode","zIndex":8},{"position":{"x":1208,"y":111},"size":{"width":145,"height":100},"view":"react-shape-view","shape":"custom-react-shape","ports":{"groups":{"top":{"position":"top","attrs":{"circle":{"r":4,"magnet":true,"stroke":"#5F95FF","strokeWidth":1,"fill":"#fff","style":{"visibility":"hidden"}}}},"right":{"position":"right","attrs":{"circle":{"r":4,"magnet":true,"stroke":"#5F95FF","strokeWidth":1,"fill":"#fff","style":{"visibility":"hidden"}}}},"bottom":{"position":"bottom","attrs":{"circle":{"r":4,"magnet":true,"stroke":"#5F95FF","strokeWidth":1,"fill":"#fff","style":{"visibility":"hidden"}}}},"left":{"position":"left","attrs":{"circle":{"r":4,"magnet":true,"stroke":"#5F95FF","strokeWidth":1,"fill":"#fff","style":{"visibility":"hidden"}}}}},"items":[{"group":"top","id":"aecf0105-4f5c-4e1e-b0d8-e8af3af07b86"},{"group":"right","id":"60550e06-447e-45e1-a44b-13934226a7bb"},{"group":"bottom","id":"6b7e2b4c-376f-4afc-a69d-5b1bb6cbc06b"},{"group":"left","id":"9245180d-7e25-40a4-bdcb-36541ad78920"}]},"id":"466d66bd-a01c-4875-986b-ca1796e9cde9","data":{"protoText":"Spin lysate at 14 krcf for 10 min at 4°; transfer cleared lysate to new tube"},"type":"textNode","zIndex":9},{"position":{"x":1378,"y":111},"size":{"width":145,"height":100},"view":"react-shape-view","shape":"custom-react-shape","ports":{"groups":{"top":{"position":"top","attrs":{"circle":{"r":4,"magnet":true,"stroke":"#5F95FF","strokeWidth":1,"fill":"#fff","style":{"visibility":"hidden"}}}},"right":{"position":"right","attrs":{"circle":{"r":4,"magnet":true,"stroke":"#5F95FF","strokeWidth":1,"fill":"#fff","style":{"visibility":"hidden"}}}},"bottom":{"position":"bottom","attrs":{"circle":{"r":4,"magnet":true,"stroke":"#5F95FF","strokeWidth":1,"fill":"#fff","style":{"visibility":"hidden"}}}},"left":{"position":"left","attrs":{"circle":{"r":4,"magnet":true,"stroke":"#5F95FF","strokeWidth":1,"fill":"#fff","style":{"visibility":"hidden"}}}}},"items":[{"group":"top","id":"aecf0105-4f5c-4e1e-b0d8-e8af3af07b86"},{"group":"right","id":"60550e06-447e-45e1-a44b-13934226a7bb"},{"group":"bottom","id":"6b7e2b4c-376f-4afc-a69d-5b1bb6cbc06b"},{"group":"left","id":"9245180d-7e25-40a4-bdcb-36541ad78920"}]},"id":"601decaf-5c83-402a-9906-a21abc03949d","data":{"protoText":"Add lysates to anti-HA or antibody-precojugated protein G beads. IP 1 h at 4°."},"type":"textNode","zIndex":10},{"position":{"x":1610,"y":111},"size":{"width":160,"height":100},"view":"react-shape-view","shape":"custom-react-shape","ports":{"groups":{"top":{"position":"top","attrs":{"circle":{"r":4,"magnet":true,"stroke":"#5F95FF","strokeWidth":1,"fill":"#fff","style":{"visibility":"hidden"}}}},"right":{"position":"right","attrs":{"circle":{"r":4,"magnet":true,"stroke":"#5F95FF","strokeWidth":1,"fill":"#fff","style":{"visibility":"hidden"}}}},"bottom":{"position":"bottom","attrs":{"circle":{"r":4,"magnet":true,"stroke":"#5F95FF","strokeWidth":1,"fill":"#fff","style":{"visibility":"hidden"}}}},"left":{"position":"left","attrs":{"circle":{"r":4,"magnet":true,"stroke":"#5F95FF","strokeWidth":1,"fill":"#fff","style":{"visibility":"hidden"}}}}},"items":[{"group":"top","id":"aecf0105-4f5c-4e1e-b0d8-e8af3af07b86"},{"group":"right","id":"60550e06-447e-45e1-a44b-13934226a7bb"},{"group":"bottom","id":"6b7e2b4c-376f-4afc-a69d-5b1bb6cbc06b"},{"group":"left","id":"9245180d-7e25-40a4-bdcb-36541ad78920"}]},"id":"d7ce737e-6d41-4cf4-9772-e097becb376e","data":{"protoText":"Wash beads 1X High Str, 1X High Salt, 10min each at 4° w/rotation, then 1X Low Salt (1 mL all)"},"type":"textNode","zIndex":11},{"position":{"x":1450,"y":-80.00000000000004},"size":{"width":240,"height":120},"view":"react-shape-view","shape":"custom-react-shape","ports":{"groups":{"top":{"position":"top","attrs":{"circle":{"r":4,"magnet":true,"stroke":"#5F95FF","strokeWidth":1,"fill":"#fff","style":{"visibility":"hidden"}}}},"right":{"position":"right","attrs":{"circle":{"r":4,"magnet":true,"stroke":"#5F95FF","strokeWidth":1,"fill":"#fff","style":{"visibility":"hidden"}}}},"bottom":{"position":"bottom","attrs":{"circle":{"r":4,"magnet":true,"stroke":"#5F95FF","strokeWidth":1,"fill":"#fff","style":{"visibility":"hidden"}}}},"left":{"position":"left","attrs":{"circle":{"r":4,"magnet":true,"stroke":"#5F95FF","strokeWidth":1,"fill":"#fff","style":{"visibility":"hidden"}}}}},"items":[{"group":"top","id":"7ccdfedc-4c48-4efe-a036-45d71357a99d"},{"group":"right","id":"3adac6fe-dd36-4676-b525-35e99e05281a"},{"group":"bottom","id":"2de48b91-1ed8-4208-8c6d-2c31e531275a"},{"group":"left","id":"a640d4aa-25f3-43f9-b645-263ed0be73d5"}]},"id":"b1134d8d-64fa-468b-afad-ceb109a124c4","data":{"protoText":"High stringency buffer (Tris pH 7.5 15 mM, EDTA 5 mM, Triton X-100 1%, Na-deoxycholate 1%, SDS 0.1%, NaCl 120 mM, KCl 25 mM)"},"type":"inputNode","zIndex":12},{"position":{"x":1710,"y":-80.00000000000004},"size":{"width":200,"height":120},"view":"react-shape-view","shape":"custom-react-shape","ports":{"groups":{"top":{"position":"top","attrs":{"circle":{"r":4,"magnet":true,"stroke":"#5F95FF","strokeWidth":1,"fill":"#fff","style":{"visibility":"hidden"}}}},"right":{"position":"right","attrs":{"circle":{"r":4,"magnet":true,"stroke":"#5F95FF","strokeWidth":1,"fill":"#fff","style":{"visibility":"hidden"}}}},"bottom":{"position":"bottom","attrs":{"circle":{"r":4,"magnet":true,"stroke":"#5F95FF","strokeWidth":1,"fill":"#fff","style":{"visibility":"hidden"}}}},"left":{"position":"left","attrs":{"circle":{"r":4,"magnet":true,"stroke":"#5F95FF","strokeWidth":1,"fill":"#fff","style":{"visibility":"hidden"}}}}},"items":[{"group":"top","id":"7ccdfedc-4c48-4efe-a036-45d71357a99d"},{"group":"right","id":"3adac6fe-dd36-4676-b525-35e99e05281a"},{"group":"bottom","id":"2de48b91-1ed8-4208-8c6d-2c31e531275a"},{"group":"left","id":"a640d4aa-25f3-43f9-b645-263ed0be73d5"}]},"id":"fadd17eb-7009-4094-911a-0d32fc1ef156","data":{"protoText":"High salt buffer (Tris pH 7.5 15 mM, EDTA 5 mM, Triton X-100 1%, Na-deoxycholate 1%, SDS 0.1%, NaCl 1 M)"},"type":"inputNode","zIndex":13},{"position":{"x":1280,"y":-66.00000000000004},"size":{"width":150,"height":92},"view":"react-shape-view","shape":"custom-react-shape","ports":{"groups":{"top":{"position":"top","attrs":{"circle":{"r":4,"magnet":true,"stroke":"#5F95FF","strokeWidth":1,"fill":"#fff","style":{"visibility":"hidden"}}}},"right":{"position":"right","attrs":{"circle":{"r":4,"magnet":true,"stroke":"#5F95FF","strokeWidth":1,"fill":"#fff","style":{"visibility":"hidden"}}}},"bottom":{"position":"bottom","attrs":{"circle":{"r":4,"magnet":true,"stroke":"#5F95FF","strokeWidth":1,"fill":"#fff","style":{"visibility":"hidden"}}}},"left":{"position":"left","attrs":{"circle":{"r":4,"magnet":true,"stroke":"#5F95FF","strokeWidth":1,"fill":"#fff","style":{"visibility":"hidden"}}}}},"items":[{"group":"top","id":"7ccdfedc-4c48-4efe-a036-45d71357a99d"},{"group":"right","id":"3adac6fe-dd36-4676-b525-35e99e05281a"},{"group":"bottom","id":"2de48b91-1ed8-4208-8c6d-2c31e531275a"},{"group":"left","id":"a640d4aa-25f3-43f9-b645-263ed0be73d5"}]},"id":"f91d97a8-4165-477f-b986-1dd3b2cea49b","data":{"protoText":"Low salt buffer (Tris pH 7.5 15 mM, EDTA 5 mM)"},"type":"inputNode","zIndex":14},{"position":{"x":1602.5,"y":261},"size":{"width":175,"height":100},"view":"react-shape-view","shape":"custom-react-shape","ports":{"groups":{"top":{"position":"top","attrs":{"circle":{"r":4,"magnet":true,"stroke":"#5F95FF","strokeWidth":1,"fill":"#fff","style":{"visibility":"hidden"}}}},"right":{"position":"right","attrs":{"circle":{"r":4,"magnet":true,"stroke":"#5F95FF","strokeWidth":1,"fill":"#fff","style":{"visibility":"hidden"}}}},"bottom":{"position":"bottom","attrs":{"circle":{"r":4,"magnet":true,"stroke":"#5F95FF","strokeWidth":1,"fill":"#fff","style":{"visibility":"hidden"}}}},"left":{"position":"left","attrs":{"circle":{"r":4,"magnet":true,"stroke":"#5F95FF","strokeWidth":1,"fill":"#fff","style":{"visibility":"hidden"}}}}},"items":[{"group":"top","id":"aecf0105-4f5c-4e1e-b0d8-e8af3af07b86"},{"group":"right","id":"60550e06-447e-45e1-a44b-13934226a7bb"},{"group":"bottom","id":"6b7e2b4c-376f-4afc-a69d-5b1bb6cbc06b"},{"group":"left","id":"9245180d-7e25-40a4-bdcb-36541ad78920"}]},"id":"9ac9f396-5a57-4870-a14f-4f39ee232681","data":{"protoText":"Perform nuclease digestion: 30°, 15s 1350 rpm, 45s rest, for 3-10 minutes with 0.01-0.1 U/µL RNAse\nONE"},"type":"textNode","zIndex":15},{"position":{"x":1378,"y":261},"size":{"width":145,"height":100},"view":"react-shape-view","shape":"custom-react-shape","ports":{"groups":{"top":{"position":"top","attrs":{"circle":{"r":4,"magnet":true,"stroke":"#5F95FF","strokeWidth":1,"fill":"#fff","style":{"visibility":"hidden"}}}},"right":{"position":"right","attrs":{"circle":{"r":4,"magnet":true,"stroke":"#5F95FF","strokeWidth":1,"fill":"#fff","style":{"visibility":"hidden"}}}},"bottom":{"position":"bottom","attrs":{"circle":{"r":4,"magnet":true,"stroke":"#5F95FF","strokeWidth":1,"fill":"#fff","style":{"visibility":"hidden"}}}},"left":{"position":"left","attrs":{"circle":{"r":4,"magnet":true,"stroke":"#5F95FF","strokeWidth":1,"fill":"#fff","style":{"visibility":"hidden"}}}}},"items":[{"group":"top","id":"aecf0105-4f5c-4e1e-b0d8-e8af3af07b86"},{"group":"right","id":"60550e06-447e-45e1-a44b-13934226a7bb"},{"group":"bottom","id":"6b7e2b4c-376f-4afc-a69d-5b1bb6cbc06b"},{"group":"left","id":"9245180d-7e25-40a4-bdcb-36541ad78920"}]},"id":"986fc5a3-a119-4500-abb5-38d9b5bae38e","data":{"protoText":"Remove RNAse mixture and add 1 mL of 4° High Str buffer to deactivate RNAse ONE."},"type":"textNode","zIndex":16},{"position":{"x":1197,"y":270},"size":{"width":130,"height":82},"view":"react-shape-view","shape":"custom-react-shape","ports":{"groups":{"top":{"position":"top","attrs":{"circle":{"r":4,"magnet":true,"stroke":"#5F95FF","strokeWidth":1,"fill":"#fff","style":{"visibility":"hidden"}}}},"right":{"position":"right","attrs":{"circle":{"r":4,"magnet":true,"stroke":"#5F95FF","strokeWidth":1,"fill":"#fff","style":{"visibility":"hidden"}}}},"bottom":{"position":"bottom","attrs":{"circle":{"r":4,"magnet":true,"stroke":"#5F95FF","strokeWidth":1,"fill":"#fff","style":{"visibility":"hidden"}}}},"left":{"position":"left","attrs":{"circle":{"r":4,"magnet":true,"stroke":"#5F95FF","strokeWidth":1,"fill":"#fff","style":{"visibility":"hidden"}}}}},"items":[{"group":"top","id":"aecf0105-4f5c-4e1e-b0d8-e8af3af07b86"},{"group":"right","id":"60550e06-447e-45e1-a44b-13934226a7bb"},{"group":"bottom","id":"6b7e2b4c-376f-4afc-a69d-5b1bb6cbc06b"},{"group":"left","id":"9245180d-7e25-40a4-bdcb-36541ad78920"}]},"id":"91da877a-fd41-41f5-8e63-1541cab1f24e","data":{"protoText":"Wash beads 2X 1 mL NT2, then step down volume in NT2."},"type":"textNode","zIndex":17},{"position":{"x":1182,"y":413},"size":{"width":160,"height":100},"view":"react-shape-view","shape":"custom-react-shape","ports":{"groups":{"top":{"position":"top","attrs":{"circle":{"r":4,"magnet":true,"stroke":"#5F95FF","strokeWidth":1,"fill":"#fff","style":{"visibility":"hidden"}}}},"right":{"position":"right","attrs":{"circle":{"r":4,"magnet":true,"stroke":"#5F95FF","strokeWidth":1,"fill":"#fff","style":{"visibility":"hidden"}}}},"bottom":{"position":"bottom","attrs":{"circle":{"r":4,"magnet":true,"stroke":"#5F95FF","strokeWidth":1,"fill":"#fff","style":{"visibility":"hidden"}}}},"left":{"position":"left","attrs":{"circle":{"r":4,"magnet":true,"stroke":"#5F95FF","strokeWidth":1,"fill":"#fff","style":{"visibility":"hidden"}}}}},"items":[{"group":"top","id":"7ccdfedc-4c48-4efe-a036-45d71357a99d"},{"group":"right","id":"3adac6fe-dd36-4676-b525-35e99e05281a"},{"group":"bottom","id":"2de48b91-1ed8-4208-8c6d-2c31e531275a"},{"group":"left","id":"a640d4aa-25f3-43f9-b645-263ed0be73d5"}]},"id":"fefa1fd5-8ca4-4036-b870-11b638e385c0","data":{"protoText":"NT2 buffer (Tris pH 7.5 50 mM, NaCl 150 mM, MgCl2 1 mM, Igepal CA-630 0.05%)"},"type":"inputNode","zIndex":18},{"position":{"x":982,"y":261},"size":{"width":160,"height":100},"view":"react-shape-view","shape":"custom-react-shape","ports":{"groups":{"top":{"position":"top","attrs":{"circle":{"r":4,"magnet":true,"stroke":"#5F95FF","strokeWidth":1,"fill":"#fff","style":{"visibility":"hidden"}}}},"right":{"position":"right","attrs":{"circle":{"r":4,"magnet":true,"stroke":"#5F95FF","strokeWidth":1,"fill":"#fff","style":{"visibility":"hidden"}}}},"bottom":{"position":"bottom","attrs":{"circle":{"r":4,"magnet":true,"stroke":"#5F95FF","strokeWidth":1,"fill":"#fff","style":{"visibility":"hidden"}}}},"left":{"position":"left","attrs":{"circle":{"r":4,"magnet":true,"stroke":"#5F95FF","strokeWidth":1,"fill":"#fff","style":{"visibility":"hidden"}}}}},"items":[{"group":"top","id":"aecf0105-4f5c-4e1e-b0d8-e8af3af07b86"},{"group":"right","id":"60550e06-447e-45e1-a44b-13934226a7bb"},{"group":"bottom","id":"6b7e2b4c-376f-4afc-a69d-5b1bb6cbc06b"},{"group":"left","id":"9245180d-7e25-40a4-bdcb-36541ad78920"}]},"id":"200dee41-90b3-4c95-a243-1fb30220f0c9","data":{"protoText":"Resuspend beads in 36 µl of PNK-3' Mix. Inucbate at 37° for 30min, 15s 1350rpm, 90s rest."},"type":"textNode","zIndex":19},{"position":{"x":800,"y":261},"size":{"width":145,"height":100},"view":"react-shape-view","shape":"custom-react-shape","ports":{"groups":{"top":{"position":"top","attrs":{"circle":{"r":4,"magnet":true,"stroke":"#5F95FF","strokeWidth":1,"fill":"#fff","style":{"visibility":"hidden"}}}},"right":{"position":"right","attrs":{"circle":{"r":4,"magnet":true,"stroke":"#5F95FF","strokeWidth":1,"fill":"#fff","style":{"visibility":"hidden"}}}},"bottom":{"position":"bottom","attrs":{"circle":{"r":4,"magnet":true,"stroke":"#5F95FF","strokeWidth":1,"fill":"#fff","style":{"visibility":"hidden"}}}},"left":{"position":"left","attrs":{"circle":{"r":4,"magnet":true,"stroke":"#5F95FF","strokeWidth":1,"fill":"#fff","style":{"visibility":"hidden"}}}}},"items":[{"group":"top","id":"aecf0105-4f5c-4e1e-b0d8-e8af3af07b86"},{"group":"right","id":"60550e06-447e-45e1-a44b-13934226a7bb"},{"group":"bottom","id":"6b7e2b4c-376f-4afc-a69d-5b1bb6cbc06b"},{"group":"left","id":"9245180d-7e25-40a4-bdcb-36541ad78920"}]},"id":"47e25972-beca-4791-8c0d-a8a59d674ac5","data":{"protoText":"Place on magnet and remove PNK reaction (no wash required before ligation)."},"type":"textNode","zIndex":20},{"position":{"x":582,"y":261},"size":{"width":160,"height":100},"view":"react-shape-view","shape":"custom-react-shape","ports":{"groups":{"top":{"position":"top","attrs":{"circle":{"r":4,"magnet":true,"stroke":"#5F95FF","strokeWidth":1,"fill":"#fff","style":{"visibility":"hidden"}}}},"right":{"position":"right","attrs":{"circle":{"r":4,"magnet":true,"stroke":"#5F95FF","strokeWidth":1,"fill":"#fff","style":{"visibility":"hidden"}}}},"bottom":{"position":"bottom","attrs":{"circle":{"r":4,"magnet":true,"stroke":"#5F95FF","strokeWidth":1,"fill":"#fff","style":{"visibility":"hidden"}}}},"left":{"position":"left","attrs":{"circle":{"r":4,"magnet":true,"stroke":"#5F95FF","strokeWidth":1,"fill":"#fff","style":{"visibility":"hidden"}}}}},"items":[{"group":"top","id":"aecf0105-4f5c-4e1e-b0d8-e8af3af07b86"},{"group":"right","id":"60550e06-447e-45e1-a44b-13934226a7bb"},{"group":"bottom","id":"6b7e2b4c-376f-4afc-a69d-5b1bb6cbc06b"},{"group":"left","id":"9245180d-7e25-40a4-bdcb-36541ad78920"}]},"id":"85617b6e-3bf2-4147-a8f2-82569c629a52","data":{"protoText":"Ligate 2h to overnight in thermomixer at 16° in 36 µl of 3' Ligation Mix. 15s 1350 rpm, 90s rest"},"type":"textNode","zIndex":21},{"position":{"x":440,"y":279},"size":{"width":100,"height":64},"view":"react-shape-view","shape":"custom-react-shape","ports":{"groups":{"top":{"position":"top","attrs":{"circle":{"r":4,"magnet":true,"stroke":"#5F95FF","strokeWidth":1,"fill":"#fff","style":{"visibility":"hidden"}}}},"right":{"position":"right","attrs":{"circle":{"r":4,"magnet":true,"stroke":"#5F95FF","strokeWidth":1,"fill":"#fff","style":{"visibility":"hidden"}}}},"bottom":{"position":"bottom","attrs":{"circle":{"r":4,"magnet":true,"stroke":"#5F95FF","strokeWidth":1,"fill":"#fff","style":{"visibility":"hidden"}}}},"left":{"position":"left","attrs":{"circle":{"r":4,"magnet":true,"stroke":"#5F95FF","strokeWidth":1,"fill":"#fff","style":{"visibility":"hidden"}}}}},"items":[{"group":"top","id":"aecf0105-4f5c-4e1e-b0d8-e8af3af07b86"},{"group":"right","id":"60550e06-447e-45e1-a44b-13934226a7bb"},{"group":"bottom","id":"6b7e2b4c-376f-4afc-a69d-5b1bb6cbc06b"},{"group":"left","id":"9245180d-7e25-40a4-bdcb-36541ad78920"}]},"id":"84a11d71-3aae-4025-809b-77ef269e5045","data":{"protoText":"Wash 1X H. Salt or H. Str, 2X NT2."},"type":"textNode","zIndex":22},{"position":{"x":284,"y":270},"size":{"width":115,"height":82},"view":"react-shape-view","shape":"custom-react-shape","ports":{"groups":{"top":{"position":"top","attrs":{"circle":{"r":4,"magnet":true,"stroke":"#5F95FF","strokeWidth":1,"fill":"#fff","style":{"visibility":"hidden"}}}},"right":{"position":"right","attrs":{"circle":{"r":4,"magnet":true,"stroke":"#5F95FF","strokeWidth":1,"fill":"#fff","style":{"visibility":"hidden"}}}},"bottom":{"position":"bottom","attrs":{"circle":{"r":4,"magnet":true,"stroke":"#5F95FF","strokeWidth":1,"fill":"#fff","style":{"visibility":"hidden"}}}},"left":{"position":"left","attrs":{"circle":{"r":4,"magnet":true,"stroke":"#5F95FF","strokeWidth":1,"fill":"#fff","style":{"visibility":"hidden"}}}}},"items":[{"group":"top","id":"aecf0105-4f5c-4e1e-b0d8-e8af3af07b86"},{"group":"right","id":"60550e06-447e-45e1-a44b-13934226a7bb"},{"group":"bottom","id":"6b7e2b4c-376f-4afc-a69d-5b1bb6cbc06b"},{"group":"left","id":"9245180d-7e25-40a4-bdcb-36541ad78920"}]},"id":"a61ffe8a-0273-4133-8c8f-0626b0a78a1c","data":{"protoText":" Resuspend beads in 70 µL of 5'PNK reaction."},"type":"textNode","zIndex":23},{"position":{"x":104,"y":270},"size":{"width":145,"height":82},"view":"react-shape-view","shape":"custom-react-shape","ports":{"groups":{"top":{"position":"top","attrs":{"circle":{"r":4,"magnet":true,"stroke":"#5F95FF","strokeWidth":1,"fill":"#fff","style":{"visibility":"hidden"}}}},"right":{"position":"right","attrs":{"circle":{"r":4,"magnet":true,"stroke":"#5F95FF","strokeWidth":1,"fill":"#fff","style":{"visibility":"hidden"}}}},"bottom":{"position":"bottom","attrs":{"circle":{"r":4,"magnet":true,"stroke":"#5F95FF","strokeWidth":1,"fill":"#fff","style":{"visibility":"hidden"}}}},"left":{"position":"left","attrs":{"circle":{"r":4,"magnet":true,"stroke":"#5F95FF","strokeWidth":1,"fill":"#fff","style":{"visibility":"hidden"}}}}},"items":[{"group":"top","id":"aecf0105-4f5c-4e1e-b0d8-e8af3af07b86"},{"group":"right","id":"60550e06-447e-45e1-a44b-13934226a7bb"},{"group":"bottom","id":"6b7e2b4c-376f-4afc-a69d-5b1bb6cbc06b"},{"group":"left","id":"9245180d-7e25-40a4-bdcb-36541ad78920"}]},"id":"ae58dd66-ccf3-4df5-b068-40ee14d4fdf6","data":{"protoText":"Incubate in thermomixer at 37° for 15', 15 s 1000 RPM, 15 s rest."},"type":"textNode","zIndex":24},{"position":{"x":226.5,"y":399},"size":{"width":230,"height":128},"view":"react-shape-view","shape":"custom-react-shape","ports":{"groups":{"top":{"position":"top","attrs":{"circle":{"r":4,"magnet":true,"stroke":"#5F95FF","strokeWidth":1,"fill":"#fff","style":{"visibility":"hidden"}}}},"right":{"position":"right","attrs":{"circle":{"r":4,"magnet":true,"stroke":"#5F95FF","strokeWidth":1,"fill":"#fff","style":{"visibility":"hidden"}}}},"bottom":{"position":"bottom","attrs":{"circle":{"r":4,"magnet":true,"stroke":"#5F95FF","strokeWidth":1,"fill":"#fff","style":{"visibility":"hidden"}}}},"left":{"position":"left","attrs":{"circle":{"r":4,"magnet":true,"stroke":"#5F95FF","strokeWidth":1,"fill":"#fff","style":{"visibility":"hidden"}}}}},"items":[{"group":"top","id":"7ccdfedc-4c48-4efe-a036-45d71357a99d"},{"group":"right","id":"3adac6fe-dd36-4676-b525-35e99e05281a"},{"group":"bottom","id":"2de48b91-1ed8-4208-8c6d-2c31e531275a"},{"group":"left","id":"a640d4aa-25f3-43f9-b645-263ed0be73d5"}]},"id":"ee2d7e35-cb39-42eb-ae55-61d5c3d584d9","data":{"protoText":"5' PNK buffer (Tris pH 7.5 50 mM, MgCl2 5 mM, PEG400 16.7%, ATP 1 mM, DTT 5 mM, SUPERase•In 0.33 U/µL, T4 PNK 0.5 U/µL)"},"type":"inputNode","zIndex":25},{"position":{"x":963,"y":417},"size":{"width":200,"height":120},"view":"react-shape-view","shape":"custom-react-shape","ports":{"groups":{"top":{"position":"top","attrs":{"circle":{"r":4,"magnet":true,"stroke":"#5F95FF","strokeWidth":1,"fill":"#fff","style":{"visibility":"hidden"}}}},"right":{"position":"right","attrs":{"circle":{"r":4,"magnet":true,"stroke":"#5F95FF","strokeWidth":1,"fill":"#fff","style":{"visibility":"hidden"}}}},"bottom":{"position":"bottom","attrs":{"circle":{"r":4,"magnet":true,"stroke":"#5F95FF","strokeWidth":1,"fill":"#fff","style":{"visibility":"hidden"}}}},"left":{"position":"left","attrs":{"circle":{"r":4,"magnet":true,"stroke":"#5F95FF","strokeWidth":1,"fill":"#fff","style":{"visibility":"hidden"}}}}},"items":[{"group":"top","id":"7ccdfedc-4c48-4efe-a036-45d71357a99d"},{"group":"right","id":"3adac6fe-dd36-4676-b525-35e99e05281a"},{"group":"bottom","id":"2de48b91-1ed8-4208-8c6d-2c31e531275a"},{"group":"left","id":"a640d4aa-25f3-43f9-b645-263ed0be73d5"}]},"id":"ef634766-42fe-4ec5-9bc9-98352627c4d2","data":{"protoText":"3' PNK buffer (Tris pH 6.8 50 mM, MgCl2 5 mM, PEG400 16.7%, DTT 5 mM, SUPERase•In 0.067 U/µL, T4 PNK 0.5 U/µL)"},"type":"inputNode","zIndex":26},{"position":{"x":1585,"y":417},"size":{"width":210,"height":110},"view":"react-shape-view","shape":"custom-react-shape","ports":{"groups":{"top":{"position":"top","attrs":{"circle":{"r":4,"magnet":true,"stroke":"#5F95FF","strokeWidth":1,"fill":"#fff","style":{"visibility":"hidden"}}}},"right":{"position":"right","attrs":{"circle":{"r":4,"magnet":true,"stroke":"#5F95FF","strokeWidth":1,"fill":"#fff","style":{"visibility":"hidden"}}}},"bottom":{"position":"bottom","attrs":{"circle":{"r":4,"magnet":true,"stroke":"#5F95FF","strokeWidth":1,"fill":"#fff","style":{"visibility":"hidden"}}}},"left":{"position":"left","attrs":{"circle":{"r":4,"magnet":true,"stroke":"#5F95FF","strokeWidth":1,"fill":"#fff","style":{"visibility":"hidden"}}}}},"items":[{"group":"top","id":"7ccdfedc-4c48-4efe-a036-45d71357a99d"},{"group":"right","id":"3adac6fe-dd36-4676-b525-35e99e05281a"},{"group":"bottom","id":"2de48b91-1ed8-4208-8c6d-2c31e531275a"},{"group":"left","id":"a640d4aa-25f3-43f9-b645-263ed0be73d5"}]},"id":"14b075b4-e528-4625-91d0-8283f97c08ab","data":{"protoText":"Nuclease digestion buffer (per reaction: 50 µL NT2 buffer with enzyme, 10 µL PEG400)"},"type":"inputNode","zIndex":27},{"position":{"x":553,"y":413},"size":{"width":220,"height":120},"view":"react-shape-view","shape":"custom-react-shape","ports":{"groups":{"top":{"position":"top","attrs":{"circle":{"r":4,"magnet":true,"stroke":"#5F95FF","strokeWidth":1,"fill":"#fff","style":{"visibility":"hidden"}}}},"right":{"position":"right","attrs":{"circle":{"r":4,"magnet":true,"stroke":"#5F95FF","strokeWidth":1,"fill":"#fff","style":{"visibility":"hidden"}}}},"bottom":{"position":"bottom","attrs":{"circle":{"r":4,"magnet":true,"stroke":"#5F95FF","strokeWidth":1,"fill":"#fff","style":{"visibility":"hidden"}}}},"left":{"position":"left","attrs":{"circle":{"r":4,"magnet":true,"stroke":"#5F95FF","strokeWidth":1,"fill":"#fff","style":{"visibility":"hidden"}}}}},"items":[{"group":"top","id":"7ccdfedc-4c48-4efe-a036-45d71357a99d"},{"group":"right","id":"3adac6fe-dd36-4676-b525-35e99e05281a"},{"group":"bottom","id":"2de48b91-1ed8-4208-8c6d-2c31e531275a"},{"group":"left","id":"a640d4aa-25f3-43f9-b645-263ed0be73d5"}]},"id":"fc7156f8-2258-4c17-9083-bb39023ab15b","data":{"protoText":"3' ligation buffer (Tris pH 7.5 50 mM, MgCl2 10 mM, PEG400 16.7%, DTT 5 mM, SUPERase•In 0.13 U/µL, 3' linker oligo 33 nM, T4 RNA ligase I 1 U/µL)"},"type":"inputNode","zIndex":28},{"position":{"x":231.5,"y":740},"size":{"width":220,"height":140},"view":"react-shape-view","shape":"custom-react-shape","ports":{"groups":{"top":{"position":"top","attrs":{"circle":{"r":4,"magnet":true,"stroke":"#5F95FF","strokeWidth":1,"fill":"#fff","style":{"visibility":"hidden"}}}},"right":{"position":"right","attrs":{"circle":{"r":4,"magnet":true,"stroke":"#5F95FF","strokeWidth":1,"fill":"#fff","style":{"visibility":"hidden"}}}},"bottom":{"position":"bottom","attrs":{"circle":{"r":4,"magnet":true,"stroke":"#5F95FF","strokeWidth":1,"fill":"#fff","style":{"visibility":"hidden"}}}},"left":{"position":"left","attrs":{"circle":{"r":4,"magnet":true,"stroke":"#5F95FF","strokeWidth":1,"fill":"#fff","style":{"visibility":"hidden"}}}}},"items":[{"group":"top","id":"7ccdfedc-4c48-4efe-a036-45d71357a99d"},{"group":"right","id":"3adac6fe-dd36-4676-b525-35e99e05281a"},{"group":"bottom","id":"2de48b91-1ed8-4208-8c6d-2c31e531275a"},{"group":"left","id":"a640d4aa-25f3-43f9-b645-263ed0be73d5"}]},"id":"3a2f7078-3461-4979-8fa0-3524413c2784","data":{"protoText":"5' ligation buffer (Tris pH 7.5 50 mM, MgCl2 10 mM, PEG400 16.7%, ATP 0.67 mM, DTT 5 mM, SUPERase•In 0.13 U/µL, 5' linker oligo 167 nM, T4 RNA ligase I 0.5 U/µL)"},"type":"inputNode","zIndex":29},{"position":{"x":119,"y":600},"size":{"width":115,"height":64},"view":"react-shape-view","shape":"custom-react-shape","ports":{"groups":{"top":{"position":"top","attrs":{"circle":{"r":4,"magnet":true,"stroke":"#5F95FF","strokeWidth":1,"fill":"#fff","style":{"visibility":"hidden"}}}},"right":{"position":"right","attrs":{"circle":{"r":4,"magnet":true,"stroke":"#5F95FF","strokeWidth":1,"fill":"#fff","style":{"visibility":"hidden"}}}},"bottom":{"position":"bottom","attrs":{"circle":{"r":4,"magnet":true,"stroke":"#5F95FF","strokeWidth":1,"fill":"#fff","style":{"visibility":"hidden"}}}},"left":{"position":"left","attrs":{"circle":{"r":4,"magnet":true,"stroke":"#5F95FF","strokeWidth":1,"fill":"#fff","style":{"visibility":"hidden"}}}}},"items":[{"group":"top","id":"aecf0105-4f5c-4e1e-b0d8-e8af3af07b86"},{"group":"right","id":"60550e06-447e-45e1-a44b-13934226a7bb"},{"group":"bottom","id":"6b7e2b4c-376f-4afc-a69d-5b1bb6cbc06b"},{"group":"left","id":"9245180d-7e25-40a4-bdcb-36541ad78920"}]},"id":"7513260b-b29a-4a24-b077-f1f731e76149","data":{"protoText":"Wash 2X NT2 and step down volume in NT2."},"type":"textNode","zIndex":30},{"position":{"x":276.5,"y":591},"size":{"width":130,"height":82},"view":"react-shape-view","shape":"custom-react-shape","ports":{"groups":{"top":{"position":"top","attrs":{"circle":{"r":4,"magnet":true,"stroke":"#5F95FF","strokeWidth":1,"fill":"#fff","style":{"visibility":"hidden"}}}},"right":{"position":"right","attrs":{"circle":{"r":4,"magnet":true,"stroke":"#5F95FF","strokeWidth":1,"fill":"#fff","style":{"visibility":"hidden"}}}},"bottom":{"position":"bottom","attrs":{"circle":{"r":4,"magnet":true,"stroke":"#5F95FF","strokeWidth":1,"fill":"#fff","style":{"visibility":"hidden"}}}},"left":{"position":"left","attrs":{"circle":{"r":4,"magnet":true,"stroke":"#5F95FF","strokeWidth":1,"fill":"#fff","style":{"visibility":"hidden"}}}}},"items":[{"group":"top","id":"aecf0105-4f5c-4e1e-b0d8-e8af3af07b86"},{"group":"right","id":"60550e06-447e-45e1-a44b-13934226a7bb"},{"group":"bottom","id":"6b7e2b4c-376f-4afc-a69d-5b1bb6cbc06b"},{"group":"left","id":"9245180d-7e25-40a4-bdcb-36541ad78920"}]},"id":"13ee122f-4c28-48b3-9a41-c09c36434e4e","data":{"protoText":" Resuspend beads in 70 µL of 5' ligation reaction."},"type":"textNode","zIndex":31},{"position":{"x":477.5,"y":591},"size":{"width":130,"height":82},"view":"react-shape-view","shape":"custom-react-shape","ports":{"groups":{"top":{"position":"top","attrs":{"circle":{"r":4,"magnet":true,"stroke":"#5F95FF","strokeWidth":1,"fill":"#fff","style":{"visibility":"hidden"}}}},"right":{"position":"right","attrs":{"circle":{"r":4,"magnet":true,"stroke":"#5F95FF","strokeWidth":1,"fill":"#fff","style":{"visibility":"hidden"}}}},"bottom":{"position":"bottom","attrs":{"circle":{"r":4,"magnet":true,"stroke":"#5F95FF","strokeWidth":1,"fill":"#fff","style":{"visibility":"hidden"}}}},"left":{"position":"left","attrs":{"circle":{"r":4,"magnet":true,"stroke":"#5F95FF","strokeWidth":1,"fill":"#fff","style":{"visibility":"hidden"}}}}},"items":[{"group":"top","id":"aecf0105-4f5c-4e1e-b0d8-e8af3af07b86"},{"group":"right","id":"60550e06-447e-45e1-a44b-13934226a7bb"},{"group":"bottom","id":"6b7e2b4c-376f-4afc-a69d-5b1bb6cbc06b"},{"group":"left","id":"9245180d-7e25-40a4-bdcb-36541ad78920"}]},"id":"919f9d6b-8f0e-441f-9f8c-d417ec1c7ff7","data":{"protoText":"Incubate at 16° for 2 h, 15 s 1350 RPM, 90 s rest."},"type":"textNode","zIndex":32},{"position":{"x":658,"y":591},"size":{"width":115,"height":82},"view":"react-shape-view","shape":"custom-react-shape","ports":{"groups":{"top":{"position":"top","attrs":{"circle":{"r":4,"magnet":true,"stroke":"#5F95FF","strokeWidth":1,"fill":"#fff","style":{"visibility":"hidden"}}}},"right":{"position":"right","attrs":{"circle":{"r":4,"magnet":true,"stroke":"#5F95FF","strokeWidth":1,"fill":"#fff","style":{"visibility":"hidden"}}}},"bottom":{"position":"bottom","attrs":{"circle":{"r":4,"magnet":true,"stroke":"#5F95FF","strokeWidth":1,"fill":"#fff","style":{"visibility":"hidden"}}}},"left":{"position":"left","attrs":{"circle":{"r":4,"magnet":true,"stroke":"#5F95FF","strokeWidth":1,"fill":"#fff","style":{"visibility":"hidden"}}}}},"items":[{"group":"top","id":"aecf0105-4f5c-4e1e-b0d8-e8af3af07b86"},{"group":"right","id":"60550e06-447e-45e1-a44b-13934226a7bb"},{"group":"bottom","id":"6b7e2b4c-376f-4afc-a69d-5b1bb6cbc06b"},{"group":"left","id":"9245180d-7e25-40a4-bdcb-36541ad78920"}]},"id":"2f8563d1-5606-42b9-9969-20370c0fa04d","data":{"protoText":" Wash 1-2X with NT2 and step down volume in NT1."},"type":"textNode","zIndex":33},{"position":{"x":830,"y":600},"size":{"width":100,"height":64},"view":"react-shape-view","shape":"custom-react-shape","ports":{"groups":{"top":{"position":"top","attrs":{"circle":{"r":4,"magnet":true,"stroke":"#5F95FF","strokeWidth":1,"fill":"#fff","style":{"visibility":"hidden"}}}},"right":{"position":"right","attrs":{"circle":{"r":4,"magnet":true,"stroke":"#5F95FF","strokeWidth":1,"fill":"#fff","style":{"visibility":"hidden"}}}},"bottom":{"position":"bottom","attrs":{"circle":{"r":4,"magnet":true,"stroke":"#5F95FF","strokeWidth":1,"fill":"#fff","style":{"visibility":"hidden"}}}},"left":{"position":"left","attrs":{"circle":{"r":4,"magnet":true,"stroke":"#5F95FF","strokeWidth":1,"fill":"#fff","style":{"visibility":"hidden"}}}}},"items":[{"group":"top","id":"aecf0105-4f5c-4e1e-b0d8-e8af3af07b86"},{"group":"right","id":"60550e06-447e-45e1-a44b-13934226a7bb"},{"group":"bottom","id":"6b7e2b4c-376f-4afc-a69d-5b1bb6cbc06b"},{"group":"left","id":"9245180d-7e25-40a4-bdcb-36541ad78920"}]},"id":"51a1ec91-199d-4dc3-b87b-80b198f07587","data":{"protoText":" Optionally freeze 10% for WB."},"type":"textNode","zIndex":34},{"position":{"x":982,"y":600},"size":{"width":100,"height":64},"view":"react-shape-view","shape":"custom-react-shape","ports":{"groups":{"top":{"position":"top","attrs":{"circle":{"r":4,"magnet":true,"stroke":"#5F95FF","strokeWidth":1,"fill":"#fff","style":{"visibility":"hidden"}}}},"right":{"position":"right","attrs":{"circle":{"r":4,"magnet":true,"stroke":"#5F95FF","strokeWidth":1,"fill":"#fff","style":{"visibility":"hidden"}}}},"bottom":{"position":"bottom","attrs":{"circle":{"r":4,"magnet":true,"stroke":"#5F95FF","strokeWidth":1,"fill":"#fff","style":{"visibility":"hidden"}}}},"left":{"position":"left","attrs":{"circle":{"r":4,"magnet":true,"stroke":"#5F95FF","strokeWidth":1,"fill":"#fff","style":{"visibility":"hidden"}}}}},"items":[{"group":"top","id":"aecf0105-4f5c-4e1e-b0d8-e8af3af07b86"},{"group":"right","id":"60550e06-447e-45e1-a44b-13934226a7bb"},{"group":"bottom","id":"6b7e2b4c-376f-4afc-a69d-5b1bb6cbc06b"},{"group":"left","id":"9245180d-7e25-40a4-bdcb-36541ad78920"}]},"id":"a4a45448-33bd-4b02-9836-f3770a29421e","data":{"protoText":"Resuspend beads in 20 µL 1.6X LDS."},"type":"textNode","zIndex":35},{"position":{"x":1112,"y":609},"size":{"width":85,"height":46},"view":"react-shape-view","shape":"custom-react-shape","ports":{"groups":{"top":{"position":"top","attrs":{"circle":{"r":4,"magnet":true,"stroke":"#5F95FF","strokeWidth":1,"fill":"#fff","style":{"visibility":"hidden"}}}},"right":{"position":"right","attrs":{"circle":{"r":4,"magnet":true,"stroke":"#5F95FF","strokeWidth":1,"fill":"#fff","style":{"visibility":"hidden"}}}},"bottom":{"position":"bottom","attrs":{"circle":{"r":4,"magnet":true,"stroke":"#5F95FF","strokeWidth":1,"fill":"#fff","style":{"visibility":"hidden"}}}},"left":{"position":"left","attrs":{"circle":{"r":4,"magnet":true,"stroke":"#5F95FF","strokeWidth":1,"fill":"#fff","style":{"visibility":"hidden"}}}}},"items":[{"group":"top","id":"aecf0105-4f5c-4e1e-b0d8-e8af3af07b86"},{"group":"right","id":"60550e06-447e-45e1-a44b-13934226a7bb"},{"group":"bottom","id":"6b7e2b4c-376f-4afc-a69d-5b1bb6cbc06b"},{"group":"left","id":"9245180d-7e25-40a4-bdcb-36541ad78920"}]},"id":"0d2e28a9-cf2d-42e3-bc02-79d613f9a23f","data":{"protoText":" Heat 75° for 15min."},"type":"textNode","zIndex":36},{"position":{"x":1250,"y":582},"size":{"width":160,"height":100},"view":"react-shape-view","shape":"custom-react-shape","ports":{"groups":{"top":{"position":"top","attrs":{"circle":{"r":4,"magnet":true,"stroke":"#5F95FF","strokeWidth":1,"fill":"#fff","style":{"visibility":"hidden"}}}},"right":{"position":"right","attrs":{"circle":{"r":4,"magnet":true,"stroke":"#5F95FF","strokeWidth":1,"fill":"#fff","style":{"visibility":"hidden"}}}},"bottom":{"position":"bottom","attrs":{"circle":{"r":4,"magnet":true,"stroke":"#5F95FF","strokeWidth":1,"fill":"#fff","style":{"visibility":"hidden"}}}},"left":{"position":"left","attrs":{"circle":{"r":4,"magnet":true,"stroke":"#5F95FF","strokeWidth":1,"fill":"#fff","style":{"visibility":"hidden"}}}}},"items":[{"group":"top","id":"aecf0105-4f5c-4e1e-b0d8-e8af3af07b86"},{"group":"right","id":"60550e06-447e-45e1-a44b-13934226a7bb"},{"group":"bottom","id":"6b7e2b4c-376f-4afc-a69d-5b1bb6cbc06b"},{"group":"left","id":"9245180d-7e25-40a4-bdcb-36541ad78920"}]},"id":"b32f7bb9-139c-4db0-96ea-5720b0712420","data":{"protoText":"Run samples in NuPAGE gel, 180V 30-50 minutes, transfer to .45 µm nitrocellulose at 400 mA for 27'."},"type":"textNode","zIndex":37},{"position":{"x":1480,"y":592},"size":{"width":180,"height":80},"view":"react-shape-view","shape":"custom-react-shape","ports":{"groups":{"top":{"position":"top","attrs":{"circle":{"r":4,"magnet":true,"stroke":"#5F95FF","strokeWidth":1,"fill":"#fff","style":{"visibility":"hidden"}}}},"right":{"position":"right","attrs":{"circle":{"r":4,"magnet":true,"stroke":"#5F95FF","strokeWidth":1,"fill":"#fff","style":{"visibility":"hidden"}}}},"bottom":{"position":"bottom","attrs":{"circle":{"r":4,"magnet":true,"stroke":"#5F95FF","strokeWidth":1,"fill":"#fff","style":{"visibility":"hidden"}}}},"left":{"position":"left","attrs":{"circle":{"r":4,"magnet":true,"stroke":"#5F95FF","strokeWidth":1,"fill":"#fff","style":{"visibility":"hidden"}}}}},"items":[{"group":"top","id":"aecf0105-4f5c-4e1e-b0d8-e8af3af07b86"},{"group":"right","id":"60550e06-447e-45e1-a44b-13934226a7bb"},{"group":"bottom","id":"6b7e2b4c-376f-4afc-a69d-5b1bb6cbc06b"},{"group":"left","id":"9245180d-7e25-40a4-bdcb-36541ad78920"}]},"id":"d815168a-2fc9-432c-854a-63df71bbc829","data":{"protoText":" Rinse membrane 1xPBS, scan on Odessy CLx (lowest quality/resolution OK)"},"type":"textNode","zIndex":38},{"position":{"x":1710,"y":573},"size":{"width":175,"height":118},"view":"react-shape-view","shape":"custom-react-shape","ports":{"groups":{"top":{"position":"top","attrs":{"circle":{"r":4,"magnet":true,"stroke":"#5F95FF","strokeWidth":1,"fill":"#fff","style":{"visibility":"hidden"}}}},"right":{"position":"right","attrs":{"circle":{"r":4,"magnet":true,"stroke":"#5F95FF","strokeWidth":1,"fill":"#fff","style":{"visibility":"hidden"}}}},"bottom":{"position":"bottom","attrs":{"circle":{"r":4,"magnet":true,"stroke":"#5F95FF","strokeWidth":1,"fill":"#fff","style":{"visibility":"hidden"}}}},"left":{"position":"left","attrs":{"circle":{"r":4,"magnet":true,"stroke":"#5F95FF","strokeWidth":1,"fill":"#fff","style":{"visibility":"hidden"}}}}},"items":[{"group":"top","id":"aecf0105-4f5c-4e1e-b0d8-e8af3af07b86"},{"group":"right","id":"60550e06-447e-45e1-a44b-13934226a7bb"},{"group":"bottom","id":"6b7e2b4c-376f-4afc-a69d-5b1bb6cbc06b"},{"group":"left","id":"9245180d-7e25-40a4-bdcb-36541ad78920"}]},"id":"a2cb5fa1-3d83-4ca6-a169-f3c9a1f757de","data":{"protoText":" For each sample, add 375 µL PK buffer and 25 µL of Proteinase K (Ambion, 20mg/mL) to a DNA LoBind tube (Eppendorf)"},"type":"textNode","zIndex":39},{"position":{"x":1670,"y":792},"size":{"width":240,"height":160},"view":"react-shape-view","shape":"custom-react-shape","ports":{"groups":{"top":{"position":"top","attrs":{"circle":{"r":4,"magnet":true,"stroke":"#5F95FF","strokeWidth":1,"fill":"#fff","style":{"visibility":"hidden"}}}},"right":{"position":"right","attrs":{"circle":{"r":4,"magnet":true,"stroke":"#5F95FF","strokeWidth":1,"fill":"#fff","style":{"visibility":"hidden"}}}},"bottom":{"position":"bottom","attrs":{"circle":{"r":4,"magnet":true,"stroke":"#5F95FF","strokeWidth":1,"fill":"#fff","style":{"visibility":"hidden"}}}},"left":{"position":"left","attrs":{"circle":{"r":4,"magnet":true,"stroke":"#5F95FF","strokeWidth":1,"fill":"#fff","style":{"visibility":"hidden"}}}}},"items":[{"group":"top","id":"aecf0105-4f5c-4e1e-b0d8-e8af3af07b86"},{"group":"right","id":"60550e06-447e-45e1-a44b-13934226a7bb"},{"group":"bottom","id":"6b7e2b4c-376f-4afc-a69d-5b1bb6cbc06b"},{"group":"left","id":"9245180d-7e25-40a4-bdcb-36541ad78920"}]},"id":"68d90ca3-8f95-48ba-8200-49f07572215e","data":{"protoText":" Place the nitrocellulose on PBS-soaked fi lter paper and cut with a scalpel in each hand. We usually cut the minimal region and everything higher. Use a scalpel to transfer the slices of membrane to the Proteinase K mixture."},"type":"textNode","zIndex":40},{"position":{"x":1480,"y":831},"size":{"width":145,"height":82},"view":"react-shape-view","shape":"custom-react-shape","ports":{"groups":{"top":{"position":"top","attrs":{"circle":{"r":4,"magnet":true,"stroke":"#5F95FF","strokeWidth":1,"fill":"#fff","style":{"visibility":"hidden"}}}},"right":{"position":"right","attrs":{"circle":{"r":4,"magnet":true,"stroke":"#5F95FF","strokeWidth":1,"fill":"#fff","style":{"visibility":"hidden"}}}},"bottom":{"position":"bottom","attrs":{"circle":{"r":4,"magnet":true,"stroke":"#5F95FF","strokeWidth":1,"fill":"#fff","style":{"visibility":"hidden"}}}},"left":{"position":"left","attrs":{"circle":{"r":4,"magnet":true,"stroke":"#5F95FF","strokeWidth":1,"fill":"#fff","style":{"visibility":"hidden"}}}}},"items":[{"group":"top","id":"aecf0105-4f5c-4e1e-b0d8-e8af3af07b86"},{"group":"right","id":"60550e06-447e-45e1-a44b-13934226a7bb"},{"group":"bottom","id":"6b7e2b4c-376f-4afc-a69d-5b1bb6cbc06b"},{"group":"left","id":"9245180d-7e25-40a4-bdcb-36541ad78920"}]},"id":"ffea44eb-3a3c-4f8c-b16b-a274e7e159c3","data":{"protoText":" Incubate at 50-55° for 45min in thermomixer. 15s 900rpm, 45s rest."},"type":"textNode","zIndex":41},{"position":{"x":1290,"y":890},"size":{"width":160,"height":80},"view":"react-shape-view","shape":"custom-react-shape","ports":{"groups":{"top":{"position":"top","attrs":{"circle":{"r":4,"magnet":true,"stroke":"#5F95FF","strokeWidth":1,"fill":"#fff","style":{"visibility":"hidden"}}}},"right":{"position":"right","attrs":{"circle":{"r":4,"magnet":true,"stroke":"#5F95FF","strokeWidth":1,"fill":"#fff","style":{"visibility":"hidden"}}}},"bottom":{"position":"bottom","attrs":{"circle":{"r":4,"magnet":true,"stroke":"#5F95FF","strokeWidth":1,"fill":"#fff","style":{"visibility":"hidden"}}}},"left":{"position":"left","attrs":{"circle":{"r":4,"magnet":true,"stroke":"#5F95FF","strokeWidth":1,"fill":"#fff","style":{"visibility":"hidden"}}}}},"items":[{"group":"top","id":"aecf0105-4f5c-4e1e-b0d8-e8af3af07b86"},{"group":"right","id":"60550e06-447e-45e1-a44b-13934226a7bb"},{"group":"bottom","id":"6b7e2b4c-376f-4afc-a69d-5b1bb6cbc06b"},{"group":"left","id":"9245180d-7e25-40a4-bdcb-36541ad78920"}]},"id":"07ad5545-c706-4a24-b005-b84e63984cee","data":{"protoText":"Wash 20 µL of oligo(dT)-dynabeads with BIB and leave in 600 µL BIB."},"type":"textNode","zIndex":42},{"position":{"x":1067,"y":880},"size":{"width":175,"height":100},"view":"react-shape-view","shape":"custom-react-shape","ports":{"groups":{"top":{"position":"top","attrs":{"circle":{"r":4,"magnet":true,"stroke":"#5F95FF","strokeWidth":1,"fill":"#fff","style":{"visibility":"hidden"}}}},"right":{"position":"right","attrs":{"circle":{"r":4,"magnet":true,"stroke":"#5F95FF","strokeWidth":1,"fill":"#fff","style":{"visibility":"hidden"}}}},"bottom":{"position":"bottom","attrs":{"circle":{"r":4,"magnet":true,"stroke":"#5F95FF","strokeWidth":1,"fill":"#fff","style":{"visibility":"hidden"}}}},"left":{"position":"left","attrs":{"circle":{"r":4,"magnet":true,"stroke":"#5F95FF","strokeWidth":1,"fill":"#fff","style":{"visibility":"hidden"}}}}},"items":[{"group":"top","id":"aecf0105-4f5c-4e1e-b0d8-e8af3af07b86"},{"group":"right","id":"60550e06-447e-45e1-a44b-13934226a7bb"},{"group":"bottom","id":"6b7e2b4c-376f-4afc-a69d-5b1bb6cbc06b"},{"group":"left","id":"9245180d-7e25-40a4-bdcb-36541ad78920"}]},"id":"370f0918-5789-49be-b91c-6ea99927b18a","data":{"protoText":" Transfer Proteinase K extract to the oligo(dT) mixture in a DNA LoBind tube. 20 min at 4° with rotation."},"type":"textNode","zIndex":43},{"position":{"x":830,"y":880},"size":{"width":160,"height":100},"view":"react-shape-view","shape":"custom-react-shape","ports":{"groups":{"top":{"position":"top","attrs":{"circle":{"r":4,"magnet":true,"stroke":"#5F95FF","strokeWidth":1,"fill":"#fff","style":{"visibility":"hidden"}}}},"right":{"position":"right","attrs":{"circle":{"r":4,"magnet":true,"stroke":"#5F95FF","strokeWidth":1,"fill":"#fff","style":{"visibility":"hidden"}}}},"bottom":{"position":"bottom","attrs":{"circle":{"r":4,"magnet":true,"stroke":"#5F95FF","strokeWidth":1,"fill":"#fff","style":{"visibility":"hidden"}}}},"left":{"position":"left","attrs":{"circle":{"r":4,"magnet":true,"stroke":"#5F95FF","strokeWidth":1,"fill":"#fff","style":{"visibility":"hidden"}}}}},"items":[{"group":"top","id":"aecf0105-4f5c-4e1e-b0d8-e8af3af07b86"},{"group":"right","id":"60550e06-447e-45e1-a44b-13934226a7bb"},{"group":"bottom","id":"6b7e2b4c-376f-4afc-a69d-5b1bb6cbc06b"},{"group":"left","id":"9245180d-7e25-40a4-bdcb-36541ad78920"}]},"id":"420119dd-aa1a-436b-a752-9d6f7ea12cd6","data":{"protoText":"Wash 1X BIB, transfer to PCR tube, wash 2X NT2, and 3X with 4° PBS. Include RNAse inhibitor."},"type":"textNode","zIndex":44},{"position":{"x":615,"y":880},"size":{"width":140,"height":100},"view":"react-shape-view","shape":"custom-react-shape","ports":{"groups":{"top":{"position":"top","attrs":{"circle":{"r":4,"magnet":true,"stroke":"#5F95FF","strokeWidth":1,"fill":"#fff","style":{"visibility":"hidden"}}}},"right":{"position":"right","attrs":{"circle":{"r":4,"magnet":true,"stroke":"#5F95FF","strokeWidth":1,"fill":"#fff","style":{"visibility":"hidden"}}}},"bottom":{"position":"bottom","attrs":{"circle":{"r":4,"magnet":true,"stroke":"#5F95FF","strokeWidth":1,"fill":"#fff","style":{"visibility":"hidden"}}}},"left":{"position":"left","attrs":{"circle":{"r":4,"magnet":true,"stroke":"#5F95FF","strokeWidth":1,"fill":"#fff","style":{"visibility":"hidden"}}}}},"items":[{"group":"top","id":"aecf0105-4f5c-4e1e-b0d8-e8af3af07b86"},{"group":"right","id":"60550e06-447e-45e1-a44b-13934226a7bb"},{"group":"bottom","id":"6b7e2b4c-376f-4afc-a69d-5b1bb6cbc06b"},{"group":"left","id":"9245180d-7e25-40a4-bdcb-36541ad78920"}]},"id":"c85c8529-cd0b-4967-9be9-7b96870b3c29","data":{"protoText":"Resuspend dT-beads in 12.4 µL water and 3 µL cDNA synthesis primer."},"type":"textNode","zIndex":45},{"position":{"x":430,"y":889},"size":{"width":130,"height":82},"view":"react-shape-view","shape":"custom-react-shape","ports":{"groups":{"top":{"position":"top","attrs":{"circle":{"r":4,"magnet":true,"stroke":"#5F95FF","strokeWidth":1,"fill":"#fff","style":{"visibility":"hidden"}}}},"right":{"position":"right","attrs":{"circle":{"r":4,"magnet":true,"stroke":"#5F95FF","strokeWidth":1,"fill":"#fff","style":{"visibility":"hidden"}}}},"bottom":{"position":"bottom","attrs":{"circle":{"r":4,"magnet":true,"stroke":"#5F95FF","strokeWidth":1,"fill":"#fff","style":{"visibility":"hidden"}}}},"left":{"position":"left","attrs":{"circle":{"r":4,"magnet":true,"stroke":"#5F95FF","strokeWidth":1,"fill":"#fff","style":{"visibility":"hidden"}}}}},"items":[{"group":"top","id":"aecf0105-4f5c-4e1e-b0d8-e8af3af07b86"},{"group":"right","id":"60550e06-447e-45e1-a44b-13934226a7bb"},{"group":"bottom","id":"6b7e2b4c-376f-4afc-a69d-5b1bb6cbc06b"},{"group":"left","id":"9245180d-7e25-40a4-bdcb-36541ad78920"}]},"id":"be26ea23-f20b-46a4-8f1c-57138c181938","data":{"protoText":" Heat 95° 3' and transfer 13.3 µL sup to new PCR tube"},"type":"textNode","zIndex":46},{"position":{"x":226.5,"y":892},"size":{"width":140,"height":80},"view":"react-shape-view","shape":"custom-react-shape","ports":{"groups":{"top":{"position":"top","attrs":{"circle":{"r":4,"magnet":true,"stroke":"#5F95FF","strokeWidth":1,"fill":"#fff","style":{"visibility":"hidden"}}}},"right":{"position":"right","attrs":{"circle":{"r":4,"magnet":true,"stroke":"#5F95FF","strokeWidth":1,"fill":"#fff","style":{"visibility":"hidden"}}}},"bottom":{"position":"bottom","attrs":{"circle":{"r":4,"magnet":true,"stroke":"#5F95FF","strokeWidth":1,"fill":"#fff","style":{"visibility":"hidden"}}}},"left":{"position":"left","attrs":{"circle":{"r":4,"magnet":true,"stroke":"#5F95FF","strokeWidth":1,"fill":"#fff","style":{"visibility":"hidden"}}}}},"items":[{"group":"top","id":"aecf0105-4f5c-4e1e-b0d8-e8af3af07b86"},{"group":"right","id":"60550e06-447e-45e1-a44b-13934226a7bb"},{"group":"bottom","id":"6b7e2b4c-376f-4afc-a69d-5b1bb6cbc06b"},{"group":"left","id":"9245180d-7e25-40a4-bdcb-36541ad78920"}]},"id":"a1abcec4-4e8e-4be7-8bb4-8570c052f513","data":{"protoText":"Place tubes at 4° for 5min."},"type":"textNode","zIndex":47},{"position":{"x":67.99999999999997,"y":880},"size":{"width":120,"height":100},"view":"react-shape-view","shape":"custom-react-shape","ports":{"groups":{"top":{"position":"top","attrs":{"circle":{"r":4,"magnet":true,"stroke":"#5F95FF","strokeWidth":1,"fill":"#fff","style":{"visibility":"hidden"}}}},"right":{"position":"right","attrs":{"circle":{"r":4,"magnet":true,"stroke":"#5F95FF","strokeWidth":1,"fill":"#fff","style":{"visibility":"hidden"}}}},"bottom":{"position":"bottom","attrs":{"circle":{"r":4,"magnet":true,"stroke":"#5F95FF","strokeWidth":1,"fill":"#fff","style":{"visibility":"hidden"}}}},"left":{"position":"left","attrs":{"circle":{"r":4,"magnet":true,"stroke":"#5F95FF","strokeWidth":1,"fill":"#fff","style":{"visibility":"hidden"}}}}},"items":[{"group":"top","id":"aecf0105-4f5c-4e1e-b0d8-e8af3af07b86"},{"group":"right","id":"60550e06-447e-45e1-a44b-13934226a7bb"},{"group":"bottom","id":"6b7e2b4c-376f-4afc-a69d-5b1bb6cbc06b"},{"group":"left","id":"9245180d-7e25-40a4-bdcb-36541ad78920"}]},"id":"dae31d75-cb2a-4884-85d7-1238910058c2","data":{"protoText":"Add the rest of the annealing mix (6.7 µL)"},"type":"textNode","zIndex":48},{"position":{"x":67.99999999999997,"y":1048},"size":{"width":130,"height":82},"view":"react-shape-view","shape":"custom-react-shape","ports":{"groups":{"top":{"position":"top","attrs":{"circle":{"r":4,"magnet":true,"stroke":"#5F95FF","strokeWidth":1,"fill":"#fff","style":{"visibility":"hidden"}}}},"right":{"position":"right","attrs":{"circle":{"r":4,"magnet":true,"stroke":"#5F95FF","strokeWidth":1,"fill":"#fff","style":{"visibility":"hidden"}}}},"bottom":{"position":"bottom","attrs":{"circle":{"r":4,"magnet":true,"stroke":"#5F95FF","strokeWidth":1,"fill":"#fff","style":{"visibility":"hidden"}}}},"left":{"position":"left","attrs":{"circle":{"r":4,"magnet":true,"stroke":"#5F95FF","strokeWidth":1,"fill":"#fff","style":{"visibility":"hidden"}}}}},"items":[{"group":"top","id":"aecf0105-4f5c-4e1e-b0d8-e8af3af07b86"},{"group":"right","id":"60550e06-447e-45e1-a44b-13934226a7bb"},{"group":"bottom","id":"6b7e2b4c-376f-4afc-a69d-5b1bb6cbc06b"},{"group":"left","id":"9245180d-7e25-40a4-bdcb-36541ad78920"}]},"id":"7582f118-8aae-4988-aaeb-7502f1d7e2e7","data":{"protoText":"Incubate 53° for 40 min, 55° for 10 min, 80° for 10 min."},"type":"textNode","zIndex":49},{"position":{"x":360,"y":1020},"size":{"width":360,"height":180},"view":"react-shape-view","shape":"custom-react-shape","ports":{"groups":{"top":{"position":"top","attrs":{"circle":{"r":4,"magnet":true,"stroke":"#5F95FF","strokeWidth":1,"fill":"#fff","style":{"visibility":"hidden"}}}},"right":{"position":"right","attrs":{"circle":{"r":4,"magnet":true,"stroke":"#5F95FF","strokeWidth":1,"fill":"#fff","style":{"visibility":"hidden"}}}},"bottom":{"position":"bottom","attrs":{"circle":{"r":4,"magnet":true,"stroke":"#5F95FF","strokeWidth":1,"fill":"#fff","style":{"visibility":"hidden"}}}},"left":{"position":"left","attrs":{"circle":{"r":4,"magnet":true,"stroke":"#5F95FF","strokeWidth":1,"fill":"#fff","style":{"visibility":"hidden"}}}}},"items":[{"group":"top","id":"b76ee6ff-6e1c-4905-869f-6894aa4b2af3"},{"group":"right","id":"32567784-9b70-4c44-ba47-28ec9c1a1d93"},{"group":"bottom","id":"a18bc2ab-4848-4022-9efc-4d5f0836bdd7"},{"group":"left","id":"bbb192df-f49e-4d15-92bc-4204277fe937"}]},"id":"c01d3261-0576-4c7d-b067-4fd902fd5da2","data":{"opName":"8-reaction master mix of PCR mix","opArgs":[{"argName":"PrimeSTAR Max DNA polymerase 2X MM (Takara)","argVal":"25 µL"},{"argName":"20 µM primer mixture","argVal":"1.25 µL"},{"argName":"33X SybrGreen I (ThermoFisher)","argVal":"1 µL"},{"argVal":"19.75 µL","argName":"water"}]},"type":"opNode","zIndex":50},{"position":{"x":800,"y":1060},"size":{"width":145,"height":100},"view":"react-shape-view","shape":"custom-react-shape","ports":{"groups":{"top":{"position":"top","attrs":{"circle":{"r":4,"magnet":true,"stroke":"#5F95FF","strokeWidth":1,"fill":"#fff","style":{"visibility":"hidden"}}}},"right":{"position":"right","attrs":{"circle":{"r":4,"magnet":true,"stroke":"#5F95FF","strokeWidth":1,"fill":"#fff","style":{"visibility":"hidden"}}}},"bottom":{"position":"bottom","attrs":{"circle":{"r":4,"magnet":true,"stroke":"#5F95FF","strokeWidth":1,"fill":"#fff","style":{"visibility":"hidden"}}}},"left":{"position":"left","attrs":{"circle":{"r":4,"magnet":true,"stroke":"#5F95FF","strokeWidth":1,"fill":"#fff","style":{"visibility":"hidden"}}}}},"items":[{"group":"top","id":"aecf0105-4f5c-4e1e-b0d8-e8af3af07b86"},{"group":"right","id":"60550e06-447e-45e1-a44b-13934226a7bb"},{"group":"bottom","id":"6b7e2b4c-376f-4afc-a69d-5b1bb6cbc06b"},{"group":"left","id":"9245180d-7e25-40a4-bdcb-36541ad78920"}]},"id":"82f8d7bd-22fa-4f6f-8e10-d712ade3320a","data":{"protoText":"Distribute 47 µL of PCR1 mix to 7 tubes and add ≤ 3.3 µL RT product to each."},"type":"textNode","zIndex":51},{"position":{"x":1032,"y":1040},"size":{"width":180,"height":140},"view":"react-shape-view","shape":"custom-react-shape","ports":{"groups":{"top":{"position":"top","attrs":{"circle":{"r":4,"magnet":true,"stroke":"#5F95FF","strokeWidth":1,"fill":"#fff","style":{"visibility":"hidden"}}}},"right":{"position":"right","attrs":{"circle":{"r":4,"magnet":true,"stroke":"#5F95FF","strokeWidth":1,"fill":"#fff","style":{"visibility":"hidden"}}}},"bottom":{"position":"bottom","attrs":{"circle":{"r":4,"magnet":true,"stroke":"#5F95FF","strokeWidth":1,"fill":"#fff","style":{"visibility":"hidden"}}}},"left":{"position":"left","attrs":{"circle":{"r":4,"magnet":true,"stroke":"#5F95FF","strokeWidth":1,"fill":"#fff","style":{"visibility":"hidden"}}}}},"items":[{"group":"top","id":"b76ee6ff-6e1c-4905-869f-6894aa4b2af3"},{"group":"right","id":"32567784-9b70-4c44-ba47-28ec9c1a1d93"},{"group":"bottom","id":"a18bc2ab-4848-4022-9efc-4d5f0836bdd7"},{"group":"left","id":"bbb192df-f49e-4d15-92bc-4204277fe937"}]},"id":"a7b71c25-ad19-4188-9497-83bbb250ec21","data":{"opName":"PCR program","opArgs":[{"argName":"98℃","argVal":"10s"},{"argName":"98℃","argVal":"5s"},{"argName":"65℃","argVal":"5s"},{"argName":"72℃","argVal":"45s"},{"argName":"step2~step4","argVal":"cycle"}]},"type":"opNode","zIndex":52},{"position":{"x":1315,"y":1042},"size":{"width":235,"height":136},"view":"react-shape-view","shape":"custom-react-shape","ports":{"groups":{"top":{"position":"top","attrs":{"circle":{"r":4,"magnet":true,"stroke":"#5F95FF","strokeWidth":1,"fill":"#fff","style":{"visibility":"hidden"}}}},"right":{"position":"right","attrs":{"circle":{"r":4,"magnet":true,"stroke":"#5F95FF","strokeWidth":1,"fill":"#fff","style":{"visibility":"hidden"}}}},"bottom":{"position":"bottom","attrs":{"circle":{"r":4,"magnet":true,"stroke":"#5F95FF","strokeWidth":1,"fill":"#fff","style":{"visibility":"hidden"}}}},"left":{"position":"left","attrs":{"circle":{"r":4,"magnet":true,"stroke":"#5F95FF","strokeWidth":1,"fill":"#fff","style":{"visibility":"hidden"}}}}},"items":[{"group":"top","id":"aecf0105-4f5c-4e1e-b0d8-e8af3af07b86"},{"group":"right","id":"60550e06-447e-45e1-a44b-13934226a7bb"},{"group":"bottom","id":"6b7e2b4c-376f-4afc-a69d-5b1bb6cbc06b"},{"group":"left","id":"9245180d-7e25-40a4-bdcb-36541ad78920"}]},"id":"49ad15c8-74bd-4fab-aa82-980cbd291ce2","data":{"protoText":" Purify PCR reactions using a NucleoSpin® Gel and PCR Clean-up kit (MACHEREY-NAGEL). Instead of the kit's wash buffer, use freshly prepared 85% ethanol. Libraries are ready for quantification and sequencing."},"type":"textNode","zIndex":53},{"position":{"x":57.99999999999997,"y":1310},"size":{"width":140,"height":60},"view":"react-shape-view","shape":"custom-react-shape","ports":{"groups":{"top":{"position":"top","attrs":{"circle":{"r":4,"magnet":true,"stroke":"#5F95FF","strokeWidth":1,"fill":"#fff","style":{"visibility":"hidden"}}}},"right":{"position":"right","attrs":{"circle":{"r":4,"magnet":true,"stroke":"#5F95FF","strokeWidth":1,"fill":"#fff","style":{"visibility":"hidden"}}}},"bottom":{"position":"bottom","attrs":{"circle":{"r":4,"magnet":true,"stroke":"#5F95FF","strokeWidth":1,"fill":"#fff","style":{"visibility":"hidden"}}}},"left":{"position":"left","attrs":{"circle":{"r":4,"magnet":true,"stroke":"#5F95FF","strokeWidth":1,"fill":"#fff","style":{"visibility":"hidden"}}}}},"items":[{"group":"top","id":"aecf0105-4f5c-4e1e-b0d8-e8af3af07b86"},{"group":"right","id":"60550e06-447e-45e1-a44b-13934226a7bb"},{"group":"bottom","id":"6b7e2b4c-376f-4afc-a69d-5b1bb6cbc06b"},{"group":"left","id":"9245180d-7e25-40a4-bdcb-36541ad78920"}]},"id":"2305e8ea-81a3-4209-93c5-ef766ed48963","data":{"protoText":"Creation of a protein standard"},"type":"textNode","zIndex":54},{"position":{"x":266.5,"y":1281},"size":{"width":190,"height":118},"view":"react-shape-view","shape":"custom-react-shape","ports":{"groups":{"top":{"position":"top","attrs":{"circle":{"r":4,"magnet":true,"stroke":"#5F95FF","strokeWidth":1,"fill":"#fff","style":{"visibility":"hidden"}}}},"right":{"position":"right","attrs":{"circle":{"r":4,"magnet":true,"stroke":"#5F95FF","strokeWidth":1,"fill":"#fff","style":{"visibility":"hidden"}}}},"bottom":{"position":"bottom","attrs":{"circle":{"r":4,"magnet":true,"stroke":"#5F95FF","strokeWidth":1,"fill":"#fff","style":{"visibility":"hidden"}}}},"left":{"position":"left","attrs":{"circle":{"r":4,"magnet":true,"stroke":"#5F95FF","strokeWidth":1,"fill":"#fff","style":{"visibility":"hidden"}}}}},"items":[{"group":"top","id":"aecf0105-4f5c-4e1e-b0d8-e8af3af07b86"},{"group":"right","id":"60550e06-447e-45e1-a44b-13934226a7bb"},{"group":"bottom","id":"6b7e2b4c-376f-4afc-a69d-5b1bb6cbc06b"},{"group":"left","id":"9245180d-7e25-40a4-bdcb-36541ad78920"}]},"id":"b3716c4f-ae15-4a6c-93da-ef04c7744075","data":{"protoText":"Quantify the protein concentration of the standard by coomassie gel with a BSA standard curve, or other suitable protein quantification method."},"type":"textNode","zIndex":55},{"position":{"x":500,"y":1281},"size":{"width":175,"height":118},"view":"react-shape-view","shape":"custom-react-shape","ports":{"groups":{"top":{"position":"top","attrs":{"circle":{"r":4,"magnet":true,"stroke":"#5F95FF","strokeWidth":1,"fill":"#fff","style":{"visibility":"hidden"}}}},"right":{"position":"right","attrs":{"circle":{"r":4,"magnet":true,"stroke":"#5F95FF","strokeWidth":1,"fill":"#fff","style":{"visibility":"hidden"}}}},"bottom":{"position":"bottom","attrs":{"circle":{"r":4,"magnet":true,"stroke":"#5F95FF","strokeWidth":1,"fill":"#fff","style":{"visibility":"hidden"}}}},"left":{"position":"left","attrs":{"circle":{"r":4,"magnet":true,"stroke":"#5F95FF","strokeWidth":1,"fill":"#fff","style":{"visibility":"hidden"}}}}},"items":[{"group":"top","id":"aecf0105-4f5c-4e1e-b0d8-e8af3af07b86"},{"group":"right","id":"60550e06-447e-45e1-a44b-13934226a7bb"},{"group":"bottom","id":"6b7e2b4c-376f-4afc-a69d-5b1bb6cbc06b"},{"group":"left","id":"9245180d-7e25-40a4-bdcb-36541ad78920"}]},"id":"8dd94fe4-0682-4145-9c44-cb479d00392d","data":{"protoText":"Dilute in protein dilution buffer (0.5X Dulbecco's PBS, 0-5% glycerol, 0.05% Tween-20, 0.15 mg/mL BSA) to 200 ng/µL."},"type":"textNode","zIndex":56},{"position":{"x":755,"y":1281},"size":{"width":190,"height":118},"view":"react-shape-view","shape":"custom-react-shape","ports":{"groups":{"top":{"position":"top","attrs":{"circle":{"r":4,"magnet":true,"stroke":"#5F95FF","strokeWidth":1,"fill":"#fff","style":{"visibility":"hidden"}}}},"right":{"position":"right","attrs":{"circle":{"r":4,"magnet":true,"stroke":"#5F95FF","strokeWidth":1,"fill":"#fff","style":{"visibility":"hidden"}}}},"bottom":{"position":"bottom","attrs":{"circle":{"r":4,"magnet":true,"stroke":"#5F95FF","strokeWidth":1,"fill":"#fff","style":{"visibility":"hidden"}}}},"left":{"position":"left","attrs":{"circle":{"r":4,"magnet":true,"stroke":"#5F95FF","strokeWidth":1,"fill":"#fff","style":{"visibility":"hidden"}}}}},"items":[{"group":"top","id":"aecf0105-4f5c-4e1e-b0d8-e8af3af07b86"},{"group":"right","id":"60550e06-447e-45e1-a44b-13934226a7bb"},{"group":"bottom","id":"6b7e2b4c-376f-4afc-a69d-5b1bb6cbc06b"},{"group":"left","id":"9245180d-7e25-40a4-bdcb-36541ad78920"}]},"id":"547ff8df-a573-4773-852d-a2c315c91ab9","data":{"protoText":"Make two-fold dilutions down from 20-200 ng/µL, depending on how protein is available, for a total of 8 concentrations of protein."},"type":"textNode","zIndex":57},{"position":{"x":1022,"y":1290},"size":{"width":160,"height":100},"view":"react-shape-view","shape":"custom-react-shape","ports":{"groups":{"top":{"position":"top","attrs":{"circle":{"r":4,"magnet":true,"stroke":"#5F95FF","strokeWidth":1,"fill":"#fff","style":{"visibility":"hidden"}}}},"right":{"position":"right","attrs":{"circle":{"r":4,"magnet":true,"stroke":"#5F95FF","strokeWidth":1,"fill":"#fff","style":{"visibility":"hidden"}}}},"bottom":{"position":"bottom","attrs":{"circle":{"r":4,"magnet":true,"stroke":"#5F95FF","strokeWidth":1,"fill":"#fff","style":{"visibility":"hidden"}}}},"left":{"position":"left","attrs":{"circle":{"r":4,"magnet":true,"stroke":"#5F95FF","strokeWidth":1,"fill":"#fff","style":{"visibility":"hidden"}}}}},"items":[{"group":"top","id":"aecf0105-4f5c-4e1e-b0d8-e8af3af07b86"},{"group":"right","id":"60550e06-447e-45e1-a44b-13934226a7bb"},{"group":"bottom","id":"6b7e2b4c-376f-4afc-a69d-5b1bb6cbc06b"},{"group":"left","id":"9245180d-7e25-40a4-bdcb-36541ad78920"}]},"id":"9b85f2d0-ed35-4d90-8ba7-efba9c7f7fac","data":{"protoText":"Aliquot ~14 µL of each concentration into striptubes and freeze until use at -80°."},"type":"textNode","zIndex":58},{"position":{"x":40,"y":1520},"size":{"width":120,"height":60},"view":"react-shape-view","shape":"custom-react-shape","ports":{"groups":{"top":{"position":"top","attrs":{"circle":{"r":4,"magnet":true,"stroke":"#5F95FF","strokeWidth":1,"fill":"#fff","style":{"visibility":"hidden"}}}},"right":{"position":"right","attrs":{"circle":{"r":4,"magnet":true,"stroke":"#5F95FF","strokeWidth":1,"fill":"#fff","style":{"visibility":"hidden"}}}},"bottom":{"position":"bottom","attrs":{"circle":{"r":4,"magnet":true,"stroke":"#5F95FF","strokeWidth":1,"fill":"#fff","style":{"visibility":"hidden"}}}},"left":{"position":"left","attrs":{"circle":{"r":4,"magnet":true,"stroke":"#5F95FF","strokeWidth":1,"fill":"#fff","style":{"visibility":"hidden"}}}}},"items":[{"group":"top","id":"aecf0105-4f5c-4e1e-b0d8-e8af3af07b86"},{"group":"right","id":"60550e06-447e-45e1-a44b-13934226a7bb"},{"group":"bottom","id":"6b7e2b4c-376f-4afc-a69d-5b1bb6cbc06b"},{"group":"left","id":"9245180d-7e25-40a4-bdcb-36541ad78920"}]},"id":"bfbef6bb-d73e-4b9f-abbb-5ca0b7c483c2","data":{"protoText":"Creation of RNA standard"},"type":"textNode","zIndex":59},{"position":{"x":250,"y":1482},"size":{"width":220,"height":136},"view":"react-shape-view","shape":"custom-react-shape","ports":{"groups":{"top":{"position":"top","attrs":{"circle":{"r":4,"magnet":true,"stroke":"#5F95FF","strokeWidth":1,"fill":"#fff","style":{"visibility":"hidden"}}}},"right":{"position":"right","attrs":{"circle":{"r":4,"magnet":true,"stroke":"#5F95FF","strokeWidth":1,"fill":"#fff","style":{"visibility":"hidden"}}}},"bottom":{"position":"bottom","attrs":{"circle":{"r":4,"magnet":true,"stroke":"#5F95FF","strokeWidth":1,"fill":"#fff","style":{"visibility":"hidden"}}}},"left":{"position":"left","attrs":{"circle":{"r":4,"magnet":true,"stroke":"#5F95FF","strokeWidth":1,"fill":"#fff","style":{"visibility":"hidden"}}}}},"items":[{"group":"top","id":"aecf0105-4f5c-4e1e-b0d8-e8af3af07b86"},{"group":"right","id":"60550e06-447e-45e1-a44b-13934226a7bb"},{"group":"bottom","id":"6b7e2b4c-376f-4afc-a69d-5b1bb6cbc06b"},{"group":"left","id":"9245180d-7e25-40a4-bdcb-36541ad78920"}]},"id":"e29d133b-ef14-4853-94f7-4204c0c1dce5","data":{"protoText":"Add four replicates of 906-1600 µg of 293T/HCT116 lysate from cross-linked cells to ~20 µL Protein G Dynabeads coupled with 25 µL (5 µg) anti-hnRNP C (4F4) antibody per replicate.\n"},"type":"textNode","zIndex":60},{"position":{"x":540,"y":1520},"size":{"width":140,"height":60},"view":"react-shape-view","shape":"custom-react-shape","ports":{"groups":{"top":{"position":"top","attrs":{"circle":{"r":4,"magnet":true,"stroke":"#5F95FF","strokeWidth":1,"fill":"#fff","style":{"visibility":"hidden"}}}},"right":{"position":"right","attrs":{"circle":{"r":4,"magnet":true,"stroke":"#5F95FF","strokeWidth":1,"fill":"#fff","style":{"visibility":"hidden"}}}},"bottom":{"position":"bottom","attrs":{"circle":{"r":4,"magnet":true,"stroke":"#5F95FF","strokeWidth":1,"fill":"#fff","style":{"visibility":"hidden"}}}},"left":{"position":"left","attrs":{"circle":{"r":4,"magnet":true,"stroke":"#5F95FF","strokeWidth":1,"fill":"#fff","style":{"visibility":"hidden"}}}}},"items":[{"group":"top","id":"aecf0105-4f5c-4e1e-b0d8-e8af3af07b86"},{"group":"right","id":"60550e06-447e-45e1-a44b-13934226a7bb"},{"group":"bottom","id":"6b7e2b4c-376f-4afc-a69d-5b1bb6cbc06b"},{"group":"left","id":"9245180d-7e25-40a4-bdcb-36541ad78920"}]},"id":"9cf86031-39c9-4123-a873-57568f4db7b0","data":{"protoText":"Immunoprecipitate at 4° for ~1 hour."},"type":"textNode","zIndex":61},{"position":{"x":742,"y":1509},"size":{"width":130,"height":82},"view":"react-shape-view","shape":"custom-react-shape","ports":{"groups":{"top":{"position":"top","attrs":{"circle":{"r":4,"magnet":true,"stroke":"#5F95FF","strokeWidth":1,"fill":"#fff","style":{"visibility":"hidden"}}}},"right":{"position":"right","attrs":{"circle":{"r":4,"magnet":true,"stroke":"#5F95FF","strokeWidth":1,"fill":"#fff","style":{"visibility":"hidden"}}}},"bottom":{"position":"bottom","attrs":{"circle":{"r":4,"magnet":true,"stroke":"#5F95FF","strokeWidth":1,"fill":"#fff","style":{"visibility":"hidden"}}}},"left":{"position":"left","attrs":{"circle":{"r":4,"magnet":true,"stroke":"#5F95FF","strokeWidth":1,"fill":"#fff","style":{"visibility":"hidden"}}}}},"items":[{"group":"top","id":"aecf0105-4f5c-4e1e-b0d8-e8af3af07b86"},{"group":"right","id":"60550e06-447e-45e1-a44b-13934226a7bb"},{"group":"bottom","id":"6b7e2b4c-376f-4afc-a69d-5b1bb6cbc06b"},{"group":"left","id":"9245180d-7e25-40a4-bdcb-36541ad78920"}]},"id":"f84696fa-c918-4a14-b049-d1e561854920","data":{"protoText":"NAse digest with 0.1 U/µL RNAse ONE for 10 minutes."},"type":"textNode","zIndex":62},{"position":{"x":917,"y":1509},"size":{"width":115,"height":82},"view":"react-shape-view","shape":"custom-react-shape","ports":{"groups":{"top":{"position":"top","attrs":{"circle":{"r":4,"magnet":true,"stroke":"#5F95FF","strokeWidth":1,"fill":"#fff","style":{"visibility":"hidden"}}}},"right":{"position":"right","attrs":{"circle":{"r":4,"magnet":true,"stroke":"#5F95FF","strokeWidth":1,"fill":"#fff","style":{"visibility":"hidden"}}}},"bottom":{"position":"bottom","attrs":{"circle":{"r":4,"magnet":true,"stroke":"#5F95FF","strokeWidth":1,"fill":"#fff","style":{"visibility":"hidden"}}}},"left":{"position":"left","attrs":{"circle":{"r":4,"magnet":true,"stroke":"#5F95FF","strokeWidth":1,"fill":"#fff","style":{"visibility":"hidden"}}}}},"items":[{"group":"top","id":"aecf0105-4f5c-4e1e-b0d8-e8af3af07b86"},{"group":"right","id":"60550e06-447e-45e1-a44b-13934226a7bb"},{"group":"bottom","id":"6b7e2b4c-376f-4afc-a69d-5b1bb6cbc06b"},{"group":"left","id":"9245180d-7e25-40a4-bdcb-36541ad78920"}]},"id":"7f6b8928-d90d-483c-9eb3-5acefd451a75","data":{"protoText":"Perform PNK reaction for 14 minutes at 37°."},"type":"textNode","zIndex":63},{"position":{"x":1082,"y":1500},"size":{"width":175,"height":100},"view":"react-shape-view","shape":"custom-react-shape","ports":{"groups":{"top":{"position":"top","attrs":{"circle":{"r":4,"magnet":true,"stroke":"#5F95FF","strokeWidth":1,"fill":"#fff","style":{"visibility":"hidden"}}}},"right":{"position":"right","attrs":{"circle":{"r":4,"magnet":true,"stroke":"#5F95FF","strokeWidth":1,"fill":"#fff","style":{"visibility":"hidden"}}}},"bottom":{"position":"bottom","attrs":{"circle":{"r":4,"magnet":true,"stroke":"#5F95FF","strokeWidth":1,"fill":"#fff","style":{"visibility":"hidden"}}}},"left":{"position":"left","attrs":{"circle":{"r":4,"magnet":true,"stroke":"#5F95FF","strokeWidth":1,"fill":"#fff","style":{"visibility":"hidden"}}}}},"items":[{"group":"top","id":"aecf0105-4f5c-4e1e-b0d8-e8af3af07b86"},{"group":"right","id":"60550e06-447e-45e1-a44b-13934226a7bb"},{"group":"bottom","id":"6b7e2b4c-376f-4afc-a69d-5b1bb6cbc06b"},{"group":"left","id":"9245180d-7e25-40a4-bdcb-36541ad78920"}]},"id":"7bcc5e82-47cf-4469-85e5-871f8e3ddbd0","data":{"protoText":" Ligate overnight (17 hours) with 20 pmol labeled L5, and 2 µL high concentration T4 RNA ligase (NEB)."},"type":"textNode","zIndex":64},{"position":{"x":1327,"y":1482},"size":{"width":220,"height":136},"view":"react-shape-view","shape":"custom-react-shape","ports":{"groups":{"top":{"position":"top","attrs":{"circle":{"r":4,"magnet":true,"stroke":"#5F95FF","strokeWidth":1,"fill":"#fff","style":{"visibility":"hidden"}}}},"right":{"position":"right","attrs":{"circle":{"r":4,"magnet":true,"stroke":"#5F95FF","strokeWidth":1,"fill":"#fff","style":{"visibility":"hidden"}}}},"bottom":{"position":"bottom","attrs":{"circle":{"r":4,"magnet":true,"stroke":"#5F95FF","strokeWidth":1,"fill":"#fff","style":{"visibility":"hidden"}}}},"left":{"position":"left","attrs":{"circle":{"r":4,"magnet":true,"stroke":"#5F95FF","strokeWidth":1,"fill":"#fff","style":{"visibility":"hidden"}}}}},"items":[{"group":"top","id":"aecf0105-4f5c-4e1e-b0d8-e8af3af07b86"},{"group":"right","id":"60550e06-447e-45e1-a44b-13934226a7bb"},{"group":"bottom","id":"6b7e2b4c-376f-4afc-a69d-5b1bb6cbc06b"},{"group":"left","id":"9245180d-7e25-40a4-bdcb-36541ad78920"}]},"id":"1f5e6fb4-d7d3-47d1-a105-ca62216fc676","data":{"protoText":"Combine samples and split into ~20 aliquots comprising 2.5% of the beads (~10 ng hnRNP C each, ~400 ng total purified) in ~15 µL 1.6X NuPAGE buffer, freeze in dry ice and keep long term at -80°."},"type":"textNode","zIndex":65},{"position":{"x":1630,"y":1464},"size":{"width":280,"height":172},"view":"react-shape-view","shape":"custom-react-shape","ports":{"groups":{"top":{"position":"top","attrs":{"circle":{"r":4,"magnet":true,"stroke":"#5F95FF","strokeWidth":1,"fill":"#fff","style":{"visibility":"hidden"}}}},"right":{"position":"right","attrs":{"circle":{"r":4,"magnet":true,"stroke":"#5F95FF","strokeWidth":1,"fill":"#fff","style":{"visibility":"hidden"}}}},"bottom":{"position":"bottom","attrs":{"circle":{"r":4,"magnet":true,"stroke":"#5F95FF","strokeWidth":1,"fill":"#fff","style":{"visibility":"hidden"}}}},"left":{"position":"left","attrs":{"circle":{"r":4,"magnet":true,"stroke":"#5F95FF","strokeWidth":1,"fill":"#fff","style":{"visibility":"hidden"}}}}},"items":[{"group":"top","id":"aecf0105-4f5c-4e1e-b0d8-e8af3af07b86"},{"group":"right","id":"60550e06-447e-45e1-a44b-13934226a7bb"},{"group":"bottom","id":"6b7e2b4c-376f-4afc-a69d-5b1bb6cbc06b"},{"group":"left","id":"9245180d-7e25-40a4-bdcb-36541ad78920"}]},"id":"7afffaa5-26a9-48ce-9909-4c5ba766e3ec","data":{"protoText":"Immunoblot with ~1:3000 αhnRNP C conjugated to AF790, or other suitable antibody, in PBS blocking buffer (LI-COR) for ~1 hour at room temperature. Use protein standards to quantify the amount of hnRNP C in the L5-ligated band by quantitative western blotting. ~5000 fluorescence units per fmol is a typical result.\n"},"type":"textNode","zIndex":66},{"position":{"x":25,"y":1732},"size":{"width":115,"height":82},"view":"react-shape-view","shape":"custom-react-shape","ports":{"groups":{"top":{"position":"top","attrs":{"circle":{"r":4,"magnet":true,"stroke":"#5F95FF","strokeWidth":1,"fill":"#fff","style":{"visibility":"hidden"}}}},"right":{"position":"right","attrs":{"circle":{"r":4,"magnet":true,"stroke":"#5F95FF","strokeWidth":1,"fill":"#fff","style":{"visibility":"hidden"}}}},"bottom":{"position":"bottom","attrs":{"circle":{"r":4,"magnet":true,"stroke":"#5F95FF","strokeWidth":1,"fill":"#fff","style":{"visibility":"hidden"}}}},"left":{"position":"left","attrs":{"circle":{"r":4,"magnet":true,"stroke":"#5F95FF","strokeWidth":1,"fill":"#fff","style":{"visibility":"hidden"}}}}},"items":[{"group":"top","id":"aecf0105-4f5c-4e1e-b0d8-e8af3af07b86"},{"group":"right","id":"60550e06-447e-45e1-a44b-13934226a7bb"},{"group":"bottom","id":"6b7e2b4c-376f-4afc-a69d-5b1bb6cbc06b"},{"group":"left","id":"9245180d-7e25-40a4-bdcb-36541ad78920"}]},"id":"b2595634-ac26-4632-89c7-c389505ab8e0","data":{"protoText":"Cross-link rate determination using standards"},"type":"textNode","zIndex":67}]}
+{
+  "name": "pex-1333_graphData.json",
+  "nodes": [
+    {
+      "id": "2dfd88f3-62a1-483b-957d-239185a1899a",
+      "text": "it's a node text",
+      "instruction": "ADD",
+      "slots": [
+        {
+          "key": "it's a slot key",
+          "value": "it's a slot value",
+          "id": "2dfd88f3-62a1-483b-957d-239185a1899a"
+        }
+      ],
+      "emits": []
+    },
+    {
+      "id": "10809c32-fcc6-45db-a5bb-e4413e33811c",
+      "text": "it's a node text",
+      "instruction": "ADD",
+      "slots": [
+        {
+          "key": "it's a slot key",
+          "value": "it's a slot value",
+          "id": "10809c32-fcc6-45db-a5bb-e4413e33811c"
+        }
+      ],
+      "emits": []
+    },
+    {
+      "id": "716b984a-4412-446c-af8c-5be54bfe06cb",
+      "text": "it's a node text",
+      "instruction": "ADD",
+      "slots": [
+        {
+          "key": "it's a slot key",
+          "value": "it's a slot value",
+          "id": "716b984a-4412-446c-af8c-5be54bfe06cb"
+        }
+      ],
+      "emits": []
+    },
+    {
+      "id": "418906b4-03c9-4411-aa0d-bde714aa199d",
+      "text": "it's a node text",
+      "instruction": "ADD",
+      "slots": [
+        {
+          "key": "it's a slot key",
+          "value": "it's a slot value",
+          "id": "418906b4-03c9-4411-aa0d-bde714aa199d"
+        }
+      ],
+      "emits": []
+    },
+    {
+      "id": "a2377954-f9e8-46b9-9662-8288fa4949dc",
+      "text": "it's a node text",
+      "instruction": "ADD",
+      "slots": [
+        {
+          "key": "it's a slot key",
+          "value": "it's a slot value",
+          "id": "a2377954-f9e8-46b9-9662-8288fa4949dc"
+        }
+      ],
+      "emits": []
+    },
+    {
+      "id": "98228205-6d6d-400d-b7c6-a082ea39f0ed",
+      "text": "it's a node text",
+      "instruction": "ADD",
+      "slots": [
+        {
+          "key": "it's a slot key",
+          "value": "it's a slot value",
+          "id": "98228205-6d6d-400d-b7c6-a082ea39f0ed"
+        }
+      ],
+      "emits": []
+    },
+    {
+      "id": "2dfdc64b-3426-4c3d-a8a0-a65ca86c2f44",
+      "text": "it's a node text",
+      "instruction": "ADD",
+      "slots": [
+        {
+          "key": "it's a slot key",
+          "value": "it's a slot value",
+          "id": "2dfdc64b-3426-4c3d-a8a0-a65ca86c2f44"
+        }
+      ],
+      "emits": []
+    },
+    {
+      "id": "466d66bd-a01c-4875-986b-ca1796e9cde9",
+      "text": "it's a node text",
+      "instruction": "ADD",
+      "slots": [
+        {
+          "key": "it's a slot key",
+          "value": "it's a slot value",
+          "id": "466d66bd-a01c-4875-986b-ca1796e9cde9"
+        }
+      ],
+      "emits": []
+    },
+    {
+      "id": "601decaf-5c83-402a-9906-a21abc03949d",
+      "text": "it's a node text",
+      "instruction": "ADD",
+      "slots": [
+        {
+          "key": "it's a slot key",
+          "value": "it's a slot value",
+          "id": "601decaf-5c83-402a-9906-a21abc03949d"
+        }
+      ],
+      "emits": []
+    },
+    {
+      "id": "d7ce737e-6d41-4cf4-9772-e097becb376e",
+      "text": "it's a node text",
+      "instruction": "ADD",
+      "slots": [
+        {
+          "key": "it's a slot key",
+          "value": "it's a slot value",
+          "id": "d7ce737e-6d41-4cf4-9772-e097becb376e"
+        }
+      ],
+      "emits": []
+    },
+    {
+      "id": "b1134d8d-64fa-468b-afad-ceb109a124c4",
+      "text": "it's a node text",
+      "instruction": "ADD",
+      "slots": [
+        {
+          "key": "it's a slot key",
+          "value": "it's a slot value",
+          "id": "b1134d8d-64fa-468b-afad-ceb109a124c4"
+        }
+      ],
+      "emits": []
+    },
+    {
+      "id": "fadd17eb-7009-4094-911a-0d32fc1ef156",
+      "text": "it's a node text",
+      "instruction": "ADD",
+      "slots": [
+        {
+          "key": "it's a slot key",
+          "value": "it's a slot value",
+          "id": "fadd17eb-7009-4094-911a-0d32fc1ef156"
+        }
+      ],
+      "emits": []
+    },
+    {
+      "id": "f91d97a8-4165-477f-b986-1dd3b2cea49b",
+      "text": "it's a node text",
+      "instruction": "ADD",
+      "slots": [
+        {
+          "key": "it's a slot key",
+          "value": "it's a slot value",
+          "id": "f91d97a8-4165-477f-b986-1dd3b2cea49b"
+        }
+      ],
+      "emits": []
+    },
+    {
+      "id": "9ac9f396-5a57-4870-a14f-4f39ee232681",
+      "text": "it's a node text",
+      "instruction": "ADD",
+      "slots": [
+        {
+          "key": "it's a slot key",
+          "value": "it's a slot value",
+          "id": "9ac9f396-5a57-4870-a14f-4f39ee232681"
+        }
+      ],
+      "emits": []
+    },
+    {
+      "id": "986fc5a3-a119-4500-abb5-38d9b5bae38e",
+      "text": "it's a node text",
+      "instruction": "ADD",
+      "slots": [
+        {
+          "key": "it's a slot key",
+          "value": "it's a slot value",
+          "id": "986fc5a3-a119-4500-abb5-38d9b5bae38e"
+        }
+      ],
+      "emits": []
+    },
+    {
+      "id": "91da877a-fd41-41f5-8e63-1541cab1f24e",
+      "text": "it's a node text",
+      "instruction": "ADD",
+      "slots": [
+        {
+          "key": "it's a slot key",
+          "value": "it's a slot value",
+          "id": "91da877a-fd41-41f5-8e63-1541cab1f24e"
+        }
+      ],
+      "emits": []
+    },
+    {
+      "id": "fefa1fd5-8ca4-4036-b870-11b638e385c0",
+      "text": "it's a node text",
+      "instruction": "ADD",
+      "slots": [
+        {
+          "key": "it's a slot key",
+          "value": "it's a slot value",
+          "id": "fefa1fd5-8ca4-4036-b870-11b638e385c0"
+        }
+      ],
+      "emits": []
+    },
+    {
+      "id": "200dee41-90b3-4c95-a243-1fb30220f0c9",
+      "text": "it's a node text",
+      "instruction": "ADD",
+      "slots": [
+        {
+          "key": "it's a slot key",
+          "value": "it's a slot value",
+          "id": "200dee41-90b3-4c95-a243-1fb30220f0c9"
+        }
+      ],
+      "emits": []
+    },
+    {
+      "id": "47e25972-beca-4791-8c0d-a8a59d674ac5",
+      "text": "it's a node text",
+      "instruction": "ADD",
+      "slots": [
+        {
+          "key": "it's a slot key",
+          "value": "it's a slot value",
+          "id": "47e25972-beca-4791-8c0d-a8a59d674ac5"
+        }
+      ],
+      "emits": []
+    },
+    {
+      "id": "85617b6e-3bf2-4147-a8f2-82569c629a52",
+      "text": "it's a node text",
+      "instruction": "ADD",
+      "slots": [
+        {
+          "key": "it's a slot key",
+          "value": "it's a slot value",
+          "id": "85617b6e-3bf2-4147-a8f2-82569c629a52"
+        }
+      ],
+      "emits": []
+    },
+    {
+      "id": "84a11d71-3aae-4025-809b-77ef269e5045",
+      "text": "it's a node text",
+      "instruction": "ADD",
+      "slots": [
+        {
+          "key": "it's a slot key",
+          "value": "it's a slot value",
+          "id": "84a11d71-3aae-4025-809b-77ef269e5045"
+        }
+      ],
+      "emits": []
+    },
+    {
+      "id": "a61ffe8a-0273-4133-8c8f-0626b0a78a1c",
+      "text": "it's a node text",
+      "instruction": "ADD",
+      "slots": [
+        {
+          "key": "it's a slot key",
+          "value": "it's a slot value",
+          "id": "a61ffe8a-0273-4133-8c8f-0626b0a78a1c"
+        }
+      ],
+      "emits": []
+    },
+    {
+      "id": "ae58dd66-ccf3-4df5-b068-40ee14d4fdf6",
+      "text": "it's a node text",
+      "instruction": "ADD",
+      "slots": [
+        {
+          "key": "it's a slot key",
+          "value": "it's a slot value",
+          "id": "ae58dd66-ccf3-4df5-b068-40ee14d4fdf6"
+        }
+      ],
+      "emits": []
+    },
+    {
+      "id": "ee2d7e35-cb39-42eb-ae55-61d5c3d584d9",
+      "text": "it's a node text",
+      "instruction": "ADD",
+      "slots": [
+        {
+          "key": "it's a slot key",
+          "value": "it's a slot value",
+          "id": "ee2d7e35-cb39-42eb-ae55-61d5c3d584d9"
+        }
+      ],
+      "emits": []
+    },
+    {
+      "id": "ef634766-42fe-4ec5-9bc9-98352627c4d2",
+      "text": "it's a node text",
+      "instruction": "ADD",
+      "slots": [
+        {
+          "key": "it's a slot key",
+          "value": "it's a slot value",
+          "id": "ef634766-42fe-4ec5-9bc9-98352627c4d2"
+        }
+      ],
+      "emits": []
+    },
+    {
+      "id": "14b075b4-e528-4625-91d0-8283f97c08ab",
+      "text": "it's a node text",
+      "instruction": "ADD",
+      "slots": [
+        {
+          "key": "it's a slot key",
+          "value": "it's a slot value",
+          "id": "14b075b4-e528-4625-91d0-8283f97c08ab"
+        }
+      ],
+      "emits": []
+    },
+    {
+      "id": "fc7156f8-2258-4c17-9083-bb39023ab15b",
+      "text": "it's a node text",
+      "instruction": "ADD",
+      "slots": [
+        {
+          "key": "it's a slot key",
+          "value": "it's a slot value",
+          "id": "fc7156f8-2258-4c17-9083-bb39023ab15b"
+        }
+      ],
+      "emits": []
+    },
+    {
+      "id": "3a2f7078-3461-4979-8fa0-3524413c2784",
+      "text": "it's a node text",
+      "instruction": "ADD",
+      "slots": [
+        {
+          "key": "it's a slot key",
+          "value": "it's a slot value",
+          "id": "3a2f7078-3461-4979-8fa0-3524413c2784"
+        }
+      ],
+      "emits": []
+    },
+    {
+      "id": "7513260b-b29a-4a24-b077-f1f731e76149",
+      "text": "it's a node text",
+      "instruction": "ADD",
+      "slots": [
+        {
+          "key": "it's a slot key",
+          "value": "it's a slot value",
+          "id": "7513260b-b29a-4a24-b077-f1f731e76149"
+        }
+      ],
+      "emits": []
+    },
+    {
+      "id": "13ee122f-4c28-48b3-9a41-c09c36434e4e",
+      "text": "it's a node text",
+      "instruction": "ADD",
+      "slots": [
+        {
+          "key": "it's a slot key",
+          "value": "it's a slot value",
+          "id": "13ee122f-4c28-48b3-9a41-c09c36434e4e"
+        }
+      ],
+      "emits": []
+    },
+    {
+      "id": "919f9d6b-8f0e-441f-9f8c-d417ec1c7ff7",
+      "text": "it's a node text",
+      "instruction": "ADD",
+      "slots": [
+        {
+          "key": "it's a slot key",
+          "value": "it's a slot value",
+          "id": "919f9d6b-8f0e-441f-9f8c-d417ec1c7ff7"
+        }
+      ],
+      "emits": []
+    },
+    {
+      "id": "2f8563d1-5606-42b9-9969-20370c0fa04d",
+      "text": "it's a node text",
+      "instruction": "ADD",
+      "slots": [
+        {
+          "key": "it's a slot key",
+          "value": "it's a slot value",
+          "id": "2f8563d1-5606-42b9-9969-20370c0fa04d"
+        }
+      ],
+      "emits": []
+    },
+    {
+      "id": "51a1ec91-199d-4dc3-b87b-80b198f07587",
+      "text": "it's a node text",
+      "instruction": "ADD",
+      "slots": [
+        {
+          "key": "it's a slot key",
+          "value": "it's a slot value",
+          "id": "51a1ec91-199d-4dc3-b87b-80b198f07587"
+        }
+      ],
+      "emits": []
+    },
+    {
+      "id": "a4a45448-33bd-4b02-9836-f3770a29421e",
+      "text": "it's a node text",
+      "instruction": "ADD",
+      "slots": [
+        {
+          "key": "it's a slot key",
+          "value": "it's a slot value",
+          "id": "a4a45448-33bd-4b02-9836-f3770a29421e"
+        }
+      ],
+      "emits": []
+    },
+    {
+      "id": "0d2e28a9-cf2d-42e3-bc02-79d613f9a23f",
+      "text": "it's a node text",
+      "instruction": "ADD",
+      "slots": [
+        {
+          "key": "it's a slot key",
+          "value": "it's a slot value",
+          "id": "0d2e28a9-cf2d-42e3-bc02-79d613f9a23f"
+        }
+      ],
+      "emits": []
+    },
+    {
+      "id": "b32f7bb9-139c-4db0-96ea-5720b0712420",
+      "text": "it's a node text",
+      "instruction": "ADD",
+      "slots": [
+        {
+          "key": "it's a slot key",
+          "value": "it's a slot value",
+          "id": "b32f7bb9-139c-4db0-96ea-5720b0712420"
+        }
+      ],
+      "emits": []
+    },
+    {
+      "id": "d815168a-2fc9-432c-854a-63df71bbc829",
+      "text": "it's a node text",
+      "instruction": "ADD",
+      "slots": [
+        {
+          "key": "it's a slot key",
+          "value": "it's a slot value",
+          "id": "d815168a-2fc9-432c-854a-63df71bbc829"
+        }
+      ],
+      "emits": []
+    },
+    {
+      "id": "a2cb5fa1-3d83-4ca6-a169-f3c9a1f757de",
+      "text": "it's a node text",
+      "instruction": "ADD",
+      "slots": [
+        {
+          "key": "it's a slot key",
+          "value": "it's a slot value",
+          "id": "a2cb5fa1-3d83-4ca6-a169-f3c9a1f757de"
+        }
+      ],
+      "emits": []
+    },
+    {
+      "id": "68d90ca3-8f95-48ba-8200-49f07572215e",
+      "text": "it's a node text",
+      "instruction": "ADD",
+      "slots": [
+        {
+          "key": "it's a slot key",
+          "value": "it's a slot value",
+          "id": "68d90ca3-8f95-48ba-8200-49f07572215e"
+        }
+      ],
+      "emits": []
+    },
+    {
+      "id": "ffea44eb-3a3c-4f8c-b16b-a274e7e159c3",
+      "text": "it's a node text",
+      "instruction": "ADD",
+      "slots": [
+        {
+          "key": "it's a slot key",
+          "value": "it's a slot value",
+          "id": "ffea44eb-3a3c-4f8c-b16b-a274e7e159c3"
+        }
+      ],
+      "emits": []
+    },
+    {
+      "id": "07ad5545-c706-4a24-b005-b84e63984cee",
+      "text": "it's a node text",
+      "instruction": "ADD",
+      "slots": [
+        {
+          "key": "it's a slot key",
+          "value": "it's a slot value",
+          "id": "07ad5545-c706-4a24-b005-b84e63984cee"
+        }
+      ],
+      "emits": []
+    },
+    {
+      "id": "370f0918-5789-49be-b91c-6ea99927b18a",
+      "text": "it's a node text",
+      "instruction": "ADD",
+      "slots": [
+        {
+          "key": "it's a slot key",
+          "value": "it's a slot value",
+          "id": "370f0918-5789-49be-b91c-6ea99927b18a"
+        }
+      ],
+      "emits": []
+    },
+    {
+      "id": "420119dd-aa1a-436b-a752-9d6f7ea12cd6",
+      "text": "it's a node text",
+      "instruction": "ADD",
+      "slots": [
+        {
+          "key": "it's a slot key",
+          "value": "it's a slot value",
+          "id": "420119dd-aa1a-436b-a752-9d6f7ea12cd6"
+        }
+      ],
+      "emits": []
+    },
+    {
+      "id": "c85c8529-cd0b-4967-9be9-7b96870b3c29",
+      "text": "it's a node text",
+      "instruction": "ADD",
+      "slots": [
+        {
+          "key": "it's a slot key",
+          "value": "it's a slot value",
+          "id": "c85c8529-cd0b-4967-9be9-7b96870b3c29"
+        }
+      ],
+      "emits": []
+    },
+    {
+      "id": "be26ea23-f20b-46a4-8f1c-57138c181938",
+      "text": "it's a node text",
+      "instruction": "ADD",
+      "slots": [
+        {
+          "key": "it's a slot key",
+          "value": "it's a slot value",
+          "id": "be26ea23-f20b-46a4-8f1c-57138c181938"
+        }
+      ],
+      "emits": []
+    },
+    {
+      "id": "a1abcec4-4e8e-4be7-8bb4-8570c052f513",
+      "text": "it's a node text",
+      "instruction": "ADD",
+      "slots": [
+        {
+          "key": "it's a slot key",
+          "value": "it's a slot value",
+          "id": "a1abcec4-4e8e-4be7-8bb4-8570c052f513"
+        }
+      ],
+      "emits": []
+    },
+    {
+      "id": "dae31d75-cb2a-4884-85d7-1238910058c2",
+      "text": "it's a node text",
+      "instruction": "ADD",
+      "slots": [
+        {
+          "key": "it's a slot key",
+          "value": "it's a slot value",
+          "id": "dae31d75-cb2a-4884-85d7-1238910058c2"
+        }
+      ],
+      "emits": []
+    },
+    {
+      "id": "7582f118-8aae-4988-aaeb-7502f1d7e2e7",
+      "text": "it's a node text",
+      "instruction": "ADD",
+      "slots": [
+        {
+          "key": "it's a slot key",
+          "value": "it's a slot value",
+          "id": "7582f118-8aae-4988-aaeb-7502f1d7e2e7"
+        }
+      ],
+      "emits": []
+    },
+    {
+      "id": "c01d3261-0576-4c7d-b067-4fd902fd5da2",
+      "text": "it's a node text",
+      "instruction": "ADD",
+      "slots": [
+        {
+          "key": "it's a slot key",
+          "value": "it's a slot value",
+          "id": "c01d3261-0576-4c7d-b067-4fd902fd5da2"
+        }
+      ],
+      "emits": []
+    },
+    {
+      "id": "82f8d7bd-22fa-4f6f-8e10-d712ade3320a",
+      "text": "it's a node text",
+      "instruction": "ADD",
+      "slots": [
+        {
+          "key": "it's a slot key",
+          "value": "it's a slot value",
+          "id": "82f8d7bd-22fa-4f6f-8e10-d712ade3320a"
+        }
+      ],
+      "emits": []
+    },
+    {
+      "id": "a7b71c25-ad19-4188-9497-83bbb250ec21",
+      "text": "it's a node text",
+      "instruction": "ADD",
+      "slots": [
+        {
+          "key": "it's a slot key",
+          "value": "it's a slot value",
+          "id": "a7b71c25-ad19-4188-9497-83bbb250ec21"
+        }
+      ],
+      "emits": []
+    },
+    {
+      "id": "49ad15c8-74bd-4fab-aa82-980cbd291ce2",
+      "text": "it's a node text",
+      "instruction": "ADD",
+      "slots": [
+        {
+          "key": "it's a slot key",
+          "value": "it's a slot value",
+          "id": "49ad15c8-74bd-4fab-aa82-980cbd291ce2"
+        }
+      ],
+      "emits": []
+    },
+    {
+      "id": "2305e8ea-81a3-4209-93c5-ef766ed48963",
+      "text": "it's a node text",
+      "instruction": "ADD",
+      "slots": [
+        {
+          "key": "it's a slot key",
+          "value": "it's a slot value",
+          "id": "2305e8ea-81a3-4209-93c5-ef766ed48963"
+        }
+      ],
+      "emits": []
+    },
+    {
+      "id": "b3716c4f-ae15-4a6c-93da-ef04c7744075",
+      "text": "it's a node text",
+      "instruction": "ADD",
+      "slots": [
+        {
+          "key": "it's a slot key",
+          "value": "it's a slot value",
+          "id": "b3716c4f-ae15-4a6c-93da-ef04c7744075"
+        }
+      ],
+      "emits": []
+    },
+    {
+      "id": "8dd94fe4-0682-4145-9c44-cb479d00392d",
+      "text": "it's a node text",
+      "instruction": "ADD",
+      "slots": [
+        {
+          "key": "it's a slot key",
+          "value": "it's a slot value",
+          "id": "8dd94fe4-0682-4145-9c44-cb479d00392d"
+        }
+      ],
+      "emits": []
+    },
+    {
+      "id": "547ff8df-a573-4773-852d-a2c315c91ab9",
+      "text": "it's a node text",
+      "instruction": "ADD",
+      "slots": [
+        {
+          "key": "it's a slot key",
+          "value": "it's a slot value",
+          "id": "547ff8df-a573-4773-852d-a2c315c91ab9"
+        }
+      ],
+      "emits": []
+    },
+    {
+      "id": "9b85f2d0-ed35-4d90-8ba7-efba9c7f7fac",
+      "text": "it's a node text",
+      "instruction": "ADD",
+      "slots": [
+        {
+          "key": "it's a slot key",
+          "value": "it's a slot value",
+          "id": "9b85f2d0-ed35-4d90-8ba7-efba9c7f7fac"
+        }
+      ],
+      "emits": []
+    },
+    {
+      "id": "bfbef6bb-d73e-4b9f-abbb-5ca0b7c483c2",
+      "text": "it's a node text",
+      "instruction": "ADD",
+      "slots": [
+        {
+          "key": "it's a slot key",
+          "value": "it's a slot value",
+          "id": "bfbef6bb-d73e-4b9f-abbb-5ca0b7c483c2"
+        }
+      ],
+      "emits": []
+    },
+    {
+      "id": "e29d133b-ef14-4853-94f7-4204c0c1dce5",
+      "text": "it's a node text",
+      "instruction": "ADD",
+      "slots": [
+        {
+          "key": "it's a slot key",
+          "value": "it's a slot value",
+          "id": "e29d133b-ef14-4853-94f7-4204c0c1dce5"
+        }
+      ],
+      "emits": []
+    },
+    {
+      "id": "9cf86031-39c9-4123-a873-57568f4db7b0",
+      "text": "it's a node text",
+      "instruction": "ADD",
+      "slots": [
+        {
+          "key": "it's a slot key",
+          "value": "it's a slot value",
+          "id": "9cf86031-39c9-4123-a873-57568f4db7b0"
+        }
+      ],
+      "emits": []
+    },
+    {
+      "id": "f84696fa-c918-4a14-b049-d1e561854920",
+      "text": "it's a node text",
+      "instruction": "ADD",
+      "slots": [
+        {
+          "key": "it's a slot key",
+          "value": "it's a slot value",
+          "id": "f84696fa-c918-4a14-b049-d1e561854920"
+        }
+      ],
+      "emits": []
+    },
+    {
+      "id": "7f6b8928-d90d-483c-9eb3-5acefd451a75",
+      "text": "it's a node text",
+      "instruction": "ADD",
+      "slots": [
+        {
+          "key": "it's a slot key",
+          "value": "it's a slot value",
+          "id": "7f6b8928-d90d-483c-9eb3-5acefd451a75"
+        }
+      ],
+      "emits": []
+    },
+    {
+      "id": "7bcc5e82-47cf-4469-85e5-871f8e3ddbd0",
+      "text": "it's a node text",
+      "instruction": "ADD",
+      "slots": [
+        {
+          "key": "it's a slot key",
+          "value": "it's a slot value",
+          "id": "7bcc5e82-47cf-4469-85e5-871f8e3ddbd0"
+        }
+      ],
+      "emits": []
+    },
+    {
+      "id": "1f5e6fb4-d7d3-47d1-a105-ca62216fc676",
+      "text": "it's a node text",
+      "instruction": "ADD",
+      "slots": [
+        {
+          "key": "it's a slot key",
+          "value": "it's a slot value",
+          "id": "1f5e6fb4-d7d3-47d1-a105-ca62216fc676"
+        }
+      ],
+      "emits": []
+    },
+    {
+      "id": "7afffaa5-26a9-48ce-9909-4c5ba766e3ec",
+      "text": "it's a node text",
+      "instruction": "ADD",
+      "slots": [
+        {
+          "key": "it's a slot key",
+          "value": "it's a slot value",
+          "id": "7afffaa5-26a9-48ce-9909-4c5ba766e3ec"
+        }
+      ],
+      "emits": []
+    },
+    {
+      "id": "b2595634-ac26-4632-89c7-c389505ab8e0",
+      "text": "it's a node text",
+      "instruction": "ADD",
+      "slots": [
+        {
+          "key": "it's a slot key",
+          "value": "it's a slot value",
+          "id": "b2595634-ac26-4632-89c7-c389505ab8e0"
+        }
+      ],
+      "emits": []
+    }
+  ],
+  "edges": [
+    {
+      "id": "d434a6ab-fa90-4839-b5d8-e9f1d23cded8",
+      "source": {
+        "node_id": "2dfd88f3-62a1-483b-957d-239185a1899a",
+        "attr_id": "2dfd88f3-62a1-483b-957d-239185a1899a"
+      },
+      "target": {
+        "node_id": "10809c32-fcc6-45db-a5bb-e4413e33811c",
+        "attr_id": "10809c32-fcc6-45db-a5bb-e4413e33811c"
+      },
+      "text": "it's a edge text"
+    },
+    {
+      "id": "89fc0238-ca4c-4c33-bdcd-3ca7de1b789a",
+      "source": {
+        "node_id": "418906b4-03c9-4411-aa0d-bde714aa199d",
+        "attr_id": "418906b4-03c9-4411-aa0d-bde714aa199d"
+      },
+      "target": {
+        "node_id": "716b984a-4412-446c-af8c-5be54bfe06cb",
+        "attr_id": "716b984a-4412-446c-af8c-5be54bfe06cb"
+      },
+      "text": "it's a edge text"
+    },
+    {
+      "id": "8f3c795c-7ee4-4052-91d4-876ec81b7121",
+      "source": {
+        "node_id": "716b984a-4412-446c-af8c-5be54bfe06cb",
+        "attr_id": "716b984a-4412-446c-af8c-5be54bfe06cb"
+      },
+      "target": {
+        "node_id": "a2377954-f9e8-46b9-9662-8288fa4949dc",
+        "attr_id": "a2377954-f9e8-46b9-9662-8288fa4949dc"
+      },
+      "text": "it's a edge text"
+    },
+    {
+      "id": "82ab14b1-0f77-43b1-8dcb-ffea9758594c",
+      "source": {
+        "node_id": "10809c32-fcc6-45db-a5bb-e4413e33811c",
+        "attr_id": "10809c32-fcc6-45db-a5bb-e4413e33811c"
+      },
+      "target": {
+        "node_id": "716b984a-4412-446c-af8c-5be54bfe06cb",
+        "attr_id": "716b984a-4412-446c-af8c-5be54bfe06cb"
+      },
+      "text": "it's a edge text"
+    },
+    {
+      "id": "0aa4d7c2-7068-41fd-8117-ce3f7e897e2a",
+      "source": {
+        "node_id": "a2377954-f9e8-46b9-9662-8288fa4949dc",
+        "attr_id": "a2377954-f9e8-46b9-9662-8288fa4949dc"
+      },
+      "target": {
+        "node_id": "98228205-6d6d-400d-b7c6-a082ea39f0ed",
+        "attr_id": "98228205-6d6d-400d-b7c6-a082ea39f0ed"
+      },
+      "text": "it's a edge text"
+    },
+    {
+      "id": "a3edfc51-4f3b-479e-abdd-c488010330c1",
+      "source": {
+        "node_id": "98228205-6d6d-400d-b7c6-a082ea39f0ed",
+        "attr_id": "98228205-6d6d-400d-b7c6-a082ea39f0ed"
+      },
+      "target": {
+        "node_id": "2dfdc64b-3426-4c3d-a8a0-a65ca86c2f44",
+        "attr_id": "2dfdc64b-3426-4c3d-a8a0-a65ca86c2f44"
+      },
+      "text": "it's a edge text"
+    },
+    {
+      "id": "380b67f2-a60f-4b40-b8e8-e67d79c5f69c",
+      "source": {
+        "node_id": "2dfdc64b-3426-4c3d-a8a0-a65ca86c2f44",
+        "attr_id": "2dfdc64b-3426-4c3d-a8a0-a65ca86c2f44"
+      },
+      "target": {
+        "node_id": "466d66bd-a01c-4875-986b-ca1796e9cde9",
+        "attr_id": "466d66bd-a01c-4875-986b-ca1796e9cde9"
+      },
+      "text": "it's a edge text"
+    },
+    {
+      "id": "17a295c2-5849-43d2-9ed4-b32ee33a63f9",
+      "source": {
+        "node_id": "466d66bd-a01c-4875-986b-ca1796e9cde9",
+        "attr_id": "466d66bd-a01c-4875-986b-ca1796e9cde9"
+      },
+      "target": {
+        "node_id": "601decaf-5c83-402a-9906-a21abc03949d",
+        "attr_id": "601decaf-5c83-402a-9906-a21abc03949d"
+      },
+      "text": "it's a edge text"
+    },
+    {
+      "id": "1bb030c4-dd10-4bcb-8613-6999b6cff6f0",
+      "source": {
+        "node_id": "601decaf-5c83-402a-9906-a21abc03949d",
+        "attr_id": "601decaf-5c83-402a-9906-a21abc03949d"
+      },
+      "target": {
+        "node_id": "d7ce737e-6d41-4cf4-9772-e097becb376e",
+        "attr_id": "d7ce737e-6d41-4cf4-9772-e097becb376e"
+      },
+      "text": "it's a edge text"
+    },
+    {
+      "id": "e7b2eceb-94ce-428a-b85a-46093a74b8bb",
+      "source": {
+        "node_id": "f91d97a8-4165-477f-b986-1dd3b2cea49b",
+        "attr_id": "f91d97a8-4165-477f-b986-1dd3b2cea49b"
+      },
+      "target": {
+        "node_id": "d7ce737e-6d41-4cf4-9772-e097becb376e",
+        "attr_id": "d7ce737e-6d41-4cf4-9772-e097becb376e"
+      },
+      "text": "it's a edge text"
+    },
+    {
+      "id": "3c5e2df4-75fb-4787-b1a4-369217efb38e",
+      "source": {
+        "node_id": "b1134d8d-64fa-468b-afad-ceb109a124c4",
+        "attr_id": "b1134d8d-64fa-468b-afad-ceb109a124c4"
+      },
+      "target": {
+        "node_id": "d7ce737e-6d41-4cf4-9772-e097becb376e",
+        "attr_id": "d7ce737e-6d41-4cf4-9772-e097becb376e"
+      },
+      "text": "it's a edge text"
+    },
+    {
+      "id": "a72e8f53-41bf-4538-88f1-b8c32cc4a793",
+      "source": {
+        "node_id": "fadd17eb-7009-4094-911a-0d32fc1ef156",
+        "attr_id": "fadd17eb-7009-4094-911a-0d32fc1ef156"
+      },
+      "target": {
+        "node_id": "d7ce737e-6d41-4cf4-9772-e097becb376e",
+        "attr_id": "d7ce737e-6d41-4cf4-9772-e097becb376e"
+      },
+      "text": "it's a edge text"
+    },
+    {
+      "id": "955a6bee-e771-443f-9362-6b9f7caee50d",
+      "source": {
+        "node_id": "d7ce737e-6d41-4cf4-9772-e097becb376e",
+        "attr_id": "d7ce737e-6d41-4cf4-9772-e097becb376e"
+      },
+      "target": {
+        "node_id": "9ac9f396-5a57-4870-a14f-4f39ee232681",
+        "attr_id": "9ac9f396-5a57-4870-a14f-4f39ee232681"
+      },
+      "text": "it's a edge text"
+    },
+    {
+      "id": "47528e28-fa53-422b-8389-55c3f89e2c20",
+      "source": {
+        "node_id": "9ac9f396-5a57-4870-a14f-4f39ee232681",
+        "attr_id": "9ac9f396-5a57-4870-a14f-4f39ee232681"
+      },
+      "target": {
+        "node_id": "986fc5a3-a119-4500-abb5-38d9b5bae38e",
+        "attr_id": "986fc5a3-a119-4500-abb5-38d9b5bae38e"
+      },
+      "text": "it's a edge text"
+    },
+    {
+      "id": "c55c087b-567f-4e29-87f6-4ae1b70f9522",
+      "source": {
+        "node_id": "986fc5a3-a119-4500-abb5-38d9b5bae38e",
+        "attr_id": "986fc5a3-a119-4500-abb5-38d9b5bae38e"
+      },
+      "target": {
+        "node_id": "91da877a-fd41-41f5-8e63-1541cab1f24e",
+        "attr_id": "91da877a-fd41-41f5-8e63-1541cab1f24e"
+      },
+      "text": "it's a edge text"
+    },
+    {
+      "id": "138ed1bf-01a3-4cea-9ffa-96af1dabac6b",
+      "source": {
+        "node_id": "fefa1fd5-8ca4-4036-b870-11b638e385c0",
+        "attr_id": "fefa1fd5-8ca4-4036-b870-11b638e385c0"
+      },
+      "target": {
+        "node_id": "91da877a-fd41-41f5-8e63-1541cab1f24e",
+        "attr_id": "91da877a-fd41-41f5-8e63-1541cab1f24e"
+      },
+      "text": "it's a edge text"
+    },
+    {
+      "id": "ff48849f-2fc6-4bc2-9e28-0a5836b74bd9",
+      "source": {
+        "node_id": "91da877a-fd41-41f5-8e63-1541cab1f24e",
+        "attr_id": "91da877a-fd41-41f5-8e63-1541cab1f24e"
+      },
+      "target": {
+        "node_id": "200dee41-90b3-4c95-a243-1fb30220f0c9",
+        "attr_id": "200dee41-90b3-4c95-a243-1fb30220f0c9"
+      },
+      "text": "it's a edge text"
+    },
+    {
+      "id": "ce4d37ba-7c30-4e92-a9dd-aa16d8435ec0",
+      "source": {
+        "node_id": "200dee41-90b3-4c95-a243-1fb30220f0c9",
+        "attr_id": "200dee41-90b3-4c95-a243-1fb30220f0c9"
+      },
+      "target": {
+        "node_id": "47e25972-beca-4791-8c0d-a8a59d674ac5",
+        "attr_id": "47e25972-beca-4791-8c0d-a8a59d674ac5"
+      },
+      "text": "it's a edge text"
+    },
+    {
+      "id": "9d57f2b8-d0cd-42aa-965f-43964d3d8676",
+      "source": {
+        "node_id": "47e25972-beca-4791-8c0d-a8a59d674ac5",
+        "attr_id": "47e25972-beca-4791-8c0d-a8a59d674ac5"
+      },
+      "target": {
+        "node_id": "85617b6e-3bf2-4147-a8f2-82569c629a52",
+        "attr_id": "85617b6e-3bf2-4147-a8f2-82569c629a52"
+      },
+      "text": "it's a edge text"
+    },
+    {
+      "id": "a17f72fc-3fac-4867-993d-237dc2fbadca",
+      "source": {
+        "node_id": "85617b6e-3bf2-4147-a8f2-82569c629a52",
+        "attr_id": "85617b6e-3bf2-4147-a8f2-82569c629a52"
+      },
+      "target": {
+        "node_id": "84a11d71-3aae-4025-809b-77ef269e5045",
+        "attr_id": "84a11d71-3aae-4025-809b-77ef269e5045"
+      },
+      "text": "it's a edge text"
+    },
+    {
+      "id": "a867b416-0920-4265-ad0b-07ba7f8130e6",
+      "source": {
+        "node_id": "84a11d71-3aae-4025-809b-77ef269e5045",
+        "attr_id": "84a11d71-3aae-4025-809b-77ef269e5045"
+      },
+      "target": {
+        "node_id": "a61ffe8a-0273-4133-8c8f-0626b0a78a1c",
+        "attr_id": "a61ffe8a-0273-4133-8c8f-0626b0a78a1c"
+      },
+      "text": "it's a edge text"
+    },
+    {
+      "id": "2e49ad0e-745c-46ee-ac34-6400eb65847f",
+      "source": {
+        "node_id": "a61ffe8a-0273-4133-8c8f-0626b0a78a1c",
+        "attr_id": "a61ffe8a-0273-4133-8c8f-0626b0a78a1c"
+      },
+      "target": {
+        "node_id": "ae58dd66-ccf3-4df5-b068-40ee14d4fdf6",
+        "attr_id": "ae58dd66-ccf3-4df5-b068-40ee14d4fdf6"
+      },
+      "text": "it's a edge text"
+    },
+    {
+      "id": "8e543b5b-82c5-436f-8aa8-5f9cbf4fdfa5",
+      "source": {
+        "node_id": "ee2d7e35-cb39-42eb-ae55-61d5c3d584d9",
+        "attr_id": "ee2d7e35-cb39-42eb-ae55-61d5c3d584d9"
+      },
+      "target": {
+        "node_id": "a61ffe8a-0273-4133-8c8f-0626b0a78a1c",
+        "attr_id": "a61ffe8a-0273-4133-8c8f-0626b0a78a1c"
+      },
+      "text": "it's a edge text"
+    },
+    {
+      "id": "b6752477-c720-4b25-b301-a9ba6f840fbe",
+      "source": {
+        "node_id": "ef634766-42fe-4ec5-9bc9-98352627c4d2",
+        "attr_id": "ef634766-42fe-4ec5-9bc9-98352627c4d2"
+      },
+      "target": {
+        "node_id": "200dee41-90b3-4c95-a243-1fb30220f0c9",
+        "attr_id": "200dee41-90b3-4c95-a243-1fb30220f0c9"
+      },
+      "text": "it's a edge text"
+    },
+    {
+      "id": "c3d4676a-a7ec-4371-ba5a-5f4f54b03423",
+      "source": {
+        "node_id": "14b075b4-e528-4625-91d0-8283f97c08ab",
+        "attr_id": "14b075b4-e528-4625-91d0-8283f97c08ab"
+      },
+      "target": {
+        "node_id": "9ac9f396-5a57-4870-a14f-4f39ee232681",
+        "attr_id": "9ac9f396-5a57-4870-a14f-4f39ee232681"
+      },
+      "text": "it's a edge text"
+    },
+    {
+      "id": "cf09392d-04b7-483e-abd9-c8f8a3f2a3ff",
+      "source": {
+        "node_id": "fc7156f8-2258-4c17-9083-bb39023ab15b",
+        "attr_id": "fc7156f8-2258-4c17-9083-bb39023ab15b"
+      },
+      "target": {
+        "node_id": "85617b6e-3bf2-4147-a8f2-82569c629a52",
+        "attr_id": "85617b6e-3bf2-4147-a8f2-82569c629a52"
+      },
+      "text": "it's a edge text"
+    },
+    {
+      "id": "960eff6e-bc5d-43a3-9ed7-13af0bc913e0",
+      "source": {
+        "node_id": "ae58dd66-ccf3-4df5-b068-40ee14d4fdf6",
+        "attr_id": "ae58dd66-ccf3-4df5-b068-40ee14d4fdf6"
+      },
+      "target": {
+        "node_id": "7513260b-b29a-4a24-b077-f1f731e76149",
+        "attr_id": "7513260b-b29a-4a24-b077-f1f731e76149"
+      },
+      "text": "it's a edge text"
+    },
+    {
+      "id": "b605e289-6e9c-48fc-8259-d6b3bc34ce2c",
+      "source": {
+        "node_id": "7513260b-b29a-4a24-b077-f1f731e76149",
+        "attr_id": "7513260b-b29a-4a24-b077-f1f731e76149"
+      },
+      "target": {
+        "node_id": "13ee122f-4c28-48b3-9a41-c09c36434e4e",
+        "attr_id": "13ee122f-4c28-48b3-9a41-c09c36434e4e"
+      },
+      "text": "it's a edge text"
+    },
+    {
+      "id": "349784db-87a4-42ba-abc6-a8f9cde8b696",
+      "source": {
+        "node_id": "13ee122f-4c28-48b3-9a41-c09c36434e4e",
+        "attr_id": "13ee122f-4c28-48b3-9a41-c09c36434e4e"
+      },
+      "target": {
+        "node_id": "919f9d6b-8f0e-441f-9f8c-d417ec1c7ff7",
+        "attr_id": "919f9d6b-8f0e-441f-9f8c-d417ec1c7ff7"
+      },
+      "text": "it's a edge text"
+    },
+    {
+      "id": "d8acabf1-d73e-44e9-9a1c-e70cd0044c03",
+      "source": {
+        "node_id": "3a2f7078-3461-4979-8fa0-3524413c2784",
+        "attr_id": "3a2f7078-3461-4979-8fa0-3524413c2784"
+      },
+      "target": {
+        "node_id": "13ee122f-4c28-48b3-9a41-c09c36434e4e",
+        "attr_id": "13ee122f-4c28-48b3-9a41-c09c36434e4e"
+      },
+      "text": "it's a edge text"
+    },
+    {
+      "id": "485fa474-8663-4ddb-9f45-b2dc867b99bc",
+      "source": {
+        "node_id": "919f9d6b-8f0e-441f-9f8c-d417ec1c7ff7",
+        "attr_id": "919f9d6b-8f0e-441f-9f8c-d417ec1c7ff7"
+      },
+      "target": {
+        "node_id": "2f8563d1-5606-42b9-9969-20370c0fa04d",
+        "attr_id": "2f8563d1-5606-42b9-9969-20370c0fa04d"
+      },
+      "text": "it's a edge text"
+    },
+    {
+      "id": "637c193c-cacc-4d3d-8556-ee5e1124196a",
+      "source": {
+        "node_id": "2f8563d1-5606-42b9-9969-20370c0fa04d",
+        "attr_id": "2f8563d1-5606-42b9-9969-20370c0fa04d"
+      },
+      "target": {
+        "node_id": "51a1ec91-199d-4dc3-b87b-80b198f07587",
+        "attr_id": "51a1ec91-199d-4dc3-b87b-80b198f07587"
+      },
+      "text": "it's a edge text"
+    },
+    {
+      "id": "7b764724-d0d4-4a5b-b069-35a65fafa7e3",
+      "source": {
+        "node_id": "51a1ec91-199d-4dc3-b87b-80b198f07587",
+        "attr_id": "51a1ec91-199d-4dc3-b87b-80b198f07587"
+      },
+      "target": {
+        "node_id": "a4a45448-33bd-4b02-9836-f3770a29421e",
+        "attr_id": "a4a45448-33bd-4b02-9836-f3770a29421e"
+      },
+      "text": "it's a edge text"
+    },
+    {
+      "id": "ad62ebb1-da6c-4fa5-af48-230bdf806017",
+      "source": {
+        "node_id": "a4a45448-33bd-4b02-9836-f3770a29421e",
+        "attr_id": "a4a45448-33bd-4b02-9836-f3770a29421e"
+      },
+      "target": {
+        "node_id": "0d2e28a9-cf2d-42e3-bc02-79d613f9a23f",
+        "attr_id": "0d2e28a9-cf2d-42e3-bc02-79d613f9a23f"
+      },
+      "text": "it's a edge text"
+    },
+    {
+      "id": "107ef7ce-43aa-4290-a8ee-ff7a81daaf56",
+      "source": {
+        "node_id": "0d2e28a9-cf2d-42e3-bc02-79d613f9a23f",
+        "attr_id": "0d2e28a9-cf2d-42e3-bc02-79d613f9a23f"
+      },
+      "target": {
+        "node_id": "b32f7bb9-139c-4db0-96ea-5720b0712420",
+        "attr_id": "b32f7bb9-139c-4db0-96ea-5720b0712420"
+      },
+      "text": "it's a edge text"
+    },
+    {
+      "id": "23b08fcf-04e5-4960-9c1a-aa30393f7732",
+      "source": {
+        "node_id": "b32f7bb9-139c-4db0-96ea-5720b0712420",
+        "attr_id": "b32f7bb9-139c-4db0-96ea-5720b0712420"
+      },
+      "target": {
+        "node_id": "d815168a-2fc9-432c-854a-63df71bbc829",
+        "attr_id": "d815168a-2fc9-432c-854a-63df71bbc829"
+      },
+      "text": "it's a edge text"
+    },
+    {
+      "id": "a984c3c5-5f56-4146-ab57-9172d6dc4e2c",
+      "source": {
+        "node_id": "d815168a-2fc9-432c-854a-63df71bbc829",
+        "attr_id": "d815168a-2fc9-432c-854a-63df71bbc829"
+      },
+      "target": {
+        "node_id": "a2cb5fa1-3d83-4ca6-a169-f3c9a1f757de",
+        "attr_id": "a2cb5fa1-3d83-4ca6-a169-f3c9a1f757de"
+      },
+      "text": "it's a edge text"
+    },
+    {
+      "id": "652ffa69-c892-4ae1-b5d8-e32b14654210",
+      "source": {
+        "node_id": "a2cb5fa1-3d83-4ca6-a169-f3c9a1f757de",
+        "attr_id": "a2cb5fa1-3d83-4ca6-a169-f3c9a1f757de"
+      },
+      "target": {
+        "node_id": "68d90ca3-8f95-48ba-8200-49f07572215e",
+        "attr_id": "68d90ca3-8f95-48ba-8200-49f07572215e"
+      },
+      "text": "it's a edge text"
+    },
+    {
+      "id": "85ae38ca-391a-44f3-a45d-0c733c43a0a4",
+      "source": {
+        "node_id": "68d90ca3-8f95-48ba-8200-49f07572215e",
+        "attr_id": "68d90ca3-8f95-48ba-8200-49f07572215e"
+      },
+      "target": {
+        "node_id": "ffea44eb-3a3c-4f8c-b16b-a274e7e159c3",
+        "attr_id": "ffea44eb-3a3c-4f8c-b16b-a274e7e159c3"
+      },
+      "text": "it's a edge text"
+    },
+    {
+      "id": "398bd943-ab79-4809-8113-43c84a08d6ae",
+      "source": {
+        "node_id": "ffea44eb-3a3c-4f8c-b16b-a274e7e159c3",
+        "attr_id": "ffea44eb-3a3c-4f8c-b16b-a274e7e159c3"
+      },
+      "target": {
+        "node_id": "07ad5545-c706-4a24-b005-b84e63984cee",
+        "attr_id": "07ad5545-c706-4a24-b005-b84e63984cee"
+      },
+      "text": "it's a edge text"
+    },
+    {
+      "id": "c0688f8c-2c0c-4e7c-a39a-9b21da77fb7f",
+      "source": {
+        "node_id": "07ad5545-c706-4a24-b005-b84e63984cee",
+        "attr_id": "07ad5545-c706-4a24-b005-b84e63984cee"
+      },
+      "target": {
+        "node_id": "370f0918-5789-49be-b91c-6ea99927b18a",
+        "attr_id": "370f0918-5789-49be-b91c-6ea99927b18a"
+      },
+      "text": "it's a edge text"
+    },
+    {
+      "id": "81bd4875-ec3e-42dd-af2c-54946da13684",
+      "source": {
+        "node_id": "370f0918-5789-49be-b91c-6ea99927b18a",
+        "attr_id": "370f0918-5789-49be-b91c-6ea99927b18a"
+      },
+      "target": {
+        "node_id": "420119dd-aa1a-436b-a752-9d6f7ea12cd6",
+        "attr_id": "420119dd-aa1a-436b-a752-9d6f7ea12cd6"
+      },
+      "text": "it's a edge text"
+    },
+    {
+      "id": "44b54baa-da86-464e-ba13-f2b5cb11463f",
+      "source": {
+        "node_id": "420119dd-aa1a-436b-a752-9d6f7ea12cd6",
+        "attr_id": "420119dd-aa1a-436b-a752-9d6f7ea12cd6"
+      },
+      "target": {
+        "node_id": "c85c8529-cd0b-4967-9be9-7b96870b3c29",
+        "attr_id": "c85c8529-cd0b-4967-9be9-7b96870b3c29"
+      },
+      "text": "it's a edge text"
+    },
+    {
+      "id": "e9f9c170-c983-4dc2-8688-0165ca61d354",
+      "source": {
+        "node_id": "c85c8529-cd0b-4967-9be9-7b96870b3c29",
+        "attr_id": "c85c8529-cd0b-4967-9be9-7b96870b3c29"
+      },
+      "target": {
+        "node_id": "be26ea23-f20b-46a4-8f1c-57138c181938",
+        "attr_id": "be26ea23-f20b-46a4-8f1c-57138c181938"
+      },
+      "text": "it's a edge text"
+    },
+    {
+      "id": "914eda26-76a7-4466-ae90-d7a5b08e91ea",
+      "source": {
+        "node_id": "be26ea23-f20b-46a4-8f1c-57138c181938",
+        "attr_id": "be26ea23-f20b-46a4-8f1c-57138c181938"
+      },
+      "target": {
+        "node_id": "a1abcec4-4e8e-4be7-8bb4-8570c052f513",
+        "attr_id": "a1abcec4-4e8e-4be7-8bb4-8570c052f513"
+      },
+      "text": "it's a edge text"
+    },
+    {
+      "id": "8f7dfaba-6a50-4241-b6d1-5020fddd4918",
+      "source": {
+        "node_id": "a1abcec4-4e8e-4be7-8bb4-8570c052f513",
+        "attr_id": "a1abcec4-4e8e-4be7-8bb4-8570c052f513"
+      },
+      "target": {
+        "node_id": "dae31d75-cb2a-4884-85d7-1238910058c2",
+        "attr_id": "dae31d75-cb2a-4884-85d7-1238910058c2"
+      },
+      "text": "it's a edge text"
+    },
+    {
+      "id": "9982e771-7484-431f-b21e-a38c69b3e7da",
+      "source": {
+        "node_id": "dae31d75-cb2a-4884-85d7-1238910058c2",
+        "attr_id": "dae31d75-cb2a-4884-85d7-1238910058c2"
+      },
+      "target": {
+        "node_id": "7582f118-8aae-4988-aaeb-7502f1d7e2e7",
+        "attr_id": "7582f118-8aae-4988-aaeb-7502f1d7e2e7"
+      },
+      "text": "it's a edge text"
+    },
+    {
+      "id": "430328f5-6363-4074-896e-cc57667e46b3",
+      "source": {
+        "node_id": "7582f118-8aae-4988-aaeb-7502f1d7e2e7",
+        "attr_id": "7582f118-8aae-4988-aaeb-7502f1d7e2e7"
+      },
+      "target": {
+        "node_id": "c01d3261-0576-4c7d-b067-4fd902fd5da2",
+        "attr_id": "c01d3261-0576-4c7d-b067-4fd902fd5da2"
+      },
+      "text": "it's a edge text"
+    },
+    {
+      "id": "1929fcd0-130e-472d-ae6c-1cd37ac8b935",
+      "source": {
+        "node_id": "c01d3261-0576-4c7d-b067-4fd902fd5da2",
+        "attr_id": "c01d3261-0576-4c7d-b067-4fd902fd5da2"
+      },
+      "target": {
+        "node_id": "82f8d7bd-22fa-4f6f-8e10-d712ade3320a",
+        "attr_id": "82f8d7bd-22fa-4f6f-8e10-d712ade3320a"
+      },
+      "text": "it's a edge text"
+    },
+    {
+      "id": "c26fa5c5-adfa-4de6-b96c-8540e6e5e2a4",
+      "source": {
+        "node_id": "82f8d7bd-22fa-4f6f-8e10-d712ade3320a",
+        "attr_id": "82f8d7bd-22fa-4f6f-8e10-d712ade3320a"
+      },
+      "target": {
+        "node_id": "a7b71c25-ad19-4188-9497-83bbb250ec21",
+        "attr_id": "a7b71c25-ad19-4188-9497-83bbb250ec21"
+      },
+      "text": "it's a edge text"
+    },
+    {
+      "id": "521a7389-89ca-48b4-958f-a4db1f34b899",
+      "source": {
+        "node_id": "a7b71c25-ad19-4188-9497-83bbb250ec21",
+        "attr_id": "a7b71c25-ad19-4188-9497-83bbb250ec21"
+      },
+      "target": {
+        "node_id": "49ad15c8-74bd-4fab-aa82-980cbd291ce2",
+        "attr_id": "49ad15c8-74bd-4fab-aa82-980cbd291ce2"
+      },
+      "text": "it's a edge text"
+    },
+    {
+      "id": "bcc1fd87-6a9d-4b9f-89ff-c832dfa4dd6f",
+      "source": {
+        "node_id": "2305e8ea-81a3-4209-93c5-ef766ed48963",
+        "attr_id": "2305e8ea-81a3-4209-93c5-ef766ed48963"
+      },
+      "target": {
+        "node_id": "b3716c4f-ae15-4a6c-93da-ef04c7744075",
+        "attr_id": "b3716c4f-ae15-4a6c-93da-ef04c7744075"
+      },
+      "text": "it's a edge text"
+    },
+    {
+      "id": "71ec198b-d100-4ef4-a76d-3d3b54676405",
+      "source": {
+        "node_id": "b3716c4f-ae15-4a6c-93da-ef04c7744075",
+        "attr_id": "b3716c4f-ae15-4a6c-93da-ef04c7744075"
+      },
+      "target": {
+        "node_id": "8dd94fe4-0682-4145-9c44-cb479d00392d",
+        "attr_id": "8dd94fe4-0682-4145-9c44-cb479d00392d"
+      },
+      "text": "it's a edge text"
+    },
+    {
+      "id": "c9692dfb-7e3a-43f2-83fa-bd63502dbfa0",
+      "source": {
+        "node_id": "8dd94fe4-0682-4145-9c44-cb479d00392d",
+        "attr_id": "8dd94fe4-0682-4145-9c44-cb479d00392d"
+      },
+      "target": {
+        "node_id": "547ff8df-a573-4773-852d-a2c315c91ab9",
+        "attr_id": "547ff8df-a573-4773-852d-a2c315c91ab9"
+      },
+      "text": "it's a edge text"
+    },
+    {
+      "id": "301bf65f-d8f0-4cd7-8852-90448658906c",
+      "source": {
+        "node_id": "547ff8df-a573-4773-852d-a2c315c91ab9",
+        "attr_id": "547ff8df-a573-4773-852d-a2c315c91ab9"
+      },
+      "target": {
+        "node_id": "9b85f2d0-ed35-4d90-8ba7-efba9c7f7fac",
+        "attr_id": "9b85f2d0-ed35-4d90-8ba7-efba9c7f7fac"
+      },
+      "text": "it's a edge text"
+    },
+    {
+      "id": "0a60e7ab-d5a9-4a42-a409-e063633252e5",
+      "source": {
+        "node_id": "bfbef6bb-d73e-4b9f-abbb-5ca0b7c483c2",
+        "attr_id": "bfbef6bb-d73e-4b9f-abbb-5ca0b7c483c2"
+      },
+      "target": {
+        "node_id": "e29d133b-ef14-4853-94f7-4204c0c1dce5",
+        "attr_id": "e29d133b-ef14-4853-94f7-4204c0c1dce5"
+      },
+      "text": "it's a edge text"
+    },
+    {
+      "id": "544148d8-82d3-4976-88a1-d24c6586ed88",
+      "source": {
+        "node_id": "e29d133b-ef14-4853-94f7-4204c0c1dce5",
+        "attr_id": "e29d133b-ef14-4853-94f7-4204c0c1dce5"
+      },
+      "target": {
+        "node_id": "9cf86031-39c9-4123-a873-57568f4db7b0",
+        "attr_id": "9cf86031-39c9-4123-a873-57568f4db7b0"
+      },
+      "text": "it's a edge text"
+    },
+    {
+      "id": "1633e385-ba86-4075-a1eb-9e8fe7da86e2",
+      "source": {
+        "node_id": "9cf86031-39c9-4123-a873-57568f4db7b0",
+        "attr_id": "9cf86031-39c9-4123-a873-57568f4db7b0"
+      },
+      "target": {
+        "node_id": "f84696fa-c918-4a14-b049-d1e561854920",
+        "attr_id": "f84696fa-c918-4a14-b049-d1e561854920"
+      },
+      "text": "it's a edge text"
+    },
+    {
+      "id": "3d5e0bc3-8a21-4b7c-b780-3b843559a251",
+      "source": {
+        "node_id": "f84696fa-c918-4a14-b049-d1e561854920",
+        "attr_id": "f84696fa-c918-4a14-b049-d1e561854920"
+      },
+      "target": {
+        "node_id": "7f6b8928-d90d-483c-9eb3-5acefd451a75",
+        "attr_id": "7f6b8928-d90d-483c-9eb3-5acefd451a75"
+      },
+      "text": "it's a edge text"
+    },
+    {
+      "id": "4094a439-f1c4-4adb-a507-1b1fc0844888",
+      "source": {
+        "node_id": "7f6b8928-d90d-483c-9eb3-5acefd451a75",
+        "attr_id": "7f6b8928-d90d-483c-9eb3-5acefd451a75"
+      },
+      "target": {
+        "node_id": "7bcc5e82-47cf-4469-85e5-871f8e3ddbd0",
+        "attr_id": "7bcc5e82-47cf-4469-85e5-871f8e3ddbd0"
+      },
+      "text": "it's a edge text"
+    },
+    {
+      "id": "2d52cf02-f9ce-4649-8349-d4a0e4fb7c8b",
+      "source": {
+        "node_id": "7bcc5e82-47cf-4469-85e5-871f8e3ddbd0",
+        "attr_id": "7bcc5e82-47cf-4469-85e5-871f8e3ddbd0"
+      },
+      "target": {
+        "node_id": "1f5e6fb4-d7d3-47d1-a105-ca62216fc676",
+        "attr_id": "1f5e6fb4-d7d3-47d1-a105-ca62216fc676"
+      },
+      "text": "it's a edge text"
+    },
+    {
+      "id": "2a40877e-b9e9-4190-87f5-7a6d38259b84",
+      "source": {
+        "node_id": "1f5e6fb4-d7d3-47d1-a105-ca62216fc676",
+        "attr_id": "1f5e6fb4-d7d3-47d1-a105-ca62216fc676"
+      },
+      "target": {
+        "node_id": "7afffaa5-26a9-48ce-9909-4c5ba766e3ec",
+        "attr_id": "7afffaa5-26a9-48ce-9909-4c5ba766e3ec"
+      },
+      "text": "it's a edge text"
+    }
+  ]
+}

@@ -1,0 +1,133 @@
+{
+  "name": "example.json",
+  "nodes": [
+    {
+      "id": "1",
+      "text":"it's a node text",
+      "instruction":"ADD",
+      "slots": [
+        {
+          "key": "it's a slot key",
+          "value": "it's a slot value",
+          "id": "1"
+        },
+        {
+          "key": "it's a slot key",
+          "value": "it's a slot value",
+          "id": "2"
+        },
+        {
+          "key": "it's a slot key",
+          "value": "it's a slot value",
+          "id": "3"
+        }
+      ],
+      "emits": [
+        {
+          "key": "it's a emit key",
+          "value": "it's a slot value",
+          "id": "4"
+        },
+        {
+          "key": "it's a emit key",
+          "value": "it's a emit value",
+          "id": "5"
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "text": "it's a node text",
+      "instruction":"ADD",
+      "slots": [
+        {
+          "key": "it's a slot key",
+          "value": "it's a slot value",
+          "id": "6"
+        },
+        {
+          "key": "it's a slot key",
+          "value": "it's a slot value",
+          "id": "7"
+        },
+        {
+          "key": "it's a slot key",
+          "value": "it's a slot value",
+          "id": "8"
+        }
+      ],
+      "emits": [
+        {
+          "key": "it's a emit key",
+          "value": "it's a slot value",
+          "id": "9"
+        },
+        {
+          "key": "it's a emit key",
+          "value": "it's a emit value",
+          "id": "10"
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "text": "it's a node text",
+      "instruction":"ADD",
+      "slots": [
+        {
+          "key": "it's a slot key",
+          "value": "it's a slot value",
+          "id": "11"
+        },
+        {
+          "key": "it's a slot key",
+          "value": "it's a slot value",
+          "id": "12"
+        },
+        {
+          "key": "it's a slot key",
+          "value": "it's a slot value",
+          "id": "13"
+        }
+      ],
+      "emits": [
+        {
+          "key": "it's a emit key",
+          "value": "it's a slot value",
+          "id": "14"
+        },
+        {
+          "key": "it's a emit key",
+          "value": "it's a emit value",
+          "id": "15"
+        }
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "id": "4",
+      "source": {
+        "node_id": "1",
+        "attr_id": "1"
+      },
+      "target": {
+        "node_id": "2",
+        "attr_id": "6"
+      },
+      "text": "it's a edge text"
+    },
+    {
+      "id": "5",
+      "source": {
+        "node_id": "2",
+        "attr_id": "7"
+      },
+      "target": {
+        "node_id": "3",
+        "attr_id": "12"
+      },
+      "text": "it's a edge text"
+    }
+  ]
+}
