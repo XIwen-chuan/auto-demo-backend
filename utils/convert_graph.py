@@ -31,7 +31,8 @@ def convert_json_files(input_folder, output_folder):
                     "slots": [{
                         "key": "it's a slot key",
                         "value": "it's a slot value",
-                        "id": str(cell['id'])
+                        "id": str(cell['id']),
+                        "node_id": cell['id'],
                     }],
                     "emits": []
                 }
