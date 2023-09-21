@@ -3,8 +3,8 @@
   "nodes": [
     {
       "id": "1",
-      "text":"it's a node text",
-      "instruction":"ADD",
+      "text": "it's a node text",
+      "instruction": "ABC",
       "slots": [
         {
           "key": "it's a slot key",
@@ -20,6 +20,11 @@
           "key": "it's a slot key",
           "value": "it's a slot value",
           "id": "3"
+        },
+        {
+          "key": "key111",
+          "value": "val111",
+          "id": "4"
         }
       ],
       "emits": [
@@ -38,17 +43,12 @@
     {
       "id": "2",
       "text": "it's a node text",
-      "instruction":"ADD",
+      "instruction": "ADD",
       "slots": [
         {
           "key": "it's a slot key",
           "value": "it's a slot value",
           "id": "6"
-        },
-        {
-          "key": "it's a slot key",
-          "value": "it's a slot value",
-          "id": "7"
         },
         {
           "key": "it's a slot key",
@@ -72,7 +72,7 @@
     {
       "id": "3",
       "text": "it's a node text",
-      "instruction":"ADD",
+      "instruction": "ADD",
       "slots": [
         {
           "key": "it's a slot key",
@@ -106,28 +106,16 @@
   ],
   "edges": [
     {
-      "id": "4",
+      "id": "1",
       "source": {
-        "node_id": "1",
-        "attr_id": "1"
-      },
-      "target": {
-        "node_id": "2",
-        "attr_id": "6"
-      },
-      "text": "it's a edge text"
-    },
-    {
-      "id": "5",
-      "source": {
-        "node_id": "2",
-        "attr_id": "7"
-      },
-      "target": {
         "node_id": "3",
         "attr_id": "12"
       },
-      "text": "it's a edge text"
+      "target": {
+        "node_id": "1",
+        "attr_id": "4"
+      },
+      "text": "New Edge Text"
     }
   ]
 }

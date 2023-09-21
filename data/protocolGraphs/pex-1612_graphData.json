@@ -3,7 +3,7 @@
   "nodes": [
     {
       "id": "37f4db2b-c7af-4e7f-a475-e94b64153beb",
-      "text": "it's a node text",
+      "text": "1.Preparation of 100 \u00b5l aliquote pool Combine protein stock solutions",
       "instruction": "ADD",
       "slots": [
         {
@@ -17,7 +17,7 @@
     },
     {
       "id": "247fabc2-890e-4f13-96e4-8d6152ae37f0",
-      "text": "it's a node text",
+      "text": "11.7 \u00b5l ubiquitin, 8.61 \u00b5l lysozyme, 5.88 \u00b5l myoglobin, 5.7 \u00b5l trypsinogen, 6.71 \u00b5l GAPDH, 4.66 \u00b5l ovalbumin, 4.33 \u00b5l albumin, 23.1 \u00b5l phosphorylase B and add 29.31 \u00b5l Tris buffer (pH 8,5).",
       "instruction": "ADD",
       "slots": [
         {
@@ -31,7 +31,7 @@
     },
     {
       "id": "47524594-2f8d-40bb-95be-48930ffe56eb",
-      "text": "it's a node text",
+      "text": "2.Denaturation \nHeat 45 \u00b5l of aliquote pool in a thermoshaker for 4 min at 95\u00b0C",
       "instruction": "ADD",
       "slots": [
         {
@@ -45,7 +45,7 @@
     },
     {
       "id": "c7d18070-5048-4b2b-b071-5d83656d7c73",
-      "text": "it's a node text",
+      "text": " 3.Labeling Incubate 45 \u00b5l (51.53 \u00b5g) of the denatured aliquote pool (pH 8.5) with 1 \u00b5l Sci 3 for 30 min on ice. Stop labeling with 1 \u00b5l lysine solution for 10 min on ice",
       "instruction": "ADD",
       "slots": [
         {
@@ -59,7 +59,7 @@
     },
     {
       "id": "9b85360e-a123-4b5f-8f85-d489fcf3637a",
-      "text": "it's a node text",
+      "text": "CRITICAL STEP Use a higher concentration of lysine than recommended by the manufacturer to avoid mislabeling due to quenching failure18. PAUSE POINT Aliquots can be stored at -80\u00b0C until further use.",
       "instruction": "ADD",
       "slots": [
         {
@@ -73,7 +73,7 @@
     },
     {
       "id": "d2297bd6-7827-4bbf-af68-8aa3e0ff27ff",
-      "text": "it's a node text",
+      "text": "4.Reduction\nRinse Pall 3K filter units three times by centrifuging with cleaning solvent (3 x 500 \u00b5l, 5 min, 12,500 x g, 20\u00b0C). Transfer labeled grid mix to the filter unit and centrifuge (15 min, 12,500 x g, 20\u00b0C). For reduction, add 100 \u00b5l reducing buffer and vortex (45 min, 1,000 rpm). Centrifuge (15 min, 12,500 x g, 20\u00b0C).",
       "instruction": "ADD",
       "slots": [
         {
@@ -87,7 +87,7 @@
     },
     {
       "id": "f913e71d-dc0c-40ff-ac79-e95353566d69",
-      "text": "it's a node text",
+      "text": "5.Alkylation\nAdd 100 \u00b5l alkylation buffer to the filter unit and vortex in the dark (1,000 rpm, 30 min). Stop the process by centrifuging (15 min, 12,500 x g, 20\u00b0C) and rinsing with quenching buffer (100 \u00b5l; vortex for 15 min at 1,000 rpm; centrifuge for 30 min, 12,500 x g, 4\u00b0C).",
       "instruction": "ADD",
       "slots": [
         {
@@ -101,7 +101,7 @@
     },
     {
       "id": "5df8d344-6762-4457-86ff-b0e6a0162bc4",
-      "text": "it's a node text",
+      "text": "6.Protein extraction\nAdd 100 \u00b5l Tris buffer to the filter unit and vortex (45 min, 1,000 rpm). Transfer the protein solution to a fresh tube.",
       "instruction": "ADD",
       "slots": [
         {
@@ -115,7 +115,7 @@
     },
     {
       "id": "b25f4cac-732c-417d-9213-58a93f53a983",
-      "text": "it's a node text",
+      "text": "CRITICAL STEP If you wish to evaluate the protein concentration in addition to analyte spot correction, you need to determine the concentration of the grid mix proteins again after above procedure, because protein loss may occur4,14,15. PAUSE POINT Store the reference proteins at -32\u00b0C until further use.",
       "instruction": "ADD",
       "slots": [
         {
@@ -129,7 +129,7 @@
     },
     {
       "id": "9cfe264a-5db7-4c9b-ad95-0d37bdcf9b64",
-      "text": "it's a node text",
+      "text": " 7.Lyse E. coli (25 mg) in 1 ml lysis buffer containing 1/10 tablet EDTA-free protease inhibitor cocktail Complete mini. Vortex (30 min) and centrifuge (12,000 x g, 4\u00b0C). Adjust the supernatant to pH 8-9. Determine the protein concentration at 590 nm using the Bradford-based Cytoskeleton kit ADV01. The protein amount should be at least 3 mg/ml.",
       "instruction": "ADD",
       "slots": [
         {
@@ -143,7 +143,7 @@
     },
     {
       "id": "e91c34a3-c7e0-481f-b313-d6d89c9b8c88",
-      "text": "it's a node text",
+      "text": "PAUSE POINT Protein solutions can be stored frozen until further use.",
       "instruction": "ADD",
       "slots": [
         {
@@ -157,7 +157,7 @@
     },
     {
       "id": "8f028636-a6bc-4e61-a438-9522d9385817",
-      "text": "it's a node text",
+      "text": "8. Label E. coli lysate (50 \u00b5g) with 1 \u00b5l 400 pmol Sci 5 (30 min on ice). Quench the reaction with 1 \u00b5l lysine solution (10 min on ice). For subsequent IEF, add IEF buffer at 1:1 ratio. Vortex and centrifuge (1 min each).",
       "instruction": "ADD",
       "slots": [
         {
@@ -171,7 +171,7 @@
     },
     {
       "id": "111f89ba-ac06-48c3-8277-9ba4ee4cd388",
-      "text": "it's a node text",
+      "text": "9 .For passive rehydration of the IPG-strip without sample overnight (~14 h) prepare a trough of the rehydration tray with 450 \u00b5l rehydration buffer. Place the IPG-strip into the trough with the gel side down and overlay it with 3 ml mineral oil.\nAlternatively, if cup-loading is used, place the IPG strip gel side up into the manifold and pipet the sample (13.2 \u00b5l, total protein amount 50 \u00b5g) followed by mineral oil (10 \u00b5l) into a cup located on the anodic side of the strip.",
       "instruction": "ADD",
       "slots": [
         {
@@ -185,7 +185,7 @@
     },
     {
       "id": "4908ced8-54ab-40b8-b6b6-f0c4378160f9",
-      "text": "it's a node text",
+      "text": "CRITICAL STEP In case of multiple parallel experiments, only load identical protein amounts per strip, e.g. 50 \u00b5g, for reliable results.",
       "instruction": "ADD",
       "slots": [
         {
@@ -199,7 +199,7 @@
     },
     {
       "id": "8cb11a66-06ab-4fa0-b27e-9468a1c6d53e",
-      "text": "it's a node text",
+      "text": "10.Perform focusing at 20\u00b0C and 50 \u00b5A for 20 h (150 V \u2013 3 h step, 300 V \u2013 3 h step, 1 kV \u2013 6 h grad, 8 kV \u2013 4 h grad, 8 kV \u2013 3 h step, 300 V \u2013 1 h holding step).",
       "instruction": "ADD",
       "slots": [
         {
@@ -213,7 +213,7 @@
     },
     {
       "id": "0eadfc96-79e4-40c8-a20b-c422e294a5e2",
-      "text": "it's a node text",
+      "text": "11.Equilibrate the IPG-strip for 15 min each in equilibration buffers I and II (6 ml each). Place two electrode wicks separately into the wick tray and add 45 ml SERVA cathode and anode electrode buffer, respectively. Allow 15 min for buffer uptake. Spread cooling fluid (3 ml) on the cooling plate of one drawer of the FlatTop Tower.",
       "instruction": "ADD",
       "slots": [
         {
@@ -227,7 +227,7 @@
     },
     {
       "id": "fd3e147b-502a-4730-b066-bd3f24322062",
-      "text": "it's a node text",
+      "text": "12. Load molecular weight marker Serva Triple Color Protein Standard III (5 \u00b5l; prestained protein ladder) into the dedicated well of the gel. Place the IPG strip into the designated trough face-down with the anode (+) side towards this marker well.",
       "instruction": "ADD",
       "slots": [
         {
@@ -241,7 +241,7 @@
     },
     {
       "id": "0391cc32-b331-4fb0-9475-de4076caab1a",
-      "text": "it's a node text",
+      "text": "13. Apply 0.5 \u00b5l labeled grid mix to each reference well immediately before the start of the second electrophoresis dimension.",
       "instruction": "ADD",
       "slots": [
         {
@@ -255,7 +255,7 @@
     },
     {
       "id": "fb1c3760-4551-450e-9856-d1c728a91ccc",
-      "text": "it's a node text",
+      "text": "CRITICAL STEP If you wish to evaluate the protein concentration in addition to analyte spot correction, prepare the grid mix in different concentrations or apply different volumes to the wells4,14,15.",
       "instruction": "ADD",
       "slots": [
         {
@@ -269,7 +269,7 @@
     },
     {
       "id": "13fb676e-54bd-4a69-b078-8ea7acac331d",
-      "text": "it's a node text",
+      "text": "14.Perform the 2nd dimension for ~ 6h ( 100 V, 7 mA, 1 W, 30 min; 200 V, 13 mA, 3 W, 30 min; 300 V, 20 mA, 5 W, 10 min; pause the power supply and remove pI-strip; restart the power supply, 1.5 kV, 40 mA, 30 W, 230 min; 1.5 kV, 50 mA, 40 W, 40 min). Stop the experiment when the running front reaches the end of the gel.",
       "instruction": "ADD",
       "slots": [
         {
@@ -283,7 +283,7 @@
     },
     {
       "id": "55526554-baee-4109-bac6-d29b57f72c3b",
-      "text": "it's a node text",
+      "text": "15.Scan gels immediately using the green laser for Sci 3 (532 nm, emission filter 580, band pass (BP) 30, photomultiplier tube (PMT) 525) and the red laser for G-Dye300 (633 nm, emission filter 670, BP 30, PMT 490). Set the resolution for the main scans to 100 \u00b5m per pixel. Adapt the PMT response in such a way that the gel image shows the most intense protein spot slightly below saturation.",
       "instruction": "ADD",
       "slots": [
         {
@@ -297,7 +297,7 @@
     },
     {
       "id": "fdccaefb-c028-4375-a475-aee93a73d745",
-      "text": "it's a node text",
+      "text": "16.Visualize gel images using ImageQuant software and store them",
       "instruction": "ADD",
       "slots": [
         {
@@ -311,7 +311,7 @@
     },
     {
       "id": "e146a8e3-bf71-44c7-a7e3-2e27c950b91e",
-      "text": "it's a node text",
+      "text": "17. Delta 2D software has been specifically modified to allow user-friendly analysis of CoFGE projects. However, any image analysis software capable of warping will be suitable.\nFirst, chose a reference gel as discussed above (find examples in ref. 6-8). The x-coordinates of the nodes are determined by the well distances; the y-coordinates by the position of the marker protein spot. Match the individual marker grid for each gel to the chosen master grid by assigning every experimental grid spot to the corresponding spot of the theoretical grid. This process determines the match vectors for the respective gel.",
       "instruction": "ADD",
       "slots": [
         {
@@ -325,7 +325,7 @@
     },
     {
       "id": "894a9c97-432c-4269-98fc-91ee1e7deeb1",
-      "text": "it's a node text",
+      "text": "18. Apply the determined gel match vectors to the analyte proteome on this gel. Control the mapping of the match vectors manually.",
       "instruction": "ADD",
       "slots": [
         {

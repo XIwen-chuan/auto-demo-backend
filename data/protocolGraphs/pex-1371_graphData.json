@@ -3,7 +3,7 @@
   "nodes": [
     {
       "id": "7454b28d-ba36-47e1-aaaa-88f16e8f35af",
-      "text": "it's a node text",
+      "text": "Download the standalone version of BacEffl uxPred.",
       "instruction": "ADD",
       "slots": [
         {
@@ -17,7 +17,7 @@
     },
     {
       "id": "b85b085f-dcb4-4cbc-a1cb-0ce3df7aef56",
-      "text": "it's a node text",
+      "text": "Unpack \"baceffl uxpred.tar.gz\" using command: tar -xvf baceffl uxpred.tar.gz",
       "instruction": "ADD",
       "slots": [
         {
@@ -31,7 +31,7 @@
     },
     {
       "id": "8c97953c-0868-4e18-8c92-73b601ee4f78",
-      "text": "it's a node text",
+      "text": "Download Blast package from ftp://ftp.ncbi.nlm.nih.gov/blast/executables/release and install it to run PSI-BLAST into BacEffl uxPred installation folder.",
       "instruction": "ADD",
       "slots": [
         {
@@ -45,7 +45,7 @@
     },
     {
       "id": "4b150160-5fa2-47cf-b572-73142ce4f96d",
-      "text": "it's a node text",
+      "text": "Defi ne the path for 'blastpgp of Blast package' and the 'database' at the end of the psiblast_pssm.pl (specifi ed as $path_blastpgp and $path_database).",
       "instruction": "ADD",
       "slots": [
         {
@@ -59,7 +59,7 @@
     },
     {
       "id": "db390849-9101-488e-a33e-dcdc6922d4e8",
-      "text": "it's a node text",
+      "text": "Download and install the SVMLight package using the link: http://download.joachims.org/svm_light/current/svm_light.tar.gz in directory of BacEffl uxPred. Extract the content of tar fi le (svm_light.tar) and copy the program svm_classify into the BacEffl uxPred folder.",
       "instruction": "ADD",
       "slots": [
         {
@@ -73,7 +73,7 @@
     },
     {
       "id": "5ddd2062-12f9-47d5-bd82-4691e17b36f8",
-      "text": "it's a node text",
+      "text": "node",
       "instruction": "ADD",
       "slots": [
         {

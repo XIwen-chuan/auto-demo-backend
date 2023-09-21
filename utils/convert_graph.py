@@ -24,18 +24,33 @@ def convert_json_files(input_folder, output_folder):
         # 处理节点
         for cell in data['cells']:
             if cell['shape'] == 'custom-react-shape':
-                node = {
-                    "id": cell['id'],
-                    "text": "it's a node text",
-                    "instruction": "ADD",
-                    "slots": [{
-                        "key": "it's a slot key",
-                        "value": "it's a slot value",
-                        "id": str(cell['id']),
-                        "node_id": cell['id'],
-                    }],
-                    "emits": []
-                }
+                print(cell['data'])
+                try:
+                    node = {
+                        "id": cell['id'],
+                        "text": cell['data']['protoText'],
+                        "instruction": "ADD",
+                        "slots": [{
+                            "key": "it's a slot key",
+                            "value": "it's a slot value",
+                            "id": str(cell['id']),
+                            "node_id": cell['id'],
+                        }],
+                        "emits": []
+                    }
+                except:
+                    node = {
+                        "id": cell['id'],
+                        "text": "node",
+                        "instruction": "ADD",
+                        "slots": [{
+                            "key": "it's a slot key",
+                            "value": "it's a slot value",
+                            "id": str(cell['id']),
+                            "node_id": cell['id'],
+                        }],
+                        "emits": []
+                    }
                 result["nodes"].append(node)
 
         # 处理边
@@ -64,7 +79,6 @@ def convert_json_files(input_folder, output_folder):
         # 将结果保存为新的JSON文件
         with open(output_path, 'w') as outfile:
             json.dump(result, outfile, indent=2)
-
 
 # 示例用法
 input_folder = '../data/oldProtocolGraphs'
