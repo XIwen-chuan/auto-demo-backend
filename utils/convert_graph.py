@@ -56,6 +56,14 @@ def convert_json_files(input_folder, output_folder):
         # 处理边
         for cell in data['cells']:
             if cell['shape'] == 'edge':
+                source_text = ""
+                target_text = ""
+                # search the text of source node
+                for node in result["nodes"]:
+                    if node["id"] == cell['source']['cell']:
+                        source_text = node["text"]
+                    elif node["id"] == cell['target']['cell']:
+                        target_text = node["text"]
                 source_node_id = cell['source']['cell']
                 target_node_id = cell['target']['cell']
 
@@ -65,10 +73,12 @@ def convert_json_files(input_folder, output_folder):
                 edge = {
                     "id": cell['id'],
                     "source": {
+                        "text": source_text,
                         "node_id": source_node_id,
                         "attr_id": source_attr_id
                     },
                     "target": {
+                        "text": target_text,
                         "node_id": target_node_id,
                         "attr_id": target_attr_id
                     },

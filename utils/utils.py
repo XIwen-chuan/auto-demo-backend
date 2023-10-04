@@ -1,6 +1,7 @@
 import json
 import os
 import re
+import hashlib
 
 
 def get_graph_filename_by_protocol_fileneme(filename: str):
@@ -17,8 +18,6 @@ def get_graph_filename_by_protocol_fileneme(filename: str):
     filename = f"{pro_type}-{num}_graphData.json"
     return filename
 
-
-import hashlib
 
 
 def generate_unique_attr_id(data, attr_type):

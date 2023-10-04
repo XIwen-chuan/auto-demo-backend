@@ -141,6 +141,14 @@ async def upload_and_convert_json(
         # 处理边
         for cell in uploaded_data['cells']:
             if cell['shape'] == 'edge':
+                source_text = ""
+                target_text = ""
+                # search the text of source node
+                for node in result["nodes"]:
+                    if node["id"] == cell['source']['cell']:
+                        source_text = node["text"]
+                    elif node["id"] == cell['target']['cell']:
+                        target_text = node["text"]
                 source_node_id = cell['source']['cell']
                 target_node_id = cell['target']['cell']
 
@@ -150,10 +158,12 @@ async def upload_and_convert_json(
                 edge = {
                     "id": cell['id'],
                     "source": {
+                        "text": source_text,
                         "node_id": source_node_id,
                         "attr_id": source_attr_id
                     },
                     "target": {
+                        "text": target_text,
                         "node_id": target_node_id,
                         "attr_id": target_attr_id
                     },
@@ -249,6 +259,7 @@ async def add_attr(
         value: str,
         attr_type: str
 ):
+    new_id = None
     graph_filename = get_graph_filename_by_protocol_fileneme(filename)
     filepath = os.path.join(graphs_dir, graph_filename)
     try:
@@ -286,7 +297,7 @@ async def add_attr(
         print(f"文件 '{filename}' 未找到")
     # except Exception as e:
     #     print(f"发生错误: {e}")
-    return {"msg": "finished"}
+    return {"attr_id": new_id}
 
 @app.post("/api/edge/")
 async def add_edge(
@@ -299,20 +310,31 @@ async def add_edge(
 ):
     graph_filename = get_graph_filename_by_protocol_fileneme(filename)
     filepath = os.path.join(graphs_dir, graph_filename)
+    new_id = None
     try:
         # 读取 JSON 文件
         with open(filepath, 'r') as file:
             data = json.load(file)
 
         new_id = generate_unique_edge_id(data)
+        source_text = ""
+        target_text = ""
+        # search the text of source node
+        for node in data["nodes"]:
+            if node["id"] == data['source']['cell']:
+                source_text = node["text"]
+            elif node["id"] == data['target']['cell']:
+                target_text = node["text"]
         # 创建新的边缘
         new_edge = {
             "id": new_id,  # 自动生成新边缘的唯一 ID
             "source": {
+                "text": source_text,  # 边缘的源节点的文本
                 "node_id": source_node_id,
                 "attr_id": source_attr_id
             },
             "target": {
+                "text": target_text,  # 边缘的目标节点的文本
                 "node_id": target_node_id,
                 "attr_id": target_attr_id
             },
@@ -332,7 +354,7 @@ async def add_edge(
     except Exception as e:
         print(f"发生错误: {e}")
 
-    return {"msg": "finished"}
+    return {"edge_id": new_id}
 
 @app.delete("/api/edge/")
 async def delete_edge(
@@ -409,3 +431,19 @@ async def modify_intruction(
         print(f"发生错误: {e}")
 
     return {"msg": "finished"}
+
+@app.get("/api/isa/")
+async def get_human_modified_isa():
+    filepath = os.path.join("./data/human_modified_isa", "human-modified-isa.json")
+    try:
+        # 读取 JSON 文件
+        with open(filepath, 'r') as file:
+            data = json.load(file)
+        return data
+    except FileNotFoundError:
+        print(f"文件 '{filepath}' 未找到")
+        return {"error": "文件未找到"}
+    except Exception as e:
+        print(f"发生错误: {e}")
+        return {"error": "e"}
+
