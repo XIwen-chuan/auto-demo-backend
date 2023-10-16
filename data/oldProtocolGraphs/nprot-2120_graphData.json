@@ -1,0 +1,694 @@
+{
+  "cells": [
+    {
+      "shape": "edge",
+      "attrs": {
+        "line": {
+          "stroke": "#A2B1C3"
+        }
+      },
+      "id": "06bc63ef-d01f-4966-bc3f-277fdaad3042",
+      "zIndex": 0,
+      "source": {
+        "cell": "271500b5-91ef-4993-8430-9a980744c62f",
+        "port": "2c11c5e4-fe4d-4459-bcdc-3ef324238682"
+      },
+      "target": {
+        "cell": "a3d0593e-33e6-4d89-b7ef-c51d62ca3853",
+        "port": "ac7f4c82-443e-4a35-bfa9-3eaa5caf03b0"
+      }
+    },
+    {
+      "shape": "edge",
+      "attrs": {
+        "line": {
+          "stroke": "#A2B1C3"
+        }
+      },
+      "id": "b259ae1c-2190-4087-ace4-055aed9f821f",
+      "zIndex": 0,
+      "source": {
+        "cell": "a3d0593e-33e6-4d89-b7ef-c51d62ca3853",
+        "port": "2c11c5e4-fe4d-4459-bcdc-3ef324238682"
+      },
+      "target": {
+        "cell": "10c68129-1f4b-4a8e-9987-06e323552034",
+        "port": "ac7f4c82-443e-4a35-bfa9-3eaa5caf03b0"
+      }
+    },
+    {
+      "shape": "edge",
+      "attrs": {
+        "line": {
+          "stroke": "#A2B1C3"
+        }
+      },
+      "id": "dda104ec-d4c0-4342-84d3-e1167f6cf476",
+      "zIndex": 0,
+      "source": {
+        "cell": "10c68129-1f4b-4a8e-9987-06e323552034",
+        "port": "2c11c5e4-fe4d-4459-bcdc-3ef324238682"
+      },
+      "target": {
+        "cell": "10bbead1-3036-4f80-8f40-f864fd38229b",
+        "port": "ac7f4c82-443e-4a35-bfa9-3eaa5caf03b0"
+      }
+    },
+    {
+      "shape": "edge",
+      "attrs": {
+        "line": {
+          "stroke": "#A2B1C3"
+        }
+      },
+      "id": "03bedfd4-0394-4c55-a1f7-5c330a64e3e3",
+      "zIndex": 0,
+      "source": {
+        "cell": "10bbead1-3036-4f80-8f40-f864fd38229b",
+        "port": "6e14e7db-243c-4d85-bca8-3066072eb310"
+      },
+      "target": {
+        "cell": "9a848201-feac-46e3-bd6d-0703f6dd6703",
+        "port": "ebacc48f-f996-4eab-b392-06bf155b4641"
+      }
+    },
+    {
+      "shape": "edge",
+      "attrs": {
+        "line": {
+          "stroke": "#A2B1C3"
+        }
+      },
+      "id": "8b958dab-dc74-4dd2-aecc-59b1b2beab49",
+      "zIndex": 0,
+      "source": {
+        "cell": "9a848201-feac-46e3-bd6d-0703f6dd6703",
+        "port": "ac7f4c82-443e-4a35-bfa9-3eaa5caf03b0"
+      },
+      "target": {
+        "cell": "d010ae7d-e899-4710-8f74-823e5bf0d788",
+        "port": "2c11c5e4-fe4d-4459-bcdc-3ef324238682"
+      }
+    },
+    {
+      "position": {
+        "x": 20,
+        "y": 40
+      },
+      "size": {
+        "width": 220,
+        "height": 100
+      },
+      "view": "react-shape-view",
+      "shape": "custom-react-shape",
+      "ports": {
+        "groups": {
+          "top": {
+            "position": "top",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "right": {
+            "position": "right",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "bottom": {
+            "position": "bottom",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "left": {
+            "position": "left",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          }
+        },
+        "items": [
+          {
+            "group": "top",
+            "id": "ebacc48f-f996-4eab-b392-06bf155b4641"
+          },
+          {
+            "group": "right",
+            "id": "2c11c5e4-fe4d-4459-bcdc-3ef324238682"
+          },
+          {
+            "group": "bottom",
+            "id": "6e14e7db-243c-4d85-bca8-3066072eb310"
+          },
+          {
+            "group": "left",
+            "id": "ac7f4c82-443e-4a35-bfa9-3eaa5caf03b0"
+          }
+        ]
+      },
+      "id": "271500b5-91ef-4993-8430-9a980744c62f",
+      "data": {
+        "protoText": "Inoculate 5ml LB 100ug/ml ampicillin \\(or other appropriate antibiotic for your culture) with cells"
+      },
+      "type": "textNode",
+      "zIndex": 1
+    },
+    {
+      "position": {
+        "x": 290,
+        "y": 59
+      },
+      "size": {
+        "width": 120,
+        "height": 60
+      },
+      "view": "react-shape-view",
+      "shape": "custom-react-shape",
+      "ports": {
+        "groups": {
+          "top": {
+            "position": "top",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "right": {
+            "position": "right",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "bottom": {
+            "position": "bottom",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "left": {
+            "position": "left",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          }
+        },
+        "items": [
+          {
+            "group": "top",
+            "id": "ebacc48f-f996-4eab-b392-06bf155b4641"
+          },
+          {
+            "group": "right",
+            "id": "2c11c5e4-fe4d-4459-bcdc-3ef324238682"
+          },
+          {
+            "group": "bottom",
+            "id": "6e14e7db-243c-4d85-bca8-3066072eb310"
+          },
+          {
+            "group": "left",
+            "id": "ac7f4c82-443e-4a35-bfa9-3eaa5caf03b0"
+          }
+        ]
+      },
+      "id": "a3d0593e-33e6-4d89-b7ef-c51d62ca3853",
+      "data": {
+        "protoText": "Grow overnight on roller"
+      },
+      "type": "textNode",
+      "zIndex": 2
+    },
+    {
+      "position": {
+        "x": 457,
+        "y": 50
+      },
+      "size": {
+        "width": 180,
+        "height": 80
+      },
+      "view": "react-shape-view",
+      "shape": "custom-react-shape",
+      "ports": {
+        "groups": {
+          "top": {
+            "position": "top",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "right": {
+            "position": "right",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "bottom": {
+            "position": "bottom",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "left": {
+            "position": "left",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          }
+        },
+        "items": [
+          {
+            "group": "top",
+            "id": "ebacc48f-f996-4eab-b392-06bf155b4641"
+          },
+          {
+            "group": "right",
+            "id": "2c11c5e4-fe4d-4459-bcdc-3ef324238682"
+          },
+          {
+            "group": "bottom",
+            "id": "6e14e7db-243c-4d85-bca8-3066072eb310"
+          },
+          {
+            "group": "left",
+            "id": "ac7f4c82-443e-4a35-bfa9-3eaa5caf03b0"
+          }
+        ]
+      },
+      "id": "10c68129-1f4b-4a8e-9987-06e323552034",
+      "data": {
+        "protoText": "Mix 800ul culture with 200ul 100% w/v glycerol \\(sterile) in sterile screw cap freezer tube"
+      },
+      "type": "textNode",
+      "zIndex": 3
+    },
+    {
+      "position": {
+        "x": 700,
+        "y": 67
+      },
+      "size": {
+        "width": 85,
+        "height": 46
+      },
+      "view": "react-shape-view",
+      "shape": "custom-react-shape",
+      "ports": {
+        "groups": {
+          "top": {
+            "position": "top",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "right": {
+            "position": "right",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "bottom": {
+            "position": "bottom",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "left": {
+            "position": "left",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          }
+        },
+        "items": [
+          {
+            "group": "top",
+            "id": "ebacc48f-f996-4eab-b392-06bf155b4641"
+          },
+          {
+            "group": "right",
+            "id": "2c11c5e4-fe4d-4459-bcdc-3ef324238682"
+          },
+          {
+            "group": "bottom",
+            "id": "6e14e7db-243c-4d85-bca8-3066072eb310"
+          },
+          {
+            "group": "left",
+            "id": "ac7f4c82-443e-4a35-bfa9-3eaa5caf03b0"
+          }
+        ]
+      },
+      "id": "10bbead1-3036-4f80-8f40-f864fd38229b",
+      "data": {
+        "protoText": "Invert a few times"
+      },
+      "type": "textNode",
+      "zIndex": 4
+    },
+    {
+      "position": {
+        "x": 685,
+        "y": 160
+      },
+      "size": {
+        "width": 115,
+        "height": 64
+      },
+      "view": "react-shape-view",
+      "shape": "custom-react-shape",
+      "ports": {
+        "groups": {
+          "top": {
+            "position": "top",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "right": {
+            "position": "right",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "bottom": {
+            "position": "bottom",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "left": {
+            "position": "left",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          }
+        },
+        "items": [
+          {
+            "group": "top",
+            "id": "ebacc48f-f996-4eab-b392-06bf155b4641"
+          },
+          {
+            "group": "right",
+            "id": "2c11c5e4-fe4d-4459-bcdc-3ef324238682"
+          },
+          {
+            "group": "bottom",
+            "id": "6e14e7db-243c-4d85-bca8-3066072eb310"
+          },
+          {
+            "group": "left",
+            "id": "ac7f4c82-443e-4a35-bfa9-3eaa5caf03b0"
+          }
+        ]
+      },
+      "id": "9a848201-feac-46e3-bd6d-0703f6dd6703",
+      "data": {
+        "protoText": "Bury tube in dry ice until frozen solid"
+      },
+      "type": "textNode",
+      "zIndex": 5
+    },
+    {
+      "position": {
+        "x": 537,
+        "y": 162
+      },
+      "size": {
+        "width": 120,
+        "height": 60
+      },
+      "view": "react-shape-view",
+      "shape": "custom-react-shape",
+      "ports": {
+        "groups": {
+          "top": {
+            "position": "top",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "right": {
+            "position": "right",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "bottom": {
+            "position": "bottom",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "left": {
+            "position": "left",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          }
+        },
+        "items": [
+          {
+            "group": "top",
+            "id": "ebacc48f-f996-4eab-b392-06bf155b4641"
+          },
+          {
+            "group": "right",
+            "id": "2c11c5e4-fe4d-4459-bcdc-3ef324238682"
+          },
+          {
+            "group": "bottom",
+            "id": "6e14e7db-243c-4d85-bca8-3066072eb310"
+          },
+          {
+            "group": "left",
+            "id": "ac7f4c82-443e-4a35-bfa9-3eaa5caf03b0"
+          }
+        ]
+      },
+      "id": "d010ae7d-e899-4710-8f74-823e5bf0d788",
+      "data": {
+        "protoText": "Store in -80\u00b0C freezer"
+      },
+      "type": "textNode",
+      "zIndex": 6
+    }
+  ]
+}

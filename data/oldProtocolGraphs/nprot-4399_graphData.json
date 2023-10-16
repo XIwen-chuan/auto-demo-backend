@@ -1,0 +1,694 @@
+{
+  "cells": [
+    {
+      "shape": "edge",
+      "attrs": {
+        "line": {
+          "stroke": "#A2B1C3"
+        }
+      },
+      "id": "8a187995-3565-4c70-8a58-9af9ae6e6531",
+      "zIndex": 0,
+      "source": {
+        "cell": "d1e317d5-2b28-49cc-a409-7044ce0106f4",
+        "port": "b594b0f0-2eff-4af9-862f-7ad3b3b286f3"
+      },
+      "target": {
+        "cell": "a891fc55-26a2-4090-b140-c02544ce58e0",
+        "port": "92ec7584-11be-44ac-b862-e42fa46b88ca"
+      }
+    },
+    {
+      "shape": "edge",
+      "attrs": {
+        "line": {
+          "stroke": "#A2B1C3"
+        }
+      },
+      "id": "e4b5bf1d-5d12-476e-b83d-d03c18bff6ba",
+      "zIndex": 0,
+      "source": {
+        "cell": "a891fc55-26a2-4090-b140-c02544ce58e0",
+        "port": "b594b0f0-2eff-4af9-862f-7ad3b3b286f3"
+      },
+      "target": {
+        "cell": "f09fd510-2aa1-4fc1-a0e4-fce94bbfcdd8",
+        "port": "92ec7584-11be-44ac-b862-e42fa46b88ca"
+      }
+    },
+    {
+      "shape": "edge",
+      "attrs": {
+        "line": {
+          "stroke": "#A2B1C3"
+        }
+      },
+      "id": "d6ad8c15-890e-4c85-be4b-8a6d037c283a",
+      "zIndex": 0,
+      "source": {
+        "cell": "f09fd510-2aa1-4fc1-a0e4-fce94bbfcdd8",
+        "port": "b594b0f0-2eff-4af9-862f-7ad3b3b286f3"
+      },
+      "target": {
+        "cell": "bd3a0d1f-8bb2-4dd2-8eea-9187a880a410",
+        "port": "92ec7584-11be-44ac-b862-e42fa46b88ca"
+      }
+    },
+    {
+      "shape": "edge",
+      "attrs": {
+        "line": {
+          "stroke": "#A2B1C3"
+        }
+      },
+      "id": "7efd2917-1285-440d-acaf-2aa832011bf0",
+      "zIndex": 0,
+      "source": {
+        "cell": "bd3a0d1f-8bb2-4dd2-8eea-9187a880a410",
+        "port": "b594b0f0-2eff-4af9-862f-7ad3b3b286f3"
+      },
+      "target": {
+        "cell": "720f1b6c-e379-42f5-8008-fb1d34e03665",
+        "port": "92ec7584-11be-44ac-b862-e42fa46b88ca"
+      }
+    },
+    {
+      "shape": "edge",
+      "attrs": {
+        "line": {
+          "stroke": "#A2B1C3"
+        }
+      },
+      "id": "b41b5722-c3bf-4f5a-a9df-326d3b43b69f",
+      "zIndex": 0,
+      "source": {
+        "cell": "720f1b6c-e379-42f5-8008-fb1d34e03665",
+        "port": "d81fde39-c6f0-4db7-8332-4d54769fd8df"
+      },
+      "target": {
+        "cell": "4e749e35-7f88-44da-80a0-8cea368f5030",
+        "port": "bb5bcad2-1b34-4caa-a07d-e32896d9906c"
+      }
+    },
+    {
+      "position": {
+        "x": 20,
+        "y": 20
+      },
+      "size": {
+        "width": 130,
+        "height": 82
+      },
+      "view": "react-shape-view",
+      "shape": "custom-react-shape",
+      "ports": {
+        "groups": {
+          "top": {
+            "position": "top",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "right": {
+            "position": "right",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "bottom": {
+            "position": "bottom",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "left": {
+            "position": "left",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          }
+        },
+        "items": [
+          {
+            "group": "top",
+            "id": "bb5bcad2-1b34-4caa-a07d-e32896d9906c"
+          },
+          {
+            "group": "right",
+            "id": "b594b0f0-2eff-4af9-862f-7ad3b3b286f3"
+          },
+          {
+            "group": "bottom",
+            "id": "d81fde39-c6f0-4db7-8332-4d54769fd8df"
+          },
+          {
+            "group": "left",
+            "id": "92ec7584-11be-44ac-b862-e42fa46b88ca"
+          }
+        ]
+      },
+      "id": "d1e317d5-2b28-49cc-a409-7044ce0106f4",
+      "data": {
+        "protoText": "plate cells at a concentration of 1 million cells / mL"
+      },
+      "type": "textNode",
+      "zIndex": 1
+    },
+    {
+      "position": {
+        "x": 194,
+        "y": 20
+      },
+      "size": {
+        "width": 130,
+        "height": 82
+      },
+      "view": "react-shape-view",
+      "shape": "custom-react-shape",
+      "ports": {
+        "groups": {
+          "top": {
+            "position": "top",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "right": {
+            "position": "right",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "bottom": {
+            "position": "bottom",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "left": {
+            "position": "left",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          }
+        },
+        "items": [
+          {
+            "group": "top",
+            "id": "bb5bcad2-1b34-4caa-a07d-e32896d9906c"
+          },
+          {
+            "group": "right",
+            "id": "b594b0f0-2eff-4af9-862f-7ad3b3b286f3"
+          },
+          {
+            "group": "bottom",
+            "id": "d81fde39-c6f0-4db7-8332-4d54769fd8df"
+          },
+          {
+            "group": "left",
+            "id": "92ec7584-11be-44ac-b862-e42fa46b88ca"
+          }
+        ]
+      },
+      "id": "a891fc55-26a2-4090-b140-c02544ce58e0",
+      "data": {
+        "protoText": "24 hours after plating, switch to serum-free or EV-cleared media"
+      },
+      "type": "textNode",
+      "zIndex": 2
+    },
+    {
+      "position": {
+        "x": 356,
+        "y": 20
+      },
+      "size": {
+        "width": 145,
+        "height": 82
+      },
+      "view": "react-shape-view",
+      "shape": "custom-react-shape",
+      "ports": {
+        "groups": {
+          "top": {
+            "position": "top",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "right": {
+            "position": "right",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "bottom": {
+            "position": "bottom",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "left": {
+            "position": "left",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          }
+        },
+        "items": [
+          {
+            "group": "top",
+            "id": "bb5bcad2-1b34-4caa-a07d-e32896d9906c"
+          },
+          {
+            "group": "right",
+            "id": "b594b0f0-2eff-4af9-862f-7ad3b3b286f3"
+          },
+          {
+            "group": "bottom",
+            "id": "d81fde39-c6f0-4db7-8332-4d54769fd8df"
+          },
+          {
+            "group": "left",
+            "id": "92ec7584-11be-44ac-b862-e42fa46b88ca"
+          }
+        ]
+      },
+      "id": "f09fd510-2aa1-4fc1-a0e4-fce94bbfcdd8",
+      "data": {
+        "protoText": "Collect supernatant after 24 hr \\(hESCs) or 48 hr \\(NRVMs or KMBCs)"
+      },
+      "type": "textNode",
+      "zIndex": 3
+    },
+    {
+      "position": {
+        "x": 540,
+        "y": 20
+      },
+      "size": {
+        "width": 100,
+        "height": 64
+      },
+      "view": "react-shape-view",
+      "shape": "custom-react-shape",
+      "ports": {
+        "groups": {
+          "top": {
+            "position": "top",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "right": {
+            "position": "right",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "bottom": {
+            "position": "bottom",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "left": {
+            "position": "left",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          }
+        },
+        "items": [
+          {
+            "group": "top",
+            "id": "bb5bcad2-1b34-4caa-a07d-e32896d9906c"
+          },
+          {
+            "group": "right",
+            "id": "b594b0f0-2eff-4af9-862f-7ad3b3b286f3"
+          },
+          {
+            "group": "bottom",
+            "id": "d81fde39-c6f0-4db7-8332-4d54769fd8df"
+          },
+          {
+            "group": "left",
+            "id": "92ec7584-11be-44ac-b862-e42fa46b88ca"
+          }
+        ]
+      },
+      "id": "bd3a0d1f-8bb2-4dd2-8eea-9187a880a410",
+      "data": {
+        "protoText": " Centrifuge at 500 x g for 10 min."
+      },
+      "type": "textNode",
+      "zIndex": 4
+    },
+    {
+      "position": {
+        "x": 681,
+        "y": 11
+      },
+      "size": {
+        "width": 145,
+        "height": 100
+      },
+      "view": "react-shape-view",
+      "shape": "custom-react-shape",
+      "ports": {
+        "groups": {
+          "top": {
+            "position": "top",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "right": {
+            "position": "right",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "bottom": {
+            "position": "bottom",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "left": {
+            "position": "left",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          }
+        },
+        "items": [
+          {
+            "group": "top",
+            "id": "bb5bcad2-1b34-4caa-a07d-e32896d9906c"
+          },
+          {
+            "group": "right",
+            "id": "b594b0f0-2eff-4af9-862f-7ad3b3b286f3"
+          },
+          {
+            "group": "bottom",
+            "id": "d81fde39-c6f0-4db7-8332-4d54769fd8df"
+          },
+          {
+            "group": "left",
+            "id": "92ec7584-11be-44ac-b862-e42fa46b88ca"
+          }
+        ]
+      },
+      "id": "720f1b6c-e379-42f5-8008-fb1d34e03665",
+      "data": {
+        "protoText": "Transfer supernatant to a fresh tube and centrifuge at 2,000 x g for 10 min"
+      },
+      "type": "textNode",
+      "zIndex": 5
+    },
+    {
+      "position": {
+        "x": 696,
+        "y": 155
+      },
+      "size": {
+        "width": 115,
+        "height": 64
+      },
+      "view": "react-shape-view",
+      "shape": "custom-react-shape",
+      "ports": {
+        "groups": {
+          "top": {
+            "position": "top",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "right": {
+            "position": "right",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "bottom": {
+            "position": "bottom",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "left": {
+            "position": "left",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          }
+        },
+        "items": [
+          {
+            "group": "top",
+            "id": "bb5bcad2-1b34-4caa-a07d-e32896d9906c"
+          },
+          {
+            "group": "right",
+            "id": "b594b0f0-2eff-4af9-862f-7ad3b3b286f3"
+          },
+          {
+            "group": "bottom",
+            "id": "d81fde39-c6f0-4db7-8332-4d54769fd8df"
+          },
+          {
+            "group": "left",
+            "id": "92ec7584-11be-44ac-b862-e42fa46b88ca"
+          }
+        ]
+      },
+      "id": "4e749e35-7f88-44da-80a0-8cea368f5030",
+      "data": {
+        "protoText": "Store cell-free supernatant at -80\u00b0C."
+      },
+      "type": "textNode",
+      "zIndex": 6
+    }
+  ]
+}

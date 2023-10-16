@@ -1,0 +1,1620 @@
+{
+  "cells": [
+    {
+      "shape": "edge",
+      "attrs": {
+        "line": {
+          "stroke": "#A2B1C3"
+        }
+      },
+      "id": "f6abb29f-a95e-4259-8b54-ed3ff371f5e5",
+      "zIndex": 0,
+      "source": {
+        "cell": "d258f8a8-8057-42ca-a2a7-92f5edafb63a",
+        "port": "84ffa1fd-c8b9-4cb4-8cbb-990cd80bf39b"
+      },
+      "target": {
+        "cell": "701f8088-c754-4c01-b7f7-55365d415f36",
+        "port": "fb3cb4ea-428e-4ceb-a2de-930d541ca82f"
+      }
+    },
+    {
+      "shape": "edge",
+      "attrs": {
+        "line": {
+          "stroke": "#A2B1C3"
+        }
+      },
+      "id": "912709c0-900b-4f4e-8925-702f8e03fbb6",
+      "zIndex": 0,
+      "source": {
+        "cell": "701f8088-c754-4c01-b7f7-55365d415f36",
+        "port": "84ffa1fd-c8b9-4cb4-8cbb-990cd80bf39b"
+      },
+      "target": {
+        "cell": "7321d82d-7134-4d35-aec7-ed63c878907d",
+        "port": "fb3cb4ea-428e-4ceb-a2de-930d541ca82f"
+      }
+    },
+    {
+      "shape": "edge",
+      "attrs": {
+        "line": {
+          "stroke": "#A2B1C3"
+        }
+      },
+      "id": "e4e6f3e3-766a-4e75-b0ee-bea77c38c0d8",
+      "zIndex": 0,
+      "source": {
+        "cell": "7321d82d-7134-4d35-aec7-ed63c878907d",
+        "port": "84ffa1fd-c8b9-4cb4-8cbb-990cd80bf39b"
+      },
+      "target": {
+        "cell": "531f29f8-65a7-4e68-bbd5-7f450cb43d1d",
+        "port": "fb3cb4ea-428e-4ceb-a2de-930d541ca82f"
+      }
+    },
+    {
+      "shape": "edge",
+      "attrs": {
+        "line": {
+          "stroke": "#A2B1C3"
+        }
+      },
+      "id": "18ee5167-bcda-46c7-bf97-ed89245353c2",
+      "zIndex": 0,
+      "source": {
+        "cell": "531f29f8-65a7-4e68-bbd5-7f450cb43d1d",
+        "port": "84ffa1fd-c8b9-4cb4-8cbb-990cd80bf39b"
+      },
+      "target": {
+        "cell": "d03f9c30-c4df-415e-ae8b-67a997c47798",
+        "port": "fb3cb4ea-428e-4ceb-a2de-930d541ca82f"
+      }
+    },
+    {
+      "shape": "edge",
+      "attrs": {
+        "line": {
+          "stroke": "#A2B1C3"
+        }
+      },
+      "id": "9ebf7115-e9d5-4ffb-9088-1dd10f11c997",
+      "zIndex": 0,
+      "source": {
+        "cell": "d03f9c30-c4df-415e-ae8b-67a997c47798",
+        "port": "4d7c95e9-1ecb-44eb-878d-3ee86da49d1b"
+      },
+      "target": {
+        "cell": "94065f05-8cd4-40a9-81ab-afbee4c60bc3",
+        "port": "35055bcf-b6fb-4e71-9968-d641a326c7e4"
+      }
+    },
+    {
+      "shape": "edge",
+      "attrs": {
+        "line": {
+          "stroke": "#A2B1C3"
+        }
+      },
+      "id": "6b7224af-8d47-4116-a0d9-8d66eb3e96eb",
+      "zIndex": 0,
+      "source": {
+        "cell": "94065f05-8cd4-40a9-81ab-afbee4c60bc3",
+        "port": "fb3cb4ea-428e-4ceb-a2de-930d541ca82f"
+      },
+      "target": {
+        "cell": "c318ed04-1a13-4f83-abe8-e0abffb1e666",
+        "port": "84ffa1fd-c8b9-4cb4-8cbb-990cd80bf39b"
+      }
+    },
+    {
+      "shape": "edge",
+      "attrs": {
+        "line": {
+          "stroke": "#A2B1C3"
+        }
+      },
+      "id": "dbde4d91-6bb4-4734-b6c4-fea497d77954",
+      "zIndex": 0,
+      "source": {
+        "cell": "c318ed04-1a13-4f83-abe8-e0abffb1e666",
+        "port": "fb3cb4ea-428e-4ceb-a2de-930d541ca82f"
+      },
+      "target": {
+        "cell": "fc59693d-1ea2-45fd-804a-a81a7a5cb3ff",
+        "port": "84ffa1fd-c8b9-4cb4-8cbb-990cd80bf39b"
+      }
+    },
+    {
+      "shape": "edge",
+      "attrs": {
+        "line": {
+          "stroke": "#A2B1C3"
+        }
+      },
+      "id": "ddc1e89b-cdde-49f5-bde7-7543208e9eea",
+      "zIndex": 0,
+      "source": {
+        "cell": "fc59693d-1ea2-45fd-804a-a81a7a5cb3ff",
+        "port": "fb3cb4ea-428e-4ceb-a2de-930d541ca82f"
+      },
+      "target": {
+        "cell": "5d9009f7-6663-4ecb-a8ac-64b91280e4e3",
+        "port": "84ffa1fd-c8b9-4cb4-8cbb-990cd80bf39b"
+      }
+    },
+    {
+      "shape": "edge",
+      "attrs": {
+        "line": {
+          "stroke": "#A2B1C3"
+        }
+      },
+      "id": "af88eb9c-2c87-4642-9c1b-7178bdaefc26",
+      "zIndex": 0,
+      "source": {
+        "cell": "b573aee6-c0e0-470f-ba29-e003d4aeeac3",
+        "port": "84ffa1fd-c8b9-4cb4-8cbb-990cd80bf39b"
+      },
+      "target": {
+        "cell": "0a364280-e240-46b3-930b-f6ab20ec2366",
+        "port": "fb3cb4ea-428e-4ceb-a2de-930d541ca82f"
+      }
+    },
+    {
+      "shape": "edge",
+      "attrs": {
+        "line": {
+          "stroke": "#A2B1C3"
+        }
+      },
+      "id": "a1414505-a7dd-4304-a91e-3cc7c0e7919a",
+      "zIndex": 0,
+      "source": {
+        "cell": "0a364280-e240-46b3-930b-f6ab20ec2366",
+        "port": "84ffa1fd-c8b9-4cb4-8cbb-990cd80bf39b"
+      },
+      "target": {
+        "cell": "c0172619-a3ff-4017-9b6d-38a6447e3655",
+        "port": "fb3cb4ea-428e-4ceb-a2de-930d541ca82f"
+      }
+    },
+    {
+      "shape": "edge",
+      "attrs": {
+        "line": {
+          "stroke": "#A2B1C3"
+        }
+      },
+      "id": "fa33e9cc-bc88-4aa7-aab8-f383ffe0805a",
+      "zIndex": 0,
+      "source": {
+        "cell": "c0172619-a3ff-4017-9b6d-38a6447e3655",
+        "port": "84ffa1fd-c8b9-4cb4-8cbb-990cd80bf39b"
+      },
+      "target": {
+        "cell": "6d97d6ac-1ce2-4571-8b5b-a9623869ebcb",
+        "port": "fb3cb4ea-428e-4ceb-a2de-930d541ca82f"
+      }
+    },
+    {
+      "shape": "edge",
+      "attrs": {
+        "line": {
+          "stroke": "#A2B1C3"
+        }
+      },
+      "id": "42d681bb-9395-46d5-ae12-ca98919aba9e",
+      "zIndex": 0,
+      "source": {
+        "cell": "6d97d6ac-1ce2-4571-8b5b-a9623869ebcb",
+        "port": "84ffa1fd-c8b9-4cb4-8cbb-990cd80bf39b"
+      },
+      "target": {
+        "cell": "150fb4fc-9fb0-468b-abc5-91910108f12c",
+        "port": "fb3cb4ea-428e-4ceb-a2de-930d541ca82f"
+      }
+    },
+    {
+      "position": {
+        "x": -35.00000000000003,
+        "y": 42.99999999999997
+      },
+      "size": {
+        "width": 140,
+        "height": 40
+      },
+      "view": "react-shape-view",
+      "shape": "custom-react-shape",
+      "ports": {
+        "groups": {
+          "top": {
+            "position": "top",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "right": {
+            "position": "right",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "bottom": {
+            "position": "bottom",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "left": {
+            "position": "left",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          }
+        },
+        "items": [
+          {
+            "group": "top",
+            "id": "35055bcf-b6fb-4e71-9968-d641a326c7e4"
+          },
+          {
+            "group": "right",
+            "id": "84ffa1fd-c8b9-4cb4-8cbb-990cd80bf39b"
+          },
+          {
+            "group": "bottom",
+            "id": "4d7c95e9-1ecb-44eb-878d-3ee86da49d1b"
+          },
+          {
+            "group": "left",
+            "id": "fb3cb4ea-428e-4ceb-a2de-930d541ca82f"
+          }
+        ]
+      },
+      "id": "d258f8a8-8057-42ca-a2a7-92f5edafb63a",
+      "data": {
+        "protoText": "Bacteria Freezing"
+      },
+      "type": "textNode",
+      "zIndex": 1
+    },
+    {
+      "position": {
+        "x": 157,
+        "y": 22.99999999999997
+      },
+      "size": {
+        "width": 240,
+        "height": 80
+      },
+      "view": "react-shape-view",
+      "shape": "custom-react-shape",
+      "ports": {
+        "groups": {
+          "top": {
+            "position": "top",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "right": {
+            "position": "right",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "bottom": {
+            "position": "bottom",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "left": {
+            "position": "left",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          }
+        },
+        "items": [
+          {
+            "group": "top",
+            "id": "35055bcf-b6fb-4e71-9968-d641a326c7e4"
+          },
+          {
+            "group": "right",
+            "id": "84ffa1fd-c8b9-4cb4-8cbb-990cd80bf39b"
+          },
+          {
+            "group": "bottom",
+            "id": "4d7c95e9-1ecb-44eb-878d-3ee86da49d1b"
+          },
+          {
+            "group": "left",
+            "id": "fb3cb4ea-428e-4ceb-a2de-930d541ca82f"
+          }
+        ]
+      },
+      "id": "701f8088-c754-4c01-b7f7-55365d415f36",
+      "data": {
+        "protoText": "maintain the bacterial preparation at 4\u00b0C by placing it in a boat-reservoir in CoolSinkBX50 and/or ThermalTray on ice"
+      },
+      "type": "textNode",
+      "zIndex": 2
+    },
+    {
+      "position": {
+        "x": 456,
+        "y": 2.9999999999999716
+      },
+      "size": {
+        "width": 220,
+        "height": 120
+      },
+      "view": "react-shape-view",
+      "shape": "custom-react-shape",
+      "ports": {
+        "groups": {
+          "top": {
+            "position": "top",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "right": {
+            "position": "right",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "bottom": {
+            "position": "bottom",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "left": {
+            "position": "left",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          }
+        },
+        "items": [
+          {
+            "group": "top",
+            "id": "35055bcf-b6fb-4e71-9968-d641a326c7e4"
+          },
+          {
+            "group": "right",
+            "id": "84ffa1fd-c8b9-4cb4-8cbb-990cd80bf39b"
+          },
+          {
+            "group": "bottom",
+            "id": "4d7c95e9-1ecb-44eb-878d-3ee86da49d1b"
+          },
+          {
+            "group": "left",
+            "id": "fb3cb4ea-428e-4ceb-a2de-930d541ca82f"
+          }
+        ]
+      },
+      "id": "7321d82d-7134-4d35-aec7-ed63c878907d",
+      "data": {
+        "protoText": "Prepare a bacteria glycerol stock by diluting the bacterial preparation with a sterile glycerol solution for a \u0000final 15-50% v/v glycerol concentration"
+      },
+      "type": "textNode",
+      "zIndex": 3
+    },
+    {
+      "position": {
+        "x": 720,
+        "y": 22.99999999999997
+      },
+      "size": {
+        "width": 200,
+        "height": 80
+      },
+      "view": "react-shape-view",
+      "shape": "custom-react-shape",
+      "ports": {
+        "groups": {
+          "top": {
+            "position": "top",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "right": {
+            "position": "right",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "bottom": {
+            "position": "bottom",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "left": {
+            "position": "left",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          }
+        },
+        "items": [
+          {
+            "group": "top",
+            "id": "35055bcf-b6fb-4e71-9968-d641a326c7e4"
+          },
+          {
+            "group": "right",
+            "id": "84ffa1fd-c8b9-4cb4-8cbb-990cd80bf39b"
+          },
+          {
+            "group": "bottom",
+            "id": "4d7c95e9-1ecb-44eb-878d-3ee86da49d1b"
+          },
+          {
+            "group": "left",
+            "id": "fb3cb4ea-428e-4ceb-a2de-930d541ca82f"
+          }
+        ]
+      },
+      "id": "531f29f8-65a7-4e68-bbd5-7f450cb43d1d",
+      "data": {
+        "protoText": "Dispense 1 ml of stock \\(or desired amount) in a pre-labeled TrueCool cryovial"
+      },
+      "type": "textNode",
+      "zIndex": 4
+    },
+    {
+      "position": {
+        "x": 951,
+        "y": 12.999999999999972
+      },
+      "size": {
+        "width": 180,
+        "height": 100
+      },
+      "view": "react-shape-view",
+      "shape": "custom-react-shape",
+      "ports": {
+        "groups": {
+          "top": {
+            "position": "top",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "right": {
+            "position": "right",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "bottom": {
+            "position": "bottom",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "left": {
+            "position": "left",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          }
+        },
+        "items": [
+          {
+            "group": "top",
+            "id": "35055bcf-b6fb-4e71-9968-d641a326c7e4"
+          },
+          {
+            "group": "right",
+            "id": "84ffa1fd-c8b9-4cb4-8cbb-990cd80bf39b"
+          },
+          {
+            "group": "bottom",
+            "id": "4d7c95e9-1ecb-44eb-878d-3ee86da49d1b"
+          },
+          {
+            "group": "left",
+            "id": "fb3cb4ea-428e-4ceb-a2de-930d541ca82f"
+          }
+        ]
+      },
+      "id": "d03f9c30-c4df-415e-ae8b-67a997c47798",
+      "data": {
+        "protoText": "To avoid titer reduction maintain the vials on a CoolRackCFT30 in the CoolBox at 4\u00b0C"
+      },
+      "type": "textNode",
+      "zIndex": 5
+    },
+    {
+      "position": {
+        "x": 951,
+        "y": 166.99999999999997
+      },
+      "size": {
+        "width": 220,
+        "height": 100
+      },
+      "view": "react-shape-view",
+      "shape": "custom-react-shape",
+      "ports": {
+        "groups": {
+          "top": {
+            "position": "top",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "right": {
+            "position": "right",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "bottom": {
+            "position": "bottom",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "left": {
+            "position": "left",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          }
+        },
+        "items": [
+          {
+            "group": "top",
+            "id": "35055bcf-b6fb-4e71-9968-d641a326c7e4"
+          },
+          {
+            "group": "right",
+            "id": "84ffa1fd-c8b9-4cb4-8cbb-990cd80bf39b"
+          },
+          {
+            "group": "bottom",
+            "id": "4d7c95e9-1ecb-44eb-878d-3ee86da49d1b"
+          },
+          {
+            "group": "left",
+            "id": "fb3cb4ea-428e-4ceb-a2de-930d541ca82f"
+          }
+        ]
+      },
+      "id": "94065f05-8cd4-40a9-81ab-afbee4c60bc3",
+      "data": {
+        "protoText": "The CoolRackCFT30 reduces contamination and spill accidents by allowing one-handed opening/closing of the cryovials."
+      },
+      "type": "textNode",
+      "zIndex": 6
+    },
+    {
+      "position": {
+        "x": 676,
+        "y": 166.99999999999997
+      },
+      "size": {
+        "width": 220,
+        "height": 100
+      },
+      "view": "react-shape-view",
+      "shape": "custom-react-shape",
+      "ports": {
+        "groups": {
+          "top": {
+            "position": "top",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "right": {
+            "position": "right",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "bottom": {
+            "position": "bottom",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "left": {
+            "position": "left",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          }
+        },
+        "items": [
+          {
+            "group": "top",
+            "id": "35055bcf-b6fb-4e71-9968-d641a326c7e4"
+          },
+          {
+            "group": "right",
+            "id": "84ffa1fd-c8b9-4cb4-8cbb-990cd80bf39b"
+          },
+          {
+            "group": "bottom",
+            "id": "4d7c95e9-1ecb-44eb-878d-3ee86da49d1b"
+          },
+          {
+            "group": "left",
+            "id": "fb3cb4ea-428e-4ceb-a2de-930d541ca82f"
+          }
+        ]
+      },
+      "id": "c318ed04-1a13-4f83-abe8-e0abffb1e666",
+      "data": {
+        "protoText": "While bacteria samples are kept cold at 4\u00b0C in the CoolRackCFT30, equilibrate a CoolRackCF on dry-ice for 10 minutes"
+      },
+      "type": "textNode",
+      "zIndex": 7
+    },
+    {
+      "position": {
+        "x": 411,
+        "y": 166.99999999999997
+      },
+      "size": {
+        "width": 220,
+        "height": 100
+      },
+      "view": "react-shape-view",
+      "shape": "custom-react-shape",
+      "ports": {
+        "groups": {
+          "top": {
+            "position": "top",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "right": {
+            "position": "right",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "bottom": {
+            "position": "bottom",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "left": {
+            "position": "left",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          }
+        },
+        "items": [
+          {
+            "group": "top",
+            "id": "35055bcf-b6fb-4e71-9968-d641a326c7e4"
+          },
+          {
+            "group": "right",
+            "id": "84ffa1fd-c8b9-4cb4-8cbb-990cd80bf39b"
+          },
+          {
+            "group": "bottom",
+            "id": "4d7c95e9-1ecb-44eb-878d-3ee86da49d1b"
+          },
+          {
+            "group": "left",
+            "id": "fb3cb4ea-428e-4ceb-a2de-930d541ca82f"
+          }
+        ]
+      },
+      "id": "fc59693d-1ea2-45fd-804a-a81a7a5cb3ff",
+      "data": {
+        "protoText": "Place the cryotubes directly on the pre-equilibrated CoolRackCF and snap-freeze the samples for 3-5 minutes"
+      },
+      "type": "textNode",
+      "zIndex": 8
+    },
+    {
+      "position": {
+        "x": 171,
+        "y": 166.99999999999997
+      },
+      "size": {
+        "width": 175,
+        "height": 100
+      },
+      "view": "react-shape-view",
+      "shape": "custom-react-shape",
+      "ports": {
+        "groups": {
+          "top": {
+            "position": "top",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "right": {
+            "position": "right",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "bottom": {
+            "position": "bottom",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "left": {
+            "position": "left",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          }
+        },
+        "items": [
+          {
+            "group": "top",
+            "id": "35055bcf-b6fb-4e71-9968-d641a326c7e4"
+          },
+          {
+            "group": "right",
+            "id": "84ffa1fd-c8b9-4cb4-8cbb-990cd80bf39b"
+          },
+          {
+            "group": "bottom",
+            "id": "4d7c95e9-1ecb-44eb-878d-3ee86da49d1b"
+          },
+          {
+            "group": "left",
+            "id": "fb3cb4ea-428e-4ceb-a2de-930d541ca82f"
+          }
+        ]
+      },
+      "id": "5d9009f7-6663-4ecb-a8ac-64b91280e4e3",
+      "data": {
+        "protoText": "Transfer the frozen samples to a storage box and place it in the -80\u00b0C freezer for long-term storage."
+      },
+      "type": "textNode",
+      "zIndex": 9
+    },
+    {
+      "position": {
+        "x": -50,
+        "y": 320
+      },
+      "size": {
+        "width": 140,
+        "height": 40
+      },
+      "view": "react-shape-view",
+      "shape": "custom-react-shape",
+      "ports": {
+        "groups": {
+          "top": {
+            "position": "top",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "right": {
+            "position": "right",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "bottom": {
+            "position": "bottom",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "left": {
+            "position": "left",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          }
+        },
+        "items": [
+          {
+            "group": "top",
+            "id": "35055bcf-b6fb-4e71-9968-d641a326c7e4"
+          },
+          {
+            "group": "right",
+            "id": "84ffa1fd-c8b9-4cb4-8cbb-990cd80bf39b"
+          },
+          {
+            "group": "bottom",
+            "id": "4d7c95e9-1ecb-44eb-878d-3ee86da49d1b"
+          },
+          {
+            "group": "left",
+            "id": "fb3cb4ea-428e-4ceb-a2de-930d541ca82f"
+          }
+        ]
+      },
+      "id": "b573aee6-c0e0-470f-ba29-e003d4aeeac3",
+      "data": {
+        "protoText": "Bacteria Thawing"
+      },
+      "type": "textNode",
+      "zIndex": 10
+    },
+    {
+      "position": {
+        "x": 126,
+        "y": 300
+      },
+      "size": {
+        "width": 220,
+        "height": 100
+      },
+      "view": "react-shape-view",
+      "shape": "custom-react-shape",
+      "ports": {
+        "groups": {
+          "top": {
+            "position": "top",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "right": {
+            "position": "right",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "bottom": {
+            "position": "bottom",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "left": {
+            "position": "left",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          }
+        },
+        "items": [
+          {
+            "group": "top",
+            "id": "35055bcf-b6fb-4e71-9968-d641a326c7e4"
+          },
+          {
+            "group": "right",
+            "id": "84ffa1fd-c8b9-4cb4-8cbb-990cd80bf39b"
+          },
+          {
+            "group": "bottom",
+            "id": "4d7c95e9-1ecb-44eb-878d-3ee86da49d1b"
+          },
+          {
+            "group": "left",
+            "id": "fb3cb4ea-428e-4ceb-a2de-930d541ca82f"
+          }
+        ]
+      },
+      "id": "0a364280-e240-46b3-930b-f6ab20ec2366",
+      "data": {
+        "protoText": "Place the cryovials from the -80\u00b0C freezer in a CoolBoxCFT30 with a -12\u00b0C frozen cartridge inside "
+      },
+      "type": "textNode",
+      "zIndex": 11
+    },
+    {
+      "position": {
+        "x": 421,
+        "y": 300
+      },
+      "size": {
+        "width": 200,
+        "height": 100
+      },
+      "view": "react-shape-view",
+      "shape": "custom-react-shape",
+      "ports": {
+        "groups": {
+          "top": {
+            "position": "top",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "right": {
+            "position": "right",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "bottom": {
+            "position": "bottom",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "left": {
+            "position": "left",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          }
+        },
+        "items": [
+          {
+            "group": "top",
+            "id": "35055bcf-b6fb-4e71-9968-d641a326c7e4"
+          },
+          {
+            "group": "right",
+            "id": "84ffa1fd-c8b9-4cb4-8cbb-990cd80bf39b"
+          },
+          {
+            "group": "bottom",
+            "id": "4d7c95e9-1ecb-44eb-878d-3ee86da49d1b"
+          },
+          {
+            "group": "left",
+            "id": "fb3cb4ea-428e-4ceb-a2de-930d541ca82f"
+          }
+        ]
+      },
+      "id": "c0172619-a3ff-4017-9b6d-38a6447e3655",
+      "data": {
+        "protoText": "Place the vials directly in a 37\u00b0C water bath, and manually slowly agitate the vials to enable the thawing process"
+      },
+      "type": "textNode",
+      "zIndex": 12
+    },
+    {
+      "position": {
+        "x": 676,
+        "y": 291
+      },
+      "size": {
+        "width": 205,
+        "height": 118
+      },
+      "view": "react-shape-view",
+      "shape": "custom-react-shape",
+      "ports": {
+        "groups": {
+          "top": {
+            "position": "top",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "right": {
+            "position": "right",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "bottom": {
+            "position": "bottom",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "left": {
+            "position": "left",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          }
+        },
+        "items": [
+          {
+            "group": "top",
+            "id": "35055bcf-b6fb-4e71-9968-d641a326c7e4"
+          },
+          {
+            "group": "right",
+            "id": "84ffa1fd-c8b9-4cb4-8cbb-990cd80bf39b"
+          },
+          {
+            "group": "bottom",
+            "id": "4d7c95e9-1ecb-44eb-878d-3ee86da49d1b"
+          },
+          {
+            "group": "left",
+            "id": "fb3cb4ea-428e-4ceb-a2de-930d541ca82f"
+          }
+        ]
+      },
+      "id": "6d97d6ac-1ce2-4571-8b5b-a9623869ebcb",
+      "data": {
+        "protoText": "Just before the whole liquid is completely thawed, remove the vial from the 37\u00b0C water bath and place it on a CoolRackCFT30 previously equilibrated on ice"
+      },
+      "type": "textNode",
+      "zIndex": 13
+    },
+    {
+      "position": {
+        "x": 920,
+        "y": 299
+      },
+      "size": {
+        "width": 145,
+        "height": 82
+      },
+      "view": "react-shape-view",
+      "shape": "custom-react-shape",
+      "ports": {
+        "groups": {
+          "top": {
+            "position": "top",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "right": {
+            "position": "right",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "bottom": {
+            "position": "bottom",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "left": {
+            "position": "left",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          }
+        },
+        "items": [
+          {
+            "group": "top",
+            "id": "35055bcf-b6fb-4e71-9968-d641a326c7e4"
+          },
+          {
+            "group": "right",
+            "id": "84ffa1fd-c8b9-4cb4-8cbb-990cd80bf39b"
+          },
+          {
+            "group": "bottom",
+            "id": "4d7c95e9-1ecb-44eb-878d-3ee86da49d1b"
+          },
+          {
+            "group": "left",
+            "id": "fb3cb4ea-428e-4ceb-a2de-930d541ca82f"
+          }
+        ]
+      },
+      "id": "150fb4fc-9fb0-468b-abc5-91910108f12c",
+      "data": {
+        "protoText": "Samples are ready for experimental procedures or titer assessment.\n"
+      },
+      "type": "textNode",
+      "zIndex": 14
+    }
+  ]
+}

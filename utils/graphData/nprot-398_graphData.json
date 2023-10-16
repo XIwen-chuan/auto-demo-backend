@@ -1,0 +1,812 @@
+{
+  "cells": [
+    {
+      "shape": "edge",
+      "attrs": {
+        "line": {
+          "stroke": "#A2B1C3"
+        }
+      },
+      "id": "07f8a5d7-5803-481c-9c67-9d4ef586e568",
+      "zIndex": 0,
+      "source": {
+        "cell": "e9da0b4c-3125-40c7-b828-b582492e37b1",
+        "port": "16d7fd35-564d-4d67-8dfe-674f6bb0260f"
+      },
+      "target": {
+        "cell": "545599d4-cb77-44c1-aaf9-9de6f7aa447b",
+        "port": "417860fa-27f1-439d-88a8-32f076b38993"
+      }
+    },
+    {
+      "shape": "edge",
+      "attrs": {
+        "line": {
+          "stroke": "#A2B1C3"
+        }
+      },
+      "id": "e71a4dae-85a0-4181-bde4-97b7aea262b4",
+      "zIndex": 0,
+      "source": {
+        "cell": "545599d4-cb77-44c1-aaf9-9de6f7aa447b",
+        "port": "53fb3d8c-a3cf-4251-96ae-cb6954d70099"
+      },
+      "target": {
+        "cell": "b1163021-e536-422d-940f-c3bbe8494d44",
+        "port": "8f83d8f4-ec7f-4c60-9148-4a26a68679d2"
+      }
+    },
+    {
+      "shape": "edge",
+      "attrs": {
+        "line": {
+          "stroke": "#A2B1C3"
+        }
+      },
+      "id": "eaff9bd5-2f2a-4584-8b77-b34dd183a677",
+      "zIndex": 0,
+      "source": {
+        "cell": "b1163021-e536-422d-940f-c3bbe8494d44",
+        "port": "53fb3d8c-a3cf-4251-96ae-cb6954d70099"
+      },
+      "target": {
+        "cell": "143594d0-9e09-4635-a127-c8cfaee4cad5",
+        "port": "8f83d8f4-ec7f-4c60-9148-4a26a68679d2"
+      }
+    },
+    {
+      "shape": "edge",
+      "attrs": {
+        "line": {
+          "stroke": "#A2B1C3"
+        }
+      },
+      "id": "6d885077-5e3d-4e01-9810-64b1a7acd0e9",
+      "zIndex": 0,
+      "source": {
+        "cell": "143594d0-9e09-4635-a127-c8cfaee4cad5",
+        "port": "c1fe10f4-a428-4da7-b83d-2cdaf0ddf2d3"
+      },
+      "target": {
+        "cell": "1b30e2cf-b319-4fe0-9def-9d226469661e",
+        "port": "417860fa-27f1-439d-88a8-32f076b38993"
+      }
+    },
+    {
+      "shape": "edge",
+      "attrs": {
+        "line": {
+          "stroke": "#A2B1C3"
+        }
+      },
+      "id": "80e7e84f-ab65-4272-918f-05b16add8100",
+      "zIndex": 0,
+      "source": {
+        "cell": "1b30e2cf-b319-4fe0-9def-9d226469661e",
+        "port": "8f83d8f4-ec7f-4c60-9148-4a26a68679d2"
+      },
+      "target": {
+        "cell": "78df64ad-1be7-49a9-9831-569da73c25e7",
+        "port": "53fb3d8c-a3cf-4251-96ae-cb6954d70099"
+      }
+    },
+    {
+      "shape": "edge",
+      "attrs": {
+        "line": {
+          "stroke": "#A2B1C3"
+        }
+      },
+      "id": "f8be1237-2a7e-40de-83db-dbf32304cc83",
+      "zIndex": 0,
+      "source": {
+        "cell": "1ad9747f-81be-4510-ae52-f2ff238cc1f1",
+        "port": "bda74d77-2097-4677-92a5-d9ed702e6fcc"
+      },
+      "target": {
+        "cell": "1b30e2cf-b319-4fe0-9def-9d226469661e",
+        "port": "c1fe10f4-a428-4da7-b83d-2cdaf0ddf2d3"
+      }
+    },
+    {
+      "position": {
+        "x": 140,
+        "y": 160
+      },
+      "size": {
+        "width": 160,
+        "height": 80
+      },
+      "view": "react-shape-view",
+      "shape": "custom-react-shape",
+      "ports": {
+        "groups": {
+          "top": {
+            "position": "top",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "right": {
+            "position": "right",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "bottom": {
+            "position": "bottom",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "left": {
+            "position": "left",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          }
+        },
+        "items": [
+          {
+            "group": "top",
+            "id": "417860fa-27f1-439d-88a8-32f076b38993"
+          },
+          {
+            "group": "right",
+            "id": "53fb3d8c-a3cf-4251-96ae-cb6954d70099"
+          },
+          {
+            "group": "bottom",
+            "id": "c1fe10f4-a428-4da7-b83d-2cdaf0ddf2d3"
+          },
+          {
+            "group": "left",
+            "id": "8f83d8f4-ec7f-4c60-9148-4a26a68679d2"
+          }
+        ]
+      },
+      "id": "545599d4-cb77-44c1-aaf9-9de6f7aa447b",
+      "data": {
+        "protoText": "Load 0.7 ml of buffer to reference and sample cells"
+      },
+      "type": "textNode",
+      "zIndex": 1
+    },
+    {
+      "position": {
+        "x": 105,
+        "y": 52.00000000000006
+      },
+      "size": {
+        "width": 100,
+        "height": 60
+      },
+      "view": "react-shape-view",
+      "shape": "custom-react-shape",
+      "ports": {
+        "groups": {
+          "top": {
+            "position": "top",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "right": {
+            "position": "right",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "bottom": {
+            "position": "bottom",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "left": {
+            "position": "left",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          }
+        },
+        "items": [
+          {
+            "group": "top",
+            "id": "bda74d77-2097-4677-92a5-d9ed702e6fcc"
+          },
+          {
+            "group": "right",
+            "id": "262a1660-2cce-4936-be8e-31782091b326"
+          },
+          {
+            "group": "bottom",
+            "id": "16d7fd35-564d-4d67-8dfe-674f6bb0260f"
+          },
+          {
+            "group": "left",
+            "id": "e941b9a6-8c91-466f-8b94-4eebfb3f9d1d"
+          }
+        ]
+      },
+      "id": "e9da0b4c-3125-40c7-b828-b582492e37b1",
+      "data": {
+        "protoText": "Hepes or Heppso"
+      },
+      "type": "inputNode",
+      "zIndex": 2
+    },
+    {
+      "position": {
+        "x": 365,
+        "y": 180
+      },
+      "size": {
+        "width": 140,
+        "height": 40
+      },
+      "view": "react-shape-view",
+      "shape": "custom-react-shape",
+      "ports": {
+        "groups": {
+          "top": {
+            "position": "top",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "right": {
+            "position": "right",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "bottom": {
+            "position": "bottom",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "left": {
+            "position": "left",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          }
+        },
+        "items": [
+          {
+            "group": "top",
+            "id": "417860fa-27f1-439d-88a8-32f076b38993"
+          },
+          {
+            "group": "right",
+            "id": "53fb3d8c-a3cf-4251-96ae-cb6954d70099"
+          },
+          {
+            "group": "bottom",
+            "id": "c1fe10f4-a428-4da7-b83d-2cdaf0ddf2d3"
+          },
+          {
+            "group": "left",
+            "id": "8f83d8f4-ec7f-4c60-9148-4a26a68679d2"
+          }
+        ]
+      },
+      "id": "b1163021-e536-422d-940f-c3bbe8494d44",
+      "data": {
+        "protoText": "Run 0 to 120 \u00b0C at 1 degree/min"
+      },
+      "type": "textNode",
+      "zIndex": 3
+    },
+    {
+      "position": {
+        "x": 568,
+        "y": 170
+      },
+      "size": {
+        "width": 140,
+        "height": 60
+      },
+      "view": "react-shape-view",
+      "shape": "custom-react-shape",
+      "ports": {
+        "groups": {
+          "top": {
+            "position": "top",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "right": {
+            "position": "right",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "bottom": {
+            "position": "bottom",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "left": {
+            "position": "left",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          }
+        },
+        "items": [
+          {
+            "group": "top",
+            "id": "417860fa-27f1-439d-88a8-32f076b38993"
+          },
+          {
+            "group": "right",
+            "id": "53fb3d8c-a3cf-4251-96ae-cb6954d70099"
+          },
+          {
+            "group": "bottom",
+            "id": "c1fe10f4-a428-4da7-b83d-2cdaf0ddf2d3"
+          },
+          {
+            "group": "left",
+            "id": "8f83d8f4-ec7f-4c60-9148-4a26a68679d2"
+          }
+        ]
+      },
+      "id": "143594d0-9e09-4635-a127-c8cfaee4cad5",
+      "data": {
+        "protoText": "Load 0.7 ml of fresh buffer to reference cell"
+      },
+      "type": "textNode",
+      "zIndex": 4
+    },
+    {
+      "position": {
+        "x": 580.5,
+        "y": 315
+      },
+      "size": {
+        "width": 115,
+        "height": 64
+      },
+      "view": "react-shape-view",
+      "shape": "custom-react-shape",
+      "ports": {
+        "groups": {
+          "top": {
+            "position": "top",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "right": {
+            "position": "right",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "bottom": {
+            "position": "bottom",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "left": {
+            "position": "left",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          }
+        },
+        "items": [
+          {
+            "group": "top",
+            "id": "417860fa-27f1-439d-88a8-32f076b38993"
+          },
+          {
+            "group": "right",
+            "id": "53fb3d8c-a3cf-4251-96ae-cb6954d70099"
+          },
+          {
+            "group": "bottom",
+            "id": "c1fe10f4-a428-4da7-b83d-2cdaf0ddf2d3"
+          },
+          {
+            "group": "left",
+            "id": "8f83d8f4-ec7f-4c60-9148-4a26a68679d2"
+          }
+        ]
+      },
+      "id": "1b30e2cf-b319-4fe0-9def-9d226469661e",
+      "data": {
+        "protoText": "Load 0.7 ml of protein to sample cell"
+      },
+      "type": "textNode",
+      "zIndex": 5
+    },
+    {
+      "position": {
+        "x": 385,
+        "y": 315
+      },
+      "size": {
+        "width": 100,
+        "height": 64
+      },
+      "view": "react-shape-view",
+      "shape": "custom-react-shape",
+      "ports": {
+        "groups": {
+          "top": {
+            "position": "top",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "right": {
+            "position": "right",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "bottom": {
+            "position": "bottom",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "left": {
+            "position": "left",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          }
+        },
+        "items": [
+          {
+            "group": "top",
+            "id": "417860fa-27f1-439d-88a8-32f076b38993"
+          },
+          {
+            "group": "right",
+            "id": "53fb3d8c-a3cf-4251-96ae-cb6954d70099"
+          },
+          {
+            "group": "bottom",
+            "id": "c1fe10f4-a428-4da7-b83d-2cdaf0ddf2d3"
+          },
+          {
+            "group": "left",
+            "id": "8f83d8f4-ec7f-4c60-9148-4a26a68679d2"
+          }
+        ]
+      },
+      "id": "78df64ad-1be7-49a9-9831-569da73c25e7",
+      "data": {
+        "protoText": "Run 0 to 120 \u00b0C at 1 degree/min"
+      },
+      "type": "textNode",
+      "zIndex": 6
+    },
+    {
+      "position": {
+        "x": 620,
+        "y": 440
+      },
+      "size": {
+        "width": 130,
+        "height": 74
+      },
+      "view": "react-shape-view",
+      "shape": "custom-react-shape",
+      "ports": {
+        "groups": {
+          "top": {
+            "position": "top",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "right": {
+            "position": "right",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "bottom": {
+            "position": "bottom",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "left": {
+            "position": "left",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          }
+        },
+        "items": [
+          {
+            "group": "top",
+            "id": "bda74d77-2097-4677-92a5-d9ed702e6fcc"
+          },
+          {
+            "group": "right",
+            "id": "262a1660-2cce-4936-be8e-31782091b326"
+          },
+          {
+            "group": "bottom",
+            "id": "16d7fd35-564d-4d67-8dfe-674f6bb0260f"
+          },
+          {
+            "group": "left",
+            "id": "e941b9a6-8c91-466f-8b94-4eebfb3f9d1d"
+          }
+        ]
+      },
+      "id": "1ad9747f-81be-4510-ae52-f2ff238cc1f1",
+      "data": {
+        "protoText": "700 \u03bcl of at least 0.4mg/ml protein "
+      },
+      "type": "inputNode",
+      "zIndex": 7
+    }
+  ]
+}

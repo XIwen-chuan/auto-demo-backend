@@ -1,0 +1,3390 @@
+{
+  "cells": [
+    {
+      "shape": "edge",
+      "attrs": {
+        "line": {
+          "stroke": "#A2B1C3"
+        }
+      },
+      "id": "c5c230c2-7023-4aa9-933c-e2cb52f4cec3",
+      "zIndex": 0,
+      "source": {
+        "cell": "5f4765e7-9a3d-489d-9b49-2bb257a25edd",
+        "port": "f793a42e-4baa-46ec-bc8a-530a6c9b57ee"
+      },
+      "target": {
+        "cell": "2baf384d-1aaa-4073-86f9-4b200f21b57b",
+        "port": "711e6f0a-c541-400a-8878-c37c2e31d240"
+      }
+    },
+    {
+      "shape": "edge",
+      "attrs": {
+        "line": {
+          "stroke": "#A2B1C3"
+        }
+      },
+      "id": "bad8de98-e70f-41b5-aeb1-7cc91ccb0579",
+      "zIndex": 0,
+      "source": {
+        "cell": "2baf384d-1aaa-4073-86f9-4b200f21b57b",
+        "port": "f793a42e-4baa-46ec-bc8a-530a6c9b57ee"
+      },
+      "target": {
+        "cell": "a25ee87b-88ef-4f17-b6a7-21d7a533b4f0",
+        "port": "711e6f0a-c541-400a-8878-c37c2e31d240"
+      }
+    },
+    {
+      "shape": "edge",
+      "attrs": {
+        "line": {
+          "stroke": "#A2B1C3"
+        }
+      },
+      "id": "ec555d76-d95e-41aa-992b-84194485f405",
+      "zIndex": 0,
+      "source": {
+        "cell": "a25ee87b-88ef-4f17-b6a7-21d7a533b4f0",
+        "port": "f793a42e-4baa-46ec-bc8a-530a6c9b57ee"
+      },
+      "target": {
+        "cell": "79df1e34-fba8-4743-9114-873566d4f545",
+        "port": "711e6f0a-c541-400a-8878-c37c2e31d240"
+      }
+    },
+    {
+      "shape": "edge",
+      "attrs": {
+        "line": {
+          "stroke": "#A2B1C3"
+        }
+      },
+      "id": "dad6f29b-c448-444b-b274-4e006985b452",
+      "zIndex": 0,
+      "source": {
+        "cell": "79df1e34-fba8-4743-9114-873566d4f545",
+        "port": "f793a42e-4baa-46ec-bc8a-530a6c9b57ee"
+      },
+      "target": {
+        "cell": "283bea59-5ddd-491c-900b-de1373d75f36",
+        "port": "711e6f0a-c541-400a-8878-c37c2e31d240"
+      }
+    },
+    {
+      "shape": "edge",
+      "attrs": {
+        "line": {
+          "stroke": "#A2B1C3"
+        }
+      },
+      "id": "602e8254-c39c-430a-99a9-433ae8eff438",
+      "zIndex": 0,
+      "source": {
+        "cell": "283bea59-5ddd-491c-900b-de1373d75f36",
+        "port": "f793a42e-4baa-46ec-bc8a-530a6c9b57ee"
+      },
+      "target": {
+        "cell": "4deb567c-22c6-43e4-8396-1d6eb90975dd",
+        "port": "711e6f0a-c541-400a-8878-c37c2e31d240"
+      }
+    },
+    {
+      "shape": "edge",
+      "attrs": {
+        "line": {
+          "stroke": "#A2B1C3"
+        }
+      },
+      "id": "e76f2d2b-03e6-488f-b00f-60371e4f2aa4",
+      "zIndex": 0,
+      "source": {
+        "cell": "4deb567c-22c6-43e4-8396-1d6eb90975dd",
+        "port": "67637242-6576-45fe-a2cb-fb5030afd2ab"
+      },
+      "target": {
+        "cell": "a9740193-73d0-40f6-9868-6e2c5abb00fd",
+        "port": "a1324213-b0bb-49e9-ad53-90437b0717c4"
+      }
+    },
+    {
+      "shape": "edge",
+      "attrs": {
+        "line": {
+          "stroke": "#A2B1C3"
+        }
+      },
+      "id": "3e934a5f-3fe7-4177-8f7f-f33d831c7d09",
+      "zIndex": 0,
+      "source": {
+        "cell": "a9740193-73d0-40f6-9868-6e2c5abb00fd",
+        "port": "711e6f0a-c541-400a-8878-c37c2e31d240"
+      },
+      "target": {
+        "cell": "5f5cd844-4059-4cdf-812d-4d9f441082bd",
+        "port": "f793a42e-4baa-46ec-bc8a-530a6c9b57ee"
+      }
+    },
+    {
+      "shape": "edge",
+      "attrs": {
+        "line": {
+          "stroke": "#A2B1C3"
+        }
+      },
+      "id": "1aaf15ca-81ab-4477-84a8-870f0755f876",
+      "zIndex": 0,
+      "source": {
+        "cell": "5f5cd844-4059-4cdf-812d-4d9f441082bd",
+        "port": "711e6f0a-c541-400a-8878-c37c2e31d240"
+      },
+      "target": {
+        "cell": "c8826d14-badb-4010-bbcb-a61d33b6b2e9",
+        "port": "f793a42e-4baa-46ec-bc8a-530a6c9b57ee"
+      }
+    },
+    {
+      "shape": "edge",
+      "attrs": {
+        "line": {
+          "stroke": "#A2B1C3"
+        }
+      },
+      "id": "d1394d71-e436-4620-ac8e-dab79d34708c",
+      "zIndex": 0,
+      "source": {
+        "cell": "c8826d14-badb-4010-bbcb-a61d33b6b2e9",
+        "port": "711e6f0a-c541-400a-8878-c37c2e31d240"
+      },
+      "target": {
+        "cell": "b33af978-f55b-4117-a1d3-9ad503ffc73e",
+        "port": "f793a42e-4baa-46ec-bc8a-530a6c9b57ee"
+      }
+    },
+    {
+      "shape": "edge",
+      "attrs": {
+        "line": {
+          "stroke": "#A2B1C3"
+        }
+      },
+      "id": "ebef59d5-c587-4791-91de-49039f3e2fbe",
+      "zIndex": 0,
+      "source": {
+        "cell": "b33af978-f55b-4117-a1d3-9ad503ffc73e",
+        "port": "711e6f0a-c541-400a-8878-c37c2e31d240"
+      },
+      "target": {
+        "cell": "9e2a8d48-c2fb-4b22-96a3-1f500c8d08ba",
+        "port": "f793a42e-4baa-46ec-bc8a-530a6c9b57ee"
+      }
+    },
+    {
+      "shape": "edge",
+      "attrs": {
+        "line": {
+          "stroke": "#A2B1C3"
+        }
+      },
+      "id": "a0deb8c7-b934-43aa-94af-0d44cbc6295b",
+      "zIndex": 0,
+      "source": {
+        "cell": "9e2a8d48-c2fb-4b22-96a3-1f500c8d08ba",
+        "port": "711e6f0a-c541-400a-8878-c37c2e31d240"
+      },
+      "target": {
+        "cell": "15d12c63-5017-425d-b60e-87d310e58814",
+        "port": "f793a42e-4baa-46ec-bc8a-530a6c9b57ee"
+      }
+    },
+    {
+      "shape": "edge",
+      "attrs": {
+        "line": {
+          "stroke": "#A2B1C3"
+        }
+      },
+      "id": "8efe201c-5875-46f9-b78f-9e338c58152c",
+      "zIndex": 0,
+      "source": {
+        "cell": "15d12c63-5017-425d-b60e-87d310e58814",
+        "port": "711e6f0a-c541-400a-8878-c37c2e31d240"
+      },
+      "target": {
+        "cell": "cb6ecef2-1212-4a95-84a5-9223c3aed7f4",
+        "port": "f793a42e-4baa-46ec-bc8a-530a6c9b57ee"
+      }
+    },
+    {
+      "shape": "edge",
+      "attrs": {
+        "line": {
+          "stroke": "#A2B1C3"
+        }
+      },
+      "id": "1c386f12-5859-4625-b79b-eddcd78aba03",
+      "zIndex": 0,
+      "source": {
+        "cell": "cb6ecef2-1212-4a95-84a5-9223c3aed7f4",
+        "port": "67637242-6576-45fe-a2cb-fb5030afd2ab"
+      },
+      "target": {
+        "cell": "8136bc01-dd47-418d-b6d9-72216ed4f54f",
+        "port": "a1324213-b0bb-49e9-ad53-90437b0717c4"
+      }
+    },
+    {
+      "shape": "edge",
+      "attrs": {
+        "line": {
+          "stroke": "#A2B1C3"
+        }
+      },
+      "id": "95fcc196-187f-4ab9-99ff-f738fa49e8c1",
+      "zIndex": 0,
+      "source": {
+        "cell": "8136bc01-dd47-418d-b6d9-72216ed4f54f",
+        "port": "f793a42e-4baa-46ec-bc8a-530a6c9b57ee"
+      },
+      "target": {
+        "cell": "89c96a7f-33cf-4aef-9a68-31367446fe02",
+        "port": "711e6f0a-c541-400a-8878-c37c2e31d240"
+      }
+    },
+    {
+      "shape": "edge",
+      "attrs": {
+        "line": {
+          "stroke": "#A2B1C3"
+        }
+      },
+      "id": "79faffe7-cef0-4d1f-8c42-33eecd044d7a",
+      "zIndex": 0,
+      "source": {
+        "cell": "89c96a7f-33cf-4aef-9a68-31367446fe02",
+        "port": "f793a42e-4baa-46ec-bc8a-530a6c9b57ee"
+      },
+      "target": {
+        "cell": "df2ed2af-4f36-4c67-807b-1397ba09585f",
+        "port": "711e6f0a-c541-400a-8878-c37c2e31d240"
+      }
+    },
+    {
+      "shape": "edge",
+      "attrs": {
+        "line": {
+          "stroke": "#A2B1C3"
+        }
+      },
+      "id": "e3f6481b-3b8e-4e46-b8ab-40e8f50f88cf",
+      "zIndex": 0,
+      "source": {
+        "cell": "ac38ec8c-6dfd-4710-84c7-3544b3f37281",
+        "port": "f793a42e-4baa-46ec-bc8a-530a6c9b57ee"
+      },
+      "target": {
+        "cell": "5f4765e7-9a3d-489d-9b49-2bb257a25edd",
+        "port": "711e6f0a-c541-400a-8878-c37c2e31d240"
+      }
+    },
+    {
+      "shape": "edge",
+      "attrs": {
+        "line": {
+          "stroke": "#A2B1C3"
+        }
+      },
+      "id": "0144417f-c55d-4e8b-96ee-c8c08544570b",
+      "zIndex": 0,
+      "source": {
+        "cell": "cd646afd-b523-4e40-90ff-1e0a00ecf79b",
+        "port": "f793a42e-4baa-46ec-bc8a-530a6c9b57ee"
+      },
+      "target": {
+        "cell": "ff912152-4d3f-4c36-a99c-7ec1f6dedbbd",
+        "port": "711e6f0a-c541-400a-8878-c37c2e31d240"
+      }
+    },
+    {
+      "shape": "edge",
+      "attrs": {
+        "line": {
+          "stroke": "#A2B1C3"
+        }
+      },
+      "id": "84324a2b-ad8e-4ca0-8fe4-95f98348b784",
+      "zIndex": 0,
+      "source": {
+        "cell": "ff912152-4d3f-4c36-a99c-7ec1f6dedbbd",
+        "port": "f793a42e-4baa-46ec-bc8a-530a6c9b57ee"
+      },
+      "target": {
+        "cell": "cc9e0075-7e75-4f0b-ad73-21cf8fe5cdf3",
+        "port": "711e6f0a-c541-400a-8878-c37c2e31d240"
+      }
+    },
+    {
+      "shape": "edge",
+      "attrs": {
+        "line": {
+          "stroke": "#A2B1C3"
+        }
+      },
+      "id": "e5720749-945e-4910-85a9-815e1720116e",
+      "zIndex": 0,
+      "source": {
+        "cell": "cc9e0075-7e75-4f0b-ad73-21cf8fe5cdf3",
+        "port": "f793a42e-4baa-46ec-bc8a-530a6c9b57ee"
+      },
+      "target": {
+        "cell": "c9764cdf-a197-4ee6-91ef-6b2ff05a8902",
+        "port": "711e6f0a-c541-400a-8878-c37c2e31d240"
+      }
+    },
+    {
+      "shape": "edge",
+      "attrs": {
+        "line": {
+          "stroke": "#A2B1C3"
+        }
+      },
+      "id": "189ae07f-836b-4493-98e6-c44ff79d78fc",
+      "zIndex": 0,
+      "source": {
+        "cell": "c9764cdf-a197-4ee6-91ef-6b2ff05a8902",
+        "port": "f793a42e-4baa-46ec-bc8a-530a6c9b57ee"
+      },
+      "target": {
+        "cell": "31fd8ddd-255c-4674-965a-c4cd95d4d3c2",
+        "port": "711e6f0a-c541-400a-8878-c37c2e31d240"
+      }
+    },
+    {
+      "shape": "edge",
+      "attrs": {
+        "line": {
+          "stroke": "#A2B1C3"
+        }
+      },
+      "id": "119c6111-2c12-41e6-ad80-af954e002c75",
+      "zIndex": 0,
+      "source": {
+        "cell": "31fd8ddd-255c-4674-965a-c4cd95d4d3c2",
+        "port": "f793a42e-4baa-46ec-bc8a-530a6c9b57ee"
+      },
+      "target": {
+        "cell": "0901e97f-fb61-41c8-a632-22008a275d71",
+        "port": "711e6f0a-c541-400a-8878-c37c2e31d240"
+      }
+    },
+    {
+      "shape": "edge",
+      "attrs": {
+        "line": {
+          "stroke": "#A2B1C3"
+        }
+      },
+      "id": "d112421b-a5d5-4879-874c-08df79ca4d35",
+      "zIndex": 0,
+      "source": {
+        "cell": "0901e97f-fb61-41c8-a632-22008a275d71",
+        "port": "f793a42e-4baa-46ec-bc8a-530a6c9b57ee"
+      },
+      "target": {
+        "cell": "98650693-f0f6-4ee2-9a64-c94581472552",
+        "port": "711e6f0a-c541-400a-8878-c37c2e31d240"
+      }
+    },
+    {
+      "shape": "edge",
+      "attrs": {
+        "line": {
+          "stroke": "#A2B1C3"
+        }
+      },
+      "id": "70648150-c861-4acc-afc1-32af782ef985",
+      "zIndex": 0,
+      "source": {
+        "cell": "98650693-f0f6-4ee2-9a64-c94581472552",
+        "port": "f793a42e-4baa-46ec-bc8a-530a6c9b57ee"
+      },
+      "target": {
+        "cell": "8cb3296b-7841-46ac-b5f8-28322b88d757",
+        "port": "711e6f0a-c541-400a-8878-c37c2e31d240"
+      }
+    },
+    {
+      "shape": "edge",
+      "attrs": {
+        "line": {
+          "stroke": "#A2B1C3"
+        }
+      },
+      "id": "33c8e5af-0bd3-4bcc-8cfb-6d96f615439e",
+      "zIndex": 0,
+      "source": {
+        "cell": "8cb3296b-7841-46ac-b5f8-28322b88d757",
+        "port": "67637242-6576-45fe-a2cb-fb5030afd2ab"
+      },
+      "target": {
+        "cell": "cd005eef-098b-4b4d-a324-7d1df38b2e0a",
+        "port": "a1324213-b0bb-49e9-ad53-90437b0717c4"
+      }
+    },
+    {
+      "shape": "edge",
+      "attrs": {
+        "line": {
+          "stroke": "#A2B1C3"
+        }
+      },
+      "id": "d691d181-2d04-4a76-a61a-779f645220d2",
+      "zIndex": 0,
+      "source": {
+        "cell": "cd005eef-098b-4b4d-a324-7d1df38b2e0a",
+        "port": "711e6f0a-c541-400a-8878-c37c2e31d240"
+      },
+      "target": {
+        "cell": "1780640c-9396-47e1-bf1f-ca91003510bf",
+        "port": "f793a42e-4baa-46ec-bc8a-530a6c9b57ee"
+      }
+    },
+    {
+      "shape": "edge",
+      "attrs": {
+        "line": {
+          "stroke": "#A2B1C3"
+        }
+      },
+      "id": "109cf2ea-113a-4622-8a0b-f8f3b99b66af",
+      "zIndex": 0,
+      "source": {
+        "cell": "1780640c-9396-47e1-bf1f-ca91003510bf",
+        "port": "711e6f0a-c541-400a-8878-c37c2e31d240"
+      },
+      "target": {
+        "cell": "4b321d6a-f094-4408-8145-f17c74f2d27c",
+        "port": "f793a42e-4baa-46ec-bc8a-530a6c9b57ee"
+      }
+    },
+    {
+      "shape": "edge",
+      "attrs": {
+        "line": {
+          "stroke": "#A2B1C3"
+        }
+      },
+      "id": "5b9bb8ba-8bf5-456a-9feb-3b2ea3931c9a",
+      "zIndex": 0,
+      "source": {
+        "cell": "4b321d6a-f094-4408-8145-f17c74f2d27c",
+        "port": "711e6f0a-c541-400a-8878-c37c2e31d240"
+      },
+      "target": {
+        "cell": "e5686841-6f54-40c8-b9f3-6d4e30feae97",
+        "port": "f793a42e-4baa-46ec-bc8a-530a6c9b57ee"
+      }
+    },
+    {
+      "position": {
+        "x": 20,
+        "y": 20
+      },
+      "size": {
+        "width": 145,
+        "height": 100
+      },
+      "view": "react-shape-view",
+      "shape": "custom-react-shape",
+      "ports": {
+        "groups": {
+          "top": {
+            "position": "top",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "right": {
+            "position": "right",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "bottom": {
+            "position": "bottom",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "left": {
+            "position": "left",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          }
+        },
+        "items": [
+          {
+            "group": "top",
+            "id": "a1324213-b0bb-49e9-ad53-90437b0717c4"
+          },
+          {
+            "group": "right",
+            "id": "f793a42e-4baa-46ec-bc8a-530a6c9b57ee"
+          },
+          {
+            "group": "bottom",
+            "id": "67637242-6576-45fe-a2cb-fb5030afd2ab"
+          },
+          {
+            "group": "left",
+            "id": "711e6f0a-c541-400a-8878-c37c2e31d240"
+          }
+        ]
+      },
+      "id": "5f4765e7-9a3d-489d-9b49-2bb257a25edd",
+      "data": {
+        "protoText": "Transfer supernatant media1 from cell culture \u0000ask to a 50 mL conical tube"
+      },
+      "type": "textNode",
+      "zIndex": 1
+    },
+    {
+      "position": {
+        "x": 229,
+        "y": 29
+      },
+      "size": {
+        "width": 145,
+        "height": 82
+      },
+      "view": "react-shape-view",
+      "shape": "custom-react-shape",
+      "ports": {
+        "groups": {
+          "top": {
+            "position": "top",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "right": {
+            "position": "right",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "bottom": {
+            "position": "bottom",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "left": {
+            "position": "left",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          }
+        },
+        "items": [
+          {
+            "group": "top",
+            "id": "a1324213-b0bb-49e9-ad53-90437b0717c4"
+          },
+          {
+            "group": "right",
+            "id": "f793a42e-4baa-46ec-bc8a-530a6c9b57ee"
+          },
+          {
+            "group": "bottom",
+            "id": "67637242-6576-45fe-a2cb-fb5030afd2ab"
+          },
+          {
+            "group": "left",
+            "id": "711e6f0a-c541-400a-8878-c37c2e31d240"
+          }
+        ]
+      },
+      "id": "2baf384d-1aaa-4073-86f9-4b200f21b57b",
+      "data": {
+        "protoText": "Screw the Steri\u0000ip unit onto the top, open end of the sample tube"
+      },
+      "type": "textNode",
+      "zIndex": 2
+    },
+    {
+      "position": {
+        "x": 420,
+        "y": 29
+      },
+      "size": {
+        "width": 130,
+        "height": 82
+      },
+      "view": "react-shape-view",
+      "shape": "custom-react-shape",
+      "ports": {
+        "groups": {
+          "top": {
+            "position": "top",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "right": {
+            "position": "right",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "bottom": {
+            "position": "bottom",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "left": {
+            "position": "left",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          }
+        },
+        "items": [
+          {
+            "group": "top",
+            "id": "a1324213-b0bb-49e9-ad53-90437b0717c4"
+          },
+          {
+            "group": "right",
+            "id": "f793a42e-4baa-46ec-bc8a-530a6c9b57ee"
+          },
+          {
+            "group": "bottom",
+            "id": "67637242-6576-45fe-a2cb-fb5030afd2ab"
+          },
+          {
+            "group": "left",
+            "id": "711e6f0a-c541-400a-8878-c37c2e31d240"
+          }
+        ]
+      },
+      "id": "a25ee87b-88ef-4f17-b6a7-21d7a533b4f0",
+      "data": {
+        "protoText": " Invert the assembly and secure in a tube base or rack"
+      },
+      "type": "textNode",
+      "zIndex": 3
+    },
+    {
+      "position": {
+        "x": 592,
+        "y": 20
+      },
+      "size": {
+        "width": 160,
+        "height": 100
+      },
+      "view": "react-shape-view",
+      "shape": "custom-react-shape",
+      "ports": {
+        "groups": {
+          "top": {
+            "position": "top",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "right": {
+            "position": "right",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "bottom": {
+            "position": "bottom",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "left": {
+            "position": "left",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          }
+        },
+        "items": [
+          {
+            "group": "top",
+            "id": "a1324213-b0bb-49e9-ad53-90437b0717c4"
+          },
+          {
+            "group": "right",
+            "id": "f793a42e-4baa-46ec-bc8a-530a6c9b57ee"
+          },
+          {
+            "group": "bottom",
+            "id": "67637242-6576-45fe-a2cb-fb5030afd2ab"
+          },
+          {
+            "group": "left",
+            "id": "711e6f0a-c541-400a-8878-c37c2e31d240"
+          }
+        ]
+      },
+      "id": "79df1e34-fba8-4743-9114-873566d4f545",
+      "data": {
+        "protoText": "Attach a regulated vacuum source to the vacuum port on the side of the Steri\u0000ip unit"
+      },
+      "type": "textNode",
+      "zIndex": 4
+    },
+    {
+      "position": {
+        "x": 780,
+        "y": 20
+      },
+      "size": {
+        "width": 145,
+        "height": 100
+      },
+      "view": "react-shape-view",
+      "shape": "custom-react-shape",
+      "ports": {
+        "groups": {
+          "top": {
+            "position": "top",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "right": {
+            "position": "right",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "bottom": {
+            "position": "bottom",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "left": {
+            "position": "left",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          }
+        },
+        "items": [
+          {
+            "group": "top",
+            "id": "a1324213-b0bb-49e9-ad53-90437b0717c4"
+          },
+          {
+            "group": "right",
+            "id": "f793a42e-4baa-46ec-bc8a-530a6c9b57ee"
+          },
+          {
+            "group": "bottom",
+            "id": "67637242-6576-45fe-a2cb-fb5030afd2ab"
+          },
+          {
+            "group": "left",
+            "id": "711e6f0a-c541-400a-8878-c37c2e31d240"
+          }
+        ]
+      },
+      "id": "283bea59-5ddd-491c-900b-de1373d75f36",
+      "data": {
+        "protoText": "Turn on the vacuum to draw solution through the membrane and into the empty tube"
+      },
+      "type": "textNode",
+      "zIndex": 5
+    },
+    {
+      "position": {
+        "x": 967,
+        "y": 38
+      },
+      "size": {
+        "width": 115,
+        "height": 64
+      },
+      "view": "react-shape-view",
+      "shape": "custom-react-shape",
+      "ports": {
+        "groups": {
+          "top": {
+            "position": "top",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "right": {
+            "position": "right",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "bottom": {
+            "position": "bottom",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "left": {
+            "position": "left",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          }
+        },
+        "items": [
+          {
+            "group": "top",
+            "id": "a1324213-b0bb-49e9-ad53-90437b0717c4"
+          },
+          {
+            "group": "right",
+            "id": "f793a42e-4baa-46ec-bc8a-530a6c9b57ee"
+          },
+          {
+            "group": "bottom",
+            "id": "67637242-6576-45fe-a2cb-fb5030afd2ab"
+          },
+          {
+            "group": "left",
+            "id": "711e6f0a-c541-400a-8878-c37c2e31d240"
+          }
+        ]
+      },
+      "id": "4deb567c-22c6-43e4-8396-1d6eb90975dd",
+      "data": {
+        "protoText": "Detach the Steri\u0000ip device and cap sample"
+      },
+      "type": "textNode",
+      "zIndex": 6
+    },
+    {
+      "position": {
+        "x": 952,
+        "y": 160
+      },
+      "size": {
+        "width": 145,
+        "height": 82
+      },
+      "view": "react-shape-view",
+      "shape": "custom-react-shape",
+      "ports": {
+        "groups": {
+          "top": {
+            "position": "top",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "right": {
+            "position": "right",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "bottom": {
+            "position": "bottom",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "left": {
+            "position": "left",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          }
+        },
+        "items": [
+          {
+            "group": "top",
+            "id": "a1324213-b0bb-49e9-ad53-90437b0717c4"
+          },
+          {
+            "group": "right",
+            "id": "f793a42e-4baa-46ec-bc8a-530a6c9b57ee"
+          },
+          {
+            "group": "bottom",
+            "id": "67637242-6576-45fe-a2cb-fb5030afd2ab"
+          },
+          {
+            "group": "left",
+            "id": "711e6f0a-c541-400a-8878-c37c2e31d240"
+          }
+        ]
+      },
+      "id": "a9740193-73d0-40f6-9868-6e2c5abb00fd",
+      "data": {
+        "protoText": "Store \u0000ltered sample at 4\u00b0C or proceed with microvesicles enrichment"
+      },
+      "type": "textNode",
+      "zIndex": 7
+    },
+    {
+      "position": {
+        "x": 738,
+        "y": 142
+      },
+      "size": {
+        "width": 175,
+        "height": 118
+      },
+      "view": "react-shape-view",
+      "shape": "custom-react-shape",
+      "ports": {
+        "groups": {
+          "top": {
+            "position": "top",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "right": {
+            "position": "right",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "bottom": {
+            "position": "bottom",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "left": {
+            "position": "left",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          }
+        },
+        "items": [
+          {
+            "group": "top",
+            "id": "a1324213-b0bb-49e9-ad53-90437b0717c4"
+          },
+          {
+            "group": "right",
+            "id": "f793a42e-4baa-46ec-bc8a-530a6c9b57ee"
+          },
+          {
+            "group": "bottom",
+            "id": "67637242-6576-45fe-a2cb-fb5030afd2ab"
+          },
+          {
+            "group": "left",
+            "id": "711e6f0a-c541-400a-8878-c37c2e31d240"
+          }
+        ]
+      },
+      "id": "5f5cd844-4059-4cdf-812d-4d9f441082bd",
+      "data": {
+        "protoText": "Add 2 mL PBS to the AU-15 \u0000lter, cap and centrifuge for 10 minutes at 4000 xg minutes in a swinging bucket rotor"
+      },
+      "type": "textNode",
+      "zIndex": 8
+    },
+    {
+      "position": {
+        "x": 572,
+        "y": 160
+      },
+      "size": {
+        "width": 130,
+        "height": 82
+      },
+      "view": "react-shape-view",
+      "shape": "custom-react-shape",
+      "ports": {
+        "groups": {
+          "top": {
+            "position": "top",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "right": {
+            "position": "right",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "bottom": {
+            "position": "bottom",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "left": {
+            "position": "left",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          }
+        },
+        "items": [
+          {
+            "group": "top",
+            "id": "a1324213-b0bb-49e9-ad53-90437b0717c4"
+          },
+          {
+            "group": "right",
+            "id": "f793a42e-4baa-46ec-bc8a-530a6c9b57ee"
+          },
+          {
+            "group": "bottom",
+            "id": "67637242-6576-45fe-a2cb-fb5030afd2ab"
+          },
+          {
+            "group": "left",
+            "id": "711e6f0a-c541-400a-8878-c37c2e31d240"
+          }
+        ]
+      },
+      "id": "c8826d14-badb-4010-bbcb-a61d33b6b2e9",
+      "data": {
+        "protoText": "Remove un\u0000ltered PBS from the bottom of the \u0000filter device"
+      },
+      "type": "textNode",
+      "zIndex": 9
+    },
+    {
+      "position": {
+        "x": 410,
+        "y": 160
+      },
+      "size": {
+        "width": 115,
+        "height": 82
+      },
+      "view": "react-shape-view",
+      "shape": "custom-react-shape",
+      "ports": {
+        "groups": {
+          "top": {
+            "position": "top",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "right": {
+            "position": "right",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "bottom": {
+            "position": "bottom",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "left": {
+            "position": "left",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          }
+        },
+        "items": [
+          {
+            "group": "top",
+            "id": "a1324213-b0bb-49e9-ad53-90437b0717c4"
+          },
+          {
+            "group": "right",
+            "id": "f793a42e-4baa-46ec-bc8a-530a6c9b57ee"
+          },
+          {
+            "group": "bottom",
+            "id": "67637242-6576-45fe-a2cb-fb5030afd2ab"
+          },
+          {
+            "group": "left",
+            "id": "711e6f0a-c541-400a-8878-c37c2e31d240"
+          }
+        ]
+      },
+      "id": "b33af978-f55b-4117-a1d3-9ad503ffc73e",
+      "data": {
+        "protoText": "Aspirate fi\u0000ltrate from the collection tube"
+      },
+      "type": "textNode",
+      "zIndex": 10
+    },
+    {
+      "position": {
+        "x": 236.5,
+        "y": 160
+      },
+      "size": {
+        "width": 130,
+        "height": 82
+      },
+      "view": "react-shape-view",
+      "shape": "custom-react-shape",
+      "ports": {
+        "groups": {
+          "top": {
+            "position": "top",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "right": {
+            "position": "right",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "bottom": {
+            "position": "bottom",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "left": {
+            "position": "left",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          }
+        },
+        "items": [
+          {
+            "group": "top",
+            "id": "a1324213-b0bb-49e9-ad53-90437b0717c4"
+          },
+          {
+            "group": "right",
+            "id": "f793a42e-4baa-46ec-bc8a-530a6c9b57ee"
+          },
+          {
+            "group": "bottom",
+            "id": "67637242-6576-45fe-a2cb-fb5030afd2ab"
+          },
+          {
+            "group": "left",
+            "id": "711e6f0a-c541-400a-8878-c37c2e31d240"
+          }
+        ]
+      },
+      "id": "9e2a8d48-c2fb-4b22-96a3-1f500c8d08ba",
+      "data": {
+        "protoText": "Add 15 mL sample to the AU-15 fi\u0000lter and cap the device."
+      },
+      "type": "textNode",
+      "zIndex": 11
+    },
+    {
+      "position": {
+        "x": 72,
+        "y": 169
+      },
+      "size": {
+        "width": 115,
+        "height": 64
+      },
+      "view": "react-shape-view",
+      "shape": "custom-react-shape",
+      "ports": {
+        "groups": {
+          "top": {
+            "position": "top",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "right": {
+            "position": "right",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "bottom": {
+            "position": "bottom",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "left": {
+            "position": "left",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          }
+        },
+        "items": [
+          {
+            "group": "top",
+            "id": "a1324213-b0bb-49e9-ad53-90437b0717c4"
+          },
+          {
+            "group": "right",
+            "id": "f793a42e-4baa-46ec-bc8a-530a6c9b57ee"
+          },
+          {
+            "group": "bottom",
+            "id": "67637242-6576-45fe-a2cb-fb5030afd2ab"
+          },
+          {
+            "group": "left",
+            "id": "711e6f0a-c541-400a-8878-c37c2e31d240"
+          }
+        ]
+      },
+      "id": "15d12c63-5017-425d-b60e-87d310e58814",
+      "data": {
+        "protoText": "Centrifuge at for 30 minutes at 4000 xg"
+      },
+      "type": "textNode",
+      "zIndex": 12
+    },
+    {
+      "position": {
+        "x": -129,
+        "y": 161
+      },
+      "size": {
+        "width": 160,
+        "height": 80
+      },
+      "view": "react-shape-view",
+      "shape": "custom-react-shape",
+      "ports": {
+        "groups": {
+          "top": {
+            "position": "top",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "right": {
+            "position": "right",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "bottom": {
+            "position": "bottom",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "left": {
+            "position": "left",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          }
+        },
+        "items": [
+          {
+            "group": "top",
+            "id": "a1324213-b0bb-49e9-ad53-90437b0717c4"
+          },
+          {
+            "group": "right",
+            "id": "f793a42e-4baa-46ec-bc8a-530a6c9b57ee"
+          },
+          {
+            "group": "bottom",
+            "id": "67637242-6576-45fe-a2cb-fb5030afd2ab"
+          },
+          {
+            "group": "left",
+            "id": "711e6f0a-c541-400a-8878-c37c2e31d240"
+          }
+        ]
+      },
+      "id": "cb6ecef2-1212-4a95-84a5-9223c3aed7f4",
+      "data": {
+        "protoText": "Remove device from the centrifuge and empty the collection tube"
+      },
+      "type": "textNode",
+      "zIndex": 13
+    },
+    {
+      "position": {
+        "x": -129,
+        "y": 280
+      },
+      "size": {
+        "width": 160,
+        "height": 100
+      },
+      "view": "react-shape-view",
+      "shape": "custom-react-shape",
+      "ports": {
+        "groups": {
+          "top": {
+            "position": "top",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "right": {
+            "position": "right",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "bottom": {
+            "position": "bottom",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "left": {
+            "position": "left",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          }
+        },
+        "items": [
+          {
+            "group": "top",
+            "id": "a1324213-b0bb-49e9-ad53-90437b0717c4"
+          },
+          {
+            "group": "right",
+            "id": "f793a42e-4baa-46ec-bc8a-530a6c9b57ee"
+          },
+          {
+            "group": "bottom",
+            "id": "67637242-6576-45fe-a2cb-fb5030afd2ab"
+          },
+          {
+            "group": "left",
+            "id": "711e6f0a-c541-400a-8878-c37c2e31d240"
+          }
+        ]
+      },
+      "id": "8136bc01-dd47-418d-b6d9-72216ed4f54f",
+      "data": {
+        "protoText": "Add 14 mL PBS to the fi\u0000lter device and gently pipette sample multiple times to mix"
+      },
+      "type": "textNode",
+      "zIndex": 14
+    },
+    {
+      "position": {
+        "x": 79,
+        "y": 295
+      },
+      "size": {
+        "width": 115,
+        "height": 64
+      },
+      "view": "react-shape-view",
+      "shape": "custom-react-shape",
+      "ports": {
+        "groups": {
+          "top": {
+            "position": "top",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "right": {
+            "position": "right",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "bottom": {
+            "position": "bottom",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "left": {
+            "position": "left",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          }
+        },
+        "items": [
+          {
+            "group": "top",
+            "id": "a1324213-b0bb-49e9-ad53-90437b0717c4"
+          },
+          {
+            "group": "right",
+            "id": "f793a42e-4baa-46ec-bc8a-530a6c9b57ee"
+          },
+          {
+            "group": "bottom",
+            "id": "67637242-6576-45fe-a2cb-fb5030afd2ab"
+          },
+          {
+            "group": "left",
+            "id": "711e6f0a-c541-400a-8878-c37c2e31d240"
+          }
+        ]
+      },
+      "id": "89c96a7f-33cf-4aef-9a68-31367446fe02",
+      "data": {
+        "protoText": "Centrifuge at for 30 minutes at 4000 xg."
+      },
+      "type": "textNode",
+      "zIndex": 15
+    },
+    {
+      "position": {
+        "x": 229,
+        "y": 290
+      },
+      "size": {
+        "width": 180,
+        "height": 80
+      },
+      "view": "react-shape-view",
+      "shape": "custom-react-shape",
+      "ports": {
+        "groups": {
+          "top": {
+            "position": "top",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "right": {
+            "position": "right",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "bottom": {
+            "position": "bottom",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "left": {
+            "position": "left",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          }
+        },
+        "items": [
+          {
+            "group": "top",
+            "id": "a1324213-b0bb-49e9-ad53-90437b0717c4"
+          },
+          {
+            "group": "right",
+            "id": "f793a42e-4baa-46ec-bc8a-530a6c9b57ee"
+          },
+          {
+            "group": "bottom",
+            "id": "67637242-6576-45fe-a2cb-fb5030afd2ab"
+          },
+          {
+            "group": "left",
+            "id": "711e6f0a-c541-400a-8878-c37c2e31d240"
+          }
+        ]
+      },
+      "id": "df2ed2af-4f36-4c67-807b-1397ba09585f",
+      "data": {
+        "protoText": "Recover concentrated sample from the upper chamber of the fi\u0000lter device"
+      },
+      "type": "textNode",
+      "zIndex": 16
+    },
+    {
+      "position": {
+        "x": -102,
+        "y": 35
+      },
+      "size": {
+        "width": 100,
+        "height": 64
+      },
+      "view": "react-shape-view",
+      "shape": "custom-react-shape",
+      "ports": {
+        "groups": {
+          "top": {
+            "position": "top",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "right": {
+            "position": "right",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "bottom": {
+            "position": "bottom",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "left": {
+            "position": "left",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          }
+        },
+        "items": [
+          {
+            "group": "top",
+            "id": "a1324213-b0bb-49e9-ad53-90437b0717c4"
+          },
+          {
+            "group": "right",
+            "id": "f793a42e-4baa-46ec-bc8a-530a6c9b57ee"
+          },
+          {
+            "group": "bottom",
+            "id": "67637242-6576-45fe-a2cb-fb5030afd2ab"
+          },
+          {
+            "group": "left",
+            "id": "711e6f0a-c541-400a-8878-c37c2e31d240"
+          }
+        ]
+      },
+      "id": "ac38ec8c-6dfd-4710-84c7-3544b3f37281",
+      "data": {
+        "protoText": "For cell culture supernatant"
+      },
+      "type": "textNode",
+      "zIndex": 17
+    },
+    {
+      "position": {
+        "x": -91.5,
+        "y": 425
+      },
+      "size": {
+        "width": 85,
+        "height": 46
+      },
+      "view": "react-shape-view",
+      "shape": "custom-react-shape",
+      "ports": {
+        "groups": {
+          "top": {
+            "position": "top",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "right": {
+            "position": "right",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "bottom": {
+            "position": "bottom",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "left": {
+            "position": "left",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          }
+        },
+        "items": [
+          {
+            "group": "top",
+            "id": "a1324213-b0bb-49e9-ad53-90437b0717c4"
+          },
+          {
+            "group": "right",
+            "id": "f793a42e-4baa-46ec-bc8a-530a6c9b57ee"
+          },
+          {
+            "group": "bottom",
+            "id": "67637242-6576-45fe-a2cb-fb5030afd2ab"
+          },
+          {
+            "group": "left",
+            "id": "711e6f0a-c541-400a-8878-c37c2e31d240"
+          }
+        ]
+      },
+      "id": "cd646afd-b523-4e40-90ff-1e0a00ecf79b",
+      "data": {
+        "protoText": "For serum or plasma"
+      },
+      "type": "textNode",
+      "zIndex": 18
+    },
+    {
+      "position": {
+        "x": 50,
+        "y": 416
+      },
+      "size": {
+        "width": 115,
+        "height": 64
+      },
+      "view": "react-shape-view",
+      "shape": "custom-react-shape",
+      "ports": {
+        "groups": {
+          "top": {
+            "position": "top",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "right": {
+            "position": "right",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "bottom": {
+            "position": "bottom",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "left": {
+            "position": "left",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          }
+        },
+        "items": [
+          {
+            "group": "top",
+            "id": "a1324213-b0bb-49e9-ad53-90437b0717c4"
+          },
+          {
+            "group": "right",
+            "id": "f793a42e-4baa-46ec-bc8a-530a6c9b57ee"
+          },
+          {
+            "group": "bottom",
+            "id": "67637242-6576-45fe-a2cb-fb5030afd2ab"
+          },
+          {
+            "group": "left",
+            "id": "711e6f0a-c541-400a-8878-c37c2e31d240"
+          }
+        ]
+      },
+      "id": "ff912152-4d3f-4c36-a99c-7ec1f6dedbbd",
+      "data": {
+        "protoText": "Add 500 \u03bcl PBS to the AU-0.5 fi\u0000lter, cap"
+      },
+      "type": "textNode",
+      "zIndex": 19
+    },
+    {
+      "position": {
+        "x": 194,
+        "y": 416
+      },
+      "size": {
+        "width": 115,
+        "height": 64
+      },
+      "view": "react-shape-view",
+      "shape": "custom-react-shape",
+      "ports": {
+        "groups": {
+          "top": {
+            "position": "top",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "right": {
+            "position": "right",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "bottom": {
+            "position": "bottom",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "left": {
+            "position": "left",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          }
+        },
+        "items": [
+          {
+            "group": "top",
+            "id": "a1324213-b0bb-49e9-ad53-90437b0717c4"
+          },
+          {
+            "group": "right",
+            "id": "f793a42e-4baa-46ec-bc8a-530a6c9b57ee"
+          },
+          {
+            "group": "bottom",
+            "id": "67637242-6576-45fe-a2cb-fb5030afd2ab"
+          },
+          {
+            "group": "left",
+            "id": "711e6f0a-c541-400a-8878-c37c2e31d240"
+          }
+        ]
+      },
+      "id": "cc9e0075-7e75-4f0b-ad73-21cf8fe5cdf3",
+      "data": {
+        "protoText": " centrifuge for 10 minutes at 14,000 xg"
+      },
+      "type": "textNode",
+      "zIndex": 20
+    },
+    {
+      "position": {
+        "x": 350,
+        "y": 398
+      },
+      "size": {
+        "width": 160,
+        "height": 100
+      },
+      "view": "react-shape-view",
+      "shape": "custom-react-shape",
+      "ports": {
+        "groups": {
+          "top": {
+            "position": "top",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "right": {
+            "position": "right",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "bottom": {
+            "position": "bottom",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "left": {
+            "position": "left",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          }
+        },
+        "items": [
+          {
+            "group": "top",
+            "id": "a1324213-b0bb-49e9-ad53-90437b0717c4"
+          },
+          {
+            "group": "right",
+            "id": "f793a42e-4baa-46ec-bc8a-530a6c9b57ee"
+          },
+          {
+            "group": "bottom",
+            "id": "67637242-6576-45fe-a2cb-fb5030afd2ab"
+          },
+          {
+            "group": "left",
+            "id": "711e6f0a-c541-400a-8878-c37c2e31d240"
+          }
+        ]
+      },
+      "id": "c9764cdf-a197-4ee6-91ef-6b2ff05a8902",
+      "data": {
+        "protoText": "Reverse the device and centrifuge for 2 minutes at 1000 xg to remove the residual PBS"
+      },
+      "type": "textNode",
+      "zIndex": 21
+    },
+    {
+      "position": {
+        "x": 550,
+        "y": 416
+      },
+      "size": {
+        "width": 115,
+        "height": 64
+      },
+      "view": "react-shape-view",
+      "shape": "custom-react-shape",
+      "ports": {
+        "groups": {
+          "top": {
+            "position": "top",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "right": {
+            "position": "right",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "bottom": {
+            "position": "bottom",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "left": {
+            "position": "left",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          }
+        },
+        "items": [
+          {
+            "group": "top",
+            "id": "a1324213-b0bb-49e9-ad53-90437b0717c4"
+          },
+          {
+            "group": "right",
+            "id": "f793a42e-4baa-46ec-bc8a-530a6c9b57ee"
+          },
+          {
+            "group": "bottom",
+            "id": "67637242-6576-45fe-a2cb-fb5030afd2ab"
+          },
+          {
+            "group": "left",
+            "id": "711e6f0a-c541-400a-8878-c37c2e31d240"
+          }
+        ]
+      },
+      "id": "31fd8ddd-255c-4674-965a-c4cd95d4d3c2",
+      "data": {
+        "protoText": "Aspirate PBS from the collection tube"
+      },
+      "type": "textNode",
+      "zIndex": 22
+    },
+    {
+      "position": {
+        "x": 702,
+        "y": 398
+      },
+      "size": {
+        "width": 145,
+        "height": 100
+      },
+      "view": "react-shape-view",
+      "shape": "custom-react-shape",
+      "ports": {
+        "groups": {
+          "top": {
+            "position": "top",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "right": {
+            "position": "right",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "bottom": {
+            "position": "bottom",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "left": {
+            "position": "left",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          }
+        },
+        "items": [
+          {
+            "group": "top",
+            "id": "a1324213-b0bb-49e9-ad53-90437b0717c4"
+          },
+          {
+            "group": "right",
+            "id": "f793a42e-4baa-46ec-bc8a-530a6c9b57ee"
+          },
+          {
+            "group": "bottom",
+            "id": "67637242-6576-45fe-a2cb-fb5030afd2ab"
+          },
+          {
+            "group": "left",
+            "id": "711e6f0a-c541-400a-8878-c37c2e31d240"
+          }
+        ]
+      },
+      "id": "0901e97f-fb61-41c8-a632-22008a275d71",
+      "data": {
+        "protoText": "Transfer 200 \u03bcl sample and 300 \u03bcl PBS to the AU-0.5 fi\u0000lter and cap the device"
+      },
+      "type": "textNode",
+      "zIndex": 23
+    },
+    {
+      "position": {
+        "x": 880,
+        "y": 416
+      },
+      "size": {
+        "width": 115,
+        "height": 64
+      },
+      "view": "react-shape-view",
+      "shape": "custom-react-shape",
+      "ports": {
+        "groups": {
+          "top": {
+            "position": "top",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "right": {
+            "position": "right",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "bottom": {
+            "position": "bottom",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "left": {
+            "position": "left",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          }
+        },
+        "items": [
+          {
+            "group": "top",
+            "id": "a1324213-b0bb-49e9-ad53-90437b0717c4"
+          },
+          {
+            "group": "right",
+            "id": "f793a42e-4baa-46ec-bc8a-530a6c9b57ee"
+          },
+          {
+            "group": "bottom",
+            "id": "67637242-6576-45fe-a2cb-fb5030afd2ab"
+          },
+          {
+            "group": "left",
+            "id": "711e6f0a-c541-400a-8878-c37c2e31d240"
+          }
+        ]
+      },
+      "id": "98650693-f0f6-4ee2-9a64-c94581472552",
+      "data": {
+        "protoText": "Centrifuge for 30 minutes at 14,000 xg"
+      },
+      "type": "textNode",
+      "zIndex": 24
+    },
+    {
+      "position": {
+        "x": 1020,
+        "y": 409
+      },
+      "size": {
+        "width": 140,
+        "height": 80
+      },
+      "view": "react-shape-view",
+      "shape": "custom-react-shape",
+      "ports": {
+        "groups": {
+          "top": {
+            "position": "top",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "right": {
+            "position": "right",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "bottom": {
+            "position": "bottom",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "left": {
+            "position": "left",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          }
+        },
+        "items": [
+          {
+            "group": "top",
+            "id": "a1324213-b0bb-49e9-ad53-90437b0717c4"
+          },
+          {
+            "group": "right",
+            "id": "f793a42e-4baa-46ec-bc8a-530a6c9b57ee"
+          },
+          {
+            "group": "bottom",
+            "id": "67637242-6576-45fe-a2cb-fb5030afd2ab"
+          },
+          {
+            "group": "left",
+            "id": "711e6f0a-c541-400a-8878-c37c2e31d240"
+          }
+        ]
+      },
+      "id": "8cb3296b-7841-46ac-b5f8-28322b88d757",
+      "data": {
+        "protoText": "Remove device from the centrifuge and empty the collection tube"
+      },
+      "type": "textNode",
+      "zIndex": 25
+    },
+    {
+      "position": {
+        "x": 1010,
+        "y": 527
+      },
+      "size": {
+        "width": 160,
+        "height": 100
+      },
+      "view": "react-shape-view",
+      "shape": "custom-react-shape",
+      "ports": {
+        "groups": {
+          "top": {
+            "position": "top",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "right": {
+            "position": "right",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "bottom": {
+            "position": "bottom",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "left": {
+            "position": "left",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          }
+        },
+        "items": [
+          {
+            "group": "top",
+            "id": "a1324213-b0bb-49e9-ad53-90437b0717c4"
+          },
+          {
+            "group": "right",
+            "id": "f793a42e-4baa-46ec-bc8a-530a6c9b57ee"
+          },
+          {
+            "group": "bottom",
+            "id": "67637242-6576-45fe-a2cb-fb5030afd2ab"
+          },
+          {
+            "group": "left",
+            "id": "711e6f0a-c541-400a-8878-c37c2e31d240"
+          }
+        ]
+      },
+      "id": "cd005eef-098b-4b4d-a324-7d1df38b2e0a",
+      "data": {
+        "protoText": "add 0.5 mL PBS to the fi\u0000lter device and gently pipette sample multiple times to mix."
+      },
+      "type": "textNode",
+      "zIndex": 26
+    },
+    {
+      "position": {
+        "x": 837,
+        "y": 545
+      },
+      "size": {
+        "width": 115,
+        "height": 64
+      },
+      "view": "react-shape-view",
+      "shape": "custom-react-shape",
+      "ports": {
+        "groups": {
+          "top": {
+            "position": "top",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "right": {
+            "position": "right",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "bottom": {
+            "position": "bottom",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "left": {
+            "position": "left",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          }
+        },
+        "items": [
+          {
+            "group": "top",
+            "id": "a1324213-b0bb-49e9-ad53-90437b0717c4"
+          },
+          {
+            "group": "right",
+            "id": "f793a42e-4baa-46ec-bc8a-530a6c9b57ee"
+          },
+          {
+            "group": "bottom",
+            "id": "67637242-6576-45fe-a2cb-fb5030afd2ab"
+          },
+          {
+            "group": "left",
+            "id": "711e6f0a-c541-400a-8878-c37c2e31d240"
+          }
+        ]
+      },
+      "id": "1780640c-9396-47e1-bf1f-ca91003510bf",
+      "data": {
+        "protoText": "Centrifuge for 30 minutes at 14,000 xg"
+      },
+      "type": "textNode",
+      "zIndex": 27
+    },
+    {
+      "position": {
+        "x": 665,
+        "y": 536
+      },
+      "size": {
+        "width": 130,
+        "height": 82
+      },
+      "view": "react-shape-view",
+      "shape": "custom-react-shape",
+      "ports": {
+        "groups": {
+          "top": {
+            "position": "top",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "right": {
+            "position": "right",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "bottom": {
+            "position": "bottom",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "left": {
+            "position": "left",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          }
+        },
+        "items": [
+          {
+            "group": "top",
+            "id": "a1324213-b0bb-49e9-ad53-90437b0717c4"
+          },
+          {
+            "group": "right",
+            "id": "f793a42e-4baa-46ec-bc8a-530a6c9b57ee"
+          },
+          {
+            "group": "bottom",
+            "id": "67637242-6576-45fe-a2cb-fb5030afd2ab"
+          },
+          {
+            "group": "left",
+            "id": "711e6f0a-c541-400a-8878-c37c2e31d240"
+          }
+        ]
+      },
+      "id": "4b321d6a-f094-4408-8145-f17c74f2d27c",
+      "data": {
+        "protoText": "Place \u0000filter upside down in a fresh microcentrifuge tube"
+      },
+      "type": "textNode",
+      "zIndex": 28
+    },
+    {
+      "position": {
+        "x": 460,
+        "y": 540
+      },
+      "size": {
+        "width": 145,
+        "height": 82
+      },
+      "view": "react-shape-view",
+      "shape": "custom-react-shape",
+      "ports": {
+        "groups": {
+          "top": {
+            "position": "top",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "right": {
+            "position": "right",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "bottom": {
+            "position": "bottom",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "left": {
+            "position": "left",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          }
+        },
+        "items": [
+          {
+            "group": "top",
+            "id": "a1324213-b0bb-49e9-ad53-90437b0717c4"
+          },
+          {
+            "group": "right",
+            "id": "f793a42e-4baa-46ec-bc8a-530a6c9b57ee"
+          },
+          {
+            "group": "bottom",
+            "id": "67637242-6576-45fe-a2cb-fb5030afd2ab"
+          },
+          {
+            "group": "left",
+            "id": "711e6f0a-c541-400a-8878-c37c2e31d240"
+          }
+        ]
+      },
+      "id": "e5686841-6f54-40c8-b9f3-6d4e30feae97",
+      "data": {
+        "protoText": "Centrifuge for 2 minutes at 2000 xg to transfer the sample to the tube"
+      },
+      "type": "textNode",
+      "zIndex": 29
+    }
+  ]
+}

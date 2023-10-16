@@ -1,0 +1,1402 @@
+{
+  "cells": [
+    {
+      "shape": "edge",
+      "attrs": {
+        "line": {
+          "stroke": "#A2B1C3"
+        }
+      },
+      "id": "0d57b9a0-f6bc-43e6-ac1c-f45e9add5d03",
+      "zIndex": 0,
+      "source": {
+        "cell": "3dd88a0f-3574-4cc3-80d0-de87a4fc0bd8",
+        "port": "8f56b560-72a4-4549-a73d-ce3c6f19b36a"
+      },
+      "target": {
+        "cell": "1efb7e4f-afab-4ff2-8f52-9958c56ed19d",
+        "port": "b0348592-06bb-44ad-85cb-263440824818"
+      }
+    },
+    {
+      "shape": "edge",
+      "attrs": {
+        "line": {
+          "stroke": "#A2B1C3"
+        }
+      },
+      "id": "106e329d-dd28-43f4-a0eb-7c27675f6a26",
+      "zIndex": 0,
+      "source": {
+        "cell": "1efb7e4f-afab-4ff2-8f52-9958c56ed19d",
+        "port": "8f56b560-72a4-4549-a73d-ce3c6f19b36a"
+      },
+      "target": {
+        "cell": "bd3d0ee3-982b-4b0f-8cbc-360e4b20f040",
+        "port": "b0348592-06bb-44ad-85cb-263440824818"
+      }
+    },
+    {
+      "shape": "edge",
+      "attrs": {
+        "line": {
+          "stroke": "#A2B1C3"
+        }
+      },
+      "id": "15d68c3c-e449-41f1-80e3-c696ec302bc7",
+      "zIndex": 0,
+      "source": {
+        "cell": "bd3d0ee3-982b-4b0f-8cbc-360e4b20f040",
+        "port": "d423629e-c026-4762-9ec4-3cd87ac91057"
+      },
+      "target": {
+        "cell": "974e95bf-e8bb-41ca-b58e-53bb62190e61",
+        "port": "e1bc1b20-b60f-4b95-af54-80cdfc402cbe"
+      }
+    },
+    {
+      "shape": "edge",
+      "attrs": {
+        "line": {
+          "stroke": "#A2B1C3"
+        }
+      },
+      "id": "4c697a01-5168-419a-a1dd-548762c5e50e",
+      "zIndex": 0,
+      "source": {
+        "cell": "974e95bf-e8bb-41ca-b58e-53bb62190e61",
+        "port": "b0348592-06bb-44ad-85cb-263440824818"
+      },
+      "target": {
+        "cell": "1f2a401d-b164-4bc9-aef3-71f936c331a1",
+        "port": "8f56b560-72a4-4549-a73d-ce3c6f19b36a"
+      }
+    },
+    {
+      "shape": "edge",
+      "attrs": {
+        "line": {
+          "stroke": "#A2B1C3"
+        }
+      },
+      "id": "a1348b43-af71-4faa-908a-2cb927a23716",
+      "zIndex": 0,
+      "source": {
+        "cell": "1f2a401d-b164-4bc9-aef3-71f936c331a1",
+        "port": "b0348592-06bb-44ad-85cb-263440824818"
+      },
+      "target": {
+        "cell": "034957b3-d2aa-406d-8a2e-8f79e2c37151",
+        "port": "8f56b560-72a4-4549-a73d-ce3c6f19b36a"
+      }
+    },
+    {
+      "shape": "edge",
+      "attrs": {
+        "line": {
+          "stroke": "#A2B1C3"
+        }
+      },
+      "id": "67647339-be24-4708-a37d-e1396705d917",
+      "zIndex": 0,
+      "source": {
+        "cell": "034957b3-d2aa-406d-8a2e-8f79e2c37151",
+        "port": "d423629e-c026-4762-9ec4-3cd87ac91057"
+      },
+      "target": {
+        "cell": "b1e549c4-34a5-47da-8f1e-e9a36636277f",
+        "port": "e1bc1b20-b60f-4b95-af54-80cdfc402cbe"
+      }
+    },
+    {
+      "shape": "edge",
+      "attrs": {
+        "line": {
+          "stroke": "#A2B1C3"
+        }
+      },
+      "id": "d950e333-4592-4de1-bb50-ef36f2c1b85f",
+      "zIndex": 0,
+      "source": {
+        "cell": "b1e549c4-34a5-47da-8f1e-e9a36636277f",
+        "port": "8f56b560-72a4-4549-a73d-ce3c6f19b36a"
+      },
+      "target": {
+        "cell": "487510cf-67cb-44ff-86e1-b0031c016b84",
+        "port": "b0348592-06bb-44ad-85cb-263440824818"
+      }
+    },
+    {
+      "shape": "edge",
+      "attrs": {
+        "line": {
+          "stroke": "#A2B1C3"
+        }
+      },
+      "id": "33768f4c-b40f-442d-a480-474b025679f2",
+      "zIndex": 0,
+      "source": {
+        "cell": "487510cf-67cb-44ff-86e1-b0031c016b84",
+        "port": "8f56b560-72a4-4549-a73d-ce3c6f19b36a"
+      },
+      "target": {
+        "cell": "148ab69e-6c96-43ae-ba3f-7c256483ed0a",
+        "port": "b0348592-06bb-44ad-85cb-263440824818"
+      }
+    },
+    {
+      "shape": "edge",
+      "attrs": {
+        "line": {
+          "stroke": "#A2B1C3"
+        }
+      },
+      "id": "adcf2452-dbe8-4797-9ca5-4563da34e377",
+      "zIndex": 0,
+      "source": {
+        "cell": "148ab69e-6c96-43ae-ba3f-7c256483ed0a",
+        "port": "d423629e-c026-4762-9ec4-3cd87ac91057"
+      },
+      "target": {
+        "cell": "bc6e06e9-6451-4032-adf3-04705b330f60",
+        "port": "e1bc1b20-b60f-4b95-af54-80cdfc402cbe"
+      }
+    },
+    {
+      "shape": "edge",
+      "attrs": {
+        "line": {
+          "stroke": "#A2B1C3"
+        }
+      },
+      "id": "7cf90724-f320-4e6c-a2c1-ed0c55f73bf8",
+      "zIndex": 0,
+      "source": {
+        "cell": "bc6e06e9-6451-4032-adf3-04705b330f60",
+        "port": "b0348592-06bb-44ad-85cb-263440824818"
+      },
+      "target": {
+        "cell": "06784f50-b962-400e-bd07-6b3637bfc40e",
+        "port": "8f56b560-72a4-4549-a73d-ce3c6f19b36a"
+      }
+    },
+    {
+      "shape": "edge",
+      "attrs": {
+        "line": {
+          "stroke": "#A2B1C3"
+        }
+      },
+      "id": "2e9c7609-f8ce-4884-b7cc-c5e64c994f3a",
+      "zIndex": 0,
+      "source": {
+        "cell": "06784f50-b962-400e-bd07-6b3637bfc40e",
+        "port": "b0348592-06bb-44ad-85cb-263440824818"
+      },
+      "target": {
+        "cell": "d2c41f5e-0fab-42e7-92ed-fc4be9f139b8",
+        "port": "8f56b560-72a4-4549-a73d-ce3c6f19b36a"
+      }
+    },
+    {
+      "position": {
+        "x": 20,
+        "y": 20
+      },
+      "size": {
+        "width": 210,
+        "height": 110
+      },
+      "view": "react-shape-view",
+      "shape": "custom-react-shape",
+      "ports": {
+        "groups": {
+          "top": {
+            "position": "top",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "right": {
+            "position": "right",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "bottom": {
+            "position": "bottom",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "left": {
+            "position": "left",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          }
+        },
+        "items": [
+          {
+            "group": "top",
+            "id": "e1bc1b20-b60f-4b95-af54-80cdfc402cbe"
+          },
+          {
+            "group": "right",
+            "id": "8f56b560-72a4-4549-a73d-ce3c6f19b36a"
+          },
+          {
+            "group": "bottom",
+            "id": "d423629e-c026-4762-9ec4-3cd87ac91057"
+          },
+          {
+            "group": "left",
+            "id": "b0348592-06bb-44ad-85cb-263440824818"
+          }
+        ]
+      },
+      "id": "3dd88a0f-3574-4cc3-80d0-de87a4fc0bd8",
+      "data": {
+        "protoText": "100\u00b5l plasma was taken in a tube and 50% TCA/Acetone was added to it and incubated for overnight."
+      },
+      "type": "inputNode",
+      "zIndex": 1
+    },
+    {
+      "position": {
+        "x": 280,
+        "y": 20
+      },
+      "size": {
+        "width": 210,
+        "height": 110
+      },
+      "view": "react-shape-view",
+      "shape": "custom-react-shape",
+      "ports": {
+        "groups": {
+          "top": {
+            "position": "top",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "right": {
+            "position": "right",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "bottom": {
+            "position": "bottom",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "left": {
+            "position": "left",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          }
+        },
+        "items": [
+          {
+            "group": "top",
+            "id": "e1bc1b20-b60f-4b95-af54-80cdfc402cbe"
+          },
+          {
+            "group": "right",
+            "id": "8f56b560-72a4-4549-a73d-ce3c6f19b36a"
+          },
+          {
+            "group": "bottom",
+            "id": "d423629e-c026-4762-9ec4-3cd87ac91057"
+          },
+          {
+            "group": "left",
+            "id": "b0348592-06bb-44ad-85cb-263440824818"
+          }
+        ]
+      },
+      "id": "1efb7e4f-afab-4ff2-8f52-9958c56ed19d",
+      "data": {
+        "protoText": "Then the tube was centrifuged at 12000 RCF for 10 minutes and the supernatant was discarded"
+      },
+      "type": "inputNode",
+      "zIndex": 2
+    },
+    {
+      "position": {
+        "x": 554,
+        "y": 20
+      },
+      "size": {
+        "width": 190,
+        "height": 110
+      },
+      "view": "react-shape-view",
+      "shape": "custom-react-shape",
+      "ports": {
+        "groups": {
+          "top": {
+            "position": "top",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "right": {
+            "position": "right",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "bottom": {
+            "position": "bottom",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "left": {
+            "position": "left",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          }
+        },
+        "items": [
+          {
+            "group": "top",
+            "id": "e1bc1b20-b60f-4b95-af54-80cdfc402cbe"
+          },
+          {
+            "group": "right",
+            "id": "8f56b560-72a4-4549-a73d-ce3c6f19b36a"
+          },
+          {
+            "group": "bottom",
+            "id": "d423629e-c026-4762-9ec4-3cd87ac91057"
+          },
+          {
+            "group": "left",
+            "id": "b0348592-06bb-44ad-85cb-263440824818"
+          }
+        ]
+      },
+      "id": "bd3d0ee3-982b-4b0f-8cbc-360e4b20f040",
+      "data": {
+        "protoText": "Then the 1ml of chilled acetone was added and kept it for 10 minutes at -20\u00b0C"
+      },
+      "type": "inputNode",
+      "zIndex": 3
+    },
+    {
+      "position": {
+        "x": 534,
+        "y": 184
+      },
+      "size": {
+        "width": 210,
+        "height": 110
+      },
+      "view": "react-shape-view",
+      "shape": "custom-react-shape",
+      "ports": {
+        "groups": {
+          "top": {
+            "position": "top",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "right": {
+            "position": "right",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "bottom": {
+            "position": "bottom",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "left": {
+            "position": "left",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          }
+        },
+        "items": [
+          {
+            "group": "top",
+            "id": "e1bc1b20-b60f-4b95-af54-80cdfc402cbe"
+          },
+          {
+            "group": "right",
+            "id": "8f56b560-72a4-4549-a73d-ce3c6f19b36a"
+          },
+          {
+            "group": "bottom",
+            "id": "d423629e-c026-4762-9ec4-3cd87ac91057"
+          },
+          {
+            "group": "left",
+            "id": "b0348592-06bb-44ad-85cb-263440824818"
+          }
+        ]
+      },
+      "id": "974e95bf-e8bb-41ca-b58e-53bb62190e61",
+      "data": {
+        "protoText": "Then the tube was centrifuged at above same speed and the supernatant was discarded"
+      },
+      "type": "inputNode",
+      "zIndex": 4
+    },
+    {
+      "position": {
+        "x": 320,
+        "y": 193
+      },
+      "size": {
+        "width": 170,
+        "height": 92
+      },
+      "view": "react-shape-view",
+      "shape": "custom-react-shape",
+      "ports": {
+        "groups": {
+          "top": {
+            "position": "top",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "right": {
+            "position": "right",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "bottom": {
+            "position": "bottom",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "left": {
+            "position": "left",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          }
+        },
+        "items": [
+          {
+            "group": "top",
+            "id": "e1bc1b20-b60f-4b95-af54-80cdfc402cbe"
+          },
+          {
+            "group": "right",
+            "id": "8f56b560-72a4-4549-a73d-ce3c6f19b36a"
+          },
+          {
+            "group": "bottom",
+            "id": "d423629e-c026-4762-9ec4-3cd87ac91057"
+          },
+          {
+            "group": "left",
+            "id": "b0348592-06bb-44ad-85cb-263440824818"
+          }
+        ]
+      },
+      "id": "1f2a401d-b164-4bc9-aef3-71f936c331a1",
+      "data": {
+        "protoText": "Poly ethylene glycol -6000(48%) stock solution was prepared."
+      },
+      "type": "inputNode",
+      "zIndex": 5
+    },
+    {
+      "position": {
+        "x": 30,
+        "y": 184
+      },
+      "size": {
+        "width": 230,
+        "height": 110
+      },
+      "view": "react-shape-view",
+      "shape": "custom-react-shape",
+      "ports": {
+        "groups": {
+          "top": {
+            "position": "top",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "right": {
+            "position": "right",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "bottom": {
+            "position": "bottom",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "left": {
+            "position": "left",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          }
+        },
+        "items": [
+          {
+            "group": "top",
+            "id": "e1bc1b20-b60f-4b95-af54-80cdfc402cbe"
+          },
+          {
+            "group": "right",
+            "id": "8f56b560-72a4-4549-a73d-ce3c6f19b36a"
+          },
+          {
+            "group": "bottom",
+            "id": "d423629e-c026-4762-9ec4-3cd87ac91057"
+          },
+          {
+            "group": "left",
+            "id": "b0348592-06bb-44ad-85cb-263440824818"
+          }
+        ]
+      },
+      "id": "034957b3-d2aa-406d-8a2e-8f79e2c37151",
+      "data": {
+        "protoText": "Various concentrations of 4% to 32% PEG -6000 was added to the samples and kept it for 1 hour in ice."
+      },
+      "type": "inputNode",
+      "zIndex": 6
+    },
+    {
+      "position": {
+        "x": 50,
+        "y": 354
+      },
+      "size": {
+        "width": 210,
+        "height": 110
+      },
+      "view": "react-shape-view",
+      "shape": "custom-react-shape",
+      "ports": {
+        "groups": {
+          "top": {
+            "position": "top",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "right": {
+            "position": "right",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "bottom": {
+            "position": "bottom",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "left": {
+            "position": "left",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          }
+        },
+        "items": [
+          {
+            "group": "top",
+            "id": "e1bc1b20-b60f-4b95-af54-80cdfc402cbe"
+          },
+          {
+            "group": "right",
+            "id": "8f56b560-72a4-4549-a73d-ce3c6f19b36a"
+          },
+          {
+            "group": "bottom",
+            "id": "d423629e-c026-4762-9ec4-3cd87ac91057"
+          },
+          {
+            "group": "left",
+            "id": "b0348592-06bb-44ad-85cb-263440824818"
+          }
+        ]
+      },
+      "id": "b1e549c4-34a5-47da-8f1e-e9a36636277f",
+      "data": {
+        "protoText": "Then the tubes were centrifuged at 12000 RPM for 10 minutes and the supernatant were discarded"
+      },
+      "type": "inputNode",
+      "zIndex": 7
+    },
+    {
+      "position": {
+        "x": 320,
+        "y": 363
+      },
+      "size": {
+        "width": 190,
+        "height": 92
+      },
+      "view": "react-shape-view",
+      "shape": "custom-react-shape",
+      "ports": {
+        "groups": {
+          "top": {
+            "position": "top",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "right": {
+            "position": "right",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "bottom": {
+            "position": "bottom",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "left": {
+            "position": "left",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          }
+        },
+        "items": [
+          {
+            "group": "top",
+            "id": "e1bc1b20-b60f-4b95-af54-80cdfc402cbe"
+          },
+          {
+            "group": "right",
+            "id": "8f56b560-72a4-4549-a73d-ce3c6f19b36a"
+          },
+          {
+            "group": "bottom",
+            "id": "d423629e-c026-4762-9ec4-3cd87ac91057"
+          },
+          {
+            "group": "left",
+            "id": "b0348592-06bb-44ad-85cb-263440824818"
+          }
+        ]
+      },
+      "id": "487510cf-67cb-44ff-86e1-b0031c016b84",
+      "data": {
+        "protoText": "The pellets of each tube were washed with acetone twice at same speed"
+      },
+      "type": "inputNode",
+      "zIndex": 8
+    },
+    {
+      "position": {
+        "x": 564,
+        "y": 354
+      },
+      "size": {
+        "width": 190,
+        "height": 110
+      },
+      "view": "react-shape-view",
+      "shape": "custom-react-shape",
+      "ports": {
+        "groups": {
+          "top": {
+            "position": "top",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "right": {
+            "position": "right",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "bottom": {
+            "position": "bottom",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "left": {
+            "position": "left",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          }
+        },
+        "items": [
+          {
+            "group": "top",
+            "id": "e1bc1b20-b60f-4b95-af54-80cdfc402cbe"
+          },
+          {
+            "group": "right",
+            "id": "8f56b560-72a4-4549-a73d-ce3c6f19b36a"
+          },
+          {
+            "group": "bottom",
+            "id": "d423629e-c026-4762-9ec4-3cd87ac91057"
+          },
+          {
+            "group": "left",
+            "id": "b0348592-06bb-44ad-85cb-263440824818"
+          }
+        ]
+      },
+      "id": "148ab69e-6c96-43ae-ba3f-7c256483ed0a",
+      "data": {
+        "protoText": "Then air dried the pellet and 150\u00b5l rehydration buffer was added in each tube"
+      },
+      "type": "inputNode",
+      "zIndex": 9
+    },
+    {
+      "position": {
+        "x": 540,
+        "y": 500
+      },
+      "size": {
+        "width": 270,
+        "height": 128
+      },
+      "view": "react-shape-view",
+      "shape": "custom-react-shape",
+      "ports": {
+        "groups": {
+          "top": {
+            "position": "top",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "right": {
+            "position": "right",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "bottom": {
+            "position": "bottom",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "left": {
+            "position": "left",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          }
+        },
+        "items": [
+          {
+            "group": "top",
+            "id": "e1bc1b20-b60f-4b95-af54-80cdfc402cbe"
+          },
+          {
+            "group": "right",
+            "id": "8f56b560-72a4-4549-a73d-ce3c6f19b36a"
+          },
+          {
+            "group": "bottom",
+            "id": "d423629e-c026-4762-9ec4-3cd87ac91057"
+          },
+          {
+            "group": "left",
+            "id": "b0348592-06bb-44ad-85cb-263440824818"
+          }
+        ]
+      },
+      "id": "bc6e06e9-6451-4032-adf3-04705b330f60",
+      "data": {
+        "protoText": "Then 3K Amicon ultra -4 device was centrifuged at 4000g for 2hrs to remove the salt impurities in the samples and make to narrow volume up to 50\u00b5l."
+      },
+      "type": "inputNode",
+      "zIndex": 10
+    },
+    {
+      "position": {
+        "x": 300,
+        "y": 518
+      },
+      "size": {
+        "width": 170,
+        "height": 92
+      },
+      "view": "react-shape-view",
+      "shape": "custom-react-shape",
+      "ports": {
+        "groups": {
+          "top": {
+            "position": "top",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "right": {
+            "position": "right",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "bottom": {
+            "position": "bottom",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "left": {
+            "position": "left",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          }
+        },
+        "items": [
+          {
+            "group": "top",
+            "id": "e1bc1b20-b60f-4b95-af54-80cdfc402cbe"
+          },
+          {
+            "group": "right",
+            "id": "8f56b560-72a4-4549-a73d-ce3c6f19b36a"
+          },
+          {
+            "group": "bottom",
+            "id": "d423629e-c026-4762-9ec4-3cd87ac91057"
+          },
+          {
+            "group": "left",
+            "id": "b0348592-06bb-44ad-85cb-263440824818"
+          }
+        ]
+      },
+      "id": "06784f50-b962-400e-bd07-6b3637bfc40e",
+      "data": {
+        "protoText": "Then the samples were measured using the Bradford assay."
+      },
+      "type": "inputNode",
+      "zIndex": 11
+    },
+    {
+      "position": {
+        "x": 10,
+        "y": 500
+      },
+      "size": {
+        "width": 250,
+        "height": 128
+      },
+      "view": "react-shape-view",
+      "shape": "custom-react-shape",
+      "ports": {
+        "groups": {
+          "top": {
+            "position": "top",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "right": {
+            "position": "right",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "bottom": {
+            "position": "bottom",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "left": {
+            "position": "left",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          }
+        },
+        "items": [
+          {
+            "group": "top",
+            "id": "e1bc1b20-b60f-4b95-af54-80cdfc402cbe"
+          },
+          {
+            "group": "right",
+            "id": "8f56b560-72a4-4549-a73d-ce3c6f19b36a"
+          },
+          {
+            "group": "bottom",
+            "id": "d423629e-c026-4762-9ec4-3cd87ac91057"
+          },
+          {
+            "group": "left",
+            "id": "b0348592-06bb-44ad-85cb-263440824818"
+          }
+        ]
+      },
+      "id": "d2c41f5e-0fab-42e7-92ed-fc4be9f139b8",
+      "data": {
+        "protoText": "Then the protein sample was resolved in 10% SDS PAGE and 16% PEG -6000 was found to be better in plasma protein puri\u00a6cation"
+      },
+      "type": "inputNode",
+      "zIndex": 12
+    }
+  ]
+}

@@ -13,7 +13,7 @@ from typing import Union
 app = FastAPI()
 
 protocols_list_dir = "./data/protocols"
-graphs_dir = "./data/protocolGraphs"
+graphs_dir = "./data/protocolGraphs1008"
 
 
 @app.get("/")
@@ -176,7 +176,7 @@ async def upload_and_convert_json(
         graph_filename = get_graph_filename_by_protocol_fileneme(protocol_filename)
 
         # 将处理后的JSON数据保存为新的JSON文件
-        output_path = os.path.join("./data/protocolGraphs", graph_filename)
+        output_path = os.path.join(graphs_dir, graph_filename)
         with open(output_path, 'w') as outfile:
             json.dump(result, outfile, indent=2)
 
@@ -295,8 +295,8 @@ async def add_attr(
         print(f"成功添加 {attr_type} 到节点 {node_id}")
     except FileNotFoundError:
         print(f"文件 '{filename}' 未找到")
-    # except Exception as e:
-    #     print(f"发生错误: {e}")
+    except Exception as e:
+        print(f"发生错误: {e}")
     return {"attr_id": new_id}
 
 @app.post("/api/edge/")
@@ -321,9 +321,9 @@ async def add_edge(
         target_text = ""
         # search the text of source node
         for node in data["nodes"]:
-            if node["id"] == data['source']['cell']:
+            if node["id"] == source_node_id:
                 source_text = node["text"]
-            elif node["id"] == data['target']['cell']:
+            elif node["id"] == target_node_id:
                 target_text = node["text"]
         # 创建新的边缘
         new_edge = {
@@ -351,8 +351,8 @@ async def add_edge(
         print(f"成功添加边缘")
     except FileNotFoundError:
         print(f"文件 '{filename}' 未找到")
-    except Exception as e:
-        print(f"发生错误: {e}")
+    # except Exception as e:
+    #     print(f"发生错误: {e}")
 
     return {"edge_id": new_id}
 
@@ -389,8 +389,8 @@ async def delete_edge(
         print(f"成功删除边缘 {edge_id}")
     except FileNotFoundError:
         print(f"文件 '{filename}' 未找到")
-    except Exception as e:
-        print(f"发生错误: {e}")
+    # except Exception as e:
+    #     print(f"发生错误: {e}")
     return {"msg": "finished"}
 
 @app.put("/api/instruction/")

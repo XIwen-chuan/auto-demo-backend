@@ -1,0 +1,930 @@
+{
+  "cells": [
+    {
+      "shape": "edge",
+      "attrs": {
+        "line": {
+          "stroke": "#A2B1C3"
+        }
+      },
+      "id": "f24a5b5e-0cd9-4387-b1f6-311cf936057b",
+      "zIndex": 0,
+      "source": {
+        "cell": "7baeb84c-f047-4337-a1ee-c68da0e865ac",
+        "port": "bd6e30b6-20da-47e1-9c7e-55628b8e45ab"
+      },
+      "target": {
+        "cell": "3fdd9da8-d016-46cd-ab3e-eff4702e27cf",
+        "port": "ff071013-f2f1-4e93-acf3-9675a59c998e"
+      }
+    },
+    {
+      "shape": "edge",
+      "attrs": {
+        "line": {
+          "stroke": "#A2B1C3"
+        }
+      },
+      "id": "14675b23-4a1f-417e-b2da-b688bcc1cc66",
+      "zIndex": 0,
+      "source": {
+        "cell": "45afb0b7-688c-424e-9359-46b87c6014d1",
+        "port": "b15852e6-780f-4b46-b094-17f18ce5a3eb"
+      },
+      "target": {
+        "cell": "3fdd9da8-d016-46cd-ab3e-eff4702e27cf",
+        "port": "ff071013-f2f1-4e93-acf3-9675a59c998e"
+      }
+    },
+    {
+      "shape": "edge",
+      "attrs": {
+        "line": {
+          "stroke": "#A2B1C3"
+        }
+      },
+      "id": "722b25ed-90f0-476d-9571-ca1b6c571612",
+      "zIndex": 0,
+      "source": {
+        "cell": "d5b7b492-5b4e-40ca-83f5-4daea205e870",
+        "port": "466702a1-5c45-494f-aa34-909dee93e1b6"
+      },
+      "target": {
+        "cell": "45afb0b7-688c-424e-9359-46b87c6014d1",
+        "port": "ff071013-f2f1-4e93-acf3-9675a59c998e"
+      }
+    },
+    {
+      "shape": "edge",
+      "attrs": {
+        "line": {
+          "stroke": "#A2B1C3"
+        }
+      },
+      "id": "be04e258-354f-4326-8170-d092ed2156f8",
+      "zIndex": 0,
+      "source": {
+        "cell": "3fdd9da8-d016-46cd-ab3e-eff4702e27cf",
+        "port": "bd6e30b6-20da-47e1-9c7e-55628b8e45ab"
+      },
+      "target": {
+        "cell": "4c375598-0a32-4721-8dc4-30d7f5e36e1e",
+        "port": "ff071013-f2f1-4e93-acf3-9675a59c998e"
+      }
+    },
+    {
+      "shape": "edge",
+      "attrs": {
+        "line": {
+          "stroke": "#A2B1C3"
+        }
+      },
+      "id": "6ff7ba0f-1b12-438e-8e1f-395b6df32ddb",
+      "zIndex": 0,
+      "source": {
+        "cell": "4c375598-0a32-4721-8dc4-30d7f5e36e1e",
+        "port": "466702a1-5c45-494f-aa34-909dee93e1b6"
+      },
+      "target": {
+        "cell": "d70cbd5f-e5e6-4a97-b7b2-1b85d2ffbb60",
+        "port": "b15852e6-780f-4b46-b094-17f18ce5a3eb"
+      }
+    },
+    {
+      "shape": "edge",
+      "attrs": {
+        "line": {
+          "stroke": "#A2B1C3"
+        }
+      },
+      "id": "889e982d-61e0-4743-b314-a7e57a3f1de2",
+      "zIndex": 0,
+      "source": {
+        "cell": "1227994b-0299-4b3f-b45d-ad25a2505b06",
+        "port": "b15852e6-780f-4b46-b094-17f18ce5a3eb"
+      },
+      "target": {
+        "cell": "d70cbd5f-e5e6-4a97-b7b2-1b85d2ffbb60",
+        "port": "b15852e6-780f-4b46-b094-17f18ce5a3eb"
+      }
+    },
+    {
+      "shape": "edge",
+      "attrs": {
+        "line": {
+          "stroke": "#A2B1C3"
+        }
+      },
+      "id": "9cddee82-22dc-4054-8042-0c11fd715174",
+      "zIndex": 0,
+      "source": {
+        "cell": "d70cbd5f-e5e6-4a97-b7b2-1b85d2ffbb60",
+        "port": "bd6e30b6-20da-47e1-9c7e-55628b8e45ab"
+      },
+      "target": {
+        "cell": "c630c963-5de1-42b1-8964-08baa21a06cd",
+        "port": "ff071013-f2f1-4e93-acf3-9675a59c998e"
+      }
+    },
+    {
+      "position": {
+        "x": 20,
+        "y": 20
+      },
+      "size": {
+        "width": 145,
+        "height": 82
+      },
+      "view": "react-shape-view",
+      "shape": "custom-react-shape",
+      "ports": {
+        "groups": {
+          "top": {
+            "position": "top",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "right": {
+            "position": "right",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "bottom": {
+            "position": "bottom",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "left": {
+            "position": "left",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          }
+        },
+        "items": [
+          {
+            "group": "top",
+            "id": "ff071013-f2f1-4e93-acf3-9675a59c998e"
+          },
+          {
+            "group": "right",
+            "id": "466702a1-5c45-494f-aa34-909dee93e1b6"
+          },
+          {
+            "group": "bottom",
+            "id": "bd6e30b6-20da-47e1-9c7e-55628b8e45ab"
+          },
+          {
+            "group": "left",
+            "id": "b15852e6-780f-4b46-b094-17f18ce5a3eb"
+          }
+        ]
+      },
+      "id": "7baeb84c-f047-4337-a1ee-c68da0e865ac",
+      "data": {
+        "protoText": "Dissolve 3.0 mg of sodium polyacrylate (ASAP) in 1.0 mL of water."
+      },
+      "type": "textNode",
+      "zIndex": 1
+    },
+    {
+      "position": {
+        "x": 340,
+        "y": 216
+      },
+      "size": {
+        "width": 115,
+        "height": 82
+      },
+      "view": "react-shape-view",
+      "shape": "custom-react-shape",
+      "ports": {
+        "groups": {
+          "top": {
+            "position": "top",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "right": {
+            "position": "right",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "bottom": {
+            "position": "bottom",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "left": {
+            "position": "left",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          }
+        },
+        "items": [
+          {
+            "group": "top",
+            "id": "ff071013-f2f1-4e93-acf3-9675a59c998e"
+          },
+          {
+            "group": "right",
+            "id": "466702a1-5c45-494f-aa34-909dee93e1b6"
+          },
+          {
+            "group": "bottom",
+            "id": "bd6e30b6-20da-47e1-9c7e-55628b8e45ab"
+          },
+          {
+            "group": "left",
+            "id": "b15852e6-780f-4b46-b094-17f18ce5a3eb"
+          }
+        ]
+      },
+      "id": "1227994b-0299-4b3f-b45d-ad25a2505b06",
+      "data": {
+        "protoText": "Dissolve 7.5 mg of G3-binder in 0.25 mL of water."
+      },
+      "type": "textNode",
+      "zIndex": 2
+    },
+    {
+      "position": {
+        "x": 245,
+        "y": 20
+      },
+      "size": {
+        "width": 115,
+        "height": 82
+      },
+      "view": "react-shape-view",
+      "shape": "custom-react-shape",
+      "ports": {
+        "groups": {
+          "top": {
+            "position": "top",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "right": {
+            "position": "right",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "bottom": {
+            "position": "bottom",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "left": {
+            "position": "left",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          }
+        },
+        "items": [
+          {
+            "group": "top",
+            "id": "ff071013-f2f1-4e93-acf3-9675a59c998e"
+          },
+          {
+            "group": "right",
+            "id": "466702a1-5c45-494f-aa34-909dee93e1b6"
+          },
+          {
+            "group": "bottom",
+            "id": "bd6e30b6-20da-47e1-9c7e-55628b8e45ab"
+          },
+          {
+            "group": "left",
+            "id": "b15852e6-780f-4b46-b094-17f18ce5a3eb"
+          }
+        ]
+      },
+      "id": "d5b7b492-5b4e-40ca-83f5-4daea205e870",
+      "data": {
+        "protoText": "Suspend 100 mg of Clay-NS to 3.75 mL of water."
+      },
+      "type": "textNode",
+      "zIndex": 3
+    },
+    {
+      "position": {
+        "x": 275,
+        "y": 120
+      },
+      "size": {
+        "width": 145,
+        "height": 82
+      },
+      "view": "react-shape-view",
+      "shape": "custom-react-shape",
+      "ports": {
+        "groups": {
+          "top": {
+            "position": "top",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "right": {
+            "position": "right",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "bottom": {
+            "position": "bottom",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "left": {
+            "position": "left",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          }
+        },
+        "items": [
+          {
+            "group": "top",
+            "id": "ff071013-f2f1-4e93-acf3-9675a59c998e"
+          },
+          {
+            "group": "right",
+            "id": "466702a1-5c45-494f-aa34-909dee93e1b6"
+          },
+          {
+            "group": "bottom",
+            "id": "bd6e30b6-20da-47e1-9c7e-55628b8e45ab"
+          },
+          {
+            "group": "left",
+            "id": "b15852e6-780f-4b46-b094-17f18ce5a3eb"
+          }
+        ]
+      },
+      "id": "45afb0b7-688c-424e-9359-46b87c6014d1",
+      "data": {
+        "protoText": "Stir the suspension of Clay-NS at room temperature such as 20 oC."
+      },
+      "type": "textNode",
+      "zIndex": 4
+    },
+    {
+      "position": {
+        "x": 100,
+        "y": 180
+      },
+      "size": {
+        "width": 175,
+        "height": 118
+      },
+      "view": "react-shape-view",
+      "shape": "custom-react-shape",
+      "ports": {
+        "groups": {
+          "top": {
+            "position": "top",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "right": {
+            "position": "right",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "bottom": {
+            "position": "bottom",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "left": {
+            "position": "left",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          }
+        },
+        "items": [
+          {
+            "group": "top",
+            "id": "ff071013-f2f1-4e93-acf3-9675a59c998e"
+          },
+          {
+            "group": "right",
+            "id": "466702a1-5c45-494f-aa34-909dee93e1b6"
+          },
+          {
+            "group": "bottom",
+            "id": "bd6e30b6-20da-47e1-9c7e-55628b8e45ab"
+          },
+          {
+            "group": "left",
+            "id": "b15852e6-780f-4b46-b094-17f18ce5a3eb"
+          }
+        ]
+      },
+      "id": "3fdd9da8-d016-46cd-ab3e-eff4702e27cf",
+      "data": {
+        "protoText": "Add 1.0 mL of the aqueous solution of ASAP to the stirred suspension of Clay-NS at room temperature such as 20 oC."
+      },
+      "type": "textNode",
+      "zIndex": 5
+    },
+    {
+      "position": {
+        "x": 70,
+        "y": 320
+      },
+      "size": {
+        "width": 205,
+        "height": 118
+      },
+      "view": "react-shape-view",
+      "shape": "custom-react-shape",
+      "ports": {
+        "groups": {
+          "top": {
+            "position": "top",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "right": {
+            "position": "right",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "bottom": {
+            "position": "bottom",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "left": {
+            "position": "left",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          }
+        },
+        "items": [
+          {
+            "group": "top",
+            "id": "ff071013-f2f1-4e93-acf3-9675a59c998e"
+          },
+          {
+            "group": "right",
+            "id": "466702a1-5c45-494f-aa34-909dee93e1b6"
+          },
+          {
+            "group": "bottom",
+            "id": "bd6e30b6-20da-47e1-9c7e-55628b8e45ab"
+          },
+          {
+            "group": "left",
+            "id": "b15852e6-780f-4b46-b094-17f18ce5a3eb"
+          }
+        ]
+      },
+      "id": "4c375598-0a32-4721-8dc4-30d7f5e36e1e",
+      "data": {
+        "protoText": "Stir the ASAP-containing Clay-NS suspension for 10 minutes at room temperature such as 20 oC and confirm that it turns into a clear viscous solution."
+      },
+      "type": "textNode",
+      "zIndex": 6
+    },
+    {
+      "position": {
+        "x": 360,
+        "y": 329
+      },
+      "size": {
+        "width": 175,
+        "height": 100
+      },
+      "view": "react-shape-view",
+      "shape": "custom-react-shape",
+      "ports": {
+        "groups": {
+          "top": {
+            "position": "top",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "right": {
+            "position": "right",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "bottom": {
+            "position": "bottom",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "left": {
+            "position": "left",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          }
+        },
+        "items": [
+          {
+            "group": "top",
+            "id": "ff071013-f2f1-4e93-acf3-9675a59c998e"
+          },
+          {
+            "group": "right",
+            "id": "466702a1-5c45-494f-aa34-909dee93e1b6"
+          },
+          {
+            "group": "bottom",
+            "id": "bd6e30b6-20da-47e1-9c7e-55628b8e45ab"
+          },
+          {
+            "group": "left",
+            "id": "b15852e6-780f-4b46-b094-17f18ce5a3eb"
+          }
+        ]
+      },
+      "id": "d70cbd5f-e5e6-4a97-b7b2-1b85d2ffbb60",
+      "data": {
+        "protoText": "Dropwise add 0.25 mL of the aqueous solution of G3-binder to the vigorously stirred Clay-NS/ASAP solution."
+      },
+      "type": "textNode",
+      "zIndex": 7
+    },
+    {
+      "position": {
+        "x": 367.5,
+        "y": 460
+      },
+      "size": {
+        "width": 160,
+        "height": 100
+      },
+      "view": "react-shape-view",
+      "shape": "custom-react-shape",
+      "ports": {
+        "groups": {
+          "top": {
+            "position": "top",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "right": {
+            "position": "right",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "bottom": {
+            "position": "bottom",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "left": {
+            "position": "left",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          }
+        },
+        "items": [
+          {
+            "group": "top",
+            "id": "ff071013-f2f1-4e93-acf3-9675a59c998e"
+          },
+          {
+            "group": "right",
+            "id": "466702a1-5c45-494f-aa34-909dee93e1b6"
+          },
+          {
+            "group": "bottom",
+            "id": "bd6e30b6-20da-47e1-9c7e-55628b8e45ab"
+          },
+          {
+            "group": "left",
+            "id": "b15852e6-780f-4b46-b094-17f18ce5a3eb"
+          }
+        ]
+      },
+      "id": "c630c963-5de1-42b1-8964-08baa21a06cd",
+      "data": {
+        "protoText": "Let the resultant solution stand for 3 minutes and obtain a transparent, self-standing gel."
+      },
+      "type": "textNode",
+      "zIndex": 8
+    }
+  ]
+}

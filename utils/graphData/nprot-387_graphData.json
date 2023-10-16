@@ -1,0 +1,1520 @@
+{
+  "cells": [
+    {
+      "shape": "edge",
+      "attrs": {
+        "line": {
+          "stroke": "#A2B1C3"
+        }
+      },
+      "id": "b7310c6c-f526-40d1-8535-1265cef712ad",
+      "zIndex": 0,
+      "source": {
+        "cell": "7efd2759-d51a-4cda-aabd-d8b6af529f81",
+        "port": "62d7b759-040f-4eba-923c-c4796cee2c44"
+      },
+      "target": {
+        "cell": "bcf6eb7c-a281-4582-9c79-a4ec95c87f37",
+        "port": "97a7cc78-ea15-4afa-908b-ccbf5dee1ef4"
+      }
+    },
+    {
+      "shape": "edge",
+      "attrs": {
+        "line": {
+          "stroke": "#A2B1C3"
+        }
+      },
+      "id": "62bdea75-73dc-489b-b58f-2589ecc36b32",
+      "zIndex": 0,
+      "source": {
+        "cell": "bcf6eb7c-a281-4582-9c79-a4ec95c87f37",
+        "port": "62d7b759-040f-4eba-923c-c4796cee2c44"
+      },
+      "target": {
+        "cell": "f55d15a0-8d2f-405e-8f0a-543246ff0d1c",
+        "port": "97a7cc78-ea15-4afa-908b-ccbf5dee1ef4"
+      }
+    },
+    {
+      "shape": "edge",
+      "attrs": {
+        "line": {
+          "stroke": "#A2B1C3"
+        }
+      },
+      "id": "ad5f2ca9-f598-4020-83e9-46ed30649f1b",
+      "zIndex": 0,
+      "source": {
+        "cell": "f55d15a0-8d2f-405e-8f0a-543246ff0d1c",
+        "port": "62d7b759-040f-4eba-923c-c4796cee2c44"
+      },
+      "target": {
+        "cell": "ed9caad5-02a0-4ff5-adc1-0448c083e512",
+        "port": "97a7cc78-ea15-4afa-908b-ccbf5dee1ef4"
+      }
+    },
+    {
+      "shape": "edge",
+      "attrs": {
+        "line": {
+          "stroke": "#A2B1C3"
+        }
+      },
+      "id": "c6516c2f-6d71-4023-8286-edcc8a56ae83",
+      "zIndex": 0,
+      "source": {
+        "cell": "ed9caad5-02a0-4ff5-adc1-0448c083e512",
+        "port": "62d7b759-040f-4eba-923c-c4796cee2c44"
+      },
+      "target": {
+        "cell": "f8344cb9-a401-4689-99da-cda1efffec6c",
+        "port": "97a7cc78-ea15-4afa-908b-ccbf5dee1ef4"
+      }
+    },
+    {
+      "shape": "edge",
+      "attrs": {
+        "line": {
+          "stroke": "#A2B1C3"
+        }
+      },
+      "id": "118dd17b-bfbe-4651-861a-f90ae56d979b",
+      "zIndex": 0,
+      "source": {
+        "cell": "f8344cb9-a401-4689-99da-cda1efffec6c",
+        "port": "62d7b759-040f-4eba-923c-c4796cee2c44"
+      },
+      "target": {
+        "cell": "676e16ff-039a-489d-b29d-a0643c5fe6d2",
+        "port": "97a7cc78-ea15-4afa-908b-ccbf5dee1ef4"
+      }
+    },
+    {
+      "shape": "edge",
+      "attrs": {
+        "line": {
+          "stroke": "#A2B1C3"
+        }
+      },
+      "id": "08a4a31a-99ca-4b83-8697-5486188437e4",
+      "zIndex": 0,
+      "source": {
+        "cell": "676e16ff-039a-489d-b29d-a0643c5fe6d2",
+        "port": "62d7b759-040f-4eba-923c-c4796cee2c44"
+      },
+      "target": {
+        "cell": "6d3e3f02-a6ff-44f9-ae70-16e3b79a3978",
+        "port": "97a7cc78-ea15-4afa-908b-ccbf5dee1ef4"
+      }
+    },
+    {
+      "shape": "edge",
+      "attrs": {
+        "line": {
+          "stroke": "#A2B1C3"
+        }
+      },
+      "id": "aa086960-211b-4908-9793-88d4d668d6e5",
+      "zIndex": 0,
+      "source": {
+        "cell": "6d3e3f02-a6ff-44f9-ae70-16e3b79a3978",
+        "port": "62d7b759-040f-4eba-923c-c4796cee2c44"
+      },
+      "target": {
+        "cell": "d5c70e7e-df55-460a-bed9-ab9466d4823a",
+        "port": "62d7b759-040f-4eba-923c-c4796cee2c44"
+      }
+    },
+    {
+      "shape": "edge",
+      "attrs": {
+        "line": {
+          "stroke": "#A2B1C3"
+        }
+      },
+      "id": "2747ad0a-67d0-4280-a504-594c10a7e76c",
+      "zIndex": 0,
+      "source": {
+        "cell": "d5c70e7e-df55-460a-bed9-ab9466d4823a",
+        "port": "97a7cc78-ea15-4afa-908b-ccbf5dee1ef4"
+      },
+      "target": {
+        "cell": "e1141fac-4c2d-4345-9bde-fc0297eab16b",
+        "port": "62d7b759-040f-4eba-923c-c4796cee2c44"
+      }
+    },
+    {
+      "shape": "edge",
+      "attrs": {
+        "line": {
+          "stroke": "#A2B1C3"
+        }
+      },
+      "id": "dc1590a4-9456-4ca1-b5d4-7fa166338048",
+      "zIndex": 0,
+      "source": {
+        "cell": "e1141fac-4c2d-4345-9bde-fc0297eab16b",
+        "port": "97a7cc78-ea15-4afa-908b-ccbf5dee1ef4"
+      },
+      "target": {
+        "cell": "de5535c2-d213-4dc8-978d-43cae71f097b",
+        "port": "62d7b759-040f-4eba-923c-c4796cee2c44"
+      }
+    },
+    {
+      "shape": "edge",
+      "attrs": {
+        "line": {
+          "stroke": "#A2B1C3"
+        }
+      },
+      "id": "d04d51d9-7f16-4b62-9a20-f5f7be592993",
+      "zIndex": 0,
+      "source": {
+        "cell": "de5535c2-d213-4dc8-978d-43cae71f097b",
+        "port": "97a7cc78-ea15-4afa-908b-ccbf5dee1ef4"
+      },
+      "target": {
+        "cell": "7bdb92b8-26da-49c4-ad33-4645b304ee58",
+        "port": "62d7b759-040f-4eba-923c-c4796cee2c44"
+      }
+    },
+    {
+      "shape": "edge",
+      "attrs": {
+        "line": {
+          "stroke": "#A2B1C3"
+        }
+      },
+      "id": "b8e5bf99-702b-43c7-b2e8-7816e93b6e16",
+      "zIndex": 0,
+      "source": {
+        "cell": "7bdb92b8-26da-49c4-ad33-4645b304ee58",
+        "port": "97a7cc78-ea15-4afa-908b-ccbf5dee1ef4"
+      },
+      "target": {
+        "cell": "a7f09237-f983-475e-a0dd-ec520158ac73",
+        "port": "62d7b759-040f-4eba-923c-c4796cee2c44"
+      }
+    },
+    {
+      "shape": "edge",
+      "attrs": {
+        "line": {
+          "stroke": "#A2B1C3"
+        }
+      },
+      "id": "a785805b-77da-41a3-a9d1-7423ef638963",
+      "zIndex": 0,
+      "source": {
+        "cell": "a7f09237-f983-475e-a0dd-ec520158ac73",
+        "port": "97a7cc78-ea15-4afa-908b-ccbf5dee1ef4"
+      },
+      "target": {
+        "cell": "22761258-3ae3-4fa2-8f7b-5afa82b4c360",
+        "port": "62d7b759-040f-4eba-923c-c4796cee2c44"
+      }
+    },
+    {
+      "position": {
+        "x": 40,
+        "y": 80
+      },
+      "size": {
+        "width": 130,
+        "height": 82
+      },
+      "view": "react-shape-view",
+      "shape": "custom-react-shape",
+      "ports": {
+        "groups": {
+          "top": {
+            "position": "top",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "right": {
+            "position": "right",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "bottom": {
+            "position": "bottom",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "left": {
+            "position": "left",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          }
+        },
+        "items": [
+          {
+            "group": "top",
+            "id": "185fde26-b498-4a53-bf11-ca622f0d6bde"
+          },
+          {
+            "group": "right",
+            "id": "62d7b759-040f-4eba-923c-c4796cee2c44"
+          },
+          {
+            "group": "bottom",
+            "id": "edc9bd6d-2047-491a-bdeb-0dda00052dc8"
+          },
+          {
+            "group": "left",
+            "id": "97a7cc78-ea15-4afa-908b-ccbf5dee1ef4"
+          }
+        ]
+      },
+      "id": "7efd2759-d51a-4cda-aabd-d8b6af529f81",
+      "data": {
+        "protoText": "Dissect Drosophila larval brains in saline (0.7% NaCl)"
+      },
+      "type": "textNode",
+      "zIndex": 1
+    },
+    {
+      "position": {
+        "x": 230,
+        "y": 71
+      },
+      "size": {
+        "width": 160,
+        "height": 100
+      },
+      "view": "react-shape-view",
+      "shape": "custom-react-shape",
+      "ports": {
+        "groups": {
+          "top": {
+            "position": "top",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "right": {
+            "position": "right",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "bottom": {
+            "position": "bottom",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "left": {
+            "position": "left",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          }
+        },
+        "items": [
+          {
+            "group": "top",
+            "id": "185fde26-b498-4a53-bf11-ca622f0d6bde"
+          },
+          {
+            "group": "right",
+            "id": "62d7b759-040f-4eba-923c-c4796cee2c44"
+          },
+          {
+            "group": "bottom",
+            "id": "edc9bd6d-2047-491a-bdeb-0dda00052dc8"
+          },
+          {
+            "group": "left",
+            "id": "97a7cc78-ea15-4afa-908b-ccbf5dee1ef4"
+          }
+        ]
+      },
+      "id": "bcf6eb7c-a281-4582-9c79-a4ec95c87f37",
+      "data": {
+        "protoText": "Treat dissected brains for 10 min with a hypotonic solution of 0.5% sodium citrate"
+      },
+      "type": "textNode",
+      "zIndex": 2
+    },
+    {
+      "position": {
+        "x": 450,
+        "y": 71
+      },
+      "size": {
+        "width": 160,
+        "height": 100
+      },
+      "view": "react-shape-view",
+      "shape": "custom-react-shape",
+      "ports": {
+        "groups": {
+          "top": {
+            "position": "top",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "right": {
+            "position": "right",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "bottom": {
+            "position": "bottom",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "left": {
+            "position": "left",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          }
+        },
+        "items": [
+          {
+            "group": "top",
+            "id": "185fde26-b498-4a53-bf11-ca622f0d6bde"
+          },
+          {
+            "group": "right",
+            "id": "62d7b759-040f-4eba-923c-c4796cee2c44"
+          },
+          {
+            "group": "bottom",
+            "id": "edc9bd6d-2047-491a-bdeb-0dda00052dc8"
+          },
+          {
+            "group": "left",
+            "id": "97a7cc78-ea15-4afa-908b-ccbf5dee1ef4"
+          }
+        ]
+      },
+      "id": "f55d15a0-8d2f-405e-8f0a-543246ff0d1c",
+      "data": {
+        "protoText": "Fix for 5 min in a drop of fixing solution (1.8% Formaldehyde, 45% acetic acid) on a coverslip"
+      },
+      "type": "textNode",
+      "zIndex": 3
+    },
+    {
+      "position": {
+        "x": 660,
+        "y": 71
+      },
+      "size": {
+        "width": 160,
+        "height": 100
+      },
+      "view": "react-shape-view",
+      "shape": "custom-react-shape",
+      "ports": {
+        "groups": {
+          "top": {
+            "position": "top",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "right": {
+            "position": "right",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "bottom": {
+            "position": "bottom",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "left": {
+            "position": "left",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          }
+        },
+        "items": [
+          {
+            "group": "top",
+            "id": "185fde26-b498-4a53-bf11-ca622f0d6bde"
+          },
+          {
+            "group": "right",
+            "id": "62d7b759-040f-4eba-923c-c4796cee2c44"
+          },
+          {
+            "group": "bottom",
+            "id": "edc9bd6d-2047-491a-bdeb-0dda00052dc8"
+          },
+          {
+            "group": "left",
+            "id": "97a7cc78-ea15-4afa-908b-ccbf5dee1ef4"
+          }
+        ]
+      },
+      "id": "ed9caad5-02a0-4ff5-adc1-0448c083e512",
+      "data": {
+        "protoText": "Gently lean a clean slide over the coverslip and squash the brain in the same fixing solution"
+      },
+      "type": "textNode",
+      "zIndex": 4
+    },
+    {
+      "position": {
+        "x": 872,
+        "y": 89
+      },
+      "size": {
+        "width": 100,
+        "height": 64
+      },
+      "view": "react-shape-view",
+      "shape": "custom-react-shape",
+      "ports": {
+        "groups": {
+          "top": {
+            "position": "top",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "right": {
+            "position": "right",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "bottom": {
+            "position": "bottom",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "left": {
+            "position": "left",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          }
+        },
+        "items": [
+          {
+            "group": "top",
+            "id": "185fde26-b498-4a53-bf11-ca622f0d6bde"
+          },
+          {
+            "group": "right",
+            "id": "62d7b759-040f-4eba-923c-c4796cee2c44"
+          },
+          {
+            "group": "bottom",
+            "id": "edc9bd6d-2047-491a-bdeb-0dda00052dc8"
+          },
+          {
+            "group": "left",
+            "id": "97a7cc78-ea15-4afa-908b-ccbf5dee1ef4"
+          }
+        ]
+      },
+      "id": "f8344cb9-a401-4689-99da-cda1efffec6c",
+      "data": {
+        "protoText": "Freeze the slide in liquid nitrogen"
+      },
+      "type": "textNode",
+      "zIndex": 5
+    },
+    {
+      "position": {
+        "x": 1018,
+        "y": 71
+      },
+      "size": {
+        "width": 160,
+        "height": 100
+      },
+      "view": "react-shape-view",
+      "shape": "custom-react-shape",
+      "ports": {
+        "groups": {
+          "top": {
+            "position": "top",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "right": {
+            "position": "right",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "bottom": {
+            "position": "bottom",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "left": {
+            "position": "left",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          }
+        },
+        "items": [
+          {
+            "group": "top",
+            "id": "185fde26-b498-4a53-bf11-ca622f0d6bde"
+          },
+          {
+            "group": "right",
+            "id": "62d7b759-040f-4eba-923c-c4796cee2c44"
+          },
+          {
+            "group": "bottom",
+            "id": "edc9bd6d-2047-491a-bdeb-0dda00052dc8"
+          },
+          {
+            "group": "left",
+            "id": "97a7cc78-ea15-4afa-908b-ccbf5dee1ef4"
+          }
+        ]
+      },
+      "id": "676e16ff-039a-489d-b29d-a0643c5fe6d2",
+      "data": {
+        "protoText": "Remove the coverslip and immerse the slide in cold ethanol (-20\u00b0C) for 10 minutes"
+      },
+      "type": "textNode",
+      "zIndex": 6
+    },
+    {
+      "position": {
+        "x": 1233,
+        "y": 80
+      },
+      "size": {
+        "width": 130,
+        "height": 82
+      },
+      "view": "react-shape-view",
+      "shape": "custom-react-shape",
+      "ports": {
+        "groups": {
+          "top": {
+            "position": "top",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "right": {
+            "position": "right",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "bottom": {
+            "position": "bottom",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "left": {
+            "position": "left",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          }
+        },
+        "items": [
+          {
+            "group": "top",
+            "id": "185fde26-b498-4a53-bf11-ca622f0d6bde"
+          },
+          {
+            "group": "right",
+            "id": "62d7b759-040f-4eba-923c-c4796cee2c44"
+          },
+          {
+            "group": "bottom",
+            "id": "edc9bd6d-2047-491a-bdeb-0dda00052dc8"
+          },
+          {
+            "group": "left",
+            "id": "97a7cc78-ea15-4afa-908b-ccbf5dee1ef4"
+          }
+        ]
+      },
+      "id": "6d3e3f02-a6ff-44f9-ae70-16e3b79a3978",
+      "data": {
+        "protoText": "Wash the slide in PBS-T (PBS containing 0.1% TritonX)"
+      },
+      "type": "textNode",
+      "zIndex": 7
+    },
+    {
+      "position": {
+        "x": 1233,
+        "y": 306
+      },
+      "size": {
+        "width": 160,
+        "height": 100
+      },
+      "view": "react-shape-view",
+      "shape": "custom-react-shape",
+      "ports": {
+        "groups": {
+          "top": {
+            "position": "top",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "right": {
+            "position": "right",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "bottom": {
+            "position": "bottom",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "left": {
+            "position": "left",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          }
+        },
+        "items": [
+          {
+            "group": "top",
+            "id": "185fde26-b498-4a53-bf11-ca622f0d6bde"
+          },
+          {
+            "group": "right",
+            "id": "62d7b759-040f-4eba-923c-c4796cee2c44"
+          },
+          {
+            "group": "bottom",
+            "id": "edc9bd6d-2047-491a-bdeb-0dda00052dc8"
+          },
+          {
+            "group": "left",
+            "id": "97a7cc78-ea15-4afa-908b-ccbf5dee1ef4"
+          }
+        ]
+      },
+      "id": "d5c70e7e-df55-460a-bed9-ab9466d4823a",
+      "data": {
+        "protoText": "Incubate the slide overnight with appropriate primary antibody in a humid box at 4\u00b0C"
+      },
+      "type": "textNode",
+      "zIndex": 8
+    },
+    {
+      "position": {
+        "x": 1048,
+        "y": 315
+      },
+      "size": {
+        "width": 130,
+        "height": 82
+      },
+      "view": "react-shape-view",
+      "shape": "custom-react-shape",
+      "ports": {
+        "groups": {
+          "top": {
+            "position": "top",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "right": {
+            "position": "right",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "bottom": {
+            "position": "bottom",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "left": {
+            "position": "left",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          }
+        },
+        "items": [
+          {
+            "group": "top",
+            "id": "185fde26-b498-4a53-bf11-ca622f0d6bde"
+          },
+          {
+            "group": "right",
+            "id": "62d7b759-040f-4eba-923c-c4796cee2c44"
+          },
+          {
+            "group": "bottom",
+            "id": "edc9bd6d-2047-491a-bdeb-0dda00052dc8"
+          },
+          {
+            "group": "left",
+            "id": "97a7cc78-ea15-4afa-908b-ccbf5dee1ef4"
+          }
+        ]
+      },
+      "id": "e1141fac-4c2d-4345-9bde-fc0297eab16b",
+      "data": {
+        "protoText": "The next day, wash the slide twice in PBS-T for 10 minutes"
+      },
+      "type": "textNode",
+      "zIndex": 9
+    },
+    {
+      "position": {
+        "x": 842,
+        "y": 306
+      },
+      "size": {
+        "width": 160,
+        "height": 100
+      },
+      "view": "react-shape-view",
+      "shape": "custom-react-shape",
+      "ports": {
+        "groups": {
+          "top": {
+            "position": "top",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "right": {
+            "position": "right",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "bottom": {
+            "position": "bottom",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "left": {
+            "position": "left",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          }
+        },
+        "items": [
+          {
+            "group": "top",
+            "id": "185fde26-b498-4a53-bf11-ca622f0d6bde"
+          },
+          {
+            "group": "right",
+            "id": "62d7b759-040f-4eba-923c-c4796cee2c44"
+          },
+          {
+            "group": "bottom",
+            "id": "edc9bd6d-2047-491a-bdeb-0dda00052dc8"
+          },
+          {
+            "group": "left",
+            "id": "97a7cc78-ea15-4afa-908b-ccbf5dee1ef4"
+          }
+        ]
+      },
+      "id": "de5535c2-d213-4dc8-978d-43cae71f097b",
+      "data": {
+        "protoText": "Incubate the slide with the secondary antibody for 2 h at room temperature, in a humid box."
+      },
+      "type": "textNode",
+      "zIndex": 10
+    },
+    {
+      "position": {
+        "x": 660,
+        "y": 315
+      },
+      "size": {
+        "width": 130,
+        "height": 82
+      },
+      "view": "react-shape-view",
+      "shape": "custom-react-shape",
+      "ports": {
+        "groups": {
+          "top": {
+            "position": "top",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "right": {
+            "position": "right",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "bottom": {
+            "position": "bottom",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "left": {
+            "position": "left",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          }
+        },
+        "items": [
+          {
+            "group": "top",
+            "id": "185fde26-b498-4a53-bf11-ca622f0d6bde"
+          },
+          {
+            "group": "right",
+            "id": "62d7b759-040f-4eba-923c-c4796cee2c44"
+          },
+          {
+            "group": "bottom",
+            "id": "edc9bd6d-2047-491a-bdeb-0dda00052dc8"
+          },
+          {
+            "group": "left",
+            "id": "97a7cc78-ea15-4afa-908b-ccbf5dee1ef4"
+          }
+        ]
+      },
+      "id": "7bdb92b8-26da-49c4-ad33-4645b304ee58",
+      "data": {
+        "protoText": "Wash the slide twice in PBS-T for 10 minutes and let it air dry"
+      },
+      "type": "textNode",
+      "zIndex": 11
+    },
+    {
+      "position": {
+        "x": 415,
+        "y": 288
+      },
+      "size": {
+        "width": 205,
+        "height": 136
+      },
+      "view": "react-shape-view",
+      "shape": "custom-react-shape",
+      "ports": {
+        "groups": {
+          "top": {
+            "position": "top",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "right": {
+            "position": "right",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "bottom": {
+            "position": "bottom",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "left": {
+            "position": "left",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          }
+        },
+        "items": [
+          {
+            "group": "top",
+            "id": "185fde26-b498-4a53-bf11-ca622f0d6bde"
+          },
+          {
+            "group": "right",
+            "id": "62d7b759-040f-4eba-923c-c4796cee2c44"
+          },
+          {
+            "group": "bottom",
+            "id": "edc9bd6d-2047-491a-bdeb-0dda00052dc8"
+          },
+          {
+            "group": "left",
+            "id": "97a7cc78-ea15-4afa-908b-ccbf5dee1ef4"
+          }
+        ]
+      },
+      "id": "a7f09237-f983-475e-a0dd-ec520158ac73",
+      "data": {
+        "protoText": "Mount the slide in Vectashield medium H-1200 with DAPI (4,6 diamidino-2-phenylindole; Vector Laboratories, Burlingame, CA) to stain DNA and reduce fluorescence fading"
+      },
+      "type": "textNode",
+      "zIndex": 12
+    },
+    {
+      "position": {
+        "x": 203,
+        "y": 316
+      },
+      "size": {
+        "width": 160,
+        "height": 80
+      },
+      "view": "react-shape-view",
+      "shape": "custom-react-shape",
+      "ports": {
+        "groups": {
+          "top": {
+            "position": "top",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "right": {
+            "position": "right",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "bottom": {
+            "position": "bottom",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "left": {
+            "position": "left",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          }
+        },
+        "items": [
+          {
+            "group": "top",
+            "id": "185fde26-b498-4a53-bf11-ca622f0d6bde"
+          },
+          {
+            "group": "right",
+            "id": "62d7b759-040f-4eba-923c-c4796cee2c44"
+          },
+          {
+            "group": "bottom",
+            "id": "edc9bd6d-2047-491a-bdeb-0dda00052dc8"
+          },
+          {
+            "group": "left",
+            "id": "97a7cc78-ea15-4afa-908b-ccbf5dee1ef4"
+          }
+        ]
+      },
+      "id": "22761258-3ae3-4fa2-8f7b-5afa82b4c360",
+      "data": {
+        "protoText": "Analyze the immunostaining with a epifluorescence microscope"
+      },
+      "type": "textNode",
+      "zIndex": 13
+    }
+  ]
+}

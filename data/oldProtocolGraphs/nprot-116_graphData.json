@@ -1,0 +1,5432 @@
+{
+  "cells": [
+    {
+      "shape": "edge",
+      "attrs": {
+        "line": {
+          "stroke": "#A2B1C3"
+        }
+      },
+      "id": "56b48499-544b-4a50-b9f1-3864f5252387",
+      "zIndex": 0,
+      "source": {
+        "cell": "ae9c04e7-eb7a-4aff-96b7-41974184b845",
+        "port": "ed81c00b-d44e-48e7-b46a-9c41ca2b539c"
+      },
+      "target": {
+        "cell": "08ee2d40-1856-4b2a-aee1-9abd3b2437f6",
+        "port": "8320c441-36eb-4c64-93a8-23bb5c6c589d"
+      }
+    },
+    {
+      "shape": "edge",
+      "attrs": {
+        "line": {
+          "stroke": "#A2B1C3"
+        }
+      },
+      "id": "dd3b5f57-6ca7-4b44-9acf-a438d0caec39",
+      "zIndex": 0,
+      "source": {
+        "cell": "08ee2d40-1856-4b2a-aee1-9abd3b2437f6",
+        "port": "ed81c00b-d44e-48e7-b46a-9c41ca2b539c"
+      },
+      "target": {
+        "cell": "3d0f70f5-ae03-4ee6-8292-2b6a033a8fb2",
+        "port": "8320c441-36eb-4c64-93a8-23bb5c6c589d"
+      }
+    },
+    {
+      "shape": "edge",
+      "attrs": {
+        "line": {
+          "stroke": "#A2B1C3"
+        }
+      },
+      "id": "b0f70666-7768-4c3e-9bc0-20bc9830e428",
+      "zIndex": 0,
+      "source": {
+        "cell": "3d0f70f5-ae03-4ee6-8292-2b6a033a8fb2",
+        "port": "ed81c00b-d44e-48e7-b46a-9c41ca2b539c"
+      },
+      "target": {
+        "cell": "ada55c0b-e125-4a69-b72a-af0954f8739e",
+        "port": "8320c441-36eb-4c64-93a8-23bb5c6c589d"
+      }
+    },
+    {
+      "shape": "edge",
+      "attrs": {
+        "line": {
+          "stroke": "#A2B1C3"
+        }
+      },
+      "id": "22cb4288-263b-41e2-987b-a5d8c963577a",
+      "zIndex": 0,
+      "source": {
+        "cell": "ada55c0b-e125-4a69-b72a-af0954f8739e",
+        "port": "ed81c00b-d44e-48e7-b46a-9c41ca2b539c"
+      },
+      "target": {
+        "cell": "2a6b0161-8ff8-4eb3-9fe6-bc3fe0111585",
+        "port": "8320c441-36eb-4c64-93a8-23bb5c6c589d"
+      }
+    },
+    {
+      "shape": "edge",
+      "attrs": {
+        "line": {
+          "stroke": "#A2B1C3"
+        }
+      },
+      "id": "9871e20e-046e-43ef-8730-b0059fc8cbb0",
+      "zIndex": 0,
+      "source": {
+        "cell": "2a6b0161-8ff8-4eb3-9fe6-bc3fe0111585",
+        "port": "ed81c00b-d44e-48e7-b46a-9c41ca2b539c"
+      },
+      "target": {
+        "cell": "6429a987-f6ea-4b8e-b025-8e2530eb356f",
+        "port": "8320c441-36eb-4c64-93a8-23bb5c6c589d"
+      }
+    },
+    {
+      "shape": "edge",
+      "attrs": {
+        "line": {
+          "stroke": "#A2B1C3"
+        }
+      },
+      "id": "1c9e27b2-ad43-45e6-9893-b31fadf2344b",
+      "zIndex": 0,
+      "source": {
+        "cell": "6429a987-f6ea-4b8e-b025-8e2530eb356f",
+        "port": "ed81c00b-d44e-48e7-b46a-9c41ca2b539c"
+      },
+      "target": {
+        "cell": "33c5e7b9-257c-4d0e-9c0d-db0de2251ab2",
+        "port": "ed81c00b-d44e-48e7-b46a-9c41ca2b539c"
+      }
+    },
+    {
+      "shape": "edge",
+      "attrs": {
+        "line": {
+          "stroke": "#A2B1C3"
+        }
+      },
+      "id": "d62b74ef-9952-48f6-8a99-9ef8629fc987",
+      "zIndex": 0,
+      "source": {
+        "cell": "33c5e7b9-257c-4d0e-9c0d-db0de2251ab2",
+        "port": "8320c441-36eb-4c64-93a8-23bb5c6c589d"
+      },
+      "target": {
+        "cell": "b9eeda0e-eb88-464e-b70e-440c92e20f04",
+        "port": "ed81c00b-d44e-48e7-b46a-9c41ca2b539c"
+      }
+    },
+    {
+      "shape": "edge",
+      "attrs": {
+        "line": {
+          "stroke": "#A2B1C3"
+        }
+      },
+      "id": "4ad9955e-f9bb-4214-a63c-d413d2e48116",
+      "zIndex": 0,
+      "source": {
+        "cell": "b9eeda0e-eb88-464e-b70e-440c92e20f04",
+        "port": "8320c441-36eb-4c64-93a8-23bb5c6c589d"
+      },
+      "target": {
+        "cell": "d42c5c33-25af-4041-98c3-996a97f73b41",
+        "port": "ed81c00b-d44e-48e7-b46a-9c41ca2b539c"
+      }
+    },
+    {
+      "shape": "edge",
+      "attrs": {
+        "line": {
+          "stroke": "#A2B1C3"
+        }
+      },
+      "id": "095f8f24-f21b-4a5c-8954-f97266a7133d",
+      "zIndex": 0,
+      "source": {
+        "cell": "d42c5c33-25af-4041-98c3-996a97f73b41",
+        "port": "8320c441-36eb-4c64-93a8-23bb5c6c589d"
+      },
+      "target": {
+        "cell": "a6ac1959-a2eb-41ee-97e7-348ee1b08e9e",
+        "port": "ed81c00b-d44e-48e7-b46a-9c41ca2b539c"
+      }
+    },
+    {
+      "shape": "edge",
+      "attrs": {
+        "line": {
+          "stroke": "#A2B1C3"
+        }
+      },
+      "id": "1469a78a-1b3c-4b54-b65b-4afac66ec47f",
+      "zIndex": 0,
+      "source": {
+        "cell": "a6ac1959-a2eb-41ee-97e7-348ee1b08e9e",
+        "port": "8320c441-36eb-4c64-93a8-23bb5c6c589d"
+      },
+      "target": {
+        "cell": "15a7e022-7945-41e3-9f25-a0be1ad25393",
+        "port": "ed81c00b-d44e-48e7-b46a-9c41ca2b539c"
+      }
+    },
+    {
+      "shape": "edge",
+      "attrs": {
+        "line": {
+          "stroke": "#A2B1C3"
+        }
+      },
+      "id": "136f0f36-e6bc-492b-9da0-61f62d1c37ce",
+      "zIndex": 0,
+      "source": {
+        "cell": "15a7e022-7945-41e3-9f25-a0be1ad25393",
+        "port": "8320c441-36eb-4c64-93a8-23bb5c6c589d"
+      },
+      "target": {
+        "cell": "7047ac37-d48c-4633-91a0-7f4e5cae9eaa",
+        "port": "ed81c00b-d44e-48e7-b46a-9c41ca2b539c"
+      }
+    },
+    {
+      "shape": "edge",
+      "attrs": {
+        "line": {
+          "stroke": "#A2B1C3"
+        }
+      },
+      "id": "1b0cc82c-e740-45b3-8c05-5a2828bff6b3",
+      "zIndex": 0,
+      "source": {
+        "cell": "7047ac37-d48c-4633-91a0-7f4e5cae9eaa",
+        "port": "8320c441-36eb-4c64-93a8-23bb5c6c589d"
+      },
+      "target": {
+        "cell": "2e180819-b215-48a7-871e-d118627dad0f",
+        "port": "8320c441-36eb-4c64-93a8-23bb5c6c589d"
+      }
+    },
+    {
+      "shape": "edge",
+      "attrs": {
+        "line": {
+          "stroke": "#A2B1C3"
+        }
+      },
+      "id": "fd345007-f2a1-4f86-9d5f-112f5b35fe90",
+      "zIndex": 0,
+      "source": {
+        "cell": "2e180819-b215-48a7-871e-d118627dad0f",
+        "port": "ed81c00b-d44e-48e7-b46a-9c41ca2b539c"
+      },
+      "target": {
+        "cell": "b5da0de9-43fc-40a7-844f-16a98ef84fa0",
+        "port": "8320c441-36eb-4c64-93a8-23bb5c6c589d"
+      }
+    },
+    {
+      "shape": "edge",
+      "attrs": {
+        "line": {
+          "stroke": "#A2B1C3"
+        }
+      },
+      "id": "b90dc3ce-cb93-4f13-8da1-58847326a824",
+      "zIndex": 0,
+      "source": {
+        "cell": "b5da0de9-43fc-40a7-844f-16a98ef84fa0",
+        "port": "ed81c00b-d44e-48e7-b46a-9c41ca2b539c"
+      },
+      "target": {
+        "cell": "56580f0c-97bd-48ef-9bdb-698577b62c32",
+        "port": "8320c441-36eb-4c64-93a8-23bb5c6c589d"
+      }
+    },
+    {
+      "shape": "edge",
+      "attrs": {
+        "line": {
+          "stroke": "#A2B1C3"
+        }
+      },
+      "id": "53f5765c-cfe7-4295-96af-bd29405c983c",
+      "zIndex": 0,
+      "source": {
+        "cell": "56580f0c-97bd-48ef-9bdb-698577b62c32",
+        "port": "ed81c00b-d44e-48e7-b46a-9c41ca2b539c"
+      },
+      "target": {
+        "cell": "373d1562-ec14-4b98-b005-db2ae6cc4f7d",
+        "port": "8320c441-36eb-4c64-93a8-23bb5c6c589d"
+      }
+    },
+    {
+      "shape": "edge",
+      "attrs": {
+        "line": {
+          "stroke": "#A2B1C3"
+        }
+      },
+      "id": "dbc61afa-5212-4e6e-ae7d-d355d35b6f97",
+      "zIndex": 0,
+      "source": {
+        "cell": "373d1562-ec14-4b98-b005-db2ae6cc4f7d",
+        "port": "ed81c00b-d44e-48e7-b46a-9c41ca2b539c"
+      },
+      "target": {
+        "cell": "1f34b64d-f655-408e-b10f-660d7d7d74ec",
+        "port": "8320c441-36eb-4c64-93a8-23bb5c6c589d"
+      }
+    },
+    {
+      "shape": "edge",
+      "attrs": {
+        "line": {
+          "stroke": "#A2B1C3"
+        }
+      },
+      "id": "ab1cca22-0969-41d2-a819-eebd3856080e",
+      "zIndex": 0,
+      "source": {
+        "cell": "1f34b64d-f655-408e-b10f-660d7d7d74ec",
+        "port": "ed81c00b-d44e-48e7-b46a-9c41ca2b539c"
+      },
+      "target": {
+        "cell": "64aae460-5eaa-4c5d-8db1-1ad97f7b09c5",
+        "port": "8320c441-36eb-4c64-93a8-23bb5c6c589d"
+      }
+    },
+    {
+      "shape": "edge",
+      "attrs": {
+        "line": {
+          "stroke": "#A2B1C3"
+        }
+      },
+      "id": "cb6c5966-0b34-461b-a3ad-c5514e29599b",
+      "zIndex": 0,
+      "source": {
+        "cell": "64aae460-5eaa-4c5d-8db1-1ad97f7b09c5",
+        "port": "ed81c00b-d44e-48e7-b46a-9c41ca2b539c"
+      },
+      "target": {
+        "cell": "a536b976-786f-414e-8caf-75b8ee4936ad",
+        "port": "8320c441-36eb-4c64-93a8-23bb5c6c589d"
+      }
+    },
+    {
+      "shape": "edge",
+      "attrs": {
+        "line": {
+          "stroke": "#A2B1C3"
+        }
+      },
+      "id": "7ef59e4d-549f-458c-8854-597925a1f5ff",
+      "zIndex": 0,
+      "source": {
+        "cell": "a536b976-786f-414e-8caf-75b8ee4936ad",
+        "port": "ed81c00b-d44e-48e7-b46a-9c41ca2b539c"
+      },
+      "target": {
+        "cell": "6d871234-caf7-47a5-8271-3547a73b603c",
+        "port": "ed81c00b-d44e-48e7-b46a-9c41ca2b539c"
+      }
+    },
+    {
+      "shape": "edge",
+      "attrs": {
+        "line": {
+          "stroke": "#A2B1C3"
+        }
+      },
+      "id": "81f3cfbe-17d5-40c8-85a2-6333d6429bac",
+      "zIndex": 0,
+      "source": {
+        "cell": "59d8abde-5e8b-41c3-86f8-1549e391ac35",
+        "port": "43a9598c-c88f-47bc-86b6-c61f95292721"
+      },
+      "target": {
+        "cell": "6d871234-caf7-47a5-8271-3547a73b603c",
+        "port": "343b8378-8af7-4de9-96cc-c80a702cba47"
+      }
+    },
+    {
+      "shape": "edge",
+      "attrs": {
+        "line": {
+          "stroke": "#A2B1C3"
+        }
+      },
+      "id": "da9944b2-fc12-4ed1-b688-aa77c0d461de",
+      "zIndex": 0,
+      "source": {
+        "cell": "5a60e894-59b7-493d-9110-85fa188ef2b0",
+        "port": "43a9598c-c88f-47bc-86b6-c61f95292721"
+      },
+      "target": {
+        "cell": "6d871234-caf7-47a5-8271-3547a73b603c",
+        "port": "343b8378-8af7-4de9-96cc-c80a702cba47"
+      }
+    },
+    {
+      "shape": "edge",
+      "attrs": {
+        "line": {
+          "stroke": "#A2B1C3"
+        }
+      },
+      "id": "8000cea8-9d73-44f0-8cd9-1471c07693f4",
+      "zIndex": 0,
+      "source": {
+        "cell": "6d871234-caf7-47a5-8271-3547a73b603c",
+        "port": "8320c441-36eb-4c64-93a8-23bb5c6c589d"
+      },
+      "target": {
+        "cell": "e5f438ce-13a3-4ecf-a978-5480764c87ab",
+        "port": "ed81c00b-d44e-48e7-b46a-9c41ca2b539c"
+      }
+    },
+    {
+      "shape": "edge",
+      "attrs": {
+        "line": {
+          "stroke": "#A2B1C3"
+        }
+      },
+      "id": "dcc5f5fe-6069-4fb9-b2ac-e24c4775fef0",
+      "zIndex": 0,
+      "source": {
+        "cell": "e5f438ce-13a3-4ecf-a978-5480764c87ab",
+        "port": "8320c441-36eb-4c64-93a8-23bb5c6c589d"
+      },
+      "target": {
+        "cell": "2f13c97f-9091-454a-bf36-326a83f9a172",
+        "port": "ed81c00b-d44e-48e7-b46a-9c41ca2b539c"
+      }
+    },
+    {
+      "shape": "edge",
+      "attrs": {
+        "line": {
+          "stroke": "#A2B1C3"
+        }
+      },
+      "id": "bdfef13c-307f-4a29-8ebc-64f428c4b10b",
+      "zIndex": 0,
+      "source": {
+        "cell": "2f13c97f-9091-454a-bf36-326a83f9a172",
+        "port": "8320c441-36eb-4c64-93a8-23bb5c6c589d"
+      },
+      "target": {
+        "cell": "73d1c1e7-5b39-4159-9d66-9cee19d32afe",
+        "port": "ed81c00b-d44e-48e7-b46a-9c41ca2b539c"
+      }
+    },
+    {
+      "shape": "edge",
+      "attrs": {
+        "line": {
+          "stroke": "#A2B1C3"
+        }
+      },
+      "id": "a44b234a-283a-4949-8c2f-d6ba631bc6ed",
+      "zIndex": 0,
+      "source": {
+        "cell": "73d1c1e7-5b39-4159-9d66-9cee19d32afe",
+        "port": "8320c441-36eb-4c64-93a8-23bb5c6c589d"
+      },
+      "target": {
+        "cell": "1848e84c-9fa1-4e9c-b4fa-ad8d7fa71c12",
+        "port": "ed81c00b-d44e-48e7-b46a-9c41ca2b539c"
+      }
+    },
+    {
+      "shape": "edge",
+      "attrs": {
+        "line": {
+          "stroke": "#A2B1C3"
+        }
+      },
+      "id": "024efb5f-fd11-4e93-9e3e-b95fc280349c",
+      "zIndex": 0,
+      "source": {
+        "cell": "1848e84c-9fa1-4e9c-b4fa-ad8d7fa71c12",
+        "port": "8320c441-36eb-4c64-93a8-23bb5c6c589d"
+      },
+      "target": {
+        "cell": "79932f3b-663b-46e4-af09-0f38205c1c78",
+        "port": "ed81c00b-d44e-48e7-b46a-9c41ca2b539c"
+      }
+    },
+    {
+      "shape": "edge",
+      "attrs": {
+        "line": {
+          "stroke": "#A2B1C3"
+        }
+      },
+      "id": "08a0cae7-d4a6-45c4-88f5-f57d1c237d43",
+      "zIndex": 0,
+      "source": {
+        "cell": "79932f3b-663b-46e4-af09-0f38205c1c78",
+        "port": "8320c441-36eb-4c64-93a8-23bb5c6c589d"
+      },
+      "target": {
+        "cell": "f8044765-bce1-418a-9a28-e3e3d23971b4",
+        "port": "8320c441-36eb-4c64-93a8-23bb5c6c589d"
+      }
+    },
+    {
+      "shape": "edge",
+      "attrs": {
+        "line": {
+          "stroke": "#A2B1C3"
+        }
+      },
+      "id": "28594116-d6a7-4886-b68d-07d61ec8f93f",
+      "zIndex": 0,
+      "source": {
+        "cell": "f8044765-bce1-418a-9a28-e3e3d23971b4",
+        "port": "ed81c00b-d44e-48e7-b46a-9c41ca2b539c"
+      },
+      "target": {
+        "cell": "74e74aba-d5e8-49e8-8e61-dffaf85f3331",
+        "port": "8320c441-36eb-4c64-93a8-23bb5c6c589d"
+      }
+    },
+    {
+      "shape": "edge",
+      "attrs": {
+        "line": {
+          "stroke": "#A2B1C3"
+        }
+      },
+      "id": "bb7c5e3c-f1f5-42d2-85db-fb34fc07e727",
+      "zIndex": 0,
+      "source": {
+        "cell": "74e74aba-d5e8-49e8-8e61-dffaf85f3331",
+        "port": "ed81c00b-d44e-48e7-b46a-9c41ca2b539c"
+      },
+      "target": {
+        "cell": "40b74e05-89c6-4d24-a0c5-f6515b4ff2ed",
+        "port": "8320c441-36eb-4c64-93a8-23bb5c6c589d"
+      }
+    },
+    {
+      "shape": "edge",
+      "attrs": {
+        "line": {
+          "stroke": "#A2B1C3"
+        }
+      },
+      "id": "aad0683d-41aa-4bab-be0b-12ad54d47b6c",
+      "zIndex": 0,
+      "source": {
+        "cell": "40b74e05-89c6-4d24-a0c5-f6515b4ff2ed",
+        "port": "ed81c00b-d44e-48e7-b46a-9c41ca2b539c"
+      },
+      "target": {
+        "cell": "19b24d54-5dbd-4230-a424-dda170e1b702",
+        "port": "8320c441-36eb-4c64-93a8-23bb5c6c589d"
+      }
+    },
+    {
+      "shape": "edge",
+      "attrs": {
+        "line": {
+          "stroke": "#A2B1C3"
+        }
+      },
+      "id": "fd56b5cc-06d6-49b5-bf27-21d9c3835e5d",
+      "zIndex": 0,
+      "source": {
+        "cell": "19b24d54-5dbd-4230-a424-dda170e1b702",
+        "port": "ed81c00b-d44e-48e7-b46a-9c41ca2b539c"
+      },
+      "target": {
+        "cell": "ee8b0b9f-c8ee-45d9-9c28-726d5af789fb",
+        "port": "8320c441-36eb-4c64-93a8-23bb5c6c589d"
+      }
+    },
+    {
+      "shape": "edge",
+      "attrs": {
+        "line": {
+          "stroke": "#A2B1C3"
+        }
+      },
+      "id": "0fc5185a-ab9e-436c-84a4-1bf21075d7f0",
+      "zIndex": 0,
+      "source": {
+        "cell": "ee8b0b9f-c8ee-45d9-9c28-726d5af789fb",
+        "port": "ed81c00b-d44e-48e7-b46a-9c41ca2b539c"
+      },
+      "target": {
+        "cell": "24487397-8c19-4be1-b652-896b7ba7a53a",
+        "port": "8320c441-36eb-4c64-93a8-23bb5c6c589d"
+      }
+    },
+    {
+      "shape": "edge",
+      "attrs": {
+        "line": {
+          "stroke": "#A2B1C3"
+        }
+      },
+      "id": "f8a5f273-9cd5-4e32-bca2-033bf6a3c134",
+      "zIndex": 0,
+      "source": {
+        "cell": "24487397-8c19-4be1-b652-896b7ba7a53a",
+        "port": "ed81c00b-d44e-48e7-b46a-9c41ca2b539c"
+      },
+      "target": {
+        "cell": "df866dbe-e5ab-4ac7-a4f7-be0431372a57",
+        "port": "8320c441-36eb-4c64-93a8-23bb5c6c589d"
+      }
+    },
+    {
+      "shape": "edge",
+      "attrs": {
+        "line": {
+          "stroke": "#A2B1C3"
+        }
+      },
+      "id": "9c15197a-b680-424b-a894-f8077a7c095f",
+      "zIndex": 0,
+      "source": {
+        "cell": "df866dbe-e5ab-4ac7-a4f7-be0431372a57",
+        "port": "ed81c00b-d44e-48e7-b46a-9c41ca2b539c"
+      },
+      "target": {
+        "cell": "ca9efc46-7a44-4759-b695-60d40f3d2767",
+        "port": "8320c441-36eb-4c64-93a8-23bb5c6c589d"
+      }
+    },
+    {
+      "shape": "edge",
+      "attrs": {
+        "line": {
+          "stroke": "#A2B1C3"
+        }
+      },
+      "id": "8374b352-fa1b-4a55-9b83-e38190a9e89d",
+      "zIndex": 0,
+      "source": {
+        "cell": "ca9efc46-7a44-4759-b695-60d40f3d2767",
+        "port": "ed81c00b-d44e-48e7-b46a-9c41ca2b539c"
+      },
+      "target": {
+        "cell": "12933d17-0d8a-42ab-b83b-be1036f5d361",
+        "port": "ed81c00b-d44e-48e7-b46a-9c41ca2b539c"
+      }
+    },
+    {
+      "shape": "edge",
+      "attrs": {
+        "line": {
+          "stroke": "#A2B1C3"
+        }
+      },
+      "id": "638ade95-3427-46df-92e9-861d5063cdc4",
+      "zIndex": 0,
+      "source": {
+        "cell": "12933d17-0d8a-42ab-b83b-be1036f5d361",
+        "port": "8320c441-36eb-4c64-93a8-23bb5c6c589d"
+      },
+      "target": {
+        "cell": "ba8e201d-397f-4a6e-b2da-fa2a0890afe3",
+        "port": "ed81c00b-d44e-48e7-b46a-9c41ca2b539c"
+      }
+    },
+    {
+      "shape": "edge",
+      "attrs": {
+        "line": {
+          "stroke": "#A2B1C3"
+        }
+      },
+      "id": "c7b59731-424f-4990-8914-a248a32f947f",
+      "zIndex": 0,
+      "source": {
+        "cell": "ba8e201d-397f-4a6e-b2da-fa2a0890afe3",
+        "port": "8320c441-36eb-4c64-93a8-23bb5c6c589d"
+      },
+      "target": {
+        "cell": "cba16117-70c2-46b0-9181-873edcaad895",
+        "port": "ed81c00b-d44e-48e7-b46a-9c41ca2b539c"
+      }
+    },
+    {
+      "shape": "edge",
+      "attrs": {
+        "line": {
+          "stroke": "#A2B1C3"
+        }
+      },
+      "id": "c2153ccf-1c10-4857-8eb9-9a80ea850f92",
+      "zIndex": 0,
+      "source": {
+        "cell": "cba16117-70c2-46b0-9181-873edcaad895",
+        "port": "8320c441-36eb-4c64-93a8-23bb5c6c589d"
+      },
+      "target": {
+        "cell": "4a4fd5db-a5ef-4c70-9c47-65328e776dae",
+        "port": "ed81c00b-d44e-48e7-b46a-9c41ca2b539c"
+      }
+    },
+    {
+      "shape": "edge",
+      "attrs": {
+        "line": {
+          "stroke": "#A2B1C3"
+        }
+      },
+      "id": "01d152a2-3612-4d95-9ca2-9c7392f4373d",
+      "zIndex": 0,
+      "source": {
+        "cell": "4a4fd5db-a5ef-4c70-9c47-65328e776dae",
+        "port": "a4153d1b-1853-481d-a993-99700b7086f4"
+      },
+      "target": {
+        "cell": "cba16117-70c2-46b0-9181-873edcaad895",
+        "port": "a4153d1b-1853-481d-a993-99700b7086f4"
+      }
+    },
+    {
+      "shape": "edge",
+      "attrs": {
+        "line": {
+          "stroke": "#A2B1C3"
+        }
+      },
+      "id": "7918ea89-484b-4411-8cf5-6af6a01e8dea",
+      "zIndex": 0,
+      "source": {
+        "cell": "4a4fd5db-a5ef-4c70-9c47-65328e776dae",
+        "port": "8320c441-36eb-4c64-93a8-23bb5c6c589d"
+      },
+      "target": {
+        "cell": "c0819359-4e40-486c-b8a0-b61da4dc50c9",
+        "port": "ed81c00b-d44e-48e7-b46a-9c41ca2b539c"
+      }
+    },
+    {
+      "shape": "edge",
+      "attrs": {
+        "line": {
+          "stroke": "#A2B1C3"
+        }
+      },
+      "id": "7fd345c1-c8fb-46d2-aad1-9b01915ccb76",
+      "zIndex": 0,
+      "source": {
+        "cell": "c0819359-4e40-486c-b8a0-b61da4dc50c9",
+        "port": "8320c441-36eb-4c64-93a8-23bb5c6c589d"
+      },
+      "target": {
+        "cell": "f20303b8-ebce-4769-b49a-748ce6c6aa5c",
+        "port": "ed81c00b-d44e-48e7-b46a-9c41ca2b539c"
+      }
+    },
+    {
+      "shape": "edge",
+      "attrs": {
+        "line": {
+          "stroke": "#A2B1C3"
+        }
+      },
+      "id": "dc55a579-38aa-4921-9162-b003062ce2e3",
+      "zIndex": 0,
+      "source": {
+        "cell": "f20303b8-ebce-4769-b49a-748ce6c6aa5c",
+        "port": "8320c441-36eb-4c64-93a8-23bb5c6c589d"
+      },
+      "target": {
+        "cell": "37f3b750-fa73-4c63-8e00-61e3f9d68df5",
+        "port": "ed81c00b-d44e-48e7-b46a-9c41ca2b539c"
+      }
+    },
+    {
+      "shape": "edge",
+      "attrs": {
+        "line": {
+          "stroke": "#A2B1C3"
+        }
+      },
+      "id": "a60c4b62-6a91-4363-9569-7c9856301d05",
+      "zIndex": 0,
+      "source": {
+        "cell": "37f3b750-fa73-4c63-8e00-61e3f9d68df5",
+        "port": "8320c441-36eb-4c64-93a8-23bb5c6c589d"
+      },
+      "target": {
+        "cell": "01cb5a5a-19eb-4258-9adc-da2e9c88c5c3",
+        "port": "8320c441-36eb-4c64-93a8-23bb5c6c589d"
+      }
+    },
+    {
+      "shape": "edge",
+      "attrs": {
+        "line": {
+          "stroke": "#A2B1C3"
+        }
+      },
+      "id": "dc18eee4-e4e5-487b-9bce-038fc2dd794c",
+      "zIndex": 0,
+      "source": {
+        "cell": "01cb5a5a-19eb-4258-9adc-da2e9c88c5c3",
+        "port": "ed81c00b-d44e-48e7-b46a-9c41ca2b539c"
+      },
+      "target": {
+        "cell": "493e36d2-9898-4094-bf30-3604bcf72bb0",
+        "port": "8320c441-36eb-4c64-93a8-23bb5c6c589d"
+      }
+    },
+    {
+      "shape": "edge",
+      "attrs": {
+        "line": {
+          "stroke": "#A2B1C3"
+        }
+      },
+      "id": "508ee836-cb8c-4c40-a536-e893545a76c3",
+      "zIndex": 0,
+      "source": {
+        "cell": "493e36d2-9898-4094-bf30-3604bcf72bb0",
+        "port": "ed81c00b-d44e-48e7-b46a-9c41ca2b539c"
+      },
+      "target": {
+        "cell": "2117553e-0441-458e-bea2-c3018f2e3415",
+        "port": "8320c441-36eb-4c64-93a8-23bb5c6c589d"
+      }
+    },
+    {
+      "shape": "edge",
+      "attrs": {
+        "line": {
+          "stroke": "#A2B1C3"
+        }
+      },
+      "id": "ca62ea08-5f05-4d7a-b1d5-92d35981c684",
+      "zIndex": 0,
+      "source": {
+        "cell": "2117553e-0441-458e-bea2-c3018f2e3415",
+        "port": "ed81c00b-d44e-48e7-b46a-9c41ca2b539c"
+      },
+      "target": {
+        "cell": "23531a27-448c-4f0d-b9f5-89f67e26b683",
+        "port": "8320c441-36eb-4c64-93a8-23bb5c6c589d"
+      }
+    },
+    {
+      "position": {
+        "x": 80,
+        "y": 40
+      },
+      "size": {
+        "width": 220,
+        "height": 136
+      },
+      "view": "react-shape-view",
+      "shape": "custom-react-shape",
+      "ports": {
+        "groups": {
+          "top": {
+            "position": "top",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "right": {
+            "position": "right",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "bottom": {
+            "position": "bottom",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "left": {
+            "position": "left",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          }
+        },
+        "items": [
+          {
+            "group": "top",
+            "id": "a4153d1b-1853-481d-a993-99700b7086f4"
+          },
+          {
+            "group": "right",
+            "id": "ed81c00b-d44e-48e7-b46a-9c41ca2b539c"
+          },
+          {
+            "group": "bottom",
+            "id": "343b8378-8af7-4de9-96cc-c80a702cba47"
+          },
+          {
+            "group": "left",
+            "id": "8320c441-36eb-4c64-93a8-23bb5c6c589d"
+          }
+        ]
+      },
+      "id": "ae9c04e7-eb7a-4aff-96b7-41974184b845",
+      "data": {
+        "protoText": "Culture DT40 cell lines expressing GFP- or FLAG-tagged proteins and culture wild-type cells (control) in four 300-cm2 flasks containing 250 ml DT40 medium until cell density reaches 1 x 106/ml."
+      },
+      "type": "textNode",
+      "zIndex": 1
+    },
+    {
+      "position": {
+        "x": 354,
+        "y": 58
+      },
+      "size": {
+        "width": 175,
+        "height": 100
+      },
+      "view": "react-shape-view",
+      "shape": "custom-react-shape",
+      "ports": {
+        "groups": {
+          "top": {
+            "position": "top",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "right": {
+            "position": "right",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "bottom": {
+            "position": "bottom",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "left": {
+            "position": "left",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          }
+        },
+        "items": [
+          {
+            "group": "top",
+            "id": "a4153d1b-1853-481d-a993-99700b7086f4"
+          },
+          {
+            "group": "right",
+            "id": "ed81c00b-d44e-48e7-b46a-9c41ca2b539c"
+          },
+          {
+            "group": "bottom",
+            "id": "343b8378-8af7-4de9-96cc-c80a702cba47"
+          },
+          {
+            "group": "left",
+            "id": "8320c441-36eb-4c64-93a8-23bb5c6c589d"
+          }
+        ]
+      },
+      "id": "08ee2d40-1856-4b2a-aee1-9abd3b2437f6",
+      "data": {
+        "protoText": "Transfer the culture medium to two 500-ml centrifuge bottles and pellet cells at 200g for 10 min at 4 \u00b0C"
+      },
+      "type": "textNode",
+      "zIndex": 2
+    },
+    {
+      "position": {
+        "x": 580,
+        "y": 49
+      },
+      "size": {
+        "width": 190,
+        "height": 118
+      },
+      "view": "react-shape-view",
+      "shape": "custom-react-shape",
+      "ports": {
+        "groups": {
+          "top": {
+            "position": "top",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "right": {
+            "position": "right",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "bottom": {
+            "position": "bottom",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "left": {
+            "position": "left",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          }
+        },
+        "items": [
+          {
+            "group": "top",
+            "id": "a4153d1b-1853-481d-a993-99700b7086f4"
+          },
+          {
+            "group": "right",
+            "id": "ed81c00b-d44e-48e7-b46a-9c41ca2b539c"
+          },
+          {
+            "group": "bottom",
+            "id": "343b8378-8af7-4de9-96cc-c80a702cba47"
+          },
+          {
+            "group": "left",
+            "id": "8320c441-36eb-4c64-93a8-23bb5c6c589d"
+          }
+        ]
+      },
+      "id": "3d0f70f5-ae03-4ee6-8292-2b6a033a8fb2",
+      "data": {
+        "protoText": "Resuspend the cells in 50 ml PBS and centrifuge in a 50 ml conical tube at 200g for 10 min at 4 \u00b0C. Repeat this step twice"
+      },
+      "type": "textNode",
+      "zIndex": 3
+    },
+    {
+      "position": {
+        "x": 824,
+        "y": 76
+      },
+      "size": {
+        "width": 115,
+        "height": 64
+      },
+      "view": "react-shape-view",
+      "shape": "custom-react-shape",
+      "ports": {
+        "groups": {
+          "top": {
+            "position": "top",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "right": {
+            "position": "right",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "bottom": {
+            "position": "bottom",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "left": {
+            "position": "left",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          }
+        },
+        "items": [
+          {
+            "group": "top",
+            "id": "a4153d1b-1853-481d-a993-99700b7086f4"
+          },
+          {
+            "group": "right",
+            "id": "ed81c00b-d44e-48e7-b46a-9c41ca2b539c"
+          },
+          {
+            "group": "bottom",
+            "id": "343b8378-8af7-4de9-96cc-c80a702cba47"
+          },
+          {
+            "group": "left",
+            "id": "8320c441-36eb-4c64-93a8-23bb5c6c589d"
+          }
+        ]
+      },
+      "id": "ada55c0b-e125-4a69-b72a-af0954f8739e",
+      "data": {
+        "protoText": "Resuspend cell pellets to 5 ml in HDG150"
+      },
+      "type": "textNode",
+      "zIndex": 4
+    },
+    {
+      "position": {
+        "x": 978,
+        "y": 58
+      },
+      "size": {
+        "width": 145,
+        "height": 100
+      },
+      "view": "react-shape-view",
+      "shape": "custom-react-shape",
+      "ports": {
+        "groups": {
+          "top": {
+            "position": "top",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "right": {
+            "position": "right",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "bottom": {
+            "position": "bottom",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "left": {
+            "position": "left",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          }
+        },
+        "items": [
+          {
+            "group": "top",
+            "id": "a4153d1b-1853-481d-a993-99700b7086f4"
+          },
+          {
+            "group": "right",
+            "id": "ed81c00b-d44e-48e7-b46a-9c41ca2b539c"
+          },
+          {
+            "group": "bottom",
+            "id": "343b8378-8af7-4de9-96cc-c80a702cba47"
+          },
+          {
+            "group": "left",
+            "id": "8320c441-36eb-4c64-93a8-23bb5c6c589d"
+          }
+        ]
+      },
+      "id": "2a6b0161-8ff8-4eb3-9fe6-bc3fe0111585",
+      "data": {
+        "protoText": "Disrupt cells with 35 strokes in a Dounce homogenizer with a tight-fitting pestle"
+      },
+      "type": "textNode",
+      "zIndex": 5
+    },
+    {
+      "position": {
+        "x": 1170,
+        "y": 40
+      },
+      "size": {
+        "width": 220,
+        "height": 136
+      },
+      "view": "react-shape-view",
+      "shape": "custom-react-shape",
+      "ports": {
+        "groups": {
+          "top": {
+            "position": "top",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "right": {
+            "position": "right",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "bottom": {
+            "position": "bottom",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "left": {
+            "position": "left",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          }
+        },
+        "items": [
+          {
+            "group": "top",
+            "id": "a4153d1b-1853-481d-a993-99700b7086f4"
+          },
+          {
+            "group": "right",
+            "id": "ed81c00b-d44e-48e7-b46a-9c41ca2b539c"
+          },
+          {
+            "group": "bottom",
+            "id": "343b8378-8af7-4de9-96cc-c80a702cba47"
+          },
+          {
+            "group": "left",
+            "id": "8320c441-36eb-4c64-93a8-23bb5c6c589d"
+          }
+        ]
+      },
+      "id": "6429a987-f6ea-4b8e-b025-8e2530eb356f",
+      "data": {
+        "protoText": "Pellet nuclei in a 15-ml conical tube at 1700g for 10 min at 4 \u00b0C. Flash-freeze the supernatant (cytoplasmic fraction) in liquid nitrogen and store at -80 \u00b0C for future use"
+      },
+      "type": "textNode",
+      "zIndex": 6
+    },
+    {
+      "position": {
+        "x": 1220,
+        "y": 280
+      },
+      "size": {
+        "width": 145,
+        "height": 82
+      },
+      "view": "react-shape-view",
+      "shape": "custom-react-shape",
+      "ports": {
+        "groups": {
+          "top": {
+            "position": "top",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "right": {
+            "position": "right",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "bottom": {
+            "position": "bottom",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "left": {
+            "position": "left",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          }
+        },
+        "items": [
+          {
+            "group": "top",
+            "id": "a4153d1b-1853-481d-a993-99700b7086f4"
+          },
+          {
+            "group": "right",
+            "id": "ed81c00b-d44e-48e7-b46a-9c41ca2b539c"
+          },
+          {
+            "group": "bottom",
+            "id": "343b8378-8af7-4de9-96cc-c80a702cba47"
+          },
+          {
+            "group": "left",
+            "id": "8320c441-36eb-4c64-93a8-23bb5c6c589d"
+          }
+        ]
+      },
+      "id": "33c5e7b9-257c-4d0e-9c0d-db0de2251ab2",
+      "data": {
+        "protoText": "Wash nuclei with 5 ml of HDG150 and pellet at 1700g for 10 min at 4 \u00b0C"
+      },
+      "type": "textNode",
+      "zIndex": 7
+    },
+    {
+      "position": {
+        "x": 1025,
+        "y": 280
+      },
+      "size": {
+        "width": 145,
+        "height": 82
+      },
+      "view": "react-shape-view",
+      "shape": "custom-react-shape",
+      "ports": {
+        "groups": {
+          "top": {
+            "position": "top",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "right": {
+            "position": "right",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "bottom": {
+            "position": "bottom",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "left": {
+            "position": "left",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          }
+        },
+        "items": [
+          {
+            "group": "top",
+            "id": "a4153d1b-1853-481d-a993-99700b7086f4"
+          },
+          {
+            "group": "right",
+            "id": "ed81c00b-d44e-48e7-b46a-9c41ca2b539c"
+          },
+          {
+            "group": "bottom",
+            "id": "343b8378-8af7-4de9-96cc-c80a702cba47"
+          },
+          {
+            "group": "left",
+            "id": "8320c441-36eb-4c64-93a8-23bb5c6c589d"
+          }
+        ]
+      },
+      "id": "b9eeda0e-eb88-464e-b70e-440c92e20f04",
+      "data": {
+        "protoText": "Resuspend nuclei in 5 ml of HDG150 and immerse in an ice-water bath"
+      },
+      "type": "textNode",
+      "zIndex": 8
+    },
+    {
+      "position": {
+        "x": 743,
+        "y": 244
+      },
+      "size": {
+        "width": 235,
+        "height": 154
+      },
+      "view": "react-shape-view",
+      "shape": "custom-react-shape",
+      "ports": {
+        "groups": {
+          "top": {
+            "position": "top",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "right": {
+            "position": "right",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "bottom": {
+            "position": "bottom",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "left": {
+            "position": "left",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          }
+        },
+        "items": [
+          {
+            "group": "top",
+            "id": "a4153d1b-1853-481d-a993-99700b7086f4"
+          },
+          {
+            "group": "right",
+            "id": "ed81c00b-d44e-48e7-b46a-9c41ca2b539c"
+          },
+          {
+            "group": "bottom",
+            "id": "343b8378-8af7-4de9-96cc-c80a702cba47"
+          },
+          {
+            "group": "left",
+            "id": "8320c441-36eb-4c64-93a8-23bb5c6c589d"
+          }
+        ]
+      },
+      "id": "d42c5c33-25af-4041-98c3-996a97f73b41",
+      "data": {
+        "protoText": "Disrupt nuclei with the handy-sonifier fitted with a micro-tip. Sonicate for 10 sec at maximum power followed by waiting for 50 sec to chill samples. Repeat this step six times for a total of 1 min of sonication time."
+      },
+      "type": "textNode",
+      "zIndex": 9
+    },
+    {
+      "position": {
+        "x": 513,
+        "y": 262
+      },
+      "size": {
+        "width": 175,
+        "height": 118
+      },
+      "view": "react-shape-view",
+      "shape": "custom-react-shape",
+      "ports": {
+        "groups": {
+          "top": {
+            "position": "top",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "right": {
+            "position": "right",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "bottom": {
+            "position": "bottom",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "left": {
+            "position": "left",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          }
+        },
+        "items": [
+          {
+            "group": "top",
+            "id": "a4153d1b-1853-481d-a993-99700b7086f4"
+          },
+          {
+            "group": "right",
+            "id": "ed81c00b-d44e-48e7-b46a-9c41ca2b539c"
+          },
+          {
+            "group": "bottom",
+            "id": "343b8378-8af7-4de9-96cc-c80a702cba47"
+          },
+          {
+            "group": "left",
+            "id": "8320c441-36eb-4c64-93a8-23bb5c6c589d"
+          }
+        ]
+      },
+      "id": "a6ac1959-a2eb-41ee-97e7-348ee1b08e9e",
+      "data": {
+        "protoText": "Divide the disrupted nuclei solution into three 2-ml microcentrifuge tubes and centrifuge at 20000g for 10 min at 4 \u00b0C."
+      },
+      "type": "textNode",
+      "zIndex": 10
+    },
+    {
+      "position": {
+        "x": 260,
+        "y": 253
+      },
+      "size": {
+        "width": 205,
+        "height": 136
+      },
+      "view": "react-shape-view",
+      "shape": "custom-react-shape",
+      "ports": {
+        "groups": {
+          "top": {
+            "position": "top",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "right": {
+            "position": "right",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "bottom": {
+            "position": "bottom",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "left": {
+            "position": "left",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          }
+        },
+        "items": [
+          {
+            "group": "top",
+            "id": "a4153d1b-1853-481d-a993-99700b7086f4"
+          },
+          {
+            "group": "right",
+            "id": "ed81c00b-d44e-48e7-b46a-9c41ca2b539c"
+          },
+          {
+            "group": "bottom",
+            "id": "343b8378-8af7-4de9-96cc-c80a702cba47"
+          },
+          {
+            "group": "left",
+            "id": "8320c441-36eb-4c64-93a8-23bb5c6c589d"
+          }
+        ]
+      },
+      "id": "15a7e022-7945-41e3-9f25-a0be1ad25393",
+      "data": {
+        "protoText": "Combine supernatants (nuclear extract) in a 15-ml conical tube. Proceed to immunoprecipitation (Step 30) or flash-freeze in liquid nitrogen and store at -80 \u00b0C."
+      },
+      "type": "textNode",
+      "zIndex": 11
+    },
+    {
+      "position": {
+        "x": 80,
+        "y": 280
+      },
+      "size": {
+        "width": 145,
+        "height": 82
+      },
+      "view": "react-shape-view",
+      "shape": "custom-react-shape",
+      "ports": {
+        "groups": {
+          "top": {
+            "position": "top",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "right": {
+            "position": "right",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "bottom": {
+            "position": "bottom",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "left": {
+            "position": "left",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          }
+        },
+        "items": [
+          {
+            "group": "top",
+            "id": "a4153d1b-1853-481d-a993-99700b7086f4"
+          },
+          {
+            "group": "right",
+            "id": "ed81c00b-d44e-48e7-b46a-9c41ca2b539c"
+          },
+          {
+            "group": "bottom",
+            "id": "343b8378-8af7-4de9-96cc-c80a702cba47"
+          },
+          {
+            "group": "left",
+            "id": "8320c441-36eb-4c64-93a8-23bb5c6c589d"
+          }
+        ]
+      },
+      "id": "7047ac37-d48c-4633-91a0-7f4e5cae9eaa",
+      "data": {
+        "protoText": "Resuspend the pellets in each tube in 1.6 ml HDG150 by brief sonication"
+      },
+      "type": "textNode",
+      "zIndex": 12
+    },
+    {
+      "position": {
+        "x": 100,
+        "y": 520
+      },
+      "size": {
+        "width": 115,
+        "height": 64
+      },
+      "view": "react-shape-view",
+      "shape": "custom-react-shape",
+      "ports": {
+        "groups": {
+          "top": {
+            "position": "top",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "right": {
+            "position": "right",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "bottom": {
+            "position": "bottom",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "left": {
+            "position": "left",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          }
+        },
+        "items": [
+          {
+            "group": "top",
+            "id": "a4153d1b-1853-481d-a993-99700b7086f4"
+          },
+          {
+            "group": "right",
+            "id": "ed81c00b-d44e-48e7-b46a-9c41ca2b539c"
+          },
+          {
+            "group": "bottom",
+            "id": "343b8378-8af7-4de9-96cc-c80a702cba47"
+          },
+          {
+            "group": "left",
+            "id": "8320c441-36eb-4c64-93a8-23bb5c6c589d"
+          }
+        ]
+      },
+      "id": "2e180819-b215-48a7-871e-d118627dad0f",
+      "data": {
+        "protoText": "Centrifuge at 20000g for 10 min at 4 \u00b0C."
+      },
+      "type": "textNode",
+      "zIndex": 13
+    },
+    {
+      "position": {
+        "x": 267.5,
+        "y": 493
+      },
+      "size": {
+        "width": 190,
+        "height": 118
+      },
+      "view": "react-shape-view",
+      "shape": "custom-react-shape",
+      "ports": {
+        "groups": {
+          "top": {
+            "position": "top",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "right": {
+            "position": "right",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "bottom": {
+            "position": "bottom",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "left": {
+            "position": "left",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          }
+        },
+        "items": [
+          {
+            "group": "top",
+            "id": "a4153d1b-1853-481d-a993-99700b7086f4"
+          },
+          {
+            "group": "right",
+            "id": "ed81c00b-d44e-48e7-b46a-9c41ca2b539c"
+          },
+          {
+            "group": "bottom",
+            "id": "343b8378-8af7-4de9-96cc-c80a702cba47"
+          },
+          {
+            "group": "left",
+            "id": "8320c441-36eb-4c64-93a8-23bb5c6c589d"
+          }
+        ]
+      },
+      "id": "b5da0de9-43fc-40a7-844f-16a98ef84fa0",
+      "data": {
+        "protoText": "Resuspend the pellets in each tube in 1.6 ml of HDG150 by brief sonication and combine in a 15-ml conical tube (chromatin fraction)"
+      },
+      "type": "textNode",
+      "zIndex": 14
+    },
+    {
+      "position": {
+        "x": 498,
+        "y": 512
+      },
+      "size": {
+        "width": 140,
+        "height": 80
+      },
+      "view": "react-shape-view",
+      "shape": "custom-react-shape",
+      "ports": {
+        "groups": {
+          "top": {
+            "position": "top",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "right": {
+            "position": "right",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "bottom": {
+            "position": "bottom",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "left": {
+            "position": "left",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          }
+        },
+        "items": [
+          {
+            "group": "top",
+            "id": "a4153d1b-1853-481d-a993-99700b7086f4"
+          },
+          {
+            "group": "right",
+            "id": "ed81c00b-d44e-48e7-b46a-9c41ca2b539c"
+          },
+          {
+            "group": "bottom",
+            "id": "343b8378-8af7-4de9-96cc-c80a702cba47"
+          },
+          {
+            "group": "left",
+            "id": "8320c441-36eb-4c64-93a8-23bb5c6c589d"
+          }
+        ]
+      },
+      "id": "56580f0c-97bd-48ef-9bdb-698577b62c32",
+      "data": {
+        "protoText": "Add 15 \u00b5l 1 M CaCl2 to the chromatin fraction and mix well"
+      },
+      "type": "textNode",
+      "zIndex": 15
+    },
+    {
+      "position": {
+        "x": 688,
+        "y": 520
+      },
+      "size": {
+        "width": 100,
+        "height": 64
+      },
+      "view": "react-shape-view",
+      "shape": "custom-react-shape",
+      "ports": {
+        "groups": {
+          "top": {
+            "position": "top",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "right": {
+            "position": "right",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "bottom": {
+            "position": "bottom",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "left": {
+            "position": "left",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          }
+        },
+        "items": [
+          {
+            "group": "top",
+            "id": "a4153d1b-1853-481d-a993-99700b7086f4"
+          },
+          {
+            "group": "right",
+            "id": "ed81c00b-d44e-48e7-b46a-9c41ca2b539c"
+          },
+          {
+            "group": "bottom",
+            "id": "343b8378-8af7-4de9-96cc-c80a702cba47"
+          },
+          {
+            "group": "left",
+            "id": "8320c441-36eb-4c64-93a8-23bb5c6c589d"
+          }
+        ]
+      },
+      "id": "373d1562-ec14-4b98-b005-db2ae6cc4f7d",
+      "data": {
+        "protoText": "Add 200\u00b5l micrococcal nuclease."
+      },
+      "type": "textNode",
+      "zIndex": 16
+    },
+    {
+      "position": {
+        "x": 824,
+        "y": 511
+      },
+      "size": {
+        "width": 115,
+        "height": 82
+      },
+      "view": "react-shape-view",
+      "shape": "custom-react-shape",
+      "ports": {
+        "groups": {
+          "top": {
+            "position": "top",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "right": {
+            "position": "right",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "bottom": {
+            "position": "bottom",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "left": {
+            "position": "left",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          }
+        },
+        "items": [
+          {
+            "group": "top",
+            "id": "a4153d1b-1853-481d-a993-99700b7086f4"
+          },
+          {
+            "group": "right",
+            "id": "ed81c00b-d44e-48e7-b46a-9c41ca2b539c"
+          },
+          {
+            "group": "bottom",
+            "id": "343b8378-8af7-4de9-96cc-c80a702cba47"
+          },
+          {
+            "group": "left",
+            "id": "8320c441-36eb-4c64-93a8-23bb5c6c589d"
+          }
+        ]
+      },
+      "id": "1f34b64d-f655-408e-b10f-660d7d7d74ec",
+      "data": {
+        "protoText": "Rotate at 20 rpm for 60 min in a cold room (4 \u00b0C)"
+      },
+      "type": "textNode",
+      "zIndex": 17
+    },
+    {
+      "position": {
+        "x": 980.5,
+        "y": 512
+      },
+      "size": {
+        "width": 140,
+        "height": 80
+      },
+      "view": "react-shape-view",
+      "shape": "custom-react-shape",
+      "ports": {
+        "groups": {
+          "top": {
+            "position": "top",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "right": {
+            "position": "right",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "bottom": {
+            "position": "bottom",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "left": {
+            "position": "left",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          }
+        },
+        "items": [
+          {
+            "group": "top",
+            "id": "a4153d1b-1853-481d-a993-99700b7086f4"
+          },
+          {
+            "group": "right",
+            "id": "ed81c00b-d44e-48e7-b46a-9c41ca2b539c"
+          },
+          {
+            "group": "bottom",
+            "id": "343b8378-8af7-4de9-96cc-c80a702cba47"
+          },
+          {
+            "group": "left",
+            "id": "8320c441-36eb-4c64-93a8-23bb5c6c589d"
+          }
+        ]
+      },
+      "id": "64aae460-5eaa-4c5d-8db1-1ad97f7b09c5",
+      "data": {
+        "protoText": "Add 125 \u00b5l 0.2 M EGTA to inactivate micrococcal nuclease"
+      },
+      "type": "textNode",
+      "zIndex": 18
+    },
+    {
+      "position": {
+        "x": 1170,
+        "y": 457
+      },
+      "size": {
+        "width": 310,
+        "height": 190
+      },
+      "view": "react-shape-view",
+      "shape": "custom-react-shape",
+      "ports": {
+        "groups": {
+          "top": {
+            "position": "top",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "right": {
+            "position": "right",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "bottom": {
+            "position": "bottom",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "left": {
+            "position": "left",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          }
+        },
+        "items": [
+          {
+            "group": "top",
+            "id": "a4153d1b-1853-481d-a993-99700b7086f4"
+          },
+          {
+            "group": "right",
+            "id": "ed81c00b-d44e-48e7-b46a-9c41ca2b539c"
+          },
+          {
+            "group": "bottom",
+            "id": "343b8378-8af7-4de9-96cc-c80a702cba47"
+          },
+          {
+            "group": "left",
+            "id": "8320c441-36eb-4c64-93a8-23bb5c6c589d"
+          }
+        ]
+      },
+      "id": "a536b976-786f-414e-8caf-75b8ee4936ad",
+      "data": {
+        "protoText": "Check DNA fragment sizes by 2% agarose gel electrophoresis. Purify the DNA from 50 \u00b5l of the digested chromatin fraction by phenol-chloroform extraction followed by ethanol precipitation. Resuspend the pellet in 30 \u00b5l TE and load 5 \u00b5l in each lane. A DNA ladder corresponding to mono- to tri-nucleosomes can be seen by ethidium bromide staining under UV irradiation "
+      },
+      "type": "textNode",
+      "zIndex": 19
+    },
+    {
+      "position": {
+        "x": 1270,
+        "y": 760
+      },
+      "size": {
+        "width": 160,
+        "height": 60
+      },
+      "view": "react-shape-view",
+      "shape": "custom-react-shape",
+      "ports": {
+        "groups": {
+          "top": {
+            "position": "top",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "right": {
+            "position": "right",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "bottom": {
+            "position": "bottom",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "left": {
+            "position": "left",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          }
+        },
+        "items": [
+          {
+            "group": "top",
+            "id": "a4153d1b-1853-481d-a993-99700b7086f4"
+          },
+          {
+            "group": "right",
+            "id": "ed81c00b-d44e-48e7-b46a-9c41ca2b539c"
+          },
+          {
+            "group": "bottom",
+            "id": "343b8378-8af7-4de9-96cc-c80a702cba47"
+          },
+          {
+            "group": "left",
+            "id": "8320c441-36eb-4c64-93a8-23bb5c6c589d"
+          }
+        ]
+      },
+      "id": "6d871234-caf7-47a5-8271-3547a73b603c",
+      "data": {
+        "protoText": "This step can be performed with option A or option B"
+      },
+      "type": "textNode",
+      "zIndex": 20
+    },
+    {
+      "position": {
+        "x": 1390,
+        "y": 880
+      },
+      "size": {
+        "width": 200,
+        "height": 120
+      },
+      "view": "react-shape-view",
+      "shape": "custom-react-shape",
+      "ports": {
+        "groups": {
+          "top": {
+            "position": "top",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "right": {
+            "position": "right",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "bottom": {
+            "position": "bottom",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "left": {
+            "position": "left",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          }
+        },
+        "items": [
+          {
+            "group": "top",
+            "id": "43a9598c-c88f-47bc-86b6-c61f95292721"
+          },
+          {
+            "group": "right",
+            "id": "581b1af6-90a3-4cfc-b23a-4fc4b2a718de"
+          },
+          {
+            "group": "bottom",
+            "id": "35180d82-6ce2-47a7-953d-d1eeb1f4002f"
+          },
+          {
+            "group": "left",
+            "id": "38e9b877-8ab9-4d50-8664-5d0255f8b04b"
+          }
+        ]
+      },
+      "id": "5a60e894-59b7-493d-9110-85fa188ef2b0",
+      "data": {
+        "protoText": "OptionB: Add 250 \u00b5l 3 M KCl to 5 ml of digested chromatin prepared in step 18. Rotate at 20rpm for 60min in a cold room (4\u00b0C)."
+      },
+      "type": "inputNode",
+      "zIndex": 21
+    },
+    {
+      "position": {
+        "x": 1123,
+        "y": 880
+      },
+      "size": {
+        "width": 220,
+        "height": 120
+      },
+      "view": "react-shape-view",
+      "shape": "custom-react-shape",
+      "ports": {
+        "groups": {
+          "top": {
+            "position": "top",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "right": {
+            "position": "right",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "bottom": {
+            "position": "bottom",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "left": {
+            "position": "left",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          }
+        },
+        "items": [
+          {
+            "group": "top",
+            "id": "43a9598c-c88f-47bc-86b6-c61f95292721"
+          },
+          {
+            "group": "right",
+            "id": "581b1af6-90a3-4cfc-b23a-4fc4b2a718de"
+          },
+          {
+            "group": "bottom",
+            "id": "35180d82-6ce2-47a7-953d-d1eeb1f4002f"
+          },
+          {
+            "group": "left",
+            "id": "38e9b877-8ab9-4d50-8664-5d0255f8b04b"
+          }
+        ]
+      },
+      "id": "59d8abde-5e8b-41c3-86f8-1549e391ac35",
+      "data": {
+        "protoText": "Option A: Mix 5 ml of the digested chromatin prepared in step 18 with 40 ml HDGN340 in a 50-ml conical tube. Rotate at 20 rpm for 60 min in a cold room (4\u00b0C). "
+      },
+      "type": "inputNode",
+      "zIndex": 22
+    },
+    {
+      "position": {
+        "x": 978,
+        "y": 722
+      },
+      "size": {
+        "width": 220,
+        "height": 136
+      },
+      "view": "react-shape-view",
+      "shape": "custom-react-shape",
+      "ports": {
+        "groups": {
+          "top": {
+            "position": "top",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "right": {
+            "position": "right",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "bottom": {
+            "position": "bottom",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "left": {
+            "position": "left",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          }
+        },
+        "items": [
+          {
+            "group": "top",
+            "id": "a4153d1b-1853-481d-a993-99700b7086f4"
+          },
+          {
+            "group": "right",
+            "id": "ed81c00b-d44e-48e7-b46a-9c41ca2b539c"
+          },
+          {
+            "group": "bottom",
+            "id": "343b8378-8af7-4de9-96cc-c80a702cba47"
+          },
+          {
+            "group": "left",
+            "id": "8320c441-36eb-4c64-93a8-23bb5c6c589d"
+          }
+        ]
+      },
+      "id": "e5f438ce-13a3-4ecf-a978-5480764c87ab",
+      "data": {
+        "protoText": "For both option A and option B precipitate insoluble materials by spinning at 8000g for 10 min at 4 \u00b0C. Transfer supernatant to a 50-ml conical tube (option A) or a 15-ml conical tube (option B)"
+      },
+      "type": "textNode",
+      "zIndex": 23
+    },
+    {
+      "position": {
+        "x": 689,
+        "y": 713
+      },
+      "size": {
+        "width": 250,
+        "height": 154
+      },
+      "view": "react-shape-view",
+      "shape": "custom-react-shape",
+      "ports": {
+        "groups": {
+          "top": {
+            "position": "top",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "right": {
+            "position": "right",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "bottom": {
+            "position": "bottom",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "left": {
+            "position": "left",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          }
+        },
+        "items": [
+          {
+            "group": "top",
+            "id": "a4153d1b-1853-481d-a993-99700b7086f4"
+          },
+          {
+            "group": "right",
+            "id": "ed81c00b-d44e-48e7-b46a-9c41ca2b539c"
+          },
+          {
+            "group": "bottom",
+            "id": "343b8378-8af7-4de9-96cc-c80a702cba47"
+          },
+          {
+            "group": "left",
+            "id": "8320c441-36eb-4c64-93a8-23bb5c6c589d"
+          }
+        ]
+      },
+      "id": "2f13c97f-9091-454a-bf36-326a83f9a172",
+      "data": {
+        "protoText": "Wash a 200 \u00b5l bed volume of protein A Sepharose beads three times with 600 \u00b5l PBS. The amount of beads for each reaction is 50 \u00b5l. Thus, the amounts of the reagents used in this section should be scaled proportionally to the sample number."
+      },
+      "type": "textNode",
+      "zIndex": 24
+    },
+    {
+      "position": {
+        "x": 465,
+        "y": 740
+      },
+      "size": {
+        "width": 160,
+        "height": 100
+      },
+      "view": "react-shape-view",
+      "shape": "custom-react-shape",
+      "ports": {
+        "groups": {
+          "top": {
+            "position": "top",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "right": {
+            "position": "right",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "bottom": {
+            "position": "bottom",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "left": {
+            "position": "left",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          }
+        },
+        "items": [
+          {
+            "group": "top",
+            "id": "a4153d1b-1853-481d-a993-99700b7086f4"
+          },
+          {
+            "group": "right",
+            "id": "ed81c00b-d44e-48e7-b46a-9c41ca2b539c"
+          },
+          {
+            "group": "bottom",
+            "id": "343b8378-8af7-4de9-96cc-c80a702cba47"
+          },
+          {
+            "group": "left",
+            "id": "8320c441-36eb-4c64-93a8-23bb5c6c589d"
+          }
+        ]
+      },
+      "id": "73d1c1e7-5b39-4159-9d66-9cee19d32afe",
+      "data": {
+        "protoText": "Incubate 30 \u00b5l anti-GFP antibody with the beads in 500 \u00b5l PBS for 15-30 min at room temperature"
+      },
+      "type": "textNode",
+      "zIndex": 25
+    },
+    {
+      "position": {
+        "x": 300,
+        "y": 760
+      },
+      "size": {
+        "width": 120,
+        "height": 60
+      },
+      "view": "react-shape-view",
+      "shape": "custom-react-shape",
+      "ports": {
+        "groups": {
+          "top": {
+            "position": "top",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "right": {
+            "position": "right",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "bottom": {
+            "position": "bottom",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "left": {
+            "position": "left",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          }
+        },
+        "items": [
+          {
+            "group": "top",
+            "id": "a4153d1b-1853-481d-a993-99700b7086f4"
+          },
+          {
+            "group": "right",
+            "id": "ed81c00b-d44e-48e7-b46a-9c41ca2b539c"
+          },
+          {
+            "group": "bottom",
+            "id": "343b8378-8af7-4de9-96cc-c80a702cba47"
+          },
+          {
+            "group": "left",
+            "id": "8320c441-36eb-4c64-93a8-23bb5c6c589d"
+          }
+        ]
+      },
+      "id": "1848e84c-9fa1-4e9c-b4fa-ad8d7fa71c12",
+      "data": {
+        "protoText": "Wash the beads five times with 500 \u00b5l PBS"
+      },
+      "type": "textNode",
+      "zIndex": 26
+    },
+    {
+      "position": {
+        "x": 80,
+        "y": 731
+      },
+      "size": {
+        "width": 175,
+        "height": 118
+      },
+      "view": "react-shape-view",
+      "shape": "custom-react-shape",
+      "ports": {
+        "groups": {
+          "top": {
+            "position": "top",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "right": {
+            "position": "right",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "bottom": {
+            "position": "bottom",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "left": {
+            "position": "left",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          }
+        },
+        "items": [
+          {
+            "group": "top",
+            "id": "a4153d1b-1853-481d-a993-99700b7086f4"
+          },
+          {
+            "group": "right",
+            "id": "ed81c00b-d44e-48e7-b46a-9c41ca2b539c"
+          },
+          {
+            "group": "bottom",
+            "id": "343b8378-8af7-4de9-96cc-c80a702cba47"
+          },
+          {
+            "group": "left",
+            "id": "8320c441-36eb-4c64-93a8-23bb5c6c589d"
+          }
+        ]
+      },
+      "id": "79932f3b-663b-46e4-af09-0f38205c1c78",
+      "data": {
+        "protoText": "Resuspend the beads in 400 \u00b5l PBS and add 25 \u00b5l freshly prepared DSS. Rotate for 30-45 min at room temperature."
+      },
+      "type": "textNode",
+      "zIndex": 27
+    },
+    {
+      "position": {
+        "x": 80,
+        "y": 1098
+      },
+      "size": {
+        "width": 130,
+        "height": 82
+      },
+      "view": "react-shape-view",
+      "shape": "custom-react-shape",
+      "ports": {
+        "groups": {
+          "top": {
+            "position": "top",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "right": {
+            "position": "right",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "bottom": {
+            "position": "bottom",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "left": {
+            "position": "left",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          }
+        },
+        "items": [
+          {
+            "group": "top",
+            "id": "a4153d1b-1853-481d-a993-99700b7086f4"
+          },
+          {
+            "group": "right",
+            "id": "ed81c00b-d44e-48e7-b46a-9c41ca2b539c"
+          },
+          {
+            "group": "bottom",
+            "id": "343b8378-8af7-4de9-96cc-c80a702cba47"
+          },
+          {
+            "group": "left",
+            "id": "8320c441-36eb-4c64-93a8-23bb5c6c589d"
+          }
+        ]
+      },
+      "id": "f8044765-bce1-418a-9a28-e3e3d23971b4",
+      "data": {
+        "protoText": "Wash the beads five times with 600 \u00b5l of 0.1 M glycine (pH 2.5)"
+      },
+      "type": "textNode",
+      "zIndex": 28
+    },
+    {
+      "position": {
+        "x": 260,
+        "y": 1099
+      },
+      "size": {
+        "width": 100,
+        "height": 80
+      },
+      "view": "react-shape-view",
+      "shape": "custom-react-shape",
+      "ports": {
+        "groups": {
+          "top": {
+            "position": "top",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "right": {
+            "position": "right",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "bottom": {
+            "position": "bottom",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "left": {
+            "position": "left",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          }
+        },
+        "items": [
+          {
+            "group": "top",
+            "id": "a4153d1b-1853-481d-a993-99700b7086f4"
+          },
+          {
+            "group": "right",
+            "id": "ed81c00b-d44e-48e7-b46a-9c41ca2b539c"
+          },
+          {
+            "group": "bottom",
+            "id": "343b8378-8af7-4de9-96cc-c80a702cba47"
+          },
+          {
+            "group": "left",
+            "id": "8320c441-36eb-4c64-93a8-23bb5c6c589d"
+          }
+        ]
+      },
+      "id": "74e74aba-d5e8-49e8-8e61-dffaf85f3331",
+      "data": {
+        "protoText": "Wash the beads twice with 600 \u00b5l PBS"
+      },
+      "type": "textNode",
+      "zIndex": 29
+    },
+    {
+      "position": {
+        "x": 409,
+        "y": 1109
+      },
+      "size": {
+        "width": 120,
+        "height": 60
+      },
+      "view": "react-shape-view",
+      "shape": "custom-react-shape",
+      "ports": {
+        "groups": {
+          "top": {
+            "position": "top",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "right": {
+            "position": "right",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "bottom": {
+            "position": "bottom",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "left": {
+            "position": "left",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          }
+        },
+        "items": [
+          {
+            "group": "top",
+            "id": "a4153d1b-1853-481d-a993-99700b7086f4"
+          },
+          {
+            "group": "right",
+            "id": "ed81c00b-d44e-48e7-b46a-9c41ca2b539c"
+          },
+          {
+            "group": "bottom",
+            "id": "343b8378-8af7-4de9-96cc-c80a702cba47"
+          },
+          {
+            "group": "left",
+            "id": "8320c441-36eb-4c64-93a8-23bb5c6c589d"
+          }
+        ]
+      },
+      "id": "40b74e05-89c6-4d24-a0c5-f6515b4ff2ed",
+      "data": {
+        "protoText": "Wash the beads twice with 600 \u00b5l HDG150"
+      },
+      "type": "textNode",
+      "zIndex": 30
+    },
+    {
+      "position": {
+        "x": 568,
+        "y": 1109
+      },
+      "size": {
+        "width": 120,
+        "height": 60
+      },
+      "view": "react-shape-view",
+      "shape": "custom-react-shape",
+      "ports": {
+        "groups": {
+          "top": {
+            "position": "top",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "right": {
+            "position": "right",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "bottom": {
+            "position": "bottom",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "left": {
+            "position": "left",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          }
+        },
+        "items": [
+          {
+            "group": "top",
+            "id": "a4153d1b-1853-481d-a993-99700b7086f4"
+          },
+          {
+            "group": "right",
+            "id": "ed81c00b-d44e-48e7-b46a-9c41ca2b539c"
+          },
+          {
+            "group": "bottom",
+            "id": "343b8378-8af7-4de9-96cc-c80a702cba47"
+          },
+          {
+            "group": "left",
+            "id": "8320c441-36eb-4c64-93a8-23bb5c6c589d"
+          }
+        ]
+      },
+      "id": "19b24d54-5dbd-4230-a424-dda170e1b702",
+      "data": {
+        "protoText": "Resuspend the beads in 200 \u00b5l HDG150"
+      },
+      "type": "textNode",
+      "zIndex": 31
+    },
+    {
+      "position": {
+        "x": 735.5,
+        "y": 1062
+      },
+      "size": {
+        "width": 250,
+        "height": 154
+      },
+      "view": "react-shape-view",
+      "shape": "custom-react-shape",
+      "ports": {
+        "groups": {
+          "top": {
+            "position": "top",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "right": {
+            "position": "right",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "bottom": {
+            "position": "bottom",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "left": {
+            "position": "left",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          }
+        },
+        "items": [
+          {
+            "group": "top",
+            "id": "a4153d1b-1853-481d-a993-99700b7086f4"
+          },
+          {
+            "group": "right",
+            "id": "ed81c00b-d44e-48e7-b46a-9c41ca2b539c"
+          },
+          {
+            "group": "bottom",
+            "id": "343b8378-8af7-4de9-96cc-c80a702cba47"
+          },
+          {
+            "group": "left",
+            "id": "8320c441-36eb-4c64-93a8-23bb5c6c589d"
+          }
+        ]
+      },
+      "id": "ee8b0b9f-c8ee-45d9-9c28-726d5af789fb",
+      "data": {
+        "protoText": "Add 50 \u00b5l bed volume of either anti-GFP antibody-coupled beads or anti-FLAG M2 affinity beads to 5 ml of solubilized chromatin or 5 ml of nuclear extract prepared at step 21 or 11, respectively. Rotate at 20 rpm for 3-4 h in a cold room (4 \u00b0C)"
+      },
+      "type": "textNode",
+      "zIndex": 32
+    },
+    {
+      "position": {
+        "x": 1040,
+        "y": 1098
+      },
+      "size": {
+        "width": 130,
+        "height": 82
+      },
+      "view": "react-shape-view",
+      "shape": "custom-react-shape",
+      "ports": {
+        "groups": {
+          "top": {
+            "position": "top",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "right": {
+            "position": "right",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "bottom": {
+            "position": "bottom",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "left": {
+            "position": "left",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          }
+        },
+        "items": [
+          {
+            "group": "top",
+            "id": "a4153d1b-1853-481d-a993-99700b7086f4"
+          },
+          {
+            "group": "right",
+            "id": "ed81c00b-d44e-48e7-b46a-9c41ca2b539c"
+          },
+          {
+            "group": "bottom",
+            "id": "343b8378-8af7-4de9-96cc-c80a702cba47"
+          },
+          {
+            "group": "left",
+            "id": "8320c441-36eb-4c64-93a8-23bb5c6c589d"
+          }
+        ]
+      },
+      "id": "24487397-8c19-4be1-b652-896b7ba7a53a",
+      "data": {
+        "protoText": "Pellet antibody-coupled beads at 200g for 30 sec at 4 \u00b0C"
+      },
+      "type": "textNode",
+      "zIndex": 33
+    },
+    {
+      "position": {
+        "x": 1222.5,
+        "y": 1098
+      },
+      "size": {
+        "width": 115,
+        "height": 82
+      },
+      "view": "react-shape-view",
+      "shape": "custom-react-shape",
+      "ports": {
+        "groups": {
+          "top": {
+            "position": "top",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "right": {
+            "position": "right",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "bottom": {
+            "position": "bottom",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "left": {
+            "position": "left",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          }
+        },
+        "items": [
+          {
+            "group": "top",
+            "id": "a4153d1b-1853-481d-a993-99700b7086f4"
+          },
+          {
+            "group": "right",
+            "id": "ed81c00b-d44e-48e7-b46a-9c41ca2b539c"
+          },
+          {
+            "group": "bottom",
+            "id": "343b8378-8af7-4de9-96cc-c80a702cba47"
+          },
+          {
+            "group": "left",
+            "id": "8320c441-36eb-4c64-93a8-23bb5c6c589d"
+          }
+        ]
+      },
+      "id": "df866dbe-e5ab-4ac7-a4f7-be0431372a57",
+      "data": {
+        "protoText": "Transfer beads to a 1.5-ml microcentrifuge tube"
+      },
+      "type": "textNode",
+      "zIndex": 34
+    },
+    {
+      "position": {
+        "x": 1390,
+        "y": 1071
+      },
+      "size": {
+        "width": 220,
+        "height": 136
+      },
+      "view": "react-shape-view",
+      "shape": "custom-react-shape",
+      "ports": {
+        "groups": {
+          "top": {
+            "position": "top",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "right": {
+            "position": "right",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "bottom": {
+            "position": "bottom",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "left": {
+            "position": "left",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          }
+        },
+        "items": [
+          {
+            "group": "top",
+            "id": "a4153d1b-1853-481d-a993-99700b7086f4"
+          },
+          {
+            "group": "right",
+            "id": "ed81c00b-d44e-48e7-b46a-9c41ca2b539c"
+          },
+          {
+            "group": "bottom",
+            "id": "343b8378-8af7-4de9-96cc-c80a702cba47"
+          },
+          {
+            "group": "left",
+            "id": "8320c441-36eb-4c64-93a8-23bb5c6c589d"
+          }
+        ]
+      },
+      "id": "ca9efc46-7a44-4759-b695-60d40f3d2767",
+      "data": {
+        "protoText": "Add 1 ml HDGN320 (for chromatin) or HDGN150 (for nuclear extract) to beads. Mix well by inverting tubes. Centrifuge at 200g for 10 sec at 4 \u00b0C. Discard supernatants. Repeat this step five times"
+      },
+      "type": "textNode",
+      "zIndex": 35
+    },
+    {
+      "position": {
+        "x": 1390,
+        "y": 1348
+      },
+      "size": {
+        "width": 205,
+        "height": 118
+      },
+      "view": "react-shape-view",
+      "shape": "custom-react-shape",
+      "ports": {
+        "groups": {
+          "top": {
+            "position": "top",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "right": {
+            "position": "right",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "bottom": {
+            "position": "bottom",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "left": {
+            "position": "left",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          }
+        },
+        "items": [
+          {
+            "group": "top",
+            "id": "a4153d1b-1853-481d-a993-99700b7086f4"
+          },
+          {
+            "group": "right",
+            "id": "ed81c00b-d44e-48e7-b46a-9c41ca2b539c"
+          },
+          {
+            "group": "bottom",
+            "id": "343b8378-8af7-4de9-96cc-c80a702cba47"
+          },
+          {
+            "group": "left",
+            "id": "8320c441-36eb-4c64-93a8-23bb5c6c589d"
+          }
+        ]
+      },
+      "id": "12933d17-0d8a-42ab-b83b-be1036f5d361",
+      "data": {
+        "protoText": "Resuspend beads in 400 \u00b5l HDGN340 or HDGN150 and transfer to a spin-cup column. Centrifuge at 3000g for 10 sec at 4 \u00b0C. Discard the flow-through fraction"
+      },
+      "type": "textNode",
+      "zIndex": 36
+    },
+    {
+      "position": {
+        "x": 1170,
+        "y": 1367
+      },
+      "size": {
+        "width": 160,
+        "height": 80
+      },
+      "view": "react-shape-view",
+      "shape": "custom-react-shape",
+      "ports": {
+        "groups": {
+          "top": {
+            "position": "top",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "right": {
+            "position": "right",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "bottom": {
+            "position": "bottom",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "left": {
+            "position": "left",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          }
+        },
+        "items": [
+          {
+            "group": "top",
+            "id": "a4153d1b-1853-481d-a993-99700b7086f4"
+          },
+          {
+            "group": "right",
+            "id": "ed81c00b-d44e-48e7-b46a-9c41ca2b539c"
+          },
+          {
+            "group": "bottom",
+            "id": "343b8378-8af7-4de9-96cc-c80a702cba47"
+          },
+          {
+            "group": "left",
+            "id": "8320c441-36eb-4c64-93a8-23bb5c6c589d"
+          }
+        ]
+      },
+      "id": "ba8e201d-397f-4a6e-b2da-fa2a0890afe3",
+      "data": {
+        "protoText": "Transfer the spin-cup column to a fresh 1.5-ml microcentrifuge tube"
+      },
+      "type": "textNode",
+      "zIndex": 37
+    },
+    {
+      "position": {
+        "x": 871,
+        "y": 1330
+      },
+      "size": {
+        "width": 235,
+        "height": 154
+      },
+      "view": "react-shape-view",
+      "shape": "custom-react-shape",
+      "ports": {
+        "groups": {
+          "top": {
+            "position": "top",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "right": {
+            "position": "right",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "bottom": {
+            "position": "bottom",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "left": {
+            "position": "left",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          }
+        },
+        "items": [
+          {
+            "group": "top",
+            "id": "a4153d1b-1853-481d-a993-99700b7086f4"
+          },
+          {
+            "group": "right",
+            "id": "ed81c00b-d44e-48e7-b46a-9c41ca2b539c"
+          },
+          {
+            "group": "bottom",
+            "id": "343b8378-8af7-4de9-96cc-c80a702cba47"
+          },
+          {
+            "group": "left",
+            "id": "8320c441-36eb-4c64-93a8-23bb5c6c589d"
+          }
+        ]
+      },
+      "id": "cba16117-70c2-46b0-9181-873edcaad895",
+      "data": {
+        "protoText": "Add 50 \u00b5l 0.1 M glycine (pH 2.5) to the beads. To resuspend beads, tilt the spin-cup column horizontally and rotate quickly by hand several times. Incubate 1 min at room temperature. Centrifuge at 3000g for 10 sec at 4 \u00b0C."
+      },
+      "type": "textNode",
+      "zIndex": 38
+    },
+    {
+      "position": {
+        "x": 665.5,
+        "y": 1366
+      },
+      "size": {
+        "width": 130,
+        "height": 82
+      },
+      "view": "react-shape-view",
+      "shape": "custom-react-shape",
+      "ports": {
+        "groups": {
+          "top": {
+            "position": "top",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "right": {
+            "position": "right",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "bottom": {
+            "position": "bottom",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "left": {
+            "position": "left",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          }
+        },
+        "items": [
+          {
+            "group": "top",
+            "id": "a4153d1b-1853-481d-a993-99700b7086f4"
+          },
+          {
+            "group": "right",
+            "id": "ed81c00b-d44e-48e7-b46a-9c41ca2b539c"
+          },
+          {
+            "group": "bottom",
+            "id": "343b8378-8af7-4de9-96cc-c80a702cba47"
+          },
+          {
+            "group": "left",
+            "id": "8320c441-36eb-4c64-93a8-23bb5c6c589d"
+          }
+        ]
+      },
+      "id": "4a4fd5db-a5ef-4c70-9c47-65328e776dae",
+      "data": {
+        "protoText": "Repeat two more times for a total eluate volume of 150 \u00b5l."
+      },
+      "type": "textNode",
+      "zIndex": 39
+    },
+    {
+      "position": {
+        "x": 465,
+        "y": 1357
+      },
+      "size": {
+        "width": 160,
+        "height": 100
+      },
+      "view": "react-shape-view",
+      "shape": "custom-react-shape",
+      "ports": {
+        "groups": {
+          "top": {
+            "position": "top",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "right": {
+            "position": "right",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "bottom": {
+            "position": "bottom",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "left": {
+            "position": "left",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          }
+        },
+        "items": [
+          {
+            "group": "top",
+            "id": "a4153d1b-1853-481d-a993-99700b7086f4"
+          },
+          {
+            "group": "right",
+            "id": "ed81c00b-d44e-48e7-b46a-9c41ca2b539c"
+          },
+          {
+            "group": "bottom",
+            "id": "343b8378-8af7-4de9-96cc-c80a702cba47"
+          },
+          {
+            "group": "left",
+            "id": "8320c441-36eb-4c64-93a8-23bb5c6c589d"
+          }
+        ]
+      },
+      "id": "c0819359-4e40-486c-b8a0-b61da4dc50c9",
+      "data": {
+        "protoText": "Remove the spin-cup column and add 150 \u00b5l 20% TCA to the eluate. Let stand at least 2 h at -20 \u00b0C"
+      },
+      "type": "textNode",
+      "zIndex": 40
+    },
+    {
+      "position": {
+        "x": 245,
+        "y": 1348
+      },
+      "size": {
+        "width": 175,
+        "height": 118
+      },
+      "view": "react-shape-view",
+      "shape": "custom-react-shape",
+      "ports": {
+        "groups": {
+          "top": {
+            "position": "top",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "right": {
+            "position": "right",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "bottom": {
+            "position": "bottom",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "left": {
+            "position": "left",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          }
+        },
+        "items": [
+          {
+            "group": "top",
+            "id": "a4153d1b-1853-481d-a993-99700b7086f4"
+          },
+          {
+            "group": "right",
+            "id": "ed81c00b-d44e-48e7-b46a-9c41ca2b539c"
+          },
+          {
+            "group": "bottom",
+            "id": "343b8378-8af7-4de9-96cc-c80a702cba47"
+          },
+          {
+            "group": "left",
+            "id": "8320c441-36eb-4c64-93a8-23bb5c6c589d"
+          }
+        ]
+      },
+      "id": "f20303b8-ebce-4769-b49a-748ce6c6aa5c",
+      "data": {
+        "protoText": "Add 450 \u00b5l of acetone and let stand for at least 2 h at -20 \u00b0C.\n PAUSE POINT This step can be extended to overnight"
+      },
+      "type": "textNode",
+      "zIndex": 41
+    },
+    {
+      "position": {
+        "x": 5,
+        "y": 1339
+      },
+      "size": {
+        "width": 205,
+        "height": 136
+      },
+      "view": "react-shape-view",
+      "shape": "custom-react-shape",
+      "ports": {
+        "groups": {
+          "top": {
+            "position": "top",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "right": {
+            "position": "right",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "bottom": {
+            "position": "bottom",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "left": {
+            "position": "left",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          }
+        },
+        "items": [
+          {
+            "group": "top",
+            "id": "a4153d1b-1853-481d-a993-99700b7086f4"
+          },
+          {
+            "group": "right",
+            "id": "ed81c00b-d44e-48e7-b46a-9c41ca2b539c"
+          },
+          {
+            "group": "bottom",
+            "id": "343b8378-8af7-4de9-96cc-c80a702cba47"
+          },
+          {
+            "group": "left",
+            "id": "8320c441-36eb-4c64-93a8-23bb5c6c589d"
+          }
+        ]
+      },
+      "id": "37f3b750-fa73-4c63-8e00-61e3f9d68df5",
+      "data": {
+        "protoText": "Vortex vigorously to strip off precipitates stuck to the wall of the microcentrifuge tube. Centrifuge at 20000g for 15 min at 4 \u00b0C. Remove supernatant completely"
+      },
+      "type": "textNode",
+      "zIndex": 42
+    },
+    {
+      "position": {
+        "x": 20,
+        "y": 1625
+      },
+      "size": {
+        "width": 190,
+        "height": 118
+      },
+      "view": "react-shape-view",
+      "shape": "custom-react-shape",
+      "ports": {
+        "groups": {
+          "top": {
+            "position": "top",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "right": {
+            "position": "right",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "bottom": {
+            "position": "bottom",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "left": {
+            "position": "left",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          }
+        },
+        "items": [
+          {
+            "group": "top",
+            "id": "a4153d1b-1853-481d-a993-99700b7086f4"
+          },
+          {
+            "group": "right",
+            "id": "ed81c00b-d44e-48e7-b46a-9c41ca2b539c"
+          },
+          {
+            "group": "bottom",
+            "id": "343b8378-8af7-4de9-96cc-c80a702cba47"
+          },
+          {
+            "group": "left",
+            "id": "8320c441-36eb-4c64-93a8-23bb5c6c589d"
+          }
+        ]
+      },
+      "id": "01cb5a5a-19eb-4258-9adc-da2e9c88c5c3",
+      "data": {
+        "protoText": "Add 500\u00b5l of diethylether to pellet and vortex vigorously. Centrifuge at 20000g for 10 min at 4 \u00b0C. Remove supernatant completely"
+      },
+      "type": "textNode",
+      "zIndex": 43
+    },
+    {
+      "position": {
+        "x": 294,
+        "y": 1643
+      },
+      "size": {
+        "width": 115,
+        "height": 82
+      },
+      "view": "react-shape-view",
+      "shape": "custom-react-shape",
+      "ports": {
+        "groups": {
+          "top": {
+            "position": "top",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "right": {
+            "position": "right",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "bottom": {
+            "position": "bottom",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "left": {
+            "position": "left",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          }
+        },
+        "items": [
+          {
+            "group": "top",
+            "id": "a4153d1b-1853-481d-a993-99700b7086f4"
+          },
+          {
+            "group": "right",
+            "id": "ed81c00b-d44e-48e7-b46a-9c41ca2b539c"
+          },
+          {
+            "group": "bottom",
+            "id": "343b8378-8af7-4de9-96cc-c80a702cba47"
+          },
+          {
+            "group": "left",
+            "id": "8320c441-36eb-4c64-93a8-23bb5c6c589d"
+          }
+        ]
+      },
+      "id": "493e36d2-9898-4094-bf30-3604bcf72bb0",
+      "data": {
+        "protoText": "Resuspend pellet to 10 \u00b5l SDS sample buffer"
+      },
+      "type": "textNode",
+      "zIndex": 44
+    },
+    {
+      "position": {
+        "x": 465,
+        "y": 1643
+      },
+      "size": {
+        "width": 115,
+        "height": 82
+      },
+      "view": "react-shape-view",
+      "shape": "custom-react-shape",
+      "ports": {
+        "groups": {
+          "top": {
+            "position": "top",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "right": {
+            "position": "right",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "bottom": {
+            "position": "bottom",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "left": {
+            "position": "left",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          }
+        },
+        "items": [
+          {
+            "group": "top",
+            "id": "a4153d1b-1853-481d-a993-99700b7086f4"
+          },
+          {
+            "group": "right",
+            "id": "ed81c00b-d44e-48e7-b46a-9c41ca2b539c"
+          },
+          {
+            "group": "bottom",
+            "id": "343b8378-8af7-4de9-96cc-c80a702cba47"
+          },
+          {
+            "group": "left",
+            "id": "8320c441-36eb-4c64-93a8-23bb5c6c589d"
+          }
+        ]
+      },
+      "id": "2117553e-0441-458e-bea2-c3018f2e3415",
+      "data": {
+        "protoText": "Incubate for 1 h at 37 \u00b0C in an air-incubator"
+      },
+      "type": "textNode",
+      "zIndex": 45
+    },
+    {
+      "position": {
+        "x": 638,
+        "y": 1643
+      },
+      "size": {
+        "width": 100,
+        "height": 80
+      },
+      "view": "react-shape-view",
+      "shape": "custom-react-shape",
+      "ports": {
+        "groups": {
+          "top": {
+            "position": "top",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "right": {
+            "position": "right",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "bottom": {
+            "position": "bottom",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "left": {
+            "position": "left",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          }
+        },
+        "items": [
+          {
+            "group": "top",
+            "id": "a4153d1b-1853-481d-a993-99700b7086f4"
+          },
+          {
+            "group": "right",
+            "id": "ed81c00b-d44e-48e7-b46a-9c41ca2b539c"
+          },
+          {
+            "group": "bottom",
+            "id": "343b8378-8af7-4de9-96cc-c80a702cba47"
+          },
+          {
+            "group": "left",
+            "id": "8320c441-36eb-4c64-93a8-23bb5c6c589d"
+          }
+        ]
+      },
+      "id": "23531a27-448c-4f0d-b9f5-89f67e26b683",
+      "data": {
+        "protoText": "Apply samples on SDS-PAGE"
+      },
+      "type": "textNode",
+      "zIndex": 46
+    }
+  ]
+}

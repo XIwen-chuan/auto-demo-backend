@@ -1,0 +1,2464 @@
+{
+  "cells": [
+    {
+      "shape": "edge",
+      "attrs": {
+        "line": {
+          "stroke": "#A2B1C3"
+        }
+      },
+      "id": "bb4f75fd-0eb5-447c-a17d-92fb2ed13511",
+      "zIndex": 0,
+      "source": {
+        "cell": "fafb817b-e459-4f78-a29a-6f7c97225bf2",
+        "port": "24fcf524-deeb-443e-857b-dd0e98488157"
+      },
+      "target": {
+        "cell": "9886a8c6-10a5-4037-b8b0-787ce1bc41c1",
+        "port": "3d59c228-b134-4643-8aeb-31d58637d5d8"
+      }
+    },
+    {
+      "shape": "edge",
+      "attrs": {
+        "line": {
+          "stroke": "#A2B1C3"
+        }
+      },
+      "id": "87dcd772-8f60-40f5-84c5-9869c754b618",
+      "zIndex": 0,
+      "source": {
+        "cell": "9886a8c6-10a5-4037-b8b0-787ce1bc41c1",
+        "port": "24fcf524-deeb-443e-857b-dd0e98488157"
+      },
+      "target": {
+        "cell": "b7c89a0d-274c-4ea1-b3ee-40144e0aac23",
+        "port": "3d59c228-b134-4643-8aeb-31d58637d5d8"
+      }
+    },
+    {
+      "shape": "edge",
+      "attrs": {
+        "line": {
+          "stroke": "#A2B1C3"
+        }
+      },
+      "id": "3f64ea08-fd84-4918-b3b1-42983da6c7bf",
+      "zIndex": 0,
+      "source": {
+        "cell": "b7c89a0d-274c-4ea1-b3ee-40144e0aac23",
+        "port": "24fcf524-deeb-443e-857b-dd0e98488157"
+      },
+      "target": {
+        "cell": "b81f677b-f458-49b4-98c2-925292db8ebd",
+        "port": "3d59c228-b134-4643-8aeb-31d58637d5d8"
+      }
+    },
+    {
+      "shape": "edge",
+      "attrs": {
+        "line": {
+          "stroke": "#A2B1C3"
+        }
+      },
+      "id": "992af277-1a48-405a-9563-e7c5b368ae8b",
+      "zIndex": 0,
+      "source": {
+        "cell": "b81f677b-f458-49b4-98c2-925292db8ebd",
+        "port": "24fcf524-deeb-443e-857b-dd0e98488157"
+      },
+      "target": {
+        "cell": "79b63387-d4d0-44a7-8760-e6b4a10eef65",
+        "port": "3d59c228-b134-4643-8aeb-31d58637d5d8"
+      }
+    },
+    {
+      "shape": "edge",
+      "attrs": {
+        "line": {
+          "stroke": "#A2B1C3"
+        }
+      },
+      "id": "67bff22f-ba1a-4408-81df-64e2fb898163",
+      "zIndex": 0,
+      "source": {
+        "cell": "79b63387-d4d0-44a7-8760-e6b4a10eef65",
+        "port": "24fcf524-deeb-443e-857b-dd0e98488157"
+      },
+      "target": {
+        "cell": "f888434c-91ae-4acc-963c-a4360c643d90",
+        "port": "3d59c228-b134-4643-8aeb-31d58637d5d8"
+      }
+    },
+    {
+      "shape": "edge",
+      "attrs": {
+        "line": {
+          "stroke": "#A2B1C3"
+        }
+      },
+      "id": "9397d95b-4cc0-40ff-b543-33d7d173972a",
+      "zIndex": 0,
+      "source": {
+        "cell": "f888434c-91ae-4acc-963c-a4360c643d90",
+        "port": "24fcf524-deeb-443e-857b-dd0e98488157"
+      },
+      "target": {
+        "cell": "2a5ce5b2-29e6-4b1f-9e63-6f5770de680f",
+        "port": "3d59c228-b134-4643-8aeb-31d58637d5d8"
+      }
+    },
+    {
+      "shape": "edge",
+      "attrs": {
+        "line": {
+          "stroke": "#A2B1C3"
+        }
+      },
+      "id": "166b7781-479d-4c49-8819-28e9668fe03f",
+      "zIndex": 0,
+      "source": {
+        "cell": "2a5ce5b2-29e6-4b1f-9e63-6f5770de680f",
+        "port": "24fcf524-deeb-443e-857b-dd0e98488157"
+      },
+      "target": {
+        "cell": "3398d253-c474-4234-a91c-2e23d04c42bd",
+        "port": "24fcf524-deeb-443e-857b-dd0e98488157"
+      }
+    },
+    {
+      "shape": "edge",
+      "attrs": {
+        "line": {
+          "stroke": "#A2B1C3"
+        }
+      },
+      "id": "ad1071e7-c7a1-442b-9aad-996cadfb45d6",
+      "zIndex": 0,
+      "source": {
+        "cell": "3398d253-c474-4234-a91c-2e23d04c42bd",
+        "port": "3d59c228-b134-4643-8aeb-31d58637d5d8"
+      },
+      "target": {
+        "cell": "140d525c-8e11-446a-90ce-d7df76f0efc5",
+        "port": "24fcf524-deeb-443e-857b-dd0e98488157"
+      }
+    },
+    {
+      "shape": "edge",
+      "attrs": {
+        "line": {
+          "stroke": "#A2B1C3"
+        }
+      },
+      "id": "5d5bf8b3-0db5-45a7-817c-b8d0f9fee9bc",
+      "zIndex": 0,
+      "source": {
+        "cell": "140d525c-8e11-446a-90ce-d7df76f0efc5",
+        "port": "3d59c228-b134-4643-8aeb-31d58637d5d8"
+      },
+      "target": {
+        "cell": "969c70a6-d116-4690-9315-818d2f5f9b14",
+        "port": "24fcf524-deeb-443e-857b-dd0e98488157"
+      }
+    },
+    {
+      "shape": "edge",
+      "attrs": {
+        "line": {
+          "stroke": "#A2B1C3"
+        }
+      },
+      "id": "688ed53d-e935-4f89-9b07-c4fbb2489ebe",
+      "zIndex": 0,
+      "source": {
+        "cell": "969c70a6-d116-4690-9315-818d2f5f9b14",
+        "port": "3d59c228-b134-4643-8aeb-31d58637d5d8"
+      },
+      "target": {
+        "cell": "f90f2661-cb3f-4898-8455-93fc22ca6f0e",
+        "port": "24fcf524-deeb-443e-857b-dd0e98488157"
+      }
+    },
+    {
+      "shape": "edge",
+      "attrs": {
+        "line": {
+          "stroke": "#A2B1C3"
+        }
+      },
+      "id": "81057a46-fcb5-445c-9368-1fb1368e86a1",
+      "zIndex": 0,
+      "source": {
+        "cell": "f90f2661-cb3f-4898-8455-93fc22ca6f0e",
+        "port": "3d59c228-b134-4643-8aeb-31d58637d5d8"
+      },
+      "target": {
+        "cell": "4b46f2cc-8f5d-4565-ae0e-c1f34560e098",
+        "port": "24fcf524-deeb-443e-857b-dd0e98488157"
+      }
+    },
+    {
+      "shape": "edge",
+      "attrs": {
+        "line": {
+          "stroke": "#A2B1C3"
+        }
+      },
+      "id": "cc8df404-a29c-4925-be3d-b90313a86dbd",
+      "zIndex": 0,
+      "source": {
+        "cell": "4b46f2cc-8f5d-4565-ae0e-c1f34560e098",
+        "port": "3d59c228-b134-4643-8aeb-31d58637d5d8"
+      },
+      "target": {
+        "cell": "b686ee94-f14b-4590-8535-06085eecb1f8",
+        "port": "24fcf524-deeb-443e-857b-dd0e98488157"
+      }
+    },
+    {
+      "shape": "edge",
+      "attrs": {
+        "line": {
+          "stroke": "#A2B1C3"
+        }
+      },
+      "id": "18704422-2a5d-41ba-9042-0f92a8404818",
+      "zIndex": 0,
+      "source": {
+        "cell": "b686ee94-f14b-4590-8535-06085eecb1f8",
+        "port": "3d59c228-b134-4643-8aeb-31d58637d5d8"
+      },
+      "target": {
+        "cell": "077c40cd-402e-4783-8d68-3b20d172eac1",
+        "port": "3d59c228-b134-4643-8aeb-31d58637d5d8"
+      }
+    },
+    {
+      "shape": "edge",
+      "attrs": {
+        "line": {
+          "stroke": "#A2B1C3"
+        }
+      },
+      "id": "6c7fc876-34c2-4a60-91cf-1c9612658016",
+      "zIndex": 0,
+      "source": {
+        "cell": "077c40cd-402e-4783-8d68-3b20d172eac1",
+        "port": "24fcf524-deeb-443e-857b-dd0e98488157"
+      },
+      "target": {
+        "cell": "3cd7c2fe-1ce8-43e3-99f3-8264c426891a",
+        "port": "3d59c228-b134-4643-8aeb-31d58637d5d8"
+      }
+    },
+    {
+      "shape": "edge",
+      "attrs": {
+        "line": {
+          "stroke": "#A2B1C3"
+        }
+      },
+      "id": "d00df99d-9c53-424f-9747-6e78272502ce",
+      "zIndex": 0,
+      "source": {
+        "cell": "3cd7c2fe-1ce8-43e3-99f3-8264c426891a",
+        "port": "24fcf524-deeb-443e-857b-dd0e98488157"
+      },
+      "target": {
+        "cell": "dce0834c-fd9d-4436-97ec-acb3aa3349ab",
+        "port": "3d59c228-b134-4643-8aeb-31d58637d5d8"
+      }
+    },
+    {
+      "shape": "edge",
+      "attrs": {
+        "line": {
+          "stroke": "#A2B1C3"
+        }
+      },
+      "id": "b40580be-93bc-4331-a6c5-464d401572b6",
+      "zIndex": 0,
+      "source": {
+        "cell": "dce0834c-fd9d-4436-97ec-acb3aa3349ab",
+        "port": "24fcf524-deeb-443e-857b-dd0e98488157"
+      },
+      "target": {
+        "cell": "da7aae73-768d-444e-b2e3-72818650e365",
+        "port": "3d59c228-b134-4643-8aeb-31d58637d5d8"
+      }
+    },
+    {
+      "shape": "edge",
+      "attrs": {
+        "line": {
+          "stroke": "#A2B1C3"
+        }
+      },
+      "id": "174e4d42-aa65-46bf-924d-fb831a52832f",
+      "zIndex": 0,
+      "source": {
+        "cell": "da7aae73-768d-444e-b2e3-72818650e365",
+        "port": "24fcf524-deeb-443e-857b-dd0e98488157"
+      },
+      "target": {
+        "cell": "cf77cd72-16b3-4b39-9f66-3fe2453c52ce",
+        "port": "3d59c228-b134-4643-8aeb-31d58637d5d8"
+      }
+    },
+    {
+      "shape": "edge",
+      "attrs": {
+        "line": {
+          "stroke": "#A2B1C3"
+        }
+      },
+      "id": "0f396ec6-a168-40ca-a2fc-70f05e5f8163",
+      "zIndex": 0,
+      "source": {
+        "cell": "cf77cd72-16b3-4b39-9f66-3fe2453c52ce",
+        "port": "24fcf524-deeb-443e-857b-dd0e98488157"
+      },
+      "target": {
+        "cell": "3877574a-cc75-4481-a048-6e046e512b0a",
+        "port": "24fcf524-deeb-443e-857b-dd0e98488157"
+      }
+    },
+    {
+      "shape": "edge",
+      "attrs": {
+        "line": {
+          "stroke": "#A2B1C3"
+        }
+      },
+      "id": "85039dff-4ece-4649-a8f8-38101516c135",
+      "zIndex": 0,
+      "source": {
+        "cell": "3877574a-cc75-4481-a048-6e046e512b0a",
+        "port": "3d59c228-b134-4643-8aeb-31d58637d5d8"
+      },
+      "target": {
+        "cell": "26ae7186-c067-4045-9060-16af30359892",
+        "port": "24fcf524-deeb-443e-857b-dd0e98488157"
+      }
+    },
+    {
+      "shape": "edge",
+      "attrs": {
+        "line": {
+          "stroke": "#A2B1C3"
+        }
+      },
+      "id": "2289c7d1-2705-4184-a861-3900970125f9",
+      "zIndex": 0,
+      "source": {
+        "cell": "26ae7186-c067-4045-9060-16af30359892",
+        "port": "3d59c228-b134-4643-8aeb-31d58637d5d8"
+      },
+      "target": {
+        "cell": "437ee3fc-e7ed-4105-8462-6adf523eee06",
+        "port": "24fcf524-deeb-443e-857b-dd0e98488157"
+      }
+    },
+    {
+      "position": {
+        "x": -60,
+        "y": 20
+      },
+      "size": {
+        "width": 175,
+        "height": 118
+      },
+      "view": "react-shape-view",
+      "shape": "custom-react-shape",
+      "ports": {
+        "groups": {
+          "top": {
+            "position": "top",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "right": {
+            "position": "right",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "bottom": {
+            "position": "bottom",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "left": {
+            "position": "left",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          }
+        },
+        "items": [
+          {
+            "group": "top",
+            "id": "84f47830-8f52-4e2b-b3ba-94fce46d5583"
+          },
+          {
+            "group": "right",
+            "id": "24fcf524-deeb-443e-857b-dd0e98488157"
+          },
+          {
+            "group": "bottom",
+            "id": "dadea173-f56e-4b41-bebe-bb9bbcf6102b"
+          },
+          {
+            "group": "left",
+            "id": "3d59c228-b134-4643-8aeb-31d58637d5d8"
+          }
+        ]
+      },
+      "id": "fafb817b-e459-4f78-a29a-6f7c97225bf2",
+      "data": {
+        "protoText": "For removal of oocytes, a Xenopus frog is anaesthetized for 15-30 min in half a liter of ethyl m-aminobenzoate solution"
+      },
+      "type": "textNode",
+      "zIndex": 1
+    },
+    {
+      "position": {
+        "x": 181,
+        "y": 2
+      },
+      "size": {
+        "width": 250,
+        "height": 154
+      },
+      "view": "react-shape-view",
+      "shape": "custom-react-shape",
+      "ports": {
+        "groups": {
+          "top": {
+            "position": "top",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "right": {
+            "position": "right",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "bottom": {
+            "position": "bottom",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "left": {
+            "position": "left",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          }
+        },
+        "items": [
+          {
+            "group": "top",
+            "id": "84f47830-8f52-4e2b-b3ba-94fce46d5583"
+          },
+          {
+            "group": "right",
+            "id": "24fcf524-deeb-443e-857b-dd0e98488157"
+          },
+          {
+            "group": "bottom",
+            "id": "dadea173-f56e-4b41-bebe-bb9bbcf6102b"
+          },
+          {
+            "group": "left",
+            "id": "3d59c228-b134-4643-8aeb-31d58637d5d8"
+          }
+        ]
+      },
+      "id": "9886a8c6-10a5-4037-b8b0-787ce1bc41c1",
+      "data": {
+        "protoText": "The frog is then placed on top of crushed ice covered with wet tissue paper, to avoid the skin from drying out. A small incision is made in the upper skin of about 1 cm length, and a 0.5 cm cut in the inner skin and the muscular layer"
+      },
+      "type": "textNode",
+      "zIndex": 2
+    },
+    {
+      "position": {
+        "x": 499,
+        "y": -25
+      },
+      "size": {
+        "width": 340,
+        "height": 208
+      },
+      "view": "react-shape-view",
+      "shape": "custom-react-shape",
+      "ports": {
+        "groups": {
+          "top": {
+            "position": "top",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "right": {
+            "position": "right",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "bottom": {
+            "position": "bottom",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "left": {
+            "position": "left",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          }
+        },
+        "items": [
+          {
+            "group": "top",
+            "id": "84f47830-8f52-4e2b-b3ba-94fce46d5583"
+          },
+          {
+            "group": "right",
+            "id": "24fcf524-deeb-443e-857b-dd0e98488157"
+          },
+          {
+            "group": "bottom",
+            "id": "dadea173-f56e-4b41-bebe-bb9bbcf6102b"
+          },
+          {
+            "group": "left",
+            "id": "3d59c228-b134-4643-8aeb-31d58637d5d8"
+          }
+        ]
+      },
+      "id": "b7c89a0d-274c-4ea1-b3ee-40144e0aac23",
+      "data": {
+        "protoText": "Using forceps, small clumps of oocytes (depending on the amount required, usually 500\u20131500 oocytes) are removed and are treated twice for 90 minutes in collagenase A (or D), having low trypsin activity in a calcium free ORII solution, in order to remove follicular layers. Typically, 10 ml of collagenase solution is placed in a sterile 15 ml tube, and after cutting the ovarian lobes into small clusters of oocytes, up to 3 ml of oocytes are added per tube."
+      },
+      "type": "textNode",
+      "zIndex": 3
+    },
+    {
+      "position": {
+        "x": 915,
+        "y": 11
+      },
+      "size": {
+        "width": 220,
+        "height": 136
+      },
+      "view": "react-shape-view",
+      "shape": "custom-react-shape",
+      "ports": {
+        "groups": {
+          "top": {
+            "position": "top",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "right": {
+            "position": "right",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "bottom": {
+            "position": "bottom",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "left": {
+            "position": "left",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          }
+        },
+        "items": [
+          {
+            "group": "top",
+            "id": "84f47830-8f52-4e2b-b3ba-94fce46d5583"
+          },
+          {
+            "group": "right",
+            "id": "24fcf524-deeb-443e-857b-dd0e98488157"
+          },
+          {
+            "group": "bottom",
+            "id": "dadea173-f56e-4b41-bebe-bb9bbcf6102b"
+          },
+          {
+            "group": "left",
+            "id": "3d59c228-b134-4643-8aeb-31d58637d5d8"
+          }
+        ]
+      },
+      "id": "b81f677b-f458-49b4-98c2-925292db8ebd",
+      "data": {
+        "protoText": "The tube is rotated in the dark at 18\u00b0C on an orbital rotor spinning at low speed (20 rpm) for 90 min. and then replaced by a new collagenase-ORII solution for another 90 min"
+      },
+      "type": "textNode",
+      "zIndex": 4
+    },
+    {
+      "position": {
+        "x": 1203,
+        "y": 20
+      },
+      "size": {
+        "width": 175,
+        "height": 118
+      },
+      "view": "react-shape-view",
+      "shape": "custom-react-shape",
+      "ports": {
+        "groups": {
+          "top": {
+            "position": "top",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "right": {
+            "position": "right",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "bottom": {
+            "position": "bottom",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "left": {
+            "position": "left",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          }
+        },
+        "items": [
+          {
+            "group": "top",
+            "id": "84f47830-8f52-4e2b-b3ba-94fce46d5583"
+          },
+          {
+            "group": "right",
+            "id": "24fcf524-deeb-443e-857b-dd0e98488157"
+          },
+          {
+            "group": "bottom",
+            "id": "dadea173-f56e-4b41-bebe-bb9bbcf6102b"
+          },
+          {
+            "group": "left",
+            "id": "3d59c228-b134-4643-8aeb-31d58637d5d8"
+          }
+        ]
+      },
+      "id": "79b63387-d4d0-44a7-8760-e6b4a10eef65",
+      "data": {
+        "protoText": "The oocytes are then washed thoroughly 5 times with ORII solution, followed by 5 times with modified Barth\u2019s solution"
+      },
+      "type": "textNode",
+      "zIndex": 5
+    },
+    {
+      "position": {
+        "x": 1437,
+        "y": 11
+      },
+      "size": {
+        "width": 205,
+        "height": 136
+      },
+      "view": "react-shape-view",
+      "shape": "custom-react-shape",
+      "ports": {
+        "groups": {
+          "top": {
+            "position": "top",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "right": {
+            "position": "right",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "bottom": {
+            "position": "bottom",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "left": {
+            "position": "left",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          }
+        },
+        "items": [
+          {
+            "group": "top",
+            "id": "84f47830-8f52-4e2b-b3ba-94fce46d5583"
+          },
+          {
+            "group": "right",
+            "id": "24fcf524-deeb-443e-857b-dd0e98488157"
+          },
+          {
+            "group": "bottom",
+            "id": "dadea173-f56e-4b41-bebe-bb9bbcf6102b"
+          },
+          {
+            "group": "left",
+            "id": "3d59c228-b134-4643-8aeb-31d58637d5d8"
+          }
+        ]
+      },
+      "id": "f888434c-91ae-4acc-963c-a4360c643d90",
+      "data": {
+        "protoText": "The oocytes are sorted for morphologically intact, healthy looking stage V\u2013VI oocytes. The oocytes are subsequently maintained in MBS at 18 \u00b0C (kept in the dark)."
+      },
+      "type": "textNode",
+      "zIndex": 6
+    },
+    {
+      "position": {
+        "x": 1715,
+        "y": -7
+      },
+      "size": {
+        "width": 280,
+        "height": 172
+      },
+      "view": "react-shape-view",
+      "shape": "custom-react-shape",
+      "ports": {
+        "groups": {
+          "top": {
+            "position": "top",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "right": {
+            "position": "right",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "bottom": {
+            "position": "bottom",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "left": {
+            "position": "left",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          }
+        },
+        "items": [
+          {
+            "group": "top",
+            "id": "84f47830-8f52-4e2b-b3ba-94fce46d5583"
+          },
+          {
+            "group": "right",
+            "id": "24fcf524-deeb-443e-857b-dd0e98488157"
+          },
+          {
+            "group": "bottom",
+            "id": "dadea173-f56e-4b41-bebe-bb9bbcf6102b"
+          },
+          {
+            "group": "left",
+            "id": "3d59c228-b134-4643-8aeb-31d58637d5d8"
+          }
+        ]
+      },
+      "id": "2a5ce5b2-29e6-4b1f-9e63-6f5770de680f",
+      "data": {
+        "protoText": "Usually on the next day, healthy looking stage V\u2013VI oocytes are injected with either 50 nl water (control) or mRNA (at concentrations varying from 0 to 1 \u00b5g/\u00b5l), using a semiautomatic injector. Oocytes are then kept at 18\u00b0C in MBS for 1 to 7 days, with changes of MBS solution every 1\u20132 days"
+      },
+      "type": "textNode",
+      "zIndex": 7
+    },
+    {
+      "position": {
+        "x": 1625,
+        "y": 320
+      },
+      "size": {
+        "width": 370,
+        "height": 226
+      },
+      "view": "react-shape-view",
+      "shape": "custom-react-shape",
+      "ports": {
+        "groups": {
+          "top": {
+            "position": "top",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "right": {
+            "position": "right",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "bottom": {
+            "position": "bottom",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "left": {
+            "position": "left",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          }
+        },
+        "items": [
+          {
+            "group": "top",
+            "id": "84f47830-8f52-4e2b-b3ba-94fce46d5583"
+          },
+          {
+            "group": "right",
+            "id": "24fcf524-deeb-443e-857b-dd0e98488157"
+          },
+          {
+            "group": "bottom",
+            "id": "dadea173-f56e-4b41-bebe-bb9bbcf6102b"
+          },
+          {
+            "group": "left",
+            "id": "3d59c228-b134-4643-8aeb-31d58637d5d8"
+          }
+        ]
+      },
+      "id": "3398d253-c474-4234-a91c-2e23d04c42bd",
+      "data": {
+        "protoText": "Oocytes (7\u201310 oocytes per individual data point) are first washed for 1\u20132 minutes in solution A. This solution is then replaced by 100 \u00b5l of solution A supplemented with the desired concentration of substrate (eg. 1 mM K2SO4), at the desired specific activity for the isotope. The specific activities for the different substrates used (eg. 32PO42-, 35SO42-) are usually between 10\u201340 \u00b5Ci/ml. Uptakes are routinely performed in the presence of sodium (100 mM NaCl) or in its absence (100 mM choline chloride) and incubated in a water bath at 25\u00b0C for various times (1\u201360 min.)."
+      },
+      "type": "textNode",
+      "zIndex": 8
+    },
+    {
+      "position": {
+        "x": 1378,
+        "y": 374
+      },
+      "size": {
+        "width": 190,
+        "height": 118
+      },
+      "view": "react-shape-view",
+      "shape": "custom-react-shape",
+      "ports": {
+        "groups": {
+          "top": {
+            "position": "top",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "right": {
+            "position": "right",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "bottom": {
+            "position": "bottom",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "left": {
+            "position": "left",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          }
+        },
+        "items": [
+          {
+            "group": "top",
+            "id": "84f47830-8f52-4e2b-b3ba-94fce46d5583"
+          },
+          {
+            "group": "right",
+            "id": "24fcf524-deeb-443e-857b-dd0e98488157"
+          },
+          {
+            "group": "bottom",
+            "id": "dadea173-f56e-4b41-bebe-bb9bbcf6102b"
+          },
+          {
+            "group": "left",
+            "id": "3d59c228-b134-4643-8aeb-31d58637d5d8"
+          }
+        ]
+      },
+      "id": "140d525c-8e11-446a-90ce-d7df76f0efc5",
+      "data": {
+        "protoText": "After the incubation, the uptake solution is removed and the oocytes are washed 3 times with 3 ml of ice cold stop solution (solution A)"
+      },
+      "type": "textNode",
+      "zIndex": 9
+    },
+    {
+      "position": {
+        "x": 1117,
+        "y": 374
+      },
+      "size": {
+        "width": 205,
+        "height": 118
+      },
+      "view": "react-shape-view",
+      "shape": "custom-react-shape",
+      "ports": {
+        "groups": {
+          "top": {
+            "position": "top",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "right": {
+            "position": "right",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "bottom": {
+            "position": "bottom",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "left": {
+            "position": "left",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          }
+        },
+        "items": [
+          {
+            "group": "top",
+            "id": "84f47830-8f52-4e2b-b3ba-94fce46d5583"
+          },
+          {
+            "group": "right",
+            "id": "24fcf524-deeb-443e-857b-dd0e98488157"
+          },
+          {
+            "group": "bottom",
+            "id": "dadea173-f56e-4b41-bebe-bb9bbcf6102b"
+          },
+          {
+            "group": "left",
+            "id": "3d59c228-b134-4643-8aeb-31d58637d5d8"
+          }
+        ]
+      },
+      "id": "969c70a6-d116-4690-9315-818d2f5f9b14",
+      "data": {
+        "protoText": "Each single oocyte is then placed into a separate scintillation vial, dissolved in 200 \u00b5l of 1% SDS (allowed to shake vigorously for 45 min at room temp)."
+      },
+      "type": "textNode",
+      "zIndex": 10
+    },
+    {
+      "position": {
+        "x": 819,
+        "y": 356
+      },
+      "size": {
+        "width": 235,
+        "height": 154
+      },
+      "view": "react-shape-view",
+      "shape": "custom-react-shape",
+      "ports": {
+        "groups": {
+          "top": {
+            "position": "top",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "right": {
+            "position": "right",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "bottom": {
+            "position": "bottom",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "left": {
+            "position": "left",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          }
+        },
+        "items": [
+          {
+            "group": "top",
+            "id": "84f47830-8f52-4e2b-b3ba-94fce46d5583"
+          },
+          {
+            "group": "right",
+            "id": "24fcf524-deeb-443e-857b-dd0e98488157"
+          },
+          {
+            "group": "bottom",
+            "id": "dadea173-f56e-4b41-bebe-bb9bbcf6102b"
+          },
+          {
+            "group": "left",
+            "id": "3d59c228-b134-4643-8aeb-31d58637d5d8"
+          }
+        ]
+      },
+      "id": "f90f2661-cb3f-4898-8455-93fc22ca6f0e",
+      "data": {
+        "protoText": "When the ooyctes have completely dissolved, they are supplemented by 2 ml scintillation fluid. Isotopic uptake (transport assay) is measured by liquid scintillation spectrometry (normally counted for 2 min/vial)."
+      },
+      "type": "textNode",
+      "zIndex": 11
+    },
+    {
+      "position": {
+        "x": 395,
+        "y": 320
+      },
+      "size": {
+        "width": 355,
+        "height": 226
+      },
+      "view": "react-shape-view",
+      "shape": "custom-react-shape",
+      "ports": {
+        "groups": {
+          "top": {
+            "position": "top",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "right": {
+            "position": "right",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "bottom": {
+            "position": "bottom",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "left": {
+            "position": "left",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          }
+        },
+        "items": [
+          {
+            "group": "top",
+            "id": "84f47830-8f52-4e2b-b3ba-94fce46d5583"
+          },
+          {
+            "group": "right",
+            "id": "24fcf524-deeb-443e-857b-dd0e98488157"
+          },
+          {
+            "group": "bottom",
+            "id": "dadea173-f56e-4b41-bebe-bb9bbcf6102b"
+          },
+          {
+            "group": "left",
+            "id": "3d59c228-b134-4643-8aeb-31d58637d5d8"
+          }
+        ]
+      },
+      "id": "4b46f2cc-8f5d-4565-ae0e-c1f34560e098",
+      "data": {
+        "protoText": "Using a functionally positive unfractionated or size-fractionated mRNA as starting material, a directional cDNA library is constructed using a commercial kit, following the manufacturers protocol (in our case the SuperScript plasmid system, pSPORT-1 vector, Gibco/BRL; SuperScript reverse transcriptase having no RNase H activity). The total library, usually in the range of 105\u2013106 clones, is subdivided into pools of 1,000 colonies, which are plated onto 9 cm Luria Broth plates (containing ampicillin 100 \u00b5g/ml)"
+      },
+      "type": "textNode",
+      "zIndex": 12
+    },
+    {
+      "position": {
+        "x": 81,
+        "y": 356
+      },
+      "size": {
+        "width": 250,
+        "height": 154
+      },
+      "view": "react-shape-view",
+      "shape": "custom-react-shape",
+      "ports": {
+        "groups": {
+          "top": {
+            "position": "top",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "right": {
+            "position": "right",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "bottom": {
+            "position": "bottom",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "left": {
+            "position": "left",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          }
+        },
+        "items": [
+          {
+            "group": "top",
+            "id": "84f47830-8f52-4e2b-b3ba-94fce46d5583"
+          },
+          {
+            "group": "right",
+            "id": "24fcf524-deeb-443e-857b-dd0e98488157"
+          },
+          {
+            "group": "bottom",
+            "id": "dadea173-f56e-4b41-bebe-bb9bbcf6102b"
+          },
+          {
+            "group": "left",
+            "id": "3d59c228-b134-4643-8aeb-31d58637d5d8"
+          }
+        ]
+      },
+      "id": "b686ee94-f14b-4590-8535-06085eecb1f8",
+      "data": {
+        "protoText": "When the colonies are visible, two replicas are made onto nitrocellulose or nylon filters with both replica filters being placed on top of LB plates (colonies side up) for about 6 hours until colonies are visible (1 mm diameter)."
+      },
+      "type": "textNode",
+      "zIndex": 13
+    },
+    {
+      "position": {
+        "x": 73.5,
+        "y": 740
+      },
+      "size": {
+        "width": 265,
+        "height": 172
+      },
+      "view": "react-shape-view",
+      "shape": "custom-react-shape",
+      "ports": {
+        "groups": {
+          "top": {
+            "position": "top",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "right": {
+            "position": "right",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "bottom": {
+            "position": "bottom",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "left": {
+            "position": "left",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          }
+        },
+        "items": [
+          {
+            "group": "top",
+            "id": "84f47830-8f52-4e2b-b3ba-94fce46d5583"
+          },
+          {
+            "group": "right",
+            "id": "24fcf524-deeb-443e-857b-dd0e98488157"
+          },
+          {
+            "group": "bottom",
+            "id": "dadea173-f56e-4b41-bebe-bb9bbcf6102b"
+          },
+          {
+            "group": "left",
+            "id": "3d59c228-b134-4643-8aeb-31d58637d5d8"
+          }
+        ]
+      },
+      "id": "077c40cd-402e-4783-8d68-3b20d172eac1",
+      "data": {
+        "protoText": "One filter is placed on top of an agar/glycerol plate, with the colonies side up and kept as a master plate at \u201380\u00b0C (sealed with parafilm). The second replica is submerged into 10ml Luria Broth containing ampicillin (100 \u00b5g/ml) and grown overnight at 37\u00b0C with shaking (300 rpm)."
+      },
+      "type": "textNode",
+      "zIndex": 14
+    },
+    {
+      "position": {
+        "x": 404,
+        "y": 695
+      },
+      "size": {
+        "width": 415,
+        "height": 262
+      },
+      "view": "react-shape-view",
+      "shape": "custom-react-shape",
+      "ports": {
+        "groups": {
+          "top": {
+            "position": "top",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "right": {
+            "position": "right",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "bottom": {
+            "position": "bottom",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "left": {
+            "position": "left",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          }
+        },
+        "items": [
+          {
+            "group": "top",
+            "id": "84f47830-8f52-4e2b-b3ba-94fce46d5583"
+          },
+          {
+            "group": "right",
+            "id": "24fcf524-deeb-443e-857b-dd0e98488157"
+          },
+          {
+            "group": "bottom",
+            "id": "dadea173-f56e-4b41-bebe-bb9bbcf6102b"
+          },
+          {
+            "group": "left",
+            "id": "3d59c228-b134-4643-8aeb-31d58637d5d8"
+          }
+        ]
+      },
+      "id": "3cd7c2fe-1ce8-43e3-99f3-8264c426891a",
+      "data": {
+        "protoText": "The cells are pelleted by centrifugation for 1 min and plasmids are isolated using a general plasmid (alkaline lysis) method. About 1\u20132 \u00b5g of plasmid are digested with an appropriate restriction enzyme cutting at the 3\u00b4 end of the insert (in our case NotI). An aliquot is run through an agarose gel to check if the digestion was complete and the rest is extracted twice with a mixture of 0.1 M Tris pH 8 saturated phenol: chloroform: isoamylalcohol (25:24:1) and then precipitated with 0.1 volume 3 M sodium acetate and 2.5 volume cold 100% ethanol at \u201320\u00baC for 2 hours. Plasmids are then dissolved in 10 \u00b5l of water and used for in vitro transcription, using the appropriate RNA polymerase (in our case T7)"
+      },
+      "type": "textNode",
+      "zIndex": 15
+    },
+    {
+      "position": {
+        "x": 897,
+        "y": 758
+      },
+      "size": {
+        "width": 220,
+        "height": 136
+      },
+      "view": "react-shape-view",
+      "shape": "custom-react-shape",
+      "ports": {
+        "groups": {
+          "top": {
+            "position": "top",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "right": {
+            "position": "right",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "bottom": {
+            "position": "bottom",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "left": {
+            "position": "left",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          }
+        },
+        "items": [
+          {
+            "group": "top",
+            "id": "84f47830-8f52-4e2b-b3ba-94fce46d5583"
+          },
+          {
+            "group": "right",
+            "id": "24fcf524-deeb-443e-857b-dd0e98488157"
+          },
+          {
+            "group": "bottom",
+            "id": "dadea173-f56e-4b41-bebe-bb9bbcf6102b"
+          },
+          {
+            "group": "left",
+            "id": "3d59c228-b134-4643-8aeb-31d58637d5d8"
+          }
+        ]
+      },
+      "id": "dce0834c-fd9d-4436-97ec-acb3aa3349ab",
+      "data": {
+        "protoText": "For in vitro transcription, the whole 10 \u00b5l (approx. 1 \u00b5g) of linearized plasmid DNA is used and is added to 40 \u00b5l of the transcription mixture. The reaction is incubated at 37\u00b0C for 1 hour"
+      },
+      "type": "textNode",
+      "zIndex": 16
+    },
+    {
+      "position": {
+        "x": 1188,
+        "y": 758
+      },
+      "size": {
+        "width": 205,
+        "height": 136
+      },
+      "view": "react-shape-view",
+      "shape": "custom-react-shape",
+      "ports": {
+        "groups": {
+          "top": {
+            "position": "top",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "right": {
+            "position": "right",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "bottom": {
+            "position": "bottom",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "left": {
+            "position": "left",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          }
+        },
+        "items": [
+          {
+            "group": "top",
+            "id": "84f47830-8f52-4e2b-b3ba-94fce46d5583"
+          },
+          {
+            "group": "right",
+            "id": "24fcf524-deeb-443e-857b-dd0e98488157"
+          },
+          {
+            "group": "bottom",
+            "id": "dadea173-f56e-4b41-bebe-bb9bbcf6102b"
+          },
+          {
+            "group": "left",
+            "id": "3d59c228-b134-4643-8aeb-31d58637d5d8"
+          }
+        ]
+      },
+      "id": "da7aae73-768d-444e-b2e3-72818650e365",
+      "data": {
+        "protoText": "Then 50 units of RNAase inhibitor and 10 units of DNAase I, RNAase free, are added to the samples and incubated for 15 minutes at 37\u00b0C to digest the remaining DNA"
+      },
+      "type": "textNode",
+      "zIndex": 17
+    },
+    {
+      "position": {
+        "x": 1465,
+        "y": 722
+      },
+      "size": {
+        "width": 340,
+        "height": 208
+      },
+      "view": "react-shape-view",
+      "shape": "custom-react-shape",
+      "ports": {
+        "groups": {
+          "top": {
+            "position": "top",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "right": {
+            "position": "right",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "bottom": {
+            "position": "bottom",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "left": {
+            "position": "left",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          }
+        },
+        "items": [
+          {
+            "group": "top",
+            "id": "84f47830-8f52-4e2b-b3ba-94fce46d5583"
+          },
+          {
+            "group": "right",
+            "id": "24fcf524-deeb-443e-857b-dd0e98488157"
+          },
+          {
+            "group": "bottom",
+            "id": "dadea173-f56e-4b41-bebe-bb9bbcf6102b"
+          },
+          {
+            "group": "left",
+            "id": "3d59c228-b134-4643-8aeb-31d58637d5d8"
+          }
+        ]
+      },
+      "id": "cf77cd72-16b3-4b39-9f66-3fe2453c52ce",
+      "data": {
+        "protoText": "The samples are then extracted twice with phenol:chloroform:isoamylalcohol (25:24:1) and precipitated by adding one volume of ammonium acetate 5 M and 2.5 volumes of ethanol, in order to remove free nucleotides.\n Alternatively, after the extractions with phenol: chloroform:isoamyl alcohol, samples can be passed through RNase-free Sephadex G-50 Quick Spin columns to remove free nucleotides, then precipitated with sodium acetate and ethanol as described above."
+      },
+      "type": "textNode",
+      "zIndex": 18
+    },
+    {
+      "position": {
+        "x": 1520,
+        "y": 1120
+      },
+      "size": {
+        "width": 205,
+        "height": 136
+      },
+      "view": "react-shape-view",
+      "shape": "custom-react-shape",
+      "ports": {
+        "groups": {
+          "top": {
+            "position": "top",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "right": {
+            "position": "right",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "bottom": {
+            "position": "bottom",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "left": {
+            "position": "left",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          }
+        },
+        "items": [
+          {
+            "group": "top",
+            "id": "84f47830-8f52-4e2b-b3ba-94fce46d5583"
+          },
+          {
+            "group": "right",
+            "id": "24fcf524-deeb-443e-857b-dd0e98488157"
+          },
+          {
+            "group": "bottom",
+            "id": "dadea173-f56e-4b41-bebe-bb9bbcf6102b"
+          },
+          {
+            "group": "left",
+            "id": "3d59c228-b134-4643-8aeb-31d58637d5d8"
+          }
+        ]
+      },
+      "id": "3877574a-cc75-4481-a048-6e046e512b0a",
+      "data": {
+        "protoText": "The samples are precipitated at \u201380\u00baC for at least 3 hours and then are centrifuged for 45 min at 4\u00baC, pellets rinsed with 70% ethanol and vacuum dried for 5 min"
+      },
+      "type": "textNode",
+      "zIndex": 19
+    },
+    {
+      "position": {
+        "x": 1203,
+        "y": 1111
+      },
+      "size": {
+        "width": 265,
+        "height": 154
+      },
+      "view": "react-shape-view",
+      "shape": "custom-react-shape",
+      "ports": {
+        "groups": {
+          "top": {
+            "position": "top",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "right": {
+            "position": "right",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "bottom": {
+            "position": "bottom",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "left": {
+            "position": "left",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          }
+        },
+        "items": [
+          {
+            "group": "top",
+            "id": "84f47830-8f52-4e2b-b3ba-94fce46d5583"
+          },
+          {
+            "group": "right",
+            "id": "24fcf524-deeb-443e-857b-dd0e98488157"
+          },
+          {
+            "group": "bottom",
+            "id": "dadea173-f56e-4b41-bebe-bb9bbcf6102b"
+          },
+          {
+            "group": "left",
+            "id": "3d59c228-b134-4643-8aeb-31d58637d5d8"
+          }
+        ]
+      },
+      "id": "26ae7186-c067-4045-9060-16af30359892",
+      "data": {
+        "protoText": "The pellet is resuspended in 15\u00b5l of water. 1 \u00b5l is used to measure the RNA concentration spectrophotometrically at OD260 and 1-2 \u00b5l is run through a 1% agarose formaldehyde RNA gel, to check for integrity of the transcripts, with the rest being used for injection"
+      },
+      "type": "textNode",
+      "zIndex": 20
+    },
+    {
+      "position": {
+        "x": 925,
+        "y": 1120
+      },
+      "size": {
+        "width": 220,
+        "height": 136
+      },
+      "view": "react-shape-view",
+      "shape": "custom-react-shape",
+      "ports": {
+        "groups": {
+          "top": {
+            "position": "top",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "right": {
+            "position": "right",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "bottom": {
+            "position": "bottom",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "left": {
+            "position": "left",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          }
+        },
+        "items": [
+          {
+            "group": "top",
+            "id": "84f47830-8f52-4e2b-b3ba-94fce46d5583"
+          },
+          {
+            "group": "right",
+            "id": "24fcf524-deeb-443e-857b-dd0e98488157"
+          },
+          {
+            "group": "bottom",
+            "id": "dadea173-f56e-4b41-bebe-bb9bbcf6102b"
+          },
+          {
+            "group": "left",
+            "id": "3d59c228-b134-4643-8aeb-31d58637d5d8"
+          }
+        ]
+      },
+      "id": "437ee3fc-e7ed-4105-8462-6adf523eee06",
+      "data": {
+        "protoText": "The in vitro transcribed RNA (cRNA) is directly injected into oocytes and after 1\u20136 days post injection, the protein (transport) assay can be measured (as described above)."
+      },
+      "type": "textNode",
+      "zIndex": 21
+    }
+  ]
+}

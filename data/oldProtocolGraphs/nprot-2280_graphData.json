@@ -1,0 +1,2582 @@
+{
+  "cells": [
+    {
+      "shape": "edge",
+      "attrs": {
+        "line": {
+          "stroke": "#A2B1C3"
+        }
+      },
+      "id": "83bb7486-250f-4732-a893-a94f38f1438f",
+      "zIndex": 0,
+      "source": {
+        "cell": "956b7693-c07e-47ff-96b5-55e5cbd8316c",
+        "port": "1945a776-8653-407b-8d1f-d9d7c5c53c31"
+      },
+      "target": {
+        "cell": "6ee69252-2146-4e33-bb0c-fa0261f0a5f7",
+        "port": "6ea4b739-9e53-433a-abfc-61efacfc831e"
+      }
+    },
+    {
+      "shape": "edge",
+      "attrs": {
+        "line": {
+          "stroke": "#A2B1C3"
+        }
+      },
+      "id": "aff52339-ff80-46a4-b7ea-02ff7c88cc21",
+      "zIndex": 0,
+      "source": {
+        "cell": "6ee69252-2146-4e33-bb0c-fa0261f0a5f7",
+        "port": "56327058-04a4-477b-aeae-89155d215a0b"
+      },
+      "target": {
+        "cell": "a57ce799-4e06-4bf7-aa44-572aab7bf2af",
+        "port": "7babd122-3eac-424e-90ed-857e64d61de0"
+      }
+    },
+    {
+      "shape": "edge",
+      "attrs": {
+        "line": {
+          "stroke": "#A2B1C3"
+        }
+      },
+      "id": "0da6dced-3e9b-4dff-8405-f55e89d99dc2",
+      "zIndex": 0,
+      "source": {
+        "cell": "a57ce799-4e06-4bf7-aa44-572aab7bf2af",
+        "port": "56327058-04a4-477b-aeae-89155d215a0b"
+      },
+      "target": {
+        "cell": "0e42cd92-1821-4353-b184-22cf0d34b578",
+        "port": "7babd122-3eac-424e-90ed-857e64d61de0"
+      }
+    },
+    {
+      "shape": "edge",
+      "attrs": {
+        "line": {
+          "stroke": "#A2B1C3"
+        }
+      },
+      "id": "74e7c958-6fcf-4621-904e-15d2d4c6462f",
+      "zIndex": 0,
+      "source": {
+        "cell": "0e42cd92-1821-4353-b184-22cf0d34b578",
+        "port": "56327058-04a4-477b-aeae-89155d215a0b"
+      },
+      "target": {
+        "cell": "3f0f0c4b-f229-4c29-a25e-92f192992b89",
+        "port": "7babd122-3eac-424e-90ed-857e64d61de0"
+      }
+    },
+    {
+      "shape": "edge",
+      "attrs": {
+        "line": {
+          "stroke": "#A2B1C3"
+        }
+      },
+      "id": "af9e2911-b771-4a50-977b-5db9374b5d4d",
+      "zIndex": 0,
+      "source": {
+        "cell": "3f0f0c4b-f229-4c29-a25e-92f192992b89",
+        "port": "56327058-04a4-477b-aeae-89155d215a0b"
+      },
+      "target": {
+        "cell": "09302c0c-a3a1-4424-842a-6b1377355799",
+        "port": "7babd122-3eac-424e-90ed-857e64d61de0"
+      }
+    },
+    {
+      "shape": "edge",
+      "attrs": {
+        "line": {
+          "stroke": "#A2B1C3"
+        }
+      },
+      "id": "c44303ba-6a8e-4e37-9ea6-c6fdcd66e8bb",
+      "zIndex": 0,
+      "source": {
+        "cell": "09302c0c-a3a1-4424-842a-6b1377355799",
+        "port": "56327058-04a4-477b-aeae-89155d215a0b"
+      },
+      "target": {
+        "cell": "ebc20579-9ef5-488d-8b87-376b42f0d398",
+        "port": "7babd122-3eac-424e-90ed-857e64d61de0"
+      }
+    },
+    {
+      "shape": "edge",
+      "attrs": {
+        "line": {
+          "stroke": "#A2B1C3"
+        }
+      },
+      "id": "f4be2907-9dc7-47d7-b889-ba1a24954ed4",
+      "zIndex": 0,
+      "source": {
+        "cell": "ebc20579-9ef5-488d-8b87-376b42f0d398",
+        "port": "56327058-04a4-477b-aeae-89155d215a0b"
+      },
+      "target": {
+        "cell": "d4ded1ed-816f-4607-8e20-f0b93e5a67ce",
+        "port": "56327058-04a4-477b-aeae-89155d215a0b"
+      }
+    },
+    {
+      "shape": "edge",
+      "attrs": {
+        "line": {
+          "stroke": "#A2B1C3"
+        }
+      },
+      "id": "70a75ebf-26fe-4146-a3e3-086ff58bd0b6",
+      "zIndex": 0,
+      "source": {
+        "cell": "d4ded1ed-816f-4607-8e20-f0b93e5a67ce",
+        "port": "7babd122-3eac-424e-90ed-857e64d61de0"
+      },
+      "target": {
+        "cell": "d3b3cf83-0e61-46d2-930c-c55d9339f5e2",
+        "port": "56327058-04a4-477b-aeae-89155d215a0b"
+      }
+    },
+    {
+      "shape": "edge",
+      "attrs": {
+        "line": {
+          "stroke": "#A2B1C3"
+        }
+      },
+      "id": "c99b47ea-0a28-453d-a16c-03e3f1537a59",
+      "zIndex": 0,
+      "source": {
+        "cell": "d3b3cf83-0e61-46d2-930c-c55d9339f5e2",
+        "port": "7babd122-3eac-424e-90ed-857e64d61de0"
+      },
+      "target": {
+        "cell": "0247b26a-b917-4407-ac3e-a3c80b74739f",
+        "port": "56327058-04a4-477b-aeae-89155d215a0b"
+      }
+    },
+    {
+      "shape": "edge",
+      "attrs": {
+        "line": {
+          "stroke": "#A2B1C3"
+        }
+      },
+      "id": "8b2767cb-91c4-4d59-8f7f-14bc674b6243",
+      "zIndex": 0,
+      "source": {
+        "cell": "0247b26a-b917-4407-ac3e-a3c80b74739f",
+        "port": "7babd122-3eac-424e-90ed-857e64d61de0"
+      },
+      "target": {
+        "cell": "7d9e5664-c909-423f-b5ba-3bc034eafad1",
+        "port": "56327058-04a4-477b-aeae-89155d215a0b"
+      }
+    },
+    {
+      "shape": "edge",
+      "attrs": {
+        "line": {
+          "stroke": "#A2B1C3"
+        }
+      },
+      "id": "3a51a04b-202f-4c32-a9a3-67132075d2e0",
+      "zIndex": 0,
+      "source": {
+        "cell": "7d9e5664-c909-423f-b5ba-3bc034eafad1",
+        "port": "7babd122-3eac-424e-90ed-857e64d61de0"
+      },
+      "target": {
+        "cell": "b4d3190d-084a-4ec1-9805-61e5682c7a2c",
+        "port": "56327058-04a4-477b-aeae-89155d215a0b"
+      }
+    },
+    {
+      "shape": "edge",
+      "attrs": {
+        "line": {
+          "stroke": "#A2B1C3"
+        }
+      },
+      "id": "39b74d0a-8883-4743-b52b-0b3820b619a8",
+      "zIndex": 0,
+      "source": {
+        "cell": "b4d3190d-084a-4ec1-9805-61e5682c7a2c",
+        "port": "7babd122-3eac-424e-90ed-857e64d61de0"
+      },
+      "target": {
+        "cell": "2c6e721c-c9a5-4571-9d21-835c5f776b0c",
+        "port": "56327058-04a4-477b-aeae-89155d215a0b"
+      }
+    },
+    {
+      "shape": "edge",
+      "attrs": {
+        "line": {
+          "stroke": "#A2B1C3"
+        }
+      },
+      "id": "7e4e741d-7441-49d9-b3bb-a00ea1b6c0cd",
+      "zIndex": 0,
+      "source": {
+        "cell": "08a05b3c-a3c0-46fe-8264-c47c6f6522da",
+        "port": "c7146520-6d70-42c1-9320-5fc0f79f3a0d"
+      },
+      "target": {
+        "cell": "987028cc-0dfe-45ad-b611-2c0b4cf829a4",
+        "port": "7babd122-3eac-424e-90ed-857e64d61de0"
+      }
+    },
+    {
+      "shape": "edge",
+      "attrs": {
+        "line": {
+          "stroke": "#A2B1C3"
+        }
+      },
+      "id": "ed51646a-aea2-4e2b-b485-55af2dd407cc",
+      "zIndex": 0,
+      "source": {
+        "cell": "2c6e721c-c9a5-4571-9d21-835c5f776b0c",
+        "port": "7babd122-3eac-424e-90ed-857e64d61de0"
+      },
+      "target": {
+        "cell": "987028cc-0dfe-45ad-b611-2c0b4cf829a4",
+        "port": "6ea4b739-9e53-433a-abfc-61efacfc831e"
+      }
+    },
+    {
+      "shape": "edge",
+      "attrs": {
+        "line": {
+          "stroke": "#A2B1C3"
+        }
+      },
+      "id": "7a61d0b1-8097-469d-a333-571b77b7a71a",
+      "zIndex": 0,
+      "source": {
+        "cell": "987028cc-0dfe-45ad-b611-2c0b4cf829a4",
+        "port": "56327058-04a4-477b-aeae-89155d215a0b"
+      },
+      "target": {
+        "cell": "4ae27f9f-55ee-4207-9c98-b002df6e5d23",
+        "port": "7babd122-3eac-424e-90ed-857e64d61de0"
+      }
+    },
+    {
+      "shape": "edge",
+      "attrs": {
+        "line": {
+          "stroke": "#A2B1C3"
+        }
+      },
+      "id": "bb79afc5-550d-40e7-ac1b-b48da0393d09",
+      "zIndex": 0,
+      "source": {
+        "cell": "4ae27f9f-55ee-4207-9c98-b002df6e5d23",
+        "port": "56327058-04a4-477b-aeae-89155d215a0b"
+      },
+      "target": {
+        "cell": "b1ac96f4-ffb9-4968-837c-64616254f353",
+        "port": "7babd122-3eac-424e-90ed-857e64d61de0"
+      }
+    },
+    {
+      "shape": "edge",
+      "attrs": {
+        "line": {
+          "stroke": "#A2B1C3"
+        }
+      },
+      "id": "f373c502-91a3-4b93-b225-57dafcafd009",
+      "zIndex": 0,
+      "source": {
+        "cell": "ccc6f185-4e12-44fe-bc0c-426054c9d81c",
+        "port": "c7146520-6d70-42c1-9320-5fc0f79f3a0d"
+      },
+      "target": {
+        "cell": "74cd8cdc-b2b9-4d65-b8f4-a543ed7f852f",
+        "port": "7babd122-3eac-424e-90ed-857e64d61de0"
+      }
+    },
+    {
+      "shape": "edge",
+      "attrs": {
+        "line": {
+          "stroke": "#A2B1C3"
+        }
+      },
+      "id": "7205e309-5448-4785-a20a-2e1ce9f0723b",
+      "zIndex": 0,
+      "source": {
+        "cell": "b1ac96f4-ffb9-4968-837c-64616254f353",
+        "port": "56327058-04a4-477b-aeae-89155d215a0b"
+      },
+      "target": {
+        "cell": "74cd8cdc-b2b9-4d65-b8f4-a543ed7f852f",
+        "port": "6ea4b739-9e53-433a-abfc-61efacfc831e"
+      }
+    },
+    {
+      "shape": "edge",
+      "attrs": {
+        "line": {
+          "stroke": "#A2B1C3"
+        }
+      },
+      "id": "d38c506f-5cfb-41b7-bbaf-070a3d7e3377",
+      "zIndex": 0,
+      "source": {
+        "cell": "74cd8cdc-b2b9-4d65-b8f4-a543ed7f852f",
+        "port": "56327058-04a4-477b-aeae-89155d215a0b"
+      },
+      "target": {
+        "cell": "ac047a2f-c23d-4caf-ae99-2980e174e31e",
+        "port": "7babd122-3eac-424e-90ed-857e64d61de0"
+      }
+    },
+    {
+      "shape": "edge",
+      "attrs": {
+        "line": {
+          "stroke": "#A2B1C3"
+        }
+      },
+      "id": "15139020-e78c-4a8f-b039-948304ebeff7",
+      "zIndex": 0,
+      "source": {
+        "cell": "ac047a2f-c23d-4caf-ae99-2980e174e31e",
+        "port": "56327058-04a4-477b-aeae-89155d215a0b"
+      },
+      "target": {
+        "cell": "0ef2372c-aec6-469f-8ff4-4c1891d2266a",
+        "port": "7babd122-3eac-424e-90ed-857e64d61de0"
+      }
+    },
+    {
+      "shape": "edge",
+      "attrs": {
+        "line": {
+          "stroke": "#A2B1C3"
+        }
+      },
+      "id": "5d122780-4098-4904-a868-39bd651cdcf0",
+      "zIndex": 0,
+      "source": {
+        "cell": "0ef2372c-aec6-469f-8ff4-4c1891d2266a",
+        "port": "56327058-04a4-477b-aeae-89155d215a0b"
+      },
+      "target": {
+        "cell": "eeae705b-a4b3-4b77-b290-ba612bcd634b",
+        "port": "7babd122-3eac-424e-90ed-857e64d61de0"
+      }
+    },
+    {
+      "position": {
+        "x": 60,
+        "y": 80
+      },
+      "size": {
+        "width": 235,
+        "height": 154
+      },
+      "view": "react-shape-view",
+      "shape": "custom-react-shape",
+      "ports": {
+        "groups": {
+          "top": {
+            "position": "top",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "right": {
+            "position": "right",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "bottom": {
+            "position": "bottom",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "left": {
+            "position": "left",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          }
+        },
+        "items": [
+          {
+            "group": "top",
+            "id": "6ea4b739-9e53-433a-abfc-61efacfc831e"
+          },
+          {
+            "group": "right",
+            "id": "56327058-04a4-477b-aeae-89155d215a0b"
+          },
+          {
+            "group": "bottom",
+            "id": "a211cf27-6e73-4f72-b056-b83413abf868"
+          },
+          {
+            "group": "left",
+            "id": "7babd122-3eac-424e-90ed-857e64d61de0"
+          }
+        ]
+      },
+      "id": "6ee69252-2146-4e33-bb0c-fa0261f0a5f7",
+      "data": {
+        "protoText": "Dilute HeLa cell lysate (2.92mg/ml) to a concentration ranging from 29.2 -0.028\u00b5g total protein in 1X LDS sample buffer + 1X sample reducing agent and load 10\u00b5l on to a NuPAGE\u00ae Novex\u00ae 4-12% Bis-Tris pre-cast SDS-PAGE gel"
+      },
+      "type": "textNode",
+      "zIndex": 1
+    },
+    {
+      "position": {
+        "x": 117.5,
+        "y": -55.99999999999994
+      },
+      "size": {
+        "width": 120,
+        "height": 60
+      },
+      "view": "react-shape-view",
+      "shape": "custom-react-shape",
+      "ports": {
+        "groups": {
+          "top": {
+            "position": "top",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "right": {
+            "position": "right",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "bottom": {
+            "position": "bottom",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "left": {
+            "position": "left",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          }
+        },
+        "items": [
+          {
+            "group": "top",
+            "id": "b2259434-6306-4216-9053-3d08d69d6cae"
+          },
+          {
+            "group": "right",
+            "id": "c7146520-6d70-42c1-9320-5fc0f79f3a0d"
+          },
+          {
+            "group": "bottom",
+            "id": "1945a776-8653-407b-8d1f-d9d7c5c53c31"
+          },
+          {
+            "group": "left",
+            "id": "dcb724ef-681e-4768-a2a3-1adb29ca87be"
+          }
+        ]
+      },
+      "id": "956b7693-c07e-47ff-96b5-55e5cbd8316c",
+      "data": {
+        "protoText": "Western blot analysis"
+      },
+      "type": "inputNode",
+      "zIndex": 2
+    },
+    {
+      "position": {
+        "x": 380,
+        "y": 80
+      },
+      "size": {
+        "width": 250,
+        "height": 154
+      },
+      "view": "react-shape-view",
+      "shape": "custom-react-shape",
+      "ports": {
+        "groups": {
+          "top": {
+            "position": "top",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "right": {
+            "position": "right",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "bottom": {
+            "position": "bottom",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "left": {
+            "position": "left",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          }
+        },
+        "items": [
+          {
+            "group": "top",
+            "id": "6ea4b739-9e53-433a-abfc-61efacfc831e"
+          },
+          {
+            "group": "right",
+            "id": "56327058-04a4-477b-aeae-89155d215a0b"
+          },
+          {
+            "group": "bottom",
+            "id": "a211cf27-6e73-4f72-b056-b83413abf868"
+          },
+          {
+            "group": "left",
+            "id": "7babd122-3eac-424e-90ed-857e64d61de0"
+          }
+        ]
+      },
+      "id": "a57ce799-4e06-4bf7-aa44-572aab7bf2af",
+      "data": {
+        "protoText": "Load Precision All Blue marker (2\u00b5l) (BioRad) on to the gel. The blue protein marker bands autofluoresce in the 700nm channel and can therefore be visualised by the G:BOX IR6 Imaging System and the Odyssey Infrared Imaging System"
+      },
+      "type": "textNode",
+      "zIndex": 3
+    },
+    {
+      "position": {
+        "x": 700,
+        "y": 89
+      },
+      "size": {
+        "width": 205,
+        "height": 136
+      },
+      "view": "react-shape-view",
+      "shape": "custom-react-shape",
+      "ports": {
+        "groups": {
+          "top": {
+            "position": "top",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "right": {
+            "position": "right",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "bottom": {
+            "position": "bottom",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "left": {
+            "position": "left",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          }
+        },
+        "items": [
+          {
+            "group": "top",
+            "id": "6ea4b739-9e53-433a-abfc-61efacfc831e"
+          },
+          {
+            "group": "right",
+            "id": "56327058-04a4-477b-aeae-89155d215a0b"
+          },
+          {
+            "group": "bottom",
+            "id": "a211cf27-6e73-4f72-b056-b83413abf868"
+          },
+          {
+            "group": "left",
+            "id": "7babd122-3eac-424e-90ed-857e64d61de0"
+          }
+        ]
+      },
+      "id": "0e42cd92-1821-4353-b184-22cf0d34b578",
+      "data": {
+        "protoText": "Using the XCell Sure-Lock Mini-Cell, run the gel for 30 minutes at 60V and then increase the voltage to 120V until the dye front reaches the bottom (~1 hour 30 minutes)."
+      },
+      "type": "textNode",
+      "zIndex": 4
+    },
+    {
+      "position": {
+        "x": 980,
+        "y": 117
+      },
+      "size": {
+        "width": 180,
+        "height": 80
+      },
+      "view": "react-shape-view",
+      "shape": "custom-react-shape",
+      "ports": {
+        "groups": {
+          "top": {
+            "position": "top",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "right": {
+            "position": "right",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "bottom": {
+            "position": "bottom",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "left": {
+            "position": "left",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          }
+        },
+        "items": [
+          {
+            "group": "top",
+            "id": "6ea4b739-9e53-433a-abfc-61efacfc831e"
+          },
+          {
+            "group": "right",
+            "id": "56327058-04a4-477b-aeae-89155d215a0b"
+          },
+          {
+            "group": "bottom",
+            "id": "a211cf27-6e73-4f72-b056-b83413abf868"
+          },
+          {
+            "group": "left",
+            "id": "7babd122-3eac-424e-90ed-857e64d61de0"
+          }
+        ]
+      },
+      "id": "3f0f0c4b-f229-4c29-a25e-92f192992b89",
+      "data": {
+        "protoText": "Prepare the nitrocellulose membrane by wetting in 1X NuPAGE transfer buffer + 10% methanol"
+      },
+      "type": "textNode",
+      "zIndex": 5
+    },
+    {
+      "position": {
+        "x": 1238,
+        "y": 89
+      },
+      "size": {
+        "width": 220,
+        "height": 136
+      },
+      "view": "react-shape-view",
+      "shape": "custom-react-shape",
+      "ports": {
+        "groups": {
+          "top": {
+            "position": "top",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "right": {
+            "position": "right",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "bottom": {
+            "position": "bottom",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "left": {
+            "position": "left",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          }
+        },
+        "items": [
+          {
+            "group": "top",
+            "id": "6ea4b739-9e53-433a-abfc-61efacfc831e"
+          },
+          {
+            "group": "right",
+            "id": "56327058-04a4-477b-aeae-89155d215a0b"
+          },
+          {
+            "group": "bottom",
+            "id": "a211cf27-6e73-4f72-b056-b83413abf868"
+          },
+          {
+            "group": "left",
+            "id": "7babd122-3eac-424e-90ed-857e64d61de0"
+          }
+        ]
+      },
+      "id": "09302c0c-a3a1-4424-842a-6b1377355799",
+      "data": {
+        "protoText": "Prepare the transfer stack for the XCell II Blot Module according to manufacturers instructions and transfer proteins for 1 hour 15 minutes at 30V in 1X NuPAGE transfer buffer + 10% methanol"
+      },
+      "type": "textNode",
+      "zIndex": 6
+    },
+    {
+      "position": {
+        "x": 1532,
+        "y": 117
+      },
+      "size": {
+        "width": 160,
+        "height": 80
+      },
+      "view": "react-shape-view",
+      "shape": "custom-react-shape",
+      "ports": {
+        "groups": {
+          "top": {
+            "position": "top",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "right": {
+            "position": "right",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "bottom": {
+            "position": "bottom",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "left": {
+            "position": "left",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          }
+        },
+        "items": [
+          {
+            "group": "top",
+            "id": "6ea4b739-9e53-433a-abfc-61efacfc831e"
+          },
+          {
+            "group": "right",
+            "id": "56327058-04a4-477b-aeae-89155d215a0b"
+          },
+          {
+            "group": "bottom",
+            "id": "a211cf27-6e73-4f72-b056-b83413abf868"
+          },
+          {
+            "group": "left",
+            "id": "7babd122-3eac-424e-90ed-857e64d61de0"
+          }
+        ]
+      },
+      "id": "ebc20579-9ef5-488d-8b87-376b42f0d398",
+      "data": {
+        "protoText": "Remove nitrocellulose membrane from the transfer stack and rinse in PBST"
+      },
+      "type": "textNode",
+      "zIndex": 7
+    },
+    {
+      "position": {
+        "x": 1560,
+        "y": 340
+      },
+      "size": {
+        "width": 160,
+        "height": 100
+      },
+      "view": "react-shape-view",
+      "shape": "custom-react-shape",
+      "ports": {
+        "groups": {
+          "top": {
+            "position": "top",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "right": {
+            "position": "right",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "bottom": {
+            "position": "bottom",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "left": {
+            "position": "left",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          }
+        },
+        "items": [
+          {
+            "group": "top",
+            "id": "6ea4b739-9e53-433a-abfc-61efacfc831e"
+          },
+          {
+            "group": "right",
+            "id": "56327058-04a4-477b-aeae-89155d215a0b"
+          },
+          {
+            "group": "bottom",
+            "id": "a211cf27-6e73-4f72-b056-b83413abf868"
+          },
+          {
+            "group": "left",
+            "id": "7babd122-3eac-424e-90ed-857e64d61de0"
+          }
+        ]
+      },
+      "id": "d4ded1ed-816f-4607-8e20-f0b93e5a67ce",
+      "data": {
+        "protoText": "Block the membrane with Odyssey Blocking Buffer for 1 hour at room temperature with gentle agitation"
+      },
+      "type": "textNode",
+      "zIndex": 8
+    },
+    {
+      "position": {
+        "x": 1276,
+        "y": 322
+      },
+      "size": {
+        "width": 235,
+        "height": 136
+      },
+      "view": "react-shape-view",
+      "shape": "custom-react-shape",
+      "ports": {
+        "groups": {
+          "top": {
+            "position": "top",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "right": {
+            "position": "right",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "bottom": {
+            "position": "bottom",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "left": {
+            "position": "left",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          }
+        },
+        "items": [
+          {
+            "group": "top",
+            "id": "6ea4b739-9e53-433a-abfc-61efacfc831e"
+          },
+          {
+            "group": "right",
+            "id": "56327058-04a4-477b-aeae-89155d215a0b"
+          },
+          {
+            "group": "bottom",
+            "id": "a211cf27-6e73-4f72-b056-b83413abf868"
+          },
+          {
+            "group": "left",
+            "id": "7babd122-3eac-424e-90ed-857e64d61de0"
+          }
+        ]
+      },
+      "id": "d3b3cf83-0e61-46d2-930c-c55d9339f5e2",
+      "data": {
+        "protoText": "Incubate the membrane overnight at 4oC on a rocker with primary antibodies diluted in Odyssey Blocking Buffer + 0.1% Tween (mouse monoclonal anti-actin, 1:5000 and rabbit polyclonal anti-ERK, 1:1000)"
+      },
+      "type": "textNode",
+      "zIndex": 9
+    },
+    {
+      "position": {
+        "x": 1074,
+        "y": 350
+      },
+      "size": {
+        "width": 140,
+        "height": 80
+      },
+      "view": "react-shape-view",
+      "shape": "custom-react-shape",
+      "ports": {
+        "groups": {
+          "top": {
+            "position": "top",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "right": {
+            "position": "right",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "bottom": {
+            "position": "bottom",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "left": {
+            "position": "left",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          }
+        },
+        "items": [
+          {
+            "group": "top",
+            "id": "6ea4b739-9e53-433a-abfc-61efacfc831e"
+          },
+          {
+            "group": "right",
+            "id": "56327058-04a4-477b-aeae-89155d215a0b"
+          },
+          {
+            "group": "bottom",
+            "id": "a211cf27-6e73-4f72-b056-b83413abf868"
+          },
+          {
+            "group": "left",
+            "id": "7babd122-3eac-424e-90ed-857e64d61de0"
+          }
+        ]
+      },
+      "id": "0247b26a-b917-4407-ac3e-a3c80b74739f",
+      "data": {
+        "protoText": "Wash the membrane 4 times with PBST, 5 minutes each wash"
+      },
+      "type": "textNode",
+      "zIndex": 10
+    },
+    {
+      "position": {
+        "x": 812,
+        "y": 322
+      },
+      "size": {
+        "width": 205,
+        "height": 136
+      },
+      "view": "react-shape-view",
+      "shape": "custom-react-shape",
+      "ports": {
+        "groups": {
+          "top": {
+            "position": "top",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "right": {
+            "position": "right",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "bottom": {
+            "position": "bottom",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "left": {
+            "position": "left",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          }
+        },
+        "items": [
+          {
+            "group": "top",
+            "id": "6ea4b739-9e53-433a-abfc-61efacfc831e"
+          },
+          {
+            "group": "right",
+            "id": "56327058-04a4-477b-aeae-89155d215a0b"
+          },
+          {
+            "group": "bottom",
+            "id": "a211cf27-6e73-4f72-b056-b83413abf868"
+          },
+          {
+            "group": "left",
+            "id": "7babd122-3eac-424e-90ed-857e64d61de0"
+          }
+        ]
+      },
+      "id": "7d9e5664-c909-423f-b5ba-3bc034eafad1",
+      "data": {
+        "protoText": "Incubate the membrane with secondary antibodies diluted in Odyssey Blocking Buffer + 0.1% Tween for 1 hour at room temperature in the dark with gentle agitation"
+      },
+      "type": "textNode",
+      "zIndex": 11
+    },
+    {
+      "position": {
+        "x": 600,
+        "y": 350
+      },
+      "size": {
+        "width": 140,
+        "height": 80
+      },
+      "view": "react-shape-view",
+      "shape": "custom-react-shape",
+      "ports": {
+        "groups": {
+          "top": {
+            "position": "top",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "right": {
+            "position": "right",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "bottom": {
+            "position": "bottom",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "left": {
+            "position": "left",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          }
+        },
+        "items": [
+          {
+            "group": "top",
+            "id": "6ea4b739-9e53-433a-abfc-61efacfc831e"
+          },
+          {
+            "group": "right",
+            "id": "56327058-04a4-477b-aeae-89155d215a0b"
+          },
+          {
+            "group": "bottom",
+            "id": "a211cf27-6e73-4f72-b056-b83413abf868"
+          },
+          {
+            "group": "left",
+            "id": "7babd122-3eac-424e-90ed-857e64d61de0"
+          }
+        ]
+      },
+      "id": "b4d3190d-084a-4ec1-9805-61e5682c7a2c",
+      "data": {
+        "protoText": "Wash the membrane 3 times with PBST, 5 minutes each wash"
+      },
+      "type": "textNode",
+      "zIndex": 12
+    },
+    {
+      "position": {
+        "x": 380,
+        "y": 340
+      },
+      "size": {
+        "width": 145,
+        "height": 100
+      },
+      "view": "react-shape-view",
+      "shape": "custom-react-shape",
+      "ports": {
+        "groups": {
+          "top": {
+            "position": "top",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "right": {
+            "position": "right",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "bottom": {
+            "position": "bottom",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "left": {
+            "position": "left",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          }
+        },
+        "items": [
+          {
+            "group": "top",
+            "id": "6ea4b739-9e53-433a-abfc-61efacfc831e"
+          },
+          {
+            "group": "right",
+            "id": "56327058-04a4-477b-aeae-89155d215a0b"
+          },
+          {
+            "group": "bottom",
+            "id": "a211cf27-6e73-4f72-b056-b83413abf868"
+          },
+          {
+            "group": "left",
+            "id": "7babd122-3eac-424e-90ed-857e64d61de0"
+          }
+        ]
+      },
+      "id": "2c6e721c-c9a5-4571-9d21-835c5f776b0c",
+      "data": {
+        "protoText": "rinse the membrane with PBS alone before scanning or using the imaging system"
+      },
+      "type": "textNode",
+      "zIndex": 13
+    },
+    {
+      "position": {
+        "x": 60,
+        "y": 606
+      },
+      "size": {
+        "width": 120,
+        "height": 40
+      },
+      "view": "react-shape-view",
+      "shape": "custom-react-shape",
+      "ports": {
+        "groups": {
+          "top": {
+            "position": "top",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "right": {
+            "position": "right",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "bottom": {
+            "position": "bottom",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "left": {
+            "position": "left",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          }
+        },
+        "items": [
+          {
+            "group": "top",
+            "id": "b2259434-6306-4216-9053-3d08d69d6cae"
+          },
+          {
+            "group": "right",
+            "id": "c7146520-6d70-42c1-9320-5fc0f79f3a0d"
+          },
+          {
+            "group": "bottom",
+            "id": "1945a776-8653-407b-8d1f-d9d7c5c53c31"
+          },
+          {
+            "group": "left",
+            "id": "dcb724ef-681e-4768-a2a3-1adb29ca87be"
+          }
+        ]
+      },
+      "id": "08a05b3c-a3c0-46fe-8264-c47c6f6522da",
+      "data": {
+        "protoText": "Visualisation"
+      },
+      "type": "inputNode",
+      "zIndex": 14
+    },
+    {
+      "position": {
+        "x": 216,
+        "y": 558
+      },
+      "size": {
+        "width": 235,
+        "height": 136
+      },
+      "view": "react-shape-view",
+      "shape": "custom-react-shape",
+      "ports": {
+        "groups": {
+          "top": {
+            "position": "top",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "right": {
+            "position": "right",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "bottom": {
+            "position": "bottom",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "left": {
+            "position": "left",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          }
+        },
+        "items": [
+          {
+            "group": "top",
+            "id": "6ea4b739-9e53-433a-abfc-61efacfc831e"
+          },
+          {
+            "group": "right",
+            "id": "56327058-04a4-477b-aeae-89155d215a0b"
+          },
+          {
+            "group": "bottom",
+            "id": "a211cf27-6e73-4f72-b056-b83413abf868"
+          },
+          {
+            "group": "left",
+            "id": "7babd122-3eac-424e-90ed-857e64d61de0"
+          }
+        ]
+      },
+      "id": "987028cc-0dfe-45ad-b611-2c0b4cf829a4",
+      "data": {
+        "protoText": "G:BOX IR6 system settings for DyLight 680 are an Epi Red lighting and a Syngene 705M filter and for DyLight 800 are Epi LED IR740 lighting and a Syngene LY800 filter, 4x4 binning factor for both dyes"
+      },
+      "type": "textNode",
+      "zIndex": 15
+    },
+    {
+      "position": {
+        "x": 525,
+        "y": 558
+      },
+      "size": {
+        "width": 205,
+        "height": 136
+      },
+      "view": "react-shape-view",
+      "shape": "custom-react-shape",
+      "ports": {
+        "groups": {
+          "top": {
+            "position": "top",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "right": {
+            "position": "right",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "bottom": {
+            "position": "bottom",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "left": {
+            "position": "left",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          }
+        },
+        "items": [
+          {
+            "group": "top",
+            "id": "6ea4b739-9e53-433a-abfc-61efacfc831e"
+          },
+          {
+            "group": "right",
+            "id": "56327058-04a4-477b-aeae-89155d215a0b"
+          },
+          {
+            "group": "bottom",
+            "id": "a211cf27-6e73-4f72-b056-b83413abf868"
+          },
+          {
+            "group": "left",
+            "id": "7babd122-3eac-424e-90ed-857e64d61de0"
+          }
+        ]
+      },
+      "id": "4ae27f9f-55ee-4207-9c98-b002df6e5d23",
+      "data": {
+        "protoText": "Odyssey system settings are preset: membrane, resolution: 169 mm, quality: medium, focus offset: 0.0, intensity 4.5 for DyLight 680 and intensity 5 for DyLight 800"
+      },
+      "type": "textNode",
+      "zIndex": 16
+    },
+    {
+      "position": {
+        "x": 812,
+        "y": 540
+      },
+      "size": {
+        "width": 280,
+        "height": 172
+      },
+      "view": "react-shape-view",
+      "shape": "custom-react-shape",
+      "ports": {
+        "groups": {
+          "top": {
+            "position": "top",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "right": {
+            "position": "right",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "bottom": {
+            "position": "bottom",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "left": {
+            "position": "left",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          }
+        },
+        "items": [
+          {
+            "group": "top",
+            "id": "6ea4b739-9e53-433a-abfc-61efacfc831e"
+          },
+          {
+            "group": "right",
+            "id": "56327058-04a4-477b-aeae-89155d215a0b"
+          },
+          {
+            "group": "bottom",
+            "id": "a211cf27-6e73-4f72-b056-b83413abf868"
+          },
+          {
+            "group": "left",
+            "id": "7babd122-3eac-424e-90ed-857e64d61de0"
+          }
+        ]
+      },
+      "id": "b1ac96f4-ffb9-4968-837c-64616254f353",
+      "data": {
+        "protoText": "DyLight 680 is detected as red bands and DyLight 800 is detected as green bands 800nm window. The G:BOX IR6 and Odyssey imaging system can successfully multiplex between the DyLight 680 and DyLight 800 using the stated imaging conditions. The results from both systems show comparable sensitivity "
+      },
+      "type": "textNode",
+      "zIndex": 17
+    },
+    {
+      "position": {
+        "x": 295,
+        "y": 820
+      },
+      "size": {
+        "width": 280,
+        "height": 172
+      },
+      "view": "react-shape-view",
+      "shape": "custom-react-shape",
+      "ports": {
+        "groups": {
+          "top": {
+            "position": "top",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "right": {
+            "position": "right",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "bottom": {
+            "position": "bottom",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "left": {
+            "position": "left",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          }
+        },
+        "items": [
+          {
+            "group": "top",
+            "id": "6ea4b739-9e53-433a-abfc-61efacfc831e"
+          },
+          {
+            "group": "right",
+            "id": "56327058-04a4-477b-aeae-89155d215a0b"
+          },
+          {
+            "group": "bottom",
+            "id": "a211cf27-6e73-4f72-b056-b83413abf868"
+          },
+          {
+            "group": "left",
+            "id": "7babd122-3eac-424e-90ed-857e64d61de0"
+          }
+        ]
+      },
+      "id": "74cd8cdc-b2b9-4d65-b8f4-a543ed7f852f",
+      "data": {
+        "protoText": "To determine the linear range and LOD of each of the DyLight dyes, plot the amount of actin and ERK proteins loaded onto the gel against the Integrated Intensity (K counts mm2) for the Odyssey system using Odyssey software , and against raw volume (Signal Intensity) for G:BOX IR6 using the GeneTools software "
+      },
+      "type": "textNode",
+      "zIndex": 18
+    },
+    {
+      "position": {
+        "x": 30,
+        "y": 866
+      },
+      "size": {
+        "width": 180,
+        "height": 80
+      },
+      "view": "react-shape-view",
+      "shape": "custom-react-shape",
+      "ports": {
+        "groups": {
+          "top": {
+            "position": "top",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "right": {
+            "position": "right",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "bottom": {
+            "position": "bottom",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "left": {
+            "position": "left",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          }
+        },
+        "items": [
+          {
+            "group": "top",
+            "id": "b2259434-6306-4216-9053-3d08d69d6cae"
+          },
+          {
+            "group": "right",
+            "id": "c7146520-6d70-42c1-9320-5fc0f79f3a0d"
+          },
+          {
+            "group": "bottom",
+            "id": "1945a776-8653-407b-8d1f-d9d7c5c53c31"
+          },
+          {
+            "group": "left",
+            "id": "dcb724ef-681e-4768-a2a3-1adb29ca87be"
+          }
+        ]
+      },
+      "id": "ccc6f185-4e12-44fe-bc0c-426054c9d81c",
+      "data": {
+        "protoText": "Determining linear range and limit of detection (LOD)"
+      },
+      "type": "inputNode",
+      "zIndex": 19
+    },
+    {
+      "position": {
+        "x": 666,
+        "y": 856
+      },
+      "size": {
+        "width": 220,
+        "height": 100
+      },
+      "view": "react-shape-view",
+      "shape": "custom-react-shape",
+      "ports": {
+        "groups": {
+          "top": {
+            "position": "top",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "right": {
+            "position": "right",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "bottom": {
+            "position": "bottom",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "left": {
+            "position": "left",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          }
+        },
+        "items": [
+          {
+            "group": "top",
+            "id": "6ea4b739-9e53-433a-abfc-61efacfc831e"
+          },
+          {
+            "group": "right",
+            "id": "56327058-04a4-477b-aeae-89155d215a0b"
+          },
+          {
+            "group": "bottom",
+            "id": "a211cf27-6e73-4f72-b056-b83413abf868"
+          },
+          {
+            "group": "left",
+            "id": "7babd122-3eac-424e-90ed-857e64d61de0"
+          }
+        ]
+      },
+      "id": "ac047a2f-c23d-4caf-ae99-2980e174e31e",
+      "data": {
+        "protoText": "Using the Odyssey and G:BOX IR6 systems the DyLight 680 was linear over the following range (7.3-0.22\u00b5g) series dilution used in this experiment"
+      },
+      "type": "textNode",
+      "zIndex": 20
+    },
+    {
+      "position": {
+        "x": 968,
+        "y": 838
+      },
+      "size": {
+        "width": 235,
+        "height": 136
+      },
+      "view": "react-shape-view",
+      "shape": "custom-react-shape",
+      "ports": {
+        "groups": {
+          "top": {
+            "position": "top",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "right": {
+            "position": "right",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "bottom": {
+            "position": "bottom",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "left": {
+            "position": "left",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          }
+        },
+        "items": [
+          {
+            "group": "top",
+            "id": "6ea4b739-9e53-433a-abfc-61efacfc831e"
+          },
+          {
+            "group": "right",
+            "id": "56327058-04a4-477b-aeae-89155d215a0b"
+          },
+          {
+            "group": "bottom",
+            "id": "a211cf27-6e73-4f72-b056-b83413abf868"
+          },
+          {
+            "group": "left",
+            "id": "7babd122-3eac-424e-90ed-857e64d61de0"
+          }
+        ]
+      },
+      "id": "0ef2372c-aec6-469f-8ff4-4c1891d2266a",
+      "data": {
+        "protoText": "The DyLight 800 was linear with Odyssey and G:BOX IR6 systems over the dilution series used in this experiment. To compare the linearity of the data and to determine LOD ERK p44 (DyLight 800) was used."
+      },
+      "type": "textNode",
+      "zIndex": 21
+    },
+    {
+      "position": {
+        "x": 1297,
+        "y": 829
+      },
+      "size": {
+        "width": 235,
+        "height": 154
+      },
+      "view": "react-shape-view",
+      "shape": "custom-react-shape",
+      "ports": {
+        "groups": {
+          "top": {
+            "position": "top",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "right": {
+            "position": "right",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "bottom": {
+            "position": "bottom",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "left": {
+            "position": "left",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          }
+        },
+        "items": [
+          {
+            "group": "top",
+            "id": "6ea4b739-9e53-433a-abfc-61efacfc831e"
+          },
+          {
+            "group": "right",
+            "id": "56327058-04a4-477b-aeae-89155d215a0b"
+          },
+          {
+            "group": "bottom",
+            "id": "a211cf27-6e73-4f72-b056-b83413abf868"
+          },
+          {
+            "group": "left",
+            "id": "7babd122-3eac-424e-90ed-857e64d61de0"
+          }
+        ]
+      },
+      "id": "eeae705b-a4b3-4b77-b290-ba612bcd634b",
+      "data": {
+        "protoText": "The Odyssey system produces a linear range for ERK p44 with R2 value of 0.98 and has a LOD of 0.11\u00b5g .The G:BOX IR6 system produces a linear range for ERK p44 with R2 value of 0.98. The LOD with the G:BOX IR6 system is 0.11\u00b5g"
+      },
+      "type": "textNode",
+      "zIndex": 22
+    }
+  ]
+}

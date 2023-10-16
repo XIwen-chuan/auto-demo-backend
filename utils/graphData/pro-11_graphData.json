@@ -1,0 +1,884 @@
+{
+  "cells": [
+    {
+      "shape": "edge",
+      "attrs": {
+        "line": {
+          "stroke": "#A2B1C3"
+        }
+      },
+      "id": "7870eee3-1c7e-4edd-b5a5-9426b76b8fea",
+      "zIndex": 0,
+      "source": {
+        "cell": "51a1f6ac-333c-4f05-92e3-d0e5e03a133a",
+        "port": "9f661e80-21d6-4d64-ba97-ea381c90b0ce"
+      },
+      "target": {
+        "cell": "917e70bc-3e62-441a-ae23-c6ee541e7dd5",
+        "port": "80b04ee9-bdcb-4cd4-945e-129b75104a2b"
+      }
+    },
+    {
+      "shape": "edge",
+      "attrs": {
+        "line": {
+          "stroke": "#A2B1C3"
+        }
+      },
+      "id": "3484dcdd-c406-48f0-a00f-bb856e4a3658",
+      "zIndex": 0,
+      "source": {
+        "cell": "917e70bc-3e62-441a-ae23-c6ee541e7dd5",
+        "port": "9f661e80-21d6-4d64-ba97-ea381c90b0ce"
+      },
+      "target": {
+        "cell": "c0513ea5-8993-40b7-86ad-290380fc1b5a",
+        "port": "80b04ee9-bdcb-4cd4-945e-129b75104a2b"
+      }
+    },
+    {
+      "shape": "edge",
+      "attrs": {
+        "line": {
+          "stroke": "#A2B1C3"
+        }
+      },
+      "id": "d6bc7397-8acc-41db-a419-a1c37518a097",
+      "zIndex": 0,
+      "source": {
+        "cell": "c0513ea5-8993-40b7-86ad-290380fc1b5a",
+        "port": "9f661e80-21d6-4d64-ba97-ea381c90b0ce"
+      },
+      "target": {
+        "cell": "893df0ac-4ce9-4d82-b929-826ddfdbc033",
+        "port": "80b04ee9-bdcb-4cd4-945e-129b75104a2b"
+      }
+    },
+    {
+      "shape": "edge",
+      "attrs": {
+        "line": {
+          "stroke": "#A2B1C3"
+        }
+      },
+      "id": "4f05eb73-dce1-4eb6-a727-9bc22db222c8",
+      "zIndex": 0,
+      "source": {
+        "cell": "51a1f6ac-333c-4f05-92e3-d0e5e03a133a",
+        "port": "9f661e80-21d6-4d64-ba97-ea381c90b0ce"
+      },
+      "target": {
+        "cell": "00572acc-e930-4ff4-ac2d-228d20c95ace",
+        "port": "80b04ee9-bdcb-4cd4-945e-129b75104a2b"
+      }
+    },
+    {
+      "shape": "edge",
+      "attrs": {
+        "line": {
+          "stroke": "#A2B1C3"
+        }
+      },
+      "id": "9533e07f-1fa9-4c55-8706-c240202661f7",
+      "zIndex": 0,
+      "source": {
+        "cell": "00572acc-e930-4ff4-ac2d-228d20c95ace",
+        "port": "9f661e80-21d6-4d64-ba97-ea381c90b0ce"
+      },
+      "target": {
+        "cell": "507b739f-2ef5-461c-9fd5-211bc65b1874",
+        "port": "80b04ee9-bdcb-4cd4-945e-129b75104a2b"
+      }
+    },
+    {
+      "shape": "edge",
+      "attrs": {
+        "line": {
+          "stroke": "#A2B1C3"
+        }
+      },
+      "id": "8cb6595a-99fc-4528-9bd7-f330dd2cfc83",
+      "zIndex": 0,
+      "source": {
+        "cell": "507b739f-2ef5-461c-9fd5-211bc65b1874",
+        "port": "9f661e80-21d6-4d64-ba97-ea381c90b0ce"
+      },
+      "target": {
+        "cell": "62d1e052-0f7e-4d78-8759-e0470812d658",
+        "port": "80b04ee9-bdcb-4cd4-945e-129b75104a2b"
+      }
+    },
+    {
+      "shape": "edge",
+      "attrs": {
+        "line": {
+          "stroke": "#A2B1C3"
+        }
+      },
+      "id": "c041473e-ffb8-47f6-8ff8-b68a64fba2f2",
+      "zIndex": 0,
+      "source": {
+        "cell": "893df0ac-4ce9-4d82-b929-826ddfdbc033",
+        "port": "9f661e80-21d6-4d64-ba97-ea381c90b0ce"
+      },
+      "target": {
+        "cell": "62d1e052-0f7e-4d78-8759-e0470812d658",
+        "port": "6a4de22e-1e3d-4fe0-bec9-ac8f85c4cdaf"
+      }
+    },
+    {
+      "shape": "edge",
+      "attrs": {
+        "line": {
+          "stroke": "#A2B1C3"
+        }
+      },
+      "id": "904c3ec8-e51c-442d-9437-464cb44b94ea",
+      "zIndex": 0,
+      "source": {
+        "cell": "507b739f-2ef5-461c-9fd5-211bc65b1874",
+        "port": "9f661e80-21d6-4d64-ba97-ea381c90b0ce"
+      },
+      "target": {
+        "cell": "893df0ac-4ce9-4d82-b929-826ddfdbc033",
+        "port": "6f3e860e-f7c4-4d42-a56a-b1a38283d029"
+      }
+    },
+    {
+      "shape": "edge",
+      "attrs": {
+        "line": {
+          "stroke": "#A2B1C3"
+        }
+      },
+      "id": "416350b9-d3ae-4e06-851f-43b0e185ac83",
+      "zIndex": 0,
+      "source": {
+        "cell": "c0513ea5-8993-40b7-86ad-290380fc1b5a",
+        "port": "6f3e860e-f7c4-4d42-a56a-b1a38283d029"
+      },
+      "target": {
+        "cell": "00572acc-e930-4ff4-ac2d-228d20c95ace",
+        "port": "6a4de22e-1e3d-4fe0-bec9-ac8f85c4cdaf"
+      }
+    },
+    {
+      "shape": "edge",
+      "attrs": {
+        "line": {
+          "stroke": "#A2B1C3"
+        }
+      },
+      "id": "3b11de44-137a-4a98-9e51-87a0b2b5b8fd",
+      "zIndex": 0,
+      "source": {
+        "cell": "507b739f-2ef5-461c-9fd5-211bc65b1874",
+        "port": "6a4de22e-1e3d-4fe0-bec9-ac8f85c4cdaf"
+      },
+      "target": {
+        "cell": "917e70bc-3e62-441a-ae23-c6ee541e7dd5",
+        "port": "6f3e860e-f7c4-4d42-a56a-b1a38283d029"
+      }
+    },
+    {
+      "position": {
+        "x": 20,
+        "y": 100
+      },
+      "size": {
+        "width": 90,
+        "height": 56
+      },
+      "view": "react-shape-view",
+      "shape": "custom-react-shape",
+      "ports": {
+        "groups": {
+          "top": {
+            "position": "top",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "right": {
+            "position": "right",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "bottom": {
+            "position": "bottom",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "left": {
+            "position": "left",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          }
+        },
+        "items": [
+          {
+            "group": "top",
+            "id": "6a4de22e-1e3d-4fe0-bec9-ac8f85c4cdaf"
+          },
+          {
+            "group": "right",
+            "id": "9f661e80-21d6-4d64-ba97-ea381c90b0ce"
+          },
+          {
+            "group": "bottom",
+            "id": "6f3e860e-f7c4-4d42-a56a-b1a38283d029"
+          },
+          {
+            "group": "left",
+            "id": "80b04ee9-bdcb-4cd4-945e-129b75104a2b"
+          }
+        ]
+      },
+      "id": "51a1f6ac-333c-4f05-92e3-d0e5e03a133a",
+      "data": {
+        "protoText": "start point"
+      },
+      "type": "inputNode",
+      "zIndex": 1
+    },
+    {
+      "position": {
+        "x": 180,
+        "y": 48
+      },
+      "size": {
+        "width": 160,
+        "height": 80
+      },
+      "view": "react-shape-view",
+      "shape": "custom-react-shape",
+      "ports": {
+        "groups": {
+          "top": {
+            "position": "top",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "right": {
+            "position": "right",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "bottom": {
+            "position": "bottom",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "left": {
+            "position": "left",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          }
+        },
+        "items": [
+          {
+            "group": "top",
+            "id": "6a4de22e-1e3d-4fe0-bec9-ac8f85c4cdaf"
+          },
+          {
+            "group": "right",
+            "id": "9f661e80-21d6-4d64-ba97-ea381c90b0ce"
+          },
+          {
+            "group": "bottom",
+            "id": "6f3e860e-f7c4-4d42-a56a-b1a38283d029"
+          },
+          {
+            "group": "left",
+            "id": "80b04ee9-bdcb-4cd4-945e-129b75104a2b"
+          }
+        ]
+      },
+      "id": "917e70bc-3e62-441a-ae23-c6ee541e7dd5",
+      "data": {
+        "protoText": "add LB_medium_powder into flask"
+      },
+      "type": "inputNode",
+      "zIndex": 2
+    },
+    {
+      "position": {
+        "x": 403,
+        "y": 51
+      },
+      "size": {
+        "width": 130,
+        "height": 74
+      },
+      "view": "react-shape-view",
+      "shape": "custom-react-shape",
+      "ports": {
+        "groups": {
+          "top": {
+            "position": "top",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "right": {
+            "position": "right",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "bottom": {
+            "position": "bottom",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "left": {
+            "position": "left",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          }
+        },
+        "items": [
+          {
+            "group": "top",
+            "id": "6a4de22e-1e3d-4fe0-bec9-ac8f85c4cdaf"
+          },
+          {
+            "group": "right",
+            "id": "9f661e80-21d6-4d64-ba97-ea381c90b0ce"
+          },
+          {
+            "group": "bottom",
+            "id": "6f3e860e-f7c4-4d42-a56a-b1a38283d029"
+          },
+          {
+            "group": "left",
+            "id": "80b04ee9-bdcb-4cd4-945e-129b75104a2b"
+          }
+        ]
+      },
+      "id": "c0513ea5-8993-40b7-86ad-290380fc1b5a",
+      "data": {
+        "protoText": "add dd_water into graduated cylinder"
+      },
+      "type": "inputNode",
+      "zIndex": 3
+    },
+    {
+      "position": {
+        "x": 560,
+        "y": 51
+      },
+      "size": {
+        "width": 110,
+        "height": 74
+      },
+      "view": "react-shape-view",
+      "shape": "custom-react-shape",
+      "ports": {
+        "groups": {
+          "top": {
+            "position": "top",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "right": {
+            "position": "right",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "bottom": {
+            "position": "bottom",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "left": {
+            "position": "left",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          }
+        },
+        "items": [
+          {
+            "group": "top",
+            "id": "6a4de22e-1e3d-4fe0-bec9-ac8f85c4cdaf"
+          },
+          {
+            "group": "right",
+            "id": "9f661e80-21d6-4d64-ba97-ea381c90b0ce"
+          },
+          {
+            "group": "bottom",
+            "id": "6f3e860e-f7c4-4d42-a56a-b1a38283d029"
+          },
+          {
+            "group": "left",
+            "id": "80b04ee9-bdcb-4cd4-945e-129b75104a2b"
+          }
+        ]
+      },
+      "id": "893df0ac-4ce9-4d82-b929-826ddfdbc033",
+      "data": {
+        "protoText": "add dd_water into flask"
+      },
+      "type": "inputNode",
+      "zIndex": 4
+    },
+    {
+      "position": {
+        "x": 205,
+        "y": 188
+      },
+      "size": {
+        "width": 110,
+        "height": 56
+      },
+      "view": "react-shape-view",
+      "shape": "custom-react-shape",
+      "ports": {
+        "groups": {
+          "top": {
+            "position": "top",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "right": {
+            "position": "right",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "bottom": {
+            "position": "bottom",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "left": {
+            "position": "left",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          }
+        },
+        "items": [
+          {
+            "group": "top",
+            "id": "6a4de22e-1e3d-4fe0-bec9-ac8f85c4cdaf"
+          },
+          {
+            "group": "right",
+            "id": "9f661e80-21d6-4d64-ba97-ea381c90b0ce"
+          },
+          {
+            "group": "bottom",
+            "id": "6f3e860e-f7c4-4d42-a56a-b1a38283d029"
+          },
+          {
+            "group": "left",
+            "id": "80b04ee9-bdcb-4cd4-945e-129b75104a2b"
+          }
+        ]
+      },
+      "id": "00572acc-e930-4ff4-ac2d-228d20c95ace",
+      "data": {
+        "protoText": "weigh agar_powder "
+      },
+      "type": "inputNode",
+      "zIndex": 5
+    },
+    {
+      "position": {
+        "x": 360,
+        "y": 186
+      },
+      "size": {
+        "width": 140,
+        "height": 60
+      },
+      "view": "react-shape-view",
+      "shape": "custom-react-shape",
+      "ports": {
+        "groups": {
+          "top": {
+            "position": "top",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "right": {
+            "position": "right",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "bottom": {
+            "position": "bottom",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "left": {
+            "position": "left",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          }
+        },
+        "items": [
+          {
+            "group": "top",
+            "id": "6a4de22e-1e3d-4fe0-bec9-ac8f85c4cdaf"
+          },
+          {
+            "group": "right",
+            "id": "9f661e80-21d6-4d64-ba97-ea381c90b0ce"
+          },
+          {
+            "group": "bottom",
+            "id": "6f3e860e-f7c4-4d42-a56a-b1a38283d029"
+          },
+          {
+            "group": "left",
+            "id": "80b04ee9-bdcb-4cd4-945e-129b75104a2b"
+          }
+        ]
+      },
+      "id": "507b739f-2ef5-461c-9fd5-211bc65b1874",
+      "data": {
+        "protoText": "add agar_powder into flask"
+      },
+      "type": "inputNode",
+      "zIndex": 6
+    },
+    {
+      "position": {
+        "x": 660,
+        "y": 179
+      },
+      "size": {
+        "width": 130,
+        "height": 74
+      },
+      "view": "react-shape-view",
+      "shape": "custom-react-shape",
+      "ports": {
+        "groups": {
+          "top": {
+            "position": "top",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "right": {
+            "position": "right",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "bottom": {
+            "position": "bottom",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "left": {
+            "position": "left",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          }
+        },
+        "items": [
+          {
+            "group": "top",
+            "id": "6a4de22e-1e3d-4fe0-bec9-ac8f85c4cdaf"
+          },
+          {
+            "group": "right",
+            "id": "9f661e80-21d6-4d64-ba97-ea381c90b0ce"
+          },
+          {
+            "group": "bottom",
+            "id": "6f3e860e-f7c4-4d42-a56a-b1a38283d029"
+          },
+          {
+            "group": "left",
+            "id": "80b04ee9-bdcb-4cd4-945e-129b75104a2b"
+          }
+        ]
+      },
+      "id": "62d1e052-0f7e-4d78-8759-e0470812d658",
+      "data": {
+        "protoText": "mix and invert the mixture"
+      },
+      "type": "inputNode",
+      "zIndex": 7
+    }
+  ]
+}

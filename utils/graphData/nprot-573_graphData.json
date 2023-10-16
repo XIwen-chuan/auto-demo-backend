@@ -1,0 +1,812 @@
+{
+  "cells": [
+    {
+      "shape": "edge",
+      "attrs": {
+        "line": {
+          "stroke": "#A2B1C3"
+        }
+      },
+      "id": "8216ccbb-c650-4811-8517-4d0c3ffd163b",
+      "zIndex": 0,
+      "source": {
+        "cell": "08f8f1ca-6221-4e61-862c-402bde394f52",
+        "port": "d2bdfe86-63ee-4898-9be7-73895fe19e87"
+      },
+      "target": {
+        "cell": "728a09b8-d418-401a-adca-b11523fe791b",
+        "port": "cf1b0b5a-91a8-4165-9f2a-00c7f9254a82"
+      }
+    },
+    {
+      "shape": "edge",
+      "attrs": {
+        "line": {
+          "stroke": "#A2B1C3"
+        }
+      },
+      "id": "51643621-4ef3-41ee-9458-1a1ffdd6fe4b",
+      "zIndex": 0,
+      "source": {
+        "cell": "728a09b8-d418-401a-adca-b11523fe791b",
+        "port": "d2bdfe86-63ee-4898-9be7-73895fe19e87"
+      },
+      "target": {
+        "cell": "1cd36d1b-9fd8-44c3-8acb-d9574ec86927",
+        "port": "cf1b0b5a-91a8-4165-9f2a-00c7f9254a82"
+      }
+    },
+    {
+      "shape": "edge",
+      "attrs": {
+        "line": {
+          "stroke": "#A2B1C3"
+        }
+      },
+      "id": "e4eea9a2-988e-435b-b89c-51d825e96402",
+      "zIndex": 0,
+      "source": {
+        "cell": "1cd36d1b-9fd8-44c3-8acb-d9574ec86927",
+        "port": "d2bdfe86-63ee-4898-9be7-73895fe19e87"
+      },
+      "target": {
+        "cell": "ee78db30-4a46-49ff-b5d8-294da3d4b5fe",
+        "port": "cf1b0b5a-91a8-4165-9f2a-00c7f9254a82"
+      }
+    },
+    {
+      "shape": "edge",
+      "attrs": {
+        "line": {
+          "stroke": "#A2B1C3"
+        }
+      },
+      "id": "f0d5834b-7cf5-4d07-ad4d-f63e6c1adafd",
+      "zIndex": 0,
+      "source": {
+        "cell": "ee78db30-4a46-49ff-b5d8-294da3d4b5fe",
+        "port": "d2bdfe86-63ee-4898-9be7-73895fe19e87"
+      },
+      "target": {
+        "cell": "fc3aac7e-5969-4735-b2ff-ec4bc3cd5fc7",
+        "port": "cf1b0b5a-91a8-4165-9f2a-00c7f9254a82"
+      }
+    },
+    {
+      "shape": "edge",
+      "attrs": {
+        "line": {
+          "stroke": "#A2B1C3"
+        }
+      },
+      "id": "9d21ffe9-903f-4817-b7d7-98dcdb4bcacf",
+      "zIndex": 0,
+      "source": {
+        "cell": "fc3aac7e-5969-4735-b2ff-ec4bc3cd5fc7",
+        "port": "c3249140-0734-435d-9585-fb3495a57634"
+      },
+      "target": {
+        "cell": "3c58e269-61af-43cc-af74-ba4d1c34f68b",
+        "port": "b01555e1-5035-40c6-a253-398aa3a2c475"
+      }
+    },
+    {
+      "shape": "edge",
+      "attrs": {
+        "line": {
+          "stroke": "#A2B1C3"
+        }
+      },
+      "id": "0433789d-de50-43c9-beba-53fe9bb12a8b",
+      "zIndex": 0,
+      "source": {
+        "cell": "3c58e269-61af-43cc-af74-ba4d1c34f68b",
+        "port": "cf1b0b5a-91a8-4165-9f2a-00c7f9254a82"
+      },
+      "target": {
+        "cell": "07433167-7650-40be-80cb-c8f4cd5f10a3",
+        "port": "d2bdfe86-63ee-4898-9be7-73895fe19e87"
+      }
+    },
+    {
+      "position": {
+        "x": 40,
+        "y": 20
+      },
+      "size": {
+        "width": 175,
+        "height": 118
+      },
+      "view": "react-shape-view",
+      "shape": "custom-react-shape",
+      "ports": {
+        "groups": {
+          "top": {
+            "position": "top",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "right": {
+            "position": "right",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "bottom": {
+            "position": "bottom",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "left": {
+            "position": "left",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          }
+        },
+        "items": [
+          {
+            "group": "top",
+            "id": "b01555e1-5035-40c6-a253-398aa3a2c475"
+          },
+          {
+            "group": "right",
+            "id": "d2bdfe86-63ee-4898-9be7-73895fe19e87"
+          },
+          {
+            "group": "bottom",
+            "id": "c3249140-0734-435d-9585-fb3495a57634"
+          },
+          {
+            "group": "left",
+            "id": "cf1b0b5a-91a8-4165-9f2a-00c7f9254a82"
+          }
+        ]
+      },
+      "id": "08f8f1ca-6221-4e61-862c-402bde394f52",
+      "data": {
+        "protoText": "Extract total RNA from at least 2 x 106 cells using TRIZOL reagent and the appropriate RNeasy RNA extraction kit"
+      },
+      "type": "textNode",
+      "zIndex": 1
+    },
+    {
+      "position": {
+        "x": 300,
+        "y": 20
+      },
+      "size": {
+        "width": 190,
+        "height": 118
+      },
+      "view": "react-shape-view",
+      "shape": "custom-react-shape",
+      "ports": {
+        "groups": {
+          "top": {
+            "position": "top",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "right": {
+            "position": "right",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "bottom": {
+            "position": "bottom",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "left": {
+            "position": "left",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          }
+        },
+        "items": [
+          {
+            "group": "top",
+            "id": "b01555e1-5035-40c6-a253-398aa3a2c475"
+          },
+          {
+            "group": "right",
+            "id": "d2bdfe86-63ee-4898-9be7-73895fe19e87"
+          },
+          {
+            "group": "bottom",
+            "id": "c3249140-0734-435d-9585-fb3495a57634"
+          },
+          {
+            "group": "left",
+            "id": "cf1b0b5a-91a8-4165-9f2a-00c7f9254a82"
+          }
+        ]
+      },
+      "id": "728a09b8-d418-401a-adca-b11523fe791b",
+      "data": {
+        "protoText": "Reverse-transcribe 60 ng of total RNA with a High-capacity cDNA Reverse Transcription kit in a reaction volume of 200 microl"
+      },
+      "type": "textNode",
+      "zIndex": 2
+    },
+    {
+      "position": {
+        "x": 538,
+        "y": 11
+      },
+      "size": {
+        "width": 220,
+        "height": 136
+      },
+      "view": "react-shape-view",
+      "shape": "custom-react-shape",
+      "ports": {
+        "groups": {
+          "top": {
+            "position": "top",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "right": {
+            "position": "right",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "bottom": {
+            "position": "bottom",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "left": {
+            "position": "left",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          }
+        },
+        "items": [
+          {
+            "group": "top",
+            "id": "b01555e1-5035-40c6-a253-398aa3a2c475"
+          },
+          {
+            "group": "right",
+            "id": "d2bdfe86-63ee-4898-9be7-73895fe19e87"
+          },
+          {
+            "group": "bottom",
+            "id": "c3249140-0734-435d-9585-fb3495a57634"
+          },
+          {
+            "group": "left",
+            "id": "cf1b0b5a-91a8-4165-9f2a-00c7f9254a82"
+          }
+        ]
+      },
+      "id": "1cd36d1b-9fd8-44c3-8acb-d9574ec86927",
+      "data": {
+        "protoText": "Prepare a reaction mix \\(25 \u03bcl) according to the following recipe: 2X Sybr Green PCR Master Mix - 12,5 microl 1 \u03bcM primer mix - 2,5 microl cDNA \\(5 ng/microl) - 2 microl water - 8 microl"
+      },
+      "type": "textNode",
+      "zIndex": 3
+    },
+    {
+      "position": {
+        "x": 798,
+        "y": 38
+      },
+      "size": {
+        "width": 145,
+        "height": 100
+      },
+      "view": "react-shape-view",
+      "shape": "custom-react-shape",
+      "ports": {
+        "groups": {
+          "top": {
+            "position": "top",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "right": {
+            "position": "right",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "bottom": {
+            "position": "bottom",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "left": {
+            "position": "left",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          }
+        },
+        "items": [
+          {
+            "group": "top",
+            "id": "b01555e1-5035-40c6-a253-398aa3a2c475"
+          },
+          {
+            "group": "right",
+            "id": "d2bdfe86-63ee-4898-9be7-73895fe19e87"
+          },
+          {
+            "group": "bottom",
+            "id": "c3249140-0734-435d-9585-fb3495a57634"
+          },
+          {
+            "group": "left",
+            "id": "cf1b0b5a-91a8-4165-9f2a-00c7f9254a82"
+          }
+        ]
+      },
+      "id": "ee78db30-4a46-49ff-b5d8-294da3d4b5fe",
+      "data": {
+        "protoText": "Perform Real-Time PCR on 10 ng of cDNA using a Power Sybr Green PCR Master MIX"
+      },
+      "type": "textNode",
+      "zIndex": 4
+    },
+    {
+      "position": {
+        "x": 980,
+        "y": 11
+      },
+      "size": {
+        "width": 220,
+        "height": 136
+      },
+      "view": "react-shape-view",
+      "shape": "custom-react-shape",
+      "ports": {
+        "groups": {
+          "top": {
+            "position": "top",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "right": {
+            "position": "right",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "bottom": {
+            "position": "bottom",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "left": {
+            "position": "left",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          }
+        },
+        "items": [
+          {
+            "group": "top",
+            "id": "b01555e1-5035-40c6-a253-398aa3a2c475"
+          },
+          {
+            "group": "right",
+            "id": "d2bdfe86-63ee-4898-9be7-73895fe19e87"
+          },
+          {
+            "group": "bottom",
+            "id": "c3249140-0734-435d-9585-fb3495a57634"
+          },
+          {
+            "group": "left",
+            "id": "cf1b0b5a-91a8-4165-9f2a-00c7f9254a82"
+          }
+        ]
+      },
+      "id": "fc3aac7e-5969-4735-b2ff-ec4bc3cd5fc7",
+      "data": {
+        "protoText": "Start the ampli\u0000cation procedure according to the following standard 7500 run protocol: 50\u00b0C \\(2min) - 95\u00b0C \\(10min) - 95\u00b0C \\ (15sec), 60\u00b0C \\(1min), 40 cycles - 95\u00b0C \\(15sec), 60\u00b0C"
+      },
+      "type": "textNode",
+      "zIndex": 5
+    },
+    {
+      "position": {
+        "x": 980,
+        "y": 200
+      },
+      "size": {
+        "width": 190,
+        "height": 118
+      },
+      "view": "react-shape-view",
+      "shape": "custom-react-shape",
+      "ports": {
+        "groups": {
+          "top": {
+            "position": "top",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "right": {
+            "position": "right",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "bottom": {
+            "position": "bottom",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "left": {
+            "position": "left",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          }
+        },
+        "items": [
+          {
+            "group": "top",
+            "id": "b01555e1-5035-40c6-a253-398aa3a2c475"
+          },
+          {
+            "group": "right",
+            "id": "d2bdfe86-63ee-4898-9be7-73895fe19e87"
+          },
+          {
+            "group": "bottom",
+            "id": "c3249140-0734-435d-9585-fb3495a57634"
+          },
+          {
+            "group": "left",
+            "id": "cf1b0b5a-91a8-4165-9f2a-00c7f9254a82"
+          }
+        ]
+      },
+      "id": "3c58e269-61af-43cc-af74-ba4d1c34f68b",
+      "data": {
+        "protoText": "Perform a dissociation assay to evaluate any problem related to primer unspeci\u0000c annealing or secondary structure formation"
+      },
+      "type": "textNode",
+      "zIndex": 6
+    },
+    {
+      "position": {
+        "x": 782,
+        "y": 218
+      },
+      "size": {
+        "width": 115,
+        "height": 82
+      },
+      "view": "react-shape-view",
+      "shape": "custom-react-shape",
+      "ports": {
+        "groups": {
+          "top": {
+            "position": "top",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "right": {
+            "position": "right",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "bottom": {
+            "position": "bottom",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "left": {
+            "position": "left",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          }
+        },
+        "items": [
+          {
+            "group": "top",
+            "id": "b01555e1-5035-40c6-a253-398aa3a2c475"
+          },
+          {
+            "group": "right",
+            "id": "d2bdfe86-63ee-4898-9be7-73895fe19e87"
+          },
+          {
+            "group": "bottom",
+            "id": "c3249140-0734-435d-9585-fb3495a57634"
+          },
+          {
+            "group": "left",
+            "id": "cf1b0b5a-91a8-4165-9f2a-00c7f9254a82"
+          }
+        ]
+      },
+      "id": "07433167-7650-40be-80cb-c8f4cd5f10a3",
+      "data": {
+        "protoText": "Analyze data with built-in SDS Analysis Software."
+      },
+      "type": "textNode",
+      "zIndex": 7
+    }
+  ]
+}

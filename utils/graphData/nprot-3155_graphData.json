@@ -1,0 +1,1284 @@
+{
+  "cells": [
+    {
+      "shape": "edge",
+      "attrs": {
+        "line": {
+          "stroke": "#A2B1C3"
+        }
+      },
+      "id": "adf81a4f-61c1-43be-bc4c-0c3b913afb34",
+      "zIndex": 0,
+      "source": {
+        "cell": "5cac3809-503b-4050-bb99-a9910836432b",
+        "port": "a4d5ad4d-baf0-45fc-89aa-fcf8c842e5ae"
+      },
+      "target": {
+        "cell": "c2d8e18d-2626-47fa-a043-2a2c6d12f9de",
+        "port": "00c8e83b-dcbd-46bc-bbb0-7ba06f3d2389"
+      }
+    },
+    {
+      "shape": "edge",
+      "attrs": {
+        "line": {
+          "stroke": "#A2B1C3"
+        }
+      },
+      "id": "01621cde-fbc1-4632-be18-caf0a716b6d6",
+      "zIndex": 0,
+      "source": {
+        "cell": "c2d8e18d-2626-47fa-a043-2a2c6d12f9de",
+        "port": "a4d5ad4d-baf0-45fc-89aa-fcf8c842e5ae"
+      },
+      "target": {
+        "cell": "9e1c3ef0-7eb6-476d-b09f-e2b440199608",
+        "port": "00c8e83b-dcbd-46bc-bbb0-7ba06f3d2389"
+      }
+    },
+    {
+      "shape": "edge",
+      "attrs": {
+        "line": {
+          "stroke": "#A2B1C3"
+        }
+      },
+      "id": "9a4ea732-85ad-4c8e-be71-f3a7cc31aa1a",
+      "zIndex": 0,
+      "source": {
+        "cell": "9e1c3ef0-7eb6-476d-b09f-e2b440199608",
+        "port": "a4d5ad4d-baf0-45fc-89aa-fcf8c842e5ae"
+      },
+      "target": {
+        "cell": "5639dc2d-ca82-4dfb-94f3-0b609e4f21f2",
+        "port": "00c8e83b-dcbd-46bc-bbb0-7ba06f3d2389"
+      }
+    },
+    {
+      "shape": "edge",
+      "attrs": {
+        "line": {
+          "stroke": "#A2B1C3"
+        }
+      },
+      "id": "47db957b-7030-47b8-9679-874d5154d79c",
+      "zIndex": 0,
+      "source": {
+        "cell": "5639dc2d-ca82-4dfb-94f3-0b609e4f21f2",
+        "port": "a4d5ad4d-baf0-45fc-89aa-fcf8c842e5ae"
+      },
+      "target": {
+        "cell": "a674dafa-060b-465e-9074-86344bc73cef",
+        "port": "00c8e83b-dcbd-46bc-bbb0-7ba06f3d2389"
+      }
+    },
+    {
+      "shape": "edge",
+      "attrs": {
+        "line": {
+          "stroke": "#A2B1C3"
+        }
+      },
+      "id": "6a420f60-2167-4192-a06e-f60d16ce299e",
+      "zIndex": 0,
+      "source": {
+        "cell": "a674dafa-060b-465e-9074-86344bc73cef",
+        "port": "a4d5ad4d-baf0-45fc-89aa-fcf8c842e5ae"
+      },
+      "target": {
+        "cell": "2fd293a5-deaa-4b7d-91ad-dfa12d96bd54",
+        "port": "00c8e83b-dcbd-46bc-bbb0-7ba06f3d2389"
+      }
+    },
+    {
+      "shape": "edge",
+      "attrs": {
+        "line": {
+          "stroke": "#A2B1C3"
+        }
+      },
+      "id": "afd66f3a-2a61-4a36-a397-f15c3817e515",
+      "zIndex": 0,
+      "source": {
+        "cell": "2fd293a5-deaa-4b7d-91ad-dfa12d96bd54",
+        "port": "88d08580-2faf-4c0e-b463-a6e617f0cb2c"
+      },
+      "target": {
+        "cell": "1ef936a1-59e2-43c2-9bf6-e23c3cc8a689",
+        "port": "a77f328d-7965-4efe-9010-6fbc3d93028e"
+      }
+    },
+    {
+      "shape": "edge",
+      "attrs": {
+        "line": {
+          "stroke": "#A2B1C3"
+        }
+      },
+      "id": "4e7e6ff8-253b-4b27-93e8-e4fdb2158868",
+      "zIndex": 0,
+      "source": {
+        "cell": "1ef936a1-59e2-43c2-9bf6-e23c3cc8a689",
+        "port": "00c8e83b-dcbd-46bc-bbb0-7ba06f3d2389"
+      },
+      "target": {
+        "cell": "18a8bdde-3473-45ec-a6fc-8c57092d766a",
+        "port": "a4d5ad4d-baf0-45fc-89aa-fcf8c842e5ae"
+      }
+    },
+    {
+      "shape": "edge",
+      "attrs": {
+        "line": {
+          "stroke": "#A2B1C3"
+        }
+      },
+      "id": "12abbb08-a2be-4e59-ab45-cd2550cb0a8e",
+      "zIndex": 0,
+      "source": {
+        "cell": "18a8bdde-3473-45ec-a6fc-8c57092d766a",
+        "port": "00c8e83b-dcbd-46bc-bbb0-7ba06f3d2389"
+      },
+      "target": {
+        "cell": "80a98823-2cf5-400a-9bbb-fd7f7db92175",
+        "port": "a4d5ad4d-baf0-45fc-89aa-fcf8c842e5ae"
+      }
+    },
+    {
+      "shape": "edge",
+      "attrs": {
+        "line": {
+          "stroke": "#A2B1C3"
+        }
+      },
+      "id": "782b795f-889d-4bf1-a0a7-17b4819323ad",
+      "zIndex": 0,
+      "source": {
+        "cell": "80a98823-2cf5-400a-9bbb-fd7f7db92175",
+        "port": "00c8e83b-dcbd-46bc-bbb0-7ba06f3d2389"
+      },
+      "target": {
+        "cell": "068ba054-b11f-4b61-981c-c030561dab4b",
+        "port": "a4d5ad4d-baf0-45fc-89aa-fcf8c842e5ae"
+      }
+    },
+    {
+      "shape": "edge",
+      "attrs": {
+        "line": {
+          "stroke": "#A2B1C3"
+        }
+      },
+      "id": "e166d450-dfed-4efc-88b6-258b77aca1f5",
+      "zIndex": 0,
+      "source": {
+        "cell": "068ba054-b11f-4b61-981c-c030561dab4b",
+        "port": "00c8e83b-dcbd-46bc-bbb0-7ba06f3d2389"
+      },
+      "target": {
+        "cell": "684c50d9-f064-4916-bcd5-279dd2a9aceb",
+        "port": "a4d5ad4d-baf0-45fc-89aa-fcf8c842e5ae"
+      }
+    },
+    {
+      "position": {
+        "x": 20,
+        "y": 40
+      },
+      "size": {
+        "width": 190,
+        "height": 118
+      },
+      "view": "react-shape-view",
+      "shape": "custom-react-shape",
+      "ports": {
+        "groups": {
+          "top": {
+            "position": "top",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "right": {
+            "position": "right",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "bottom": {
+            "position": "bottom",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "left": {
+            "position": "left",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          }
+        },
+        "items": [
+          {
+            "group": "top",
+            "id": "a77f328d-7965-4efe-9010-6fbc3d93028e"
+          },
+          {
+            "group": "right",
+            "id": "a4d5ad4d-baf0-45fc-89aa-fcf8c842e5ae"
+          },
+          {
+            "group": "bottom",
+            "id": "88d08580-2faf-4c0e-b463-a6e617f0cb2c"
+          },
+          {
+            "group": "left",
+            "id": "00c8e83b-dcbd-46bc-bbb0-7ba06f3d2389"
+          }
+        ]
+      },
+      "id": "5cac3809-503b-4050-bb99-a9910836432b",
+      "data": {
+        "protoText": "The Au-coated SPR chip was cleaned by incubating with 90 \u03bcL of 1% \\(w/v) KOH for 5 min followed by extensive washing with DIW"
+      },
+      "type": "textNode",
+      "zIndex": 1
+    },
+    {
+      "position": {
+        "x": 256,
+        "y": 49
+      },
+      "size": {
+        "width": 160,
+        "height": 100
+      },
+      "view": "react-shape-view",
+      "shape": "custom-react-shape",
+      "ports": {
+        "groups": {
+          "top": {
+            "position": "top",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "right": {
+            "position": "right",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "bottom": {
+            "position": "bottom",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "left": {
+            "position": "left",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          }
+        },
+        "items": [
+          {
+            "group": "top",
+            "id": "a77f328d-7965-4efe-9010-6fbc3d93028e"
+          },
+          {
+            "group": "right",
+            "id": "a4d5ad4d-baf0-45fc-89aa-fcf8c842e5ae"
+          },
+          {
+            "group": "bottom",
+            "id": "88d08580-2faf-4c0e-b463-a6e617f0cb2c"
+          },
+          {
+            "group": "left",
+            "id": "00c8e83b-dcbd-46bc-bbb0-7ba06f3d2389"
+          }
+        ]
+      },
+      "id": "c2d8e18d-2626-47fa-a043-2a2c6d12f9de",
+      "data": {
+        "protoText": "The capture anti-HFA antibody \\(200 \u03bcg mL-1) was mixed with 1% APTES in the ratio of 1:1 v/v"
+      },
+      "type": "textNode",
+      "zIndex": 2
+    },
+    {
+      "position": {
+        "x": 465,
+        "y": 31
+      },
+      "size": {
+        "width": 220,
+        "height": 136
+      },
+      "view": "react-shape-view",
+      "shape": "custom-react-shape",
+      "ports": {
+        "groups": {
+          "top": {
+            "position": "top",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "right": {
+            "position": "right",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "bottom": {
+            "position": "bottom",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "left": {
+            "position": "left",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          }
+        },
+        "items": [
+          {
+            "group": "top",
+            "id": "a77f328d-7965-4efe-9010-6fbc3d93028e"
+          },
+          {
+            "group": "right",
+            "id": "a4d5ad4d-baf0-45fc-89aa-fcf8c842e5ae"
+          },
+          {
+            "group": "bottom",
+            "id": "88d08580-2faf-4c0e-b463-a6e617f0cb2c"
+          },
+          {
+            "group": "left",
+            "id": "00c8e83b-dcbd-46bc-bbb0-7ba06f3d2389"
+          }
+        ]
+      },
+      "id": "9e1c3ef0-7eb6-476d-b09f-e2b440199608",
+      "data": {
+        "protoText": "Ninety microliters of this capture anti-HFA Ab solution, with a \u0000final concentration of 100 \u03bcg mL-1 in 0.5% APTES, was dispensed onto the Au chip and incubated for 30 min at RT in the fume hood"
+      },
+      "type": "textNode",
+      "zIndex": 3
+    },
+    {
+      "position": {
+        "x": 740,
+        "y": 40
+      },
+      "size": {
+        "width": 190,
+        "height": 118
+      },
+      "view": "react-shape-view",
+      "shape": "custom-react-shape",
+      "ports": {
+        "groups": {
+          "top": {
+            "position": "top",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "right": {
+            "position": "right",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "bottom": {
+            "position": "bottom",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "left": {
+            "position": "left",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          }
+        },
+        "items": [
+          {
+            "group": "top",
+            "id": "a77f328d-7965-4efe-9010-6fbc3d93028e"
+          },
+          {
+            "group": "right",
+            "id": "a4d5ad4d-baf0-45fc-89aa-fcf8c842e5ae"
+          },
+          {
+            "group": "bottom",
+            "id": "88d08580-2faf-4c0e-b463-a6e617f0cb2c"
+          },
+          {
+            "group": "left",
+            "id": "00c8e83b-dcbd-46bc-bbb0-7ba06f3d2389"
+          }
+        ]
+      },
+      "id": "5639dc2d-ca82-4dfb-94f3-0b609e4f21f2",
+      "data": {
+        "protoText": "The anti-HFA antibody- bound Au SPR chip was washed extensively with 10 mM HBS, pH 7.4.It was then docked into Biacore 3000 and primed"
+      },
+      "type": "textNode",
+      "zIndex": 4
+    },
+    {
+      "position": {
+        "x": 987,
+        "y": 40
+      },
+      "size": {
+        "width": 205,
+        "height": 118
+      },
+      "view": "react-shape-view",
+      "shape": "custom-react-shape",
+      "ports": {
+        "groups": {
+          "top": {
+            "position": "top",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "right": {
+            "position": "right",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "bottom": {
+            "position": "bottom",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "left": {
+            "position": "left",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          }
+        },
+        "items": [
+          {
+            "group": "top",
+            "id": "a77f328d-7965-4efe-9010-6fbc3d93028e"
+          },
+          {
+            "group": "right",
+            "id": "a4d5ad4d-baf0-45fc-89aa-fcf8c842e5ae"
+          },
+          {
+            "group": "bottom",
+            "id": "88d08580-2faf-4c0e-b463-a6e617f0cb2c"
+          },
+          {
+            "group": "left",
+            "id": "00c8e83b-dcbd-46bc-bbb0-7ba06f3d2389"
+          }
+        ]
+      },
+      "id": "a674dafa-060b-465e-9074-86344bc73cef",
+      "data": {
+        "protoText": "Twenty microliters of 1% \\(w/v) BSA was then injected over all four \u0000flow cells of anti-HFA antibody-bound Au SPR chip at a \u0000flow rate of 10 \u03bcL min-1"
+      },
+      "type": "textNode",
+      "zIndex": 5
+    },
+    {
+      "position": {
+        "x": 1241,
+        "y": 49
+      },
+      "size": {
+        "width": 160,
+        "height": 100
+      },
+      "view": "react-shape-view",
+      "shape": "custom-react-shape",
+      "ports": {
+        "groups": {
+          "top": {
+            "position": "top",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "right": {
+            "position": "right",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "bottom": {
+            "position": "bottom",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "left": {
+            "position": "left",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          }
+        },
+        "items": [
+          {
+            "group": "top",
+            "id": "a77f328d-7965-4efe-9010-6fbc3d93028e"
+          },
+          {
+            "group": "right",
+            "id": "a4d5ad4d-baf0-45fc-89aa-fcf8c842e5ae"
+          },
+          {
+            "group": "bottom",
+            "id": "88d08580-2faf-4c0e-b463-a6e617f0cb2c"
+          },
+          {
+            "group": "left",
+            "id": "00c8e83b-dcbd-46bc-bbb0-7ba06f3d2389"
+          }
+        ]
+      },
+      "id": "2fd293a5-deaa-4b7d-91ad-dfa12d96bd54",
+      "data": {
+        "protoText": "The procedure blocked the non-speci\u0000c binding sites on the anti-HFA Ab-bound Au SPR chip"
+      },
+      "type": "textNode",
+      "zIndex": 6
+    },
+    {
+      "position": {
+        "x": 1167,
+        "y": 199.99999999999994
+      },
+      "size": {
+        "width": 260,
+        "height": 140
+      },
+      "view": "react-shape-view",
+      "shape": "custom-react-shape",
+      "ports": {
+        "groups": {
+          "top": {
+            "position": "top",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "right": {
+            "position": "right",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "bottom": {
+            "position": "bottom",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "left": {
+            "position": "left",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          }
+        },
+        "items": [
+          {
+            "group": "top",
+            "id": "a77f328d-7965-4efe-9010-6fbc3d93028e"
+          },
+          {
+            "group": "right",
+            "id": "a4d5ad4d-baf0-45fc-89aa-fcf8c842e5ae"
+          },
+          {
+            "group": "bottom",
+            "id": "88d08580-2faf-4c0e-b463-a6e617f0cb2c"
+          },
+          {
+            "group": "left",
+            "id": "00c8e83b-dcbd-46bc-bbb0-7ba06f3d2389"
+          }
+        ]
+      },
+      "id": "1ef936a1-59e2-43c2-9bf6-e23c3cc8a689",
+      "data": {
+        "protoText": "Fifty microliters of the running buffer \\(10 mM HBS, pH 7.4) was passed through all \u0000flow cells before HFA capture and the resultant changes in SPR response units \\(RU), corresponding to blanks, were recorded."
+      },
+      "type": "textNode",
+      "zIndex": 7
+    },
+    {
+      "position": {
+        "x": 840,
+        "y": 199.99999999999994
+      },
+      "size": {
+        "width": 280,
+        "height": 172
+      },
+      "view": "react-shape-view",
+      "shape": "custom-react-shape",
+      "ports": {
+        "groups": {
+          "top": {
+            "position": "top",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "right": {
+            "position": "right",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "bottom": {
+            "position": "bottom",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "left": {
+            "position": "left",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          }
+        },
+        "items": [
+          {
+            "group": "top",
+            "id": "a77f328d-7965-4efe-9010-6fbc3d93028e"
+          },
+          {
+            "group": "right",
+            "id": "a4d5ad4d-baf0-45fc-89aa-fcf8c842e5ae"
+          },
+          {
+            "group": "bottom",
+            "id": "88d08580-2faf-4c0e-b463-a6e617f0cb2c"
+          },
+          {
+            "group": "left",
+            "id": "00c8e83b-dcbd-46bc-bbb0-7ba06f3d2389"
+          }
+        ]
+      },
+      "id": "18a8bdde-3473-45ec-a6fc-8c57092d766a",
+      "data": {
+        "protoText": "Fifty microliters of HFA at seven different concentrations \\(0.3, 0.6, 1.2, 2.5, 5.0, 10.0 and 20.0 ng mL-1) were passed through the fl\u0000ow cells of an Ab-bound SPR chip in consecutive HFA detection cycles, where the Ab-bound SPR chip surface was regenerated after each analysis by treatment with 10 mM glycine- HCl, pH 2.0"
+      },
+      "type": "textNode",
+      "zIndex": 8
+    },
+    {
+      "position": {
+        "x": 607,
+        "y": 221.99999999999994
+      },
+      "size": {
+        "width": 175,
+        "height": 118
+      },
+      "view": "react-shape-view",
+      "shape": "custom-react-shape",
+      "ports": {
+        "groups": {
+          "top": {
+            "position": "top",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "right": {
+            "position": "right",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "bottom": {
+            "position": "bottom",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "left": {
+            "position": "left",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          }
+        },
+        "items": [
+          {
+            "group": "top",
+            "id": "a77f328d-7965-4efe-9010-6fbc3d93028e"
+          },
+          {
+            "group": "right",
+            "id": "a4d5ad4d-baf0-45fc-89aa-fcf8c842e5ae"
+          },
+          {
+            "group": "bottom",
+            "id": "88d08580-2faf-4c0e-b463-a6e617f0cb2c"
+          },
+          {
+            "group": "left",
+            "id": "00c8e83b-dcbd-46bc-bbb0-7ba06f3d2389"
+          }
+        ]
+      },
+      "id": "80a98823-2cf5-400a-9bbb-fd7f7db92175",
+      "data": {
+        "protoText": "The RU values obtained for blanks were subtracted from the RU values for HFA detected in the respective \u0000flow cells."
+      },
+      "type": "textNode",
+      "zIndex": 9
+    },
+    {
+      "position": {
+        "x": 360,
+        "y": 217.99999999999994
+      },
+      "size": {
+        "width": 205,
+        "height": 136
+      },
+      "view": "react-shape-view",
+      "shape": "custom-react-shape",
+      "ports": {
+        "groups": {
+          "top": {
+            "position": "top",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "right": {
+            "position": "right",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "bottom": {
+            "position": "bottom",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "left": {
+            "position": "left",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          }
+        },
+        "items": [
+          {
+            "group": "top",
+            "id": "a77f328d-7965-4efe-9010-6fbc3d93028e"
+          },
+          {
+            "group": "right",
+            "id": "a4d5ad4d-baf0-45fc-89aa-fcf8c842e5ae"
+          },
+          {
+            "group": "bottom",
+            "id": "88d08580-2faf-4c0e-b463-a6e617f0cb2c"
+          },
+          {
+            "group": "left",
+            "id": "00c8e83b-dcbd-46bc-bbb0-7ba06f3d2389"
+          }
+        ]
+      },
+      "id": "068ba054-b11f-4b61-981c-c030561dab4b",
+      "data": {
+        "protoText": "The SPR-based HFA detection curves were plotted with SigmaPlot software, version 11.2 using standard curve analysis based on a four parameter logistic function"
+      },
+      "type": "textNode",
+      "zIndex": 10
+    },
+    {
+      "position": {
+        "x": 148,
+        "y": 239.99999999999994
+      },
+      "size": {
+        "width": 175,
+        "height": 100
+      },
+      "view": "react-shape-view",
+      "shape": "custom-react-shape",
+      "ports": {
+        "groups": {
+          "top": {
+            "position": "top",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "right": {
+            "position": "right",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "bottom": {
+            "position": "bottom",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "left": {
+            "position": "left",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          }
+        },
+        "items": [
+          {
+            "group": "top",
+            "id": "a77f328d-7965-4efe-9010-6fbc3d93028e"
+          },
+          {
+            "group": "right",
+            "id": "a4d5ad4d-baf0-45fc-89aa-fcf8c842e5ae"
+          },
+          {
+            "group": "bottom",
+            "id": "88d08580-2faf-4c0e-b463-a6e617f0cb2c"
+          },
+          {
+            "group": "left",
+            "id": "00c8e83b-dcbd-46bc-bbb0-7ba06f3d2389"
+          }
+        ]
+      },
+      "id": "684c50d9-f064-4916-bcd5-279dd2a9aceb",
+      "data": {
+        "protoText": "The analytical parameters such as EC50 and Hillslope were generated by the software analysis report.\n"
+      },
+      "type": "textNode",
+      "zIndex": 11
+    }
+  ]
+}

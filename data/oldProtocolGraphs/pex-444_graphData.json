@@ -1,0 +1,322 @@
+{
+  "cells": [
+    {
+      "shape": "edge",
+      "attrs": {
+        "line": {
+          "stroke": "#A2B1C3"
+        }
+      },
+      "id": "a2110897-33f0-4235-ba8c-2e48f4f2ba1a",
+      "zIndex": 0,
+      "source": {
+        "cell": "c335cc1b-b5b4-4739-9052-ad766cf14082",
+        "port": "4ea01d0d-b1d3-415e-9421-66b8f33fbb9e"
+      },
+      "target": {
+        "cell": "254a8725-5763-4e02-a1c1-337bbfa6a9ed",
+        "port": "847a75c3-0e11-4e79-b7d7-d41d64821149"
+      }
+    },
+    {
+      "position": {
+        "x": 20,
+        "y": 60.000000000000085
+      },
+      "size": {
+        "width": 240,
+        "height": 80
+      },
+      "view": "react-shape-view",
+      "shape": "custom-react-shape",
+      "ports": {
+        "groups": {
+          "top": {
+            "position": "top",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "right": {
+            "position": "right",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "bottom": {
+            "position": "bottom",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "left": {
+            "position": "left",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          }
+        },
+        "items": [
+          {
+            "group": "top",
+            "id": "94558b00-f608-4473-b41b-b3a6dcc2b127"
+          },
+          {
+            "group": "right",
+            "id": "4ea01d0d-b1d3-415e-9421-66b8f33fbb9e"
+          },
+          {
+            "group": "bottom",
+            "id": "abf03403-2cf3-458d-83db-1ce7372952f8"
+          },
+          {
+            "group": "left",
+            "id": "847a75c3-0e11-4e79-b7d7-d41d64821149"
+          }
+        ]
+      },
+      "id": "c335cc1b-b5b4-4739-9052-ad766cf14082",
+      "data": {
+        "protoText": "Download ProteoCombiner by clicking on the Download button at https://proteocombiner.pasteur.fr."
+      },
+      "type": "textNode",
+      "zIndex": 1
+    },
+    {
+      "position": {
+        "x": 300,
+        "y": 60.000000000000085
+      },
+      "size": {
+        "width": 180,
+        "height": 80
+      },
+      "view": "react-shape-view",
+      "shape": "custom-react-shape",
+      "ports": {
+        "groups": {
+          "top": {
+            "position": "top",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "right": {
+            "position": "right",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "bottom": {
+            "position": "bottom",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "left": {
+            "position": "left",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          }
+        },
+        "items": [
+          {
+            "group": "top",
+            "id": "94558b00-f608-4473-b41b-b3a6dcc2b127"
+          },
+          {
+            "group": "right",
+            "id": "4ea01d0d-b1d3-415e-9421-66b8f33fbb9e"
+          },
+          {
+            "group": "bottom",
+            "id": "abf03403-2cf3-458d-83db-1ce7372952f8"
+          },
+          {
+            "group": "left",
+            "id": "847a75c3-0e11-4e79-b7d7-d41d64821149"
+          }
+        ]
+      },
+      "id": "254a8725-5763-4e02-a1c1-337bbfa6a9ed",
+      "data": {
+        "protoText": "The following workflow demonstrates how to combine proteomics data using ProteoCombiner"
+      },
+      "type": "textNode",
+      "zIndex": 2
+    },
+    {
+      "position": {
+        "x": 528,
+        "y": 65
+      },
+      "size": {
+        "width": 150,
+        "height": 70
+      },
+      "view": "react-shape-view",
+      "shape": "custom-react-shape",
+      "ports": {
+        "groups": {
+          "top": {
+            "position": "top",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "right": {
+            "position": "right",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "bottom": {
+            "position": "bottom",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "left": {
+            "position": "left",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          }
+        },
+        "items": [
+          {
+            "group": "top",
+            "id": "94558b00-f608-4473-b41b-b3a6dcc2b127"
+          },
+          {
+            "group": "right",
+            "id": "4ea01d0d-b1d3-415e-9421-66b8f33fbb9e"
+          },
+          {
+            "group": "bottom",
+            "id": "abf03403-2cf3-458d-83db-1ce7372952f8"
+          },
+          {
+            "group": "left",
+            "id": "847a75c3-0e11-4e79-b7d7-d41d64821149"
+          }
+        ]
+      },
+      "id": "59856880-50a2-4d73-ab0b-06b7e11b24a3",
+      "data": {
+        "protoText": "Protocol text..."
+      },
+      "type": "textNode",
+      "zIndex": 3
+    }
+  ]
+}

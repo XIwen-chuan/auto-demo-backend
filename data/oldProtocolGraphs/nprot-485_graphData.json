@@ -1,0 +1,2110 @@
+{
+  "cells": [
+    {
+      "shape": "edge",
+      "attrs": {
+        "line": {
+          "stroke": "#A2B1C3"
+        }
+      },
+      "id": "2e69b1a4-afa4-4e2a-bfa2-5a2e61cd9feb",
+      "zIndex": 0,
+      "source": {
+        "cell": "254d194c-15df-4d57-b9b9-fb42db69d4a3",
+        "port": "a90a6396-f159-47d5-877a-bfab2a9d4393"
+      },
+      "target": {
+        "cell": "800235fd-df50-489c-8ecf-f2d81ba3cc08",
+        "port": "5c7ec349-8b8c-4b2a-a7bd-930bdb637b8f"
+      }
+    },
+    {
+      "shape": "edge",
+      "attrs": {
+        "line": {
+          "stroke": "#A2B1C3"
+        }
+      },
+      "id": "246d8ab4-be66-4da1-9296-ceeb11f647a9",
+      "zIndex": 0,
+      "source": {
+        "cell": "800235fd-df50-489c-8ecf-f2d81ba3cc08",
+        "port": "a90a6396-f159-47d5-877a-bfab2a9d4393"
+      },
+      "target": {
+        "cell": "0b5431bf-f444-4160-88c2-9d3b9142dbc3",
+        "port": "5c7ec349-8b8c-4b2a-a7bd-930bdb637b8f"
+      }
+    },
+    {
+      "shape": "edge",
+      "attrs": {
+        "line": {
+          "stroke": "#A2B1C3"
+        }
+      },
+      "id": "d05fbcaf-f873-430b-b6f1-fd76dfe5ed8a",
+      "zIndex": 0,
+      "source": {
+        "cell": "0b5431bf-f444-4160-88c2-9d3b9142dbc3",
+        "port": "a90a6396-f159-47d5-877a-bfab2a9d4393"
+      },
+      "target": {
+        "cell": "14d2edfb-1784-45c7-8a9a-b6b663d5ef53",
+        "port": "5c7ec349-8b8c-4b2a-a7bd-930bdb637b8f"
+      }
+    },
+    {
+      "shape": "edge",
+      "attrs": {
+        "line": {
+          "stroke": "#A2B1C3"
+        }
+      },
+      "id": "fbb2be6f-bc23-48f0-b858-3f283f203afc",
+      "zIndex": 0,
+      "source": {
+        "cell": "14d2edfb-1784-45c7-8a9a-b6b663d5ef53",
+        "port": "a90a6396-f159-47d5-877a-bfab2a9d4393"
+      },
+      "target": {
+        "cell": "ad8d496b-6018-4f52-9f5d-cfc69632b094",
+        "port": "5c7ec349-8b8c-4b2a-a7bd-930bdb637b8f"
+      }
+    },
+    {
+      "shape": "edge",
+      "attrs": {
+        "line": {
+          "stroke": "#A2B1C3"
+        }
+      },
+      "id": "a7b3b795-38a7-43e2-a9b0-8c09a825c72e",
+      "zIndex": 0,
+      "source": {
+        "cell": "ad8d496b-6018-4f52-9f5d-cfc69632b094",
+        "port": "a90a6396-f159-47d5-877a-bfab2a9d4393"
+      },
+      "target": {
+        "cell": "d47ef078-7571-4ad3-aa74-2ea6aff0673c",
+        "port": "5c7ec349-8b8c-4b2a-a7bd-930bdb637b8f"
+      }
+    },
+    {
+      "shape": "edge",
+      "attrs": {
+        "line": {
+          "stroke": "#A2B1C3"
+        }
+      },
+      "id": "6b3d6b52-45db-4d20-92d2-5db41ecb87a0",
+      "zIndex": 0,
+      "source": {
+        "cell": "d47ef078-7571-4ad3-aa74-2ea6aff0673c",
+        "port": "a90a6396-f159-47d5-877a-bfab2a9d4393"
+      },
+      "target": {
+        "cell": "6d717e2d-21a5-4da2-9fba-5bda7b7fa1cf",
+        "port": "a90a6396-f159-47d5-877a-bfab2a9d4393"
+      }
+    },
+    {
+      "shape": "edge",
+      "attrs": {
+        "line": {
+          "stroke": "#A2B1C3"
+        }
+      },
+      "id": "b8a9df78-3f62-4acc-91b0-a5bee9842131",
+      "zIndex": 0,
+      "source": {
+        "cell": "6d717e2d-21a5-4da2-9fba-5bda7b7fa1cf",
+        "port": "5c7ec349-8b8c-4b2a-a7bd-930bdb637b8f"
+      },
+      "target": {
+        "cell": "f2c87a3e-bb19-4ca0-97e2-f8b7f04389ca",
+        "port": "a90a6396-f159-47d5-877a-bfab2a9d4393"
+      }
+    },
+    {
+      "shape": "edge",
+      "attrs": {
+        "line": {
+          "stroke": "#A2B1C3"
+        }
+      },
+      "id": "cf41db77-b9e5-4776-be9a-c8609c07bb47",
+      "zIndex": 0,
+      "source": {
+        "cell": "f2c87a3e-bb19-4ca0-97e2-f8b7f04389ca",
+        "port": "5c7ec349-8b8c-4b2a-a7bd-930bdb637b8f"
+      },
+      "target": {
+        "cell": "81cdb6f8-3210-490d-946c-d514653be9e9",
+        "port": "a90a6396-f159-47d5-877a-bfab2a9d4393"
+      }
+    },
+    {
+      "shape": "edge",
+      "attrs": {
+        "line": {
+          "stroke": "#A2B1C3"
+        }
+      },
+      "id": "8c53cd8f-448c-47a3-a791-b649ddceab27",
+      "zIndex": 0,
+      "source": {
+        "cell": "81cdb6f8-3210-490d-946c-d514653be9e9",
+        "port": "5c7ec349-8b8c-4b2a-a7bd-930bdb637b8f"
+      },
+      "target": {
+        "cell": "21ffb171-9902-47a7-8e7f-d23e33c75b07",
+        "port": "a90a6396-f159-47d5-877a-bfab2a9d4393"
+      }
+    },
+    {
+      "shape": "edge",
+      "attrs": {
+        "line": {
+          "stroke": "#A2B1C3"
+        }
+      },
+      "id": "37d5a6da-cd3c-4ab6-a0fb-355cc26aaa69",
+      "zIndex": 0,
+      "source": {
+        "cell": "21ffb171-9902-47a7-8e7f-d23e33c75b07",
+        "port": "5c7ec349-8b8c-4b2a-a7bd-930bdb637b8f"
+      },
+      "target": {
+        "cell": "9ce882a0-ed4c-42fe-82d9-cf28c0a0dc11",
+        "port": "a90a6396-f159-47d5-877a-bfab2a9d4393"
+      }
+    },
+    {
+      "shape": "edge",
+      "attrs": {
+        "line": {
+          "stroke": "#A2B1C3"
+        }
+      },
+      "id": "3316517b-ee01-4679-87f7-2a3005e1c1ca",
+      "zIndex": 0,
+      "source": {
+        "cell": "9ce882a0-ed4c-42fe-82d9-cf28c0a0dc11",
+        "port": "5c7ec349-8b8c-4b2a-a7bd-930bdb637b8f"
+      },
+      "target": {
+        "cell": "ce8902f5-4bf3-4667-92d8-13a769c78054",
+        "port": "a90a6396-f159-47d5-877a-bfab2a9d4393"
+      }
+    },
+    {
+      "shape": "edge",
+      "attrs": {
+        "line": {
+          "stroke": "#A2B1C3"
+        }
+      },
+      "id": "d719f9fe-0d0e-4f2b-a40a-6688edbafa56",
+      "zIndex": 0,
+      "source": {
+        "cell": "ce8902f5-4bf3-4667-92d8-13a769c78054",
+        "port": "5c7ec349-8b8c-4b2a-a7bd-930bdb637b8f"
+      },
+      "target": {
+        "cell": "a89e0b93-a7af-49b0-96b3-34149f090268",
+        "port": "a90a6396-f159-47d5-877a-bfab2a9d4393"
+      }
+    },
+    {
+      "shape": "edge",
+      "attrs": {
+        "line": {
+          "stroke": "#A2B1C3"
+        }
+      },
+      "id": "304c5819-c927-406e-8d17-542898e9f25d",
+      "zIndex": 0,
+      "source": {
+        "cell": "a89e0b93-a7af-49b0-96b3-34149f090268",
+        "port": "5c7ec349-8b8c-4b2a-a7bd-930bdb637b8f"
+      },
+      "target": {
+        "cell": "23de72f8-8533-41f7-9341-cfa07a986a0f",
+        "port": "5c7ec349-8b8c-4b2a-a7bd-930bdb637b8f"
+      }
+    },
+    {
+      "shape": "edge",
+      "attrs": {
+        "line": {
+          "stroke": "#A2B1C3"
+        }
+      },
+      "id": "ec28bdbe-4c0c-4d2c-87f5-6b6d5b0b2fc4",
+      "zIndex": 0,
+      "source": {
+        "cell": "23de72f8-8533-41f7-9341-cfa07a986a0f",
+        "port": "a90a6396-f159-47d5-877a-bfab2a9d4393"
+      },
+      "target": {
+        "cell": "af017547-1e55-43ab-a1fc-1bbdf2c0944e",
+        "port": "5c7ec349-8b8c-4b2a-a7bd-930bdb637b8f"
+      }
+    },
+    {
+      "shape": "edge",
+      "attrs": {
+        "line": {
+          "stroke": "#A2B1C3"
+        }
+      },
+      "id": "ac724277-fa1a-4ccb-9784-08d267a114ee",
+      "zIndex": 0,
+      "source": {
+        "cell": "af017547-1e55-43ab-a1fc-1bbdf2c0944e",
+        "port": "a90a6396-f159-47d5-877a-bfab2a9d4393"
+      },
+      "target": {
+        "cell": "1b78893a-3516-49f9-bd77-1acf960c9c40",
+        "port": "5c7ec349-8b8c-4b2a-a7bd-930bdb637b8f"
+      }
+    },
+    {
+      "shape": "edge",
+      "attrs": {
+        "line": {
+          "stroke": "#A2B1C3"
+        }
+      },
+      "id": "9cfea25d-108c-477d-929f-ef4b5c252bdf",
+      "zIndex": 0,
+      "source": {
+        "cell": "1b78893a-3516-49f9-bd77-1acf960c9c40",
+        "port": "a90a6396-f159-47d5-877a-bfab2a9d4393"
+      },
+      "target": {
+        "cell": "0dcac5be-794b-4531-b655-8d1db3984e3b",
+        "port": "5c7ec349-8b8c-4b2a-a7bd-930bdb637b8f"
+      }
+    },
+    {
+      "shape": "edge",
+      "attrs": {
+        "line": {
+          "stroke": "#A2B1C3"
+        }
+      },
+      "id": "a997fe1b-c4cf-413a-817f-b1ccc55450d4",
+      "zIndex": 0,
+      "source": {
+        "cell": "0dcac5be-794b-4531-b655-8d1db3984e3b",
+        "port": "a90a6396-f159-47d5-877a-bfab2a9d4393"
+      },
+      "target": {
+        "cell": "08a46eaa-1acf-4ff0-bdc8-e8f053429203",
+        "port": "5c7ec349-8b8c-4b2a-a7bd-930bdb637b8f"
+      }
+    },
+    {
+      "position": {
+        "x": 39.99999999999997,
+        "y": 40.00000000000007
+      },
+      "size": {
+        "width": 180,
+        "height": 100
+      },
+      "view": "react-shape-view",
+      "shape": "custom-react-shape",
+      "ports": {
+        "groups": {
+          "top": {
+            "position": "top",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "right": {
+            "position": "right",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "bottom": {
+            "position": "bottom",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "left": {
+            "position": "left",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          }
+        },
+        "items": [
+          {
+            "group": "top",
+            "id": "384411a0-f68f-451b-929e-d53a21d3d446"
+          },
+          {
+            "group": "right",
+            "id": "a90a6396-f159-47d5-877a-bfab2a9d4393"
+          },
+          {
+            "group": "bottom",
+            "id": "89af1aef-f163-4c04-93d3-9ab1b5621989"
+          },
+          {
+            "group": "left",
+            "id": "5c7ec349-8b8c-4b2a-a7bd-930bdb637b8f"
+          }
+        ]
+      },
+      "id": "254d194c-15df-4d57-b9b9-fb42db69d4a3",
+      "data": {
+        "protoText": "Use one month-old mice. To minimize diurnal variation start isolation of hepatocytes in the morning (10-11a.m.)."
+      },
+      "type": "textNode",
+      "zIndex": 1
+    },
+    {
+      "position": {
+        "x": 257,
+        "y": 40.00000000000007
+      },
+      "size": {
+        "width": 145,
+        "height": 100
+      },
+      "view": "react-shape-view",
+      "shape": "custom-react-shape",
+      "ports": {
+        "groups": {
+          "top": {
+            "position": "top",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "right": {
+            "position": "right",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "bottom": {
+            "position": "bottom",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "left": {
+            "position": "left",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          }
+        },
+        "items": [
+          {
+            "group": "top",
+            "id": "384411a0-f68f-451b-929e-d53a21d3d446"
+          },
+          {
+            "group": "right",
+            "id": "a90a6396-f159-47d5-877a-bfab2a9d4393"
+          },
+          {
+            "group": "bottom",
+            "id": "89af1aef-f163-4c04-93d3-9ab1b5621989"
+          },
+          {
+            "group": "left",
+            "id": "5c7ec349-8b8c-4b2a-a7bd-930bdb637b8f"
+          }
+        ]
+      },
+      "id": "800235fd-df50-489c-8ecf-f2d81ba3cc08",
+      "data": {
+        "protoText": "Anaesthetise mice by intraperitoneal injection of 200 \u03bcl of Cloralium Hydrate"
+      },
+      "type": "textNode",
+      "zIndex": 2
+    },
+    {
+      "position": {
+        "x": 440,
+        "y": 22.00000000000007
+      },
+      "size": {
+        "width": 220,
+        "height": 136
+      },
+      "view": "react-shape-view",
+      "shape": "custom-react-shape",
+      "ports": {
+        "groups": {
+          "top": {
+            "position": "top",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "right": {
+            "position": "right",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "bottom": {
+            "position": "bottom",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "left": {
+            "position": "left",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          }
+        },
+        "items": [
+          {
+            "group": "top",
+            "id": "384411a0-f68f-451b-929e-d53a21d3d446"
+          },
+          {
+            "group": "right",
+            "id": "a90a6396-f159-47d5-877a-bfab2a9d4393"
+          },
+          {
+            "group": "bottom",
+            "id": "89af1aef-f163-4c04-93d3-9ab1b5621989"
+          },
+          {
+            "group": "left",
+            "id": "5c7ec349-8b8c-4b2a-a7bd-930bdb637b8f"
+          }
+        ]
+      },
+      "id": "0b5431bf-f444-4160-88c2-9d3b9142dbc3",
+      "data": {
+        "protoText": "Insert the cannula in the portal vein and start perfusion with T1 solution pH 7.4. As soon as the perfusion is started, immediately cut the hepatic vein to allow perfusate to run as a waste."
+      },
+      "type": "textNode",
+      "zIndex": 3
+    },
+    {
+      "position": {
+        "x": 712,
+        "y": 40.00000000000007
+      },
+      "size": {
+        "width": 160,
+        "height": 100
+      },
+      "view": "react-shape-view",
+      "shape": "custom-react-shape",
+      "ports": {
+        "groups": {
+          "top": {
+            "position": "top",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "right": {
+            "position": "right",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "bottom": {
+            "position": "bottom",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "left": {
+            "position": "left",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          }
+        },
+        "items": [
+          {
+            "group": "top",
+            "id": "384411a0-f68f-451b-929e-d53a21d3d446"
+          },
+          {
+            "group": "right",
+            "id": "a90a6396-f159-47d5-877a-bfab2a9d4393"
+          },
+          {
+            "group": "bottom",
+            "id": "89af1aef-f163-4c04-93d3-9ab1b5621989"
+          },
+          {
+            "group": "left",
+            "id": "5c7ec349-8b8c-4b2a-a7bd-930bdb637b8f"
+          }
+        ]
+      },
+      "id": "14d2edfb-1784-45c7-8a9a-b6b663d5ef53",
+      "data": {
+        "protoText": "Flow rate is 5 ml/min. Perfuse liver for 15-20 minutes to remove completely the blood in each lobe"
+      },
+      "type": "textNode",
+      "zIndex": 4
+    },
+    {
+      "position": {
+        "x": 930,
+        "y": 4.000000000000071
+      },
+      "size": {
+        "width": 280,
+        "height": 172
+      },
+      "view": "react-shape-view",
+      "shape": "custom-react-shape",
+      "ports": {
+        "groups": {
+          "top": {
+            "position": "top",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "right": {
+            "position": "right",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "bottom": {
+            "position": "bottom",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "left": {
+            "position": "left",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          }
+        },
+        "items": [
+          {
+            "group": "top",
+            "id": "384411a0-f68f-451b-929e-d53a21d3d446"
+          },
+          {
+            "group": "right",
+            "id": "a90a6396-f159-47d5-877a-bfab2a9d4393"
+          },
+          {
+            "group": "bottom",
+            "id": "89af1aef-f163-4c04-93d3-9ab1b5621989"
+          },
+          {
+            "group": "left",
+            "id": "5c7ec349-8b8c-4b2a-a7bd-930bdb637b8f"
+          }
+        ]
+      },
+      "id": "ad8d496b-6018-4f52-9f5d-cfc69632b094",
+      "data": {
+        "protoText": "Perfuse the liver with T2 solution pH 7.4. At this stage the hepatic tissue is rapidly disaggregated. Collect the tissue with a curved spatula and transfer into a plate where the disruption of the tissue is proceeded with a scalpel. This step should be fast in order to avoid damage of hepatocytes."
+      },
+      "type": "textNode",
+      "zIndex": 5
+    },
+    {
+      "position": {
+        "x": 1282,
+        "y": 49.00000000000007
+      },
+      "size": {
+        "width": 130,
+        "height": 82
+      },
+      "view": "react-shape-view",
+      "shape": "custom-react-shape",
+      "ports": {
+        "groups": {
+          "top": {
+            "position": "top",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "right": {
+            "position": "right",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "bottom": {
+            "position": "bottom",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "left": {
+            "position": "left",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          }
+        },
+        "items": [
+          {
+            "group": "top",
+            "id": "384411a0-f68f-451b-929e-d53a21d3d446"
+          },
+          {
+            "group": "right",
+            "id": "a90a6396-f159-47d5-877a-bfab2a9d4393"
+          },
+          {
+            "group": "bottom",
+            "id": "89af1aef-f163-4c04-93d3-9ab1b5621989"
+          },
+          {
+            "group": "left",
+            "id": "5c7ec349-8b8c-4b2a-a7bd-930bdb637b8f"
+          }
+        ]
+      },
+      "id": "d47ef078-7571-4ad3-aa74-2ea6aff0673c",
+      "data": {
+        "protoText": "Remove the bladder and mince the tissue with a scalpel."
+      },
+      "type": "textNode",
+      "zIndex": 6
+    },
+    {
+      "position": {
+        "x": 1272,
+        "y": 284
+      },
+      "size": {
+        "width": 145,
+        "height": 100
+      },
+      "view": "react-shape-view",
+      "shape": "custom-react-shape",
+      "ports": {
+        "groups": {
+          "top": {
+            "position": "top",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "right": {
+            "position": "right",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "bottom": {
+            "position": "bottom",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "left": {
+            "position": "left",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          }
+        },
+        "items": [
+          {
+            "group": "top",
+            "id": "384411a0-f68f-451b-929e-d53a21d3d446"
+          },
+          {
+            "group": "right",
+            "id": "a90a6396-f159-47d5-877a-bfab2a9d4393"
+          },
+          {
+            "group": "bottom",
+            "id": "89af1aef-f163-4c04-93d3-9ab1b5621989"
+          },
+          {
+            "group": "left",
+            "id": "5c7ec349-8b8c-4b2a-a7bd-930bdb637b8f"
+          }
+        ]
+      },
+      "id": "6d717e2d-21a5-4da2-9fba-5bda7b7fa1cf",
+      "data": {
+        "protoText": "Collect minced tissue with 2 ml DMEM and filter cells through 70 \u03bcm cell strainer"
+      },
+      "type": "textNode",
+      "zIndex": 7
+    },
+    {
+      "position": {
+        "x": 1080,
+        "y": 293
+      },
+      "size": {
+        "width": 130,
+        "height": 82
+      },
+      "view": "react-shape-view",
+      "shape": "custom-react-shape",
+      "ports": {
+        "groups": {
+          "top": {
+            "position": "top",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "right": {
+            "position": "right",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "bottom": {
+            "position": "bottom",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "left": {
+            "position": "left",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          }
+        },
+        "items": [
+          {
+            "group": "top",
+            "id": "384411a0-f68f-451b-929e-d53a21d3d446"
+          },
+          {
+            "group": "right",
+            "id": "a90a6396-f159-47d5-877a-bfab2a9d4393"
+          },
+          {
+            "group": "bottom",
+            "id": "89af1aef-f163-4c04-93d3-9ab1b5621989"
+          },
+          {
+            "group": "left",
+            "id": "5c7ec349-8b8c-4b2a-a7bd-930bdb637b8f"
+          }
+        ]
+      },
+      "id": "f2c87a3e-bb19-4ca0-97e2-f8b7f04389ca",
+      "data": {
+        "protoText": "Centrifuge cells at 600rpm for 4min at room temperature."
+      },
+      "type": "textNode",
+      "zIndex": 8
+    },
+    {
+      "position": {
+        "x": 825,
+        "y": 275
+      },
+      "size": {
+        "width": 190,
+        "height": 118
+      },
+      "view": "react-shape-view",
+      "shape": "custom-react-shape",
+      "ports": {
+        "groups": {
+          "top": {
+            "position": "top",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "right": {
+            "position": "right",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "bottom": {
+            "position": "bottom",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "left": {
+            "position": "left",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          }
+        },
+        "items": [
+          {
+            "group": "top",
+            "id": "384411a0-f68f-451b-929e-d53a21d3d446"
+          },
+          {
+            "group": "right",
+            "id": "a90a6396-f159-47d5-877a-bfab2a9d4393"
+          },
+          {
+            "group": "bottom",
+            "id": "89af1aef-f163-4c04-93d3-9ab1b5621989"
+          },
+          {
+            "group": "left",
+            "id": "5c7ec349-8b8c-4b2a-a7bd-930bdb637b8f"
+          }
+        ]
+      },
+      "id": "81cdb6f8-3210-490d-946c-d514653be9e9",
+      "data": {
+        "protoText": "Remove supernatant, resuspend pellet in 3 ml DMEM and pass the hepatocytes on 37.5% PERCOLL cushion (30 ml) to recover viable cells."
+      },
+      "type": "textNode",
+      "zIndex": 9
+    },
+    {
+      "position": {
+        "x": 650,
+        "y": 293
+      },
+      "size": {
+        "width": 115,
+        "height": 82
+      },
+      "view": "react-shape-view",
+      "shape": "custom-react-shape",
+      "ports": {
+        "groups": {
+          "top": {
+            "position": "top",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "right": {
+            "position": "right",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "bottom": {
+            "position": "bottom",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "left": {
+            "position": "left",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          }
+        },
+        "items": [
+          {
+            "group": "top",
+            "id": "384411a0-f68f-451b-929e-d53a21d3d446"
+          },
+          {
+            "group": "right",
+            "id": "a90a6396-f159-47d5-877a-bfab2a9d4393"
+          },
+          {
+            "group": "bottom",
+            "id": "89af1aef-f163-4c04-93d3-9ab1b5621989"
+          },
+          {
+            "group": "left",
+            "id": "5c7ec349-8b8c-4b2a-a7bd-930bdb637b8f"
+          }
+        ]
+      },
+      "id": "21ffb171-9902-47a7-8e7f-d23e33c75b07",
+      "data": {
+        "protoText": "Centrifuge 1050 rpm for 3min at room temperature"
+      },
+      "type": "textNode",
+      "zIndex": 10
+    },
+    {
+      "position": {
+        "x": 460,
+        "y": 284
+      },
+      "size": {
+        "width": 145,
+        "height": 100
+      },
+      "view": "react-shape-view",
+      "shape": "custom-react-shape",
+      "ports": {
+        "groups": {
+          "top": {
+            "position": "top",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "right": {
+            "position": "right",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "bottom": {
+            "position": "bottom",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "left": {
+            "position": "left",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          }
+        },
+        "items": [
+          {
+            "group": "top",
+            "id": "384411a0-f68f-451b-929e-d53a21d3d446"
+          },
+          {
+            "group": "right",
+            "id": "a90a6396-f159-47d5-877a-bfab2a9d4393"
+          },
+          {
+            "group": "bottom",
+            "id": "89af1aef-f163-4c04-93d3-9ab1b5621989"
+          },
+          {
+            "group": "left",
+            "id": "5c7ec349-8b8c-4b2a-a7bd-930bdb637b8f"
+          }
+        ]
+      },
+      "id": "9ce882a0-ed4c-42fe-82d9-cf28c0a0dc11",
+      "data": {
+        "protoText": "Resuspend pellet of viable cells in 2 ml of DMEM and count the hepatocytes."
+      },
+      "type": "textNode",
+      "zIndex": 11
+    },
+    {
+      "position": {
+        "x": 200,
+        "y": 266
+      },
+      "size": {
+        "width": 220,
+        "height": 136
+      },
+      "view": "react-shape-view",
+      "shape": "custom-react-shape",
+      "ports": {
+        "groups": {
+          "top": {
+            "position": "top",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "right": {
+            "position": "right",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "bottom": {
+            "position": "bottom",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "left": {
+            "position": "left",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          }
+        },
+        "items": [
+          {
+            "group": "top",
+            "id": "384411a0-f68f-451b-929e-d53a21d3d446"
+          },
+          {
+            "group": "right",
+            "id": "a90a6396-f159-47d5-877a-bfab2a9d4393"
+          },
+          {
+            "group": "bottom",
+            "id": "89af1aef-f163-4c04-93d3-9ab1b5621989"
+          },
+          {
+            "group": "left",
+            "id": "5c7ec349-8b8c-4b2a-a7bd-930bdb637b8f"
+          }
+        ]
+      },
+      "id": "ce8902f5-4bf3-4667-92d8-13a769c78054",
+      "data": {
+        "protoText": "Leave the isolated primary hepatocytes in 3 ml of DMEM at 5% CO2, 37\u00b0C for 2h and in suspension. Absence of serum is necessary to decrease the basal level of translation."
+      },
+      "type": "textNode",
+      "zIndex": 12
+    },
+    {
+      "position": {
+        "x": -5,
+        "y": 275
+      },
+      "size": {
+        "width": 175,
+        "height": 118
+      },
+      "view": "react-shape-view",
+      "shape": "custom-react-shape",
+      "ports": {
+        "groups": {
+          "top": {
+            "position": "top",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "right": {
+            "position": "right",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "bottom": {
+            "position": "bottom",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "left": {
+            "position": "left",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          }
+        },
+        "items": [
+          {
+            "group": "top",
+            "id": "384411a0-f68f-451b-929e-d53a21d3d446"
+          },
+          {
+            "group": "right",
+            "id": "a90a6396-f159-47d5-877a-bfab2a9d4393"
+          },
+          {
+            "group": "bottom",
+            "id": "89af1aef-f163-4c04-93d3-9ab1b5621989"
+          },
+          {
+            "group": "left",
+            "id": "5c7ec349-8b8c-4b2a-a7bd-930bdb637b8f"
+          }
+        ]
+      },
+      "id": "a89e0b93-a7af-49b0-96b3-34149f090268",
+      "data": {
+        "protoText": "After 2h replace the medium with DMEM without methionine and cysteine and start with the metabolic labelling assay."
+      },
+      "type": "textNode",
+      "zIndex": 13
+    },
+    {
+      "position": {
+        "x": 4.999999999999972,
+        "y": 542
+      },
+      "size": {
+        "width": 250,
+        "height": 154
+      },
+      "view": "react-shape-view",
+      "shape": "custom-react-shape",
+      "ports": {
+        "groups": {
+          "top": {
+            "position": "top",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "right": {
+            "position": "right",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "bottom": {
+            "position": "bottom",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "left": {
+            "position": "left",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          }
+        },
+        "items": [
+          {
+            "group": "top",
+            "id": "384411a0-f68f-451b-929e-d53a21d3d446"
+          },
+          {
+            "group": "right",
+            "id": "a90a6396-f159-47d5-877a-bfab2a9d4393"
+          },
+          {
+            "group": "bottom",
+            "id": "89af1aef-f163-4c04-93d3-9ab1b5621989"
+          },
+          {
+            "group": "left",
+            "id": "5c7ec349-8b8c-4b2a-a7bd-930bdb637b8f"
+          }
+        ]
+      },
+      "id": "23de72f8-8533-41f7-9341-cfa07a986a0f",
+      "data": {
+        "protoText": "Each point of the metabolic labelling is done in triplicate. Use 15 x 105 hepatocytes/triplicate. Resuspend 5 x 105 cells in 2ml DMEM without Met/Cys and maintain the cells in a 15ml round bottom falcon tube to allow sufficient oxygenation."
+      },
+      "type": "textNode",
+      "zIndex": 14
+    },
+    {
+      "position": {
+        "x": 330,
+        "y": 560
+      },
+      "size": {
+        "width": 205,
+        "height": 118
+      },
+      "view": "react-shape-view",
+      "shape": "custom-react-shape",
+      "ports": {
+        "groups": {
+          "top": {
+            "position": "top",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "right": {
+            "position": "right",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "bottom": {
+            "position": "bottom",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "left": {
+            "position": "left",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          }
+        },
+        "items": [
+          {
+            "group": "top",
+            "id": "384411a0-f68f-451b-929e-d53a21d3d446"
+          },
+          {
+            "group": "right",
+            "id": "a90a6396-f159-47d5-877a-bfab2a9d4393"
+          },
+          {
+            "group": "bottom",
+            "id": "89af1aef-f163-4c04-93d3-9ab1b5621989"
+          },
+          {
+            "group": "left",
+            "id": "5c7ec349-8b8c-4b2a-a7bd-930bdb637b8f"
+          }
+        ]
+      },
+      "id": "af017547-1e55-43ab-a1fc-1bbdf2c0944e",
+      "data": {
+        "protoText": "Add to the media the desired stimula to increase translational level (e.g. 100 nM Insulin) and label the cells with 20 \u03bcCi/ml of S-Met/Cys mixture for 1h."
+      },
+      "type": "textNode",
+      "zIndex": 15
+    },
+    {
+      "position": {
+        "x": 633,
+        "y": 560
+      },
+      "size": {
+        "width": 175,
+        "height": 118
+      },
+      "view": "react-shape-view",
+      "shape": "custom-react-shape",
+      "ports": {
+        "groups": {
+          "top": {
+            "position": "top",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "right": {
+            "position": "right",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "bottom": {
+            "position": "bottom",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "left": {
+            "position": "left",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          }
+        },
+        "items": [
+          {
+            "group": "top",
+            "id": "384411a0-f68f-451b-929e-d53a21d3d446"
+          },
+          {
+            "group": "right",
+            "id": "a90a6396-f159-47d5-877a-bfab2a9d4393"
+          },
+          {
+            "group": "bottom",
+            "id": "89af1aef-f163-4c04-93d3-9ab1b5621989"
+          },
+          {
+            "group": "left",
+            "id": "5c7ec349-8b8c-4b2a-a7bd-930bdb637b8f"
+          }
+        ]
+      },
+      "id": "1b78893a-3516-49f9-bd77-1acf960c9c40",
+      "data": {
+        "protoText": "After 1h, lyse the cells in 100 \u03bcl of Lysis Buffer: 10mM Tris HCl pH 7.4, 1% Triton X-100, 150mM NaCl, 1mM EDTA."
+      },
+      "type": "textNode",
+      "zIndex": 16
+    },
+    {
+      "position": {
+        "x": 885,
+        "y": 578
+      },
+      "size": {
+        "width": 160,
+        "height": 80
+      },
+      "view": "react-shape-view",
+      "shape": "custom-react-shape",
+      "ports": {
+        "groups": {
+          "top": {
+            "position": "top",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "right": {
+            "position": "right",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "bottom": {
+            "position": "bottom",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "left": {
+            "position": "left",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          }
+        },
+        "items": [
+          {
+            "group": "top",
+            "id": "384411a0-f68f-451b-929e-d53a21d3d446"
+          },
+          {
+            "group": "right",
+            "id": "a90a6396-f159-47d5-877a-bfab2a9d4393"
+          },
+          {
+            "group": "bottom",
+            "id": "89af1aef-f163-4c04-93d3-9ab1b5621989"
+          },
+          {
+            "group": "left",
+            "id": "5c7ec349-8b8c-4b2a-a7bd-930bdb637b8f"
+          }
+        ]
+      },
+      "id": "0dcac5be-794b-4531-b655-8d1db3984e3b",
+      "data": {
+        "protoText": "Keep 15min on ice and then clarify at 14000rpm for 10min at 4\u00b0C."
+      },
+      "type": "textNode",
+      "zIndex": 17
+    },
+    {
+      "position": {
+        "x": 1122,
+        "y": 569
+      },
+      "size": {
+        "width": 160,
+        "height": 100
+      },
+      "view": "react-shape-view",
+      "shape": "custom-react-shape",
+      "ports": {
+        "groups": {
+          "top": {
+            "position": "top",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "right": {
+            "position": "right",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "bottom": {
+            "position": "bottom",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "left": {
+            "position": "left",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          }
+        },
+        "items": [
+          {
+            "group": "top",
+            "id": "384411a0-f68f-451b-929e-d53a21d3d446"
+          },
+          {
+            "group": "right",
+            "id": "a90a6396-f159-47d5-877a-bfab2a9d4393"
+          },
+          {
+            "group": "bottom",
+            "id": "89af1aef-f163-4c04-93d3-9ab1b5621989"
+          },
+          {
+            "group": "left",
+            "id": "5c7ec349-8b8c-4b2a-a7bd-930bdb637b8f"
+          }
+        ]
+      },
+      "id": "08a46eaa-1acf-4ff0-bdc8-e8f053429203",
+      "data": {
+        "protoText": "Use 10 \u03bcl of the lysate to read radioactivity incorporation as previously described"
+      },
+      "type": "textNode",
+      "zIndex": 18
+    }
+  ]
+}

@@ -1,0 +1,1520 @@
+{
+  "cells": [
+    {
+      "shape": "edge",
+      "attrs": {
+        "line": {
+          "stroke": "#A2B1C3"
+        }
+      },
+      "id": "ffe3b86a-a2e0-4135-b3e8-a119f2dd170e",
+      "zIndex": 0,
+      "source": {
+        "cell": "eb0426eb-cd58-4a93-b618-1e8fa53c4c26",
+        "port": "13725945-6b77-4262-9ebf-e2c94cda1a5e"
+      },
+      "target": {
+        "cell": "4bacc665-899a-4282-a4b5-01e8346bae33",
+        "port": "e41f10c7-1140-4979-bcc6-c93fbccee005"
+      }
+    },
+    {
+      "shape": "edge",
+      "attrs": {
+        "line": {
+          "stroke": "#A2B1C3"
+        }
+      },
+      "id": "7cb0f9a0-8bfc-42b1-bc59-a8bf90f19b25",
+      "zIndex": 0,
+      "source": {
+        "cell": "d3c67815-ba43-4ce4-b40c-8051e09b67a5",
+        "port": "e82e3207-d0bb-4044-b8ee-03f1f8e78a5c"
+      },
+      "target": {
+        "cell": "eb0426eb-cd58-4a93-b618-1e8fa53c4c26",
+        "port": "b489299b-610a-417a-943f-d2a462e24bcb"
+      }
+    },
+    {
+      "shape": "edge",
+      "attrs": {
+        "line": {
+          "stroke": "#A2B1C3"
+        }
+      },
+      "id": "8c98a5ba-d325-4c87-8e9f-fed8616c88b0",
+      "zIndex": 0,
+      "source": {
+        "cell": "4bacc665-899a-4282-a4b5-01e8346bae33",
+        "port": "13725945-6b77-4262-9ebf-e2c94cda1a5e"
+      },
+      "target": {
+        "cell": "89625f5e-a46a-432c-a7f5-e11e3b1acff5",
+        "port": "e41f10c7-1140-4979-bcc6-c93fbccee005"
+      }
+    },
+    {
+      "shape": "edge",
+      "attrs": {
+        "line": {
+          "stroke": "#A2B1C3"
+        }
+      },
+      "id": "7593081d-95b2-4560-8bf0-ca35b09fa4fd",
+      "zIndex": 0,
+      "source": {
+        "cell": "89625f5e-a46a-432c-a7f5-e11e3b1acff5",
+        "port": "13725945-6b77-4262-9ebf-e2c94cda1a5e"
+      },
+      "target": {
+        "cell": "2351ff12-2d6f-400a-9573-bf5e169f42a3",
+        "port": "e41f10c7-1140-4979-bcc6-c93fbccee005"
+      }
+    },
+    {
+      "shape": "edge",
+      "attrs": {
+        "line": {
+          "stroke": "#A2B1C3"
+        }
+      },
+      "id": "0982cdcc-5b3b-4fcd-8a73-6d27850df327",
+      "zIndex": 0,
+      "source": {
+        "cell": "2351ff12-2d6f-400a-9573-bf5e169f42a3",
+        "port": "13725945-6b77-4262-9ebf-e2c94cda1a5e"
+      },
+      "target": {
+        "cell": "95bbb37f-9e3c-442b-a784-961628761864",
+        "port": "e41f10c7-1140-4979-bcc6-c93fbccee005"
+      }
+    },
+    {
+      "shape": "edge",
+      "attrs": {
+        "line": {
+          "stroke": "#A2B1C3"
+        }
+      },
+      "id": "3fe07179-0e97-4c87-ab99-26c86973f6a9",
+      "zIndex": 0,
+      "source": {
+        "cell": "95bbb37f-9e3c-442b-a784-961628761864",
+        "port": "13725945-6b77-4262-9ebf-e2c94cda1a5e"
+      },
+      "target": {
+        "cell": "0a075673-5d3c-4649-a33a-5e23aae9fb8f",
+        "port": "e41f10c7-1140-4979-bcc6-c93fbccee005"
+      }
+    },
+    {
+      "shape": "edge",
+      "attrs": {
+        "line": {
+          "stroke": "#A2B1C3"
+        }
+      },
+      "id": "af1bc494-2534-40ad-8871-d928485d8ddc",
+      "zIndex": 0,
+      "source": {
+        "cell": "0a075673-5d3c-4649-a33a-5e23aae9fb8f",
+        "port": "13725945-6b77-4262-9ebf-e2c94cda1a5e"
+      },
+      "target": {
+        "cell": "a4676238-aab4-4f04-ae15-9b8a3d381cc1",
+        "port": "13725945-6b77-4262-9ebf-e2c94cda1a5e"
+      }
+    },
+    {
+      "shape": "edge",
+      "attrs": {
+        "line": {
+          "stroke": "#A2B1C3"
+        }
+      },
+      "id": "f345053b-8f5e-4a83-854e-7267909952fa",
+      "zIndex": 0,
+      "source": {
+        "cell": "a4676238-aab4-4f04-ae15-9b8a3d381cc1",
+        "port": "e41f10c7-1140-4979-bcc6-c93fbccee005"
+      },
+      "target": {
+        "cell": "7b202920-dd9e-466c-b0b2-594d900d4b32",
+        "port": "13725945-6b77-4262-9ebf-e2c94cda1a5e"
+      }
+    },
+    {
+      "shape": "edge",
+      "attrs": {
+        "line": {
+          "stroke": "#A2B1C3"
+        }
+      },
+      "id": "d8c7089b-608e-420f-8b7d-6e9fcfd1524e",
+      "zIndex": 0,
+      "source": {
+        "cell": "7b202920-dd9e-466c-b0b2-594d900d4b32",
+        "port": "e41f10c7-1140-4979-bcc6-c93fbccee005"
+      },
+      "target": {
+        "cell": "2e421de9-5446-4082-bb91-7781cd33c405",
+        "port": "13725945-6b77-4262-9ebf-e2c94cda1a5e"
+      }
+    },
+    {
+      "shape": "edge",
+      "attrs": {
+        "line": {
+          "stroke": "#A2B1C3"
+        }
+      },
+      "id": "7208fe1f-5267-4b0a-81c3-ff10c4ef1830",
+      "zIndex": 0,
+      "source": {
+        "cell": "2e421de9-5446-4082-bb91-7781cd33c405",
+        "port": "e41f10c7-1140-4979-bcc6-c93fbccee005"
+      },
+      "target": {
+        "cell": "2200cb29-b924-43e3-a040-c8886604775d",
+        "port": "13725945-6b77-4262-9ebf-e2c94cda1a5e"
+      }
+    },
+    {
+      "shape": "edge",
+      "attrs": {
+        "line": {
+          "stroke": "#A2B1C3"
+        }
+      },
+      "id": "9f9be38a-61a1-4fa2-8d63-af0a7fc6c032",
+      "zIndex": 0,
+      "source": {
+        "cell": "2200cb29-b924-43e3-a040-c8886604775d",
+        "port": "e41f10c7-1140-4979-bcc6-c93fbccee005"
+      },
+      "target": {
+        "cell": "6270d73c-6465-45e9-aaf6-ff1d7cc89570",
+        "port": "13725945-6b77-4262-9ebf-e2c94cda1a5e"
+      }
+    },
+    {
+      "shape": "edge",
+      "attrs": {
+        "line": {
+          "stroke": "#A2B1C3"
+        }
+      },
+      "id": "da62645e-9b62-4eca-82ac-e620603bd62b",
+      "zIndex": 0,
+      "source": {
+        "cell": "6270d73c-6465-45e9-aaf6-ff1d7cc89570",
+        "port": "e41f10c7-1140-4979-bcc6-c93fbccee005"
+      },
+      "target": {
+        "cell": "c8c323ee-b148-4ce1-b719-143ad6cd0f7c",
+        "port": "e41f10c7-1140-4979-bcc6-c93fbccee005"
+      }
+    },
+    {
+      "position": {
+        "x": 40,
+        "y": 40
+      },
+      "size": {
+        "width": 190,
+        "height": 118
+      },
+      "view": "react-shape-view",
+      "shape": "custom-react-shape",
+      "ports": {
+        "groups": {
+          "top": {
+            "position": "top",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "right": {
+            "position": "right",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "bottom": {
+            "position": "bottom",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "left": {
+            "position": "left",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          }
+        },
+        "items": [
+          {
+            "group": "top",
+            "id": "e68570e3-c1d3-46ed-8203-944127a970aa"
+          },
+          {
+            "group": "right",
+            "id": "13725945-6b77-4262-9ebf-e2c94cda1a5e"
+          },
+          {
+            "group": "bottom",
+            "id": "b489299b-610a-417a-943f-d2a462e24bcb"
+          },
+          {
+            "group": "left",
+            "id": "e41f10c7-1140-4979-bcc6-c93fbccee005"
+          }
+        ]
+      },
+      "id": "eb0426eb-cd58-4a93-b618-1e8fa53c4c26",
+      "data": {
+        "protoText": "Weigh 2.31 g sodium azide (35.5 mmol) and transfer to a 50 mL 1 neck round bottom flask equipped with a Teflon coated magnetic stir bar"
+      },
+      "type": "textNode",
+      "zIndex": 1
+    },
+    {
+      "position": {
+        "x": 281,
+        "y": 31
+      },
+      "size": {
+        "width": 235,
+        "height": 136
+      },
+      "view": "react-shape-view",
+      "shape": "custom-react-shape",
+      "ports": {
+        "groups": {
+          "top": {
+            "position": "top",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "right": {
+            "position": "right",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "bottom": {
+            "position": "bottom",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "left": {
+            "position": "left",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          }
+        },
+        "items": [
+          {
+            "group": "top",
+            "id": "e68570e3-c1d3-46ed-8203-944127a970aa"
+          },
+          {
+            "group": "right",
+            "id": "13725945-6b77-4262-9ebf-e2c94cda1a5e"
+          },
+          {
+            "group": "bottom",
+            "id": "b489299b-610a-417a-943f-d2a462e24bcb"
+          },
+          {
+            "group": "left",
+            "id": "e41f10c7-1140-4979-bcc6-c93fbccee005"
+          }
+        ]
+      },
+      "id": "4bacc665-899a-4282-a4b5-01e8346bae33",
+      "data": {
+        "protoText": "Suspend the solid in 5 mL of DMF. Add 3.0 mL of ethylchloroacetate dropwise to the stirred mixture by syringe. These steps are carried out in open air and no effort was made to exclude water or oxygen"
+      },
+      "type": "textNode",
+      "zIndex": 2
+    },
+    {
+      "position": {
+        "x": 15,
+        "y": 209.00000000000023
+      },
+      "size": {
+        "width": 240,
+        "height": 100
+      },
+      "view": "react-shape-view",
+      "shape": "custom-react-shape",
+      "ports": {
+        "groups": {
+          "top": {
+            "position": "top",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "right": {
+            "position": "right",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "bottom": {
+            "position": "bottom",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "left": {
+            "position": "left",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          }
+        },
+        "items": [
+          {
+            "group": "top",
+            "id": "e82e3207-d0bb-4044-b8ee-03f1f8e78a5c"
+          },
+          {
+            "group": "right",
+            "id": "947793f7-1e56-40da-82a1-74128d4e4672"
+          },
+          {
+            "group": "bottom",
+            "id": "61e5d5fc-ae0a-4c6f-916b-1fdbb9de8a53"
+          },
+          {
+            "group": "left",
+            "id": "64f1d1d9-b963-46d5-b87d-ab101ffaf087"
+          }
+        ]
+      },
+      "id": "d3c67815-ba43-4ce4-b40c-8051e09b67a5",
+      "data": {
+        "protoText": "CAUTION Sodium azide is highly toxic and care should be taken to avoid contact during transfer and workup"
+      },
+      "type": "inputNode",
+      "zIndex": 3
+    },
+    {
+      "position": {
+        "x": 584,
+        "y": 49
+      },
+      "size": {
+        "width": 160,
+        "height": 100
+      },
+      "view": "react-shape-view",
+      "shape": "custom-react-shape",
+      "ports": {
+        "groups": {
+          "top": {
+            "position": "top",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "right": {
+            "position": "right",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "bottom": {
+            "position": "bottom",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "left": {
+            "position": "left",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          }
+        },
+        "items": [
+          {
+            "group": "top",
+            "id": "e68570e3-c1d3-46ed-8203-944127a970aa"
+          },
+          {
+            "group": "right",
+            "id": "13725945-6b77-4262-9ebf-e2c94cda1a5e"
+          },
+          {
+            "group": "bottom",
+            "id": "b489299b-610a-417a-943f-d2a462e24bcb"
+          },
+          {
+            "group": "left",
+            "id": "e41f10c7-1140-4979-bcc6-c93fbccee005"
+          }
+        ]
+      },
+      "id": "89625f5e-a46a-432c-a7f5-e11e3b1acff5",
+      "data": {
+        "protoText": "Cap the reaction vessel with a rubber septum and stir at room temperature for 24 hours."
+      },
+      "type": "textNode",
+      "zIndex": 4
+    },
+    {
+      "position": {
+        "x": 818,
+        "y": 22
+      },
+      "size": {
+        "width": 235,
+        "height": 154
+      },
+      "view": "react-shape-view",
+      "shape": "custom-react-shape",
+      "ports": {
+        "groups": {
+          "top": {
+            "position": "top",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "right": {
+            "position": "right",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "bottom": {
+            "position": "bottom",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "left": {
+            "position": "left",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          }
+        },
+        "items": [
+          {
+            "group": "top",
+            "id": "e68570e3-c1d3-46ed-8203-944127a970aa"
+          },
+          {
+            "group": "right",
+            "id": "13725945-6b77-4262-9ebf-e2c94cda1a5e"
+          },
+          {
+            "group": "bottom",
+            "id": "b489299b-610a-417a-943f-d2a462e24bcb"
+          },
+          {
+            "group": "left",
+            "id": "e41f10c7-1140-4979-bcc6-c93fbccee005"
+          }
+        ]
+      },
+      "id": "2351ff12-2d6f-400a-9573-bf5e169f42a3",
+      "data": {
+        "protoText": "After 24 hours of reaction time, dilute the reaction mixture with diethyl ether (~10 mL) and transfer to a 250 mL seperatory funnel. Add an additional 140 mL of diethyl ether. Wash the mixture with deionized water (2 \u00d7 50 mL)"
+      },
+      "type": "textNode",
+      "zIndex": 5
+    },
+    {
+      "position": {
+        "x": 1136,
+        "y": 22
+      },
+      "size": {
+        "width": 235,
+        "height": 154
+      },
+      "view": "react-shape-view",
+      "shape": "custom-react-shape",
+      "ports": {
+        "groups": {
+          "top": {
+            "position": "top",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "right": {
+            "position": "right",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "bottom": {
+            "position": "bottom",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "left": {
+            "position": "left",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          }
+        },
+        "items": [
+          {
+            "group": "top",
+            "id": "e68570e3-c1d3-46ed-8203-944127a970aa"
+          },
+          {
+            "group": "right",
+            "id": "13725945-6b77-4262-9ebf-e2c94cda1a5e"
+          },
+          {
+            "group": "bottom",
+            "id": "b489299b-610a-417a-943f-d2a462e24bcb"
+          },
+          {
+            "group": "left",
+            "id": "e41f10c7-1140-4979-bcc6-c93fbccee005"
+          }
+        ]
+      },
+      "id": "95bbb37f-9e3c-442b-a784-961628761864",
+      "data": {
+        "protoText": "Dry the organic layer over Na2SO4 in a 250 Erlenmyer with such an amount of Na2SO4 that the solid is free flowing when the flask is swirled. At this point filter off the drying agent and rinse with 25 mL diethyl ether."
+      },
+      "type": "textNode",
+      "zIndex": 6
+    },
+    {
+      "position": {
+        "x": 1448,
+        "y": 40
+      },
+      "size": {
+        "width": 190,
+        "height": 118
+      },
+      "view": "react-shape-view",
+      "shape": "custom-react-shape",
+      "ports": {
+        "groups": {
+          "top": {
+            "position": "top",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "right": {
+            "position": "right",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "bottom": {
+            "position": "bottom",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "left": {
+            "position": "left",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          }
+        },
+        "items": [
+          {
+            "group": "top",
+            "id": "e68570e3-c1d3-46ed-8203-944127a970aa"
+          },
+          {
+            "group": "right",
+            "id": "13725945-6b77-4262-9ebf-e2c94cda1a5e"
+          },
+          {
+            "group": "bottom",
+            "id": "b489299b-610a-417a-943f-d2a462e24bcb"
+          },
+          {
+            "group": "left",
+            "id": "e41f10c7-1140-4979-bcc6-c93fbccee005"
+          }
+        ]
+      },
+      "id": "0a075673-5d3c-4649-a33a-5e23aae9fb8f",
+      "data": {
+        "protoText": "Concentrate the product by rotary evaporation until the volume is approximately 10 mL. This solution is to be used directly in the next step"
+      },
+      "type": "textNode",
+      "zIndex": 7
+    },
+    {
+      "position": {
+        "x": 1395.5,
+        "y": 447
+      },
+      "size": {
+        "width": 295,
+        "height": 172
+      },
+      "view": "react-shape-view",
+      "shape": "custom-react-shape",
+      "ports": {
+        "groups": {
+          "top": {
+            "position": "top",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "right": {
+            "position": "right",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "bottom": {
+            "position": "bottom",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "left": {
+            "position": "left",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          }
+        },
+        "items": [
+          {
+            "group": "top",
+            "id": "e68570e3-c1d3-46ed-8203-944127a970aa"
+          },
+          {
+            "group": "right",
+            "id": "13725945-6b77-4262-9ebf-e2c94cda1a5e"
+          },
+          {
+            "group": "bottom",
+            "id": "b489299b-610a-417a-943f-d2a462e24bcb"
+          },
+          {
+            "group": "left",
+            "id": "e41f10c7-1140-4979-bcc6-c93fbccee005"
+          }
+        ]
+      },
+      "id": "a4676238-aab4-4f04-ae15-9b8a3d381cc1",
+      "data": {
+        "protoText": "Seal a 100 mL 2-neck round bottom flask equipped with a Teflon coated magnetic stir bar with two rubber septa. Flush the flask with argon for 10 minutes using an argon filled balloon equipped with an 19 gauge disposable needle for both entry and another 19 gauge needle for an exit. Remove the exit needle after flushing with argon"
+      },
+      "type": "textNode",
+      "zIndex": 8
+    },
+    {
+      "position": {
+        "x": 1053,
+        "y": 447
+      },
+      "size": {
+        "width": 280,
+        "height": 172
+      },
+      "view": "react-shape-view",
+      "shape": "custom-react-shape",
+      "ports": {
+        "groups": {
+          "top": {
+            "position": "top",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "right": {
+            "position": "right",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "bottom": {
+            "position": "bottom",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "left": {
+            "position": "left",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          }
+        },
+        "items": [
+          {
+            "group": "top",
+            "id": "e68570e3-c1d3-46ed-8203-944127a970aa"
+          },
+          {
+            "group": "right",
+            "id": "13725945-6b77-4262-9ebf-e2c94cda1a5e"
+          },
+          {
+            "group": "bottom",
+            "id": "b489299b-610a-417a-943f-d2a462e24bcb"
+          },
+          {
+            "group": "left",
+            "id": "e41f10c7-1140-4979-bcc6-c93fbccee005"
+          }
+        ]
+      },
+      "id": "7b202920-dd9e-466c-b0b2-594d900d4b32",
+      "data": {
+        "protoText": "Add 0.65 mL of tripropargylamine (4.75 mmol) and 5.0 mL of acetonitrile by syringe. Cool the solution to 0 \u00baC using an ice/water bath and add 0.60 mL of 2,6-lutidine by syringe to the stirred solution. Add copper(I) iodide as a solid; carefully but quickly removing and replacing one of the septa during the addition."
+      },
+      "type": "textNode",
+      "zIndex": 9
+    },
+    {
+      "position": {
+        "x": 770,
+        "y": 465
+      },
+      "size": {
+        "width": 220,
+        "height": 136
+      },
+      "view": "react-shape-view",
+      "shape": "custom-react-shape",
+      "ports": {
+        "groups": {
+          "top": {
+            "position": "top",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "right": {
+            "position": "right",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "bottom": {
+            "position": "bottom",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "left": {
+            "position": "left",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          }
+        },
+        "items": [
+          {
+            "group": "top",
+            "id": "e68570e3-c1d3-46ed-8203-944127a970aa"
+          },
+          {
+            "group": "right",
+            "id": "13725945-6b77-4262-9ebf-e2c94cda1a5e"
+          },
+          {
+            "group": "bottom",
+            "id": "b489299b-610a-417a-943f-d2a462e24bcb"
+          },
+          {
+            "group": "left",
+            "id": "e41f10c7-1140-4979-bcc6-c93fbccee005"
+          }
+        ]
+      },
+      "id": "2e421de9-5446-4082-bb91-7781cd33c405",
+      "data": {
+        "protoText": "After all reagents have been added, flush the reaction with argon for 10 minutes. Remove the ice bath after one hour of stirring and stir at room temperature for 48 hours"
+      },
+      "type": "textNode",
+      "zIndex": 10
+    },
+    {
+      "position": {
+        "x": 428,
+        "y": 447
+      },
+      "size": {
+        "width": 280,
+        "height": 172
+      },
+      "view": "react-shape-view",
+      "shape": "custom-react-shape",
+      "ports": {
+        "groups": {
+          "top": {
+            "position": "top",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "right": {
+            "position": "right",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "bottom": {
+            "position": "bottom",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "left": {
+            "position": "left",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          }
+        },
+        "items": [
+          {
+            "group": "top",
+            "id": "e68570e3-c1d3-46ed-8203-944127a970aa"
+          },
+          {
+            "group": "right",
+            "id": "13725945-6b77-4262-9ebf-e2c94cda1a5e"
+          },
+          {
+            "group": "bottom",
+            "id": "b489299b-610a-417a-943f-d2a462e24bcb"
+          },
+          {
+            "group": "left",
+            "id": "e41f10c7-1140-4979-bcc6-c93fbccee005"
+          }
+        ]
+      },
+      "id": "2200cb29-b924-43e3-a040-c8886604775d",
+      "data": {
+        "protoText": "After the prescribed reaction time, remove solvent by rotary evaporation and purify the residue by column chromatography by loading the residue onto a silica column with ethyl acetate and eluting with the same solvent. TLC analysis should be used to locate the fractions with the desired product"
+      },
+      "type": "textNode",
+      "zIndex": 11
+    },
+    {
+      "position": {
+        "x": 144,
+        "y": 465
+      },
+      "size": {
+        "width": 220,
+        "height": 136
+      },
+      "view": "react-shape-view",
+      "shape": "custom-react-shape",
+      "ports": {
+        "groups": {
+          "top": {
+            "position": "top",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "right": {
+            "position": "right",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "bottom": {
+            "position": "bottom",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "left": {
+            "position": "left",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          }
+        },
+        "items": [
+          {
+            "group": "top",
+            "id": "e68570e3-c1d3-46ed-8203-944127a970aa"
+          },
+          {
+            "group": "right",
+            "id": "13725945-6b77-4262-9ebf-e2c94cda1a5e"
+          },
+          {
+            "group": "bottom",
+            "id": "b489299b-610a-417a-943f-d2a462e24bcb"
+          },
+          {
+            "group": "left",
+            "id": "e41f10c7-1140-4979-bcc6-c93fbccee005"
+          }
+        ]
+      },
+      "id": "6270d73c-6465-45e9-aaf6-ff1d7cc89570",
+      "data": {
+        "protoText": "Combine the fractions containing the product and remove the solvent by rotary evaporation. The product should be a white solid and can be used without additional purification"
+      },
+      "type": "textNode",
+      "zIndex": 12
+    },
+    {
+      "position": {
+        "x": 131,
+        "y": 811
+      },
+      "size": {
+        "width": 310,
+        "height": 190
+      },
+      "view": "react-shape-view",
+      "shape": "custom-react-shape",
+      "ports": {
+        "groups": {
+          "top": {
+            "position": "top",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "right": {
+            "position": "right",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "bottom": {
+            "position": "bottom",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "left": {
+            "position": "left",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          }
+        },
+        "items": [
+          {
+            "group": "top",
+            "id": "e68570e3-c1d3-46ed-8203-944127a970aa"
+          },
+          {
+            "group": "right",
+            "id": "13725945-6b77-4262-9ebf-e2c94cda1a5e"
+          },
+          {
+            "group": "bottom",
+            "id": "b489299b-610a-417a-943f-d2a462e24bcb"
+          },
+          {
+            "group": "left",
+            "id": "e41f10c7-1140-4979-bcc6-c93fbccee005"
+          }
+        ]
+      },
+      "id": "c8c323ee-b148-4ce1-b719-143ad6cd0f7c",
+      "data": {
+        "protoText": "The solid can be crystallized if further purification is desired. Dissolve the solid in a minimal amount of boiling methanol. Cool slowly to room temperature and add diethyl ether dropwise until the solution is cloudy. Warm gently to redissolve all material and the let stand. The compound crystallizes as small white needles that can be isolated by filtration. Drying under vacuum is recommended."
+      },
+      "type": "textNode",
+      "zIndex": 13
+    }
+  ]
+}

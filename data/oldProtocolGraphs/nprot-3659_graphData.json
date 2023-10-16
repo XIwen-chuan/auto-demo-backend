@@ -1,0 +1,1284 @@
+{
+  "cells": [
+    {
+      "shape": "edge",
+      "attrs": {
+        "line": {
+          "stroke": "#A2B1C3"
+        }
+      },
+      "id": "cd553031-b0f8-4aa7-923a-90bc7ab1e239",
+      "zIndex": 0,
+      "source": {
+        "cell": "efa3ce6d-91a6-4500-a311-a76666fd7110",
+        "port": "499cdd92-8a79-414a-9a24-6659810fa14b"
+      },
+      "target": {
+        "cell": "5ddc025f-79c5-4e8d-98db-57e8835930b9",
+        "port": "e08954a7-0571-4116-8418-e61671dcab8a"
+      }
+    },
+    {
+      "shape": "edge",
+      "attrs": {
+        "line": {
+          "stroke": "#A2B1C3"
+        }
+      },
+      "id": "bc2499ae-3fb5-486b-b448-f7fa29225e3c",
+      "zIndex": 0,
+      "source": {
+        "cell": "5ddc025f-79c5-4e8d-98db-57e8835930b9",
+        "port": "499cdd92-8a79-414a-9a24-6659810fa14b"
+      },
+      "target": {
+        "cell": "abaedcc4-4853-41f4-957d-ac18309b1328",
+        "port": "e08954a7-0571-4116-8418-e61671dcab8a"
+      }
+    },
+    {
+      "shape": "edge",
+      "attrs": {
+        "line": {
+          "stroke": "#A2B1C3"
+        }
+      },
+      "id": "3a76d3b0-fe46-4267-a8ad-46cc76aaccbd",
+      "zIndex": 0,
+      "source": {
+        "cell": "15e675e7-2a5b-431c-89df-d55101495a5c",
+        "port": "499cdd92-8a79-414a-9a24-6659810fa14b"
+      },
+      "target": {
+        "cell": "efa3ce6d-91a6-4500-a311-a76666fd7110",
+        "port": "e08954a7-0571-4116-8418-e61671dcab8a"
+      }
+    },
+    {
+      "shape": "edge",
+      "attrs": {
+        "line": {
+          "stroke": "#A2B1C3"
+        }
+      },
+      "id": "30ddd921-b0ff-4dc4-879c-16b1fc5e0be4",
+      "zIndex": 0,
+      "source": {
+        "cell": "abaedcc4-4853-41f4-957d-ac18309b1328",
+        "port": "a9651b0e-d5eb-408f-a461-44ee0f31e771"
+      },
+      "target": {
+        "cell": "a8b0fca5-7bbc-4784-b167-8ba86489fdd4",
+        "port": "ad74d298-eac3-42c1-b0b2-b3c419f86305"
+      }
+    },
+    {
+      "shape": "edge",
+      "attrs": {
+        "line": {
+          "stroke": "#A2B1C3"
+        }
+      },
+      "id": "bad29b5b-27f7-40c0-8288-9c70fa217457",
+      "zIndex": 0,
+      "source": {
+        "cell": "a8b0fca5-7bbc-4784-b167-8ba86489fdd4",
+        "port": "e08954a7-0571-4116-8418-e61671dcab8a"
+      },
+      "target": {
+        "cell": "c5bfa08c-594e-457d-abd0-33c0fe036c27",
+        "port": "499cdd92-8a79-414a-9a24-6659810fa14b"
+      }
+    },
+    {
+      "shape": "edge",
+      "attrs": {
+        "line": {
+          "stroke": "#A2B1C3"
+        }
+      },
+      "id": "c1aa91fb-344d-4e8d-bff8-3fb63e6f3dc3",
+      "zIndex": 0,
+      "source": {
+        "cell": "c5bfa08c-594e-457d-abd0-33c0fe036c27",
+        "port": "e08954a7-0571-4116-8418-e61671dcab8a"
+      },
+      "target": {
+        "cell": "025920ae-3d93-4cf9-a68d-719dd73bb4b1",
+        "port": "499cdd92-8a79-414a-9a24-6659810fa14b"
+      }
+    },
+    {
+      "shape": "edge",
+      "attrs": {
+        "line": {
+          "stroke": "#A2B1C3"
+        }
+      },
+      "id": "2ed7b8a2-b7ed-49cd-9c73-5c64d6f5cd80",
+      "zIndex": 0,
+      "source": {
+        "cell": "025920ae-3d93-4cf9-a68d-719dd73bb4b1",
+        "port": "e08954a7-0571-4116-8418-e61671dcab8a"
+      },
+      "target": {
+        "cell": "e56dc074-14e3-468c-aa2f-24621f9aeaf9",
+        "port": "499cdd92-8a79-414a-9a24-6659810fa14b"
+      }
+    },
+    {
+      "shape": "edge",
+      "attrs": {
+        "line": {
+          "stroke": "#A2B1C3"
+        }
+      },
+      "id": "e0f62335-8751-43a7-9098-2f9d93fa475a",
+      "zIndex": 0,
+      "source": {
+        "cell": "e56dc074-14e3-468c-aa2f-24621f9aeaf9",
+        "port": "a9651b0e-d5eb-408f-a461-44ee0f31e771"
+      },
+      "target": {
+        "cell": "a9130e09-9611-43cb-ae42-ccdbdb7f05c7",
+        "port": "ad74d298-eac3-42c1-b0b2-b3c419f86305"
+      }
+    },
+    {
+      "shape": "edge",
+      "attrs": {
+        "line": {
+          "stroke": "#A2B1C3"
+        }
+      },
+      "id": "db7009b2-2861-4952-a12b-a587cd7a2c6a",
+      "zIndex": 0,
+      "source": {
+        "cell": "a9130e09-9611-43cb-ae42-ccdbdb7f05c7",
+        "port": "499cdd92-8a79-414a-9a24-6659810fa14b"
+      },
+      "target": {
+        "cell": "2d208f19-bd59-4409-bef5-f86e9e9da48c",
+        "port": "e08954a7-0571-4116-8418-e61671dcab8a"
+      }
+    },
+    {
+      "shape": "edge",
+      "attrs": {
+        "line": {
+          "stroke": "#A2B1C3"
+        }
+      },
+      "id": "8a5c435c-36f2-4860-93e5-92b270ab95ee",
+      "zIndex": 0,
+      "source": {
+        "cell": "2d208f19-bd59-4409-bef5-f86e9e9da48c",
+        "port": "499cdd92-8a79-414a-9a24-6659810fa14b"
+      },
+      "target": {
+        "cell": "95c9e2ba-ae7f-4601-8be3-b304cac2b49c",
+        "port": "e08954a7-0571-4116-8418-e61671dcab8a"
+      }
+    },
+    {
+      "position": {
+        "x": 20,
+        "y": 20
+      },
+      "size": {
+        "width": 190,
+        "height": 118
+      },
+      "view": "react-shape-view",
+      "shape": "custom-react-shape",
+      "ports": {
+        "groups": {
+          "top": {
+            "position": "top",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "right": {
+            "position": "right",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "bottom": {
+            "position": "bottom",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "left": {
+            "position": "left",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          }
+        },
+        "items": [
+          {
+            "group": "top",
+            "id": "ad74d298-eac3-42c1-b0b2-b3c419f86305"
+          },
+          {
+            "group": "right",
+            "id": "499cdd92-8a79-414a-9a24-6659810fa14b"
+          },
+          {
+            "group": "bottom",
+            "id": "a9651b0e-d5eb-408f-a461-44ee0f31e771"
+          },
+          {
+            "group": "left",
+            "id": "e08954a7-0571-4116-8418-e61671dcab8a"
+          }
+        ]
+      },
+      "id": "15e675e7-2a5b-431c-89df-d55101495a5c",
+      "data": {
+        "protoText": "Incubate the MTP well surface with 100 \u03bcL of 1% (w/v) KOH in DIW for 10 min at 37\u00b0C and wash five times with 300 \u03bcL DIW per well)."
+      },
+      "type": "textNode",
+      "zIndex": 1
+    },
+    {
+      "position": {
+        "x": 240,
+        "y": 29
+      },
+      "size": {
+        "width": 160,
+        "height": 100
+      },
+      "view": "react-shape-view",
+      "shape": "custom-react-shape",
+      "ports": {
+        "groups": {
+          "top": {
+            "position": "top",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "right": {
+            "position": "right",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "bottom": {
+            "position": "bottom",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "left": {
+            "position": "left",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          }
+        },
+        "items": [
+          {
+            "group": "top",
+            "id": "ad74d298-eac3-42c1-b0b2-b3c419f86305"
+          },
+          {
+            "group": "right",
+            "id": "499cdd92-8a79-414a-9a24-6659810fa14b"
+          },
+          {
+            "group": "bottom",
+            "id": "a9651b0e-d5eb-408f-a461-44ee0f31e771"
+          },
+          {
+            "group": "left",
+            "id": "e08954a7-0571-4116-8418-e61671dcab8a"
+          }
+        ]
+      },
+      "id": "efa3ce6d-91a6-4500-a311-a76666fd7110",
+      "data": {
+        "protoText": "Mix EDC-activated anti-HFA capture Ab (8 \u00b5g mL-1) with 1% (v/v) APTES in a ratio of 1:1 (v/v). "
+      },
+      "type": "textNode",
+      "zIndex": 2
+    },
+    {
+      "position": {
+        "x": 440,
+        "y": 11
+      },
+      "size": {
+        "width": 220,
+        "height": 136
+      },
+      "view": "react-shape-view",
+      "shape": "custom-react-shape",
+      "ports": {
+        "groups": {
+          "top": {
+            "position": "top",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "right": {
+            "position": "right",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "bottom": {
+            "position": "bottom",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "left": {
+            "position": "left",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          }
+        },
+        "items": [
+          {
+            "group": "top",
+            "id": "ad74d298-eac3-42c1-b0b2-b3c419f86305"
+          },
+          {
+            "group": "right",
+            "id": "499cdd92-8a79-414a-9a24-6659810fa14b"
+          },
+          {
+            "group": "bottom",
+            "id": "a9651b0e-d5eb-408f-a461-44ee0f31e771"
+          },
+          {
+            "group": "left",
+            "id": "e08954a7-0571-4116-8418-e61671dcab8a"
+          }
+        ]
+      },
+      "id": "5ddc025f-79c5-4e8d-98db-57e8835930b9",
+      "data": {
+        "protoText": "Incubate each of the desired wells of 96-well MTP with 100 \u03bcL of the freshly prepared anti-HFA capture Ab solution, with a final concentration of 4 \u00b5g mL-1 in 0.5% APTES, for 30 min at 37\u00b0C."
+      },
+      "type": "textNode",
+      "zIndex": 3
+    },
+    {
+      "position": {
+        "x": 680,
+        "y": 38
+      },
+      "size": {
+        "width": 115,
+        "height": 82
+      },
+      "view": "react-shape-view",
+      "shape": "custom-react-shape",
+      "ports": {
+        "groups": {
+          "top": {
+            "position": "top",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "right": {
+            "position": "right",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "bottom": {
+            "position": "bottom",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "left": {
+            "position": "left",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          }
+        },
+        "items": [
+          {
+            "group": "top",
+            "id": "ad74d298-eac3-42c1-b0b2-b3c419f86305"
+          },
+          {
+            "group": "right",
+            "id": "499cdd92-8a79-414a-9a24-6659810fa14b"
+          },
+          {
+            "group": "bottom",
+            "id": "a9651b0e-d5eb-408f-a461-44ee0f31e771"
+          },
+          {
+            "group": "left",
+            "id": "e08954a7-0571-4116-8418-e61671dcab8a"
+          }
+        ]
+      },
+      "id": "abaedcc4-4853-41f4-957d-ac18309b1328",
+      "data": {
+        "protoText": "Wash five times with 300 \u03bcL of 0.1M PBS, pH 7.4. "
+      },
+      "type": "textNode",
+      "zIndex": 4
+    },
+    {
+      "position": {
+        "x": 642.5,
+        "y": 171
+      },
+      "size": {
+        "width": 190,
+        "height": 118
+      },
+      "view": "react-shape-view",
+      "shape": "custom-react-shape",
+      "ports": {
+        "groups": {
+          "top": {
+            "position": "top",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "right": {
+            "position": "right",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "bottom": {
+            "position": "bottom",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "left": {
+            "position": "left",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          }
+        },
+        "items": [
+          {
+            "group": "top",
+            "id": "ad74d298-eac3-42c1-b0b2-b3c419f86305"
+          },
+          {
+            "group": "right",
+            "id": "499cdd92-8a79-414a-9a24-6659810fa14b"
+          },
+          {
+            "group": "bottom",
+            "id": "a9651b0e-d5eb-408f-a461-44ee0f31e771"
+          },
+          {
+            "group": "left",
+            "id": "e08954a7-0571-4116-8418-e61671dcab8a"
+          }
+        ]
+      },
+      "id": "a8b0fca5-7bbc-4784-b167-8ba86489fdd4",
+      "data": {
+        "protoText": "Block the MTP wells by incubating with 300 \u03bcL of 1% (w/v) BSA for 30 min a 37\u00b0C and wash with 300 \u03bcL of 0.1M PBS, pH 7.4 five times. "
+      },
+      "type": "textNode",
+      "zIndex": 5
+    },
+    {
+      "position": {
+        "x": 332.5,
+        "y": 162
+      },
+      "size": {
+        "width": 235,
+        "height": 136
+      },
+      "view": "react-shape-view",
+      "shape": "custom-react-shape",
+      "ports": {
+        "groups": {
+          "top": {
+            "position": "top",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "right": {
+            "position": "right",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "bottom": {
+            "position": "bottom",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "left": {
+            "position": "left",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          }
+        },
+        "items": [
+          {
+            "group": "top",
+            "id": "ad74d298-eac3-42c1-b0b2-b3c419f86305"
+          },
+          {
+            "group": "right",
+            "id": "499cdd92-8a79-414a-9a24-6659810fa14b"
+          },
+          {
+            "group": "bottom",
+            "id": "a9651b0e-d5eb-408f-a461-44ee0f31e771"
+          },
+          {
+            "group": "left",
+            "id": "e08954a7-0571-4116-8418-e61671dcab8a"
+          }
+        ]
+      },
+      "id": "c5bfa08c-594e-457d-abd0-33c0fe036c27",
+      "data": {
+        "protoText": "Dispense sequentially 100 \u00b5L of biotinylated anti-HFA detection Ab (0.17 \u00b5g mL-1) pre-conjugated to SA-HRP and 100 \u00b5L of HFA (varying concentrations; 0.1-243 ng mL-1) to the Ab-bound and BSA-blocked MTP wells. "
+      },
+      "type": "textNode",
+      "zIndex": 6
+    },
+    {
+      "position": {
+        "x": 210,
+        "y": 198
+      },
+      "size": {
+        "width": 100,
+        "height": 64
+      },
+      "view": "react-shape-view",
+      "shape": "custom-react-shape",
+      "ports": {
+        "groups": {
+          "top": {
+            "position": "top",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "right": {
+            "position": "right",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "bottom": {
+            "position": "bottom",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "left": {
+            "position": "left",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          }
+        },
+        "items": [
+          {
+            "group": "top",
+            "id": "ad74d298-eac3-42c1-b0b2-b3c419f86305"
+          },
+          {
+            "group": "right",
+            "id": "499cdd92-8a79-414a-9a24-6659810fa14b"
+          },
+          {
+            "group": "bottom",
+            "id": "a9651b0e-d5eb-408f-a461-44ee0f31e771"
+          },
+          {
+            "group": "left",
+            "id": "e08954a7-0571-4116-8418-e61671dcab8a"
+          }
+        ]
+      },
+      "id": "025920ae-3d93-4cf9-a68d-719dd73bb4b1",
+      "data": {
+        "protoText": "Incubate for 15 min at 37\u00b0C"
+      },
+      "type": "textNode",
+      "zIndex": 7
+    },
+    {
+      "position": {
+        "x": -25,
+        "y": 162
+      },
+      "size": {
+        "width": 205,
+        "height": 136
+      },
+      "view": "react-shape-view",
+      "shape": "custom-react-shape",
+      "ports": {
+        "groups": {
+          "top": {
+            "position": "top",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "right": {
+            "position": "right",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "bottom": {
+            "position": "bottom",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "left": {
+            "position": "left",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          }
+        },
+        "items": [
+          {
+            "group": "top",
+            "id": "ad74d298-eac3-42c1-b0b2-b3c419f86305"
+          },
+          {
+            "group": "right",
+            "id": "499cdd92-8a79-414a-9a24-6659810fa14b"
+          },
+          {
+            "group": "bottom",
+            "id": "a9651b0e-d5eb-408f-a461-44ee0f31e771"
+          },
+          {
+            "group": "left",
+            "id": "e08954a7-0571-4116-8418-e61671dcab8a"
+          }
+        ]
+      },
+      "id": "e56dc074-14e3-468c-aa2f-24621f9aeaf9",
+      "data": {
+        "protoText": "Wash the resulting sandwich immune complex-bound MTP with 300 \u00b5L of 0.1M PBS, pH 7.4 five times to remove the non-specifically substances and excess IA reagents."
+      },
+      "type": "textNode",
+      "zIndex": 8
+    },
+    {
+      "position": {
+        "x": -17.5,
+        "y": 340
+      },
+      "size": {
+        "width": 190,
+        "height": 118
+      },
+      "view": "react-shape-view",
+      "shape": "custom-react-shape",
+      "ports": {
+        "groups": {
+          "top": {
+            "position": "top",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "right": {
+            "position": "right",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "bottom": {
+            "position": "bottom",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "left": {
+            "position": "left",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          }
+        },
+        "items": [
+          {
+            "group": "top",
+            "id": "ad74d298-eac3-42c1-b0b2-b3c419f86305"
+          },
+          {
+            "group": "right",
+            "id": "499cdd92-8a79-414a-9a24-6659810fa14b"
+          },
+          {
+            "group": "bottom",
+            "id": "a9651b0e-d5eb-408f-a461-44ee0f31e771"
+          },
+          {
+            "group": "left",
+            "id": "e08954a7-0571-4116-8418-e61671dcab8a"
+          }
+        ]
+      },
+      "id": "a9130e09-9611-43cb-ae42-ccdbdb7f05c7",
+      "data": {
+        "protoText": "Add 100 \u00b5L of the TMB-H2O2 mixture to each MTP well and incubate at RT for 14 min to allow the enzymatic reaction to develop color"
+      },
+      "type": "textNode",
+      "zIndex": 9
+    },
+    {
+      "position": {
+        "x": 220,
+        "y": 349
+      },
+      "size": {
+        "width": 145,
+        "height": 100
+      },
+      "view": "react-shape-view",
+      "shape": "custom-react-shape",
+      "ports": {
+        "groups": {
+          "top": {
+            "position": "top",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "right": {
+            "position": "right",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "bottom": {
+            "position": "bottom",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "left": {
+            "position": "left",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          }
+        },
+        "items": [
+          {
+            "group": "top",
+            "id": "ad74d298-eac3-42c1-b0b2-b3c419f86305"
+          },
+          {
+            "group": "right",
+            "id": "499cdd92-8a79-414a-9a24-6659810fa14b"
+          },
+          {
+            "group": "bottom",
+            "id": "a9651b0e-d5eb-408f-a461-44ee0f31e771"
+          },
+          {
+            "group": "left",
+            "id": "e08954a7-0571-4116-8418-e61671dcab8a"
+          }
+        ]
+      },
+      "id": "2d208f19-bd59-4409-bef5-f86e9e9da48c",
+      "data": {
+        "protoText": "Stop the enzymatic reaction by adding 50 \u00b5L of 2N H2SO4 to each MTP well."
+      },
+      "type": "textNode",
+      "zIndex": 10
+    },
+    {
+      "position": {
+        "x": 400,
+        "y": 340
+      },
+      "size": {
+        "width": 205,
+        "height": 118
+      },
+      "view": "react-shape-view",
+      "shape": "custom-react-shape",
+      "ports": {
+        "groups": {
+          "top": {
+            "position": "top",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "right": {
+            "position": "right",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "bottom": {
+            "position": "bottom",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "left": {
+            "position": "left",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          }
+        },
+        "items": [
+          {
+            "group": "top",
+            "id": "ad74d298-eac3-42c1-b0b2-b3c419f86305"
+          },
+          {
+            "group": "right",
+            "id": "499cdd92-8a79-414a-9a24-6659810fa14b"
+          },
+          {
+            "group": "bottom",
+            "id": "a9651b0e-d5eb-408f-a461-44ee0f31e771"
+          },
+          {
+            "group": "left",
+            "id": "e08954a7-0571-4116-8418-e61671dcab8a"
+          }
+        ]
+      },
+      "id": "95c9e2ba-ae7f-4601-8be3-b304cac2b49c",
+      "data": {
+        "protoText": "Record the absorbance at a primary wavelength of 450 nm taking 540 nm as the reference wavelength in a Tecan Infinite M200 Pro microplate reader."
+      },
+      "type": "textNode",
+      "zIndex": 11
+    }
+  ]
+}

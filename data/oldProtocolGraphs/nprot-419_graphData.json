@@ -1,0 +1,2110 @@
+{
+  "cells": [
+    {
+      "shape": "edge",
+      "attrs": {
+        "line": {
+          "stroke": "#A2B1C3"
+        }
+      },
+      "id": "4da928ed-8411-4f4c-81e1-2e80c53d0d3e",
+      "zIndex": 0,
+      "source": {
+        "cell": "684a1e1b-da0c-461d-be4e-9853870452d1",
+        "port": "808e7a6a-93f5-493d-a9bf-9cc90834b712"
+      },
+      "target": {
+        "cell": "515a74c5-c91d-47e8-ad19-ff8922692c3f",
+        "port": "8aae58bf-e5b7-4a4f-bfae-d41a5b7c4b81"
+      }
+    },
+    {
+      "shape": "edge",
+      "attrs": {
+        "line": {
+          "stroke": "#A2B1C3"
+        }
+      },
+      "id": "bf1cd19c-dcc3-4f89-8c76-94c7ee03e40c",
+      "zIndex": 0,
+      "source": {
+        "cell": "515a74c5-c91d-47e8-ad19-ff8922692c3f",
+        "port": "808e7a6a-93f5-493d-a9bf-9cc90834b712"
+      },
+      "target": {
+        "cell": "753019f2-2ce1-4981-a0f6-8a2bb7e286ec",
+        "port": "8aae58bf-e5b7-4a4f-bfae-d41a5b7c4b81"
+      }
+    },
+    {
+      "shape": "edge",
+      "attrs": {
+        "line": {
+          "stroke": "#A2B1C3"
+        }
+      },
+      "id": "8d4e5cd6-4230-4296-a20d-c6c4d2f7bac7",
+      "zIndex": 0,
+      "source": {
+        "cell": "753019f2-2ce1-4981-a0f6-8a2bb7e286ec",
+        "port": "808e7a6a-93f5-493d-a9bf-9cc90834b712"
+      },
+      "target": {
+        "cell": "41e541c8-3228-4d76-b890-b1fb8b0c8144",
+        "port": "8aae58bf-e5b7-4a4f-bfae-d41a5b7c4b81"
+      }
+    },
+    {
+      "shape": "edge",
+      "attrs": {
+        "line": {
+          "stroke": "#A2B1C3"
+        }
+      },
+      "id": "d3826988-e16c-45b9-af31-b6d7aad91494",
+      "zIndex": 0,
+      "source": {
+        "cell": "41e541c8-3228-4d76-b890-b1fb8b0c8144",
+        "port": "dcc36216-847d-4e99-832a-324f9077b07e"
+      },
+      "target": {
+        "cell": "0ccef78c-092f-401c-b90a-e8d78bfbcc5e",
+        "port": "9a3e923f-aa41-4e14-adb6-f3b037a52f50"
+      }
+    },
+    {
+      "shape": "edge",
+      "attrs": {
+        "line": {
+          "stroke": "#A2B1C3"
+        }
+      },
+      "id": "ea0e534a-b2e6-4fcc-9d1c-5a098505dda0",
+      "zIndex": 0,
+      "source": {
+        "cell": "0ccef78c-092f-401c-b90a-e8d78bfbcc5e",
+        "port": "8aae58bf-e5b7-4a4f-bfae-d41a5b7c4b81"
+      },
+      "target": {
+        "cell": "cfa195fa-4622-44a9-9805-cadb4de3874f",
+        "port": "808e7a6a-93f5-493d-a9bf-9cc90834b712"
+      }
+    },
+    {
+      "shape": "edge",
+      "attrs": {
+        "line": {
+          "stroke": "#A2B1C3"
+        }
+      },
+      "id": "cd432573-8c2f-40b9-aba3-70971be60f42",
+      "zIndex": 0,
+      "source": {
+        "cell": "cfa195fa-4622-44a9-9805-cadb4de3874f",
+        "port": "8aae58bf-e5b7-4a4f-bfae-d41a5b7c4b81"
+      },
+      "target": {
+        "cell": "bcd6dfac-40b7-46b6-8f7b-56730f79be86",
+        "port": "808e7a6a-93f5-493d-a9bf-9cc90834b712"
+      }
+    },
+    {
+      "shape": "edge",
+      "attrs": {
+        "line": {
+          "stroke": "#A2B1C3"
+        }
+      },
+      "id": "bbacff8d-d9e7-41f8-b63d-0ff3fb1c4a15",
+      "zIndex": 0,
+      "source": {
+        "cell": "bcd6dfac-40b7-46b6-8f7b-56730f79be86",
+        "port": "8aae58bf-e5b7-4a4f-bfae-d41a5b7c4b81"
+      },
+      "target": {
+        "cell": "43b5bbea-4935-4126-af3a-c7007a91359a",
+        "port": "808e7a6a-93f5-493d-a9bf-9cc90834b712"
+      }
+    },
+    {
+      "shape": "edge",
+      "attrs": {
+        "line": {
+          "stroke": "#A2B1C3"
+        }
+      },
+      "id": "95e69dc6-64b9-464b-906c-36a63017b64c",
+      "zIndex": 0,
+      "source": {
+        "cell": "43b5bbea-4935-4126-af3a-c7007a91359a",
+        "port": "8aae58bf-e5b7-4a4f-bfae-d41a5b7c4b81"
+      },
+      "target": {
+        "cell": "c811e59f-037d-4757-acb0-ba290d6bc5fe",
+        "port": "808e7a6a-93f5-493d-a9bf-9cc90834b712"
+      }
+    },
+    {
+      "shape": "edge",
+      "attrs": {
+        "line": {
+          "stroke": "#A2B1C3"
+        }
+      },
+      "id": "b7d902e9-f897-4fdd-afe9-e6f38e35659a",
+      "zIndex": 0,
+      "source": {
+        "cell": "c811e59f-037d-4757-acb0-ba290d6bc5fe",
+        "port": "dcc36216-847d-4e99-832a-324f9077b07e"
+      },
+      "target": {
+        "cell": "2da4766f-49a7-496f-bacf-c43b53ec1bd9",
+        "port": "9a3e923f-aa41-4e14-adb6-f3b037a52f50"
+      }
+    },
+    {
+      "shape": "edge",
+      "attrs": {
+        "line": {
+          "stroke": "#A2B1C3"
+        }
+      },
+      "id": "bc6aef3d-2042-4405-9aa8-6eda3a71a67e",
+      "zIndex": 0,
+      "source": {
+        "cell": "2da4766f-49a7-496f-bacf-c43b53ec1bd9",
+        "port": "808e7a6a-93f5-493d-a9bf-9cc90834b712"
+      },
+      "target": {
+        "cell": "a1e1db6d-8d22-4db6-86e6-0629721af205",
+        "port": "8aae58bf-e5b7-4a4f-bfae-d41a5b7c4b81"
+      }
+    },
+    {
+      "shape": "edge",
+      "attrs": {
+        "line": {
+          "stroke": "#A2B1C3"
+        }
+      },
+      "id": "eff8e88d-71b9-4198-84d0-e4cbb08aa532",
+      "zIndex": 0,
+      "source": {
+        "cell": "a1e1db6d-8d22-4db6-86e6-0629721af205",
+        "port": "808e7a6a-93f5-493d-a9bf-9cc90834b712"
+      },
+      "target": {
+        "cell": "50a600ef-a77a-458d-a0e3-e182f812e773",
+        "port": "8aae58bf-e5b7-4a4f-bfae-d41a5b7c4b81"
+      }
+    },
+    {
+      "shape": "edge",
+      "attrs": {
+        "line": {
+          "stroke": "#A2B1C3"
+        }
+      },
+      "id": "4bf0733d-6557-49d6-83a3-fc239125a7a2",
+      "zIndex": 0,
+      "source": {
+        "cell": "50a600ef-a77a-458d-a0e3-e182f812e773",
+        "port": "808e7a6a-93f5-493d-a9bf-9cc90834b712"
+      },
+      "target": {
+        "cell": "c58fb2b9-571c-49a7-bf9d-d048055c41e2",
+        "port": "8aae58bf-e5b7-4a4f-bfae-d41a5b7c4b81"
+      }
+    },
+    {
+      "shape": "edge",
+      "attrs": {
+        "line": {
+          "stroke": "#A2B1C3"
+        }
+      },
+      "id": "0d9dfccb-a9bd-4cba-b108-5507dd35302e",
+      "zIndex": 0,
+      "source": {
+        "cell": "c58fb2b9-571c-49a7-bf9d-d048055c41e2",
+        "port": "808e7a6a-93f5-493d-a9bf-9cc90834b712"
+      },
+      "target": {
+        "cell": "282269ff-a3ad-4809-ae3a-08d84203b3b9",
+        "port": "8aae58bf-e5b7-4a4f-bfae-d41a5b7c4b81"
+      }
+    },
+    {
+      "shape": "edge",
+      "attrs": {
+        "line": {
+          "stroke": "#A2B1C3"
+        }
+      },
+      "id": "1818412e-9570-4457-be2e-50bb84589d6f",
+      "zIndex": 0,
+      "source": {
+        "cell": "282269ff-a3ad-4809-ae3a-08d84203b3b9",
+        "port": "dcc36216-847d-4e99-832a-324f9077b07e"
+      },
+      "target": {
+        "cell": "909ee27b-bb3c-480c-88b9-fe00e22f0372",
+        "port": "9a3e923f-aa41-4e14-adb6-f3b037a52f50"
+      }
+    },
+    {
+      "shape": "edge",
+      "attrs": {
+        "line": {
+          "stroke": "#A2B1C3"
+        }
+      },
+      "id": "1af2e4c9-be03-4fba-a6d8-fa1fabd6f480",
+      "zIndex": 0,
+      "source": {
+        "cell": "909ee27b-bb3c-480c-88b9-fe00e22f0372",
+        "port": "8aae58bf-e5b7-4a4f-bfae-d41a5b7c4b81"
+      },
+      "target": {
+        "cell": "23ba52f2-47c1-4e16-92bb-36efb538795a",
+        "port": "808e7a6a-93f5-493d-a9bf-9cc90834b712"
+      }
+    },
+    {
+      "shape": "edge",
+      "attrs": {
+        "line": {
+          "stroke": "#A2B1C3"
+        }
+      },
+      "id": "5b60329f-7186-4a0c-906a-d8b8bb58ecc1",
+      "zIndex": 0,
+      "source": {
+        "cell": "23ba52f2-47c1-4e16-92bb-36efb538795a",
+        "port": "8aae58bf-e5b7-4a4f-bfae-d41a5b7c4b81"
+      },
+      "target": {
+        "cell": "8c8d6d1b-0c47-4762-87ed-674d1a3526f4",
+        "port": "808e7a6a-93f5-493d-a9bf-9cc90834b712"
+      }
+    },
+    {
+      "shape": "edge",
+      "attrs": {
+        "line": {
+          "stroke": "#A2B1C3"
+        }
+      },
+      "id": "24ea4206-415d-464f-a628-9382bb924b31",
+      "zIndex": 0,
+      "source": {
+        "cell": "8c8d6d1b-0c47-4762-87ed-674d1a3526f4",
+        "port": "8aae58bf-e5b7-4a4f-bfae-d41a5b7c4b81"
+      },
+      "target": {
+        "cell": "d9c943f6-3bcd-4b5d-a1c6-c0bc397675c0",
+        "port": "808e7a6a-93f5-493d-a9bf-9cc90834b712"
+      }
+    },
+    {
+      "position": {
+        "x": 20,
+        "y": 20
+      },
+      "size": {
+        "width": 190,
+        "height": 92
+      },
+      "view": "react-shape-view",
+      "shape": "custom-react-shape",
+      "ports": {
+        "groups": {
+          "top": {
+            "position": "top",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "right": {
+            "position": "right",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "bottom": {
+            "position": "bottom",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "left": {
+            "position": "left",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          }
+        },
+        "items": [
+          {
+            "group": "top",
+            "id": "9a3e923f-aa41-4e14-adb6-f3b037a52f50"
+          },
+          {
+            "group": "right",
+            "id": "808e7a6a-93f5-493d-a9bf-9cc90834b712"
+          },
+          {
+            "group": "bottom",
+            "id": "dcc36216-847d-4e99-832a-324f9077b07e"
+          },
+          {
+            "group": "left",
+            "id": "8aae58bf-e5b7-4a4f-bfae-d41a5b7c4b81"
+          }
+        ]
+      },
+      "id": "684a1e1b-da0c-461d-be4e-9853870452d1",
+      "data": {
+        "protoText": "100ml o/n LB/amp culture per 800ml culture bacterial the next day, 37\u00b0C"
+      },
+      "type": "inputNode",
+      "zIndex": 1
+    },
+    {
+      "position": {
+        "x": 257,
+        "y": 20
+      },
+      "size": {
+        "width": 170,
+        "height": 92
+      },
+      "view": "react-shape-view",
+      "shape": "custom-react-shape",
+      "ports": {
+        "groups": {
+          "top": {
+            "position": "top",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "right": {
+            "position": "right",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "bottom": {
+            "position": "bottom",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "left": {
+            "position": "left",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          }
+        },
+        "items": [
+          {
+            "group": "top",
+            "id": "9a3e923f-aa41-4e14-adb6-f3b037a52f50"
+          },
+          {
+            "group": "right",
+            "id": "808e7a6a-93f5-493d-a9bf-9cc90834b712"
+          },
+          {
+            "group": "bottom",
+            "id": "dcc36216-847d-4e99-832a-324f9077b07e"
+          },
+          {
+            "group": "left",
+            "id": "8aae58bf-e5b7-4a4f-bfae-d41a5b7c4b81"
+          }
+        ]
+      },
+      "id": "515a74c5-c91d-47e8-ad19-ff8922692c3f",
+      "data": {
+        "protoText": "Seed 800ml LB/amp culture bacterial with 100ml o/n culture."
+      },
+      "type": "inputNode",
+      "zIndex": 2
+    },
+    {
+      "position": {
+        "x": 487,
+        "y": 20
+      },
+      "size": {
+        "width": 150,
+        "height": 92
+      },
+      "view": "react-shape-view",
+      "shape": "custom-react-shape",
+      "ports": {
+        "groups": {
+          "top": {
+            "position": "top",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "right": {
+            "position": "right",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "bottom": {
+            "position": "bottom",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "left": {
+            "position": "left",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          }
+        },
+        "items": [
+          {
+            "group": "top",
+            "id": "9a3e923f-aa41-4e14-adb6-f3b037a52f50"
+          },
+          {
+            "group": "right",
+            "id": "808e7a6a-93f5-493d-a9bf-9cc90834b712"
+          },
+          {
+            "group": "bottom",
+            "id": "dcc36216-847d-4e99-832a-324f9077b07e"
+          },
+          {
+            "group": "left",
+            "id": "8aae58bf-e5b7-4a4f-bfae-d41a5b7c4b81"
+          }
+        ]
+      },
+      "id": "753019f2-2ce1-4981-a0f6-8a2bb7e286ec",
+      "data": {
+        "protoText": "Grow bacterial at 37\u00b0C until OD600 = 0.6-1.2"
+      },
+      "type": "inputNode",
+      "zIndex": 3
+    },
+    {
+      "position": {
+        "x": 676,
+        "y": 38
+      },
+      "size": {
+        "width": 110,
+        "height": 56
+      },
+      "view": "react-shape-view",
+      "shape": "custom-react-shape",
+      "ports": {
+        "groups": {
+          "top": {
+            "position": "top",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "right": {
+            "position": "right",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "bottom": {
+            "position": "bottom",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "left": {
+            "position": "left",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          }
+        },
+        "items": [
+          {
+            "group": "top",
+            "id": "9a3e923f-aa41-4e14-adb6-f3b037a52f50"
+          },
+          {
+            "group": "right",
+            "id": "808e7a6a-93f5-493d-a9bf-9cc90834b712"
+          },
+          {
+            "group": "bottom",
+            "id": "dcc36216-847d-4e99-832a-324f9077b07e"
+          },
+          {
+            "group": "left",
+            "id": "8aae58bf-e5b7-4a4f-bfae-d41a5b7c4b81"
+          }
+        ]
+      },
+      "id": "41e541c8-3228-4d76-b890-b1fb8b0c8144",
+      "data": {
+        "protoText": "Induce with 1mM IPTG"
+      },
+      "type": "inputNode",
+      "zIndex": 4
+    },
+    {
+      "position": {
+        "x": 676,
+        "y": 150
+      },
+      "size": {
+        "width": 110,
+        "height": 56
+      },
+      "view": "react-shape-view",
+      "shape": "custom-react-shape",
+      "ports": {
+        "groups": {
+          "top": {
+            "position": "top",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "right": {
+            "position": "right",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "bottom": {
+            "position": "bottom",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "left": {
+            "position": "left",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          }
+        },
+        "items": [
+          {
+            "group": "top",
+            "id": "9a3e923f-aa41-4e14-adb6-f3b037a52f50"
+          },
+          {
+            "group": "right",
+            "id": "808e7a6a-93f5-493d-a9bf-9cc90834b712"
+          },
+          {
+            "group": "bottom",
+            "id": "dcc36216-847d-4e99-832a-324f9077b07e"
+          },
+          {
+            "group": "left",
+            "id": "8aae58bf-e5b7-4a4f-bfae-d41a5b7c4b81"
+          }
+        ]
+      },
+      "id": "0ccef78c-092f-401c-b90a-e8d78bfbcc5e",
+      "data": {
+        "protoText": "Grow bacterial 3hr"
+      },
+      "type": "inputNode",
+      "zIndex": 5
+    },
+    {
+      "position": {
+        "x": 487,
+        "y": 141
+      },
+      "size": {
+        "width": 150,
+        "height": 74
+      },
+      "view": "react-shape-view",
+      "shape": "custom-react-shape",
+      "ports": {
+        "groups": {
+          "top": {
+            "position": "top",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "right": {
+            "position": "right",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "bottom": {
+            "position": "bottom",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "left": {
+            "position": "left",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          }
+        },
+        "items": [
+          {
+            "group": "top",
+            "id": "9a3e923f-aa41-4e14-adb6-f3b037a52f50"
+          },
+          {
+            "group": "right",
+            "id": "808e7a6a-93f5-493d-a9bf-9cc90834b712"
+          },
+          {
+            "group": "bottom",
+            "id": "dcc36216-847d-4e99-832a-324f9077b07e"
+          },
+          {
+            "group": "left",
+            "id": "8aae58bf-e5b7-4a4f-bfae-d41a5b7c4b81"
+          }
+        ]
+      },
+      "id": "cfa195fa-4622-44a9-9805-cadb4de3874f",
+      "data": {
+        "protoText": "Spin bacterial at 8krpm for 15min at 4\u00b0C"
+      },
+      "type": "inputNode",
+      "zIndex": 6
+    },
+    {
+      "position": {
+        "x": 297,
+        "y": 141
+      },
+      "size": {
+        "width": 150,
+        "height": 74
+      },
+      "view": "react-shape-view",
+      "shape": "custom-react-shape",
+      "ports": {
+        "groups": {
+          "top": {
+            "position": "top",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "right": {
+            "position": "right",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "bottom": {
+            "position": "bottom",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "left": {
+            "position": "left",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          }
+        },
+        "items": [
+          {
+            "group": "top",
+            "id": "9a3e923f-aa41-4e14-adb6-f3b037a52f50"
+          },
+          {
+            "group": "right",
+            "id": "808e7a6a-93f5-493d-a9bf-9cc90834b712"
+          },
+          {
+            "group": "bottom",
+            "id": "dcc36216-847d-4e99-832a-324f9077b07e"
+          },
+          {
+            "group": "left",
+            "id": "8aae58bf-e5b7-4a4f-bfae-d41a5b7c4b81"
+          }
+        ]
+      },
+      "id": "bcd6dfac-40b7-46b6-8f7b-56730f79be86",
+      "data": {
+        "protoText": "Resuspend bacterial in His Binding Buffer"
+      },
+      "type": "inputNode",
+      "zIndex": 7
+    },
+    {
+      "position": {
+        "x": 92,
+        "y": 132
+      },
+      "size": {
+        "width": 150,
+        "height": 92
+      },
+      "view": "react-shape-view",
+      "shape": "custom-react-shape",
+      "ports": {
+        "groups": {
+          "top": {
+            "position": "top",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "right": {
+            "position": "right",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "bottom": {
+            "position": "bottom",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "left": {
+            "position": "left",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          }
+        },
+        "items": [
+          {
+            "group": "top",
+            "id": "9a3e923f-aa41-4e14-adb6-f3b037a52f50"
+          },
+          {
+            "group": "right",
+            "id": "808e7a6a-93f5-493d-a9bf-9cc90834b712"
+          },
+          {
+            "group": "bottom",
+            "id": "dcc36216-847d-4e99-832a-324f9077b07e"
+          },
+          {
+            "group": "left",
+            "id": "8aae58bf-e5b7-4a4f-bfae-d41a5b7c4b81"
+          }
+        ]
+      },
+      "id": "43b5bbea-4935-4126-af3a-c7007a91359a",
+      "data": {
+        "protoText": "Lyse 2x800 ml cell pellets with homogenizer"
+      },
+      "type": "inputNode",
+      "zIndex": 8
+    },
+    {
+      "position": {
+        "x": -70,
+        "y": 141
+      },
+      "size": {
+        "width": 130,
+        "height": 74
+      },
+      "view": "react-shape-view",
+      "shape": "custom-react-shape",
+      "ports": {
+        "groups": {
+          "top": {
+            "position": "top",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "right": {
+            "position": "right",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "bottom": {
+            "position": "bottom",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "left": {
+            "position": "left",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          }
+        },
+        "items": [
+          {
+            "group": "top",
+            "id": "9a3e923f-aa41-4e14-adb6-f3b037a52f50"
+          },
+          {
+            "group": "right",
+            "id": "808e7a6a-93f5-493d-a9bf-9cc90834b712"
+          },
+          {
+            "group": "bottom",
+            "id": "dcc36216-847d-4e99-832a-324f9077b07e"
+          },
+          {
+            "group": "left",
+            "id": "8aae58bf-e5b7-4a4f-bfae-d41a5b7c4b81"
+          }
+        ]
+      },
+      "id": "c811e59f-037d-4757-acb0-ba290d6bc5fe",
+      "data": {
+        "protoText": "Spin cells at 16 krpm, 30min, 4\u00b0C"
+      },
+      "type": "inputNode",
+      "zIndex": 9
+    },
+    {
+      "position": {
+        "x": -90,
+        "y": 273
+      },
+      "size": {
+        "width": 170,
+        "height": 92
+      },
+      "view": "react-shape-view",
+      "shape": "custom-react-shape",
+      "ports": {
+        "groups": {
+          "top": {
+            "position": "top",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "right": {
+            "position": "right",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "bottom": {
+            "position": "bottom",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "left": {
+            "position": "left",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          }
+        },
+        "items": [
+          {
+            "group": "top",
+            "id": "9a3e923f-aa41-4e14-adb6-f3b037a52f50"
+          },
+          {
+            "group": "right",
+            "id": "808e7a6a-93f5-493d-a9bf-9cc90834b712"
+          },
+          {
+            "group": "bottom",
+            "id": "dcc36216-847d-4e99-832a-324f9077b07e"
+          },
+          {
+            "group": "left",
+            "id": "8aae58bf-e5b7-4a4f-bfae-d41a5b7c4b81"
+          }
+        ]
+      },
+      "id": "2da4766f-49a7-496f-bacf-c43b53ec1bd9",
+      "data": {
+        "protoText": "Load supernatant on to 3 ml equilibrated Ni-NTA column"
+      },
+      "type": "inputNode",
+      "zIndex": 10
+    },
+    {
+      "position": {
+        "x": 127,
+        "y": 282
+      },
+      "size": {
+        "width": 130,
+        "height": 74
+      },
+      "view": "react-shape-view",
+      "shape": "custom-react-shape",
+      "ports": {
+        "groups": {
+          "top": {
+            "position": "top",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "right": {
+            "position": "right",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "bottom": {
+            "position": "bottom",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "left": {
+            "position": "left",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          }
+        },
+        "items": [
+          {
+            "group": "top",
+            "id": "9a3e923f-aa41-4e14-adb6-f3b037a52f50"
+          },
+          {
+            "group": "right",
+            "id": "808e7a6a-93f5-493d-a9bf-9cc90834b712"
+          },
+          {
+            "group": "bottom",
+            "id": "dcc36216-847d-4e99-832a-324f9077b07e"
+          },
+          {
+            "group": "left",
+            "id": "8aae58bf-e5b7-4a4f-bfae-d41a5b7c4b81"
+          }
+        ]
+      },
+      "id": "a1e1db6d-8d22-4db6-86e6-0629721af205",
+      "data": {
+        "protoText": "Wash with 50 ml binding buffer"
+      },
+      "type": "inputNode",
+      "zIndex": 11
+    },
+    {
+      "position": {
+        "x": 297,
+        "y": 282
+      },
+      "size": {
+        "width": 150,
+        "height": 74
+      },
+      "view": "react-shape-view",
+      "shape": "custom-react-shape",
+      "ports": {
+        "groups": {
+          "top": {
+            "position": "top",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "right": {
+            "position": "right",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "bottom": {
+            "position": "bottom",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "left": {
+            "position": "left",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          }
+        },
+        "items": [
+          {
+            "group": "top",
+            "id": "9a3e923f-aa41-4e14-adb6-f3b037a52f50"
+          },
+          {
+            "group": "right",
+            "id": "808e7a6a-93f5-493d-a9bf-9cc90834b712"
+          },
+          {
+            "group": "bottom",
+            "id": "dcc36216-847d-4e99-832a-324f9077b07e"
+          },
+          {
+            "group": "left",
+            "id": "8aae58bf-e5b7-4a4f-bfae-d41a5b7c4b81"
+          }
+        ]
+      },
+      "id": "50a600ef-a77a-458d-a0e3-e182f812e773",
+      "data": {
+        "protoText": "Wash with 10 column volumes wash buffer"
+      },
+      "type": "inputNode",
+      "zIndex": 12
+    },
+    {
+      "position": {
+        "x": 487,
+        "y": 282
+      },
+      "size": {
+        "width": 110,
+        "height": 74
+      },
+      "view": "react-shape-view",
+      "shape": "custom-react-shape",
+      "ports": {
+        "groups": {
+          "top": {
+            "position": "top",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "right": {
+            "position": "right",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "bottom": {
+            "position": "bottom",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "left": {
+            "position": "left",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          }
+        },
+        "items": [
+          {
+            "group": "top",
+            "id": "9a3e923f-aa41-4e14-adb6-f3b037a52f50"
+          },
+          {
+            "group": "right",
+            "id": "808e7a6a-93f5-493d-a9bf-9cc90834b712"
+          },
+          {
+            "group": "bottom",
+            "id": "dcc36216-847d-4e99-832a-324f9077b07e"
+          },
+          {
+            "group": "left",
+            "id": "8aae58bf-e5b7-4a4f-bfae-d41a5b7c4b81"
+          }
+        ]
+      },
+      "id": "c58fb2b9-571c-49a7-bf9d-d048055c41e2",
+      "data": {
+        "protoText": "Elute with elution buffer"
+      },
+      "type": "inputNode",
+      "zIndex": 13
+    },
+    {
+      "position": {
+        "x": 637,
+        "y": 282
+      },
+      "size": {
+        "width": 150,
+        "height": 74
+      },
+      "view": "react-shape-view",
+      "shape": "custom-react-shape",
+      "ports": {
+        "groups": {
+          "top": {
+            "position": "top",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "right": {
+            "position": "right",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "bottom": {
+            "position": "bottom",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "left": {
+            "position": "left",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          }
+        },
+        "items": [
+          {
+            "group": "top",
+            "id": "9a3e923f-aa41-4e14-adb6-f3b037a52f50"
+          },
+          {
+            "group": "right",
+            "id": "808e7a6a-93f5-493d-a9bf-9cc90834b712"
+          },
+          {
+            "group": "bottom",
+            "id": "dcc36216-847d-4e99-832a-324f9077b07e"
+          },
+          {
+            "group": "left",
+            "id": "8aae58bf-e5b7-4a4f-bfae-d41a5b7c4b81"
+          }
+        ]
+      },
+      "id": "282269ff-a3ad-4809-ae3a-08d84203b3b9",
+      "data": {
+        "protoText": "Dialyze protein into dialysis buffer 1"
+      },
+      "type": "inputNode",
+      "zIndex": 14
+    },
+    {
+      "position": {
+        "x": 637,
+        "y": 400
+      },
+      "size": {
+        "width": 130,
+        "height": 74
+      },
+      "view": "react-shape-view",
+      "shape": "custom-react-shape",
+      "ports": {
+        "groups": {
+          "top": {
+            "position": "top",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "right": {
+            "position": "right",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "bottom": {
+            "position": "bottom",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "left": {
+            "position": "left",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          }
+        },
+        "items": [
+          {
+            "group": "top",
+            "id": "9a3e923f-aa41-4e14-adb6-f3b037a52f50"
+          },
+          {
+            "group": "right",
+            "id": "808e7a6a-93f5-493d-a9bf-9cc90834b712"
+          },
+          {
+            "group": "bottom",
+            "id": "dcc36216-847d-4e99-832a-324f9077b07e"
+          },
+          {
+            "group": "left",
+            "id": "8aae58bf-e5b7-4a4f-bfae-d41a5b7c4b81"
+          }
+        ]
+      },
+      "id": "909ee27b-bb3c-480c-88b9-fe00e22f0372",
+      "data": {
+        "protoText": "Concentrate VD1 to 20-30 mg/ml"
+      },
+      "type": "inputNode",
+      "zIndex": 15
+    },
+    {
+      "position": {
+        "x": 427,
+        "y": 391
+      },
+      "size": {
+        "width": 170,
+        "height": 92
+      },
+      "view": "react-shape-view",
+      "shape": "custom-react-shape",
+      "ports": {
+        "groups": {
+          "top": {
+            "position": "top",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "right": {
+            "position": "right",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "bottom": {
+            "position": "bottom",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "left": {
+            "position": "left",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          }
+        },
+        "items": [
+          {
+            "group": "top",
+            "id": "9a3e923f-aa41-4e14-adb6-f3b037a52f50"
+          },
+          {
+            "group": "right",
+            "id": "808e7a6a-93f5-493d-a9bf-9cc90834b712"
+          },
+          {
+            "group": "bottom",
+            "id": "dcc36216-847d-4e99-832a-324f9077b07e"
+          },
+          {
+            "group": "left",
+            "id": "8aae58bf-e5b7-4a4f-bfae-d41a5b7c4b81"
+          }
+        ]
+      },
+      "id": "23ba52f2-47c1-4e16-92bb-36efb538795a",
+      "data": {
+        "protoText": " Dialyze protein into dialysis buffer 2 or end use buffer"
+      },
+      "type": "inputNode",
+      "zIndex": 16
+    },
+    {
+      "position": {
+        "x": 227,
+        "y": 400
+      },
+      "size": {
+        "width": 150,
+        "height": 74
+      },
+      "view": "react-shape-view",
+      "shape": "custom-react-shape",
+      "ports": {
+        "groups": {
+          "top": {
+            "position": "top",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "right": {
+            "position": "right",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "bottom": {
+            "position": "bottom",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "left": {
+            "position": "left",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          }
+        },
+        "items": [
+          {
+            "group": "top",
+            "id": "9a3e923f-aa41-4e14-adb6-f3b037a52f50"
+          },
+          {
+            "group": "right",
+            "id": "808e7a6a-93f5-493d-a9bf-9cc90834b712"
+          },
+          {
+            "group": "bottom",
+            "id": "dcc36216-847d-4e99-832a-324f9077b07e"
+          },
+          {
+            "group": "left",
+            "id": "8aae58bf-e5b7-4a4f-bfae-d41a5b7c4b81"
+          }
+        ]
+      },
+      "id": "8c8d6d1b-0c47-4762-87ed-674d1a3526f4",
+      "data": {
+        "protoText": "Run protein for SDS PAGE on purification"
+      },
+      "type": "inputNode",
+      "zIndex": 17
+    },
+    {
+      "position": {
+        "x": 20,
+        "y": 391
+      },
+      "size": {
+        "width": 170,
+        "height": 92
+      },
+      "view": "react-shape-view",
+      "shape": "custom-react-shape",
+      "ports": {
+        "groups": {
+          "top": {
+            "position": "top",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "right": {
+            "position": "right",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "bottom": {
+            "position": "bottom",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "left": {
+            "position": "left",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          }
+        },
+        "items": [
+          {
+            "group": "top",
+            "id": "9a3e923f-aa41-4e14-adb6-f3b037a52f50"
+          },
+          {
+            "group": "right",
+            "id": "808e7a6a-93f5-493d-a9bf-9cc90834b712"
+          },
+          {
+            "group": "bottom",
+            "id": "dcc36216-847d-4e99-832a-324f9077b07e"
+          },
+          {
+            "group": "left",
+            "id": "8aae58bf-e5b7-4a4f-bfae-d41a5b7c4b81"
+          }
+        ]
+      },
+      "id": "d9c943f6-3bcd-4b5d-a1c6-c0bc397675c0",
+      "data": {
+        "protoText": "Dialyze protein into appropriate experimental buffer"
+      },
+      "type": "inputNode",
+      "zIndex": 18
+    }
+  ]
+}

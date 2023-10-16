@@ -1,0 +1,1284 @@
+{
+  "cells": [
+    {
+      "shape": "edge",
+      "attrs": {
+        "line": {
+          "stroke": "#A2B1C3"
+        }
+      },
+      "id": "311b64ed-e8f1-4351-8679-980ea52e3840",
+      "zIndex": 0,
+      "source": {
+        "cell": "4beceac5-bc00-401f-98ae-f78e819c3be1",
+        "port": "d039dffd-0cea-4bef-932b-c770111e82f2"
+      },
+      "target": {
+        "cell": "1f708e7f-e370-48d1-a90e-412da0cde623",
+        "port": "74a0d2af-0b58-48d4-a4af-104e55ec5d01"
+      }
+    },
+    {
+      "shape": "edge",
+      "attrs": {
+        "line": {
+          "stroke": "#A2B1C3"
+        }
+      },
+      "id": "b59abc51-d4fb-4ee0-a6d4-9a9278379322",
+      "zIndex": 0,
+      "source": {
+        "cell": "1f708e7f-e370-48d1-a90e-412da0cde623",
+        "port": "d039dffd-0cea-4bef-932b-c770111e82f2"
+      },
+      "target": {
+        "cell": "645dd4dc-cc9d-4dde-9fa4-46fa0f93cd9d",
+        "port": "74a0d2af-0b58-48d4-a4af-104e55ec5d01"
+      }
+    },
+    {
+      "shape": "edge",
+      "attrs": {
+        "line": {
+          "stroke": "#A2B1C3"
+        }
+      },
+      "id": "3468875e-4e26-462d-a4ba-545afb5afcb2",
+      "zIndex": 0,
+      "source": {
+        "cell": "645dd4dc-cc9d-4dde-9fa4-46fa0f93cd9d",
+        "port": "d039dffd-0cea-4bef-932b-c770111e82f2"
+      },
+      "target": {
+        "cell": "7490564e-9863-420e-96c9-11d82771fd19",
+        "port": "74a0d2af-0b58-48d4-a4af-104e55ec5d01"
+      }
+    },
+    {
+      "shape": "edge",
+      "attrs": {
+        "line": {
+          "stroke": "#A2B1C3"
+        }
+      },
+      "id": "f86d77cd-8f92-4571-9b30-cf0d34536842",
+      "zIndex": 0,
+      "source": {
+        "cell": "7490564e-9863-420e-96c9-11d82771fd19",
+        "port": "d039dffd-0cea-4bef-932b-c770111e82f2"
+      },
+      "target": {
+        "cell": "08d69273-e19b-4540-8749-b5df9939ec08",
+        "port": "74a0d2af-0b58-48d4-a4af-104e55ec5d01"
+      }
+    },
+    {
+      "shape": "edge",
+      "attrs": {
+        "line": {
+          "stroke": "#A2B1C3"
+        }
+      },
+      "id": "4c80d546-4205-4f22-8701-104c26861fd3",
+      "zIndex": 0,
+      "source": {
+        "cell": "08d69273-e19b-4540-8749-b5df9939ec08",
+        "port": "d039dffd-0cea-4bef-932b-c770111e82f2"
+      },
+      "target": {
+        "cell": "5c256d15-ce7c-494a-a1d4-0223839f7e74",
+        "port": "74a0d2af-0b58-48d4-a4af-104e55ec5d01"
+      }
+    },
+    {
+      "shape": "edge",
+      "attrs": {
+        "line": {
+          "stroke": "#A2B1C3"
+        }
+      },
+      "id": "5be37617-235a-4119-b11d-3c34d135d71f",
+      "zIndex": 0,
+      "source": {
+        "cell": "5c256d15-ce7c-494a-a1d4-0223839f7e74",
+        "port": "d039dffd-0cea-4bef-932b-c770111e82f2"
+      },
+      "target": {
+        "cell": "c73916ce-c93c-4dd4-b15d-a012928d1237",
+        "port": "d039dffd-0cea-4bef-932b-c770111e82f2"
+      }
+    },
+    {
+      "shape": "edge",
+      "attrs": {
+        "line": {
+          "stroke": "#A2B1C3"
+        }
+      },
+      "id": "5fe6dbd0-bf15-46ab-8a68-61df0c9acc04",
+      "zIndex": 0,
+      "source": {
+        "cell": "c73916ce-c93c-4dd4-b15d-a012928d1237",
+        "port": "74a0d2af-0b58-48d4-a4af-104e55ec5d01"
+      },
+      "target": {
+        "cell": "45b8a05d-bc66-4f9c-b3fe-8815ba84677b",
+        "port": "d039dffd-0cea-4bef-932b-c770111e82f2"
+      }
+    },
+    {
+      "shape": "edge",
+      "attrs": {
+        "line": {
+          "stroke": "#A2B1C3"
+        }
+      },
+      "id": "e6e965c2-bd11-4740-bc77-818bc0bfc3b8",
+      "zIndex": 0,
+      "source": {
+        "cell": "45b8a05d-bc66-4f9c-b3fe-8815ba84677b",
+        "port": "74a0d2af-0b58-48d4-a4af-104e55ec5d01"
+      },
+      "target": {
+        "cell": "ac3ab8f8-fd89-4230-9794-dea5e4244710",
+        "port": "d039dffd-0cea-4bef-932b-c770111e82f2"
+      }
+    },
+    {
+      "shape": "edge",
+      "attrs": {
+        "line": {
+          "stroke": "#A2B1C3"
+        }
+      },
+      "id": "34eb4578-9498-495f-b153-4f93b4382742",
+      "zIndex": 0,
+      "source": {
+        "cell": "ac3ab8f8-fd89-4230-9794-dea5e4244710",
+        "port": "74a0d2af-0b58-48d4-a4af-104e55ec5d01"
+      },
+      "target": {
+        "cell": "a48cf6f1-f49b-4162-b6c5-033881daa7c7",
+        "port": "d039dffd-0cea-4bef-932b-c770111e82f2"
+      }
+    },
+    {
+      "shape": "edge",
+      "attrs": {
+        "line": {
+          "stroke": "#A2B1C3"
+        }
+      },
+      "id": "3df60ae3-4867-4961-b174-d328dce1c540",
+      "zIndex": 0,
+      "source": {
+        "cell": "a48cf6f1-f49b-4162-b6c5-033881daa7c7",
+        "port": "74a0d2af-0b58-48d4-a4af-104e55ec5d01"
+      },
+      "target": {
+        "cell": "9e478b18-6524-459b-9b1b-32d847606874",
+        "port": "d039dffd-0cea-4bef-932b-c770111e82f2"
+      }
+    },
+    {
+      "position": {
+        "x": 60,
+        "y": 60
+      },
+      "size": {
+        "width": 175,
+        "height": 118
+      },
+      "view": "react-shape-view",
+      "shape": "custom-react-shape",
+      "ports": {
+        "groups": {
+          "top": {
+            "position": "top",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "right": {
+            "position": "right",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "bottom": {
+            "position": "bottom",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "left": {
+            "position": "left",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          }
+        },
+        "items": [
+          {
+            "group": "top",
+            "id": "bcc2faae-7ace-4a0b-8bb4-4f9538512ae0"
+          },
+          {
+            "group": "right",
+            "id": "d039dffd-0cea-4bef-932b-c770111e82f2"
+          },
+          {
+            "group": "bottom",
+            "id": "e196c3bd-1f69-4fa7-8365-e73d7c492824"
+          },
+          {
+            "group": "left",
+            "id": "74a0d2af-0b58-48d4-a4af-104e55ec5d01"
+          }
+        ]
+      },
+      "id": "4beceac5-bc00-401f-98ae-f78e819c3be1",
+      "data": {
+        "protoText": "Assemble minigel glasses and spacers. We use 100 mm x 100 mm x 1 mm minigel apparatus from Nihon Eido (Tokyo, Japan)"
+      },
+      "type": "textNode",
+      "zIndex": 1
+    },
+    {
+      "position": {
+        "x": 279,
+        "y": 42
+      },
+      "size": {
+        "width": 250,
+        "height": 154
+      },
+      "view": "react-shape-view",
+      "shape": "custom-react-shape",
+      "ports": {
+        "groups": {
+          "top": {
+            "position": "top",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "right": {
+            "position": "right",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "bottom": {
+            "position": "bottom",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "left": {
+            "position": "left",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          }
+        },
+        "items": [
+          {
+            "group": "top",
+            "id": "bcc2faae-7ace-4a0b-8bb4-4f9538512ae0"
+          },
+          {
+            "group": "right",
+            "id": "d039dffd-0cea-4bef-932b-c770111e82f2"
+          },
+          {
+            "group": "bottom",
+            "id": "e196c3bd-1f69-4fa7-8365-e73d7c492824"
+          },
+          {
+            "group": "left",
+            "id": "74a0d2af-0b58-48d4-a4af-104e55ec5d01"
+          }
+        ]
+      },
+      "id": "1f708e7f-e370-48d1-a90e-412da0cde623",
+      "data": {
+        "protoText": "Prepare Phos-tag separation gel solution by mixing solutions A+B+D+E with DW. We normally use 5% gel with 3.5 \u03bcM Phos-tag and 7 \u03bcM MnCl2 for 150 kDa protein. Add TEMED and solution F. Mix then pour. Allow to polymerize for 1 h."
+      },
+      "type": "textNode",
+      "zIndex": 2
+    },
+    {
+      "position": {
+        "x": 586,
+        "y": 60
+      },
+      "size": {
+        "width": 190,
+        "height": 118
+      },
+      "view": "react-shape-view",
+      "shape": "custom-react-shape",
+      "ports": {
+        "groups": {
+          "top": {
+            "position": "top",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "right": {
+            "position": "right",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "bottom": {
+            "position": "bottom",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "left": {
+            "position": "left",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          }
+        },
+        "items": [
+          {
+            "group": "top",
+            "id": "bcc2faae-7ace-4a0b-8bb4-4f9538512ae0"
+          },
+          {
+            "group": "right",
+            "id": "d039dffd-0cea-4bef-932b-c770111e82f2"
+          },
+          {
+            "group": "bottom",
+            "id": "e196c3bd-1f69-4fa7-8365-e73d7c492824"
+          },
+          {
+            "group": "left",
+            "id": "74a0d2af-0b58-48d4-a4af-104e55ec5d01"
+          }
+        ]
+      },
+      "id": "645dd4dc-cc9d-4dde-9fa4-46fa0f93cd9d",
+      "data": {
+        "protoText": "Prepare stacking gel solution by mixing solutions A+C with DW. Add TEMED and solution F. Mix then pour. Allow to polymerize for ~ 1 h."
+      },
+      "type": "textNode",
+      "zIndex": 3
+    },
+    {
+      "position": {
+        "x": 827,
+        "y": 69
+      },
+      "size": {
+        "width": 160,
+        "height": 100
+      },
+      "view": "react-shape-view",
+      "shape": "custom-react-shape",
+      "ports": {
+        "groups": {
+          "top": {
+            "position": "top",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "right": {
+            "position": "right",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "bottom": {
+            "position": "bottom",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "left": {
+            "position": "left",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          }
+        },
+        "items": [
+          {
+            "group": "top",
+            "id": "bcc2faae-7ace-4a0b-8bb4-4f9538512ae0"
+          },
+          {
+            "group": "right",
+            "id": "d039dffd-0cea-4bef-932b-c770111e82f2"
+          },
+          {
+            "group": "bottom",
+            "id": "e196c3bd-1f69-4fa7-8365-e73d7c492824"
+          },
+          {
+            "group": "left",
+            "id": "74a0d2af-0b58-48d4-a4af-104e55ec5d01"
+          }
+        ]
+      },
+      "id": "7490564e-9863-420e-96c9-11d82771fd19",
+      "data": {
+        "protoText": "Prepare sample by mixing whole cell lysate (or immunoprecipitates) with sample buffer."
+      },
+      "type": "textNode",
+      "zIndex": 4
+    },
+    {
+      "position": {
+        "x": 1045,
+        "y": 33
+      },
+      "size": {
+        "width": 265,
+        "height": 172
+      },
+      "view": "react-shape-view",
+      "shape": "custom-react-shape",
+      "ports": {
+        "groups": {
+          "top": {
+            "position": "top",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "right": {
+            "position": "right",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "bottom": {
+            "position": "bottom",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "left": {
+            "position": "left",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          }
+        },
+        "items": [
+          {
+            "group": "top",
+            "id": "bcc2faae-7ace-4a0b-8bb4-4f9538512ae0"
+          },
+          {
+            "group": "right",
+            "id": "d039dffd-0cea-4bef-932b-c770111e82f2"
+          },
+          {
+            "group": "bottom",
+            "id": "e196c3bd-1f69-4fa7-8365-e73d7c492824"
+          },
+          {
+            "group": "left",
+            "id": "74a0d2af-0b58-48d4-a4af-104e55ec5d01"
+          }
+        ]
+      },
+      "id": "08d69273-e19b-4540-8749-b5df9939ec08",
+      "data": {
+        "protoText": "Load samples onto the gel. Avoid loading dissimilar samples (i.e. salt concentrations etc.) to two adjoining wells, since this will cause severe distortion of the bands. It is necessary to set a vacant lane between samples and molecular weight markers to avoid such problems"
+      },
+      "type": "textNode",
+      "zIndex": 5
+    },
+    {
+      "position": {
+        "x": 1371,
+        "y": 24
+      },
+      "size": {
+        "width": 325,
+        "height": 190
+      },
+      "view": "react-shape-view",
+      "shape": "custom-react-shape",
+      "ports": {
+        "groups": {
+          "top": {
+            "position": "top",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "right": {
+            "position": "right",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "bottom": {
+            "position": "bottom",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "left": {
+            "position": "left",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          }
+        },
+        "items": [
+          {
+            "group": "top",
+            "id": "bcc2faae-7ace-4a0b-8bb4-4f9538512ae0"
+          },
+          {
+            "group": "right",
+            "id": "d039dffd-0cea-4bef-932b-c770111e82f2"
+          },
+          {
+            "group": "bottom",
+            "id": "e196c3bd-1f69-4fa7-8365-e73d7c492824"
+          },
+          {
+            "group": "left",
+            "id": "74a0d2af-0b58-48d4-a4af-104e55ec5d01"
+          }
+        ]
+      },
+      "id": "5c256d15-ce7c-494a-a1d4-0223839f7e74",
+      "data": {
+        "protoText": "Run the gel at very slow speed with low constant current (~5 mA). It will require a long time; for our apparatus, it takes about 12 h to finish separation. It seems important to spend a long time for electrophoresis to obtain good separation. It is also important to use the separation gel buffer with appropriate pH (8.8). We experienced strong effect on gel running speed due to small fluctuations in the buffer pH."
+      },
+      "type": "textNode",
+      "zIndex": 6
+    },
+    {
+      "position": {
+        "x": 1461,
+        "y": 400
+      },
+      "size": {
+        "width": 235,
+        "height": 154
+      },
+      "view": "react-shape-view",
+      "shape": "custom-react-shape",
+      "ports": {
+        "groups": {
+          "top": {
+            "position": "top",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "right": {
+            "position": "right",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "bottom": {
+            "position": "bottom",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "left": {
+            "position": "left",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          }
+        },
+        "items": [
+          {
+            "group": "top",
+            "id": "bcc2faae-7ace-4a0b-8bb4-4f9538512ae0"
+          },
+          {
+            "group": "right",
+            "id": "d039dffd-0cea-4bef-932b-c770111e82f2"
+          },
+          {
+            "group": "bottom",
+            "id": "e196c3bd-1f69-4fa7-8365-e73d7c492824"
+          },
+          {
+            "group": "left",
+            "id": "74a0d2af-0b58-48d4-a4af-104e55ec5d01"
+          }
+        ]
+      },
+      "id": "c73916ce-c93c-4dd4-b15d-a012928d1237",
+      "data": {
+        "protoText": "Equilibrate the gel with transfer buffer supplemented with 1 mM EDTA for 10 min. This is required to enhance efficiency of transfer. Then continue equilibration with transfer buffer without EDTA for additional 10 min."
+      },
+      "type": "textNode",
+      "zIndex": 7
+    },
+    {
+      "position": {
+        "x": 1251,
+        "y": 437
+      },
+      "size": {
+        "width": 140,
+        "height": 80
+      },
+      "view": "react-shape-view",
+      "shape": "custom-react-shape",
+      "ports": {
+        "groups": {
+          "top": {
+            "position": "top",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "right": {
+            "position": "right",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "bottom": {
+            "position": "bottom",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "left": {
+            "position": "left",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          }
+        },
+        "items": [
+          {
+            "group": "top",
+            "id": "bcc2faae-7ace-4a0b-8bb4-4f9538512ae0"
+          },
+          {
+            "group": "right",
+            "id": "d039dffd-0cea-4bef-932b-c770111e82f2"
+          },
+          {
+            "group": "bottom",
+            "id": "e196c3bd-1f69-4fa7-8365-e73d7c492824"
+          },
+          {
+            "group": "left",
+            "id": "74a0d2af-0b58-48d4-a4af-104e55ec5d01"
+          }
+        ]
+      },
+      "id": "45b8a05d-bc66-4f9c-b3fe-8815ba84677b",
+      "data": {
+        "protoText": "Wet PVDF membrane with the transfer buffer"
+      },
+      "type": "textNode",
+      "zIndex": 8
+    },
+    {
+      "position": {
+        "x": 1060,
+        "y": 436
+      },
+      "size": {
+        "width": 115,
+        "height": 82
+      },
+      "view": "react-shape-view",
+      "shape": "custom-react-shape",
+      "ports": {
+        "groups": {
+          "top": {
+            "position": "top",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "right": {
+            "position": "right",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "bottom": {
+            "position": "bottom",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "left": {
+            "position": "left",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          }
+        },
+        "items": [
+          {
+            "group": "top",
+            "id": "bcc2faae-7ace-4a0b-8bb4-4f9538512ae0"
+          },
+          {
+            "group": "right",
+            "id": "d039dffd-0cea-4bef-932b-c770111e82f2"
+          },
+          {
+            "group": "bottom",
+            "id": "e196c3bd-1f69-4fa7-8365-e73d7c492824"
+          },
+          {
+            "group": "left",
+            "id": "74a0d2af-0b58-48d4-a4af-104e55ec5d01"
+          }
+        ]
+      },
+      "id": "ac3ab8f8-fd89-4230-9794-dea5e4244710",
+      "data": {
+        "protoText": "Assemble gel-membrane stack with 3MM filter paper"
+      },
+      "type": "textNode",
+      "zIndex": 9
+    },
+    {
+      "position": {
+        "x": 812,
+        "y": 418
+      },
+      "size": {
+        "width": 190,
+        "height": 118
+      },
+      "view": "react-shape-view",
+      "shape": "custom-react-shape",
+      "ports": {
+        "groups": {
+          "top": {
+            "position": "top",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "right": {
+            "position": "right",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "bottom": {
+            "position": "bottom",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "left": {
+            "position": "left",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          }
+        },
+        "items": [
+          {
+            "group": "top",
+            "id": "bcc2faae-7ace-4a0b-8bb4-4f9538512ae0"
+          },
+          {
+            "group": "right",
+            "id": "d039dffd-0cea-4bef-932b-c770111e82f2"
+          },
+          {
+            "group": "bottom",
+            "id": "e196c3bd-1f69-4fa7-8365-e73d7c492824"
+          },
+          {
+            "group": "left",
+            "id": "74a0d2af-0b58-48d4-a4af-104e55ec5d01"
+          }
+        ]
+      },
+      "id": "a48cf6f1-f49b-4162-b6c5-033881daa7c7",
+      "data": {
+        "protoText": "Transfer in a submarine-type apparatus for 60 min at 100 V constant voltage. Keep the apparatus at low temperature with plenty of ice"
+      },
+      "type": "textNode",
+      "zIndex": 10
+    },
+    {
+      "position": {
+        "x": 367,
+        "y": 373
+      },
+      "size": {
+        "width": 355,
+        "height": 208
+      },
+      "view": "react-shape-view",
+      "shape": "custom-react-shape",
+      "ports": {
+        "groups": {
+          "top": {
+            "position": "top",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "right": {
+            "position": "right",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "bottom": {
+            "position": "bottom",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "left": {
+            "position": "left",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          }
+        },
+        "items": [
+          {
+            "group": "top",
+            "id": "bcc2faae-7ace-4a0b-8bb4-4f9538512ae0"
+          },
+          {
+            "group": "right",
+            "id": "d039dffd-0cea-4bef-932b-c770111e82f2"
+          },
+          {
+            "group": "bottom",
+            "id": "e196c3bd-1f69-4fa7-8365-e73d7c492824"
+          },
+          {
+            "group": "left",
+            "id": "74a0d2af-0b58-48d4-a4af-104e55ec5d01"
+          }
+        ]
+      },
+      "id": "9e478b18-6524-459b-9b1b-32d847606874",
+      "data": {
+        "protoText": "This can be done with a standard Western protocol. We found it important not to block too strongly; this may erase faint bands. We normally use 2% BSA/TBS-T overnight at 4\u00b0C. Dilution and incubation length should be optimized with each antibody used. Quality of the antibody is particularly important, since non-specific bands may confound interpretation of the data. Thus it is desirable to include appropriate control (i.e. expression of mutant protein lacking phosphorylation sites)"
+      },
+      "type": "textNode",
+      "zIndex": 11
+    }
+  ]
+}

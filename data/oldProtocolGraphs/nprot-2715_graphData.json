@@ -1,0 +1,3172 @@
+{
+  "cells": [
+    {
+      "shape": "edge",
+      "attrs": {
+        "line": {
+          "stroke": "#A2B1C3"
+        }
+      },
+      "id": "c0a5eddf-fa36-4086-a0e1-42b86612ce71",
+      "zIndex": 0,
+      "source": {
+        "cell": "8a9895d2-be6a-48af-8351-4537bb30bef1",
+        "port": "6a8011cc-cfb5-4d67-ad60-6dc777b24998"
+      },
+      "target": {
+        "cell": "ea09512f-7115-4e63-b746-11fb366746e1",
+        "port": "9f030130-8638-4033-9df8-50f3e6b01ca3"
+      }
+    },
+    {
+      "shape": "edge",
+      "attrs": {
+        "line": {
+          "stroke": "#A2B1C3"
+        }
+      },
+      "id": "d174ce1a-0043-4666-80f9-10f69e08c4e1",
+      "zIndex": 0,
+      "source": {
+        "cell": "ea09512f-7115-4e63-b746-11fb366746e1",
+        "port": "d4d10bdd-a8b9-410c-bad8-1c52c652fa6e"
+      },
+      "target": {
+        "cell": "d8b8972e-e346-4ac4-95cb-0fdb97990d9f",
+        "port": "f634faae-3d6d-4038-9e9d-6cb8f4f7c73b"
+      }
+    },
+    {
+      "shape": "edge",
+      "attrs": {
+        "line": {
+          "stroke": "#A2B1C3"
+        }
+      },
+      "id": "c6f8ac8d-eefb-4f25-940e-c1c1eceaecf5",
+      "zIndex": 0,
+      "source": {
+        "cell": "d8b8972e-e346-4ac4-95cb-0fdb97990d9f",
+        "port": "d4d10bdd-a8b9-410c-bad8-1c52c652fa6e"
+      },
+      "target": {
+        "cell": "39eebc73-e69c-4685-ae8e-6e7c81268fff",
+        "port": "f634faae-3d6d-4038-9e9d-6cb8f4f7c73b"
+      }
+    },
+    {
+      "shape": "edge",
+      "attrs": {
+        "line": {
+          "stroke": "#A2B1C3"
+        }
+      },
+      "id": "41acb466-1b04-42fd-8b2e-2a49737e5415",
+      "zIndex": 0,
+      "source": {
+        "cell": "39eebc73-e69c-4685-ae8e-6e7c81268fff",
+        "port": "d4d10bdd-a8b9-410c-bad8-1c52c652fa6e"
+      },
+      "target": {
+        "cell": "2ca38600-c0fc-43d7-b9fe-75c2bb482744",
+        "port": "f634faae-3d6d-4038-9e9d-6cb8f4f7c73b"
+      }
+    },
+    {
+      "shape": "edge",
+      "attrs": {
+        "line": {
+          "stroke": "#A2B1C3"
+        }
+      },
+      "id": "cd1399ef-40c9-4287-a09d-778fb1c341c0",
+      "zIndex": 0,
+      "source": {
+        "cell": "9489f665-2816-43dd-99c1-03f19efdab9e",
+        "port": "6a8011cc-cfb5-4d67-ad60-6dc777b24998"
+      },
+      "target": {
+        "cell": "2ca38600-c0fc-43d7-b9fe-75c2bb482744",
+        "port": "9f030130-8638-4033-9df8-50f3e6b01ca3"
+      }
+    },
+    {
+      "shape": "edge",
+      "attrs": {
+        "line": {
+          "stroke": "#A2B1C3"
+        }
+      },
+      "id": "328c50f4-98cf-4229-b95b-3db614df71b3",
+      "zIndex": 0,
+      "source": {
+        "cell": "d2ca350d-0eda-47f2-ab2c-acd0e5ba5fa7",
+        "port": "b83c0d39-b674-497f-a0d3-82992efe0c79"
+      },
+      "target": {
+        "cell": "6bf5f0c8-0a97-4f9a-8679-b6389006dae3",
+        "port": "f634faae-3d6d-4038-9e9d-6cb8f4f7c73b"
+      }
+    },
+    {
+      "shape": "edge",
+      "attrs": {
+        "line": {
+          "stroke": "#A2B1C3"
+        }
+      },
+      "id": "577cbdeb-0ef2-452e-9d37-358435b6651c",
+      "zIndex": 0,
+      "source": {
+        "cell": "2ca38600-c0fc-43d7-b9fe-75c2bb482744",
+        "port": "d4d10bdd-a8b9-410c-bad8-1c52c652fa6e"
+      },
+      "target": {
+        "cell": "6bf5f0c8-0a97-4f9a-8679-b6389006dae3",
+        "port": "9f030130-8638-4033-9df8-50f3e6b01ca3"
+      }
+    },
+    {
+      "shape": "edge",
+      "attrs": {
+        "line": {
+          "stroke": "#A2B1C3"
+        }
+      },
+      "id": "3504d193-0a67-4111-a9d5-359a7a1a01cf",
+      "zIndex": 0,
+      "source": {
+        "cell": "6bf5f0c8-0a97-4f9a-8679-b6389006dae3",
+        "port": "d4d10bdd-a8b9-410c-bad8-1c52c652fa6e"
+      },
+      "target": {
+        "cell": "73ac9f1e-bd2d-4c9a-ad27-4c1ab7021611",
+        "port": "f634faae-3d6d-4038-9e9d-6cb8f4f7c73b"
+      }
+    },
+    {
+      "shape": "edge",
+      "attrs": {
+        "line": {
+          "stroke": "#A2B1C3"
+        }
+      },
+      "id": "7223eec2-c8ff-4b37-856a-e5c6c4455872",
+      "zIndex": 0,
+      "source": {
+        "cell": "73ac9f1e-bd2d-4c9a-ad27-4c1ab7021611",
+        "port": "d4d10bdd-a8b9-410c-bad8-1c52c652fa6e"
+      },
+      "target": {
+        "cell": "66deb3b8-98b6-4134-923e-3ddf23ea8213",
+        "port": "f634faae-3d6d-4038-9e9d-6cb8f4f7c73b"
+      }
+    },
+    {
+      "shape": "edge",
+      "attrs": {
+        "line": {
+          "stroke": "#A2B1C3"
+        }
+      },
+      "id": "f0b647e7-f125-41ec-b380-28293ae0404a",
+      "zIndex": 0,
+      "source": {
+        "cell": "66deb3b8-98b6-4134-923e-3ddf23ea8213",
+        "port": "d4d10bdd-a8b9-410c-bad8-1c52c652fa6e"
+      },
+      "target": {
+        "cell": "c9cfaf7f-31f9-43b3-ba72-dca6faf7a284",
+        "port": "f634faae-3d6d-4038-9e9d-6cb8f4f7c73b"
+      }
+    },
+    {
+      "shape": "edge",
+      "attrs": {
+        "line": {
+          "stroke": "#A2B1C3"
+        }
+      },
+      "id": "06b1746c-e5d3-428b-b766-b358d6a51740",
+      "zIndex": 0,
+      "source": {
+        "cell": "c9cfaf7f-31f9-43b3-ba72-dca6faf7a284",
+        "port": "d4d10bdd-a8b9-410c-bad8-1c52c652fa6e"
+      },
+      "target": {
+        "cell": "fd25dc98-0634-4c13-92ec-015c982580ea",
+        "port": "f634faae-3d6d-4038-9e9d-6cb8f4f7c73b"
+      }
+    },
+    {
+      "shape": "edge",
+      "attrs": {
+        "line": {
+          "stroke": "#A2B1C3"
+        }
+      },
+      "id": "5e162044-024f-4e07-9eaa-162ffc21da12",
+      "zIndex": 0,
+      "source": {
+        "cell": "fd25dc98-0634-4c13-92ec-015c982580ea",
+        "port": "d4d10bdd-a8b9-410c-bad8-1c52c652fa6e"
+      },
+      "target": {
+        "cell": "74c2db1e-e0fe-4d0d-92b9-4dfa9f978edf",
+        "port": "f634faae-3d6d-4038-9e9d-6cb8f4f7c73b"
+      }
+    },
+    {
+      "shape": "edge",
+      "attrs": {
+        "line": {
+          "stroke": "#A2B1C3"
+        }
+      },
+      "id": "d03a0e9c-4b2e-4c74-a77f-c768574bd068",
+      "zIndex": 0,
+      "source": {
+        "cell": "6b3b2e8a-40e3-4d6c-86f3-0dbbe8fdca3f",
+        "port": "f634faae-3d6d-4038-9e9d-6cb8f4f7c73b"
+      },
+      "target": {
+        "cell": "10f3605a-8c11-4297-a5e4-f83bc8183fdb",
+        "port": "d4d10bdd-a8b9-410c-bad8-1c52c652fa6e"
+      }
+    },
+    {
+      "shape": "edge",
+      "attrs": {
+        "line": {
+          "stroke": "#A2B1C3"
+        }
+      },
+      "id": "0d852f49-ddff-48c5-86de-e8dd914f0031",
+      "zIndex": 0,
+      "source": {
+        "cell": "74c2db1e-e0fe-4d0d-92b9-4dfa9f978edf",
+        "port": "d4d10bdd-a8b9-410c-bad8-1c52c652fa6e"
+      },
+      "target": {
+        "cell": "6b3b2e8a-40e3-4d6c-86f3-0dbbe8fdca3f",
+        "port": "d4d10bdd-a8b9-410c-bad8-1c52c652fa6e"
+      }
+    },
+    {
+      "shape": "edge",
+      "attrs": {
+        "line": {
+          "stroke": "#A2B1C3"
+        }
+      },
+      "id": "08c5f273-e458-49ea-927c-b967527a3cc1",
+      "zIndex": 0,
+      "source": {
+        "cell": "4b2872da-7e09-492e-96a8-3dfe3b350cc8",
+        "port": "b83c0d39-b674-497f-a0d3-82992efe0c79"
+      },
+      "target": {
+        "cell": "57df8dc0-130a-45d0-b0fc-16bbff9d545a",
+        "port": "f634faae-3d6d-4038-9e9d-6cb8f4f7c73b"
+      }
+    },
+    {
+      "shape": "edge",
+      "attrs": {
+        "line": {
+          "stroke": "#A2B1C3"
+        }
+      },
+      "id": "ba9789f5-9390-4f71-a717-7bac48fc363e",
+      "zIndex": 0,
+      "source": {
+        "cell": "10f3605a-8c11-4297-a5e4-f83bc8183fdb",
+        "port": "f634faae-3d6d-4038-9e9d-6cb8f4f7c73b"
+      },
+      "target": {
+        "cell": "57df8dc0-130a-45d0-b0fc-16bbff9d545a",
+        "port": "9f030130-8638-4033-9df8-50f3e6b01ca3"
+      }
+    },
+    {
+      "shape": "edge",
+      "attrs": {
+        "line": {
+          "stroke": "#A2B1C3"
+        }
+      },
+      "id": "bd025796-578f-4294-ba52-f4fb675349f6",
+      "zIndex": 0,
+      "source": {
+        "cell": "57df8dc0-130a-45d0-b0fc-16bbff9d545a",
+        "port": "d4d10bdd-a8b9-410c-bad8-1c52c652fa6e"
+      },
+      "target": {
+        "cell": "f6a1e2c7-a98c-402f-a9a9-672edac04626",
+        "port": "f634faae-3d6d-4038-9e9d-6cb8f4f7c73b"
+      }
+    },
+    {
+      "shape": "edge",
+      "attrs": {
+        "line": {
+          "stroke": "#A2B1C3"
+        }
+      },
+      "id": "685edac8-3975-483e-9da3-ca41fcc9ea4d",
+      "zIndex": 0,
+      "source": {
+        "cell": "f6a1e2c7-a98c-402f-a9a9-672edac04626",
+        "port": "d4d10bdd-a8b9-410c-bad8-1c52c652fa6e"
+      },
+      "target": {
+        "cell": "3f047835-2d62-4c4b-b495-3d3ed1c90390",
+        "port": "f634faae-3d6d-4038-9e9d-6cb8f4f7c73b"
+      }
+    },
+    {
+      "shape": "edge",
+      "attrs": {
+        "line": {
+          "stroke": "#A2B1C3"
+        }
+      },
+      "id": "b7934735-d5e5-43f0-8f36-5ea973482ff6",
+      "zIndex": 0,
+      "source": {
+        "cell": "3f047835-2d62-4c4b-b495-3d3ed1c90390",
+        "port": "d4d10bdd-a8b9-410c-bad8-1c52c652fa6e"
+      },
+      "target": {
+        "cell": "00a2330b-d42e-4610-9417-7a6d347ac9b1",
+        "port": "f634faae-3d6d-4038-9e9d-6cb8f4f7c73b"
+      }
+    },
+    {
+      "shape": "edge",
+      "attrs": {
+        "line": {
+          "stroke": "#A2B1C3"
+        }
+      },
+      "id": "e1d76827-e0d4-47a7-99e4-385f4e98021c",
+      "zIndex": 0,
+      "source": {
+        "cell": "00a2330b-d42e-4610-9417-7a6d347ac9b1",
+        "port": "d4d10bdd-a8b9-410c-bad8-1c52c652fa6e"
+      },
+      "target": {
+        "cell": "da502ba1-88d8-4a37-9c52-83cc72c090f2",
+        "port": "f634faae-3d6d-4038-9e9d-6cb8f4f7c73b"
+      }
+    },
+    {
+      "shape": "edge",
+      "attrs": {
+        "line": {
+          "stroke": "#A2B1C3"
+        }
+      },
+      "id": "b49176da-6f09-4733-9bdf-1b7520cf4ea7",
+      "zIndex": 0,
+      "source": {
+        "cell": "da502ba1-88d8-4a37-9c52-83cc72c090f2",
+        "port": "d4d10bdd-a8b9-410c-bad8-1c52c652fa6e"
+      },
+      "target": {
+        "cell": "58fff79a-c974-405d-94cf-71c396330427",
+        "port": "f634faae-3d6d-4038-9e9d-6cb8f4f7c73b"
+      }
+    },
+    {
+      "shape": "edge",
+      "attrs": {
+        "line": {
+          "stroke": "#A2B1C3"
+        }
+      },
+      "id": "a019a269-aa44-4f78-b047-104df202a830",
+      "zIndex": 0,
+      "source": {
+        "cell": "58fff79a-c974-405d-94cf-71c396330427",
+        "port": "d4d10bdd-a8b9-410c-bad8-1c52c652fa6e"
+      },
+      "target": {
+        "cell": "e65b4a60-e3a4-40b7-8afd-6aa93d3cd198",
+        "port": "f634faae-3d6d-4038-9e9d-6cb8f4f7c73b"
+      }
+    },
+    {
+      "shape": "edge",
+      "attrs": {
+        "line": {
+          "stroke": "#A2B1C3"
+        }
+      },
+      "id": "7d7599fc-d4fa-4fa7-8c20-d8dd6ea6fee7",
+      "zIndex": 0,
+      "source": {
+        "cell": "2795fe1f-d86a-4964-a54d-dc2317053ad1",
+        "port": "b83c0d39-b674-497f-a0d3-82992efe0c79"
+      },
+      "target": {
+        "cell": "338a896e-ebeb-4c44-b9b0-0b2bbd2cc6c3",
+        "port": "f634faae-3d6d-4038-9e9d-6cb8f4f7c73b"
+      }
+    },
+    {
+      "shape": "edge",
+      "attrs": {
+        "line": {
+          "stroke": "#A2B1C3"
+        }
+      },
+      "id": "123d1e1d-6b28-4166-8744-b8f6665a4cb3",
+      "zIndex": 0,
+      "source": {
+        "cell": "e65b4a60-e3a4-40b7-8afd-6aa93d3cd198",
+        "port": "d4d10bdd-a8b9-410c-bad8-1c52c652fa6e"
+      },
+      "target": {
+        "cell": "338a896e-ebeb-4c44-b9b0-0b2bbd2cc6c3",
+        "port": "9f030130-8638-4033-9df8-50f3e6b01ca3"
+      }
+    },
+    {
+      "shape": "edge",
+      "attrs": {
+        "line": {
+          "stroke": "#A2B1C3"
+        }
+      },
+      "id": "9d28f28a-cec2-4504-9c66-37de17e629fc",
+      "zIndex": 0,
+      "source": {
+        "cell": "338a896e-ebeb-4c44-b9b0-0b2bbd2cc6c3",
+        "port": "d4d10bdd-a8b9-410c-bad8-1c52c652fa6e"
+      },
+      "target": {
+        "cell": "4c3e8308-7368-44fb-a679-f4d1d720adea",
+        "port": "f634faae-3d6d-4038-9e9d-6cb8f4f7c73b"
+      }
+    },
+    {
+      "shape": "edge",
+      "attrs": {
+        "line": {
+          "stroke": "#A2B1C3"
+        }
+      },
+      "id": "56f37b75-c1d8-4ad4-b5a3-c5b97bad9a67",
+      "zIndex": 0,
+      "source": {
+        "cell": "4c3e8308-7368-44fb-a679-f4d1d720adea",
+        "port": "d4d10bdd-a8b9-410c-bad8-1c52c652fa6e"
+      },
+      "target": {
+        "cell": "5cd27455-7ace-49ae-9d04-fb6b7c15d6d1",
+        "port": "f634faae-3d6d-4038-9e9d-6cb8f4f7c73b"
+      }
+    },
+    {
+      "position": {
+        "x": 60,
+        "y": 60
+      },
+      "size": {
+        "width": 130,
+        "height": 74
+      },
+      "view": "react-shape-view",
+      "shape": "custom-react-shape",
+      "ports": {
+        "groups": {
+          "top": {
+            "position": "top",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "right": {
+            "position": "right",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "bottom": {
+            "position": "bottom",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "left": {
+            "position": "left",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          }
+        },
+        "items": [
+          {
+            "group": "top",
+            "id": "f4a4de2a-91db-42a0-bef5-bcf3a6cf25f9"
+          },
+          {
+            "group": "right",
+            "id": "b83c0d39-b674-497f-a0d3-82992efe0c79"
+          },
+          {
+            "group": "bottom",
+            "id": "6a8011cc-cfb5-4d67-ad60-6dc777b24998"
+          },
+          {
+            "group": "left",
+            "id": "d019cb5f-265c-43fe-a2a2-7baecbc6a990"
+          }
+        ]
+      },
+      "id": "8a9895d2-be6a-48af-8351-4537bb30bef1",
+      "data": {
+        "protoText": "Preparation of 1-immobilized beads"
+      },
+      "type": "inputNode",
+      "zIndex": 1
+    },
+    {
+      "position": {
+        "x": -7.5,
+        "y": 212
+      },
+      "size": {
+        "width": 265,
+        "height": 154
+      },
+      "view": "react-shape-view",
+      "shape": "custom-react-shape",
+      "ports": {
+        "groups": {
+          "top": {
+            "position": "top",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "right": {
+            "position": "right",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "bottom": {
+            "position": "bottom",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "left": {
+            "position": "left",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          }
+        },
+        "items": [
+          {
+            "group": "top",
+            "id": "9f030130-8638-4033-9df8-50f3e6b01ca3"
+          },
+          {
+            "group": "right",
+            "id": "d4d10bdd-a8b9-410c-bad8-1c52c652fa6e"
+          },
+          {
+            "group": "bottom",
+            "id": "cec9a498-212c-45b9-a4a8-df6089661db4"
+          },
+          {
+            "group": "left",
+            "id": "f634faae-3d6d-4038-9e9d-6cb8f4f7c73b"
+          }
+        ]
+      },
+      "id": "ea09512f-7115-4e63-b746-11fb366746e1",
+      "data": {
+        "protoText": "Incubate Magnetic FG beads (NH2 beads; TASB848 Nii30; 5 mg) with 10 mM 1-hydroxybenzotriazole, 10 mM 1-ethyl-3-(3-demithyl-aminopropyl)-carbodiimide HCl, and various concentrations (0.4, 2, and 10 mM) of 1 in 1.5 ml of N,N-dimethylformamide for 4 h at room temperature."
+      },
+      "type": "textNode",
+      "zIndex": 2
+    },
+    {
+      "position": {
+        "x": 348,
+        "y": 239
+      },
+      "size": {
+        "width": 145,
+        "height": 100
+      },
+      "view": "react-shape-view",
+      "shape": "custom-react-shape",
+      "ports": {
+        "groups": {
+          "top": {
+            "position": "top",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "right": {
+            "position": "right",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "bottom": {
+            "position": "bottom",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "left": {
+            "position": "left",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          }
+        },
+        "items": [
+          {
+            "group": "top",
+            "id": "9f030130-8638-4033-9df8-50f3e6b01ca3"
+          },
+          {
+            "group": "right",
+            "id": "d4d10bdd-a8b9-410c-bad8-1c52c652fa6e"
+          },
+          {
+            "group": "bottom",
+            "id": "cec9a498-212c-45b9-a4a8-df6089661db4"
+          },
+          {
+            "group": "left",
+            "id": "f634faae-3d6d-4038-9e9d-6cb8f4f7c73b"
+          }
+        ]
+      },
+      "id": "d8b8972e-e346-4ac4-95cb-0fdb97990d9f",
+      "data": {
+        "protoText": "Mask unreacted residues using 20% carbonic anhydride in N, N-dimethylformamide"
+      },
+      "type": "textNode",
+      "zIndex": 3
+    },
+    {
+      "position": {
+        "x": 590,
+        "y": 269
+      },
+      "size": {
+        "width": 100,
+        "height": 40
+      },
+      "view": "react-shape-view",
+      "shape": "custom-react-shape",
+      "ports": {
+        "groups": {
+          "top": {
+            "position": "top",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "right": {
+            "position": "right",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "bottom": {
+            "position": "bottom",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "left": {
+            "position": "left",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          }
+        },
+        "items": [
+          {
+            "group": "top",
+            "id": "9f030130-8638-4033-9df8-50f3e6b01ca3"
+          },
+          {
+            "group": "right",
+            "id": "d4d10bdd-a8b9-410c-bad8-1c52c652fa6e"
+          },
+          {
+            "group": "bottom",
+            "id": "cec9a498-212c-45b9-a4a8-df6089661db4"
+          },
+          {
+            "group": "left",
+            "id": "f634faae-3d6d-4038-9e9d-6cb8f4f7c73b"
+          }
+        ]
+      },
+      "id": "39eebc73-e69c-4685-ae8e-6e7c81268fff",
+      "data": {
+        "protoText": "Store beads at 4 \u00b0C"
+      },
+      "type": "textNode",
+      "zIndex": 4
+    },
+    {
+      "position": {
+        "x": 809,
+        "y": 100
+      },
+      "size": {
+        "width": 110,
+        "height": 56
+      },
+      "view": "react-shape-view",
+      "shape": "custom-react-shape",
+      "ports": {
+        "groups": {
+          "top": {
+            "position": "top",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "right": {
+            "position": "right",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "bottom": {
+            "position": "bottom",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "left": {
+            "position": "left",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          }
+        },
+        "items": [
+          {
+            "group": "top",
+            "id": "f4a4de2a-91db-42a0-bef5-bcf3a6cf25f9"
+          },
+          {
+            "group": "right",
+            "id": "b83c0d39-b674-497f-a0d3-82992efe0c79"
+          },
+          {
+            "group": "bottom",
+            "id": "6a8011cc-cfb5-4d67-ad60-6dc777b24998"
+          },
+          {
+            "group": "left",
+            "id": "d019cb5f-265c-43fe-a2a2-7baecbc6a990"
+          }
+        ]
+      },
+      "id": "9489f665-2816-43dd-99c1-03f19efdab9e",
+      "data": {
+        "protoText": "Cell fractionation"
+      },
+      "type": "inputNode",
+      "zIndex": 5
+    },
+    {
+      "position": {
+        "x": 784,
+        "y": 239
+      },
+      "size": {
+        "width": 160,
+        "height": 100
+      },
+      "view": "react-shape-view",
+      "shape": "custom-react-shape",
+      "ports": {
+        "groups": {
+          "top": {
+            "position": "top",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "right": {
+            "position": "right",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "bottom": {
+            "position": "bottom",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "left": {
+            "position": "left",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          }
+        },
+        "items": [
+          {
+            "group": "top",
+            "id": "9f030130-8638-4033-9df8-50f3e6b01ca3"
+          },
+          {
+            "group": "right",
+            "id": "d4d10bdd-a8b9-410c-bad8-1c52c652fa6e"
+          },
+          {
+            "group": "bottom",
+            "id": "cec9a498-212c-45b9-a4a8-df6089661db4"
+          },
+          {
+            "group": "left",
+            "id": "f634faae-3d6d-4038-9e9d-6cb8f4f7c73b"
+          }
+        ]
+      },
+      "id": "2ca38600-c0fc-43d7-b9fe-75c2bb482744",
+      "data": {
+        "protoText": "Use ProteoExtract subcellular proteome extraction kit (S-PEK) extracting PC-3 cell fractions"
+      },
+      "type": "textNode",
+      "zIndex": 6
+    },
+    {
+      "position": {
+        "x": 180,
+        "y": 560
+      },
+      "size": {
+        "width": 180,
+        "height": 80
+      },
+      "view": "react-shape-view",
+      "shape": "custom-react-shape",
+      "ports": {
+        "groups": {
+          "top": {
+            "position": "top",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "right": {
+            "position": "right",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "bottom": {
+            "position": "bottom",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "left": {
+            "position": "left",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          }
+        },
+        "items": [
+          {
+            "group": "top",
+            "id": "f4a4de2a-91db-42a0-bef5-bcf3a6cf25f9"
+          },
+          {
+            "group": "right",
+            "id": "b83c0d39-b674-497f-a0d3-82992efe0c79"
+          },
+          {
+            "group": "bottom",
+            "id": "6a8011cc-cfb5-4d67-ad60-6dc777b24998"
+          },
+          {
+            "group": "left",
+            "id": "d019cb5f-265c-43fe-a2a2-7baecbc6a990"
+          }
+        ]
+      },
+      "id": "d2ca350d-0eda-47f2-ab2c-acd0e5ba5fa7",
+      "data": {
+        "protoText": "Purification and identification of 1-binding protein"
+      },
+      "type": "inputNode",
+      "zIndex": 7
+    },
+    {
+      "position": {
+        "x": 440,
+        "y": 541
+      },
+      "size": {
+        "width": 205,
+        "height": 118
+      },
+      "view": "react-shape-view",
+      "shape": "custom-react-shape",
+      "ports": {
+        "groups": {
+          "top": {
+            "position": "top",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "right": {
+            "position": "right",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "bottom": {
+            "position": "bottom",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "left": {
+            "position": "left",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          }
+        },
+        "items": [
+          {
+            "group": "top",
+            "id": "9f030130-8638-4033-9df8-50f3e6b01ca3"
+          },
+          {
+            "group": "right",
+            "id": "d4d10bdd-a8b9-410c-bad8-1c52c652fa6e"
+          },
+          {
+            "group": "bottom",
+            "id": "cec9a498-212c-45b9-a4a8-df6089661db4"
+          },
+          {
+            "group": "left",
+            "id": "f634faae-3d6d-4038-9e9d-6cb8f4f7c73b"
+          }
+        ]
+      },
+      "id": "6bf5f0c8-0a97-4f9a-8679-b6389006dae3",
+      "data": {
+        "protoText": "Equilibrate Compound 1-immobilized beads (the final concentrations of 1 were 0.4, 2, and 10 mM) and FG beads (without 1) with 0.5% NP-40 lysis buffer"
+      },
+      "type": "textNode",
+      "zIndex": 8
+    },
+    {
+      "position": {
+        "x": 710,
+        "y": 559
+      },
+      "size": {
+        "width": 130,
+        "height": 82
+      },
+      "view": "react-shape-view",
+      "shape": "custom-react-shape",
+      "ports": {
+        "groups": {
+          "top": {
+            "position": "top",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "right": {
+            "position": "right",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "bottom": {
+            "position": "bottom",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "left": {
+            "position": "left",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          }
+        },
+        "items": [
+          {
+            "group": "top",
+            "id": "9f030130-8638-4033-9df8-50f3e6b01ca3"
+          },
+          {
+            "group": "right",
+            "id": "d4d10bdd-a8b9-410c-bad8-1c52c652fa6e"
+          },
+          {
+            "group": "bottom",
+            "id": "cec9a498-212c-45b9-a4a8-df6089661db4"
+          },
+          {
+            "group": "left",
+            "id": "f634faae-3d6d-4038-9e9d-6cb8f4f7c73b"
+          }
+        ]
+      },
+      "id": "73ac9f1e-bd2d-4c9a-ad27-4c1ab7021611",
+      "data": {
+        "protoText": "Incubate cell protein fractions with beads for 4 h at 4 \u00b0C."
+      },
+      "type": "textNode",
+      "zIndex": 9
+    },
+    {
+      "position": {
+        "x": 899,
+        "y": 559
+      },
+      "size": {
+        "width": 115,
+        "height": 82
+      },
+      "view": "react-shape-view",
+      "shape": "custom-react-shape",
+      "ports": {
+        "groups": {
+          "top": {
+            "position": "top",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "right": {
+            "position": "right",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "bottom": {
+            "position": "bottom",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "left": {
+            "position": "left",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          }
+        },
+        "items": [
+          {
+            "group": "top",
+            "id": "9f030130-8638-4033-9df8-50f3e6b01ca3"
+          },
+          {
+            "group": "right",
+            "id": "d4d10bdd-a8b9-410c-bad8-1c52c652fa6e"
+          },
+          {
+            "group": "bottom",
+            "id": "cec9a498-212c-45b9-a4a8-df6089661db4"
+          },
+          {
+            "group": "left",
+            "id": "f634faae-3d6d-4038-9e9d-6cb8f4f7c73b"
+          }
+        ]
+      },
+      "id": "66deb3b8-98b6-4134-923e-3ddf23ea8213",
+      "data": {
+        "protoText": "Wash Beads five times with 100 mM KCl (200 \u00b5l).\n\n"
+      },
+      "type": "textNode",
+      "zIndex": 10
+    },
+    {
+      "position": {
+        "x": 1060,
+        "y": 560
+      },
+      "size": {
+        "width": 160,
+        "height": 80
+      },
+      "view": "react-shape-view",
+      "shape": "custom-react-shape",
+      "ports": {
+        "groups": {
+          "top": {
+            "position": "top",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "right": {
+            "position": "right",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "bottom": {
+            "position": "bottom",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "left": {
+            "position": "left",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          }
+        },
+        "items": [
+          {
+            "group": "top",
+            "id": "9f030130-8638-4033-9df8-50f3e6b01ca3"
+          },
+          {
+            "group": "right",
+            "id": "d4d10bdd-a8b9-410c-bad8-1c52c652fa6e"
+          },
+          {
+            "group": "bottom",
+            "id": "cec9a498-212c-45b9-a4a8-df6089661db4"
+          },
+          {
+            "group": "left",
+            "id": "f634faae-3d6d-4038-9e9d-6cb8f4f7c73b"
+          }
+        ]
+      },
+      "id": "c9cfaf7f-31f9-43b3-ba72-dca6faf7a284",
+      "data": {
+        "protoText": " Wash beads with 1M KCl (30 \u00b5l). Use this fraction for SDS-PAGE on a 10% gel."
+      },
+      "type": "textNode",
+      "zIndex": 11
+    },
+    {
+      "position": {
+        "x": 1273,
+        "y": 560
+      },
+      "size": {
+        "width": 100,
+        "height": 80
+      },
+      "view": "react-shape-view",
+      "shape": "custom-react-shape",
+      "ports": {
+        "groups": {
+          "top": {
+            "position": "top",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "right": {
+            "position": "right",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "bottom": {
+            "position": "bottom",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "left": {
+            "position": "left",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          }
+        },
+        "items": [
+          {
+            "group": "top",
+            "id": "9f030130-8638-4033-9df8-50f3e6b01ca3"
+          },
+          {
+            "group": "right",
+            "id": "d4d10bdd-a8b9-410c-bad8-1c52c652fa6e"
+          },
+          {
+            "group": "bottom",
+            "id": "cec9a498-212c-45b9-a4a8-df6089661db4"
+          },
+          {
+            "group": "left",
+            "id": "f634faae-3d6d-4038-9e9d-6cb8f4f7c73b"
+          }
+        ]
+      },
+      "id": "fd25dc98-0634-4c13-92ec-015c982580ea",
+      "data": {
+        "protoText": "Performe silver staining of the gel\n"
+      },
+      "type": "textNode",
+      "zIndex": 12
+    },
+    {
+      "position": {
+        "x": 1413,
+        "y": 559
+      },
+      "size": {
+        "width": 115,
+        "height": 82
+      },
+      "view": "react-shape-view",
+      "shape": "custom-react-shape",
+      "ports": {
+        "groups": {
+          "top": {
+            "position": "top",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "right": {
+            "position": "right",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "bottom": {
+            "position": "bottom",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "left": {
+            "position": "left",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          }
+        },
+        "items": [
+          {
+            "group": "top",
+            "id": "9f030130-8638-4033-9df8-50f3e6b01ca3"
+          },
+          {
+            "group": "right",
+            "id": "d4d10bdd-a8b9-410c-bad8-1c52c652fa6e"
+          },
+          {
+            "group": "bottom",
+            "id": "cec9a498-212c-45b9-a4a8-df6089661db4"
+          },
+          {
+            "group": "left",
+            "id": "f634faae-3d6d-4038-9e9d-6cb8f4f7c73b"
+          }
+        ]
+      },
+      "id": "74c2db1e-e0fe-4d0d-92b9-4dfa9f978edf",
+      "data": {
+        "protoText": " Cut and treat the cutting gel with trypsin.\n"
+      },
+      "type": "textNode",
+      "zIndex": 13
+    },
+    {
+      "position": {
+        "x": 1333,
+        "y": 746
+      },
+      "size": {
+        "width": 205,
+        "height": 118
+      },
+      "view": "react-shape-view",
+      "shape": "custom-react-shape",
+      "ports": {
+        "groups": {
+          "top": {
+            "position": "top",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "right": {
+            "position": "right",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "bottom": {
+            "position": "bottom",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "left": {
+            "position": "left",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          }
+        },
+        "items": [
+          {
+            "group": "top",
+            "id": "9f030130-8638-4033-9df8-50f3e6b01ca3"
+          },
+          {
+            "group": "right",
+            "id": "d4d10bdd-a8b9-410c-bad8-1c52c652fa6e"
+          },
+          {
+            "group": "bottom",
+            "id": "cec9a498-212c-45b9-a4a8-df6089661db4"
+          },
+          {
+            "group": "left",
+            "id": "f634faae-3d6d-4038-9e9d-6cb8f4f7c73b"
+          }
+        ]
+      },
+      "id": "6b3b2e8a-40e3-4d6c-86f3-0dbbe8fdca3f",
+      "data": {
+        "protoText": "Analyze recovered peptides with electrospray ion trap mass spectrometer coupled on-line with nano-scale HPLC on a C18 column to acquire MS/MS spectra.\n"
+      },
+      "type": "textNode",
+      "zIndex": 14
+    },
+    {
+      "position": {
+        "x": 1014,
+        "y": 728
+      },
+      "size": {
+        "width": 235,
+        "height": 154
+      },
+      "view": "react-shape-view",
+      "shape": "custom-react-shape",
+      "ports": {
+        "groups": {
+          "top": {
+            "position": "top",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "right": {
+            "position": "right",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "bottom": {
+            "position": "bottom",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "left": {
+            "position": "left",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          }
+        },
+        "items": [
+          {
+            "group": "top",
+            "id": "9f030130-8638-4033-9df8-50f3e6b01ca3"
+          },
+          {
+            "group": "right",
+            "id": "d4d10bdd-a8b9-410c-bad8-1c52c652fa6e"
+          },
+          {
+            "group": "bottom",
+            "id": "cec9a498-212c-45b9-a4a8-df6089661db4"
+          },
+          {
+            "group": "left",
+            "id": "f634faae-3d6d-4038-9e9d-6cb8f4f7c73b"
+          }
+        ]
+      },
+      "id": "10f3605a-8c11-4297-a5e4-f83bc8183fdb",
+      "data": {
+        "protoText": "Use peptide mass fingerprinting for protein identification from tryptic fragment sizes using the Mascot search engine (http://www.matrixscience.com) querying to the entire NCBI database of theoretical human peptide masses."
+      },
+      "type": "textNode",
+      "zIndex": 15
+    },
+    {
+      "position": {
+        "x": 220,
+        "y": 1100
+      },
+      "size": {
+        "width": 90,
+        "height": 56
+      },
+      "view": "react-shape-view",
+      "shape": "custom-react-shape",
+      "ports": {
+        "groups": {
+          "top": {
+            "position": "top",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "right": {
+            "position": "right",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "bottom": {
+            "position": "bottom",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "left": {
+            "position": "left",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          }
+        },
+        "items": [
+          {
+            "group": "top",
+            "id": "f4a4de2a-91db-42a0-bef5-bcf3a6cf25f9"
+          },
+          {
+            "group": "right",
+            "id": "b83c0d39-b674-497f-a0d3-82992efe0c79"
+          },
+          {
+            "group": "bottom",
+            "id": "6a8011cc-cfb5-4d67-ad60-6dc777b24998"
+          },
+          {
+            "group": "left",
+            "id": "d019cb5f-265c-43fe-a2a2-7baecbc6a990"
+          }
+        ]
+      },
+      "id": "4b2872da-7e09-492e-96a8-3dfe3b350cc8",
+      "data": {
+        "protoText": " QCM system"
+      },
+      "type": "inputNode",
+      "zIndex": 16
+    },
+    {
+      "position": {
+        "x": 370.5,
+        "y": 1096
+      },
+      "size": {
+        "width": 100,
+        "height": 64
+      },
+      "view": "react-shape-view",
+      "shape": "custom-react-shape",
+      "ports": {
+        "groups": {
+          "top": {
+            "position": "top",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "right": {
+            "position": "right",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "bottom": {
+            "position": "bottom",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "left": {
+            "position": "left",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          }
+        },
+        "items": [
+          {
+            "group": "top",
+            "id": "9f030130-8638-4033-9df8-50f3e6b01ca3"
+          },
+          {
+            "group": "right",
+            "id": "d4d10bdd-a8b9-410c-bad8-1c52c652fa6e"
+          },
+          {
+            "group": "bottom",
+            "id": "cec9a498-212c-45b9-a4a8-df6089661db4"
+          },
+          {
+            "group": "left",
+            "id": "f634faae-3d6d-4038-9e9d-6cb8f4f7c73b"
+          }
+        ]
+      },
+      "id": "57df8dc0-130a-45d0-b0fc-16bbff9d545a",
+      "data": {
+        "protoText": "Dissolve all compounds in 50% EtOH\n"
+      },
+      "type": "textNode",
+      "zIndex": 17
+    },
+    {
+      "position": {
+        "x": 530,
+        "y": 1078
+      },
+      "size": {
+        "width": 160,
+        "height": 100
+      },
+      "view": "react-shape-view",
+      "shape": "custom-react-shape",
+      "ports": {
+        "groups": {
+          "top": {
+            "position": "top",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "right": {
+            "position": "right",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "bottom": {
+            "position": "bottom",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "left": {
+            "position": "left",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          }
+        },
+        "items": [
+          {
+            "group": "top",
+            "id": "9f030130-8638-4033-9df8-50f3e6b01ca3"
+          },
+          {
+            "group": "right",
+            "id": "d4d10bdd-a8b9-410c-bad8-1c52c652fa6e"
+          },
+          {
+            "group": "bottom",
+            "id": "cec9a498-212c-45b9-a4a8-df6089661db4"
+          },
+          {
+            "group": "left",
+            "id": "f634faae-3d6d-4038-9e9d-6cb8f4f7c73b"
+          }
+        ]
+      },
+      "id": "f6a1e2c7-a98c-402f-a9a9-672edac04626",
+      "data": {
+        "protoText": "Use paclitaxel and vinblastine sulfate salt as stabilizing and destabilizing controls\n"
+      },
+      "type": "textNode",
+      "zIndex": 18
+    },
+    {
+      "position": {
+        "x": 744,
+        "y": 1078
+      },
+      "size": {
+        "width": 175,
+        "height": 100
+      },
+      "view": "react-shape-view",
+      "shape": "custom-react-shape",
+      "ports": {
+        "groups": {
+          "top": {
+            "position": "top",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "right": {
+            "position": "right",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "bottom": {
+            "position": "bottom",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "left": {
+            "position": "left",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          }
+        },
+        "items": [
+          {
+            "group": "top",
+            "id": "9f030130-8638-4033-9df8-50f3e6b01ca3"
+          },
+          {
+            "group": "right",
+            "id": "d4d10bdd-a8b9-410c-bad8-1c52c652fa6e"
+          },
+          {
+            "group": "bottom",
+            "id": "cec9a498-212c-45b9-a4a8-df6089661db4"
+          },
+          {
+            "group": "left",
+            "id": "f634faae-3d6d-4038-9e9d-6cb8f4f7c73b"
+          }
+        ]
+      },
+      "id": "3f047835-2d62-4c4b-b495-3d3ed1c90390",
+      "data": {
+        "protoText": "Fix tubulin on one electrode (ch1) and the other one was absolutely blocked with BSA (ch2) for reference\n"
+      },
+      "type": "textNode",
+      "zIndex": 19
+    },
+    {
+      "position": {
+        "x": 977,
+        "y": 1088
+      },
+      "size": {
+        "width": 160,
+        "height": 80
+      },
+      "view": "react-shape-view",
+      "shape": "custom-react-shape",
+      "ports": {
+        "groups": {
+          "top": {
+            "position": "top",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "right": {
+            "position": "right",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "bottom": {
+            "position": "bottom",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "left": {
+            "position": "left",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          }
+        },
+        "items": [
+          {
+            "group": "top",
+            "id": "9f030130-8638-4033-9df8-50f3e6b01ca3"
+          },
+          {
+            "group": "right",
+            "id": "d4d10bdd-a8b9-410c-bad8-1c52c652fa6e"
+          },
+          {
+            "group": "bottom",
+            "id": "cec9a498-212c-45b9-a4a8-df6089661db4"
+          },
+          {
+            "group": "left",
+            "id": "f634faae-3d6d-4038-9e9d-6cb8f4f7c73b"
+          }
+        ]
+      },
+      "id": "00a2330b-d42e-4610-9417-7a6d347ac9b1",
+      "data": {
+        "protoText": " Use NAPiCOS QCM system to investigate the affinity of compound with tubulin\n"
+      },
+      "type": "textNode",
+      "zIndex": 20
+    },
+    {
+      "position": {
+        "x": 1200,
+        "y": 1087
+      },
+      "size": {
+        "width": 145,
+        "height": 82
+      },
+      "view": "react-shape-view",
+      "shape": "custom-react-shape",
+      "ports": {
+        "groups": {
+          "top": {
+            "position": "top",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "right": {
+            "position": "right",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "bottom": {
+            "position": "bottom",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "left": {
+            "position": "left",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          }
+        },
+        "items": [
+          {
+            "group": "top",
+            "id": "9f030130-8638-4033-9df8-50f3e6b01ca3"
+          },
+          {
+            "group": "right",
+            "id": "d4d10bdd-a8b9-410c-bad8-1c52c652fa6e"
+          },
+          {
+            "group": "bottom",
+            "id": "cec9a498-212c-45b9-a4a8-df6089661db4"
+          },
+          {
+            "group": "left",
+            "id": "f634faae-3d6d-4038-9e9d-6cb8f4f7c73b"
+          }
+        ]
+      },
+      "id": "da502ba1-88d8-4a37-9c52-83cc72c090f2",
+      "data": {
+        "protoText": "Stabilize baseline with PBS/50% EtOH, flow rate was set to 20 ml/min.\n"
+      },
+      "type": "textNode",
+      "zIndex": 21
+    },
+    {
+      "position": {
+        "x": 1396,
+        "y": 1069
+      },
+      "size": {
+        "width": 205,
+        "height": 118
+      },
+      "view": "react-shape-view",
+      "shape": "custom-react-shape",
+      "ports": {
+        "groups": {
+          "top": {
+            "position": "top",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "right": {
+            "position": "right",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "bottom": {
+            "position": "bottom",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "left": {
+            "position": "left",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          }
+        },
+        "items": [
+          {
+            "group": "top",
+            "id": "9f030130-8638-4033-9df8-50f3e6b01ca3"
+          },
+          {
+            "group": "right",
+            "id": "d4d10bdd-a8b9-410c-bad8-1c52c652fa6e"
+          },
+          {
+            "group": "bottom",
+            "id": "cec9a498-212c-45b9-a4a8-df6089661db4"
+          },
+          {
+            "group": "left",
+            "id": "f634faae-3d6d-4038-9e9d-6cb8f4f7c73b"
+          }
+        ]
+      },
+      "id": "58fff79a-c974-405d-94cf-71c396330427",
+      "data": {
+        "protoText": "Inject one hundred microliters of each compound into the system to react with fixed tubulin to obtain differential frequency shift between ch1 and ch2\n"
+      },
+      "type": "textNode",
+      "zIndex": 22
+    },
+    {
+      "position": {
+        "x": 1659,
+        "y": 1069
+      },
+      "size": {
+        "width": 175,
+        "height": 118
+      },
+      "view": "react-shape-view",
+      "shape": "custom-react-shape",
+      "ports": {
+        "groups": {
+          "top": {
+            "position": "top",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "right": {
+            "position": "right",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "bottom": {
+            "position": "bottom",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "left": {
+            "position": "left",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          }
+        },
+        "items": [
+          {
+            "group": "top",
+            "id": "9f030130-8638-4033-9df8-50f3e6b01ca3"
+          },
+          {
+            "group": "right",
+            "id": "d4d10bdd-a8b9-410c-bad8-1c52c652fa6e"
+          },
+          {
+            "group": "bottom",
+            "id": "cec9a498-212c-45b9-a4a8-df6089661db4"
+          },
+          {
+            "group": "left",
+            "id": "f634faae-3d6d-4038-9e9d-6cb8f4f7c73b"
+          }
+        ]
+      },
+      "id": "e65b4a60-e3a4-40b7-8afd-6aa93d3cd198",
+      "data": {
+        "protoText": "Calculate Kd values by standard scatchard analysis with frequency changes from several concentrations of compound"
+      },
+      "type": "textNode",
+      "zIndex": 23
+    },
+    {
+      "position": {
+        "x": 1249,
+        "y": 1317
+      },
+      "size": {
+        "width": 130,
+        "height": 74
+      },
+      "view": "react-shape-view",
+      "shape": "custom-react-shape",
+      "ports": {
+        "groups": {
+          "top": {
+            "position": "top",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "right": {
+            "position": "right",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "bottom": {
+            "position": "bottom",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "left": {
+            "position": "left",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          }
+        },
+        "items": [
+          {
+            "group": "top",
+            "id": "f4a4de2a-91db-42a0-bef5-bcf3a6cf25f9"
+          },
+          {
+            "group": "right",
+            "id": "b83c0d39-b674-497f-a0d3-82992efe0c79"
+          },
+          {
+            "group": "bottom",
+            "id": "6a8011cc-cfb5-4d67-ad60-6dc777b24998"
+          },
+          {
+            "group": "left",
+            "id": "d019cb5f-265c-43fe-a2a2-7baecbc6a990"
+          }
+        ]
+      },
+      "id": "2795fe1f-d86a-4964-a54d-dc2317053ad1",
+      "data": {
+        "protoText": " Tubulin polymerization assay"
+      },
+      "type": "inputNode",
+      "zIndex": 24
+    },
+    {
+      "position": {
+        "x": 1431,
+        "y": 1304
+      },
+      "size": {
+        "width": 160,
+        "height": 100
+      },
+      "view": "react-shape-view",
+      "shape": "custom-react-shape",
+      "ports": {
+        "groups": {
+          "top": {
+            "position": "top",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "right": {
+            "position": "right",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "bottom": {
+            "position": "bottom",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "left": {
+            "position": "left",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          }
+        },
+        "items": [
+          {
+            "group": "top",
+            "id": "9f030130-8638-4033-9df8-50f3e6b01ca3"
+          },
+          {
+            "group": "right",
+            "id": "d4d10bdd-a8b9-410c-bad8-1c52c652fa6e"
+          },
+          {
+            "group": "bottom",
+            "id": "cec9a498-212c-45b9-a4a8-df6089661db4"
+          },
+          {
+            "group": "left",
+            "id": "f634faae-3d6d-4038-9e9d-6cb8f4f7c73b"
+          }
+        ]
+      },
+      "id": "338a896e-ebeb-4c44-b9b0-0b2bbd2cc6c3",
+      "data": {
+        "protoText": "Use Tubulin Polymerization Assay Kit to test tubulin polymerization on each compound"
+      },
+      "type": "textNode",
+      "zIndex": 25
+    },
+    {
+      "position": {
+        "x": 1659,
+        "y": 1304
+      },
+      "size": {
+        "width": 175,
+        "height": 100
+      },
+      "view": "react-shape-view",
+      "shape": "custom-react-shape",
+      "ports": {
+        "groups": {
+          "top": {
+            "position": "top",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "right": {
+            "position": "right",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "bottom": {
+            "position": "bottom",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "left": {
+            "position": "left",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          }
+        },
+        "items": [
+          {
+            "group": "top",
+            "id": "9f030130-8638-4033-9df8-50f3e6b01ca3"
+          },
+          {
+            "group": "right",
+            "id": "d4d10bdd-a8b9-410c-bad8-1c52c652fa6e"
+          },
+          {
+            "group": "bottom",
+            "id": "cec9a498-212c-45b9-a4a8-df6089661db4"
+          },
+          {
+            "group": "left",
+            "id": "f634faae-3d6d-4038-9e9d-6cb8f4f7c73b"
+          }
+        ]
+      },
+      "id": "4c3e8308-7368-44fb-a679-f4d1d720adea",
+      "data": {
+        "protoText": "Paclitaxel (Wako Co., Japan) and vinblastine were used as positive and negative controls, respectively"
+      },
+      "type": "textNode",
+      "zIndex": 26
+    },
+    {
+      "position": {
+        "x": 1925,
+        "y": 1313
+      },
+      "size": {
+        "width": 160,
+        "height": 80
+      },
+      "view": "react-shape-view",
+      "shape": "custom-react-shape",
+      "ports": {
+        "groups": {
+          "top": {
+            "position": "top",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "right": {
+            "position": "right",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "bottom": {
+            "position": "bottom",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "left": {
+            "position": "left",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          }
+        },
+        "items": [
+          {
+            "group": "top",
+            "id": "9f030130-8638-4033-9df8-50f3e6b01ca3"
+          },
+          {
+            "group": "right",
+            "id": "d4d10bdd-a8b9-410c-bad8-1c52c652fa6e"
+          },
+          {
+            "group": "bottom",
+            "id": "cec9a498-212c-45b9-a4a8-df6089661db4"
+          },
+          {
+            "group": "left",
+            "id": "f634faae-3d6d-4038-9e9d-6cb8f4f7c73b"
+          }
+        ]
+      },
+      "id": "5cd27455-7ace-49ae-9d04-fb6b7c15d6d1",
+      "data": {
+        "protoText": "Measure fluorescence using FlexStation3 (Molecular Devices, USA)"
+      },
+      "type": "textNode",
+      "zIndex": 27
+    }
+  ]
+}

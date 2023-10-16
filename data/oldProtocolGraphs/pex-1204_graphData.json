@@ -1,0 +1,2228 @@
+{
+  "cells": [
+    {
+      "shape": "edge",
+      "attrs": {
+        "line": {
+          "stroke": "#A2B1C3"
+        }
+      },
+      "id": "02cb410c-cb30-4e75-a811-d2e21060d7e7",
+      "zIndex": 0,
+      "source": {
+        "cell": "86b310fb-17fd-4bb2-83b6-8aea7ac1aa18",
+        "port": "50a36ae5-8202-4e8f-95cf-fafd16fd6124"
+      },
+      "target": {
+        "cell": "342a13b5-8040-44ba-be4b-a41f368bcc91",
+        "port": "ac548061-0e87-472b-bdc2-feca311b395c"
+      }
+    },
+    {
+      "shape": "edge",
+      "attrs": {
+        "line": {
+          "stroke": "#A2B1C3"
+        }
+      },
+      "id": "3bb4252a-0ade-4563-b771-20fc8f3c5d93",
+      "zIndex": 0,
+      "source": {
+        "cell": "342a13b5-8040-44ba-be4b-a41f368bcc91",
+        "port": "50a36ae5-8202-4e8f-95cf-fafd16fd6124"
+      },
+      "target": {
+        "cell": "eb6a2782-2366-4be5-8316-65966378273e",
+        "port": "ac548061-0e87-472b-bdc2-feca311b395c"
+      }
+    },
+    {
+      "shape": "edge",
+      "attrs": {
+        "line": {
+          "stroke": "#A2B1C3"
+        }
+      },
+      "id": "c584993a-2bc3-4b56-a02e-6167f2e3bde5",
+      "zIndex": 0,
+      "source": {
+        "cell": "eb6a2782-2366-4be5-8316-65966378273e",
+        "port": "50a36ae5-8202-4e8f-95cf-fafd16fd6124"
+      },
+      "target": {
+        "cell": "0b7037db-38ff-4398-ae0b-e105d7391fcd",
+        "port": "ac548061-0e87-472b-bdc2-feca311b395c"
+      }
+    },
+    {
+      "shape": "edge",
+      "attrs": {
+        "line": {
+          "stroke": "#A2B1C3"
+        }
+      },
+      "id": "ba75c2ba-1b3c-4a6b-aa3c-947dabadece5",
+      "zIndex": 0,
+      "source": {
+        "cell": "0b7037db-38ff-4398-ae0b-e105d7391fcd",
+        "port": "50a36ae5-8202-4e8f-95cf-fafd16fd6124"
+      },
+      "target": {
+        "cell": "b0458ca3-a7ea-4cb7-a8fd-73b4ae97cd59",
+        "port": "ac548061-0e87-472b-bdc2-feca311b395c"
+      }
+    },
+    {
+      "shape": "edge",
+      "attrs": {
+        "line": {
+          "stroke": "#A2B1C3"
+        }
+      },
+      "id": "c577d34d-aae4-4edf-9a6f-1e2fe453addf",
+      "zIndex": 0,
+      "source": {
+        "cell": "b0458ca3-a7ea-4cb7-a8fd-73b4ae97cd59",
+        "port": "50a36ae5-8202-4e8f-95cf-fafd16fd6124"
+      },
+      "target": {
+        "cell": "212606b2-70f4-4418-b62c-4a9c144e4fb1",
+        "port": "ac548061-0e87-472b-bdc2-feca311b395c"
+      }
+    },
+    {
+      "shape": "edge",
+      "attrs": {
+        "line": {
+          "stroke": "#A2B1C3"
+        }
+      },
+      "id": "d173bcf6-ca96-47e5-a22d-c6a6a3120394",
+      "zIndex": 0,
+      "source": {
+        "cell": "212606b2-70f4-4418-b62c-4a9c144e4fb1",
+        "port": "50a36ae5-8202-4e8f-95cf-fafd16fd6124"
+      },
+      "target": {
+        "cell": "258310c9-39a9-47d8-9ddc-3d6f9eb3cdca",
+        "port": "ac548061-0e87-472b-bdc2-feca311b395c"
+      }
+    },
+    {
+      "shape": "edge",
+      "attrs": {
+        "line": {
+          "stroke": "#A2B1C3"
+        }
+      },
+      "id": "74a9578d-eefe-4650-a731-8f945478a7ea",
+      "zIndex": 0,
+      "source": {
+        "cell": "258310c9-39a9-47d8-9ddc-3d6f9eb3cdca",
+        "port": "50a36ae5-8202-4e8f-95cf-fafd16fd6124"
+      },
+      "target": {
+        "cell": "2169c933-26ef-40fd-8673-13a2195eedfa",
+        "port": "ac548061-0e87-472b-bdc2-feca311b395c"
+      }
+    },
+    {
+      "shape": "edge",
+      "attrs": {
+        "line": {
+          "stroke": "#A2B1C3"
+        }
+      },
+      "id": "b23c0144-8a8b-45d1-a142-4cdae52b8bec",
+      "zIndex": 0,
+      "source": {
+        "cell": "2169c933-26ef-40fd-8673-13a2195eedfa",
+        "port": "50a36ae5-8202-4e8f-95cf-fafd16fd6124"
+      },
+      "target": {
+        "cell": "3fd708ed-5eb9-4a6b-afb5-08fedf263ee1",
+        "port": "ac548061-0e87-472b-bdc2-feca311b395c"
+      }
+    },
+    {
+      "shape": "edge",
+      "attrs": {
+        "line": {
+          "stroke": "#A2B1C3"
+        }
+      },
+      "id": "fb3d17a4-b398-4f5f-8973-51ac304e36d2",
+      "zIndex": 0,
+      "source": {
+        "cell": "3fd708ed-5eb9-4a6b-afb5-08fedf263ee1",
+        "port": "afb99dd4-cb5f-4943-b5cb-c86a58f7871f"
+      },
+      "target": {
+        "cell": "09ef01a6-d36e-4593-8330-35c068ae9b93",
+        "port": "ca92a1b3-0cf5-4021-a331-e0beaf0df095"
+      }
+    },
+    {
+      "shape": "edge",
+      "attrs": {
+        "line": {
+          "stroke": "#A2B1C3"
+        }
+      },
+      "id": "875c52f5-2187-4d59-ad03-deb30efc36cd",
+      "zIndex": 0,
+      "source": {
+        "cell": "09ef01a6-d36e-4593-8330-35c068ae9b93",
+        "port": "ac548061-0e87-472b-bdc2-feca311b395c"
+      },
+      "target": {
+        "cell": "51c73be2-42e1-43b8-8694-6ae31c263da2",
+        "port": "50a36ae5-8202-4e8f-95cf-fafd16fd6124"
+      }
+    },
+    {
+      "shape": "edge",
+      "attrs": {
+        "line": {
+          "stroke": "#A2B1C3"
+        }
+      },
+      "id": "d7824275-554e-4563-82d2-845c68a9b2f2",
+      "zIndex": 0,
+      "source": {
+        "cell": "51c73be2-42e1-43b8-8694-6ae31c263da2",
+        "port": "ac548061-0e87-472b-bdc2-feca311b395c"
+      },
+      "target": {
+        "cell": "9cf31eb9-b078-454c-885d-8c98ffde355a",
+        "port": "50a36ae5-8202-4e8f-95cf-fafd16fd6124"
+      }
+    },
+    {
+      "shape": "edge",
+      "attrs": {
+        "line": {
+          "stroke": "#A2B1C3"
+        }
+      },
+      "id": "0708edeb-1d38-475a-a69a-51759b6c4e2b",
+      "zIndex": 0,
+      "source": {
+        "cell": "9cf31eb9-b078-454c-885d-8c98ffde355a",
+        "port": "ac548061-0e87-472b-bdc2-feca311b395c"
+      },
+      "target": {
+        "cell": "e0611d35-2554-4a6f-917b-f767a2d941a6",
+        "port": "50a36ae5-8202-4e8f-95cf-fafd16fd6124"
+      }
+    },
+    {
+      "shape": "edge",
+      "attrs": {
+        "line": {
+          "stroke": "#A2B1C3"
+        }
+      },
+      "id": "84930a3f-60de-4670-8d4f-4de55579d426",
+      "zIndex": 0,
+      "source": {
+        "cell": "e0611d35-2554-4a6f-917b-f767a2d941a6",
+        "port": "ac548061-0e87-472b-bdc2-feca311b395c"
+      },
+      "target": {
+        "cell": "32d7f45d-2f10-4a29-a9ef-05bbd4a35b1d",
+        "port": "50a36ae5-8202-4e8f-95cf-fafd16fd6124"
+      }
+    },
+    {
+      "shape": "edge",
+      "attrs": {
+        "line": {
+          "stroke": "#A2B1C3"
+        }
+      },
+      "id": "2e634a15-764a-4156-9721-c160798fa6d8",
+      "zIndex": 0,
+      "source": {
+        "cell": "32d7f45d-2f10-4a29-a9ef-05bbd4a35b1d",
+        "port": "ac548061-0e87-472b-bdc2-feca311b395c"
+      },
+      "target": {
+        "cell": "0d04d8d5-8c1e-4664-9915-d5f6764b834b",
+        "port": "50a36ae5-8202-4e8f-95cf-fafd16fd6124"
+      }
+    },
+    {
+      "shape": "edge",
+      "attrs": {
+        "line": {
+          "stroke": "#A2B1C3"
+        }
+      },
+      "id": "87561d89-f59b-4f16-9b1a-24a6893bd608",
+      "zIndex": 0,
+      "source": {
+        "cell": "0d04d8d5-8c1e-4664-9915-d5f6764b834b",
+        "port": "ac548061-0e87-472b-bdc2-feca311b395c"
+      },
+      "target": {
+        "cell": "f2426e51-41f5-4af5-ae4f-e82a2dc1ca5f",
+        "port": "50a36ae5-8202-4e8f-95cf-fafd16fd6124"
+      }
+    },
+    {
+      "shape": "edge",
+      "attrs": {
+        "line": {
+          "stroke": "#A2B1C3"
+        }
+      },
+      "id": "62da36e1-66d0-4902-a289-1e60239508a5",
+      "zIndex": 0,
+      "source": {
+        "cell": "f2426e51-41f5-4af5-ae4f-e82a2dc1ca5f",
+        "port": "ac548061-0e87-472b-bdc2-feca311b395c"
+      },
+      "target": {
+        "cell": "6046324b-8582-4122-800c-4ecfd6ed480b",
+        "port": "50a36ae5-8202-4e8f-95cf-fafd16fd6124"
+      }
+    },
+    {
+      "shape": "edge",
+      "attrs": {
+        "line": {
+          "stroke": "#A2B1C3"
+        }
+      },
+      "id": "a27793d9-858d-4b1a-b4e9-a267c00a8c2d",
+      "zIndex": 0,
+      "source": {
+        "cell": "6046324b-8582-4122-800c-4ecfd6ed480b",
+        "port": "ac548061-0e87-472b-bdc2-feca311b395c"
+      },
+      "target": {
+        "cell": "75b38d72-a7c6-4e84-85e6-55b9a71959fe",
+        "port": "50a36ae5-8202-4e8f-95cf-fafd16fd6124"
+      }
+    },
+    {
+      "shape": "edge",
+      "attrs": {
+        "line": {
+          "stroke": "#A2B1C3"
+        }
+      },
+      "id": "f126baae-4df9-4dab-b7c4-38e9170900a7",
+      "zIndex": 0,
+      "source": {
+        "cell": "75b38d72-a7c6-4e84-85e6-55b9a71959fe",
+        "port": "ac548061-0e87-472b-bdc2-feca311b395c"
+      },
+      "target": {
+        "cell": "35e64357-c2e2-4753-9ea1-b74185a02c6f",
+        "port": "50a36ae5-8202-4e8f-95cf-fafd16fd6124"
+      }
+    },
+    {
+      "position": {
+        "x": 40,
+        "y": 40
+      },
+      "size": {
+        "width": 145,
+        "height": 100
+      },
+      "view": "react-shape-view",
+      "shape": "custom-react-shape",
+      "ports": {
+        "groups": {
+          "top": {
+            "position": "top",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "right": {
+            "position": "right",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "bottom": {
+            "position": "bottom",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "left": {
+            "position": "left",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          }
+        },
+        "items": [
+          {
+            "group": "top",
+            "id": "ca92a1b3-0cf5-4021-a331-e0beaf0df095"
+          },
+          {
+            "group": "right",
+            "id": "50a36ae5-8202-4e8f-95cf-fafd16fd6124"
+          },
+          {
+            "group": "bottom",
+            "id": "afb99dd4-cb5f-4943-b5cb-c86a58f7871f"
+          },
+          {
+            "group": "left",
+            "id": "ac548061-0e87-472b-bdc2-feca311b395c"
+          }
+        ]
+      },
+      "id": "86b310fb-17fd-4bb2-83b6-8aea7ac1aa18",
+      "data": {
+        "protoText": "Cells are cultured in 6, 12, 24, or 96-well transparent cell culture plates."
+      },
+      "type": "textNode",
+      "zIndex": 1
+    },
+    {
+      "position": {
+        "x": 253,
+        "y": 29
+      },
+      "size": {
+        "width": 220,
+        "height": 120
+      },
+      "view": "react-shape-view",
+      "shape": "custom-react-shape",
+      "ports": {
+        "groups": {
+          "top": {
+            "position": "top",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "right": {
+            "position": "right",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "bottom": {
+            "position": "bottom",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "left": {
+            "position": "left",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          }
+        },
+        "items": [
+          {
+            "group": "top",
+            "id": "ca92a1b3-0cf5-4021-a331-e0beaf0df095"
+          },
+          {
+            "group": "right",
+            "id": "50a36ae5-8202-4e8f-95cf-fafd16fd6124"
+          },
+          {
+            "group": "bottom",
+            "id": "afb99dd4-cb5f-4943-b5cb-c86a58f7871f"
+          },
+          {
+            "group": "left",
+            "id": "ac548061-0e87-472b-bdc2-feca311b395c"
+          }
+        ]
+      },
+      "id": "342a13b5-8040-44ba-be4b-a41f368bcc91",
+      "data": {
+        "protoText": "Cells are \u0000xed with freshly made 4% paraformaldehyde (PFA) in phosphate buffered saline (PBS) for 30- 60 mins at room temperature."
+      },
+      "type": "textNode",
+      "zIndex": 2
+    },
+    {
+      "position": {
+        "x": 510,
+        "y": 49
+      },
+      "size": {
+        "width": 130,
+        "height": 82
+      },
+      "view": "react-shape-view",
+      "shape": "custom-react-shape",
+      "ports": {
+        "groups": {
+          "top": {
+            "position": "top",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "right": {
+            "position": "right",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "bottom": {
+            "position": "bottom",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "left": {
+            "position": "left",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          }
+        },
+        "items": [
+          {
+            "group": "top",
+            "id": "ca92a1b3-0cf5-4021-a331-e0beaf0df095"
+          },
+          {
+            "group": "right",
+            "id": "50a36ae5-8202-4e8f-95cf-fafd16fd6124"
+          },
+          {
+            "group": "bottom",
+            "id": "afb99dd4-cb5f-4943-b5cb-c86a58f7871f"
+          },
+          {
+            "group": "left",
+            "id": "ac548061-0e87-472b-bdc2-feca311b395c"
+          }
+        ]
+      },
+      "id": "eb6a2782-2366-4be5-8316-65966378273e",
+      "data": {
+        "protoText": "Cells are washed twice in Tris buffered saline (TBS)"
+      },
+      "type": "textNode",
+      "zIndex": 3
+    },
+    {
+      "position": {
+        "x": 680,
+        "y": 4
+      },
+      "size": {
+        "width": 280,
+        "height": 172
+      },
+      "view": "react-shape-view",
+      "shape": "custom-react-shape",
+      "ports": {
+        "groups": {
+          "top": {
+            "position": "top",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "right": {
+            "position": "right",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "bottom": {
+            "position": "bottom",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "left": {
+            "position": "left",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          }
+        },
+        "items": [
+          {
+            "group": "top",
+            "id": "ca92a1b3-0cf5-4021-a331-e0beaf0df095"
+          },
+          {
+            "group": "right",
+            "id": "50a36ae5-8202-4e8f-95cf-fafd16fd6124"
+          },
+          {
+            "group": "bottom",
+            "id": "afb99dd4-cb5f-4943-b5cb-c86a58f7871f"
+          },
+          {
+            "group": "left",
+            "id": "ac548061-0e87-472b-bdc2-feca311b395c"
+          }
+        ]
+      },
+      "id": "0b7037db-38ff-4398-ae0b-e105d7391fcd",
+      "data": {
+        "protoText": "Cells are incubated with a blocking solution (TBS containing 5% [w/v] bovine serum albumin [BSA], 5% serum from the same species as the secondary antibody, and the appropriate permeabilizing agent depending on the expected subcellular localization of the protein, as detailed below) for 30-60 mins at room temperature."
+      },
+      "type": "textNode",
+      "zIndex": 4
+    },
+    {
+      "position": {
+        "x": 1023,
+        "y": 39
+      },
+      "size": {
+        "width": 160,
+        "height": 100
+      },
+      "view": "react-shape-view",
+      "shape": "custom-react-shape",
+      "ports": {
+        "groups": {
+          "top": {
+            "position": "top",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "right": {
+            "position": "right",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "bottom": {
+            "position": "bottom",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "left": {
+            "position": "left",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          }
+        },
+        "items": [
+          {
+            "group": "top",
+            "id": "ca92a1b3-0cf5-4021-a331-e0beaf0df095"
+          },
+          {
+            "group": "right",
+            "id": "50a36ae5-8202-4e8f-95cf-fafd16fd6124"
+          },
+          {
+            "group": "bottom",
+            "id": "afb99dd4-cb5f-4943-b5cb-c86a58f7871f"
+          },
+          {
+            "group": "left",
+            "id": "ac548061-0e87-472b-bdc2-feca311b395c"
+          }
+        ]
+      },
+      "id": "b0458ca3-a7ea-4cb7-a8fd-73b4ae97cd59",
+      "data": {
+        "protoText": " Cells are incubated with primary antibodies in blocking solution overnight at 4\u00b0C"
+      },
+      "type": "textNode",
+      "zIndex": 5
+    },
+    {
+      "position": {
+        "x": 1220,
+        "y": 49
+      },
+      "size": {
+        "width": 145,
+        "height": 82
+      },
+      "view": "react-shape-view",
+      "shape": "custom-react-shape",
+      "ports": {
+        "groups": {
+          "top": {
+            "position": "top",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "right": {
+            "position": "right",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "bottom": {
+            "position": "bottom",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "left": {
+            "position": "left",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          }
+        },
+        "items": [
+          {
+            "group": "top",
+            "id": "ca92a1b3-0cf5-4021-a331-e0beaf0df095"
+          },
+          {
+            "group": "right",
+            "id": "50a36ae5-8202-4e8f-95cf-fafd16fd6124"
+          },
+          {
+            "group": "bottom",
+            "id": "afb99dd4-cb5f-4943-b5cb-c86a58f7871f"
+          },
+          {
+            "group": "left",
+            "id": "ac548061-0e87-472b-bdc2-feca311b395c"
+          }
+        ]
+      },
+      "id": "212606b2-70f4-4418-b62c-4a9c144e4fb1",
+      "data": {
+        "protoText": "The next day cells are washed 3-5 times, 3 mins each in TBS on a shaker"
+      },
+      "type": "textNode",
+      "zIndex": 6
+    },
+    {
+      "position": {
+        "x": 1403,
+        "y": 31
+      },
+      "size": {
+        "width": 175,
+        "height": 118
+      },
+      "view": "react-shape-view",
+      "shape": "custom-react-shape",
+      "ports": {
+        "groups": {
+          "top": {
+            "position": "top",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "right": {
+            "position": "right",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "bottom": {
+            "position": "bottom",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "left": {
+            "position": "left",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          }
+        },
+        "items": [
+          {
+            "group": "top",
+            "id": "ca92a1b3-0cf5-4021-a331-e0beaf0df095"
+          },
+          {
+            "group": "right",
+            "id": "50a36ae5-8202-4e8f-95cf-fafd16fd6124"
+          },
+          {
+            "group": "bottom",
+            "id": "afb99dd4-cb5f-4943-b5cb-c86a58f7871f"
+          },
+          {
+            "group": "left",
+            "id": "ac548061-0e87-472b-bdc2-feca311b395c"
+          }
+        ]
+      },
+      "id": "258310c9-39a9-47d8-9ddc-3d6f9eb3cdca",
+      "data": {
+        "protoText": "Cells are incubated with HRP-conjugated secondary antibodies in blocking solution for 2-4 hours at room temperature."
+      },
+      "type": "textNode",
+      "zIndex": 7
+    },
+    {
+      "position": {
+        "x": 1635,
+        "y": 49
+      },
+      "size": {
+        "width": 130,
+        "height": 82
+      },
+      "view": "react-shape-view",
+      "shape": "custom-react-shape",
+      "ports": {
+        "groups": {
+          "top": {
+            "position": "top",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "right": {
+            "position": "right",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "bottom": {
+            "position": "bottom",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "left": {
+            "position": "left",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          }
+        },
+        "items": [
+          {
+            "group": "top",
+            "id": "ca92a1b3-0cf5-4021-a331-e0beaf0df095"
+          },
+          {
+            "group": "right",
+            "id": "50a36ae5-8202-4e8f-95cf-fafd16fd6124"
+          },
+          {
+            "group": "bottom",
+            "id": "afb99dd4-cb5f-4943-b5cb-c86a58f7871f"
+          },
+          {
+            "group": "left",
+            "id": "ac548061-0e87-472b-bdc2-feca311b395c"
+          }
+        ]
+      },
+      "id": "2169c933-26ef-40fd-8673-13a2195eedfa",
+      "data": {
+        "protoText": "Cells are washed 3-5 times, 3 mins each in TBS on a shaker."
+      },
+      "type": "textNode",
+      "zIndex": 8
+    },
+    {
+      "position": {
+        "x": 1825,
+        "y": 30
+      },
+      "size": {
+        "width": 260,
+        "height": 120
+      },
+      "view": "react-shape-view",
+      "shape": "custom-react-shape",
+      "ports": {
+        "groups": {
+          "top": {
+            "position": "top",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "right": {
+            "position": "right",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "bottom": {
+            "position": "bottom",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "left": {
+            "position": "left",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          }
+        },
+        "items": [
+          {
+            "group": "top",
+            "id": "ca92a1b3-0cf5-4021-a331-e0beaf0df095"
+          },
+          {
+            "group": "right",
+            "id": "50a36ae5-8202-4e8f-95cf-fafd16fd6124"
+          },
+          {
+            "group": "bottom",
+            "id": "afb99dd4-cb5f-4943-b5cb-c86a58f7871f"
+          },
+          {
+            "group": "left",
+            "id": "ac548061-0e87-472b-bdc2-feca311b395c"
+          }
+        ]
+      },
+      "id": "3fd708ed-5eb9-4a6b-afb5-08fedf263ee1",
+      "data": {
+        "protoText": "Cells are incubated with enhanced chemiluminescence (ECL) substrate (SuperSignal West Pico Chemiluminescent Substrate; Pierce) for 2-5 mins"
+      },
+      "type": "textNode",
+      "zIndex": 9
+    },
+    {
+      "position": {
+        "x": 1825,
+        "y": 176
+      },
+      "size": {
+        "width": 260,
+        "height": 140
+      },
+      "view": "react-shape-view",
+      "shape": "custom-react-shape",
+      "ports": {
+        "groups": {
+          "top": {
+            "position": "top",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "right": {
+            "position": "right",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "bottom": {
+            "position": "bottom",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "left": {
+            "position": "left",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          }
+        },
+        "items": [
+          {
+            "group": "top",
+            "id": "ca92a1b3-0cf5-4021-a331-e0beaf0df095"
+          },
+          {
+            "group": "right",
+            "id": "50a36ae5-8202-4e8f-95cf-fafd16fd6124"
+          },
+          {
+            "group": "bottom",
+            "id": "afb99dd4-cb5f-4943-b5cb-c86a58f7871f"
+          },
+          {
+            "group": "left",
+            "id": "ac548061-0e87-472b-bdc2-feca311b395c"
+          }
+        ]
+      },
+      "id": "09ef01a6-d36e-4593-8330-35c068ae9b93",
+      "data": {
+        "protoText": "Cells are placed in ChemiDoc MP imaging system (Bio-rad), and images are taken using the Chemiluminescence application Chemi Hi Sensitivity and the auto exposure option"
+      },
+      "type": "textNode",
+      "zIndex": 10
+    },
+    {
+      "position": {
+        "x": 1651,
+        "y": 205
+      },
+      "size": {
+        "width": 130,
+        "height": 82
+      },
+      "view": "react-shape-view",
+      "shape": "custom-react-shape",
+      "ports": {
+        "groups": {
+          "top": {
+            "position": "top",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "right": {
+            "position": "right",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "bottom": {
+            "position": "bottom",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "left": {
+            "position": "left",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          }
+        },
+        "items": [
+          {
+            "group": "top",
+            "id": "ca92a1b3-0cf5-4021-a331-e0beaf0df095"
+          },
+          {
+            "group": "right",
+            "id": "50a36ae5-8202-4e8f-95cf-fafd16fd6124"
+          },
+          {
+            "group": "bottom",
+            "id": "afb99dd4-cb5f-4943-b5cb-c86a58f7871f"
+          },
+          {
+            "group": "left",
+            "id": "ac548061-0e87-472b-bdc2-feca311b395c"
+          }
+        ]
+      },
+      "id": "51c73be2-42e1-43b8-8694-6ae31c263da2",
+      "data": {
+        "protoText": "the cells are washed twice in TBS to remove the ECL substrate "
+      },
+      "type": "textNode",
+      "zIndex": 11
+    },
+    {
+      "position": {
+        "x": 1460,
+        "y": 196
+      },
+      "size": {
+        "width": 145,
+        "height": 100
+      },
+      "view": "react-shape-view",
+      "shape": "custom-react-shape",
+      "ports": {
+        "groups": {
+          "top": {
+            "position": "top",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "right": {
+            "position": "right",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "bottom": {
+            "position": "bottom",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "left": {
+            "position": "left",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          }
+        },
+        "items": [
+          {
+            "group": "top",
+            "id": "ca92a1b3-0cf5-4021-a331-e0beaf0df095"
+          },
+          {
+            "group": "right",
+            "id": "50a36ae5-8202-4e8f-95cf-fafd16fd6124"
+          },
+          {
+            "group": "bottom",
+            "id": "afb99dd4-cb5f-4943-b5cb-c86a58f7871f"
+          },
+          {
+            "group": "left",
+            "id": "ac548061-0e87-472b-bdc2-feca311b395c"
+          }
+        ]
+      },
+      "id": "9cf31eb9-b078-454c-885d-8c98ffde355a",
+      "data": {
+        "protoText": "keep cells in TBS at 4\u00b0C for future stripping and re-probing if necessary."
+      },
+      "type": "textNode",
+      "zIndex": 12
+    },
+    {
+      "position": {
+        "x": 1263,
+        "y": 206
+      },
+      "size": {
+        "width": 140,
+        "height": 80
+      },
+      "view": "react-shape-view",
+      "shape": "custom-react-shape",
+      "ports": {
+        "groups": {
+          "top": {
+            "position": "top",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "right": {
+            "position": "right",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "bottom": {
+            "position": "bottom",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "left": {
+            "position": "left",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          }
+        },
+        "items": [
+          {
+            "group": "top",
+            "id": "ca92a1b3-0cf5-4021-a331-e0beaf0df095"
+          },
+          {
+            "group": "right",
+            "id": "50a36ae5-8202-4e8f-95cf-fafd16fd6124"
+          },
+          {
+            "group": "bottom",
+            "id": "afb99dd4-cb5f-4943-b5cb-c86a58f7871f"
+          },
+          {
+            "group": "left",
+            "id": "ac548061-0e87-472b-bdc2-feca311b395c"
+          }
+        ]
+      },
+      "id": "e0611d35-2554-4a6f-917b-f767a2d941a6",
+      "data": {
+        "protoText": "The image \u0000les aret analyzed using Fiji/ImageJ"
+      },
+      "type": "textNode",
+      "zIndex": 13
+    },
+    {
+      "position": {
+        "x": 1105,
+        "y": 205
+      },
+      "size": {
+        "width": 115,
+        "height": 82
+      },
+      "view": "react-shape-view",
+      "shape": "custom-react-shape",
+      "ports": {
+        "groups": {
+          "top": {
+            "position": "top",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "right": {
+            "position": "right",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "bottom": {
+            "position": "bottom",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "left": {
+            "position": "left",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          }
+        },
+        "items": [
+          {
+            "group": "top",
+            "id": "ca92a1b3-0cf5-4021-a331-e0beaf0df095"
+          },
+          {
+            "group": "right",
+            "id": "50a36ae5-8202-4e8f-95cf-fafd16fd6124"
+          },
+          {
+            "group": "bottom",
+            "id": "afb99dd4-cb5f-4943-b5cb-c86a58f7871f"
+          },
+          {
+            "group": "left",
+            "id": "ac548061-0e87-472b-bdc2-feca311b395c"
+          }
+        ]
+      },
+      "id": "32d7f45d-2f10-4a29-a9ef-05bbd4a35b1d",
+      "data": {
+        "protoText": "In Fiji, \u0000rst an area of interest (AOI) is chosen"
+      },
+      "type": "textNode",
+      "zIndex": 14
+    },
+    {
+      "position": {
+        "x": 820,
+        "y": 176
+      },
+      "size": {
+        "width": 250,
+        "height": 154
+      },
+      "view": "react-shape-view",
+      "shape": "custom-react-shape",
+      "ports": {
+        "groups": {
+          "top": {
+            "position": "top",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "right": {
+            "position": "right",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "bottom": {
+            "position": "bottom",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "left": {
+            "position": "left",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          }
+        },
+        "items": [
+          {
+            "group": "top",
+            "id": "ca92a1b3-0cf5-4021-a331-e0beaf0df095"
+          },
+          {
+            "group": "right",
+            "id": "50a36ae5-8202-4e8f-95cf-fafd16fd6124"
+          },
+          {
+            "group": "bottom",
+            "id": "afb99dd4-cb5f-4943-b5cb-c86a58f7871f"
+          },
+          {
+            "group": "left",
+            "id": "ac548061-0e87-472b-bdc2-feca311b395c"
+          }
+        ]
+      },
+      "id": "0d04d8d5-8c1e-4664-9915-d5f6764b834b",
+      "data": {
+        "protoText": "The AOI used is typically a circular selection about 60% of the size of the well in the image, placed approximately in the center of each well to avoid the well edges as they are known to cause noise and variability in cell-based assays."
+      },
+      "type": "textNode",
+      "zIndex": 15
+    },
+    {
+      "position": {
+        "x": 600,
+        "y": 216
+      },
+      "size": {
+        "width": 160,
+        "height": 100
+      },
+      "view": "react-shape-view",
+      "shape": "custom-react-shape",
+      "ports": {
+        "groups": {
+          "top": {
+            "position": "top",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "right": {
+            "position": "right",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "bottom": {
+            "position": "bottom",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "left": {
+            "position": "left",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          }
+        },
+        "items": [
+          {
+            "group": "top",
+            "id": "ca92a1b3-0cf5-4021-a331-e0beaf0df095"
+          },
+          {
+            "group": "right",
+            "id": "50a36ae5-8202-4e8f-95cf-fafd16fd6124"
+          },
+          {
+            "group": "bottom",
+            "id": "afb99dd4-cb5f-4943-b5cb-c86a58f7871f"
+          },
+          {
+            "group": "left",
+            "id": "ac548061-0e87-472b-bdc2-feca311b395c"
+          }
+        ]
+      },
+      "id": "f2426e51-41f5-4af5-ae4f-e82a2dc1ca5f",
+      "data": {
+        "protoText": "The signal in each well is quanti\u0000ed using the Measure command under the Analyze tab"
+      },
+      "type": "textNode",
+      "zIndex": 16
+    },
+    {
+      "position": {
+        "x": 347,
+        "y": 205
+      },
+      "size": {
+        "width": 190,
+        "height": 118
+      },
+      "view": "react-shape-view",
+      "shape": "custom-react-shape",
+      "ports": {
+        "groups": {
+          "top": {
+            "position": "top",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "right": {
+            "position": "right",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "bottom": {
+            "position": "bottom",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "left": {
+            "position": "left",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          }
+        },
+        "items": [
+          {
+            "group": "top",
+            "id": "ca92a1b3-0cf5-4021-a331-e0beaf0df095"
+          },
+          {
+            "group": "right",
+            "id": "50a36ae5-8202-4e8f-95cf-fafd16fd6124"
+          },
+          {
+            "group": "bottom",
+            "id": "afb99dd4-cb5f-4943-b5cb-c86a58f7871f"
+          },
+          {
+            "group": "left",
+            "id": "ac548061-0e87-472b-bdc2-feca311b395c"
+          }
+        ]
+      },
+      "id": "6046324b-8582-4122-800c-4ecfd6ed480b",
+      "data": {
+        "protoText": "the AOI selection is then dragged to the next well to ensure that the size remained constant, and this process is repeated for each well"
+      },
+      "type": "textNode",
+      "zIndex": 17
+    },
+    {
+      "position": {
+        "x": 98,
+        "y": 196
+      },
+      "size": {
+        "width": 200,
+        "height": 100
+      },
+      "view": "react-shape-view",
+      "shape": "custom-react-shape",
+      "ports": {
+        "groups": {
+          "top": {
+            "position": "top",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "right": {
+            "position": "right",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "bottom": {
+            "position": "bottom",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "left": {
+            "position": "left",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          }
+        },
+        "items": [
+          {
+            "group": "top",
+            "id": "ca92a1b3-0cf5-4021-a331-e0beaf0df095"
+          },
+          {
+            "group": "right",
+            "id": "50a36ae5-8202-4e8f-95cf-fafd16fd6124"
+          },
+          {
+            "group": "bottom",
+            "id": "afb99dd4-cb5f-4943-b5cb-c86a58f7871f"
+          },
+          {
+            "group": "left",
+            "id": "ac548061-0e87-472b-bdc2-feca311b395c"
+          }
+        ]
+      },
+      "id": "75b38d72-a7c6-4e84-85e6-55b9a71959fe",
+      "data": {
+        "protoText": "The AOI can be saved for future experiments using the \u201cROI manager\u201d tool in ImageJ"
+      },
+      "type": "textNode",
+      "zIndex": 18
+    },
+    {
+      "position": {
+        "x": -86,
+        "y": 211
+      },
+      "size": {
+        "width": 130,
+        "height": 82
+      },
+      "view": "react-shape-view",
+      "shape": "custom-react-shape",
+      "ports": {
+        "groups": {
+          "top": {
+            "position": "top",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "right": {
+            "position": "right",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "bottom": {
+            "position": "bottom",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "left": {
+            "position": "left",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          }
+        },
+        "items": [
+          {
+            "group": "top",
+            "id": "ca92a1b3-0cf5-4021-a331-e0beaf0df095"
+          },
+          {
+            "group": "right",
+            "id": "50a36ae5-8202-4e8f-95cf-fafd16fd6124"
+          },
+          {
+            "group": "bottom",
+            "id": "afb99dd4-cb5f-4943-b5cb-c86a58f7871f"
+          },
+          {
+            "group": "left",
+            "id": "ac548061-0e87-472b-bdc2-feca311b395c"
+          }
+        ]
+      },
+      "id": "35e64357-c2e2-4753-9ea1-b74185a02c6f",
+      "data": {
+        "protoText": "The Integrated density values for each well is then recorded"
+      },
+      "type": "textNode",
+      "zIndex": 19
+    }
+  ]
+}

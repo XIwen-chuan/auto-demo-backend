@@ -1,0 +1,3290 @@
+{
+  "cells": [
+    {
+      "shape": "edge",
+      "attrs": {
+        "line": {
+          "stroke": "#A2B1C3"
+        }
+      },
+      "id": "cd4b91f8-4ce9-49ff-adc7-15ff5b971e5b",
+      "zIndex": 0,
+      "source": {
+        "cell": "e985cf9b-4e99-4496-a956-30228403a190",
+        "port": "7c4fc73f-2138-449d-b451-0b865b534833"
+      },
+      "target": {
+        "cell": "16ab7573-cca1-45de-9d3e-02cdf5b1cd9b",
+        "port": "2e51dcc2-0be3-45db-b51e-62889bf1ed65"
+      }
+    },
+    {
+      "shape": "edge",
+      "attrs": {
+        "line": {
+          "stroke": "#A2B1C3"
+        }
+      },
+      "id": "fa0f2671-e453-4a66-a61b-e3a36b4933b0",
+      "zIndex": 0,
+      "source": {
+        "cell": "16ab7573-cca1-45de-9d3e-02cdf5b1cd9b",
+        "port": "7c4fc73f-2138-449d-b451-0b865b534833"
+      },
+      "target": {
+        "cell": "85bb30d5-377e-41f5-81c6-e759e68ade46",
+        "port": "2e51dcc2-0be3-45db-b51e-62889bf1ed65"
+      }
+    },
+    {
+      "shape": "edge",
+      "attrs": {
+        "line": {
+          "stroke": "#A2B1C3"
+        }
+      },
+      "id": "491106ee-6a05-47e4-8f54-df4cc579bfb9",
+      "zIndex": 0,
+      "source": {
+        "cell": "85bb30d5-377e-41f5-81c6-e759e68ade46",
+        "port": "7c4fc73f-2138-449d-b451-0b865b534833"
+      },
+      "target": {
+        "cell": "935d8d84-1135-42a4-808e-f5850698111e",
+        "port": "2e51dcc2-0be3-45db-b51e-62889bf1ed65"
+      }
+    },
+    {
+      "shape": "edge",
+      "attrs": {
+        "line": {
+          "stroke": "#A2B1C3"
+        }
+      },
+      "id": "c5afd953-3ee9-4b0f-9cef-eff0cd4534f9",
+      "zIndex": 0,
+      "source": {
+        "cell": "935d8d84-1135-42a4-808e-f5850698111e",
+        "port": "7c4fc73f-2138-449d-b451-0b865b534833"
+      },
+      "target": {
+        "cell": "4d8c51d4-f67d-435d-a59a-d5ca00d26ff4",
+        "port": "2e51dcc2-0be3-45db-b51e-62889bf1ed65"
+      }
+    },
+    {
+      "shape": "edge",
+      "attrs": {
+        "line": {
+          "stroke": "#A2B1C3"
+        }
+      },
+      "id": "f21efc21-956f-43dd-b2f1-8ff61c065fe4",
+      "zIndex": 0,
+      "source": {
+        "cell": "4d8c51d4-f67d-435d-a59a-d5ca00d26ff4",
+        "port": "7c4fc73f-2138-449d-b451-0b865b534833"
+      },
+      "target": {
+        "cell": "167a63c7-1714-4a2b-99db-bcc0ade984d0",
+        "port": "2e51dcc2-0be3-45db-b51e-62889bf1ed65"
+      }
+    },
+    {
+      "shape": "edge",
+      "attrs": {
+        "line": {
+          "stroke": "#A2B1C3"
+        }
+      },
+      "id": "64285b7f-4aad-4194-8ad3-f2df295a04b1",
+      "zIndex": 0,
+      "source": {
+        "cell": "167a63c7-1714-4a2b-99db-bcc0ade984d0",
+        "port": "7c4fc73f-2138-449d-b451-0b865b534833"
+      },
+      "target": {
+        "cell": "9f3c6b59-08b5-4c32-b945-5b824d857a2b",
+        "port": "2e51dcc2-0be3-45db-b51e-62889bf1ed65"
+      }
+    },
+    {
+      "shape": "edge",
+      "attrs": {
+        "line": {
+          "stroke": "#A2B1C3"
+        }
+      },
+      "id": "cf9f2cfc-2df1-4624-a312-cca657fd8914",
+      "zIndex": 0,
+      "source": {
+        "cell": "9f3c6b59-08b5-4c32-b945-5b824d857a2b",
+        "port": "7c4fc73f-2138-449d-b451-0b865b534833"
+      },
+      "target": {
+        "cell": "ea1f86bf-8360-4585-b9dc-cb56dc046c2b",
+        "port": "2e51dcc2-0be3-45db-b51e-62889bf1ed65"
+      }
+    },
+    {
+      "shape": "edge",
+      "attrs": {
+        "line": {
+          "stroke": "#A2B1C3"
+        }
+      },
+      "id": "0ce64717-330f-4d34-83cf-988804d9889b",
+      "zIndex": 0,
+      "source": {
+        "cell": "ea1f86bf-8360-4585-b9dc-cb56dc046c2b",
+        "port": "fe956ce7-036b-4706-8ccb-002f7ea1a4f3"
+      },
+      "target": {
+        "cell": "9bb68d30-ff56-453b-bbb7-cb4192ae2fe6",
+        "port": "7a4d5c44-570e-4e68-84a4-29ac56f68cc6"
+      }
+    },
+    {
+      "shape": "edge",
+      "attrs": {
+        "line": {
+          "stroke": "#A2B1C3"
+        }
+      },
+      "id": "0f210010-d6a6-4020-b173-55f933c96f74",
+      "zIndex": 0,
+      "source": {
+        "cell": "9bb68d30-ff56-453b-bbb7-cb4192ae2fe6",
+        "port": "2e51dcc2-0be3-45db-b51e-62889bf1ed65"
+      },
+      "target": {
+        "cell": "a17a2e1c-8250-4f12-84bf-6e894ac12d5a",
+        "port": "7c4fc73f-2138-449d-b451-0b865b534833"
+      }
+    },
+    {
+      "shape": "edge",
+      "attrs": {
+        "line": {
+          "stroke": "#A2B1C3"
+        }
+      },
+      "id": "40a318f1-e4de-4ec5-9965-be1dfff8b914",
+      "zIndex": 0,
+      "source": {
+        "cell": "a17a2e1c-8250-4f12-84bf-6e894ac12d5a",
+        "port": "2e51dcc2-0be3-45db-b51e-62889bf1ed65"
+      },
+      "target": {
+        "cell": "e006687f-948f-4361-8baa-5404df0b53b2",
+        "port": "7c4fc73f-2138-449d-b451-0b865b534833"
+      }
+    },
+    {
+      "shape": "edge",
+      "attrs": {
+        "line": {
+          "stroke": "#A2B1C3"
+        }
+      },
+      "id": "35129d6d-27c0-4ac2-9884-3d9cebe32d33",
+      "zIndex": 0,
+      "source": {
+        "cell": "e006687f-948f-4361-8baa-5404df0b53b2",
+        "port": "2e51dcc2-0be3-45db-b51e-62889bf1ed65"
+      },
+      "target": {
+        "cell": "eeed625f-03ba-425c-ad36-c307d5905b1b",
+        "port": "7c4fc73f-2138-449d-b451-0b865b534833"
+      }
+    },
+    {
+      "shape": "edge",
+      "attrs": {
+        "line": {
+          "stroke": "#A2B1C3"
+        }
+      },
+      "id": "70c2630b-7b3a-4f6f-ad52-dc7533f0f428",
+      "zIndex": 0,
+      "source": {
+        "cell": "eeed625f-03ba-425c-ad36-c307d5905b1b",
+        "port": "2e51dcc2-0be3-45db-b51e-62889bf1ed65"
+      },
+      "target": {
+        "cell": "fe2767e6-2dd5-452b-80d0-7d50889acbf9",
+        "port": "7c4fc73f-2138-449d-b451-0b865b534833"
+      }
+    },
+    {
+      "shape": "edge",
+      "attrs": {
+        "line": {
+          "stroke": "#A2B1C3"
+        }
+      },
+      "id": "f50d58b4-f08e-4da1-bc1b-4f01e58ccdec",
+      "zIndex": 0,
+      "source": {
+        "cell": "fe2767e6-2dd5-452b-80d0-7d50889acbf9",
+        "port": "2e51dcc2-0be3-45db-b51e-62889bf1ed65"
+      },
+      "target": {
+        "cell": "b4b51096-8d6b-4448-8cb0-dabf11b191f1",
+        "port": "7c4fc73f-2138-449d-b451-0b865b534833"
+      }
+    },
+    {
+      "shape": "edge",
+      "attrs": {
+        "line": {
+          "stroke": "#A2B1C3"
+        }
+      },
+      "id": "f67932f1-3334-48b3-b413-d9714a66989d",
+      "zIndex": 0,
+      "source": {
+        "cell": "b4b51096-8d6b-4448-8cb0-dabf11b191f1",
+        "port": "2e51dcc2-0be3-45db-b51e-62889bf1ed65"
+      },
+      "target": {
+        "cell": "be3404f2-99fa-4980-ac68-46995e32eb06",
+        "port": "7c4fc73f-2138-449d-b451-0b865b534833"
+      }
+    },
+    {
+      "shape": "edge",
+      "attrs": {
+        "line": {
+          "stroke": "#A2B1C3"
+        }
+      },
+      "id": "dbabb499-b375-4a05-8234-84375fbe5167",
+      "zIndex": 0,
+      "source": {
+        "cell": "be3404f2-99fa-4980-ac68-46995e32eb06",
+        "port": "2e51dcc2-0be3-45db-b51e-62889bf1ed65"
+      },
+      "target": {
+        "cell": "39dde457-c316-428a-ad5f-ccf323edd404",
+        "port": "7c4fc73f-2138-449d-b451-0b865b534833"
+      }
+    },
+    {
+      "shape": "edge",
+      "attrs": {
+        "line": {
+          "stroke": "#A2B1C3"
+        }
+      },
+      "id": "7a149c90-db2c-4de1-afa7-8c7c94f2fc13",
+      "zIndex": 0,
+      "source": {
+        "cell": "39dde457-c316-428a-ad5f-ccf323edd404",
+        "port": "2e51dcc2-0be3-45db-b51e-62889bf1ed65"
+      },
+      "target": {
+        "cell": "c032e4b1-5cbc-460c-9b11-af30b8bff904",
+        "port": "7c4fc73f-2138-449d-b451-0b865b534833"
+      }
+    },
+    {
+      "shape": "edge",
+      "attrs": {
+        "line": {
+          "stroke": "#A2B1C3"
+        }
+      },
+      "id": "94de555d-d834-4573-8b07-ac23e327aedc",
+      "zIndex": 0,
+      "source": {
+        "cell": "c032e4b1-5cbc-460c-9b11-af30b8bff904",
+        "port": "fe956ce7-036b-4706-8ccb-002f7ea1a4f3"
+      },
+      "target": {
+        "cell": "08b75d10-5905-4e99-a890-8eeeacb3d890",
+        "port": "7a4d5c44-570e-4e68-84a4-29ac56f68cc6"
+      }
+    },
+    {
+      "shape": "edge",
+      "attrs": {
+        "line": {
+          "stroke": "#A2B1C3"
+        }
+      },
+      "id": "9cbcf8a6-9954-43a2-8b8d-68f79aed3b2c",
+      "zIndex": 0,
+      "source": {
+        "cell": "08b75d10-5905-4e99-a890-8eeeacb3d890",
+        "port": "7c4fc73f-2138-449d-b451-0b865b534833"
+      },
+      "target": {
+        "cell": "669d86c3-7b18-456a-b209-2b98479e5487",
+        "port": "2e51dcc2-0be3-45db-b51e-62889bf1ed65"
+      }
+    },
+    {
+      "shape": "edge",
+      "attrs": {
+        "line": {
+          "stroke": "#A2B1C3"
+        }
+      },
+      "id": "bc582194-ac36-4d38-ac05-4ddaebe3cd5f",
+      "zIndex": 0,
+      "source": {
+        "cell": "669d86c3-7b18-456a-b209-2b98479e5487",
+        "port": "7c4fc73f-2138-449d-b451-0b865b534833"
+      },
+      "target": {
+        "cell": "8bbb6ade-f41e-4856-9f65-f4261e266de7",
+        "port": "2e51dcc2-0be3-45db-b51e-62889bf1ed65"
+      }
+    },
+    {
+      "shape": "edge",
+      "attrs": {
+        "line": {
+          "stroke": "#A2B1C3"
+        }
+      },
+      "id": "d53e4d47-1e75-4879-bfd2-31c0722852ea",
+      "zIndex": 0,
+      "source": {
+        "cell": "8bbb6ade-f41e-4856-9f65-f4261e266de7",
+        "port": "7c4fc73f-2138-449d-b451-0b865b534833"
+      },
+      "target": {
+        "cell": "789f7b3e-934a-41ca-b890-7256f4a4a2e4",
+        "port": "2e51dcc2-0be3-45db-b51e-62889bf1ed65"
+      }
+    },
+    {
+      "shape": "edge",
+      "attrs": {
+        "line": {
+          "stroke": "#A2B1C3"
+        }
+      },
+      "id": "bd06591b-fc36-4910-8c89-cab14b4dd793",
+      "zIndex": 0,
+      "source": {
+        "cell": "789f7b3e-934a-41ca-b890-7256f4a4a2e4",
+        "port": "7c4fc73f-2138-449d-b451-0b865b534833"
+      },
+      "target": {
+        "cell": "fe0d582c-5b65-49a5-94ac-7cd5aa41d289",
+        "port": "2e51dcc2-0be3-45db-b51e-62889bf1ed65"
+      }
+    },
+    {
+      "shape": "edge",
+      "attrs": {
+        "line": {
+          "stroke": "#A2B1C3"
+        }
+      },
+      "id": "db7d6f9d-4b48-4c49-86a5-7162025f0c06",
+      "zIndex": 0,
+      "source": {
+        "cell": "fe0d582c-5b65-49a5-94ac-7cd5aa41d289",
+        "port": "7c4fc73f-2138-449d-b451-0b865b534833"
+      },
+      "target": {
+        "cell": "c5657a1f-4562-4f95-a6c6-463d53ee81a4",
+        "port": "2e51dcc2-0be3-45db-b51e-62889bf1ed65"
+      }
+    },
+    {
+      "shape": "edge",
+      "attrs": {
+        "line": {
+          "stroke": "#A2B1C3"
+        }
+      },
+      "id": "8a0485eb-1e7f-47f8-b499-680d2dca578a",
+      "zIndex": 0,
+      "source": {
+        "cell": "c5657a1f-4562-4f95-a6c6-463d53ee81a4",
+        "port": "7c4fc73f-2138-449d-b451-0b865b534833"
+      },
+      "target": {
+        "cell": "4d57950a-3db1-4b83-8523-a5aa3d5a598a",
+        "port": "2e51dcc2-0be3-45db-b51e-62889bf1ed65"
+      }
+    },
+    {
+      "shape": "edge",
+      "attrs": {
+        "line": {
+          "stroke": "#A2B1C3"
+        }
+      },
+      "id": "148af07a-fa48-41f5-8777-3641180b993c",
+      "zIndex": 0,
+      "source": {
+        "cell": "4d57950a-3db1-4b83-8523-a5aa3d5a598a",
+        "port": "7c4fc73f-2138-449d-b451-0b865b534833"
+      },
+      "target": {
+        "cell": "c091051b-3876-40a3-9192-b940280384db",
+        "port": "2e51dcc2-0be3-45db-b51e-62889bf1ed65"
+      }
+    },
+    {
+      "shape": "edge",
+      "attrs": {
+        "line": {
+          "stroke": "#A2B1C3"
+        }
+      },
+      "id": "3b206cc9-55f6-40e1-8864-d21528840146",
+      "zIndex": 0,
+      "source": {
+        "cell": "c091051b-3876-40a3-9192-b940280384db",
+        "port": "fe956ce7-036b-4706-8ccb-002f7ea1a4f3"
+      },
+      "target": {
+        "cell": "d801c6b2-a14a-453f-adac-09c86d3d3f1d",
+        "port": "7a4d5c44-570e-4e68-84a4-29ac56f68cc6"
+      }
+    },
+    {
+      "shape": "edge",
+      "attrs": {
+        "line": {
+          "stroke": "#A2B1C3"
+        }
+      },
+      "id": "ddf07590-5374-4588-9bbe-2461da317c9e",
+      "zIndex": 0,
+      "source": {
+        "cell": "d801c6b2-a14a-453f-adac-09c86d3d3f1d",
+        "port": "2e51dcc2-0be3-45db-b51e-62889bf1ed65"
+      },
+      "target": {
+        "cell": "cab1ab37-ddf4-456a-bdbc-aacedc251e37",
+        "port": "7c4fc73f-2138-449d-b451-0b865b534833"
+      }
+    },
+    {
+      "shape": "edge",
+      "attrs": {
+        "line": {
+          "stroke": "#A2B1C3"
+        }
+      },
+      "id": "66b4dc7c-aa44-4f02-9fbb-d6c462404cb8",
+      "zIndex": 0,
+      "source": {
+        "cell": "cab1ab37-ddf4-456a-bdbc-aacedc251e37",
+        "port": "2e51dcc2-0be3-45db-b51e-62889bf1ed65"
+      },
+      "target": {
+        "cell": "10a5093c-a6ea-4b73-8766-6474647afd33",
+        "port": "7c4fc73f-2138-449d-b451-0b865b534833"
+      }
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 60
+      },
+      "size": {
+        "width": 130,
+        "height": 82
+      },
+      "view": "react-shape-view",
+      "shape": "custom-react-shape",
+      "ports": {
+        "groups": {
+          "top": {
+            "position": "top",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "right": {
+            "position": "right",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "bottom": {
+            "position": "bottom",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "left": {
+            "position": "left",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          }
+        },
+        "items": [
+          {
+            "group": "top",
+            "id": "7a4d5c44-570e-4e68-84a4-29ac56f68cc6"
+          },
+          {
+            "group": "right",
+            "id": "7c4fc73f-2138-449d-b451-0b865b534833"
+          },
+          {
+            "group": "bottom",
+            "id": "fe956ce7-036b-4706-8ccb-002f7ea1a4f3"
+          },
+          {
+            "group": "left",
+            "id": "2e51dcc2-0be3-45db-b51e-62889bf1ed65"
+          }
+        ]
+      },
+      "id": "e985cf9b-4e99-4496-a956-30228403a190",
+      "data": {
+        "protoText": "Harvest NSC34 or C2C12 cells up to 80-100 % in 6 well plate"
+      },
+      "type": "textNode",
+      "zIndex": 1
+    },
+    {
+      "position": {
+        "x": 180,
+        "y": 69
+      },
+      "size": {
+        "width": 115,
+        "height": 64
+      },
+      "view": "react-shape-view",
+      "shape": "custom-react-shape",
+      "ports": {
+        "groups": {
+          "top": {
+            "position": "top",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "right": {
+            "position": "right",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "bottom": {
+            "position": "bottom",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "left": {
+            "position": "left",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          }
+        },
+        "items": [
+          {
+            "group": "top",
+            "id": "7a4d5c44-570e-4e68-84a4-29ac56f68cc6"
+          },
+          {
+            "group": "right",
+            "id": "7c4fc73f-2138-449d-b451-0b865b534833"
+          },
+          {
+            "group": "bottom",
+            "id": "fe956ce7-036b-4706-8ccb-002f7ea1a4f3"
+          },
+          {
+            "group": "left",
+            "id": "2e51dcc2-0be3-45db-b51e-62889bf1ed65"
+          }
+        ]
+      },
+      "id": "16ab7573-cca1-45de-9d3e-02cdf5b1cd9b",
+      "data": {
+        "protoText": "Aspirate media and wash plate with PBS"
+      },
+      "type": "textNode",
+      "zIndex": 2
+    },
+    {
+      "position": {
+        "x": 331,
+        "y": 61
+      },
+      "size": {
+        "width": 140,
+        "height": 80
+      },
+      "view": "react-shape-view",
+      "shape": "custom-react-shape",
+      "ports": {
+        "groups": {
+          "top": {
+            "position": "top",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "right": {
+            "position": "right",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "bottom": {
+            "position": "bottom",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "left": {
+            "position": "left",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          }
+        },
+        "items": [
+          {
+            "group": "top",
+            "id": "7a4d5c44-570e-4e68-84a4-29ac56f68cc6"
+          },
+          {
+            "group": "right",
+            "id": "7c4fc73f-2138-449d-b451-0b865b534833"
+          },
+          {
+            "group": "bottom",
+            "id": "fe956ce7-036b-4706-8ccb-002f7ea1a4f3"
+          },
+          {
+            "group": "left",
+            "id": "2e51dcc2-0be3-45db-b51e-62889bf1ed65"
+          }
+        ]
+      },
+      "id": "85bb30d5-377e-41f5-81c6-e759e68ade46",
+      "data": {
+        "protoText": "Aspirate PBS and add 500 \u03bcl of CelLyticTM M"
+      },
+      "type": "textNode",
+      "zIndex": 3
+    },
+    {
+      "position": {
+        "x": 530,
+        "y": 51
+      },
+      "size": {
+        "width": 145,
+        "height": 100
+      },
+      "view": "react-shape-view",
+      "shape": "custom-react-shape",
+      "ports": {
+        "groups": {
+          "top": {
+            "position": "top",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "right": {
+            "position": "right",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "bottom": {
+            "position": "bottom",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "left": {
+            "position": "left",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          }
+        },
+        "items": [
+          {
+            "group": "top",
+            "id": "7a4d5c44-570e-4e68-84a4-29ac56f68cc6"
+          },
+          {
+            "group": "right",
+            "id": "7c4fc73f-2138-449d-b451-0b865b534833"
+          },
+          {
+            "group": "bottom",
+            "id": "fe956ce7-036b-4706-8ccb-002f7ea1a4f3"
+          },
+          {
+            "group": "left",
+            "id": "2e51dcc2-0be3-45db-b51e-62889bf1ed65"
+          }
+        ]
+      },
+      "id": "935d8d84-1135-42a4-808e-f5850698111e",
+      "data": {
+        "protoText": "Scrape cells with a cell scraper and collect media in a 1.5 ml tissue grinder"
+      },
+      "type": "textNode",
+      "zIndex": 4
+    },
+    {
+      "position": {
+        "x": 715,
+        "y": 69
+      },
+      "size": {
+        "width": 115,
+        "height": 64
+      },
+      "view": "react-shape-view",
+      "shape": "custom-react-shape",
+      "ports": {
+        "groups": {
+          "top": {
+            "position": "top",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "right": {
+            "position": "right",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "bottom": {
+            "position": "bottom",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "left": {
+            "position": "left",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          }
+        },
+        "items": [
+          {
+            "group": "top",
+            "id": "7a4d5c44-570e-4e68-84a4-29ac56f68cc6"
+          },
+          {
+            "group": "right",
+            "id": "7c4fc73f-2138-449d-b451-0b865b534833"
+          },
+          {
+            "group": "bottom",
+            "id": "fe956ce7-036b-4706-8ccb-002f7ea1a4f3"
+          },
+          {
+            "group": "left",
+            "id": "2e51dcc2-0be3-45db-b51e-62889bf1ed65"
+          }
+        ]
+      },
+      "id": "4d8c51d4-f67d-435d-a59a-d5ca00d26ff4",
+      "data": {
+        "protoText": "Preserve 10% of collected media at 4\u00b0C"
+      },
+      "type": "textNode",
+      "zIndex": 5
+    },
+    {
+      "position": {
+        "x": 884,
+        "y": 62
+      },
+      "size": {
+        "width": 160,
+        "height": 80
+      },
+      "view": "react-shape-view",
+      "shape": "custom-react-shape",
+      "ports": {
+        "groups": {
+          "top": {
+            "position": "top",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "right": {
+            "position": "right",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "bottom": {
+            "position": "bottom",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "left": {
+            "position": "left",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          }
+        },
+        "items": [
+          {
+            "group": "top",
+            "id": "7a4d5c44-570e-4e68-84a4-29ac56f68cc6"
+          },
+          {
+            "group": "right",
+            "id": "7c4fc73f-2138-449d-b451-0b865b534833"
+          },
+          {
+            "group": "bottom",
+            "id": "fe956ce7-036b-4706-8ccb-002f7ea1a4f3"
+          },
+          {
+            "group": "left",
+            "id": "2e51dcc2-0be3-45db-b51e-62889bf1ed65"
+          }
+        ]
+      },
+      "id": "167a63c7-1714-4a2b-99db-bcc0ade984d0",
+      "data": {
+        "protoText": "Vortex DynabeadsTM magnetic beads in the vial for 30 Sec"
+      },
+      "type": "textNode",
+      "zIndex": 6
+    },
+    {
+      "position": {
+        "x": 1093,
+        "y": 53
+      },
+      "size": {
+        "width": 160,
+        "height": 80
+      },
+      "view": "react-shape-view",
+      "shape": "custom-react-shape",
+      "ports": {
+        "groups": {
+          "top": {
+            "position": "top",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "right": {
+            "position": "right",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "bottom": {
+            "position": "bottom",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "left": {
+            "position": "left",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          }
+        },
+        "items": [
+          {
+            "group": "top",
+            "id": "7a4d5c44-570e-4e68-84a4-29ac56f68cc6"
+          },
+          {
+            "group": "right",
+            "id": "7c4fc73f-2138-449d-b451-0b865b534833"
+          },
+          {
+            "group": "bottom",
+            "id": "fe956ce7-036b-4706-8ccb-002f7ea1a4f3"
+          },
+          {
+            "group": "left",
+            "id": "2e51dcc2-0be3-45db-b51e-62889bf1ed65"
+          }
+        ]
+      },
+      "id": "9f3c6b59-08b5-4c32-b945-5b824d857a2b",
+      "data": {
+        "protoText": "Transfer 50 \u03bcl of DynabeadsTM magnetic beads to a 1.5ml tube"
+      },
+      "type": "textNode",
+      "zIndex": 7
+    },
+    {
+      "position": {
+        "x": 1290,
+        "y": 51
+      },
+      "size": {
+        "width": 145,
+        "height": 82
+      },
+      "view": "react-shape-view",
+      "shape": "custom-react-shape",
+      "ports": {
+        "groups": {
+          "top": {
+            "position": "top",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "right": {
+            "position": "right",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "bottom": {
+            "position": "bottom",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "left": {
+            "position": "left",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          }
+        },
+        "items": [
+          {
+            "group": "top",
+            "id": "7a4d5c44-570e-4e68-84a4-29ac56f68cc6"
+          },
+          {
+            "group": "right",
+            "id": "7c4fc73f-2138-449d-b451-0b865b534833"
+          },
+          {
+            "group": "bottom",
+            "id": "fe956ce7-036b-4706-8ccb-002f7ea1a4f3"
+          },
+          {
+            "group": "left",
+            "id": "2e51dcc2-0be3-45db-b51e-62889bf1ed65"
+          }
+        ]
+      },
+      "id": "ea1f86bf-8360-4585-b9dc-cb56dc046c2b",
+      "data": {
+        "protoText": "Place the tube on the magnet to separate the beads from the solution"
+      },
+      "type": "textNode",
+      "zIndex": 8
+    },
+    {
+      "position": {
+        "x": 1302.5,
+        "y": 183
+      },
+      "size": {
+        "width": 120,
+        "height": 60
+      },
+      "view": "react-shape-view",
+      "shape": "custom-react-shape",
+      "ports": {
+        "groups": {
+          "top": {
+            "position": "top",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "right": {
+            "position": "right",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "bottom": {
+            "position": "bottom",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "left": {
+            "position": "left",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          }
+        },
+        "items": [
+          {
+            "group": "top",
+            "id": "7a4d5c44-570e-4e68-84a4-29ac56f68cc6"
+          },
+          {
+            "group": "right",
+            "id": "7c4fc73f-2138-449d-b451-0b865b534833"
+          },
+          {
+            "group": "bottom",
+            "id": "fe956ce7-036b-4706-8ccb-002f7ea1a4f3"
+          },
+          {
+            "group": "left",
+            "id": "2e51dcc2-0be3-45db-b51e-62889bf1ed65"
+          }
+        ]
+      },
+      "id": "9bb68d30-ff56-453b-bbb7-cb4192ae2fe6",
+      "data": {
+        "protoText": "remove the supernatant"
+      },
+      "type": "textNode",
+      "zIndex": 9
+    },
+    {
+      "position": {
+        "x": 1153,
+        "y": 181
+      },
+      "size": {
+        "width": 100,
+        "height": 64
+      },
+      "view": "react-shape-view",
+      "shape": "custom-react-shape",
+      "ports": {
+        "groups": {
+          "top": {
+            "position": "top",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "right": {
+            "position": "right",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "bottom": {
+            "position": "bottom",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "left": {
+            "position": "left",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          }
+        },
+        "items": [
+          {
+            "group": "top",
+            "id": "7a4d5c44-570e-4e68-84a4-29ac56f68cc6"
+          },
+          {
+            "group": "right",
+            "id": "7c4fc73f-2138-449d-b451-0b865b534833"
+          },
+          {
+            "group": "bottom",
+            "id": "fe956ce7-036b-4706-8ccb-002f7ea1a4f3"
+          },
+          {
+            "group": "left",
+            "id": "2e51dcc2-0be3-45db-b51e-62889bf1ed65"
+          }
+        ]
+      },
+      "id": "a17a2e1c-8250-4f12-84bf-6e894ac12d5a",
+      "data": {
+        "protoText": "Remove the tube from the magnet"
+      },
+      "type": "textNode",
+      "zIndex": 10
+    },
+    {
+      "position": {
+        "x": 963,
+        "y": 173
+      },
+      "size": {
+        "width": 160,
+        "height": 100
+      },
+      "view": "react-shape-view",
+      "shape": "custom-react-shape",
+      "ports": {
+        "groups": {
+          "top": {
+            "position": "top",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "right": {
+            "position": "right",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "bottom": {
+            "position": "bottom",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "left": {
+            "position": "left",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          }
+        },
+        "items": [
+          {
+            "group": "top",
+            "id": "7a4d5c44-570e-4e68-84a4-29ac56f68cc6"
+          },
+          {
+            "group": "right",
+            "id": "7c4fc73f-2138-449d-b451-0b865b534833"
+          },
+          {
+            "group": "bottom",
+            "id": "fe956ce7-036b-4706-8ccb-002f7ea1a4f3"
+          },
+          {
+            "group": "left",
+            "id": "2e51dcc2-0be3-45db-b51e-62889bf1ed65"
+          }
+        ]
+      },
+      "id": "e006687f-948f-4361-8baa-5404df0b53b2",
+      "data": {
+        "protoText": "Add 10 \u03bcg of antibody diluted in 200 \u03bcL of Ab Binding and Washing Buffer to the magnetic beads\n"
+      },
+      "type": "textNode",
+      "zIndex": 11
+    },
+    {
+      "position": {
+        "x": 793,
+        "y": 183
+      },
+      "size": {
+        "width": 130,
+        "height": 82
+      },
+      "view": "react-shape-view",
+      "shape": "custom-react-shape",
+      "ports": {
+        "groups": {
+          "top": {
+            "position": "top",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "right": {
+            "position": "right",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "bottom": {
+            "position": "bottom",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "left": {
+            "position": "left",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          }
+        },
+        "items": [
+          {
+            "group": "top",
+            "id": "7a4d5c44-570e-4e68-84a4-29ac56f68cc6"
+          },
+          {
+            "group": "right",
+            "id": "7c4fc73f-2138-449d-b451-0b865b534833"
+          },
+          {
+            "group": "bottom",
+            "id": "fe956ce7-036b-4706-8ccb-002f7ea1a4f3"
+          },
+          {
+            "group": "left",
+            "id": "2e51dcc2-0be3-45db-b51e-62889bf1ed65"
+          }
+        ]
+      },
+      "id": "eeed625f-03ba-425c-ad36-c307d5905b1b",
+      "data": {
+        "protoText": "Incubate with rotation for 30 minutes at room temperature"
+      },
+      "type": "textNode",
+      "zIndex": 12
+    },
+    {
+      "position": {
+        "x": 621,
+        "y": 183
+      },
+      "size": {
+        "width": 130,
+        "height": 82
+      },
+      "view": "react-shape-view",
+      "shape": "custom-react-shape",
+      "ports": {
+        "groups": {
+          "top": {
+            "position": "top",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "right": {
+            "position": "right",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "bottom": {
+            "position": "bottom",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "left": {
+            "position": "left",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          }
+        },
+        "items": [
+          {
+            "group": "top",
+            "id": "7a4d5c44-570e-4e68-84a4-29ac56f68cc6"
+          },
+          {
+            "group": "right",
+            "id": "7c4fc73f-2138-449d-b451-0b865b534833"
+          },
+          {
+            "group": "bottom",
+            "id": "fe956ce7-036b-4706-8ccb-002f7ea1a4f3"
+          },
+          {
+            "group": "left",
+            "id": "2e51dcc2-0be3-45db-b51e-62889bf1ed65"
+          }
+        ]
+      },
+      "id": "fe2767e6-2dd5-452b-80d0-7d50889acbf9",
+      "data": {
+        "protoText": "Place the tube on the magnet and remove the supernatant"
+      },
+      "type": "textNode",
+      "zIndex": 13
+    },
+    {
+      "position": {
+        "x": 471,
+        "y": 209
+      },
+      "size": {
+        "width": 100,
+        "height": 64
+      },
+      "view": "react-shape-view",
+      "shape": "custom-react-shape",
+      "ports": {
+        "groups": {
+          "top": {
+            "position": "top",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "right": {
+            "position": "right",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "bottom": {
+            "position": "bottom",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "left": {
+            "position": "left",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          }
+        },
+        "items": [
+          {
+            "group": "top",
+            "id": "7a4d5c44-570e-4e68-84a4-29ac56f68cc6"
+          },
+          {
+            "group": "right",
+            "id": "7c4fc73f-2138-449d-b451-0b865b534833"
+          },
+          {
+            "group": "bottom",
+            "id": "fe956ce7-036b-4706-8ccb-002f7ea1a4f3"
+          },
+          {
+            "group": "left",
+            "id": "2e51dcc2-0be3-45db-b51e-62889bf1ed65"
+          }
+        ]
+      },
+      "id": "b4b51096-8d6b-4448-8cb0-dabf11b191f1",
+      "data": {
+        "protoText": "Remove the tube from the magnet"
+      },
+      "type": "textNode",
+      "zIndex": 14
+    },
+    {
+      "position": {
+        "x": 246,
+        "y": 183
+      },
+      "size": {
+        "width": 180,
+        "height": 80
+      },
+      "view": "react-shape-view",
+      "shape": "custom-react-shape",
+      "ports": {
+        "groups": {
+          "top": {
+            "position": "top",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "right": {
+            "position": "right",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "bottom": {
+            "position": "bottom",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "left": {
+            "position": "left",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          }
+        },
+        "items": [
+          {
+            "group": "top",
+            "id": "7a4d5c44-570e-4e68-84a4-29ac56f68cc6"
+          },
+          {
+            "group": "right",
+            "id": "7c4fc73f-2138-449d-b451-0b865b534833"
+          },
+          {
+            "group": "bottom",
+            "id": "fe956ce7-036b-4706-8ccb-002f7ea1a4f3"
+          },
+          {
+            "group": "left",
+            "id": "2e51dcc2-0be3-45db-b51e-62889bf1ed65"
+          }
+        ]
+      },
+      "id": "be3404f2-99fa-4980-ac68-46995e32eb06",
+      "data": {
+        "protoText": "resuspend the magnetic bead and antibody complex in\n200 \u03bcL of PBS-T\n"
+      },
+      "type": "textNode",
+      "zIndex": 15
+    },
+    {
+      "position": {
+        "x": 88,
+        "y": 183
+      },
+      "size": {
+        "width": 120,
+        "height": 60
+      },
+      "view": "react-shape-view",
+      "shape": "custom-react-shape",
+      "ports": {
+        "groups": {
+          "top": {
+            "position": "top",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "right": {
+            "position": "right",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "bottom": {
+            "position": "bottom",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "left": {
+            "position": "left",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          }
+        },
+        "items": [
+          {
+            "group": "top",
+            "id": "7a4d5c44-570e-4e68-84a4-29ac56f68cc6"
+          },
+          {
+            "group": "right",
+            "id": "7c4fc73f-2138-449d-b451-0b865b534833"
+          },
+          {
+            "group": "bottom",
+            "id": "fe956ce7-036b-4706-8ccb-002f7ea1a4f3"
+          },
+          {
+            "group": "left",
+            "id": "2e51dcc2-0be3-45db-b51e-62889bf1ed65"
+          }
+        ]
+      },
+      "id": "39dde457-c316-428a-ad5f-ccf323edd404",
+      "data": {
+        "protoText": "Wash by gentle tapping"
+      },
+      "type": "textNode",
+      "zIndex": 16
+    },
+    {
+      "position": {
+        "x": -77,
+        "y": 172
+      },
+      "size": {
+        "width": 130,
+        "height": 82
+      },
+      "view": "react-shape-view",
+      "shape": "custom-react-shape",
+      "ports": {
+        "groups": {
+          "top": {
+            "position": "top",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "right": {
+            "position": "right",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "bottom": {
+            "position": "bottom",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "left": {
+            "position": "left",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          }
+        },
+        "items": [
+          {
+            "group": "top",
+            "id": "7a4d5c44-570e-4e68-84a4-29ac56f68cc6"
+          },
+          {
+            "group": "right",
+            "id": "7c4fc73f-2138-449d-b451-0b865b534833"
+          },
+          {
+            "group": "bottom",
+            "id": "fe956ce7-036b-4706-8ccb-002f7ea1a4f3"
+          },
+          {
+            "group": "left",
+            "id": "2e51dcc2-0be3-45db-b51e-62889bf1ed65"
+          }
+        ]
+      },
+      "id": "c032e4b1-5cbc-460c-9b11-af30b8bff904",
+      "data": {
+        "protoText": "Place the tube on the magnet and remove the supernatant"
+      },
+      "type": "textNode",
+      "zIndex": 17
+    },
+    {
+      "position": {
+        "x": -87,
+        "y": 337
+      },
+      "size": {
+        "width": 160,
+        "height": 100
+      },
+      "view": "react-shape-view",
+      "shape": "custom-react-shape",
+      "ports": {
+        "groups": {
+          "top": {
+            "position": "top",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "right": {
+            "position": "right",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "bottom": {
+            "position": "bottom",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "left": {
+            "position": "left",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          }
+        },
+        "items": [
+          {
+            "group": "top",
+            "id": "7a4d5c44-570e-4e68-84a4-29ac56f68cc6"
+          },
+          {
+            "group": "right",
+            "id": "7c4fc73f-2138-449d-b451-0b865b534833"
+          },
+          {
+            "group": "bottom",
+            "id": "fe956ce7-036b-4706-8ccb-002f7ea1a4f3"
+          },
+          {
+            "group": "left",
+            "id": "2e51dcc2-0be3-45db-b51e-62889bf1ed65"
+          }
+        ]
+      },
+      "id": "08b75d10-5905-4e99-a890-8eeeacb3d890",
+      "data": {
+        "protoText": "Add the cell lysate to the tube and gently tap to resuspend the magnetic bead-Ab complex"
+      },
+      "type": "textNode",
+      "zIndex": 18
+    },
+    {
+      "position": {
+        "x": 130,
+        "y": 346
+      },
+      "size": {
+        "width": 130,
+        "height": 82
+      },
+      "view": "react-shape-view",
+      "shape": "custom-react-shape",
+      "ports": {
+        "groups": {
+          "top": {
+            "position": "top",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "right": {
+            "position": "right",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "bottom": {
+            "position": "bottom",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "left": {
+            "position": "left",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          }
+        },
+        "items": [
+          {
+            "group": "top",
+            "id": "7a4d5c44-570e-4e68-84a4-29ac56f68cc6"
+          },
+          {
+            "group": "right",
+            "id": "7c4fc73f-2138-449d-b451-0b865b534833"
+          },
+          {
+            "group": "bottom",
+            "id": "fe956ce7-036b-4706-8ccb-002f7ea1a4f3"
+          },
+          {
+            "group": "left",
+            "id": "2e51dcc2-0be3-45db-b51e-62889bf1ed65"
+          }
+        ]
+      },
+      "id": "669d86c3-7b18-456a-b209-2b98479e5487",
+      "data": {
+        "protoText": "Incubate with rotation for 60 minutes at room temperature"
+      },
+      "type": "textNode",
+      "zIndex": 19
+    },
+    {
+      "position": {
+        "x": 295,
+        "y": 355
+      },
+      "size": {
+        "width": 100,
+        "height": 64
+      },
+      "view": "react-shape-view",
+      "shape": "custom-react-shape",
+      "ports": {
+        "groups": {
+          "top": {
+            "position": "top",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "right": {
+            "position": "right",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "bottom": {
+            "position": "bottom",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "left": {
+            "position": "left",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          }
+        },
+        "items": [
+          {
+            "group": "top",
+            "id": "7a4d5c44-570e-4e68-84a4-29ac56f68cc6"
+          },
+          {
+            "group": "right",
+            "id": "7c4fc73f-2138-449d-b451-0b865b534833"
+          },
+          {
+            "group": "bottom",
+            "id": "fe956ce7-036b-4706-8ccb-002f7ea1a4f3"
+          },
+          {
+            "group": "left",
+            "id": "2e51dcc2-0be3-45db-b51e-62889bf1ed65"
+          }
+        ]
+      },
+      "id": "8bbb6ade-f41e-4856-9f65-f4261e266de7",
+      "data": {
+        "protoText": "Place the tube on the magnet."
+      },
+      "type": "textNode",
+      "zIndex": 20
+    },
+    {
+      "position": {
+        "x": 441,
+        "y": 337
+      },
+      "size": {
+        "width": 160,
+        "height": 100
+      },
+      "view": "react-shape-view",
+      "shape": "custom-react-shape",
+      "ports": {
+        "groups": {
+          "top": {
+            "position": "top",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "right": {
+            "position": "right",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "bottom": {
+            "position": "bottom",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "left": {
+            "position": "left",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          }
+        },
+        "items": [
+          {
+            "group": "top",
+            "id": "7a4d5c44-570e-4e68-84a4-29ac56f68cc6"
+          },
+          {
+            "group": "right",
+            "id": "7c4fc73f-2138-449d-b451-0b865b534833"
+          },
+          {
+            "group": "bottom",
+            "id": "fe956ce7-036b-4706-8ccb-002f7ea1a4f3"
+          },
+          {
+            "group": "left",
+            "id": "2e51dcc2-0be3-45db-b51e-62889bf1ed65"
+          }
+        ]
+      },
+      "id": "789f7b3e-934a-41ca-b890-7256f4a4a2e4",
+      "data": {
+        "protoText": "Wash the magnetic bead-Ab-Ag complex 3 times using 200 \u03bcL of Washing Buffer for each wash"
+      },
+      "type": "textNode",
+      "zIndex": 21
+    },
+    {
+      "position": {
+        "x": 630,
+        "y": 346
+      },
+      "size": {
+        "width": 200,
+        "height": 100
+      },
+      "view": "react-shape-view",
+      "shape": "custom-react-shape",
+      "ports": {
+        "groups": {
+          "top": {
+            "position": "top",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "right": {
+            "position": "right",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "bottom": {
+            "position": "bottom",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "left": {
+            "position": "left",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          }
+        },
+        "items": [
+          {
+            "group": "top",
+            "id": "7a4d5c44-570e-4e68-84a4-29ac56f68cc6"
+          },
+          {
+            "group": "right",
+            "id": "7c4fc73f-2138-449d-b451-0b865b534833"
+          },
+          {
+            "group": "bottom",
+            "id": "fe956ce7-036b-4706-8ccb-002f7ea1a4f3"
+          },
+          {
+            "group": "left",
+            "id": "2e51dcc2-0be3-45db-b51e-62889bf1ed65"
+          }
+        ]
+      },
+      "id": "fe0d582c-5b65-49a5-94ac-7cd5aa41d289",
+      "data": {
+        "protoText": "Separate on the magnet between each wash, remove supernatant, and resuspend by gentle tapping"
+      },
+      "type": "textNode",
+      "zIndex": 22
+    },
+    {
+      "position": {
+        "x": 869,
+        "y": 346
+      },
+      "size": {
+        "width": 145,
+        "height": 82
+      },
+      "view": "react-shape-view",
+      "shape": "custom-react-shape",
+      "ports": {
+        "groups": {
+          "top": {
+            "position": "top",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "right": {
+            "position": "right",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "bottom": {
+            "position": "bottom",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "left": {
+            "position": "left",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          }
+        },
+        "items": [
+          {
+            "group": "top",
+            "id": "7a4d5c44-570e-4e68-84a4-29ac56f68cc6"
+          },
+          {
+            "group": "right",
+            "id": "7c4fc73f-2138-449d-b451-0b865b534833"
+          },
+          {
+            "group": "bottom",
+            "id": "fe956ce7-036b-4706-8ccb-002f7ea1a4f3"
+          },
+          {
+            "group": "left",
+            "id": "2e51dcc2-0be3-45db-b51e-62889bf1ed65"
+          }
+        ]
+      },
+      "id": "c5657a1f-4562-4f95-a6c6-463d53ee81a4",
+      "data": {
+        "protoText": "Resuspend the magnetic bead-Ab-Ag complex in 100 \u03bcL Washing Buffer"
+      },
+      "type": "textNode",
+      "zIndex": 23
+    },
+    {
+      "position": {
+        "x": 1064,
+        "y": 347
+      },
+      "size": {
+        "width": 160,
+        "height": 80
+      },
+      "view": "react-shape-view",
+      "shape": "custom-react-shape",
+      "ports": {
+        "groups": {
+          "top": {
+            "position": "top",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "right": {
+            "position": "right",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "bottom": {
+            "position": "bottom",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "left": {
+            "position": "left",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          }
+        },
+        "items": [
+          {
+            "group": "top",
+            "id": "7a4d5c44-570e-4e68-84a4-29ac56f68cc6"
+          },
+          {
+            "group": "right",
+            "id": "7c4fc73f-2138-449d-b451-0b865b534833"
+          },
+          {
+            "group": "bottom",
+            "id": "fe956ce7-036b-4706-8ccb-002f7ea1a4f3"
+          },
+          {
+            "group": "left",
+            "id": "2e51dcc2-0be3-45db-b51e-62889bf1ed65"
+          }
+        ]
+      },
+      "id": "4d57950a-3db1-4b83-8523-a5aa3d5a598a",
+      "data": {
+        "protoText": "transfer the bead suspension to a clean tube"
+      },
+      "type": "textNode",
+      "zIndex": 24
+    },
+    {
+      "position": {
+        "x": 1268,
+        "y": 337
+      },
+      "size": {
+        "width": 220,
+        "height": 100
+      },
+      "view": "react-shape-view",
+      "shape": "custom-react-shape",
+      "ports": {
+        "groups": {
+          "top": {
+            "position": "top",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "right": {
+            "position": "right",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "bottom": {
+            "position": "bottom",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "left": {
+            "position": "left",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          }
+        },
+        "items": [
+          {
+            "group": "top",
+            "id": "7a4d5c44-570e-4e68-84a4-29ac56f68cc6"
+          },
+          {
+            "group": "right",
+            "id": "7c4fc73f-2138-449d-b451-0b865b534833"
+          },
+          {
+            "group": "bottom",
+            "id": "fe956ce7-036b-4706-8ccb-002f7ea1a4f3"
+          },
+          {
+            "group": "left",
+            "id": "2e51dcc2-0be3-45db-b51e-62889bf1ed65"
+          }
+        ]
+      },
+      "id": "c091051b-3876-40a3-9192-b940280384db",
+      "data": {
+        "protoText": "Place the tube containing the magnetic bead-Ab-Ag complex on the magnet and remove the supernatant."
+      },
+      "type": "textNode",
+      "zIndex": 25
+    },
+    {
+      "position": {
+        "x": 1302.5,
+        "y": 475
+      },
+      "size": {
+        "width": 160,
+        "height": 100
+      },
+      "view": "react-shape-view",
+      "shape": "custom-react-shape",
+      "ports": {
+        "groups": {
+          "top": {
+            "position": "top",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "right": {
+            "position": "right",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "bottom": {
+            "position": "bottom",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "left": {
+            "position": "left",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          }
+        },
+        "items": [
+          {
+            "group": "top",
+            "id": "7a4d5c44-570e-4e68-84a4-29ac56f68cc6"
+          },
+          {
+            "group": "right",
+            "id": "7c4fc73f-2138-449d-b451-0b865b534833"
+          },
+          {
+            "group": "bottom",
+            "id": "fe956ce7-036b-4706-8ccb-002f7ea1a4f3"
+          },
+          {
+            "group": "left",
+            "id": "2e51dcc2-0be3-45db-b51e-62889bf1ed65"
+          }
+        ]
+      },
+      "id": "d801c6b2-a14a-453f-adac-09c86d3d3f1d",
+      "data": {
+        "protoText": "Add 30 \u03bcL of Elution Buffer and 10 \u03bcL of Sample Buffer Solution (2ME+)(x4) and gently tap"
+      },
+      "type": "textNode",
+      "zIndex": 26
+    },
+    {
+      "position": {
+        "x": 1168,
+        "y": 493
+      },
+      "size": {
+        "width": 85,
+        "height": 64
+      },
+      "view": "react-shape-view",
+      "shape": "custom-react-shape",
+      "ports": {
+        "groups": {
+          "top": {
+            "position": "top",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "right": {
+            "position": "right",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "bottom": {
+            "position": "bottom",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "left": {
+            "position": "left",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          }
+        },
+        "items": [
+          {
+            "group": "top",
+            "id": "7a4d5c44-570e-4e68-84a4-29ac56f68cc6"
+          },
+          {
+            "group": "right",
+            "id": "7c4fc73f-2138-449d-b451-0b865b534833"
+          },
+          {
+            "group": "bottom",
+            "id": "fe956ce7-036b-4706-8ccb-002f7ea1a4f3"
+          },
+          {
+            "group": "left",
+            "id": "2e51dcc2-0be3-45db-b51e-62889bf1ed65"
+          }
+        ]
+      },
+      "id": "cab1ab37-ddf4-456a-bdbc-aacedc251e37",
+      "data": {
+        "protoText": "Heat for 10 min at 70\u00b0C"
+      },
+      "type": "textNode",
+      "zIndex": 27
+    },
+    {
+      "position": {
+        "x": 993,
+        "y": 484
+      },
+      "size": {
+        "width": 130,
+        "height": 82
+      },
+      "view": "react-shape-view",
+      "shape": "custom-react-shape",
+      "ports": {
+        "groups": {
+          "top": {
+            "position": "top",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "right": {
+            "position": "right",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "bottom": {
+            "position": "bottom",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "left": {
+            "position": "left",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#5F95FF",
+                "strokeWidth": 1,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          }
+        },
+        "items": [
+          {
+            "group": "top",
+            "id": "7a4d5c44-570e-4e68-84a4-29ac56f68cc6"
+          },
+          {
+            "group": "right",
+            "id": "7c4fc73f-2138-449d-b451-0b865b534833"
+          },
+          {
+            "group": "bottom",
+            "id": "fe956ce7-036b-4706-8ccb-002f7ea1a4f3"
+          },
+          {
+            "group": "left",
+            "id": "2e51dcc2-0be3-45db-b51e-62889bf1ed65"
+          }
+        ]
+      },
+      "id": "10a5093c-a6ea-4b73-8766-6474647afd33",
+      "data": {
+        "protoText": "Place the tube on the magnet and load the sample onto a gel"
+      },
+      "type": "textNode",
+      "zIndex": 28
+    }
+  ]
+}
