@@ -92,5 +92,5 @@ def convert_json_files(input_folder, output_folder):
 
 # 示例用法
 input_folder = '../data/oldProtocolGraphs'
-output_folder = '../data/protocolGraphs1008'
+output_folder = '../data/protocolGraphs'
 convert_json_files(input_folder, output_folder)

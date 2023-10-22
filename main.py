@@ -13,7 +13,8 @@ from typing import Union
 app = FastAPI()
 
 protocols_list_dir = "./data/protocols"
-graphs_dir = "./data/protocolGraphs1008"
+graphs_dir = "./data/protocolGraphs"
+isa_json_path = "./data/human_modified_isa/human-modified-isa.json"
 
 
 @app.get("/")
@@ -107,14 +108,31 @@ async def upload_and_convert_json(
             "edges": []
         }
 
+        # 从 isa_json_path 中提取所有 keys 组成 isa_instruction_words
+        with open(isa_json_path, 'r') as file:
+            isa_data = json.load(file)
+        isa_instruction_words = []
+        for key in isa_data.keys():
+            isa_instruction_words.append(key)
+
+        print("isa_instruction_words", isa_instruction_words)
+
         # 处理节点
         for cell in uploaded_data['cells']:
             if cell['shape'] == 'custom-react-shape':
+                # 将 cell['data']['protoText'] 的首单词与 isa_instruction_words 中的单词逐个进行匹配，匹配成功则将 node_instruction 设置为该单词，否则设置为 ADD
+                node_instruction = "ADD"    # 默认值
+                first_word = cell['data']['protoText'].split()[0].lower()
+                for word in isa_instruction_words:
+                    if first_word == word.lower():
+                        node_instruction = word.upper()
+                        break
+
                 try:
                     node = {
                         "id": cell['id'],
                         "text": cell['data']['protoText'],
-                        "instruction": "ADD",
+                        "instruction": node_instruction,
                         "slots": [{
                             "key": "it's a slot key",
                             "value": "it's a slot value",
@@ -127,7 +145,7 @@ async def upload_and_convert_json(
                     node = {
                         "id": cell['id'],
                         "text": "node",
-                        "instruction": "ADD",
+                        "instruction": node_instruction,
                         "slots": [{
                             "key": "it's a slot key",
                             "value": "it's a slot value",
@@ -180,6 +198,7 @@ async def upload_and_convert_json(
         with open(output_path, 'w') as outfile:
             json.dump(result, outfile, indent=2)
 
+        print("message: 文件上传和处理成功")
         return {"message": "文件上传和处理成功"}
     except Exception as e:
         return {"error": str(e)}
@@ -281,6 +300,7 @@ async def add_attr(
         # 创建新的属性
         new_attr = {
             "key": key,
+            "node_id": node_id,
             "value": value,
             "id": new_id,
         }
