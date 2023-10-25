@@ -1,0 +1,161 @@
+[
+    {
+        "sentence": "\nPO activity was measured as described<sup>1</sup>, with modifications.",
+        "result": [
+            {
+                "MEASURE": {
+                    "emit": [
+                        {
+                            "data0": "<blank>"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "reagent1": "<blank>"
+                        },
+                        {
+                            "parameter": "PO activity"
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "title": "1.",
+        "body": [
+            {
+                "sentence": "Incubate purified hemocyanin with proteases in 50 mM Tris-HCl, pH 8.3, containing 0.05 M NaCl, at 20 &#x2DA;C for 10 min.",
+                "result": [
+                    {
+                        "INCUBATE": {
+                            "emit": [
+                                {
+                                    "reagent0": "hemocyanin with proteases"
+                                }
+                            ],
+                            "slot": [
+                                {
+                                    "reagent1": "purified hemocyanin"
+                                },
+                                {
+                                    "reagent2": "proteases"
+                                },
+                                {
+                                    "temperature": "20 &#x2DA;C"
+                                },
+                                {
+                                    "time": "10 min"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "2.",
+        "body": [
+            {
+                "sentence": "Add PAMPs \\(pathogen-associated molecular patterns eg: LPS or LTA) dissolved in the same buffer.",
+                "result": [
+                    {
+                        "ADD": {
+                            "emit": [],
+                            "slot": [
+                                {
+                                    "reagent2": "PAMPs (pathogen-associated molecular patterns eg: LPS or LTA)"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "3.",
+        "body": [
+            {
+                "sentence": "Then add 1 mM 4ME in 0.1 M potassium phosphate, pH 6.0.",
+                "result": [
+                    {
+                        "ADD": {
+                            "emit": [
+                                {
+                                    "reagent0": "1 mM 4ME in 0.1 M potassium phosphate, pH 6.0"
+                                }
+                            ],
+                            "slot": [
+                                {
+                                    "reagent1": "0.1 M potassium phosphate, pH 6.0"
+                                },
+                                {
+                                    "reagent2": "1 mM 4ME"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "4.",
+        "body": [
+            {
+                "sentence": "Immediately after the addition of the substrate, continuously monitor the absorbance at 405 nm using a microplate reader \\(Molecular Devices, USA).",
+                "result": [
+                    {
+                        "ADD": {
+                            "emit": [],
+                            "slot": [
+                                {
+                                    "reagent2": "microplate reader (Molecular Devices, USA)"
+                                },
+                                {
+                                    "notice": "continuously monitor the absorbance at 405 nm"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "MONITOR": {
+                            "emit": [],
+                            "slot": [
+                                {
+                                    "reagent1": "substrate"
+                                },
+                                {
+                                    "attribute": "absorbance"
+                                },
+                                {
+                                    "method": "continuous monitoring"
+                                },
+                                {
+                                    "environment": "405 nm"
+                                },
+                                {
+                                    "equipment": "microplate reader (Molecular Devices, USA)"
+                                },
+                                {
+                                    "notice": ""
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "5.",
+        "body": [
+            {
+                "sentence": "The PO activity is presented as A405 at 5 min after the addition of substrate.",
+                "result": []
+            }
+        ]
+    }
+]

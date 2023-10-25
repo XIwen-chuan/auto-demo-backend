@@ -1,0 +1,603 @@
+[
+    {
+        "title": "1.",
+        "body": [
+            {
+                "sentence": "Incubate aliquots of 100 &#x3BC;l LPS or LTA which is resuspended in 0.01 M pH 7.4 PBS in a 96-well microtitre plate \\(Maxisorp&#xAE;, NUNC, Denmark) at room temperature overnight.",
+                "result": [
+                    {
+                        "INCUBATE": {
+                            "emit": [
+                                {
+                                    "reagent0": "100 \u03bcl LPS or LTA"
+                                }
+                            ],
+                            "slot": [
+                                {
+                                    "reagent1": "100 \u03bcl LPS or LTA"
+                                },
+                                {
+                                    "temperature": "room temperature"
+                                },
+                                {
+                                    "time": "overnight"
+                                },
+                                {
+                                    "device": "96-well microtitre plate (Maxisorp\u00ae, NUNC, Denmark)"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "2.",
+        "body": [
+            {
+                "sentence": "Rinse the wells three times with 300 &#x3BC;l of PBS each.",
+                "result": [
+                    {
+                        "RINSE": {
+                            "emit": [
+                                {
+                                    "reagent0": "wells"
+                                }
+                            ],
+                            "slot": [
+                                {
+                                    "reagent1": "wells"
+                                },
+                                {
+                                    "reagent2": "PBS"
+                                },
+                                {
+                                    "repeat": "3"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "3.",
+        "body": [
+            {
+                "sentence": "Block the wells with 150 &#x3BC;l of PBS with 2% \\(w/v) BSA at 37 &#xB0;C for 2 h.",
+                "result": [
+                    {
+                        "BLOCK": {
+                            "emit": [
+                                {
+                                    "reagent0": "wells"
+                                }
+                            ],
+                            "slot": [
+                                {
+                                    "reagent1": "wells"
+                                },
+                                {
+                                    "reagent2": "PBS with 2% (w/v) BSA"
+                                },
+                                {
+                                    "temperature": "37 \u00b0C"
+                                },
+                                {
+                                    "time": "2 h"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "4.",
+        "body": [
+            {
+                "sentence": "Rinse the wells three times with 300 &#x3BC;l of PBS each.",
+                "result": [
+                    {
+                        "RINSE": {
+                            "emit": [
+                                {
+                                    "reagent0": "wells"
+                                }
+                            ],
+                            "slot": [
+                                {
+                                    "reagent1": "wells"
+                                },
+                                {
+                                    "reagent2": "PBS"
+                                },
+                                {
+                                    "repeat": "3"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "5.",
+        "body": [
+            {
+                "sentence": "Add to each well, 100 &#x3BC;l of the serially diluted protein \\(HMC or Hb in 2% BSA) in PBST \\(PBS containing 0.05% v/v Tween",
+                "result": [
+                    {
+                        "ADD": {
+                            "emit": [
+                                {
+                                    "reagent0": "100 \u03bcl LPS or LTA"
+                                }
+                            ],
+                            "slot": [
+                                {
+                                    "reagent2": "serially diluted protein (HMC or Hb in 2% BSA) in PBST (PBS containing 0.05% v/v Tween)"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            },
+            {
+                "title": "20)",
+                "body": [
+                    {
+                        "sentence": "and incubate at 37&#xB0;C for 1 h.",
+                        "result": [
+                            {
+                                "INCUBATE": {
+                                    "emit": [
+                                        {
+                                            "reagent0": "100 \u03bcl LPS or LTA"
+                                        }
+                                    ],
+                                    "slot": [
+                                        {
+                                            "reagent1": "100 \u03bcl LPS or LTA"
+                                        },
+                                        {
+                                            "temperature": "37\u00b0C"
+                                        },
+                                        {
+                                            "time": "1 h"
+                                        }
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "6.",
+        "body": [
+            {
+                "sentence": "Rinse the wells three times with 300 &#x3BC;l of PBST each.",
+                "result": [
+                    {
+                        "RINSE": {
+                            "emit": [
+                                {
+                                    "reagent0": "wells"
+                                }
+                            ],
+                            "slot": [
+                                {
+                                    "reagent1": "wells"
+                                },
+                                {
+                                    "reagent2": "PBST"
+                                },
+                                {
+                                    "repeat": "3"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "7.",
+        "body": [
+            {
+                "sentence": "Add to each well, 100 &#x3BC;l of primary antibody \\(rabbit-anti HMC or rabbit-anti Hb), which is diluted to 1:500 with 2% BSA in PBST and further incubate at 37 &#xB0;C for 30 min.",
+                "result": [
+                    {
+                        "ADD": {
+                            "emit": [
+                                {
+                                    "reagent0": "primary antibody"
+                                }
+                            ],
+                            "slot": [
+                                {
+                                    "reagent1": "primary antibody"
+                                },
+                                {
+                                    "reagent2": "rabbit-anti HMC or rabbit-anti Hb"
+                                },
+                                {
+                                    "ratio": "1:500"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "INCUBATE": {
+                            "emit": [
+                                {
+                                    "reagent0": "primary antibody"
+                                }
+                            ],
+                            "slot": [
+                                {
+                                    "reagent1": "primary antibody"
+                                },
+                                {
+                                    "temperature": "37 \u00b0C"
+                                },
+                                {
+                                    "time": "30 min"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "8.",
+        "body": [
+            {
+                "sentence": "Rinse the wells three times with 300 &#x3BC;l of PBST each.",
+                "result": [
+                    {
+                        "RINSE": {
+                            "emit": [
+                                {
+                                    "reagent0": "wells"
+                                }
+                            ],
+                            "slot": [
+                                {
+                                    "reagent1": "wells"
+                                },
+                                {
+                                    "reagent2": "PBST"
+                                },
+                                {
+                                    "repeat": "3"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "9.",
+        "body": [
+            {
+                "sentence": "Add to each well, 100 &#x3BC;l of the horseradish peroxidase-conjugated goat-anti-rabbit antibody \\(DAKO, Japan), which is diluted to 1:1000 in 2% BSA in PBST, and incubate at 37 &#xB0;C for 30 min.",
+                "result": [
+                    {
+                        "ADD": {
+                            "emit": [
+                                {
+                                    "reagent0": "horseradish peroxidase-conjugated goat-anti-rabbit antibody (DAKO, Japan)"
+                                }
+                            ],
+                            "slot": [
+                                {
+                                    "reagent2": "horseradish peroxidase-conjugated goat-anti-rabbit antibody (DAKO, Japan)"
+                                },
+                                {
+                                    "ratio": "1:1000"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "INCUBATE": {
+                            "emit": [
+                                {
+                                    "reagent0": "horseradish peroxidase-conjugated goat-anti-rabbit antibody (DAKO, Japan)"
+                                }
+                            ],
+                            "slot": [
+                                {
+                                    "reagent1": "horseradish peroxidase-conjugated goat-anti-rabbit antibody (DAKO, Japan)"
+                                },
+                                {
+                                    "temperature": "37 \u00b0C"
+                                },
+                                {
+                                    "time": "30 min"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "10.",
+        "body": [
+            {
+                "sentence": "Rinse the wells three times with 300 &#x3BC;l of PBST each.",
+                "result": [
+                    {
+                        "RINSE": {
+                            "emit": [
+                                {
+                                    "reagent0": "wells"
+                                }
+                            ],
+                            "slot": [
+                                {
+                                    "reagent1": "wells"
+                                },
+                                {
+                                    "reagent2": "PBST"
+                                },
+                                {
+                                    "repeat": "3"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "11.",
+        "body": [
+            {
+                "sentence": "Immediately before using, dissolve peroxidase substrate tablet \\(ABTS, 2,2&#x2019;-azino-bis\\[3-ethylbenzthiazoline-6-sulfonic acid], Roche) in substrate solution \\(Roche) as indicated by the manufacturer&#x2019;s manual.",
+                "result": [
+                    {
+                        "DISSOLVE": {
+                            "emit": [
+                                {
+                                    "reagent0": "ABTS, 2,2'-azino-bis[3-ethylbenzthiazoline-6-sulfonic acid], Roche"
+                                }
+                            ],
+                            "slot": [
+                                {
+                                    "reagent1": "ABTS, 2,2'-azino-bis[3-ethylbenzthiazoline-6-sulfonic acid], Roche"
+                                },
+                                {
+                                    "reagent2": "substrate solution, Roche"
+                                },
+                                {
+                                    "targetConcentration": "as indicated by the manufacturer's manual"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "12.",
+        "body": [
+            {
+                "sentence": "Add to each well, 50 &#x3BC;l of the peroxidase substrate and incubate for 10 min at room temperature.",
+                "result": [
+                    {
+                        "ADD": {
+                            "emit": [
+                                {
+                                    "reagent0": "peroxidase substrate"
+                                }
+                            ],
+                            "slot": [
+                                {
+                                    "reagent1": "wells"
+                                },
+                                {
+                                    "reagent2": "peroxidase substrate"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "INCUBATE": {
+                            "emit": [
+                                {
+                                    "reagent0": "peroxidase substrate"
+                                }
+                            ],
+                            "slot": [
+                                {
+                                    "reagent1": "peroxidase substrate"
+                                },
+                                {
+                                    "temperature": "room temperature"
+                                },
+                                {
+                                    "time": "10 min"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "13.",
+        "body": [
+            {
+                "sentence": "Read the OD at 405 nm.",
+                "result": [
+                    {
+                        "READ": {
+                            "emit": [
+                                {
+                                    "data0": "OD at 405 nm"
+                                }
+                            ],
+                            "slot": [
+                                {
+                                    "device": "OD reader"
+                                },
+                                {
+                                    "data1": "OD at 405 nm"
+                                },
+                                {
+                                    "parameter": "405 nm"
+                                },
+                                {
+                                    "method": "spectrophotometry"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "14.",
+        "body": [
+            {
+                "sentence": "To verify the specificity of the protein-PAMP interaction observed in the ELISA, further examine whether or not pre-incubation of HMC or Hb with LPS or LTA could reduce the ELISA-readout in a dose-dependent manner.",
+                "result": []
+            },
+            {
+                "title": "a)",
+                "body": [
+                    {
+                        "sentence": "Choose a concentration of either HMC or Hb that shows an ELISA-readout\\(A405)at the linear range.",
+                        "result": []
+                    }
+                ]
+            },
+            {
+                "title": "b)",
+                "body": [
+                    {
+                        "sentence": "Incubate the HMC or Hb with 0-200 &#x3BC;g/ml LPS or LTA in 2% BSA in PBST at 37 &#xB0;C for 1 h.",
+                        "result": [
+                            {
+                                "INCUBATE": {
+                                    "emit": [
+                                        {
+                                            "reagent0": "HMC or Hb"
+                                        }
+                                    ],
+                                    "slot": [
+                                        {
+                                            "reagent1": "HMC or Hb"
+                                        },
+                                        {
+                                            "reagent2": "0-200 \u03bcg/ml LPS or LTA"
+                                        },
+                                        {
+                                            "temperature": "37 \u00b0C"
+                                        },
+                                        {
+                                            "time": "1 h"
+                                        }
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "c)",
+                "body": [
+                    {
+                        "sentence": "Then transfer the reaction mixture to the LPS- or LTA- immobilized microtitre plate.",
+                        "result": [
+                            {
+                                "TRANSFER": {
+                                    "emit": [],
+                                    "slot": [
+                                        {
+                                            "source": "reaction mixture"
+                                        },
+                                        {
+                                            "destination": "LPS- or LTA- immobilized microtitre plate"
+                                        },
+                                        {
+                                            "reagent1": "reaction mixture"
+                                        }
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "d)",
+                "body": [
+                    {
+                        "sentence": "Conduct the ELISA as described in steps 5-13.",
+                        "result": [
+                            {
+                                "PERFORM": {
+                                    "emit": [],
+                                    "slot": [
+                                        {
+                                            "procedure": "ELISA"
+                                        }
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "e)",
+                "body": [
+                    {
+                        "sentence": "The reduction of the readout of HMC or Hb pre-incubated with LPS or LTA respectively, demonstrates the specificity of the protein-PAMP interaction.",
+                        "result": [
+                            {
+                                "REDUCE": {
+                                    "emit": [
+                                        {
+                                            "reagent0": "HMC or Hb"
+                                        }
+                                    ],
+                                    "slot": [
+                                        {
+                                            "reagent1": "HMC or Hb"
+                                        },
+                                        {
+                                            "reagent2": "LPS or LTA"
+                                        }
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+]

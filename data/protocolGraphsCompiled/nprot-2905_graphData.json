@@ -1,0 +1,216 @@
+{
+  "name": "nprot-2905_graphData.json",
+  "nodes": [
+    {
+      "id": "ccbd8043-c73d-46e0-830e-acb7c341ddfe",
+      "text": "Activation of polystyrene surface\r\n  \r\n\n\nThe wells of a polystyrene plate were activated by coating with FNAB followed by photoactivation by UV light for 15 min at a wavelength of 365 nm as described \\(4).      \r\n\n\n\r\n\n\nCRITICAL   We have decreased UV exposure time for activation of microtiter plate from 20 minutes to 15 minutes without any significant difference in results.",
+      "instruction": "COAT",
+      "slots": [
+        {
+          "key": "reagent1",
+          "value": "polystyrene plate",
+          "id": "8b4dbc7d-ecc2-41a1-b4c2-8e0b0e98fb9e",
+          "node_id": "ccbd8043-c73d-46e0-830e-acb7c341ddfe"
+        },
+        {
+          "key": "reagent2",
+          "value": "FNAB",
+          "id": "9daa48d8-ded4-4c26-a978-502ec0fb8350",
+          "node_id": "ccbd8043-c73d-46e0-830e-acb7c341ddfe"
+        },
+        {
+          "key": "time",
+          "value": "15 min",
+          "id": "19632f7f-7bb1-4168-9225-286d915d6272",
+          "node_id": "ccbd8043-c73d-46e0-830e-acb7c341ddfe"
+        },
+        {
+          "key": "device",
+          "value": "UV light",
+          "id": "6d9c1247-17f8-42b2-b889-6ed6d9381ea7",
+          "node_id": "ccbd8043-c73d-46e0-830e-acb7c341ddfe"
+        }
+      ],
+      "emits": [
+        {
+          "key": "reagent0",
+          "value": "polystyrene plate",
+          "id": "d06b4450-11fb-422e-a7b2-ee999b2a9869",
+          "node_id": "ccbd8043-c73d-46e0-830e-acb7c341ddfe"
+        }
+      ]
+    },
+    {
+      "id": "d8934cd3-b374-4bc4-a45c-20b060f2c3a1",
+      "text": "Activation of polystyrene surface\r\n  \r\n\n\nThe wells of a polystyrene plate were activated by coating with FNAB followed by photoactivation by UV light for 15 min at a wavelength of 365 nm as described \\(4).      \r\n\n\n\r\n\n\nCRITICAL   We have decreased UV exposure time for activation of microtiter plate from 20 minutes to 15 minutes without any significant difference in results.",
+      "instruction": "EXPOSE",
+      "slots": [
+        {
+          "key": "reagent1",
+          "value": "polystyrene plate",
+          "id": "76b3c482-2a24-44af-bc42-b7f4a820ff3b",
+          "node_id": "d8934cd3-b374-4bc4-a45c-20b060f2c3a1"
+        },
+        {
+          "key": "method",
+          "value": "UV light",
+          "id": "5c3c2c37-0ccf-4fde-8484-ec27b5bd6c52",
+          "node_id": "d8934cd3-b374-4bc4-a45c-20b060f2c3a1"
+        },
+        {
+          "key": "time",
+          "value": "15 min",
+          "id": "53a31c1c-3427-4a7d-af3b-05aabd7f2a63",
+          "node_id": "d8934cd3-b374-4bc4-a45c-20b060f2c3a1"
+        },
+        {
+          "key": "intensity",
+          "value": "<blank>",
+          "id": "bcdcef4f-d964-423f-a599-2e819c212220",
+          "node_id": "d8934cd3-b374-4bc4-a45c-20b060f2c3a1"
+        },
+        {
+          "key": "device",
+          "value": "365 nm",
+          "id": "92350517-368d-469c-826a-35a1ff54e1a8",
+          "node_id": "d8934cd3-b374-4bc4-a45c-20b060f2c3a1"
+        },
+        {
+          "key": "notice",
+          "value": "<blank>",
+          "id": "366c5b2a-46c3-4e6e-bfaa-cef118e19bd9",
+          "node_id": "d8934cd3-b374-4bc4-a45c-20b060f2c3a1"
+        }
+      ],
+      "emits": [
+        {
+          "key": "reagent0",
+          "value": "polystyrene plate",
+          "id": "5e99f225-29da-48f4-84df-9fb9760f5cec",
+          "node_id": "d8934cd3-b374-4bc4-a45c-20b060f2c3a1"
+        }
+      ]
+    },
+    {
+      "id": "b1473687-1e29-4b46-8090-a477d4de8d06",
+      "text": "Detection of analyte\r\n\n\n\r\n\n\nIn activated and untreated polystyrene plates  analyte \\( human IgG, human IgE) was detected by immobilizing capture molecule \\(anti-human IgG, anti-human IgE) onto the activated and untreated polystyrene plates followed by blocking , binding  of analyte  and secondary antibody-conjugate. The plates were washed after each step. Color development was carried out by adding  substrate- dye buffer and then stopped by adding 20 \u00b5l of 5% Sulfuric acid  and absorbance was recorded  at 490 nm.",
+      "instruction": "BLOCK",
+      "slots": [
+        {
+          "key": "reagent1",
+          "value": "polystyrene plate",
+          "id": "5e2233c1-5fd6-4223-a8b3-e1b5d6fa640e",
+          "node_id": "b1473687-1e29-4b46-8090-a477d4de8d06"
+        },
+        {
+          "key": "reagent2",
+          "value": "blocking solution",
+          "id": "4dfa085b-6653-4789-a408-27b4227d68cd",
+          "node_id": "b1473687-1e29-4b46-8090-a477d4de8d06"
+        },
+        {
+          "key": "temperature",
+          "value": "room temperature",
+          "id": "2ba1f66e-8363-4e75-a502-2de19d2623c1",
+          "node_id": "b1473687-1e29-4b46-8090-a477d4de8d06"
+        },
+        {
+          "key": "time",
+          "value": "1 hour",
+          "id": "609766c9-49fc-46cc-a7d4-ecd2ae96620d",
+          "node_id": "b1473687-1e29-4b46-8090-a477d4de8d06"
+        }
+      ],
+      "emits": [
+        {
+          "key": "reagent0",
+          "value": "polystyrene plate",
+          "id": "8733b9cf-ab11-4a28-ace3-89e3471b08ad",
+          "node_id": "b1473687-1e29-4b46-8090-a477d4de8d06"
+        }
+      ]
+    },
+    {
+      "id": "6275e23f-73af-4243-8529-b2d146c3915e",
+      "text": "Detection of analyte\r\n\n\n\r\n\n\nIn activated and untreated polystyrene plates  analyte \\( human IgG, human IgE) was detected by immobilizing capture molecule \\(anti-human IgG, anti-human IgE) onto the activated and untreated polystyrene plates followed by blocking , binding  of analyte  and secondary antibody-conjugate. The plates were washed after each step. Color development was carried out by adding  substrate- dye buffer and then stopped by adding 20 \u00b5l of 5% Sulfuric acid  and absorbance was recorded  at 490 nm.",
+      "instruction": "WASH",
+      "slots": [
+        {
+          "key": "reagent1",
+          "value": "polystyrene plate",
+          "id": "c374eeb1-1422-4540-8f7f-98582635f0ef",
+          "node_id": "6275e23f-73af-4243-8529-b2d146c3915e"
+        },
+        {
+          "key": "reagent2",
+          "value": "water",
+          "id": "da2d810a-98c3-4111-b956-c2e6820a105a",
+          "node_id": "6275e23f-73af-4243-8529-b2d146c3915e"
+        },
+        {
+          "key": "repeat",
+          "value": "1",
+          "id": "83eba9a6-d39a-4710-b7f9-0755e6296643",
+          "node_id": "6275e23f-73af-4243-8529-b2d146c3915e"
+        }
+      ],
+      "emits": [
+        {
+          "key": "reagent0",
+          "value": "polystyrene plate",
+          "id": "f21f0655-2e57-4412-80eb-b31780dbae27",
+          "node_id": "6275e23f-73af-4243-8529-b2d146c3915e"
+        }
+      ]
+    },
+    {
+      "id": "fa07fad2-aaf0-4a3b-a555-469d7d35604b",
+      "text": "Detection of analyte\r\n\n\n\r\n\n\nIn activated and untreated polystyrene plates  analyte \\( human IgG, human IgE) was detected by immobilizing capture molecule \\(anti-human IgG, anti-human IgE) onto the activated and untreated polystyrene plates followed by blocking , binding  of analyte  and secondary antibody-conjugate. The plates were washed after each step. Color development was carried out by adding  substrate- dye buffer and then stopped by adding 20 \u00b5l of 5% Sulfuric acid  and absorbance was recorded  at 490 nm.",
+      "instruction": "ADD",
+      "slots": [
+        {
+          "key": "reagent1",
+          "value": "activated and untreated polystyrene plates",
+          "id": "49d4e2b8-0678-4c2a-8cf4-7e68f00ea95a",
+          "node_id": "fa07fad2-aaf0-4a3b-a555-469d7d35604b"
+        },
+        {
+          "key": "reagent2",
+          "value": "substrate-dye buffer",
+          "id": "a26eff7d-f870-4f3e-8252-7a2ab28cf1f0",
+          "node_id": "fa07fad2-aaf0-4a3b-a555-469d7d35604b"
+        }
+      ],
+      "emits": [
+        {
+          "key": "reagent0",
+          "value": "activated and untreated polystyrene plates",
+          "id": "e8f1e9d7-0cd5-45f1-95c2-1e9f5e1dcd7d",
+          "node_id": "fa07fad2-aaf0-4a3b-a555-469d7d35604b"
+        }
+      ]
+    },
+    {
+      "id": "cf081f3b-bb6d-464b-9e1f-b93e4066598b",
+      "text": "Detection of analyte\r\n\n\n\r\n\n\nIn activated and untreated polystyrene plates  analyte \\( human IgG, human IgE) was detected by immobilizing capture molecule \\(anti-human IgG, anti-human IgE) onto the activated and untreated polystyrene plates followed by blocking , binding  of analyte  and secondary antibody-conjugate. The plates were washed after each step. Color development was carried out by adding  substrate- dye buffer and then stopped by adding 20 \u00b5l of 5% Sulfuric acid  and absorbance was recorded  at 490 nm.",
+      "instruction": "RECORD",
+      "slots": [
+        {
+          "key": "information",
+          "value": "absorbance at 490 nm",
+          "id": "2860eaf9-b002-4e01-a942-0bbc63e08541",
+          "node_id": "cf081f3b-bb6d-464b-9e1f-b93e4066598b"
+        }
+      ],
+      "emits": [
+        {
+          "key": "data",
+          "value": "absorbance at 490 nm",
+          "id": "402b58e7-f560-4512-af13-b8023b190666",
+          "node_id": "cf081f3b-bb6d-464b-9e1f-b93e4066598b"
+        }
+      ]
+    }
+  ],
+  "edges": []
+}

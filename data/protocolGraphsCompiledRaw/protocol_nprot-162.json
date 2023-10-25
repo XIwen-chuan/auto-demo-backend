@@ -1,0 +1,673 @@
+[
+    {
+        "title": "**Transformation**",
+        "body": [
+            ""
+        ]
+    },
+    {
+        "title": "**1**",
+        "body": [
+            {
+                "sentence": "Inoculate 10 ml of YPAD medium with a single Y190 colony and incubate overnight at 30 &#x2DA;C. 55 ml of fresh YPAD are then cultured overnight to an OD<sub>600</sub> of 0.3. Cells are then incubated by shaking at 200 RPM and 30 &#x2DA;C until they reach an OD<sub>600</sub> of 0.7.",
+                "result": [
+                    {
+                        "INOCULATE": {
+                            "emit": [
+                                {
+                                    "reagent0": "YPAD medium"
+                                }
+                            ],
+                            "slot": [
+                                {
+                                    "reagent1": "Y190 colony"
+                                },
+                                {
+                                    "reagent2": "YPAD medium"
+                                },
+                                {
+                                    "notice": "Incubate overnight at 30 \u00b0C."
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "INCUBATE": {
+                            "emit": [
+                                {
+                                    "reagent0": "YPAD medium"
+                                }
+                            ],
+                            "slot": [
+                                {
+                                    "reagent1": "YPAD medium"
+                                },
+                                {
+                                    "temperature": "30 \u00b0C"
+                                },
+                                {
+                                    "time": "overnight"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "INCUBATE": {
+                            "emit": [],
+                            "slot": [
+                                {
+                                    "reagent1": "YPAD medium"
+                                },
+                                {
+                                    "temperature": "30 \u00b0C"
+                                },
+                                {
+                                    "device": "shaker"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "**2**",
+        "body": [
+            {
+                "sentence": "Harvest cells at 2000 RPM for 5 min at room temperature.",
+                "result": [
+                    {
+                        "HARVEST": {
+                            "emit": [
+                                {
+                                    "reagent0": "cells"
+                                }
+                            ],
+                            "slot": [
+                                {
+                                    "reagent1": "cells"
+                                },
+                                {
+                                    "container": "tube"
+                                },
+                                {
+                                    "method": "centrifugation"
+                                },
+                                {
+                                    "environment": "room temperature"
+                                },
+                                {
+                                    "purpose": "cell collection"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "**3**",
+        "body": [
+            {
+                "sentence": "Aspirate the media, wash cells in sterile water, and spin at 2000 RPM at 25 &#x2dA;C for 5 min.",
+                "result": [
+                    {
+                        "ASPIRATE": {
+                            "emit": [
+                                {
+                                    "reagent0": "media"
+                                }
+                            ],
+                            "slot": [
+                                {
+                                    "reagent1": "media"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "WASH": {
+                            "emit": [
+                                {
+                                    "reagent0": "cells"
+                                }
+                            ],
+                            "slot": [
+                                {
+                                    "reagent1": "cells"
+                                },
+                                {
+                                    "reagent2": "sterile water"
+                                },
+                                {
+                                    "repeat": "1"
+                                },
+                                {
+                                    "time": "5 min"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "SPIN": {
+                            "emit": [
+                                {
+                                    "reagent0": "cells"
+                                }
+                            ],
+                            "slot": [
+                                {
+                                    "reagent1": "media"
+                                },
+                                {
+                                    "intensity": "2000 RPM"
+                                },
+                                {
+                                    "time": "5 min"
+                                },
+                                {
+                                    "temperature": "25 \u00b0C"
+                                },
+                                {
+                                    "device": "centrifuge"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "**4**",
+        "body": [
+            {
+                "sentence": "Aspirate water and resuspend cells in 1 ml of 0.1 M LiAc and transfer suspension to a fresh microfuge tube. Pellet cells at 6000 RPM for 15 s and aspirate the supernatant. Next, resuspend the pellet in 500 &#x3BC;l of 100 mM LiAc.",
+                "result": [
+                    {
+                        "ASPIRATE": {
+                            "emit": [],
+                            "slot": [
+                                {
+                                    "reagent1": "water"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "RESUSPEND": {
+                            "emit": [
+                                {
+                                    "reagent0": "cells"
+                                }
+                            ],
+                            "slot": [
+                                {
+                                    "reagent1": "cells"
+                                },
+                                {
+                                    "reagent2": "0.1 M LiAc"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "TRANSFER": {
+                            "emit": [
+                                {
+                                    "reagent0": "cells"
+                                }
+                            ],
+                            "slot": [
+                                {
+                                    "source": "water"
+                                },
+                                {
+                                    "destination": "fresh microfuge tube"
+                                },
+                                {
+                                    "reagent1": "cells"
+                                },
+                                {
+                                    "volume": "1 ml"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "PELLET": {
+                            "emit": [
+                                {
+                                    "reagent0": "cells"
+                                }
+                            ],
+                            "slot": [
+                                {
+                                    "reagent1": "cells"
+                                },
+                                {
+                                    "intensity": "6000 RPM"
+                                },
+                                {
+                                    "time": "15 s"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "ASPIRATE": {
+                            "emit": [
+                                {
+                                    "reagent0": "media"
+                                }
+                            ],
+                            "slot": [
+                                {
+                                    "reagent1": "water"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "RESUSPEND": {
+                            "emit": [
+                                {
+                                    "reagent0": "cells"
+                                }
+                            ],
+                            "slot": [
+                                {
+                                    "reagent1": "cells"
+                                },
+                                {
+                                    "reagent2": "0.1 M LiAc"
+                                },
+                                {
+                                    "device": "microfuge tube"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "**5**",
+        "body": [
+            {
+                "sentence": "Boil a 1 ml sample of ssDNA \\(2.0 mg/ml) and chill on ice. Mix the yeast cell suspension and transfer 50 &#x3BC;l samples into fresh tubes for the interactions to be tested.",
+                "result": [
+                    {
+                        "BOIL": {
+                            "emit": [
+                                {
+                                    "reagent0": "1 ml sample of ssDNA (2.0 mg/ml)"
+                                }
+                            ],
+                            "slot": [
+                                {
+                                    "reagent1": "1 ml sample of ssDNA (2.0 mg/ml)"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "MIX": {
+                            "emit": [
+                                {
+                                    "reagent0": "yeast cell suspension"
+                                }
+                            ],
+                            "slot": [
+                                {
+                                    "reagent1": "yeast cell suspension"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "TRANSFER": {
+                            "emit": [],
+                            "slot": [
+                                {
+                                    "source": "1 ml sample of ssDNA (2.0 mg/ml)"
+                                },
+                                {
+                                    "destination": "fresh tubes"
+                                },
+                                {
+                                    "reagent1": "yeast cell suspension"
+                                },
+                                {
+                                    "volume": "50 \u03bcl"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "**6**",
+        "body": [
+            {
+                "sentence": "Pellet cells at 6000 RPM and aspirate supernatant.",
+                "result": [
+                    {
+                        "PELLET": {
+                            "emit": [
+                                {
+                                    "reagent0": "cells"
+                                }
+                            ],
+                            "slot": [
+                                {
+                                    "reagent1": "cells"
+                                },
+                                {
+                                    "intensity": "<blank>"
+                                },
+                                {
+                                    "time": "<blank>"
+                                },
+                                {
+                                    "temperature": "<blank>"
+                                },
+                                {
+                                    "device": "6000 RPM"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "ASPIRATE": {
+                            "emit": [
+                                {
+                                    "reagent0": "media"
+                                }
+                            ],
+                            "slot": [
+                                {
+                                    "reagent1": "cells"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "**7**",
+        "body": [
+            {
+                "sentence": "Add the following gently over the cell pellet: 240 &#x3BC;l of PEG 3350 \\(50% w/v), 36 &#x3BC;l of 1.0 M LiAc, 25 &#x3BC;g of ssDNA \\(2.0 mg/ml), and 50 &#x3BC;l sterile water containing plasmid DNA for the interaction screen \\(0.1 &#x2013; 2.0 &#x3BC;g). Vortex mixture until cell pellet is completely mixed into suspension.",
+                "result": [
+                    {
+                        "ADD": {
+                            "emit": [
+                                {
+                                    "reagent0": "cells"
+                                }
+                            ],
+                            "slot": [
+                                {
+                                    "reagent1": "cells"
+                                },
+                                {
+                                    "reagent2": "240 \u03bcl of PEG 3350 (50% w/v), 36 \u03bcl of 1.0 M LiAc, 25 \u03bcg of ssDNA (2.0 mg/ml), and 50 \u03bcl sterile water containing plasmid DNA for the interaction screen (0.1 \u2013 2.0 \u03bcg)"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "VORTEX": {
+                            "emit": [
+                                {
+                                    "reagent0": "cell pellet"
+                                }
+                            ],
+                            "slot": [
+                                {
+                                    "reagent1": "cell pellet"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "**8**",
+        "body": [
+            {
+                "sentence": "Incubate the suspension at 30 &#x2DA;C for 30 min. Transform the yeast by heat shock at 42 &#x2DA;C for 15 min, mix suspension carefully and pellet cells at 6000 RPM for 15 s.",
+                "result": [
+                    {
+                        "INCUBATE": {
+                            "emit": [
+                                {
+                                    "reagent0": "suspension"
+                                }
+                            ],
+                            "slot": [
+                                {
+                                    "reagent1": "suspension"
+                                },
+                                {
+                                    "temperature": "30 &#x2DA;C"
+                                },
+                                {
+                                    "time": "30 min"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "TRANSFORM": {
+                            "emit": [
+                                {
+                                    "reagent0": "yeast cell suspension"
+                                }
+                            ],
+                            "slot": [
+                                {
+                                    "reagent1": "yeast cell suspension"
+                                },
+                                {
+                                    "protocol": "heat shock at 42 \u00b0C for 15 min"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "MIX": {
+                            "emit": [],
+                            "slot": [
+                                {
+                                    "reagent1": "suspension"
+                                },
+                                {
+                                    "method": "carefully"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "PELLET": {
+                            "emit": [
+                                {
+                                    "reagent0": "cells"
+                                }
+                            ],
+                            "slot": [
+                                {
+                                    "reagent1": "suspension"
+                                },
+                                {
+                                    "intensity": "<blank>"
+                                },
+                                {
+                                    "time": "15 s"
+                                },
+                                {
+                                    "temperature": "<blank>"
+                                },
+                                {
+                                    "device": "6000 RPM"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "**9**",
+        "body": [
+            {
+                "sentence": "Finally, resuspend yeast cells in 200 &#x3BC;l of sterile water for plating.",
+                "result": [
+                    {
+                        "RESUSPEND": {
+                            "emit": [
+                                {
+                                    "reagent0": "yeast cells"
+                                }
+                            ],
+                            "slot": [
+                                {
+                                    "reagent1": "yeast cells"
+                                },
+                                {
+                                    "reagent2": "sterile water"
+                                },
+                                {
+                                    "notice": "for plating"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "**Plating and selection**",
+        "body": [
+            ""
+        ]
+    },
+    {
+        "title": "**10**",
+        "body": [
+            {
+                "sentence": "Plate yeast onto SC minus plates \\(-LEU, -TRP) and grow at 30 &#x2DA;C for 3 &#x2013; 5 days.",
+                "result": [
+                    {
+                        "PLATE": {
+                            "emit": [
+                                {
+                                    "reagent0": "yeast cells"
+                                }
+                            ],
+                            "slot": [
+                                {
+                                    "reagent1": "yeast cells"
+                                },
+                                {
+                                    "reagent2": "SC minus plates (-LEU, -TRP)"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "GROW": {
+                            "emit": [
+                                {
+                                    "reagent0": "yeast cells"
+                                }
+                            ],
+                            "slot": [
+                                {
+                                    "reagent1": "yeast cells"
+                                },
+                                {
+                                    "medium": "SC minus plates (-LEU, -TRP)"
+                                },
+                                {
+                                    "temperature": "30 \u00b0C"
+                                },
+                                {
+                                    "time": "3 - 5 days"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "**11**",
+        "body": [
+            {
+                "sentence": "Streak single colonies onto SC minus plates \\(-LEU, -HIS, -TRP) supplemented with 50 mM 3AT and 20 &#x3BC;g/ml X-gal.",
+                "result": []
+            }
+        ]
+    },
+    {
+        "title": "**12**",
+        "body": [
+            {
+                "sentence": "Yeast are then grown for 3 &#x2013; 5 days and scored for growth and color change.",
+                "result": [
+                    {
+                        "GROW": {
+                            "emit": [
+                                {
+                                    "reagent0": "yeast cells"
+                                }
+                            ],
+                            "slot": [
+                                {
+                                    "reagent1": "yeast cells"
+                                },
+                                {
+                                    "temperature": "30 \u00b0C"
+                                },
+                                {
+                                    "time": "3 - 5 days"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "ASSESS": {
+                            "emit": [
+                                {
+                                    "reagent0": "yeast cells"
+                                }
+                            ],
+                            "slot": [
+                                {
+                                    "reagent1": "yeast cells"
+                                },
+                                {
+                                    "method": "growth and color change"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        ]
+    }
+]

@@ -1,0 +1,887 @@
+{
+  "name": "nprot-162_graphData.json",
+  "nodes": [
+    {
+      "id": "e74df5e6-da0d-483c-aac5-5bdbf2c9f7c4",
+      "text": "Inoculate 10 ml of YPAD medium with a single Y190 colony and incubate overnight at 30 &#x2DA;C. 55 ml of fresh YPAD are then cultured overnight to an OD<sub>600</sub> of 0.3. Cells are then incubated by shaking at 200 RPM and 30 &#x2DA;C until they reach an OD<sub>600</sub> of 0.7.",
+      "instruction": "INOCULATE",
+      "slots": [
+        {
+          "key": "reagent1",
+          "value": "Y190 colony",
+          "id": "fa350385-1a4c-4937-bbc1-0c562eb019ca",
+          "node_id": "e74df5e6-da0d-483c-aac5-5bdbf2c9f7c4"
+        },
+        {
+          "key": "reagent2",
+          "value": "YPAD medium",
+          "id": "5211707e-e83c-48b9-a980-ac6189f075c7",
+          "node_id": "e74df5e6-da0d-483c-aac5-5bdbf2c9f7c4"
+        },
+        {
+          "key": "notice",
+          "value": "Incubate overnight at 30 \u00b0C.",
+          "id": "e8924a40-48fb-47a5-8a29-be1738b2a083",
+          "node_id": "e74df5e6-da0d-483c-aac5-5bdbf2c9f7c4"
+        }
+      ],
+      "emits": [
+        {
+          "key": "reagent0",
+          "value": "YPAD medium",
+          "id": "92e16c39-dcad-4be0-acd4-90725350e988",
+          "node_id": "e74df5e6-da0d-483c-aac5-5bdbf2c9f7c4"
+        }
+      ]
+    },
+    {
+      "id": "af44c643-8fd4-417f-b03c-581202bf2334",
+      "text": "Inoculate 10 ml of YPAD medium with a single Y190 colony and incubate overnight at 30 &#x2DA;C. 55 ml of fresh YPAD are then cultured overnight to an OD<sub>600</sub> of 0.3. Cells are then incubated by shaking at 200 RPM and 30 &#x2DA;C until they reach an OD<sub>600</sub> of 0.7.",
+      "instruction": "INCUBATE",
+      "slots": [
+        {
+          "key": "reagent1",
+          "value": "YPAD medium",
+          "id": "7a6ef9b4-1387-4126-8d0c-06a85b18d53c",
+          "node_id": "af44c643-8fd4-417f-b03c-581202bf2334"
+        },
+        {
+          "key": "temperature",
+          "value": "30 \u00b0C",
+          "id": "b3e5f1e9-f644-47e3-974b-32f59deb8c86",
+          "node_id": "af44c643-8fd4-417f-b03c-581202bf2334"
+        },
+        {
+          "key": "time",
+          "value": "overnight",
+          "id": "1040c8fb-4051-40f6-b60f-66868de61d4a",
+          "node_id": "af44c643-8fd4-417f-b03c-581202bf2334"
+        }
+      ],
+      "emits": [
+        {
+          "key": "reagent0",
+          "value": "YPAD medium",
+          "id": "baf8198c-5036-4a77-be0b-c41d8aeb8763",
+          "node_id": "af44c643-8fd4-417f-b03c-581202bf2334"
+        }
+      ]
+    },
+    {
+      "id": "62a60646-85c7-4bc9-9d4c-eacfd60f1be0",
+      "text": "Inoculate 10 ml of YPAD medium with a single Y190 colony and incubate overnight at 30 &#x2DA;C. 55 ml of fresh YPAD are then cultured overnight to an OD<sub>600</sub> of 0.3. Cells are then incubated by shaking at 200 RPM and 30 &#x2DA;C until they reach an OD<sub>600</sub> of 0.7.",
+      "instruction": "INCUBATE",
+      "slots": [
+        {
+          "key": "reagent1",
+          "value": "YPAD medium",
+          "id": "ac70ca6d-19b7-4607-b4b1-4846f5507468",
+          "node_id": "62a60646-85c7-4bc9-9d4c-eacfd60f1be0"
+        },
+        {
+          "key": "temperature",
+          "value": "30 \u00b0C",
+          "id": "7ffef785-fa44-4ebf-bc4b-1e94acab4dd0",
+          "node_id": "62a60646-85c7-4bc9-9d4c-eacfd60f1be0"
+        },
+        {
+          "key": "device",
+          "value": "shaker",
+          "id": "2c34ad94-ef12-4a29-8c3c-8c859ee683c3",
+          "node_id": "62a60646-85c7-4bc9-9d4c-eacfd60f1be0"
+        }
+      ],
+      "emits": []
+    },
+    {
+      "id": "d127f6a4-1043-4776-b9f1-d2d5209cb3d9",
+      "text": "Harvest cells at 2000 RPM for 5 min at room temperature.",
+      "instruction": "HARVEST",
+      "slots": [
+        {
+          "key": "reagent1",
+          "value": "cells",
+          "id": "4cf025d8-d76f-4010-a146-9f2813336344",
+          "node_id": "d127f6a4-1043-4776-b9f1-d2d5209cb3d9"
+        },
+        {
+          "key": "container",
+          "value": "tube",
+          "id": "a3dc3eea-73c1-4f56-ae20-82a2a16c11dd",
+          "node_id": "d127f6a4-1043-4776-b9f1-d2d5209cb3d9"
+        },
+        {
+          "key": "method",
+          "value": "centrifugation",
+          "id": "101cf37d-2604-4f0e-9df5-0e5d13202473",
+          "node_id": "d127f6a4-1043-4776-b9f1-d2d5209cb3d9"
+        },
+        {
+          "key": "environment",
+          "value": "room temperature",
+          "id": "409edbdb-4c5a-42b2-acdc-33e2c87d83c2",
+          "node_id": "d127f6a4-1043-4776-b9f1-d2d5209cb3d9"
+        },
+        {
+          "key": "purpose",
+          "value": "cell collection",
+          "id": "4524374c-291d-4aa9-84a3-6286a1f41dd3",
+          "node_id": "d127f6a4-1043-4776-b9f1-d2d5209cb3d9"
+        }
+      ],
+      "emits": [
+        {
+          "key": "reagent0",
+          "value": "cells",
+          "id": "801063ed-4166-487a-9fd3-82c09729392c",
+          "node_id": "d127f6a4-1043-4776-b9f1-d2d5209cb3d9"
+        }
+      ]
+    },
+    {
+      "id": "0e836238-d3f5-45ab-b2c7-c2ac6a5d2a74",
+      "text": "Aspirate the media, wash cells in sterile water, and spin at 2000 RPM at 25 &#x2dA;C for 5 min.",
+      "instruction": "ASPIRATE",
+      "slots": [
+        {
+          "key": "reagent1",
+          "value": "media",
+          "id": "2deaf0e2-d0fc-40fc-9c37-dce8a801a0a3",
+          "node_id": "0e836238-d3f5-45ab-b2c7-c2ac6a5d2a74"
+        }
+      ],
+      "emits": [
+        {
+          "key": "reagent0",
+          "value": "media",
+          "id": "cbc5686b-20b4-4bea-8e3f-54c210bb5e2a",
+          "node_id": "0e836238-d3f5-45ab-b2c7-c2ac6a5d2a74"
+        }
+      ]
+    },
+    {
+      "id": "5177c72c-79fb-43e4-855e-30a87c1445b9",
+      "text": "Aspirate the media, wash cells in sterile water, and spin at 2000 RPM at 25 &#x2dA;C for 5 min.",
+      "instruction": "WASH",
+      "slots": [
+        {
+          "key": "reagent1",
+          "value": "cells",
+          "id": "f6250690-78b4-4ed3-98d9-025fdfc9eaa1",
+          "node_id": "5177c72c-79fb-43e4-855e-30a87c1445b9"
+        },
+        {
+          "key": "reagent2",
+          "value": "sterile water",
+          "id": "3447ed5d-2427-4ce7-8085-dc7f657aacee",
+          "node_id": "5177c72c-79fb-43e4-855e-30a87c1445b9"
+        },
+        {
+          "key": "repeat",
+          "value": "1",
+          "id": "66344e33-2a98-4cf0-9354-c69248d9ae78",
+          "node_id": "5177c72c-79fb-43e4-855e-30a87c1445b9"
+        },
+        {
+          "key": "time",
+          "value": "5 min",
+          "id": "f6d83953-04f3-4664-88dc-5ad480baf3a2",
+          "node_id": "5177c72c-79fb-43e4-855e-30a87c1445b9"
+        }
+      ],
+      "emits": [
+        {
+          "key": "reagent0",
+          "value": "cells",
+          "id": "2bf3af46-0e97-4e06-a4fa-338dc39e4f8c",
+          "node_id": "5177c72c-79fb-43e4-855e-30a87c1445b9"
+        }
+      ]
+    },
+    {
+      "id": "44239b4d-c7b9-40f7-bc5d-883003a28210",
+      "text": "Aspirate the media, wash cells in sterile water, and spin at 2000 RPM at 25 &#x2dA;C for 5 min.",
+      "instruction": "SPIN",
+      "slots": [
+        {
+          "key": "reagent1",
+          "value": "media",
+          "id": "254f4e26-3cbd-4e37-b3f0-635ef6c8c9b3",
+          "node_id": "44239b4d-c7b9-40f7-bc5d-883003a28210"
+        },
+        {
+          "key": "intensity",
+          "value": "2000 RPM",
+          "id": "d4cbc2b5-5a04-4077-a83f-4b1c166372ab",
+          "node_id": "44239b4d-c7b9-40f7-bc5d-883003a28210"
+        },
+        {
+          "key": "time",
+          "value": "5 min",
+          "id": "e33bfebd-91a6-4770-8316-fdb5d0004bfd",
+          "node_id": "44239b4d-c7b9-40f7-bc5d-883003a28210"
+        },
+        {
+          "key": "temperature",
+          "value": "25 \u00b0C",
+          "id": "2110b423-8660-4528-99d5-d720f91e45a5",
+          "node_id": "44239b4d-c7b9-40f7-bc5d-883003a28210"
+        },
+        {
+          "key": "device",
+          "value": "centrifuge",
+          "id": "b4a383e5-169e-466e-ad73-749b35cc5abe",
+          "node_id": "44239b4d-c7b9-40f7-bc5d-883003a28210"
+        }
+      ],
+      "emits": [
+        {
+          "key": "reagent0",
+          "value": "cells",
+          "id": "d1ae6251-0cdb-4f07-bac9-8faa82f831cd",
+          "node_id": "44239b4d-c7b9-40f7-bc5d-883003a28210"
+        }
+      ]
+    },
+    {
+      "id": "b098fd7e-86ef-4556-ad50-b88fe6b54ff6",
+      "text": "Aspirate water and resuspend cells in 1 ml of 0.1 M LiAc and transfer suspension to a fresh microfuge tube. Pellet cells at 6000 RPM for 15 s and aspirate the supernatant. Next, resuspend the pellet in 500 &#x3BC;l of 100 mM LiAc.",
+      "instruction": "ASPIRATE",
+      "slots": [
+        {
+          "key": "reagent1",
+          "value": "water",
+          "id": "f5fca726-e4f6-485b-8a76-52a1c1167d24",
+          "node_id": "b098fd7e-86ef-4556-ad50-b88fe6b54ff6"
+        }
+      ],
+      "emits": []
+    },
+    {
+      "id": "c62086bb-22fb-478f-aa60-eee95d6ae217",
+      "text": "Aspirate water and resuspend cells in 1 ml of 0.1 M LiAc and transfer suspension to a fresh microfuge tube. Pellet cells at 6000 RPM for 15 s and aspirate the supernatant. Next, resuspend the pellet in 500 &#x3BC;l of 100 mM LiAc.",
+      "instruction": "RESUSPEND",
+      "slots": [
+        {
+          "key": "reagent1",
+          "value": "cells",
+          "id": "9089da26-40ce-4719-8108-ea4d648f2f7d",
+          "node_id": "c62086bb-22fb-478f-aa60-eee95d6ae217"
+        },
+        {
+          "key": "reagent2",
+          "value": "0.1 M LiAc",
+          "id": "2ac5aeca-0f48-4f4c-871a-046a18b1c723",
+          "node_id": "c62086bb-22fb-478f-aa60-eee95d6ae217"
+        }
+      ],
+      "emits": [
+        {
+          "key": "reagent0",
+          "value": "cells",
+          "id": "3a653813-19cf-4555-b9de-5b241acc2ab1",
+          "node_id": "c62086bb-22fb-478f-aa60-eee95d6ae217"
+        }
+      ]
+    },
+    {
+      "id": "05da278f-fbac-4f93-ac3e-b55d5f8b9801",
+      "text": "Aspirate water and resuspend cells in 1 ml of 0.1 M LiAc and transfer suspension to a fresh microfuge tube. Pellet cells at 6000 RPM for 15 s and aspirate the supernatant. Next, resuspend the pellet in 500 &#x3BC;l of 100 mM LiAc.",
+      "instruction": "TRANSFER",
+      "slots": [
+        {
+          "key": "source",
+          "value": "water",
+          "id": "b35d6893-38a7-4aaa-9e53-ad7c991fb3b7",
+          "node_id": "05da278f-fbac-4f93-ac3e-b55d5f8b9801"
+        },
+        {
+          "key": "destination",
+          "value": "fresh microfuge tube",
+          "id": "4b515745-1672-4b76-a3e9-de1d1f02142b",
+          "node_id": "05da278f-fbac-4f93-ac3e-b55d5f8b9801"
+        },
+        {
+          "key": "reagent1",
+          "value": "cells",
+          "id": "ff845e7a-ba1d-4e71-b11f-e95cf3325275",
+          "node_id": "05da278f-fbac-4f93-ac3e-b55d5f8b9801"
+        },
+        {
+          "key": "volume",
+          "value": "1 ml",
+          "id": "68811e28-e365-4206-bad6-463646ec77c0",
+          "node_id": "05da278f-fbac-4f93-ac3e-b55d5f8b9801"
+        }
+      ],
+      "emits": [
+        {
+          "key": "reagent0",
+          "value": "cells",
+          "id": "729e50fd-d646-40fd-8a27-82c8ee5bc9ab",
+          "node_id": "05da278f-fbac-4f93-ac3e-b55d5f8b9801"
+        }
+      ]
+    },
+    {
+      "id": "f6383c43-6346-4e1c-9c11-ae80e5a17f90",
+      "text": "Aspirate water and resuspend cells in 1 ml of 0.1 M LiAc and transfer suspension to a fresh microfuge tube. Pellet cells at 6000 RPM for 15 s and aspirate the supernatant. Next, resuspend the pellet in 500 &#x3BC;l of 100 mM LiAc.",
+      "instruction": "PELLET",
+      "slots": [
+        {
+          "key": "reagent1",
+          "value": "cells",
+          "id": "50e13762-da82-4b1d-8441-bc3d74f7db3a",
+          "node_id": "f6383c43-6346-4e1c-9c11-ae80e5a17f90"
+        },
+        {
+          "key": "intensity",
+          "value": "6000 RPM",
+          "id": "3eadd3c0-de36-402b-8621-959f418d38fa",
+          "node_id": "f6383c43-6346-4e1c-9c11-ae80e5a17f90"
+        },
+        {
+          "key": "time",
+          "value": "15 s",
+          "id": "be7855a6-c55c-467c-94c6-75bd08cdb8db",
+          "node_id": "f6383c43-6346-4e1c-9c11-ae80e5a17f90"
+        }
+      ],
+      "emits": [
+        {
+          "key": "reagent0",
+          "value": "cells",
+          "id": "745672f9-6968-4bd6-b688-e3121d4fe8e0",
+          "node_id": "f6383c43-6346-4e1c-9c11-ae80e5a17f90"
+        }
+      ]
+    },
+    {
+      "id": "db2674f8-933a-46b6-ba37-dab15bfd556f",
+      "text": "Aspirate water and resuspend cells in 1 ml of 0.1 M LiAc and transfer suspension to a fresh microfuge tube. Pellet cells at 6000 RPM for 15 s and aspirate the supernatant. Next, resuspend the pellet in 500 &#x3BC;l of 100 mM LiAc.",
+      "instruction": "ASPIRATE",
+      "slots": [
+        {
+          "key": "reagent1",
+          "value": "water",
+          "id": "5bacd0ee-65b5-47ea-810d-49f8e017d316",
+          "node_id": "db2674f8-933a-46b6-ba37-dab15bfd556f"
+        }
+      ],
+      "emits": [
+        {
+          "key": "reagent0",
+          "value": "media",
+          "id": "89d0eccc-91ce-4e65-8252-e13d99eaf08e",
+          "node_id": "db2674f8-933a-46b6-ba37-dab15bfd556f"
+        }
+      ]
+    },
+    {
+      "id": "fb957ed0-49cd-4189-a39f-fc1c279d7631",
+      "text": "Aspirate water and resuspend cells in 1 ml of 0.1 M LiAc and transfer suspension to a fresh microfuge tube. Pellet cells at 6000 RPM for 15 s and aspirate the supernatant. Next, resuspend the pellet in 500 &#x3BC;l of 100 mM LiAc.",
+      "instruction": "RESUSPEND",
+      "slots": [
+        {
+          "key": "reagent1",
+          "value": "cells",
+          "id": "424d6e35-409f-4bdc-840c-70b97ad32a1a",
+          "node_id": "fb957ed0-49cd-4189-a39f-fc1c279d7631"
+        },
+        {
+          "key": "reagent2",
+          "value": "0.1 M LiAc",
+          "id": "0b9a212d-9b39-434b-8e84-f4832261da73",
+          "node_id": "fb957ed0-49cd-4189-a39f-fc1c279d7631"
+        },
+        {
+          "key": "device",
+          "value": "microfuge tube",
+          "id": "88cbb61f-1f62-4e0c-ae45-5531de5c316c",
+          "node_id": "fb957ed0-49cd-4189-a39f-fc1c279d7631"
+        }
+      ],
+      "emits": [
+        {
+          "key": "reagent0",
+          "value": "cells",
+          "id": "9ff32819-3848-4efd-94be-fe96c06aac66",
+          "node_id": "fb957ed0-49cd-4189-a39f-fc1c279d7631"
+        }
+      ]
+    },
+    {
+      "id": "6ebcf83e-a872-48d0-af24-46c4d9e9d850",
+      "text": "Boil a 1 ml sample of ssDNA \\(2.0 mg/ml) and chill on ice. Mix the yeast cell suspension and transfer 50 &#x3BC;l samples into fresh tubes for the interactions to be tested.",
+      "instruction": "BOIL",
+      "slots": [
+        {
+          "key": "reagent1",
+          "value": "1 ml sample of ssDNA (2.0 mg/ml)",
+          "id": "8369f95d-60ab-4e94-afeb-39140ce75843",
+          "node_id": "6ebcf83e-a872-48d0-af24-46c4d9e9d850"
+        }
+      ],
+      "emits": [
+        {
+          "key": "reagent0",
+          "value": "1 ml sample of ssDNA (2.0 mg/ml)",
+          "id": "9d312b59-6187-4796-83e7-02248e6e5228",
+          "node_id": "6ebcf83e-a872-48d0-af24-46c4d9e9d850"
+        }
+      ]
+    },
+    {
+      "id": "de6951a1-51ee-490d-a8a0-3681b6ef4c34",
+      "text": "Boil a 1 ml sample of ssDNA \\(2.0 mg/ml) and chill on ice. Mix the yeast cell suspension and transfer 50 &#x3BC;l samples into fresh tubes for the interactions to be tested.",
+      "instruction": "MIX",
+      "slots": [
+        {
+          "key": "reagent1",
+          "value": "yeast cell suspension",
+          "id": "cc524f80-8b7a-4cf5-9246-3633e2f179d3",
+          "node_id": "de6951a1-51ee-490d-a8a0-3681b6ef4c34"
+        }
+      ],
+      "emits": [
+        {
+          "key": "reagent0",
+          "value": "yeast cell suspension",
+          "id": "cb57b02c-c733-46c6-8974-8ccd5d9ef393",
+          "node_id": "de6951a1-51ee-490d-a8a0-3681b6ef4c34"
+        }
+      ]
+    },
+    {
+      "id": "0b1e69c0-b55a-4322-93cc-a14d02088633",
+      "text": "Boil a 1 ml sample of ssDNA \\(2.0 mg/ml) and chill on ice. Mix the yeast cell suspension and transfer 50 &#x3BC;l samples into fresh tubes for the interactions to be tested.",
+      "instruction": "TRANSFER",
+      "slots": [
+        {
+          "key": "source",
+          "value": "1 ml sample of ssDNA (2.0 mg/ml)",
+          "id": "0166f8a0-9c4d-462f-84c2-6346d214b092",
+          "node_id": "0b1e69c0-b55a-4322-93cc-a14d02088633"
+        },
+        {
+          "key": "destination",
+          "value": "fresh tubes",
+          "id": "1f3ca56f-ecb8-4abf-9737-90620fb9562b",
+          "node_id": "0b1e69c0-b55a-4322-93cc-a14d02088633"
+        },
+        {
+          "key": "reagent1",
+          "value": "yeast cell suspension",
+          "id": "b7e41e8d-5e56-489f-892f-61678ee91d10",
+          "node_id": "0b1e69c0-b55a-4322-93cc-a14d02088633"
+        },
+        {
+          "key": "volume",
+          "value": "50 \u03bcl",
+          "id": "05988876-460f-4eeb-b95f-4341d03f673c",
+          "node_id": "0b1e69c0-b55a-4322-93cc-a14d02088633"
+        }
+      ],
+      "emits": []
+    },
+    {
+      "id": "20f09dc1-4a5b-4edc-b047-4f9c42da89b1",
+      "text": "Pellet cells at 6000 RPM and aspirate supernatant.",
+      "instruction": "PELLET",
+      "slots": [
+        {
+          "key": "reagent1",
+          "value": "cells",
+          "id": "0871ec3c-ce94-4df5-bae3-753fc79e7209",
+          "node_id": "20f09dc1-4a5b-4edc-b047-4f9c42da89b1"
+        },
+        {
+          "key": "intensity",
+          "value": "<blank>",
+          "id": "2dcf3e47-575a-420d-a9db-80aa2dfece22",
+          "node_id": "20f09dc1-4a5b-4edc-b047-4f9c42da89b1"
+        },
+        {
+          "key": "time",
+          "value": "<blank>",
+          "id": "5a181735-f4a7-4787-a23c-29c6fc521821",
+          "node_id": "20f09dc1-4a5b-4edc-b047-4f9c42da89b1"
+        },
+        {
+          "key": "temperature",
+          "value": "<blank>",
+          "id": "42a3bf7f-c3f5-4a86-8e84-3fe21f358654",
+          "node_id": "20f09dc1-4a5b-4edc-b047-4f9c42da89b1"
+        },
+        {
+          "key": "device",
+          "value": "6000 RPM",
+          "id": "77f2d532-135e-41cf-9b85-f190edf3e9db",
+          "node_id": "20f09dc1-4a5b-4edc-b047-4f9c42da89b1"
+        }
+      ],
+      "emits": [
+        {
+          "key": "reagent0",
+          "value": "cells",
+          "id": "2325fa82-cb9a-41e2-ad09-c2fd0e12951a",
+          "node_id": "20f09dc1-4a5b-4edc-b047-4f9c42da89b1"
+        }
+      ]
+    },
+    {
+      "id": "2c4723aa-56d1-40fe-9ae0-6a85dcd20eb9",
+      "text": "Pellet cells at 6000 RPM and aspirate supernatant.",
+      "instruction": "ASPIRATE",
+      "slots": [
+        {
+          "key": "reagent1",
+          "value": "cells",
+          "id": "498f2ec9-7986-4053-bc34-db1562a8b3dc",
+          "node_id": "2c4723aa-56d1-40fe-9ae0-6a85dcd20eb9"
+        }
+      ],
+      "emits": [
+        {
+          "key": "reagent0",
+          "value": "media",
+          "id": "56af2c25-1e1d-4c72-aa5d-df5d3bc788d7",
+          "node_id": "2c4723aa-56d1-40fe-9ae0-6a85dcd20eb9"
+        }
+      ]
+    },
+    {
+      "id": "47c86d56-de86-4451-b24f-d8dc22db063a",
+      "text": "Add the following gently over the cell pellet: 240 &#x3BC;l of PEG 3350 \\(50% w/v), 36 &#x3BC;l of 1.0 M LiAc, 25 &#x3BC;g of ssDNA \\(2.0 mg/ml), and 50 &#x3BC;l sterile water containing plasmid DNA for the interaction screen \\(0.1 &#x2013; 2.0 &#x3BC;g). Vortex mixture until cell pellet is completely mixed into suspension.",
+      "instruction": "ADD",
+      "slots": [
+        {
+          "key": "reagent1",
+          "value": "cells",
+          "id": "c133f68f-6f9a-418f-9c12-185e0d3d6f24",
+          "node_id": "47c86d56-de86-4451-b24f-d8dc22db063a"
+        },
+        {
+          "key": "reagent2",
+          "value": "240 \u03bcl of PEG 3350 (50% w/v), 36 \u03bcl of 1.0 M LiAc, 25 \u03bcg of ssDNA (2.0 mg/ml), and 50 \u03bcl sterile water containing plasmid DNA for the interaction screen (0.1 \u2013 2.0 \u03bcg)",
+          "id": "6626cf31-e7a4-4a01-9692-b8b0698ba8a2",
+          "node_id": "47c86d56-de86-4451-b24f-d8dc22db063a"
+        }
+      ],
+      "emits": [
+        {
+          "key": "reagent0",
+          "value": "cells",
+          "id": "aee43eb1-be47-4ffa-af4c-21d4102bfa8e",
+          "node_id": "47c86d56-de86-4451-b24f-d8dc22db063a"
+        }
+      ]
+    },
+    {
+      "id": "b5d63cde-c84b-4826-a62e-afb2ac20d9a7",
+      "text": "Add the following gently over the cell pellet: 240 &#x3BC;l of PEG 3350 \\(50% w/v), 36 &#x3BC;l of 1.0 M LiAc, 25 &#x3BC;g of ssDNA \\(2.0 mg/ml), and 50 &#x3BC;l sterile water containing plasmid DNA for the interaction screen \\(0.1 &#x2013; 2.0 &#x3BC;g). Vortex mixture until cell pellet is completely mixed into suspension.",
+      "instruction": "VORTEX",
+      "slots": [
+        {
+          "key": "reagent1",
+          "value": "cell pellet",
+          "id": "39b99e7e-1b3b-49ad-8394-65f6fddcf7b3",
+          "node_id": "b5d63cde-c84b-4826-a62e-afb2ac20d9a7"
+        }
+      ],
+      "emits": [
+        {
+          "key": "reagent0",
+          "value": "cell pellet",
+          "id": "8231f0dc-1667-4a1d-8f78-466792574bf7",
+          "node_id": "b5d63cde-c84b-4826-a62e-afb2ac20d9a7"
+        }
+      ]
+    },
+    {
+      "id": "55e7c437-be86-4bfa-9c0e-e6624beb1e7e",
+      "text": "Incubate the suspension at 30 &#x2DA;C for 30 min. Transform the yeast by heat shock at 42 &#x2DA;C for 15 min, mix suspension carefully and pellet cells at 6000 RPM for 15 s.",
+      "instruction": "INCUBATE",
+      "slots": [
+        {
+          "key": "reagent1",
+          "value": "suspension",
+          "id": "fe1247c2-c4fc-4ad7-8658-8dd68fdb3367",
+          "node_id": "55e7c437-be86-4bfa-9c0e-e6624beb1e7e"
+        },
+        {
+          "key": "temperature",
+          "value": "30 &#x2DA;C",
+          "id": "867880e1-e468-4933-b295-795006325b3b",
+          "node_id": "55e7c437-be86-4bfa-9c0e-e6624beb1e7e"
+        },
+        {
+          "key": "time",
+          "value": "30 min",
+          "id": "448a5bea-1718-4598-8331-d4ff93327b3d",
+          "node_id": "55e7c437-be86-4bfa-9c0e-e6624beb1e7e"
+        }
+      ],
+      "emits": [
+        {
+          "key": "reagent0",
+          "value": "suspension",
+          "id": "d973a1e2-b1b9-41f6-8cf7-dfb8cc1b3809",
+          "node_id": "55e7c437-be86-4bfa-9c0e-e6624beb1e7e"
+        }
+      ]
+    },
+    {
+      "id": "ec3babc5-bdce-4b0a-b8f3-c601776929af",
+      "text": "Incubate the suspension at 30 &#x2DA;C for 30 min. Transform the yeast by heat shock at 42 &#x2DA;C for 15 min, mix suspension carefully and pellet cells at 6000 RPM for 15 s.",
+      "instruction": "TRANSFORM",
+      "slots": [
+        {
+          "key": "reagent1",
+          "value": "yeast cell suspension",
+          "id": "7ea1efdf-ad05-40a2-8fee-965b9c224527",
+          "node_id": "ec3babc5-bdce-4b0a-b8f3-c601776929af"
+        },
+        {
+          "key": "protocol",
+          "value": "heat shock at 42 \u00b0C for 15 min",
+          "id": "6a43a074-63ec-4dac-b36f-12e19c9e1528",
+          "node_id": "ec3babc5-bdce-4b0a-b8f3-c601776929af"
+        }
+      ],
+      "emits": [
+        {
+          "key": "reagent0",
+          "value": "yeast cell suspension",
+          "id": "72323c85-4eca-4142-947b-4b9a53c4a9cc",
+          "node_id": "ec3babc5-bdce-4b0a-b8f3-c601776929af"
+        }
+      ]
+    },
+    {
+      "id": "9eee83b2-b833-43f1-a31e-d84f083c4b5e",
+      "text": "Incubate the suspension at 30 &#x2DA;C for 30 min. Transform the yeast by heat shock at 42 &#x2DA;C for 15 min, mix suspension carefully and pellet cells at 6000 RPM for 15 s.",
+      "instruction": "MIX",
+      "slots": [
+        {
+          "key": "reagent1",
+          "value": "suspension",
+          "id": "12da29a0-e2eb-4139-b4ea-20a5c383bb80",
+          "node_id": "9eee83b2-b833-43f1-a31e-d84f083c4b5e"
+        },
+        {
+          "key": "method",
+          "value": "carefully",
+          "id": "cb98319b-a10c-412d-a4ac-a45d9f28243a",
+          "node_id": "9eee83b2-b833-43f1-a31e-d84f083c4b5e"
+        }
+      ],
+      "emits": []
+    },
+    {
+      "id": "bf8cffd9-e3d0-48d2-8bc8-f5167fc3f307",
+      "text": "Incubate the suspension at 30 &#x2DA;C for 30 min. Transform the yeast by heat shock at 42 &#x2DA;C for 15 min, mix suspension carefully and pellet cells at 6000 RPM for 15 s.",
+      "instruction": "PELLET",
+      "slots": [
+        {
+          "key": "reagent1",
+          "value": "suspension",
+          "id": "554cb2e3-f47f-41b2-8d57-4fb621e3e42c",
+          "node_id": "bf8cffd9-e3d0-48d2-8bc8-f5167fc3f307"
+        },
+        {
+          "key": "intensity",
+          "value": "<blank>",
+          "id": "18d3e78c-d09f-4243-b462-fe95aa64b864",
+          "node_id": "bf8cffd9-e3d0-48d2-8bc8-f5167fc3f307"
+        },
+        {
+          "key": "time",
+          "value": "15 s",
+          "id": "3263fe40-b20d-4fd7-923c-c10ba3842fb6",
+          "node_id": "bf8cffd9-e3d0-48d2-8bc8-f5167fc3f307"
+        },
+        {
+          "key": "temperature",
+          "value": "<blank>",
+          "id": "b21af1e5-7ebe-42d6-98cc-b3de478dfe29",
+          "node_id": "bf8cffd9-e3d0-48d2-8bc8-f5167fc3f307"
+        },
+        {
+          "key": "device",
+          "value": "6000 RPM",
+          "id": "a355a430-3713-4de5-aac3-33e81e39fbf0",
+          "node_id": "bf8cffd9-e3d0-48d2-8bc8-f5167fc3f307"
+        }
+      ],
+      "emits": [
+        {
+          "key": "reagent0",
+          "value": "cells",
+          "id": "f997bed2-9378-496c-a74d-2accf295ee02",
+          "node_id": "bf8cffd9-e3d0-48d2-8bc8-f5167fc3f307"
+        }
+      ]
+    },
+    {
+      "id": "aaf1672e-600e-438a-9f6a-e990556e8cec",
+      "text": "Finally, resuspend yeast cells in 200 &#x3BC;l of sterile water for plating.",
+      "instruction": "RESUSPEND",
+      "slots": [
+        {
+          "key": "reagent1",
+          "value": "yeast cells",
+          "id": "1c6a7473-4d2e-4919-8a17-903f88c5a51c",
+          "node_id": "aaf1672e-600e-438a-9f6a-e990556e8cec"
+        },
+        {
+          "key": "reagent2",
+          "value": "sterile water",
+          "id": "d346254d-5431-4417-b143-0ea945ed71ab",
+          "node_id": "aaf1672e-600e-438a-9f6a-e990556e8cec"
+        },
+        {
+          "key": "notice",
+          "value": "for plating",
+          "id": "afcab34e-8f9b-457a-98f0-feaba9366560",
+          "node_id": "aaf1672e-600e-438a-9f6a-e990556e8cec"
+        }
+      ],
+      "emits": [
+        {
+          "key": "reagent0",
+          "value": "yeast cells",
+          "id": "0fcafe49-aa39-4832-a884-396996b838ec",
+          "node_id": "aaf1672e-600e-438a-9f6a-e990556e8cec"
+        }
+      ]
+    },
+    {
+      "id": "b5dcc576-b4e6-43ed-8e19-7f59f3273004",
+      "text": "Plate yeast onto SC minus plates \\(-LEU, -TRP) and grow at 30 &#x2DA;C for 3 &#x2013; 5 days.",
+      "instruction": "PLATE",
+      "slots": [
+        {
+          "key": "reagent1",
+          "value": "yeast cells",
+          "id": "4d4ef7aa-00d2-44f2-8854-512f55f7d104",
+          "node_id": "b5dcc576-b4e6-43ed-8e19-7f59f3273004"
+        },
+        {
+          "key": "reagent2",
+          "value": "SC minus plates (-LEU, -TRP)",
+          "id": "cbe9b46e-f4dd-41c6-b660-1dadfba6369e",
+          "node_id": "b5dcc576-b4e6-43ed-8e19-7f59f3273004"
+        }
+      ],
+      "emits": [
+        {
+          "key": "reagent0",
+          "value": "yeast cells",
+          "id": "0a4221cd-8892-4c23-972d-2e387e5e749f",
+          "node_id": "b5dcc576-b4e6-43ed-8e19-7f59f3273004"
+        }
+      ]
+    },
+    {
+      "id": "2bf37016-9e39-4d41-bbf8-1278742af21e",
+      "text": "Plate yeast onto SC minus plates \\(-LEU, -TRP) and grow at 30 &#x2DA;C for 3 &#x2013; 5 days.",
+      "instruction": "GROW",
+      "slots": [
+        {
+          "key": "reagent1",
+          "value": "yeast cells",
+          "id": "3f9b97c0-8a22-41bf-af81-f39b8d2fe953",
+          "node_id": "2bf37016-9e39-4d41-bbf8-1278742af21e"
+        },
+        {
+          "key": "medium",
+          "value": "SC minus plates (-LEU, -TRP)",
+          "id": "bead5981-e129-4e1d-bcc9-ae1003ad7fdf",
+          "node_id": "2bf37016-9e39-4d41-bbf8-1278742af21e"
+        },
+        {
+          "key": "temperature",
+          "value": "30 \u00b0C",
+          "id": "d464ba30-96ce-4331-b3f4-1041c4cc5b64",
+          "node_id": "2bf37016-9e39-4d41-bbf8-1278742af21e"
+        },
+        {
+          "key": "time",
+          "value": "3 - 5 days",
+          "id": "24748939-83da-4282-be89-b19d0e12fc44",
+          "node_id": "2bf37016-9e39-4d41-bbf8-1278742af21e"
+        }
+      ],
+      "emits": [
+        {
+          "key": "reagent0",
+          "value": "yeast cells",
+          "id": "51b2047f-a11b-4521-b093-230fc48a7ecf",
+          "node_id": "2bf37016-9e39-4d41-bbf8-1278742af21e"
+        }
+      ]
+    },
+    {
+      "id": "7eaa3474-f5b8-4c9e-b637-6b757f422984",
+      "text": "Yeast are then grown for 3 &#x2013; 5 days and scored for growth and color change.",
+      "instruction": "GROW",
+      "slots": [
+        {
+          "key": "reagent1",
+          "value": "yeast cells",
+          "id": "9a7434aa-d408-4f60-959c-65bdc07e97be",
+          "node_id": "7eaa3474-f5b8-4c9e-b637-6b757f422984"
+        },
+        {
+          "key": "temperature",
+          "value": "30 \u00b0C",
+          "id": "15312ea1-7ffd-4c16-bef7-e2c9b82c4f16",
+          "node_id": "7eaa3474-f5b8-4c9e-b637-6b757f422984"
+        },
+        {
+          "key": "time",
+          "value": "3 - 5 days",
+          "id": "310b3e8d-e82b-48ae-8962-f160301bcf64",
+          "node_id": "7eaa3474-f5b8-4c9e-b637-6b757f422984"
+        }
+      ],
+      "emits": [
+        {
+          "key": "reagent0",
+          "value": "yeast cells",
+          "id": "eea8f3d4-875c-492a-aff1-172c094d37fc",
+          "node_id": "7eaa3474-f5b8-4c9e-b637-6b757f422984"
+        }
+      ]
+    },
+    {
+      "id": "e63a798b-2019-4206-b1af-366d4c511e1e",
+      "text": "Yeast are then grown for 3 &#x2013; 5 days and scored for growth and color change.",
+      "instruction": "ASSESS",
+      "slots": [
+        {
+          "key": "reagent1",
+          "value": "yeast cells",
+          "id": "9b2b26bc-2cc8-4687-924a-6f83df026397",
+          "node_id": "e63a798b-2019-4206-b1af-366d4c511e1e"
+        },
+        {
+          "key": "method",
+          "value": "growth and color change",
+          "id": "c1f39004-6f37-43a1-b239-0a0fd6cea6ff",
+          "node_id": "e63a798b-2019-4206-b1af-366d4c511e1e"
+        }
+      ],
+      "emits": [
+        {
+          "key": "reagent0",
+          "value": "yeast cells",
+          "id": "67977d78-1ed0-494e-9efa-45399cd608b1",
+          "node_id": "e63a798b-2019-4206-b1af-366d4c511e1e"
+        }
+      ]
+    }
+  ],
+  "edges": []
+}

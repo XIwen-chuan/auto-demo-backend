@@ -1,0 +1,941 @@
+{
+  "name": "nprot-635_graphData.json",
+  "nodes": [
+    {
+      "id": "987d8bca-421f-432f-937b-4a14b530c326",
+      "text": "Transform protease-deficient _E. coli_ strain \\(e.g., BL21) with a plasmid expression vector carrying cDNA or cDNA fragment of interest.",
+      "instruction": "TRANSFORM",
+      "slots": [
+        {
+          "key": "reagent1",
+          "value": "protease-deficient _E. coli_ strain (e.g., BL21)",
+          "id": "20cbc151-fe77-4896-9fcf-1d88cfd6f7c2",
+          "node_id": "987d8bca-421f-432f-937b-4a14b530c326"
+        },
+        {
+          "key": "reagent2",
+          "value": "plasmid expression vector",
+          "id": "ca9651a8-8ba7-43fc-86c5-47da4839df65",
+          "node_id": "987d8bca-421f-432f-937b-4a14b530c326"
+        }
+      ],
+      "emits": [
+        {
+          "key": "reagent0",
+          "value": "protease-deficient _E. coli_ strain (e.g., BL21)",
+          "id": "a120148c-753c-4c93-8709-3b1d3be6b6ae",
+          "node_id": "987d8bca-421f-432f-937b-4a14b530c326"
+        }
+      ]
+    },
+    {
+      "id": "262f618f-aafd-41c9-b32c-6dc41ffe3f59",
+      "text": "Spread transformation on appropriate LB medium plate and incubate overnight at 37\u00b0C.",
+      "instruction": "INCUBATE",
+      "slots": [
+        {
+          "key": "reagent1",
+          "value": "protease-deficient _E. coli_ strain (e.g., BL21)",
+          "id": "c6f60313-43c6-44e9-911e-686ba1992dea",
+          "node_id": "262f618f-aafd-41c9-b32c-6dc41ffe3f59"
+        },
+        {
+          "key": "temperature",
+          "value": "37\u00b0C",
+          "id": "bdb91c30-3860-4b2a-9934-626ff6747d70",
+          "node_id": "262f618f-aafd-41c9-b32c-6dc41ffe3f59"
+        },
+        {
+          "key": "time",
+          "value": "overnight",
+          "id": "7ef250fa-6f35-4124-9afd-fbf4fd5ee262",
+          "node_id": "262f618f-aafd-41c9-b32c-6dc41ffe3f59"
+        }
+      ],
+      "emits": [
+        {
+          "key": "reagent0",
+          "value": "protease-deficient _E. coli_ strain (e.g., BL21)",
+          "id": "0440711d-6147-4bc2-b5ee-26e2f23b95a9",
+          "node_id": "262f618f-aafd-41c9-b32c-6dc41ffe3f59"
+        }
+      ]
+    },
+    {
+      "id": "aac6471a-18b1-438b-a629-5eb8a5acc05c",
+      "text": "Inoculate 5 ml of LB medium with a single colony of _E. coli_ cells and incubate overnight at 37\u00b0C with shaking.",
+      "instruction": "INOCULATE",
+      "slots": [
+        {
+          "key": "reagent1",
+          "value": "single colony of _E. coli_ cells",
+          "id": "524c7399-3d6d-4696-9367-3f31082a976a",
+          "node_id": "aac6471a-18b1-438b-a629-5eb8a5acc05c"
+        },
+        {
+          "key": "reagent2",
+          "value": "LB medium",
+          "id": "73a38360-6d56-426f-b510-712f00505299",
+          "node_id": "aac6471a-18b1-438b-a629-5eb8a5acc05c"
+        },
+        {
+          "key": "container",
+          "value": "5 ml",
+          "id": "230bb887-d9e0-4db8-a357-be70bc0dab9a",
+          "node_id": "aac6471a-18b1-438b-a629-5eb8a5acc05c"
+        },
+        {
+          "key": "notice",
+          "value": "Incubate overnight at 37\u00b0C with shaking.",
+          "id": "749626d6-423c-49a0-b192-3c77ca79d61e",
+          "node_id": "aac6471a-18b1-438b-a629-5eb8a5acc05c"
+        }
+      ],
+      "emits": [
+        {
+          "key": "reagent0",
+          "value": "protease-deficient _E. coli_ strain (e.g., BL21)",
+          "id": "86c83a6d-e2ca-4401-8a9e-5af0dd36b0ee",
+          "node_id": "aac6471a-18b1-438b-a629-5eb8a5acc05c"
+        }
+      ]
+    },
+    {
+      "id": "db8cf3b8-1256-4055-a1e8-866361514b50",
+      "text": "Inoculate 50 ml of LB medium in 250 ml E-flask with 500 &#x3BC;l of culture \\(dilution 1:100) and grow at 37\u00b0C with shaking until the absorbance at 600 nm reaches 0.5-0.7.",
+      "instruction": "INOCULATE",
+      "slots": [
+        {
+          "key": "reagent1",
+          "value": "500 \u03bcl culture (dilution 1:100)",
+          "id": "6da3bf9f-61d0-4cbf-a0be-ad404196464a",
+          "node_id": "db8cf3b8-1256-4055-a1e8-866361514b50"
+        },
+        {
+          "key": "reagent2",
+          "value": "50 ml LB medium",
+          "id": "46138730-cf64-4a31-95a9-a48b70f20d91",
+          "node_id": "db8cf3b8-1256-4055-a1e8-866361514b50"
+        },
+        {
+          "key": "container",
+          "value": "250 ml E-flask",
+          "id": "8f6e70e4-3fa1-4b71-bc01-04922812fa27",
+          "node_id": "db8cf3b8-1256-4055-a1e8-866361514b50"
+        },
+        {
+          "key": "notice",
+          "value": "Incubate at 37\u00b0C with shaking until the absorbance at 600 nm reaches 0.5-0.7",
+          "id": "1e9953ec-7cbb-48ff-b63b-e04dff342a6e",
+          "node_id": "db8cf3b8-1256-4055-a1e8-866361514b50"
+        }
+      ],
+      "emits": [
+        {
+          "key": "reagent0",
+          "value": "protease-deficient _E. coli_ strain (e.g., BL21)",
+          "id": "c3122bcb-77f1-4d14-b8f2-972c073f4c03",
+          "node_id": "db8cf3b8-1256-4055-a1e8-866361514b50"
+        }
+      ]
+    },
+    {
+      "id": "0fc2d41d-3076-4630-9237-9da3f4603c01",
+      "text": "Inoculate 50 ml of LB medium in 250 ml E-flask with 500 &#x3BC;l of culture \\(dilution 1:100) and grow at 37\u00b0C with shaking until the absorbance at 600 nm reaches 0.5-0.7.",
+      "instruction": "GROW",
+      "slots": [
+        {
+          "key": "reagent1",
+          "value": "protease-deficient _E. coli_ strain (e.g., BL21)",
+          "id": "a73aedf4-50f7-47d0-9ad6-6cccbbb71d37",
+          "node_id": "0fc2d41d-3076-4630-9237-9da3f4603c01"
+        },
+        {
+          "key": "medium",
+          "value": "LB medium",
+          "id": "f30202ee-dced-471b-9795-217f6042a91b",
+          "node_id": "0fc2d41d-3076-4630-9237-9da3f4603c01"
+        },
+        {
+          "key": "temperature",
+          "value": "37\u00b0C",
+          "id": "93610676-1d9a-4a54-9154-be118c511d43",
+          "node_id": "0fc2d41d-3076-4630-9237-9da3f4603c01"
+        },
+        {
+          "key": "time",
+          "value": "<blank>",
+          "id": "41c272fb-7c7e-4c83-9a28-6c39fbbe8445",
+          "node_id": "0fc2d41d-3076-4630-9237-9da3f4603c01"
+        },
+        {
+          "key": "termination",
+          "value": "<blank>",
+          "id": "ace60708-1096-4233-bb11-bd2c65772b2c",
+          "node_id": "0fc2d41d-3076-4630-9237-9da3f4603c01"
+        },
+        {
+          "key": "environment",
+          "value": "shaking",
+          "id": "4d013c60-8274-4d09-a56a-8b6e3303777a",
+          "node_id": "0fc2d41d-3076-4630-9237-9da3f4603c01"
+        },
+        {
+          "key": "device",
+          "value": "250 ml E-flask",
+          "id": "bd46f7a1-9e9b-4296-8080-9b5cbc36a22b",
+          "node_id": "0fc2d41d-3076-4630-9237-9da3f4603c01"
+        },
+        {
+          "key": "notice",
+          "value": "<blank>",
+          "id": "892151e5-989d-4862-aa42-9771c3d8772f",
+          "node_id": "0fc2d41d-3076-4630-9237-9da3f4603c01"
+        }
+      ],
+      "emits": [
+        {
+          "key": "reagent0",
+          "value": "<blank>",
+          "id": "30e927d8-9509-4fd5-a002-ffe19a6a5d07",
+          "node_id": "0fc2d41d-3076-4630-9237-9da3f4603c01"
+        }
+      ]
+    },
+    {
+      "id": "5e3cb131-47a0-48f3-86ee-afc2e53cfe52",
+      "text": "Add the suitable inducer for the expression of the protein of interest according to the plasmid vector used \\[e.g., 0.5 mM \\(final concentration) IPTG ] and incubate for an additional 2 h.",
+      "instruction": "ADD",
+      "slots": [
+        {
+          "key": "reagent1",
+          "value": "IPTG",
+          "id": "7271dd77-e086-4c23-adad-c04e084c04ea",
+          "node_id": "5e3cb131-47a0-48f3-86ee-afc2e53cfe52"
+        },
+        {
+          "key": "reagent2",
+          "value": "protease-deficient _E. coli_ strain (e.g., BL21)",
+          "id": "dd85e168-bf78-4431-bda4-eadddad24d5b",
+          "node_id": "5e3cb131-47a0-48f3-86ee-afc2e53cfe52"
+        },
+        {
+          "key": "concentration",
+          "value": "0.5 mM",
+          "id": "280207f4-ccdb-404d-8110-477dea457696",
+          "node_id": "5e3cb131-47a0-48f3-86ee-afc2e53cfe52"
+        }
+      ],
+      "emits": [
+        {
+          "key": "reagent0",
+          "value": "protease-deficient _E. coli_ strain (e.g., BL21)",
+          "id": "8eae23dc-1038-4a00-b410-8c7fd8c7e881",
+          "node_id": "5e3cb131-47a0-48f3-86ee-afc2e53cfe52"
+        }
+      ]
+    },
+    {
+      "id": "abf0312e-19f7-46ca-b14c-94e1bc80f662",
+      "text": "Add the suitable inducer for the expression of the protein of interest according to the plasmid vector used \\[e.g., 0.5 mM \\(final concentration) IPTG ] and incubate for an additional 2 h.",
+      "instruction": "INCUBATE",
+      "slots": [
+        {
+          "key": "reagent1",
+          "value": "protease-deficient _E. coli_ strain (e.g., BL21)",
+          "id": "ab9daf31-2cc3-47d1-8ac3-b46cfa7b745d",
+          "node_id": "abf0312e-19f7-46ca-b14c-94e1bc80f662"
+        },
+        {
+          "key": "reagent2",
+          "value": "0.5 mM (final concentration) IPTG",
+          "id": "2243578d-632a-44b9-a421-9a4ae685ea65",
+          "node_id": "abf0312e-19f7-46ca-b14c-94e1bc80f662"
+        },
+        {
+          "key": "temperature",
+          "value": "37\u00b0C",
+          "id": "010f56c9-4049-4bdf-8981-0a38c9d0415d",
+          "node_id": "abf0312e-19f7-46ca-b14c-94e1bc80f662"
+        },
+        {
+          "key": "time",
+          "value": "2 h",
+          "id": "74737075-f3ed-4eba-bb92-b166d346dd56",
+          "node_id": "abf0312e-19f7-46ca-b14c-94e1bc80f662"
+        }
+      ],
+      "emits": [
+        {
+          "key": "reagent0",
+          "value": "protease-deficient _E. coli_ strain (e.g., BL21)",
+          "id": "9fba6b82-44a3-44d1-a24c-e28c30dddddf",
+          "node_id": "abf0312e-19f7-46ca-b14c-94e1bc80f662"
+        }
+      ]
+    },
+    {
+      "id": "7dcea7ed-5fb5-4dd9-8262-1319c52c9e24",
+      "text": "Centrifuge the cell culture at 7,700g for 10 min at 4\u00b0C, discard the supernatant, and wash the pellet with 1X Phosphate-Buffered Saline \\(PBS).",
+      "instruction": "CENTRIFUGE",
+      "slots": [
+        {
+          "key": "reagent1",
+          "value": "cell culture",
+          "id": "6ec44944-1fdf-41e3-bc9c-a35e891de696",
+          "node_id": "7dcea7ed-5fb5-4dd9-8262-1319c52c9e24"
+        },
+        {
+          "key": "intensity",
+          "value": "7,700g",
+          "id": "9960d88e-0b24-4f34-9c9c-d4ee66adf89f",
+          "node_id": "7dcea7ed-5fb5-4dd9-8262-1319c52c9e24"
+        },
+        {
+          "key": "time",
+          "value": "10 min",
+          "id": "33be3492-697b-4196-bbb7-8f41e11fe049",
+          "node_id": "7dcea7ed-5fb5-4dd9-8262-1319c52c9e24"
+        },
+        {
+          "key": "temperature",
+          "value": "4\u00b0C",
+          "id": "c2b6beb8-d5d5-4905-80a7-fe2c210c612f",
+          "node_id": "7dcea7ed-5fb5-4dd9-8262-1319c52c9e24"
+        }
+      ],
+      "emits": [
+        {
+          "key": "reagent0",
+          "value": "pellet",
+          "id": "c9f7cf7a-2955-482e-8ab6-d6a2d27e6202",
+          "node_id": "7dcea7ed-5fb5-4dd9-8262-1319c52c9e24"
+        }
+      ]
+    },
+    {
+      "id": "773f5b8f-e9af-4192-badc-c906c1b66104",
+      "text": "Centrifuge the cell culture at 7,700g for 10 min at 4\u00b0C, discard the supernatant, and wash the pellet with 1X Phosphate-Buffered Saline \\(PBS).",
+      "instruction": "DISCARD",
+      "slots": [
+        {
+          "key": "reagent1",
+          "value": "supernatant",
+          "id": "cdb19da8-463f-4306-86eb-6c70e5fc8a04",
+          "node_id": "773f5b8f-e9af-4192-badc-c906c1b66104"
+        },
+        {
+          "key": "method",
+          "value": "centrifugation",
+          "id": "6daa70fb-005f-4992-aadf-29e48a23d799",
+          "node_id": "773f5b8f-e9af-4192-badc-c906c1b66104"
+        },
+        {
+          "key": "device",
+          "value": "centrifuge",
+          "id": "78bca5d0-181e-43fd-984b-1723e60a30ab",
+          "node_id": "773f5b8f-e9af-4192-badc-c906c1b66104"
+        },
+        {
+          "key": "notice",
+          "value": "",
+          "id": "c8f1b197-533a-44e9-932d-6fc151195909",
+          "node_id": "773f5b8f-e9af-4192-badc-c906c1b66104"
+        }
+      ],
+      "emits": [
+        {
+          "key": "reagent0",
+          "value": "pellet",
+          "id": "c50315a9-5960-4e12-b736-de654c38c1fa",
+          "node_id": "773f5b8f-e9af-4192-badc-c906c1b66104"
+        }
+      ]
+    },
+    {
+      "id": "563734f0-a3cb-4580-89b4-8134cfad708c",
+      "text": "Centrifuge the cell culture at 7,700g for 10 min at 4\u00b0C, discard the supernatant, and wash the pellet with 1X Phosphate-Buffered Saline \\(PBS).",
+      "instruction": "WASH",
+      "slots": [
+        {
+          "key": "reagent1",
+          "value": "pellet",
+          "id": "e74da71a-6269-4734-acbc-cebe4244d5c5",
+          "node_id": "563734f0-a3cb-4580-89b4-8134cfad708c"
+        },
+        {
+          "key": "reagent2",
+          "value": "1X Phosphate-Buffered Saline (PBS)",
+          "id": "a7360412-c4f1-4172-ae83-16b01d74450f",
+          "node_id": "563734f0-a3cb-4580-89b4-8134cfad708c"
+        },
+        {
+          "key": "time",
+          "value": "10 min",
+          "id": "ed1ec7d8-758c-4563-b453-2ee7d9c905b8",
+          "node_id": "563734f0-a3cb-4580-89b4-8134cfad708c"
+        }
+      ],
+      "emits": [
+        {
+          "key": "reagent0",
+          "value": "pellet",
+          "id": "0c5c6945-04df-474e-8e47-310b6ea857e2",
+          "node_id": "563734f0-a3cb-4580-89b4-8134cfad708c"
+        }
+      ]
+    },
+    {
+      "id": "1973d54d-75ae-4482-a834-deec12569e59",
+      "text": "Suspend the cell pellet by adding 50 &#x3BC;l of 1X PBS per ml of culture.",
+      "instruction": "SUSPEND",
+      "slots": [
+        {
+          "key": "reagent1",
+          "value": "cell pellet",
+          "id": "f5da5985-dd22-4399-bc3e-ba7c1a9b1a38",
+          "node_id": "1973d54d-75ae-4482-a834-deec12569e59"
+        },
+        {
+          "key": "reagent2",
+          "value": "1X PBS",
+          "id": "cf24849a-75a5-4ef7-8179-32fbc9ce60e2",
+          "node_id": "1973d54d-75ae-4482-a834-deec12569e59"
+        }
+      ],
+      "emits": [
+        {
+          "key": "reagent0",
+          "value": "cell pellet",
+          "id": "dbf8bb61-075b-40ec-a43e-03afccc32237",
+          "node_id": "1973d54d-75ae-4482-a834-deec12569e59"
+        }
+      ]
+    },
+    {
+      "id": "4ee28b36-0c3d-42fa-9cfe-9292d7acbc69",
+      "text": "Sonicate on ice in short bursts to disrupt the cells until a partial clearing of the suspension is observed.",
+      "instruction": "SONICATE",
+      "slots": [
+        {
+          "key": "reagent1",
+          "value": "cell suspension",
+          "id": "30f466a0-62d5-4346-874e-4397707e98bb",
+          "node_id": "4ee28b36-0c3d-42fa-9cfe-9292d7acbc69"
+        },
+        {
+          "key": "time",
+          "value": "short bursts",
+          "id": "f6678174-14d0-4896-8d73-88c8ac9bc6f7",
+          "node_id": "4ee28b36-0c3d-42fa-9cfe-9292d7acbc69"
+        },
+        {
+          "key": "temperature",
+          "value": "ice",
+          "id": "db8ccfdb-fa57-47b6-99c4-e3867ef85201",
+          "node_id": "4ee28b36-0c3d-42fa-9cfe-9292d7acbc69"
+        },
+        {
+          "key": "notice",
+          "value": "until a partial clearing of the suspension is observed",
+          "id": "f88a7553-617e-498b-9afd-6ca6dec589db",
+          "node_id": "4ee28b36-0c3d-42fa-9cfe-9292d7acbc69"
+        }
+      ],
+      "emits": [
+        {
+          "key": "reagent0",
+          "value": "cell suspension",
+          "id": "f77635d9-3b9c-4d29-a858-b66ea5e996b3",
+          "node_id": "4ee28b36-0c3d-42fa-9cfe-9292d7acbc69"
+        }
+      ]
+    },
+    {
+      "id": "9140c959-16cb-47c2-a9e0-b8a91485511f",
+      "text": "Add an appropriate aliquot of SDS-PAGE Loading Buffer to the cell homogenate and load 100-150 &#x3BC;l per well on a large \\(e.g., 18 X 20 cm) SDS-polyacrylamide gel as in ",
+      "instruction": "ADD",
+      "slots": [
+        {
+          "key": "reagent1",
+          "value": "cell homogenate",
+          "id": "6ce99cd7-b7ab-4ccf-a290-abe861339a22",
+          "node_id": "9140c959-16cb-47c2-a9e0-b8a91485511f"
+        },
+        {
+          "key": "reagent2",
+          "value": "SDS-PAGE Loading Buffer",
+          "id": "44fbf274-206e-4711-9baa-cdd134f4c723",
+          "node_id": "9140c959-16cb-47c2-a9e0-b8a91485511f"
+        }
+      ],
+      "emits": [
+        {
+          "key": "reagent0",
+          "value": "cell homogenate",
+          "id": "b1b63322-1800-4fea-9db4-1b20b3fed232",
+          "node_id": "9140c959-16cb-47c2-a9e0-b8a91485511f"
+        }
+      ]
+    },
+    {
+      "id": "1f439ea7-2002-4803-97a4-3e97802a25d6",
+      "text": "Add an appropriate aliquot of SDS-PAGE Loading Buffer to the cell homogenate and load 100-150 &#x3BC;l per well on a large \\(e.g., 18 X 20 cm) SDS-polyacrylamide gel as in ",
+      "instruction": "LOAD",
+      "slots": [
+        {
+          "key": "reagent1",
+          "value": "SDS-PAGE Loading Buffer",
+          "id": "21739253-dce4-416b-91d9-bf64017b3f51",
+          "node_id": "1f439ea7-2002-4803-97a4-3e97802a25d6"
+        },
+        {
+          "key": "destination",
+          "value": "well",
+          "id": "b87df0af-b1e4-498e-9503-a19fc24e9bf2",
+          "node_id": "1f439ea7-2002-4803-97a4-3e97802a25d6"
+        },
+        {
+          "key": "volume",
+          "value": "100-150 \u03bcl",
+          "id": "0ef505f1-b3e5-4e1c-b491-690ef8c14865",
+          "node_id": "1f439ea7-2002-4803-97a4-3e97802a25d6"
+        }
+      ],
+      "emits": [
+        {
+          "key": "reagent0",
+          "value": "cell homogenate",
+          "id": "2acfb88d-a321-4717-a0ad-5d5f974757e2",
+          "node_id": "1f439ea7-2002-4803-97a4-3e97802a25d6"
+        }
+      ]
+    },
+    {
+      "id": "9c3fc97b-8b82-4b97-a746-5446252bf23e",
+      "text": "Run gel according to standard methods until maximum separation of the protein of interest is obtained.",
+      "instruction": "RUN",
+      "slots": [
+        {
+          "key": "reagent1",
+          "value": "cell homogenate",
+          "id": "289f7001-2dc5-49ae-86ed-42856b7a1060",
+          "node_id": "9c3fc97b-8b82-4b97-a746-5446252bf23e"
+        },
+        {
+          "key": "notice",
+          "value": "until maximum separation of the protein of interest is obtained.",
+          "id": "79be07d8-e6c8-499f-919e-2b7e83c93064",
+          "node_id": "9c3fc97b-8b82-4b97-a746-5446252bf23e"
+        }
+      ],
+      "emits": [
+        {
+          "key": "reagent0",
+          "value": "cell homogenate",
+          "id": "e644d652-5f34-4e1f-baad-569cbfcb1185",
+          "node_id": "9c3fc97b-8b82-4b97-a746-5446252bf23e"
+        }
+      ]
+    },
+    {
+      "id": "1e68ead2-127f-46c4-9e5d-ffa34dbbd08f",
+      "text": "Cut two vertical strips on the sides of the gel as ilustrated in ",
+      "instruction": "CUT",
+      "slots": [
+        {
+          "key": "reagent",
+          "value": "gel",
+          "id": "0f165abc-482d-435f-b858-8da7762df276",
+          "node_id": "1e68ead2-127f-46c4-9e5d-ffa34dbbd08f"
+        },
+        {
+          "key": "size",
+          "value": "two vertical strips",
+          "id": "4666756d-26c7-450e-892d-e6fe54af2a09",
+          "node_id": "1e68ead2-127f-46c4-9e5d-ffa34dbbd08f"
+        },
+        {
+          "key": "direction",
+          "value": "on the sides",
+          "id": "878c3a55-fee6-4f90-a21d-18dd17458543",
+          "node_id": "1e68ead2-127f-46c4-9e5d-ffa34dbbd08f"
+        }
+      ],
+      "emits": [
+        {
+          "key": "reagent0",
+          "value": "gel",
+          "id": "7894584b-73dc-445b-b3a7-fab5021d0535",
+          "node_id": "1e68ead2-127f-46c4-9e5d-ffa34dbbd08f"
+        }
+      ]
+    },
+    {
+      "id": "7ae54db3-e4b4-40e7-9195-c743abc49b0e",
+      "text": "Discolour strips in 30% ethanol/10% acetic acid solution, realign them to the gel sides, and cut a long horizontal slice at the level of the band of interest as shown in ",
+      "instruction": "CUT",
+      "slots": [
+        {
+          "key": "reagent",
+          "value": "gel",
+          "id": "615c394b-e2ba-4659-ae6b-839204c12cdd",
+          "node_id": "7ae54db3-e4b4-40e7-9195-c743abc49b0e"
+        },
+        {
+          "key": "direction",
+          "value": "horizontal",
+          "id": "6211fe98-eae2-4dbe-ae54-65bb5b7c332d",
+          "node_id": "7ae54db3-e4b4-40e7-9195-c743abc49b0e"
+        }
+      ],
+      "emits": [
+        {
+          "key": "reagent0",
+          "value": "gel slice",
+          "id": "69ae44ee-df79-4c98-b449-1c23915aedd0",
+          "node_id": "7ae54db3-e4b4-40e7-9195-c743abc49b0e"
+        }
+      ]
+    },
+    {
+      "id": "4985a307-f4ae-44e8-a9ac-8eda18437d39",
+      "text": "Cut the long strip into 1-cm pieces and place them vertically into the mini elution chamber of the S&amp;S BIOTRAP device \\(Schleicher and Schuell) \\(",
+      "instruction": "CUT",
+      "slots": [
+        {
+          "key": "reagent",
+          "value": "long strip",
+          "id": "d0344da4-afbc-43c0-bbaf-7d5d2bed5ae9",
+          "node_id": "4985a307-f4ae-44e8-a9ac-8eda18437d39"
+        },
+        {
+          "key": "device",
+          "value": "mini elution chamber of the S&S BIOTRAP device (Schleicher and Schuell)",
+          "id": "700cd4cf-ce83-4258-a1d1-f52e0cf5878e",
+          "node_id": "4985a307-f4ae-44e8-a9ac-8eda18437d39"
+        },
+        {
+          "key": "size",
+          "value": "1-cm",
+          "id": "79bfe80d-88f4-4580-8a96-cbcaa46543fe",
+          "node_id": "4985a307-f4ae-44e8-a9ac-8eda18437d39"
+        },
+        {
+          "key": "direction",
+          "value": "into",
+          "id": "71bfa848-fd89-4c35-8aec-2ed8b8f75267",
+          "node_id": "4985a307-f4ae-44e8-a9ac-8eda18437d39"
+        }
+      ],
+      "emits": [
+        {
+          "key": "reagent0",
+          "value": "1-cm pieces",
+          "id": "e4736938-6ca4-43ed-9303-690548ae42ba",
+          "node_id": "4985a307-f4ae-44e8-a9ac-8eda18437d39"
+        }
+      ]
+    },
+    {
+      "id": "0980f876-0557-4a25-99f9-9f007a9f6595",
+      "text": "Cut the long strip into 1-cm pieces and place them vertically into the mini elution chamber of the S&amp;S BIOTRAP device \\(Schleicher and Schuell) \\(",
+      "instruction": "PLACE",
+      "slots": [
+        {
+          "key": "reagent1",
+          "value": "gel slice",
+          "id": "3aa5c115-1c81-40bd-adeb-87841951f9e9",
+          "node_id": "0980f876-0557-4a25-99f9-9f007a9f6595"
+        },
+        {
+          "key": "destination",
+          "value": "mini elution chamber of the S&S BIOTRAP device (Schleicher and Schuell)",
+          "id": "70095609-76e6-443d-bc4b-aa6428b84a23",
+          "node_id": "0980f876-0557-4a25-99f9-9f007a9f6595"
+        },
+        {
+          "key": "device",
+          "value": "S&S BIOTRAP device (Schleicher and Schuell)",
+          "id": "d85cc82d-bde0-4d2d-9700-151b916d3b2a",
+          "node_id": "0980f876-0557-4a25-99f9-9f007a9f6595"
+        }
+      ],
+      "emits": [
+        {
+          "key": "reagent0",
+          "value": "1-cm pieces",
+          "id": "f4006d20-878f-45eb-9a23-f61d1eba24a9",
+          "node_id": "0980f876-0557-4a25-99f9-9f007a9f6595"
+        }
+      ]
+    },
+    {
+      "id": "fd65c4cd-6384-4382-bff1-b61f44b90b49",
+      "text": "Perform electroelution as specified by the manufacturer at 200 V for 4 h using 15 mM ammonium bicarbonate as the elution buffer.",
+      "instruction": "PERFORM",
+      "slots": [
+        {
+          "key": "procedure",
+          "value": "Perform electroelution",
+          "id": "9f85a410-0ea2-42c5-a680-513cd42dbe41",
+          "node_id": "fd65c4cd-6384-4382-bff1-b61f44b90b49"
+        },
+        {
+          "key": "reagent1",
+          "value": "15 mM ammonium bicarbonate",
+          "id": "504f22b4-d107-4326-b533-c0dbd4db3d0e",
+          "node_id": "fd65c4cd-6384-4382-bff1-b61f44b90b49"
+        },
+        {
+          "key": "equipment",
+          "value": "manufacturer's specified equipment",
+          "id": "150ada49-2e60-4509-b576-5489dac6cc63",
+          "node_id": "fd65c4cd-6384-4382-bff1-b61f44b90b49"
+        },
+        {
+          "key": "time",
+          "value": "4 h",
+          "id": "c794942a-22ea-4032-9a1d-47d1984e7924",
+          "node_id": "fd65c4cd-6384-4382-bff1-b61f44b90b49"
+        }
+      ],
+      "emits": [
+        {
+          "key": "reagent0",
+          "value": "rest of the gel",
+          "id": "1ef40396-af1b-4f62-b3fb-61ec2d5688aa",
+          "node_id": "fd65c4cd-6384-4382-bff1-b61f44b90b49"
+        }
+      ]
+    },
+    {
+      "id": "89ba42ce-a473-4e07-891c-b535e94e9269",
+      "text": "After elution is completed, remove eluate from trap chamber using a Pasteur pipette and store it at -80\u00b0C until use.",
+      "instruction": "REMOVE",
+      "slots": [
+        {
+          "key": "reagent1",
+          "value": "eluate",
+          "id": "18f59119-8848-4e64-831d-a2a4142ee196",
+          "node_id": "89ba42ce-a473-4e07-891c-b535e94e9269"
+        },
+        {
+          "key": "method",
+          "value": "using a Pasteur pipette",
+          "id": "50f694ac-1954-4294-a4fe-98fc1996b03d",
+          "node_id": "89ba42ce-a473-4e07-891c-b535e94e9269"
+        },
+        {
+          "key": "device",
+          "value": "trap chamber",
+          "id": "ad49c5d0-4840-47f2-99c8-1d2e9c6ae4ea",
+          "node_id": "89ba42ce-a473-4e07-891c-b535e94e9269"
+        },
+        {
+          "key": "notice",
+          "value": "",
+          "id": "cc8d4cff-dcf4-41f5-aff4-0bd5686caa3f",
+          "node_id": "89ba42ce-a473-4e07-891c-b535e94e9269"
+        }
+      ],
+      "emits": [
+        {
+          "key": "reagent0",
+          "value": "eluate",
+          "id": "49f689c3-74e4-407b-8542-5fe0bfcd283f",
+          "node_id": "89ba42ce-a473-4e07-891c-b535e94e9269"
+        }
+      ]
+    },
+    {
+      "id": "f86e027c-0ce3-4245-9fa0-1fced8304969",
+      "text": "After elution is completed, remove eluate from trap chamber using a Pasteur pipette and store it at -80\u00b0C until use.",
+      "instruction": "STORE",
+      "slots": [
+        {
+          "key": "reagent1",
+          "value": "eluate",
+          "id": "b2df0119-74da-443b-a6f0-845c5ecf163e",
+          "node_id": "f86e027c-0ce3-4245-9fa0-1fced8304969"
+        },
+        {
+          "key": "temperature",
+          "value": "-80\u00b0C",
+          "id": "64e75dc8-430e-4176-ad89-e20065660239",
+          "node_id": "f86e027c-0ce3-4245-9fa0-1fced8304969"
+        }
+      ],
+      "emits": [
+        {
+          "key": "reagent0",
+          "value": "eluate",
+          "id": "652cf9f8-dd08-4e02-9c2c-69337bb0dadb",
+          "node_id": "f86e027c-0ce3-4245-9fa0-1fced8304969"
+        }
+      ]
+    },
+    {
+      "id": "9826268b-89e2-4b91-b88b-29709065251d",
+      "text": "Load an aliquot of elution product on mini SDS-polyacrylamide gel along with bovine serum albumin \\(BSA) of known concentration to evaluate quantity and purity of the purified protein \\(",
+      "instruction": "LOAD",
+      "slots": [
+        {
+          "key": "reagent1",
+          "value": "elution product",
+          "id": "4b522c38-cc0c-4b15-96d0-f6e7723a91bd",
+          "node_id": "9826268b-89e2-4b91-b88b-29709065251d"
+        },
+        {
+          "key": "destination",
+          "value": "mini SDS-polyacrylamide gel",
+          "id": "c8572734-4679-4602-9043-968bef49d016",
+          "node_id": "9826268b-89e2-4b91-b88b-29709065251d"
+        },
+        {
+          "key": "notice",
+          "value": "along with bovine serum albumin (BSA) of known concentration to evaluate quantity and purity of the purified protein",
+          "id": "972f2f1c-e89e-454a-8767-ac22d93cb752",
+          "node_id": "9826268b-89e2-4b91-b88b-29709065251d"
+        }
+      ],
+      "emits": [
+        {
+          "key": "reagent0",
+          "value": "elution product",
+          "id": "af04481b-8841-493f-ae8a-38c1e316d1f1",
+          "node_id": "9826268b-89e2-4b91-b88b-29709065251d"
+        }
+      ]
+    },
+    {
+      "id": "2fcd7e2e-003a-4011-b59a-2406eaa68b83",
+      "text": "Load an aliquot of elution product on mini SDS-polyacrylamide gel along with bovine serum albumin \\(BSA) of known concentration to evaluate quantity and purity of the purified protein \\(",
+      "instruction": "EVALUATE",
+      "slots": [
+        {
+          "key": "reagent1",
+          "value": "elution product",
+          "id": "fce68709-db3e-4022-9549-243f53c786d6",
+          "node_id": "2fcd7e2e-003a-4011-b59a-2406eaa68b83"
+        }
+      ],
+      "emits": []
+    },
+    {
+      "id": "5a6abcec-289c-49d6-aba2-bf91d6fb853a",
+      "text": "If necessary, purified proteins may be concentrated to the required concentration using suitable centrifugal filters \\(e.g., Millipore Amicon) and/or lyophilized and stored at -80\u00b0C.",
+      "instruction": "CONCENTRATE",
+      "slots": [
+        {
+          "key": "reagent1",
+          "value": "purified proteins",
+          "id": "56d866a4-2eb1-4184-b7e3-f07dc1cbe705",
+          "node_id": "5a6abcec-289c-49d6-aba2-bf91d6fb853a"
+        },
+        {
+          "key": "targetVol",
+          "value": "required concentration",
+          "id": "621b76ff-48dd-4f9b-b634-4d5ee9aadf60",
+          "node_id": "5a6abcec-289c-49d6-aba2-bf91d6fb853a"
+        },
+        {
+          "key": "method",
+          "value": "centrifugal filters",
+          "id": "5f5d5fea-f1b3-4bfc-8aeb-87008cd6f624",
+          "node_id": "5a6abcec-289c-49d6-aba2-bf91d6fb853a"
+        },
+        {
+          "key": "device",
+          "value": "Millipore Amicon",
+          "id": "c18fff57-4daa-4627-9c17-b26a104ba816",
+          "node_id": "5a6abcec-289c-49d6-aba2-bf91d6fb853a"
+        }
+      ],
+      "emits": [
+        {
+          "key": "reagent0",
+          "value": "purified proteins",
+          "id": "3ff38b91-b7b2-4337-957b-99671b206945",
+          "node_id": "5a6abcec-289c-49d6-aba2-bf91d6fb853a"
+        }
+      ]
+    },
+    {
+      "id": "3db2a569-baba-4a96-90a3-7903a07252c5",
+      "text": "If necessary, purified proteins may be concentrated to the required concentration using suitable centrifugal filters \\(e.g., Millipore Amicon) and/or lyophilized and stored at -80\u00b0C.",
+      "instruction": "FREEZE",
+      "slots": [
+        {
+          "key": "reagent1",
+          "value": "purified proteins",
+          "id": "0a426a84-9f1c-4e20-b006-a2aae696c315",
+          "node_id": "3db2a569-baba-4a96-90a3-7903a07252c5"
+        },
+        {
+          "key": "temperature",
+          "value": "-80\u00b0C",
+          "id": "aa179005-e8f3-4f13-a4cf-3508037dd439",
+          "node_id": "3db2a569-baba-4a96-90a3-7903a07252c5"
+        }
+      ],
+      "emits": [
+        {
+          "key": "reagent0",
+          "value": "purified proteins",
+          "id": "fc74bac4-410c-44b6-81a4-97f87bd6f5ce",
+          "node_id": "3db2a569-baba-4a96-90a3-7903a07252c5"
+        }
+      ]
+    },
+    {
+      "id": "44dcac1f-cff3-43f3-abe1-783ed70a801d",
+      "text": "Finally, purified proteins in ammonium bicarbonate buffer or lyophilized may be inoculated in rabbits using standard protocols to produce polyclonal antibodies.",
+      "instruction": "PURIFY",
+      "slots": [
+        {
+          "key": "reagent1",
+          "value": "purified proteins",
+          "id": "810bd2a1-2aa5-4114-8b4a-dc21b76a4f87",
+          "node_id": "44dcac1f-cff3-43f3-abe1-783ed70a801d"
+        }
+      ],
+      "emits": [
+        {
+          "key": "reagent0",
+          "value": "purified proteins",
+          "id": "be485380-69bc-4a79-aa39-b4a3abd4e453",
+          "node_id": "44dcac1f-cff3-43f3-abe1-783ed70a801d"
+        }
+      ]
+    },
+    {
+      "id": "f2e896e9-903b-4ddc-9b08-1535b9fba98f",
+      "text": "Finally, purified proteins in ammonium bicarbonate buffer or lyophilized may be inoculated in rabbits using standard protocols to produce polyclonal antibodies.",
+      "instruction": "INOCULATE",
+      "slots": [
+        {
+          "key": "reagent1",
+          "value": "purified proteins",
+          "id": "b51b0545-fd4d-44b6-9384-b30c0a9fc57e",
+          "node_id": "f2e896e9-903b-4ddc-9b08-1535b9fba98f"
+        },
+        {
+          "key": "notice",
+          "value": "to produce polyclonal antibodies.",
+          "id": "b9ee606f-1497-4384-abc5-b19ad980ace4",
+          "node_id": "f2e896e9-903b-4ddc-9b08-1535b9fba98f"
+        }
+      ],
+      "emits": [
+        {
+          "key": "reagent0",
+          "value": "purified proteins",
+          "id": "51351751-eded-4ba5-98a8-7cf49283262a",
+          "node_id": "f2e896e9-903b-4ddc-9b08-1535b9fba98f"
+        }
+      ]
+    }
+  ],
+  "edges": []
+}

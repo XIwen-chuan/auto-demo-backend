@@ -1,0 +1,390 @@
+{
+  "name": "nprot-2715_graphData.json",
+  "nodes": [
+    {
+      "id": "570c1966-54b6-415f-98c6-627b45ee1fb0",
+      "text": "A) Incubate Magnetic FG beads \\(NH<sub>2</sub> beads; TASB848 Nii30; 5 mg) with 10 mM 1-hydroxybenzotriazole, 10 mM 1-ethyl-3-\\(3-demithyl-aminopropyl)-carbodiimide HCl, and various concentrations \\(0.4, 2, and 10 mM) of",
+      "instruction": "INCUBATE",
+      "slots": [
+        {
+          "key": "reagent1",
+          "value": "Magnetic FG beads (NH2 beads; TASB848 Nii30; 5 mg)",
+          "id": "2f85b7c5-38fd-410f-b2d8-e480fd4ad71a",
+          "node_id": "570c1966-54b6-415f-98c6-627b45ee1fb0"
+        },
+        {
+          "key": "reagent2",
+          "value": "10 mM 1-hydroxybenzotriazole, 10 mM 1-ethyl-3-(3-demithyl-aminopropyl)-carbodiimide HCl, and various concentrations (0.4, 2, and 10 mM)",
+          "id": "39a50ed9-29bc-42ae-a09c-7a443f4a8249",
+          "node_id": "570c1966-54b6-415f-98c6-627b45ee1fb0"
+        },
+        {
+          "key": "temperature",
+          "value": "room temperature",
+          "id": "2a6b3b34-439e-4621-a517-9e297cdf7207",
+          "node_id": "570c1966-54b6-415f-98c6-627b45ee1fb0"
+        },
+        {
+          "key": "time",
+          "value": "appropriate time",
+          "id": "d69f72db-b9cf-4057-b839-649c43d4f172",
+          "node_id": "570c1966-54b6-415f-98c6-627b45ee1fb0"
+        }
+      ],
+      "emits": [
+        {
+          "key": "reagent0",
+          "value": "Magnetic FG beads (NH2 beads; TASB848 Nii30; 5 mg)",
+          "id": "0ff7c4d7-8741-4e8d-8f3a-1026474a336e",
+          "node_id": "570c1966-54b6-415f-98c6-627b45ee1fb0"
+        }
+      ]
+    },
+    {
+      "id": "4f17727f-af81-40fb-85af-bb3310eb8a58",
+      "text": "in 1.5 ml of N,N-dimethylformamide for 4 h at room temperature.\r\n\n\nB) Mask unreacted residues using 20% carbonic anhydride in N, N-dimethylformamide\r\n\n\nC) Store beads at 4 \u00b0C.",
+      "instruction": "IMMERSE",
+      "slots": [
+        {
+          "key": "reagent1",
+          "value": "N,N-dimethylformamide",
+          "id": "4e1fd56c-69eb-4acd-a88e-2174dd5ddf95",
+          "node_id": "4f17727f-af81-40fb-85af-bb3310eb8a58"
+        },
+        {
+          "key": "temperature",
+          "value": "room temperature",
+          "id": "e24c7662-693e-49cf-8cd0-84d7e46faff9",
+          "node_id": "4f17727f-af81-40fb-85af-bb3310eb8a58"
+        },
+        {
+          "key": "time",
+          "value": "4 h",
+          "id": "7cb6a2eb-208d-42cf-8e7c-1622e7aef0a0",
+          "node_id": "4f17727f-af81-40fb-85af-bb3310eb8a58"
+        }
+      ],
+      "emits": [
+        {
+          "key": "reagent0",
+          "value": "N,N-dimethylformamide",
+          "id": "9f2a1b9a-985b-4034-b0ad-af9ae14ec72f",
+          "node_id": "4f17727f-af81-40fb-85af-bb3310eb8a58"
+        }
+      ]
+    },
+    {
+      "id": "6d4ade61-9914-47a6-b6d2-a7f2204bcdae",
+      "text": "in 1.5 ml of N,N-dimethylformamide for 4 h at room temperature.\r\n\n\nB) Mask unreacted residues using 20% carbonic anhydride in N, N-dimethylformamide\r\n\n\nC) Store beads at 4 \u00b0C.",
+      "instruction": "STORE",
+      "slots": [
+        {
+          "key": "reagent1",
+          "value": "Magnetic FG beads (NH2 beads; TASB848 Nii30; 5 mg)",
+          "id": "5329cda3-4678-469e-90ac-6eadb3722ae1",
+          "node_id": "6d4ade61-9914-47a6-b6d2-a7f2204bcdae"
+        },
+        {
+          "key": "temperature",
+          "value": "4 \u00b0C",
+          "id": "1fe5dcad-288d-4821-b622-900546a82724",
+          "node_id": "6d4ade61-9914-47a6-b6d2-a7f2204bcdae"
+        }
+      ],
+      "emits": [
+        {
+          "key": "reagent0",
+          "value": "Magnetic FG beads (NH2 beads; TASB848 Nii30; 5 mg)",
+          "id": "0f99cc7e-6e1f-4492-a05d-18088560ffbf",
+          "node_id": "6d4ade61-9914-47a6-b6d2-a7f2204bcdae"
+        }
+      ]
+    },
+    {
+      "id": "bfedc8f4-543f-4b03-81f7-de5d44d1da08",
+      "text": "1",
+      "instruction": "SELECT",
+      "slots": [
+        {
+          "key": "reagent1/data1",
+          "value": "Magnetic FG beads (NH2 beads; TASB848 Nii30; 5 mg)",
+          "id": "065390c3-2a4a-4e29-aeb4-9ba94a9c3ca5",
+          "node_id": "bfedc8f4-543f-4b03-81f7-de5d44d1da08"
+        }
+      ],
+      "emits": [
+        {
+          "key": "reagent0",
+          "value": "Magnetic FG beads (NH2 beads; TASB848 Nii30; 5 mg)",
+          "id": "8ab474e5-de64-499e-82ec-5fd67f6310e5",
+          "node_id": "bfedc8f4-543f-4b03-81f7-de5d44d1da08"
+        }
+      ]
+    },
+    {
+      "id": "56042b86-737c-4cba-bbc0-49d3fd703be6",
+      "text": "A) Equilibrate Compound 1-immobilized beads \\(the final concentrations of 1 were 0.4, 2, and 10 mM) and FG beads \\(without",
+      "instruction": "EQUILIBRATE",
+      "slots": [
+        {
+          "key": "reagent1",
+          "value": "Compound 1-immobilized beads",
+          "id": "ae3833b4-a397-4304-ac4b-e9b032d6bcd5",
+          "node_id": "56042b86-737c-4cba-bbc0-49d3fd703be6"
+        },
+        {
+          "key": "reagent2",
+          "value": "FG beads",
+          "id": "d7b96044-0fa9-489f-879f-a42064a7f7d5",
+          "node_id": "56042b86-737c-4cba-bbc0-49d3fd703be6"
+        },
+        {
+          "key": "notice",
+          "value": "the final concentrations of 1 were 0.4, 2, and 10 mM",
+          "id": "d1ea8019-988f-45fa-9a73-f37dcc5d85b5",
+          "node_id": "56042b86-737c-4cba-bbc0-49d3fd703be6"
+        }
+      ],
+      "emits": [
+        {
+          "key": "reagent0",
+          "value": "Compound 1-immobilized beads",
+          "id": "6c7e3708-ba39-4c02-b355-b7430d636c3f",
+          "node_id": "56042b86-737c-4cba-bbc0-49d3fd703be6"
+        }
+      ]
+    },
+    {
+      "id": "29b41f02-c600-49ca-8326-2c3ddcd7d4f8",
+      "text": "A) Dissolve all compounds in 50% EtOH\r\n\n\nB) Use paclitaxel and vinblastine sulfate salt as stabilizing and destabilizing controls\r\n\n\nC) Fix tubulin on one electrode \\(ch1) and the other one was absolutely blocked with BSA \\(ch2) for reference\r\n\n\nD) Use NAPiCOS QCM system to investigate the affinity of compound with tubulin\r\n\n\nE) Stabilize baseline with PBS/50% EtOH, flow rate was set to 20 \uf06dl/min.\r\n\n\nF) Inject one hundred microliters of each compound into the system to react with fixed tubulin to obtain differential frequency shift between ch1 and ch2\r\n\n\nG) Calculate _Kd_ values by standard scatchard analysis with frequency changes from several concentrations of compound",
+      "instruction": "DISSOLVE",
+      "slots": [
+        {
+          "key": "reagent1",
+          "value": "compounds",
+          "id": "43b3dab5-0d39-4225-ab54-f6db2a71dd6f",
+          "node_id": "29b41f02-c600-49ca-8326-2c3ddcd7d4f8"
+        },
+        {
+          "key": "reagent2",
+          "value": "50% EtOH",
+          "id": "bafe46a0-1860-48db-ab0b-86468ea6270d",
+          "node_id": "29b41f02-c600-49ca-8326-2c3ddcd7d4f8"
+        }
+      ],
+      "emits": [
+        {
+          "key": "reagent0",
+          "value": "compounds",
+          "id": "0825830a-7439-48ef-b9f6-d33d34335760",
+          "node_id": "29b41f02-c600-49ca-8326-2c3ddcd7d4f8"
+        }
+      ]
+    },
+    {
+      "id": "d85a04da-6147-4b1c-a8c1-fc3be3522d03",
+      "text": "A) Dissolve all compounds in 50% EtOH\r\n\n\nB) Use paclitaxel and vinblastine sulfate salt as stabilizing and destabilizing controls\r\n\n\nC) Fix tubulin on one electrode \\(ch1) and the other one was absolutely blocked with BSA \\(ch2) for reference\r\n\n\nD) Use NAPiCOS QCM system to investigate the affinity of compound with tubulin\r\n\n\nE) Stabilize baseline with PBS/50% EtOH, flow rate was set to 20 \uf06dl/min.\r\n\n\nF) Inject one hundred microliters of each compound into the system to react with fixed tubulin to obtain differential frequency shift between ch1 and ch2\r\n\n\nG) Calculate _Kd_ values by standard scatchard analysis with frequency changes from several concentrations of compound",
+      "instruction": "FIX",
+      "slots": [
+        {
+          "key": "reagent1",
+          "value": "tubulin",
+          "id": "b43553ce-5afe-4b08-b99e-f8c8d48d53c4",
+          "node_id": "d85a04da-6147-4b1c-a8c1-fc3be3522d03"
+        },
+        {
+          "key": "reagent2",
+          "value": "BSA",
+          "id": "d604d2aa-821b-4911-bf87-d4c889e9d348",
+          "node_id": "d85a04da-6147-4b1c-a8c1-fc3be3522d03"
+        },
+        {
+          "key": "temperature",
+          "value": "room temperature",
+          "id": "0c9c7030-9e43-4731-b568-0075ce4cfae9",
+          "node_id": "d85a04da-6147-4b1c-a8c1-fc3be3522d03"
+        },
+        {
+          "key": "time",
+          "value": "<blank>",
+          "id": "29fed89c-3752-43ef-a309-8c91609974d2",
+          "node_id": "d85a04da-6147-4b1c-a8c1-fc3be3522d03"
+        },
+        {
+          "key": "device",
+          "value": "<blank>",
+          "id": "a4146183-d9c9-4b03-a144-45b3a0ac9484",
+          "node_id": "d85a04da-6147-4b1c-a8c1-fc3be3522d03"
+        },
+        {
+          "key": "direction",
+          "value": "<blank>",
+          "id": "ed4a0347-7d72-4ac7-be16-c1c8c36b37ff",
+          "node_id": "d85a04da-6147-4b1c-a8c1-fc3be3522d03"
+        },
+        {
+          "key": "method",
+          "value": "<blank>",
+          "id": "592a1e1f-edd9-490a-a9bc-8304710fa645",
+          "node_id": "d85a04da-6147-4b1c-a8c1-fc3be3522d03"
+        },
+        {
+          "key": "notice",
+          "value": "<blank>",
+          "id": "ccbf8f36-32ba-4344-97a2-16630e72c252",
+          "node_id": "d85a04da-6147-4b1c-a8c1-fc3be3522d03"
+        }
+      ],
+      "emits": [
+        {
+          "key": "reagent0",
+          "value": "<blank>",
+          "id": "3e1b2554-852a-4eb4-bc82-e0cb268eb41f",
+          "node_id": "d85a04da-6147-4b1c-a8c1-fc3be3522d03"
+        }
+      ]
+    },
+    {
+      "id": "c7f98f0c-a3b5-48f5-889b-e48d67a892b4",
+      "text": "A) Dissolve all compounds in 50% EtOH\r\n\n\nB) Use paclitaxel and vinblastine sulfate salt as stabilizing and destabilizing controls\r\n\n\nC) Fix tubulin on one electrode \\(ch1) and the other one was absolutely blocked with BSA \\(ch2) for reference\r\n\n\nD) Use NAPiCOS QCM system to investigate the affinity of compound with tubulin\r\n\n\nE) Stabilize baseline with PBS/50% EtOH, flow rate was set to 20 \uf06dl/min.\r\n\n\nF) Inject one hundred microliters of each compound into the system to react with fixed tubulin to obtain differential frequency shift between ch1 and ch2\r\n\n\nG) Calculate _Kd_ values by standard scatchard analysis with frequency changes from several concentrations of compound",
+      "instruction": "INJECT",
+      "slots": [
+        {
+          "key": "reagent1",
+          "value": "compounds",
+          "id": "6f017198-639e-485f-a9be-08620a4931b3",
+          "node_id": "c7f98f0c-a3b5-48f5-889b-e48d67a892b4"
+        },
+        {
+          "key": "reagent2/destination",
+          "value": "system",
+          "id": "7a4f8c54-c3d1-437d-a44f-a3759509ae90",
+          "node_id": "c7f98f0c-a3b5-48f5-889b-e48d67a892b4"
+        },
+        {
+          "key": "device",
+          "value": "NAPiCOS QCM system",
+          "id": "82c90946-cb79-4c77-8946-d4009482afd9",
+          "node_id": "c7f98f0c-a3b5-48f5-889b-e48d67a892b4"
+        }
+      ],
+      "emits": [
+        {
+          "key": "reagent0",
+          "value": "differential frequency shift between ch1 and ch2",
+          "id": "81f276ee-b4d8-4368-bcc4-8ee957c6fa45",
+          "node_id": "c7f98f0c-a3b5-48f5-889b-e48d67a892b4"
+        }
+      ]
+    },
+    {
+      "id": "f62cc573-cf2c-400f-87f1-d806e6c41cc1",
+      "text": "A) Dissolve all compounds in 50% EtOH\r\n\n\nB) Use paclitaxel and vinblastine sulfate salt as stabilizing and destabilizing controls\r\n\n\nC) Fix tubulin on one electrode \\(ch1) and the other one was absolutely blocked with BSA \\(ch2) for reference\r\n\n\nD) Use NAPiCOS QCM system to investigate the affinity of compound with tubulin\r\n\n\nE) Stabilize baseline with PBS/50% EtOH, flow rate was set to 20 \uf06dl/min.\r\n\n\nF) Inject one hundred microliters of each compound into the system to react with fixed tubulin to obtain differential frequency shift between ch1 and ch2\r\n\n\nG) Calculate _Kd_ values by standard scatchard analysis with frequency changes from several concentrations of compound",
+      "instruction": "CALCULATE",
+      "slots": [
+        {
+          "key": "attribute",
+          "value": "Kd",
+          "id": "3b27f4ca-4066-4d74-bca1-81688d8ca01e",
+          "node_id": "f62cc573-cf2c-400f-87f1-d806e6c41cc1"
+        },
+        {
+          "key": "formula",
+          "value": "standard scatchard analysis",
+          "id": "6896b74b-a984-46ab-b1d2-f8a9f90ef36c",
+          "node_id": "f62cc573-cf2c-400f-87f1-d806e6c41cc1"
+        },
+        {
+          "key": "variables",
+          "value": "frequency changes, concentrations of compound",
+          "id": "584b1153-43f9-4ad6-833e-84168cbdd69d",
+          "node_id": "f62cc573-cf2c-400f-87f1-d806e6c41cc1"
+        },
+        {
+          "key": "values",
+          "value": "<blank>",
+          "id": "dabc5a36-7f6b-4d86-884f-1ee665d85087",
+          "node_id": "f62cc573-cf2c-400f-87f1-d806e6c41cc1"
+        },
+        {
+          "key": "units",
+          "value": "<blank>",
+          "id": "8969bb01-88a1-49b7-ae05-c7c4081c5b54",
+          "node_id": "f62cc573-cf2c-400f-87f1-d806e6c41cc1"
+        },
+        {
+          "key": "software",
+          "value": "<blank>",
+          "id": "b208eb61-8d94-4c66-a9f2-a7be42002c1d",
+          "node_id": "f62cc573-cf2c-400f-87f1-d806e6c41cc1"
+        },
+        {
+          "key": "notice",
+          "value": "<blank>",
+          "id": "fff3bb00-354d-4862-a3f9-b50f839836d1",
+          "node_id": "f62cc573-cf2c-400f-87f1-d806e6c41cc1"
+        }
+      ],
+      "emits": [
+        {
+          "key": "result",
+          "value": "<blank>",
+          "id": "0c8bf965-d4ed-4115-98b4-6925f6b56198",
+          "node_id": "f62cc573-cf2c-400f-87f1-d806e6c41cc1"
+        }
+      ]
+    },
+    {
+      "id": "383a85c1-5f52-4d59-bf18-7e921b5b723c",
+      "text": "A) Use Tubulin Polymerization Assay Kit to test tubulin polymerization on each compound\r\n\n\nB) Paclitaxel \\(Wako Co., Japan) and vinblastine were used as positive and negative controls, respectively.\r\n\n\nC) Measure fluorescence using FlexStation3 \\(Molecular Devices, USA)",
+      "instruction": "MEASURE",
+      "slots": [
+        {
+          "key": "device",
+          "value": "FlexStation3 (Molecular Devices, USA)",
+          "id": "1268d5da-3f1a-4478-9de1-34e0d6181526",
+          "node_id": "383a85c1-5f52-4d59-bf18-7e921b5b723c"
+        },
+        {
+          "key": "reagent1",
+          "value": "<blank>",
+          "id": "2a93425e-3e8d-4739-92dd-e8c37ce085f0",
+          "node_id": "383a85c1-5f52-4d59-bf18-7e921b5b723c"
+        },
+        {
+          "key": "parameter",
+          "value": "fluorescence",
+          "id": "a02cb57e-5965-4c98-bdaa-ebabc43a07e8",
+          "node_id": "383a85c1-5f52-4d59-bf18-7e921b5b723c"
+        },
+        {
+          "key": "time",
+          "value": "<blank>",
+          "id": "7bb2ee42-2eff-48e7-ad72-2d3c3ef61931",
+          "node_id": "383a85c1-5f52-4d59-bf18-7e921b5b723c"
+        },
+        {
+          "key": "wavelength",
+          "value": "<blank>",
+          "id": "54993939-e58a-4d9e-851b-39fdc333cc92",
+          "node_id": "383a85c1-5f52-4d59-bf18-7e921b5b723c"
+        },
+        {
+          "key": "notice",
+          "value": "<blank>",
+          "id": "70be5c96-f8e2-4cbb-856c-be2bae1ae988",
+          "node_id": "383a85c1-5f52-4d59-bf18-7e921b5b723c"
+        }
+      ],
+      "emits": [
+        {
+          "key": "data0",
+          "value": "<blank>",
+          "id": "4b57f4ee-680f-4e75-8e8d-410828cb2c5b",
+          "node_id": "383a85c1-5f52-4d59-bf18-7e921b5b723c"
+        }
+      ]
+    }
+  ],
+  "edges": []
+}

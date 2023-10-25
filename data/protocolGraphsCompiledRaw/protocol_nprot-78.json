@@ -1,0 +1,208 @@
+[
+    {
+        "title": "**C3 Purification:**",
+        "body": [
+            {
+                "sentence": "Step 1: Isolate Complement factor C3 by PEG precipitation from EDTA-treated human blood plasma and purify by DEAE and blue sepharose affinity chromatography \\(Smith, S.A., _et al._, Biochim Biophys Acta,",
+                "result": [
+                    {
+                        "ISOLATE": {
+                            "emit": [
+                                {
+                                    "reagent0": "Complement factor C3"
+                                }
+                            ],
+                            "slot": [
+                                {
+                                    "component": "Complement factor C3"
+                                },
+                                {
+                                    "reagent1": "EDTA-treated human blood plasma"
+                                },
+                                {
+                                    "method": "PEG precipitation"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "PURIFY": {
+                            "emit": [
+                                {
+                                    "reagent0": "Complement factor C3"
+                                }
+                            ],
+                            "slot": [
+                                {
+                                    "reagent1": "Complement factor C3"
+                                },
+                                {
+                                    "method": "DEAE and blue sepharose affinity chromatography"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "**1650**",
+        "body": [
+            {
+                "sentence": ", 30-39, 2003).",
+                "result": []
+            }
+        ]
+    },
+    {
+        "title": "**C3b preparation:**",
+        "body": [
+            {
+                "sentence": "Step 2: Prepare purified C3b by performing limited trypsin digestion of C3 with sequencing grade trypsin \\(Roche). Perform the cleavage in the presence of N-Acetlyl-L-Threonine \\(AcT) to provide a nucleophile for covalent attachment of the side chain carbonyl of Gln991.  Activate the internal thioester \\(Law, A.S.K. &amp; Dodds, A.W. Protein Science,",
+                "result": [
+                    {
+                        "PREPARE": {
+                            "emit": [
+                                {
+                                    "reagent0": "C3b"
+                                }
+                            ],
+                            "slot": [
+                                {
+                                    "reagent1": "C3"
+                                },
+                                {
+                                    "method": "limited trypsin digestion"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "PERFORM": {
+                            "emit": [
+                                {
+                                    "reagent0": "C3b"
+                                }
+                            ],
+                            "slot": [
+                                {
+                                    "procedure": "Perform the cleavage in the presence of N-Acetlyl-L-Threonine (AcT) to provide a nucleophile for covalent attachment of the side chain carbonyl of Gln991."
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "**6**",
+        "body": [
+            {
+                "sentence": ", 263-274, 1997) with 5% trypsin \\(w/w) for 2 min at 37&#xB0;C, before adding 5% \\(w/w) soybean trypsin inhibitor \\(SBTI) \\(Sigma) to stop the reaction.\r\n\n\n \r\n\n\nStep 3: Remove trypsin and SBTI by perfusion chromatography using a BioCAD 20HQ column. \r\n\n\n \r\n\n\nStep 4: Visualize C3 and C3b by SDS-PAGE \\(4&#x2013;12% gel) with Coomassie blue staining.  \r\n\n\n \r\n\n\nStep 5: Confirm esterification via mass spectroscopic analysis on tryptic digests of modified C3b. \r\n\n\n \r\n\n\nStep 6: Store modified protein at a concentration of 7.7 mg/ml in 20mM TRIS, pH 7.5 and a protein inhibitor cocktail \\(1M KH2PO4, 0.2 M EDTA, 0.2 M Benzamidine-HCl and 1mM PmSF).",
+                "result": [
+                    {
+                        "REMOVE": {
+                            "emit": [],
+                            "slot": [
+                                {
+                                    "reagent1": "trypsin and SBTI"
+                                },
+                                {
+                                    "method": "perfusion chromatography"
+                                },
+                                {
+                                    "device": "BioCAD 20HQ column"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "CONFIRM": {
+                            "emit": [],
+                            "slot": [
+                                {
+                                    "reagent1/data1/device": "tryptic digests of modified C3b"
+                                },
+                                {
+                                    "state": "esterification"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "STORE": {
+                            "emit": [
+                                {
+                                    "reagent0": "modified protein"
+                                }
+                            ],
+                            "slot": [
+                                {
+                                    "reagent1": "modified protein"
+                                },
+                                {
+                                    "temperature": "room temperature"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "**Crystallization:**",
+        "body": [
+            {
+                "sentence": "Step 7: Obtain crystals through vapor diffusion from 2 &#x3BC;l of the protein solution mixed with an equal volume of well solution.  Wells should contain 200 mM TRIS, pH 7.5, 100 mM NaCl, 20 mM LiCl and 15% PEG6000.",
+                "result": [
+                    {
+                        "OBTAIN": {
+                            "emit": [
+                                {
+                                    "reagent0": "crystals"
+                                }
+                            ],
+                            "slot": [
+                                {
+                                    "reagent1": "protein solution"
+                                },
+                                {
+                                    "container": "well solution"
+                                },
+                                {
+                                    "method": "vapor diffusion"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "MIX": {
+                            "emit": [
+                                {
+                                    "reagent0": "crystals"
+                                }
+                            ],
+                            "slot": [
+                                {
+                                    "reagent1": "protein solution"
+                                },
+                                {
+                                    "reagent2": "well solution"
+                                },
+                                {
+                                    "ratio": "1:1"
+                                },
+                                {
+                                    "method": "vapor diffusion"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        ]
+    }
+]

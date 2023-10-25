@@ -1,0 +1,456 @@
+{
+  "name": "nprot-402_graphData.json",
+  "nodes": [
+    {
+      "id": "85ded806-8d08-4790-bf22-7b953b2a1d6d",
+      "text": "Re-suspend cell pellets at 4 &#xB0;C in 80 &#xB5;L of lysis buffer, containing 50 mM NaH<sub>2</sub>PO<sub>4</sub> at pH 8 with 300 mM NaCl, 20 mM imidazole, CelLytic B \\(Sigma), Lysozyme \\(1 mg/mL), Benzonase \\(50 units/mL), proteinase inhibitor cocktail \\(Sigma), and PMSF \\(1 mM/mL).",
+      "instruction": "RESUSPEND",
+      "slots": [
+        {
+          "key": "reagent1",
+          "value": "cell pellets",
+          "id": "a0678af3-767c-4721-93c3-deb00fd27e7e",
+          "node_id": "85ded806-8d08-4790-bf22-7b953b2a1d6d"
+        },
+        {
+          "key": "reagent2",
+          "value": "lysis buffer",
+          "id": "978f2086-d3a6-46d9-a08f-0c7583dc3caf",
+          "node_id": "85ded806-8d08-4790-bf22-7b953b2a1d6d"
+        },
+        {
+          "key": "temperature",
+          "value": "4 \u00b0C",
+          "id": "055d9825-5577-40ef-a96c-c5795811e8a8",
+          "node_id": "85ded806-8d08-4790-bf22-7b953b2a1d6d"
+        }
+      ],
+      "emits": [
+        {
+          "key": "reagent0",
+          "value": "cell pellets",
+          "id": "ed40ce1f-246a-47f8-a753-42085f12f9dd",
+          "node_id": "85ded806-8d08-4790-bf22-7b953b2a1d6d"
+        }
+      ]
+    },
+    {
+      "id": "71d8bd34-1b8e-4e2b-bebc-08947db583f3",
+      "text": "Wash Ni-NTA Superflow \\(QIAGEN) twice with water and twice with 50 mM NaH<sub>2</sub>PO<sub>4</sub> at pH 8 with 300 mM NaCl, 20 mM imidazole using centrifugation.",
+      "instruction": "WASH",
+      "slots": [
+        {
+          "key": "reagent1",
+          "value": "Ni-NTA Superflow (QIAGEN)",
+          "id": "916a4b2f-33b7-4e7b-977d-44b12c0e541a",
+          "node_id": "71d8bd34-1b8e-4e2b-bebc-08947db583f3"
+        },
+        {
+          "key": "reagent2",
+          "value": "water",
+          "id": "a17ba17c-f503-4f99-a3af-cd236ca8e286",
+          "node_id": "71d8bd34-1b8e-4e2b-bebc-08947db583f3"
+        },
+        {
+          "key": "repeat",
+          "value": "2",
+          "id": "25a1ace1-68f6-45ed-b28b-18de9359f122",
+          "node_id": "71d8bd34-1b8e-4e2b-bebc-08947db583f3"
+        },
+        {
+          "key": "notice",
+          "value": "using centrifugation",
+          "id": "a37df9b3-077c-42ac-84da-a3ef811498b9",
+          "node_id": "71d8bd34-1b8e-4e2b-bebc-08947db583f3"
+        }
+      ],
+      "emits": [
+        {
+          "key": "reagent0",
+          "value": "Ni-NTA Superflow (QIAGEN)",
+          "id": "7ceaaefe-2699-42c0-b128-899821b92963",
+          "node_id": "71d8bd34-1b8e-4e2b-bebc-08947db583f3"
+        }
+      ]
+    },
+    {
+      "id": "4ee16967-accd-4ad2-88be-b58a165e19c2",
+      "text": "Wash Ni-NTA Superflow \\(QIAGEN) twice with water and twice with 50 mM NaH<sub>2</sub>PO<sub>4</sub> at pH 8 with 300 mM NaCl, 20 mM imidazole using centrifugation.",
+      "instruction": "WASH",
+      "slots": [
+        {
+          "key": "reagent1",
+          "value": "Ni-NTA Superflow (QIAGEN)",
+          "id": "40d06cdc-a626-4972-b80a-d649d113334a",
+          "node_id": "4ee16967-accd-4ad2-88be-b58a165e19c2"
+        },
+        {
+          "key": "reagent2",
+          "value": "50 mM NaH2PO4 at pH 8 with 300 mM NaCl, 20 mM imidazole",
+          "id": "e316654a-1c40-42e0-b24c-43b108960c15",
+          "node_id": "4ee16967-accd-4ad2-88be-b58a165e19c2"
+        },
+        {
+          "key": "repeat",
+          "value": "2",
+          "id": "12e2a616-0715-4ba0-91b6-5df4c36daf9e",
+          "node_id": "4ee16967-accd-4ad2-88be-b58a165e19c2"
+        },
+        {
+          "key": "notice",
+          "value": "using centrifugation",
+          "id": "91d8504b-92da-4cef-b28b-21fb71252bd1",
+          "node_id": "4ee16967-accd-4ad2-88be-b58a165e19c2"
+        }
+      ],
+      "emits": [
+        {
+          "key": "reagent0",
+          "value": "Ni-NTA Superflow (QIAGEN)",
+          "id": "aea8dba4-9fc5-4206-8730-2e76b211a229",
+          "node_id": "4ee16967-accd-4ad2-88be-b58a165e19c2"
+        }
+      ]
+    },
+    {
+      "id": "49cf6de7-75af-45c4-9c06-4b9f17172b1d",
+      "text": "Add 25 &#x3BC;L pre-washed Ni-NTA Superflow \\(QIAGEN) to each well",
+      "instruction": "ADD",
+      "slots": [
+        {
+          "key": "reagent2",
+          "value": "Ni-NTA Superflow (QIAGEN)",
+          "id": "2559c791-9460-4c3f-88b6-9d90593d17ed",
+          "node_id": "49cf6de7-75af-45c4-9c06-4b9f17172b1d"
+        }
+      ],
+      "emits": [
+        {
+          "key": "reagent0",
+          "value": "pre-washed Ni-NTA Superflow (QIAGEN)",
+          "id": "a44d806e-4a92-4765-ae10-befc132343e2",
+          "node_id": "49cf6de7-75af-45c4-9c06-4b9f17172b1d"
+        }
+      ]
+    },
+    {
+      "id": "04905091-8ae2-42c8-93db-a1743638284c",
+      "text": "Transfer the mixtures into bottom-sealed filter plates \\(Multiscreen Nylon Mesh)",
+      "instruction": "TRANSFER",
+      "slots": [
+        {
+          "key": "source",
+          "value": "mixtures",
+          "id": "ab0c4113-3c05-43b6-8cf7-14b6c0e42eba",
+          "node_id": "04905091-8ae2-42c8-93db-a1743638284c"
+        },
+        {
+          "key": "destination",
+          "value": "bottom-sealed filter plates (Multiscreen Nylon Mesh)",
+          "id": "75981be0-22ca-4fa6-96b6-4b88bfb7e0b0",
+          "node_id": "04905091-8ae2-42c8-93db-a1743638284c"
+        },
+        {
+          "key": "reagent1",
+          "value": "<blank>",
+          "id": "edb01b28-9b80-4db8-bf64-5ac6ed0e7d20",
+          "node_id": "04905091-8ae2-42c8-93db-a1743638284c"
+        },
+        {
+          "key": "volume",
+          "value": "<blank>",
+          "id": "1f5cc6d8-ca85-4272-b90c-85abc7ebb313",
+          "node_id": "04905091-8ae2-42c8-93db-a1743638284c"
+        },
+        {
+          "key": "equipment",
+          "value": "<blank>",
+          "id": "b25d21a8-ff95-4eb0-a8a6-8c2972f23d4f",
+          "node_id": "04905091-8ae2-42c8-93db-a1743638284c"
+        },
+        {
+          "key": "notice",
+          "value": "<blank>",
+          "id": "0c10a419-7260-4dc7-bbde-25f3c8440a6b",
+          "node_id": "04905091-8ae2-42c8-93db-a1743638284c"
+        }
+      ],
+      "emits": [
+        {
+          "key": "reagent0",
+          "value": "<blank>",
+          "id": "34ed05f9-952a-4a5c-8bdd-0d17b65dc312",
+          "node_id": "04905091-8ae2-42c8-93db-a1743638284c"
+        }
+      ]
+    },
+    {
+      "id": "1ec28e5a-deea-4024-a040-dc4836805f49",
+      "text": "Seal the filter plates",
+      "instruction": "SEAL",
+      "slots": [
+        {
+          "key": "reagent1",
+          "value": "filter plates",
+          "id": "ceeb2c41-e16b-4166-9774-45fee8b4fe16",
+          "node_id": "1ec28e5a-deea-4024-a040-dc4836805f49"
+        }
+      ],
+      "emits": [
+        {
+          "key": "reagent0",
+          "value": "filter plates",
+          "id": "e8196a6f-b06d-4082-94ff-f684e5336f01",
+          "node_id": "1ec28e5a-deea-4024-a040-dc4836805f49"
+        }
+      ]
+    },
+    {
+      "id": "191422c0-6e37-4b8b-8c20-5bf2772c9aa5",
+      "text": "Incubated for 1.5 hr at 4 &#xB0;C with vigorously shaking",
+      "instruction": "INCUBATE",
+      "slots": [
+        {
+          "key": "reagent1",
+          "value": "cell pellets",
+          "id": "411aa5ce-5ec8-4b4f-87c9-bc7bd2c5d7fc",
+          "node_id": "191422c0-6e37-4b8b-8c20-5bf2772c9aa5"
+        },
+        {
+          "key": "temperature",
+          "value": "4 \u00b0C",
+          "id": "f8ed4c41-f960-400d-b9ec-072e860ef88d",
+          "node_id": "191422c0-6e37-4b8b-8c20-5bf2772c9aa5"
+        },
+        {
+          "key": "time",
+          "value": "1.5 hr",
+          "id": "cc65f135-81bc-42a6-b020-185abbaddcbf",
+          "node_id": "191422c0-6e37-4b8b-8c20-5bf2772c9aa5"
+        },
+        {
+          "key": "notice",
+          "value": "with vigorously shaking",
+          "id": "9172bcf1-0e02-4a73-8115-dc75f8222dd7",
+          "node_id": "191422c0-6e37-4b8b-8c20-5bf2772c9aa5"
+        }
+      ],
+      "emits": [
+        {
+          "key": "reagent0",
+          "value": "cell pellets",
+          "id": "c2e9ef4f-9dc6-4e88-82d9-400de31a5c2d",
+          "node_id": "191422c0-6e37-4b8b-8c20-5bf2772c9aa5"
+        }
+      ]
+    },
+    {
+      "id": "b87da51d-11f7-4e2a-baca-520fabec49b9",
+      "text": "Remove seals",
+      "instruction": "REMOVE",
+      "slots": [
+        {
+          "key": "reagent1",
+          "value": "filter plates",
+          "id": "6b7f11d2-1d33-4694-ab5e-dce31c57e370",
+          "node_id": "b87da51d-11f7-4e2a-baca-520fabec49b9"
+        }
+      ],
+      "emits": [
+        {
+          "key": "reagent0",
+          "value": "filter plates",
+          "id": "e27a19c8-0921-4e1b-a54b-3f652d0f7569",
+          "node_id": "b87da51d-11f7-4e2a-baca-520fabec49b9"
+        }
+      ]
+    },
+    {
+      "id": "faeabc7e-fe71-4730-8fb6-b206a1ec7ea1",
+      "text": "Wash the resin-protein complexes 3 times with 250 &#xB5;L/well of wash buffer I \\(50 mM NaH<sub>2</sub>PO<sub>4</sub> with 300 mM NaCl, 10% glycerol, 20 mM imidazole, 0.01% Triton X-100, at pH",
+      "instruction": "WASH",
+      "slots": [
+        {
+          "key": "reagent1",
+          "value": "resin-protein complexes",
+          "id": "57245c79-65dd-4723-8984-45c2b9476484",
+          "node_id": "faeabc7e-fe71-4730-8fb6-b206a1ec7ea1"
+        },
+        {
+          "key": "reagent2",
+          "value": "wash buffer I",
+          "id": "05401dcc-9b55-4f3b-9558-a495c39f7549",
+          "node_id": "faeabc7e-fe71-4730-8fb6-b206a1ec7ea1"
+        },
+        {
+          "key": "repeat",
+          "value": "3",
+          "id": "274a7a80-1fa5-49c0-b2ff-8686883c49db",
+          "node_id": "faeabc7e-fe71-4730-8fb6-b206a1ec7ea1"
+        }
+      ],
+      "emits": [
+        {
+          "key": "reagent0",
+          "value": "resin-protein complexes",
+          "id": "0166bd8a-401b-49c1-b2e7-3712e46aefae",
+          "node_id": "faeabc7e-fe71-4730-8fb6-b206a1ec7ea1"
+        }
+      ]
+    },
+    {
+      "id": "9cd4c2c1-e939-4cb4-a60c-bbc23f019e9a",
+      "text": "Spin the filter plates",
+      "instruction": "SPIN",
+      "slots": [
+        {
+          "key": "reagent1",
+          "value": "filter plates",
+          "id": "3f39034c-f9e2-4568-be5d-cebfd18e5052",
+          "node_id": "9cd4c2c1-e939-4cb4-a60c-bbc23f019e9a"
+        }
+      ],
+      "emits": [
+        {
+          "key": "reagent0",
+          "value": "filter plates",
+          "id": "654c922f-9b6a-4ca3-a144-ba19c98c1615",
+          "node_id": "9cd4c2c1-e939-4cb4-a60c-bbc23f019e9a"
+        }
+      ]
+    },
+    {
+      "id": "965f0661-3ea3-4754-be09-997f2fb4fb38",
+      "text": "Add 25 &#x3BC;L of elution buffer \\(50 mM NaH<sub>2</sub>PO<sub>4</sub>/150 mM NaCl/25% glycerol/250 mM imidazole/0.01% Triton X-100, pH 7.5)",
+      "instruction": "ADD",
+      "slots": [
+        {
+          "key": "reagent1",
+          "value": "elution buffer",
+          "id": "c616f6fa-3f9b-4201-a09a-f741b085e17a",
+          "node_id": "965f0661-3ea3-4754-be09-997f2fb4fb38"
+        }
+      ],
+      "emits": [
+        {
+          "key": "reagent0",
+          "value": "elution buffer",
+          "id": "8e084c05-07f7-4c6e-a56d-b0f3a204a84a",
+          "node_id": "965f0661-3ea3-4754-be09-997f2fb4fb38"
+        }
+      ]
+    },
+    {
+      "id": "da590b01-a047-4365-a19d-453cff3e0e25",
+      "text": "Incubate 15 min at 4 &#xB0;C",
+      "instruction": "INCUBATE",
+      "slots": [
+        {
+          "key": "reagent1",
+          "value": "resin-protein complexes",
+          "id": "9e1df984-d052-42af-8869-2151bb491f85",
+          "node_id": "da590b01-a047-4365-a19d-453cff3e0e25"
+        },
+        {
+          "key": "temperature",
+          "value": "4 \u00b0C",
+          "id": "8f6b6527-d6e3-4ad9-ba16-2f34aaa55b35",
+          "node_id": "da590b01-a047-4365-a19d-453cff3e0e25"
+        },
+        {
+          "key": "time",
+          "value": "15 min",
+          "id": "8e697aab-226a-42e0-9ad9-3797881e752f",
+          "node_id": "da590b01-a047-4365-a19d-453cff3e0e25"
+        }
+      ],
+      "emits": [
+        {
+          "key": "reagent0",
+          "value": "resin-protein complexes",
+          "id": "b8634ad3-4766-4244-b574-3bbadcf9a0ce",
+          "node_id": "da590b01-a047-4365-a19d-453cff3e0e25"
+        }
+      ]
+    },
+    {
+      "id": "b4d03301-27e9-4424-b305-bc67870da366",
+      "text": "Elute proteins into 96-well receiver plates by centrifugation.",
+      "instruction": "ELUTE",
+      "slots": [
+        {
+          "key": "reagent1",
+          "value": "resin-protein complexes",
+          "id": "da3a56f3-7bb9-4262-931e-fbdf2407f4f1",
+          "node_id": "b4d03301-27e9-4424-b305-bc67870da366"
+        },
+        {
+          "key": "reagent2",
+          "value": "elution buffer",
+          "id": "462c0150-dd10-4f49-ad99-865b395e0f21",
+          "node_id": "b4d03301-27e9-4424-b305-bc67870da366"
+        },
+        {
+          "key": "component",
+          "value": "proteins",
+          "id": "b0ce6cef-bd3f-494a-a35b-5bc96aa2a78a",
+          "node_id": "b4d03301-27e9-4424-b305-bc67870da366"
+        },
+        {
+          "key": "method",
+          "value": "centrifugation",
+          "id": "18553841-d565-4f24-98e8-d178e06cc371",
+          "node_id": "b4d03301-27e9-4424-b305-bc67870da366"
+        },
+        {
+          "key": "temperature",
+          "value": "4 \u00b0C",
+          "id": "88b0da9f-ecb5-4ca0-b2f3-910c4a71921c",
+          "node_id": "b4d03301-27e9-4424-b305-bc67870da366"
+        }
+      ],
+      "emits": [
+        {
+          "key": "reagent0",
+          "value": "96-well receiver plates",
+          "id": "349c156b-9b92-4aae-865b-0b7c05c2fcb2",
+          "node_id": "b4d03301-27e9-4424-b305-bc67870da366"
+        }
+      ]
+    },
+    {
+      "id": "864433b3-a5d8-45aa-b754-5fd3269a4182",
+      "text": "Store the proteins in 96-well plates at -80 &#xB0;C",
+      "instruction": "STORE",
+      "slots": [
+        {
+          "key": "reagent1",
+          "value": "proteins",
+          "id": "dfad2a9b-f9bb-4c90-8cc1-3a0d8e928312",
+          "node_id": "864433b3-a5d8-45aa-b754-5fd3269a4182"
+        },
+        {
+          "key": "temperature",
+          "value": "-80 \u00b0C",
+          "id": "603b1009-ba06-4dfb-985b-20a261965d9e",
+          "node_id": "864433b3-a5d8-45aa-b754-5fd3269a4182"
+        },
+        {
+          "key": "container",
+          "value": "96-well plates",
+          "id": "bb2367e7-9860-40a7-9514-d9880718f1ac",
+          "node_id": "864433b3-a5d8-45aa-b754-5fd3269a4182"
+        }
+      ],
+      "emits": [
+        {
+          "key": "reagent0",
+          "value": "proteins",
+          "id": "ce25b865-cdf8-4378-b469-f046f33204a8",
+          "node_id": "864433b3-a5d8-45aa-b754-5fd3269a4182"
+        }
+      ]
+    }
+  ],
+  "edges": []
+}

@@ -1,0 +1,400 @@
+{
+  "name": "nprot-213_graphData.json",
+  "nodes": [
+    {
+      "id": "b512c564-a9a4-4082-a992-bc6014ced4f8",
+      "text": "Remove the medium and add binding buffer \\(medium without FCS).",
+      "instruction": "REMOVE",
+      "slots": [
+        {
+          "key": "reagent1",
+          "value": "medium",
+          "id": "282a53cf-70ac-455c-8bc1-3890899c40cd",
+          "node_id": "b512c564-a9a4-4082-a992-bc6014ced4f8"
+        }
+      ],
+      "emits": [
+        {
+          "key": "reagent0",
+          "value": "binding buffer (medium without FCS)",
+          "id": "44e62c8f-93f6-49ca-92f3-1fbc9a7e1d36",
+          "node_id": "b512c564-a9a4-4082-a992-bc6014ced4f8"
+        }
+      ]
+    },
+    {
+      "id": "668f6b68-0a9e-4219-b7c4-e80c9c0d7078",
+      "text": "Remove the medium and add binding buffer \\(medium without FCS).",
+      "instruction": "ADD",
+      "slots": [
+        {
+          "key": "reagent2",
+          "value": "binding buffer (medium without FCS)",
+          "id": "695bb3dc-c172-42c6-9652-21f0259d9400",
+          "node_id": "668f6b68-0a9e-4219-b7c4-e80c9c0d7078"
+        }
+      ],
+      "emits": [
+        {
+          "key": "reagent0",
+          "value": "binding buffer (medium without FCS)",
+          "id": "a7c545e1-6354-42de-b497-04665e170fae",
+          "node_id": "668f6b68-0a9e-4219-b7c4-e80c9c0d7078"
+        }
+      ]
+    },
+    {
+      "id": "554a947d-8e89-4e03-ba54-814fa8dc66a2",
+      "text": "Put the plate on ice for 10 min.",
+      "instruction": "PUT",
+      "slots": [
+        {
+          "key": "reagent1",
+          "value": "plate",
+          "id": "8d3d0214-9f09-4dc2-9321-1536b7ba9776",
+          "node_id": "554a947d-8e89-4e03-ba54-814fa8dc66a2"
+        },
+        {
+          "key": "destination",
+          "value": "ice",
+          "id": "52adc2db-6eef-4e95-bc0c-06963a01c49b",
+          "node_id": "554a947d-8e89-4e03-ba54-814fa8dc66a2"
+        }
+      ],
+      "emits": [
+        {
+          "key": "reagent0",
+          "value": "plate",
+          "id": "d4a1a630-5007-485a-883f-dac1e90f4de0",
+          "node_id": "554a947d-8e89-4e03-ba54-814fa8dc66a2"
+        }
+      ]
+    },
+    {
+      "id": "4243d3a7-d8f1-4314-b84a-13f085f1be94",
+      "text": "Add cold agonist, i.e. rMIF or cold CXCL8 \\(0 &#x2013; 1 &#xB5;M) together with the tracer \\(40 pM of 125I -labeled recombinant CXCL8).",
+      "instruction": "ADD",
+      "slots": [
+        {
+          "key": "reagent1",
+          "value": "rMIF or cold CXCL8",
+          "id": "bfa6beef-bd9a-4fa7-8e8d-1d1a24144cca",
+          "node_id": "4243d3a7-d8f1-4314-b84a-13f085f1be94"
+        },
+        {
+          "key": "reagent2",
+          "value": "40 pM of 125I-labeled recombinant CXCL8",
+          "id": "39d19be0-2f44-43eb-9268-f6de00e55a87",
+          "node_id": "4243d3a7-d8f1-4314-b84a-13f085f1be94"
+        },
+        {
+          "key": "ratio",
+          "value": "0 \u2013 1 \u00b5M",
+          "id": "d6b2d1cb-1e0c-4742-b9f0-77697f2188ed",
+          "node_id": "4243d3a7-d8f1-4314-b84a-13f085f1be94"
+        }
+      ],
+      "emits": [
+        {
+          "key": "reagent0",
+          "value": "plate",
+          "id": "9e2781c6-d09c-4680-b9f2-ea38ce0999c3",
+          "node_id": "4243d3a7-d8f1-4314-b84a-13f085f1be94"
+        }
+      ]
+    },
+    {
+      "id": "6ed60920-ca75-4b0a-89e4-3d768715f5f2",
+      "text": "Perform equilibrium receptor binding for 90 min at 4 &#xB0;C.",
+      "instruction": "PERFORM",
+      "slots": [
+        {
+          "key": "procedure",
+          "value": "Perform equilibrium receptor binding",
+          "id": "7c1e0419-dde5-4370-a1d9-8a0b483f46d8",
+          "node_id": "6ed60920-ca75-4b0a-89e4-3d768715f5f2"
+        },
+        {
+          "key": "environment",
+          "value": "4 \u00b0C",
+          "id": "de4c00c0-5e2a-4842-bb8a-a1f564c4dff0",
+          "node_id": "6ed60920-ca75-4b0a-89e4-3d768715f5f2"
+        },
+        {
+          "key": "time",
+          "value": "90 min",
+          "id": "ac4c6b9a-b648-4f52-bb2d-203d3cc8a039",
+          "node_id": "6ed60920-ca75-4b0a-89e4-3d768715f5f2"
+        }
+      ],
+      "emits": []
+    },
+    {
+      "id": "019a0b70-44ac-4d59-81a8-2dc98506522c",
+      "text": "Remove the medium and wash the cells twice with cold medium.",
+      "instruction": "REMOVE",
+      "slots": [
+        {
+          "key": "reagent1",
+          "value": "medium",
+          "id": "365dcb5c-2774-4e93-a427-538cef84e089",
+          "node_id": "019a0b70-44ac-4d59-81a8-2dc98506522c"
+        }
+      ],
+      "emits": [
+        {
+          "key": "reagent0",
+          "value": "medium",
+          "id": "63cf34e1-8866-4e20-8722-f2c04d74f267",
+          "node_id": "019a0b70-44ac-4d59-81a8-2dc98506522c"
+        }
+      ]
+    },
+    {
+      "id": "9112354d-1f50-40ce-90b4-a630f41a6cd5",
+      "text": "Remove the medium and wash the cells twice with cold medium.",
+      "instruction": "WASH",
+      "slots": [
+        {
+          "key": "reagent1",
+          "value": "cells",
+          "id": "70eb57c7-07f2-47bb-80ed-99ecedfb2ddf",
+          "node_id": "9112354d-1f50-40ce-90b4-a630f41a6cd5"
+        },
+        {
+          "key": "reagent2",
+          "value": "cold medium",
+          "id": "d021edfa-9180-464a-a882-fc0c8af4ff2c",
+          "node_id": "9112354d-1f50-40ce-90b4-a630f41a6cd5"
+        },
+        {
+          "key": "repeat",
+          "value": "2",
+          "id": "dd581c59-f591-4a69-aea2-83aa1d4f5081",
+          "node_id": "9112354d-1f50-40ce-90b4-a630f41a6cd5"
+        }
+      ],
+      "emits": [
+        {
+          "key": "reagent0",
+          "value": "cells",
+          "id": "95335140-6b17-476c-b4c6-88b92a42ce71",
+          "node_id": "9112354d-1f50-40ce-90b4-a630f41a6cd5"
+        }
+      ]
+    },
+    {
+      "id": "f690bfb0-03c5-4af2-9191-740d0dfbb22f",
+      "text": "Harvest the cells by adding 0.5 M NaOH.",
+      "instruction": "HARVEST",
+      "slots": [
+        {
+          "key": "reagent1",
+          "value": "cells",
+          "id": "669e2322-14d9-4c6a-9f3a-b6aceb3996a4",
+          "node_id": "f690bfb0-03c5-4af2-9191-740d0dfbb22f"
+        },
+        {
+          "key": "container",
+          "value": "NaOH",
+          "id": "c701203c-4d01-4f39-bcb9-1435b22cca73",
+          "node_id": "f690bfb0-03c5-4af2-9191-740d0dfbb22f"
+        }
+      ],
+      "emits": [
+        {
+          "key": "reagent0",
+          "value": "cells",
+          "id": "acedc58a-f56d-437f-9d4a-947806a242d8",
+          "node_id": "f690bfb0-03c5-4af2-9191-740d0dfbb22f"
+        }
+      ]
+    },
+    {
+      "id": "dd21cbf2-917c-431f-bfab-0b203388e982",
+      "text": "Transfer the lysate to a liquid scintillation tube.",
+      "instruction": "TRANSFER",
+      "slots": [
+        {
+          "key": "source",
+          "value": "lysate",
+          "id": "ca5c59c0-7749-4445-b114-62229a2f099f",
+          "node_id": "dd21cbf2-917c-431f-bfab-0b203388e982"
+        },
+        {
+          "key": "destination",
+          "value": "liquid scintillation tube",
+          "id": "1e83cb94-96f4-452f-a58e-eecc252d238c",
+          "node_id": "dd21cbf2-917c-431f-bfab-0b203388e982"
+        },
+        {
+          "key": "reagent1",
+          "value": "lysate",
+          "id": "d6a4c7f1-86d5-4e9a-b0ab-7cecce5e543d",
+          "node_id": "dd21cbf2-917c-431f-bfab-0b203388e982"
+        }
+      ],
+      "emits": [
+        {
+          "key": "reagent0",
+          "value": "lysate",
+          "id": "f1131ce7-e7b6-45e0-9234-3975c8b62d8c",
+          "node_id": "dd21cbf2-917c-431f-bfab-0b203388e982"
+        }
+      ]
+    },
+    {
+      "id": "ab4ab680-4a8e-49bc-8a24-4114c61d88a7",
+      "text": "Add Aquasafe 500 plus LSC cocktail and mix well.",
+      "instruction": "ADD",
+      "slots": [
+        {
+          "key": "reagent1",
+          "value": "Aquasafe 500 plus LSC cocktail",
+          "id": "4af60ba6-0179-4598-9963-23cb6085d36d",
+          "node_id": "ab4ab680-4a8e-49bc-8a24-4114c61d88a7"
+        }
+      ],
+      "emits": [
+        {
+          "key": "reagent0",
+          "value": "plate",
+          "id": "6dd87c20-fd6c-4db4-aa18-4283af63a54a",
+          "node_id": "ab4ab680-4a8e-49bc-8a24-4114c61d88a7"
+        }
+      ]
+    },
+    {
+      "id": "bc8593b1-b9a4-464b-91d3-4343948f4348",
+      "text": "Add Aquasafe 500 plus LSC cocktail and mix well.",
+      "instruction": "MIX",
+      "slots": [
+        {
+          "key": "reagent1",
+          "value": "Aquasafe 500 plus LSC cocktail",
+          "id": "76a2cd22-9f0c-4a30-bd7a-8df80d0b2e91",
+          "node_id": "bc8593b1-b9a4-464b-91d3-4343948f4348"
+        },
+        {
+          "key": "method",
+          "value": "mix well",
+          "id": "1abaa65f-23da-4394-86ae-d9696b8b02d0",
+          "node_id": "bc8593b1-b9a4-464b-91d3-4343948f4348"
+        }
+      ],
+      "emits": [
+        {
+          "key": "reagent0",
+          "value": "plate",
+          "id": "5b7fd9a2-2303-4be2-8596-a461af97c0d5",
+          "node_id": "bc8593b1-b9a4-464b-91d3-4343948f4348"
+        }
+      ]
+    },
+    {
+      "id": "6cf57916-7133-42b5-919e-122e9a5e0aa8",
+      "text": "Determine the cell-bound radioactivity by liquid scintillation counting.",
+      "instruction": "DETERMINE",
+      "slots": [
+        {
+          "key": "device",
+          "value": "liquid scintillation counter",
+          "id": "c5a269a4-a3db-4931-a774-4a55fee64a95",
+          "node_id": "6cf57916-7133-42b5-919e-122e9a5e0aa8"
+        },
+        {
+          "key": "reagent1",
+          "value": "Aquasafe 500 plus LSC cocktail",
+          "id": "3802186c-0a5e-4667-9196-fcd6feae48b8",
+          "node_id": "6cf57916-7133-42b5-919e-122e9a5e0aa8"
+        },
+        {
+          "key": "parameter",
+          "value": "cell-bound radioactivity",
+          "id": "497f8f2f-218c-454e-8a3d-d8176c1e239b",
+          "node_id": "6cf57916-7133-42b5-919e-122e9a5e0aa8"
+        }
+      ],
+      "emits": [
+        {
+          "key": "data0",
+          "value": "<blank>",
+          "id": "9aee89a3-7af4-4435-9220-440a5fdcff9b",
+          "node_id": "6cf57916-7133-42b5-919e-122e9a5e0aa8"
+        }
+      ]
+    },
+    {
+      "id": "df5dc5ab-0637-4697-9fbf-ab2540a71e96",
+      "text": "Calculate the EC<sub>50</sub>, K<sub>i</sub> and K<sub>d</sub> values by using the equation of Cheng and Prusoff for heterologous competition experiments, applying the GraphPad software.",
+      "instruction": "CALCULATE",
+      "slots": [
+        {
+          "key": "attribute",
+          "value": "EC50, Ki and Kd values",
+          "id": "51769993-5ae7-4f0e-9633-fb4d6b7a570c",
+          "node_id": "df5dc5ab-0637-4697-9fbf-ab2540a71e96"
+        },
+        {
+          "key": "formula",
+          "value": "Cheng and Prusoff equation",
+          "id": "1e76e176-c691-491e-a1e2-1a1c0e49854c",
+          "node_id": "df5dc5ab-0637-4697-9fbf-ab2540a71e96"
+        },
+        {
+          "key": "software",
+          "value": "GraphPad",
+          "id": "854f6715-ea48-4b31-b970-95ae14d03950",
+          "node_id": "df5dc5ab-0637-4697-9fbf-ab2540a71e96"
+        }
+      ],
+      "emits": []
+    },
+    {
+      "id": "cc56c5dc-dca8-4dde-84a5-2f067b417ea1",
+      "text": "Calculate the EC<sub>50</sub>, K<sub>i</sub> and K<sub>d</sub> values by using the equation of Cheng and Prusoff for heterologous competition experiments, applying the GraphPad software.",
+      "instruction": "APPLY",
+      "slots": [
+        {
+          "key": "reagent1",
+          "value": "GraphPad software",
+          "id": "03efbdb4-e938-4485-ab91-772a34b8237a",
+          "node_id": "cc56c5dc-dca8-4dde-84a5-2f067b417ea1"
+        },
+        {
+          "key": "reagent2",
+          "value": "<blank>",
+          "id": "c65d955b-08ec-42f6-b423-aa2edc88348c",
+          "node_id": "cc56c5dc-dca8-4dde-84a5-2f067b417ea1"
+        },
+        {
+          "key": "ratio",
+          "value": "<blank>",
+          "id": "b8db4293-e754-4ad8-9d82-9451334c4c1f",
+          "node_id": "cc56c5dc-dca8-4dde-84a5-2f067b417ea1"
+        },
+        {
+          "key": "concentration",
+          "value": "<blank>",
+          "id": "be576baa-cb5a-4c30-8657-99a55c4fc7f5",
+          "node_id": "cc56c5dc-dca8-4dde-84a5-2f067b417ea1"
+        },
+        {
+          "key": "notice",
+          "value": "<blank>",
+          "id": "64b5e4d1-7246-4639-8cfe-5a366e9d9847",
+          "node_id": "cc56c5dc-dca8-4dde-84a5-2f067b417ea1"
+        }
+      ],
+      "emits": [
+        {
+          "key": "reagent0",
+          "value": "<blank>",
+          "id": "e1da85a7-ef12-4a07-ae39-f163a3d6008e",
+          "node_id": "cc56c5dc-dca8-4dde-84a5-2f067b417ea1"
+        }
+      ]
+    }
+  ],
+  "edges": []
+}

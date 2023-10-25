@@ -1,0 +1,92 @@
+{
+  "name": "nprot-3659_graphData.json",
+  "nodes": [
+    {
+      "id": "b410a3de-2f2d-4a06-8a80-b63514a82b8a",
+      "text": "Use filtered BSA or filter the BSA solution prior to use to remove any microbial or other contaminants.",
+      "instruction": "FILTER",
+      "slots": [
+        {
+          "key": "reagent1",
+          "value": "BSA solution",
+          "id": "a8a0ec04-8a63-46e7-8d40-b6f1670ad08d",
+          "node_id": "b410a3de-2f2d-4a06-8a80-b63514a82b8a"
+        },
+        {
+          "key": "filter",
+          "value": "0.2 \u03bcm filter",
+          "id": "087ca4bd-32ce-47dd-94f6-edacc0832681",
+          "node_id": "b410a3de-2f2d-4a06-8a80-b63514a82b8a"
+        }
+      ],
+      "emits": [
+        {
+          "key": "reagent0",
+          "value": "filtered BSA",
+          "id": "e71a6804-011f-4d24-9c42-76385f399321",
+          "node_id": "b410a3de-2f2d-4a06-8a80-b63514a82b8a"
+        }
+      ]
+    },
+    {
+      "id": "4ef1cae8-b878-4f8e-9b38-e9567333ff6f",
+      "text": "Prepare the HFA concentrations in BSA-preblocked sample vials to minimize the analyte loss due to non-specific surface binding <sup>28</sup>.",
+      "instruction": "PREPARE",
+      "slots": [
+        {
+          "key": "reagent1",
+          "value": "HFA concentrations",
+          "id": "1924ba9e-e7b5-4de9-acfd-22492e65319d",
+          "node_id": "4ef1cae8-b878-4f8e-9b38-e9567333ff6f"
+        },
+        {
+          "key": "container",
+          "value": "BSA-preblocked sample vials",
+          "id": "c2a4e7f3-2725-414b-ac9a-d29311fc0609",
+          "node_id": "4ef1cae8-b878-4f8e-9b38-e9567333ff6f"
+        },
+        {
+          "key": "notice",
+          "value": "to minimize the analyte loss due to non-specific surface binding <sup>28</sup>.",
+          "id": "f322d40c-6002-4f1f-9927-7e4893c3fbed",
+          "node_id": "4ef1cae8-b878-4f8e-9b38-e9567333ff6f"
+        }
+      ],
+      "emits": [
+        {
+          "key": "reagent0",
+          "value": "HFA concentrations",
+          "id": "feed916c-77b2-4c4a-8925-dfbedc4c51fa",
+          "node_id": "4ef1cae8-b878-4f8e-9b38-e9567333ff6f"
+        }
+      ]
+    },
+    {
+      "id": "581e4504-742a-4e8e-a0f9-36a4d68011bc",
+      "text": "Determine the absorbance within 10 min of stopping the enzyme substrate reaction.",
+      "instruction": "DETERMINE",
+      "slots": [
+        {
+          "key": "reagent1",
+          "value": "TMB-H<sub>2</sub>O<sub>2</sub> mixture",
+          "id": "43c9c2a8-9214-4583-bc38-ff3184d09f8b",
+          "node_id": "581e4504-742a-4e8e-a0f9-36a4d68011bc"
+        },
+        {
+          "key": "parameter",
+          "value": "absorbance",
+          "id": "fba09e2f-dd1b-49a4-be11-0070bf834fbc",
+          "node_id": "581e4504-742a-4e8e-a0f9-36a4d68011bc"
+        },
+        {
+          "key": "time",
+          "value": "10 min",
+          "id": "1869aedc-54c8-4a89-b48b-bd6668f8e760",
+          "node_id": "581e4504-742a-4e8e-a0f9-36a4d68011bc"
+        }
+      ],
+      "emits": []
+    }
+  ],
+  "edges": []
+}

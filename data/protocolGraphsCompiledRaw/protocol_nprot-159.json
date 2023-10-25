@@ -1,0 +1,355 @@
+[
+    {
+        "title": "**Immunizations of mice**",
+        "body": [
+            ""
+        ]
+    },
+    {
+        "title": "**1**",
+        "body": [
+            {
+                "sentence": "Perform precipitation of keyhole limpet hemocyanin \\(KLH) or DNP-KLH in alum as described \\(2).",
+                "result": [
+                    {
+                        "PERFORM": {
+                            "emit": [
+                                {
+                                    "reagent0": "<blank>"
+                                }
+                            ],
+                            "slot": [
+                                {
+                                    "procedure": "precipitation of keyhole limpet hemocyanin (KLH) or DNP-KLH in alum"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "**2**",
+        "body": [
+            {
+                "sentence": "Inject 100 \u00b5g of KLH or DNP-KLH precipitated in alum in a total volume of 300 \u00b5l \\(volume adjusted with PBS) into the peritoneal cavity. Collect serum at d 0, d 7, and d 14 and make serial dilutions in PBS.",
+                "result": [
+                    {
+                        "INJECT": {
+                            "emit": [
+                                {
+                                    "reagent0": "serum at d 0, d 7, and d 14"
+                                }
+                            ],
+                            "slot": [
+                                {
+                                    "reagent1": "KLH or DNP-KLH precipitated in alum"
+                                },
+                                {
+                                    "reagent2/destination": "peritoneal cavity"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "COLLECT": {
+                            "emit": [
+                                {
+                                    "reagent0": "serum at d 0, d 7, and d 14"
+                                }
+                            ],
+                            "slot": [
+                                {
+                                    "reagent1": "serum at d 0, d 7, and d 14"
+                                },
+                                {
+                                    "notice": "Make serial dilutions in PBS."
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "**ELISA for antibody isotype determination**",
+        "body": [
+            ""
+        ]
+    },
+    {
+        "title": "**3**",
+        "body": [
+            {
+                "sentence": "Coat 96-well MaxiSorp<sup>TM</sup> ELISA plates with 50 \u00b5l/well of DNP-ovalbumin \\(5 \u00b5g/ml in PBS), incubate overnight at 4 \u02daC \\(3).",
+                "result": [
+                    {
+                        "COAT": {
+                            "emit": [
+                                {
+                                    "reagent0": "96-well MaxiSorp<sup>TM</sup> ELISA plates"
+                                }
+                            ],
+                            "slot": [
+                                {
+                                    "reagent1": "96-well MaxiSorp<sup>TM</sup> ELISA plates"
+                                },
+                                {
+                                    "reagent2": "DNP-ovalbumin (5 \u00b5g/ml in PBS)"
+                                },
+                                {
+                                    "time": "overnight at 4 \u02daC (3)"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "**4**",
+        "body": [
+            {
+                "sentence": "Wash with PBS + 0.05% Tween 20, block for 3 h with PBS + 2.5% bovine serum albumin. Wash 3x with PBS + 0.05% Tween 20.",
+                "result": [
+                    {
+                        "WASH": {
+                            "emit": [],
+                            "slot": [
+                                {
+                                    "reagent1": "PBS + 0.05% Tween 20"
+                                },
+                                {
+                                    "repeat": "3"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "BLOCK": {
+                            "emit": [
+                                {
+                                    "reagent0": "<blank>"
+                                }
+                            ],
+                            "slot": [
+                                {
+                                    "reagent1": "PBS + 0.05% Tween 20"
+                                },
+                                {
+                                    "reagent2": "PBS + 2.5% bovine serum albumin"
+                                },
+                                {
+                                    "temperature": "room temperature"
+                                },
+                                {
+                                    "time": "3 h"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "WASH": {
+                            "emit": [],
+                            "slot": [
+                                {
+                                    "reagent1": "PBS + 0.05% Tween 20"
+                                },
+                                {
+                                    "repeat": "3"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "**5**",
+        "body": [
+            {
+                "sentence": "Add diluted serum in triplicates, incubate overnight at 4 \u02daC. Wash 3x with PBS + 0.05% Tween 20.",
+                "result": [
+                    {
+                        "ADD": {
+                            "emit": [
+                                {
+                                    "reagent0": "diluted serum"
+                                }
+                            ],
+                            "slot": [
+                                {
+                                    "reagent1": "serum at d 0, d 7, and d 14"
+                                },
+                                {
+                                    "reagent2": "diluted serum"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "INCUBATE": {
+                            "emit": [
+                                {
+                                    "reagent0": "diluted serum"
+                                }
+                            ],
+                            "slot": [
+                                {
+                                    "reagent1": "diluted serum"
+                                },
+                                {
+                                    "temperature": "4 \u02daC"
+                                },
+                                {
+                                    "time": "overnight"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "WASH": {
+                            "emit": [
+                                {
+                                    "reagent0": "diluted serum"
+                                }
+                            ],
+                            "slot": [
+                                {
+                                    "reagent1": "diluted serum"
+                                },
+                                {
+                                    "reagent2": "PBS + 0.05% Tween 20"
+                                },
+                                {
+                                    "repeat": "3"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "**6**",
+        "body": [
+            {
+                "sentence": "Add alkaline phospatase-labeled mouse IgM- and subclass IgG-specific antibodies \\(working dilutions 1:250 \u2013 1:500 in PBS + 2.5% bovine serum albumin). Incubate at 25 \u02daC for 1 h. Wash 5x with PBS + 0.05% Tween 20.",
+                "result": [
+                    {
+                        "ADD": {
+                            "emit": [
+                                {
+                                    "reagent0": "alkaline phosphatase-labeled mouse IgM- and subclass IgG-specific antibodies"
+                                }
+                            ],
+                            "slot": [
+                                {
+                                    "reagent1": "alkaline phosphatase-labeled mouse IgM- and subclass IgG-specific antibodies"
+                                },
+                                {
+                                    "reagent2": "PBS + 2.5% bovine serum albumin"
+                                },
+                                {
+                                    "ratio": "1:250 \u2013 1:500"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "INCUBATE": {
+                            "emit": [
+                                {
+                                    "reagent0": "alkaline phosphatase-labeled mouse IgM- and subclass IgG-specific antibodies"
+                                }
+                            ],
+                            "slot": [
+                                {
+                                    "reagent1": "alkaline phosphatase-labeled mouse IgM- and subclass IgG-specific antibodies"
+                                },
+                                {
+                                    "temperature": "25 \u02daC"
+                                },
+                                {
+                                    "time": "1 h"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "WASH": {
+                            "emit": [
+                                {
+                                    "reagent0": "diluted serum"
+                                }
+                            ],
+                            "slot": [
+                                {
+                                    "reagent1": "diluted serum"
+                                },
+                                {
+                                    "reagent2": "PBS + 0.05% Tween 20"
+                                },
+                                {
+                                    "repeat": "5"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "**7**",
+        "body": [
+            {
+                "sentence": "Add 100 \u00b5l per well of alkaline phosphatase substrate solution. Read optical density of each well at 405 nm at 10 min and 20 min after substrate addition.",
+                "result": [
+                    {
+                        "ADD": {
+                            "emit": [
+                                {
+                                    "reagent0": "alkaline phosphatase substrate solution"
+                                }
+                            ],
+                            "slot": [
+                                {
+                                    "reagent1": "alkaline phosphatase substrate solution"
+                                },
+                                {
+                                    "reagent2": "100 \u00b5l per well"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "READ": {
+                            "emit": [
+                                {
+                                    "data0": "optical density data"
+                                }
+                            ],
+                            "slot": [
+                                {
+                                    "device": "spectrophotometer"
+                                },
+                                {
+                                    "data1": "optical density data file"
+                                },
+                                {
+                                    "parameter": "wavelength: 405 nm"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        ]
+    }
+]

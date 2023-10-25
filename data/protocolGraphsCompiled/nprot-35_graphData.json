@@ -1,0 +1,244 @@
+{
+  "name": "nprot-35_graphData.json",
+  "nodes": [
+    {
+      "id": "60376e89-368b-44fe-863a-bd103f9884b8",
+      "text": "Dilute the plasmid DNA with sterile PBS right before injection. The final concentration of the DNA should be calculated from the total amount of DNA/mouse.",
+      "instruction": "DILUTE",
+      "slots": [
+        {
+          "key": "reagent1",
+          "value": "plasmid DNA",
+          "id": "2abdfd17-90fa-4862-9549-5861bb8ba206",
+          "node_id": "60376e89-368b-44fe-863a-bd103f9884b8"
+        },
+        {
+          "key": "reagent2",
+          "value": "sterile PBS",
+          "id": "642f833e-db47-4ab1-9180-1219500749db",
+          "node_id": "60376e89-368b-44fe-863a-bd103f9884b8"
+        },
+        {
+          "key": "targetConcentration",
+          "value": "<blank>",
+          "id": "20ce7cde-9ff9-422d-a1b7-34bcc069aaa7",
+          "node_id": "60376e89-368b-44fe-863a-bd103f9884b8"
+        }
+      ],
+      "emits": [
+        {
+          "key": "reagent0",
+          "value": "<blank>",
+          "id": "91727216-d918-4cb9-904e-c2d675f1816c",
+          "node_id": "60376e89-368b-44fe-863a-bd103f9884b8"
+        }
+      ]
+    },
+    {
+      "id": "1a605a6d-433b-4e86-a7e5-e25a928a9124",
+      "text": "Dilute the plasmid DNA with sterile PBS right before injection. The final concentration of the DNA should be calculated from the total amount of DNA/mouse.",
+      "instruction": "CALCULATE",
+      "slots": [
+        {
+          "key": "attribute",
+          "value": "final concentration of the DNA",
+          "id": "44d6e109-ee7a-44ec-9f6b-3eba1b108dbd",
+          "node_id": "1a605a6d-433b-4e86-a7e5-e25a928a9124"
+        },
+        {
+          "key": "formula",
+          "value": "total amount of DNA/mouse",
+          "id": "4f33bdcc-16ea-47c1-84ab-353f0616209f",
+          "node_id": "1a605a6d-433b-4e86-a7e5-e25a928a9124"
+        }
+      ],
+      "emits": []
+    },
+    {
+      "id": "5b61112f-df93-426b-b421-54de811f2055",
+      "text": "Take 2 ml of the solution into a 3 ml syringe and put a 27-gauge needle to the syringe. Avoid any air bubbles in the syringe.",
+      "instruction": "TAKE",
+      "slots": [
+        {
+          "key": "reagent1",
+          "value": "2 ml of the solution",
+          "id": "cf08c7c9-6040-461b-9e84-a799250be976",
+          "node_id": "5b61112f-df93-426b-b421-54de811f2055"
+        },
+        {
+          "key": "volume",
+          "value": "3 ml",
+          "id": "7fe16959-a44a-42ac-9ed8-ec474df922ea",
+          "node_id": "5b61112f-df93-426b-b421-54de811f2055"
+        },
+        {
+          "key": "device",
+          "value": "syringe",
+          "id": "1ea278ce-40c0-4d04-8ea4-eabe57a7c2e2",
+          "node_id": "5b61112f-df93-426b-b421-54de811f2055"
+        },
+        {
+          "key": "notice",
+          "value": "Avoid any air bubbles in the syringe.",
+          "id": "ba5bc771-7814-4232-9cad-ec49b8f2fdc5",
+          "node_id": "5b61112f-df93-426b-b421-54de811f2055"
+        }
+      ],
+      "emits": [
+        {
+          "key": "reagent0",
+          "value": "2 ml of the solution",
+          "id": "77a73c6b-9ebc-4a5d-91f1-1a5f86271d27",
+          "node_id": "5b61112f-df93-426b-b421-54de811f2055"
+        }
+      ]
+    },
+    {
+      "id": "5fc300b5-c179-4121-b443-fc641ef94322",
+      "text": "Take 2 ml of the solution into a 3 ml syringe and put a 27-gauge needle to the syringe. Avoid any air bubbles in the syringe.",
+      "instruction": "PUT",
+      "slots": [
+        {
+          "key": "reagent1",
+          "value": "27-gauge needle",
+          "id": "19d7e74a-964a-413b-9b59-9254c627f031",
+          "node_id": "5fc300b5-c179-4121-b443-fc641ef94322"
+        },
+        {
+          "key": "destination",
+          "value": "syringe",
+          "id": "db5f3389-579a-4a62-b7b7-8a046c9ae208",
+          "node_id": "5fc300b5-c179-4121-b443-fc641ef94322"
+        },
+        {
+          "key": "notice",
+          "value": "Avoid any air bubbles in the syringe.",
+          "id": "da4d0561-19e1-48c6-bad8-393998cac59d",
+          "node_id": "5fc300b5-c179-4121-b443-fc641ef94322"
+        }
+      ],
+      "emits": [
+        {
+          "key": "reagent0",
+          "value": "2 ml of the solution",
+          "id": "abe75dd3-9841-443e-8e7d-7299a82e6f15",
+          "node_id": "5fc300b5-c179-4121-b443-fc641ef94322"
+        }
+      ]
+    },
+    {
+      "id": "9b4b2bc9-3199-4568-9723-550c2856c3cb",
+      "text": "Warm up a mouse using a Heatlamp for 1-2 minutes.",
+      "instruction": "WARM",
+      "slots": [
+        {
+          "key": "reagent1",
+          "value": "mouse",
+          "id": "afd9f755-633d-4095-9de2-5378880a90cf",
+          "node_id": "9b4b2bc9-3199-4568-9723-550c2856c3cb"
+        },
+        {
+          "key": "temperature",
+          "value": "Heatlamp",
+          "id": "b2f74839-d533-4440-8d09-cfd881aaf6f1",
+          "node_id": "9b4b2bc9-3199-4568-9723-550c2856c3cb"
+        },
+        {
+          "key": "time",
+          "value": "1-2 minutes",
+          "id": "387eaa73-004f-4387-a539-ae2e50aa7dae",
+          "node_id": "9b4b2bc9-3199-4568-9723-550c2856c3cb"
+        }
+      ],
+      "emits": [
+        {
+          "key": "reagent0",
+          "value": "mouse",
+          "id": "40ddacef-2895-47a8-8078-8234ec7b7824",
+          "node_id": "9b4b2bc9-3199-4568-9723-550c2856c3cb"
+        }
+      ]
+    },
+    {
+      "id": "0582f06f-bc46-4889-afcb-251831dbf640",
+      "text": "Fix the mouse in a Mouse Tail Illuminator.",
+      "instruction": "FIX",
+      "slots": [
+        {
+          "key": "reagent1",
+          "value": "mouse",
+          "id": "194306af-b004-4baf-a7fc-ffb17538b2ed",
+          "node_id": "0582f06f-bc46-4889-afcb-251831dbf640"
+        },
+        {
+          "key": "reagent2",
+          "value": "Mouse Tail Illuminator",
+          "id": "69b1da7f-a53c-4cb0-92c4-1c7c45ca56ad",
+          "node_id": "0582f06f-bc46-4889-afcb-251831dbf640"
+        },
+        {
+          "key": "temperature",
+          "value": "room temperature",
+          "id": "44aeaac6-8739-4e2d-8204-8fb28f0cd8ab",
+          "node_id": "0582f06f-bc46-4889-afcb-251831dbf640"
+        }
+      ],
+      "emits": [
+        {
+          "key": "reagent0",
+          "value": "mouse",
+          "id": "ebb3079d-b77a-4c0d-9944-51eaae6d3df2",
+          "node_id": "0582f06f-bc46-4889-afcb-251831dbf640"
+        }
+      ]
+    },
+    {
+      "id": "e332de93-5fc6-4388-9446-87369d99e2b3",
+      "text": "Inject the DNA solution from the tail vein in 5-7 seconds and put the mouse back into the cage. Mice may become less active transiently, but recover within 10 minutes.",
+      "instruction": "INJECT",
+      "slots": [
+        {
+          "key": "reagent1",
+          "value": "DNA solution",
+          "id": "c8c30d19-82a9-4067-8464-4c044f28b027",
+          "node_id": "e332de93-5fc6-4388-9446-87369d99e2b3"
+        },
+        {
+          "key": "reagent2/destination",
+          "value": "tail vein",
+          "id": "ce62e85b-ac44-40fe-bcce-d98c45227ed5",
+          "node_id": "e332de93-5fc6-4388-9446-87369d99e2b3"
+        }
+      ],
+      "emits": [
+        {
+          "key": "reagent0",
+          "value": "DNA solution",
+          "id": "7cd5e4a9-5123-4130-b353-7b793ed32c90",
+          "node_id": "e332de93-5fc6-4388-9446-87369d99e2b3"
+        }
+      ]
+    },
+    {
+      "id": "12e041c7-8b6e-45d8-a75c-248dab593368",
+      "text": "Inject the DNA solution from the tail vein in 5-7 seconds and put the mouse back into the cage. Mice may become less active transiently, but recover within 10 minutes.",
+      "instruction": "PUT",
+      "slots": [
+        {
+          "key": "reagent1",
+          "value": "mouse",
+          "id": "d86ec824-4f4c-46a2-b70e-4922a5d25f5b",
+          "node_id": "12e041c7-8b6e-45d8-a75c-248dab593368"
+        },
+        {
+          "key": "destination",
+          "value": "cage",
+          "id": "b7b2232c-afe9-47aa-aec4-49aea90c5256",
+          "node_id": "12e041c7-8b6e-45d8-a75c-248dab593368"
+        }
+      ],
+      "emits": []
+    }
+  ],
+  "edges": []
+}

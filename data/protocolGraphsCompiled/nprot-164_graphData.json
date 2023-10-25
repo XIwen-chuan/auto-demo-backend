@@ -1,0 +1,604 @@
+{
+  "name": "nprot-164_graphData.json",
+  "nodes": [
+    {
+      "id": "5046a36d-b202-4d21-a7bb-860174d19287",
+      "text": "Add 50 &#x3BC;l of ice cold TBS to 1&#xD7;10<sup>6</sup> B cells.",
+      "instruction": "ADD",
+      "slots": [
+        {
+          "key": "reagent2",
+          "value": "TBS",
+          "id": "b7c2a976-da6c-4bc1-a592-84efa93d608f",
+          "node_id": "5046a36d-b202-4d21-a7bb-860174d19287"
+        }
+      ],
+      "emits": []
+    },
+    {
+      "id": "b3c83218-6058-496b-a260-76e2e16b9d2c",
+      "text": "Add 60 &#x3BC;l of TBS containing 2% SDS, mix quickly.",
+      "instruction": "ADD",
+      "slots": [
+        {
+          "key": "reagent1",
+          "value": "TBS containing 2% SDS",
+          "id": "fb7f1fd6-ea0b-42fa-8b71-cb3800d24ee4",
+          "node_id": "b3c83218-6058-496b-a260-76e2e16b9d2c"
+        }
+      ],
+      "emits": [
+        {
+          "key": "reagent0",
+          "value": "TBS containing 2% SDS",
+          "id": "07dd87a3-52bb-41c3-b7e8-b4e6645873b3",
+          "node_id": "b3c83218-6058-496b-a260-76e2e16b9d2c"
+        }
+      ]
+    },
+    {
+      "id": "d9ce6de0-697c-4288-8e25-33bc5c1a5310",
+      "text": "Add 60 &#x3BC;l of TBS containing 2% SDS, mix quickly.",
+      "instruction": "MIX",
+      "slots": [
+        {
+          "key": "reagent1",
+          "value": "TBS containing 2% SDS",
+          "id": "cf30b3f5-6be5-4c73-9993-509b41fa108c",
+          "node_id": "d9ce6de0-697c-4288-8e25-33bc5c1a5310"
+        },
+        {
+          "key": "method",
+          "value": "quickly",
+          "id": "357dee1c-0814-416e-8cfe-662b1204ddb3",
+          "node_id": "d9ce6de0-697c-4288-8e25-33bc5c1a5310"
+        }
+      ],
+      "emits": [
+        {
+          "key": "reagent0",
+          "value": "TBS containing 2% SDS",
+          "id": "9b0eb1b0-5c39-4841-b0c9-5146cdf8e70a",
+          "node_id": "d9ce6de0-697c-4288-8e25-33bc5c1a5310"
+        }
+      ]
+    },
+    {
+      "id": "3cd3bf1b-f8f3-40df-9a20-8748c9308326",
+      "text": "Heat denature for 10 min.",
+      "instruction": "HEAT",
+      "slots": [
+        {
+          "key": "reagent1",
+          "value": "TBS containing 2% SDS",
+          "id": "b3921434-d7f7-4c01-aa3f-c78d498c9b0d",
+          "node_id": "3cd3bf1b-f8f3-40df-9a20-8748c9308326"
+        },
+        {
+          "key": "time",
+          "value": "10 min",
+          "id": "6e4aa545-8727-48ea-8af0-f52d47007ba0",
+          "node_id": "3cd3bf1b-f8f3-40df-9a20-8748c9308326"
+        }
+      ],
+      "emits": [
+        {
+          "key": "reagent0",
+          "value": "TBS containing 2% SDS",
+          "id": "039cdd77-caf9-41a4-b72b-bb2fe491a738",
+          "node_id": "3cd3bf1b-f8f3-40df-9a20-8748c9308326"
+        }
+      ]
+    },
+    {
+      "id": "bba0ab78-50d6-46f8-be11-fdd413c4d070",
+      "text": "Place immediately on ice for 5 min.",
+      "instruction": "PLACE",
+      "slots": [
+        {
+          "key": "reagent1",
+          "value": "TBS containing 2% SDS",
+          "id": "918a3b24-1599-4925-bbcd-39644967252d",
+          "node_id": "bba0ab78-50d6-46f8-be11-fdd413c4d070"
+        },
+        {
+          "key": "destination",
+          "value": "ice",
+          "id": "f8376219-f602-410d-9a3e-875d76c0d6c6",
+          "node_id": "bba0ab78-50d6-46f8-be11-fdd413c4d070"
+        }
+      ],
+      "emits": [
+        {
+          "key": "reagent0",
+          "value": "TBS containing 2% SDS",
+          "id": "18a2c679-848d-41d2-8b18-4edd42f1eb90",
+          "node_id": "bba0ab78-50d6-46f8-be11-fdd413c4d070"
+        }
+      ]
+    },
+    {
+      "id": "6e18500e-7314-4efb-8426-05ad4a71a784",
+      "text": "Add 900 &#x3BC;l of TBS containing 1% Triton X-100.",
+      "instruction": "ADD",
+      "slots": [
+        {
+          "key": "reagent1",
+          "value": "TBS containing 1% Triton X-100",
+          "id": "f1fed3e8-24bc-4230-b4da-7cb693fa4f2f",
+          "node_id": "6e18500e-7314-4efb-8426-05ad4a71a784"
+        }
+      ],
+      "emits": [
+        {
+          "key": "reagent0",
+          "value": "TBS containing 1% Triton X-100",
+          "id": "7c8d445e-7138-4335-a1bb-729969b4f5c2",
+          "node_id": "6e18500e-7314-4efb-8426-05ad4a71a784"
+        }
+      ]
+    },
+    {
+      "id": "81b23513-f185-4a15-920f-25be1935635f",
+      "text": "Add anti-ubiquitin \\(clone Ubi-1, 1-3 &#x3BC;g) and incubate at 4 &#x2DA;C overnight on rotator.",
+      "instruction": "ADD",
+      "slots": [
+        {
+          "key": "reagent1",
+          "value": "TBS containing 2% SDS",
+          "id": "f45fb2e7-65ba-4d77-9fb7-3a95fd06f21e",
+          "node_id": "81b23513-f185-4a15-920f-25be1935635f"
+        },
+        {
+          "key": "reagent2",
+          "value": "anti-ubiquitin (clone Ubi-1, 1-3 \u03bcg)",
+          "id": "7a147023-ce9e-442e-a440-a1b1b90f48f4",
+          "node_id": "81b23513-f185-4a15-920f-25be1935635f"
+        }
+      ],
+      "emits": [
+        {
+          "key": "reagent0",
+          "value": "TBS containing 2% SDS",
+          "id": "685c9d1c-c7c2-4684-95ed-a529760d18ba",
+          "node_id": "81b23513-f185-4a15-920f-25be1935635f"
+        }
+      ]
+    },
+    {
+      "id": "df5eeb27-1760-4f78-9e0b-978605b48f6f",
+      "text": "Add anti-ubiquitin \\(clone Ubi-1, 1-3 &#x3BC;g) and incubate at 4 &#x2DA;C overnight on rotator.",
+      "instruction": "INCUBATE",
+      "slots": [
+        {
+          "key": "reagent1",
+          "value": "anti-ubiquitin (clone Ubi-1, 1-3 \u03bcg)",
+          "id": "5ee5328d-8703-420f-97c8-2aaa7b5c973c",
+          "node_id": "df5eeb27-1760-4f78-9e0b-978605b48f6f"
+        },
+        {
+          "key": "temperature",
+          "value": "4 \u00b0C",
+          "id": "4e01615f-f3f5-4a96-8556-7bfa469b37e0",
+          "node_id": "df5eeb27-1760-4f78-9e0b-978605b48f6f"
+        },
+        {
+          "key": "time",
+          "value": "overnight",
+          "id": "61a6d90c-e437-4b7f-b24b-c7cc833a7f02",
+          "node_id": "df5eeb27-1760-4f78-9e0b-978605b48f6f"
+        },
+        {
+          "key": "device",
+          "value": "rotator",
+          "id": "f4e67133-2cf2-4a4a-a52b-1c66dbb1c216",
+          "node_id": "df5eeb27-1760-4f78-9e0b-978605b48f6f"
+        }
+      ],
+      "emits": [
+        {
+          "key": "reagent0",
+          "value": "anti-ubiquitin (clone Ubi-1, 1-3 \u03bcg)",
+          "id": "2059e399-9aa6-4cb0-ad95-3543b0dc7a69",
+          "node_id": "df5eeb27-1760-4f78-9e0b-978605b48f6f"
+        }
+      ]
+    },
+    {
+      "id": "0a7dadb6-c524-4a17-9617-9cd04e5be20e",
+      "text": "Add Protein G beads \\(50 &#x3BC;l) to the supernatant , incubate at 4 &#x2DA;C for 1 h on rotator.",
+      "instruction": "ADD",
+      "slots": [
+        {
+          "key": "reagent1",
+          "value": "TBS containing 2% SDS",
+          "id": "36585bb8-db87-4a70-8823-396b7c9dbf01",
+          "node_id": "0a7dadb6-c524-4a17-9617-9cd04e5be20e"
+        },
+        {
+          "key": "reagent2",
+          "value": "Protein G beads (50 \u03bcl)",
+          "id": "cb79fb77-c95f-4027-a744-ec054886f74b",
+          "node_id": "0a7dadb6-c524-4a17-9617-9cd04e5be20e"
+        }
+      ],
+      "emits": [
+        {
+          "key": "reagent0",
+          "value": "Protein G beads (50 \u03bcl)",
+          "id": "dc065799-6060-4015-ac46-a953d0a41d7e",
+          "node_id": "0a7dadb6-c524-4a17-9617-9cd04e5be20e"
+        }
+      ]
+    },
+    {
+      "id": "775ecadb-8765-4488-87de-bd32015ce19c",
+      "text": "Add Protein G beads \\(50 &#x3BC;l) to the supernatant , incubate at 4 &#x2DA;C for 1 h on rotator.",
+      "instruction": "INCUBATE",
+      "slots": [
+        {
+          "key": "reagent1",
+          "value": "Protein G beads (50 \u03bcl)",
+          "id": "d488fb7a-9bc1-4a6d-b470-31dedc9ae339",
+          "node_id": "775ecadb-8765-4488-87de-bd32015ce19c"
+        },
+        {
+          "key": "temperature",
+          "value": "4 \u00b0C",
+          "id": "3e1e55ad-b9de-4ef6-8d2b-af9bc536c0fa",
+          "node_id": "775ecadb-8765-4488-87de-bd32015ce19c"
+        },
+        {
+          "key": "time",
+          "value": "1 h",
+          "id": "b39aacfe-b7fa-4e44-b154-954f46ce3d9a",
+          "node_id": "775ecadb-8765-4488-87de-bd32015ce19c"
+        },
+        {
+          "key": "device",
+          "value": "rotator",
+          "id": "33dfb95b-26b5-4d9b-9e6e-7c2f56b4407d",
+          "node_id": "775ecadb-8765-4488-87de-bd32015ce19c"
+        }
+      ],
+      "emits": []
+    },
+    {
+      "id": "2ffe687c-d6df-4dd6-a93c-be1fd21043ad",
+      "text": "Wash the beads once with 0.5 ml of TBS containing 1% Triton X-100 and 0.1% SDS, and centrifuge \\(10 000 rpm, 4 &#x2DA;C, 1 min).",
+      "instruction": "WASH",
+      "slots": [
+        {
+          "key": "reagent1",
+          "value": "beads",
+          "id": "ee8c4183-c3b3-4e3f-b678-6bdb8cff81b8",
+          "node_id": "2ffe687c-d6df-4dd6-a93c-be1fd21043ad"
+        },
+        {
+          "key": "reagent2",
+          "value": "TBS containing 1% Triton X-100 and 0.1% SDS",
+          "id": "b6b26219-36c5-4fcc-b2af-a9c960f8709e",
+          "node_id": "2ffe687c-d6df-4dd6-a93c-be1fd21043ad"
+        },
+        {
+          "key": "repeat",
+          "value": "1",
+          "id": "4a32d09a-aaab-4606-abeb-283d6adddd62",
+          "node_id": "2ffe687c-d6df-4dd6-a93c-be1fd21043ad"
+        }
+      ],
+      "emits": [
+        {
+          "key": "reagent0",
+          "value": "beads",
+          "id": "5189244f-2cdd-470b-80c7-148cbd53fac6",
+          "node_id": "2ffe687c-d6df-4dd6-a93c-be1fd21043ad"
+        }
+      ]
+    },
+    {
+      "id": "dac54bea-7265-41ac-83c4-15703fb1465c",
+      "text": "Wash the beads once with 0.5 ml of TBS containing 1% Triton X-100 and 0.1% SDS, and centrifuge \\(10 000 rpm, 4 &#x2DA;C, 1 min).",
+      "instruction": "CENTRIFUGE",
+      "slots": [
+        {
+          "key": "reagent1",
+          "value": "beads",
+          "id": "b1838155-b2ef-48b6-b02e-a9d96576572b",
+          "node_id": "dac54bea-7265-41ac-83c4-15703fb1465c"
+        },
+        {
+          "key": "intensity",
+          "value": "10,000 rpm",
+          "id": "5ae12b96-f30c-41ef-96e0-7dd8110110c7",
+          "node_id": "dac54bea-7265-41ac-83c4-15703fb1465c"
+        },
+        {
+          "key": "time",
+          "value": "1 min",
+          "id": "0cef4eec-f602-4fc5-852d-7b613eaf9679",
+          "node_id": "dac54bea-7265-41ac-83c4-15703fb1465c"
+        },
+        {
+          "key": "temperature",
+          "value": "4\u00b0C",
+          "id": "204817d2-cce6-497b-838f-643742e583b4",
+          "node_id": "dac54bea-7265-41ac-83c4-15703fb1465c"
+        }
+      ],
+      "emits": [
+        {
+          "key": "reagent0",
+          "value": "beads",
+          "id": "defc1eef-109e-41da-9ca4-18c6a335d14e",
+          "node_id": "dac54bea-7265-41ac-83c4-15703fb1465c"
+        }
+      ]
+    },
+    {
+      "id": "7694acb8-f333-47b3-b59b-7a5516cef857",
+      "text": "Wash the beads twice with 0.5 ml of TBS containing 1% Triton X-100 and 0.5 M LiCl, and centrifuge \\(10 000 rpm, 4 &#x2DA;C, 1 min).",
+      "instruction": "WASH",
+      "slots": [
+        {
+          "key": "reagent1",
+          "value": "beads",
+          "id": "accd700c-395f-44c1-ab5f-715205037125",
+          "node_id": "7694acb8-f333-47b3-b59b-7a5516cef857"
+        },
+        {
+          "key": "reagent2",
+          "value": "TBS containing 1% Triton X-100 and 0.5 M LiCl",
+          "id": "cf469a8a-a7c4-4b41-bfc9-5734ff1de9b3",
+          "node_id": "7694acb8-f333-47b3-b59b-7a5516cef857"
+        },
+        {
+          "key": "repeat",
+          "value": "2",
+          "id": "30a4d13d-47bb-494a-9f7f-2ab019854213",
+          "node_id": "7694acb8-f333-47b3-b59b-7a5516cef857"
+        }
+      ],
+      "emits": [
+        {
+          "key": "reagent0",
+          "value": "beads",
+          "id": "6948615a-15b4-4339-9f9d-9a1937ecd4ac",
+          "node_id": "7694acb8-f333-47b3-b59b-7a5516cef857"
+        }
+      ]
+    },
+    {
+      "id": "17b2ed59-408a-4dfd-8fcd-b818224c111b",
+      "text": "Wash the beads twice with 0.5 ml of TBS containing 1% Triton X-100 and 0.5 M LiCl, and centrifuge \\(10 000 rpm, 4 &#x2DA;C, 1 min).",
+      "instruction": "CENTRIFUGE",
+      "slots": [
+        {
+          "key": "reagent1",
+          "value": "beads",
+          "id": "794eb172-327a-4d5e-b86b-b75d17f5a5bc",
+          "node_id": "17b2ed59-408a-4dfd-8fcd-b818224c111b"
+        },
+        {
+          "key": "intensity",
+          "value": "10,000 rpm",
+          "id": "eb79a900-7f77-4267-863d-2bd31ed2fdca",
+          "node_id": "17b2ed59-408a-4dfd-8fcd-b818224c111b"
+        },
+        {
+          "key": "time",
+          "value": "1 min",
+          "id": "9697de7d-d5b2-4209-9f4d-f485a7979cb2",
+          "node_id": "17b2ed59-408a-4dfd-8fcd-b818224c111b"
+        },
+        {
+          "key": "temperature",
+          "value": "4\u00b0C",
+          "id": "4d0513f9-66af-44c6-ae21-b62acc460dfa",
+          "node_id": "17b2ed59-408a-4dfd-8fcd-b818224c111b"
+        }
+      ],
+      "emits": [
+        {
+          "key": "reagent0",
+          "value": "beads",
+          "id": "d1bbf3b1-f936-4e99-8eb0-ab1cff15e806",
+          "node_id": "17b2ed59-408a-4dfd-8fcd-b818224c111b"
+        }
+      ]
+    },
+    {
+      "id": "3f47c93f-dee5-4302-93c6-1cbe8f139655",
+      "text": "Wash the beads once with 0.5 ml of TBS containing 1% Triton X-100 and centrifuge \\(10 000 rpm, 4 &#x2DA;C, 1 min).",
+      "instruction": "WASH",
+      "slots": [
+        {
+          "key": "reagent1",
+          "value": "beads",
+          "id": "44ce9aae-4b86-43a3-9aae-71e44c1dc77b",
+          "node_id": "3f47c93f-dee5-4302-93c6-1cbe8f139655"
+        },
+        {
+          "key": "reagent2",
+          "value": "TBS containing 1% Triton X-100",
+          "id": "32451163-9ae9-44ba-9d8f-f3b23113dcf1",
+          "node_id": "3f47c93f-dee5-4302-93c6-1cbe8f139655"
+        },
+        {
+          "key": "repeat",
+          "value": "1",
+          "id": "3b19b964-57f4-49cf-8dff-8d812e6c2c21",
+          "node_id": "3f47c93f-dee5-4302-93c6-1cbe8f139655"
+        },
+        {
+          "key": "notice",
+          "value": "Centrifuge at 10,000 rpm, 4\u00b0C, for 1 min.",
+          "id": "08816b9e-9ff0-4a38-b9ae-fdb9f25681d7",
+          "node_id": "3f47c93f-dee5-4302-93c6-1cbe8f139655"
+        }
+      ],
+      "emits": [
+        {
+          "key": "reagent0",
+          "value": "beads",
+          "id": "53aeea38-2bc7-40c4-951f-22d40c8e3ace",
+          "node_id": "3f47c93f-dee5-4302-93c6-1cbe8f139655"
+        }
+      ]
+    },
+    {
+      "id": "29088dd1-b391-4f66-a2bd-d594df6a6316",
+      "text": "Add 50 &#x3BC;l of SDS sample buffer containing 10 mM DTT \\(Sigma) to the beads, boil at 98 &#x2DA;C for 5 min, centrifuge \\(10 000 rpm, 25 &#x2DA;C, 2 min), and apply the supernatant to SDS-polyacrylamide gel. Perform immunoblot.",
+      "instruction": "ADD",
+      "slots": [
+        {
+          "key": "reagent1",
+          "value": "Protein G beads (50 \u03bcl)",
+          "id": "873e19dc-15d4-4e55-b864-db94a3887886",
+          "node_id": "29088dd1-b391-4f66-a2bd-d594df6a6316"
+        },
+        {
+          "key": "reagent2",
+          "value": "SDS sample buffer containing 10 mM DTT (Sigma)",
+          "id": "1db473cc-7087-46e0-afa8-ab710388048e",
+          "node_id": "29088dd1-b391-4f66-a2bd-d594df6a6316"
+        }
+      ],
+      "emits": [
+        {
+          "key": "reagent0",
+          "value": "Protein G beads (50 \u03bcl)",
+          "id": "37fb28cc-a326-4f82-a0cd-6850f4741c7f",
+          "node_id": "29088dd1-b391-4f66-a2bd-d594df6a6316"
+        }
+      ]
+    },
+    {
+      "id": "f6f3f07f-f74f-4fc9-9797-4b35ad05a0dc",
+      "text": "Add 50 &#x3BC;l of SDS sample buffer containing 10 mM DTT \\(Sigma) to the beads, boil at 98 &#x2DA;C for 5 min, centrifuge \\(10 000 rpm, 25 &#x2DA;C, 2 min), and apply the supernatant to SDS-polyacrylamide gel. Perform immunoblot.",
+      "instruction": "BOIL",
+      "slots": [
+        {
+          "key": "reagent1",
+          "value": "Protein G beads (50 \u03bcl)",
+          "id": "a5cc89fd-8495-4192-af8e-1d665e95d7f5",
+          "node_id": "f6f3f07f-f74f-4fc9-9797-4b35ad05a0dc"
+        },
+        {
+          "key": "temperature",
+          "value": "98 \u00b0C",
+          "id": "48e26942-3978-4bac-9f8f-d8b90275fc0d",
+          "node_id": "f6f3f07f-f74f-4fc9-9797-4b35ad05a0dc"
+        },
+        {
+          "key": "time",
+          "value": "5 min",
+          "id": "98a3dfc4-c385-424c-8007-882df0cec565",
+          "node_id": "f6f3f07f-f74f-4fc9-9797-4b35ad05a0dc"
+        }
+      ],
+      "emits": [
+        {
+          "key": "reagent0",
+          "value": "Protein G beads (50 \u03bcl)",
+          "id": "525d4dd8-1b78-4461-87f9-2cbb9a311b4f",
+          "node_id": "f6f3f07f-f74f-4fc9-9797-4b35ad05a0dc"
+        }
+      ]
+    },
+    {
+      "id": "5a0eeda8-167b-4753-b783-15a9f209722c",
+      "text": "Add 50 &#x3BC;l of SDS sample buffer containing 10 mM DTT \\(Sigma) to the beads, boil at 98 &#x2DA;C for 5 min, centrifuge \\(10 000 rpm, 25 &#x2DA;C, 2 min), and apply the supernatant to SDS-polyacrylamide gel. Perform immunoblot.",
+      "instruction": "CENTRIFUGE",
+      "slots": [
+        {
+          "key": "reagent1",
+          "value": "beads",
+          "id": "89b86e0f-86d6-4a4d-b8ee-4243810f01a9",
+          "node_id": "5a0eeda8-167b-4753-b783-15a9f209722c"
+        },
+        {
+          "key": "intensity",
+          "value": "10 000 rpm",
+          "id": "fa14eb2e-6c64-4286-b3f5-fa84c0f9cb97",
+          "node_id": "5a0eeda8-167b-4753-b783-15a9f209722c"
+        },
+        {
+          "key": "time",
+          "value": "2 min",
+          "id": "1713af5b-ac11-4bde-8eb5-35155b58a86a",
+          "node_id": "5a0eeda8-167b-4753-b783-15a9f209722c"
+        },
+        {
+          "key": "temperature",
+          "value": "25 \u00b0C",
+          "id": "dda4ca20-018a-4f99-b9e7-433a5a81efa1",
+          "node_id": "5a0eeda8-167b-4753-b783-15a9f209722c"
+        }
+      ],
+      "emits": [
+        {
+          "key": "reagent0",
+          "value": "beads",
+          "id": "b4c911b8-03b8-490d-a989-6633a46a1701",
+          "node_id": "5a0eeda8-167b-4753-b783-15a9f209722c"
+        }
+      ]
+    },
+    {
+      "id": "0712ba7e-71ac-4b40-b81b-15af969ec7c5",
+      "text": "Add 50 &#x3BC;l of SDS sample buffer containing 10 mM DTT \\(Sigma) to the beads, boil at 98 &#x2DA;C for 5 min, centrifuge \\(10 000 rpm, 25 &#x2DA;C, 2 min), and apply the supernatant to SDS-polyacrylamide gel. Perform immunoblot.",
+      "instruction": "APPLY",
+      "slots": [
+        {
+          "key": "reagent1",
+          "value": "Protein G beads (50 \u03bcl)",
+          "id": "9f69ea61-8425-4e11-a880-54e7fb634ed7",
+          "node_id": "0712ba7e-71ac-4b40-b81b-15af969ec7c5"
+        },
+        {
+          "key": "reagent2",
+          "value": "SDS sample buffer containing 10 mM DTT (Sigma)",
+          "id": "37629eda-b6f7-494a-8027-96113240663d",
+          "node_id": "0712ba7e-71ac-4b40-b81b-15af969ec7c5"
+        }
+      ],
+      "emits": [
+        {
+          "key": "reagent0",
+          "value": "supernatant",
+          "id": "16c87fb2-b04a-4909-9563-76feae29f60b",
+          "node_id": "0712ba7e-71ac-4b40-b81b-15af969ec7c5"
+        }
+      ]
+    },
+    {
+      "id": "305dce0a-a7a2-47dc-aea3-dc7895ca5869",
+      "text": "Add 50 &#x3BC;l of SDS sample buffer containing 10 mM DTT \\(Sigma) to the beads, boil at 98 &#x2DA;C for 5 min, centrifuge \\(10 000 rpm, 25 &#x2DA;C, 2 min), and apply the supernatant to SDS-polyacrylamide gel. Perform immunoblot.",
+      "instruction": "PERFORM",
+      "slots": [
+        {
+          "key": "procedure",
+          "value": "Perform immunoblot",
+          "id": "5e5eb160-0061-4ede-9f48-c9f0bb6392f4",
+          "node_id": "305dce0a-a7a2-47dc-aea3-dc7895ca5869"
+        },
+        {
+          "key": "reagent1",
+          "value": "Protein G beads (50 \u03bcl)",
+          "id": "aade79dd-0d92-4228-9444-f3b435c11e18",
+          "node_id": "305dce0a-a7a2-47dc-aea3-dc7895ca5869"
+        }
+      ],
+      "emits": [
+        {
+          "key": "reagent0",
+          "value": "beads",
+          "id": "c132f119-06c9-4c24-bafa-5628ccbc15f1",
+          "node_id": "305dce0a-a7a2-47dc-aea3-dc7895ca5869"
+        }
+      ]
+    }
+  ],
+  "edges": []
+}

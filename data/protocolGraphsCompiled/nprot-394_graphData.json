@@ -1,0 +1,207 @@
+{
+  "name": "nprot-394_graphData.json",
+  "nodes": [
+    {
+      "id": "b9c0fbc7-5421-4c59-ae5a-f3aaf40dcb61",
+      "text": "2x500ml Sf9 cells at 2x10<sup>6</sup> cell/ml\r\n\n\n10ml virus\r\n\n\n27 &#xB0;C\r\n\n\n130rpm",
+      "instruction": "PREPARE",
+      "slots": [
+        {
+          "key": "reagent1",
+          "value": "2x500ml Sf9 cells",
+          "id": "836893dc-2053-4fd2-ad11-cddd77485cf4",
+          "node_id": "b9c0fbc7-5421-4c59-ae5a-f3aaf40dcb61"
+        },
+        {
+          "key": "concentration",
+          "value": "2x10^6 cell/ml",
+          "id": "ae3832b7-98c0-4dba-b8cf-22b40c5e1345",
+          "node_id": "b9c0fbc7-5421-4c59-ae5a-f3aaf40dcb61"
+        },
+        {
+          "key": "temperature",
+          "value": "27 \u00b0C",
+          "id": "883963d5-15e0-48ba-8f32-c33d030a790d",
+          "node_id": "b9c0fbc7-5421-4c59-ae5a-f3aaf40dcb61"
+        },
+        {
+          "key": "device",
+          "value": "130rpm",
+          "id": "fba7fd77-c327-498f-b6e1-0c7869db0a4f",
+          "node_id": "b9c0fbc7-5421-4c59-ae5a-f3aaf40dcb61"
+        }
+      ],
+      "emits": [
+        {
+          "key": "reagent0",
+          "value": "2x500ml Sf9 cells",
+          "id": "dbf0d7c3-424b-4af1-a799-bdce1af3c364",
+          "node_id": "b9c0fbc7-5421-4c59-ae5a-f3aaf40dcb61"
+        }
+      ]
+    },
+    {
+      "id": "603b0f0d-ec32-416f-8517-6a93c982e812",
+      "text": "2x500ml Sf9 cells at 2x10<sup>6</sup> cell/ml\r\n\n\n10ml virus\r\n\n\n27 &#xB0;C\r\n\n\n130rpm",
+      "instruction": "PREPARE",
+      "slots": [
+        {
+          "key": "reagent1",
+          "value": "virus",
+          "id": "891b9f19-aeed-40d3-9484-6701ac8f3afb",
+          "node_id": "603b0f0d-ec32-416f-8517-6a93c982e812"
+        },
+        {
+          "key": "container",
+          "value": "10ml",
+          "id": "d508ba44-3619-4faa-8276-83f52ce9c4f5",
+          "node_id": "603b0f0d-ec32-416f-8517-6a93c982e812"
+        },
+        {
+          "key": "temperature",
+          "value": "27 &#xB0;C",
+          "id": "e6d1cad7-3e03-484b-b552-047c6cb5446f",
+          "node_id": "603b0f0d-ec32-416f-8517-6a93c982e812"
+        },
+        {
+          "key": "device",
+          "value": "130rpm",
+          "id": "2e2c5a66-4700-4cd0-a92b-6d12af669164",
+          "node_id": "603b0f0d-ec32-416f-8517-6a93c982e812"
+        }
+      ],
+      "emits": [
+        {
+          "key": "reagent0",
+          "value": "virus",
+          "id": "3c04edbe-20d4-461e-b2b5-7b0c48e6bee3",
+          "node_id": "603b0f0d-ec32-416f-8517-6a93c982e812"
+        }
+      ]
+    },
+    {
+      "id": "3ff633ca-2eca-440a-8ff1-eaac954a86b6",
+      "text": "2x500ml Sf9 cells at 2x10<sup>6</sup> cell/ml\r\n\n\n10ml virus\r\n\n\n27 &#xB0;C\r\n\n\n130rpm",
+      "instruction": "WARM",
+      "slots": [
+        {
+          "key": "reagent1",
+          "value": "2x500ml Sf9 cells",
+          "id": "0d460936-742c-4003-99f5-81a54b7aba5f",
+          "node_id": "3ff633ca-2eca-440a-8ff1-eaac954a86b6"
+        },
+        {
+          "key": "temperature",
+          "value": "27\u00b0C",
+          "id": "e06db2d7-dbc1-498d-a990-4c955ab069bc",
+          "node_id": "3ff633ca-2eca-440a-8ff1-eaac954a86b6"
+        }
+      ],
+      "emits": [
+        {
+          "key": "reagent0",
+          "value": "2x500ml Sf9 cells",
+          "id": "5ecfb8ca-aee2-4570-8814-3fbddd2cb647",
+          "node_id": "3ff633ca-2eca-440a-8ff1-eaac954a86b6"
+        }
+      ]
+    },
+    {
+      "id": "4b9428bb-e5b7-41d8-ba57-63e5bf7760fc",
+      "text": "2x500ml Sf9 cells at 2x10<sup>6</sup> cell/ml\r\n\n\n10ml virus\r\n\n\n27 &#xB0;C\r\n\n\n130rpm",
+      "instruction": "SPIN",
+      "slots": [
+        {
+          "key": "reagent1",
+          "value": "2x500ml Sf9 cells",
+          "id": "4936285f-4884-43b4-9ce0-f00de700d89b",
+          "node_id": "4b9428bb-e5b7-41d8-ba57-63e5bf7760fc"
+        },
+        {
+          "key": "intensity",
+          "value": "130rpm",
+          "id": "83ba17f0-22bd-4030-b323-9f19909ab09a",
+          "node_id": "4b9428bb-e5b7-41d8-ba57-63e5bf7760fc"
+        },
+        {
+          "key": "time",
+          "value": "<blank>",
+          "id": "a03b74e8-a5cf-456e-a591-08a704ab5476",
+          "node_id": "4b9428bb-e5b7-41d8-ba57-63e5bf7760fc"
+        },
+        {
+          "key": "temperature",
+          "value": "27 &#xB0;C",
+          "id": "cf51229a-949c-4af3-8104-50ac9549cb9d",
+          "node_id": "4b9428bb-e5b7-41d8-ba57-63e5bf7760fc"
+        },
+        {
+          "key": "device",
+          "value": "<blank>",
+          "id": "fcafa3b6-78ab-4d81-9ba7-25f338d485cb",
+          "node_id": "4b9428bb-e5b7-41d8-ba57-63e5bf7760fc"
+        },
+        {
+          "key": "notice",
+          "value": "<blank>",
+          "id": "944ade5a-f2af-4dfa-b76a-efaf25c95ed5",
+          "node_id": "4b9428bb-e5b7-41d8-ba57-63e5bf7760fc"
+        }
+      ],
+      "emits": [
+        {
+          "key": "reagent0",
+          "value": "2x500ml Sf9 cells",
+          "id": "7b61c1d2-6aff-42c1-b6ef-12b70063ec62",
+          "node_id": "4b9428bb-e5b7-41d8-ba57-63e5bf7760fc"
+        }
+      ]
+    },
+    {
+      "id": "27d91597-ae03-49a6-ac29-40c463395f6f",
+      "text": ":  if you need to concentrate the protein you will need to go up in NaCl and possible glycerol to stabilize the protein.",
+      "instruction": "CONCENTRATE",
+      "slots": [
+        {
+          "key": "reagent1",
+          "value": "protein",
+          "id": "6c8c5ede-252c-4181-aca2-b64c11425e66",
+          "node_id": "27d91597-ae03-49a6-ac29-40c463395f6f"
+        },
+        {
+          "key": "targetVol",
+          "value": "<blank>",
+          "id": "6c4d40ab-5202-4d66-9bce-07ac5d383e22",
+          "node_id": "27d91597-ae03-49a6-ac29-40c463395f6f"
+        },
+        {
+          "key": "targetConcentration",
+          "value": "<blank>",
+          "id": "f0c4eb03-6d0e-4592-bd49-a3d89d8b89cd",
+          "node_id": "27d91597-ae03-49a6-ac29-40c463395f6f"
+        },
+        {
+          "key": "method",
+          "value": "<blank>",
+          "id": "f46d22eb-c0e9-4e0e-8dac-d401838d13aa",
+          "node_id": "27d91597-ae03-49a6-ac29-40c463395f6f"
+        },
+        {
+          "key": "device",
+          "value": "<blank>",
+          "id": "1f38c66b-acca-45c1-8115-ae77bab31838",
+          "node_id": "27d91597-ae03-49a6-ac29-40c463395f6f"
+        }
+      ],
+      "emits": [
+        {
+          "key": "reagent0",
+          "value": "protein",
+          "id": "ad6fe480-a450-4ce1-a8be-6891ead5296a",
+          "node_id": "27d91597-ae03-49a6-ac29-40c463395f6f"
+        }
+      ]
+    }
+  ],
+  "edges": []
+}

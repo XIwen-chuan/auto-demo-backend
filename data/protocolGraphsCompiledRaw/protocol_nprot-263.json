@@ -1,0 +1,391 @@
+[
+    {
+        "title": "1.",
+        "body": [
+            {
+                "sentence": "By cardiac puncture of the horseshoe crab, collect the hemolymph into pyrogen-free tubes.  The animals are handled under national and institutional guidelines of \\(National Advisory Committee for Laboratory Animal Research, Singapore).  Only partial bleeding of the horseshoe crab is performed and the animal is returned alive, to its natural habitat \\(the estuary).",
+                "result": [
+                    {
+                        "COLLECT": {
+                            "emit": [
+                                {
+                                    "reagent0": "hemolymph"
+                                }
+                            ],
+                            "slot": [
+                                {
+                                    "reagent1": "hemolymph"
+                                },
+                                {
+                                    "container": "pyrogen-free tubes"
+                                },
+                                {
+                                    "method": "cardiac puncture"
+                                },
+                                {
+                                    "notice": "By cardiac puncture of the horseshoe crab"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "RETURN": {
+                            "emit": [
+                                {
+                                    "reagent0": "hemolymph"
+                                }
+                            ],
+                            "slot": [
+                                {
+                                    "destination": "the estuary"
+                                },
+                                {
+                                    "reagent1": "hemolymph"
+                                },
+                                {
+                                    "notice": "Only partial bleeding of the horseshoe crab is performed."
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "2.",
+        "body": [
+            {
+                "sentence": "Carefully remove the hemocytes by centrifugation at 150 x g for 10 min at 4 &#x2DA;C.",
+                "result": [
+                    {
+                        "REMOVE": {
+                            "emit": [
+                                {
+                                    "reagent0": "hemocytes"
+                                }
+                            ],
+                            "slot": [
+                                {
+                                    "reagent1": "hemocytes"
+                                },
+                                {
+                                    "method": "centrifugation"
+                                },
+                                {
+                                    "device": "150 x g"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "CENTRIFUGE": {
+                            "emit": [
+                                {
+                                    "reagent0": "hemocytes"
+                                }
+                            ],
+                            "slot": [
+                                {
+                                    "reagent1": "hemocytes"
+                                },
+                                {
+                                    "intensity": "150 x g"
+                                },
+                                {
+                                    "time": "10 min"
+                                },
+                                {
+                                    "temperature": "4 \u00b0C"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "3.",
+        "body": [
+            {
+                "sentence": "To select plasma from uninfected individuals for further hemocyanin purification, at this juncture, spread 100 &#x3BC;l of the supernatant on nutrient agar plate and culture overnight at 37 &#x2DA;C.  Only plasma samples from individuals that showed sterile hemolymph may be used for further HMC/PPO purification.",
+                "result": []
+            }
+        ]
+    },
+    {
+        "title": "4.",
+        "body": [
+            {
+                "sentence": "Further clarify the supernatant at 9000 x g for 10 min at 4 &#x2DA;C.",
+                "result": []
+            }
+        ]
+    },
+    {
+        "title": "5.",
+        "body": [
+            {
+                "sentence": "Quick-freeze the second supernatant \\(referred to as plasma) in liquid nitrogen and store at -80 &#x2DA;C until further use.",
+                "result": [
+                    {
+                        "FREEZE": {
+                            "emit": [
+                                {
+                                    "reagent0": "plasma"
+                                }
+                            ],
+                            "slot": [
+                                {
+                                    "reagent1": "plasma"
+                                },
+                                {
+                                    "temperature": "liquid nitrogen"
+                                },
+                                {
+                                    "notice": "Store at -80 \u00b0C until further use."
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "STORE": {
+                            "emit": [
+                                {
+                                    "reagent0": "plasma"
+                                }
+                            ],
+                            "slot": [
+                                {
+                                    "reagent1": "plasma"
+                                },
+                                {
+                                    "temperature": "-80 \u00b0C"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "6.",
+        "body": [
+            {
+                "sentence": "Centrifuge the plasma twice at 40,000 x g for 3 h each at 4 &#x2DA;C.",
+                "result": [
+                    {
+                        "CENTRIFUGE": {
+                            "emit": [
+                                {
+                                    "reagent0": "plasma"
+                                }
+                            ],
+                            "slot": [
+                                {
+                                    "reagent1": "plasma"
+                                },
+                                {
+                                    "intensity": "40,000 x g"
+                                },
+                                {
+                                    "time": "3 h"
+                                },
+                                {
+                                    "temperature": "4 \u00b0C"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "7.",
+        "body": [
+            {
+                "sentence": "Resuspend the plasma containing enriched HMC/PPO in 0.5 M pyrogen-free NaCl, and further dialyze against 0.1 M Tris-HCl, pH 8.0, 5 mM CaCl<sub>2</sub>, 5 mM MgCl<sub>2</sub>, at 4 &#x2DA;C overnight.",
+                "result": [
+                    {
+                        "RESUSPEND": {
+                            "emit": [
+                                {
+                                    "reagent0": "plasma"
+                                }
+                            ],
+                            "slot": [
+                                {
+                                    "reagent1": "plasma"
+                                },
+                                {
+                                    "reagent2": "0.5 M pyrogen-free NaCl"
+                                },
+                                {
+                                    "temperature": "4 \u00b0C"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "DIALYZE": {
+                            "emit": [
+                                {
+                                    "reagent0": "plasma"
+                                }
+                            ],
+                            "slot": [
+                                {
+                                    "reagent1": "plasma"
+                                },
+                                {
+                                    "reagent2": "0.1 M Tris-HCl, pH 8.0, 5 mM CaCl2, 5 mM MgCl2"
+                                },
+                                {
+                                    "temperature": "4 \u00b0C"
+                                },
+                                {
+                                    "time": "overnight"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "8.",
+        "body": [
+            {
+                "sentence": "Further purify the hemocyanin by gel filtration chromatography through Superdex S200 column \\(2 x 150 cm) using elution buffer containing 0.1 M Tris-HCl, pH 8.0, 5 mM CaCl<sub>2</sub>, 5 mM MgCl<sub>2</sub>.  Collect the eluate in 1 ml fractions.",
+                "result": [
+                    {
+                        "PURIFY": {
+                            "emit": [
+                                {
+                                    "reagent0": "hemocyanin"
+                                }
+                            ],
+                            "slot": [
+                                {
+                                    "reagent1": "hemocyanin"
+                                },
+                                {
+                                    "method": "gel filtration chromatography"
+                                },
+                                {
+                                    "device": "Superdex S200 column (2 x 150 cm)"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "COLLECT": {
+                            "emit": [
+                                {
+                                    "reagent0": "hemocyanin"
+                                }
+                            ],
+                            "slot": [
+                                {
+                                    "reagent1": "hemocyanin"
+                                },
+                                {
+                                    "container": "1 ml fractions"
+                                },
+                                {
+                                    "method": "gel filtration chromatography"
+                                },
+                                {
+                                    "environment": "Superdex S200 column (2 x 150 cm)"
+                                },
+                                {
+                                    "purpose": "Further purification"
+                                },
+                                {
+                                    "notice": ""
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "9.",
+        "body": [
+            {
+                "sentence": "Analyse the protein profile for each peak by electrophoresis on 12% SDS-PAGE.",
+                "result": [
+                    {
+                        "ANALYZE": {
+                            "emit": [],
+                            "slot": [
+                                {
+                                    "reagent1": "hemocyanin"
+                                },
+                                {
+                                    "method": "electrophoresis on 12% SDS-PAGE"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "10.",
+        "body": [
+            {
+                "sentence": "Pool the first half of the large leading peak which contains purified hemocyanin.",
+                "result": [
+                    {
+                        "POOL": {
+                            "emit": [
+                                {
+                                    "reagent0": "hemocyanin"
+                                }
+                            ],
+                            "slot": [
+                                {
+                                    "reagent1": "hemocyanin"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "11.",
+        "body": [
+            {
+                "sentence": "Determine the concentration of the purified hemocyanin by the method of Bradford using bovine serum albumin \\(Sigma, Fraction V) as standard.",
+                "result": [
+                    {
+                        "DETERMINE": {
+                            "emit": [],
+                            "slot": [
+                                {
+                                    "reagent1": "Bradford method"
+                                },
+                                {
+                                    "parameter": "concentration"
+                                },
+                                {
+                                    "notice": "using bovine serum albumin (Sigma, Fraction V) as standard."
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        ]
+    }
+]

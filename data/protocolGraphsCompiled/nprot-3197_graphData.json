@@ -1,0 +1,78 @@
+{
+  "name": "nprot-3197_graphData.json",
+  "nodes": [
+    {
+      "id": "5b4ea17c-d6b9-4a9f-a0d9-3c655291096e",
+      "text": "Use filtered BSA or filter the BSA solution prior to use to remove any microbial or other contaminants.",
+      "instruction": "FILTER",
+      "slots": [
+        {
+          "key": "reagent1",
+          "value": "BSA solution",
+          "id": "18b47937-33f7-4b71-81ad-93e6f4d54528",
+          "node_id": "5b4ea17c-d6b9-4a9f-a0d9-3c655291096e"
+        },
+        {
+          "key": "filter",
+          "value": "0.22 \u03bcm filter",
+          "id": "7b27e306-a8f7-4829-8cf4-c66158d5c153",
+          "node_id": "5b4ea17c-d6b9-4a9f-a0d9-3c655291096e"
+        }
+      ],
+      "emits": [
+        {
+          "key": "reagent0",
+          "value": "filtered BSA",
+          "id": "f3f763de-003c-454e-be55-0e913ff95dfb",
+          "node_id": "5b4ea17c-d6b9-4a9f-a0d9-3c655291096e"
+        }
+      ]
+    },
+    {
+      "id": "51b76edd-5f6d-4f5b-9ba3-1e51e03c4177",
+      "text": "Determine the absorbance within 10 min of stopping the enzymatic reaction.",
+      "instruction": "DETERMINE",
+      "slots": [
+        {
+          "key": "device",
+          "value": "Tecan Infinite M200 Pro microplate reader",
+          "id": "fced2b15-9f6f-4eb2-9d0f-bc318614f819",
+          "node_id": "51b76edd-5f6d-4f5b-9ba3-1e51e03c4177"
+        },
+        {
+          "key": "reagent1",
+          "value": "TMB-H<sub>2</sub>O<sub>2</sub> mixture",
+          "id": "cd8b6d04-6359-4c86-b7a3-f467b716a90e",
+          "node_id": "51b76edd-5f6d-4f5b-9ba3-1e51e03c4177"
+        },
+        {
+          "key": "parameter",
+          "value": "absorbance",
+          "id": "dce787a2-428a-465a-99c0-b6fda967e63e",
+          "node_id": "51b76edd-5f6d-4f5b-9ba3-1e51e03c4177"
+        },
+        {
+          "key": "time",
+          "value": "10 min",
+          "id": "9926e559-448d-4705-b7ba-5bd64a5de619",
+          "node_id": "51b76edd-5f6d-4f5b-9ba3-1e51e03c4177"
+        },
+        {
+          "key": "wavelength",
+          "value": "450 nm and 540 nm",
+          "id": "64e49348-7fc0-49e2-b11e-e9f17c616684",
+          "node_id": "51b76edd-5f6d-4f5b-9ba3-1e51e03c4177"
+        }
+      ],
+      "emits": [
+        {
+          "key": "data0",
+          "value": "<blank>",
+          "id": "c662a253-a219-4b41-80b9-611d05f0fd8f",
+          "node_id": "51b76edd-5f6d-4f5b-9ba3-1e51e03c4177"
+        }
+      ]
+    }
+  ],
+  "edges": []
+}

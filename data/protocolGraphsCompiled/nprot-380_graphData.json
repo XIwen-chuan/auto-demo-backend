@@ -1,0 +1,733 @@
+{
+  "name": "nprot-380_graphData.json",
+  "nodes": [
+    {
+      "id": "dfb87be2-55b9-4c4a-b55a-67b492795d5f",
+      "text": "Place 4.0 g of &#x3B2;-D glucosamine pentaacetate in a 250ml round bottom flask together with a Teflon coated stirrer bar.",
+      "instruction": "PLACE",
+      "slots": [
+        {
+          "key": "reagent1",
+          "value": "\u03b2-D glucosamine pentaacetate",
+          "id": "40f5d990-02a1-4d8c-bc21-149c948d6488",
+          "node_id": "dfb87be2-55b9-4c4a-b55a-67b492795d5f"
+        },
+        {
+          "key": "destination",
+          "value": "250ml round bottom flask",
+          "id": "af4f37a7-f03e-4a73-b2dd-b404fb9556ce",
+          "node_id": "dfb87be2-55b9-4c4a-b55a-67b492795d5f"
+        }
+      ],
+      "emits": [
+        {
+          "key": "reagent0",
+          "value": "\u03b2-D glucosamine pentaacetate",
+          "id": "9caa515b-29ed-40e5-894d-5744ba6a024c",
+          "node_id": "dfb87be2-55b9-4c4a-b55a-67b492795d5f"
+        }
+      ]
+    },
+    {
+      "id": "30bd908e-5253-428b-9b3b-736a464c4c90",
+      "text": "Dissolve 1.8 mL of propargyl alcohol in 90 mL of dichloromethane and add the freshly prepared solution to the round bottom flask with stirring.",
+      "instruction": "DISSOLVE",
+      "slots": [
+        {
+          "key": "reagent1",
+          "value": "propargyl alcohol",
+          "id": "76d6584c-7284-4337-855b-870e95f4cba3",
+          "node_id": "30bd908e-5253-428b-9b3b-736a464c4c90"
+        },
+        {
+          "key": "reagent2",
+          "value": "dichloromethane",
+          "id": "974b9d07-95bd-4d1d-b2e9-18a5132fbef4",
+          "node_id": "30bd908e-5253-428b-9b3b-736a464c4c90"
+        }
+      ],
+      "emits": []
+    },
+    {
+      "id": "098db592-3bb4-41ef-8a0a-764b0407012a",
+      "text": "Dissolve 1.8 mL of propargyl alcohol in 90 mL of dichloromethane and add the freshly prepared solution to the round bottom flask with stirring.",
+      "instruction": "ADD",
+      "slots": [
+        {
+          "key": "reagent1",
+          "value": "propargyl alcohol",
+          "id": "55f5fc4b-96a9-4e9a-a50c-f2231148276d",
+          "node_id": "098db592-3bb4-41ef-8a0a-764b0407012a"
+        },
+        {
+          "key": "reagent2",
+          "value": "freshly prepared solution",
+          "id": "933f39e1-c472-4d49-b3fc-5f058a9198f0",
+          "node_id": "098db592-3bb4-41ef-8a0a-764b0407012a"
+        }
+      ],
+      "emits": [
+        {
+          "key": "reagent0",
+          "value": "freshly prepared solution",
+          "id": "b9d18303-4a1b-4d8b-bdb5-4767d51260d3",
+          "node_id": "098db592-3bb4-41ef-8a0a-764b0407012a"
+        }
+      ]
+    },
+    {
+      "id": "395e0d1d-b01b-47be-9839-e5923384bb23",
+      "text": "Add 0.96 g of Ytterbium\\(III) trifluoromethanesulfonate hydrate to the stirred mixture and equip the flask with a water cooled condenser.",
+      "instruction": "ADD",
+      "slots": [
+        {
+          "key": "reagent1",
+          "value": "Ytterbium(III) trifluoromethanesulfonate hydrate",
+          "id": "e76130e3-0200-4ec4-9095-a980b1215b03",
+          "node_id": "395e0d1d-b01b-47be-9839-e5923384bb23"
+        },
+        {
+          "key": "reagent2",
+          "value": "stirred mixture",
+          "id": "6c76189f-e0a5-419d-92ba-47c2f4062d02",
+          "node_id": "395e0d1d-b01b-47be-9839-e5923384bb23"
+        },
+        {
+          "key": "notice",
+          "value": "equip the flask with a water cooled condenser",
+          "id": "8f0098f2-c6ad-4de9-8b10-afbb52f3bc24",
+          "node_id": "395e0d1d-b01b-47be-9839-e5923384bb23"
+        }
+      ],
+      "emits": []
+    },
+    {
+      "id": "b1543d7c-dc8f-4374-afad-ebe8966367b7",
+      "text": "Heat the reaction mixture to refluxing on an oil bath \\(bath temperature approximately 55 &#xB0;C) and keep at this temperature for 24 hours.",
+      "instruction": "HEAT",
+      "slots": [
+        {
+          "key": "reagent1",
+          "value": "reaction mixture",
+          "id": "ed6aa9fe-45b7-4f6c-a5ac-993bbb571e1f",
+          "node_id": "b1543d7c-dc8f-4374-afad-ebe8966367b7"
+        },
+        {
+          "key": "temperature",
+          "value": "55 \u00b0C",
+          "id": "5d837201-cdbf-495b-b512-e8a40907fb82",
+          "node_id": "b1543d7c-dc8f-4374-afad-ebe8966367b7"
+        },
+        {
+          "key": "time",
+          "value": "24 hours",
+          "id": "54aa1db3-bf95-4006-a667-5d1779632308",
+          "node_id": "b1543d7c-dc8f-4374-afad-ebe8966367b7"
+        },
+        {
+          "key": "device",
+          "value": "oil bath",
+          "id": "8ced2fa1-a432-4d74-a067-930009ad758f",
+          "node_id": "b1543d7c-dc8f-4374-afad-ebe8966367b7"
+        }
+      ],
+      "emits": [
+        {
+          "key": "reagent0",
+          "value": "reaction mixture",
+          "id": "973b0068-9375-4eed-87e2-070907967fc1",
+          "node_id": "b1543d7c-dc8f-4374-afad-ebe8966367b7"
+        }
+      ]
+    },
+    {
+      "id": "8af76df4-86b0-498e-8a10-01d9a83e5e18",
+      "text": "Heat the reaction mixture to refluxing on an oil bath \\(bath temperature approximately 55 &#xB0;C) and keep at this temperature for 24 hours.",
+      "instruction": "KEEP",
+      "slots": [
+        {
+          "key": "reagent1",
+          "value": "reaction mixture",
+          "id": "625f3447-e938-4f89-9411-e89f2ceb3893",
+          "node_id": "8af76df4-86b0-498e-8a10-01d9a83e5e18"
+        },
+        {
+          "key": "temperature",
+          "value": "55 \u00b0C",
+          "id": "b835d4e5-a165-4ac2-909a-c56386bf590f",
+          "node_id": "8af76df4-86b0-498e-8a10-01d9a83e5e18"
+        },
+        {
+          "key": "time",
+          "value": "24 hours",
+          "id": "3fa1eabd-c1e8-456c-81c0-981510797788",
+          "node_id": "8af76df4-86b0-498e-8a10-01d9a83e5e18"
+        }
+      ],
+      "emits": [
+        {
+          "key": "reagent0",
+          "value": "reaction mixture",
+          "id": "2118eb5a-e007-4c77-b990-167695988c69",
+          "node_id": "8af76df4-86b0-498e-8a10-01d9a83e5e18"
+        }
+      ]
+    },
+    {
+      "id": "7093432a-f63a-4d00-98eb-ef22c532988a",
+      "text": "Dilute the solution with a further 50 mL of dichloromethane and transfer to a 500 mL separatory funnel.",
+      "instruction": "DILUTE",
+      "slots": [
+        {
+          "key": "reagent1",
+          "value": "solution",
+          "id": "919520c0-e535-4058-848c-388d85f54b84",
+          "node_id": "7093432a-f63a-4d00-98eb-ef22c532988a"
+        },
+        {
+          "key": "reagent2",
+          "value": "dichloromethane",
+          "id": "2280034a-0144-4d6f-bcc2-140500b2c21d",
+          "node_id": "7093432a-f63a-4d00-98eb-ef22c532988a"
+        }
+      ],
+      "emits": [
+        {
+          "key": "reagent0",
+          "value": "solution",
+          "id": "ae4620d4-2cd2-41d0-9003-02576431d4a2",
+          "node_id": "7093432a-f63a-4d00-98eb-ef22c532988a"
+        }
+      ]
+    },
+    {
+      "id": "2a64bc18-bbd1-4421-95f6-ca986350942c",
+      "text": "Dilute the solution with a further 50 mL of dichloromethane and transfer to a 500 mL separatory funnel.",
+      "instruction": "TRANSFER",
+      "slots": [
+        {
+          "key": "source",
+          "value": "solution",
+          "id": "03e53881-10ca-4f6e-af7d-b129977fc0be",
+          "node_id": "2a64bc18-bbd1-4421-95f6-ca986350942c"
+        },
+        {
+          "key": "destination",
+          "value": "500 mL separatory funnel",
+          "id": "fce05cac-11d8-4873-a332-3326b15e4c18",
+          "node_id": "2a64bc18-bbd1-4421-95f6-ca986350942c"
+        },
+        {
+          "key": "reagent1",
+          "value": "solution",
+          "id": "77068bcf-64f9-4c52-9632-dcdccd826847",
+          "node_id": "2a64bc18-bbd1-4421-95f6-ca986350942c"
+        },
+        {
+          "key": "volume",
+          "value": "50 mL",
+          "id": "c42cbb65-6024-4072-8a60-1f076ef1cb69",
+          "node_id": "2a64bc18-bbd1-4421-95f6-ca986350942c"
+        }
+      ],
+      "emits": [
+        {
+          "key": "reagent0",
+          "value": "solution",
+          "id": "4f062f94-ac91-4e91-b600-14ab9fb02608",
+          "node_id": "2a64bc18-bbd1-4421-95f6-ca986350942c"
+        }
+      ]
+    },
+    {
+      "id": "4e676129-55aa-4eb3-b1fc-1eadfcd201e2",
+      "text": "Wash the organic layer with two 150 mL portions of a saturated aqueous solution of sodium hydrogen carbonate.",
+      "instruction": "WASH",
+      "slots": [
+        {
+          "key": "reagent1",
+          "value": "organic layer",
+          "id": "de7923ce-3eb0-46a2-9771-c19a9a2b029c",
+          "node_id": "4e676129-55aa-4eb3-b1fc-1eadfcd201e2"
+        },
+        {
+          "key": "reagent2",
+          "value": "saturated aqueous solution of sodium hydrogen carbonate",
+          "id": "c784399f-a7b3-47d8-a201-dd9cb2e42844",
+          "node_id": "4e676129-55aa-4eb3-b1fc-1eadfcd201e2"
+        },
+        {
+          "key": "repeat",
+          "value": "2",
+          "id": "89a06367-fefd-418a-b16a-53b415e7c20e",
+          "node_id": "4e676129-55aa-4eb3-b1fc-1eadfcd201e2"
+        }
+      ],
+      "emits": [
+        {
+          "key": "reagent0",
+          "value": "organic layer",
+          "id": "87300326-46e4-43b4-a65a-63cdee88f705",
+          "node_id": "4e676129-55aa-4eb3-b1fc-1eadfcd201e2"
+        }
+      ]
+    },
+    {
+      "id": "6f0bbe93-78e5-4ece-8a5b-f96905dbc755",
+      "text": "Wash the combined aqueous phases with one 100 mL portion of dichloromethane and combine all organic layers.",
+      "instruction": "WASH",
+      "slots": [
+        {
+          "key": "reagent1",
+          "value": "combined aqueous phases",
+          "id": "02b47b5d-910e-464c-ba9b-479a235e2fc3",
+          "node_id": "6f0bbe93-78e5-4ece-8a5b-f96905dbc755"
+        },
+        {
+          "key": "reagent2",
+          "value": "dichloromethane",
+          "id": "acfeb4ab-a5ab-43f6-8d08-a00d2a2a2581",
+          "node_id": "6f0bbe93-78e5-4ece-8a5b-f96905dbc755"
+        },
+        {
+          "key": "repeat",
+          "value": "1",
+          "id": "070d5a86-3d2c-4a6d-ae1e-532edb92ff14",
+          "node_id": "6f0bbe93-78e5-4ece-8a5b-f96905dbc755"
+        }
+      ],
+      "emits": [
+        {
+          "key": "reagent0",
+          "value": "organic layer",
+          "id": "5e00f204-0dd6-479d-9096-e096ef4ad87c",
+          "node_id": "6f0bbe93-78e5-4ece-8a5b-f96905dbc755"
+        }
+      ]
+    },
+    {
+      "id": "6b5c2a8c-5c5d-4962-afe6-9e9c8d4f0108",
+      "text": "Wash the combined aqueous phases with one 100 mL portion of dichloromethane and combine all organic layers.",
+      "instruction": "COMBINE",
+      "slots": [
+        {
+          "key": "reagent1",
+          "value": "combined aqueous phases",
+          "id": "665f2134-c12c-414d-9900-4084b4b22185",
+          "node_id": "6b5c2a8c-5c5d-4962-afe6-9e9c8d4f0108"
+        },
+        {
+          "key": "reagent2",
+          "value": "dichloromethane",
+          "id": "5e2fd3ce-a274-4146-81e2-1a7a03a66dc1",
+          "node_id": "6b5c2a8c-5c5d-4962-afe6-9e9c8d4f0108"
+        }
+      ],
+      "emits": [
+        {
+          "key": "reagent0",
+          "value": "organic layers",
+          "id": "837fa776-f9ac-4428-8da6-412f328e2fa7",
+          "node_id": "6b5c2a8c-5c5d-4962-afe6-9e9c8d4f0108"
+        }
+      ]
+    },
+    {
+      "id": "fac0ee3f-36d4-4b24-b242-e0470947f79b",
+      "text": "Transfer the organic layer to a 500 mL round bottom flask, dry by stirring over approximately 2.5 g of anhydrous magnesium sulfate for 10 minutes and then remove the drying agent by suction filtration.",
+      "instruction": "TRANSFER",
+      "slots": [
+        {
+          "key": "source",
+          "value": "organic layer",
+          "id": "e85e8dbb-2233-476b-be0c-f06557fc14d9",
+          "node_id": "fac0ee3f-36d4-4b24-b242-e0470947f79b"
+        },
+        {
+          "key": "destination",
+          "value": "500 mL round bottom flask",
+          "id": "8ed504ad-51d0-4da4-ba19-c21fdf112fcf",
+          "node_id": "fac0ee3f-36d4-4b24-b242-e0470947f79b"
+        },
+        {
+          "key": "reagent1",
+          "value": "organic layer",
+          "id": "2288d2d9-d75d-4c99-9bd1-35a02c5862ce",
+          "node_id": "fac0ee3f-36d4-4b24-b242-e0470947f79b"
+        }
+      ],
+      "emits": [
+        {
+          "key": "reagent0",
+          "value": "organic layer",
+          "id": "61c98da6-7dd6-46c1-a35b-dd834b4a9ac7",
+          "node_id": "fac0ee3f-36d4-4b24-b242-e0470947f79b"
+        }
+      ]
+    },
+    {
+      "id": "8650854a-8b71-40ab-807b-fd458f8aaec4",
+      "text": "Transfer the organic layer to a 500 mL round bottom flask, dry by stirring over approximately 2.5 g of anhydrous magnesium sulfate for 10 minutes and then remove the drying agent by suction filtration.",
+      "instruction": "STIR",
+      "slots": [
+        {
+          "key": "reagent1",
+          "value": "organic layer",
+          "id": "8d93d241-3a2a-491e-bfd6-f9bd51cb0dd3",
+          "node_id": "8650854a-8b71-40ab-807b-fd458f8aaec4"
+        },
+        {
+          "key": "time",
+          "value": "10 minutes",
+          "id": "809ef747-8b58-4dc5-8e20-647413a60c9f",
+          "node_id": "8650854a-8b71-40ab-807b-fd458f8aaec4"
+        },
+        {
+          "key": "device",
+          "value": "magnetic stir bar",
+          "id": "cb0e7617-40da-4009-b1a3-162562f93cec",
+          "node_id": "8650854a-8b71-40ab-807b-fd458f8aaec4"
+        }
+      ],
+      "emits": [
+        {
+          "key": "reagent0",
+          "value": "organic layer",
+          "id": "66fbf5c2-0ea8-40c5-b004-dd02ed8cbc90",
+          "node_id": "8650854a-8b71-40ab-807b-fd458f8aaec4"
+        }
+      ]
+    },
+    {
+      "id": "5a65e443-b9d2-4694-ac1e-09a364ec8bc5",
+      "text": "Transfer the organic layer to a 500 mL round bottom flask, dry by stirring over approximately 2.5 g of anhydrous magnesium sulfate for 10 minutes and then remove the drying agent by suction filtration.",
+      "instruction": "REMOVE",
+      "slots": [
+        {
+          "key": "reagent1",
+          "value": "organic layer",
+          "id": "6bf67280-2899-4d1c-8d2d-17dff3e9d535",
+          "node_id": "5a65e443-b9d2-4694-ac1e-09a364ec8bc5"
+        },
+        {
+          "key": "method",
+          "value": "suction filtration",
+          "id": "4fc28a82-3d62-4c11-8622-4280c712610d",
+          "node_id": "5a65e443-b9d2-4694-ac1e-09a364ec8bc5"
+        }
+      ],
+      "emits": [
+        {
+          "key": "reagent0",
+          "value": "organic layer",
+          "id": "0f48005f-9ee4-4a90-b25b-3bd2b1f10d4e",
+          "node_id": "5a65e443-b9d2-4694-ac1e-09a364ec8bc5"
+        }
+      ]
+    },
+    {
+      "id": "9b45d88b-25f2-4c57-ada8-13cba1489c80",
+      "text": "Place a Teflon coated stirrer bar and 1.5g of propargyl 2-acetamido-3,4,6-tri-O-acetyl-2-deoxy-&#x3B2;-D-glucopyranoside \\(from step",
+      "instruction": "PLACE",
+      "slots": [
+        {
+          "key": "reagent1",
+          "value": "Teflon coated stirrer bar",
+          "id": "990c8366-2bab-4ba5-b275-e7c40a3131c7",
+          "node_id": "9b45d88b-25f2-4c57-ada8-13cba1489c80"
+        },
+        {
+          "key": "destination",
+          "value": "<blank>",
+          "id": "837b5fe7-8574-4073-a09c-7e10469fbdf1",
+          "node_id": "9b45d88b-25f2-4c57-ada8-13cba1489c80"
+        },
+        {
+          "key": "temperature",
+          "value": "<blank>",
+          "id": "930deaae-9276-4f7f-bf62-efbb8748eaa0",
+          "node_id": "9b45d88b-25f2-4c57-ada8-13cba1489c80"
+        },
+        {
+          "key": "device",
+          "value": "<blank>",
+          "id": "0b6320b4-4d54-4024-af76-1b7ec7756173",
+          "node_id": "9b45d88b-25f2-4c57-ada8-13cba1489c80"
+        },
+        {
+          "key": "notice",
+          "value": "<blank>",
+          "id": "a30caba3-acb1-4393-96b1-81fff2cd3005",
+          "node_id": "9b45d88b-25f2-4c57-ada8-13cba1489c80"
+        }
+      ],
+      "emits": [
+        {
+          "key": "reagent0",
+          "value": "<blank>",
+          "id": "07082e21-472b-4391-a499-bc60440956f1",
+          "node_id": "9b45d88b-25f2-4c57-ada8-13cba1489c80"
+        }
+      ]
+    },
+    {
+      "id": "19f9c502-920a-450c-90ee-4d54024bb233",
+      "text": "Place a Teflon coated stirrer bar and 1.5g of propargyl 2-acetamido-3,4,6-tri-O-acetyl-2-deoxy-&#x3B2;-D-glucopyranoside \\(from step",
+      "instruction": "ADD",
+      "slots": [
+        {
+          "key": "reagent2",
+          "value": "propargyl 2-acetamido-3,4,6-tri-O-acetyl-2-deoxy-\u03b2-D-glucopyranoside",
+          "id": "6edfdb1e-8272-407c-ac74-d84a4805e177",
+          "node_id": "19f9c502-920a-450c-90ee-4d54024bb233"
+        }
+      ],
+      "emits": []
+    },
+    {
+      "id": "ef2235ce-eb23-47ef-9d02-02f64b40ada1",
+      "text": "Add 100 mL of methanol and stir the mixture until a clear solution is obtained.",
+      "instruction": "ADD",
+      "slots": [
+        {
+          "key": "reagent2",
+          "value": "methanol",
+          "id": "c135a02c-86e9-4cb0-8672-9f82cae716fa",
+          "node_id": "ef2235ce-eb23-47ef-9d02-02f64b40ada1"
+        }
+      ],
+      "emits": []
+    },
+    {
+      "id": "9e55e513-cf77-49a9-a494-83ed46c00687",
+      "text": "Add 100 mL of methanol and stir the mixture until a clear solution is obtained.",
+      "instruction": "STIR",
+      "slots": [
+        {
+          "key": "reagent1",
+          "value": "mixture",
+          "id": "6cffecbe-5700-4fc4-9ed4-1371b03b94b2",
+          "node_id": "9e55e513-cf77-49a9-a494-83ed46c00687"
+        },
+        {
+          "key": "device",
+          "value": "magnetic stir bar",
+          "id": "294f3b13-1abe-437e-9cda-8b583d76661d",
+          "node_id": "9e55e513-cf77-49a9-a494-83ed46c00687"
+        }
+      ],
+      "emits": [
+        {
+          "key": "reagent0",
+          "value": "mixture",
+          "id": "db294881-420a-4d03-8ce9-386c8692dba4",
+          "node_id": "9e55e513-cf77-49a9-a494-83ed46c00687"
+        }
+      ]
+    },
+    {
+      "id": "c7bb41cd-9c41-4979-955a-336d31e1cf37",
+      "text": "Add 21 mg of sodium methoxide to the stirred reaction mixture and monitor the progress of the reaction by an appropriate analytical technique \\(thin-layer chromatography using ethyl acetate :methanol \\(8.5 :1.5) as eluent is recommended).",
+      "instruction": "ADD",
+      "slots": [
+        {
+          "key": "reagent1",
+          "value": "mixture",
+          "id": "d57c64d9-7548-4d9e-9ac6-a75846fe5710",
+          "node_id": "c7bb41cd-9c41-4979-955a-336d31e1cf37"
+        },
+        {
+          "key": "reagent2",
+          "value": "sodium methoxide",
+          "id": "97084c26-594e-4645-9ca4-2c785bac5a12",
+          "node_id": "c7bb41cd-9c41-4979-955a-336d31e1cf37"
+        },
+        {
+          "key": "ratio",
+          "value": "<blank>",
+          "id": "609b375f-769c-446a-b783-c1d76750aa43",
+          "node_id": "c7bb41cd-9c41-4979-955a-336d31e1cf37"
+        },
+        {
+          "key": "concentration",
+          "value": "<blank>",
+          "id": "336cb4e1-3aa4-411e-b690-87a5a3dc937b",
+          "node_id": "c7bb41cd-9c41-4979-955a-336d31e1cf37"
+        },
+        {
+          "key": "notice",
+          "value": "<blank>",
+          "id": "493dadad-1118-49f3-bef8-62358a45aaa9",
+          "node_id": "c7bb41cd-9c41-4979-955a-336d31e1cf37"
+        }
+      ],
+      "emits": [
+        {
+          "key": "reagent0",
+          "value": "mixture",
+          "id": "60d382d2-6d64-4601-888d-939070e83ab8",
+          "node_id": "c7bb41cd-9c41-4979-955a-336d31e1cf37"
+        }
+      ]
+    },
+    {
+      "id": "d337ca99-d501-4690-ad48-e1943c073ec5",
+      "text": "Add 21 mg of sodium methoxide to the stirred reaction mixture and monitor the progress of the reaction by an appropriate analytical technique \\(thin-layer chromatography using ethyl acetate :methanol \\(8.5 :1.5) as eluent is recommended).",
+      "instruction": "MONITOR",
+      "slots": [
+        {
+          "key": "reagent1",
+          "value": "mixture",
+          "id": "bfd1952d-f7a9-488f-be5f-2566b0bd87b4",
+          "node_id": "d337ca99-d501-4690-ad48-e1943c073ec5"
+        },
+        {
+          "key": "attribute",
+          "value": "progress of the reaction",
+          "id": "5be98fd9-9d0a-4939-ae09-2dffab3d0cdb",
+          "node_id": "d337ca99-d501-4690-ad48-e1943c073ec5"
+        },
+        {
+          "key": "method",
+          "value": "thin-layer chromatography",
+          "id": "cb5d4258-91c5-4fe7-ac14-c80ca08261e0",
+          "node_id": "d337ca99-d501-4690-ad48-e1943c073ec5"
+        },
+        {
+          "key": "environment",
+          "value": "ethyl acetate :methanol (8.5 :1.5) as eluent",
+          "id": "60ea41c9-bbae-4e59-9fbc-5378a803a6a8",
+          "node_id": "d337ca99-d501-4690-ad48-e1943c073ec5"
+        }
+      ],
+      "emits": [
+        {
+          "key": "reagent0",
+          "value": "organic layer",
+          "id": "8c3ab37c-f931-47b4-8d8a-fa26eb73d745",
+          "node_id": "d337ca99-d501-4690-ad48-e1943c073ec5"
+        }
+      ]
+    },
+    {
+      "id": "5e1bf5c1-50ad-4827-96a5-db1711d896c1",
+      "text": "If the reaction is not complete within 1 hour, add another portion of 10 mg of sodium methoxide to the reaction mixture.",
+      "instruction": "ADD",
+      "slots": [
+        {
+          "key": "reagent1",
+          "value": "mixture",
+          "id": "55d07c30-5eb8-475b-8592-ab73dc6f8b68",
+          "node_id": "5e1bf5c1-50ad-4827-96a5-db1711d896c1"
+        },
+        {
+          "key": "reagent2",
+          "value": "10 mg sodium methoxide",
+          "id": "83396935-23d8-4b7d-ae4c-cfa1136c9130",
+          "node_id": "5e1bf5c1-50ad-4827-96a5-db1711d896c1"
+        }
+      ],
+      "emits": [
+        {
+          "key": "reagent0",
+          "value": "mixture",
+          "id": "c0b15d41-121c-45f9-8bd4-33d024b28428",
+          "node_id": "5e1bf5c1-50ad-4827-96a5-db1711d896c1"
+        }
+      ]
+    },
+    {
+      "id": "1d92e2d6-b311-4f46-8709-e63a9fafa04f",
+      "text": "Once completion of the reaction has been confirmed, add strongly acidic cation exchange resin until neutral pH is reached \\(test with pH paper).",
+      "instruction": "CONFIRM",
+      "slots": [
+        {
+          "key": "reagent1/data1/device",
+          "value": "mixture",
+          "id": "c2bf828e-d08a-4395-9878-4c04b99e2734",
+          "node_id": "1d92e2d6-b311-4f46-8709-e63a9fafa04f"
+        },
+        {
+          "key": "state",
+          "value": "completion of the reaction",
+          "id": "7fc9fb5f-e765-43a2-9c01-c19e9d2da298",
+          "node_id": "1d92e2d6-b311-4f46-8709-e63a9fafa04f"
+        }
+      ],
+      "emits": []
+    },
+    {
+      "id": "cafffefb-2002-4c19-a144-a51164d81ade",
+      "text": "Once completion of the reaction has been confirmed, add strongly acidic cation exchange resin until neutral pH is reached \\(test with pH paper).",
+      "instruction": "ADD",
+      "slots": [
+        {
+          "key": "reagent1",
+          "value": "mixture",
+          "id": "9b97eaaa-3fd6-428a-856b-4b77403b98a3",
+          "node_id": "cafffefb-2002-4c19-a144-a51164d81ade"
+        },
+        {
+          "key": "reagent2",
+          "value": "strongly acidic cation exchange resin",
+          "id": "6a3f1e1d-1585-4c7d-b544-1beb70cae6c6",
+          "node_id": "cafffefb-2002-4c19-a144-a51164d81ade"
+        },
+        {
+          "key": "notice",
+          "value": "test with pH paper",
+          "id": "4d26e440-6e2e-45f6-b9eb-aeeab36f003f",
+          "node_id": "cafffefb-2002-4c19-a144-a51164d81ade"
+        }
+      ],
+      "emits": [
+        {
+          "key": "reagent0",
+          "value": "mixture",
+          "id": "c597a91c-c7b5-468f-814c-4fea53eaf119",
+          "node_id": "cafffefb-2002-4c19-a144-a51164d81ade"
+        }
+      ]
+    },
+    {
+      "id": "d2eda813-8139-4fd4-aec4-53224c1b9617",
+      "text": "Remove the ion exchange resin by suction filtration and distil off the solvent on a rotary evaporator at a bath temperature of 40 &#xB0;C.",
+      "instruction": "REMOVE",
+      "slots": [
+        {
+          "key": "reagent1",
+          "value": "ion exchange resin",
+          "id": "0e8f0405-8551-44dc-a4b7-26beb9887bc5",
+          "node_id": "d2eda813-8139-4fd4-aec4-53224c1b9617"
+        },
+        {
+          "key": "method",
+          "value": "suction filtration",
+          "id": "c1893591-cd3a-4490-b882-bf35934c931a",
+          "node_id": "d2eda813-8139-4fd4-aec4-53224c1b9617"
+        },
+        {
+          "key": "device",
+          "value": "rotary evaporator",
+          "id": "8915972c-09c3-45dc-b261-2e1a074e60ca",
+          "node_id": "d2eda813-8139-4fd4-aec4-53224c1b9617"
+        },
+        {
+          "key": "notice",
+          "value": "",
+          "id": "3c60ea0a-e520-45f9-bec9-543705c2f9bb",
+          "node_id": "d2eda813-8139-4fd4-aec4-53224c1b9617"
+        }
+      ],
+      "emits": [
+        {
+          "key": "reagent0",
+          "value": "ion exchange resin",
+          "id": "1349dbb8-8092-42df-89ee-7b5ef51da221",
+          "node_id": "d2eda813-8139-4fd4-aec4-53224c1b9617"
+        }
+      ]
+    }
+  ],
+  "edges": []
+}

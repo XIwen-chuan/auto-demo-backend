@@ -1,0 +1,426 @@
+{
+  "name": "nprot-3783_graphData.json",
+  "nodes": [
+    {
+      "id": "884a64f7-74e7-4f64-b607-78e5df1af88a",
+      "text": "Wash cells with PBS.",
+      "instruction": "WASH",
+      "slots": [
+        {
+          "key": "reagent1",
+          "value": "cells",
+          "id": "d7749a35-5a97-4c8f-98cd-c4bfea697e8a",
+          "node_id": "884a64f7-74e7-4f64-b607-78e5df1af88a"
+        },
+        {
+          "key": "reagent2",
+          "value": "PBS",
+          "id": "3f8e23ad-2bd1-4335-b1f7-03d95f886b95",
+          "node_id": "884a64f7-74e7-4f64-b607-78e5df1af88a"
+        },
+        {
+          "key": "repeat",
+          "value": "1",
+          "id": "e915e052-7cbf-4a43-86ce-4b90b87babc7",
+          "node_id": "884a64f7-74e7-4f64-b607-78e5df1af88a"
+        }
+      ],
+      "emits": [
+        {
+          "key": "reagent0",
+          "value": "washed cells",
+          "id": "0ea18224-b7fd-4b85-b8d4-c73fa47bdfad",
+          "node_id": "884a64f7-74e7-4f64-b607-78e5df1af88a"
+        }
+      ]
+    },
+    {
+      "id": "a8e34e14-dbdc-42d3-a201-65dfbf243d2d",
+      "text": "Fix in 4% PFA for 15 min at room temperature \\(RT).",
+      "instruction": "FIX",
+      "slots": [
+        {
+          "key": "reagent1",
+          "value": "4% PFA",
+          "id": "29438f59-a39b-4ec5-8a81-9ce5e3558d03",
+          "node_id": "a8e34e14-dbdc-42d3-a201-65dfbf243d2d"
+        },
+        {
+          "key": "temperature",
+          "value": "RT",
+          "id": "93cb2d5e-0dde-4c0a-b789-2d2394daa2c7",
+          "node_id": "a8e34e14-dbdc-42d3-a201-65dfbf243d2d"
+        },
+        {
+          "key": "time",
+          "value": "15 min",
+          "id": "8bbb7091-5afc-4de3-9dd3-3d06fa1f30f4",
+          "node_id": "a8e34e14-dbdc-42d3-a201-65dfbf243d2d"
+        }
+      ],
+      "emits": [
+        {
+          "key": "reagent0",
+          "value": "washed cells",
+          "id": "84aba611-43af-41c7-bd88-9b3516278419",
+          "node_id": "a8e34e14-dbdc-42d3-a201-65dfbf243d2d"
+        }
+      ]
+    },
+    {
+      "id": "ddda0c14-b495-4584-84be-eea6979e943d",
+      "text": "Wash cells with PBS \\(2 x 5 min).  Cells can be stored in PBS at 4C for up to a week.",
+      "instruction": "WASH",
+      "slots": [
+        {
+          "key": "reagent1",
+          "value": "cells",
+          "id": "e593748a-90bb-4971-8cd0-fc26f1d90b0d",
+          "node_id": "ddda0c14-b495-4584-84be-eea6979e943d"
+        },
+        {
+          "key": "reagent2",
+          "value": "PBS",
+          "id": "38bfb592-1ff7-46e6-a9b9-bd110b251ca6",
+          "node_id": "ddda0c14-b495-4584-84be-eea6979e943d"
+        },
+        {
+          "key": "repeat",
+          "value": "2",
+          "id": "65bea470-ebc2-477b-b8b0-6fb26b987f38",
+          "node_id": "ddda0c14-b495-4584-84be-eea6979e943d"
+        },
+        {
+          "key": "time",
+          "value": "5 min",
+          "id": "f6226215-f682-4e2f-b708-3c7363705a85",
+          "node_id": "ddda0c14-b495-4584-84be-eea6979e943d"
+        },
+        {
+          "key": "notice",
+          "value": "Cells can be stored in PBS at 4C for up to a week.",
+          "id": "b2e6957d-5f7c-402f-b27d-01440e432aaf",
+          "node_id": "ddda0c14-b495-4584-84be-eea6979e943d"
+        }
+      ],
+      "emits": [
+        {
+          "key": "reagent0",
+          "value": "washed cells",
+          "id": "ce566b1b-a69a-4bd7-b461-94fb5d78e9b7",
+          "node_id": "ddda0c14-b495-4584-84be-eea6979e943d"
+        }
+      ]
+    },
+    {
+      "id": "238537c6-7725-405e-9583-45f2e9cbf47c",
+      "text": "Wash cells with PBS \\(2 x 5 min).  Cells can be stored in PBS at 4C for up to a week.",
+      "instruction": "STORE",
+      "slots": [
+        {
+          "key": "reagent1",
+          "value": "washed cells",
+          "id": "f8a30dcf-b31d-4778-8475-16cdfe1944d4",
+          "node_id": "238537c6-7725-405e-9583-45f2e9cbf47c"
+        },
+        {
+          "key": "temperature",
+          "value": "4C",
+          "id": "36e23200-3b79-4e6b-82bb-51f1a1b4dc28",
+          "node_id": "238537c6-7725-405e-9583-45f2e9cbf47c"
+        },
+        {
+          "key": "time",
+          "value": "up to a week",
+          "id": "e39bc71b-68d8-46de-b4ae-37bb4d81430e",
+          "node_id": "238537c6-7725-405e-9583-45f2e9cbf47c"
+        }
+      ],
+      "emits": [
+        {
+          "key": "reagent0",
+          "value": "washed cells",
+          "id": "e32990a4-8206-4c18-850d-9612b9ff10dc",
+          "node_id": "238537c6-7725-405e-9583-45f2e9cbf47c"
+        }
+      ]
+    },
+    {
+      "id": "908852b9-c0bc-4124-9c5e-4c3d5c6f9b7e",
+      "text": "Wash with PBS \\(2 x 5 min) at RT.",
+      "instruction": "WASH",
+      "slots": [
+        {
+          "key": "reagent1",
+          "value": "washed cells",
+          "id": "a4e4d6e4-5aaa-478c-a06d-d880a9a0832d",
+          "node_id": "908852b9-c0bc-4124-9c5e-4c3d5c6f9b7e"
+        },
+        {
+          "key": "reagent2",
+          "value": "PBS",
+          "id": "12276acb-8e9c-497e-82d4-644e5d55e832",
+          "node_id": "908852b9-c0bc-4124-9c5e-4c3d5c6f9b7e"
+        },
+        {
+          "key": "repeat",
+          "value": "2",
+          "id": "b3182907-7d23-4a1c-ac85-58d6024e0806",
+          "node_id": "908852b9-c0bc-4124-9c5e-4c3d5c6f9b7e"
+        },
+        {
+          "key": "time",
+          "value": "5 min",
+          "id": "210627c3-640e-4a08-be77-ba5a6f7230dd",
+          "node_id": "908852b9-c0bc-4124-9c5e-4c3d5c6f9b7e"
+        }
+      ],
+      "emits": [
+        {
+          "key": "reagent0",
+          "value": "washed cells",
+          "id": "ff6c9b98-77c1-4e8a-9044-fbf652d94bfa",
+          "node_id": "908852b9-c0bc-4124-9c5e-4c3d5c6f9b7e"
+        }
+      ]
+    },
+    {
+      "id": "1a1b0f69-241d-4395-a353-7b122d6e2e21",
+      "text": "Block with 10% serum \\(from species of secondary) for 1 hr at RT.",
+      "instruction": "BLOCK",
+      "slots": [
+        {
+          "key": "reagent1",
+          "value": "10% serum",
+          "id": "819ee104-debe-4674-9791-5c528d1bb960",
+          "node_id": "1a1b0f69-241d-4395-a353-7b122d6e2e21"
+        },
+        {
+          "key": "reagent2",
+          "value": "serum",
+          "id": "ffc43ccf-4bf4-47d9-813d-99a74b540bd9",
+          "node_id": "1a1b0f69-241d-4395-a353-7b122d6e2e21"
+        },
+        {
+          "key": "temperature",
+          "value": "RT",
+          "id": "d0c5cd50-fcf7-4ab5-94dc-ede99c923212",
+          "node_id": "1a1b0f69-241d-4395-a353-7b122d6e2e21"
+        },
+        {
+          "key": "time",
+          "value": "1 hr",
+          "id": "76abf881-e913-4a3a-bc61-a365d86646eb",
+          "node_id": "1a1b0f69-241d-4395-a353-7b122d6e2e21"
+        }
+      ],
+      "emits": [
+        {
+          "key": "reagent0",
+          "value": "washed cells",
+          "id": "e211999d-0936-4e0d-8a60-a02687edbc56",
+          "node_id": "1a1b0f69-241d-4395-a353-7b122d6e2e21"
+        }
+      ]
+    },
+    {
+      "id": "a5877253-91bc-4e73-ba61-079ab57a9fc1",
+      "text": "Drain and incubate with primary antibody diluted in 5% serum overnight at 4C.",
+      "instruction": "INCUBATE",
+      "slots": [
+        {
+          "key": "reagent1",
+          "value": "primary antibody",
+          "id": "9e1643b3-79b8-46c3-b096-223165c015ee",
+          "node_id": "a5877253-91bc-4e73-ba61-079ab57a9fc1"
+        },
+        {
+          "key": "temperature",
+          "value": "4C",
+          "id": "85fe5472-9f7c-43e1-ab38-1cb618cef193",
+          "node_id": "a5877253-91bc-4e73-ba61-079ab57a9fc1"
+        },
+        {
+          "key": "time",
+          "value": "overnight",
+          "id": "3505ac52-277d-4863-8aaa-d05dd747181c",
+          "node_id": "a5877253-91bc-4e73-ba61-079ab57a9fc1"
+        }
+      ],
+      "emits": [
+        {
+          "key": "reagent0",
+          "value": "washed cells",
+          "id": "6e4c05e5-755b-4c05-bbde-1836b0beb0ca",
+          "node_id": "a5877253-91bc-4e73-ba61-079ab57a9fc1"
+        }
+      ]
+    },
+    {
+      "id": "e7623dc6-1254-4f59-a886-adaeac6271bb",
+      "text": "Wash in PBS \\(3 x 5 min) at RT.",
+      "instruction": "WASH",
+      "slots": [
+        {
+          "key": "reagent1",
+          "value": "washed cells",
+          "id": "3808ca1c-ac56-4b8d-b349-b1bb538d8f8c",
+          "node_id": "e7623dc6-1254-4f59-a886-adaeac6271bb"
+        },
+        {
+          "key": "reagent2",
+          "value": "PBS",
+          "id": "725b963a-00ad-4a15-a235-1c3a280f1335",
+          "node_id": "e7623dc6-1254-4f59-a886-adaeac6271bb"
+        },
+        {
+          "key": "repeat",
+          "value": "3",
+          "id": "e0e95600-1a49-4923-b259-03b37d9a53c7",
+          "node_id": "e7623dc6-1254-4f59-a886-adaeac6271bb"
+        },
+        {
+          "key": "time",
+          "value": "5 min",
+          "id": "880f59a8-df83-4c53-bccd-08053a2cf9fb",
+          "node_id": "e7623dc6-1254-4f59-a886-adaeac6271bb"
+        }
+      ],
+      "emits": [
+        {
+          "key": "reagent0",
+          "value": "washed cells",
+          "id": "eb931370-e50a-4847-afff-f775a1e76336",
+          "node_id": "e7623dc6-1254-4f59-a886-adaeac6271bb"
+        }
+      ]
+    },
+    {
+      "id": "866e0616-ad04-4c50-8d0c-3981779176b8",
+      "text": "Wash in PBS \\(3 x 5 min) at RT.",
+      "instruction": "WASH",
+      "slots": [
+        {
+          "key": "reagent1",
+          "value": "washed cells",
+          "id": "22d9c632-acdd-42c1-bf2c-d9f758f51132",
+          "node_id": "866e0616-ad04-4c50-8d0c-3981779176b8"
+        },
+        {
+          "key": "reagent2",
+          "value": "PBS",
+          "id": "8ae0604a-ce8f-40c9-bdcd-75a9fca5ac12",
+          "node_id": "866e0616-ad04-4c50-8d0c-3981779176b8"
+        },
+        {
+          "key": "repeat",
+          "value": "3",
+          "id": "ce3d7994-90a5-4bbe-9608-efc1aa72d741",
+          "node_id": "866e0616-ad04-4c50-8d0c-3981779176b8"
+        },
+        {
+          "key": "time",
+          "value": "5 min",
+          "id": "dd7c00d3-80cc-4b68-a854-2e4678d1d456",
+          "node_id": "866e0616-ad04-4c50-8d0c-3981779176b8"
+        }
+      ],
+      "emits": [
+        {
+          "key": "reagent0",
+          "value": "washed cells",
+          "id": "d90b2d31-7876-4d3b-b8e3-9cff5535e91c",
+          "node_id": "866e0616-ad04-4c50-8d0c-3981779176b8"
+        }
+      ]
+    },
+    {
+      "id": "3204225e-b861-4784-99d5-5c759f57fd85",
+      "text": "Add mounting media with DAPI and apply coverslip.",
+      "instruction": "ADD",
+      "slots": [
+        {
+          "key": "reagent1",
+          "value": "washed cells",
+          "id": "859436b4-2e29-4b6f-9730-12c7cc9a1fbb",
+          "node_id": "3204225e-b861-4784-99d5-5c759f57fd85"
+        },
+        {
+          "key": "reagent2",
+          "value": "mounting media with DAPI",
+          "id": "2b46bef6-2928-44c9-8053-515651f1da01",
+          "node_id": "3204225e-b861-4784-99d5-5c759f57fd85"
+        }
+      ],
+      "emits": [
+        {
+          "key": "reagent0",
+          "value": "washed cells",
+          "id": "1e92d986-d055-47fc-9f80-e4cf872ec8e0",
+          "node_id": "3204225e-b861-4784-99d5-5c759f57fd85"
+        }
+      ]
+    },
+    {
+      "id": "75b83140-8d87-41c4-a904-792f9c691874",
+      "text": "Add mounting media with DAPI and apply coverslip.",
+      "instruction": "APPLY",
+      "slots": [
+        {
+          "key": "reagent1",
+          "value": "washed cells",
+          "id": "52627349-0004-4d9b-a9c8-227dd69b4d31",
+          "node_id": "75b83140-8d87-41c4-a904-792f9c691874"
+        },
+        {
+          "key": "reagent2",
+          "value": "mounting media with DAPI",
+          "id": "e4970cae-1c7d-42bb-8f5b-6837a0a42571",
+          "node_id": "75b83140-8d87-41c4-a904-792f9c691874"
+        }
+      ],
+      "emits": [
+        {
+          "key": "reagent0",
+          "value": "washed cells",
+          "id": "d52d9e5b-4124-40ec-a2c9-8e7c25c673d3",
+          "node_id": "75b83140-8d87-41c4-a904-792f9c691874"
+        }
+      ]
+    },
+    {
+      "id": "1fc3a1fb-20f0-407b-bed0-4901cb8acb79",
+      "text": "Store slides in the dark at 4C.",
+      "instruction": "STORE",
+      "slots": [
+        {
+          "key": "reagent1",
+          "value": "slides",
+          "id": "4620a905-e27a-4798-9092-aaa66650e104",
+          "node_id": "1fc3a1fb-20f0-407b-bed0-4901cb8acb79"
+        },
+        {
+          "key": "temperature",
+          "value": "4C",
+          "id": "3855c230-217d-475e-b72d-106880fb6586",
+          "node_id": "1fc3a1fb-20f0-407b-bed0-4901cb8acb79"
+        },
+        {
+          "key": "environment",
+          "value": "dark",
+          "id": "611d57e5-f844-4104-b66f-b0ba3f3b94db",
+          "node_id": "1fc3a1fb-20f0-407b-bed0-4901cb8acb79"
+        }
+      ],
+      "emits": [
+        {
+          "key": "reagent0",
+          "value": "slides",
+          "id": "1cb100b8-aa00-45d6-a280-e079a2edf00a",
+          "node_id": "1fc3a1fb-20f0-407b-bed0-4901cb8acb79"
+        }
+      ]
+    }
+  ],
+  "edges": []
+}

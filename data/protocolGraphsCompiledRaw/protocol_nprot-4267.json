@@ -1,0 +1,1141 @@
+[
+    {
+        "title": "**A.**",
+        "body": []
+    },
+    {
+        "title": "**Culture**",
+        "body": []
+    },
+    {
+        "title": "**condition**",
+        "body": []
+    },
+    {
+        "title": "**and**",
+        "body": []
+    },
+    {
+        "title": "**protein**",
+        "body": []
+    },
+    {
+        "title": "**extraction**",
+        "body": [
+            {
+                "title": "1.",
+                "body": [
+                    {
+                        "sentence": "Germinate _P. indica_ spores and grow in 100ml of Hill-Kaefer\u2019s broth at 28\u00b12\u00b0C for six days.",
+                        "result": [
+                            {
+                                "GROW": {
+                                    "emit": [
+                                        {
+                                            "reagent0": "P. indica spores"
+                                        }
+                                    ],
+                                    "slot": [
+                                        {
+                                            "reagent1": "P. indica spores"
+                                        },
+                                        {
+                                            "medium": "Hill-Kaefer\u2019s broth"
+                                        },
+                                        {
+                                            "temperature": "28\u00b12\u00b0C"
+                                        },
+                                        {
+                                            "time": "six days"
+                                        }
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "2.",
+                "body": [
+                    {
+                        "sentence": "For interaction, add secondary culture of _A._ _chroococcum_ strains WR5 and M4 \\(OD<sub>600</sub> of 0.4), individually into six-day old fungal cultures and again co-culture for additional three days with control fungus.",
+                        "result": [
+                            {
+                                "ADD": {
+                                    "emit": [
+                                        {
+                                            "reagent0": "A. chroococcum strains WR5 and M4 (OD<sub>600</sub> of 0.4)"
+                                        }
+                                    ],
+                                    "slot": [
+                                        {
+                                            "reagent1": "P. indica spores"
+                                        },
+                                        {
+                                            "reagent2": "A. chroococcum strains WR5 and M4 (OD<sub>600</sub> of 0.4)"
+                                        },
+                                        {
+                                            "notice": "Co-culture for additional three days with control fungus."
+                                        }
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "3.",
+                "body": [
+                    {
+                        "sentence": "Wash control and co-cultured mycelium-on day 9 three times with 1X PBS and pellet at 7000rpm for 10min at 4\u00b0C.  \r\n  \r\n\n\nCRITICAL STEP :\r\n\n\nWashing of the mycelial mass can be done with 1x PBS \\(pH 7.4) by gradual shaking with three changes of buffer before pelleting down.",
+                        "result": [
+                            {
+                                "WASH": {
+                                    "emit": [
+                                        {
+                                            "reagent0": "control and co-cultured mycelium"
+                                        }
+                                    ],
+                                    "slot": [
+                                        {
+                                            "reagent1": "control and co-cultured mycelium"
+                                        },
+                                        {
+                                            "reagent2": "1X PBS"
+                                        },
+                                        {
+                                            "repeat": "3"
+                                        },
+                                        {
+                                            "notice": "Washing of the mycelial mass can be done with 1x PBS (pH 7.4) by gradual shaking with three changes of buffer before pelleting down."
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "PELLET": {
+                                    "emit": [
+                                        {
+                                            "reagent0": "control and co-cultured mycelium"
+                                        }
+                                    ],
+                                    "slot": [
+                                        {
+                                            "reagent1": "control and co-cultured mycelium"
+                                        },
+                                        {
+                                            "intensity": "<blank>"
+                                        },
+                                        {
+                                            "time": "10min"
+                                        },
+                                        {
+                                            "temperature": "4\u00b0C"
+                                        },
+                                        {
+                                            "device": "7000rpm"
+                                        }
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "4.",
+                "body": [
+                    {
+                        "sentence": "For protein extraction, harvest mycelia from each experimental condition and record fresh weight.",
+                        "result": [
+                            {
+                                "HARVEST": {
+                                    "emit": [
+                                        {
+                                            "reagent0": "mycelia"
+                                        }
+                                    ],
+                                    "slot": [
+                                        {
+                                            "reagent1": "mycelia"
+                                        },
+                                        {
+                                            "environment": "experimental condition"
+                                        },
+                                        {
+                                            "purpose": "protein extraction"
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "RECORD": {
+                                    "emit": [
+                                        {
+                                            "data": "fresh weight"
+                                        }
+                                    ],
+                                    "slot": [
+                                        {
+                                            "information": "fresh weight"
+                                        }
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "5.",
+                "body": [
+                    {
+                        "sentence": "Grind mycelia to fine powder in liquid nitrogen using sterile pre-cooled mortar and pestle.",
+                        "result": []
+                    }
+                ]
+            },
+            {
+                "title": "6.",
+                "body": [
+                    {
+                        "sentence": "Collect the fine powder into a cold 50ml centrifuge tube and homogenize with pre-chilled 10% TCA \\(w/v) in acetone with 0.07% \\(v/v) 2-mecraptoethanol by vortexing for 10 min. Incubate overnight at - 20\u00b0C.  \r\n  \r\n\n\nCRITICAL STEP:\r\n\n\nPrepare10% TCA in acetone with 0.07% 2-mecraptoethanol and keep in -20 \u00b0C before use to prevent degradation of proteins.",
+                        "result": [
+                            {
+                                "COLLECT": {
+                                    "emit": [
+                                        {
+                                            "reagent0": "fine powder"
+                                        }
+                                    ],
+                                    "slot": [
+                                        {
+                                            "reagent1": "fine powder"
+                                        },
+                                        {
+                                            "container": "50ml centrifuge tube"
+                                        },
+                                        {
+                                            "environment": "cold"
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "HOMOGENIZE": {
+                                    "emit": [
+                                        {
+                                            "reagent0": "fine powder"
+                                        }
+                                    ],
+                                    "slot": [
+                                        {
+                                            "reagent1": "fine powder"
+                                        },
+                                        {
+                                            "reagent2": "10% TCA (w/v) in acetone with 0.07% (v/v) 2-mercaptoethanol"
+                                        },
+                                        {
+                                            "device": "vortex"
+                                        },
+                                        {
+                                            "time": "10 min"
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "INCUBATE": {
+                                    "emit": [
+                                        {
+                                            "reagent0": "fine powder"
+                                        }
+                                    ],
+                                    "slot": [
+                                        {
+                                            "reagent1": "fine powder"
+                                        },
+                                        {
+                                            "reagent2": "10% TCA (w/v) in acetone with 0.07% (v/v) 2-mercaptoethanol"
+                                        },
+                                        {
+                                            "temperature": "-20\u00b0C"
+                                        },
+                                        {
+                                            "time": "overnight"
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "PREPARE": {
+                                    "emit": [
+                                        {
+                                            "reagent0": "fine powder"
+                                        }
+                                    ],
+                                    "slot": [
+                                        {
+                                            "reagent1": "10% TCA in acetone with 0.07% 2-mercaptoethanol"
+                                        },
+                                        {
+                                            "container": "50ml centrifuge tube"
+                                        },
+                                        {
+                                            "temperature": "-20\u00b0C"
+                                        },
+                                        {
+                                            "device": "vortex"
+                                        },
+                                        {
+                                            "method": "vortexing for 10 min"
+                                        },
+                                        {
+                                            "notice": "Keep in -20\u00b0C before use to prevent degradation of proteins"
+                                        }
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "7.",
+                "body": [
+                    {
+                        "sentence": "Centrifuge the precipitated protein at14000 rpm for 20 min at 4 \u00b0C and collect the pellet.",
+                        "result": [
+                            {
+                                "CENTRIFUGE": {
+                                    "emit": [
+                                        {
+                                            "reagent0": "precipitated protein"
+                                        }
+                                    ],
+                                    "slot": [
+                                        {
+                                            "reagent1": "precipitated protein"
+                                        },
+                                        {
+                                            "intensity": "14000 rpm"
+                                        },
+                                        {
+                                            "time": "20 min"
+                                        },
+                                        {
+                                            "temperature": "4 \u00b0C"
+                                        },
+                                        {
+                                            "notice": "Collect the pellet."
+                                        }
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "8.",
+                "body": [
+                    {
+                        "sentence": "Wash the pellet twice with chilled 90% acetone containing 10mM \\(w/v) dithiothreitol \\(DTT) and 80% chilled acetone containing 10mM DTT \\(w/v) respectively. Collect the pellet by centrifugation at 14,000 rpm at 4\u00b0C for 10 min.",
+                        "result": [
+                            {
+                                "WASH": {
+                                    "emit": [
+                                        {
+                                            "reagent0": "pellet"
+                                        }
+                                    ],
+                                    "slot": [
+                                        {
+                                            "reagent1": "pellet"
+                                        },
+                                        {
+                                            "reagent2": "90% acetone containing 10mM (w/v) dithiothreitol (DTT)"
+                                        },
+                                        {
+                                            "repeat": "2"
+                                        },
+                                        {
+                                            "notice": "Collect the pellet by centrifugation at 14,000 rpm at 4\u00b0C for 10 min."
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "COLLECT": {
+                                    "emit": [
+                                        {
+                                            "reagent0": "pellet"
+                                        }
+                                    ],
+                                    "slot": [
+                                        {
+                                            "reagent1": "pellet"
+                                        },
+                                        {
+                                            "container": "50ml centrifuge tube"
+                                        },
+                                        {
+                                            "method": "centrifugation"
+                                        },
+                                        {
+                                            "environment": "4\u00b0C"
+                                        },
+                                        {
+                                            "purpose": "collection"
+                                        },
+                                        {
+                                            "notice": ""
+                                        }
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "9.",
+                "body": [
+                    {
+                        "sentence": "Air dry the residual acetone for 10 min at 4 \u00b0C and re-suspended the protein pellet in protein solubilization buffer 1  with intermittent sonication. \r\n  \r\n\n\nCRITICAL STEP :\r\n\n\nAvoid over drying the protein pellet, which may hinder its solubilization.",
+                        "result": [
+                            {
+                                "DRY": {
+                                    "emit": [],
+                                    "slot": [
+                                        {
+                                            "reagent1": "residual acetone"
+                                        },
+                                        {
+                                            "temperature": "4 \u00b0C"
+                                        },
+                                        {
+                                            "time": "10 min"
+                                        },
+                                        {
+                                            "notice": "Avoid over drying the protein pellet, which may hinder its solubilization."
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "RESUSPEND": {
+                                    "emit": [
+                                        {
+                                            "reagent0": "protein pellet"
+                                        }
+                                    ],
+                                    "slot": [
+                                        {
+                                            "reagent1": "protein pellet"
+                                        },
+                                        {
+                                            "reagent2": "protein solubilization buffer 1"
+                                        },
+                                        {
+                                            "temperature": "4 \u00b0C"
+                                        },
+                                        {
+                                            "device": "intermittent sonication"
+                                        },
+                                        {
+                                            "notice": "Avoid over drying the protein pellet, which may hinder its solubilization."
+                                        }
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "10.",
+                "body": [
+                    {
+                        "sentence": "Once the solution is clear, add 0.1% SDS and place the solution in a Falcon tube on a slow moving rocker for 20-30min at 4\u00b0C to achieve complete solubilization.",
+                        "result": [
+                            {
+                                "ADD": {
+                                    "emit": [],
+                                    "slot": [
+                                        {
+                                            "reagent2": "0.1% SDS"
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "PLACE": {
+                                    "emit": [
+                                        {
+                                            "reagent0": "solution"
+                                        }
+                                    ],
+                                    "slot": [
+                                        {
+                                            "reagent1": "solution"
+                                        },
+                                        {
+                                            "destination": "Falcon tube"
+                                        },
+                                        {
+                                            "temperature": "4\u00b0C"
+                                        },
+                                        {
+                                            "device": "slow moving rocker"
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "MOVE": {
+                                    "emit": [],
+                                    "slot": [
+                                        {
+                                            "destination": "Falcon tube"
+                                        },
+                                        {
+                                            "reagent1": "solution"
+                                        },
+                                        {
+                                            "equipment": "slow moving rocker"
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "INCUBATE": {
+                                    "emit": [
+                                        {
+                                            "reagent0": "solution"
+                                        }
+                                    ],
+                                    "slot": [
+                                        {
+                                            "reagent1": "solution"
+                                        },
+                                        {
+                                            "reagent2": "0.1% SDS"
+                                        },
+                                        {
+                                            "temperature": "4\u00b0C"
+                                        },
+                                        {
+                                            "time": "20-30min"
+                                        },
+                                        {
+                                            "device": "rocker"
+                                        }
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "11.",
+                "body": [
+                    {
+                        "sentence": "Spin at 14,000 rpm for 15min at 4\u00b0C. Collect the supernatant having the protein.",
+                        "result": [
+                            {
+                                "SPIN": {
+                                    "emit": [
+                                        {
+                                            "reagent0": "supernatant"
+                                        }
+                                    ],
+                                    "slot": [
+                                        {
+                                            "reagent1": "precipitated protein"
+                                        },
+                                        {
+                                            "intensity": "14000 rpm"
+                                        },
+                                        {
+                                            "time": "15min"
+                                        },
+                                        {
+                                            "temperature": "4\u00b0C"
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "COLLECT": {
+                                    "emit": [
+                                        {
+                                            "reagent0": "supernatant"
+                                        }
+                                    ],
+                                    "slot": [
+                                        {
+                                            "reagent1": "supernatant"
+                                        },
+                                        {
+                                            "container": "<blank>"
+                                        },
+                                        {
+                                            "method": "<blank>"
+                                        },
+                                        {
+                                            "environment": "4\u00b0C"
+                                        },
+                                        {
+                                            "purpose": "<blank>"
+                                        },
+                                        {
+                                            "notice": "<blank>"
+                                        }
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "12.",
+                "body": [
+                    {
+                        "sentence": "Concentrate the collected protein and increase the conductivity by using Perfect Focus kit \\(G-Biosciences) protocol.",
+                        "result": [
+                            {
+                                "CONCENTRATE": {
+                                    "emit": [
+                                        {
+                                            "reagent0": "concentrated protein"
+                                        }
+                                    ],
+                                    "slot": [
+                                        {
+                                            "reagent1": "protein pellet"
+                                        },
+                                        {
+                                            "targetVol": "<blank>"
+                                        },
+                                        {
+                                            "targetConcentration": "<blank>"
+                                        },
+                                        {
+                                            "method": "<blank>"
+                                        },
+                                        {
+                                            "device": "Perfect Focus kit (G-Biosciences)"
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "INCREASE": {
+                                    "emit": [],
+                                    "slot": [
+                                        {
+                                            "attribute": "conductivity"
+                                        },
+                                        {
+                                            "value": "<blank>"
+                                        },
+                                        {
+                                            "environment": "Perfect Focus kit (G-Biosciences) protocol"
+                                        }
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "13.",
+                "body": [
+                    {
+                        "sentence": "Add an appropriate volume of solubilization buffer 2 to completely suspend the protein pellet. Vortex periodically until pellet is dissolved.",
+                        "result": [
+                            {
+                                "ADD": {
+                                    "emit": [
+                                        {
+                                            "reagent0": "protein pellet"
+                                        }
+                                    ],
+                                    "slot": [
+                                        {
+                                            "reagent1": "protein pellet"
+                                        },
+                                        {
+                                            "reagent2": "solubilization buffer 2"
+                                        },
+                                        {
+                                            "notice": "Vortex periodically until pellet is dissolved."
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "VORTEX": {
+                                    "emit": [
+                                        {
+                                            "reagent0": "protein pellet"
+                                        }
+                                    ],
+                                    "slot": [
+                                        {
+                                            "reagent1": "protein pellet"
+                                        }
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "14.",
+                "body": [
+                    {
+                        "sentence": "Quantify dissolved protein by Bradford reagent using bovine serum albumin \\(BSA) as a standard.  \r\n  \r\n\n\nCRITICAL STEP :\r\n\n\nCrude protein must be concentrated and conductivity of the solution increased. This increases the quality of both isoelectric focusing and gives distinctly resolved protein spots in the gel.",
+                        "result": [
+                            {
+                                "QUANTIFY": {
+                                    "emit": [
+                                        {
+                                            "data": "<blank>"
+                                        }
+                                    ],
+                                    "slot": [
+                                        {
+                                            "reagent1": "Bradford reagent"
+                                        },
+                                        {
+                                            "method": "Bradford assay"
+                                        },
+                                        {
+                                            "standard": "bovine serum albumin (BSA)"
+                                        },
+                                        {
+                                            "device": "spectrophotometer"
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "CONCENTRATE": {
+                                    "emit": [
+                                        {
+                                            "reagent0": "concentrated protein"
+                                        }
+                                    ],
+                                    "slot": [
+                                        {
+                                            "reagent1": "solution"
+                                        },
+                                        {
+                                            "targetVol": "<blank>"
+                                        },
+                                        {
+                                            "targetConcentration": "<blank>"
+                                        },
+                                        {
+                                            "method": "<blank>"
+                                        },
+                                        {
+                                            "device": "<blank>"
+                                        }
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "**B.**",
+        "body": []
+    },
+    {
+        "title": "**2D-gel**",
+        "body": []
+    },
+    {
+        "title": "**electrophoresis**",
+        "body": [
+            {
+                "title": "15.",
+                "body": [
+                    {
+                        "sentence": "In order to perform 2D-gel electrophoreses, suspend 250 micrograms of total protein from each experimental group in rehydration buffer.",
+                        "result": [
+                            {
+                                "SUSPEND": {
+                                    "emit": [
+                                        {
+                                            "reagent0": "total protein"
+                                        }
+                                    ],
+                                    "slot": [
+                                        {
+                                            "reagent1": "total protein"
+                                        },
+                                        {
+                                            "reagent2": "rehydration buffer"
+                                        }
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "16.",
+                "body": [
+                    {
+                        "sentence": "Pipette out the individual protein mixture in a 13cm ceramic strip holder in which an immobilized linear pH gradient \\(IPG) strip, pH 3-10, 13cm \\(GE Health care) is placed facing the gel side downward.",
+                        "result": [
+                            {
+                                "PIPETTE": {
+                                    "emit": [
+                                        {
+                                            "reagent0": "individual protein mixture"
+                                        }
+                                    ],
+                                    "slot": [
+                                        {
+                                            "volume": "individual protein mixture"
+                                        },
+                                        {
+                                            "reagent1": "13cm ceramic strip holder"
+                                        },
+                                        {
+                                            "notice": "in which an immobilized linear pH gradient (IPG) strip, pH 3-10, 13cm (GE Health care) is placed facing the gel side downward."
+                                        }
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "17.",
+                "body": [
+                    {
+                        "sentence": "Rehydrate the strips overnight at room temperature and focused by increasing voltage over 8 h from 100 to 10.000 V.",
+                        "result": [
+                            {
+                                "INCREASE": {
+                                    "emit": [],
+                                    "slot": [
+                                        {
+                                            "attribute": "voltage"
+                                        },
+                                        {
+                                            "value": "10.000 V"
+                                        },
+                                        {
+                                            "time": "8 h"
+                                        }
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "18.",
+                "body": [
+                    {
+                        "sentence": "For second dimension, equilibrate the strips in first equilibration buffer \\[6M urea,30% \\(v/v) glycerol, l2% SDS, 50mM Tris-HCL \\(pH 8.8), 1% \\(w/v) Bromophenol blue] containing 1.54% \\(w/v) DTT for 15min. Equilibrate it again by adding second equilibration buffer having 2.5%  \\(w/v) IAA in first equilibration buffer for another 15min.",
+                        "result": [
+                            {
+                                "EQUILIBRATE": {
+                                    "emit": [
+                                        {
+                                            "reagent0": "strips"
+                                        }
+                                    ],
+                                    "slot": [
+                                        {
+                                            "reagent1": "strips"
+                                        },
+                                        {
+                                            "reagent2": "first equilibration buffer [6M urea, 30% (v/v) glycerol, 12% SDS, 50mM Tris-HCL (pH 8.8), 1% (w/v) Bromophenol blue] containing 1.54% (w/v) DTT"
+                                        },
+                                        {
+                                            "time": "15min"
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "EQUILIBRATE": {
+                                    "emit": [
+                                        {
+                                            "reagent0": "strips"
+                                        }
+                                    ],
+                                    "slot": [
+                                        {
+                                            "reagent1": "strips"
+                                        },
+                                        {
+                                            "reagent2": "second equilibration buffer"
+                                        },
+                                        {
+                                            "time": "15min"
+                                        }
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "19.",
+                "body": [
+                    {
+                        "sentence": "Place the individual strips on a12 % polyacrylamide gel for SDS PAGE.",
+                        "result": [
+                            {
+                                "PLACE": {
+                                    "emit": [
+                                        {
+                                            "reagent0": "individual strips"
+                                        }
+                                    ],
+                                    "slot": [
+                                        {
+                                            "reagent1": "individual strips"
+                                        },
+                                        {
+                                            "destination": "12% polyacrylamide gel"
+                                        }
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "20.",
+                "body": [
+                    {
+                        "sentence": "Electrophorese at room temperature using the Bio-Rad-power-PAC 200 at 100V.",
+                        "result": []
+                    }
+                ]
+            },
+            {
+                "title": "21.",
+                "body": [
+                    {
+                        "sentence": "Visualise the protein spots by staining with Coomassie Brilliant Blue G250 \\(0.25%, w/v) prepared in methanol \\(40%) and acetic acid \\(10% ). Destain it with distaining solution \\(30% methanol, 10% acetic acid).",
+                        "result": [
+                            {
+                                "STAIN": {
+                                    "emit": [
+                                        {
+                                            "reagent0": "protein spots"
+                                        }
+                                    ],
+                                    "slot": [
+                                        {
+                                            "reagent1": "Coomassie Brilliant Blue G250 (0.25%, w/v) prepared in methanol (40%) and acetic acid (10%)"
+                                        },
+                                        {
+                                            "temperature": "room temperature"
+                                        }
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "**C.**",
+        "body": []
+    },
+    {
+        "title": "**Analysis**",
+        "body": []
+    },
+    {
+        "title": "**of**",
+        "body": []
+    },
+    {
+        "title": "**2D-gel**",
+        "body": [
+            {
+                "title": "22.",
+                "body": [
+                    {
+                        "sentence": "Scan the individual gels for protein spots using an Image scanner.",
+                        "result": []
+                    }
+                ]
+            },
+            {
+                "title": "23.",
+                "body": [
+                    {
+                        "sentence": "To identify spots of interest, compare pair-wise the gels of pure fungal culture \\(control) and the co-cultured fungus \\(_P. indica_ with WR5 and _P. indica_ with M4).",
+                        "result": [
+                            {
+                                "COMPARE": {
+                                    "emit": [],
+                                    "slot": [
+                                        {
+                                            "reagent1": "pure fungal culture (control)"
+                                        },
+                                        {
+                                            "reagent2": "co-cultured fungus (_P. indica_ with WR5 and _P. indica_ with M4)"
+                                        }
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "24.",
+                "body": [
+                    {
+                        "sentence": "Using a  2-D gel image analysis software like \u2018The Progenesis Same Spots version 4.5.4325.32621, Nonlinear Dynamics Ltd, UK\u2019 perform both a qualitative \\(presence vs absence) and a quantitative analysis.",
+                        "result": [
+                            {
+                                "PERFORM": {
+                                    "emit": [
+                                        {
+                                            "reagent0": "protein spots"
+                                        }
+                                    ],
+                                    "slot": [
+                                        {
+                                            "procedure": "Perform both a qualitative (presence vs absence) and a quantitative analysis"
+                                        },
+                                        {
+                                            "equipment": "2-D gel image analysis software like \u2018The Progenesis Same Spots version 4.5.4325.32621, Nonlinear Dynamics Ltd, UK\u2019"
+                                        }
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "25.",
+                "body": [
+                    {
+                        "sentence": "For identification of differentially expressed proteins, compare the relative spot volumes of the three replicate gels and quantitate each spot and normalize it with respect to the total spot volume of the 2-DE gel.",
+                        "result": [
+                            {
+                                "COMPARE": {
+                                    "emit": [],
+                                    "slot": [
+                                        {
+                                            "reagent1": "protein spots"
+                                        },
+                                        {
+                                            "reagent2": "protein spots"
+                                        },
+                                        {
+                                            "environment": "2-DE gel"
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "QUANTIFY": {
+                                    "emit": [
+                                        {
+                                            "data": "protein spots"
+                                        }
+                                    ],
+                                    "slot": [
+                                        {
+                                            "reagent1": "protein spots"
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "NORMALIZE": {
+                                    "emit": [
+                                        {
+                                            "reagent0": "protein spots"
+                                        }
+                                    ],
+                                    "slot": [
+                                        {
+                                            "reagent1": "protein spots"
+                                        },
+                                        {
+                                            "device": "2-DE gel"
+                                        }
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "26.",
+                "body": [
+                    {
+                        "sentence": "The difference in spot volume can be used as a measure of change in protein expression and significantly different intensities can be statistically analyzed.",
+                        "result": [
+                            {
+                                "MEASURE": {
+                                    "emit": [],
+                                    "slot": [
+                                        {
+                                            "reagent1": "Coomassie Brilliant Blue G250"
+                                        },
+                                        {
+                                            "parameter": "spot volume"
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "ANALYZE": {
+                                    "emit": [
+                                        {
+                                            "data0": "protein spots"
+                                        }
+                                    ],
+                                    "slot": [
+                                        {
+                                            "reagent1": "protein spots"
+                                        }
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+]

@@ -1,0 +1,144 @@
+{
+  "name": "nprot-2120_graphData.json",
+  "nodes": [
+    {
+      "id": "0a251df1-7854-4d92-8d4a-eb96b5ee9af9",
+      "text": "Inoculate 5ml LB 100ug/ml ampicillin \\(or other appropriate antibiotic for your culture) with cells.",
+      "instruction": "INOCULATE",
+      "slots": [
+        {
+          "key": "reagent1",
+          "value": "5ml LB 100ug/ml ampicillin",
+          "id": "0fc22ce0-a12f-457f-a6fd-8456a45e147b",
+          "node_id": "0a251df1-7854-4d92-8d4a-eb96b5ee9af9"
+        }
+      ],
+      "emits": [
+        {
+          "key": "reagent0",
+          "value": "5ml LB 100ug/ml ampicillin",
+          "id": "143e3cbc-6337-415c-90ad-e65432146ad0",
+          "node_id": "0a251df1-7854-4d92-8d4a-eb96b5ee9af9"
+        }
+      ]
+    },
+    {
+      "id": "1f4d0ca5-716e-48cc-833c-781749c257fe",
+      "text": "Grow overnight on roller.",
+      "instruction": "GROW",
+      "slots": [
+        {
+          "key": "reagent1",
+          "value": "cells",
+          "id": "24ba79ce-4d42-497c-9134-21ce769e45c2",
+          "node_id": "1f4d0ca5-716e-48cc-833c-781749c257fe"
+        },
+        {
+          "key": "medium",
+          "value": "LB 100ug/ml ampicillin",
+          "id": "2d1bfa80-9867-47e7-bc84-5d530322eca4",
+          "node_id": "1f4d0ca5-716e-48cc-833c-781749c257fe"
+        },
+        {
+          "key": "temperature",
+          "value": "room temperature",
+          "id": "8544bea2-e3ea-4177-bdaf-9ce3aa285d67",
+          "node_id": "1f4d0ca5-716e-48cc-833c-781749c257fe"
+        },
+        {
+          "key": "device",
+          "value": "roller",
+          "id": "1371255f-09a2-4fba-babd-0670f455979e",
+          "node_id": "1f4d0ca5-716e-48cc-833c-781749c257fe"
+        }
+      ],
+      "emits": [
+        {
+          "key": "reagent0",
+          "value": "5ml LB 100ug/ml ampicillin",
+          "id": "b2ae8a1e-8707-4e5b-9703-ac700deae20a",
+          "node_id": "1f4d0ca5-716e-48cc-833c-781749c257fe"
+        }
+      ]
+    },
+    {
+      "id": "7b1df703-6479-409e-a10a-99cc880e7c38",
+      "text": "Mix 800ul culture with 200ul 100% w/v glycerol \\(sterile) in sterile screw cap freezer tube.\r\n  \\(usually make several tubes)",
+      "instruction": "MIX",
+      "slots": [
+        {
+          "key": "reagent1",
+          "value": "800ul culture",
+          "id": "0cece949-5b80-4ea2-986d-a77e94369d14",
+          "node_id": "7b1df703-6479-409e-a10a-99cc880e7c38"
+        },
+        {
+          "key": "reagent2",
+          "value": "200ul 100% w/v glycerol (sterile)",
+          "id": "70d38443-86b4-4bc8-b46b-3760b60e0693",
+          "node_id": "7b1df703-6479-409e-a10a-99cc880e7c38"
+        },
+        {
+          "key": "device",
+          "value": "sterile screw cap freezer tube",
+          "id": "f5ec828f-b2d0-4a0b-a0af-372b62b7dce0",
+          "node_id": "7b1df703-6479-409e-a10a-99cc880e7c38"
+        },
+        {
+          "key": "notice",
+          "value": "usually make several tubes",
+          "id": "60135aba-aa97-4a29-8682-4042aa3d045e",
+          "node_id": "7b1df703-6479-409e-a10a-99cc880e7c38"
+        }
+      ],
+      "emits": [
+        {
+          "key": "reagent0",
+          "value": "800ul culture with 200ul 100% w/v glycerol (sterile)",
+          "id": "b3c15090-652d-4347-a3a6-4e79b82b7749",
+          "node_id": "7b1df703-6479-409e-a10a-99cc880e7c38"
+        }
+      ]
+    },
+    {
+      "id": "20fb4397-f13d-460f-b941-8d5a3e97f10b",
+      "text": "Store in -80\u00b0C freezer.",
+      "instruction": "STORE",
+      "slots": [
+        {
+          "key": "reagent1",
+          "value": "800ul culture with 200ul 100% w/v glycerol (sterile)",
+          "id": "facd4ea8-42ec-432c-be75-04a63ee98322",
+          "node_id": "20fb4397-f13d-460f-b941-8d5a3e97f10b"
+        },
+        {
+          "key": "temperature",
+          "value": "-80\u00b0C",
+          "id": "5cfd7c57-0914-428d-905f-27869a280584",
+          "node_id": "20fb4397-f13d-460f-b941-8d5a3e97f10b"
+        },
+        {
+          "key": "container",
+          "value": "sterile screw cap freezer tube",
+          "id": "0821cff5-382d-47ae-92eb-edce83ac5d4f",
+          "node_id": "20fb4397-f13d-460f-b941-8d5a3e97f10b"
+        },
+        {
+          "key": "notice",
+          "value": "(usually make several tubes)",
+          "id": "c25dad4d-7b3c-4db7-b07e-c6776f5e82d7",
+          "node_id": "20fb4397-f13d-460f-b941-8d5a3e97f10b"
+        }
+      ],
+      "emits": [
+        {
+          "key": "reagent0",
+          "value": "800ul culture with 200ul 100% w/v glycerol (sterile)",
+          "id": "de044bd2-791f-42a9-ab85-72f71f71293e",
+          "node_id": "20fb4397-f13d-460f-b941-8d5a3e97f10b"
+        }
+      ]
+    }
+  ],
+  "edges": []
+}

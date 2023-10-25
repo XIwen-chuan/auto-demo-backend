@@ -1,0 +1,528 @@
+{
+  "name": "nprot-272_graphData.json",
+  "nodes": [
+    {
+      "id": "e235a982-b86a-40a5-bd85-f08f6cb77c16",
+      "text": "Incubate aliquots of 100 &#x3BC;l LPS or LTA which is resuspended in 0.01 M pH 7.4 PBS in a 96-well microtitre plate \\(Maxisorp&#xAE;, NUNC, Denmark) at room temperature overnight.",
+      "instruction": "INCUBATE",
+      "slots": [
+        {
+          "key": "reagent1",
+          "value": "100 \u03bcl LPS or LTA",
+          "id": "75340915-0bd9-4d1b-934f-6534dd496efc",
+          "node_id": "e235a982-b86a-40a5-bd85-f08f6cb77c16"
+        },
+        {
+          "key": "temperature",
+          "value": "room temperature",
+          "id": "2a28cd51-4b30-48be-8b04-0ab293943bfc",
+          "node_id": "e235a982-b86a-40a5-bd85-f08f6cb77c16"
+        },
+        {
+          "key": "time",
+          "value": "overnight",
+          "id": "44a6ff1f-58c5-45d0-8138-2b88209729d9",
+          "node_id": "e235a982-b86a-40a5-bd85-f08f6cb77c16"
+        },
+        {
+          "key": "device",
+          "value": "96-well microtitre plate (Maxisorp\u00ae, NUNC, Denmark)",
+          "id": "96796cbc-7598-4163-b240-bd5c3cc7f224",
+          "node_id": "e235a982-b86a-40a5-bd85-f08f6cb77c16"
+        }
+      ],
+      "emits": [
+        {
+          "key": "reagent0",
+          "value": "100 \u03bcl LPS or LTA",
+          "id": "ce550c48-b17f-4bc7-85d0-2b477d437b30",
+          "node_id": "e235a982-b86a-40a5-bd85-f08f6cb77c16"
+        }
+      ]
+    },
+    {
+      "id": "0670aa61-fd28-48a5-ade8-fa41a43aab68",
+      "text": "Rinse the wells three times with 300 &#x3BC;l of PBS each.",
+      "instruction": "RINSE",
+      "slots": [
+        {
+          "key": "reagent1",
+          "value": "wells",
+          "id": "92e32143-11d2-4401-a78d-f9e2f00c6f89",
+          "node_id": "0670aa61-fd28-48a5-ade8-fa41a43aab68"
+        },
+        {
+          "key": "reagent2",
+          "value": "PBS",
+          "id": "2f00dcc0-b928-460c-b997-58d69e3281ba",
+          "node_id": "0670aa61-fd28-48a5-ade8-fa41a43aab68"
+        },
+        {
+          "key": "repeat",
+          "value": "3",
+          "id": "f95ef181-fbb4-418a-b8f8-c27b765a2810",
+          "node_id": "0670aa61-fd28-48a5-ade8-fa41a43aab68"
+        }
+      ],
+      "emits": [
+        {
+          "key": "reagent0",
+          "value": "wells",
+          "id": "558808f5-8343-41b9-ba5f-b5e7bab27406",
+          "node_id": "0670aa61-fd28-48a5-ade8-fa41a43aab68"
+        }
+      ]
+    },
+    {
+      "id": "29ef034a-d7d0-48dc-8c3a-d9f303607890",
+      "text": "Block the wells with 150 &#x3BC;l of PBS with 2% \\(w/v) BSA at 37 &#xB0;C for 2 h.",
+      "instruction": "BLOCK",
+      "slots": [
+        {
+          "key": "reagent1",
+          "value": "wells",
+          "id": "a2f80396-6e13-41a9-bb13-b60fd772d7c2",
+          "node_id": "29ef034a-d7d0-48dc-8c3a-d9f303607890"
+        },
+        {
+          "key": "reagent2",
+          "value": "PBS with 2% (w/v) BSA",
+          "id": "a993fe0c-3aa6-46d7-a080-c08a0af20926",
+          "node_id": "29ef034a-d7d0-48dc-8c3a-d9f303607890"
+        },
+        {
+          "key": "temperature",
+          "value": "37 \u00b0C",
+          "id": "3c6d8f7e-8d27-47f4-870a-a86a4953853b",
+          "node_id": "29ef034a-d7d0-48dc-8c3a-d9f303607890"
+        },
+        {
+          "key": "time",
+          "value": "2 h",
+          "id": "f1b7e331-0d1f-4745-913e-419afb437e40",
+          "node_id": "29ef034a-d7d0-48dc-8c3a-d9f303607890"
+        }
+      ],
+      "emits": [
+        {
+          "key": "reagent0",
+          "value": "wells",
+          "id": "cb0ebbbb-925a-4fc2-bd99-ee07084ad08b",
+          "node_id": "29ef034a-d7d0-48dc-8c3a-d9f303607890"
+        }
+      ]
+    },
+    {
+      "id": "22eb16f6-39cd-4b65-982b-0dca77231882",
+      "text": "Rinse the wells three times with 300 &#x3BC;l of PBS each.",
+      "instruction": "RINSE",
+      "slots": [
+        {
+          "key": "reagent1",
+          "value": "wells",
+          "id": "d475d437-7d9a-41d6-af81-1a9721be5efd",
+          "node_id": "22eb16f6-39cd-4b65-982b-0dca77231882"
+        },
+        {
+          "key": "reagent2",
+          "value": "PBS",
+          "id": "00638d60-97d0-4b33-96fe-ba33bd36f28f",
+          "node_id": "22eb16f6-39cd-4b65-982b-0dca77231882"
+        },
+        {
+          "key": "repeat",
+          "value": "3",
+          "id": "d4f93a52-e708-467b-8c39-42ec607bba8f",
+          "node_id": "22eb16f6-39cd-4b65-982b-0dca77231882"
+        }
+      ],
+      "emits": [
+        {
+          "key": "reagent0",
+          "value": "wells",
+          "id": "67e776f5-41c5-4ab1-986f-634bb6709546",
+          "node_id": "22eb16f6-39cd-4b65-982b-0dca77231882"
+        }
+      ]
+    },
+    {
+      "id": "c68e6e7b-07a3-43d8-9a71-ff2f4f46224c",
+      "text": "Add to each well, 100 &#x3BC;l of the serially diluted protein \\(HMC or Hb in 2% BSA) in PBST \\(PBS containing 0.05% v/v Tween",
+      "instruction": "ADD",
+      "slots": [
+        {
+          "key": "reagent2",
+          "value": "serially diluted protein (HMC or Hb in 2% BSA) in PBST (PBS containing 0.05% v/v Tween)",
+          "id": "bb827637-9b2f-459b-9e47-506bb7d6bbde",
+          "node_id": "c68e6e7b-07a3-43d8-9a71-ff2f4f46224c"
+        }
+      ],
+      "emits": [
+        {
+          "key": "reagent0",
+          "value": "100 \u03bcl LPS or LTA",
+          "id": "fa818af2-2974-4422-879a-7250ce65fdf6",
+          "node_id": "c68e6e7b-07a3-43d8-9a71-ff2f4f46224c"
+        }
+      ]
+    },
+    {
+      "id": "cc6c90f1-fbee-4222-a88d-893d3f842fa6",
+      "text": "Rinse the wells three times with 300 &#x3BC;l of PBST each.",
+      "instruction": "RINSE",
+      "slots": [
+        {
+          "key": "reagent1",
+          "value": "wells",
+          "id": "8ca95860-a9ae-4226-bdbd-3fd7a1edbfb7",
+          "node_id": "cc6c90f1-fbee-4222-a88d-893d3f842fa6"
+        },
+        {
+          "key": "reagent2",
+          "value": "PBST",
+          "id": "5dafab69-d098-42b6-bce1-02f67cf29962",
+          "node_id": "cc6c90f1-fbee-4222-a88d-893d3f842fa6"
+        },
+        {
+          "key": "repeat",
+          "value": "3",
+          "id": "ce3b561d-0965-48e9-a79e-ff4a37d683cd",
+          "node_id": "cc6c90f1-fbee-4222-a88d-893d3f842fa6"
+        }
+      ],
+      "emits": [
+        {
+          "key": "reagent0",
+          "value": "wells",
+          "id": "102eda78-7bb8-46f6-bffa-12e1b71d6106",
+          "node_id": "cc6c90f1-fbee-4222-a88d-893d3f842fa6"
+        }
+      ]
+    },
+    {
+      "id": "42cba855-73ed-4c88-b6f1-e82a9f4c7044",
+      "text": "Add to each well, 100 &#x3BC;l of primary antibody \\(rabbit-anti HMC or rabbit-anti Hb), which is diluted to 1:500 with 2% BSA in PBST and further incubate at 37 &#xB0;C for 30 min.",
+      "instruction": "ADD",
+      "slots": [
+        {
+          "key": "reagent1",
+          "value": "primary antibody",
+          "id": "6eaf9dd9-20a4-4b03-926a-89f72099ce08",
+          "node_id": "42cba855-73ed-4c88-b6f1-e82a9f4c7044"
+        },
+        {
+          "key": "reagent2",
+          "value": "rabbit-anti HMC or rabbit-anti Hb",
+          "id": "94ebc815-0c14-4247-80d1-479c318e7f7a",
+          "node_id": "42cba855-73ed-4c88-b6f1-e82a9f4c7044"
+        },
+        {
+          "key": "ratio",
+          "value": "1:500",
+          "id": "0095d56b-169b-433e-b856-56c01b05250d",
+          "node_id": "42cba855-73ed-4c88-b6f1-e82a9f4c7044"
+        }
+      ],
+      "emits": [
+        {
+          "key": "reagent0",
+          "value": "primary antibody",
+          "id": "6b013e56-3f33-492c-ba6b-2fb73b3851b6",
+          "node_id": "42cba855-73ed-4c88-b6f1-e82a9f4c7044"
+        }
+      ]
+    },
+    {
+      "id": "c3e08410-66e4-44ed-bfa4-f476de3b936c",
+      "text": "Add to each well, 100 &#x3BC;l of primary antibody \\(rabbit-anti HMC or rabbit-anti Hb), which is diluted to 1:500 with 2% BSA in PBST and further incubate at 37 &#xB0;C for 30 min.",
+      "instruction": "INCUBATE",
+      "slots": [
+        {
+          "key": "reagent1",
+          "value": "primary antibody",
+          "id": "7aa7dd30-c946-44d2-b935-4ac33f6861c9",
+          "node_id": "c3e08410-66e4-44ed-bfa4-f476de3b936c"
+        },
+        {
+          "key": "temperature",
+          "value": "37 \u00b0C",
+          "id": "2bbfa7f7-faaf-427f-9d02-e836c94f1c43",
+          "node_id": "c3e08410-66e4-44ed-bfa4-f476de3b936c"
+        },
+        {
+          "key": "time",
+          "value": "30 min",
+          "id": "2d187f30-e246-4068-a1e3-95bfb076b691",
+          "node_id": "c3e08410-66e4-44ed-bfa4-f476de3b936c"
+        }
+      ],
+      "emits": [
+        {
+          "key": "reagent0",
+          "value": "primary antibody",
+          "id": "8b16455b-0b9e-494d-bc5d-905a8adfaa71",
+          "node_id": "c3e08410-66e4-44ed-bfa4-f476de3b936c"
+        }
+      ]
+    },
+    {
+      "id": "d1307a44-c3cf-4546-bca7-ac92e876e88d",
+      "text": "Rinse the wells three times with 300 &#x3BC;l of PBST each.",
+      "instruction": "RINSE",
+      "slots": [
+        {
+          "key": "reagent1",
+          "value": "wells",
+          "id": "22267572-bba4-471c-968f-2418b92040ae",
+          "node_id": "d1307a44-c3cf-4546-bca7-ac92e876e88d"
+        },
+        {
+          "key": "reagent2",
+          "value": "PBST",
+          "id": "e8a00212-733d-4481-9f9f-7bcd9d43f3fe",
+          "node_id": "d1307a44-c3cf-4546-bca7-ac92e876e88d"
+        },
+        {
+          "key": "repeat",
+          "value": "3",
+          "id": "25a524cb-6c71-4e69-85cf-64b81f9a96e5",
+          "node_id": "d1307a44-c3cf-4546-bca7-ac92e876e88d"
+        }
+      ],
+      "emits": [
+        {
+          "key": "reagent0",
+          "value": "wells",
+          "id": "cad6c552-4aa0-420e-a561-8fd7f1b7e0ef",
+          "node_id": "d1307a44-c3cf-4546-bca7-ac92e876e88d"
+        }
+      ]
+    },
+    {
+      "id": "9102af14-fbbe-4479-b287-1a51b8965187",
+      "text": "Add to each well, 100 &#x3BC;l of the horseradish peroxidase-conjugated goat-anti-rabbit antibody \\(DAKO, Japan), which is diluted to 1:1000 in 2% BSA in PBST, and incubate at 37 &#xB0;C for 30 min.",
+      "instruction": "ADD",
+      "slots": [
+        {
+          "key": "reagent2",
+          "value": "horseradish peroxidase-conjugated goat-anti-rabbit antibody (DAKO, Japan)",
+          "id": "99e55af4-1bde-48f4-bfc5-e23542f895e9",
+          "node_id": "9102af14-fbbe-4479-b287-1a51b8965187"
+        },
+        {
+          "key": "ratio",
+          "value": "1:1000",
+          "id": "3c78c57c-0d09-4df5-bcd2-6d1fbf692577",
+          "node_id": "9102af14-fbbe-4479-b287-1a51b8965187"
+        }
+      ],
+      "emits": [
+        {
+          "key": "reagent0",
+          "value": "horseradish peroxidase-conjugated goat-anti-rabbit antibody (DAKO, Japan)",
+          "id": "f15a0086-dc95-4354-b50f-bdc3e8d8ee24",
+          "node_id": "9102af14-fbbe-4479-b287-1a51b8965187"
+        }
+      ]
+    },
+    {
+      "id": "bfce8c2d-1184-4e24-8f33-80df514f4e12",
+      "text": "Add to each well, 100 &#x3BC;l of the horseradish peroxidase-conjugated goat-anti-rabbit antibody \\(DAKO, Japan), which is diluted to 1:1000 in 2% BSA in PBST, and incubate at 37 &#xB0;C for 30 min.",
+      "instruction": "INCUBATE",
+      "slots": [
+        {
+          "key": "reagent1",
+          "value": "horseradish peroxidase-conjugated goat-anti-rabbit antibody (DAKO, Japan)",
+          "id": "ef39b2ff-c72a-4d03-8f27-0afaf64f0baa",
+          "node_id": "bfce8c2d-1184-4e24-8f33-80df514f4e12"
+        },
+        {
+          "key": "temperature",
+          "value": "37 \u00b0C",
+          "id": "58a8447b-bc8a-4d5b-acad-8b624248e002",
+          "node_id": "bfce8c2d-1184-4e24-8f33-80df514f4e12"
+        },
+        {
+          "key": "time",
+          "value": "30 min",
+          "id": "6d2c6809-f808-464d-9198-af9f9b162266",
+          "node_id": "bfce8c2d-1184-4e24-8f33-80df514f4e12"
+        }
+      ],
+      "emits": [
+        {
+          "key": "reagent0",
+          "value": "horseradish peroxidase-conjugated goat-anti-rabbit antibody (DAKO, Japan)",
+          "id": "063a16e7-83e8-4cb3-b895-5d5ad5905e2f",
+          "node_id": "bfce8c2d-1184-4e24-8f33-80df514f4e12"
+        }
+      ]
+    },
+    {
+      "id": "a44a4dc9-8005-4c99-9391-856e42524642",
+      "text": "Rinse the wells three times with 300 &#x3BC;l of PBST each.",
+      "instruction": "RINSE",
+      "slots": [
+        {
+          "key": "reagent1",
+          "value": "wells",
+          "id": "d12a113c-52a5-49ea-bc2c-7c7a7b8c8c81",
+          "node_id": "a44a4dc9-8005-4c99-9391-856e42524642"
+        },
+        {
+          "key": "reagent2",
+          "value": "PBST",
+          "id": "85ebbe0a-d2ac-4a7a-88cd-00b3e916487f",
+          "node_id": "a44a4dc9-8005-4c99-9391-856e42524642"
+        },
+        {
+          "key": "repeat",
+          "value": "3",
+          "id": "e0484576-8c00-43aa-bee6-26466d79fd19",
+          "node_id": "a44a4dc9-8005-4c99-9391-856e42524642"
+        }
+      ],
+      "emits": [
+        {
+          "key": "reagent0",
+          "value": "wells",
+          "id": "24f664c6-b5f5-4599-a4d8-c81b0b9c7923",
+          "node_id": "a44a4dc9-8005-4c99-9391-856e42524642"
+        }
+      ]
+    },
+    {
+      "id": "f4bc03fd-3b89-4042-87b3-e4661492aa82",
+      "text": "Immediately before using, dissolve peroxidase substrate tablet \\(ABTS, 2,2&#x2019;-azino-bis\\[3-ethylbenzthiazoline-6-sulfonic acid], Roche) in substrate solution \\(Roche) as indicated by the manufacturer&#x2019;s manual.",
+      "instruction": "DISSOLVE",
+      "slots": [
+        {
+          "key": "reagent1",
+          "value": "ABTS, 2,2'-azino-bis[3-ethylbenzthiazoline-6-sulfonic acid], Roche",
+          "id": "7bfaf0c1-edb8-4a52-92f9-f0cbabf83b87",
+          "node_id": "f4bc03fd-3b89-4042-87b3-e4661492aa82"
+        },
+        {
+          "key": "reagent2",
+          "value": "substrate solution, Roche",
+          "id": "3f10be23-aed2-401b-bec5-db201a6f82d0",
+          "node_id": "f4bc03fd-3b89-4042-87b3-e4661492aa82"
+        },
+        {
+          "key": "targetConcentration",
+          "value": "as indicated by the manufacturer's manual",
+          "id": "6e7d6293-9223-475d-b25c-00b900edc30a",
+          "node_id": "f4bc03fd-3b89-4042-87b3-e4661492aa82"
+        }
+      ],
+      "emits": [
+        {
+          "key": "reagent0",
+          "value": "ABTS, 2,2'-azino-bis[3-ethylbenzthiazoline-6-sulfonic acid], Roche",
+          "id": "fc6be8b8-5f6a-463a-8198-7d7e3cd08cb3",
+          "node_id": "f4bc03fd-3b89-4042-87b3-e4661492aa82"
+        }
+      ]
+    },
+    {
+      "id": "c8614a7e-3452-4690-955f-cfa725fd6ed0",
+      "text": "Add to each well, 50 &#x3BC;l of the peroxidase substrate and incubate for 10 min at room temperature.",
+      "instruction": "ADD",
+      "slots": [
+        {
+          "key": "reagent1",
+          "value": "wells",
+          "id": "ece3c7fd-d79d-4d15-9112-011dadf47680",
+          "node_id": "c8614a7e-3452-4690-955f-cfa725fd6ed0"
+        },
+        {
+          "key": "reagent2",
+          "value": "peroxidase substrate",
+          "id": "f20b42eb-632a-4730-b008-85818b3d6ff8",
+          "node_id": "c8614a7e-3452-4690-955f-cfa725fd6ed0"
+        }
+      ],
+      "emits": [
+        {
+          "key": "reagent0",
+          "value": "peroxidase substrate",
+          "id": "91ab73a3-befd-46af-a6bc-90bfbf5b62e9",
+          "node_id": "c8614a7e-3452-4690-955f-cfa725fd6ed0"
+        }
+      ]
+    },
+    {
+      "id": "386c87cd-6fad-4138-8a38-b174152466bc",
+      "text": "Add to each well, 50 &#x3BC;l of the peroxidase substrate and incubate for 10 min at room temperature.",
+      "instruction": "INCUBATE",
+      "slots": [
+        {
+          "key": "reagent1",
+          "value": "peroxidase substrate",
+          "id": "f2a62666-5eda-46c6-af2f-240cf706eb4d",
+          "node_id": "386c87cd-6fad-4138-8a38-b174152466bc"
+        },
+        {
+          "key": "temperature",
+          "value": "room temperature",
+          "id": "ffe726a2-1d71-4d7d-9d90-44818cb408e6",
+          "node_id": "386c87cd-6fad-4138-8a38-b174152466bc"
+        },
+        {
+          "key": "time",
+          "value": "10 min",
+          "id": "c5ff3765-dc27-4af6-b937-3fa645b346c4",
+          "node_id": "386c87cd-6fad-4138-8a38-b174152466bc"
+        }
+      ],
+      "emits": [
+        {
+          "key": "reagent0",
+          "value": "peroxidase substrate",
+          "id": "e7615d41-fafd-4814-9fb0-4af596e311a3",
+          "node_id": "386c87cd-6fad-4138-8a38-b174152466bc"
+        }
+      ]
+    },
+    {
+      "id": "ef35aa35-73ad-460c-8cea-1125ab11c25a",
+      "text": "Read the OD at 405 nm.",
+      "instruction": "READ",
+      "slots": [
+        {
+          "key": "device",
+          "value": "OD reader",
+          "id": "79ef3cf3-9ffe-43bc-8a28-5708a1fb378f",
+          "node_id": "ef35aa35-73ad-460c-8cea-1125ab11c25a"
+        },
+        {
+          "key": "data1",
+          "value": "OD at 405 nm",
+          "id": "c28818f9-48d6-446d-a67d-3166b2ea690b",
+          "node_id": "ef35aa35-73ad-460c-8cea-1125ab11c25a"
+        },
+        {
+          "key": "parameter",
+          "value": "405 nm",
+          "id": "9cb0fa94-146d-4a9d-bea3-0ae93834aa2f",
+          "node_id": "ef35aa35-73ad-460c-8cea-1125ab11c25a"
+        },
+        {
+          "key": "method",
+          "value": "spectrophotometry",
+          "id": "0a98d468-4ba3-4d15-92f0-d68c9ee0aad5",
+          "node_id": "ef35aa35-73ad-460c-8cea-1125ab11c25a"
+        }
+      ],
+      "emits": [
+        {
+          "key": "data0",
+          "value": "OD at 405 nm",
+          "id": "d76fec72-854b-4eca-8423-8a4617a0b89d",
+          "node_id": "ef35aa35-73ad-460c-8cea-1125ab11c25a"
+        }
+      ]
+    }
+  ],
+  "edges": []
+}

@@ -1,0 +1,930 @@
+[
+    {
+        "title": "**REAGENT SETUP**",
+        "body": []
+    },
+    {
+        "title": "**PBS**",
+        "body": [
+            {
+                "sentence": "Add a BupH Phosphate Buffered Saline Pack to 100 mL of autoclaved DIW, dissolve well and make the volume up to 500 mL using autoclaved DIW. Each pack makes 500 mL of PBS at pH 7.2, which can be stored at RT for a week and at 4 \u00baC for up to four weeks.",
+                "result": [
+                    {
+                        "ADD": {
+                            "emit": [
+                                {
+                                    "reagent0": "BupH Phosphate Buffered Saline Pack"
+                                }
+                            ],
+                            "slot": [
+                                {
+                                    "reagent1": "BupH Phosphate Buffered Saline Pack"
+                                },
+                                {
+                                    "reagent2": "autoclaved DIW"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "DISSOLVE": {
+                            "emit": [
+                                {
+                                    "reagent0": "BupH Phosphate Buffered Saline Pack"
+                                }
+                            ],
+                            "slot": [
+                                {
+                                    "reagent1": "BupH Phosphate Buffered Saline Pack"
+                                },
+                                {
+                                    "reagent2": "autoclaved DIW"
+                                },
+                                {
+                                    "targetConcentration": "500 mL"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "STORE": {
+                            "emit": [
+                                {
+                                    "reagent0": "BupH Phosphate Buffered Saline Pack"
+                                }
+                            ],
+                            "slot": [
+                                {
+                                    "reagent1": "BupH Phosphate Buffered Saline Pack"
+                                },
+                                {
+                                    "temperature": "RT"
+                                },
+                                {
+                                    "time": "1 week"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "**MES**",
+        "body": [
+            {
+                "sentence": "Add a BupH MES Buffered Saline Pack to 100 mL of autoclaved DIW, dissolve well and make the volume up to 500 mL using autoclaved DIW. Each pack makes 500 mL of MES at pH 4.7, which can be stored at RT for two weeks.",
+                "result": [
+                    {
+                        "ADD": {
+                            "emit": [
+                                {
+                                    "reagent0": "BupH MES Buffered Saline Pack"
+                                }
+                            ],
+                            "slot": [
+                                {
+                                    "reagent1": "BupH MES Buffered Saline Pack"
+                                },
+                                {
+                                    "reagent2": "autoclaved DIW"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "DISSOLVE": {
+                            "emit": [
+                                {
+                                    "reagent0": "BupH MES Buffered Saline Pack"
+                                }
+                            ],
+                            "slot": [
+                                {
+                                    "reagent1": "BupH MES Buffered Saline Pack"
+                                },
+                                {
+                                    "reagent2": "autoclaved DIW"
+                                },
+                                {
+                                    "targetConcentration": "500 mL"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "STORE": {
+                            "emit": [
+                                {
+                                    "reagent0": "BupH MES Buffered Saline Pack"
+                                }
+                            ],
+                            "slot": [
+                                {
+                                    "reagent1": "BupH MES Buffered Saline Pack"
+                                },
+                                {
+                                    "temperature": "RT"
+                                },
+                                {
+                                    "time": "two weeks"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "**APTES**",
+        "body": [
+            {
+                "sentence": "The procured APTES solution has a purity of 99%. Reconstitute in autoclaved DIW to make 2% \\(v/v) APTES just before functionalization.",
+                "result": [
+                    {
+                        "RECONSTITUTE": {
+                            "emit": [
+                                {
+                                    "reagent0": "2% (v/v) APTES"
+                                }
+                            ],
+                            "slot": [
+                                {
+                                    "reagent1": "APTES"
+                                },
+                                {
+                                    "reagent2": "autoclaved DIW"
+                                },
+                                {
+                                    "timing": "just before functionalization"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "**EDC**",
+        "body": [
+            {
+                "sentence": "The commercial pack contains 25 g EDC. Reconstitute in 0.1M MES buffer, pH 4.7 to make 8 mg/mL. Aliquots can be stored effectively for six months at -20 \u00baC.",
+                "result": [
+                    {
+                        "RECONSTITUTE": {
+                            "emit": [
+                                {
+                                    "reagent0": "EDC solution"
+                                }
+                            ],
+                            "slot": [
+                                {
+                                    "reagent1": "EDC"
+                                },
+                                {
+                                    "reagent2": "0.1M MES buffer, pH 4.7"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "ALIQUOT": {
+                            "emit": [
+                                {
+                                    "reagent0": "BupH Phosphate Buffered Saline Pack"
+                                }
+                            ],
+                            "slot": [
+                                {
+                                    "reagent1": "BupH Phosphate Buffered Saline Pack"
+                                },
+                                {
+                                    "volume": "<blank>"
+                                },
+                                {
+                                    "container": "<blank>"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "STORE": {
+                            "emit": [
+                                {
+                                    "reagent0": "BupH Phosphate Buffered Saline Pack"
+                                }
+                            ],
+                            "slot": [
+                                {
+                                    "reagent1": "BupH Phosphate Buffered Saline Pack"
+                                },
+                                {
+                                    "temperature": "-20 \u00baC"
+                                },
+                                {
+                                    "notice": "Aliquots can be stored effectively for six months at -20 \u00baC."
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "**SulfoNHS**",
+        "body": [
+            {
+                "sentence": "The commercial pack contains 5 g SulfoNHS. Reconstitute in 0.1 M MES, pH 4.7 to make 22 mg/mL. Aliquots can be stored effectively for six months at -20 \u00baC.",
+                "result": [
+                    {
+                        "RECONSTITUTE": {
+                            "emit": [
+                                {
+                                    "reagent0": "SulfoNHS solution"
+                                }
+                            ],
+                            "slot": [
+                                {
+                                    "reagent1": "5 g SulfoNHS"
+                                },
+                                {
+                                    "reagent2": "0.1 M MES, pH 4.7"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "ALIQUOT": {
+                            "emit": [
+                                {
+                                    "reagent0": "BupH Phosphate Buffered Saline Pack"
+                                }
+                            ],
+                            "slot": [
+                                {
+                                    "reagent1": "BupH Phosphate Buffered Saline Pack"
+                                },
+                                {
+                                    "volume": "<blank>"
+                                },
+                                {
+                                    "container": "<blank>"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "**Surface activation and APTES-functionalization   \\(TIMING 1 h 10 min)**",
+        "body": [
+            {
+                "title": "1.",
+                "body": [
+                    {
+                        "sentence": "Incubate each of the desired wells of 96-well CMTP with 100 \u03bcL of 1% \\(w/v) KOH for 10 min at 37 \u00baC and wash five times with 300 \u03bcL of DIW per well. Washing can also be performed with an automatic plate washer.",
+                        "result": [
+                            {
+                                "INCUBATE": {
+                                    "emit": [
+                                        {
+                                            "reagent0": "96-well CMTP"
+                                        }
+                                    ],
+                                    "slot": [
+                                        {
+                                            "reagent1": "1% (w/v) KOH"
+                                        },
+                                        {
+                                            "temperature": "37 \u00baC"
+                                        },
+                                        {
+                                            "time": "10 min"
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "WASH": {
+                                    "emit": [
+                                        {
+                                            "reagent0": "96-well CMTP"
+                                        }
+                                    ],
+                                    "slot": [
+                                        {
+                                            "reagent1": "96-well CMTP"
+                                        },
+                                        {
+                                            "reagent2": "DIW"
+                                        },
+                                        {
+                                            "repeat": "5"
+                                        },
+                                        {
+                                            "notice": "Washing can also be performed with an automatic plate washer."
+                                        }
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "**CRITICAL STEP**",
+        "body": [
+            {
+                "sentence": "KOH treatment should not be longer than 10 min as it may cause strong aberrations on the surface, thereby changing its surface properties.",
+                "result": [
+                    {
+                        "TREAT": {
+                            "emit": [
+                                {
+                                    "reagent0": "96-well CMTP"
+                                }
+                            ],
+                            "slot": [
+                                {
+                                    "reagent1": "96-well CMTP"
+                                },
+                                {
+                                    "reagent2": "1% (w/v) KOH"
+                                },
+                                {
+                                    "temperature": "37 \u00baC"
+                                },
+                                {
+                                    "time": "10 min"
+                                },
+                                {
+                                    "notice": "KOH treatment should not be longer than 10 min as it may cause strong aberrations on the surface, thereby changing its surface properties."
+                                }
+                            ]
+                        }
+                    }
+                ]
+            },
+            {
+                "title": "2.",
+                "body": [
+                    {
+                        "sentence": "Incubate the KOH-treated CMTP with 100 \u03bcL of 2% \\(v/v) APTES for 1 h at RT inside the fume cabinet. Wash the APTES-modified wells extensively with DIW \\(as described in step 1).",
+                        "result": [
+                            {
+                                "INCUBATE": {
+                                    "emit": [
+                                        {
+                                            "reagent0": "KOH-treated CMTP"
+                                        }
+                                    ],
+                                    "slot": [
+                                        {
+                                            "reagent1": "KOH-treated CMTP"
+                                        },
+                                        {
+                                            "reagent2": "2% (v/v) APTES"
+                                        },
+                                        {
+                                            "temperature": "RT"
+                                        },
+                                        {
+                                            "time": "1 h"
+                                        },
+                                        {
+                                            "environment": "fume cabinet"
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "WASH": {
+                                    "emit": [
+                                        {
+                                            "reagent0": "APTES-modified wells"
+                                        }
+                                    ],
+                                    "slot": [
+                                        {
+                                            "reagent1": "APTES-modified wells"
+                                        },
+                                        {
+                                            "reagent2": "DIW"
+                                        }
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "**Antibody immobilization and BSA blocking   \\(TIMING 1 h 30 min)**",
+        "body": [
+            {
+                "title": "3.",
+                "body": [
+                    {
+                        "sentence": "Mix 5 \u00b5L each of EDC \\(8 mg/mL) SulfoNHS \\(22 mg/mL) to make 10 \u00b5L of pre-mixed EDC-SulfoNHS solution.",
+                        "result": [
+                            {
+                                "MIX": {
+                                    "emit": [
+                                        {
+                                            "reagent0": "pre-mixed EDC-SulfoNHS solution"
+                                        }
+                                    ],
+                                    "slot": [
+                                        {
+                                            "reagent1": "EDC (8 mg/mL)"
+                                        },
+                                        {
+                                            "reagent2": "SulfoNHS (22 mg/mL)"
+                                        },
+                                        {
+                                            "ratio": "1:1"
+                                        },
+                                        {
+                                            "method": "Mix"
+                                        }
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "**CRITICAL STEP**",
+        "body": [
+            {
+                "sentence": "The ratio of EDC and SulfoNHS is critical for optimum cross-linking.",
+                "result": [
+                    {
+                        "ADJUST": {
+                            "emit": [
+                                {
+                                    "reagent0": "pre-mixed EDC-SulfoNHS solution"
+                                }
+                            ],
+                            "slot": [
+                                {
+                                    "reagent1": "pre-mixed EDC-SulfoNHS solution"
+                                },
+                                {
+                                    "attribute": "ratio"
+                                },
+                                {
+                                    "data1": "critical for optimum cross-linking"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "**? TROUBLESHOOTING**",
+        "body": [
+            {
+                "title": "4.",
+                "body": [
+                    {
+                        "sentence": "Incubate 990 \u03bcL of anti-HFA capture antibody with 10 \u03bcL of EDC-SulfoNHS solution for 15 min at 37 \u00baC.",
+                        "result": [
+                            {
+                                "INCUBATE": {
+                                    "emit": [],
+                                    "slot": [
+                                        {
+                                            "reagent1": "anti-HFA capture antibody"
+                                        },
+                                        {
+                                            "reagent2": "EDC-SulfoNHS solution"
+                                        },
+                                        {
+                                            "temperature": "37 \u00baC"
+                                        },
+                                        {
+                                            "time": "15 min"
+                                        }
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "5.",
+                "body": [
+                    {
+                        "sentence": "Incubate the EDC-SulfoNHS activated antibody in APTES-functionalized wells for 1 h at 37 \u00baC and wash five times with 300 \u00b5L of 0.1M PBS, pH 7.4.",
+                        "result": [
+                            {
+                                "INCUBATE": {
+                                    "emit": [
+                                        {
+                                            "reagent0": "APTES-functionalized wells"
+                                        }
+                                    ],
+                                    "slot": [
+                                        {
+                                            "reagent1": "EDC-SulfoNHS activated antibody"
+                                        },
+                                        {
+                                            "reagent2": "APTES-functionalized wells"
+                                        },
+                                        {
+                                            "temperature": "37 \u00baC"
+                                        },
+                                        {
+                                            "time": "1 h"
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "WASH": {
+                                    "emit": [
+                                        {
+                                            "reagent0": "APTES-functionalized wells"
+                                        }
+                                    ],
+                                    "slot": [
+                                        {
+                                            "reagent1": "APTES-functionalized wells"
+                                        },
+                                        {
+                                            "reagent2": "0.1M PBS, pH 7.4"
+                                        },
+                                        {
+                                            "repeat": "5"
+                                        }
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "6.",
+                "body": [
+                    {
+                        "sentence": "Block the antibody-bound wells with 300 \u00b5L of 1% \\(w/v) BSA for 30 min at 37 \u00baC followed by extensive PBS washing \\(as mentioned in step 5).",
+                        "result": [
+                            {
+                                "BLOCK": {
+                                    "emit": [
+                                        {
+                                            "reagent0": "antibody-bound wells"
+                                        }
+                                    ],
+                                    "slot": [
+                                        {
+                                            "reagent1": "antibody-bound wells"
+                                        },
+                                        {
+                                            "reagent2": "1% (w/v) BSA"
+                                        },
+                                        {
+                                            "temperature": "37 \u00baC"
+                                        },
+                                        {
+                                            "time": "30 min"
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "WASH": {
+                                    "emit": [
+                                        {
+                                            "reagent0": "antibody-bound wells"
+                                        }
+                                    ],
+                                    "slot": [
+                                        {
+                                            "reagent1": "antibody-bound wells"
+                                        },
+                                        {
+                                            "reagent2": "PBS"
+                                        }
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "**CRITICAL STEP**",
+        "body": [
+            {
+                "sentence": "Use filtered BSA to remove any microbial or other contaminants.",
+                "result": []
+            }
+        ]
+    },
+    {
+        "title": "**? TROUBLESHOOTING**",
+        "body": []
+    },
+    {
+        "title": "**HFA CIA  \\(sandwich format)  \\(TIMING 2 h 25 min)**",
+        "body": [
+            {
+                "title": "7.",
+                "body": [
+                    {
+                        "sentence": "Add 100 \u00b5L of varying HFA concentrations \\(0.3 pg/mL-20 ng/mL) to different BSA-blocked wells. Incubate for 1 h at 37 \u00baC and wash extensively with PBS \\(as stated in step 5).",
+                        "result": [
+                            {
+                                "ADD": {
+                                    "emit": [
+                                        {
+                                            "reagent0": "BSA-blocked wells"
+                                        }
+                                    ],
+                                    "slot": [
+                                        {
+                                            "reagent1": "HFA concentrations"
+                                        },
+                                        {
+                                            "reagent2": "BSA-blocked wells"
+                                        },
+                                        {
+                                            "concentration": "0.3 pg/mL-20 ng/mL"
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "INCUBATE": {
+                                    "emit": [
+                                        {
+                                            "reagent0": "BSA-blocked wells"
+                                        }
+                                    ],
+                                    "slot": [
+                                        {
+                                            "reagent1": "HFA concentrations (0.3 pg/mL-20 ng/mL)"
+                                        },
+                                        {
+                                            "temperature": "37 \u00baC"
+                                        },
+                                        {
+                                            "time": "1 h"
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "WASH": {
+                                    "emit": [
+                                        {
+                                            "reagent0": "BSA-blocked wells"
+                                        }
+                                    ],
+                                    "slot": [
+                                        {
+                                            "reagent1": "BSA-blocked wells"
+                                        },
+                                        {
+                                            "reagent2": "PBS"
+                                        }
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "8.",
+                "body": [
+                    {
+                        "sentence": "Add 100 \u00b5L of biotinylated anti-HFA antibody in each of the HFA-captured wells. Incubate for 1 h at 37 \u00baC and wash extensively with PBS \\(as mentioned in step 5).",
+                        "result": [
+                            {
+                                "ADD": {
+                                    "emit": [
+                                        {
+                                            "reagent0": "HFA-captured wells"
+                                        }
+                                    ],
+                                    "slot": [
+                                        {
+                                            "reagent1": "HFA-captured wells"
+                                        },
+                                        {
+                                            "reagent2": "biotinylated anti-HFA antibody"
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "INCUBATE": {
+                                    "emit": [
+                                        {
+                                            "reagent0": "HFA-captured wells"
+                                        }
+                                    ],
+                                    "slot": [
+                                        {
+                                            "reagent1": "biotinylated anti-HFA antibody"
+                                        },
+                                        {
+                                            "temperature": "37 \u00baC"
+                                        },
+                                        {
+                                            "time": "1 h"
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "WASH": {
+                                    "emit": [
+                                        {
+                                            "reagent0": "HFA-captured wells"
+                                        }
+                                    ],
+                                    "slot": [
+                                        {
+                                            "reagent1": "HFA-captured wells"
+                                        },
+                                        {
+                                            "reagent2": "PBS"
+                                        }
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "9.",
+                "body": [
+                    {
+                        "sentence": "Add 100 \u00b5L of streptavidin-HRP conjugate to the biotinylated anti-HFA antibody treated wells. Incubate for 20 min at 37 \u00baC and wash extensively with PBS \\(as mentioned in step 5).",
+                        "result": [
+                            {
+                                "ADD": {
+                                    "emit": [
+                                        {
+                                            "reagent0": "biotinylated anti-HFA antibody treated wells"
+                                        }
+                                    ],
+                                    "slot": [
+                                        {
+                                            "reagent1": "biotinylated anti-HFA antibody treated wells"
+                                        },
+                                        {
+                                            "reagent2": "streptavidin-HRP conjugate"
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "INCUBATE": {
+                                    "emit": [
+                                        {
+                                            "reagent0": "biotinylated anti-HFA antibody treated wells"
+                                        }
+                                    ],
+                                    "slot": [
+                                        {
+                                            "reagent1": "streptavidin-HRP conjugate"
+                                        },
+                                        {
+                                            "temperature": "37 \u00baC"
+                                        },
+                                        {
+                                            "time": "20 min"
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "WASH": {
+                                    "emit": [
+                                        {
+                                            "reagent0": "biotinylated anti-HFA antibody treated wells"
+                                        }
+                                    ],
+                                    "slot": [
+                                        {
+                                            "reagent1": "biotinylated anti-HFA antibody treated wells"
+                                        },
+                                        {
+                                            "reagent2": "PBS"
+                                        }
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "**? TROUBLESHOOTING**",
+        "body": [
+            {
+                "title": "10.",
+                "body": [
+                    {
+                        "sentence": "Add 100 \u00b5L of working solution, formed by mixing equal parts of SuperSignal ELISA Femto Luminol/Enhancer and SuperSignal ELISA Femto Stable Peroxide Solution , to each of the CMTP wells and incubate at RT for 5 min.? TROUBLESHOOTING",
+                        "result": [
+                            {
+                                "ADD": {
+                                    "emit": [
+                                        {
+                                            "reagent0": "CMTP wells"
+                                        }
+                                    ],
+                                    "slot": [
+                                        {
+                                            "reagent1": "working solution"
+                                        },
+                                        {
+                                            "reagent2": "SuperSignal ELISA Femto Luminol/Enhancer and SuperSignal ELISA Femto Stable Peroxide Solution"
+                                        },
+                                        {
+                                            "ratio": "equal parts"
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "INCUBATE": {
+                                    "emit": [
+                                        {
+                                            "reagent0": "CMTP wells"
+                                        }
+                                    ],
+                                    "slot": [
+                                        {
+                                            "reagent1": "CMTP wells"
+                                        },
+                                        {
+                                            "temperature": "RT"
+                                        },
+                                        {
+                                            "time": "5 min"
+                                        }
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "11.",
+                "body": [
+                    {
+                        "sentence": "Record the chemiluminescent intensity at 425 nm in the Tecan Infinite M200 Pro microplate reader.  CRITICAL STEP The chemiluminescent intensity should always be measured immediately \\(or at a fixed time) as it is not an end-point immunoassay.",
+                        "result": [
+                            {
+                                "RECORD": {
+                                    "emit": [],
+                                    "slot": [
+                                        {
+                                            "information": "chemiluminescent intensity at 425 nm"
+                                        },
+                                        {
+                                            "device": "Tecan Infinite M200 Pro microplate reader"
+                                        },
+                                        {
+                                            "notice": "The chemiluminescent intensity should always be measured immediately (or at a fixed time) as it is not an end-point immunoassay."
+                                        }
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+]

@@ -1,0 +1,27 @@
+{
+  "name": "nprot-3155_graphData.json",
+  "nodes": [
+    {
+      "id": "6f7f8ece-4b1f-4905-9c18-e57ad804b00f",
+      "text": "Use filtered BSA or filter the BSA solution prior to use to remove any microbial or other contaminants.",
+      "instruction": "FILTER",
+      "slots": [
+        {
+          "key": "reagent1",
+          "value": "BSA solution",
+          "id": "a5611c04-8bef-49be-95f4-fbf302386e7a",
+          "node_id": "6f7f8ece-4b1f-4905-9c18-e57ad804b00f"
+        }
+      ],
+      "emits": [
+        {
+          "key": "reagent0",
+          "value": "filtered BSA solution",
+          "id": "75cde603-65f2-435b-80d2-687a9a72fc7e",
+          "node_id": "6f7f8ece-4b1f-4905-9c18-e57ad804b00f"
+        }
+      ]
+    }
+  ],
+  "edges": []
+}

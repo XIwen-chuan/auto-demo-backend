@@ -1,0 +1,228 @@
+{
+  "name": "nprot-116_graphData.json",
+  "nodes": [
+    {
+      "id": "ba30beee-e00c-4e37-862b-4416fad04136",
+      "text": ") or flash-freeze in liquid nitrogen and store at -80 &#xB0;C.",
+      "instruction": "STORE",
+      "slots": [
+        {
+          "key": "reagent1",
+          "value": "nuclear extract",
+          "id": "e5a83a87-3e26-424a-bf79-14cc132ec54a",
+          "node_id": "ba30beee-e00c-4e37-862b-4416fad04136"
+        },
+        {
+          "key": "temperature",
+          "value": "-80 \u00b0C",
+          "id": "79e08326-adab-4fc4-a7d5-8d28b9e5d758",
+          "node_id": "ba30beee-e00c-4e37-862b-4416fad04136"
+        }
+      ],
+      "emits": [
+        {
+          "key": "reagent0",
+          "value": "nuclear extract",
+          "id": "65f7a678-254c-4618-aa9d-be6533d24bcf",
+          "node_id": "ba30beee-e00c-4e37-862b-4416fad04136"
+        }
+      ]
+    },
+    {
+      "id": "7dcc0b53-2f3a-4f90-881b-21086195c0dc",
+      "text": "Mix 5 ml of the digested chromatin prepared in",
+      "instruction": "MIX",
+      "slots": [
+        {
+          "key": "reagent1",
+          "value": "digested chromatin",
+          "id": "5a66637a-c323-4ae3-8e88-1a0d67b630b6",
+          "node_id": "7dcc0b53-2f3a-4f90-881b-21086195c0dc"
+        }
+      ],
+      "emits": [
+        {
+          "key": "reagent0",
+          "value": "digested chromatin",
+          "id": "e857051b-bea3-49af-b858-5ccd16e06fa4",
+          "node_id": "7dcc0b53-2f3a-4f90-881b-21086195c0dc"
+        }
+      ]
+    },
+    {
+      "id": "1a167d08-fd68-455f-9d43-e413d7a2a567",
+      "text": "with 40 ml HDGN340 in a 50-ml conical tube. Rotate at 20 rpm for 60 min in a cold room \\(4&#xB0;C).",
+      "instruction": "MEASURE",
+      "slots": [
+        {
+          "key": "device",
+          "value": "50-ml conical tube",
+          "id": "ff399b72-3f0d-414c-a1f5-ac7637f0b50b",
+          "node_id": "1a167d08-fd68-455f-9d43-e413d7a2a567"
+        },
+        {
+          "key": "reagent1",
+          "value": "HDGN340",
+          "id": "320b5162-25a1-4776-9e5f-ba7a5170945c",
+          "node_id": "1a167d08-fd68-455f-9d43-e413d7a2a567"
+        },
+        {
+          "key": "time",
+          "value": "60 min",
+          "id": "c692797c-e13c-4fe2-aebf-85d350af2bd9",
+          "node_id": "1a167d08-fd68-455f-9d43-e413d7a2a567"
+        }
+      ],
+      "emits": []
+    },
+    {
+      "id": "6a63ee36-2d17-4ad6-a112-8d622b40b115",
+      "text": "with 40 ml HDGN340 in a 50-ml conical tube. Rotate at 20 rpm for 60 min in a cold room \\(4&#xB0;C).",
+      "instruction": "ROTATE",
+      "slots": [
+        {
+          "key": "reagent1",
+          "value": "HDGN340",
+          "id": "8a101c6e-191d-4cc9-9655-e2aa17328aa4",
+          "node_id": "6a63ee36-2d17-4ad6-a112-8d622b40b115"
+        },
+        {
+          "key": "time",
+          "value": "60 min",
+          "id": "e3a14238-399f-46aa-a3ad-5da7e0d744d8",
+          "node_id": "6a63ee36-2d17-4ad6-a112-8d622b40b115"
+        },
+        {
+          "key": "temperature",
+          "value": "4\u00b0C",
+          "id": "4eb1d0e8-9b68-460d-92a9-04f308ed6671",
+          "node_id": "6a63ee36-2d17-4ad6-a112-8d622b40b115"
+        },
+        {
+          "key": "notice",
+          "value": "in a cold room (4\u00b0C)",
+          "id": "244f8f39-6bff-495b-b91f-583c70391132",
+          "node_id": "6a63ee36-2d17-4ad6-a112-8d622b40b115"
+        }
+      ],
+      "emits": []
+    },
+    {
+      "id": "9490a2f3-6766-4d8c-833a-ecc0d7f66c2b",
+      "text": "Add 250 &#xB5;l 3 M KCl to 5 ml of digested chromatin prepared in",
+      "instruction": "ADD",
+      "slots": [
+        {
+          "key": "reagent1",
+          "value": "digested chromatin",
+          "id": "4bbeafeb-fb1a-4cfa-bf79-af20643f2632",
+          "node_id": "9490a2f3-6766-4d8c-833a-ecc0d7f66c2b"
+        },
+        {
+          "key": "reagent2",
+          "value": "3 M KCl",
+          "id": "60b3c1b7-c681-48c4-8ee9-e141535f1df9",
+          "node_id": "9490a2f3-6766-4d8c-833a-ecc0d7f66c2b"
+        }
+      ],
+      "emits": [
+        {
+          "key": "reagent0",
+          "value": "digested chromatin",
+          "id": "47cb088a-3be3-4614-8125-f78e47ad6831",
+          "node_id": "9490a2f3-6766-4d8c-833a-ecc0d7f66c2b"
+        }
+      ]
+    },
+    {
+      "id": "8418c848-02d5-4dac-b809-38e49a07d4f3",
+      "text": ". Rotate at 20rpm for 60min in a cold room \\(4&#xB0;C).",
+      "instruction": "ROTATE",
+      "slots": [
+        {
+          "key": "direction",
+          "value": "20rpm",
+          "id": "53d5dd91-4c80-4810-89d3-4bf66d125628",
+          "node_id": "8418c848-02d5-4dac-b809-38e49a07d4f3"
+        },
+        {
+          "key": "time",
+          "value": "60min",
+          "id": "98dda4e8-6508-4e94-9bf7-17c6a07242fe",
+          "node_id": "8418c848-02d5-4dac-b809-38e49a07d4f3"
+        },
+        {
+          "key": "temperature",
+          "value": "4\u00b0C",
+          "id": "ddfb5f26-e83a-4b7f-8e15-f69ca41b6b36",
+          "node_id": "8418c848-02d5-4dac-b809-38e49a07d4f3"
+        },
+        {
+          "key": "notice",
+          "value": "in a cold room (4\u00b0C)",
+          "id": "2d5cb268-786d-4e18-a05d-12b22f936b37",
+          "node_id": "8418c848-02d5-4dac-b809-38e49a07d4f3"
+        }
+      ],
+      "emits": []
+    },
+    {
+      "id": "3d0a6c40-daff-4e83-8be1-dbacb3ceacb2",
+      "text": ", respectively. Rotate at 20 rpm for 3-4 h in a cold room \\(4 &#xB0;C).",
+      "instruction": "ROTATE",
+      "slots": [
+        {
+          "key": "reagent1",
+          "value": "beads",
+          "id": "83b0b82a-f908-4d4a-80e7-ddf429f686bf",
+          "node_id": "3d0a6c40-daff-4e83-8be1-dbacb3ceacb2"
+        },
+        {
+          "key": "direction",
+          "value": "<blank>",
+          "id": "ca0d8789-03c7-4174-9090-91a15544863e",
+          "node_id": "3d0a6c40-daff-4e83-8be1-dbacb3ceacb2"
+        },
+        {
+          "key": "angle",
+          "value": "<blank>",
+          "id": "a93109cc-6fa7-4889-82b5-6133344a6605",
+          "node_id": "3d0a6c40-daff-4e83-8be1-dbacb3ceacb2"
+        },
+        {
+          "key": "intensity",
+          "value": "<blank>",
+          "id": "ff2ff0b9-a854-46cc-83bd-290ee8b6bf1d",
+          "node_id": "3d0a6c40-daff-4e83-8be1-dbacb3ceacb2"
+        },
+        {
+          "key": "time",
+          "value": "3-4 h",
+          "id": "ec612722-ebef-4348-bd4b-a540d5bd1645",
+          "node_id": "3d0a6c40-daff-4e83-8be1-dbacb3ceacb2"
+        },
+        {
+          "key": "temperature",
+          "value": "4 \u00b0C",
+          "id": "f7815263-0f7f-494e-9164-d8627cbe9c3d",
+          "node_id": "3d0a6c40-daff-4e83-8be1-dbacb3ceacb2"
+        },
+        {
+          "key": "notice",
+          "value": "<blank>",
+          "id": "b2faa81b-9ff2-454c-a76d-a3b937da229c",
+          "node_id": "3d0a6c40-daff-4e83-8be1-dbacb3ceacb2"
+        }
+      ],
+      "emits": [
+        {
+          "key": "reagent0",
+          "value": "beads",
+          "id": "9ead4edc-40cc-4350-9858-09fbaf6d20b6",
+          "node_id": "3d0a6c40-daff-4e83-8be1-dbacb3ceacb2"
+        }
+      ]
+    }
+  ],
+  "edges": []
+}

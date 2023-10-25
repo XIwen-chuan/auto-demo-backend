@@ -1,0 +1,349 @@
+{
+  "name": "nprot-557_graphData.json",
+  "nodes": [
+    {
+      "id": "679fb724-edc2-458c-acfe-2f9d9377583d",
+      "text": "General: Measure the fluorescein-labeled DNA both for its approximate DNA concentration \\(1 A260=50 microgram/ml) and fluorescein stoichiometry \\(e.g. 6-FAM 6-carboxyfluorescein, extinction coefficient at A495=83,000). Incubate protein-DNA complexes at ambient temperature \\(for the experiments described here, 21-23 Celsius) for 30 minutes prior to measurements. Measure anisotropy using a Safire \\(Tecan Group Ltd.) fluorescent plate reader.  Determine G-factor by measuring 1:1 complexes of each protein bound to its respective fluorophore-labeled substrate at the highest protein concentration and polarization calculations are adjusted accordingly using the instrument&#x2019;s software \\(XFluor). Perform all anisotropy measurements in triplicate and perform comparable measurements using proteins from different purification batches.",
+      "instruction": "MEASURE",
+      "slots": [
+        {
+          "key": "device",
+          "value": "Safire (Tecan Group Ltd.) fluorescent plate reader",
+          "id": "8d60a8c3-eae2-4265-a2d5-d224ea0458ea",
+          "node_id": "679fb724-edc2-458c-acfe-2f9d9377583d"
+        },
+        {
+          "key": "reagent1",
+          "value": "fluorescein-labeled DNA",
+          "id": "5308ce2e-2947-4087-934f-de7c6f0f8eba",
+          "node_id": "679fb724-edc2-458c-acfe-2f9d9377583d"
+        },
+        {
+          "key": "parameter",
+          "value": "approximate DNA concentration",
+          "id": "91eb8a9a-c605-43e7-b6e0-24f88d7440a0",
+          "node_id": "679fb724-edc2-458c-acfe-2f9d9377583d"
+        },
+        {
+          "key": "time",
+          "value": "30 minutes",
+          "id": "e9d075bf-4e78-495a-8931-08e1352b37c4",
+          "node_id": "679fb724-edc2-458c-acfe-2f9d9377583d"
+        }
+      ],
+      "emits": []
+    },
+    {
+      "id": "ea5968a0-025e-4985-83a4-11ed848ed385",
+      "text": "General: Measure the fluorescein-labeled DNA both for its approximate DNA concentration \\(1 A260=50 microgram/ml) and fluorescein stoichiometry \\(e.g. 6-FAM 6-carboxyfluorescein, extinction coefficient at A495=83,000). Incubate protein-DNA complexes at ambient temperature \\(for the experiments described here, 21-23 Celsius) for 30 minutes prior to measurements. Measure anisotropy using a Safire \\(Tecan Group Ltd.) fluorescent plate reader.  Determine G-factor by measuring 1:1 complexes of each protein bound to its respective fluorophore-labeled substrate at the highest protein concentration and polarization calculations are adjusted accordingly using the instrument&#x2019;s software \\(XFluor). Perform all anisotropy measurements in triplicate and perform comparable measurements using proteins from different purification batches.",
+      "instruction": "INCUBATE",
+      "slots": [
+        {
+          "key": "reagent1",
+          "value": "protein-DNA complexes",
+          "id": "e42358b5-d76c-401a-8f99-6ef212a54cae",
+          "node_id": "ea5968a0-025e-4985-83a4-11ed848ed385"
+        },
+        {
+          "key": "temperature",
+          "value": "ambient temperature",
+          "id": "dc9b9b8f-02fc-4c40-bd73-fd5656756886",
+          "node_id": "ea5968a0-025e-4985-83a4-11ed848ed385"
+        },
+        {
+          "key": "time",
+          "value": "30 minutes",
+          "id": "c76e3758-3b16-48c2-9c77-89e9fed7d5c5",
+          "node_id": "ea5968a0-025e-4985-83a4-11ed848ed385"
+        }
+      ],
+      "emits": [
+        {
+          "key": "reagent0",
+          "value": "protein-DNA complexes",
+          "id": "c03dc8e8-0dbe-44a0-88b5-5ece9fbf197e",
+          "node_id": "ea5968a0-025e-4985-83a4-11ed848ed385"
+        }
+      ]
+    },
+    {
+      "id": "a7dbf0ff-9b88-449d-8c5d-0be0753623a7",
+      "text": "General: Measure the fluorescein-labeled DNA both for its approximate DNA concentration \\(1 A260=50 microgram/ml) and fluorescein stoichiometry \\(e.g. 6-FAM 6-carboxyfluorescein, extinction coefficient at A495=83,000). Incubate protein-DNA complexes at ambient temperature \\(for the experiments described here, 21-23 Celsius) for 30 minutes prior to measurements. Measure anisotropy using a Safire \\(Tecan Group Ltd.) fluorescent plate reader.  Determine G-factor by measuring 1:1 complexes of each protein bound to its respective fluorophore-labeled substrate at the highest protein concentration and polarization calculations are adjusted accordingly using the instrument&#x2019;s software \\(XFluor). Perform all anisotropy measurements in triplicate and perform comparable measurements using proteins from different purification batches.",
+      "instruction": "MEASURE",
+      "slots": [
+        {
+          "key": "device",
+          "value": "Safire (Tecan Group Ltd.) fluorescent plate reader",
+          "id": "4e341cc9-6f0f-4227-a2f7-5fa1d0ec6cd8",
+          "node_id": "a7dbf0ff-9b88-449d-8c5d-0be0753623a7"
+        },
+        {
+          "key": "reagent1",
+          "value": "<blank>",
+          "id": "3f9235b4-1b61-4d61-bf24-33032afcdad8",
+          "node_id": "a7dbf0ff-9b88-449d-8c5d-0be0753623a7"
+        },
+        {
+          "key": "parameter",
+          "value": "anisotropy",
+          "id": "7f4a30b2-9c36-44eb-b462-4797e4774920",
+          "node_id": "a7dbf0ff-9b88-449d-8c5d-0be0753623a7"
+        },
+        {
+          "key": "time",
+          "value": "30 minutes",
+          "id": "73c607a9-42e0-4494-bf6c-391793f84b31",
+          "node_id": "a7dbf0ff-9b88-449d-8c5d-0be0753623a7"
+        },
+        {
+          "key": "wavelength",
+          "value": "<blank>",
+          "id": "f5960f49-24b5-447e-8c50-87036470e12e",
+          "node_id": "a7dbf0ff-9b88-449d-8c5d-0be0753623a7"
+        },
+        {
+          "key": "notice",
+          "value": "<blank>",
+          "id": "5ea5bda4-63ca-48d2-bf3b-6a4d11c19a61",
+          "node_id": "a7dbf0ff-9b88-449d-8c5d-0be0753623a7"
+        }
+      ],
+      "emits": [
+        {
+          "key": "data0",
+          "value": "<blank>",
+          "id": "ce45b495-0aa1-4d5e-8762-d074c281cf7b",
+          "node_id": "a7dbf0ff-9b88-449d-8c5d-0be0753623a7"
+        }
+      ]
+    },
+    {
+      "id": "5ed300f4-e898-4e1f-8e8e-067ea379bb15",
+      "text": "General: Measure the fluorescein-labeled DNA both for its approximate DNA concentration \\(1 A260=50 microgram/ml) and fluorescein stoichiometry \\(e.g. 6-FAM 6-carboxyfluorescein, extinction coefficient at A495=83,000). Incubate protein-DNA complexes at ambient temperature \\(for the experiments described here, 21-23 Celsius) for 30 minutes prior to measurements. Measure anisotropy using a Safire \\(Tecan Group Ltd.) fluorescent plate reader.  Determine G-factor by measuring 1:1 complexes of each protein bound to its respective fluorophore-labeled substrate at the highest protein concentration and polarization calculations are adjusted accordingly using the instrument&#x2019;s software \\(XFluor). Perform all anisotropy measurements in triplicate and perform comparable measurements using proteins from different purification batches.",
+      "instruction": "DETERMINE",
+      "slots": [
+        {
+          "key": "device",
+          "value": "Safire (Tecan Group Ltd.) fluorescent plate reader",
+          "id": "5af35327-6ae6-4bd2-9401-3d0f5792203d",
+          "node_id": "5ed300f4-e898-4e1f-8e8e-067ea379bb15"
+        },
+        {
+          "key": "reagent1",
+          "value": "fluorophore-labeled substrate",
+          "id": "e629d65c-e60d-4ada-b4ba-00da138e6e28",
+          "node_id": "5ed300f4-e898-4e1f-8e8e-067ea379bb15"
+        },
+        {
+          "key": "parameter",
+          "value": "anisotropy",
+          "id": "e3b9cb6d-be94-4f27-9450-4fd1fcd700ab",
+          "node_id": "5ed300f4-e898-4e1f-8e8e-067ea379bb15"
+        },
+        {
+          "key": "time",
+          "value": "30 minutes",
+          "id": "900bf181-1bcf-488d-ae13-68c4c8dd4151",
+          "node_id": "5ed300f4-e898-4e1f-8e8e-067ea379bb15"
+        }
+      ],
+      "emits": [
+        {
+          "key": "data0",
+          "value": "G-factor",
+          "id": "0a405906-78eb-4568-918d-cdcde2a5005c",
+          "node_id": "5ed300f4-e898-4e1f-8e8e-067ea379bb15"
+        }
+      ]
+    },
+    {
+      "id": "3545221b-0f99-47dd-b823-829d1659823f",
+      "text": "General: Measure the fluorescein-labeled DNA both for its approximate DNA concentration \\(1 A260=50 microgram/ml) and fluorescein stoichiometry \\(e.g. 6-FAM 6-carboxyfluorescein, extinction coefficient at A495=83,000). Incubate protein-DNA complexes at ambient temperature \\(for the experiments described here, 21-23 Celsius) for 30 minutes prior to measurements. Measure anisotropy using a Safire \\(Tecan Group Ltd.) fluorescent plate reader.  Determine G-factor by measuring 1:1 complexes of each protein bound to its respective fluorophore-labeled substrate at the highest protein concentration and polarization calculations are adjusted accordingly using the instrument&#x2019;s software \\(XFluor). Perform all anisotropy measurements in triplicate and perform comparable measurements using proteins from different purification batches.",
+      "instruction": "PERFORM",
+      "slots": [
+        {
+          "key": "procedure",
+          "value": "Measure anisotropy",
+          "id": "3c38491f-bcff-4cef-8cf0-2142bf15f500",
+          "node_id": "3545221b-0f99-47dd-b823-829d1659823f"
+        },
+        {
+          "key": "equipment",
+          "value": "Safire (Tecan Group Ltd.) fluorescent plate reader",
+          "id": "b05a9830-70ff-4970-9eda-860d5fd377b4",
+          "node_id": "3545221b-0f99-47dd-b823-829d1659823f"
+        },
+        {
+          "key": "environment",
+          "value": "ambient temperature (for the experiments described here, 21-23 Celsius)",
+          "id": "990c8996-1a2a-42d4-b4df-aa1cfbe1bcf0",
+          "node_id": "3545221b-0f99-47dd-b823-829d1659823f"
+        },
+        {
+          "key": "repeat",
+          "value": "3",
+          "id": "5c51825c-badf-41da-a621-7dbafc2aaf06",
+          "node_id": "3545221b-0f99-47dd-b823-829d1659823f"
+        },
+        {
+          "key": "time",
+          "value": "30 minutes",
+          "id": "3cffa1b5-9f5a-4743-8c1f-1a679f5874ec",
+          "node_id": "3545221b-0f99-47dd-b823-829d1659823f"
+        }
+      ],
+      "emits": [
+        {
+          "key": "reagent0",
+          "value": "protein-DNA complexes",
+          "id": "e0242534-8efb-4349-bfd4-b7ea78950e3b",
+          "node_id": "3545221b-0f99-47dd-b823-829d1659823f"
+        }
+      ]
+    },
+    {
+      "id": "4a5bcc63-0c75-4512-8ea7-794ebb4edb64",
+      "text": "Measuring association binding constants: Add purified proteins at increasing concentrations with a constant concentration \\(1.0 nanomolar) of fluorescein-labeled DNA \\(",
+      "instruction": "MEASURE",
+      "slots": [
+        {
+          "key": "device",
+          "value": "Safire (Tecan Group Ltd.) fluorescent plate reader",
+          "id": "097cb6d5-44a2-4cb7-89f0-a1993013933e",
+          "node_id": "4a5bcc63-0c75-4512-8ea7-794ebb4edb64"
+        },
+        {
+          "key": "reagent1",
+          "value": "<blank>",
+          "id": "533b4d7b-53a5-4ff0-bca8-eef2ef311319",
+          "node_id": "4a5bcc63-0c75-4512-8ea7-794ebb4edb64"
+        },
+        {
+          "key": "parameter",
+          "value": "anisotropy",
+          "id": "52920867-cc16-419c-8d76-04ae2d3a7b08",
+          "node_id": "4a5bcc63-0c75-4512-8ea7-794ebb4edb64"
+        },
+        {
+          "key": "time",
+          "value": "<blank>",
+          "id": "90bc37b0-e568-42f3-822e-8d5867e5c22d",
+          "node_id": "4a5bcc63-0c75-4512-8ea7-794ebb4edb64"
+        },
+        {
+          "key": "wavelength",
+          "value": "<blank>",
+          "id": "29eb4d90-cd88-4747-8e75-05742382cf9a",
+          "node_id": "4a5bcc63-0c75-4512-8ea7-794ebb4edb64"
+        },
+        {
+          "key": "notice",
+          "value": "<blank>",
+          "id": "055e88d9-2644-484e-a197-3653f105b23c",
+          "node_id": "4a5bcc63-0c75-4512-8ea7-794ebb4edb64"
+        }
+      ],
+      "emits": [
+        {
+          "key": "data0",
+          "value": "<blank>",
+          "id": "883842a7-fd75-4be2-8e9a-e92c24a6d6e8",
+          "node_id": "4a5bcc63-0c75-4512-8ea7-794ebb4edb64"
+        }
+      ]
+    },
+    {
+      "id": "ff576dd8-d4be-4f21-9583-7df220e6da14",
+      "text": "Measuring association binding constants: Add purified proteins at increasing concentrations with a constant concentration \\(1.0 nanomolar) of fluorescein-labeled DNA \\(",
+      "instruction": "ADD",
+      "slots": [
+        {
+          "key": "reagent1",
+          "value": "purified proteins",
+          "id": "4a30d566-8dc1-4533-a2b6-23af8c49f43d",
+          "node_id": "ff576dd8-d4be-4f21-9583-7df220e6da14"
+        },
+        {
+          "key": "reagent2",
+          "value": "fluorescein-labeled DNA",
+          "id": "f510d862-6806-4c52-8ba6-5fbfec018d6b",
+          "node_id": "ff576dd8-d4be-4f21-9583-7df220e6da14"
+        },
+        {
+          "key": "concentration",
+          "value": "1.0 nanomolar",
+          "id": "19d7916a-5ca4-4923-af36-d0f81f992b48",
+          "node_id": "ff576dd8-d4be-4f21-9583-7df220e6da14"
+        }
+      ],
+      "emits": [
+        {
+          "key": "reagent0",
+          "value": "protein-DNA complexes",
+          "id": "b91e4552-da1d-42ce-856b-acaba9905f96",
+          "node_id": "ff576dd8-d4be-4f21-9583-7df220e6da14"
+        }
+      ]
+    },
+    {
+      "id": "a0ee2f85-c1b1-49b9-8994-4d0c53a7ab59",
+      "text": "Estimation of an equilibrium binding affinity for a low-affinity substrate: A 10 nanomolar complex is formed between MSH2MSH3 and \\(CA)4-loop DNA \\(high affinity ligand) labeled with fluorescein, and increasing concentrations of unlabeled homoduplex DNA added up to concentrations of 1000 &#xB5;M. Allow the reactions to come to equilibrium by incubation at ambient temperature for 60 minutes. Plot data as change in anisotropy versus the concentration of added ligand, homoduplex DNA \\(low affinity). \\(",
+      "instruction": "ADD",
+      "slots": [
+        {
+          "key": "reagent1",
+          "value": "MSH2MSH3",
+          "id": "a689a373-04ea-43b5-a446-9795c9dccf4f",
+          "node_id": "a0ee2f85-c1b1-49b9-8994-4d0c53a7ab59"
+        },
+        {
+          "key": "reagent2",
+          "value": "unlabeled homoduplex DNA",
+          "id": "5a169034-55ab-4569-aec7-c89f2e9c90f4",
+          "node_id": "a0ee2f85-c1b1-49b9-8994-4d0c53a7ab59"
+        },
+        {
+          "key": "concentration",
+          "value": "1000 \u00b5M",
+          "id": "1e6b1c9b-6422-46d4-a74d-e550abe3bfe5",
+          "node_id": "a0ee2f85-c1b1-49b9-8994-4d0c53a7ab59"
+        }
+      ],
+      "emits": [
+        {
+          "key": "reagent0",
+          "value": "protein-DNA complexes",
+          "id": "66b597c8-4515-4002-8fb8-1dccfadf14e8",
+          "node_id": "a0ee2f85-c1b1-49b9-8994-4d0c53a7ab59"
+        }
+      ]
+    },
+    {
+      "id": "d562e53c-71e4-45e6-8410-250f714d98c4",
+      "text": "Measuring unimolecular dissociation rate constant \\(koff): The setup is similar to \\(3), except that the competitor, in this case an excess of a second ligand \\(i.e. ADP or ATP), is added at time 0, and the instrument is programed to read over a specified time period at defined intervals \\(kinetic mode). \\(",
+      "instruction": "MEASURE",
+      "slots": [
+        {
+          "key": "reagent1",
+          "value": "ADP or ATP",
+          "id": "709029de-e6f9-4274-8ef8-5ca08e8985d7",
+          "node_id": "d562e53c-71e4-45e6-8410-250f714d98c4"
+        },
+        {
+          "key": "parameter",
+          "value": "unimolecular dissociation rate constant (koff)",
+          "id": "a06eaa2d-bcd7-4efd-a650-b4cd56b1333e",
+          "node_id": "d562e53c-71e4-45e6-8410-250f714d98c4"
+        },
+        {
+          "key": "notice",
+          "value": "The setup is similar to (3), except that the competitor, in this case an excess of a second ligand (i.e. ADP or ATP), is added at time 0, and the instrument is programed to read over a specified time period at defined intervals (kinetic mode).",
+          "id": "5715ab1d-57a2-436a-98c9-534217a8d712",
+          "node_id": "d562e53c-71e4-45e6-8410-250f714d98c4"
+        }
+      ],
+      "emits": []
+    }
+  ],
+  "edges": []
+}

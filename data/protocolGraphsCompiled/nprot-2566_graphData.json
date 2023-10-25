@@ -1,0 +1,125 @@
+{
+  "name": "nprot-2566_graphData.json",
+  "nodes": [
+    {
+      "id": "528dbf3c-a3a9-4aa8-8a83-e94113550181",
+      "text": "Wash the pellet with 70% ethanol .",
+      "instruction": "WASH",
+      "slots": [
+        {
+          "key": "reagent1",
+          "value": "pellet",
+          "id": "770550f4-3c62-4efb-9afe-f4d65ea4bfe0",
+          "node_id": "528dbf3c-a3a9-4aa8-8a83-e94113550181"
+        },
+        {
+          "key": "reagent2",
+          "value": "70% ethanol",
+          "id": "6f67e692-67e5-44e5-b1dd-75c23c88ffc4",
+          "node_id": "528dbf3c-a3a9-4aa8-8a83-e94113550181"
+        },
+        {
+          "key": "repeat",
+          "value": "1",
+          "id": "5dec1a43-e2eb-4435-9a0b-d749edca4230",
+          "node_id": "528dbf3c-a3a9-4aa8-8a83-e94113550181"
+        }
+      ],
+      "emits": [
+        {
+          "key": "reagent0",
+          "value": "pellet",
+          "id": "b0da0143-aebb-4739-87fc-bbd190ea73c4",
+          "node_id": "528dbf3c-a3a9-4aa8-8a83-e94113550181"
+        }
+      ]
+    },
+    {
+      "id": "074788ad-d971-4030-84ff-3209cd1affa7",
+      "text": "Keep the pellet  at 37 \u00ba celcius  for  10 minutes.",
+      "instruction": "KEEP",
+      "slots": [
+        {
+          "key": "reagent1",
+          "value": "pellet",
+          "id": "224d6af7-2dc5-40bf-a999-f9f8500a69bf",
+          "node_id": "074788ad-d971-4030-84ff-3209cd1affa7"
+        },
+        {
+          "key": "temperature",
+          "value": "37 \u00ba celcius",
+          "id": "fd55e447-c0ad-41cb-a439-a5c7a98d10c3",
+          "node_id": "074788ad-d971-4030-84ff-3209cd1affa7"
+        },
+        {
+          "key": "time",
+          "value": "10 minutes",
+          "id": "1aea5372-c7ef-4657-ba91-3db8295de204",
+          "node_id": "074788ad-d971-4030-84ff-3209cd1affa7"
+        }
+      ],
+      "emits": [
+        {
+          "key": "reagent0",
+          "value": "pellet",
+          "id": "c2226e9a-c4a2-42ba-b9a3-075ab7cbebf1",
+          "node_id": "074788ad-d971-4030-84ff-3209cd1affa7"
+        }
+      ]
+    },
+    {
+      "id": "92e70aff-03ea-4aa3-843e-c8a458b4ebec",
+      "text": "Dissolve the dry pellet in nuclease free water or TE buffer \\(Ph 8.0). Store DNA at 4 \u00ba celcius  or -20 \u00ba celcius .",
+      "instruction": "DISSOLVE",
+      "slots": [
+        {
+          "key": "reagent1",
+          "value": "dry pellet",
+          "id": "86c8fc92-e6c2-4bf3-841d-2d6c2edd21ca",
+          "node_id": "92e70aff-03ea-4aa3-843e-c8a458b4ebec"
+        },
+        {
+          "key": "reagent2",
+          "value": "nuclease free water or TE buffer (Ph 8.0)",
+          "id": "ff2d1b54-29df-4b9b-873f-b774afad69b5",
+          "node_id": "92e70aff-03ea-4aa3-843e-c8a458b4ebec"
+        },
+        {
+          "key": "notice",
+          "value": "Store DNA at 4 \u00ba celcius or -20 \u00ba celcius",
+          "id": "01b43f3b-ee5c-4a09-9085-551d0761f432",
+          "node_id": "92e70aff-03ea-4aa3-843e-c8a458b4ebec"
+        }
+      ],
+      "emits": []
+    },
+    {
+      "id": "70aa3758-fad7-4963-a95f-09552064c2a9",
+      "text": "Dissolve the dry pellet in nuclease free water or TE buffer \\(Ph 8.0). Store DNA at 4 \u00ba celcius  or -20 \u00ba celcius .",
+      "instruction": "STORE",
+      "slots": [
+        {
+          "key": "reagent1",
+          "value": "DNA",
+          "id": "72ea09aa-ed3f-4426-aa9d-2dbf0680794b",
+          "node_id": "70aa3758-fad7-4963-a95f-09552064c2a9"
+        },
+        {
+          "key": "temperature",
+          "value": "4 \u00ba celcius or -20 \u00ba celcius",
+          "id": "7784c9b0-a864-4a52-8aff-ab2a02b8be6c",
+          "node_id": "70aa3758-fad7-4963-a95f-09552064c2a9"
+        }
+      ],
+      "emits": [
+        {
+          "key": "reagent0",
+          "value": "DNA",
+          "id": "89a07763-4e84-4b4b-b49d-b8e75d976c6c",
+          "node_id": "70aa3758-fad7-4963-a95f-09552064c2a9"
+        }
+      ]
+    }
+  ],
+  "edges": []
+}

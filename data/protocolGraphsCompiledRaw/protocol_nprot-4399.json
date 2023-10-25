@@ -1,0 +1,242 @@
+[
+    {
+        "sentence": "\nThis protocol has been performed using human embryonic stem cells \\(hESCs), neonatal rat ventricular myocytes \\(NRVMs), and KMBC cholangiocarcinoma cells.",
+        "result": [
+            {
+                "PERFORM": {
+                    "emit": [],
+                    "slot": [
+                        {
+                            "procedure": "This protocol has been performed using human embryonic stem cells (hESCs), neonatal rat ventricular myocytes (NRVMs), and KMBC cholangiocarcinoma cells."
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "title": "1.",
+        "body": [
+            {
+                "sentence": "On Day 1, plate cells at a concentration of 1 million cells / mL.",
+                "result": [
+                    {
+                        "PLATE": {
+                            "emit": [
+                                {
+                                    "reagent0": "cells"
+                                }
+                            ],
+                            "slot": [
+                                {
+                                    "reagent1": "cells"
+                                },
+                                {
+                                    "reagent2": "plate"
+                                },
+                                {
+                                    "density": "1 million cells / mL"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "2.",
+        "body": [
+            {
+                "sentence": "24 hours after plating, switch to serum-free or EV-cleared media.",
+                "result": [
+                    {
+                        "PLATE": {
+                            "emit": [
+                                {
+                                    "reagent0": "cells"
+                                }
+                            ],
+                            "slot": [
+                                {
+                                    "reagent1": "cells"
+                                },
+                                {
+                                    "reagent2": "serum-free or EV-cleared media"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "SWITCH": {
+                            "emit": [],
+                            "slot": [
+                                {
+                                    "device": "serum-free or EV-cleared media"
+                                },
+                                {
+                                    "time": "24 hours"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "3.",
+        "body": [
+            {
+                "sentence": "Collect supernatant after 24 hr \\(hESCs) or 48 hr \\(NRVMs or KMBCs).",
+                "result": [
+                    {
+                        "COLLECT": {
+                            "emit": [
+                                {
+                                    "reagent0": "supernatant"
+                                }
+                            ],
+                            "slot": [
+                                {
+                                    "reagent1": "supernatant"
+                                },
+                                {
+                                    "container": "<blank>"
+                                },
+                                {
+                                    "method": "<blank>"
+                                },
+                                {
+                                    "environment": "<blank>"
+                                },
+                                {
+                                    "purpose": "<blank>"
+                                },
+                                {
+                                    "notice": "<blank>"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "4.",
+        "body": [
+            {
+                "sentence": "Centrifuge at 500 x g for 10 min.",
+                "result": [
+                    {
+                        "CENTRIFUGE": {
+                            "emit": [
+                                {
+                                    "reagent0": "supernatant"
+                                }
+                            ],
+                            "slot": [
+                                {
+                                    "reagent1": "cells"
+                                },
+                                {
+                                    "intensity": "500 x g"
+                                },
+                                {
+                                    "time": "10 min"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "5.",
+        "body": [
+            {
+                "sentence": "Transfer supernatant to a fresh tube and centrifuge at 2,000 x g for 10 min.",
+                "result": [
+                    {
+                        "TRANSFER": {
+                            "emit": [
+                                {
+                                    "reagent0": "supernatant"
+                                }
+                            ],
+                            "slot": [
+                                {
+                                    "source": "supernatant"
+                                },
+                                {
+                                    "destination": "fresh tube"
+                                },
+                                {
+                                    "reagent1": "supernatant"
+                                },
+                                {
+                                    "volume": "<blank>"
+                                },
+                                {
+                                    "equipment": "<blank>"
+                                },
+                                {
+                                    "notice": "<blank>"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "CENTRIFUGE": {
+                            "emit": [
+                                {
+                                    "reagent0": "supernatant"
+                                }
+                            ],
+                            "slot": [
+                                {
+                                    "reagent1": "supernatant"
+                                },
+                                {
+                                    "intensity": "2,000 x g"
+                                },
+                                {
+                                    "time": "10 min"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "6.",
+        "body": [
+            {
+                "sentence": "Store cell-free supernatant at -80\u00b0C.",
+                "result": [
+                    {
+                        "STORE": {
+                            "emit": [
+                                {
+                                    "reagent0": "cell-free supernatant"
+                                }
+                            ],
+                            "slot": [
+                                {
+                                    "reagent1": "cell-free supernatant"
+                                },
+                                {
+                                    "temperature": "-80\u00b0C"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        ]
+    }
+]

@@ -1,0 +1,409 @@
+[
+    {
+        "title": "**1) Preparation of 1-immobilized beads**",
+        "body": [
+            {
+                "sentence": "A) Incubate Magnetic FG beads \\(NH<sub>2</sub> beads; TASB848 Nii30; 5 mg) with 10 mM 1-hydroxybenzotriazole, 10 mM 1-ethyl-3-\\(3-demithyl-aminopropyl)-carbodiimide HCl, and various concentrations \\(0.4, 2, and 10 mM) of",
+                "result": [
+                    {
+                        "INCUBATE": {
+                            "emit": [
+                                {
+                                    "reagent0": "Magnetic FG beads (NH2 beads; TASB848 Nii30; 5 mg)"
+                                }
+                            ],
+                            "slot": [
+                                {
+                                    "reagent1": "Magnetic FG beads (NH2 beads; TASB848 Nii30; 5 mg)"
+                                },
+                                {
+                                    "reagent2": "10 mM 1-hydroxybenzotriazole, 10 mM 1-ethyl-3-(3-demithyl-aminopropyl)-carbodiimide HCl, and various concentrations (0.4, 2, and 10 mM)"
+                                },
+                                {
+                                    "temperature": "room temperature"
+                                },
+                                {
+                                    "time": "appropriate time"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "**1**",
+        "body": [
+            {
+                "sentence": "in 1.5 ml of N,N-dimethylformamide for 4 h at room temperature.\r\n\n\nB) Mask unreacted residues using 20% carbonic anhydride in N, N-dimethylformamide\r\n\n\nC) Store beads at 4 \u00b0C.",
+                "result": [
+                    {
+                        "IMMERSE": {
+                            "emit": [
+                                {
+                                    "reagent0": "N,N-dimethylformamide"
+                                }
+                            ],
+                            "slot": [
+                                {
+                                    "reagent1": "N,N-dimethylformamide"
+                                },
+                                {
+                                    "temperature": "room temperature"
+                                },
+                                {
+                                    "time": "4 h"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "STORE": {
+                            "emit": [
+                                {
+                                    "reagent0": "Magnetic FG beads (NH2 beads; TASB848 Nii30; 5 mg)"
+                                }
+                            ],
+                            "slot": [
+                                {
+                                    "reagent1": "Magnetic FG beads (NH2 beads; TASB848 Nii30; 5 mg)"
+                                },
+                                {
+                                    "temperature": "4 \u00b0C"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "**2) Cell fractionation**",
+        "body": [
+            {
+                "sentence": "Use ProteoExtract subcellular proteome extraction kit \\(S-PEK) extracting PC-3 cell fractions",
+                "result": []
+            }
+        ]
+    },
+    {
+        "title": "**3) Purification and identification of **",
+        "body": [
+            {
+                "sentence": "1",
+                "result": [
+                    {
+                        "SELECT": {
+                            "emit": [
+                                {
+                                    "reagent0": "Magnetic FG beads (NH2 beads; TASB848 Nii30; 5 mg)"
+                                }
+                            ],
+                            "slot": [
+                                {
+                                    "reagent1/data1": "Magnetic FG beads (NH2 beads; TASB848 Nii30; 5 mg)"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "**-binding protein**",
+        "body": [
+            {
+                "sentence": "A) Equilibrate Compound 1-immobilized beads \\(the final concentrations of 1 were 0.4, 2, and 10 mM) and FG beads \\(without",
+                "result": [
+                    {
+                        "EQUILIBRATE": {
+                            "emit": [
+                                {
+                                    "reagent0": "Compound 1-immobilized beads"
+                                }
+                            ],
+                            "slot": [
+                                {
+                                    "reagent1": "Compound 1-immobilized beads"
+                                },
+                                {
+                                    "reagent2": "FG beads"
+                                },
+                                {
+                                    "notice": "the final concentrations of 1 were 0.4, 2, and 10 mM"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            },
+            {
+                "title": "1)",
+                "body": [
+                    {
+                        "sentence": "with 0.5% NP-40 lysis buffer.\r\n\n\nB) Incubate cell protein fractions with beads for 4 h at 4 \u00b0C.\r\n\n\nC) Wash Beads five times with 100 mM KCl \\(200 \u00b5l).\r\n\n\nD) Wash beads with 1M KCl \\(30 \u00b5l). Use this fraction for SDS-PAGE on a 10% gel.\r\n\n\nE) Performe silver staining of the gel\r\n\n\nF) Cut and treat the cutting gel with trypsin.\r\n\n\nG) Analyze recovered peptides with electrospray ion trap mass spectrometer coupled on-line with nano-scale HPLC on a C18 column to acquire MS/MS spectra.\r\n\n\nH) Use peptide mass fingerprinting for protein identification from tryptic fragment sizes using the Mascot search engine \\(http://www.matrixscience.com) querying to the entire NCBI database of theoretical human peptide masses.",
+                        "result": [
+                            {
+                                "INCUBATE": {
+                                    "emit": [
+                                        {
+                                            "reagent0": "beads"
+                                        }
+                                    ],
+                                    "slot": [
+                                        {
+                                            "reagent1": "cell protein fractions"
+                                        },
+                                        {
+                                            "reagent2": "beads"
+                                        },
+                                        {
+                                            "temperature": "4 \u00b0C"
+                                        },
+                                        {
+                                            "time": "4 h"
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "WASH": {
+                                    "emit": [
+                                        {
+                                            "reagent0": "Beads"
+                                        }
+                                    ],
+                                    "slot": [
+                                        {
+                                            "reagent1": "Beads"
+                                        },
+                                        {
+                                            "reagent2": "100 mM KCl"
+                                        },
+                                        {
+                                            "repeat": "5"
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "WASH": {
+                                    "emit": [
+                                        {
+                                            "reagent0": "beads"
+                                        }
+                                    ],
+                                    "slot": [
+                                        {
+                                            "reagent1": "beads"
+                                        },
+                                        {
+                                            "reagent2": "1M KCl"
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "PERFORM": {
+                                    "emit": [],
+                                    "slot": [
+                                        {
+                                            "procedure": "Perform silver staining of the gel"
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "CUT": {
+                                    "emit": [
+                                        {
+                                            "reagent0": "cutting gel"
+                                        }
+                                    ],
+                                    "slot": [
+                                        {
+                                            "reagent": "cutting gel"
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "ANALYZE": {
+                                    "emit": [
+                                        {
+                                            "data0": "recovered peptides"
+                                        }
+                                    ],
+                                    "slot": [
+                                        {
+                                            "reagent1": "recovered peptides"
+                                        },
+                                        {
+                                            "method": "electrospray ion trap mass spectrometer coupled on-line with nano-scale HPLC on a C18 column to acquire MS/MS spectra"
+                                        }
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "**4) QCM system**",
+        "body": [
+            {
+                "sentence": "A) Dissolve all compounds in 50% EtOH\r\n\n\nB) Use paclitaxel and vinblastine sulfate salt as stabilizing and destabilizing controls\r\n\n\nC) Fix tubulin on one electrode \\(ch1) and the other one was absolutely blocked with BSA \\(ch2) for reference\r\n\n\nD) Use NAPiCOS QCM system to investigate the affinity of compound with tubulin\r\n\n\nE) Stabilize baseline with PBS/50% EtOH, flow rate was set to 20 \uf06dl/min.\r\n\n\nF) Inject one hundred microliters of each compound into the system to react with fixed tubulin to obtain differential frequency shift between ch1 and ch2\r\n\n\nG) Calculate _Kd_ values by standard scatchard analysis with frequency changes from several concentrations of compound",
+                "result": [
+                    {
+                        "DISSOLVE": {
+                            "emit": [
+                                {
+                                    "reagent0": "compounds"
+                                }
+                            ],
+                            "slot": [
+                                {
+                                    "reagent1": "compounds"
+                                },
+                                {
+                                    "reagent2": "50% EtOH"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "FIX": {
+                            "emit": [
+                                {
+                                    "reagent0": "<blank>"
+                                }
+                            ],
+                            "slot": [
+                                {
+                                    "reagent1": "tubulin"
+                                },
+                                {
+                                    "reagent2": "BSA"
+                                },
+                                {
+                                    "temperature": "room temperature"
+                                },
+                                {
+                                    "time": "<blank>"
+                                },
+                                {
+                                    "device": "<blank>"
+                                },
+                                {
+                                    "direction": "<blank>"
+                                },
+                                {
+                                    "method": "<blank>"
+                                },
+                                {
+                                    "notice": "<blank>"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "INJECT": {
+                            "emit": [
+                                {
+                                    "reagent0": "differential frequency shift between ch1 and ch2"
+                                }
+                            ],
+                            "slot": [
+                                {
+                                    "reagent1": "compounds"
+                                },
+                                {
+                                    "reagent2/destination": "system"
+                                },
+                                {
+                                    "device": "NAPiCOS QCM system"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "CALCULATE": {
+                            "emit": [
+                                {
+                                    "result": "<blank>"
+                                }
+                            ],
+                            "slot": [
+                                {
+                                    "attribute": "Kd"
+                                },
+                                {
+                                    "formula": "standard scatchard analysis"
+                                },
+                                {
+                                    "variables": "frequency changes, concentrations of compound"
+                                },
+                                {
+                                    "values": "<blank>"
+                                },
+                                {
+                                    "units": "<blank>"
+                                },
+                                {
+                                    "software": "<blank>"
+                                },
+                                {
+                                    "notice": "<blank>"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "**5) Tubulin polymerization assay**",
+        "body": [
+            {
+                "sentence": "A) Use Tubulin Polymerization Assay Kit to test tubulin polymerization on each compound\r\n\n\nB) Paclitaxel \\(Wako Co., Japan) and vinblastine were used as positive and negative controls, respectively.\r\n\n\nC) Measure fluorescence using FlexStation3 \\(Molecular Devices, USA)",
+                "result": [
+                    {
+                        "MEASURE": {
+                            "emit": [
+                                {
+                                    "data0": "<blank>"
+                                }
+                            ],
+                            "slot": [
+                                {
+                                    "device": "FlexStation3 (Molecular Devices, USA)"
+                                },
+                                {
+                                    "reagent1": "<blank>"
+                                },
+                                {
+                                    "parameter": "fluorescence"
+                                },
+                                {
+                                    "time": "<blank>"
+                                },
+                                {
+                                    "wavelength": "<blank>"
+                                },
+                                {
+                                    "notice": "<blank>"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        ]
+    }
+]

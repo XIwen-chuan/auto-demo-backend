@@ -1,0 +1,555 @@
+{
+  "name": "nprot-2325_graphData.json",
+  "nodes": [
+    {
+      "id": "5ca4dced-c137-434c-ae7c-939210f84f49",
+      "text": "Keep all reagents on ice. Pre-cool the centrifuge to 4\u00b0C.",
+      "instruction": "KEEP",
+      "slots": [
+        {
+          "key": "reagent1",
+          "value": "reagents",
+          "id": "bbe70676-dd87-47e5-9b4d-618ed61b3cda",
+          "node_id": "5ca4dced-c137-434c-ae7c-939210f84f49"
+        },
+        {
+          "key": "temperature",
+          "value": "ice",
+          "id": "d78fd782-9402-4d93-ae55-4dbed5d2b20b",
+          "node_id": "5ca4dced-c137-434c-ae7c-939210f84f49"
+        }
+      ],
+      "emits": [
+        {
+          "key": "reagent0",
+          "value": "reagents",
+          "id": "67cdb1b7-83ac-48a5-95c0-3fc83d66aa74",
+          "node_id": "5ca4dced-c137-434c-ae7c-939210f84f49"
+        }
+      ]
+    },
+    {
+      "id": "bf98437a-6292-49d9-b2a7-06a0982bcca6",
+      "text": "Label the microcentrifuge tubes and keep them on ice.",
+      "instruction": "KEEP",
+      "slots": [
+        {
+          "key": "reagent1",
+          "value": "microcentrifuge tubes",
+          "id": "dfd33888-079f-45a9-b956-8d075fe6b470",
+          "node_id": "bf98437a-6292-49d9-b2a7-06a0982bcca6"
+        },
+        {
+          "key": "temperature",
+          "value": "ice",
+          "id": "9b5b0b04-6422-4307-9082-48226af565c1",
+          "node_id": "bf98437a-6292-49d9-b2a7-06a0982bcca6"
+        }
+      ],
+      "emits": [
+        {
+          "key": "reagent0",
+          "value": "reagents",
+          "id": "845f8260-efc1-46e4-83a5-7628e79b8771",
+          "node_id": "bf98437a-6292-49d9-b2a7-06a0982bcca6"
+        }
+      ]
+    },
+    {
+      "id": "5946d2fe-10e0-4d27-9dce-525463e43195",
+      "text": "Prepare the polyamine binding mix in the pre-cooled microcentrifuge tubes as shown Table A & B shown in figures section.",
+      "instruction": "PREPARE",
+      "slots": [
+        {
+          "key": "reagent1",
+          "value": "polyamine binding mix",
+          "id": "a01cb25f-0b9c-44bc-aba2-864e73c44605",
+          "node_id": "5946d2fe-10e0-4d27-9dce-525463e43195"
+        },
+        {
+          "key": "container",
+          "value": "pre-cooled microcentrifuge tubes",
+          "id": "50b1cc05-43b2-41ab-89db-f1d9bf6212cf",
+          "node_id": "5946d2fe-10e0-4d27-9dce-525463e43195"
+        },
+        {
+          "key": "notice",
+          "value": "Refer to Table A & B in the figures section for details.",
+          "id": "614deffa-cae9-42ad-a15b-f18598edb4a3",
+          "node_id": "5946d2fe-10e0-4d27-9dce-525463e43195"
+        }
+      ],
+      "emits": [
+        {
+          "key": "reagent0",
+          "value": "polyamine binding mix",
+          "id": "e62c0160-0e7b-4b23-b372-6361a940c5be",
+          "node_id": "5946d2fe-10e0-4d27-9dce-525463e43195"
+        }
+      ]
+    },
+    {
+      "id": "66b0fa48-69dd-4116-b33f-33783ef1cb0c",
+      "text": "Mix the polyamine binding mix gently and incubate on ice for 60 min.",
+      "instruction": "MIX",
+      "slots": [
+        {
+          "key": "reagent1",
+          "value": "polyamine binding mix",
+          "id": "4c89f89a-ffd3-4e7b-a200-9fb4cde48222",
+          "node_id": "66b0fa48-69dd-4116-b33f-33783ef1cb0c"
+        },
+        {
+          "key": "method",
+          "value": "gentle mixing",
+          "id": "97a6d30e-ce8b-4951-b420-06e483dffc3a",
+          "node_id": "66b0fa48-69dd-4116-b33f-33783ef1cb0c"
+        },
+        {
+          "key": "time",
+          "value": "60 min",
+          "id": "fd21e4e8-621e-4e9c-a0b2-c29d60aa1821",
+          "node_id": "66b0fa48-69dd-4116-b33f-33783ef1cb0c"
+        }
+      ],
+      "emits": [
+        {
+          "key": "reagent0",
+          "value": "polyamine binding mix",
+          "id": "ea05d044-39e7-41cf-a97d-b070d59ea240",
+          "node_id": "66b0fa48-69dd-4116-b33f-33783ef1cb0c"
+        }
+      ]
+    },
+    {
+      "id": "b8dabe67-9e4b-4b00-95c2-c3f97b3edb50",
+      "text": "Mix the polyamine binding mix gently and incubate on ice for 60 min.",
+      "instruction": "INCUBATE",
+      "slots": [
+        {
+          "key": "reagent1",
+          "value": "polyamine binding mix",
+          "id": "c717014c-5e02-475c-8c69-fd4b10c04897",
+          "node_id": "b8dabe67-9e4b-4b00-95c2-c3f97b3edb50"
+        },
+        {
+          "key": "temperature",
+          "value": "ice",
+          "id": "4e1b25d4-3232-486a-a3c0-ea60129596b4",
+          "node_id": "b8dabe67-9e4b-4b00-95c2-c3f97b3edb50"
+        },
+        {
+          "key": "time",
+          "value": "60 min",
+          "id": "f391397a-a0c6-46b2-a7b0-90acd94b427a",
+          "node_id": "b8dabe67-9e4b-4b00-95c2-c3f97b3edb50"
+        }
+      ],
+      "emits": [
+        {
+          "key": "reagent0",
+          "value": "polyamine binding mix",
+          "id": "a3607011-ea52-412f-9a3e-c965c0afbfcf",
+          "node_id": "b8dabe67-9e4b-4b00-95c2-c3f97b3edb50"
+        }
+      ]
+    },
+    {
+      "id": "8d3f8d7a-bc82-4fc2-b9a9-22fbd1d99acb",
+      "text": "Place the filtration device in a 1.5 ml collection tube and pre-cool on ice.",
+      "instruction": "PLACE",
+      "slots": [
+        {
+          "key": "reagent1",
+          "value": "filtration device",
+          "id": "360fd948-6ca2-44af-9d2f-2c99ba117da5",
+          "node_id": "8d3f8d7a-bc82-4fc2-b9a9-22fbd1d99acb"
+        },
+        {
+          "key": "destination",
+          "value": "1.5 ml collection tube",
+          "id": "49f8443e-90bf-47c3-9929-743ca6bfc908",
+          "node_id": "8d3f8d7a-bc82-4fc2-b9a9-22fbd1d99acb"
+        },
+        {
+          "key": "temperature",
+          "value": "ice",
+          "id": "9d5871dd-851e-49b3-b35d-e29881f9d80b",
+          "node_id": "8d3f8d7a-bc82-4fc2-b9a9-22fbd1d99acb"
+        }
+      ],
+      "emits": [
+        {
+          "key": "reagent0",
+          "value": "filtration device",
+          "id": "8684c7cb-8ed9-4968-9c07-1637a5772491",
+          "node_id": "8d3f8d7a-bc82-4fc2-b9a9-22fbd1d99acb"
+        }
+      ]
+    },
+    {
+      "id": "2ad59280-4f08-411a-ab8a-32c298d9dbec",
+      "text": "After the 60 min incubation time, transfer 100 \u03bcL of the polyamine binding mix to the appropriately labelled filtration devices.",
+      "instruction": "TRANSFER",
+      "slots": [
+        {
+          "key": "destination",
+          "value": "filtration devices",
+          "id": "f530a444-a0dc-4fa9-b7c7-34b830fb39d8",
+          "node_id": "2ad59280-4f08-411a-ab8a-32c298d9dbec"
+        },
+        {
+          "key": "reagent1",
+          "value": "polyamine binding mix",
+          "id": "6538d2d4-a54b-4cc1-ac44-c888e13f9a61",
+          "node_id": "2ad59280-4f08-411a-ab8a-32c298d9dbec"
+        },
+        {
+          "key": "volume",
+          "value": "100 \u03bcL",
+          "id": "195608c9-5264-47ef-9495-b8710fc370d6",
+          "node_id": "2ad59280-4f08-411a-ab8a-32c298d9dbec"
+        },
+        {
+          "key": "notice",
+          "value": "After the 60 min incubation time",
+          "id": "ca22175f-f9b6-440a-8c9d-34b8a5aacbaa",
+          "node_id": "2ad59280-4f08-411a-ab8a-32c298d9dbec"
+        }
+      ],
+      "emits": [
+        {
+          "key": "reagent0",
+          "value": "polyamine binding mix",
+          "id": "816599f7-49fa-4e12-80a9-ba2a163f94a3",
+          "node_id": "2ad59280-4f08-411a-ab8a-32c298d9dbec"
+        }
+      ]
+    },
+    {
+      "id": "b8062a33-cc90-410f-97e9-098523f0c87f",
+      "text": "Filter the free polyamines by spinning at 2500xg for 5 min at 4\u00b0C",
+      "instruction": "FILTER",
+      "slots": [
+        {
+          "key": "reagent1",
+          "value": "free polyamines",
+          "id": "d380f669-2cc1-44c2-86a5-02815c231650",
+          "node_id": "b8062a33-cc90-410f-97e9-098523f0c87f"
+        },
+        {
+          "key": "filter",
+          "value": "2500xg",
+          "id": "431a7dd1-5243-424c-9703-d490cf9db922",
+          "node_id": "b8062a33-cc90-410f-97e9-098523f0c87f"
+        },
+        {
+          "key": "temperature",
+          "value": "4\u00b0C",
+          "id": "5b8e3df2-5bad-4619-ae30-61d3500fdc1d",
+          "node_id": "b8062a33-cc90-410f-97e9-098523f0c87f"
+        }
+      ],
+      "emits": [
+        {
+          "key": "reagent0",
+          "value": "free polyamines",
+          "id": "c2681793-ad8a-4c0b-9119-b59c169e4377",
+          "node_id": "b8062a33-cc90-410f-97e9-098523f0c87f"
+        }
+      ]
+    },
+    {
+      "id": "753ad5f8-a756-4d31-aa04-59b7c4ff1da0",
+      "text": "Prepare microcentrifugefuge tubes with 1 mL scintillation liquid \\(two tubes with scintillation liquid for every filter device used) and keep them at room temperature.",
+      "instruction": "PREPARE",
+      "slots": [
+        {
+          "key": "reagent1",
+          "value": "1 mL scintillation liquid",
+          "id": "e5fb031e-548d-4da2-8ce3-124e01c187af",
+          "node_id": "753ad5f8-a756-4d31-aa04-59b7c4ff1da0"
+        },
+        {
+          "key": "container",
+          "value": "microcentrifuge tubes",
+          "id": "35caa4e3-abe9-4c24-bfab-785cbd8b617e",
+          "node_id": "753ad5f8-a756-4d31-aa04-59b7c4ff1da0"
+        },
+        {
+          "key": "temperature",
+          "value": "room temperature",
+          "id": "294c957e-027a-4099-93c6-cc8221e36ce6",
+          "node_id": "753ad5f8-a756-4d31-aa04-59b7c4ff1da0"
+        }
+      ],
+      "emits": [
+        {
+          "key": "reagent0",
+          "value": "scintillation liquid",
+          "id": "a5f24178-72f1-4c16-b0dd-ba9292d9e0b9",
+          "node_id": "753ad5f8-a756-4d31-aa04-59b7c4ff1da0"
+        }
+      ]
+    },
+    {
+      "id": "331c545f-be0d-4415-921c-76ac8a07a89f",
+      "text": "Prepare microcentrifugefuge tubes with 1 mL scintillation liquid \\(two tubes with scintillation liquid for every filter device used) and keep them at room temperature.",
+      "instruction": "KEEP",
+      "slots": [
+        {
+          "key": "reagent1",
+          "value": "microcentrifuge tubes with 1 mL scintillation liquid",
+          "id": "feaa1b96-2737-45ad-bad6-b9d941be8aab",
+          "node_id": "331c545f-be0d-4415-921c-76ac8a07a89f"
+        },
+        {
+          "key": "temperature",
+          "value": "room temperature",
+          "id": "021447fd-9fd7-4d60-af10-38fc2837e450",
+          "node_id": "331c545f-be0d-4415-921c-76ac8a07a89f"
+        }
+      ],
+      "emits": [
+        {
+          "key": "reagent0",
+          "value": "microcentrifuge tubes with 1 mL scintillation liquid",
+          "id": "4a4d6926-3732-4d98-8872-cb3463d7cc1a",
+          "node_id": "331c545f-be0d-4415-921c-76ac8a07a89f"
+        }
+      ]
+    },
+    {
+      "id": "48b86125-fd7d-4bae-9eee-b2aff9c39bd1",
+      "text": "Remove 10 \u03bcL of the retentate from inside the cut-off filter device and add it to microcentrifuge tube with scintillation liquid marked as \u201cretentate\u201d.",
+      "instruction": "REMOVE",
+      "slots": [
+        {
+          "key": "reagent1",
+          "value": "retentate",
+          "id": "4f42d3aa-454c-4285-93ad-e8f92992796f",
+          "node_id": "48b86125-fd7d-4bae-9eee-b2aff9c39bd1"
+        },
+        {
+          "key": "method",
+          "value": "Remove",
+          "id": "16df3db2-4894-4dcc-95c2-f2afc7a2ebbf",
+          "node_id": "48b86125-fd7d-4bae-9eee-b2aff9c39bd1"
+        },
+        {
+          "key": "device",
+          "value": "cut-off filter device",
+          "id": "a1b3eb5b-76c6-4328-aedd-9a5f53eeb064",
+          "node_id": "48b86125-fd7d-4bae-9eee-b2aff9c39bd1"
+        },
+        {
+          "key": "notice",
+          "value": "",
+          "id": "87b063b2-b84a-4d64-a075-bb516380aad7",
+          "node_id": "48b86125-fd7d-4bae-9eee-b2aff9c39bd1"
+        }
+      ],
+      "emits": [
+        {
+          "key": "reagent0",
+          "value": "retentate",
+          "id": "4d4ee520-3957-4e64-ac68-6de8839e8126",
+          "node_id": "48b86125-fd7d-4bae-9eee-b2aff9c39bd1"
+        }
+      ]
+    },
+    {
+      "id": "f8e2a1fe-45a7-4ffc-a9ee-82dd60a7878d",
+      "text": "Remove 10 \u03bcL of the retentate from inside the cut-off filter device and add it to microcentrifuge tube with scintillation liquid marked as \u201cretentate\u201d.",
+      "instruction": "ADD",
+      "slots": [
+        {
+          "key": "reagent1",
+          "value": "retentate",
+          "id": "167293a3-6e39-4a12-b591-a2bf675de7e3",
+          "node_id": "f8e2a1fe-45a7-4ffc-a9ee-82dd60a7878d"
+        },
+        {
+          "key": "reagent2",
+          "value": "scintillation liquid",
+          "id": "34430641-b08a-47f5-b3aa-49b148d36c2b",
+          "node_id": "f8e2a1fe-45a7-4ffc-a9ee-82dd60a7878d"
+        }
+      ],
+      "emits": [
+        {
+          "key": "reagent0",
+          "value": "retentate",
+          "id": "8e1688be-50b4-4858-b15d-7acd8362c63f",
+          "node_id": "f8e2a1fe-45a7-4ffc-a9ee-82dd60a7878d"
+        }
+      ]
+    },
+    {
+      "id": "f86898fc-8849-4275-b4e0-3271d67320f2",
+      "text": "Remove 10 \u03bcL of filtrate from the collection tube of the filtration device and add it to the second microcentrifuge tube with scintillation liquid marked as \u201cfiltrate\u201d.",
+      "instruction": "REMOVE",
+      "slots": [
+        {
+          "key": "reagent1",
+          "value": "filtrate",
+          "id": "e9e8a275-549b-432e-b7d9-e4397e1aed89",
+          "node_id": "f86898fc-8849-4275-b4e0-3271d67320f2"
+        },
+        {
+          "key": "method",
+          "value": "from the collection tube of the filtration device",
+          "id": "a78dc842-ed3a-425b-ae50-64d88a709f8e",
+          "node_id": "f86898fc-8849-4275-b4e0-3271d67320f2"
+        },
+        {
+          "key": "device",
+          "value": "filtration device",
+          "id": "762f30e6-0268-42e5-80a5-17a893a702b1",
+          "node_id": "f86898fc-8849-4275-b4e0-3271d67320f2"
+        },
+        {
+          "key": "notice",
+          "value": "",
+          "id": "8466e9a1-4ec6-43f6-9772-fc753f1863a7",
+          "node_id": "f86898fc-8849-4275-b4e0-3271d67320f2"
+        }
+      ],
+      "emits": [
+        {
+          "key": "reagent0",
+          "value": "filtrate",
+          "id": "2573b8ea-ab81-465e-88f5-1ca0547da30c",
+          "node_id": "f86898fc-8849-4275-b4e0-3271d67320f2"
+        }
+      ]
+    },
+    {
+      "id": "c673d03b-6ff5-454c-be21-906f6c7c5fef",
+      "text": "Remove 10 \u03bcL of filtrate from the collection tube of the filtration device and add it to the second microcentrifuge tube with scintillation liquid marked as \u201cfiltrate\u201d.",
+      "instruction": "ADD",
+      "slots": [
+        {
+          "key": "reagent2",
+          "value": "scintillation liquid",
+          "id": "3ab6b0b2-5cf5-440c-a952-4b4e3d3d263f",
+          "node_id": "c673d03b-6ff5-454c-be21-906f6c7c5fef"
+        }
+      ],
+      "emits": [
+        {
+          "key": "reagent0",
+          "value": "filtrate",
+          "id": "a0eb15a5-e58b-473a-9dc1-d2c7bdb1edd5",
+          "node_id": "c673d03b-6ff5-454c-be21-906f6c7c5fef"
+        }
+      ]
+    },
+    {
+      "id": "a5a48dce-ceed-4332-8729-247e4332391f",
+      "text": "Vortex for 10s and proceed with scintillation counting.",
+      "instruction": "VORTEX",
+      "slots": [
+        {
+          "key": "reagent1",
+          "value": "free polyamines",
+          "id": "464dc333-c1fa-4607-8f73-88e5bc4e5415",
+          "node_id": "a5a48dce-ceed-4332-8729-247e4332391f"
+        },
+        {
+          "key": "time",
+          "value": "10s",
+          "id": "8fed7f7b-33a4-43de-8003-cb5405eea462",
+          "node_id": "a5a48dce-ceed-4332-8729-247e4332391f"
+        }
+      ],
+      "emits": [
+        {
+          "key": "reagent0",
+          "value": "free polyamines",
+          "id": "d642079d-43c1-45ec-bb31-e552e798ce32",
+          "node_id": "a5a48dce-ceed-4332-8729-247e4332391f"
+        }
+      ]
+    },
+    {
+      "id": "d014c369-6434-4d4c-a2d7-0d57dd525c06",
+      "text": "Vortex for 10s and proceed with scintillation counting.",
+      "instruction": "PROCEED",
+      "slots": [
+        {
+          "key": "procedure",
+          "value": "Vortex for 10s and proceed with scintillation counting",
+          "id": "6bc32e17-181c-4cc1-8b43-c00bb7461c99",
+          "node_id": "d014c369-6434-4d4c-a2d7-0d57dd525c06"
+        }
+      ],
+      "emits": [
+        {
+          "key": "reagent0",
+          "value": "free polyamines",
+          "id": "1d38d8a1-fb5b-4d27-9b2a-666aab5ff1b2",
+          "node_id": "d014c369-6434-4d4c-a2d7-0d57dd525c06"
+        }
+      ]
+    },
+    {
+      "id": "fd8eb68a-8c3a-47f9-a179-ae1e3f5536a3",
+      "text": "From the resulting CPM \\(Counts per Minute) values, calculate the percentage of protein-bound polyamines using the following formula.\r\n  \r\n\n\nPercentage polyamine Binding = \\{\\(CPMretentate- CPMfiltrate)/ CPMretentate} x 100",
+      "instruction": "CALCULATE",
+      "slots": [
+        {
+          "key": "attribute",
+          "value": "Percentage polyamine Binding",
+          "id": "e4b06c55-c3f3-4cf1-94e9-74cf71db0c51",
+          "node_id": "fd8eb68a-8c3a-47f9-a179-ae1e3f5536a3"
+        },
+        {
+          "key": "formula",
+          "value": "{(CPMretentate- CPMfiltrate)/ CPMretentate} x 100",
+          "id": "8831fc1b-ea00-41c7-9392-95f7f3c8cc15",
+          "node_id": "fd8eb68a-8c3a-47f9-a179-ae1e3f5536a3"
+        },
+        {
+          "key": "variables",
+          "value": "CPMretentate, CPMfiltrate",
+          "id": "71552b74-ca6f-442e-9dfc-0a751384f14f",
+          "node_id": "fd8eb68a-8c3a-47f9-a179-ae1e3f5536a3"
+        },
+        {
+          "key": "values",
+          "value": "<blank>",
+          "id": "67341aa4-3ef0-495a-bc15-66558fb668c1",
+          "node_id": "fd8eb68a-8c3a-47f9-a179-ae1e3f5536a3"
+        },
+        {
+          "key": "units",
+          "value": "<blank>",
+          "id": "0d6e53da-55be-4071-a216-a7749097d618",
+          "node_id": "fd8eb68a-8c3a-47f9-a179-ae1e3f5536a3"
+        },
+        {
+          "key": "software",
+          "value": "<blank>",
+          "id": "2d77e24a-fa34-4b72-bfff-fb6276f4e9af",
+          "node_id": "fd8eb68a-8c3a-47f9-a179-ae1e3f5536a3"
+        },
+        {
+          "key": "notice",
+          "value": "<blank>",
+          "id": "dbe8c7a8-f62e-4009-8ac3-04fe65134539",
+          "node_id": "fd8eb68a-8c3a-47f9-a179-ae1e3f5536a3"
+        }
+      ],
+      "emits": [
+        {
+          "key": "result",
+          "value": "<blank>",
+          "id": "459abcbe-cf82-444b-b58c-fd91592685c1",
+          "node_id": "fd8eb68a-8c3a-47f9-a179-ae1e3f5536a3"
+        }
+      ]
+    }
+  ],
+  "edges": []
+}

@@ -1,0 +1,660 @@
+{
+  "name": "nprot-136_graphData.json",
+  "nodes": [
+    {
+      "id": "611f7e9f-b5f5-4272-be74-2e207cbad3bb",
+      "text": "Grow yeast cells carrying the empty vector, pDR-AMT1;1, pDRAMT1;1-T460A or pDR-AMT1;1-T460D plasmids, in liquid YNB media supplemented with 3% glucose and 5mM arginine.",
+      "instruction": "GROW",
+      "slots": [
+        {
+          "key": "reagent1",
+          "value": "yeast cells carrying the empty vector, pDR-AMT1;1, pDRAMT1;1-T460A or pDR-AMT1;1-T460D plasmids",
+          "id": "bdd85bf8-4891-4232-93f7-3646da242416",
+          "node_id": "611f7e9f-b5f5-4272-be74-2e207cbad3bb"
+        },
+        {
+          "key": "medium",
+          "value": "liquid YNB media supplemented with 3% glucose and 5mM arginine",
+          "id": "33f9e640-910d-42ff-a9ea-37db3c29a5ee",
+          "node_id": "611f7e9f-b5f5-4272-be74-2e207cbad3bb"
+        },
+        {
+          "key": "temperature",
+          "value": "room temperature",
+          "id": "e6259c73-8b26-4f9b-a38d-7c3b40d6ee23",
+          "node_id": "611f7e9f-b5f5-4272-be74-2e207cbad3bb"
+        },
+        {
+          "key": "notice",
+          "value": "in liquid YNB media supplemented with 3% glucose and 5mM arginine",
+          "id": "f46ce504-bae8-4162-96bb-8007ed99fe07",
+          "node_id": "611f7e9f-b5f5-4272-be74-2e207cbad3bb"
+        }
+      ],
+      "emits": [
+        {
+          "key": "reagent0",
+          "value": "yeast cells carrying the empty vector, pDR-AMT1;1, pDRAMT1;1-T460A or pDR-AMT1;1-T460D plasmids",
+          "id": "d8ef606d-aa36-4544-a465-c11d24b78a4d",
+          "node_id": "611f7e9f-b5f5-4272-be74-2e207cbad3bb"
+        }
+      ]
+    },
+    {
+      "id": "fc1851f0-2594-4e25-8689-9f2eda715a4a",
+      "text": "Harvest cells at OD<sub>600</sub> 0.6-0.8 and chill on ice.",
+      "instruction": "HARVEST",
+      "slots": [
+        {
+          "key": "reagent1",
+          "value": "yeast cells carrying the empty vector, pDR-AMT1;1, pDRAMT1;1-T460A or pDR-AMT1;1-T460D plasmids",
+          "id": "d644d76d-961c-444a-b46a-2971f2feb8ad",
+          "node_id": "fc1851f0-2594-4e25-8689-9f2eda715a4a"
+        },
+        {
+          "key": "method",
+          "value": "OD measurement",
+          "id": "b3fd2d0d-fb6b-463a-8bca-c7ea03f2c265",
+          "node_id": "fc1851f0-2594-4e25-8689-9f2eda715a4a"
+        },
+        {
+          "key": "environment",
+          "value": "liquid YNB media supplemented with 3% glucose and 5mM arginine",
+          "id": "1775d14e-5fad-4abb-999b-79edeeca5b18",
+          "node_id": "fc1851f0-2594-4e25-8689-9f2eda715a4a"
+        },
+        {
+          "key": "notice",
+          "value": "Chill on ice",
+          "id": "bbdc5074-74a5-4a3c-a92d-65b5d4c58b6e",
+          "node_id": "fc1851f0-2594-4e25-8689-9f2eda715a4a"
+        }
+      ],
+      "emits": [
+        {
+          "key": "reagent0",
+          "value": "yeast cells carrying the empty vector, pDR-AMT1;1, pDRAMT1;1-T460A or pDR-AMT1;1-T460D plasmids",
+          "id": "122b8784-abb3-4f1c-958f-da1fc30c4f60",
+          "node_id": "fc1851f0-2594-4e25-8689-9f2eda715a4a"
+        }
+      ]
+    },
+    {
+      "id": "528ff5ae-e639-4540-b33b-2834914c6246",
+      "text": "Harvest cells from 100 mL culture by centrifugation at 5,000g for 10 min at 4&#xB0;C and wash once with half volume of chilled water.",
+      "instruction": "HARVEST",
+      "slots": [
+        {
+          "key": "reagent1",
+          "value": "100 mL culture",
+          "id": "22d919d5-6734-4b11-8d97-b1f58140b818",
+          "node_id": "528ff5ae-e639-4540-b33b-2834914c6246"
+        },
+        {
+          "key": "container",
+          "value": "centrifuge tube",
+          "id": "d11eed9f-53b2-426a-81c3-16c1327222f8",
+          "node_id": "528ff5ae-e639-4540-b33b-2834914c6246"
+        },
+        {
+          "key": "method",
+          "value": "centrifugation",
+          "id": "93a5e44f-cdfc-4675-9b27-6264c1a6825f",
+          "node_id": "528ff5ae-e639-4540-b33b-2834914c6246"
+        },
+        {
+          "key": "environment",
+          "value": "5,000g for 10 min at 4\u00b0C",
+          "id": "dac7d999-cb69-4695-afcd-e010c2ab7655",
+          "node_id": "528ff5ae-e639-4540-b33b-2834914c6246"
+        }
+      ],
+      "emits": [
+        {
+          "key": "reagent0",
+          "value": "yeast cells carrying the empty vector, pDR-AMT1;1, pDRAMT1;1-T460A or pDR-AMT1;1-T460D plasmids",
+          "id": "75327d2a-25cb-4993-843f-767526d0cc18",
+          "node_id": "528ff5ae-e639-4540-b33b-2834914c6246"
+        }
+      ]
+    },
+    {
+      "id": "f2279d50-746a-4dad-8601-e8b1e4e1de46",
+      "text": "Harvest cells from 100 mL culture by centrifugation at 5,000g for 10 min at 4&#xB0;C and wash once with half volume of chilled water.",
+      "instruction": "WASH",
+      "slots": [
+        {
+          "key": "reagent1",
+          "value": "yeast cells carrying the empty vector, pDR-AMT1;1, pDRAMT1;1-T460A or pDR-AMT1;1-T460D plasmids",
+          "id": "3fe54a83-9368-47a1-abb6-563b603954c5",
+          "node_id": "f2279d50-746a-4dad-8601-e8b1e4e1de46"
+        },
+        {
+          "key": "reagent2",
+          "value": "water",
+          "id": "3c2c80ff-0858-4908-b521-2c430e29f9d6",
+          "node_id": "f2279d50-746a-4dad-8601-e8b1e4e1de46"
+        },
+        {
+          "key": "repeat",
+          "value": "1",
+          "id": "ecca39a0-8d6a-4d35-8ea7-6e9dedf62ae4",
+          "node_id": "f2279d50-746a-4dad-8601-e8b1e4e1de46"
+        },
+        {
+          "key": "time",
+          "value": "10 min",
+          "id": "bae29cec-3abb-4107-9165-ba07fa731465",
+          "node_id": "f2279d50-746a-4dad-8601-e8b1e4e1de46"
+        },
+        {
+          "key": "notice",
+          "value": "Chill on ice",
+          "id": "83251ed1-2286-4cdf-b095-6e0ea42038cb",
+          "node_id": "f2279d50-746a-4dad-8601-e8b1e4e1de46"
+        }
+      ],
+      "emits": [
+        {
+          "key": "reagent0",
+          "value": "yeast cells carrying the empty vector, pDR-AMT1;1, pDRAMT1;1-T460A or pDR-AMT1;1-T460D plasmids",
+          "id": "89ea9fd7-3286-4931-bbd8-35107c03c308",
+          "node_id": "f2279d50-746a-4dad-8601-e8b1e4e1de46"
+        }
+      ]
+    },
+    {
+      "id": "e1073b29-ab2c-4074-8719-eb4258ec9e21",
+      "text": "Resuspend cells in 200 &#xB5;L of chilled extraction buffer \\(20 mM Tris-HCl, 10 mM MgCl2, 1 mM EDTA, 5% Glycerol, 1 mM DTT, 1 mM PMSF and 1x protease inhibitor cocktail \\(Sigma-Aldrich, St. Louis, Mo), pH",
+      "instruction": "RESUSPEND",
+      "slots": [
+        {
+          "key": "reagent1",
+          "value": "cells",
+          "id": "c25df7b7-e97f-4dd9-954e-54256efaec10",
+          "node_id": "e1073b29-ab2c-4074-8719-eb4258ec9e21"
+        },
+        {
+          "key": "reagent2",
+          "value": "extraction buffer (20 mM Tris-HCl, 10 mM MgCl2, 1 mM EDTA, 5% Glycerol, 1 mM DTT, 1 mM PMSF and 1x protease inhibitor cocktail (Sigma-Aldrich, St. Louis, Mo), pH",
+          "id": "e43572b8-f04f-4a04-81f2-c329dbe83c76",
+          "node_id": "e1073b29-ab2c-4074-8719-eb4258ec9e21"
+        }
+      ],
+      "emits": [
+        {
+          "key": "reagent0",
+          "value": "suspended cells",
+          "id": "90b56ba4-e71d-417f-a7f7-1eec3e51a970",
+          "node_id": "e1073b29-ab2c-4074-8719-eb4258ec9e21"
+        }
+      ]
+    },
+    {
+      "id": "5a46d0b4-7d38-449a-a145-b3d436c30551",
+      "text": "Lyze cells with 10 vortex cycles \\(30 sec each) alternating with ice incubation.",
+      "instruction": "VORTEX",
+      "slots": [
+        {
+          "key": "reagent1",
+          "value": "yeast cells carrying the empty vector, pDR-AMT1;1, pDRAMT1;1-T460A or pDR-AMT1;1-T460D plasmids",
+          "id": "163960f7-f9ea-43d2-aa5c-ee5735840416",
+          "node_id": "5a46d0b4-7d38-449a-a145-b3d436c30551"
+        },
+        {
+          "key": "time",
+          "value": "30 sec",
+          "id": "cc667d2f-e7cd-4569-8ddc-5cfc431eb9a1",
+          "node_id": "5a46d0b4-7d38-449a-a145-b3d436c30551"
+        },
+        {
+          "key": "frequency",
+          "value": "10",
+          "id": "b6bcedef-42fb-4986-8703-86c08f5ec59a",
+          "node_id": "5a46d0b4-7d38-449a-a145-b3d436c30551"
+        }
+      ],
+      "emits": [
+        {
+          "key": "reagent0",
+          "value": "yeast cells carrying the empty vector, pDR-AMT1;1, pDRAMT1;1-T460A or pDR-AMT1;1-T460D plasmids",
+          "id": "29c20aad-af23-4960-a151-9bf512bb0b9a",
+          "node_id": "5a46d0b4-7d38-449a-a145-b3d436c30551"
+        }
+      ]
+    },
+    {
+      "id": "607faa5e-4ad1-4345-ad01-551e9844abf6",
+      "text": "Lyze cells with 10 vortex cycles \\(30 sec each) alternating with ice incubation.",
+      "instruction": "INCUBATE",
+      "slots": [
+        {
+          "key": "reagent1",
+          "value": "yeast cells carrying the empty vector, pDR-AMT1;1, pDRAMT1;1-T460A or pDR-AMT1;1-T460D plasmids",
+          "id": "69ec8582-fc34-447d-ab68-27d6bba4daf9",
+          "node_id": "607faa5e-4ad1-4345-ad01-551e9844abf6"
+        },
+        {
+          "key": "temperature",
+          "value": "ice",
+          "id": "9193dda3-3feb-47da-8644-57e91d980de9",
+          "node_id": "607faa5e-4ad1-4345-ad01-551e9844abf6"
+        },
+        {
+          "key": "time",
+          "value": "30 sec",
+          "id": "09a8178b-7ffc-46f1-a8b6-2fcc2ff9d916",
+          "node_id": "607faa5e-4ad1-4345-ad01-551e9844abf6"
+        }
+      ],
+      "emits": [
+        {
+          "key": "reagent0",
+          "value": "yeast cells carrying the empty vector, pDR-AMT1;1, pDRAMT1;1-T460A or pDR-AMT1;1-T460D plasmids",
+          "id": "d368675c-43c1-4428-8958-00a68d96f8bb",
+          "node_id": "607faa5e-4ad1-4345-ad01-551e9844abf6"
+        }
+      ]
+    },
+    {
+      "id": "19e3b874-b3c9-4f8b-81ce-3f98779273de",
+      "text": "Collect supernatants after centrifugation at 12,000g for 5 min.",
+      "instruction": "COLLECT",
+      "slots": [
+        {
+          "key": "reagent1",
+          "value": "supernatants",
+          "id": "17fb529a-96fb-4ec9-8649-c86137909a09",
+          "node_id": "19e3b874-b3c9-4f8b-81ce-3f98779273de"
+        },
+        {
+          "key": "container",
+          "value": "<blank>",
+          "id": "007d4586-5a34-4d57-8a8c-b1525b187583",
+          "node_id": "19e3b874-b3c9-4f8b-81ce-3f98779273de"
+        },
+        {
+          "key": "method",
+          "value": "centrifugation",
+          "id": "024a2659-6f7f-4c49-b43c-9e3c1867357d",
+          "node_id": "19e3b874-b3c9-4f8b-81ce-3f98779273de"
+        },
+        {
+          "key": "environment",
+          "value": "12,000g",
+          "id": "e6c3ec11-4415-430c-b4d9-9cdfd07dc6e2",
+          "node_id": "19e3b874-b3c9-4f8b-81ce-3f98779273de"
+        },
+        {
+          "key": "purpose",
+          "value": "<blank>",
+          "id": "ba953e59-a9c6-4b5d-8911-681cf8e5e36a",
+          "node_id": "19e3b874-b3c9-4f8b-81ce-3f98779273de"
+        },
+        {
+          "key": "notice",
+          "value": "<blank>",
+          "id": "c5b6462a-4e2c-4ff7-a7aa-6f454121350c",
+          "node_id": "19e3b874-b3c9-4f8b-81ce-3f98779273de"
+        }
+      ],
+      "emits": [
+        {
+          "key": "reagent0",
+          "value": "supernatants",
+          "id": "76bfd6a2-286c-45ec-80cd-67c85099df50",
+          "node_id": "19e3b874-b3c9-4f8b-81ce-3f98779273de"
+        }
+      ]
+    },
+    {
+      "id": "021b0ee4-4c2b-4f67-b2eb-743f6cc98ee8",
+      "text": "Resuspend cell debris and glass beads in 1mL of extraction buffer, vortex twice for 30 sec and centrifuge again.",
+      "instruction": "RESUSPEND",
+      "slots": [
+        {
+          "key": "reagent1",
+          "value": "cell debris and glass beads",
+          "id": "852b3dfb-f416-4449-8ffb-3987e55527b2",
+          "node_id": "021b0ee4-4c2b-4f67-b2eb-743f6cc98ee8"
+        },
+        {
+          "key": "reagent2",
+          "value": "extraction buffer",
+          "id": "21e4ed15-114c-46c1-90f5-f0839b827548",
+          "node_id": "021b0ee4-4c2b-4f67-b2eb-743f6cc98ee8"
+        }
+      ],
+      "emits": [
+        {
+          "key": "reagent0",
+          "value": "suspended cells",
+          "id": "909e65d6-b84b-417f-8af1-bd2537a72957",
+          "node_id": "021b0ee4-4c2b-4f67-b2eb-743f6cc98ee8"
+        }
+      ]
+    },
+    {
+      "id": "46f64ee3-7f99-40f3-8a57-1dd3d319c641",
+      "text": "Resuspend cell debris and glass beads in 1mL of extraction buffer, vortex twice for 30 sec and centrifuge again.",
+      "instruction": "VORTEX",
+      "slots": [
+        {
+          "key": "reagent1",
+          "value": "cell debris and glass beads",
+          "id": "a65fcd3e-ccae-4ab1-bf34-bf1eb85acd62",
+          "node_id": "46f64ee3-7f99-40f3-8a57-1dd3d319c641"
+        },
+        {
+          "key": "time",
+          "value": "30 sec",
+          "id": "f8f499f4-143f-42d6-903c-69196ec0ab00",
+          "node_id": "46f64ee3-7f99-40f3-8a57-1dd3d319c641"
+        },
+        {
+          "key": "frequency",
+          "value": "2",
+          "id": "153a0a46-0498-4502-a0ec-f0f63c0db2cb",
+          "node_id": "46f64ee3-7f99-40f3-8a57-1dd3d319c641"
+        }
+      ],
+      "emits": [
+        {
+          "key": "reagent0",
+          "value": "cell debris and glass beads",
+          "id": "ab3095fd-385e-4ed7-a2ee-34f6767416f5",
+          "node_id": "46f64ee3-7f99-40f3-8a57-1dd3d319c641"
+        }
+      ]
+    },
+    {
+      "id": "5a86d926-30b1-4d7a-9883-7842d5eb992b",
+      "text": "Resuspend cell debris and glass beads in 1mL of extraction buffer, vortex twice for 30 sec and centrifuge again.",
+      "instruction": "CENTRIFUGE",
+      "slots": [
+        {
+          "key": "reagent1",
+          "value": "cell debris and glass beads",
+          "id": "9250d32b-cc6c-4c64-afe8-1457e4c82f49",
+          "node_id": "5a86d926-30b1-4d7a-9883-7842d5eb992b"
+        },
+        {
+          "key": "intensity",
+          "value": "12,000g",
+          "id": "cfc5dca4-f750-417e-8a69-1983acc64808",
+          "node_id": "5a86d926-30b1-4d7a-9883-7842d5eb992b"
+        },
+        {
+          "key": "time",
+          "value": "5 min",
+          "id": "90e50d4c-bc3e-4be6-8d51-b6b0b96f6ea8",
+          "node_id": "5a86d926-30b1-4d7a-9883-7842d5eb992b"
+        }
+      ],
+      "emits": [
+        {
+          "key": "reagent0",
+          "value": "cell debris and glass beads",
+          "id": "b36676b9-2ce0-409b-bb2a-91def1a7c83f",
+          "node_id": "5a86d926-30b1-4d7a-9883-7842d5eb992b"
+        }
+      ]
+    },
+    {
+      "id": "0b6e2645-6930-4fd8-8c44-9c6b896b7fcc",
+      "text": "Collect the supernatant and pool with the first one.",
+      "instruction": "COLLECT",
+      "slots": [
+        {
+          "key": "reagent1",
+          "value": "supernatants",
+          "id": "8d15da5d-ad6e-498d-ad5b-e5f18aa310ec",
+          "node_id": "0b6e2645-6930-4fd8-8c44-9c6b896b7fcc"
+        },
+        {
+          "key": "container",
+          "value": "<blank>",
+          "id": "3cd8fdd8-69cb-4c40-b82d-9543a8504b3c",
+          "node_id": "0b6e2645-6930-4fd8-8c44-9c6b896b7fcc"
+        },
+        {
+          "key": "method",
+          "value": "<blank>",
+          "id": "4ce7210d-13be-4eb7-a4a8-4e3fcb895dc9",
+          "node_id": "0b6e2645-6930-4fd8-8c44-9c6b896b7fcc"
+        },
+        {
+          "key": "environment",
+          "value": "<blank>",
+          "id": "779f0676-6fea-4aea-bdc1-bf89d9111a80",
+          "node_id": "0b6e2645-6930-4fd8-8c44-9c6b896b7fcc"
+        },
+        {
+          "key": "purpose",
+          "value": "<blank>",
+          "id": "45e00b69-034b-49e1-b65e-8854eb252660",
+          "node_id": "0b6e2645-6930-4fd8-8c44-9c6b896b7fcc"
+        },
+        {
+          "key": "notice",
+          "value": "Pool with the first one.",
+          "id": "aa0e019c-08ac-4f94-815e-fc84b837717c",
+          "node_id": "0b6e2645-6930-4fd8-8c44-9c6b896b7fcc"
+        }
+      ],
+      "emits": [
+        {
+          "key": "reagent0",
+          "value": "supernatants",
+          "id": "5707a200-b277-4bfc-9574-e59272d866f6",
+          "node_id": "0b6e2645-6930-4fd8-8c44-9c6b896b7fcc"
+        }
+      ]
+    },
+    {
+      "id": "eb30b3ba-1ccf-45ac-95cf-df590be02e03",
+      "text": "Harvest the microsomal fraction by centrifugation at 100,000g for 50 min at 4&#xB0;C.",
+      "instruction": "HARVEST",
+      "slots": [
+        {
+          "key": "reagent1",
+          "value": "microsomal fraction",
+          "id": "2c521aeb-ae36-49ba-a46c-44e74abf5d07",
+          "node_id": "eb30b3ba-1ccf-45ac-95cf-df590be02e03"
+        },
+        {
+          "key": "container",
+          "value": "centrifuge tube",
+          "id": "85029a17-f7d6-4dc2-a454-0ded986f95fd",
+          "node_id": "eb30b3ba-1ccf-45ac-95cf-df590be02e03"
+        },
+        {
+          "key": "method",
+          "value": "centrifugation",
+          "id": "44d3c32f-2c1a-4dba-8c2a-08a1c9d9e959",
+          "node_id": "eb30b3ba-1ccf-45ac-95cf-df590be02e03"
+        },
+        {
+          "key": "environment",
+          "value": "100,000g for 50 min at 4\u00b0C",
+          "id": "c7fe5051-06b4-4237-b780-5981e26fdf0b",
+          "node_id": "eb30b3ba-1ccf-45ac-95cf-df590be02e03"
+        },
+        {
+          "key": "purpose",
+          "value": "harvesting the microsomal fraction",
+          "id": "3fc9174b-c5d6-4348-b6b2-21cd4960321d",
+          "node_id": "eb30b3ba-1ccf-45ac-95cf-df590be02e03"
+        }
+      ],
+      "emits": [
+        {
+          "key": "reagent0",
+          "value": "microsomal fraction",
+          "id": "4162e7b9-9d05-4344-8d3e-b21991577b00",
+          "node_id": "eb30b3ba-1ccf-45ac-95cf-df590be02e03"
+        }
+      ]
+    },
+    {
+      "id": "45215a12-e2e6-4430-ba67-9a58c7f78659",
+      "text": "Resuspend the pellet in 200 &#xB5;L of storage buffer \\(20 mM Tris-Cl, 0.1 mM EDTA, 10% glycerol, 100 mM KCl, 1 mM DTT, 1 mM PMSF and 1x protease inhibitor cocktail, pH7.5).",
+      "instruction": "RESUSPEND",
+      "slots": [
+        {
+          "key": "reagent1",
+          "value": "pellet",
+          "id": "c751bd8e-74fc-41f8-84a6-7fcba3a3870c",
+          "node_id": "45215a12-e2e6-4430-ba67-9a58c7f78659"
+        },
+        {
+          "key": "reagent2",
+          "value": "storage buffer (20 mM Tris-Cl, 0.1 mM EDTA, 10% glycerol, 100 mM KCl, 1 mM DTT, 1 mM PMSF and 1x protease inhibitor cocktail, pH7.5)",
+          "id": "637c9081-e7a6-41bf-87b8-877d46ef994e",
+          "node_id": "45215a12-e2e6-4430-ba67-9a58c7f78659"
+        }
+      ],
+      "emits": [
+        {
+          "key": "reagent0",
+          "value": "suspended cells",
+          "id": "a5cd2a24-ce10-474b-8058-4ae5fc3b451a",
+          "node_id": "45215a12-e2e6-4430-ba67-9a58c7f78659"
+        }
+      ]
+    },
+    {
+      "id": "b15e95e3-6af7-46ec-929c-6a4bd95825c8",
+      "text": "Denature proteins \\(5 &#xB5;g per lane) in loading buffer \\(62.5 mM Tris-HCl pH 6.8, 10% v/v glycerol, 2% w/v SDS, 2.5% v/v &#x3B2;-mercaptoethanol, 0.01% w/v bromophenol blue) at 37&#xB0;C for 30 min, separate on 10% SDS-PAGE gels and transfer to PVDF membrane.",
+      "instruction": "DENATURE",
+      "slots": [
+        {
+          "key": "reagent1",
+          "value": "proteins",
+          "id": "15f19c95-3e07-48d8-836f-3fefbea70d6a",
+          "node_id": "b15e95e3-6af7-46ec-929c-6a4bd95825c8"
+        },
+        {
+          "key": "temperature",
+          "value": "37\u00b0C",
+          "id": "68aa7094-3748-4c25-90c4-77c95962a017",
+          "node_id": "b15e95e3-6af7-46ec-929c-6a4bd95825c8"
+        },
+        {
+          "key": "time",
+          "value": "30 min",
+          "id": "c148b497-ac7c-44e9-b127-e045b202ce16",
+          "node_id": "b15e95e3-6af7-46ec-929c-6a4bd95825c8"
+        }
+      ],
+      "emits": [
+        {
+          "key": "reagent0",
+          "value": "proteins",
+          "id": "bd5ac0ec-0ba1-4b02-86d4-25487d90a476",
+          "node_id": "b15e95e3-6af7-46ec-929c-6a4bd95825c8"
+        }
+      ]
+    },
+    {
+      "id": "e6686bac-d4fd-45e2-929b-a0d176b5667d",
+      "text": "Denature proteins \\(5 &#xB5;g per lane) in loading buffer \\(62.5 mM Tris-HCl pH 6.8, 10% v/v glycerol, 2% w/v SDS, 2.5% v/v &#x3B2;-mercaptoethanol, 0.01% w/v bromophenol blue) at 37&#xB0;C for 30 min, separate on 10% SDS-PAGE gels and transfer to PVDF membrane.",
+      "instruction": "SEPARATE",
+      "slots": [
+        {
+          "key": "component",
+          "value": "proteins",
+          "id": "cfc43957-f2f0-4663-ba28-c24b584b38dd",
+          "node_id": "e6686bac-d4fd-45e2-929b-a0d176b5667d"
+        },
+        {
+          "key": "reagent1",
+          "value": "loading buffer",
+          "id": "2c797ecf-0316-4a16-8e09-3cc2336f40ba",
+          "node_id": "e6686bac-d4fd-45e2-929b-a0d176b5667d"
+        },
+        {
+          "key": "method",
+          "value": "SDS-PAGE",
+          "id": "1c780b58-4a58-429b-932b-28cb1c062491",
+          "node_id": "e6686bac-d4fd-45e2-929b-a0d176b5667d"
+        },
+        {
+          "key": "device",
+          "value": "gels",
+          "id": "b51fa99c-b1b6-4403-bd35-e92f5f650455",
+          "node_id": "e6686bac-d4fd-45e2-929b-a0d176b5667d"
+        }
+      ],
+      "emits": [
+        {
+          "key": "reagent0",
+          "value": "proteins",
+          "id": "e10ae8ed-61af-40fc-b708-db59a143f3c0",
+          "node_id": "e6686bac-d4fd-45e2-929b-a0d176b5667d"
+        }
+      ]
+    },
+    {
+      "id": "2e081819-2fbb-4763-8994-656b7db1efe4",
+      "text": "Denature proteins \\(5 &#xB5;g per lane) in loading buffer \\(62.5 mM Tris-HCl pH 6.8, 10% v/v glycerol, 2% w/v SDS, 2.5% v/v &#x3B2;-mercaptoethanol, 0.01% w/v bromophenol blue) at 37&#xB0;C for 30 min, separate on 10% SDS-PAGE gels and transfer to PVDF membrane.",
+      "instruction": "TRANSFER",
+      "slots": [
+        {
+          "key": "source",
+          "value": "10% SDS-PAGE gels",
+          "id": "0acc3990-285e-48b5-89f9-736d454cc4f8",
+          "node_id": "2e081819-2fbb-4763-8994-656b7db1efe4"
+        },
+        {
+          "key": "destination",
+          "value": "PVDF membrane",
+          "id": "c14cb317-4d89-4ef9-b488-47a54f3b3e4f",
+          "node_id": "2e081819-2fbb-4763-8994-656b7db1efe4"
+        },
+        {
+          "key": "reagent1",
+          "value": "proteins",
+          "id": "4e9799f2-3237-452e-9ad3-8bd1ff1b2052",
+          "node_id": "2e081819-2fbb-4763-8994-656b7db1efe4"
+        }
+      ],
+      "emits": [
+        {
+          "key": "reagent0",
+          "value": "proteins",
+          "id": "a741ba18-d752-4fa5-ab63-10f45f3da9e5",
+          "node_id": "2e081819-2fbb-4763-8994-656b7db1efe4"
+        }
+      ]
+    },
+    {
+      "id": "0cce6bfa-fdc0-4fb1-a291-a0579b8115ac",
+      "text": "We raised a polyclonal antibody against a peptide corresponding to the Cterminus of AMT1;1 \\(n-RRVEPRSPSPSGANT-c) \\(Biotrend, K&#xF6;ln, Germany). The antiserum was affinity-purified as described in ref",
+      "instruction": "PURIFY",
+      "slots": [
+        {
+          "key": "reagent1",
+          "value": "antiserum",
+          "id": "bbebd22c-e949-49c6-82be-9342d2db5c8a",
+          "node_id": "0cce6bfa-fdc0-4fb1-a291-a0579b8115ac"
+        },
+        {
+          "key": "method",
+          "value": "affinity-purification",
+          "id": "4ff82e17-8585-4c03-a0ec-8bdca89a6783",
+          "node_id": "0cce6bfa-fdc0-4fb1-a291-a0579b8115ac"
+        }
+      ],
+      "emits": [
+        {
+          "key": "reagent0",
+          "value": "antiserum",
+          "id": "7afafd1e-f9f6-4957-b0d9-5beab543ed58",
+          "node_id": "0cce6bfa-fdc0-4fb1-a291-a0579b8115ac"
+        }
+      ]
+    }
+  ],
+  "edges": []
+}

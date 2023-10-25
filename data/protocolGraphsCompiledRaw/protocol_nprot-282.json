@@ -1,0 +1,371 @@
+[
+    {
+        "title": "**Expression of E- and L-selectin-IgM chimeric protein in COS cells**",
+        "body": [
+            {
+                "title": "1.",
+                "body": [
+                    {
+                        "sentence": "Transfect COS-1 cells with pcDNA1-E/L-selectin-IgM.",
+                        "result": [
+                            {
+                                "TRANSFECT": {
+                                    "emit": [
+                                        {
+                                            "reagent0": "<blank>"
+                                        }
+                                    ],
+                                    "slot": [
+                                        {
+                                            "reagent1": "COS-1 cells"
+                                        },
+                                        {
+                                            "reagent2": "pcDNA1-E/L-selectin-IgM"
+                                        },
+                                        {
+                                            "reagent3": "<blank>"
+                                        },
+                                        {
+                                            "method": "standard procedures"
+                                        }
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "2.",
+                "body": [
+                    {
+                        "sentence": "Two to three days later, collect culture supernatant .",
+                        "result": [
+                            {
+                                "COLLECT": {
+                                    "emit": [
+                                        {
+                                            "reagent0": "culture supernatant"
+                                        }
+                                    ],
+                                    "slot": [
+                                        {
+                                            "reagent1": "culture supernatant"
+                                        },
+                                        {
+                                            "container": "<blank>"
+                                        },
+                                        {
+                                            "method": "<blank>"
+                                        },
+                                        {
+                                            "environment": "<blank>"
+                                        },
+                                        {
+                                            "purpose": "<blank>"
+                                        },
+                                        {
+                                            "notice": "Two to three days later"
+                                        }
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "3.",
+                "body": [
+                    {
+                        "sentence": "Concentrate the medium using Centriprep YM-30 or YM-100 for 10 to 50 fold.  The concentration rate is dependent on each experiment. The chimeric proteins can be used without further purification.",
+                        "result": [
+                            {
+                                "CONCENTRATE": {
+                                    "emit": [
+                                        {
+                                            "reagent0": "medium"
+                                        }
+                                    ],
+                                    "slot": [
+                                        {
+                                            "reagent1": "medium"
+                                        },
+                                        {
+                                            "targetVol": "10 to 50 fold"
+                                        },
+                                        {
+                                            "method": "Centriprep YM-30 or YM-100"
+                                        },
+                                        {
+                                            "device": "Centriprep YM-30 or YM-100"
+                                        }
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "**Ligand blotting**",
+        "body": [
+            {
+                "title": "4.",
+                "body": [
+                    {
+                        "sentence": "Perform SDS polyacrylamide gel electrophoresis of desired materials \\(for example, lymph node lysates) and transfer proteins onto Immobilon-P by standard procedure.",
+                        "result": [
+                            {
+                                "PERFORM": {
+                                    "emit": [
+                                        {
+                                            "reagent0": "lymph node lysates"
+                                        }
+                                    ],
+                                    "slot": [
+                                        {
+                                            "procedure": "Perform SDS polyacrylamide gel electrophoresis of desired materials (for example, lymph node lysates) and transfer proteins onto Immobilon-P by standard procedure."
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "TRANSFER": {
+                                    "emit": [
+                                        {
+                                            "reagent0": "lymph node lysates"
+                                        }
+                                    ],
+                                    "slot": [
+                                        {
+                                            "source": "lymph node lysates"
+                                        },
+                                        {
+                                            "destination": "Immobilon-P"
+                                        },
+                                        {
+                                            "reagent1": "lymph node lysates"
+                                        }
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "5.",
+                "body": [
+                    {
+                        "sentence": "Block the blot with 10 mg/ml bovine serum albumin in washing buffer for 30 min.",
+                        "result": [
+                            {
+                                "BLOCK": {
+                                    "emit": [
+                                        {
+                                            "reagent0": "blot"
+                                        }
+                                    ],
+                                    "slot": [
+                                        {
+                                            "reagent1": "blot"
+                                        },
+                                        {
+                                            "reagent2": "bovine serum albumin"
+                                        },
+                                        {
+                                            "temperature": "room temperature"
+                                        },
+                                        {
+                                            "time": "30 min"
+                                        }
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "6.",
+                "body": [
+                    {
+                        "sentence": "Incubate the filter with the concentrated culture supernatant containing E/L-selectin-IgM without dilution for 1 hr at 4&#xB0;C.",
+                        "result": [
+                            {
+                                "INCUBATE": {
+                                    "emit": [
+                                        {
+                                            "reagent0": "concentrated culture supernatant containing E/L-selectin-IgM"
+                                        }
+                                    ],
+                                    "slot": [
+                                        {
+                                            "reagent1": "concentrated culture supernatant containing E/L-selectin-IgM"
+                                        },
+                                        {
+                                            "temperature": "4\u00b0C"
+                                        },
+                                        {
+                                            "time": "1 hr"
+                                        }
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "7.",
+                "body": [
+                    {
+                        "sentence": "Wash three times with washing buffer.  Each wash should be 20 min long.  We usually put ice in an ice basket, place a washing container on the ice and covered the basket with a lid.",
+                        "result": [
+                            {
+                                "WASH": {
+                                    "emit": [
+                                        {
+                                            "reagent0": "<blank>"
+                                        }
+                                    ],
+                                    "slot": [
+                                        {
+                                            "reagent1": "washing buffer"
+                                        },
+                                        {
+                                            "reagent2": "water"
+                                        },
+                                        {
+                                            "repeat": "3"
+                                        },
+                                        {
+                                            "time": "20 min"
+                                        },
+                                        {
+                                            "notice": "We usually put ice in an ice basket, place a washing container on the ice and covered the basket with a lid."
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "PUT": {
+                                    "emit": [
+                                        {
+                                            "reagent0": "washing buffer"
+                                        }
+                                    ],
+                                    "slot": [
+                                        {
+                                            "reagent1": "washing container"
+                                        },
+                                        {
+                                            "destination": "ice"
+                                        },
+                                        {
+                                            "device": "ice basket"
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "COVER": {
+                                    "emit": [],
+                                    "slot": [
+                                        {
+                                            "reagent1": "ice basket"
+                                        },
+                                        {
+                                            "reagent2": "lid"
+                                        },
+                                        {
+                                            "purpsoe": "to cover the basket"
+                                        }
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "8.",
+                "body": [
+                    {
+                        "sentence": "Incubate the blot with 10,000 x diluted HRP-anti-human IgM for 1 hr at 4&#xB0;C.",
+                        "result": [
+                            {
+                                "INCUBATE": {
+                                    "emit": [
+                                        {
+                                            "reagent0": "blot"
+                                        }
+                                    ],
+                                    "slot": [
+                                        {
+                                            "reagent1": "HRP-anti-human IgM"
+                                        },
+                                        {
+                                            "temperature": "4\u00b0C"
+                                        },
+                                        {
+                                            "time": "1 hr"
+                                        }
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "9.",
+                "body": [
+                    {
+                        "sentence": "Wash as in",
+                        "result": [
+                            {
+                                "WASH": {
+                                    "emit": [
+                                        {
+                                            "reagent0": "blot"
+                                        }
+                                    ],
+                                    "slot": [
+                                        {
+                                            "reagent1": "blot"
+                                        },
+                                        {
+                                            "reagent2": "washing buffer"
+                                        },
+                                        {
+                                            "repeat": "3"
+                                        }
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "6.",
+                "body": [
+                    ""
+                ]
+            },
+            {
+                "title": "10.",
+                "body": [
+                    {
+                        "sentence": "Detect with chemiluminescent HRP substrate.",
+                        "result": []
+                    }
+                ]
+            }
+        ]
+    }
+]

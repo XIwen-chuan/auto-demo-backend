@@ -1,0 +1,479 @@
+[
+    {
+        "title": "**Neuron transfection**",
+        "body": [
+            {
+                "title": "1.",
+                "body": [
+                    {
+                        "sentence": "Transfect cultured neurons with a form of NGL-2 in which EGFP was tagged to the N terminus \\(EGFP-NGL-2) at DIV 14, and incubate for 2 days.",
+                        "result": [
+                            {
+                                "TRANSFECT": {
+                                    "emit": [
+                                        {
+                                            "reagent0": "cultured neurons"
+                                        }
+                                    ],
+                                    "slot": [
+                                        {
+                                            "reagent1": "cultured neurons"
+                                        },
+                                        {
+                                            "reagent2": "EGFP-NGL-2"
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "INCUBATE": {
+                                    "emit": [
+                                        {
+                                            "reagent0": "cultured neurons"
+                                        }
+                                    ],
+                                    "slot": [
+                                        {
+                                            "reagent1": "EGFP-NGL-2"
+                                        },
+                                        {
+                                            "temperature": "room temperature"
+                                        },
+                                        {
+                                            "time": "2 days"
+                                        }
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "**Preparation of EGFP antibody-coated beads**",
+        "body": [
+            {
+                "title": "2.",
+                "body": [
+                    {
+                        "sentence": "Mix 5 &#x3BC;g of biotin-conjugated EGFP antibodies \\(Rockland) and 2 &#x3BC;L of neutravidin-conjugated FluoSphere beads \\(Molecular Probes; 1 &#x3BC;m diameter), and incubate for 1 h.",
+                        "result": [
+                            {
+                                "MIX": {
+                                    "emit": [],
+                                    "slot": [
+                                        {
+                                            "reagent1": "5 \u03bcg biotin-conjugated EGFP antibodies (Rockland)"
+                                        },
+                                        {
+                                            "reagent2": "2 \u03bcL neutravidin-conjugated FluoSphere beads (Molecular Probes; 1 \u03bcm diameter)"
+                                        },
+                                        {
+                                            "time": "1 h"
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "INCUBATE": {
+                                    "emit": [
+                                        {
+                                            "reagent0": "cultured neurons"
+                                        }
+                                    ],
+                                    "slot": [
+                                        {
+                                            "reagent1": "biotin-conjugated EGFP antibodies (Rockland)"
+                                        },
+                                        {
+                                            "reagent2": "neutravidin-conjugated FluoSphere beads (Molecular Probes; 1 \u03bcm diameter)"
+                                        },
+                                        {
+                                            "temperature": "room temperature"
+                                        },
+                                        {
+                                            "time": "1 h"
+                                        }
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "3.",
+                "body": [
+                    {
+                        "sentence": "Increase the volume of the mixture to 1 mL by adding Hank&#x2019;s balanced salt solution \\(HBSS), and centrifuge at 13,000 rpm for 1 min in a microcentrifuge.",
+                        "result": [
+                            {
+                                "INCREASE": {
+                                    "emit": [],
+                                    "slot": [
+                                        {
+                                            "attribute": "volume"
+                                        },
+                                        {
+                                            "value": "1 mL"
+                                        },
+                                        {
+                                            "device": "microcentrifuge"
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "CENTRIFUGE": {
+                                    "emit": [
+                                        {
+                                            "reagent0": "mixture"
+                                        }
+                                    ],
+                                    "slot": [
+                                        {
+                                            "reagent1": "mixture"
+                                        },
+                                        {
+                                            "intensity": "13,000 rpm"
+                                        },
+                                        {
+                                            "time": "1 min"
+                                        }
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "4.",
+                "body": [
+                    {
+                        "sentence": "Carefully remove the supernatant, and resuspend the precipitates in 100 &#x3BC;L of conditioned media where neurons were growing.",
+                        "result": [
+                            {
+                                "REMOVE": {
+                                    "emit": [
+                                        {
+                                            "reagent0": "precipitates"
+                                        }
+                                    ],
+                                    "slot": [
+                                        {
+                                            "reagent1": "supernatant"
+                                        },
+                                        {
+                                            "method": "carefully"
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "RESUSPEND": {
+                                    "emit": [
+                                        {
+                                            "reagent0": "precipitates"
+                                        }
+                                    ],
+                                    "slot": [
+                                        {
+                                            "reagent1": "precipitates"
+                                        },
+                                        {
+                                            "reagent2": "conditioned media"
+                                        }
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "**Bead-induced aggregation of NGL-2**",
+        "body": [
+            {
+                "title": "5.",
+                "body": [
+                    {
+                        "sentence": "Place the coverslips containing transfected neurons \\(DIV16) face-up on 6-well \\(or larger) dishes. Save the conditioned media for Step",
+                        "result": [
+                            {
+                                "PLACE": {
+                                    "emit": [
+                                        {
+                                            "reagent0": "coverslips containing transfected neurons (DIV16)"
+                                        }
+                                    ],
+                                    "slot": [
+                                        {
+                                            "reagent1": "coverslips containing transfected neurons (DIV16)"
+                                        },
+                                        {
+                                            "destination": "6-well (or larger) dishes"
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "SAVE": {
+                                    "emit": [
+                                        {
+                                            "reagent0": "conditioned media"
+                                        }
+                                    ],
+                                    "slot": [
+                                        {
+                                            "reagent1/data1": "conditioned media"
+                                        }
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "7.",
+                "body": [
+                    ""
+                ]
+            },
+            {
+                "title": "6.",
+                "body": [
+                    {
+                        "sentence": "Add 100 &#x3BC;L of the resuspended beads onto the neurons and incubate at 37 <sup>o</sup>C for 30 min.",
+                        "result": [
+                            {
+                                "ADD": {
+                                    "emit": [
+                                        {
+                                            "reagent0": "cultured neurons"
+                                        }
+                                    ],
+                                    "slot": [
+                                        {
+                                            "reagent2": "resuspended beads"
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "INCUBATE": {
+                                    "emit": [
+                                        {
+                                            "reagent0": "cultured neurons"
+                                        }
+                                    ],
+                                    "slot": [
+                                        {
+                                            "reagent1": "resuspended beads"
+                                        },
+                                        {
+                                            "temperature": "37 \u00b0C"
+                                        },
+                                        {
+                                            "time": "30 min"
+                                        }
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "7.",
+                "body": [
+                    {
+                        "sentence": "Wash the neurons twice with HBSS, and place the coverslip back into the culture media.",
+                        "result": [
+                            {
+                                "WASH": {
+                                    "emit": [
+                                        {
+                                            "reagent0": "neurons"
+                                        }
+                                    ],
+                                    "slot": [
+                                        {
+                                            "reagent1": "neurons"
+                                        },
+                                        {
+                                            "reagent2": "HBSS"
+                                        },
+                                        {
+                                            "repeat": "2"
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "PLACE": {
+                                    "emit": [
+                                        {
+                                            "reagent0": "coverslip"
+                                        }
+                                    ],
+                                    "slot": [
+                                        {
+                                            "reagent1": "coverslip"
+                                        },
+                                        {
+                                            "destination": "culture media"
+                                        }
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "8.",
+                "body": [
+                    {
+                        "sentence": "After 24 h of incubation, fix and immunostain the neurons with primary antibodies against various synaptic proteins and fluorophore-conjugated secondary antibodies.",
+                        "result": [
+                            {
+                                "INCUBATE": {
+                                    "emit": [
+                                        {
+                                            "reagent0": "neurons"
+                                        }
+                                    ],
+                                    "slot": [
+                                        {
+                                            "reagent1": "primary antibodies against various synaptic proteins and fluorophore-conjugated secondary antibodies"
+                                        },
+                                        {
+                                            "temperature": "room temperature"
+                                        },
+                                        {
+                                            "time": "appropriate time"
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "FIX": {
+                                    "emit": [
+                                        {
+                                            "reagent0": "neurons"
+                                        }
+                                    ],
+                                    "slot": [
+                                        {
+                                            "reagent1": "neurons"
+                                        },
+                                        {
+                                            "reagent2": "primary antibodies against various synaptic proteins and fluorophore-conjugated secondary antibodies"
+                                        },
+                                        {
+                                            "temperature": "room temperature"
+                                        }
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "**Image acquisition and quantitation**",
+        "body": [
+            {
+                "title": "9.",
+                "body": [
+                    {
+                        "sentence": "Capture Z-stacked images by confocal immunofluorescence microscopy as well as DIC imaging.",
+                        "result": [
+                            {
+                                "CAPTURE": {
+                                    "emit": [
+                                        {
+                                            "reagent0": "Z-stacked images"
+                                        }
+                                    ],
+                                    "slot": [
+                                        {
+                                            "reagent1": "Z-stacked images"
+                                        },
+                                        {
+                                            "container": "confocal immunofluorescence microscopy"
+                                        },
+                                        {
+                                            "notice": "as well as DIC imaging"
+                                        }
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "10.",
+                "body": [
+                    {
+                        "sentence": "For quantitation, manually trace the boundaries of the beads. Copy a boundary to a nearby dendritic area for normalization.",
+                        "result": []
+                    }
+                ]
+            },
+            {
+                "title": "11.",
+                "body": [
+                    {
+                        "sentence": "An average immunofluorescence intensity of a synaptic marker from a bead area was measured and normalized to that from a nearby control area.",
+                        "result": [
+                            {
+                                "MEASURE": {
+                                    "emit": [
+                                        {
+                                            "data0": "normalized intensity"
+                                        }
+                                    ],
+                                    "slot": [
+                                        {
+                                            "device": "confocal immunofluorescence microscopy"
+                                        },
+                                        {
+                                            "reagent1": "synaptic marker"
+                                        },
+                                        {
+                                            "parameter": "average immunofluorescence intensity"
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "NORMALIZE": {
+                                    "emit": [
+                                        {
+                                            "reagent0": "normalized intensity"
+                                        }
+                                    ],
+                                    "slot": [
+                                        {
+                                            "reagent1": "normalized intensity"
+                                        }
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+]

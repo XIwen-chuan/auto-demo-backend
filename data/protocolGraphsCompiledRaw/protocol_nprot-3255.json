@@ -1,0 +1,980 @@
+[
+    {
+        "title": "**Collection of follicles**",
+        "body": [
+            {
+                "title": "1.",
+                "body": [
+                    {
+                        "sentence": "Collect follicles from 12 day-old B6D2F1 females \\(5.5-7.8 g).\r\n  Harvest ovaries into 300 \u03bcl of M2 medium \\(i). Puncture them using a 30-gauge needle to release follicles.",
+                        "result": [
+                            {
+                                "COLLECT": {
+                                    "emit": [
+                                        {
+                                            "reagent0": "follicles"
+                                        }
+                                    ],
+                                    "slot": [
+                                        {
+                                            "reagent1": "follicles"
+                                        },
+                                        {
+                                            "container": "300 \u03bcl of M2 medium"
+                                        },
+                                        {
+                                            "method": "Puncture with a 30-gauge needle"
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "HARVEST": {
+                                    "emit": [
+                                        {
+                                            "reagent0": "follicles"
+                                        }
+                                    ],
+                                    "slot": [
+                                        {
+                                            "reagent1": "ovaries"
+                                        },
+                                        {
+                                            "container": "M2 medium"
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "PUT": {
+                                    "emit": [
+                                        {
+                                            "reagent0": "follicles"
+                                        }
+                                    ],
+                                    "slot": [
+                                        {
+                                            "reagent1": "follicles"
+                                        },
+                                        {
+                                            "destination": "ovaries"
+                                        },
+                                        {
+                                            "device": "30-gauge needle"
+                                        }
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "**Note:**",
+        "body": [
+            {
+                "sentence": "Softly \\(not to injure follicles), but thoroughly, puncture the ovaries.",
+                "result": []
+            },
+            {
+                "title": "2.",
+                "body": [
+                    {
+                        "sentence": "Select follicles suitable for IVG. \r\n  Although >100 follicles can be collected from a female, most of them are not suitable for IVG. Follicles meeting all the morphological criteria described below have to be selected. The criteria include the proper size of follicles \\(100-125 \u03bcm), the proper size of oocyte \\(50-65 \u03bcm), the central position of oocyte within the follicle, the round shape of both follicle and oocyte, and the high density of granulosa cells. Further information on selection criteria can also be found elsewhere \\(Hartshorne, 1997; Lenie et al., 2004; Pesty et al., 2006). Usually, 10-20 follicles per female can be collected.",
+                        "result": [
+                            {
+                                "SELECT": {
+                                    "emit": [
+                                        {
+                                            "reagent0": "follicles"
+                                        }
+                                    ],
+                                    "slot": [
+                                        {
+                                            "reagent1/data1": "follicles"
+                                        },
+                                        {
+                                            "requirement": "The morphological criteria described below"
+                                        },
+                                        {
+                                            "purpose": "IVG"
+                                        }
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "**Note:**",
+        "body": [
+            {
+                "sentence": "Strictly apply all the criteria described above. Discard follicles that do not meet any one of the criteria \\(see examples in",
+                "result": [
+                    {
+                        "APPLY": {
+                            "emit": [
+                                {
+                                    "reagent0": "follicles"
+                                }
+                            ],
+                            "slot": []
+                        }
+                    },
+                    {
+                        "DISCARD": {
+                            "emit": [
+                                {
+                                    "reagent0": "follicles"
+                                }
+                            ],
+                            "slot": [
+                                {
+                                    "reagent1": "follicles"
+                                },
+                                {
+                                    "method": "discard"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "**Figure 2A**",
+        "body": [
+            {
+                "sentence": ") because they will fail to grow in vitro.",
+                "result": [
+                    {
+                        "GROW": {
+                            "emit": [
+                                {
+                                    "reagent0": "follicles"
+                                }
+                            ],
+                            "slot": [
+                                {
+                                    "reagent1": "follicles"
+                                },
+                                {
+                                    "medium": "M2 medium"
+                                },
+                                {
+                                    "temperature": "room temperature"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            },
+            {
+                "title": "3.",
+                "body": [
+                    {
+                        "sentence": "Transfer the follicles to the IVG medium without PVP \\(ii) and incubate for 1 h.\r\n  The 1 h incubation before microinjection softens the follicles, making them easy for microinjection.",
+                        "result": [
+                            {
+                                "TRANSFER": {
+                                    "emit": [
+                                        {
+                                            "reagent0": "follicles"
+                                        }
+                                    ],
+                                    "slot": [
+                                        {
+                                            "destination": "IVG medium without PVP (ii)"
+                                        },
+                                        {
+                                            "reagent1": "follicles"
+                                        },
+                                        {
+                                            "notice": "The 1 h incubation before microinjection softens the follicles, making them easy for microinjection."
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "INCUBATE": {
+                                    "emit": [
+                                        {
+                                            "reagent0": "follicles"
+                                        }
+                                    ],
+                                    "slot": [
+                                        {
+                                            "reagent1": "follicles"
+                                        },
+                                        {
+                                            "reagent2": "IVG medium without PVP (ii)"
+                                        },
+                                        {
+                                            "temperature": "room temperature"
+                                        },
+                                        {
+                                            "time": "1 h"
+                                        },
+                                        {
+                                            "notice": "The 1 h incubation before microinjection softens the follicles, making them easy for microinjection."
+                                        }
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "4.",
+                "body": [
+                    {
+                        "sentence": "Select follicles that meet all the criteria described above again.\r\n  The shape of follicles and oocytes change slightly during the 1 h incubation. Apply the strict criteria again.",
+                        "result": [
+                            {
+                                "SELECT": {
+                                    "emit": [
+                                        {
+                                            "reagent0": "follicles"
+                                        }
+                                    ],
+                                    "slot": [
+                                        {
+                                            "reagent1/data1": "follicles"
+                                        },
+                                        {
+                                            "requirement": "all the criteria described above"
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "APPLY": {
+                                    "emit": [
+                                        {
+                                            "reagent0": "follicles"
+                                        }
+                                    ],
+                                    "slot": [
+                                        {
+                                            "notice": "The shape of follicles and oocytes change slightly during the 1 h incubation."
+                                        }
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "5.",
+                "body": [
+                    {
+                        "sentence": "Place ~15 follicles into a M2 droplet prepared in a microinjection chamber \\(see details in Ittner and Gotz, 2007).",
+                        "result": [
+                            {
+                                "PLACE": {
+                                    "emit": [
+                                        {
+                                            "reagent0": "follicles"
+                                        }
+                                    ],
+                                    "slot": [
+                                        {
+                                            "reagent1": "follicles"
+                                        },
+                                        {
+                                            "destination": "M2 droplet prepared in a microinjection chamber"
+                                        },
+                                        {
+                                            "notice": "See details in Ittner and Gotz, 2007."
+                                        }
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "**Microinjection into oocytes within follicles**",
+        "body": [
+            {
+                "sentence": "6-1. Prepare an injection capillary following the protocol for pronuclear injection \\(Ittner and Gotz, 2007). The Puller protocol setting we use is: P=300, Heat=635, Pull=75, Vel=75, Del=80. Fill siRNA solution with FemtoTips.\r\n\n\n6-2. Prepare a holding pipette.\r\n\n\nThe Puller protocol setting we use is: P=500, Heat=800, Pull=80, Vel=120, Del=100. The inner diameter of holding pipettes should be 50-55 \u03bcm to hold a follicle very firmly \\(although the best diameter may depend on the instrument used, we recommend to make it larger than the one used for regular manipulation).\r\n\n\n6-3. Hold a follicle firmly \\(",
+                "result": [
+                    {
+                        "PREPARE": {
+                            "emit": [
+                                {
+                                    "reagent0": "siRNA solution with FemtoTips"
+                                }
+                            ],
+                            "slot": [
+                                {
+                                    "reagent1": "injection capillary"
+                                },
+                                {
+                                    "device": "Puller"
+                                },
+                                {
+                                    "method": "Puller protocol setting: P=300, Heat=635, Pull=75, Vel=75, Del=80"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "PREPARE": {
+                            "emit": [],
+                            "slot": [
+                                {
+                                    "reagent1": "holding pipette"
+                                },
+                                {
+                                    "notice": "The inner diameter of holding pipettes should be 50-55 \u03bcm to hold a follicle very firmly (although the best diameter may depend on the instrument used, we recommend to make it larger than the one used for regular manipulation)."
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "HOLD": {
+                            "emit": [
+                                {
+                                    "reagent0": "follicle"
+                                }
+                            ],
+                            "slot": [
+                                {
+                                    "reagent1": "follicle"
+                                },
+                                {
+                                    "position": "firmly"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "**Figure 2B**",
+        "body": [
+            {
+                "sentence": ") and insert the injection capillary into the granulosa cell layers \\(do not penetrate the oocyte yet). With a single shot of the FemtoJet, release the siRNA solution within the granulosa cell layers, and estimate the amount of siRNA solution released from the capillary \\(",
+                "result": []
+            }
+        ]
+    },
+    {
+        "title": "**Figure 2C**",
+        "body": [
+            {
+                "sentence": "). Adjust the injection pressure.",
+                "result": [
+                    {
+                        "ADJUST": {
+                            "emit": [
+                                {
+                                    "reagent0": "follicles"
+                                }
+                            ],
+                            "slot": [
+                                {
+                                    "reagent1": "follicles"
+                                },
+                                {
+                                    "attribute": "injection pressure"
+                                },
+                                {
+                                    "data1": "<blank>"
+                                },
+                                {
+                                    "method": "<blank>"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "**_Troubleshooting._**",
+        "body": []
+    },
+    {
+        "title": "**Note:**",
+        "body": [
+            {
+                "sentence": "It is important to adjust the injection pressure every time before penetrating the oocyte in order to inject a constant amount of siRNA into each oocyte. The amount of siRNA solution released from the capillary can be estimated by the movement of granulosa cells. \r\n\n\n6-4. Penetrate the capillary into the oocyte cytoplasm and inject siRNA. A successful injection is evident by movement of cytoplasmic granules within the oocyte.\r\n\n\n6-5. After withdrawing the injection capillary, whip the capillary along the holding pipette several times to remove debris from the capillary tip and keep it clean.",
+                "result": [
+                    {
+                        "ADJUST": {
+                            "emit": [
+                                {
+                                    "reagent0": "follicles"
+                                }
+                            ],
+                            "slot": [
+                                {
+                                    "reagent1": "injection capillary"
+                                },
+                                {
+                                    "attribute": "injection pressure"
+                                },
+                                {
+                                    "data1": "constant amount of siRNA"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "INJECT": {
+                            "emit": [],
+                            "slot": [
+                                {
+                                    "reagent1": "siRNA solution with FemtoTips"
+                                },
+                                {
+                                    "reagent2/destination": "oocyte cytoplasm"
+                                },
+                                {
+                                    "device": "capillary"
+                                },
+                                {
+                                    "notice": "A successful injection is evident by movement of cytoplasmic granules within the oocyte."
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "**Note:**",
+        "body": [
+            {
+                "sentence": "Because granulosa cells are sticky, the injection capillary frequently becomes partially clogged, making it difficult to inject a constant amount of siRNA into each oocyte. To avoid this problem, the capillary should be kept clean by whipping it along the holding pipette and flushing it with the maximum pressure of FemtoJet \\(see the manufacturer\u2019s instructions of FemtoJet) every time after withdrawal from a follicle.\r\n\n\n6-6. Repeat steps 6-3 to 6-5.\r\n\n\n6-7. Ten minutes after microinjection, transfer the injected follicles into the medium \\(ii) and incubate for 1 h.",
+                "result": [
+                    {
+                        "CLEAN": {
+                            "emit": [
+                                {
+                                    "reagent0": "injection capillary"
+                                }
+                            ],
+                            "slot": [
+                                {
+                                    "reagent1": "injection capillary"
+                                },
+                                {
+                                    "reagent2": "FemtoJet"
+                                },
+                                {
+                                    "method": "whipping it along the holding pipette and flushing it with the maximum pressure of FemtoJet (see the manufacturer\u2019s instructions of FemtoJet) every time after withdrawal from a follicle"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "TRANSFER": {
+                            "emit": [
+                                {
+                                    "reagent0": "injected follicles"
+                                }
+                            ],
+                            "slot": [
+                                {
+                                    "destination": "medium (ii)"
+                                },
+                                {
+                                    "reagent1": "injected follicles"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "**In vitro growth \\(IVG)**",
+        "body": [
+            {
+                "title": "7.",
+                "body": [
+                    {
+                        "sentence": "Discard follicles with lysed oocytes. Normally, up to 10% of oocytes die at this step.",
+                        "result": [
+                            {
+                                "DISCARD": {
+                                    "emit": [],
+                                    "slot": [
+                                        {
+                                            "reagent1": "follicles with lysed oocytes"
+                                        },
+                                        {
+                                            "method": "discard"
+                                        },
+                                        {
+                                            "notice": "Normally, up to 10% of oocytes die at this step."
+                                        }
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "8.",
+                "body": [
+                    {
+                        "sentence": "Transfer the follicles into the IVG medium with 2% PVP \\(iii).\r\n  Up to 7 follicles can be cultured in a 50 \u03bcl droplet. Four 50 \u03bcl droplets can be prepared in a 35 mm dish.",
+                        "result": [
+                            {
+                                "TRANSFER": {
+                                    "emit": [
+                                        {
+                                            "reagent0": "injected follicles"
+                                        }
+                                    ],
+                                    "slot": [
+                                        {
+                                            "destination": "IVG medium with 2% PVP (iii)"
+                                        },
+                                        {
+                                            "reagent1": "follicles"
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "PREPARE": {
+                                    "emit": [
+                                        {
+                                            "reagent0": "injected follicles"
+                                        }
+                                    ],
+                                    "slot": [
+                                        {
+                                            "reagent1": "IVG medium with 2% PVP (iii)"
+                                        },
+                                        {
+                                            "container": "35 mm dish"
+                                        }
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "**Note:**",
+        "body": [
+            {
+                "sentence": "Do not place the follicles close to each other to avoid aggregation during IVG. When carrying the culture dish, be careful to minimize vibrations.",
+                "result": [
+                    {
+                        "PLACE": {
+                            "emit": [
+                                {
+                                    "reagent0": "injected follicles"
+                                }
+                            ],
+                            "slot": [
+                                {
+                                    "reagent1": "follicles"
+                                },
+                                {
+                                    "destination": "IVG medium"
+                                },
+                                {
+                                    "notice": "Do not place the follicles close to each other to avoid aggregation during IVG. When carrying the culture dish, be careful to minimize vibrations."
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "CARRY": {
+                            "emit": [],
+                            "slot": [
+                                {
+                                    "procedure": "When carrying the culture dish, be careful to minimize vibrations."
+                                }
+                            ]
+                        }
+                    }
+                ]
+            },
+            {
+                "title": "9.",
+                "body": [
+                    {
+                        "sentence": "Change half of the culture medium \\(iii) every other day.\r\n  Prepare the IVG medium \\(iii) in which PMSG is freshly added, and then preincubate it in a CO2 incubator overnight. Representative pictures of follicles cultured in vitro for 12 days can be found elsewhere \\(Inoue and Zhang, 2014; Lenie et al., 2004; Smitz and Cortvrindt, 2002). After 12 days, 80-100% of oocytes normally reach the fully grown GV-stage.",
+                        "result": [
+                            {
+                                "CHANGE": {
+                                    "emit": [
+                                        {
+                                            "reagent0": "culture medium (iii)"
+                                        }
+                                    ],
+                                    "slot": [
+                                        {
+                                            "reagent1": "culture medium (iii)"
+                                        },
+                                        {
+                                            "reagent2": "another brand new culture medium (iii)"
+                                        },
+                                        {
+                                            "time": "every other day"
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "PREPARE": {
+                                    "emit": [
+                                        {
+                                            "reagent0": "IVG medium (iii)"
+                                        }
+                                    ],
+                                    "slot": [
+                                        {
+                                            "reagent1": "IVG medium (iii)"
+                                        },
+                                        {
+                                            "temperature": "CO2 incubator"
+                                        }
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "**_Troubleshooting._**",
+        "body": []
+    },
+    {
+        "title": "**Note:**",
+        "body": [
+            {
+                "sentence": "Change the media very slowly to avoid detaching the follicles from the bottom of dish.",
+                "result": [
+                    {
+                        "CHANGE": {
+                            "emit": [
+                                {
+                                    "reagent0": "culture medium (iii)"
+                                }
+                            ],
+                            "slot": [
+                                {
+                                    "reagent1": "culture medium (iii)"
+                                },
+                                {
+                                    "notice": "to avoid detaching the follicles from the bottom of dish."
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "**In vitro maturation \\(IVM)**",
+        "body": [
+            {
+                "title": "10.",
+                "body": [
+                    {
+                        "sentence": "After 12 days of culture, harvest cumulus-oocyte complexes \\(COCs) using a glass pipette. Do not completely denude the cumulus cells surrounding an oocyte \\(",
+                        "result": [
+                            {
+                                "HARVEST": {
+                                    "emit": [
+                                        {
+                                            "reagent0": "COCs"
+                                        }
+                                    ],
+                                    "slot": [
+                                        {
+                                            "reagent1": "COCs"
+                                        },
+                                        {
+                                            "container": "glass pipette"
+                                        },
+                                        {
+                                            "notice": "Do not completely denude the cumulus cells surrounding an oocyte"
+                                        }
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "**Figure 3**",
+        "body": [
+            {
+                "sentence": ").",
+                "result": []
+            },
+            {
+                "title": "11.",
+                "body": [
+                    {
+                        "sentence": "Wash COCs 4-5 times and culture them in \u03b1-MEM \\(iv) for 15-18 h. Successful meiotic maturation is evident by cumulus expansion and the 1st polar body extrusion \\(",
+                        "result": [
+                            {
+                                "WASH": {
+                                    "emit": [
+                                        {
+                                            "reagent0": "COCs"
+                                        }
+                                    ],
+                                    "slot": [
+                                        {
+                                            "reagent1": "COCs"
+                                        },
+                                        {
+                                            "reagent2": "\u03b1-MEM (iv)"
+                                        },
+                                        {
+                                            "repeat": "4-5"
+                                        }
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "**Figure 3**",
+        "body": [
+            {
+                "sentence": "). After IVM, 80-100% of oocytes can complete meiotic maturation.",
+                "result": []
+            }
+        ]
+    },
+    {
+        "title": "**In vitro fertilization \\(IVF)**",
+        "body": [
+            {
+                "title": "12.",
+                "body": [
+                    {
+                        "sentence": "Harvest sperm from the caudal epididymides of a >8 week-old B6D2F1 male and incubate in 200 \u03bcl HTF medium \\(v) for 1 h for capacitation.",
+                        "result": [
+                            {
+                                "HARVEST": {
+                                    "emit": [
+                                        {
+                                            "reagent0": "sperm"
+                                        }
+                                    ],
+                                    "slot": [
+                                        {
+                                            "reagent1": "caudal epididymides"
+                                        },
+                                        {
+                                            "container": "glass pipette"
+                                        },
+                                        {
+                                            "method": "using a glass pipette"
+                                        },
+                                        {
+                                            "notice": "Do not completely denude the cumulus cells surrounding an oocyte."
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "INCUBATE": {
+                                    "emit": [
+                                        {
+                                            "reagent0": "HTF medium (v)"
+                                        }
+                                    ],
+                                    "slot": [
+                                        {
+                                            "reagent1": "sperm"
+                                        },
+                                        {
+                                            "temperature": "room temperature"
+                                        },
+                                        {
+                                            "time": "1 h"
+                                        }
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "13.",
+                "body": [
+                    {
+                        "sentence": "Transfer the MII-stage oocytes with surrounding cumulus cells into a 100 \u03bcl HTF medium. Do not remove cumulus cells.",
+                        "result": [
+                            {
+                                "TRANSFER": {
+                                    "emit": [
+                                        {
+                                            "reagent0": "MII-stage oocytes with surrounding cumulus cells"
+                                        }
+                                    ],
+                                    "slot": [
+                                        {
+                                            "destination": "100 \u03bcl HTF medium"
+                                        },
+                                        {
+                                            "reagent1": "MII-stage oocytes with surrounding cumulus cells"
+                                        },
+                                        {
+                                            "notice": "Do not remove cumulus cells"
+                                        }
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "14.",
+                "body": [
+                    {
+                        "sentence": "Inseminate 1.0-1.5 \u03bcl of preincubated sperm \\(>3 x 10<sup>4</sup> sperm cells).",
+                        "result": []
+                    }
+                ]
+            },
+            {
+                "title": "15.",
+                "body": [
+                    {
+                        "sentence": "Six to eight hours after insemination, transfer the fertilized oocytes into a 1:1 mixture droplet of HTF:KSOM and incubate for 30 min. Fifty-80% of oocytes become normally fertilized as determined by the presence of 2 pronuclei.",
+                        "result": [
+                            {
+                                "TRANSFER": {
+                                    "emit": [],
+                                    "slot": [
+                                        {
+                                            "destination": "1:1 mixture droplet of HTF:KSOM"
+                                        },
+                                        {
+                                            "reagent1": "fertilized oocytes"
+                                        },
+                                        {
+                                            "notice": "Six to eight hours after insemination"
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "INCUBATE": {
+                                    "emit": [
+                                        {
+                                            "reagent0": "HTF medium (v)"
+                                        }
+                                    ],
+                                    "slot": [
+                                        {
+                                            "reagent1": "HTF medium (v)"
+                                        },
+                                        {
+                                            "temperature": "room temperature"
+                                        },
+                                        {
+                                            "time": "30 min"
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "DETERMINE": {
+                                    "emit": [],
+                                    "slot": [
+                                        {
+                                            "parameter": "presence of 2 pronuclei"
+                                        },
+                                        {
+                                            "notice": "Fifty-80% of oocytes become normally fertilized"
+                                        }
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "**_Troubleshooting._**",
+        "body": [
+            {
+                "title": "16.",
+                "body": [
+                    {
+                        "sentence": "Transfer the fertilized oocytes into KSOM \\(vi). Five days after fertilization, 20-40% of embryos can develop to the blastocyst stage.",
+                        "result": [
+                            {
+                                "TRANSFER": {
+                                    "emit": [
+                                        {
+                                            "reagent0": "fertilized oocytes"
+                                        }
+                                    ],
+                                    "slot": [
+                                        {
+                                            "source": "fertilized oocytes"
+                                        },
+                                        {
+                                            "destination": "KSOM (vi)"
+                                        },
+                                        {
+                                            "reagent1": "fertilized oocytes"
+                                        }
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "**_Troubleshooting._**",
+        "body": []
+    }
+]

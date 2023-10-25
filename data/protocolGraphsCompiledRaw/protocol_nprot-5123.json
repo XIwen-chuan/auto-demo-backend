@@ -1,0 +1,314 @@
+[
+    {
+        "title": "1.",
+        "body": [
+            {
+                "sentence": "Subclone the cDNA for a protein fragment of interest N-terminal to an intein-CBD-containing vector \\(available from New England BioLabs).  In the first and fourth residues upstream of the intein, in the protein fragment, avoid acidic residues and where possible include hydrophobic residues.",
+                "result": []
+            }
+        ]
+    },
+    {
+        "title": "2.",
+        "body": [
+            {
+                "sentence": "Express the fusion protein in the appropriate heterologous host \\(E. coli or baculovirus-SF9/High Five insect cells).",
+                "result": []
+            }
+        ]
+    },
+    {
+        "title": "3.",
+        "body": [
+            {
+                "sentence": "Lyse the cells by an appropriate method.",
+                "result": []
+            }
+        ]
+    },
+    {
+        "title": "4.",
+        "body": [
+            {
+                "sentence": "Clear the lysate by centrifuging at 15,0000 rpm for 45 min. at 4\u00b0 C. If insect cells were used, incubate the cleared lysate with powdered cellulose to remove chitinase \\(about 1 ml cellulose for every 2 ml lysate).",
+                "result": [
+                    {
+                        "CENTRIFUGE": {
+                            "emit": [
+                                {
+                                    "reagent0": "cleared lysate"
+                                }
+                            ],
+                            "slot": [
+                                {
+                                    "reagent1": "lysate"
+                                },
+                                {
+                                    "intensity": "150000 rpm"
+                                },
+                                {
+                                    "time": "45 min"
+                                },
+                                {
+                                    "temperature": "4\u00b0 C"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "INCUBATE": {
+                            "emit": [
+                                {
+                                    "reagent0": "cleared lysate"
+                                }
+                            ],
+                            "slot": [
+                                {
+                                    "reagent1": "cleared lysate"
+                                },
+                                {
+                                    "reagent2": "powdered cellulose"
+                                },
+                                {
+                                    "temperature": "room temperature"
+                                },
+                                {
+                                    "time": "appropriate time"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "5.",
+        "body": [
+            {
+                "sentence": "In a cold room, immobilize the fusion protein on chitin resin and wash to remove impurities.",
+                "result": [
+                    {
+                        "WASH": {
+                            "emit": [
+                                {
+                                    "reagent0": "fusion protein"
+                                }
+                            ],
+                            "slot": [
+                                {
+                                    "reagent1": "fusion protein"
+                                },
+                                {
+                                    "reagent2": "chitin resin"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "6.",
+        "body": [
+            {
+                "sentence": "Treat the immobilized fusion protein with cleavage buffer containing 300 mM MESNA overnight at room temperature and isolate the protein thioester in the eluate.",
+                "result": [
+                    {
+                        "TREAT": {
+                            "emit": [
+                                {
+                                    "reagent0": "protein thioester"
+                                }
+                            ],
+                            "slot": [
+                                {
+                                    "reagent1": "immobilized fusion protein"
+                                },
+                                {
+                                    "reagent2": "cleavage buffer containing 300 mM MESNA"
+                                },
+                                {
+                                    "temperature": "room temperature"
+                                },
+                                {
+                                    "time": "overnight"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "ISOLATE": {
+                            "emit": [
+                                {
+                                    "reagent0": "protein thioester"
+                                }
+                            ],
+                            "slot": [
+                                {
+                                    "component": "protein thioester"
+                                },
+                                {
+                                    "reagent1": "cleavage buffer containing 300 mM MESNA"
+                                },
+                                {
+                                    "environment": "overnight at room temperature"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "7.",
+        "body": [
+            {
+                "sentence": "Exchange the protein thioester \\(by dialysis or ultrafiltration, as needed) into storage buffer.",
+                "result": []
+            }
+        ]
+    },
+    {
+        "title": "8.",
+        "body": [
+            {
+                "sentence": "Concentrate the protein to 1 mg/mL or greater. If not used within a day, flash-freeze for storage.",
+                "result": [
+                    {
+                        "CONCENTRATE": {
+                            "emit": [
+                                {
+                                    "reagent0": "cleared lysate"
+                                }
+                            ],
+                            "slot": [
+                                {
+                                    "reagent1": "cleared lysate"
+                                },
+                                {
+                                    "targetVol": "1 ml or greater"
+                                },
+                                {
+                                    "targetConcentration": "1 mg/mL"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "FREEZE": {
+                            "emit": [
+                                {
+                                    "reagent0": "protein"
+                                }
+                            ],
+                            "slot": [
+                                {
+                                    "reagent1": "protein"
+                                },
+                                {
+                                    "temperature": "flash-freeze"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "9.",
+        "body": [
+            {
+                "sentence": "Mix the protein thioester \\(0.4 mg/mL or greater) with synthetic peptide \\(1-10 mM) and subtiligase \\(0.5-25 \uf06dM) in reaction at room temperature.",
+                "result": [
+                    {
+                        "MIX": {
+                            "emit": [
+                                {
+                                    "reagent0": "reaction mixture"
+                                }
+                            ],
+                            "slot": [
+                                {
+                                    "reagent1": "protein thioester"
+                                },
+                                {
+                                    "reagent2": "synthetic peptide"
+                                },
+                                {
+                                    "ratio": "1-10 mM"
+                                },
+                                {
+                                    "method": "mixing"
+                                },
+                                {
+                                    "temperature": "room temperature"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "10.",
+        "body": [
+            {
+                "sentence": "After 5-90 minutes, analyze the reaction mixture using SDS-PAGE to determine degree of ligation.",
+                "result": [
+                    {
+                        "ANALYZE": {
+                            "emit": [
+                                {
+                                    "data0": "degree of ligation"
+                                }
+                            ],
+                            "slot": [
+                                {
+                                    "reagent1": "reaction mixture"
+                                },
+                                {
+                                    "method": "SDS-PAGE"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "11.",
+        "body": [
+            {
+                "sentence": "Once the ligation is optimized, purify the ligated protein using chromatography appropriate for the protein of interest.",
+                "result": [
+                    {
+                        "PURIFY": {
+                            "emit": [
+                                {
+                                    "reagent0": "ligated protein"
+                                }
+                            ],
+                            "slot": [
+                                {
+                                    "reagent1": "ligated protein"
+                                },
+                                {
+                                    "method": "chromatography"
+                                },
+                                {
+                                    "device": "appropriate for the protein of interest"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        ]
+    }
+]

@@ -1,0 +1,703 @@
+[
+    {
+        "title": "**KOH pretreatment   TIMING ~ 12 min**",
+        "body": [
+            {
+                "title": "1.",
+                "body": [
+                    {
+                        "sentence": "Incubate the MTP well surface with 100 \u03bcL of 1% \\(w/v) KOH in DIW for 10 min and wash five times with 300 \u03bcL DIW per well).",
+                        "result": [
+                            {
+                                "INCUBATE": {
+                                    "emit": [
+                                        {
+                                            "reagent0": "MTP well surface"
+                                        }
+                                    ],
+                                    "slot": [
+                                        {
+                                            "reagent1": "1% (w/v) KOH in DIW"
+                                        },
+                                        {
+                                            "temperature": "room temperature"
+                                        },
+                                        {
+                                            "time": "10 min"
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "WASH": {
+                                    "emit": [
+                                        {
+                                            "reagent0": "DIW"
+                                        }
+                                    ],
+                                    "slot": [
+                                        {
+                                            "reagent1": "MTP well surface"
+                                        },
+                                        {
+                                            "reagent2": "DIW"
+                                        },
+                                        {
+                                            "repeat": "5"
+                                        }
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "**CRITICAL STEP**",
+        "body": [
+            {
+                "sentence": "KOH treatment should not be over 10 min as it may cause strong aberrations in the surface that may change the surface properties.",
+                "result": [
+                    {
+                        "TREAT": {
+                            "emit": [
+                                {
+                                    "reagent0": "MTP well surface"
+                                }
+                            ],
+                            "slot": [
+                                {
+                                    "reagent1": "MTP well surface"
+                                },
+                                {
+                                    "reagent2": "1% (w/v) KOH in DIW"
+                                },
+                                {
+                                    "temperature": "room temperature"
+                                },
+                                {
+                                    "time": "10 min"
+                                },
+                                {
+                                    "notice": "It may cause strong aberrations in the surface that may change the surface properties."
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "**?TROUBLESHOOTING**",
+        "body": []
+    },
+    {
+        "title": "**Ab immobilization and BSA blocking   TIMING ~ 1 h 15 min**",
+        "body": [
+            {
+                "title": "2.",
+                "body": [
+                    {
+                        "sentence": "Mix EDC-activated Ab with GNPs \\(1 mg mL<sup>-1</sup>) in 0.25% APTES in the ratio of 1:1 \\(v/v). Add 100 \u00b5L of the resulting anti-human CRP Ab solution \\(2 \u00b5g mL<sup>-1</sup>, 0.5 mg mL<sup>-1</sup> GNPs and 0.125% APTES) to the MTP wells and incubate for 30 min at RT. Wash the resulting Ab-bound and GNPs-functionalized MTP wells five times with 300 \u03bcL of PBST.",
+                        "result": [
+                            {
+                                "MIX": {
+                                    "emit": [],
+                                    "slot": [
+                                        {
+                                            "reagent1": "EDC-activated Ab"
+                                        },
+                                        {
+                                            "reagent2": "GNPs"
+                                        },
+                                        {
+                                            "ratio": "1:1 (v/v)"
+                                        },
+                                        {
+                                            "method": "Mix"
+                                        },
+                                        {
+                                            "temperature": "RT"
+                                        },
+                                        {
+                                            "time": "30 min"
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "ADD": {
+                                    "emit": [
+                                        {
+                                            "reagent0": "MTP wells"
+                                        }
+                                    ],
+                                    "slot": [
+                                        {
+                                            "reagent1": "EDC-activated Ab"
+                                        },
+                                        {
+                                            "reagent2": "GNPs"
+                                        },
+                                        {
+                                            "ratio": "1:1 (v/v)"
+                                        },
+                                        {
+                                            "concentration": "2 \u00b5g mL-1, 0.5 mg mL-1 GNPs and 0.125% APTES"
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "INCUBATE": {
+                                    "emit": [
+                                        {
+                                            "reagent0": "MTP well surface"
+                                        }
+                                    ],
+                                    "slot": [
+                                        {
+                                            "reagent1": "MTP well surface"
+                                        },
+                                        {
+                                            "temperature": "RT"
+                                        },
+                                        {
+                                            "time": "30 min"
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "WASH": {
+                                    "emit": [
+                                        {
+                                            "reagent0": "resulting Ab-bound and GNPs-functionalized MTP wells"
+                                        }
+                                    ],
+                                    "slot": [
+                                        {
+                                            "reagent1": "resulting Ab-bound and GNPs-functionalized MTP wells"
+                                        },
+                                        {
+                                            "reagent2": "PBST"
+                                        },
+                                        {
+                                            "repeat": "5"
+                                        }
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "**?TROUBLESHOOTING**",
+        "body": [
+            {
+                "title": "3.",
+                "body": [
+                    {
+                        "sentence": "Block the MTP wells by incubating with 300 \u03bcL of 5% \\(w/v) BSA for 30 min a 37 \u00b0C and wash with 300 \u03bcL of wash buffer five times. Washing can also be performed with an automatic plate washer. The blocking is essential to prevent non-specific binding to the unbound sites available on the GNPs and the MTP<sup>39</sup>.",
+                        "result": [
+                            {
+                                "INCUBATE": {
+                                    "emit": [
+                                        {
+                                            "reagent0": "MTP wells"
+                                        }
+                                    ],
+                                    "slot": [
+                                        {
+                                            "reagent1": "BSA"
+                                        },
+                                        {
+                                            "temperature": "37 \u00b0C"
+                                        },
+                                        {
+                                            "time": "30 min"
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "WASH": {
+                                    "emit": [
+                                        {
+                                            "reagent0": "resulting Ab-bound and GNPs-functionalized MTP wells"
+                                        }
+                                    ],
+                                    "slot": [
+                                        {
+                                            "reagent1": "MTP wells"
+                                        },
+                                        {
+                                            "reagent2": "wash buffer"
+                                        },
+                                        {
+                                            "repeat": "5"
+                                        },
+                                        {
+                                            "notice": "Washing can also be performed with an automatic plate washer."
+                                        }
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "**CRITICAL STEP**",
+        "body": [
+            {
+                "sentence": "Use filtered BSA or filter the BSA solution prior to use to remove any microbial or other contaminants.",
+                "result": [
+                    {
+                        "FILTER": {
+                            "emit": [
+                                {
+                                    "reagent0": "filtered BSA solution"
+                                }
+                            ],
+                            "slot": [
+                                {
+                                    "reagent1": "BSA solution"
+                                },
+                                {
+                                    "filter": "0.22 \u03bcm filter"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "**?TROUBLESHOOTING**",
+        "body": []
+    },
+    {
+        "title": "**Developed CRP IA   TIMING 30 min**",
+        "body": [
+            {
+                "title": "4.",
+                "body": [
+                    {
+                        "sentence": "Dispense sequentially 100 \u00b5L of biotinylated anti-CRP detection Ab \\(0.17 \u00b5g mL<sup>-1</sup>) pre-conjugated to SA-HRP and 100 \u00b5L of CRP \\(varying concentrations; 0.3-81 ng mL<sup>-1</sup>) to the Ab-bound and BSA-blocked MTP wells. Incubate for 15 min at 37 \u00b0C.",
+                        "result": [
+                            {
+                                "DISPENSE": {
+                                    "emit": [
+                                        {
+                                            "reagent0": "CRP"
+                                        }
+                                    ],
+                                    "slot": [
+                                        {
+                                            "reagent1": "biotinylated anti-CRP detection Ab pre-conjugated to SA-HRP"
+                                        },
+                                        {
+                                            "volume": "100 \u00b5L"
+                                        },
+                                        {
+                                            "container": "Ab-bound and BSA-blocked MTP wells"
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "INCUBATE": {
+                                    "emit": [
+                                        {
+                                            "reagent0": "Ab-bound and BSA-blocked MTP wells"
+                                        }
+                                    ],
+                                    "slot": [
+                                        {
+                                            "reagent1": "Ab-bound and BSA-blocked MTP wells"
+                                        },
+                                        {
+                                            "temperature": "37 \u00b0C"
+                                        },
+                                        {
+                                            "time": "15 min"
+                                        }
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "**CRITICAL STEP**",
+        "body": [
+            {
+                "sentence": "Prepare the human CRP concentrations in BSA-preblocked sample vials to minimize the analyte loss due to non-specific surface binding <sup>39</sup>.",
+                "result": [
+                    {
+                        "PREPARE": {
+                            "emit": [
+                                {
+                                    "reagent0": "human CRP concentrations"
+                                }
+                            ],
+                            "slot": [
+                                {
+                                    "reagent1": "human CRP concentrations"
+                                },
+                                {
+                                    "container": "BSA-preblocked sample vials"
+                                },
+                                {
+                                    "notice": "to minimize the analyte loss due to non-specific surface binding"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "**?TROUBLESHOOTING**",
+        "body": [
+            {
+                "title": "5.",
+                "body": [
+                    {
+                        "sentence": "Wash the resulting sandwich immune complex-bound MTP with 300 \u00b5L of PBST five times to remove the non-specifically substances and excess IA reagents.",
+                        "result": [
+                            {
+                                "WASH": {
+                                    "emit": [
+                                        {
+                                            "reagent0": "resulting sandwich immune complex-bound MTP"
+                                        }
+                                    ],
+                                    "slot": [
+                                        {
+                                            "reagent1": "resulting sandwich immune complex-bound MTP"
+                                        },
+                                        {
+                                            "reagent2": "PBST"
+                                        },
+                                        {
+                                            "repeat": "5"
+                                        },
+                                        {
+                                            "notice": "to remove the non-specifically substances and excess IA reagents."
+                                        }
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "6.",
+                "body": [
+                    {
+                        "sentence": "Add 100 \u00b5L of the TMB-H<sub>2</sub>O<sub>2</sub> mixture to each MTP well and incubate at RT for 4 min to allow the enzymatic reaction to develop color.",
+                        "result": [
+                            {
+                                "ADD": {
+                                    "emit": [
+                                        {
+                                            "reagent0": "resulting MTP well"
+                                        }
+                                    ],
+                                    "slot": [
+                                        {
+                                            "reagent1": "TMB-H<sub>2</sub>O<sub>2</sub> mixture"
+                                        },
+                                        {
+                                            "reagent2": "MTP well"
+                                        },
+                                        {
+                                            "notice": "Incubate at RT for 4 min to allow the enzymatic reaction to develop color."
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "INCUBATE": {
+                                    "emit": [
+                                        {
+                                            "reagent0": "Ab-bound and BSA-blocked MTP wells"
+                                        }
+                                    ],
+                                    "slot": [
+                                        {
+                                            "reagent1": "TMB-H<sub>2</sub>O<sub>2</sub> mixture"
+                                        },
+                                        {
+                                            "temperature": "RT"
+                                        },
+                                        {
+                                            "time": "4 min"
+                                        }
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "**?TROUBLESHOOTING**",
+        "body": [
+            {
+                "title": "7.",
+                "body": [
+                    {
+                        "sentence": "Stop the enzymatic reaction by adding 50 \u00b5L of 2N H<sub>2</sub>SO<sub>4</sub> to each MTP well.",
+                        "result": []
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "**Smartphone readout and image analysis   TIMING 5 min**",
+        "body": [
+            {
+                "title": "8.",
+                "body": [
+                    {
+                        "sentence": "Perform the colorimetric readout of the MTP by smartphone imaging using our developed SBCR set up \\(",
+                        "result": [
+                            {
+                                "PERFORM": {
+                                    "emit": [
+                                        {
+                                            "reagent0": "Ab-bound and BSA-blocked MTP wells"
+                                        }
+                                    ],
+                                    "slot": [
+                                        {
+                                            "procedure": "Perform the colorimetric readout of the MTP by smartphone imaging using our developed SBCR set up"
+                                        },
+                                        {
+                                            "equipment": "smartphone"
+                                        }
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "**Fig. 2**",
+        "body": [
+            {
+                "sentence": "). Place the iPAD mini in the designated groove of the base holder followed by placing the 96-well MTP on the iPAD mini\u2019s screensaver that provides white light-based bottom illumination only in the specific regions corresponding to the bottom of the MTP\u2019s wells. Put the dark box on top of the base holder in the alignment groove. Perform the Samsung SIII mini\u2019s back camera based imaging of the colorimetric reaction in the MTP by placing the smartphone inside the designated groove on top of the dark hood.",
+                "result": [
+                    {
+                        "PLACE": {
+                            "emit": [
+                                {
+                                    "reagent0": "iPAD mini"
+                                }
+                            ],
+                            "slot": [
+                                {
+                                    "reagent1": "iPAD mini"
+                                },
+                                {
+                                    "destination": "designated groove of the base holder"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "PLACE": {
+                            "emit": [
+                                {
+                                    "reagent0": "96-well MTP"
+                                }
+                            ],
+                            "slot": [
+                                {
+                                    "reagent1": "96-well MTP"
+                                },
+                                {
+                                    "destination": "iPAD mini\u2019s screensaver"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "PUT": {
+                            "emit": [],
+                            "slot": [
+                                {
+                                    "reagent1": "dark box"
+                                },
+                                {
+                                    "destination": "top of the base holder in the alignment groove"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "PERFORM": {
+                            "emit": [],
+                            "slot": [
+                                {
+                                    "procedure": "Perform the Samsung SIII mini\u2019s back camera based imaging of the colorimetric reaction in the MTP by placing the smartphone inside the designated groove on top of the dark hood."
+                                },
+                                {
+                                    "equipment": "iPAD mini"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            },
+            {
+                "title": "9.",
+                "body": [
+                    {
+                        "sentence": "Determine the desired pixel intensity \\(PI) of the captured smartphone image by Image J \\(http://imagej.nih.gov/ij) \\(",
+                        "result": [
+                            {
+                                "DETERMINE": {
+                                    "emit": [],
+                                    "slot": [
+                                        {
+                                            "device": "smartphone"
+                                        },
+                                        {
+                                            "reagent1": "captured smartphone image"
+                                        },
+                                        {
+                                            "parameter": "pixel intensity"
+                                        }
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "**Fig. 2C**",
+        "body": [
+            {
+                "sentence": "). Split the color channel of the image and identify the pixel coordinate of individual MTP well\u2019s center using the red channel image. A mean of neighboring pixels \\(varies based on the resolution of the camera) from the center was calculated for all the channels individually. The composite mean PI \\(CMPI) was derived from the following color-weighted formula \\[CMPI = 0.7 MPI<sub>Blue</sub> + 0.2 MPI<sub>Green</sub> + 0.1 MPI<sub>Red</sub>].  The desired PI was then determined as 255 \u2013 CMPI<sub>Test Conc</sub> \u2013 CMPI<sub>Blank</sub>. Plot the resulting CMPI against their respective logarithmic CRP concentrations using the four-parameter logistic based standard curve analysis. Determine the concentration of unknown CRP samples on the basis of their PI from the resulting calibration plot.",
+                "result": [
+                    {
+                        "SPLIT": {
+                            "emit": [
+                                {
+                                    "reagent0": "image"
+                                }
+                            ],
+                            "slot": [
+                                {
+                                    "reagent1": "image"
+                                },
+                                {
+                                    "destination": "color channel"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "CALCULATE": {
+                            "emit": [
+                                {
+                                    "result": "<blank>"
+                                }
+                            ],
+                            "slot": [
+                                {
+                                    "attribute": "mean of neighboring pixels"
+                                },
+                                {
+                                    "formula": "<blank>"
+                                },
+                                {
+                                    "variables": "<blank>"
+                                },
+                                {
+                                    "values": "<blank>"
+                                },
+                                {
+                                    "units": "<blank>"
+                                },
+                                {
+                                    "software": "<blank>"
+                                },
+                                {
+                                    "notice": "<blank>"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "DETERMINE": {
+                            "emit": [
+                                {
+                                    "data0": "255 - CMPI<sub>Test Conc</sub> - CMPI<sub>Blank</sub>"
+                                }
+                            ],
+                            "slot": [
+                                {
+                                    "device": "iPAD mini"
+                                },
+                                {
+                                    "reagent1": "Ab-bound and BSA-blocked MTP wells"
+                                },
+                                {
+                                    "parameter": "PI"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "DETERMINE": {
+                            "emit": [
+                                {
+                                    "data0": "255 - CMPI<sub>Test Conc</sub> - CMPI<sub>Blank</sub>"
+                                }
+                            ],
+                            "slot": [
+                                {
+                                    "device": "iPAD mini"
+                                },
+                                {
+                                    "reagent1": "Ab-bound and BSA-blocked MTP wells"
+                                },
+                                {
+                                    "parameter": "PI"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        ]
+    }
+]

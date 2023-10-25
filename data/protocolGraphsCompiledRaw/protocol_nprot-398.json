@@ -1,0 +1,146 @@
+[
+    {
+        "title": "1)",
+        "body": [
+            {
+                "sentence": "Load 0.7 ml of buffer to reference and sample cells",
+                "result": [
+                    {
+                        "LOAD": {
+                            "emit": [
+                                {
+                                    "reagent0": "buffer"
+                                }
+                            ],
+                            "slot": [
+                                {
+                                    "reagent1": "buffer"
+                                },
+                                {
+                                    "destination": "reference and sample cells"
+                                },
+                                {
+                                    "volume": "0.7 ml"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "2)",
+        "body": [
+            {
+                "sentence": "Run 0 to 120 &#xB0;C at 1 degree/min",
+                "result": [
+                    {
+                        "RUN": {
+                            "emit": [
+                                {
+                                    "reagent0": "buffer"
+                                }
+                            ],
+                            "slot": [
+                                {
+                                    "reagent1": "buffer"
+                                },
+                                {
+                                    "notice": "at 1 degree/min"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "3)",
+        "body": [
+            {
+                "sentence": "Load 0.7 ml of fresh buffer to reference cell",
+                "result": [
+                    {
+                        "LOAD": {
+                            "emit": [
+                                {
+                                    "reagent0": "buffer"
+                                }
+                            ],
+                            "slot": [
+                                {
+                                    "reagent1": "buffer"
+                                },
+                                {
+                                    "destination": "reference cell"
+                                },
+                                {
+                                    "volume": "0.7 ml"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "4)",
+        "body": [
+            {
+                "sentence": "Load 0.7 ml of protein to sample cell",
+                "result": [
+                    {
+                        "LOAD": {
+                            "emit": [
+                                {
+                                    "reagent0": "protein"
+                                }
+                            ],
+                            "slot": [
+                                {
+                                    "reagent1": "protein"
+                                },
+                                {
+                                    "destination": "sample cell"
+                                },
+                                {
+                                    "volume": "0.7 ml"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "5)",
+        "body": [
+            {
+                "sentence": "Run 0 to 120 &#xB0;C at 1 degree/min",
+                "result": [
+                    {
+                        "RUN": {
+                            "emit": [
+                                {
+                                    "reagent0": "buffer"
+                                }
+                            ],
+                            "slot": [
+                                {
+                                    "reagent1": "buffer"
+                                },
+                                {
+                                    "notice": "at 1 degree/min."
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        ]
+    }
+]

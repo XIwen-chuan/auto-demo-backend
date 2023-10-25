@@ -1,0 +1,808 @@
+[
+    {
+        "title": "1)",
+        "body": [
+            {
+                "sentence": "Weigh 2.31 g sodium azide \\(35.5 mmol) and transfer to a 50 mL 1 neck round bottom flask equipped with a Teflon coated magnetic stir bar. \r\n\n\nCAUTION Sodium azide is highly toxic and care should be taken to avoid contact during transfer and workup.",
+                "result": [
+                    {
+                        "WEIGH": {
+                            "emit": [
+                                {
+                                    "reagent0": "sodium azide"
+                                }
+                            ],
+                            "slot": [
+                                {
+                                    "reagent1": "sodium azide"
+                                },
+                                {
+                                    "weight": "2.31 g"
+                                },
+                                {
+                                    "container": "50 mL 1 neck round bottom flask"
+                                },
+                                {
+                                    "device": "electric balance"
+                                },
+                                {
+                                    "notice": "CAUTION Sodium azide is highly toxic and care should be taken to avoid contact during transfer and workup."
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "TRANSFER": {
+                            "emit": [
+                                {
+                                    "reagent0": "sodium azide"
+                                }
+                            ],
+                            "slot": [
+                                {
+                                    "destination": "50 mL 1 neck round bottom flask equipped with a Teflon coated magnetic stir bar"
+                                },
+                                {
+                                    "reagent1": "sodium azide"
+                                },
+                                {
+                                    "volume": "2.31 g"
+                                },
+                                {
+                                    "notice": "CAUTION Sodium azide is highly toxic and care should be taken to avoid contact during transfer and workup."
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "2)",
+        "body": [
+            {
+                "sentence": "Suspend the solid in 5 mL of DMF. Add 3.0 mL of ethylchloroacetate dropwise to the stirred mixture by syringe. These steps are carried out in open air and no effort was made to exclude water or oxygen.",
+                "result": [
+                    {
+                        "SUSPEND": {
+                            "emit": [
+                                {
+                                    "reagent0": "sodium azide"
+                                }
+                            ],
+                            "slot": [
+                                {
+                                    "reagent1": "sodium azide"
+                                },
+                                {
+                                    "reagent2": "DMF"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "ADD": {
+                            "emit": [],
+                            "slot": [
+                                {
+                                    "reagent1": "sodium azide"
+                                },
+                                {
+                                    "reagent2": "ethylchloroacetate"
+                                },
+                                {
+                                    "notice": "These steps are carried out in open air and no effort was made to exclude water or oxygen."
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "3)",
+        "body": [
+            {
+                "sentence": "Cap the reaction vessel with a rubber septum and stir at room temperature for 24 hours.",
+                "result": [
+                    {
+                        "STIR": {
+                            "emit": [
+                                {
+                                    "reagent0": "sodium azide"
+                                }
+                            ],
+                            "slot": [
+                                {
+                                    "reagent1": "sodium azide"
+                                },
+                                {
+                                    "time": "24 hours"
+                                },
+                                {
+                                    "temperature": "room temperature"
+                                },
+                                {
+                                    "device": "magnetic stir bar"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "4)",
+        "body": [
+            {
+                "sentence": "After 24 hours of reaction time, dilute the reaction mixture with diethyl ether \\(~10 mL) and transfer to a 250 mL seperatory funnel. Add an additional 140 mL of diethyl ether. Wash the mixture with deionized water \\(2 &#xD7; 50 mL).",
+                "result": [
+                    {
+                        "DILUTE": {
+                            "emit": [
+                                {
+                                    "reagent0": "diluted reaction mixture"
+                                }
+                            ],
+                            "slot": [
+                                {
+                                    "reagent1": "reaction mixture"
+                                },
+                                {
+                                    "reagent2": "diethyl ether"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "TRANSFER": {
+                            "emit": [
+                                {
+                                    "reagent0": "diluted reaction mixture"
+                                }
+                            ],
+                            "slot": [
+                                {
+                                    "source": "diluted reaction mixture"
+                                },
+                                {
+                                    "destination": "250 mL separatory funnel"
+                                },
+                                {
+                                    "reagent1": "diethyl ether"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "ADD": {
+                            "emit": [
+                                {
+                                    "reagent0": "diluted reaction mixture"
+                                }
+                            ],
+                            "slot": [
+                                {
+                                    "reagent1": "diluted reaction mixture"
+                                },
+                                {
+                                    "reagent2": "diethyl ether"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "WASH": {
+                            "emit": [],
+                            "slot": [
+                                {
+                                    "reagent1": "diluted reaction mixture"
+                                },
+                                {
+                                    "reagent2": "deionized water"
+                                },
+                                {
+                                    "repeat": "2"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "5)",
+        "body": [
+            {
+                "sentence": "Dry the organic layer over Na<sub>2</sub>SO<sub>4</sub> in a 250 Erlenmyer with such an amount of Na<sub>2</sub>SO<sub>4</sub> that the solid is free flowing when the flask is swirled. At this point filter off the drying agent and rinse with 25 mL diethyl ether.",
+                "result": [
+                    {
+                        "DRY": {
+                            "emit": [
+                                {
+                                    "reagent0": "organic layer"
+                                }
+                            ],
+                            "slot": [
+                                {
+                                    "reagent1": "organic layer"
+                                },
+                                {
+                                    "device": "250 Erlenmyer"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "FILTER": {
+                            "emit": [
+                                {
+                                    "reagent0": "organic layer"
+                                }
+                            ],
+                            "slot": [
+                                {
+                                    "reagent1": "organic layer"
+                                },
+                                {
+                                    "filter": "Na2SO4"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "RINSE": {
+                            "emit": [
+                                {
+                                    "reagent0": "organic layer"
+                                }
+                            ],
+                            "slot": [
+                                {
+                                    "reagent1": "drying agent"
+                                },
+                                {
+                                    "reagent2": "diethyl ether"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "6)",
+        "body": [
+            {
+                "sentence": "Concentrate the product by rotary evaporation until the volume is approximately 10 mL. This solution is to be used directly in the next step",
+                "result": [
+                    {
+                        "CONCENTRATE": {
+                            "emit": [
+                                {
+                                    "reagent0": "product"
+                                }
+                            ],
+                            "slot": [
+                                {
+                                    "reagent1": "product"
+                                },
+                                {
+                                    "targetVol": "10 mL"
+                                },
+                                {
+                                    "method": "rotary evaporation"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "7)",
+        "body": [
+            {
+                "sentence": "Seal a 100 mL 2-neck round bottom flask equipped with a Teflon coated magnetic stir bar with two rubber septa. Flush the flask with argon for 10 minutes using an argon filled balloon equipped with an 19 gauge disposable needle for both entry and another 19 gauge needle for an exit. Remove the exit needle after flushing with argon.",
+                "result": [
+                    {
+                        "SEAL": {
+                            "emit": [
+                                {
+                                    "reagent0": "100 mL 2-neck round bottom flask"
+                                }
+                            ],
+                            "slot": [
+                                {
+                                    "reagent1": "100 mL 2-neck round bottom flask"
+                                },
+                                {
+                                    "reagent2": "rubber septa"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "FLUSH": {
+                            "emit": [
+                                {
+                                    "reagent0": "100 mL 2-neck round bottom flask"
+                                }
+                            ],
+                            "slot": [
+                                {
+                                    "reagent1": "100 mL 2-neck round bottom flask"
+                                },
+                                {
+                                    "reagent2": "argon"
+                                },
+                                {
+                                    "time": "10 minutes"
+                                },
+                                {
+                                    "notice": "Remove the exit needle after flushing with argon."
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "8)",
+        "body": [
+            {
+                "sentence": "Add 0.65 mL of tripropargylamine \\(4.75 mmol) and 5.0 mL of acetonitrile by syringe. Cool the solution to 0 &#xBA;C using an ice/water bath and add 0.60 mL of 2,6-lutidine by syringe to the stirred solution. Add copper\\(I) iodide as a solid; carefully but quickly removing and replacing one of the septa during the addition.",
+                "result": [
+                    {
+                        "ADD": {
+                            "emit": [],
+                            "slot": [
+                                {
+                                    "reagent1": "tripropargylamine"
+                                },
+                                {
+                                    "reagent2": "acetonitrile"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "COOL": {
+                            "emit": [
+                                {
+                                    "reagent0": "solution"
+                                }
+                            ],
+                            "slot": [
+                                {
+                                    "reagent1": "solution"
+                                },
+                                {
+                                    "temperature": "0 \u00b0C"
+                                },
+                                {
+                                    "environment": "ice/water bath"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "ADD": {
+                            "emit": [
+                                {
+                                    "reagent0": "stirred solution"
+                                }
+                            ],
+                            "slot": [
+                                {
+                                    "reagent1": "tripropargylamine"
+                                },
+                                {
+                                    "reagent2": "2,6-lutidine"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "ADD": {
+                            "emit": [
+                                {
+                                    "reagent0": "copper(I) iodide"
+                                }
+                            ],
+                            "slot": [
+                                {
+                                    "reagent1": "tripropargylamine"
+                                },
+                                {
+                                    "reagent2": "copper(I) iodide"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "REPLACE": {
+                            "emit": [
+                                {
+                                    "reagent0": "copper(I) iodide"
+                                }
+                            ],
+                            "slot": [
+                                {
+                                    "reagent1": "one of the septa"
+                                },
+                                {
+                                    "reagent2": "copper(I) iodide"
+                                },
+                                {
+                                    "temperature": "0 \u00b0C"
+                                },
+                                {
+                                    "time": "<blank>"
+                                },
+                                {
+                                    "position": "<blank>"
+                                },
+                                {
+                                    "frequency": "<blank>"
+                                },
+                                {
+                                    "notice": "<blank>"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "9)",
+        "body": [
+            {
+                "sentence": "After all reagents have been added, flush the reaction with argon for 10 minutes. Remove the ice bath after one hour of stirring and stir at room temperature for 48 hours.",
+                "result": [
+                    {
+                        "FLUSH": {
+                            "emit": [
+                                {
+                                    "reagent0": "reaction"
+                                }
+                            ],
+                            "slot": [
+                                {
+                                    "reagent1": "reaction"
+                                },
+                                {
+                                    "reagent2": "argon"
+                                },
+                                {
+                                    "time": "10 minutes"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "REMOVE": {
+                            "emit": [],
+                            "slot": [
+                                {
+                                    "reagent1": "ice bath"
+                                },
+                                {
+                                    "method": "stirring"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "STIR": {
+                            "emit": [
+                                {
+                                    "reagent0": "reaction"
+                                }
+                            ],
+                            "slot": [
+                                {
+                                    "reagent1": "solution"
+                                },
+                                {
+                                    "time": "48 hours"
+                                },
+                                {
+                                    "temperature": "room temperature"
+                                },
+                                {
+                                    "device": "magnetic stir bar"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "9)",
+        "body": [
+            {
+                "sentence": "After the prescribed reaction time, remove solvent by rotary evaporation and purify the residue by column chromatography by loading the residue onto a silica column with ethyl acetate and eluting with the same solvent. TLC analysis should be used to locate the fractions with the desired product.",
+                "result": [
+                    {
+                        "REMOVE": {
+                            "emit": [
+                                {
+                                    "reagent0": "residue"
+                                }
+                            ],
+                            "slot": [
+                                {
+                                    "reagent1": "solvent"
+                                },
+                                {
+                                    "method": "rotary evaporation"
+                                },
+                                {
+                                    "device": "rotary evaporator"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "PURIFY": {
+                            "emit": [
+                                {
+                                    "reagent0": "residue"
+                                }
+                            ],
+                            "slot": [
+                                {
+                                    "reagent1": "residue"
+                                },
+                                {
+                                    "method": "column chromatography"
+                                },
+                                {
+                                    "device": "silica column"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "LOAD": {
+                            "emit": [
+                                {
+                                    "reagent0": "residue"
+                                }
+                            ],
+                            "slot": [
+                                {
+                                    "reagent1": "residue"
+                                },
+                                {
+                                    "destination": "silica column"
+                                },
+                                {
+                                    "method": "ethyl acetate"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "ELUTE": {
+                            "emit": [
+                                {
+                                    "reagent0": "residue"
+                                }
+                            ],
+                            "slot": [
+                                {
+                                    "reagent1": "residue"
+                                },
+                                {
+                                    "reagent2": "ethyl acetate"
+                                },
+                                {
+                                    "component": "residue"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "ANALYZE": {
+                            "emit": [
+                                {
+                                    "data0": "fractions with the desired product"
+                                }
+                            ],
+                            "slot": [
+                                {
+                                    "reagent1": "residue"
+                                },
+                                {
+                                    "method": "TLC analysis"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "10)",
+        "body": [
+            {
+                "sentence": "Combine the fractions containing the product and remove the solvent by rotary evaporation. The product should be a white solid and can be used without additional purification.",
+                "result": [
+                    {
+                        "COMBINE": {
+                            "emit": [
+                                {
+                                    "reagent0": "fractions with the desired product"
+                                }
+                            ],
+                            "slot": [
+                                {
+                                    "reagent1": "fractions with the desired product"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "REMOVE": {
+                            "emit": [
+                                {
+                                    "reagent0": "residue"
+                                }
+                            ],
+                            "slot": [
+                                {
+                                    "reagent1": "solvent"
+                                },
+                                {
+                                    "method": "rotary evaporation"
+                                },
+                                {
+                                    "device": "rotary evaporator"
+                                },
+                                {
+                                    "notice": "The product should be a white solid and can be used without additional purification."
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "11)",
+        "body": [
+            {
+                "sentence": "The solid can be crystallized if further purification is desired. Dissolve the solid in a minimal amount of boiling methanol. Cool slowly to room temperature and add diethyl ether dropwise until the solution is cloudy. Warm gently to redissolve all material and the let stand. The compound crystallizes as small white needles that can be isolated by filtration. Drying under vacuum is recommended.",
+                "result": [
+                    {
+                        "DISSOLVE": {
+                            "emit": [
+                                {
+                                    "reagent0": "solid"
+                                }
+                            ],
+                            "slot": [
+                                {
+                                    "reagent1": "solid"
+                                },
+                                {
+                                    "reagent2": "boiling methanol"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "COOL": {
+                            "emit": [
+                                {
+                                    "reagent0": "solid"
+                                }
+                            ],
+                            "slot": [
+                                {
+                                    "reagent1": "solid"
+                                },
+                                {
+                                    "temperature": "room temperature"
+                                },
+                                {
+                                    "time": "<blank>"
+                                },
+                                {
+                                    "environment": "<blank>"
+                                },
+                                {
+                                    "notice": "<blank>"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "ADD": {
+                            "emit": [
+                                {
+                                    "reagent0": "solution"
+                                }
+                            ],
+                            "slot": [
+                                {
+                                    "reagent1": "solid"
+                                },
+                                {
+                                    "reagent2": "diethyl ether"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "WARM": {
+                            "emit": [
+                                {
+                                    "reagent0": "solid"
+                                }
+                            ],
+                            "slot": [
+                                {
+                                    "reagent1": "solid"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "FILTER": {
+                            "emit": [
+                                {
+                                    "reagent0": "small white needles"
+                                }
+                            ],
+                            "slot": [
+                                {
+                                    "reagent1": "solid"
+                                },
+                                {
+                                    "filter": "filtration"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "DRY": {
+                            "emit": [
+                                {
+                                    "reagent0": "solid"
+                                }
+                            ],
+                            "slot": [
+                                {
+                                    "reagent1": "solid"
+                                },
+                                {
+                                    "device": "vacuum"
+                                },
+                                {
+                                    "environment": "vacuum"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        ]
+    }
+]

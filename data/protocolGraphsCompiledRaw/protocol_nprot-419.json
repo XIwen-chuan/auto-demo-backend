@@ -1,0 +1,535 @@
+[
+    {
+        "title": "**Expression**",
+        "body": [
+            {
+                "title": "1)",
+                "body": [
+                    {
+                        "sentence": "100ml o/n LB/amp culture per 800ml culture the next day, 37&#xB0;C.",
+                        "result": [
+                            {
+                                "PREPARE": {
+                                    "emit": [
+                                        {
+                                            "reagent0": "o/n LB/amp culture"
+                                        }
+                                    ],
+                                    "slot": [
+                                        {
+                                            "reagent1": "o/n LB/amp culture"
+                                        },
+                                        {
+                                            "container": "100ml"
+                                        },
+                                        {
+                                            "temperature": "37\u00b0C"
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "INCUBATE": {
+                                    "emit": [
+                                        {
+                                            "reagent0": "o/n LB/amp culture"
+                                        }
+                                    ],
+                                    "slot": [
+                                        {
+                                            "reagent1": "o/n LB/amp culture"
+                                        },
+                                        {
+                                            "temperature": "37\u00b0C"
+                                        }
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "2)",
+                "body": [
+                    {
+                        "sentence": "Seed 800ml LB/amp culture with 100ml o/n culture.  Grow at 37&#xB0;C until OD600 = 0.6-1.2.  \r\n\n\nInduce with 1mM IPTG.  Grow 3hr.  Harvest.",
+                        "result": [
+                            {
+                                "SEED": {
+                                    "emit": [
+                                        {
+                                            "reagent0": "800ml LB/amp culture"
+                                        }
+                                    ],
+                                    "slot": [
+                                        {
+                                            "reagent1": "o/n LB/amp culture"
+                                        },
+                                        {
+                                            "cellDensity": "800ml"
+                                        },
+                                        {
+                                            "reagent2": "LB/amp culture"
+                                        },
+                                        {
+                                            "environment": "37\u00b0C"
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "GROW": {
+                                    "emit": [
+                                        {
+                                            "reagent0": "800ml LB/amp culture"
+                                        }
+                                    ],
+                                    "slot": [
+                                        {
+                                            "reagent1": "800ml LB/amp culture"
+                                        },
+                                        {
+                                            "temperature": "37\u00b0C"
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "INDUCE": {
+                                    "emit": [
+                                        {
+                                            "reagent0": "o/n LB/amp culture"
+                                        }
+                                    ],
+                                    "slot": [
+                                        {
+                                            "reagent1": "1mM IPTG"
+                                        },
+                                        {
+                                            "temperature": "37\u00b0C"
+                                        },
+                                        {
+                                            "time": "3hr"
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "GROW": {
+                                    "emit": [],
+                                    "slot": [
+                                        {
+                                            "reagent1": "800ml LB/amp culture"
+                                        },
+                                        {
+                                            "temperature": "37\u00b0C"
+                                        },
+                                        {
+                                            "time": "3hr"
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "HARVEST": {
+                                    "emit": [
+                                        {
+                                            "reagent0": "o/n LB/amp culture"
+                                        }
+                                    ],
+                                    "slot": [
+                                        {
+                                            "reagent1": "800ml LB/amp culture"
+                                        },
+                                        {
+                                            "container": "<blank>"
+                                        },
+                                        {
+                                            "method": "<blank>"
+                                        },
+                                        {
+                                            "environment": "<blank>"
+                                        },
+                                        {
+                                            "purpose": "<blank>"
+                                        },
+                                        {
+                                            "notice": "<blank>"
+                                        }
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "3)",
+                "body": [
+                    {
+                        "sentence": "Spin 8krpm, 15min, 4&#xB0;C.",
+                        "result": [
+                            {
+                                "SPIN": {
+                                    "emit": [
+                                        {
+                                            "reagent0": "o/n LB/amp culture"
+                                        }
+                                    ],
+                                    "slot": [
+                                        {
+                                            "reagent1": "o/n LB/amp culture"
+                                        },
+                                        {
+                                            "intensity": "8krpm"
+                                        },
+                                        {
+                                            "time": "15min"
+                                        },
+                                        {
+                                            "temperature": "4\u00b0C"
+                                        },
+                                        {
+                                            "device": "centrifuge"
+                                        }
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "4)",
+                "body": [
+                    {
+                        "sentence": "Resuspend in His Binding Buffer.  Snap freeze.",
+                        "result": [
+                            {
+                                "RESUSPEND": {
+                                    "emit": [
+                                        {
+                                            "reagent0": "o/n LB/amp culture"
+                                        }
+                                    ],
+                                    "slot": [
+                                        {
+                                            "reagent1": "o/n LB/amp culture"
+                                        },
+                                        {
+                                            "reagent2": "His Binding Buffer"
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "FREEZE": {
+                                    "emit": [
+                                        {
+                                            "reagent0": "o/n LB/amp culture"
+                                        }
+                                    ],
+                                    "slot": [
+                                        {
+                                            "reagent1": "o/n LB/amp culture"
+                                        }
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "**Purification**",
+        "body": [
+            {
+                "title": "1)",
+                "body": [
+                    {
+                        "sentence": "Lyse 2x800 ml cell pellets with homogenizer.",
+                        "result": []
+                    }
+                ]
+            },
+            {
+                "title": "2)",
+                "body": [
+                    {
+                        "sentence": "Spin at 16 krpm, 30min, 4&#xB0;C.",
+                        "result": [
+                            {
+                                "SPIN": {
+                                    "emit": [
+                                        {
+                                            "reagent0": "o/n LB/amp culture"
+                                        }
+                                    ],
+                                    "slot": [
+                                        {
+                                            "reagent1": "o/n LB/amp culture"
+                                        },
+                                        {
+                                            "intensity": "16 krpm"
+                                        },
+                                        {
+                                            "time": "30min"
+                                        },
+                                        {
+                                            "temperature": "4\u00b0C"
+                                        },
+                                        {
+                                            "device": "centrifuge"
+                                        }
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "3)",
+                "body": [
+                    {
+                        "sentence": "Load supernatant on to 3 ml equilibrated Ni-NTA column.",
+                        "result": [
+                            {
+                                "LOAD": {
+                                    "emit": [
+                                        {
+                                            "reagent0": "supernatant"
+                                        }
+                                    ],
+                                    "slot": [
+                                        {
+                                            "reagent1": "supernatant"
+                                        },
+                                        {
+                                            "destination": "3 ml equilibrated Ni-NTA column"
+                                        }
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "4)",
+                "body": [
+                    {
+                        "sentence": "Wash with 50 ml binding buffer.",
+                        "result": [
+                            {
+                                "WASH": {
+                                    "emit": [
+                                        {
+                                            "reagent0": "o/n LB/amp culture"
+                                        }
+                                    ],
+                                    "slot": [
+                                        {
+                                            "reagent1": "o/n LB/amp culture"
+                                        },
+                                        {
+                                            "reagent2": "binding buffer"
+                                        }
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "5)",
+                "body": [
+                    {
+                        "sentence": "Wash with 10 column volumes wash buffer.",
+                        "result": [
+                            {
+                                "WASH": {
+                                    "emit": [
+                                        {
+                                            "reagent0": "o/n LB/amp culture"
+                                        }
+                                    ],
+                                    "slot": [
+                                        {
+                                            "reagent1": "o/n LB/amp culture"
+                                        },
+                                        {
+                                            "reagent2": "wash buffer"
+                                        },
+                                        {
+                                            "repeat": "10"
+                                        }
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "6)",
+                "body": [
+                    {
+                        "sentence": "Elute with elution buffer.",
+                        "result": [
+                            {
+                                "ELUTE": {
+                                    "emit": [
+                                        {
+                                            "reagent0": "o/n LB/amp culture"
+                                        }
+                                    ],
+                                    "slot": [
+                                        {
+                                            "reagent1": "o/n LB/amp culture"
+                                        },
+                                        {
+                                            "reagent2": "elution buffer"
+                                        }
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "7)",
+                "body": [
+                    {
+                        "sentence": "Dialyze protein into dialysis buffer 1.",
+                        "result": [
+                            {
+                                "DIALYZE": {
+                                    "emit": [
+                                        {
+                                            "reagent0": "protein"
+                                        }
+                                    ],
+                                    "slot": [
+                                        {
+                                            "reagent1": "protein"
+                                        },
+                                        {
+                                            "reagent2": "dialysis buffer 1"
+                                        }
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "8)",
+                "body": [
+                    {
+                        "sentence": "Concentrate VD1 to 20-30 mg/ml.",
+                        "result": [
+                            {
+                                "CONCENTRATE": {
+                                    "emit": [
+                                        {
+                                            "reagent0": "VD1"
+                                        }
+                                    ],
+                                    "slot": [
+                                        {
+                                            "reagent1": "VD1"
+                                        },
+                                        {
+                                            "targetVol": "20-30 mg/ml"
+                                        }
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "9)",
+                "body": [
+                    {
+                        "sentence": "Dialyze protein into dialysis buffer 2 or end use buffer.",
+                        "result": [
+                            {
+                                "DIALYZE": {
+                                    "emit": [
+                                        {
+                                            "reagent0": "protein"
+                                        }
+                                    ],
+                                    "slot": [
+                                        {
+                                            "reagent1": "protein"
+                                        },
+                                        {
+                                            "reagent2": "dialysis buffer 2 or end use buffer"
+                                        }
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "10)",
+                "body": [
+                    {
+                        "sentence": "SDS PAGE on purification.",
+                        "result": [
+                            {
+                                "PERFORM": {
+                                    "emit": [],
+                                    "slot": [
+                                        {
+                                            "procedure": "Perform SDS PAGE on purification"
+                                        }
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "11)",
+                "body": [
+                    {
+                        "sentence": "Dialyze protein into appropriate experimental buffer",
+                        "result": [
+                            {
+                                "DIALYZE": {
+                                    "emit": [
+                                        {
+                                            "reagent0": "protein"
+                                        }
+                                    ],
+                                    "slot": [
+                                        {
+                                            "reagent1": "protein"
+                                        },
+                                        {
+                                            "reagent2": "appropriate experimental buffer"
+                                        }
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+]

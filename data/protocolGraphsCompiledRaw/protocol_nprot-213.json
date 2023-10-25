@@ -1,0 +1,369 @@
+[
+    {
+        "sentence": "\nCompetitive inhibition of CXCL8 binding to CXCR2 receptor by CXCR2 agonist",
+        "result": []
+    },
+    {
+        "title": "1.",
+        "body": [
+            {
+                "sentence": "Cultivate cells endogenously expressing or stably overexpressing CXCR2 \\(i.e. HEK293-CXCR2 cells) \\(10<sup>5</sup> cells/mL) in a 24-well plate in DMEM medium plus 10% FCS overnight.",
+                "result": []
+            }
+        ]
+    },
+    {
+        "title": "2.",
+        "body": [
+            {
+                "sentence": "Remove the medium and add binding buffer \\(medium without FCS).",
+                "result": [
+                    {
+                        "REMOVE": {
+                            "emit": [
+                                {
+                                    "reagent0": "binding buffer (medium without FCS)"
+                                }
+                            ],
+                            "slot": [
+                                {
+                                    "reagent1": "medium"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "ADD": {
+                            "emit": [
+                                {
+                                    "reagent0": "binding buffer (medium without FCS)"
+                                }
+                            ],
+                            "slot": [
+                                {
+                                    "reagent2": "binding buffer (medium without FCS)"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "3.",
+        "body": [
+            {
+                "sentence": "Put the plate on ice for 10 min.",
+                "result": [
+                    {
+                        "PUT": {
+                            "emit": [
+                                {
+                                    "reagent0": "plate"
+                                }
+                            ],
+                            "slot": [
+                                {
+                                    "reagent1": "plate"
+                                },
+                                {
+                                    "destination": "ice"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "4.",
+        "body": [
+            {
+                "sentence": "Add cold agonist, i.e. rMIF or cold CXCL8 \\(0 &#x2013; 1 &#xB5;M) together with the tracer \\(40 pM of 125I -labeled recombinant CXCL8).",
+                "result": [
+                    {
+                        "ADD": {
+                            "emit": [
+                                {
+                                    "reagent0": "plate"
+                                }
+                            ],
+                            "slot": [
+                                {
+                                    "reagent1": "rMIF or cold CXCL8"
+                                },
+                                {
+                                    "reagent2": "40 pM of 125I-labeled recombinant CXCL8"
+                                },
+                                {
+                                    "ratio": "0 \u2013 1 \u00b5M"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "5.",
+        "body": [
+            {
+                "sentence": "Perform equilibrium receptor binding for 90 min at 4 &#xB0;C.",
+                "result": [
+                    {
+                        "PERFORM": {
+                            "emit": [],
+                            "slot": [
+                                {
+                                    "procedure": "Perform equilibrium receptor binding"
+                                },
+                                {
+                                    "environment": "4 \u00b0C"
+                                },
+                                {
+                                    "time": "90 min"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "6.",
+        "body": [
+            {
+                "sentence": "Remove the medium and wash the cells twice with cold medium.",
+                "result": [
+                    {
+                        "REMOVE": {
+                            "emit": [
+                                {
+                                    "reagent0": "medium"
+                                }
+                            ],
+                            "slot": [
+                                {
+                                    "reagent1": "medium"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "WASH": {
+                            "emit": [
+                                {
+                                    "reagent0": "cells"
+                                }
+                            ],
+                            "slot": [
+                                {
+                                    "reagent1": "cells"
+                                },
+                                {
+                                    "reagent2": "cold medium"
+                                },
+                                {
+                                    "repeat": "2"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "7.",
+        "body": [
+            {
+                "sentence": "Harvest the cells by adding 0.5 M NaOH.",
+                "result": [
+                    {
+                        "HARVEST": {
+                            "emit": [
+                                {
+                                    "reagent0": "cells"
+                                }
+                            ],
+                            "slot": [
+                                {
+                                    "reagent1": "cells"
+                                },
+                                {
+                                    "container": "NaOH"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "8.",
+        "body": [
+            {
+                "sentence": "Transfer the lysate to a liquid scintillation tube.",
+                "result": [
+                    {
+                        "TRANSFER": {
+                            "emit": [
+                                {
+                                    "reagent0": "lysate"
+                                }
+                            ],
+                            "slot": [
+                                {
+                                    "source": "lysate"
+                                },
+                                {
+                                    "destination": "liquid scintillation tube"
+                                },
+                                {
+                                    "reagent1": "lysate"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "9.",
+        "body": [
+            {
+                "sentence": "Add Aquasafe 500 plus LSC cocktail and mix well.",
+                "result": [
+                    {
+                        "ADD": {
+                            "emit": [
+                                {
+                                    "reagent0": "plate"
+                                }
+                            ],
+                            "slot": [
+                                {
+                                    "reagent1": "Aquasafe 500 plus LSC cocktail"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "MIX": {
+                            "emit": [
+                                {
+                                    "reagent0": "plate"
+                                }
+                            ],
+                            "slot": [
+                                {
+                                    "reagent1": "Aquasafe 500 plus LSC cocktail"
+                                },
+                                {
+                                    "method": "mix well"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "10.",
+        "body": [
+            {
+                "sentence": "Determine the cell-bound radioactivity by liquid scintillation counting.",
+                "result": [
+                    {
+                        "DETERMINE": {
+                            "emit": [
+                                {
+                                    "data0": "<blank>"
+                                }
+                            ],
+                            "slot": [
+                                {
+                                    "device": "liquid scintillation counter"
+                                },
+                                {
+                                    "reagent1": "Aquasafe 500 plus LSC cocktail"
+                                },
+                                {
+                                    "parameter": "cell-bound radioactivity"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "11.",
+        "body": [
+            {
+                "sentence": "For most agonist-receptor interactions, assume that receptor binding inhibition by agonist \\(i.e. rMIF or cold CXCL8) follows a one-site model.",
+                "result": []
+            }
+        ]
+    },
+    {
+        "title": "12.",
+        "body": [
+            {
+                "sentence": "Calculate the EC<sub>50</sub>, K<sub>i</sub> and K<sub>d</sub> values by using the equation of Cheng and Prusoff for heterologous competition experiments, applying the GraphPad software.",
+                "result": [
+                    {
+                        "CALCULATE": {
+                            "emit": [],
+                            "slot": [
+                                {
+                                    "attribute": "EC50, Ki and Kd values"
+                                },
+                                {
+                                    "formula": "Cheng and Prusoff equation"
+                                },
+                                {
+                                    "software": "GraphPad"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "APPLY": {
+                            "emit": [
+                                {
+                                    "reagent0": "<blank>"
+                                }
+                            ],
+                            "slot": [
+                                {
+                                    "reagent1": "GraphPad software"
+                                },
+                                {
+                                    "reagent2": "<blank>"
+                                },
+                                {
+                                    "ratio": "<blank>"
+                                },
+                                {
+                                    "concentration": "<blank>"
+                                },
+                                {
+                                    "notice": "<blank>"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        ]
+    }
+]

@@ -1,0 +1,148 @@
+[
+    {
+        "title": "1.",
+        "body": [
+            {
+                "sentence": "Activation of polystyrene surface\r\n  \r\n\n\nThe wells of a polystyrene plate were activated by coating with FNAB followed by photoactivation by UV light for 15 min at a wavelength of 365 nm as described \\(4).      \r\n\n\n\r\n\n\nCRITICAL   We have decreased UV exposure time for activation of microtiter plate from 20 minutes to 15 minutes without any significant difference in results.",
+                "result": [
+                    {
+                        "COAT": {
+                            "emit": [
+                                {
+                                    "reagent0": "polystyrene plate"
+                                }
+                            ],
+                            "slot": [
+                                {
+                                    "reagent1": "polystyrene plate"
+                                },
+                                {
+                                    "reagent2": "FNAB"
+                                },
+                                {
+                                    "time": "15 min"
+                                },
+                                {
+                                    "device": "UV light"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "EXPOSE": {
+                            "emit": [
+                                {
+                                    "reagent0": "polystyrene plate"
+                                }
+                            ],
+                            "slot": [
+                                {
+                                    "reagent1": "polystyrene plate"
+                                },
+                                {
+                                    "method": "UV light"
+                                },
+                                {
+                                    "time": "15 min"
+                                },
+                                {
+                                    "intensity": "<blank>"
+                                },
+                                {
+                                    "device": "365 nm"
+                                },
+                                {
+                                    "notice": "<blank>"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "2.",
+        "body": [
+            {
+                "sentence": "Detection of analyte\r\n\n\n\r\n\n\nIn activated and untreated polystyrene plates  analyte \\( human IgG, human IgE) was detected by immobilizing capture molecule \\(anti-human IgG, anti-human IgE) onto the activated and untreated polystyrene plates followed by blocking , binding  of analyte  and secondary antibody-conjugate. The plates were washed after each step. Color development was carried out by adding  substrate- dye buffer and then stopped by adding 20 \u00b5l of 5% Sulfuric acid  and absorbance was recorded  at 490 nm.",
+                "result": [
+                    {
+                        "BLOCK": {
+                            "emit": [
+                                {
+                                    "reagent0": "polystyrene plate"
+                                }
+                            ],
+                            "slot": [
+                                {
+                                    "reagent1": "polystyrene plate"
+                                },
+                                {
+                                    "reagent2": "blocking solution"
+                                },
+                                {
+                                    "temperature": "room temperature"
+                                },
+                                {
+                                    "time": "1 hour"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "WASH": {
+                            "emit": [
+                                {
+                                    "reagent0": "polystyrene plate"
+                                }
+                            ],
+                            "slot": [
+                                {
+                                    "reagent1": "polystyrene plate"
+                                },
+                                {
+                                    "reagent2": "water"
+                                },
+                                {
+                                    "repeat": "1"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "ADD": {
+                            "emit": [
+                                {
+                                    "reagent0": "activated and untreated polystyrene plates"
+                                }
+                            ],
+                            "slot": [
+                                {
+                                    "reagent1": "activated and untreated polystyrene plates"
+                                },
+                                {
+                                    "reagent2": "substrate-dye buffer"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "RECORD": {
+                            "emit": [
+                                {
+                                    "data": "absorbance at 490 nm"
+                                }
+                            ],
+                            "slot": [
+                                {
+                                    "information": "absorbance at 490 nm"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        ]
+    }
+]

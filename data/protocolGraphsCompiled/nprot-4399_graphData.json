@@ -1,0 +1,281 @@
+{
+  "name": "nprot-4399_graphData.json",
+  "nodes": [
+    {
+      "id": "aae4b795-459f-420e-9968-0ebaa5f648ee",
+      "text": "On Day 1, plate cells at a concentration of 1 million cells / mL.",
+      "instruction": "PLATE",
+      "slots": [
+        {
+          "key": "reagent1",
+          "value": "cells",
+          "id": "896a22df-946b-4770-8895-62d954e5aef5",
+          "node_id": "aae4b795-459f-420e-9968-0ebaa5f648ee"
+        },
+        {
+          "key": "reagent2",
+          "value": "plate",
+          "id": "417593fc-1f0c-4b85-9418-aa7ef5b16c1c",
+          "node_id": "aae4b795-459f-420e-9968-0ebaa5f648ee"
+        },
+        {
+          "key": "density",
+          "value": "1 million cells / mL",
+          "id": "8fe54988-4199-43de-9374-305aecfe7f36",
+          "node_id": "aae4b795-459f-420e-9968-0ebaa5f648ee"
+        }
+      ],
+      "emits": [
+        {
+          "key": "reagent0",
+          "value": "cells",
+          "id": "83326a67-2f84-45cc-8895-9af35590c0d8",
+          "node_id": "aae4b795-459f-420e-9968-0ebaa5f648ee"
+        }
+      ]
+    },
+    {
+      "id": "b4e9d69a-6366-4128-a572-81c7deec0470",
+      "text": "24 hours after plating, switch to serum-free or EV-cleared media.",
+      "instruction": "PLATE",
+      "slots": [
+        {
+          "key": "reagent1",
+          "value": "cells",
+          "id": "fac3aea8-410e-4fdd-ad09-041f917861b7",
+          "node_id": "b4e9d69a-6366-4128-a572-81c7deec0470"
+        },
+        {
+          "key": "reagent2",
+          "value": "serum-free or EV-cleared media",
+          "id": "238340a3-ab5a-46ed-be9b-ab035dcc99c1",
+          "node_id": "b4e9d69a-6366-4128-a572-81c7deec0470"
+        }
+      ],
+      "emits": [
+        {
+          "key": "reagent0",
+          "value": "cells",
+          "id": "6d95681f-f41c-4862-83b5-8309c1aacefd",
+          "node_id": "b4e9d69a-6366-4128-a572-81c7deec0470"
+        }
+      ]
+    },
+    {
+      "id": "2f7411e7-9191-430f-bc80-915e08fca014",
+      "text": "24 hours after plating, switch to serum-free or EV-cleared media.",
+      "instruction": "SWITCH",
+      "slots": [
+        {
+          "key": "device",
+          "value": "serum-free or EV-cleared media",
+          "id": "4d608b7e-2d58-457e-8340-4841044bb19c",
+          "node_id": "2f7411e7-9191-430f-bc80-915e08fca014"
+        },
+        {
+          "key": "time",
+          "value": "24 hours",
+          "id": "8a9202f9-ee8a-4b1f-a643-96b33edb01f9",
+          "node_id": "2f7411e7-9191-430f-bc80-915e08fca014"
+        }
+      ],
+      "emits": []
+    },
+    {
+      "id": "88de30d3-afc7-4f42-9f21-12852df8f726",
+      "text": "Collect supernatant after 24 hr \\(hESCs) or 48 hr \\(NRVMs or KMBCs).",
+      "instruction": "COLLECT",
+      "slots": [
+        {
+          "key": "reagent1",
+          "value": "supernatant",
+          "id": "a3871723-32e0-494c-be9b-1134439e406e",
+          "node_id": "88de30d3-afc7-4f42-9f21-12852df8f726"
+        },
+        {
+          "key": "container",
+          "value": "<blank>",
+          "id": "4c05e861-845f-4b53-8ad8-241568d43b6c",
+          "node_id": "88de30d3-afc7-4f42-9f21-12852df8f726"
+        },
+        {
+          "key": "method",
+          "value": "<blank>",
+          "id": "9a62a976-8b5d-42e7-b264-0700c49f5fea",
+          "node_id": "88de30d3-afc7-4f42-9f21-12852df8f726"
+        },
+        {
+          "key": "environment",
+          "value": "<blank>",
+          "id": "6dbc8487-ee3a-4226-8f38-4d307ec9308a",
+          "node_id": "88de30d3-afc7-4f42-9f21-12852df8f726"
+        },
+        {
+          "key": "purpose",
+          "value": "<blank>",
+          "id": "16375ebf-7fb0-403e-9fb4-7691d2312161",
+          "node_id": "88de30d3-afc7-4f42-9f21-12852df8f726"
+        },
+        {
+          "key": "notice",
+          "value": "<blank>",
+          "id": "4990a68c-b77d-43a4-b3d4-3034d0821691",
+          "node_id": "88de30d3-afc7-4f42-9f21-12852df8f726"
+        }
+      ],
+      "emits": [
+        {
+          "key": "reagent0",
+          "value": "supernatant",
+          "id": "51788eb9-dd75-4977-9d15-76ef4c792ea8",
+          "node_id": "88de30d3-afc7-4f42-9f21-12852df8f726"
+        }
+      ]
+    },
+    {
+      "id": "a41461d4-d918-4bf7-88ad-6c29a45b3607",
+      "text": "Centrifuge at 500 x g for 10 min.",
+      "instruction": "CENTRIFUGE",
+      "slots": [
+        {
+          "key": "reagent1",
+          "value": "cells",
+          "id": "7805b4ea-e957-4c7c-8f2f-bd6178eefc09",
+          "node_id": "a41461d4-d918-4bf7-88ad-6c29a45b3607"
+        },
+        {
+          "key": "intensity",
+          "value": "500 x g",
+          "id": "b612022e-ee14-4847-8d03-02be8c46f4d8",
+          "node_id": "a41461d4-d918-4bf7-88ad-6c29a45b3607"
+        },
+        {
+          "key": "time",
+          "value": "10 min",
+          "id": "820b3955-564f-49dd-9b1c-d1025aac5bdc",
+          "node_id": "a41461d4-d918-4bf7-88ad-6c29a45b3607"
+        }
+      ],
+      "emits": [
+        {
+          "key": "reagent0",
+          "value": "supernatant",
+          "id": "aa0d5593-f785-4b38-b393-80838ee9cc6b",
+          "node_id": "a41461d4-d918-4bf7-88ad-6c29a45b3607"
+        }
+      ]
+    },
+    {
+      "id": "3e6b2321-7f90-4e9a-b1d6-590f0b59cc49",
+      "text": "Transfer supernatant to a fresh tube and centrifuge at 2,000 x g for 10 min.",
+      "instruction": "TRANSFER",
+      "slots": [
+        {
+          "key": "source",
+          "value": "supernatant",
+          "id": "c5839eaa-7d97-429f-acab-91f7d6c91b25",
+          "node_id": "3e6b2321-7f90-4e9a-b1d6-590f0b59cc49"
+        },
+        {
+          "key": "destination",
+          "value": "fresh tube",
+          "id": "2ae5d98e-c2ef-40f0-b1de-4f1c820afc42",
+          "node_id": "3e6b2321-7f90-4e9a-b1d6-590f0b59cc49"
+        },
+        {
+          "key": "reagent1",
+          "value": "supernatant",
+          "id": "2204fec0-ba20-4289-b224-01300e54c5da",
+          "node_id": "3e6b2321-7f90-4e9a-b1d6-590f0b59cc49"
+        },
+        {
+          "key": "volume",
+          "value": "<blank>",
+          "id": "d9504c4e-7598-40ee-9791-402f861d2fd4",
+          "node_id": "3e6b2321-7f90-4e9a-b1d6-590f0b59cc49"
+        },
+        {
+          "key": "equipment",
+          "value": "<blank>",
+          "id": "78476d67-0afd-40d0-962c-958cbcf1607d",
+          "node_id": "3e6b2321-7f90-4e9a-b1d6-590f0b59cc49"
+        },
+        {
+          "key": "notice",
+          "value": "<blank>",
+          "id": "fdff1936-aa45-47df-a4ac-53e243d657ea",
+          "node_id": "3e6b2321-7f90-4e9a-b1d6-590f0b59cc49"
+        }
+      ],
+      "emits": [
+        {
+          "key": "reagent0",
+          "value": "supernatant",
+          "id": "be2e56c8-3e78-4c05-bf05-4ad6743867fc",
+          "node_id": "3e6b2321-7f90-4e9a-b1d6-590f0b59cc49"
+        }
+      ]
+    },
+    {
+      "id": "d0349652-93fe-4fb6-986b-fb88b637f3be",
+      "text": "Transfer supernatant to a fresh tube and centrifuge at 2,000 x g for 10 min.",
+      "instruction": "CENTRIFUGE",
+      "slots": [
+        {
+          "key": "reagent1",
+          "value": "supernatant",
+          "id": "41c47c6e-0169-4157-ac92-5fbb1c53d184",
+          "node_id": "d0349652-93fe-4fb6-986b-fb88b637f3be"
+        },
+        {
+          "key": "intensity",
+          "value": "2,000 x g",
+          "id": "bff85b1c-dad2-48c9-8440-684d78f918bc",
+          "node_id": "d0349652-93fe-4fb6-986b-fb88b637f3be"
+        },
+        {
+          "key": "time",
+          "value": "10 min",
+          "id": "4fbe30c3-8a6b-4e40-a38b-e11d900aa919",
+          "node_id": "d0349652-93fe-4fb6-986b-fb88b637f3be"
+        }
+      ],
+      "emits": [
+        {
+          "key": "reagent0",
+          "value": "supernatant",
+          "id": "e1c3fcf0-9a0e-444b-8564-8eaa688da5e5",
+          "node_id": "d0349652-93fe-4fb6-986b-fb88b637f3be"
+        }
+      ]
+    },
+    {
+      "id": "09cf49aa-0c9b-463a-baa0-67b66c065260",
+      "text": "Store cell-free supernatant at -80\u00b0C.",
+      "instruction": "STORE",
+      "slots": [
+        {
+          "key": "reagent1",
+          "value": "cell-free supernatant",
+          "id": "c4e75836-00c5-469b-9ea4-e4aa5f4157ef",
+          "node_id": "09cf49aa-0c9b-463a-baa0-67b66c065260"
+        },
+        {
+          "key": "temperature",
+          "value": "-80\u00b0C",
+          "id": "493dbfeb-51c3-439e-ab2a-c4d3f4b29760",
+          "node_id": "09cf49aa-0c9b-463a-baa0-67b66c065260"
+        }
+      ],
+      "emits": [
+        {
+          "key": "reagent0",
+          "value": "cell-free supernatant",
+          "id": "16cf7ebc-198c-47a7-b313-ecb9b733976f",
+          "node_id": "09cf49aa-0c9b-463a-baa0-67b66c065260"
+        }
+      ]
+    }
+  ],
+  "edges": []
+}

@@ -1,0 +1,186 @@
+{
+  "name": "nprot-2883_graphData.json",
+  "nodes": [
+    {
+      "id": "322d2cd3-4e2c-4351-821c-018e154bf5d2",
+      "text": "Activation of Polystyrene Surface \r\n  \r\n\n\nThe wells of a polystyrene microtiter plate were loaded with FNAB \\(10 \u00b5mol/50 \u00b5l methanol/well), allowed to air dry in the dark in a fume hood to get FNAB coated polymer surface.  FNAB coated polymer was then exposed to UV light at a wavelength of 365 nm for 20 min. The wells were washed thrice by ethanol followed by methanol. The activated plates were dried and used further for enzyme \\(biomolecule) immobilization.",
+      "instruction": "LOAD",
+      "slots": [
+        {
+          "key": "reagent1",
+          "value": "FNAB (10 \u00b5mol/50 \u00b5l methanol/well)",
+          "id": "9697828e-bb63-4dbf-9bed-0fec00ed5e9c",
+          "node_id": "322d2cd3-4e2c-4351-821c-018e154bf5d2"
+        },
+        {
+          "key": "destination",
+          "value": "wells of a polystyrene microtiter plate",
+          "id": "fb42d463-1bd6-4e89-93c8-1ae47f5924e0",
+          "node_id": "322d2cd3-4e2c-4351-821c-018e154bf5d2"
+        },
+        {
+          "key": "notice",
+          "value": "allowed to air dry in the dark in a fume hood to get FNAB coated polymer surface",
+          "id": "dfca6e2a-2a16-45e6-bb7c-8ece0aef3c47",
+          "node_id": "322d2cd3-4e2c-4351-821c-018e154bf5d2"
+        }
+      ],
+      "emits": [
+        {
+          "key": "reagent0",
+          "value": "FNAB coated polymer",
+          "id": "1a2a7270-45e3-47ce-b991-30307250f45d",
+          "node_id": "322d2cd3-4e2c-4351-821c-018e154bf5d2"
+        }
+      ]
+    },
+    {
+      "id": "0fd27764-5618-4e37-b625-fe2cb35bd306",
+      "text": "Activation of Polystyrene Surface \r\n  \r\n\n\nThe wells of a polystyrene microtiter plate were loaded with FNAB \\(10 \u00b5mol/50 \u00b5l methanol/well), allowed to air dry in the dark in a fume hood to get FNAB coated polymer surface.  FNAB coated polymer was then exposed to UV light at a wavelength of 365 nm for 20 min. The wells were washed thrice by ethanol followed by methanol. The activated plates were dried and used further for enzyme \\(biomolecule) immobilization.",
+      "instruction": "DRY",
+      "slots": [
+        {
+          "key": "reagent1",
+          "value": "activated plates",
+          "id": "7d9c3191-e6d9-4b8a-9295-f3c69e163149",
+          "node_id": "0fd27764-5618-4e37-b625-fe2cb35bd306"
+        }
+      ],
+      "emits": [
+        {
+          "key": "reagent0",
+          "value": "activated plates",
+          "id": "1609432a-f557-4d95-8b9c-7f158b6d0d8b",
+          "node_id": "0fd27764-5618-4e37-b625-fe2cb35bd306"
+        }
+      ]
+    },
+    {
+      "id": "1a57fe2f-99d1-46d7-9dec-4f6ca2bba783",
+      "text": "Optimization of incubation time for immobilisation of HRP on the Activated Polystyrene Surface\r\n  \r\n\n\nA stock solution of HRP was made in PBS \\(pH 7.2, 0.01 M). Different amounts of HRP \\(0\u201315 \u00b5g/well) were loaded into FNAB treated as well as untreated polystyrene wells and the final volume of each well was made up to 300 \u00b5l by adding buffer. The plates were incubated at 37\u00b0C for different time periods \\(45 min and 4",
+      "instruction": "PREPARE",
+      "slots": [
+        {
+          "key": "reagent1",
+          "value": "HRP",
+          "id": "d4bb810c-83c6-41b6-b793-12c0ff1c1a1e",
+          "node_id": "1a57fe2f-99d1-46d7-9dec-4f6ca2bba783"
+        },
+        {
+          "key": "container",
+          "value": "PBS",
+          "id": "2a1bc146-654c-4054-8484-b3ade9466238",
+          "node_id": "1a57fe2f-99d1-46d7-9dec-4f6ca2bba783"
+        },
+        {
+          "key": "concentration",
+          "value": "0.01 M",
+          "id": "88cb0993-5bb8-4eee-9df9-ce82e1e2937e",
+          "node_id": "1a57fe2f-99d1-46d7-9dec-4f6ca2bba783"
+        }
+      ],
+      "emits": [
+        {
+          "key": "reagent0",
+          "value": "HRP",
+          "id": "8c295c10-b3bc-403f-981a-c02943441d80",
+          "node_id": "1a57fe2f-99d1-46d7-9dec-4f6ca2bba783"
+        }
+      ]
+    },
+    {
+      "id": "40910b29-d5b5-4e64-baa5-a1c11732ab75",
+      "text": "Optimization of incubation time for immobilisation of HRP on the Activated Polystyrene Surface\r\n  \r\n\n\nA stock solution of HRP was made in PBS \\(pH 7.2, 0.01 M). Different amounts of HRP \\(0\u201315 \u00b5g/well) were loaded into FNAB treated as well as untreated polystyrene wells and the final volume of each well was made up to 300 \u00b5l by adding buffer. The plates were incubated at 37\u00b0C for different time periods \\(45 min and 4",
+      "instruction": "LOAD",
+      "slots": [
+        {
+          "key": "reagent1",
+          "value": "HRP",
+          "id": "f23b1540-3134-47a7-b6fb-eb78eec2634d",
+          "node_id": "40910b29-d5b5-4e64-baa5-a1c11732ab75"
+        },
+        {
+          "key": "destination",
+          "value": "FNAB treated as well as untreated polystyrene wells",
+          "id": "ee2df728-4fe0-4c50-8347-593ea7da6e0d",
+          "node_id": "40910b29-d5b5-4e64-baa5-a1c11732ab75"
+        },
+        {
+          "key": "volume",
+          "value": "0\u201315 \u00b5g/well",
+          "id": "4540dda0-e9ee-4819-b7ef-66d89a2da479",
+          "node_id": "40910b29-d5b5-4e64-baa5-a1c11732ab75"
+        }
+      ],
+      "emits": [
+        {
+          "key": "reagent0",
+          "value": "activated plates",
+          "id": "5d504b14-dbe1-49a2-98c9-53af48f7dfa8",
+          "node_id": "40910b29-d5b5-4e64-baa5-a1c11732ab75"
+        }
+      ]
+    },
+    {
+      "id": "cd4e382f-d967-460e-9097-e67921dda89d",
+      "text": "Optimization of incubation time for immobilisation of HRP on the Activated Polystyrene Surface\r\n  \r\n\n\nA stock solution of HRP was made in PBS \\(pH 7.2, 0.01 M). Different amounts of HRP \\(0\u201315 \u00b5g/well) were loaded into FNAB treated as well as untreated polystyrene wells and the final volume of each well was made up to 300 \u00b5l by adding buffer. The plates were incubated at 37\u00b0C for different time periods \\(45 min and 4",
+      "instruction": "ADD",
+      "slots": [
+        {
+          "key": "reagent1",
+          "value": "HRP",
+          "id": "16b94236-8864-47e2-9aa3-db6c9ec183e3",
+          "node_id": "cd4e382f-d967-460e-9097-e67921dda89d"
+        },
+        {
+          "key": "reagent2",
+          "value": "buffer",
+          "id": "607b3e57-13b7-48e1-b4d2-ed61d2a0a4e8",
+          "node_id": "cd4e382f-d967-460e-9097-e67921dda89d"
+        }
+      ],
+      "emits": [
+        {
+          "key": "reagent0",
+          "value": "buffer",
+          "id": "7d849b60-c6a4-49f4-8c54-d573328dc62d",
+          "node_id": "cd4e382f-d967-460e-9097-e67921dda89d"
+        }
+      ]
+    },
+    {
+      "id": "8e6c0636-23f0-4855-91e5-1de3611d7858",
+      "text": "Optimization of incubation time for immobilisation of HRP on the Activated Polystyrene Surface\r\n  \r\n\n\nA stock solution of HRP was made in PBS \\(pH 7.2, 0.01 M). Different amounts of HRP \\(0\u201315 \u00b5g/well) were loaded into FNAB treated as well as untreated polystyrene wells and the final volume of each well was made up to 300 \u00b5l by adding buffer. The plates were incubated at 37\u00b0C for different time periods \\(45 min and 4",
+      "instruction": "INCUBATE",
+      "slots": [
+        {
+          "key": "reagent1",
+          "value": "HRP",
+          "id": "7db59cf5-212c-49c6-be02-87daf07cad81",
+          "node_id": "8e6c0636-23f0-4855-91e5-1de3611d7858"
+        },
+        {
+          "key": "temperature",
+          "value": "37\u00b0C",
+          "id": "fea4e420-890d-4212-affd-89ecfd5527dc",
+          "node_id": "8e6c0636-23f0-4855-91e5-1de3611d7858"
+        },
+        {
+          "key": "time",
+          "value": "45 min and 4",
+          "id": "6e84076b-ca11-4dd6-8785-c2c5fefd56d0",
+          "node_id": "8e6c0636-23f0-4855-91e5-1de3611d7858"
+        }
+      ],
+      "emits": [
+        {
+          "key": "reagent0",
+          "value": "activated plates",
+          "id": "458630e2-ceba-4b13-a033-4abd9a69e8a0",
+          "node_id": "8e6c0636-23f0-4855-91e5-1de3611d7858"
+        }
+      ]
+    }
+  ],
+  "edges": []
+}

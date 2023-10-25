@@ -1,0 +1,624 @@
+[
+    {
+        "sentence": "\nPropargyl 2-acetamido-3,4,6-tri-O-acetyl-2-deoxy-&#x3B2;-D-glucopyranoside",
+        "result": [
+            {
+                "PREPARE": {
+                    "emit": [
+                        {
+                            "reagent0": "Propargyl 2-acetamido-3,4,6-tri-O-acetyl-2-deoxy-\u03b2-D-glucopyranoside"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "reagent1": "Propargyl 2-acetamido-3,4,6-tri-O-acetyl-2-deoxy-\u03b2-D-glucopyranoside"
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "title": "1)",
+        "body": [
+            {
+                "sentence": "Place 4.0 g of &#x3B2;-D glucosamine pentaacetate in a 250ml round bottom flask together with a Teflon coated stirrer bar.",
+                "result": [
+                    {
+                        "PLACE": {
+                            "emit": [
+                                {
+                                    "reagent0": "\u03b2-D glucosamine pentaacetate"
+                                }
+                            ],
+                            "slot": [
+                                {
+                                    "reagent1": "\u03b2-D glucosamine pentaacetate"
+                                },
+                                {
+                                    "destination": "250ml round bottom flask"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "2)",
+        "body": [
+            {
+                "sentence": "Dissolve 1.8 mL of propargyl alcohol in 90 mL of dichloromethane and add the freshly prepared solution to the round bottom flask with stirring.",
+                "result": [
+                    {
+                        "DISSOLVE": {
+                            "emit": [],
+                            "slot": [
+                                {
+                                    "reagent1": "propargyl alcohol"
+                                },
+                                {
+                                    "reagent2": "dichloromethane"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "ADD": {
+                            "emit": [
+                                {
+                                    "reagent0": "freshly prepared solution"
+                                }
+                            ],
+                            "slot": [
+                                {
+                                    "reagent1": "propargyl alcohol"
+                                },
+                                {
+                                    "reagent2": "freshly prepared solution"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "3)",
+        "body": [
+            {
+                "sentence": "Add 0.96 g of Ytterbium\\(III) trifluoromethanesulfonate hydrate to the stirred mixture and equip the flask with a water cooled condenser.",
+                "result": [
+                    {
+                        "ADD": {
+                            "emit": [],
+                            "slot": [
+                                {
+                                    "reagent1": "Ytterbium(III) trifluoromethanesulfonate hydrate"
+                                },
+                                {
+                                    "reagent2": "stirred mixture"
+                                },
+                                {
+                                    "notice": "equip the flask with a water cooled condenser"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "4)",
+        "body": [
+            {
+                "sentence": "Heat the reaction mixture to refluxing on an oil bath \\(bath temperature approximately 55 &#xB0;C) and keep at this temperature for 24 hours.",
+                "result": [
+                    {
+                        "HEAT": {
+                            "emit": [
+                                {
+                                    "reagent0": "reaction mixture"
+                                }
+                            ],
+                            "slot": [
+                                {
+                                    "reagent1": "reaction mixture"
+                                },
+                                {
+                                    "temperature": "55 \u00b0C"
+                                },
+                                {
+                                    "time": "24 hours"
+                                },
+                                {
+                                    "device": "oil bath"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "KEEP": {
+                            "emit": [
+                                {
+                                    "reagent0": "reaction mixture"
+                                }
+                            ],
+                            "slot": [
+                                {
+                                    "reagent1": "reaction mixture"
+                                },
+                                {
+                                    "temperature": "55 \u00b0C"
+                                },
+                                {
+                                    "time": "24 hours"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "5)",
+        "body": [
+            {
+                "sentence": "Dilute the solution with a further 50 mL of dichloromethane and transfer to a 500 mL separatory funnel.",
+                "result": [
+                    {
+                        "DILUTE": {
+                            "emit": [
+                                {
+                                    "reagent0": "solution"
+                                }
+                            ],
+                            "slot": [
+                                {
+                                    "reagent1": "solution"
+                                },
+                                {
+                                    "reagent2": "dichloromethane"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "TRANSFER": {
+                            "emit": [
+                                {
+                                    "reagent0": "solution"
+                                }
+                            ],
+                            "slot": [
+                                {
+                                    "source": "solution"
+                                },
+                                {
+                                    "destination": "500 mL separatory funnel"
+                                },
+                                {
+                                    "reagent1": "solution"
+                                },
+                                {
+                                    "volume": "50 mL"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "6)",
+        "body": [
+            {
+                "sentence": "Wash the organic layer with two 150 mL portions of a saturated aqueous solution of sodium hydrogen carbonate.",
+                "result": [
+                    {
+                        "WASH": {
+                            "emit": [
+                                {
+                                    "reagent0": "organic layer"
+                                }
+                            ],
+                            "slot": [
+                                {
+                                    "reagent1": "organic layer"
+                                },
+                                {
+                                    "reagent2": "saturated aqueous solution of sodium hydrogen carbonate"
+                                },
+                                {
+                                    "repeat": "2"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "7)",
+        "body": [
+            {
+                "sentence": "Wash the combined aqueous phases with one 100 mL portion of dichloromethane and combine all organic layers.",
+                "result": [
+                    {
+                        "WASH": {
+                            "emit": [
+                                {
+                                    "reagent0": "organic layer"
+                                }
+                            ],
+                            "slot": [
+                                {
+                                    "reagent1": "combined aqueous phases"
+                                },
+                                {
+                                    "reagent2": "dichloromethane"
+                                },
+                                {
+                                    "repeat": "1"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "COMBINE": {
+                            "emit": [
+                                {
+                                    "reagent0": "organic layers"
+                                }
+                            ],
+                            "slot": [
+                                {
+                                    "reagent1": "combined aqueous phases"
+                                },
+                                {
+                                    "reagent2": "dichloromethane"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "8)",
+        "body": [
+            {
+                "sentence": "Transfer the organic layer to a 500 mL round bottom flask, dry by stirring over approximately 2.5 g of anhydrous magnesium sulfate for 10 minutes and then remove the drying agent by suction filtration.",
+                "result": [
+                    {
+                        "TRANSFER": {
+                            "emit": [
+                                {
+                                    "reagent0": "organic layer"
+                                }
+                            ],
+                            "slot": [
+                                {
+                                    "source": "organic layer"
+                                },
+                                {
+                                    "destination": "500 mL round bottom flask"
+                                },
+                                {
+                                    "reagent1": "organic layer"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "STIR": {
+                            "emit": [
+                                {
+                                    "reagent0": "organic layer"
+                                }
+                            ],
+                            "slot": [
+                                {
+                                    "reagent1": "organic layer"
+                                },
+                                {
+                                    "time": "10 minutes"
+                                },
+                                {
+                                    "device": "magnetic stir bar"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "REMOVE": {
+                            "emit": [
+                                {
+                                    "reagent0": "organic layer"
+                                }
+                            ],
+                            "slot": [
+                                {
+                                    "reagent1": "organic layer"
+                                },
+                                {
+                                    "method": "suction filtration"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "9)",
+        "body": [
+            {
+                "sentence": "Distil off the solvent on a rotary evaporator at a bath temperature of 40 &#xB0;C.\r\n\n\n\r\n\n\n\r\n\n\nPropargyl 2-acetamido-2-deoxy-&#x3B2;-D-glucopyranoside",
+                "result": []
+            }
+        ]
+    },
+    {
+        "title": "10)",
+        "body": [
+            {
+                "sentence": "Place a Teflon coated stirrer bar and 1.5g of propargyl 2-acetamido-3,4,6-tri-O-acetyl-2-deoxy-&#x3B2;-D-glucopyranoside \\(from step",
+                "result": [
+                    {
+                        "PLACE": {
+                            "emit": [
+                                {
+                                    "reagent0": "<blank>"
+                                }
+                            ],
+                            "slot": [
+                                {
+                                    "reagent1": "Teflon coated stirrer bar"
+                                },
+                                {
+                                    "destination": "<blank>"
+                                },
+                                {
+                                    "temperature": "<blank>"
+                                },
+                                {
+                                    "device": "<blank>"
+                                },
+                                {
+                                    "notice": "<blank>"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "ADD": {
+                            "emit": [],
+                            "slot": [
+                                {
+                                    "reagent2": "propargyl 2-acetamido-3,4,6-tri-O-acetyl-2-deoxy-\u03b2-D-glucopyranoside"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "9)",
+        "body": [
+            {
+                "sentence": "in a 250ml round bottom flask.",
+                "result": []
+            }
+        ]
+    },
+    {
+        "title": "11)",
+        "body": [
+            {
+                "sentence": "Add 100 mL of methanol and stir the mixture until a clear solution is obtained.",
+                "result": [
+                    {
+                        "ADD": {
+                            "emit": [],
+                            "slot": [
+                                {
+                                    "reagent2": "methanol"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "STIR": {
+                            "emit": [
+                                {
+                                    "reagent0": "mixture"
+                                }
+                            ],
+                            "slot": [
+                                {
+                                    "reagent1": "mixture"
+                                },
+                                {
+                                    "device": "magnetic stir bar"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "12)",
+        "body": [
+            {
+                "sentence": "Add 21 mg of sodium methoxide to the stirred reaction mixture and monitor the progress of the reaction by an appropriate analytical technique \\(thin-layer chromatography using ethyl acetate :methanol \\(8.5 :1.5) as eluent is recommended).",
+                "result": [
+                    {
+                        "ADD": {
+                            "emit": [
+                                {
+                                    "reagent0": "mixture"
+                                }
+                            ],
+                            "slot": [
+                                {
+                                    "reagent1": "mixture"
+                                },
+                                {
+                                    "reagent2": "sodium methoxide"
+                                },
+                                {
+                                    "ratio": "<blank>"
+                                },
+                                {
+                                    "concentration": "<blank>"
+                                },
+                                {
+                                    "notice": "<blank>"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "MONITOR": {
+                            "emit": [
+                                {
+                                    "reagent0": "organic layer"
+                                }
+                            ],
+                            "slot": [
+                                {
+                                    "reagent1": "mixture"
+                                },
+                                {
+                                    "attribute": "progress of the reaction"
+                                },
+                                {
+                                    "method": "thin-layer chromatography"
+                                },
+                                {
+                                    "environment": "ethyl acetate :methanol (8.5 :1.5) as eluent"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "13)",
+        "body": [
+            {
+                "sentence": "If the reaction is not complete within 1 hour, add another portion of 10 mg of sodium methoxide to the reaction mixture.",
+                "result": [
+                    {
+                        "ADD": {
+                            "emit": [
+                                {
+                                    "reagent0": "mixture"
+                                }
+                            ],
+                            "slot": [
+                                {
+                                    "reagent1": "mixture"
+                                },
+                                {
+                                    "reagent2": "10 mg sodium methoxide"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "14)",
+        "body": [
+            {
+                "sentence": "Once completion of the reaction has been confirmed, add strongly acidic cation exchange resin until neutral pH is reached \\(test with pH paper).",
+                "result": [
+                    {
+                        "CONFIRM": {
+                            "emit": [],
+                            "slot": [
+                                {
+                                    "reagent1/data1/device": "mixture"
+                                },
+                                {
+                                    "state": "completion of the reaction"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "ADD": {
+                            "emit": [
+                                {
+                                    "reagent0": "mixture"
+                                }
+                            ],
+                            "slot": [
+                                {
+                                    "reagent1": "mixture"
+                                },
+                                {
+                                    "reagent2": "strongly acidic cation exchange resin"
+                                },
+                                {
+                                    "notice": "test with pH paper"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "15)",
+        "body": [
+            {
+                "sentence": "Remove the ion exchange resin by suction filtration and distil off the solvent on a rotary evaporator at a bath temperature of 40 &#xB0;C.",
+                "result": [
+                    {
+                        "REMOVE": {
+                            "emit": [
+                                {
+                                    "reagent0": "ion exchange resin"
+                                }
+                            ],
+                            "slot": [
+                                {
+                                    "reagent1": "ion exchange resin"
+                                },
+                                {
+                                    "method": "suction filtration"
+                                },
+                                {
+                                    "device": "rotary evaporator"
+                                },
+                                {
+                                    "notice": ""
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        ]
+    }
+]

@@ -1,0 +1,457 @@
+{
+  "name": "nprot-2326_graphData.json",
+  "nodes": [
+    {
+      "id": "cf644eed-9ee3-4ef4-8184-8de67b94f988",
+      "text": "As a general rule, maintain the bacterial preparation at 4\u00b0C by placing it in a boat-reservoir in CoolSinkBX50 and/or ThermalTray on ice.",
+      "instruction": "MAINTAIN",
+      "slots": [
+        {
+          "key": "reagent1/data1/device",
+          "value": "bacterial preparation",
+          "id": "1e80323d-706b-4708-8046-fe2bf16de2df",
+          "node_id": "cf644eed-9ee3-4ef4-8184-8de67b94f988"
+        },
+        {
+          "key": "state",
+          "value": "maintained at 4\u00b0C",
+          "id": "c371062a-2471-4de8-a410-b1af5b20b8c7",
+          "node_id": "cf644eed-9ee3-4ef4-8184-8de67b94f988"
+        },
+        {
+          "key": "notice",
+          "value": "by placing it in a boat-reservoir in CoolSinkBX50 and/or ThermalTray on ice.",
+          "id": "9b63f7da-07df-400b-8dce-1f93ce55aa94",
+          "node_id": "cf644eed-9ee3-4ef4-8184-8de67b94f988"
+        }
+      ],
+      "emits": []
+    },
+    {
+      "id": "97f6274e-24a4-477f-8476-fa11de2104b7",
+      "text": "Prepare a bacteria glycerol stock by diluting the bacterial preparation with a sterile glycerol solution for a final 15-50% v/v glycerol concentration.  Dispense 1 ml of stock \\(or desired amount) in a pre-labeled TrueCool cryovial.  To avoid titer reduction maintain the vials on a CoolRackCFT30 in the CoolBox at 4\u00b0C.  The CoolRackCFT30 reduces contamination and spill accidents by allowing one-handed opening/closing of the cryovials.",
+      "instruction": "PREPARE",
+      "slots": [
+        {
+          "key": "reagent1",
+          "value": "bacterial preparation",
+          "id": "4293d25c-3e99-4e32-8acd-effc407a7572",
+          "node_id": "97f6274e-24a4-477f-8476-fa11de2104b7"
+        },
+        {
+          "key": "container",
+          "value": "TrueCool cryovial",
+          "id": "7733db9b-055b-44ee-b9df-adb936115f68",
+          "node_id": "97f6274e-24a4-477f-8476-fa11de2104b7"
+        },
+        {
+          "key": "concentration",
+          "value": "15-50% v/v",
+          "id": "3b94768a-dd88-4674-8cbe-94c859dfa0ff",
+          "node_id": "97f6274e-24a4-477f-8476-fa11de2104b7"
+        },
+        {
+          "key": "temperature",
+          "value": "4\u00b0C",
+          "id": "49585175-0657-41cd-865f-0dd114c43c50",
+          "node_id": "97f6274e-24a4-477f-8476-fa11de2104b7"
+        },
+        {
+          "key": "device",
+          "value": "CoolRackCFT30",
+          "id": "230dd5a6-1795-43f0-9a92-44ab7473e978",
+          "node_id": "97f6274e-24a4-477f-8476-fa11de2104b7"
+        },
+        {
+          "key": "method",
+          "value": "diluting",
+          "id": "ff8ddecf-858c-4876-836b-4d9ee423cc6a",
+          "node_id": "97f6274e-24a4-477f-8476-fa11de2104b7"
+        },
+        {
+          "key": "notice",
+          "value": "To avoid titer reduction maintain the vials on a CoolRackCFT30 in the CoolBox at 4\u00b0C. The CoolRackCFT30 reduces contamination and spill accidents by allowing one-handed opening/closing of the cryovials.",
+          "id": "60b5dd9e-7935-4685-90d5-405a26914c50",
+          "node_id": "97f6274e-24a4-477f-8476-fa11de2104b7"
+        }
+      ],
+      "emits": [
+        {
+          "key": "reagent0",
+          "value": "bacteria",
+          "id": "b1230fe2-21dd-4e0f-9f33-4b3e1e43bf30",
+          "node_id": "97f6274e-24a4-477f-8476-fa11de2104b7"
+        }
+      ]
+    },
+    {
+      "id": "c1043f00-fd61-4de4-b055-fa9caaa102c5",
+      "text": "Prepare a bacteria glycerol stock by diluting the bacterial preparation with a sterile glycerol solution for a final 15-50% v/v glycerol concentration.  Dispense 1 ml of stock \\(or desired amount) in a pre-labeled TrueCool cryovial.  To avoid titer reduction maintain the vials on a CoolRackCFT30 in the CoolBox at 4\u00b0C.  The CoolRackCFT30 reduces contamination and spill accidents by allowing one-handed opening/closing of the cryovials.",
+      "instruction": "DISPENSE",
+      "slots": [
+        {
+          "key": "reagent1",
+          "value": "bacteria",
+          "id": "150f9ceb-f984-40c1-b630-72367d83115d",
+          "node_id": "c1043f00-fd61-4de4-b055-fa9caaa102c5"
+        },
+        {
+          "key": "volume",
+          "value": "1 ml",
+          "id": "70167e61-0bea-446e-89e3-a719d539b4c8",
+          "node_id": "c1043f00-fd61-4de4-b055-fa9caaa102c5"
+        },
+        {
+          "key": "container",
+          "value": "TrueCool cryovial",
+          "id": "ed07b587-0743-4cf3-a4b2-65efdd07443b",
+          "node_id": "c1043f00-fd61-4de4-b055-fa9caaa102c5"
+        }
+      ],
+      "emits": [
+        {
+          "key": "reagent0",
+          "value": "bacteria",
+          "id": "e58dc002-ba54-4de5-a1ec-1b309c63b7ce",
+          "node_id": "c1043f00-fd61-4de4-b055-fa9caaa102c5"
+        }
+      ]
+    },
+    {
+      "id": "890af2ef-64d6-4513-b4c4-dd0ef5c9a0aa",
+      "text": "Prepare a bacteria glycerol stock by diluting the bacterial preparation with a sterile glycerol solution for a final 15-50% v/v glycerol concentration.  Dispense 1 ml of stock \\(or desired amount) in a pre-labeled TrueCool cryovial.  To avoid titer reduction maintain the vials on a CoolRackCFT30 in the CoolBox at 4\u00b0C.  The CoolRackCFT30 reduces contamination and spill accidents by allowing one-handed opening/closing of the cryovials.",
+      "instruction": "MAINTAIN",
+      "slots": [
+        {
+          "key": "reagent1/data1/device",
+          "value": "CoolRackCFT30",
+          "id": "f3e648f9-591d-4514-ad6a-d41d0a72ac43",
+          "node_id": "890af2ef-64d6-4513-b4c4-dd0ef5c9a0aa"
+        },
+        {
+          "key": "state",
+          "value": "maintained at 4\u00b0C",
+          "id": "e5fdf032-4752-4de1-9b3b-9b3aa24fe3ea",
+          "node_id": "890af2ef-64d6-4513-b4c4-dd0ef5c9a0aa"
+        }
+      ],
+      "emits": []
+    },
+    {
+      "id": "71629308-ca28-42d0-96a5-19aeeb84ef01",
+      "text": "While bacteria samples are kept cold at 4\u00b0C in the CoolRackCFT30, equilibrate a CoolRackCF on dry-ice for 10 minutes. Note: with this protocol, there is no need to make a dry-ice/ethanol slurry. Place the cryotubes directly on the pre-equilibrated CoolRackCF and snap-freeze the samples for 3-5 minutes.",
+      "instruction": "EQUILIBRATE",
+      "slots": [
+        {
+          "key": "reagent1",
+          "value": "CoolRackCF",
+          "id": "e964fbfe-1a29-4b00-8be8-3de84ff918fd",
+          "node_id": "71629308-ca28-42d0-96a5-19aeeb84ef01"
+        },
+        {
+          "key": "reagent2",
+          "value": "dry-ice",
+          "id": "2f1dbb8d-d771-4921-8b18-8bdd21609080",
+          "node_id": "71629308-ca28-42d0-96a5-19aeeb84ef01"
+        },
+        {
+          "key": "time",
+          "value": "10 minutes",
+          "id": "f9cfb875-560a-478e-a408-b10bebc1e270",
+          "node_id": "71629308-ca28-42d0-96a5-19aeeb84ef01"
+        }
+      ],
+      "emits": [
+        {
+          "key": "reagent0",
+          "value": "CoolRackCF",
+          "id": "6d5a21df-c92f-4980-b4e2-a42f2814d3cf",
+          "node_id": "71629308-ca28-42d0-96a5-19aeeb84ef01"
+        }
+      ]
+    },
+    {
+      "id": "745cdd75-21de-4269-a3a0-82c553a1467c",
+      "text": "While bacteria samples are kept cold at 4\u00b0C in the CoolRackCFT30, equilibrate a CoolRackCF on dry-ice for 10 minutes. Note: with this protocol, there is no need to make a dry-ice/ethanol slurry. Place the cryotubes directly on the pre-equilibrated CoolRackCF and snap-freeze the samples for 3-5 minutes.",
+      "instruction": "PLACE",
+      "slots": [
+        {
+          "key": "reagent1",
+          "value": "cryotubes",
+          "id": "c55311c9-2be6-4524-af27-2da65508a920",
+          "node_id": "745cdd75-21de-4269-a3a0-82c553a1467c"
+        },
+        {
+          "key": "destination",
+          "value": "CoolRackCF",
+          "id": "8cb0abbf-22d0-42d0-ad3b-685f8ae0dc60",
+          "node_id": "745cdd75-21de-4269-a3a0-82c553a1467c"
+        }
+      ],
+      "emits": [
+        {
+          "key": "reagent0",
+          "value": "cryotubes",
+          "id": "a995ad43-9af7-4c4a-aff7-4e6d29e34bf7",
+          "node_id": "745cdd75-21de-4269-a3a0-82c553a1467c"
+        }
+      ]
+    },
+    {
+      "id": "b503130b-1a5f-42de-8616-fbd3dbdb0445",
+      "text": "While bacteria samples are kept cold at 4\u00b0C in the CoolRackCFT30, equilibrate a CoolRackCF on dry-ice for 10 minutes. Note: with this protocol, there is no need to make a dry-ice/ethanol slurry. Place the cryotubes directly on the pre-equilibrated CoolRackCF and snap-freeze the samples for 3-5 minutes.",
+      "instruction": "FREEZE",
+      "slots": [
+        {
+          "key": "reagent1",
+          "value": "bacteria",
+          "id": "e124c53a-27a9-4cb9-a448-164d7581aa5a",
+          "node_id": "b503130b-1a5f-42de-8616-fbd3dbdb0445"
+        },
+        {
+          "key": "temperature",
+          "value": "dry-ice",
+          "id": "eaf96ada-0801-44e4-824d-3360c4e97691",
+          "node_id": "b503130b-1a5f-42de-8616-fbd3dbdb0445"
+        },
+        {
+          "key": "time",
+          "value": "3-5 minutes",
+          "id": "c34e9bc7-9ec2-4069-a29c-54516d65829e",
+          "node_id": "b503130b-1a5f-42de-8616-fbd3dbdb0445"
+        }
+      ],
+      "emits": [
+        {
+          "key": "reagent0",
+          "value": "bacteria",
+          "id": "c15ba9d2-3425-4538-8422-fb7604516b4f",
+          "node_id": "b503130b-1a5f-42de-8616-fbd3dbdb0445"
+        }
+      ]
+    },
+    {
+      "id": "63ad14d4-a6d5-49ca-9ccd-b5e98c088b1b",
+      "text": "Transfer the frozen samples to a storage box and place it in the -80\u00b0C freezer for long-term storage.  \r\n  \r\n\n\nBacteria Thawing",
+      "instruction": "TRANSFER",
+      "slots": [
+        {
+          "key": "source",
+          "value": "storage box",
+          "id": "bc2aaeb4-4495-4b31-b4bd-206b70db70e4",
+          "node_id": "63ad14d4-a6d5-49ca-9ccd-b5e98c088b1b"
+        },
+        {
+          "key": "destination",
+          "value": "-80\u00b0C freezer",
+          "id": "700cef7a-652e-4536-9c60-1a3625a9008e",
+          "node_id": "63ad14d4-a6d5-49ca-9ccd-b5e98c088b1b"
+        },
+        {
+          "key": "reagent1",
+          "value": "frozen samples",
+          "id": "3feb1031-8c8f-4bb4-96ba-d37b8e108016",
+          "node_id": "63ad14d4-a6d5-49ca-9ccd-b5e98c088b1b"
+        }
+      ],
+      "emits": [
+        {
+          "key": "reagent0",
+          "value": "frozen samples",
+          "id": "26cfbcd5-bf01-4087-bac6-50aaa5d47db0",
+          "node_id": "63ad14d4-a6d5-49ca-9ccd-b5e98c088b1b"
+        }
+      ]
+    },
+    {
+      "id": "9e7e6e6c-12b0-4e8a-91ff-241c265177aa",
+      "text": "Transfer the frozen samples to a storage box and place it in the -80\u00b0C freezer for long-term storage.  \r\n  \r\n\n\nBacteria Thawing",
+      "instruction": "PLACE",
+      "slots": [
+        {
+          "key": "reagent1",
+          "value": "frozen samples",
+          "id": "1780f428-f8b3-4e3a-a43f-c5499cd948bf",
+          "node_id": "9e7e6e6c-12b0-4e8a-91ff-241c265177aa"
+        },
+        {
+          "key": "destination",
+          "value": "-80\u00b0C freezer",
+          "id": "82bc1250-d76f-443e-aace-1fe889e58baa",
+          "node_id": "9e7e6e6c-12b0-4e8a-91ff-241c265177aa"
+        },
+        {
+          "key": "temperature",
+          "value": "<blank>",
+          "id": "8a880630-8ec5-4783-b5e0-3f242fc4b11b",
+          "node_id": "9e7e6e6c-12b0-4e8a-91ff-241c265177aa"
+        },
+        {
+          "key": "device",
+          "value": "<blank>",
+          "id": "fc9356bb-6e63-45f1-8f83-3891e2c84557",
+          "node_id": "9e7e6e6c-12b0-4e8a-91ff-241c265177aa"
+        },
+        {
+          "key": "notice",
+          "value": "<blank>",
+          "id": "f686bec7-3a34-4252-9f64-c56bba3d01c5",
+          "node_id": "9e7e6e6c-12b0-4e8a-91ff-241c265177aa"
+        }
+      ],
+      "emits": [
+        {
+          "key": "reagent0",
+          "value": "frozen samples",
+          "id": "0387ef14-e3c9-4a4b-9ce8-03a4af034db4",
+          "node_id": "9e7e6e6c-12b0-4e8a-91ff-241c265177aa"
+        }
+      ]
+    },
+    {
+      "id": "2be3124b-5077-457e-831b-18d8cae04a68",
+      "text": "Place the cryovials from the -80\u00b0C freezer in a CoolBoxCFT30 with a -12\u00b0C frozen cartridge inside to maintain the vials at the correct temperature and allow transport of the vials in a safe manner.",
+      "instruction": "PLACE",
+      "slots": [
+        {
+          "key": "reagent1",
+          "value": "cryovials",
+          "id": "019aeff1-0ae5-4e88-8ac9-d412f714ac73",
+          "node_id": "2be3124b-5077-457e-831b-18d8cae04a68"
+        },
+        {
+          "key": "destination",
+          "value": "CoolBoxCFT30",
+          "id": "7e7c0ee7-769a-49c6-89d3-bc51b22b8f44",
+          "node_id": "2be3124b-5077-457e-831b-18d8cae04a68"
+        },
+        {
+          "key": "temperature",
+          "value": "-12\u00b0C",
+          "id": "88307d63-3c4e-4608-88a9-bbcd35bb8260",
+          "node_id": "2be3124b-5077-457e-831b-18d8cae04a68"
+        },
+        {
+          "key": "device",
+          "value": "frozen cartridge",
+          "id": "5dd14ef8-95ca-46b3-b54c-508eefd38035",
+          "node_id": "2be3124b-5077-457e-831b-18d8cae04a68"
+        },
+        {
+          "key": "notice",
+          "value": "Maintain the vials at the correct temperature and allow transport of the vials in a safe manner.",
+          "id": "a040d084-3071-4c9a-94a8-79d79e6395ad",
+          "node_id": "2be3124b-5077-457e-831b-18d8cae04a68"
+        }
+      ],
+      "emits": [
+        {
+          "key": "reagent0",
+          "value": "cryovials",
+          "id": "c23bcca0-785e-43b7-89a7-d7f5de015594",
+          "node_id": "2be3124b-5077-457e-831b-18d8cae04a68"
+        }
+      ]
+    },
+    {
+      "id": "e1224700-8ec8-466c-ad0c-bb972a66616e",
+      "text": "Place the vials directly in a 37\u00b0C water bath, and manually slowly agitate the vials to enable the thawing process. Just before the whole liquid is completely thawed, remove the vial from the 37\u00b0C water bath and place it on a CoolRackCFT30 previously equilibrated on ice. Samples are ready for experimental procedures or titer assessment.",
+      "instruction": "PLACE",
+      "slots": [
+        {
+          "key": "reagent1",
+          "value": "vials",
+          "id": "e85121de-99f7-4f2a-bbca-9e0582c6025c",
+          "node_id": "e1224700-8ec8-466c-ad0c-bb972a66616e"
+        },
+        {
+          "key": "destination",
+          "value": "37\u00b0C water bath",
+          "id": "8bbc6f05-783b-44d5-8ae0-9e544bd2c0b1",
+          "node_id": "e1224700-8ec8-466c-ad0c-bb972a66616e"
+        },
+        {
+          "key": "temperature",
+          "value": "37\u00b0C",
+          "id": "9c1330b2-99a6-45c5-b3eb-2effdd70d4b9",
+          "node_id": "e1224700-8ec8-466c-ad0c-bb972a66616e"
+        }
+      ],
+      "emits": [
+        {
+          "key": "reagent0",
+          "value": "vials",
+          "id": "6127f972-f363-4048-be0d-fa23ecbc55b0",
+          "node_id": "e1224700-8ec8-466c-ad0c-bb972a66616e"
+        }
+      ]
+    },
+    {
+      "id": "3e65968e-b2b1-47ae-86eb-090532ea3aa3",
+      "text": "Place the vials directly in a 37\u00b0C water bath, and manually slowly agitate the vials to enable the thawing process. Just before the whole liquid is completely thawed, remove the vial from the 37\u00b0C water bath and place it on a CoolRackCFT30 previously equilibrated on ice. Samples are ready for experimental procedures or titer assessment.",
+      "instruction": "REMOVE",
+      "slots": [
+        {
+          "key": "reagent1",
+          "value": "vials",
+          "id": "7c95e322-e5d3-4c71-8cc2-a14dade7c374",
+          "node_id": "3e65968e-b2b1-47ae-86eb-090532ea3aa3"
+        },
+        {
+          "key": "method",
+          "value": "manually",
+          "id": "883ec97b-658c-490a-8681-d38f629460d7",
+          "node_id": "3e65968e-b2b1-47ae-86eb-090532ea3aa3"
+        },
+        {
+          "key": "device",
+          "value": "37\u00b0C water bath",
+          "id": "b153b928-fd20-48ee-9a31-ca1e695b5e7f",
+          "node_id": "3e65968e-b2b1-47ae-86eb-090532ea3aa3"
+        }
+      ],
+      "emits": [
+        {
+          "key": "reagent0",
+          "value": "vials",
+          "id": "8b3564aa-714a-4752-82d2-aaad4d92b695",
+          "node_id": "3e65968e-b2b1-47ae-86eb-090532ea3aa3"
+        }
+      ]
+    },
+    {
+      "id": "3d48a5eb-b96c-468b-9669-e350fc6b3bf8",
+      "text": "Place the vials directly in a 37\u00b0C water bath, and manually slowly agitate the vials to enable the thawing process. Just before the whole liquid is completely thawed, remove the vial from the 37\u00b0C water bath and place it on a CoolRackCFT30 previously equilibrated on ice. Samples are ready for experimental procedures or titer assessment.",
+      "instruction": "PLACE",
+      "slots": [
+        {
+          "key": "reagent1",
+          "value": "vials",
+          "id": "2e65843c-e57b-404b-8d82-415ddda11884",
+          "node_id": "3d48a5eb-b96c-468b-9669-e350fc6b3bf8"
+        },
+        {
+          "key": "destination",
+          "value": "CoolRackCFT30",
+          "id": "559d6854-e39a-4cb9-87bd-1f265de7be01",
+          "node_id": "3d48a5eb-b96c-468b-9669-e350fc6b3bf8"
+        },
+        {
+          "key": "temperature",
+          "value": "ice",
+          "id": "626f552b-f1bf-4298-a6d1-6819d677f2c8",
+          "node_id": "3d48a5eb-b96c-468b-9669-e350fc6b3bf8"
+        }
+      ],
+      "emits": [
+        {
+          "key": "reagent0",
+          "value": "vials",
+          "id": "d76f7818-d85c-441b-8b3f-4aa21bf84c6b",
+          "node_id": "3d48a5eb-b96c-468b-9669-e350fc6b3bf8"
+        }
+      ]
+    }
+  ],
+  "edges": []
+}

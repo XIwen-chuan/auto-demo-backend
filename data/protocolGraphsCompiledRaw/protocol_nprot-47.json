@@ -1,0 +1,295 @@
+[
+    {
+        "title": "1.",
+        "body": [
+            {
+                "sentence": "Culture _S. pombe_ cells in an appropriate medium.",
+                "result": []
+            }
+        ]
+    },
+    {
+        "title": "2.",
+        "body": [
+            {
+                "sentence": "Harvest cells in a collection tube.",
+                "result": [
+                    {
+                        "HARVEST": {
+                            "emit": [
+                                {
+                                    "reagent0": "cells"
+                                }
+                            ],
+                            "slot": [
+                                {
+                                    "reagent1": "cells"
+                                },
+                                {
+                                    "container": "collection tube"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "3.",
+        "body": [
+            {
+                "sentence": "Suspend the cells with medium that was used in the culture of the cells \\(do not exceed the half volume of the tube).",
+                "result": [
+                    {
+                        "SUSPEND": {
+                            "emit": [
+                                {
+                                    "reagent0": "cells"
+                                }
+                            ],
+                            "slot": [
+                                {
+                                    "reagent1": "cells"
+                                },
+                                {
+                                    "reagent2": "medium"
+                                },
+                                {
+                                    "notice": "Do not exceed the half volume of the tube."
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "4.",
+        "body": [
+            {
+                "sentence": "Add an equal amount of 0.7 N NaOH solution and mix well.",
+                "result": [
+                    {
+                        "ADD": {
+                            "emit": [
+                                {
+                                    "reagent0": "cells"
+                                }
+                            ],
+                            "slot": [
+                                {
+                                    "reagent1": "cells"
+                                },
+                                {
+                                    "reagent2": "0.7 N NaOH solution"
+                                },
+                                {
+                                    "ratio": "1:1"
+                                },
+                                {
+                                    "notice": "Mix well"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "MIX": {
+                            "emit": [
+                                {
+                                    "reagent0": "cells"
+                                }
+                            ],
+                            "slot": [
+                                {
+                                    "reagent1": "0.7 N NaOH solution"
+                                },
+                                {
+                                    "ratio": "1:1"
+                                },
+                                {
+                                    "method": "mix well"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "5.",
+        "body": [
+            {
+                "sentence": "Incubate at room temperature for 3 minutes.",
+                "result": [
+                    {
+                        "INCUBATE": {
+                            "emit": [
+                                {
+                                    "reagent0": "cells"
+                                }
+                            ],
+                            "slot": [
+                                {
+                                    "reagent1": "cells"
+                                },
+                                {
+                                    "temperature": "room temperature"
+                                },
+                                {
+                                    "time": "3 minutes"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "6.",
+        "body": [
+            {
+                "sentence": "Centrifuge the tube \\(5,000 rpm, 1 min) and discard the supernatant.",
+                "result": [
+                    {
+                        "CENTRIFUGE": {
+                            "emit": [],
+                            "slot": [
+                                {
+                                    "reagent1": "cells"
+                                },
+                                {
+                                    "intensity": "5,000 rpm"
+                                },
+                                {
+                                    "time": "1 min"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "DISCARD": {
+                            "emit": [
+                                {
+                                    "reagent0": "supernatant"
+                                }
+                            ],
+                            "slot": [
+                                {
+                                    "reagent1": "supernatant"
+                                },
+                                {
+                                    "method": "centrifuge"
+                                },
+                                {
+                                    "device": "tube"
+                                },
+                                {
+                                    "notice": ""
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "7.",
+        "body": [
+            {
+                "sentence": "Add SDS-PAGE sample buffer and mix well.",
+                "result": [
+                    {
+                        "ADD": {
+                            "emit": [
+                                {
+                                    "reagent0": "cells"
+                                }
+                            ],
+                            "slot": [
+                                {
+                                    "reagent1": "SDS-PAGE sample buffer"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "MIX": {
+                            "emit": [
+                                {
+                                    "reagent0": "cells"
+                                }
+                            ],
+                            "slot": [
+                                {
+                                    "reagent1": "SDS-PAGE sample buffer"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "8.",
+        "body": [
+            {
+                "sentence": "Heat at 95-100&#x2DA;C for 5 min.",
+                "result": [
+                    {
+                        "HEAT": {
+                            "emit": [
+                                {
+                                    "reagent0": "cells"
+                                }
+                            ],
+                            "slot": [
+                                {
+                                    "reagent1": "cells"
+                                },
+                                {
+                                    "temperature": "95-100\u00b0C"
+                                },
+                                {
+                                    "time": "5 min"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "9.",
+        "body": [
+            {
+                "sentence": "Centrifuge at at least 3,500 rpm, and use the supernatant as the total cell lysate.",
+                "result": [
+                    {
+                        "CENTRIFUGE": {
+                            "emit": [
+                                {
+                                    "reagent0": "supernatant"
+                                }
+                            ],
+                            "slot": [
+                                {
+                                    "reagent1": "cells"
+                                },
+                                {
+                                    "intensity": "at least 3,500 rpm"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        ]
+    }
+]

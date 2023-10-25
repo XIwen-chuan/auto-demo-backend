@@ -1,0 +1,392 @@
+[
+    {
+        "title": "**Preblocking   TIMING ~ 30 min**",
+        "body": [
+            {
+                "title": "1.",
+                "body": [
+                    {
+                        "sentence": "Block the MTP wells by incubating with 300 \u03bcL of 5% \\(w/v) BSA for 30 min a 37 \u00b0C and wash with 300 \u03bcL of wash buffer five times. Washing can also be performed with an automatic plate washer. The preblocking is essential to prevent non-specific binding of IA reagents to the MTP wells<sup>49</sup>.",
+                        "result": [
+                            {
+                                "INCUBATE": {
+                                    "emit": [
+                                        {
+                                            "reagent0": "5% (w/v) BSA"
+                                        }
+                                    ],
+                                    "slot": [
+                                        {
+                                            "reagent1": "5% (w/v) BSA"
+                                        },
+                                        {
+                                            "temperature": "37 \u00b0C"
+                                        },
+                                        {
+                                            "time": "30 min"
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "WASH": {
+                                    "emit": [
+                                        {
+                                            "reagent0": "wash buffer"
+                                        }
+                                    ],
+                                    "slot": [
+                                        {
+                                            "reagent1": "MTP wells"
+                                        },
+                                        {
+                                            "reagent2": "wash buffer"
+                                        },
+                                        {
+                                            "repeat": "5"
+                                        },
+                                        {
+                                            "notice": "Washing can also be performed with an automatic plate washer."
+                                        }
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "**CRITICAL STEP**",
+        "body": [
+            {
+                "sentence": "Use filtered BSA or filter the BSA solution prior to use to remove any microbial or other contaminants.",
+                "result": [
+                    {
+                        "FILTER": {
+                            "emit": [
+                                {
+                                    "reagent0": "filtered BSA"
+                                }
+                            ],
+                            "slot": [
+                                {
+                                    "reagent1": "BSA solution"
+                                },
+                                {
+                                    "filter": "0.22 \u03bcm filter"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "**?TROUBLESHOOTING**",
+        "body": []
+    },
+    {
+        "title": "**One-step kinetics-based CRP sandwich ELISA    TIMING 30 min**",
+        "body": [
+            {
+                "title": "2.",
+                "body": [
+                    {
+                        "sentence": "Dispense in the BSA-blocked MTP wells sequentially 2 \u00b5L of the diluted stock solution of anti-CRP capture Ab-bound Dynabeads<sup>\u00ae</sup> \\(diluted 1:10 in binding buffer), 38 \u00b5L of the binding buffer and 40 \u00b5L of biotinylated anti-CRP detection Ab \\(0.17 \u00b5g mL<sup>-1</sup>) pre-conjugated to SA-HRP \\(diluted 1:3000). Finally, dispense 40 \u00b5L of CRP \\(varying concentrations; 0.3-81 ng mL<sup>-1</sup>) in the respective MTP wells in triplicate. Place the MTP on the magnetic holder and incubate at 37 \u00b0C for 15 min so that the magnets capture the Dynabead<sup>\u00ae</sup>-bound sandwich immune complex. Take out the excess reagents by sucking back the solution using a 300 \u00b5L multi-channel pipette.",
+                        "result": [
+                            {
+                                "DISPENSE": {
+                                    "emit": [
+                                        {
+                                            "reagent0": "anti-CRP capture Ab-bound Dynabeads"
+                                        }
+                                    ],
+                                    "slot": [
+                                        {
+                                            "reagent1": "anti-CRP capture Ab-bound Dynabeads"
+                                        },
+                                        {
+                                            "volume": "2 \u00b5L"
+                                        },
+                                        {
+                                            "container": "BSA-blocked MTP wells"
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "DISPENSE": {
+                                    "emit": [
+                                        {
+                                            "reagent0": "CRP"
+                                        }
+                                    ],
+                                    "slot": [
+                                        {
+                                            "reagent1": "CRP"
+                                        },
+                                        {
+                                            "volume": "40 \u00b5L"
+                                        },
+                                        {
+                                            "container": "respective MTP wells"
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "PLACE": {
+                                    "emit": [
+                                        {
+                                            "reagent0": "anti-CRP capture Ab-bound Dynabeads"
+                                        }
+                                    ],
+                                    "slot": [
+                                        {
+                                            "reagent1": "MTP"
+                                        },
+                                        {
+                                            "destination": "magnetic holder"
+                                        },
+                                        {
+                                            "temperature": "37 \u00b0C"
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "INCUBATE": {
+                                    "emit": [
+                                        {
+                                            "reagent0": "Dynabead-bound sandwich immune complex"
+                                        }
+                                    ],
+                                    "slot": [
+                                        {
+                                            "reagent1": "anti-CRP capture Ab-bound Dynabeads"
+                                        },
+                                        {
+                                            "reagent2": "binding buffer"
+                                        },
+                                        {
+                                            "temperature": "37 \u00b0C"
+                                        },
+                                        {
+                                            "time": "15 min"
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "ASPIRATE": {
+                                    "emit": [],
+                                    "slot": [
+                                        {
+                                            "reagent1": "anti-CRP capture Ab-bound Dynabeads"
+                                        },
+                                        {
+                                            "reagent2": "binding buffer"
+                                        },
+                                        {
+                                            "device": "300 \u00b5L multi-channel pipette"
+                                        }
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "**?TROUBLESHOOTING**",
+        "body": [
+            {
+                "title": "3.",
+                "body": [
+                    {
+                        "sentence": "Wash the magnetically-captured sandwich immune complex-bound Dynabeads<sup>\u00ae</sup> twice by dispensing and sucking back 300 \u00b5L of the washing buffer using a 300 \u00b5L multi-channel pipette. Thereafter, suspend the washed magnetically-captured sandwich immune complex-bound Dynabeads<sup>\u00ae</sup> in 50 \u00b5L of the binding buffer.",
+                        "result": [
+                            {
+                                "WASH": {
+                                    "emit": [
+                                        {
+                                            "reagent0": "washed magnetically-captured sandwich immune complex-bound Dynabeads\u00ae"
+                                        }
+                                    ],
+                                    "slot": [
+                                        {
+                                            "reagent1": "magnetically-captured sandwich immune complex-bound Dynabeads\u00ae"
+                                        },
+                                        {
+                                            "reagent2": "washing buffer"
+                                        },
+                                        {
+                                            "repeat": "2"
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "SUSPEND": {
+                                    "emit": [
+                                        {
+                                            "reagent0": "washed magnetically-captured sandwich immune complex-bound Dynabeads\u00ae"
+                                        }
+                                    ],
+                                    "slot": [
+                                        {
+                                            "reagent1": "washed magnetically-captured sandwich immune complex-bound Dynabeads\u00ae"
+                                        },
+                                        {
+                                            "reagent2": "binding buffer"
+                                        },
+                                        {
+                                            "device": "300 \u00b5L multi-channel pipette"
+                                        }
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "4.",
+                "body": [
+                    {
+                        "sentence": "Add 100 \u00b5L of the TMB-H<sub>2</sub>O<sub>2</sub> mixture to each MTP well and incubate at RT for 4 min to allow the enzymatic reaction to develop color.",
+                        "result": [
+                            {
+                                "ADD": {
+                                    "emit": [
+                                        {
+                                            "reagent0": "TMB-H<sub>2</sub>O<sub>2</sub> mixture"
+                                        }
+                                    ],
+                                    "slot": [
+                                        {
+                                            "reagent1": "TMB-H<sub>2</sub>O<sub>2</sub> mixture"
+                                        },
+                                        {
+                                            "reagent2": "100 \u00b5L"
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "INCUBATE": {
+                                    "emit": [],
+                                    "slot": [
+                                        {
+                                            "reagent1": "TMB-H<sub>2</sub>O<sub>2</sub> mixture"
+                                        },
+                                        {
+                                            "temperature": "RT"
+                                        },
+                                        {
+                                            "time": "4 min"
+                                        }
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "**?TROUBLESHOOTING**",
+        "body": [
+            {
+                "title": "5.",
+                "body": [
+                    {
+                        "sentence": "Stop the enzymatic reaction by adding 50 \u00b5L of 2N H<sub>2</sub>SO<sub>4</sub> to each MTP well.",
+                        "result": []
+                    }
+                ]
+            },
+            {
+                "title": "6.",
+                "body": [
+                    {
+                        "sentence": "Measure the absorbance at a primary wavelength of 450 nm and 540 nm as the reference wavelength in the Tecan Infinite M200 Pro microplate reader.",
+                        "result": [
+                            {
+                                "MEASURE": {
+                                    "emit": [
+                                        {
+                                            "data0": "<blank>"
+                                        }
+                                    ],
+                                    "slot": [
+                                        {
+                                            "device": "Tecan Infinite M200 Pro microplate reader"
+                                        },
+                                        {
+                                            "reagent1": "<blank>"
+                                        },
+                                        {
+                                            "parameter": "absorbance"
+                                        },
+                                        {
+                                            "time": "<blank>"
+                                        },
+                                        {
+                                            "wavelength": "450 nm and 540 nm"
+                                        },
+                                        {
+                                            "notice": "<blank>"
+                                        }
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "**CRITICAL STEP**",
+        "body": [
+            {
+                "sentence": "Determine the absorbance within 10 min of stopping the enzymatic reaction.",
+                "result": [
+                    {
+                        "DETERMINE": {
+                            "emit": [
+                                {
+                                    "data0": "<blank>"
+                                }
+                            ],
+                            "slot": [
+                                {
+                                    "device": "Tecan Infinite M200 Pro microplate reader"
+                                },
+                                {
+                                    "reagent1": "TMB-H<sub>2</sub>O<sub>2</sub> mixture"
+                                },
+                                {
+                                    "parameter": "absorbance"
+                                },
+                                {
+                                    "time": "10 min"
+                                },
+                                {
+                                    "wavelength": "450 nm and 540 nm"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        ]
+    }
+]

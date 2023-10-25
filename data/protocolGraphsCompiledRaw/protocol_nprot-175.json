@@ -1,0 +1,508 @@
+[
+    {
+        "title": "1)",
+        "body": [
+            {
+                "sentence": "Pellet cells and resuspend in 1 mL of Trizol \\(I have difficulty isolating quality RNA from less than 1 X 10<sup>6</sup> primary T cells). 1 mL of Trizol can be used for 1 X 10<sup>6</sup> to 10 X 10<sup>6</sup>.  It is best to brush the pelleted cells along a rack to dislodge them from the bottom of the tube. Sometimes aggregates will still be visible. Do not resuspend.",
+                "result": [
+                    {
+                        "PELLET": {
+                            "emit": [
+                                {
+                                    "reagent0": "cells"
+                                }
+                            ],
+                            "slot": [
+                                {
+                                    "reagent1": "cells"
+                                },
+                                {
+                                    "device": "rack"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "RESUSPEND": {
+                            "emit": [
+                                {
+                                    "reagent0": "cells"
+                                }
+                            ],
+                            "slot": [
+                                {
+                                    "reagent1": "cells"
+                                },
+                                {
+                                    "reagent2": "Trizol"
+                                },
+                                {
+                                    "notice": "1 mL of Trizol can be used for 1 X 10^6 to 10 X 10^6."
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "2)",
+        "body": [
+            {
+                "sentence": "Incubate at room temperature for 5 minutes",
+                "result": [
+                    {
+                        "INCUBATE": {
+                            "emit": [
+                                {
+                                    "reagent0": "cells"
+                                }
+                            ],
+                            "slot": [
+                                {
+                                    "reagent1": "cells"
+                                },
+                                {
+                                    "temperature": "room temperature"
+                                },
+                                {
+                                    "time": "5 minutes"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "3)",
+        "body": [
+            {
+                "sentence": "Add 200&#x3BC;L of Chloroform using a barrier pipette tip and shake each sample vigourously",
+                "result": [
+                    {
+                        "ADD": {
+                            "emit": [],
+                            "slot": [
+                                {
+                                    "reagent2": "Chloroform"
+                                },
+                                {
+                                    "notice": "shake each sample vigourously"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "SHAKE": {
+                            "emit": [
+                                {
+                                    "reagent0": "cells"
+                                }
+                            ],
+                            "slot": [
+                                {
+                                    "reagent1": "Chloroform"
+                                },
+                                {
+                                    "temperature": "room temperature"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "4)",
+        "body": [
+            {
+                "sentence": "Incubate at room temperature for 3 minutes",
+                "result": [
+                    {
+                        "INCUBATE": {
+                            "emit": [
+                                {
+                                    "reagent0": "cells"
+                                }
+                            ],
+                            "slot": [
+                                {
+                                    "reagent1": "cells"
+                                },
+                                {
+                                    "temperature": "room temperature"
+                                },
+                                {
+                                    "time": "3 minutes"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "5)",
+        "body": [
+            {
+                "sentence": "Centrifuge at 12000g for 15 minutes at 4&#xB0;C",
+                "result": [
+                    {
+                        "CENTRIFUGE": {
+                            "emit": [
+                                {
+                                    "reagent0": "cells"
+                                }
+                            ],
+                            "slot": [
+                                {
+                                    "reagent1": "cells"
+                                },
+                                {
+                                    "intensity": "12000g"
+                                },
+                                {
+                                    "time": "15 minutes"
+                                },
+                                {
+                                    "temperature": "4\u00b0C"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "6)",
+        "body": [
+            {
+                "sentence": "Transfer upper aqueous phase into a new RNAase free tube \\(approximately 0.8-1 mL of volume)",
+                "result": [
+                    {
+                        "TRANSFER": {
+                            "emit": [
+                                {
+                                    "reagent0": "upper aqueous phase"
+                                }
+                            ],
+                            "slot": [
+                                {
+                                    "source": "upper aqueous phase"
+                                },
+                                {
+                                    "destination": "new RNAase free tube"
+                                },
+                                {
+                                    "reagent1": "upper aqueous phase"
+                                },
+                                {
+                                    "volume": "0.8-1 mL"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "7)",
+        "body": [
+            {
+                "sentence": "Add 0.5 mL of isopropanol/mL of Trizol used and shake vigourously",
+                "result": [
+                    {
+                        "ADD": {
+                            "emit": [],
+                            "slot": [
+                                {
+                                    "reagent1": "Trizol"
+                                },
+                                {
+                                    "reagent2": "isopropanol"
+                                },
+                                {
+                                    "ratio": "0.5 mL/mL"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "SHAKE": {
+                            "emit": [
+                                {
+                                    "reagent0": "cells"
+                                }
+                            ],
+                            "slot": [
+                                {
+                                    "reagent1": "isopropanol"
+                                },
+                                {
+                                    "temperature": "room temperature"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "8)",
+        "body": [
+            {
+                "sentence": "Incubate at room temperature for 10 minutes",
+                "result": [
+                    {
+                        "INCUBATE": {
+                            "emit": [
+                                {
+                                    "reagent0": "cells"
+                                }
+                            ],
+                            "slot": [
+                                {
+                                    "reagent1": "cells"
+                                },
+                                {
+                                    "temperature": "room temperature"
+                                },
+                                {
+                                    "time": "10 minutes"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "9)",
+        "body": [
+            {
+                "sentence": "Centrifuge at 12000g for 15 minutes at 4&#xB0;C",
+                "result": [
+                    {
+                        "CENTRIFUGE": {
+                            "emit": [
+                                {
+                                    "reagent0": "cells"
+                                }
+                            ],
+                            "slot": [
+                                {
+                                    "reagent1": "cells"
+                                },
+                                {
+                                    "intensity": "12000g"
+                                },
+                                {
+                                    "time": "15 minutes"
+                                },
+                                {
+                                    "temperature": "4\u00b0C"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "10)",
+        "body": [
+            {
+                "sentence": "Pour off supernantant and wash pellet in with 1 mL of 75% ethanol \\( do not resuspend pellet rather squirt in ethanol so the pellet becomes dislodged from the bottom of tube)",
+                "result": [
+                    {
+                        "POUR": {
+                            "emit": [
+                                {
+                                    "reagent0": "supernatant"
+                                }
+                            ],
+                            "slot": [
+                                {
+                                    "reagent1": "cells"
+                                },
+                                {
+                                    "volume": "1 mL"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "WASH": {
+                            "emit": [
+                                {
+                                    "reagent0": "pellet"
+                                }
+                            ],
+                            "slot": [
+                                {
+                                    "reagent1": "pellet"
+                                },
+                                {
+                                    "reagent2": "75% ethanol"
+                                },
+                                {
+                                    "repeat": "1"
+                                },
+                                {
+                                    "notice": "Do not resuspend pellet rather squirt in ethanol so the pellet becomes dislodged from the bottom of tube"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "11)",
+        "body": [
+            {
+                "sentence": "Centrifuge at 12000g for 5 minutes at room temperature",
+                "result": [
+                    {
+                        "CENTRIFUGE": {
+                            "emit": [
+                                {
+                                    "reagent0": "upper aqueous phase"
+                                }
+                            ],
+                            "slot": [
+                                {
+                                    "reagent1": "cells"
+                                },
+                                {
+                                    "intensity": "12000g"
+                                },
+                                {
+                                    "time": "5 minutes"
+                                },
+                                {
+                                    "temperature": "room temperature"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "12)",
+        "body": [
+            {
+                "sentence": "Pour off supernantant and briefly dry pellet \\(can use a 10&#x3BC;L pipette or a kimwipe corner to get rid of residual ethanol)",
+                "result": [
+                    {
+                        "POUR": {
+                            "emit": [
+                                {
+                                    "reagent0": "supernatant"
+                                }
+                            ],
+                            "slot": [
+                                {
+                                    "reagent1": "supernatant"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "DRY": {
+                            "emit": [
+                                {
+                                    "reagent0": "pellet"
+                                }
+                            ],
+                            "slot": [
+                                {
+                                    "reagent1": "pellet"
+                                },
+                                {
+                                    "device": "10\u03bcL pipette or a kimwipe corner"
+                                },
+                                {
+                                    "notice": "Can use a 10\u03bcL pipette or a kimwipe corner to get rid of residual ethanol"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "13)",
+        "body": [
+            {
+                "sentence": "Dissolve pellet in 30&#x3BC;L of DepC treated water and place at 55&#xB0;C for 5-10 minutes.",
+                "result": [
+                    {
+                        "DISSOLVE": {
+                            "emit": [
+                                {
+                                    "reagent0": "pellet"
+                                }
+                            ],
+                            "slot": [
+                                {
+                                    "reagent1": "pellet"
+                                },
+                                {
+                                    "reagent2": "DepC treated water"
+                                },
+                                {
+                                    "targetConcentration": "30\u03bcL"
+                                },
+                                {
+                                    "notice": "Place at 55\u00b0C for 5-10 minutes."
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "14)",
+        "body": [
+            {
+                "sentence": "Spec and take 2&#x3BC;g for cDNA conversion. Store the rest of the RNA at -80&#xB0;C.",
+                "result": [
+                    {
+                        "STORE": {
+                            "emit": [
+                                {
+                                    "reagent0": "RNA"
+                                }
+                            ],
+                            "slot": [
+                                {
+                                    "reagent1": "RNA"
+                                },
+                                {
+                                    "temperature": "-80\u00b0C"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        ]
+    }
+]

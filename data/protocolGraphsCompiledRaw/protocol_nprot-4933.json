@@ -1,0 +1,553 @@
+[
+    {
+        "sentence": "\nClone your protein of interest in the pGADT7-RecAB vector, and two or more interactor proteins into the pGBKT7 vector using standard procedures in E. coli and proceed to yeast transformation.",
+        "result": [
+            {
+                "CLONE": {
+                    "emit": [
+                        {
+                            "reagent0": "pGADT7-RecAB vector"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "reagent1": "protein of interest"
+                        },
+                        {
+                            "device": "pGADT7-RecAB vector"
+                        },
+                        {
+                            "notice": "using standard procedures in E. coli"
+                        }
+                    ]
+                }
+            },
+            {
+                "CLONE": {
+                    "emit": [
+                        {
+                            "reagent0": "pGBKT7 vector"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "reagent1": "protein of interest"
+                        },
+                        {
+                            "reagent2": "interactor proteins"
+                        },
+                        {
+                            "device": "pGBKT7 vector"
+                        },
+                        {
+                            "notice": "using standard procedures in E. coli"
+                        }
+                    ]
+                }
+            },
+            {
+                "PROCEED": {
+                    "emit": [
+                        {
+                            "reagent0": "pGADT7-RecAB vector and pGBKT7 vector"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "procedure": "yeast transformation"
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "title": "1.",
+        "body": [
+            {
+                "sentence": "Inoculate 10 ml of YPAD medium with a single fresh AH109 colony and incubate overnight on a shaker at 30\u02daC. Dilute the overnight culture with fresh to OD600  of 0.15 and incubate with shaking for approximately 2 h until OD600 is around 0.7.",
+                "result": [
+                    {
+                        "INOCULATE": {
+                            "emit": [],
+                            "slot": [
+                                {
+                                    "reagent1": "AH109 colony"
+                                },
+                                {
+                                    "reagent2": "YPAD medium"
+                                },
+                                {
+                                    "notice": "Incubate overnight on a shaker at 30\u02daC."
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "DILUTE": {
+                            "emit": [],
+                            "slot": [
+                                {
+                                    "reagent1": "overnight culture"
+                                },
+                                {
+                                    "reagent2": "fresh"
+                                },
+                                {
+                                    "targetConcentration": "OD600 of 0.15"
+                                },
+                                {
+                                    "notice": "Incubate with shaking for approximately 2 h until OD600 is around 0.7."
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "2.",
+        "body": [
+            {
+                "sentence": "Pellet the cells at 2000 g for 5 min at room temperature, pour off or aspirate the medium, resuspend the cells in 10 ml LiAc buffer and centrifuge again. Resuspend the pellet in 500 \u03bcl LiAc.",
+                "result": [
+                    {
+                        "PELLET": {
+                            "emit": [
+                                {
+                                    "reagent0": "cells"
+                                }
+                            ],
+                            "slot": [
+                                {
+                                    "reagent1": "cells"
+                                },
+                                {
+                                    "intensity": "<blank>"
+                                },
+                                {
+                                    "time": "5 min"
+                                },
+                                {
+                                    "temperature": "room temperature"
+                                },
+                                {
+                                    "device": "<blank>"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "POUR": {
+                            "emit": [],
+                            "slot": [
+                                {
+                                    "source": "cells"
+                                },
+                                {
+                                    "reagent1": "medium"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "ASPIRATE": {
+                            "emit": [
+                                {
+                                    "reagent0": "medium"
+                                }
+                            ],
+                            "slot": [
+                                {
+                                    "reagent1": "medium"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "RESUSPEND": {
+                            "emit": [
+                                {
+                                    "reagent0": "cells"
+                                }
+                            ],
+                            "slot": [
+                                {
+                                    "reagent1": "cells"
+                                },
+                                {
+                                    "reagent2": "LiAc buffer"
+                                },
+                                {
+                                    "temperature": "room temperature"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "CENTRIFUGE": {
+                            "emit": [
+                                {
+                                    "reagent0": "cells"
+                                }
+                            ],
+                            "slot": [
+                                {
+                                    "reagent1": "cells"
+                                },
+                                {
+                                    "intensity": "2000 g"
+                                },
+                                {
+                                    "time": "5 min"
+                                },
+                                {
+                                    "temperature": "room temperature"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "RESUSPEND": {
+                            "emit": [
+                                {
+                                    "reagent0": "cells"
+                                }
+                            ],
+                            "slot": [
+                                {
+                                    "reagent1": "cells"
+                                },
+                                {
+                                    "reagent2": "LiAc buffer"
+                                },
+                                {
+                                    "temperature": "room temperature"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "4.",
+        "body": [
+            {
+                "sentence": "To 50 \u03bcl of the suspension of yeast competent cells add 1-3 \u03bcg DNA plasmids harboring each of the two interactor partners \\(in GBKT7 and GADT7-RecAB), 300 \u03bcl sterile 40% w/v PEG-3350 solution in LiAc buffer, 25 \u03bcl salmon sperm DNA, and sterile water to 400 \u03bcl final volume. Gently mix and incubate at room temperature for 30 min.",
+                "result": [
+                    {
+                        "ADD": {
+                            "emit": [
+                                {
+                                    "reagent0": "yeast competent cells"
+                                }
+                            ],
+                            "slot": [
+                                {
+                                    "reagent1": "yeast competent cells"
+                                },
+                                {
+                                    "reagent2": "DNA plasmids harboring each of the two interactor partners (in GBKT7 and GADT7-RecAB), 300 \u03bcl sterile 40% w/v PEG-3350 solution in LiAc buffer, 25 \u03bcl salmon sperm DNA, and sterile water"
+                                },
+                                {
+                                    "ratio": "1-3 \u03bcg"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "MIX": {
+                            "emit": [
+                                {
+                                    "reagent0": "yeast competent cells"
+                                }
+                            ],
+                            "slot": [
+                                {
+                                    "reagent1": "yeast competent cells"
+                                },
+                                {
+                                    "reagent2": "DNA plasmids, PEG-3350 solution, salmon sperm DNA, sterile water"
+                                },
+                                {
+                                    "ratio": "1-3 \u03bcg DNA plasmids to 300 \u03bcl PEG-3350 solution to 25 \u03bcl salmon sperm DNA to sterile water (400 \u03bcl final volume)"
+                                },
+                                {
+                                    "method": "gentle mixing"
+                                },
+                                {
+                                    "temperature": "room temperature"
+                                },
+                                {
+                                    "time": "30 min"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "INCUBATE": {
+                            "emit": [
+                                {
+                                    "reagent0": "yeast competent cells"
+                                }
+                            ],
+                            "slot": [
+                                {
+                                    "reagent1": "yeast competent cells"
+                                },
+                                {
+                                    "reagent2": "1-3 \u03bcg DNA plasmids harboring each of the two interactor partners (in GBKT7 and GADT7-RecAB), 300 \u03bcl sterile 40% w/v PEG-3350 solution in LiAc buffer, 25 \u03bcl salmon sperm DNA, and sterile water to 400 \u03bcl final volume"
+                                },
+                                {
+                                    "temperature": "room temperature"
+                                },
+                                {
+                                    "time": "30 min"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "5.",
+        "body": [
+            {
+                "sentence": "Heat shock at 42\u02daC for 15 min.",
+                "result": [
+                    {
+                        "HEAT": {
+                            "emit": [
+                                {
+                                    "reagent0": "yeast competent cells"
+                                }
+                            ],
+                            "slot": [
+                                {
+                                    "reagent1": "yeast competent cells"
+                                },
+                                {
+                                    "temperature": "42\u02daC"
+                                },
+                                {
+                                    "time": "15 min"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "6.",
+        "body": [
+            {
+                "sentence": "Plate the shocked cells onto the SD -Trp, -Leu selective media and incubate for 2-3 days at 30\u02daC.",
+                "result": [
+                    {
+                        "PLATE": {
+                            "emit": [
+                                {
+                                    "reagent0": "shocked cells"
+                                }
+                            ],
+                            "slot": [
+                                {
+                                    "reagent1": "yeast competent cells"
+                                },
+                                {
+                                    "reagent2": "SD -Trp, -Leu selective media"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "INCUBATE": {
+                            "emit": [
+                                {
+                                    "reagent0": "shocked cells"
+                                }
+                            ],
+                            "slot": [
+                                {
+                                    "reagent1": "shocked cells"
+                                },
+                                {
+                                    "temperature": "30\u02daC"
+                                },
+                                {
+                                    "time": "2-3 days"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "7.",
+        "body": [
+            {
+                "sentence": "Streak several of the grown-up colonies of each cotransfromant on:",
+                "result": []
+            },
+            {
+                "title": "a)",
+                "body": [
+                    {
+                        "sentence": "SD -LEU, -HIS, -TRP \\(low stringency plates)",
+                        "result": [
+                            {
+                                "PLATE": {
+                                    "emit": [
+                                        {
+                                            "reagent0": "shocked cells"
+                                        }
+                                    ],
+                                    "slot": [
+                                        {
+                                            "reagent1": "yeast competent cells"
+                                        },
+                                        {
+                                            "reagent2": "SD -LEU, -HIS, -TRP (low stringency plates)"
+                                        }
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "b)",
+                "body": [
+                    {
+                        "sentence": "SD -Leu,-Trp plates supplemented with \u03b1-X-Gal \\(plate for growth-independent test for \u03b1-galactosidase)",
+                        "result": [
+                            {
+                                "PLATE": {
+                                    "emit": [
+                                        {
+                                            "reagent0": "shocked cells"
+                                        }
+                                    ],
+                                    "slot": [
+                                        {
+                                            "reagent1": "shocked cells"
+                                        },
+                                        {
+                                            "reagent2": "SD -Leu,-Trp plates supplemented with \u03b1-X-Gal"
+                                        }
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "c)",
+                "body": [
+                    {
+                        "sentence": "SD -Ade, -LEU, -HIS, -TRP supplemented with \u03b1-X-Gal \\(high stringency plates).",
+                        "result": [
+                            {
+                                "SUPPLEMENT": {
+                                    "emit": [
+                                        {
+                                            "reagent0": "high stringency plates"
+                                        }
+                                    ],
+                                    "slot": [
+                                        {
+                                            "reagent1": "SD -Ade, -LEU, -HIS, -TRP"
+                                        },
+                                        {
+                                            "reagent2": "\u03b1-X-Gal"
+                                        }
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "8.",
+        "body": [
+            {
+                "sentence": "Incubate the plates for 3 days at 30\u02daC and compare growth of your interactor pairs on media with different stringency. If the color of the colonies is ambiguous, incubate the plates at 15\u02daC for three more days and recheck.",
+                "result": [
+                    {
+                        "INCUBATE": {
+                            "emit": [
+                                {
+                                    "reagent0": "plates"
+                                }
+                            ],
+                            "slot": [
+                                {
+                                    "reagent1": "plates"
+                                },
+                                {
+                                    "temperature": "30\u02daC"
+                                },
+                                {
+                                    "time": "3 days"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "COMPARE": {
+                            "emit": [],
+                            "slot": [
+                                {
+                                    "reagent1": "shocked cells"
+                                },
+                                {
+                                    "reagent2": "high stringency plates"
+                                },
+                                {
+                                    "environment": "30\u02daC"
+                                },
+                                {
+                                    "notice": "If the color of the colonies is ambiguous, incubate the plates at 15\u02daC for three more days and recheck."
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "INCUBATE": {
+                            "emit": [
+                                {
+                                    "reagent0": "plates"
+                                }
+                            ],
+                            "slot": [
+                                {
+                                    "reagent1": "plates"
+                                },
+                                {
+                                    "temperature": "15\u02daC"
+                                },
+                                {
+                                    "time": "three more days"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        ]
+    }
+]

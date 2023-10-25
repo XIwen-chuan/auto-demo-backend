@@ -1,0 +1,456 @@
+{
+  "name": "nprot-2509_graphData.json",
+  "nodes": [
+    {
+      "id": "191f703e-0283-47cc-953d-eacc24314d58",
+      "text": "Add a BupH Phosphate Buffered Saline Pack to 100 mL of autoclaved DIW, dissolve well and make the volume up to 500 mL using autoclaved DIW. Each pack makes 500 mL of PBS at pH 7.2, which can be stored at RT for a week and at 4 \u00baC for up to four weeks.",
+      "instruction": "ADD",
+      "slots": [
+        {
+          "key": "reagent1",
+          "value": "BupH Phosphate Buffered Saline Pack",
+          "id": "59989eb5-5ca4-43e7-b074-125177a9c640",
+          "node_id": "191f703e-0283-47cc-953d-eacc24314d58"
+        },
+        {
+          "key": "reagent2",
+          "value": "autoclaved DIW",
+          "id": "600ba6ce-efec-4743-bf18-33bb4a6e1dee",
+          "node_id": "191f703e-0283-47cc-953d-eacc24314d58"
+        }
+      ],
+      "emits": [
+        {
+          "key": "reagent0",
+          "value": "BupH Phosphate Buffered Saline Pack",
+          "id": "9a8d5081-3951-4cde-80da-77a7452a4a59",
+          "node_id": "191f703e-0283-47cc-953d-eacc24314d58"
+        }
+      ]
+    },
+    {
+      "id": "719b68a3-3645-4384-a5f2-e0bfb27cf20b",
+      "text": "Add a BupH Phosphate Buffered Saline Pack to 100 mL of autoclaved DIW, dissolve well and make the volume up to 500 mL using autoclaved DIW. Each pack makes 500 mL of PBS at pH 7.2, which can be stored at RT for a week and at 4 \u00baC for up to four weeks.",
+      "instruction": "DISSOLVE",
+      "slots": [
+        {
+          "key": "reagent1",
+          "value": "BupH Phosphate Buffered Saline Pack",
+          "id": "2b0d701a-6e44-4781-92da-d6cebd3a3cd4",
+          "node_id": "719b68a3-3645-4384-a5f2-e0bfb27cf20b"
+        },
+        {
+          "key": "reagent2",
+          "value": "autoclaved DIW",
+          "id": "0012f52c-b351-4620-951d-cc859d1a3c33",
+          "node_id": "719b68a3-3645-4384-a5f2-e0bfb27cf20b"
+        },
+        {
+          "key": "targetConcentration",
+          "value": "500 mL",
+          "id": "798e5ac8-4304-4723-a224-7e53e64b62a8",
+          "node_id": "719b68a3-3645-4384-a5f2-e0bfb27cf20b"
+        }
+      ],
+      "emits": [
+        {
+          "key": "reagent0",
+          "value": "BupH Phosphate Buffered Saline Pack",
+          "id": "7c34bbf0-007c-4b59-bf8a-cbffc1da1ebf",
+          "node_id": "719b68a3-3645-4384-a5f2-e0bfb27cf20b"
+        }
+      ]
+    },
+    {
+      "id": "dcb279eb-dd44-44f2-a3eb-2e53efc6da19",
+      "text": "Add a BupH Phosphate Buffered Saline Pack to 100 mL of autoclaved DIW, dissolve well and make the volume up to 500 mL using autoclaved DIW. Each pack makes 500 mL of PBS at pH 7.2, which can be stored at RT for a week and at 4 \u00baC for up to four weeks.",
+      "instruction": "STORE",
+      "slots": [
+        {
+          "key": "reagent1",
+          "value": "BupH Phosphate Buffered Saline Pack",
+          "id": "e088b1e9-158d-474d-b8fd-4e3d63c44967",
+          "node_id": "dcb279eb-dd44-44f2-a3eb-2e53efc6da19"
+        },
+        {
+          "key": "temperature",
+          "value": "RT",
+          "id": "2530ec6e-8fa9-44f4-898a-aab5148b667f",
+          "node_id": "dcb279eb-dd44-44f2-a3eb-2e53efc6da19"
+        },
+        {
+          "key": "time",
+          "value": "1 week",
+          "id": "b8335373-f3ed-4737-80cb-a4e931f817ed",
+          "node_id": "dcb279eb-dd44-44f2-a3eb-2e53efc6da19"
+        }
+      ],
+      "emits": [
+        {
+          "key": "reagent0",
+          "value": "BupH Phosphate Buffered Saline Pack",
+          "id": "053049bb-4755-48d7-905a-ece8039c0d12",
+          "node_id": "dcb279eb-dd44-44f2-a3eb-2e53efc6da19"
+        }
+      ]
+    },
+    {
+      "id": "a602e620-024b-41ea-9a13-c3202d9f5595",
+      "text": "Add a BupH MES Buffered Saline Pack to 100 mL of autoclaved DIW, dissolve well and make the volume up to 500 mL using autoclaved DIW. Each pack makes 500 mL of MES at pH 4.7, which can be stored at RT for two weeks.",
+      "instruction": "ADD",
+      "slots": [
+        {
+          "key": "reagent1",
+          "value": "BupH MES Buffered Saline Pack",
+          "id": "b461bea0-36ee-487e-9490-6058632d52be",
+          "node_id": "a602e620-024b-41ea-9a13-c3202d9f5595"
+        },
+        {
+          "key": "reagent2",
+          "value": "autoclaved DIW",
+          "id": "fdee2a10-be18-41d3-9bde-24d89a79d81c",
+          "node_id": "a602e620-024b-41ea-9a13-c3202d9f5595"
+        }
+      ],
+      "emits": [
+        {
+          "key": "reagent0",
+          "value": "BupH MES Buffered Saline Pack",
+          "id": "751ae94a-f32e-41bb-8590-247c620e6dcc",
+          "node_id": "a602e620-024b-41ea-9a13-c3202d9f5595"
+        }
+      ]
+    },
+    {
+      "id": "0e212ca0-a078-4138-9f01-c10bd67f6279",
+      "text": "Add a BupH MES Buffered Saline Pack to 100 mL of autoclaved DIW, dissolve well and make the volume up to 500 mL using autoclaved DIW. Each pack makes 500 mL of MES at pH 4.7, which can be stored at RT for two weeks.",
+      "instruction": "DISSOLVE",
+      "slots": [
+        {
+          "key": "reagent1",
+          "value": "BupH MES Buffered Saline Pack",
+          "id": "abc554ca-b287-46d6-8e32-bddb79f46c6d",
+          "node_id": "0e212ca0-a078-4138-9f01-c10bd67f6279"
+        },
+        {
+          "key": "reagent2",
+          "value": "autoclaved DIW",
+          "id": "cdd44eda-da84-4079-a632-5e832331c240",
+          "node_id": "0e212ca0-a078-4138-9f01-c10bd67f6279"
+        },
+        {
+          "key": "targetConcentration",
+          "value": "500 mL",
+          "id": "0db51451-1d16-431c-9ed3-74297fdf28a5",
+          "node_id": "0e212ca0-a078-4138-9f01-c10bd67f6279"
+        }
+      ],
+      "emits": [
+        {
+          "key": "reagent0",
+          "value": "BupH MES Buffered Saline Pack",
+          "id": "fee66a02-d5f3-47da-8679-2fa43fc7b462",
+          "node_id": "0e212ca0-a078-4138-9f01-c10bd67f6279"
+        }
+      ]
+    },
+    {
+      "id": "788dae07-ec97-4a43-930c-de63357d0e45",
+      "text": "Add a BupH MES Buffered Saline Pack to 100 mL of autoclaved DIW, dissolve well and make the volume up to 500 mL using autoclaved DIW. Each pack makes 500 mL of MES at pH 4.7, which can be stored at RT for two weeks.",
+      "instruction": "STORE",
+      "slots": [
+        {
+          "key": "reagent1",
+          "value": "BupH MES Buffered Saline Pack",
+          "id": "47364abe-13d3-45be-9a56-54957dad0fda",
+          "node_id": "788dae07-ec97-4a43-930c-de63357d0e45"
+        },
+        {
+          "key": "temperature",
+          "value": "RT",
+          "id": "d26240fc-2cbd-4205-90f4-5fbe81720674",
+          "node_id": "788dae07-ec97-4a43-930c-de63357d0e45"
+        },
+        {
+          "key": "time",
+          "value": "two weeks",
+          "id": "0ef3ae66-60a1-4055-88fc-2e320e3814c8",
+          "node_id": "788dae07-ec97-4a43-930c-de63357d0e45"
+        }
+      ],
+      "emits": [
+        {
+          "key": "reagent0",
+          "value": "BupH MES Buffered Saline Pack",
+          "id": "71bc21ab-5b0b-47b0-81c2-1c62b04af803",
+          "node_id": "788dae07-ec97-4a43-930c-de63357d0e45"
+        }
+      ]
+    },
+    {
+      "id": "dbdc65e1-08df-4236-8e88-b1583227f63b",
+      "text": "The procured APTES solution has a purity of 99%. Reconstitute in autoclaved DIW to make 2% \\(v/v) APTES just before functionalization.",
+      "instruction": "RECONSTITUTE",
+      "slots": [
+        {
+          "key": "reagent1",
+          "value": "APTES",
+          "id": "df0fe0bd-51ca-42e1-acf9-53ec4fb28566",
+          "node_id": "dbdc65e1-08df-4236-8e88-b1583227f63b"
+        },
+        {
+          "key": "reagent2",
+          "value": "autoclaved DIW",
+          "id": "214c69bd-f089-4153-a909-aa1e408c887c",
+          "node_id": "dbdc65e1-08df-4236-8e88-b1583227f63b"
+        },
+        {
+          "key": "timing",
+          "value": "just before functionalization",
+          "id": "35a47ed9-2d25-476c-9f62-ddb1116f7965",
+          "node_id": "dbdc65e1-08df-4236-8e88-b1583227f63b"
+        }
+      ],
+      "emits": [
+        {
+          "key": "reagent0",
+          "value": "2% (v/v) APTES",
+          "id": "d421f169-ae6d-4ddc-b10d-5362f7228bdb",
+          "node_id": "dbdc65e1-08df-4236-8e88-b1583227f63b"
+        }
+      ]
+    },
+    {
+      "id": "20c13e30-ce68-45e3-98ce-c3e75138d446",
+      "text": "The commercial pack contains 25 g EDC. Reconstitute in 0.1M MES buffer, pH 4.7 to make 8 mg/mL. Aliquots can be stored effectively for six months at -20 \u00baC.",
+      "instruction": "RECONSTITUTE",
+      "slots": [
+        {
+          "key": "reagent1",
+          "value": "EDC",
+          "id": "a5d779d8-0f80-4a51-8385-a081b1b4f25d",
+          "node_id": "20c13e30-ce68-45e3-98ce-c3e75138d446"
+        },
+        {
+          "key": "reagent2",
+          "value": "0.1M MES buffer, pH 4.7",
+          "id": "561591d7-d1b4-4a29-8658-d0a0ab4586d7",
+          "node_id": "20c13e30-ce68-45e3-98ce-c3e75138d446"
+        }
+      ],
+      "emits": [
+        {
+          "key": "reagent0",
+          "value": "EDC solution",
+          "id": "d9b2e506-4530-4c88-8434-7bb42afdf3db",
+          "node_id": "20c13e30-ce68-45e3-98ce-c3e75138d446"
+        }
+      ]
+    },
+    {
+      "id": "b030cf9f-6dae-4027-9401-ca5267d3f437",
+      "text": "The commercial pack contains 25 g EDC. Reconstitute in 0.1M MES buffer, pH 4.7 to make 8 mg/mL. Aliquots can be stored effectively for six months at -20 \u00baC.",
+      "instruction": "ALIQUOT",
+      "slots": [
+        {
+          "key": "reagent1",
+          "value": "BupH Phosphate Buffered Saline Pack",
+          "id": "eebbad60-4ad9-4d0c-ade5-71f35809eaaf",
+          "node_id": "b030cf9f-6dae-4027-9401-ca5267d3f437"
+        },
+        {
+          "key": "volume",
+          "value": "<blank>",
+          "id": "5baf6d7c-f2a4-473e-b44c-7c985fed5d43",
+          "node_id": "b030cf9f-6dae-4027-9401-ca5267d3f437"
+        },
+        {
+          "key": "container",
+          "value": "<blank>",
+          "id": "90a04933-7b28-45d8-b76a-209eca8de17d",
+          "node_id": "b030cf9f-6dae-4027-9401-ca5267d3f437"
+        }
+      ],
+      "emits": [
+        {
+          "key": "reagent0",
+          "value": "BupH Phosphate Buffered Saline Pack",
+          "id": "4427bb30-127a-4557-bb1e-1cfbbf345574",
+          "node_id": "b030cf9f-6dae-4027-9401-ca5267d3f437"
+        }
+      ]
+    },
+    {
+      "id": "c52119c8-51d5-4894-b299-8b303b577520",
+      "text": "The commercial pack contains 25 g EDC. Reconstitute in 0.1M MES buffer, pH 4.7 to make 8 mg/mL. Aliquots can be stored effectively for six months at -20 \u00baC.",
+      "instruction": "STORE",
+      "slots": [
+        {
+          "key": "reagent1",
+          "value": "BupH Phosphate Buffered Saline Pack",
+          "id": "952c4867-2583-4e0e-86ca-3bbf829b4c61",
+          "node_id": "c52119c8-51d5-4894-b299-8b303b577520"
+        },
+        {
+          "key": "temperature",
+          "value": "-20 \u00baC",
+          "id": "51830e51-f732-474a-9199-d059e620019b",
+          "node_id": "c52119c8-51d5-4894-b299-8b303b577520"
+        },
+        {
+          "key": "notice",
+          "value": "Aliquots can be stored effectively for six months at -20 \u00baC.",
+          "id": "8a06dbf3-7953-485c-b249-bb1289088ff8",
+          "node_id": "c52119c8-51d5-4894-b299-8b303b577520"
+        }
+      ],
+      "emits": [
+        {
+          "key": "reagent0",
+          "value": "BupH Phosphate Buffered Saline Pack",
+          "id": "3d6a480d-2c99-4190-89e8-440126e76c41",
+          "node_id": "c52119c8-51d5-4894-b299-8b303b577520"
+        }
+      ]
+    },
+    {
+      "id": "d05d6514-7cee-41ec-b62b-26914afa8662",
+      "text": "The commercial pack contains 5 g SulfoNHS. Reconstitute in 0.1 M MES, pH 4.7 to make 22 mg/mL. Aliquots can be stored effectively for six months at -20 \u00baC.",
+      "instruction": "RECONSTITUTE",
+      "slots": [
+        {
+          "key": "reagent1",
+          "value": "5 g SulfoNHS",
+          "id": "5f93b021-7552-4c5c-ae93-4e870afd8214",
+          "node_id": "d05d6514-7cee-41ec-b62b-26914afa8662"
+        },
+        {
+          "key": "reagent2",
+          "value": "0.1 M MES, pH 4.7",
+          "id": "98f986bc-cfa0-4596-a2d9-e608879b2242",
+          "node_id": "d05d6514-7cee-41ec-b62b-26914afa8662"
+        }
+      ],
+      "emits": [
+        {
+          "key": "reagent0",
+          "value": "SulfoNHS solution",
+          "id": "35746a66-7935-48b5-8812-58a39e8923ab",
+          "node_id": "d05d6514-7cee-41ec-b62b-26914afa8662"
+        }
+      ]
+    },
+    {
+      "id": "3c973187-f3e1-484a-a34d-487ef47b6120",
+      "text": "The commercial pack contains 5 g SulfoNHS. Reconstitute in 0.1 M MES, pH 4.7 to make 22 mg/mL. Aliquots can be stored effectively for six months at -20 \u00baC.",
+      "instruction": "ALIQUOT",
+      "slots": [
+        {
+          "key": "reagent1",
+          "value": "BupH Phosphate Buffered Saline Pack",
+          "id": "587789c1-9929-4eac-bcf3-e5255ec54019",
+          "node_id": "3c973187-f3e1-484a-a34d-487ef47b6120"
+        },
+        {
+          "key": "volume",
+          "value": "<blank>",
+          "id": "a185a67c-c309-4c89-bb91-45b6c440b0ca",
+          "node_id": "3c973187-f3e1-484a-a34d-487ef47b6120"
+        },
+        {
+          "key": "container",
+          "value": "<blank>",
+          "id": "f2ef6c94-dd63-435c-a245-d1a6052f74b6",
+          "node_id": "3c973187-f3e1-484a-a34d-487ef47b6120"
+        }
+      ],
+      "emits": [
+        {
+          "key": "reagent0",
+          "value": "BupH Phosphate Buffered Saline Pack",
+          "id": "6935e369-2fa4-44a0-b403-2c40e240b0e0",
+          "node_id": "3c973187-f3e1-484a-a34d-487ef47b6120"
+        }
+      ]
+    },
+    {
+      "id": "349b68ef-dfd0-48df-a5ee-cc3f5c7f9fa7",
+      "text": "KOH treatment should not be longer than 10 min as it may cause strong aberrations on the surface, thereby changing its surface properties.",
+      "instruction": "TREAT",
+      "slots": [
+        {
+          "key": "reagent1",
+          "value": "96-well CMTP",
+          "id": "a6aa70cc-4ab7-4502-80ca-2c9c3667310d",
+          "node_id": "349b68ef-dfd0-48df-a5ee-cc3f5c7f9fa7"
+        },
+        {
+          "key": "reagent2",
+          "value": "1% (w/v) KOH",
+          "id": "1e12c11d-df28-4a85-a831-5380a706af67",
+          "node_id": "349b68ef-dfd0-48df-a5ee-cc3f5c7f9fa7"
+        },
+        {
+          "key": "temperature",
+          "value": "37 \u00baC",
+          "id": "bf4b9f8e-03e8-428d-b836-ddd2f2db6d33",
+          "node_id": "349b68ef-dfd0-48df-a5ee-cc3f5c7f9fa7"
+        },
+        {
+          "key": "time",
+          "value": "10 min",
+          "id": "09523fe9-1728-405e-899e-deaec1e70025",
+          "node_id": "349b68ef-dfd0-48df-a5ee-cc3f5c7f9fa7"
+        },
+        {
+          "key": "notice",
+          "value": "KOH treatment should not be longer than 10 min as it may cause strong aberrations on the surface, thereby changing its surface properties.",
+          "id": "837354a9-4f7e-4991-b786-dca88192984f",
+          "node_id": "349b68ef-dfd0-48df-a5ee-cc3f5c7f9fa7"
+        }
+      ],
+      "emits": [
+        {
+          "key": "reagent0",
+          "value": "96-well CMTP",
+          "id": "d72c3d41-11b8-4db0-9959-748a9555604d",
+          "node_id": "349b68ef-dfd0-48df-a5ee-cc3f5c7f9fa7"
+        }
+      ]
+    },
+    {
+      "id": "ada7dfce-28fc-4b84-8343-a471f713cbc8",
+      "text": "The ratio of EDC and SulfoNHS is critical for optimum cross-linking.",
+      "instruction": "ADJUST",
+      "slots": [
+        {
+          "key": "reagent1",
+          "value": "pre-mixed EDC-SulfoNHS solution",
+          "id": "2a962842-9f0c-4f66-bfa6-ee948e0a63fa",
+          "node_id": "ada7dfce-28fc-4b84-8343-a471f713cbc8"
+        },
+        {
+          "key": "attribute",
+          "value": "ratio",
+          "id": "2b8c5926-356e-427d-a5d6-f81d67d6e54b",
+          "node_id": "ada7dfce-28fc-4b84-8343-a471f713cbc8"
+        },
+        {
+          "key": "data1",
+          "value": "critical for optimum cross-linking",
+          "id": "dbcbab5f-0dd8-49b9-9870-cf9f23b6fd53",
+          "node_id": "ada7dfce-28fc-4b84-8343-a471f713cbc8"
+        }
+      ],
+      "emits": [
+        {
+          "key": "reagent0",
+          "value": "pre-mixed EDC-SulfoNHS solution",
+          "id": "c999af29-6645-42ea-891b-de0286624287",
+          "node_id": "ada7dfce-28fc-4b84-8343-a471f713cbc8"
+        }
+      ]
+    }
+  ],
+  "edges": []
+}

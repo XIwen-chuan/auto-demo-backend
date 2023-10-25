@@ -1,0 +1,372 @@
+[
+    {
+        "title": "1.",
+        "body": [
+            {
+                "sentence": "Wash cells with PBS.",
+                "result": [
+                    {
+                        "WASH": {
+                            "emit": [
+                                {
+                                    "reagent0": "washed cells"
+                                }
+                            ],
+                            "slot": [
+                                {
+                                    "reagent1": "cells"
+                                },
+                                {
+                                    "reagent2": "PBS"
+                                },
+                                {
+                                    "repeat": "1"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "2.",
+        "body": [
+            {
+                "sentence": "Fix in 4% PFA for 15 min at room temperature \\(RT).",
+                "result": [
+                    {
+                        "FIX": {
+                            "emit": [
+                                {
+                                    "reagent0": "washed cells"
+                                }
+                            ],
+                            "slot": [
+                                {
+                                    "reagent1": "4% PFA"
+                                },
+                                {
+                                    "temperature": "RT"
+                                },
+                                {
+                                    "time": "15 min"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "3.",
+        "body": [
+            {
+                "sentence": "Wash cells with PBS \\(2 x 5 min).  Cells can be stored in PBS at 4C for up to a week.",
+                "result": [
+                    {
+                        "WASH": {
+                            "emit": [
+                                {
+                                    "reagent0": "washed cells"
+                                }
+                            ],
+                            "slot": [
+                                {
+                                    "reagent1": "cells"
+                                },
+                                {
+                                    "reagent2": "PBS"
+                                },
+                                {
+                                    "repeat": "2"
+                                },
+                                {
+                                    "time": "5 min"
+                                },
+                                {
+                                    "notice": "Cells can be stored in PBS at 4C for up to a week."
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "STORE": {
+                            "emit": [
+                                {
+                                    "reagent0": "washed cells"
+                                }
+                            ],
+                            "slot": [
+                                {
+                                    "reagent1": "washed cells"
+                                },
+                                {
+                                    "temperature": "4C"
+                                },
+                                {
+                                    "time": "up to a week"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "4.",
+        "body": [
+            {
+                "sentence": "Permeabilize with PBS + 0.1% TritonX-100 for 5 min at RT.",
+                "result": []
+            }
+        ]
+    },
+    {
+        "title": "5.",
+        "body": [
+            {
+                "sentence": "Wash with PBS \\(2 x 5 min) at RT.",
+                "result": [
+                    {
+                        "WASH": {
+                            "emit": [
+                                {
+                                    "reagent0": "washed cells"
+                                }
+                            ],
+                            "slot": [
+                                {
+                                    "reagent1": "washed cells"
+                                },
+                                {
+                                    "reagent2": "PBS"
+                                },
+                                {
+                                    "repeat": "2"
+                                },
+                                {
+                                    "time": "5 min"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "6.",
+        "body": [
+            {
+                "sentence": "Block with 10% serum \\(from species of secondary) for 1 hr at RT.",
+                "result": [
+                    {
+                        "BLOCK": {
+                            "emit": [
+                                {
+                                    "reagent0": "washed cells"
+                                }
+                            ],
+                            "slot": [
+                                {
+                                    "reagent1": "10% serum"
+                                },
+                                {
+                                    "reagent2": "serum"
+                                },
+                                {
+                                    "temperature": "RT"
+                                },
+                                {
+                                    "time": "1 hr"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "7.",
+        "body": [
+            {
+                "sentence": "Drain and incubate with primary antibody diluted in 5% serum overnight at 4C.",
+                "result": [
+                    {
+                        "INCUBATE": {
+                            "emit": [
+                                {
+                                    "reagent0": "washed cells"
+                                }
+                            ],
+                            "slot": [
+                                {
+                                    "reagent1": "primary antibody"
+                                },
+                                {
+                                    "temperature": "4C"
+                                },
+                                {
+                                    "time": "overnight"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "8.",
+        "body": [
+            {
+                "sentence": "Wash in PBS \\(3 x 5 min) at RT.",
+                "result": [
+                    {
+                        "WASH": {
+                            "emit": [
+                                {
+                                    "reagent0": "washed cells"
+                                }
+                            ],
+                            "slot": [
+                                {
+                                    "reagent1": "washed cells"
+                                },
+                                {
+                                    "reagent2": "PBS"
+                                },
+                                {
+                                    "repeat": "3"
+                                },
+                                {
+                                    "time": "5 min"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "9.",
+        "body": [
+            {
+                "sentence": "Detect primary antibody with Alexa Fluor secondary antibody diluted 1:400 in 5% serum at RT for 1 hr in the dark.",
+                "result": []
+            }
+        ]
+    },
+    {
+        "title": "10.",
+        "body": [
+            {
+                "sentence": "Wash in PBS \\(3 x 5 min) at RT.",
+                "result": [
+                    {
+                        "WASH": {
+                            "emit": [
+                                {
+                                    "reagent0": "washed cells"
+                                }
+                            ],
+                            "slot": [
+                                {
+                                    "reagent1": "washed cells"
+                                },
+                                {
+                                    "reagent2": "PBS"
+                                },
+                                {
+                                    "repeat": "3"
+                                },
+                                {
+                                    "time": "5 min"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "11.",
+        "body": [
+            {
+                "sentence": "Add mounting media with DAPI and apply coverslip.",
+                "result": [
+                    {
+                        "ADD": {
+                            "emit": [
+                                {
+                                    "reagent0": "washed cells"
+                                }
+                            ],
+                            "slot": [
+                                {
+                                    "reagent1": "washed cells"
+                                },
+                                {
+                                    "reagent2": "mounting media with DAPI"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "APPLY": {
+                            "emit": [
+                                {
+                                    "reagent0": "washed cells"
+                                }
+                            ],
+                            "slot": [
+                                {
+                                    "reagent1": "washed cells"
+                                },
+                                {
+                                    "reagent2": "mounting media with DAPI"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "12.",
+        "body": [
+            {
+                "sentence": "Store slides in the dark at 4C.",
+                "result": [
+                    {
+                        "STORE": {
+                            "emit": [
+                                {
+                                    "reagent0": "slides"
+                                }
+                            ],
+                            "slot": [
+                                {
+                                    "reagent1": "slides"
+                                },
+                                {
+                                    "temperature": "4C"
+                                },
+                                {
+                                    "environment": "dark"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        ]
+    }
+]

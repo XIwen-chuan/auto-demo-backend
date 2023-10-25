@@ -1,0 +1,1213 @@
+{
+  "name": "nprot-102_graphData.json",
+  "nodes": [
+    {
+      "id": "5a2501be-abfd-4d62-a0c3-81615a12a320",
+      "text": "Streak yeast cell EGY48 with p8op-lacZ reporter plasmid on SD-Ura plate for 3-5 days \\(at 30 <sup>o</sup>C). Scrape an entire colony \\(2-3 mm in diameter) into 1 ml of YPD medium, Vortex vigorously to disperse any clumps. Transfer this into a flask containing YPD:\r\n  Small Scale: 50 ml in 250 ml flask\r\n\n\nLibrary Scale: 150 ml in 500 ml flask\r\n\n\n\r\n\n\nIncubate at 30 <sup>o</sup>C overnight \\(16-18 hr) with shaking \\(at 250 rpm) to stationary phase \\(OD<sub>600</sub> greater than/equal to 1.5).",
+      "instruction": "TRANSFER",
+      "slots": [
+        {
+          "key": "source",
+          "value": "1 ml of YPD medium",
+          "id": "ecdec1dc-64fc-47e0-acba-4e5f72ed7160",
+          "node_id": "5a2501be-abfd-4d62-a0c3-81615a12a320"
+        },
+        {
+          "key": "destination",
+          "value": "flask containing YPD",
+          "id": "a42a5258-2c2e-4f3b-9fdd-0325593b5299",
+          "node_id": "5a2501be-abfd-4d62-a0c3-81615a12a320"
+        },
+        {
+          "key": "reagent1",
+          "value": "entire colony (2-3 mm in diameter)",
+          "id": "74d97a4c-7359-4795-bb06-c47a0f9e2f23",
+          "node_id": "5a2501be-abfd-4d62-a0c3-81615a12a320"
+        }
+      ],
+      "emits": [
+        {
+          "key": "reagent0",
+          "value": "entire colony (2-3 mm in diameter)",
+          "id": "f352523a-652c-45a8-8582-1cd6e58a88da",
+          "node_id": "5a2501be-abfd-4d62-a0c3-81615a12a320"
+        }
+      ]
+    },
+    {
+      "id": "98921219-fb0a-485f-9f67-a206ad83ddbb",
+      "text": "Streak yeast cell EGY48 with p8op-lacZ reporter plasmid on SD-Ura plate for 3-5 days \\(at 30 <sup>o</sup>C). Scrape an entire colony \\(2-3 mm in diameter) into 1 ml of YPD medium, Vortex vigorously to disperse any clumps. Transfer this into a flask containing YPD:\r\n  Small Scale: 50 ml in 250 ml flask\r\n\n\nLibrary Scale: 150 ml in 500 ml flask\r\n\n\n\r\n\n\nIncubate at 30 <sup>o</sup>C overnight \\(16-18 hr) with shaking \\(at 250 rpm) to stationary phase \\(OD<sub>600</sub> greater than/equal to 1.5).",
+      "instruction": "INCUBATE",
+      "slots": [
+        {
+          "key": "reagent1",
+          "value": "YPD medium",
+          "id": "f13cbd98-e122-4b39-88b3-bbdad77f62d0",
+          "node_id": "98921219-fb0a-485f-9f67-a206ad83ddbb"
+        },
+        {
+          "key": "temperature",
+          "value": "30 \u00b0C",
+          "id": "00fede21-1c63-4b6f-9bd5-c8678b6b76d5",
+          "node_id": "98921219-fb0a-485f-9f67-a206ad83ddbb"
+        },
+        {
+          "key": "time",
+          "value": "16-18 hr",
+          "id": "29fea1c3-c269-43bc-b6d8-3d0dc059a7b5",
+          "node_id": "98921219-fb0a-485f-9f67-a206ad83ddbb"
+        },
+        {
+          "key": "device",
+          "value": "shaker",
+          "id": "810d2472-0e20-4348-85a7-a2fce2a0313d",
+          "node_id": "98921219-fb0a-485f-9f67-a206ad83ddbb"
+        }
+      ],
+      "emits": [
+        {
+          "key": "reagent0",
+          "value": "entire colony (2-3 mm in diameter)",
+          "id": "8844564e-46a3-4fae-8936-4e5991b195a7",
+          "node_id": "98921219-fb0a-485f-9f67-a206ad83ddbb"
+        }
+      ]
+    },
+    {
+      "id": "3dc5dda5-7a2e-4f5b-a76f-f495ced87dda",
+      "text": "Early the next morning, transfer overnight culture \\(enough to produce an OD<sub>600</sub>=0.2-0.3) into this volume of YPD:\r\n  Small Scale: 300 ml in 1L flask\r\n\n\nLibrary Scale: 1000 ml in 2L flask",
+      "instruction": "TRANSFER",
+      "slots": [
+        {
+          "key": "source",
+          "value": "overnight culture",
+          "id": "8b1f60dd-9630-40d6-9133-5b7fbb36fe92",
+          "node_id": "3dc5dda5-7a2e-4f5b-a76f-f495ced87dda"
+        },
+        {
+          "key": "destination",
+          "value": "YPD",
+          "id": "69640a1f-4f94-4579-b500-240a2f780069",
+          "node_id": "3dc5dda5-7a2e-4f5b-a76f-f495ced87dda"
+        },
+        {
+          "key": "reagent1",
+          "value": "overnight culture",
+          "id": "f1fc6a66-307b-4d96-841b-f3528028aa8f",
+          "node_id": "3dc5dda5-7a2e-4f5b-a76f-f495ced87dda"
+        },
+        {
+          "key": "volume",
+          "value": "300 ml",
+          "id": "b8b080bb-2c8d-40e1-8ef1-64a3c92a982c",
+          "node_id": "3dc5dda5-7a2e-4f5b-a76f-f495ced87dda"
+        },
+        {
+          "key": "equipment",
+          "value": "1L flask",
+          "id": "82d76ffc-79d7-45d8-b5d5-25260e8cbcd4",
+          "node_id": "3dc5dda5-7a2e-4f5b-a76f-f495ced87dda"
+        }
+      ],
+      "emits": [
+        {
+          "key": "reagent0",
+          "value": "entire colony (2-3 mm in diameter)",
+          "id": "7d9adf4c-7e40-490d-9730-d1291bcd362f",
+          "node_id": "3dc5dda5-7a2e-4f5b-a76f-f495ced87dda"
+        }
+      ]
+    },
+    {
+      "id": "3e3c64ac-a248-44aa-8003-97c7a1cad0e6",
+      "text": "Early the next morning, transfer overnight culture \\(enough to produce an OD<sub>600</sub>=0.2-0.3) into this volume of YPD:\r\n  Small Scale: 300 ml in 1L flask\r\n\n\nLibrary Scale: 1000 ml in 2L flask",
+      "instruction": "TRANSFER",
+      "slots": [
+        {
+          "key": "source",
+          "value": "overnight culture",
+          "id": "73bc815d-a2f9-468b-9cfa-f7699b27fc4f",
+          "node_id": "3e3c64ac-a248-44aa-8003-97c7a1cad0e6"
+        },
+        {
+          "key": "destination",
+          "value": "volume of YPD",
+          "id": "f7c694e3-e1f2-478f-a758-e577ef7173fa",
+          "node_id": "3e3c64ac-a248-44aa-8003-97c7a1cad0e6"
+        },
+        {
+          "key": "reagent1",
+          "value": "overnight culture",
+          "id": "1133a939-f03a-4ad2-bf4e-e0f18a90a05c",
+          "node_id": "3e3c64ac-a248-44aa-8003-97c7a1cad0e6"
+        },
+        {
+          "key": "volume",
+          "value": "300 ml",
+          "id": "30faf2ad-6794-4f00-bc7c-6319bcd50b02",
+          "node_id": "3e3c64ac-a248-44aa-8003-97c7a1cad0e6"
+        },
+        {
+          "key": "notice",
+          "value": "Small Scale: 300 ml in 1L flask",
+          "id": "59f5cae7-fd40-43b1-a52c-1a82528e671f",
+          "node_id": "3e3c64ac-a248-44aa-8003-97c7a1cad0e6"
+        }
+      ],
+      "emits": [
+        {
+          "key": "reagent0",
+          "value": "overnight culture",
+          "id": "c6531d4c-b030-4648-8cc3-ae828df83589",
+          "node_id": "3e3c64ac-a248-44aa-8003-97c7a1cad0e6"
+        }
+      ]
+    },
+    {
+      "id": "8277843c-eca0-402d-aaf7-443207c18a66",
+      "text": "Incubate at 30 <sup>o</sup>C for 3 hr with shaking \\(230 rpm). The OD<sub>600</sub> will be 0.5 plus/minus 0.1.",
+      "instruction": "INCUBATE",
+      "slots": [
+        {
+          "key": "reagent1",
+          "value": "entire colony (2-3 mm in diameter)",
+          "id": "4f5d111f-0e19-4f9c-8cdf-54a6187bb040",
+          "node_id": "8277843c-eca0-402d-aaf7-443207c18a66"
+        },
+        {
+          "key": "temperature",
+          "value": "30 \u00b0C",
+          "id": "08f2d162-e0b0-49c9-98ab-52e27954ac75",
+          "node_id": "8277843c-eca0-402d-aaf7-443207c18a66"
+        },
+        {
+          "key": "time",
+          "value": "3 hr",
+          "id": "21ffbfbc-ddd4-4694-97a7-c258089cfe81",
+          "node_id": "8277843c-eca0-402d-aaf7-443207c18a66"
+        },
+        {
+          "key": "device",
+          "value": "shaking (230 rpm)",
+          "id": "b4e67fdb-4b14-4576-9ca5-3097179872c8",
+          "node_id": "8277843c-eca0-402d-aaf7-443207c18a66"
+        }
+      ],
+      "emits": [
+        {
+          "key": "reagent0",
+          "value": "entire colony (2-3 mm in diameter)",
+          "id": "e080fe15-9e7a-4869-96f4-48428e0951d3",
+          "node_id": "8277843c-eca0-402d-aaf7-443207c18a66"
+        }
+      ]
+    },
+    {
+      "id": "cdb70a21-f02a-4e16-b225-ddd4e540b0f7",
+      "text": "Place cells in 50-ml tubes and centrifuge at 1500 rpm in floor centrifuge for 5 min at room temperature.",
+      "instruction": "PLACE",
+      "slots": [
+        {
+          "key": "reagent1",
+          "value": "cells",
+          "id": "6d56c497-26bd-4b1d-8f2f-a7b26048b7b7",
+          "node_id": "cdb70a21-f02a-4e16-b225-ddd4e540b0f7"
+        },
+        {
+          "key": "destination",
+          "value": "50-ml tubes",
+          "id": "f85074b8-1451-432c-b4dc-9c628f9f2aea",
+          "node_id": "cdb70a21-f02a-4e16-b225-ddd4e540b0f7"
+        },
+        {
+          "key": "temperature",
+          "value": "room temperature",
+          "id": "5db79c90-bb8b-4e0a-8981-38921b94489d",
+          "node_id": "cdb70a21-f02a-4e16-b225-ddd4e540b0f7"
+        },
+        {
+          "key": "device",
+          "value": "floor centrifuge",
+          "id": "fbfabceb-517c-49ba-a7fe-61ad5cd536bb",
+          "node_id": "cdb70a21-f02a-4e16-b225-ddd4e540b0f7"
+        }
+      ],
+      "emits": [
+        {
+          "key": "reagent0",
+          "value": "cells",
+          "id": "7dae8484-8270-4e7b-b0e5-0f7bd40c4c99",
+          "node_id": "cdb70a21-f02a-4e16-b225-ddd4e540b0f7"
+        }
+      ]
+    },
+    {
+      "id": "8c2e65f9-e71d-47b0-a28c-58e16a4854b4",
+      "text": "Place cells in 50-ml tubes and centrifuge at 1500 rpm in floor centrifuge for 5 min at room temperature.",
+      "instruction": "CENTRIFUGE",
+      "slots": [
+        {
+          "key": "reagent1",
+          "value": "cells",
+          "id": "40b3fd5c-0570-49f0-bd12-f96e54c2cd6d",
+          "node_id": "8c2e65f9-e71d-47b0-a28c-58e16a4854b4"
+        },
+        {
+          "key": "intensity",
+          "value": "1500 rpm",
+          "id": "988aa005-8aa1-4b52-8597-f4e959bf1efb",
+          "node_id": "8c2e65f9-e71d-47b0-a28c-58e16a4854b4"
+        },
+        {
+          "key": "time",
+          "value": "5 min",
+          "id": "03582ddd-24d4-4b0c-bc1f-f1d2ae4501b1",
+          "node_id": "8c2e65f9-e71d-47b0-a28c-58e16a4854b4"
+        },
+        {
+          "key": "temperature",
+          "value": "room temperature",
+          "id": "34df0bb2-fa7a-4b46-98d5-9874f993764b",
+          "node_id": "8c2e65f9-e71d-47b0-a28c-58e16a4854b4"
+        }
+      ],
+      "emits": [
+        {
+          "key": "reagent0",
+          "value": "cells",
+          "id": "fc78c5b1-3bdf-459e-9200-6ae412bd8559",
+          "node_id": "8c2e65f9-e71d-47b0-a28c-58e16a4854b4"
+        }
+      ]
+    },
+    {
+      "id": "54c382e6-5b81-4b31-8953-0bb525729197",
+      "text": "Discard the supernatant and resuspend cell pellets by vortexing in this volume of sterile TE or H<sub>2</sub>O:\r\n  Small Scale: 25-50 ml\r\n\n\nLibrary Scale: 500 ml",
+      "instruction": "DISCARD",
+      "slots": [
+        {
+          "key": "reagent1",
+          "value": "supernatant",
+          "id": "07d2352f-2e0b-41c0-91ea-d06a0e588527",
+          "node_id": "54c382e6-5b81-4b31-8953-0bb525729197"
+        },
+        {
+          "key": "method",
+          "value": "discard",
+          "id": "53d99dfa-5760-4e34-90c3-301512fc838f",
+          "node_id": "54c382e6-5b81-4b31-8953-0bb525729197"
+        },
+        {
+          "key": "notice",
+          "value": "Small Scale: 25-50 ml\\n\\n\\nLibrary Scale: 500 ml",
+          "id": "6a5fd8b1-0890-4da7-932e-de2db62f0952",
+          "node_id": "54c382e6-5b81-4b31-8953-0bb525729197"
+        }
+      ],
+      "emits": [
+        {
+          "key": "reagent0",
+          "value": "cell pellets",
+          "id": "51bf603b-19d6-4849-ab45-566d259e525f",
+          "node_id": "54c382e6-5b81-4b31-8953-0bb525729197"
+        }
+      ]
+    },
+    {
+      "id": "afc49efd-85f9-4624-8a0c-bf4fa270944f",
+      "text": "Discard the supernatant and resuspend cell pellets by vortexing in this volume of sterile TE or H<sub>2</sub>O:\r\n  Small Scale: 25-50 ml\r\n\n\nLibrary Scale: 500 ml",
+      "instruction": "RESUSPEND",
+      "slots": [
+        {
+          "key": "reagent1",
+          "value": "cell pellets",
+          "id": "6c769f88-7d0e-4474-bc16-7d48eeb56302",
+          "node_id": "afc49efd-85f9-4624-8a0c-bf4fa270944f"
+        },
+        {
+          "key": "reagent2",
+          "value": "sterile TE or H<sub>2</sub>O",
+          "id": "5781a4d9-3a0b-4c26-9ae3-5ea864481eb1",
+          "node_id": "afc49efd-85f9-4624-8a0c-bf4fa270944f"
+        },
+        {
+          "key": "notice",
+          "value": "Small Scale: 25-50 ml",
+          "id": "ebac2b27-0e27-48a5-ac54-af6a09458d46",
+          "node_id": "afc49efd-85f9-4624-8a0c-bf4fa270944f"
+        }
+      ],
+      "emits": [
+        {
+          "key": "reagent0",
+          "value": "cell pellets",
+          "id": "61a2bd79-9b3a-424c-b64a-03b3f063863c",
+          "node_id": "afc49efd-85f9-4624-8a0c-bf4fa270944f"
+        }
+      ]
+    },
+    {
+      "id": "18b989f2-622d-4dde-9d15-3d7cf0ff479b",
+      "text": "Pool cells in 50 ml tube and centrifuge at 1500 rpm in floor centrifuge for 5 min at room temperature.",
+      "instruction": "POOL",
+      "slots": [
+        {
+          "key": "reagent1",
+          "value": "cells",
+          "id": "2366ea6e-f4c7-4aa6-927d-b51df5108423",
+          "node_id": "18b989f2-622d-4dde-9d15-3d7cf0ff479b"
+        },
+        {
+          "key": "container",
+          "value": "50 ml tube",
+          "id": "099e79c4-893e-42c2-b0f0-47a7e1804538",
+          "node_id": "18b989f2-622d-4dde-9d15-3d7cf0ff479b"
+        }
+      ],
+      "emits": [
+        {
+          "key": "reagent0",
+          "value": "cells",
+          "id": "445b2c3c-213c-4185-abd4-8da45798f13b",
+          "node_id": "18b989f2-622d-4dde-9d15-3d7cf0ff479b"
+        }
+      ]
+    },
+    {
+      "id": "4d6fa3f0-478f-46b8-9555-f023721cc332",
+      "text": "Pool cells in 50 ml tube and centrifuge at 1500 rpm in floor centrifuge for 5 min at room temperature.",
+      "instruction": "CENTRIFUGE",
+      "slots": [
+        {
+          "key": "reagent1",
+          "value": "cells",
+          "id": "945460a6-eeac-4d8e-9c52-1eeef9e7904c",
+          "node_id": "4d6fa3f0-478f-46b8-9555-f023721cc332"
+        },
+        {
+          "key": "intensity",
+          "value": "1500 rpm",
+          "id": "eceee706-8fa5-4057-a382-4400ca057639",
+          "node_id": "4d6fa3f0-478f-46b8-9555-f023721cc332"
+        },
+        {
+          "key": "time",
+          "value": "5 min",
+          "id": "3cba6fdc-ac20-4b2b-9400-23ef37e25c05",
+          "node_id": "4d6fa3f0-478f-46b8-9555-f023721cc332"
+        },
+        {
+          "key": "temperature",
+          "value": "room temperature",
+          "id": "781a6cd3-8cdf-4ce6-bfdd-62caf6f6f4dc",
+          "node_id": "4d6fa3f0-478f-46b8-9555-f023721cc332"
+        }
+      ],
+      "emits": [
+        {
+          "key": "reagent0",
+          "value": "cells",
+          "id": "37861fc5-2148-47b0-bb6a-0cf319692200",
+          "node_id": "4d6fa3f0-478f-46b8-9555-f023721cc332"
+        }
+      ]
+    },
+    {
+      "id": "4e24b203-f376-4cfa-a760-8a07383697a5",
+      "text": "Decant the supernatant.",
+      "instruction": "DECANT",
+      "slots": [
+        {
+          "key": "reagent1",
+          "value": "supernatant",
+          "id": "699187e4-e08a-4fc3-8393-a2d3f07ae9f6",
+          "node_id": "4e24b203-f376-4cfa-a760-8a07383697a5"
+        }
+      ],
+      "emits": [
+        {
+          "key": "reagent0",
+          "value": "supernatant",
+          "id": "d77d98ab-8b4a-48d7-82d5-ed1039c8614d",
+          "node_id": "4e24b203-f376-4cfa-a760-8a07383697a5"
+        }
+      ]
+    },
+    {
+      "id": "35abde5c-ee35-4afc-b70e-cd6fa6975880",
+      "text": "Resuspend the cell pellet in this volume of freshly prepared, sterile 1xTE/LiAc:\r\n  Small Scale: 1.5 ml\r\n\n\nLibrary Scale: 8 ml\r\n\n\n  \r\n\n\n\\(NOTE: Cells must be used within about an hour after preparation.)",
+      "instruction": "RESUSPEND",
+      "slots": [
+        {
+          "key": "reagent1",
+          "value": "cell pellets",
+          "id": "9d085767-36cf-4737-be88-0dab71c17a60",
+          "node_id": "35abde5c-ee35-4afc-b70e-cd6fa6975880"
+        },
+        {
+          "key": "reagent2",
+          "value": "1xTE/LiAc",
+          "id": "62bfb0fe-db90-43e1-93f2-fb01b79de1d8",
+          "node_id": "35abde5c-ee35-4afc-b70e-cd6fa6975880"
+        },
+        {
+          "key": "notice",
+          "value": "Cells must be used within about an hour after preparation.",
+          "id": "c7186917-b029-4c42-94c5-a568a88d1130",
+          "node_id": "35abde5c-ee35-4afc-b70e-cd6fa6975880"
+        }
+      ],
+      "emits": [
+        {
+          "key": "reagent0",
+          "value": "cell pellets",
+          "id": "c3db68c8-aa80-41e2-b3dd-f73b8154c07c",
+          "node_id": "35abde5c-ee35-4afc-b70e-cd6fa6975880"
+        }
+      ]
+    },
+    {
+      "id": "9794720b-875e-4142-b9e2-fe9a25bbf1fe",
+      "text": "Prepare PEG/LiAc solution, and this solution will be used in step #12:\r\n  Small Scale: 10ml\r\n\n\nLibrary Scale: 100ml",
+      "instruction": "PREPARE",
+      "slots": [
+        {
+          "key": "reagent1",
+          "value": "PEG/LiAc solution",
+          "id": "16cecb7d-910b-4aae-9c5e-4e08bf216cbb",
+          "node_id": "9794720b-875e-4142-b9e2-fe9a25bbf1fe"
+        },
+        {
+          "key": "notice",
+          "value": "Small Scale: 10ml\\n\\nLibrary Scale: 100ml",
+          "id": "958efe7b-ef4b-4af3-b601-280f828057d4",
+          "node_id": "9794720b-875e-4142-b9e2-fe9a25bbf1fe"
+        }
+      ],
+      "emits": [
+        {
+          "key": "reagent0",
+          "value": "PEG/LiAc solution",
+          "id": "78effe9c-bdc4-4fcd-9e78-885cc372441d",
+          "node_id": "9794720b-875e-4142-b9e2-fe9a25bbf1fe"
+        }
+      ]
+    },
+    {
+      "id": "8c839c8f-137e-4319-9b56-5c5cb08e7f7e",
+      "text": "Add the following to each tube and mix:\r\n  Small scale \\(in 1.5 ml eppt tube) \r\n\n\nLibrary scale \\(in 500 ml centrifuge tube)\r\n\n\n        \r\n\n\nBait vector- 0.2 ug \\(small), 0.6 mg \\(library)\r\n\n\nLibrary vector- 0.1 ug \\(small), 0.3 mg \\(library)\r\n\n\nHerring testes carrier DNA- 0.1 mg \\(small), 20 mg \\(library)\r\n\n\n\r\n\n\n\\(For simultaneous cotransfection, a molar ratio of 2:1 \\(Bait vector: Prey vector) is recommended). \\(Just prior to use, denature the carrier DNA by placing it in a boiling water for 20 min and immediately cooling it on ice)",
+      "instruction": "ADD",
+      "slots": [
+        {
+          "key": "reagent2",
+          "value": "Bait vector- 0.2 ug (small), 0.6 mg (library)\\nLibrary vector- 0.1 ug (small), 0.3 mg (library)\\nHerring testes carrier DNA- 0.1 mg (small), 20 mg (library)",
+          "id": "1b9a5d32-d965-4693-9f9e-68af7d9132ae",
+          "node_id": "8c839c8f-137e-4319-9b56-5c5cb08e7f7e"
+        },
+        {
+          "key": "ratio",
+          "value": "2:1",
+          "id": "83431bd5-9ece-4cae-b448-895d90106899",
+          "node_id": "8c839c8f-137e-4319-9b56-5c5cb08e7f7e"
+        },
+        {
+          "key": "notice",
+          "value": "For simultaneous cotransfection, a molar ratio of 2:1 (Bait vector: Prey vector) is recommended. Just prior to use, denature the carrier DNA by placing it in a boiling water for 20 min and immediately cooling it on ice",
+          "id": "44ad8a17-fbdc-43f6-bada-949e4b731136",
+          "node_id": "8c839c8f-137e-4319-9b56-5c5cb08e7f7e"
+        }
+      ],
+      "emits": []
+    },
+    {
+      "id": "0bebab9d-8c60-4b81-9a54-5205470b9bde",
+      "text": "Add the following to each tube and mix:\r\n  Small scale \\(in 1.5 ml eppt tube) \r\n\n\nLibrary scale \\(in 500 ml centrifuge tube)\r\n\n\n        \r\n\n\nBait vector- 0.2 ug \\(small), 0.6 mg \\(library)\r\n\n\nLibrary vector- 0.1 ug \\(small), 0.3 mg \\(library)\r\n\n\nHerring testes carrier DNA- 0.1 mg \\(small), 20 mg \\(library)\r\n\n\n\r\n\n\n\\(For simultaneous cotransfection, a molar ratio of 2:1 \\(Bait vector: Prey vector) is recommended). \\(Just prior to use, denature the carrier DNA by placing it in a boiling water for 20 min and immediately cooling it on ice)",
+      "instruction": "MIX",
+      "slots": [
+        {
+          "key": "reagent1",
+          "value": "Bait vector- 0.2 ug (small), 0.6 mg (library)\\nLibrary vector- 0.1 ug (small), 0.3 mg (library)\\nHerring testes carrier DNA- 0.1 mg (small), 20 mg (library)",
+          "id": "1e1e18e2-7481-4bdb-a012-d81f1543dadf",
+          "node_id": "0bebab9d-8c60-4b81-9a54-5205470b9bde"
+        },
+        {
+          "key": "method",
+          "value": "vortexing",
+          "id": "a1873be2-f61b-479c-a8f9-34aa915dc06f",
+          "node_id": "0bebab9d-8c60-4b81-9a54-5205470b9bde"
+        },
+        {
+          "key": "notice",
+          "value": "Just prior to use, denature the carrier DNA by placing it in a boiling water for 20 min and immediately cooling it on ice",
+          "id": "8cf1e30a-9d81-4268-ac56-4610f8bab2ac",
+          "node_id": "0bebab9d-8c60-4b81-9a54-5205470b9bde"
+        }
+      ],
+      "emits": []
+    },
+    {
+      "id": "2314d2cd-c20b-45b0-bd93-f6762e994cea",
+      "text": "Add the following to each tube and mix:\r\n  Small scale \\(in 1.5 ml eppt tube) \r\n\n\nLibrary scale \\(in 500 ml centrifuge tube)\r\n\n\n        \r\n\n\nBait vector- 0.2 ug \\(small), 0.6 mg \\(library)\r\n\n\nLibrary vector- 0.1 ug \\(small), 0.3 mg \\(library)\r\n\n\nHerring testes carrier DNA- 0.1 mg \\(small), 20 mg \\(library)\r\n\n\n\r\n\n\n\\(For simultaneous cotransfection, a molar ratio of 2:1 \\(Bait vector: Prey vector) is recommended). \\(Just prior to use, denature the carrier DNA by placing it in a boiling water for 20 min and immediately cooling it on ice)",
+      "instruction": "ADD",
+      "slots": [
+        {
+          "key": "reagent2",
+          "value": "Bait vector- 0.2 ug (small), 0.6 mg (library)",
+          "id": "d8840d07-2ad5-47ab-9f4f-1c7516af0153",
+          "node_id": "2314d2cd-c20b-45b0-bd93-f6762e994cea"
+        }
+      ],
+      "emits": []
+    },
+    {
+      "id": "70687608-0176-482b-8234-3dcec35eab9e",
+      "text": "Add the following to each tube and mix:\r\n  Small scale \\(in 1.5 ml eppt tube) \r\n\n\nLibrary scale \\(in 500 ml centrifuge tube)\r\n\n\n        \r\n\n\nBait vector- 0.2 ug \\(small), 0.6 mg \\(library)\r\n\n\nLibrary vector- 0.1 ug \\(small), 0.3 mg \\(library)\r\n\n\nHerring testes carrier DNA- 0.1 mg \\(small), 20 mg \\(library)\r\n\n\n\r\n\n\n\\(For simultaneous cotransfection, a molar ratio of 2:1 \\(Bait vector: Prey vector) is recommended). \\(Just prior to use, denature the carrier DNA by placing it in a boiling water for 20 min and immediately cooling it on ice)",
+      "instruction": "ADD",
+      "slots": [
+        {
+          "key": "reagent1",
+          "value": "Small scale (in 1.5 ml eppt tube)",
+          "id": "d74a6a31-6459-4776-b031-8b70599e06ac",
+          "node_id": "70687608-0176-482b-8234-3dcec35eab9e"
+        },
+        {
+          "key": "reagent2",
+          "value": "Library scale (in 500 ml centrifuge tube)",
+          "id": "d7249152-47dc-4379-a339-c0a8709dd8ef",
+          "node_id": "70687608-0176-482b-8234-3dcec35eab9e"
+        },
+        {
+          "key": "notice",
+          "value": "Bait vector- 0.2 ug (small), 0.6 mg (library)\\nLibrary vector- 0.1 ug (small), 0.3 mg (library)\\nHerring testes carrier DNA- 0.1 mg (small), 20 mg (library)\\n\\n(For simultaneous cotransfection, a molar ratio of 2:1 (Bait vector: Prey vector) is recommended). (Just prior to use, denature the carrier DNA by placing it in a boiling water for 20 min and immediately cooling it on ice)",
+          "id": "5e90c31d-b89b-4f23-b3d4-23b7ae5585fa",
+          "node_id": "70687608-0176-482b-8234-3dcec35eab9e"
+        }
+      ],
+      "emits": []
+    },
+    {
+      "id": "655129a9-e4b2-46aa-8f17-002f87d057f3",
+      "text": "Add the following to each tube and mix:\r\n  Small scale \\(in 1.5 ml eppt tube) \r\n\n\nLibrary scale \\(in 500 ml centrifuge tube)\r\n\n\n        \r\n\n\nBait vector- 0.2 ug \\(small), 0.6 mg \\(library)\r\n\n\nLibrary vector- 0.1 ug \\(small), 0.3 mg \\(library)\r\n\n\nHerring testes carrier DNA- 0.1 mg \\(small), 20 mg \\(library)\r\n\n\n\r\n\n\n\\(For simultaneous cotransfection, a molar ratio of 2:1 \\(Bait vector: Prey vector) is recommended). \\(Just prior to use, denature the carrier DNA by placing it in a boiling water for 20 min and immediately cooling it on ice)",
+      "instruction": "PUT",
+      "slots": [
+        {
+          "key": "reagent1",
+          "value": "Herring testes carrier DNA",
+          "id": "f1662ca8-1e24-4018-a42c-aa05feb4b613",
+          "node_id": "655129a9-e4b2-46aa-8f17-002f87d057f3"
+        },
+        {
+          "key": "destination",
+          "value": "boiling water",
+          "id": "ac531a1b-8e21-42f3-aaa2-4df3f3eadac8",
+          "node_id": "655129a9-e4b2-46aa-8f17-002f87d057f3"
+        },
+        {
+          "key": "temperature",
+          "value": "boiling",
+          "id": "ba30b5b9-115f-4efe-8e4d-6c8cb4301e9a",
+          "node_id": "655129a9-e4b2-46aa-8f17-002f87d057f3"
+        },
+        {
+          "key": "device",
+          "value": "water bath",
+          "id": "000fa9ef-a7ec-4617-99d4-e28815af0a58",
+          "node_id": "655129a9-e4b2-46aa-8f17-002f87d057f3"
+        }
+      ],
+      "emits": [
+        {
+          "key": "reagent0",
+          "value": "denatured carrier DNA",
+          "id": "dc91fa8c-67a8-4ae0-acaa-6db8dafc94a0",
+          "node_id": "655129a9-e4b2-46aa-8f17-002f87d057f3"
+        }
+      ]
+    },
+    {
+      "id": "ee5b24d0-0ebd-4167-80fa-c30b34f69784",
+      "text": "Add this volume of yeast competent cells to each tube and mix well by vortexing:\r\n  Small Scale: 0.1 ml\r\n\n\nLibrary Scale: 8 ml",
+      "instruction": "ADD",
+      "slots": [
+        {
+          "key": "reagent1",
+          "value": "yeast competent cells",
+          "id": "83cebaf0-6360-4cc1-bdcf-1cafb6c92a2b",
+          "node_id": "ee5b24d0-0ebd-4167-80fa-c30b34f69784"
+        },
+        {
+          "key": "notice",
+          "value": "Mix well by vortexing.",
+          "id": "6ed4cf13-3b64-429a-8bcf-1a902b4cc197",
+          "node_id": "ee5b24d0-0ebd-4167-80fa-c30b34f69784"
+        }
+      ],
+      "emits": [
+        {
+          "key": "reagent0",
+          "value": "yeast competent cells",
+          "id": "dfdc638e-18cd-462e-a3c3-e8fc3c59f7fb",
+          "node_id": "ee5b24d0-0ebd-4167-80fa-c30b34f69784"
+        }
+      ]
+    },
+    {
+      "id": "3e312a1b-f837-48e7-b437-fbca2695a194",
+      "text": "Add sterile PEG/LiAc solution \\(made in step #9) to each tube and vortex at high speed to mix:\r\n  Small Scale: 0.6 ml\r\n\n\nLibrary Scale: 60 ml",
+      "instruction": "ADD",
+      "slots": [
+        {
+          "key": "reagent1",
+          "value": "sterile PEG/LiAc solution",
+          "id": "2c06cfbf-5270-4bdb-8b18-ac378163966f",
+          "node_id": "3e312a1b-f837-48e7-b437-fbca2695a194"
+        },
+        {
+          "key": "reagent2",
+          "value": "made in step #9",
+          "id": "1b9ffac1-7e24-46f2-bc0b-2aadd61784cb",
+          "node_id": "3e312a1b-f837-48e7-b437-fbca2695a194"
+        },
+        {
+          "key": "notice",
+          "value": "Vortex at high speed to mix.",
+          "id": "3f695b75-f83a-4c06-87cd-c3b205b4ab49",
+          "node_id": "3e312a1b-f837-48e7-b437-fbca2695a194"
+        }
+      ],
+      "emits": [
+        {
+          "key": "reagent0",
+          "value": "sterile PEG/LiAc solution",
+          "id": "483e5d94-0cc7-40b0-b061-c18515ca9d9a",
+          "node_id": "3e312a1b-f837-48e7-b437-fbca2695a194"
+        }
+      ]
+    },
+    {
+      "id": "b8fc2a10-f97b-4b9b-b264-b9d87561e6cf",
+      "text": "Add sterile PEG/LiAc solution \\(made in step #9) to each tube and vortex at high speed to mix:\r\n  Small Scale: 0.6 ml\r\n\n\nLibrary Scale: 60 ml",
+      "instruction": "VORTEX",
+      "slots": [
+        {
+          "key": "reagent1",
+          "value": "sterile PEG/LiAc solution",
+          "id": "5e74656b-47f3-46a4-99dc-3b51211204e2",
+          "node_id": "b8fc2a10-f97b-4b9b-b264-b9d87561e6cf"
+        }
+      ],
+      "emits": [
+        {
+          "key": "reagent0",
+          "value": "sterile PEG/LiAc solution",
+          "id": "6efbd79a-0ed0-4720-bb8f-9bf6798b51c8",
+          "node_id": "b8fc2a10-f97b-4b9b-b264-b9d87561e6cf"
+        }
+      ]
+    },
+    {
+      "id": "3a018156-1a25-4629-ba84-7c08f92258ed",
+      "text": "Incubate at 30 <sup>o</sup>C for 30 min with shaking \\(200 rpm).",
+      "instruction": "INCUBATE",
+      "slots": [
+        {
+          "key": "temperature",
+          "value": "30 \u00b0C",
+          "id": "67d2ed96-6f1d-4183-bbb8-ff3c1e6674be",
+          "node_id": "3a018156-1a25-4629-ba84-7c08f92258ed"
+        },
+        {
+          "key": "time",
+          "value": "30 min",
+          "id": "d2ece00d-5792-4bb7-8a1d-3f6193849068",
+          "node_id": "3a018156-1a25-4629-ba84-7c08f92258ed"
+        },
+        {
+          "key": "notice",
+          "value": "with shaking (200 rpm)",
+          "id": "ea5ca636-ace6-4446-bb11-22ad0d5bf7b2",
+          "node_id": "3a018156-1a25-4629-ba84-7c08f92258ed"
+        }
+      ],
+      "emits": []
+    },
+    {
+      "id": "be485245-f093-4ef2-b303-53e9274512da",
+      "text": "Add this volume of DMSO:\r\n  Small Scale: 70 ul\r\n\n\nLibrary Scale: 7 ml\r\n\n\n\r\n\n\nMix well by gentle inversion or swirling. Do not Vortex.",
+      "instruction": "ADD",
+      "slots": [
+        {
+          "key": "reagent1",
+          "value": "DMSO",
+          "id": "8b353b6f-7ef2-4882-b8ad-d7256f7cbbfb",
+          "node_id": "be485245-f093-4ef2-b303-53e9274512da"
+        },
+        {
+          "key": "notice",
+          "value": "Mix well by gentle inversion or swirling. Do not Vortex.",
+          "id": "e424da7c-6f41-45b6-95e2-8cd8af3ab750",
+          "node_id": "be485245-f093-4ef2-b303-53e9274512da"
+        }
+      ],
+      "emits": [
+        {
+          "key": "reagent0",
+          "value": "DMSO",
+          "id": "78912f56-d47f-440a-aee3-2e67f94669f0",
+          "node_id": "be485245-f093-4ef2-b303-53e9274512da"
+        }
+      ]
+    },
+    {
+      "id": "3beacccd-596f-4b67-9944-faf2e7290a58",
+      "text": "Add this volume of DMSO:\r\n  Small Scale: 70 ul\r\n\n\nLibrary Scale: 7 ml\r\n\n\n\r\n\n\nMix well by gentle inversion or swirling. Do not Vortex.",
+      "instruction": "MIX",
+      "slots": [
+        {
+          "key": "reagent1",
+          "value": "DMSO",
+          "id": "bb8af09d-e6cf-41ee-93d1-4257ed561092",
+          "node_id": "3beacccd-596f-4b67-9944-faf2e7290a58"
+        },
+        {
+          "key": "method",
+          "value": "gentle inversion or swirling",
+          "id": "908243a4-a011-4dc6-a15b-f779fc92502b",
+          "node_id": "3beacccd-596f-4b67-9944-faf2e7290a58"
+        },
+        {
+          "key": "notice",
+          "value": "Do not Vortex",
+          "id": "33afd0ba-e238-4edb-8305-6ef31a1d40f1",
+          "node_id": "3beacccd-596f-4b67-9944-faf2e7290a58"
+        }
+      ],
+      "emits": [
+        {
+          "key": "reagent0",
+          "value": "DMSO",
+          "id": "79e85007-b464-473f-87da-d9a93d5b7131",
+          "node_id": "3beacccd-596f-4b67-9944-faf2e7290a58"
+        }
+      ]
+    },
+    {
+      "id": "377bed49-1ba5-401e-a772-ffe331d7cf72",
+      "text": "Heat shock for 15 min in a 42 <sup>o</sup>C water bath. Swirl occasionally to mix \\(large- and library-scale only)",
+      "instruction": "HEAT",
+      "slots": [
+        {
+          "key": "reagent1",
+          "value": "yeast competent cells",
+          "id": "41ff3a19-ac74-4c3b-8bf3-8ece4bd6ff0d",
+          "node_id": "377bed49-1ba5-401e-a772-ffe331d7cf72"
+        },
+        {
+          "key": "temperature",
+          "value": "42 \u00b0C",
+          "id": "85b7f456-6c42-4f26-a071-66760fb06ef4",
+          "node_id": "377bed49-1ba5-401e-a772-ffe331d7cf72"
+        },
+        {
+          "key": "time",
+          "value": "15 min",
+          "id": "f450d0c1-6b9b-41d4-b7b5-4ae0d8ba9bd3",
+          "node_id": "377bed49-1ba5-401e-a772-ffe331d7cf72"
+        },
+        {
+          "key": "device",
+          "value": "water bath",
+          "id": "ba783df7-4e14-439e-a2c6-9fce4152b543",
+          "node_id": "377bed49-1ba5-401e-a772-ffe331d7cf72"
+        },
+        {
+          "key": "notice",
+          "value": "Swirl occasionally to mix (large- and library-scale only)",
+          "id": "209986c5-9151-46cb-b952-6d0f810b92ff",
+          "node_id": "377bed49-1ba5-401e-a772-ffe331d7cf72"
+        }
+      ],
+      "emits": [
+        {
+          "key": "reagent0",
+          "value": "yeast competent cells",
+          "id": "48ca0b41-092b-4d9f-b239-62bd031ecff1",
+          "node_id": "377bed49-1ba5-401e-a772-ffe331d7cf72"
+        }
+      ]
+    },
+    {
+      "id": "73508de6-4e03-48eb-bfe3-695013088c7d",
+      "text": "Heat shock for 15 min in a 42 <sup>o</sup>C water bath. Swirl occasionally to mix \\(large- and library-scale only)",
+      "instruction": "SWIRL",
+      "slots": [
+        {
+          "key": "reagent1",
+          "value": "denatured carrier DNA",
+          "id": "b5560175-9dd1-4bc0-beb8-d12679aa3dd9",
+          "node_id": "73508de6-4e03-48eb-bfe3-695013088c7d"
+        },
+        {
+          "key": "time",
+          "value": "15 min",
+          "id": "60d82a55-6d3c-4616-9a16-4d31cc91718b",
+          "node_id": "73508de6-4e03-48eb-bfe3-695013088c7d"
+        },
+        {
+          "key": "temperature",
+          "value": "42 \u00b0C",
+          "id": "53943074-c263-47b0-8234-2a37a93fdb66",
+          "node_id": "73508de6-4e03-48eb-bfe3-695013088c7d"
+        }
+      ],
+      "emits": [
+        {
+          "key": "reagent0",
+          "value": "denatured carrier DNA",
+          "id": "93ec8929-e77a-4b64-8ed9-04202cbf46d2",
+          "node_id": "73508de6-4e03-48eb-bfe3-695013088c7d"
+        }
+      ]
+    },
+    {
+      "id": "6e1d2f4b-1dc1-4ef0-9fee-bccf2a0c8823",
+      "text": "Centrifuge cells for:  \r\n  Small Scale: 5 sec., room temperature - 14K rpm\r\n\n\nLibrary Scale: 5 min., room temperature - 1500 rpm",
+      "instruction": "CENTRIFUGE",
+      "slots": [
+        {
+          "key": "reagent1",
+          "value": "cells",
+          "id": "d2a1b091-6bd2-4ce0-b80a-cee0ce87404b",
+          "node_id": "6e1d2f4b-1dc1-4ef0-9fee-bccf2a0c8823"
+        },
+        {
+          "key": "intensity",
+          "value": "14K rpm",
+          "id": "4437ac98-9b39-401c-9978-d09f9f14f062",
+          "node_id": "6e1d2f4b-1dc1-4ef0-9fee-bccf2a0c8823"
+        },
+        {
+          "key": "time",
+          "value": "5 sec.",
+          "id": "2723d771-8270-4d23-a435-ff651ee2df27",
+          "node_id": "6e1d2f4b-1dc1-4ef0-9fee-bccf2a0c8823"
+        },
+        {
+          "key": "temperature",
+          "value": "room temperature",
+          "id": "bc58b51f-2ad0-4a7c-8b1a-e2caf1ed8ab0",
+          "node_id": "6e1d2f4b-1dc1-4ef0-9fee-bccf2a0c8823"
+        }
+      ],
+      "emits": [
+        {
+          "key": "reagent0",
+          "value": "cells",
+          "id": "0f142225-d74e-4ac0-9d62-8ff196c48e74",
+          "node_id": "6e1d2f4b-1dc1-4ef0-9fee-bccf2a0c8823"
+        }
+      ]
+    },
+    {
+      "id": "29a21f4e-4197-44ff-b266-6cb351387c5d",
+      "text": "Centrifuge cells for:  \r\n  Small Scale: 5 sec., room temperature - 14K rpm\r\n\n\nLibrary Scale: 5 min., room temperature - 1500 rpm",
+      "instruction": "CENTRIFUGE",
+      "slots": [
+        {
+          "key": "reagent1",
+          "value": "cells",
+          "id": "d73d9924-6dea-40ab-82cb-e4c155d22e08",
+          "node_id": "29a21f4e-4197-44ff-b266-6cb351387c5d"
+        },
+        {
+          "key": "intensity",
+          "value": "1500 rpm",
+          "id": "0909ac38-b45f-4daa-9d8f-1d9c8f71b403",
+          "node_id": "29a21f4e-4197-44ff-b266-6cb351387c5d"
+        },
+        {
+          "key": "time",
+          "value": "5 min.",
+          "id": "0332885f-469c-4152-ac5e-b8afa2522224",
+          "node_id": "29a21f4e-4197-44ff-b266-6cb351387c5d"
+        },
+        {
+          "key": "temperature",
+          "value": "room temperature",
+          "id": "187fe312-db59-4725-a2b1-73352b48b91c",
+          "node_id": "29a21f4e-4197-44ff-b266-6cb351387c5d"
+        }
+      ],
+      "emits": [
+        {
+          "key": "reagent0",
+          "value": "cells",
+          "id": "74201d95-98fd-4c20-bb17-9fcd7dbba993",
+          "node_id": "29a21f4e-4197-44ff-b266-6cb351387c5d"
+        }
+      ]
+    },
+    {
+      "id": "d18c3657-bc44-478f-af1c-cee8dc9fac5b",
+      "text": "Remove the supernatant.",
+      "instruction": "REMOVE",
+      "slots": [
+        {
+          "key": "reagent1",
+          "value": "supernatant",
+          "id": "7f3d0831-2102-453c-a0f9-f21201dc94be",
+          "node_id": "d18c3657-bc44-478f-af1c-cee8dc9fac5b"
+        },
+        {
+          "key": "method",
+          "value": "pour",
+          "id": "db3a3671-41f3-457a-971f-aa4a630bb499",
+          "node_id": "d18c3657-bc44-478f-af1c-cee8dc9fac5b"
+        }
+      ],
+      "emits": [
+        {
+          "key": "reagent0",
+          "value": "supernatant",
+          "id": "d603034e-f41c-4350-8ba8-605fd6428c3c",
+          "node_id": "d18c3657-bc44-478f-af1c-cee8dc9fac5b"
+        }
+      ]
+    },
+    {
+      "id": "f5ed7889-e2a8-44c8-8f08-95e09fc164f1",
+      "text": "Resuspend cells in this volume of 1 x TE:\r\n  Small Scale: 0.5 ml\r\n\n\nLibrary Scale: 10 ml",
+      "instruction": "RESUSPEND",
+      "slots": [
+        {
+          "key": "reagent1",
+          "value": "cells",
+          "id": "93ba79ea-fd40-4fe3-b915-cb0de529300c",
+          "node_id": "f5ed7889-e2a8-44c8-8f08-95e09fc164f1"
+        },
+        {
+          "key": "reagent2",
+          "value": "1 x TE",
+          "id": "98d959c0-daa9-4e67-a603-cfe497a4663a",
+          "node_id": "f5ed7889-e2a8-44c8-8f08-95e09fc164f1"
+        },
+        {
+          "key": "notice",
+          "value": "Small Scale: 0.5 ml",
+          "id": "a3add994-73f9-45ae-b679-5bc1ac1f3703",
+          "node_id": "f5ed7889-e2a8-44c8-8f08-95e09fc164f1"
+        }
+      ],
+      "emits": [
+        {
+          "key": "reagent0",
+          "value": "cells",
+          "id": "d377aa6d-d1e7-491e-ab33-58fa346f21a7",
+          "node_id": "f5ed7889-e2a8-44c8-8f08-95e09fc164f1"
+        }
+      ]
+    },
+    {
+      "id": "f7023212-c7d5-4533-9f41-3da5e8ebe9ae",
+      "text": "Resuspend cells in this volume of 1 x TE:\r\n  Small Scale: 0.5 ml\r\n\n\nLibrary Scale: 10 ml",
+      "instruction": "RESUSPEND",
+      "slots": [
+        {
+          "key": "reagent1",
+          "value": "cells",
+          "id": "f7a97762-f9f6-46da-8612-ec38627e5657",
+          "node_id": "f7023212-c7d5-4533-9f41-3da5e8ebe9ae"
+        },
+        {
+          "key": "reagent2",
+          "value": "1 x TE",
+          "id": "37b4cf63-1d7f-4c56-b0c2-c9fdba665a88",
+          "node_id": "f7023212-c7d5-4533-9f41-3da5e8ebe9ae"
+        },
+        {
+          "key": "notice",
+          "value": "Small Scale: 0.5 ml",
+          "id": "53372a33-d9f5-4409-a700-865a222030be",
+          "node_id": "f7023212-c7d5-4533-9f41-3da5e8ebe9ae"
+        }
+      ],
+      "emits": [
+        {
+          "key": "reagent0",
+          "value": "cells",
+          "id": "877f7f8b-a93f-4c9f-aa6e-44de604ce5db",
+          "node_id": "f7023212-c7d5-4533-9f41-3da5e8ebe9ae"
+        }
+      ]
+    },
+    {
+      "id": "46bbf997-9a88-4db1-ae4e-9043fe9e779d",
+      "text": "Plating:\r\n   For Small-scale cotransformation: spread 200 ul per 100-mm SD-Ura-His-Trp.\r\n\n\n For large- and library-scale transformation:\r\n\n\n--- Spread 100 ul of a 1:1,000, 1:100, and 1:10 dilution on SD-Ura-His-Trp plates \\(100 mm) for cotransformation efficiency controls.\r\n\n\n--- Spread 1 ul \\(diluted in 100 ul of H<sub>2</sub>O) on SD-His-Ura and SD-Trp-Ura plates \\(100 mm) to check the transformation efficiency of each plasmid. \r\n\n\n--- Spread the remaining transformation suspension on SD-Ura-His-Trp plates \\(200 ul per 150-mm Plates)\r\n\n\n Incubate the plates at 30 <sup>o</sup>C for 3-5 days.",
+      "instruction": "INCUBATE",
+      "slots": [
+        {
+          "key": "reagent1",
+          "value": "plates",
+          "id": "f7024f90-6778-46c3-a20d-cff071d05045",
+          "node_id": "46bbf997-9a88-4db1-ae4e-9043fe9e779d"
+        },
+        {
+          "key": "temperature",
+          "value": "30 oC",
+          "id": "2a987b43-26b0-4736-a53c-a97071251920",
+          "node_id": "46bbf997-9a88-4db1-ae4e-9043fe9e779d"
+        },
+        {
+          "key": "time",
+          "value": "3-5 days",
+          "id": "54188554-8f4b-4fe2-8fc8-fa315f959aac",
+          "node_id": "46bbf997-9a88-4db1-ae4e-9043fe9e779d"
+        }
+      ],
+      "emits": [
+        {
+          "key": "reagent0",
+          "value": "plates",
+          "id": "64c9da35-d067-4fbd-8ecd-9680190f4142",
+          "node_id": "46bbf997-9a88-4db1-ae4e-9043fe9e779d"
+        }
+      ]
+    },
+    {
+      "id": "2db3b4c0-f446-48d8-a035-5852227404f9",
+      "text": "Calculating cotransformation efficiency and number of clones amplified:\r\n  \r\n\n\nA.      Cotransformation efficiency:  count the colonies \\(cfu) growing on the SD-His-Trp-Ura dilution plate that has 30-300 cfu.\r\n\n\n     \r\n\n\ncfu/ug DNA = \\(Cfu x total suspension vol. \\(ul)) / \r\n\n\n             \\(\\(Vol. Plated \\(ul)) x \\(dilution factor) x \\(amount.DNA used\\(ug)\\(Limiting plasmid)))\r\n\n\n\r\n\n\nB. The number of clones amplified:\r\n\n\ncfu/ug x amt. Of library plasmid used \\(cfu/ug) = # of clones amplified. \r\n\n\n\r\n\n\n",
+      "instruction": "COUNT",
+      "slots": [
+        {
+          "key": "reagent1",
+          "value": "SD-His-Trp-Ura dilution plate",
+          "id": "9dd84d16-f5b4-4fc5-b86e-4606945e8643",
+          "node_id": "2db3b4c0-f446-48d8-a035-5852227404f9"
+        }
+      ],
+      "emits": [
+        {
+          "key": "data0",
+          "value": "30-300",
+          "id": "0ad8ab54-37a5-4131-bdbf-35f5f1fe85d7",
+          "node_id": "2db3b4c0-f446-48d8-a035-5852227404f9"
+        }
+      ]
+    },
+    {
+      "id": "a73f0c95-9df5-4051-a6ec-cc11cdada64c",
+      "text": "Calculating cotransformation efficiency and number of clones amplified:\r\n  \r\n\n\nA.      Cotransformation efficiency:  count the colonies \\(cfu) growing on the SD-His-Trp-Ura dilution plate that has 30-300 cfu.\r\n\n\n     \r\n\n\ncfu/ug DNA = \\(Cfu x total suspension vol. \\(ul)) / \r\n\n\n             \\(\\(Vol. Plated \\(ul)) x \\(dilution factor) x \\(amount.DNA used\\(ug)\\(Limiting plasmid)))\r\n\n\n\r\n\n\nB. The number of clones amplified:\r\n\n\ncfu/ug x amt. Of library plasmid used \\(cfu/ug) = # of clones amplified. \r\n\n\n\r\n\n\n",
+      "instruction": "CALCULATE",
+      "slots": [
+        {
+          "key": "attribute",
+          "value": "Cotransformation efficiency",
+          "id": "2461371e-ecd5-4b5d-bac5-badc42650b84",
+          "node_id": "a73f0c95-9df5-4051-a6ec-cc11cdada64c"
+        },
+        {
+          "key": "formula",
+          "value": "cfu/ug DNA = (Cfu x total suspension vol. (ul)) / (Vol. Plated (ul) x dilution factor x amount.DNA used (ug) (Limiting plasmid))",
+          "id": "7f8daa01-d8a0-4e96-8d1d-2806e897e6a7",
+          "node_id": "a73f0c95-9df5-4051-a6ec-cc11cdada64c"
+        },
+        {
+          "key": "variables",
+          "value": "Cfu, total suspension vol. (ul), Vol. Plated (ul), dilution factor, amount.DNA used (ug) (Limiting plasmid)",
+          "id": "2e669b2c-5cf5-474c-9280-2514632ff845",
+          "node_id": "a73f0c95-9df5-4051-a6ec-cc11cdada64c"
+        },
+        {
+          "key": "values",
+          "value": "<blank>",
+          "id": "d6f2c77c-6dba-445a-9f94-d807bb0ce9df",
+          "node_id": "a73f0c95-9df5-4051-a6ec-cc11cdada64c"
+        },
+        {
+          "key": "units",
+          "value": "<blank>",
+          "id": "5c68445d-c665-4914-b8bd-c2ca22c6b9d7",
+          "node_id": "a73f0c95-9df5-4051-a6ec-cc11cdada64c"
+        },
+        {
+          "key": "software",
+          "value": "<blank>",
+          "id": "6de15989-d0f1-4976-8e6b-8745c2c258d1",
+          "node_id": "a73f0c95-9df5-4051-a6ec-cc11cdada64c"
+        },
+        {
+          "key": "notice",
+          "value": "<blank>",
+          "id": "13d442aa-f391-4774-bb5b-2770d4e59ce3",
+          "node_id": "a73f0c95-9df5-4051-a6ec-cc11cdada64c"
+        }
+      ],
+      "emits": [
+        {
+          "key": "result",
+          "value": "<blank>",
+          "id": "290989c3-438c-4e89-9b36-c2fe99bc220a",
+          "node_id": "a73f0c95-9df5-4051-a6ec-cc11cdada64c"
+        }
+      ]
+    },
+    {
+      "id": "3cdda96d-ba52-488d-a134-488516b14e2c",
+      "text": "Calculating cotransformation efficiency and number of clones amplified:\r\n  \r\n\n\nA.      Cotransformation efficiency:  count the colonies \\(cfu) growing on the SD-His-Trp-Ura dilution plate that has 30-300 cfu.\r\n\n\n     \r\n\n\ncfu/ug DNA = \\(Cfu x total suspension vol. \\(ul)) / \r\n\n\n             \\(\\(Vol. Plated \\(ul)) x \\(dilution factor) x \\(amount.DNA used\\(ug)\\(Limiting plasmid)))\r\n\n\n\r\n\n\nB. The number of clones amplified:\r\n\n\ncfu/ug x amt. Of library plasmid used \\(cfu/ug) = # of clones amplified. \r\n\n\n\r\n\n\n",
+      "instruction": "CALCULATE",
+      "slots": [
+        {
+          "key": "attribute",
+          "value": "The number of clones amplified",
+          "id": "c0c5c22f-2288-484a-bfcb-ff5d8abfaf2c",
+          "node_id": "3cdda96d-ba52-488d-a134-488516b14e2c"
+        },
+        {
+          "key": "formula",
+          "value": "cfu/ug x amt. Of library plasmid used (cfu/ug) = # of clones amplified",
+          "id": "5f593614-8acb-4366-a414-a6661fe4c571",
+          "node_id": "3cdda96d-ba52-488d-a134-488516b14e2c"
+        },
+        {
+          "key": "variables",
+          "value": "cfu/ug, amt. Of library plasmid used (cfu/ug)",
+          "id": "e0e50081-75ff-4dcc-9193-1197a6d69690",
+          "node_id": "3cdda96d-ba52-488d-a134-488516b14e2c"
+        },
+        {
+          "key": "values",
+          "value": "<blank>",
+          "id": "6f3f1be9-5fa1-45ef-94b4-18f482f03b85",
+          "node_id": "3cdda96d-ba52-488d-a134-488516b14e2c"
+        },
+        {
+          "key": "units",
+          "value": "<blank>",
+          "id": "7e8dac03-ea48-4ed1-872c-ea39b688354a",
+          "node_id": "3cdda96d-ba52-488d-a134-488516b14e2c"
+        },
+        {
+          "key": "software",
+          "value": "<blank>",
+          "id": "f772147b-5f07-4954-be64-74a31961c17a",
+          "node_id": "3cdda96d-ba52-488d-a134-488516b14e2c"
+        },
+        {
+          "key": "notice",
+          "value": "<blank>",
+          "id": "d2df049e-3dd3-41d7-bd68-b0fbb3fb43bc",
+          "node_id": "3cdda96d-ba52-488d-a134-488516b14e2c"
+        }
+      ],
+      "emits": [
+        {
+          "key": "result",
+          "value": "<blank>",
+          "id": "be81379f-04da-4751-9a8d-8bd8820144fc",
+          "node_id": "3cdda96d-ba52-488d-a134-488516b14e2c"
+        }
+      ]
+    }
+  ],
+  "edges": []
+}

@@ -1,0 +1,358 @@
+[
+    {
+        "title": "1)",
+        "body": [
+            {
+                "sentence": "Prepare poly-D-lysinated coverslips \\(poly D lysine 50&#x3BC;g/ml)",
+                "result": [
+                    {
+                        "PREPARE": {
+                            "emit": [
+                                {
+                                    "reagent0": "poly-D-lysinated coverslips"
+                                }
+                            ],
+                            "slot": [
+                                {
+                                    "reagent1": "poly-D-lysinated coverslips"
+                                },
+                                {
+                                    "concentration": "50\u03bcg/ml"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "2)",
+        "body": [
+            {
+                "sentence": "Plate 15-20 x 10<sup>3</sup> cells on coverslips 1 day before the staining",
+                "result": [
+                    {
+                        "PLATE": {
+                            "emit": [
+                                {
+                                    "reagent0": "poly-D-lysinated coverslips"
+                                }
+                            ],
+                            "slot": [
+                                {
+                                    "reagent1": "15-20 x 10^3 cells"
+                                },
+                                {
+                                    "reagent2": "coverslips"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "3)",
+        "body": [
+            {
+                "sentence": "Wash cells gently 2x5&#x2019;in PBS1x",
+                "result": [
+                    {
+                        "WASH": {
+                            "emit": [
+                                {
+                                    "reagent0": "cells"
+                                }
+                            ],
+                            "slot": [
+                                {
+                                    "reagent1": "cells"
+                                },
+                                {
+                                    "reagent2": "PBS"
+                                },
+                                {
+                                    "repeat": "2"
+                                },
+                                {
+                                    "time": "5'"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "4)",
+        "body": [
+            {
+                "sentence": "Fix and permeabilize cells for 2&#x2019; with methanol/aceton 1:1 at RT",
+                "result": [
+                    {
+                        "FIX": {
+                            "emit": [
+                                {
+                                    "reagent0": "cells"
+                                }
+                            ],
+                            "slot": [
+                                {
+                                    "reagent1": "methanol/aceton 1:1"
+                                },
+                                {
+                                    "reagent2": "methanol/aceton 1:1"
+                                },
+                                {
+                                    "temperature": "RT"
+                                },
+                                {
+                                    "time": "2'"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "5)",
+        "body": [
+            {
+                "sentence": "Block cells for 30&#x2019; with PBG1x",
+                "result": [
+                    {
+                        "BLOCK": {
+                            "emit": [
+                                {
+                                    "reagent0": "cells"
+                                }
+                            ],
+                            "slot": [
+                                {
+                                    "reagent1": "cells"
+                                },
+                                {
+                                    "reagent2": "PBG1x"
+                                },
+                                {
+                                    "temperature": "room temperature"
+                                },
+                                {
+                                    "time": "30'"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "6)",
+        "body": [
+            {
+                "sentence": "Stain with primary antibodies diluted in PBG1x at indicated concentration for 1h at RT in a humidified chamber",
+                "result": [
+                    {
+                        "STAIN": {
+                            "emit": [
+                                {
+                                    "reagent0": "cells"
+                                }
+                            ],
+                            "slot": [
+                                {
+                                    "reagent1": "primary antibodies"
+                                },
+                                {
+                                    "temperature": "RT"
+                                },
+                                {
+                                    "time": "1h"
+                                },
+                                {
+                                    "notice": "in a humidified chamber"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "7)",
+        "body": [
+            {
+                "sentence": "Wash cells gently 3x5&#x2019;in PBG1x",
+                "result": [
+                    {
+                        "WASH": {
+                            "emit": [
+                                {
+                                    "reagent0": "cells"
+                                }
+                            ],
+                            "slot": [
+                                {
+                                    "reagent1": "cells"
+                                },
+                                {
+                                    "reagent2": "PBG1x"
+                                },
+                                {
+                                    "repeat": "3"
+                                },
+                                {
+                                    "time": "5'"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "8)",
+        "body": [
+            {
+                "sentence": "Stain with secondary antibodies diluted in PBG1x for 1h at RT in a dark humidified chamber",
+                "result": [
+                    {
+                        "STAIN": {
+                            "emit": [
+                                {
+                                    "reagent0": "cells"
+                                }
+                            ],
+                            "slot": [
+                                {
+                                    "reagent1": "secondary antibodies"
+                                },
+                                {
+                                    "temperature": "RT"
+                                },
+                                {
+                                    "time": "1h"
+                                },
+                                {
+                                    "notice": "in a dark humidified chamber"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "9)",
+        "body": [
+            {
+                "sentence": "Wash cells gently 2x5&#x2019; in PBG1x and 2x5&#x2019;in PBS1x",
+                "result": [
+                    {
+                        "WASH": {
+                            "emit": [
+                                {
+                                    "reagent0": "cells"
+                                }
+                            ],
+                            "slot": [
+                                {
+                                    "reagent1": "cells"
+                                },
+                                {
+                                    "reagent2": "PBG1x"
+                                },
+                                {
+                                    "repeat": "2"
+                                },
+                                {
+                                    "time": "5'"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "WASH": {
+                            "emit": [
+                                {
+                                    "reagent0": "cells"
+                                }
+                            ],
+                            "slot": [
+                                {
+                                    "reagent1": "cells"
+                                },
+                                {
+                                    "reagent2": "PBS1x"
+                                },
+                                {
+                                    "repeat": "2"
+                                },
+                                {
+                                    "time": "5'"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "10)",
+        "body": [
+            {
+                "sentence": "Stain with Dapi for 5&#x2019; in the dark",
+                "result": [
+                    {
+                        "STAIN": {
+                            "emit": [
+                                {
+                                    "reagent0": "cells"
+                                }
+                            ],
+                            "slot": [
+                                {
+                                    "reagent1": "Dapi"
+                                },
+                                {
+                                    "temperature": "dark"
+                                },
+                                {
+                                    "time": "5'"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "11)",
+        "body": [
+            {
+                "sentence": "Mount coverslips with 3&#x3BC;l of Mowiol mounting medium",
+                "result": []
+            }
+        ]
+    },
+    {
+        "title": "12)",
+        "body": [
+            {
+                "sentence": "Let the coverslips dry before microscope analysis",
+                "result": []
+            }
+        ]
+    }
+]

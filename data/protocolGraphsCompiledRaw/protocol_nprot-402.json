@@ -1,0 +1,454 @@
+[
+    {
+        "title": "1.",
+        "body": [
+            {
+                "sentence": "Re-suspend cell pellets at 4 &#xB0;C in 80 &#xB5;L of lysis buffer, containing 50 mM NaH<sub>2</sub>PO<sub>4</sub> at pH 8 with 300 mM NaCl, 20 mM imidazole, CelLytic B \\(Sigma), Lysozyme \\(1 mg/mL), Benzonase \\(50 units/mL), proteinase inhibitor cocktail \\(Sigma), and PMSF \\(1 mM/mL).",
+                "result": [
+                    {
+                        "RESUSPEND": {
+                            "emit": [
+                                {
+                                    "reagent0": "cell pellets"
+                                }
+                            ],
+                            "slot": [
+                                {
+                                    "reagent1": "cell pellets"
+                                },
+                                {
+                                    "reagent2": "lysis buffer"
+                                },
+                                {
+                                    "temperature": "4 \u00b0C"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "2.",
+        "body": [
+            {
+                "sentence": "Wash Ni-NTA Superflow \\(QIAGEN) twice with water and twice with 50 mM NaH<sub>2</sub>PO<sub>4</sub> at pH 8 with 300 mM NaCl, 20 mM imidazole using centrifugation.",
+                "result": [
+                    {
+                        "WASH": {
+                            "emit": [
+                                {
+                                    "reagent0": "Ni-NTA Superflow (QIAGEN)"
+                                }
+                            ],
+                            "slot": [
+                                {
+                                    "reagent1": "Ni-NTA Superflow (QIAGEN)"
+                                },
+                                {
+                                    "reagent2": "water"
+                                },
+                                {
+                                    "repeat": "2"
+                                },
+                                {
+                                    "notice": "using centrifugation"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "WASH": {
+                            "emit": [
+                                {
+                                    "reagent0": "Ni-NTA Superflow (QIAGEN)"
+                                }
+                            ],
+                            "slot": [
+                                {
+                                    "reagent1": "Ni-NTA Superflow (QIAGEN)"
+                                },
+                                {
+                                    "reagent2": "50 mM NaH2PO4 at pH 8 with 300 mM NaCl, 20 mM imidazole"
+                                },
+                                {
+                                    "repeat": "2"
+                                },
+                                {
+                                    "notice": "using centrifugation"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "3.",
+        "body": [
+            {
+                "sentence": "Add 25 &#x3BC;L pre-washed Ni-NTA Superflow \\(QIAGEN) to each well",
+                "result": [
+                    {
+                        "ADD": {
+                            "emit": [
+                                {
+                                    "reagent0": "pre-washed Ni-NTA Superflow (QIAGEN)"
+                                }
+                            ],
+                            "slot": [
+                                {
+                                    "reagent2": "Ni-NTA Superflow (QIAGEN)"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "4.",
+        "body": [
+            {
+                "sentence": "Transfer the mixtures into bottom-sealed filter plates \\(Multiscreen Nylon Mesh)",
+                "result": [
+                    {
+                        "TRANSFER": {
+                            "emit": [
+                                {
+                                    "reagent0": "<blank>"
+                                }
+                            ],
+                            "slot": [
+                                {
+                                    "source": "mixtures"
+                                },
+                                {
+                                    "destination": "bottom-sealed filter plates (Multiscreen Nylon Mesh)"
+                                },
+                                {
+                                    "reagent1": "<blank>"
+                                },
+                                {
+                                    "volume": "<blank>"
+                                },
+                                {
+                                    "equipment": "<blank>"
+                                },
+                                {
+                                    "notice": "<blank>"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "5.",
+        "body": [
+            {
+                "sentence": "Seal the filter plates",
+                "result": [
+                    {
+                        "SEAL": {
+                            "emit": [
+                                {
+                                    "reagent0": "filter plates"
+                                }
+                            ],
+                            "slot": [
+                                {
+                                    "reagent1": "filter plates"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "6.",
+        "body": [
+            {
+                "sentence": "Incubated for 1.5 hr at 4 &#xB0;C with vigorously shaking",
+                "result": [
+                    {
+                        "INCUBATE": {
+                            "emit": [
+                                {
+                                    "reagent0": "cell pellets"
+                                }
+                            ],
+                            "slot": [
+                                {
+                                    "reagent1": "cell pellets"
+                                },
+                                {
+                                    "temperature": "4 \u00b0C"
+                                },
+                                {
+                                    "time": "1.5 hr"
+                                },
+                                {
+                                    "notice": "with vigorously shaking"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "7.",
+        "body": [
+            {
+                "sentence": "Remove seals",
+                "result": [
+                    {
+                        "REMOVE": {
+                            "emit": [
+                                {
+                                    "reagent0": "filter plates"
+                                }
+                            ],
+                            "slot": [
+                                {
+                                    "reagent1": "filter plates"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "8.",
+        "body": [
+            {
+                "sentence": "Wash the resin-protein complexes 3 times with 250 &#xB5;L/well of wash buffer I \\(50 mM NaH<sub>2</sub>PO<sub>4</sub> with 300 mM NaCl, 10% glycerol, 20 mM imidazole, 0.01% Triton X-100, at pH",
+                "result": [
+                    {
+                        "WASH": {
+                            "emit": [
+                                {
+                                    "reagent0": "resin-protein complexes"
+                                }
+                            ],
+                            "slot": [
+                                {
+                                    "reagent1": "resin-protein complexes"
+                                },
+                                {
+                                    "reagent2": "wash buffer I"
+                                },
+                                {
+                                    "repeat": "3"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            },
+            {
+                "title": "8)",
+                "body": [
+                    {
+                        "sentence": "and 3 times with Wash buffer II \\(50 mM NaH<sub>2</sub>PO<sub>4</sub> with 150 mM NaCl, 25% glycerol, 20 mM imidazole, 0.01% Triton X-100, at pH",
+                        "result": [
+                            {
+                                "WASH": {
+                                    "emit": [
+                                        {
+                                            "reagent0": "resin-protein complexes"
+                                        }
+                                    ],
+                                    "slot": [
+                                        {
+                                            "reagent1": "resin-protein complexes"
+                                        },
+                                        {
+                                            "reagent2": "Wash buffer II (50 mM NaH2PO4 with 150 mM NaCl, 25% glycerol, 20 mM imidazole, 0.01% Triton X-100, at pH"
+                                        },
+                                        {
+                                            "repeat": "3"
+                                        }
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "8)",
+                "body": [
+                    {
+                        "sentence": "using a Q-fill2 \\(Gentix, UK).",
+                        "result": []
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "9.",
+        "body": [
+            {
+                "sentence": "Spin the filter plates",
+                "result": [
+                    {
+                        "SPIN": {
+                            "emit": [
+                                {
+                                    "reagent0": "filter plates"
+                                }
+                            ],
+                            "slot": [
+                                {
+                                    "reagent1": "filter plates"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "10.",
+        "body": [
+            {
+                "sentence": "Add 25 &#x3BC;L of elution buffer \\(50 mM NaH<sub>2</sub>PO<sub>4</sub>/150 mM NaCl/25% glycerol/250 mM imidazole/0.01% Triton X-100, pH 7.5)",
+                "result": [
+                    {
+                        "ADD": {
+                            "emit": [
+                                {
+                                    "reagent0": "elution buffer"
+                                }
+                            ],
+                            "slot": [
+                                {
+                                    "reagent1": "elution buffer"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "11.",
+        "body": [
+            {
+                "sentence": "Incubate 15 min at 4 &#xB0;C",
+                "result": [
+                    {
+                        "INCUBATE": {
+                            "emit": [
+                                {
+                                    "reagent0": "resin-protein complexes"
+                                }
+                            ],
+                            "slot": [
+                                {
+                                    "reagent1": "resin-protein complexes"
+                                },
+                                {
+                                    "temperature": "4 \u00b0C"
+                                },
+                                {
+                                    "time": "15 min"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "12.",
+        "body": [
+            {
+                "sentence": "Elute proteins into 96-well receiver plates by centrifugation.",
+                "result": [
+                    {
+                        "ELUTE": {
+                            "emit": [
+                                {
+                                    "reagent0": "96-well receiver plates"
+                                }
+                            ],
+                            "slot": [
+                                {
+                                    "reagent1": "resin-protein complexes"
+                                },
+                                {
+                                    "reagent2": "elution buffer"
+                                },
+                                {
+                                    "component": "proteins"
+                                },
+                                {
+                                    "method": "centrifugation"
+                                },
+                                {
+                                    "temperature": "4 \u00b0C"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "13.",
+        "body": [
+            {
+                "sentence": "Repeat 10-12",
+                "result": []
+            }
+        ]
+    },
+    {
+        "title": "14.",
+        "body": [
+            {
+                "sentence": "Store the proteins in 96-well plates at -80 &#xB0;C",
+                "result": [
+                    {
+                        "STORE": {
+                            "emit": [
+                                {
+                                    "reagent0": "proteins"
+                                }
+                            ],
+                            "slot": [
+                                {
+                                    "reagent1": "proteins"
+                                },
+                                {
+                                    "temperature": "-80 \u00b0C"
+                                },
+                                {
+                                    "container": "96-well plates"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        ]
+    }
+]

@@ -1,0 +1,150 @@
+{
+  "name": "nprot-258_graphData.json",
+  "nodes": [
+    {
+      "id": "99af1ac8-9c71-4887-b979-9ce52fea85e3",
+      "text": "Incubate purified hemocyanin with proteases in 50 mM Tris-HCl, pH 8.3, containing 0.05 M NaCl, at 20 &#x2DA;C for 10 min.",
+      "instruction": "INCUBATE",
+      "slots": [
+        {
+          "key": "reagent1",
+          "value": "purified hemocyanin",
+          "id": "f2a74669-39cc-430d-b505-15c58b59448d",
+          "node_id": "99af1ac8-9c71-4887-b979-9ce52fea85e3"
+        },
+        {
+          "key": "reagent2",
+          "value": "proteases",
+          "id": "bf75b54e-dcfc-4ccc-89e1-4cd3784cd276",
+          "node_id": "99af1ac8-9c71-4887-b979-9ce52fea85e3"
+        },
+        {
+          "key": "temperature",
+          "value": "20 &#x2DA;C",
+          "id": "0797fcde-6ad9-4049-9bbe-0337dfbdf166",
+          "node_id": "99af1ac8-9c71-4887-b979-9ce52fea85e3"
+        },
+        {
+          "key": "time",
+          "value": "10 min",
+          "id": "0bace54e-c2ab-465e-bcc1-3f2de84b1156",
+          "node_id": "99af1ac8-9c71-4887-b979-9ce52fea85e3"
+        }
+      ],
+      "emits": [
+        {
+          "key": "reagent0",
+          "value": "hemocyanin with proteases",
+          "id": "4ac3ff08-9738-426a-9692-06527a715c73",
+          "node_id": "99af1ac8-9c71-4887-b979-9ce52fea85e3"
+        }
+      ]
+    },
+    {
+      "id": "cfd8d292-3369-4646-b2c7-a54ad281c82d",
+      "text": "Add PAMPs \\(pathogen-associated molecular patterns eg: LPS or LTA) dissolved in the same buffer.",
+      "instruction": "ADD",
+      "slots": [
+        {
+          "key": "reagent2",
+          "value": "PAMPs (pathogen-associated molecular patterns eg: LPS or LTA)",
+          "id": "0a715322-052e-45ac-b316-1610994c02e9",
+          "node_id": "cfd8d292-3369-4646-b2c7-a54ad281c82d"
+        }
+      ],
+      "emits": []
+    },
+    {
+      "id": "d7a286e6-2fa6-483f-a834-dccde8e6a277",
+      "text": "Then add 1 mM 4ME in 0.1 M potassium phosphate, pH 6.0.",
+      "instruction": "ADD",
+      "slots": [
+        {
+          "key": "reagent1",
+          "value": "0.1 M potassium phosphate, pH 6.0",
+          "id": "430fd749-303a-4107-9fe3-52efed06877e",
+          "node_id": "d7a286e6-2fa6-483f-a834-dccde8e6a277"
+        },
+        {
+          "key": "reagent2",
+          "value": "1 mM 4ME",
+          "id": "b09288a1-2c36-4e4c-a21f-e0399890b5c6",
+          "node_id": "d7a286e6-2fa6-483f-a834-dccde8e6a277"
+        }
+      ],
+      "emits": [
+        {
+          "key": "reagent0",
+          "value": "1 mM 4ME in 0.1 M potassium phosphate, pH 6.0",
+          "id": "b9f8e1dc-0ffc-4fa6-ad09-70a1a651795b",
+          "node_id": "d7a286e6-2fa6-483f-a834-dccde8e6a277"
+        }
+      ]
+    },
+    {
+      "id": "ee053b4f-8e21-4c8c-82e2-21c18cdb8bdd",
+      "text": "Immediately after the addition of the substrate, continuously monitor the absorbance at 405 nm using a microplate reader \\(Molecular Devices, USA).",
+      "instruction": "ADD",
+      "slots": [
+        {
+          "key": "reagent2",
+          "value": "microplate reader (Molecular Devices, USA)",
+          "id": "1cee4f74-99ee-42a3-9a3c-9afd3bdb262c",
+          "node_id": "ee053b4f-8e21-4c8c-82e2-21c18cdb8bdd"
+        },
+        {
+          "key": "notice",
+          "value": "continuously monitor the absorbance at 405 nm",
+          "id": "0ffa8590-7d5d-4047-b56f-9a744b742a32",
+          "node_id": "ee053b4f-8e21-4c8c-82e2-21c18cdb8bdd"
+        }
+      ],
+      "emits": []
+    },
+    {
+      "id": "cc8c09af-89d3-4b35-beff-16444dddd8b5",
+      "text": "Immediately after the addition of the substrate, continuously monitor the absorbance at 405 nm using a microplate reader \\(Molecular Devices, USA).",
+      "instruction": "MONITOR",
+      "slots": [
+        {
+          "key": "reagent1",
+          "value": "substrate",
+          "id": "6bf6207f-fdf2-494a-b30c-ad68b4b08333",
+          "node_id": "cc8c09af-89d3-4b35-beff-16444dddd8b5"
+        },
+        {
+          "key": "attribute",
+          "value": "absorbance",
+          "id": "974db892-fab4-48d1-8b2a-575ccf8ec9fb",
+          "node_id": "cc8c09af-89d3-4b35-beff-16444dddd8b5"
+        },
+        {
+          "key": "method",
+          "value": "continuous monitoring",
+          "id": "fbd76f7b-bb7f-4589-8c1e-346fc6d40add",
+          "node_id": "cc8c09af-89d3-4b35-beff-16444dddd8b5"
+        },
+        {
+          "key": "environment",
+          "value": "405 nm",
+          "id": "09af176d-d1bc-48a5-9d5b-c3dd8ec54cef",
+          "node_id": "cc8c09af-89d3-4b35-beff-16444dddd8b5"
+        },
+        {
+          "key": "equipment",
+          "value": "microplate reader (Molecular Devices, USA)",
+          "id": "3d22bd54-d860-41bf-9c35-9193bf4d2cec",
+          "node_id": "cc8c09af-89d3-4b35-beff-16444dddd8b5"
+        },
+        {
+          "key": "notice",
+          "value": "",
+          "id": "a7771dda-3b87-4c25-aefd-baed57b11623",
+          "node_id": "cc8c09af-89d3-4b35-beff-16444dddd8b5"
+        }
+      ],
+      "emits": []
+    }
+  ],
+  "edges": []
+}

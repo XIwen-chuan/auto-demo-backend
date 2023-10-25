@@ -1,0 +1,60 @@
+{
+  "name": "nprot-117_graphData.json",
+  "nodes": [
+    {
+      "id": "2b0a34ad-3e3c-475d-9717-af81a256756c",
+      "text": "Human recombinant leptin was from Calbiochem \\(catalogue number 429700); Aminolink&#xAE; agarose was from Pierce Biotechnology \\(catalogue number 44890).",
+      "instruction": "OBTAIN",
+      "slots": [
+        {
+          "key": "reagent1",
+          "value": "Human recombinant leptin",
+          "id": "b919747e-b4bc-48d2-8535-57d6f8a44146",
+          "node_id": "2b0a34ad-3e3c-475d-9717-af81a256756c"
+        },
+        {
+          "key": "container",
+          "value": "Calbiochem (catalogue number 429700)",
+          "id": "89f5ea40-a4b2-4d23-9001-f0ff9db77cf7",
+          "node_id": "2b0a34ad-3e3c-475d-9717-af81a256756c"
+        }
+      ],
+      "emits": [
+        {
+          "key": "reagent0",
+          "value": "Human recombinant leptin",
+          "id": "5e319f63-269e-4b4a-b77d-5c9240490512",
+          "node_id": "2b0a34ad-3e3c-475d-9717-af81a256756c"
+        }
+      ]
+    },
+    {
+      "id": "b8e66c72-339e-40b4-a62b-6d62cb2b31c0",
+      "text": "Human recombinant leptin was from Calbiochem \\(catalogue number 429700); Aminolink&#xAE; agarose was from Pierce Biotechnology \\(catalogue number 44890).",
+      "instruction": "OBTAIN",
+      "slots": [
+        {
+          "key": "reagent1",
+          "value": "Aminolink\u00ae agarose",
+          "id": "fd2d0588-4445-41e6-be7f-e5344089ac6e",
+          "node_id": "b8e66c72-339e-40b4-a62b-6d62cb2b31c0"
+        },
+        {
+          "key": "container",
+          "value": "Pierce Biotechnology",
+          "id": "d031ee0e-46a4-4b45-91c9-1b93a1e5f365",
+          "node_id": "b8e66c72-339e-40b4-a62b-6d62cb2b31c0"
+        }
+      ],
+      "emits": [
+        {
+          "key": "reagent0",
+          "value": "Human recombinant leptin",
+          "id": "1e81d171-da10-4f9a-b924-35bc2a2f3b3d",
+          "node_id": "b8e66c72-339e-40b4-a62b-6d62cb2b31c0"
+        }
+      ]
+    }
+  ],
+  "edges": []
+}

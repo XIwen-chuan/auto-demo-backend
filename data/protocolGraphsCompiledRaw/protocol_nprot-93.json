@@ -1,0 +1,725 @@
+[
+    {
+        "title": "**Crosslinking and His-tag pull-down.**",
+        "body": [
+            {
+                "title": "1.",
+                "body": [
+                    {
+                        "sentence": "Grow 200 ml yeast cells expressing V5-His6 tagged protein in YPG \\(yeast extract/peptone/galactose) to A<sub>600</sub> of approximately 0.6. After UV \\(100 J/m2) or mock treatment, incubate cells at 30 &#xB0;C in the dark \\(to prevent photoactivation repair of UV lesions by photolyase \\(5)) for one hour.",
+                        "result": [
+                            {
+                                "GROW": {
+                                    "emit": [
+                                        {
+                                            "reagent0": "yeast cells expressing V5-His6 tagged protein"
+                                        }
+                                    ],
+                                    "slot": [
+                                        {
+                                            "reagent1": "yeast cells expressing V5-His6 tagged protein"
+                                        },
+                                        {
+                                            "medium": "YPG"
+                                        },
+                                        {
+                                            "temperature": "30 &#xB0;C"
+                                        },
+                                        {
+                                            "environment": "dark"
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "INCUBATE": {
+                                    "emit": [
+                                        {
+                                            "reagent0": "yeast cells expressing V5-His6 tagged protein"
+                                        }
+                                    ],
+                                    "slot": [
+                                        {
+                                            "reagent1": "yeast cells expressing V5-His6 tagged protein"
+                                        },
+                                        {
+                                            "temperature": "30 \u00b0C"
+                                        },
+                                        {
+                                            "time": "one hour"
+                                        },
+                                        {
+                                            "environment": "dark"
+                                        }
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "2.",
+                "body": [
+                    {
+                        "sentence": "Add formaldehyde directly to the culture to 1% \\(final concentration). After incubation for 20 min at room temperature, quench cross-linking by addition of 0.5 M glycine \\(final concentration).",
+                        "result": [
+                            {
+                                "ADD": {
+                                    "emit": [
+                                        {
+                                            "reagent0": "yeast cells expressing V5-His6 tagged protein"
+                                        }
+                                    ],
+                                    "slot": [
+                                        {
+                                            "reagent1": "yeast cells expressing V5-His6 tagged protein"
+                                        },
+                                        {
+                                            "reagent2": "formaldehyde"
+                                        },
+                                        {
+                                            "concentration": "1%"
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "INCUBATE": {
+                                    "emit": [
+                                        {
+                                            "reagent0": "yeast cells expressing V5-His6 tagged protein"
+                                        }
+                                    ],
+                                    "slot": [
+                                        {
+                                            "reagent1": "yeast cells expressing V5-His6 tagged protein"
+                                        },
+                                        {
+                                            "temperature": "room temperature"
+                                        },
+                                        {
+                                            "time": "20 min"
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "ADD": {
+                                    "emit": [
+                                        {
+                                            "reagent0": "yeast cells expressing V5-His6 tagged protein"
+                                        }
+                                    ],
+                                    "slot": [
+                                        {
+                                            "reagent1": "yeast cells expressing V5-His6 tagged protein"
+                                        },
+                                        {
+                                            "reagent2": "0.5 M glycine"
+                                        },
+                                        {
+                                            "concentration": "1%"
+                                        }
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "3.",
+                "body": [
+                    {
+                        "sentence": "Harvest cells, wash with cold Tris-buffered saline followed by cold lysis buffer \\(50 mM HEPES-KOH, pH 7.5, 10 mM MgCl<sub>2</sub>, 200 mM KCl, 0.1 mM EDTA, 10% glycerol and 1% Triton X-100). Resuspend approximately 0.5 ml yeast cells in 1 ml of lysis buffer containing 1 mM phenylmethylsulfonyl fluoride and protease inhibitor mixture \\(Roche).",
+                        "result": [
+                            {
+                                "HARVEST": {
+                                    "emit": [
+                                        {
+                                            "reagent0": "yeast cells expressing V5-His6 tagged protein"
+                                        }
+                                    ],
+                                    "slot": [
+                                        {
+                                            "reagent1": "yeast cells expressing V5-His6 tagged protein"
+                                        },
+                                        {
+                                            "container": "cold Tris-buffered saline"
+                                        },
+                                        {
+                                            "method": "wash"
+                                        },
+                                        {
+                                            "environment": "cold"
+                                        },
+                                        {
+                                            "purpose": "to collect"
+                                        },
+                                        {
+                                            "notice": ""
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "WASH": {
+                                    "emit": [
+                                        {
+                                            "reagent0": "yeast cells expressing V5-His6 tagged protein"
+                                        }
+                                    ],
+                                    "slot": [
+                                        {
+                                            "reagent1": "yeast cells expressing V5-His6 tagged protein"
+                                        },
+                                        {
+                                            "reagent2": "Tris-buffered saline"
+                                        },
+                                        {
+                                            "repeat": "1"
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "WASH": {
+                                    "emit": [
+                                        {
+                                            "reagent0": "yeast cells expressing V5-His6 tagged protein"
+                                        }
+                                    ],
+                                    "slot": [
+                                        {
+                                            "reagent1": "yeast cells expressing V5-His6 tagged protein"
+                                        },
+                                        {
+                                            "reagent2": "cold lysis buffer (50 mM HEPES-KOH, pH 7.5, 10 mM MgCl2, 200 mM KCl, 0.1 mM EDTA, 10% glycerol and 1% Triton X-100)"
+                                        },
+                                        {
+                                            "repeat": "<blank>"
+                                        },
+                                        {
+                                            "time": "<blank>"
+                                        },
+                                        {
+                                            "notice": "<blank>"
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "RESUSPEND": {
+                                    "emit": [
+                                        {
+                                            "reagent0": "yeast cells expressing V5-His6 tagged protein"
+                                        }
+                                    ],
+                                    "slot": [
+                                        {
+                                            "reagent1": "yeast cells expressing V5-His6 tagged protein"
+                                        },
+                                        {
+                                            "reagent2": "lysis buffer"
+                                        }
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "4.",
+                "body": [
+                    {
+                        "sentence": "Disrupt the cells by votexing in the presence of 0.5 ml glass beads. Sonicate the lysate \\(the average size of DNA fragments should be less than 1 kb) and centrifuge for 20 min at 10,000 g.",
+                        "result": [
+                            {
+                                "VORTEX": {
+                                    "emit": [
+                                        {
+                                            "reagent0": "yeast cells expressing V5-His6 tagged protein"
+                                        }
+                                    ],
+                                    "slot": [
+                                        {
+                                            "reagent1": "yeast cells expressing V5-His6 tagged protein"
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "SONICATE": {
+                                    "emit": [
+                                        {
+                                            "reagent0": "lysate"
+                                        }
+                                    ],
+                                    "slot": [
+                                        {
+                                            "reagent1": "lysate"
+                                        },
+                                        {
+                                            "time": "2 min"
+                                        },
+                                        {
+                                            "temperature": "room temperature"
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "CENTRIFUGE": {
+                                    "emit": [],
+                                    "slot": [
+                                        {
+                                            "reagent1": "lysate"
+                                        },
+                                        {
+                                            "intensity": "10,000 g"
+                                        },
+                                        {
+                                            "time": "20 min"
+                                        }
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "5.",
+                "body": [
+                    {
+                        "sentence": "For each His-tag pull-down reaction, incubate 0.5 ml cell-free extracts \\(approximately 20 mg/ml protein) and 0.1 ml Ni-NTA-Agarose beads \\(Qiagen) overnight at 4 &#xB0;C. Transfer the beads to a 2 ml tube and wash three times with 1.5 ml lysis buffer, three times with 1.5 ml of the same buffer but with 20 mM imidazol and twice with 1.5 ml of TE \\(10 mM Tris-HCl, pH 8.0, 1 mM EDTA).",
+                        "result": [
+                            {
+                                "INCUBATE": {
+                                    "emit": [],
+                                    "slot": [
+                                        {
+                                            "reagent1": "0.5 ml cell-free extracts"
+                                        },
+                                        {
+                                            "reagent2": "0.1 ml Ni-NTA-Agarose beads (Qiagen)"
+                                        },
+                                        {
+                                            "temperature": "4 \u00b0C"
+                                        },
+                                        {
+                                            "time": "overnight"
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "TRANSFER": {
+                                    "emit": [
+                                        {
+                                            "reagent0": "beads"
+                                        }
+                                    ],
+                                    "slot": [
+                                        {
+                                            "source": "beads"
+                                        },
+                                        {
+                                            "destination": "2 ml tube"
+                                        },
+                                        {
+                                            "reagent1": "Ni-NTA-Agarose beads"
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "WASH": {
+                                    "emit": [],
+                                    "slot": [
+                                        {
+                                            "reagent1": "Ni-NTA-Agarose beads"
+                                        },
+                                        {
+                                            "reagent2": "lysis buffer"
+                                        },
+                                        {
+                                            "repeat": "3"
+                                        }
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "6.",
+                "body": [
+                    {
+                        "sentence": "Transfer the beads to a 1.5 ml microcentrifuge tube with TE and pellet. Add SDS-PAGE sample buffer \\(2x, 0.1 ml) and cross-links reversed by boiling for 20 min. Analyze samples by Western blotting using antibodies specific for DNA repair proteins Rad4 and Rad23 \\(6). Strip the PVDF membrane and reprobe with V5 antibody \\(Invitrogen).  Use the detected Snf6-V5His6 and/or LacZ-V5His6 as loading controls.",
+                        "result": [
+                            {
+                                "TRANSFER": {
+                                    "emit": [
+                                        {
+                                            "reagent0": "beads"
+                                        }
+                                    ],
+                                    "slot": [
+                                        {
+                                            "source": "beads"
+                                        },
+                                        {
+                                            "destination": "1.5 ml microcentrifuge tube"
+                                        },
+                                        {
+                                            "reagent1": "TE"
+                                        },
+                                        {
+                                            "volume": "<blank>"
+                                        },
+                                        {
+                                            "equipment": "<blank>"
+                                        },
+                                        {
+                                            "notice": "<blank>"
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "ADD": {
+                                    "emit": [
+                                        {
+                                            "reagent0": "beads"
+                                        }
+                                    ],
+                                    "slot": [
+                                        {
+                                            "reagent1": "beads"
+                                        },
+                                        {
+                                            "reagent2": "SDS-PAGE sample buffer"
+                                        },
+                                        {
+                                            "ratio": "2x"
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "BOIL": {
+                                    "emit": [
+                                        {
+                                            "reagent0": "beads"
+                                        }
+                                    ],
+                                    "slot": [
+                                        {
+                                            "reagent1": "SDS-PAGE sample buffer"
+                                        },
+                                        {
+                                            "temperature": "boiling"
+                                        },
+                                        {
+                                            "time": "20 min"
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "ANALYZE": {
+                                    "emit": [
+                                        {
+                                            "data0": "Rad4 and Rad23 (6)"
+                                        }
+                                    ],
+                                    "slot": [
+                                        {
+                                            "reagent1": "beads"
+                                        },
+                                        {
+                                            "method": "Western blotting"
+                                        }
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "**Confirmation of protein-protein interactions by a reciprocal experiment.**",
+        "body": [
+            {
+                "title": "7.",
+                "body": [
+                    {
+                        "sentence": "In this experiment, yeast cells expressing tandem affinity purification \\(TAP)-tagged Rad4 from its native promoter are used to purify Rad4-TAP. Putative association of SWI/SNF subunits with Rad4-TAP is then examined. Yeast culture, crosslinking and extracts preparation are performed as described in steps 1-4. To purify TAP-tagged Rad4, incubate Human IgG-Agarose beads \\(0.1 ml, sigma) with 0.5 ml cell-free extracts overnight at 4 &#xB0;C. Transfer the beads to a 2 ml tube and wash three times with 1.5 ml lysis buffer and twice with 1.5 ml of TE \\(10 mM Tris-HCl, pH 8.0, 1 mM EDTA). Reverse crosslinks and analyze proteins as described in step 6.",
+                        "result": [
+                            {
+                                "PERFORM": {
+                                    "emit": [
+                                        {
+                                            "reagent0": "yeast cells expressing V5-His6 tagged protein"
+                                        }
+                                    ],
+                                    "slot": [
+                                        {
+                                            "procedure": "Yeast culture, crosslinking and extracts preparation"
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "INCUBATE": {
+                                    "emit": [
+                                        {
+                                            "reagent0": "Rad4-TAP"
+                                        }
+                                    ],
+                                    "slot": [
+                                        {
+                                            "reagent1": "Human IgG-Agarose beads (0.1 ml, sigma)"
+                                        },
+                                        {
+                                            "temperature": "4 \u00b0C"
+                                        },
+                                        {
+                                            "time": "overnight"
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "TRANSFER": {
+                                    "emit": [
+                                        {
+                                            "reagent0": "beads"
+                                        }
+                                    ],
+                                    "slot": [
+                                        {
+                                            "source": "beads"
+                                        },
+                                        {
+                                            "destination": "2 ml tube"
+                                        },
+                                        {
+                                            "reagent1": "beads"
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "WASH": {
+                                    "emit": [
+                                        {
+                                            "reagent0": "beads"
+                                        }
+                                    ],
+                                    "slot": [
+                                        {
+                                            "reagent1": "beads"
+                                        },
+                                        {
+                                            "reagent2": "lysis buffer"
+                                        },
+                                        {
+                                            "repeat": "3"
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "ANALYZE": {
+                                    "emit": [
+                                        {
+                                            "data0": "Rad4 and Rad23 (6)"
+                                        }
+                                    ],
+                                    "slot": [
+                                        {
+                                            "reagent1": "Rad4-TAP"
+                                        }
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "**DNase I digestion to disrupt interactions bridged by DNA.**",
+        "body": [
+            {
+                "title": "8.",
+                "body": [
+                    {
+                        "sentence": "Pull-down materials from step 5 can be treated by DNase I to examine if the putative protein-protein interactions were mediated by DNA. Recall that formaldehyde, commonly used in chromatin immunoprecipitation, produces both protein-protein and DNA-protein crosslinks. To perform DNase I digestion, resuspend 0.01 ml washed Ni-NTA-Agarose beads from step 5 in 0.2 ml 1X DNase I buffer and treat with 5 units of DNase I \\(New England Biolabs) for 3 hours at 37 &#xB0;C. Wash beads twice with 1.5 ml of TE \\(10 mM Tris-HCl, pH 8.0, 1 mM EDTA). For protein analysis and reversal of crosslinks, see step 6.",
+                        "result": [
+                            {
+                                "RESUSPEND": {
+                                    "emit": [
+                                        {
+                                            "reagent0": "0.01 ml washed Ni-NTA-Agarose beads from step 5"
+                                        }
+                                    ],
+                                    "slot": [
+                                        {
+                                            "reagent1": "0.01 ml washed Ni-NTA-Agarose beads from step 5"
+                                        },
+                                        {
+                                            "reagent2": "0.2 ml 1X DNase I buffer"
+                                        },
+                                        {
+                                            "temperature": "37 \u00b0C"
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "TREAT": {
+                                    "emit": [
+                                        {
+                                            "reagent0": "DNase I (New England Biolabs)"
+                                        }
+                                    ],
+                                    "slot": [
+                                        {
+                                            "reagent1": "0.01 ml washed Ni-NTA-Agarose beads from step 5"
+                                        },
+                                        {
+                                            "reagent2": "1X DNase I buffer"
+                                        },
+                                        {
+                                            "temperature": "37 \u00b0C"
+                                        },
+                                        {
+                                            "time": "3 hours"
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "WASH": {
+                                    "emit": [
+                                        {
+                                            "reagent0": "beads"
+                                        }
+                                    ],
+                                    "slot": [
+                                        {
+                                            "reagent1": "beads"
+                                        },
+                                        {
+                                            "reagent2": "TE (10 mM Tris-HCl, pH 8.0, 1 mM EDTA)"
+                                        },
+                                        {
+                                            "repeat": "2"
+                                        }
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "**His-tag pull-down in the presence of ethidium bromide to confirm protein-protein interactions**",
+        "body": [
+            {
+                "title": "9.",
+                "body": [
+                    {
+                        "sentence": "To pull-down proteins without formaldehyde cross-linking, omit step 2 and prepare yeast extracts. Incubate cell-free extracts \\(0.5 ml, approximately 20 mg/ml protein) and 0.1 ml Ni-NTA-Agarose beads \\(Qiagen) overnight at 4 &#xB0;C in the presence of various amount of ethidium bromide \\(from 0.05 to 0.5 mg/ml; Note that EtBr disrupts DNA-protein interactions \\(7)). Wash Ni-NTA-agarose beads gently three times with the following buffer: 25 mM HEPES-KOH, pH 7.5, 50 \\(or 200) mM KCl, 10% glycerol). For protein analysis and reversal of crosslinks, see step 6.",
+                        "result": [
+                            {
+                                "PREPARE": {
+                                    "emit": [
+                                        {
+                                            "reagent0": "yeast extracts"
+                                        }
+                                    ],
+                                    "slot": [
+                                        {
+                                            "reagent1": "yeast extracts"
+                                        },
+                                        {
+                                            "temperature": "4 \u00b0C"
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "INCUBATE": {
+                                    "emit": [
+                                        {
+                                            "reagent0": "ethidium bromide"
+                                        }
+                                    ],
+                                    "slot": [
+                                        {
+                                            "reagent1": "cell-free extracts"
+                                        },
+                                        {
+                                            "reagent2": "Ni-NTA-Agarose beads"
+                                        },
+                                        {
+                                            "temperature": "4 \u00b0C"
+                                        },
+                                        {
+                                            "time": "overnight"
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "WASH": {
+                                    "emit": [
+                                        {
+                                            "reagent0": "Ni-NTA-agarose beads"
+                                        }
+                                    ],
+                                    "slot": [
+                                        {
+                                            "reagent1": "Ni-NTA-agarose beads"
+                                        },
+                                        {
+                                            "reagent2": "buffer"
+                                        },
+                                        {
+                                            "repeat": "3"
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "SEE": {
+                                    "emit": [],
+                                    "slot": [
+                                        {
+                                            "referenceType": "step"
+                                        },
+                                        {
+                                            "referenceID": "6"
+                                        }
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+]

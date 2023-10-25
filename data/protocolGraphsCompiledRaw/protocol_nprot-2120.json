@@ -1,0 +1,143 @@
+[
+    {
+        "title": "1.",
+        "body": [
+            {
+                "sentence": "Inoculate 5ml LB 100ug/ml ampicillin \\(or other appropriate antibiotic for your culture) with cells.",
+                "result": [
+                    {
+                        "INOCULATE": {
+                            "emit": [
+                                {
+                                    "reagent0": "5ml LB 100ug/ml ampicillin"
+                                }
+                            ],
+                            "slot": [
+                                {
+                                    "reagent1": "5ml LB 100ug/ml ampicillin"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "2.",
+        "body": [
+            {
+                "sentence": "Grow overnight on roller.",
+                "result": [
+                    {
+                        "GROW": {
+                            "emit": [
+                                {
+                                    "reagent0": "5ml LB 100ug/ml ampicillin"
+                                }
+                            ],
+                            "slot": [
+                                {
+                                    "reagent1": "cells"
+                                },
+                                {
+                                    "medium": "LB 100ug/ml ampicillin"
+                                },
+                                {
+                                    "temperature": "room temperature"
+                                },
+                                {
+                                    "device": "roller"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "3.",
+        "body": [
+            {
+                "sentence": "Mix 800ul culture with 200ul 100% w/v glycerol \\(sterile) in sterile screw cap freezer tube.\r\n  \\(usually make several tubes)",
+                "result": [
+                    {
+                        "MIX": {
+                            "emit": [
+                                {
+                                    "reagent0": "800ul culture with 200ul 100% w/v glycerol (sterile)"
+                                }
+                            ],
+                            "slot": [
+                                {
+                                    "reagent1": "800ul culture"
+                                },
+                                {
+                                    "reagent2": "200ul 100% w/v glycerol (sterile)"
+                                },
+                                {
+                                    "device": "sterile screw cap freezer tube"
+                                },
+                                {
+                                    "notice": "usually make several tubes"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "4.",
+        "body": [
+            {
+                "sentence": "Invert a few times",
+                "result": []
+            }
+        ]
+    },
+    {
+        "title": "5.",
+        "body": [
+            {
+                "sentence": "Bury tube in dry ice until frozen solid.",
+                "result": []
+            }
+        ]
+    },
+    {
+        "title": "6.",
+        "body": [
+            {
+                "sentence": "Store in -80\u00b0C freezer.",
+                "result": [
+                    {
+                        "STORE": {
+                            "emit": [
+                                {
+                                    "reagent0": "800ul culture with 200ul 100% w/v glycerol (sterile)"
+                                }
+                            ],
+                            "slot": [
+                                {
+                                    "reagent1": "800ul culture with 200ul 100% w/v glycerol (sterile)"
+                                },
+                                {
+                                    "temperature": "-80\u00b0C"
+                                },
+                                {
+                                    "container": "sterile screw cap freezer tube"
+                                },
+                                {
+                                    "notice": "(usually make several tubes)"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        ]
+    }
+]

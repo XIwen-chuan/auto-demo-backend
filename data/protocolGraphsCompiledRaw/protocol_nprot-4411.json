@@ -1,0 +1,802 @@
+[
+    {
+        "title": "**For cell culture supernatant:**",
+        "body": [
+            {
+                "title": "1.",
+                "body": [
+                    {
+                        "sentence": "Transfer supernatant media<sup>1</sup> from cell culture flask to a 50 mL conical tube.",
+                        "result": [
+                            {
+                                "TRANSFER": {
+                                    "emit": [
+                                        {
+                                            "reagent0": "supernatant media"
+                                        }
+                                    ],
+                                    "slot": [
+                                        {
+                                            "source": "cell culture flask"
+                                        },
+                                        {
+                                            "destination": "50 mL conical tube"
+                                        },
+                                        {
+                                            "reagent1": "supernatant media"
+                                        }
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "2.",
+                "body": [
+                    {
+                        "sentence": "Screw the Steriflip unit onto the top, open end of the sample tube.  Secure tightly.",
+                        "result": []
+                    }
+                ]
+            },
+            {
+                "title": "3.",
+                "body": [
+                    {
+                        "sentence": "Invert the assembly and secure in a tube base or rack.",
+                        "result": []
+                    }
+                ]
+            },
+            {
+                "title": "4.",
+                "body": [
+                    {
+                        "sentence": "Attach a regulated vacuum source to the vacuum port on the side of the Steriflip unit. Turn on the vacuum to draw solution through the membrane and into the empty tube.",
+                        "result": [
+                            {
+                                "ATTACH": {
+                                    "emit": [
+                                        {
+                                            "reagent0": "supernatant media"
+                                        }
+                                    ],
+                                    "slot": [
+                                        {
+                                            "reagent1": "regulated vacuum source"
+                                        },
+                                        {
+                                            "reagent2": "vacuum port on the side of the Steriflip unit"
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "TURN": {
+                                    "emit": [
+                                        {
+                                            "reagent0": "supernatant media"
+                                        }
+                                    ],
+                                    "slot": [
+                                        {
+                                            "device": "Steriflip unit"
+                                        },
+                                        {
+                                            "state": "on"
+                                        }
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "5.",
+                "body": [
+                    {
+                        "sentence": "Detach the Steriflip device and cap sample.  Store filtered sample at 4\u00b0C or proceed with microvesicles enrichment.",
+                        "result": [
+                            {
+                                "STORE": {
+                                    "emit": [
+                                        {
+                                            "reagent0": "filtered sample"
+                                        }
+                                    ],
+                                    "slot": [
+                                        {
+                                            "reagent1": "filtered sample"
+                                        },
+                                        {
+                                            "temperature": "4\u00b0C"
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "PROCEED": {
+                                    "emit": [
+                                        {
+                                            "reagent0": "filtered sample"
+                                        }
+                                    ],
+                                    "slot": [
+                                        {
+                                            "procedure": "microvesicles enrichment"
+                                        }
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "6.",
+                "body": [
+                    {
+                        "sentence": "Add 2 mL PBS to the AU-15 filter, cap and centrifuge for 10 minutes at 4000 xg minutes in a swinging bucket rotor.",
+                        "result": [
+                            {
+                                "ADD": {
+                                    "emit": [
+                                        {
+                                            "reagent0": "AU-15 filter"
+                                        }
+                                    ],
+                                    "slot": [
+                                        {
+                                            "reagent1": "AU-15 filter"
+                                        },
+                                        {
+                                            "reagent2": "2 mL PBS"
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "CENTRIFUGE": {
+                                    "emit": [
+                                        {
+                                            "reagent0": "filtered sample"
+                                        }
+                                    ],
+                                    "slot": [
+                                        {
+                                            "reagent1": "AU-15 filter"
+                                        },
+                                        {
+                                            "intensity": "4000 xg"
+                                        },
+                                        {
+                                            "time": "10 minutes"
+                                        }
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "7.",
+                "body": [
+                    {
+                        "sentence": "Remove unfiltered PBS from the bottom of the filter device.  Aspirate filtrate from the collection tube.",
+                        "result": [
+                            {
+                                "REMOVE": {
+                                    "emit": [
+                                        {
+                                            "reagent0": "unfiltered PBS"
+                                        }
+                                    ],
+                                    "slot": [
+                                        {
+                                            "reagent1": "unfiltered PBS"
+                                        },
+                                        {
+                                            "method": "Aspirate"
+                                        },
+                                        {
+                                            "device": "filter device"
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "ASPIRATE": {
+                                    "emit": [
+                                        {
+                                            "reagent0": "filtrate"
+                                        }
+                                    ],
+                                    "slot": [
+                                        {
+                                            "reagent1": "filtrate"
+                                        },
+                                        {
+                                            "device": "collection tube"
+                                        }
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "8.",
+                "body": [
+                    {
+                        "sentence": "Add 15 mL sample to the AU-15 filter and cap the device.",
+                        "result": [
+                            {
+                                "ADD": {
+                                    "emit": [
+                                        {
+                                            "reagent0": "AU-15 filter"
+                                        }
+                                    ],
+                                    "slot": [
+                                        {
+                                            "reagent2": "15 mL sample"
+                                        }
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "9.",
+                "body": [
+                    {
+                        "sentence": "Centrifuge at for 30 minutes at 4000 xg. There should be ~500 \u03bcl sample remaining in the upper chamber.",
+                        "result": [
+                            {
+                                "CENTRIFUGE": {
+                                    "emit": [
+                                        {
+                                            "reagent0": "filtered sample"
+                                        }
+                                    ],
+                                    "slot": [
+                                        {
+                                            "reagent1": "filtered sample"
+                                        },
+                                        {
+                                            "intensity": "4000 xg"
+                                        },
+                                        {
+                                            "time": "30 minutes"
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "CHECK": {
+                                    "emit": [
+                                        {
+                                            "reagent0": "filtered sample"
+                                        }
+                                    ],
+                                    "slot": [
+                                        {
+                                            "reagent1": "filtered sample"
+                                        },
+                                        {
+                                            "attribute": "sample remaining"
+                                        },
+                                        {
+                                            "method": "Centrifuge"
+                                        },
+                                        {
+                                            "environment": "upper chamber"
+                                        },
+                                        {
+                                            "notice": "There should be ~500 \u03bcl"
+                                        }
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "10.",
+                "body": [
+                    {
+                        "sentence": "Remove device from the centrifuge and empty the collection tube.",
+                        "result": [
+                            {
+                                "REMOVE": {
+                                    "emit": [
+                                        {
+                                            "reagent0": "unfiltered PBS"
+                                        }
+                                    ],
+                                    "slot": [
+                                        {
+                                            "reagent1": "filtered sample"
+                                        },
+                                        {
+                                            "device": "centrifuge"
+                                        }
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "11.",
+                "body": [
+                    {
+                        "sentence": "Add 14 mL PBS to the filter device and gently pipette sample multiple times to mix.",
+                        "result": [
+                            {
+                                "ADD": {
+                                    "emit": [],
+                                    "slot": [
+                                        {
+                                            "reagent2": "PBS"
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "PIPETTE": {
+                                    "emit": [],
+                                    "slot": [
+                                        {
+                                            "volume": "14 mL"
+                                        },
+                                        {
+                                            "reagent1": "PBS"
+                                        },
+                                        {
+                                            "destination": "filter device"
+                                        }
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "12.",
+                "body": [
+                    {
+                        "sentence": "Centrifuge at for 30 minutes at 4000 xg.",
+                        "result": [
+                            {
+                                "CENTRIFUGE": {
+                                    "emit": [
+                                        {
+                                            "reagent0": "filtered sample"
+                                        }
+                                    ],
+                                    "slot": [
+                                        {
+                                            "reagent1": "filtered sample"
+                                        },
+                                        {
+                                            "intensity": "4000 xg"
+                                        },
+                                        {
+                                            "time": "30 minutes"
+                                        }
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "13.",
+                "body": [
+                    {
+                        "sentence": "Recover concentrated sample from the upper chamber of the filter device.",
+                        "result": [
+                            {
+                                "RECOVER": {
+                                    "emit": [
+                                        {
+                                            "reagent0": "filtered sample"
+                                        }
+                                    ],
+                                    "slot": [
+                                        {
+                                            "reagent1": "filtered sample"
+                                        },
+                                        {
+                                            "device": "AU-15 filter"
+                                        },
+                                        {
+                                            "volume": "<blank>"
+                                        },
+                                        {
+                                            "destination": "<blank>"
+                                        },
+                                        {
+                                            "method": "<blank>"
+                                        }
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "**For serum or plasma:**",
+        "body": [
+            {
+                "title": "1.",
+                "body": [
+                    {
+                        "sentence": "Add 500 \u03bcl PBS to the AU-0.5 filter, cap, and centrifuge for 10 minutes at 14,000 xg.",
+                        "result": [
+                            {
+                                "ADD": {
+                                    "emit": [
+                                        {
+                                            "reagent0": "AU-0.5 filter"
+                                        }
+                                    ],
+                                    "slot": [
+                                        {
+                                            "reagent2": "PBS"
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "CENTRIFUGE": {
+                                    "emit": [
+                                        {
+                                            "reagent0": "filtered sample"
+                                        }
+                                    ],
+                                    "slot": [
+                                        {
+                                            "reagent1": "AU-0.5 filter"
+                                        },
+                                        {
+                                            "intensity": "14,000 xg"
+                                        },
+                                        {
+                                            "time": "10 minutes"
+                                        }
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "2.",
+                "body": [
+                    {
+                        "sentence": "Reverse the device and centrifuge for 2 minutes at 1000 xg to remove the residual PBS.",
+                        "result": [
+                            {
+                                "CENTRIFUGE": {
+                                    "emit": [
+                                        {
+                                            "reagent0": "filtered sample"
+                                        }
+                                    ],
+                                    "slot": [
+                                        {
+                                            "reagent1": "filtered sample"
+                                        },
+                                        {
+                                            "intensity": "1000 xg"
+                                        },
+                                        {
+                                            "time": "2 minutes"
+                                        }
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "3.",
+                "body": [
+                    {
+                        "sentence": "Aspirate PBS from the collection tube.",
+                        "result": [
+                            {
+                                "ASPIRATE": {
+                                    "emit": [
+                                        {
+                                            "reagent0": "PBS"
+                                        }
+                                    ],
+                                    "slot": [
+                                        {
+                                            "reagent1": "PBS"
+                                        },
+                                        {
+                                            "device": "collection tube"
+                                        }
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "4.",
+                "body": [
+                    {
+                        "sentence": "Transfer 200 \u03bcl sample and 300 \u03bcl PBS to the AU-0.5 filter and cap the device.",
+                        "result": [
+                            {
+                                "TRANSFER": {
+                                    "emit": [
+                                        {
+                                            "reagent0": "filtered sample"
+                                        }
+                                    ],
+                                    "slot": [
+                                        {
+                                            "source": "sample"
+                                        },
+                                        {
+                                            "destination": "AU-0.5 filter"
+                                        },
+                                        {
+                                            "reagent1": "sample"
+                                        },
+                                        {
+                                            "volume": "200 \u03bcl"
+                                        }
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "5.",
+                "body": [
+                    {
+                        "sentence": "Centrifuge for 30 minutes at 14,000 xg. There should be ~15 \u03bcl sample remaining in the upper chamber.",
+                        "result": [
+                            {
+                                "CENTRIFUGE": {
+                                    "emit": [
+                                        {
+                                            "reagent0": "filtered sample"
+                                        }
+                                    ],
+                                    "slot": [
+                                        {
+                                            "reagent1": "filtered sample"
+                                        },
+                                        {
+                                            "intensity": "14,000 xg"
+                                        },
+                                        {
+                                            "time": "30 minutes"
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "CHECK": {
+                                    "emit": [
+                                        {
+                                            "reagent0": "filtered sample"
+                                        }
+                                    ],
+                                    "slot": [
+                                        {
+                                            "reagent1": "filtered sample"
+                                        },
+                                        {
+                                            "attribute": "sample remaining"
+                                        },
+                                        {
+                                            "method": "centrifuge"
+                                        },
+                                        {
+                                            "environment": "upper chamber"
+                                        },
+                                        {
+                                            "equipment": "centrifuge"
+                                        },
+                                        {
+                                            "notice": "~15 \u03bcl"
+                                        }
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "6.",
+                "body": [
+                    {
+                        "sentence": "Remove device from the centrifuge and empty the collection tube.",
+                        "result": [
+                            {
+                                "REMOVE": {
+                                    "emit": [
+                                        {
+                                            "reagent0": "filtered sample"
+                                        }
+                                    ],
+                                    "slot": [
+                                        {
+                                            "reagent1": "filtered sample"
+                                        },
+                                        {
+                                            "device": "centrifuge"
+                                        }
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "7.",
+                "body": [
+                    {
+                        "sentence": "Add 0.5 mL PBS to the filter device and gently pipette sample multiple times to mix.",
+                        "result": [
+                            {
+                                "ADD": {
+                                    "emit": [
+                                        {
+                                            "reagent0": "filtered sample"
+                                        }
+                                    ],
+                                    "slot": [
+                                        {
+                                            "reagent2": "0.5 mL PBS"
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "PIPETTE": {
+                                    "emit": [
+                                        {
+                                            "reagent0": "filtered sample"
+                                        }
+                                    ],
+                                    "slot": [
+                                        {
+                                            "volume": "0.5 mL"
+                                        },
+                                        {
+                                            "reagent1": "filtered sample"
+                                        },
+                                        {
+                                            "destination": "filter device"
+                                        }
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "8.",
+                "body": [
+                    {
+                        "sentence": "Centrifuge for 30 minutes at 14,000 xg.",
+                        "result": [
+                            {
+                                "CENTRIFUGE": {
+                                    "emit": [
+                                        {
+                                            "reagent0": "filtered sample"
+                                        }
+                                    ],
+                                    "slot": [
+                                        {
+                                            "reagent1": "filtered sample"
+                                        },
+                                        {
+                                            "intensity": "14,000 xg"
+                                        },
+                                        {
+                                            "time": "30 minutes"
+                                        }
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "9.",
+                "body": [
+                    {
+                        "sentence": "Place filter upside down in a fresh microcentrifuge tube.",
+                        "result": [
+                            {
+                                "PLACE": {
+                                    "emit": [
+                                        {
+                                            "reagent0": "filtered sample"
+                                        }
+                                    ],
+                                    "slot": [
+                                        {
+                                            "reagent1": "filter"
+                                        },
+                                        {
+                                            "destination": "microcentrifuge tube"
+                                        }
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "10.",
+                "body": [
+                    {
+                        "sentence": "Centrifuge for 2 minutes at 2000 xg to transfer the sample to the tube.",
+                        "result": [
+                            {
+                                "CENTRIFUGE": {
+                                    "emit": [
+                                        {
+                                            "reagent0": "filtered sample"
+                                        }
+                                    ],
+                                    "slot": [
+                                        {
+                                            "reagent1": "filtered sample"
+                                        },
+                                        {
+                                            "intensity": "2000 xg"
+                                        },
+                                        {
+                                            "time": "2 minutes"
+                                        },
+                                        {
+                                            "notice": "to transfer the sample to the tube"
+                                        }
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+]

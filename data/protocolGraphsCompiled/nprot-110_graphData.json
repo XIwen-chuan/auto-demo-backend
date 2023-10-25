@@ -1,0 +1,471 @@
+{
+  "name": "nprot-110_graphData.json",
+  "nodes": [
+    {
+      "id": "59d48f36-c267-40fc-b941-b10ee219e965",
+      "text": "3)Wash cells grown on coverslips gently 2x with ice-cold PBS 1x\r\n\n\n\r\n\n\n4)Treat the cells with ice-cold cytoskeleton buffer 5&#x2019; on ice\r\n\n\n\r\n\n\n5)Aspirate and add an ice-cold cytoskeleton stripping buffer for 5&#x2019; on ice\r\n\n\n\r\n\n\n6)Wash 3x with ice-cold PBS\r\n\n\n\r\n\n\n7)Fix the cells in fixative for 30&#x2019; RT\r\n\n\n\r\n\n\n8)Wash in 2x PBS 1x\r\n\n\n\r\n\n\n9)Permeabilize for 15&#x2019; at RT with permeabilization buffer\r\n\n\n\r\n\n\n10)Wash 3x in PBS 1x",
+      "instruction": "WASH",
+      "slots": [
+        {
+          "key": "reagent1",
+          "value": "cells grown on coverslips",
+          "id": "d1fb6c6d-09aa-466e-a6a0-2ee3aaf6e6e3",
+          "node_id": "59d48f36-c267-40fc-b941-b10ee219e965"
+        },
+        {
+          "key": "reagent2",
+          "value": "ice-cold PBS",
+          "id": "e137ff46-7a71-43e6-9688-8afca9374cc6",
+          "node_id": "59d48f36-c267-40fc-b941-b10ee219e965"
+        },
+        {
+          "key": "repeat",
+          "value": "2",
+          "id": "11e0db58-4763-46bd-a274-bcfdccd040c0",
+          "node_id": "59d48f36-c267-40fc-b941-b10ee219e965"
+        }
+      ],
+      "emits": [
+        {
+          "key": "reagent0",
+          "value": "cells grown on coverslips",
+          "id": "2efeb74e-b044-453a-bb3c-2ebcfbc034a8",
+          "node_id": "59d48f36-c267-40fc-b941-b10ee219e965"
+        }
+      ]
+    },
+    {
+      "id": "2425cee3-ff64-43d3-99f4-14839d0f4d80",
+      "text": "3)Wash cells grown on coverslips gently 2x with ice-cold PBS 1x\r\n\n\n\r\n\n\n4)Treat the cells with ice-cold cytoskeleton buffer 5&#x2019; on ice\r\n\n\n\r\n\n\n5)Aspirate and add an ice-cold cytoskeleton stripping buffer for 5&#x2019; on ice\r\n\n\n\r\n\n\n6)Wash 3x with ice-cold PBS\r\n\n\n\r\n\n\n7)Fix the cells in fixative for 30&#x2019; RT\r\n\n\n\r\n\n\n8)Wash in 2x PBS 1x\r\n\n\n\r\n\n\n9)Permeabilize for 15&#x2019; at RT with permeabilization buffer\r\n\n\n\r\n\n\n10)Wash 3x in PBS 1x",
+      "instruction": "TREAT",
+      "slots": [
+        {
+          "key": "reagent1",
+          "value": "cells grown on coverslips",
+          "id": "c02b1764-a45e-4c28-b8de-3461868dde93",
+          "node_id": "2425cee3-ff64-43d3-99f4-14839d0f4d80"
+        },
+        {
+          "key": "reagent2",
+          "value": "cytoskeleton buffer",
+          "id": "3ab816f9-3370-429a-b10f-1e13dd0d459d",
+          "node_id": "2425cee3-ff64-43d3-99f4-14839d0f4d80"
+        },
+        {
+          "key": "temperature",
+          "value": "ice-cold",
+          "id": "5b781cf1-f98e-4c33-823a-e3cff9ec6a33",
+          "node_id": "2425cee3-ff64-43d3-99f4-14839d0f4d80"
+        },
+        {
+          "key": "time",
+          "value": "5'",
+          "id": "5ebb1715-1132-4282-9ce4-0f43c714b17e",
+          "node_id": "2425cee3-ff64-43d3-99f4-14839d0f4d80"
+        },
+        {
+          "key": "environment",
+          "value": "ice",
+          "id": "6883598a-9803-4529-82b5-ebbda303c453",
+          "node_id": "2425cee3-ff64-43d3-99f4-14839d0f4d80"
+        }
+      ],
+      "emits": [
+        {
+          "key": "reagent0",
+          "value": "cells grown on coverslips",
+          "id": "edbf9731-efe8-4523-bbd8-89c0d98894f6",
+          "node_id": "2425cee3-ff64-43d3-99f4-14839d0f4d80"
+        }
+      ]
+    },
+    {
+      "id": "332a35d7-00e2-47b7-8915-559a6b04d58f",
+      "text": "3)Wash cells grown on coverslips gently 2x with ice-cold PBS 1x\r\n\n\n\r\n\n\n4)Treat the cells with ice-cold cytoskeleton buffer 5&#x2019; on ice\r\n\n\n\r\n\n\n5)Aspirate and add an ice-cold cytoskeleton stripping buffer for 5&#x2019; on ice\r\n\n\n\r\n\n\n6)Wash 3x with ice-cold PBS\r\n\n\n\r\n\n\n7)Fix the cells in fixative for 30&#x2019; RT\r\n\n\n\r\n\n\n8)Wash in 2x PBS 1x\r\n\n\n\r\n\n\n9)Permeabilize for 15&#x2019; at RT with permeabilization buffer\r\n\n\n\r\n\n\n10)Wash 3x in PBS 1x",
+      "instruction": "ASPIRATE",
+      "slots": [
+        {
+          "key": "reagent1",
+          "value": "cytoskeleton stripping buffer",
+          "id": "6ece3a64-e5eb-4fdb-b914-f57339d9f466",
+          "node_id": "332a35d7-00e2-47b7-8915-559a6b04d58f"
+        }
+      ],
+      "emits": [
+        {
+          "key": "reagent0",
+          "value": "cytoskeleton stripping buffer",
+          "id": "e9c1f91b-9151-4ca3-8f02-9dce9b867d13",
+          "node_id": "332a35d7-00e2-47b7-8915-559a6b04d58f"
+        }
+      ]
+    },
+    {
+      "id": "a39c48d0-c662-4543-a021-229476c9e78e",
+      "text": "3)Wash cells grown on coverslips gently 2x with ice-cold PBS 1x\r\n\n\n\r\n\n\n4)Treat the cells with ice-cold cytoskeleton buffer 5&#x2019; on ice\r\n\n\n\r\n\n\n5)Aspirate and add an ice-cold cytoskeleton stripping buffer for 5&#x2019; on ice\r\n\n\n\r\n\n\n6)Wash 3x with ice-cold PBS\r\n\n\n\r\n\n\n7)Fix the cells in fixative for 30&#x2019; RT\r\n\n\n\r\n\n\n8)Wash in 2x PBS 1x\r\n\n\n\r\n\n\n9)Permeabilize for 15&#x2019; at RT with permeabilization buffer\r\n\n\n\r\n\n\n10)Wash 3x in PBS 1x",
+      "instruction": "WASH",
+      "slots": [
+        {
+          "key": "reagent1",
+          "value": "cells grown on coverslips",
+          "id": "63f73106-0a87-44c4-9595-1f561930aa80",
+          "node_id": "a39c48d0-c662-4543-a021-229476c9e78e"
+        },
+        {
+          "key": "reagent2",
+          "value": "ice-cold PBS",
+          "id": "25a2f051-4679-4176-8d99-aef0ebce4755",
+          "node_id": "a39c48d0-c662-4543-a021-229476c9e78e"
+        },
+        {
+          "key": "repeat",
+          "value": "3",
+          "id": "09f940f6-ab83-48e6-aca4-a7bef753df13",
+          "node_id": "a39c48d0-c662-4543-a021-229476c9e78e"
+        }
+      ],
+      "emits": [
+        {
+          "key": "reagent0",
+          "value": "cells grown on coverslips",
+          "id": "d5d46fe7-f3a1-46db-85c5-ea53001778f1",
+          "node_id": "a39c48d0-c662-4543-a021-229476c9e78e"
+        }
+      ]
+    },
+    {
+      "id": "2a18da85-ddf7-4d68-8b2c-0c8aa56acea8",
+      "text": "3)Wash cells grown on coverslips gently 2x with ice-cold PBS 1x\r\n\n\n\r\n\n\n4)Treat the cells with ice-cold cytoskeleton buffer 5&#x2019; on ice\r\n\n\n\r\n\n\n5)Aspirate and add an ice-cold cytoskeleton stripping buffer for 5&#x2019; on ice\r\n\n\n\r\n\n\n6)Wash 3x with ice-cold PBS\r\n\n\n\r\n\n\n7)Fix the cells in fixative for 30&#x2019; RT\r\n\n\n\r\n\n\n8)Wash in 2x PBS 1x\r\n\n\n\r\n\n\n9)Permeabilize for 15&#x2019; at RT with permeabilization buffer\r\n\n\n\r\n\n\n10)Wash 3x in PBS 1x",
+      "instruction": "FIX",
+      "slots": [
+        {
+          "key": "reagent1",
+          "value": "cells grown on coverslips",
+          "id": "57d131c6-f599-49d8-b96d-4aff433f2521",
+          "node_id": "2a18da85-ddf7-4d68-8b2c-0c8aa56acea8"
+        },
+        {
+          "key": "reagent2",
+          "value": "fixative",
+          "id": "0ed45c60-edba-4d32-b6c8-acca5b498c2b",
+          "node_id": "2a18da85-ddf7-4d68-8b2c-0c8aa56acea8"
+        },
+        {
+          "key": "temperature",
+          "value": "RT",
+          "id": "b49b4f83-9744-41ab-8af5-5936bc5d98d8",
+          "node_id": "2a18da85-ddf7-4d68-8b2c-0c8aa56acea8"
+        },
+        {
+          "key": "time",
+          "value": "30'",
+          "id": "342b262f-2ccc-41d7-a173-0b2f78a747e9",
+          "node_id": "2a18da85-ddf7-4d68-8b2c-0c8aa56acea8"
+        }
+      ],
+      "emits": [
+        {
+          "key": "reagent0",
+          "value": "cells grown on coverslips",
+          "id": "aa77410a-682f-430a-9dc7-1e854046880a",
+          "node_id": "2a18da85-ddf7-4d68-8b2c-0c8aa56acea8"
+        }
+      ]
+    },
+    {
+      "id": "53fdb7be-14ad-49e1-967b-036f5d9f1d91",
+      "text": "3)Wash cells grown on coverslips gently 2x with ice-cold PBS 1x\r\n\n\n\r\n\n\n4)Treat the cells with ice-cold cytoskeleton buffer 5&#x2019; on ice\r\n\n\n\r\n\n\n5)Aspirate and add an ice-cold cytoskeleton stripping buffer for 5&#x2019; on ice\r\n\n\n\r\n\n\n6)Wash 3x with ice-cold PBS\r\n\n\n\r\n\n\n7)Fix the cells in fixative for 30&#x2019; RT\r\n\n\n\r\n\n\n8)Wash in 2x PBS 1x\r\n\n\n\r\n\n\n9)Permeabilize for 15&#x2019; at RT with permeabilization buffer\r\n\n\n\r\n\n\n10)Wash 3x in PBS 1x",
+      "instruction": "WASH",
+      "slots": [
+        {
+          "key": "reagent1",
+          "value": "cells grown on coverslips",
+          "id": "525f6494-f5ca-49cc-95ec-108ea3d7c9b5",
+          "node_id": "53fdb7be-14ad-49e1-967b-036f5d9f1d91"
+        },
+        {
+          "key": "reagent2",
+          "value": "PBS",
+          "id": "e10c19c2-180b-4030-b7e4-7a61afbb812f",
+          "node_id": "53fdb7be-14ad-49e1-967b-036f5d9f1d91"
+        },
+        {
+          "key": "repeat",
+          "value": "2",
+          "id": "53f76492-4728-4a41-999e-6b2870907cbf",
+          "node_id": "53fdb7be-14ad-49e1-967b-036f5d9f1d91"
+        }
+      ],
+      "emits": [
+        {
+          "key": "reagent0",
+          "value": "cells grown on coverslips",
+          "id": "64161358-fd3e-4dfe-8bde-bd5a4efa4fb4",
+          "node_id": "53fdb7be-14ad-49e1-967b-036f5d9f1d91"
+        }
+      ]
+    },
+    {
+      "id": "470768de-4bae-48e8-829e-f3926562c357",
+      "text": "3)Wash cells grown on coverslips gently 2x with ice-cold PBS 1x\r\n\n\n\r\n\n\n4)Treat the cells with ice-cold cytoskeleton buffer 5&#x2019; on ice\r\n\n\n\r\n\n\n5)Aspirate and add an ice-cold cytoskeleton stripping buffer for 5&#x2019; on ice\r\n\n\n\r\n\n\n6)Wash 3x with ice-cold PBS\r\n\n\n\r\n\n\n7)Fix the cells in fixative for 30&#x2019; RT\r\n\n\n\r\n\n\n8)Wash in 2x PBS 1x\r\n\n\n\r\n\n\n9)Permeabilize for 15&#x2019; at RT with permeabilization buffer\r\n\n\n\r\n\n\n10)Wash 3x in PBS 1x",
+      "instruction": "WASH",
+      "slots": [
+        {
+          "key": "reagent1",
+          "value": "cells grown on coverslips",
+          "id": "a7d2f3e7-4c6b-4c88-a9c0-ea6d4486bb48",
+          "node_id": "470768de-4bae-48e8-829e-f3926562c357"
+        },
+        {
+          "key": "reagent2",
+          "value": "PBS 1x",
+          "id": "1765a1c4-c088-4d16-8b32-571de4a151ca",
+          "node_id": "470768de-4bae-48e8-829e-f3926562c357"
+        },
+        {
+          "key": "repeat",
+          "value": "3",
+          "id": "3bd09f7f-5781-4ad3-b1a7-879adb0f2b17",
+          "node_id": "470768de-4bae-48e8-829e-f3926562c357"
+        }
+      ],
+      "emits": [
+        {
+          "key": "reagent0",
+          "value": "cells grown on coverslips",
+          "id": "8db3e5d1-e328-4a28-9767-f7280c370f3a",
+          "node_id": "470768de-4bae-48e8-829e-f3926562c357"
+        }
+      ]
+    },
+    {
+      "id": "0347dba4-a89c-4043-b6c0-58e673fe9682",
+      "text": "11)Block cells for 30&#x2019; with PBG 1X\r\n\n\n\r\n\n\n12)Stain with primary antibody diluted in PBG 1X at indicated concentration for 1h at RT \r\n\n\n\r\n\n\n13)Wash cells gently 3X5&#x2019; in PBG 1X\r\n\n\n\r\n\n\n14)Stain with secondary antibody diluited in PBG 1X for 1h at RT \r\n\n\n\r\n\n\n15)Wash cells gently 2X5&#x2019; in PBG 1x and 2X5&#x2019; in PBS 1X\r\n\n\n\r\n\n\n16)Stain with Dapi for 5' in the dark\r\n\n\n\r\n\n\n17)Mount the coverslips with 3 &#x3BC;l of Mowiol mounting medium\r\n\n\n\r\n\n\n18)Let the coverslips dry before microscope analysis",
+      "instruction": "BLOCK",
+      "slots": [
+        {
+          "key": "reagent1",
+          "value": "cells grown on coverslips",
+          "id": "b41396aa-2091-43bb-bbed-63dab1efff45",
+          "node_id": "0347dba4-a89c-4043-b6c0-58e673fe9682"
+        },
+        {
+          "key": "reagent2",
+          "value": "PBG 1X",
+          "id": "9d41f68c-03b3-4088-b306-1e4c45e08537",
+          "node_id": "0347dba4-a89c-4043-b6c0-58e673fe9682"
+        },
+        {
+          "key": "temperature",
+          "value": "room temperature",
+          "id": "104bf899-afdf-422b-b548-42e18f71c17b",
+          "node_id": "0347dba4-a89c-4043-b6c0-58e673fe9682"
+        },
+        {
+          "key": "time",
+          "value": "30'",
+          "id": "df721c75-20b1-418c-8895-9e811a779655",
+          "node_id": "0347dba4-a89c-4043-b6c0-58e673fe9682"
+        }
+      ],
+      "emits": [
+        {
+          "key": "reagent0",
+          "value": "cells grown on coverslips",
+          "id": "240a3c5b-6848-43a6-828f-c7771a1a83bb",
+          "node_id": "0347dba4-a89c-4043-b6c0-58e673fe9682"
+        }
+      ]
+    },
+    {
+      "id": "cba37ff7-52d8-4367-ad22-557c0692888e",
+      "text": "11)Block cells for 30&#x2019; with PBG 1X\r\n\n\n\r\n\n\n12)Stain with primary antibody diluted in PBG 1X at indicated concentration for 1h at RT \r\n\n\n\r\n\n\n13)Wash cells gently 3X5&#x2019; in PBG 1X\r\n\n\n\r\n\n\n14)Stain with secondary antibody diluited in PBG 1X for 1h at RT \r\n\n\n\r\n\n\n15)Wash cells gently 2X5&#x2019; in PBG 1x and 2X5&#x2019; in PBS 1X\r\n\n\n\r\n\n\n16)Stain with Dapi for 5' in the dark\r\n\n\n\r\n\n\n17)Mount the coverslips with 3 &#x3BC;l of Mowiol mounting medium\r\n\n\n\r\n\n\n18)Let the coverslips dry before microscope analysis",
+      "instruction": "STAIN",
+      "slots": [
+        {
+          "key": "reagent1",
+          "value": "primary antibody",
+          "id": "a8b785f8-fa12-48d0-ae16-7b0c8b8676b3",
+          "node_id": "cba37ff7-52d8-4367-ad22-557c0692888e"
+        },
+        {
+          "key": "reagent2",
+          "value": "PBG 1X",
+          "id": "ed8f1698-90bc-47f2-a85f-fb4d7f7e1f66",
+          "node_id": "cba37ff7-52d8-4367-ad22-557c0692888e"
+        },
+        {
+          "key": "temperature",
+          "value": "RT",
+          "id": "011fa336-274d-4799-8e74-817fca6cbc28",
+          "node_id": "cba37ff7-52d8-4367-ad22-557c0692888e"
+        },
+        {
+          "key": "time",
+          "value": "1h",
+          "id": "fc2c1969-8319-43e8-bfca-b260d24dfa82",
+          "node_id": "cba37ff7-52d8-4367-ad22-557c0692888e"
+        }
+      ],
+      "emits": [
+        {
+          "key": "reagent0",
+          "value": "cells grown on coverslips",
+          "id": "87800ec8-1289-480a-b12c-f008077b81bc",
+          "node_id": "cba37ff7-52d8-4367-ad22-557c0692888e"
+        }
+      ]
+    },
+    {
+      "id": "4f7e3150-8373-4649-b61c-27e60dbdab1c",
+      "text": "11)Block cells for 30&#x2019; with PBG 1X\r\n\n\n\r\n\n\n12)Stain with primary antibody diluted in PBG 1X at indicated concentration for 1h at RT \r\n\n\n\r\n\n\n13)Wash cells gently 3X5&#x2019; in PBG 1X\r\n\n\n\r\n\n\n14)Stain with secondary antibody diluited in PBG 1X for 1h at RT \r\n\n\n\r\n\n\n15)Wash cells gently 2X5&#x2019; in PBG 1x and 2X5&#x2019; in PBS 1X\r\n\n\n\r\n\n\n16)Stain with Dapi for 5' in the dark\r\n\n\n\r\n\n\n17)Mount the coverslips with 3 &#x3BC;l of Mowiol mounting medium\r\n\n\n\r\n\n\n18)Let the coverslips dry before microscope analysis",
+      "instruction": "WASH",
+      "slots": [
+        {
+          "key": "reagent1",
+          "value": "cells grown on coverslips",
+          "id": "927df0cf-882c-4a35-b066-a383c3f2185c",
+          "node_id": "4f7e3150-8373-4649-b61c-27e60dbdab1c"
+        },
+        {
+          "key": "reagent2",
+          "value": "PBG 1X",
+          "id": "23983a1a-0455-4810-b9a0-5945f8b8fb1c",
+          "node_id": "4f7e3150-8373-4649-b61c-27e60dbdab1c"
+        },
+        {
+          "key": "repeat",
+          "value": "3",
+          "id": "ec35a67f-a60a-4ed1-b770-676afbb2ca22",
+          "node_id": "4f7e3150-8373-4649-b61c-27e60dbdab1c"
+        },
+        {
+          "key": "time",
+          "value": "5'",
+          "id": "bd23380c-3771-465f-af35-2c80795c871e",
+          "node_id": "4f7e3150-8373-4649-b61c-27e60dbdab1c"
+        }
+      ],
+      "emits": [
+        {
+          "key": "reagent0",
+          "value": "cells grown on coverslips",
+          "id": "accfa1a3-4fa2-45e0-b4fc-9c9af0c643b1",
+          "node_id": "4f7e3150-8373-4649-b61c-27e60dbdab1c"
+        }
+      ]
+    },
+    {
+      "id": "1c910970-6eef-4b63-9e6c-08641cb3ef11",
+      "text": "11)Block cells for 30&#x2019; with PBG 1X\r\n\n\n\r\n\n\n12)Stain with primary antibody diluted in PBG 1X at indicated concentration for 1h at RT \r\n\n\n\r\n\n\n13)Wash cells gently 3X5&#x2019; in PBG 1X\r\n\n\n\r\n\n\n14)Stain with secondary antibody diluited in PBG 1X for 1h at RT \r\n\n\n\r\n\n\n15)Wash cells gently 2X5&#x2019; in PBG 1x and 2X5&#x2019; in PBS 1X\r\n\n\n\r\n\n\n16)Stain with Dapi for 5' in the dark\r\n\n\n\r\n\n\n17)Mount the coverslips with 3 &#x3BC;l of Mowiol mounting medium\r\n\n\n\r\n\n\n18)Let the coverslips dry before microscope analysis",
+      "instruction": "STAIN",
+      "slots": [
+        {
+          "key": "reagent1",
+          "value": "secondary antibody",
+          "id": "45ecceb6-a0ed-499b-8d5e-35fcf62cc881",
+          "node_id": "1c910970-6eef-4b63-9e6c-08641cb3ef11"
+        },
+        {
+          "key": "reagent2",
+          "value": "PBG 1X",
+          "id": "178daeac-f740-4bc3-8550-ab7239f43ac1",
+          "node_id": "1c910970-6eef-4b63-9e6c-08641cb3ef11"
+        },
+        {
+          "key": "temperature",
+          "value": "RT",
+          "id": "9aec648b-d361-4b03-98a2-aef1fa287cc9",
+          "node_id": "1c910970-6eef-4b63-9e6c-08641cb3ef11"
+        },
+        {
+          "key": "time",
+          "value": "1h",
+          "id": "09595b4e-61f3-45d1-b769-b5534710ca69",
+          "node_id": "1c910970-6eef-4b63-9e6c-08641cb3ef11"
+        }
+      ],
+      "emits": [
+        {
+          "key": "reagent0",
+          "value": "cells grown on coverslips",
+          "id": "67218b37-8be2-4641-bf9b-206c5bef3121",
+          "node_id": "1c910970-6eef-4b63-9e6c-08641cb3ef11"
+        }
+      ]
+    },
+    {
+      "id": "20514c59-9313-4ecb-b69e-21d3d9d83364",
+      "text": "11)Block cells for 30&#x2019; with PBG 1X\r\n\n\n\r\n\n\n12)Stain with primary antibody diluted in PBG 1X at indicated concentration for 1h at RT \r\n\n\n\r\n\n\n13)Wash cells gently 3X5&#x2019; in PBG 1X\r\n\n\n\r\n\n\n14)Stain with secondary antibody diluited in PBG 1X for 1h at RT \r\n\n\n\r\n\n\n15)Wash cells gently 2X5&#x2019; in PBG 1x and 2X5&#x2019; in PBS 1X\r\n\n\n\r\n\n\n16)Stain with Dapi for 5' in the dark\r\n\n\n\r\n\n\n17)Mount the coverslips with 3 &#x3BC;l of Mowiol mounting medium\r\n\n\n\r\n\n\n18)Let the coverslips dry before microscope analysis",
+      "instruction": "WASH",
+      "slots": [
+        {
+          "key": "reagent1",
+          "value": "cells grown on coverslips",
+          "id": "bd66291d-2a8a-4ca3-8209-569c29cb9a11",
+          "node_id": "20514c59-9313-4ecb-b69e-21d3d9d83364"
+        },
+        {
+          "key": "reagent2",
+          "value": "PBG 1x and PBS 1X",
+          "id": "0965b896-2e45-49b8-ac90-22e59cdfe8e7",
+          "node_id": "20514c59-9313-4ecb-b69e-21d3d9d83364"
+        },
+        {
+          "key": "repeat",
+          "value": "2",
+          "id": "6058b50f-4f5f-46da-98e3-087da3c1e6e9",
+          "node_id": "20514c59-9313-4ecb-b69e-21d3d9d83364"
+        },
+        {
+          "key": "time",
+          "value": "5'",
+          "id": "5573fa6f-45e2-459b-8986-4eefdbb923ad",
+          "node_id": "20514c59-9313-4ecb-b69e-21d3d9d83364"
+        }
+      ],
+      "emits": [
+        {
+          "key": "reagent0",
+          "value": "cells grown on coverslips",
+          "id": "9b2aab08-0843-4aa5-8735-9499500d03c4",
+          "node_id": "20514c59-9313-4ecb-b69e-21d3d9d83364"
+        }
+      ]
+    },
+    {
+      "id": "5df8020a-3743-4ff8-a34b-905e344e3a06",
+      "text": "11)Block cells for 30&#x2019; with PBG 1X\r\n\n\n\r\n\n\n12)Stain with primary antibody diluted in PBG 1X at indicated concentration for 1h at RT \r\n\n\n\r\n\n\n13)Wash cells gently 3X5&#x2019; in PBG 1X\r\n\n\n\r\n\n\n14)Stain with secondary antibody diluited in PBG 1X for 1h at RT \r\n\n\n\r\n\n\n15)Wash cells gently 2X5&#x2019; in PBG 1x and 2X5&#x2019; in PBS 1X\r\n\n\n\r\n\n\n16)Stain with Dapi for 5' in the dark\r\n\n\n\r\n\n\n17)Mount the coverslips with 3 &#x3BC;l of Mowiol mounting medium\r\n\n\n\r\n\n\n18)Let the coverslips dry before microscope analysis",
+      "instruction": "STAIN",
+      "slots": [
+        {
+          "key": "reagent1",
+          "value": "Dapi",
+          "id": "2355b0d8-5e68-4a23-bcf6-f66ebdb05799",
+          "node_id": "5df8020a-3743-4ff8-a34b-905e344e3a06"
+        },
+        {
+          "key": "temperature",
+          "value": "RT",
+          "id": "b1b5c4ce-b13d-4567-8c54-7fd03837d20a",
+          "node_id": "5df8020a-3743-4ff8-a34b-905e344e3a06"
+        },
+        {
+          "key": "time",
+          "value": "5'",
+          "id": "1de19034-fd4b-4016-9aa7-9e895a5602e1",
+          "node_id": "5df8020a-3743-4ff8-a34b-905e344e3a06"
+        }
+      ],
+      "emits": [
+        {
+          "key": "reagent0",
+          "value": "cells grown on coverslips",
+          "id": "389d6293-0c94-458e-9510-37d18cd2f11e",
+          "node_id": "5df8020a-3743-4ff8-a34b-905e344e3a06"
+        }
+      ]
+    }
+  ],
+  "edges": []
+}

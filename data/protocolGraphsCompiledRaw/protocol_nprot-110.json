@@ -1,0 +1,339 @@
+[
+    {
+        "sentence": "\n1)Prepare poly-D-lysinated coverslips \\(poly D lysine 50&#x3BC;g/ml)\r\n\n\n2)Plate 15-20x10<sup>3</sup> cells on coverslips 1 day before the staining\r\n\n\n\r\n\n\n",
+        "result": [
+            {
+                "PREPARE": {
+                    "emit": [
+                        {
+                            "reagent0": "poly-D-lysinated coverslips"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "reagent1": "poly-D-lysinated coverslips"
+                        },
+                        {
+                            "concentration": "50\u03bcg/ml"
+                        }
+                    ]
+                }
+            },
+            {
+                "PLATE": {
+                    "emit": [
+                        {
+                            "reagent0": "poly-D-lysinated coverslips"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "reagent1": "15-20x10^3 cells"
+                        },
+                        {
+                            "reagent2": "coverslips"
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "title": "**Preextraction and fixation**",
+        "body": [
+            {
+                "sentence": "3)Wash cells grown on coverslips gently 2x with ice-cold PBS 1x\r\n\n\n\r\n\n\n4)Treat the cells with ice-cold cytoskeleton buffer 5&#x2019; on ice\r\n\n\n\r\n\n\n5)Aspirate and add an ice-cold cytoskeleton stripping buffer for 5&#x2019; on ice\r\n\n\n\r\n\n\n6)Wash 3x with ice-cold PBS\r\n\n\n\r\n\n\n7)Fix the cells in fixative for 30&#x2019; RT\r\n\n\n\r\n\n\n8)Wash in 2x PBS 1x\r\n\n\n\r\n\n\n9)Permeabilize for 15&#x2019; at RT with permeabilization buffer\r\n\n\n\r\n\n\n10)Wash 3x in PBS 1x",
+                "result": [
+                    {
+                        "WASH": {
+                            "emit": [
+                                {
+                                    "reagent0": "cells grown on coverslips"
+                                }
+                            ],
+                            "slot": [
+                                {
+                                    "reagent1": "cells grown on coverslips"
+                                },
+                                {
+                                    "reagent2": "ice-cold PBS"
+                                },
+                                {
+                                    "repeat": "2"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "TREAT": {
+                            "emit": [
+                                {
+                                    "reagent0": "cells grown on coverslips"
+                                }
+                            ],
+                            "slot": [
+                                {
+                                    "reagent1": "cells grown on coverslips"
+                                },
+                                {
+                                    "reagent2": "cytoskeleton buffer"
+                                },
+                                {
+                                    "temperature": "ice-cold"
+                                },
+                                {
+                                    "time": "5'"
+                                },
+                                {
+                                    "environment": "ice"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "ASPIRATE": {
+                            "emit": [
+                                {
+                                    "reagent0": "cytoskeleton stripping buffer"
+                                }
+                            ],
+                            "slot": [
+                                {
+                                    "reagent1": "cytoskeleton stripping buffer"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "WASH": {
+                            "emit": [
+                                {
+                                    "reagent0": "cells grown on coverslips"
+                                }
+                            ],
+                            "slot": [
+                                {
+                                    "reagent1": "cells grown on coverslips"
+                                },
+                                {
+                                    "reagent2": "ice-cold PBS"
+                                },
+                                {
+                                    "repeat": "3"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "FIX": {
+                            "emit": [
+                                {
+                                    "reagent0": "cells grown on coverslips"
+                                }
+                            ],
+                            "slot": [
+                                {
+                                    "reagent1": "cells grown on coverslips"
+                                },
+                                {
+                                    "reagent2": "fixative"
+                                },
+                                {
+                                    "temperature": "RT"
+                                },
+                                {
+                                    "time": "30'"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "WASH": {
+                            "emit": [
+                                {
+                                    "reagent0": "cells grown on coverslips"
+                                }
+                            ],
+                            "slot": [
+                                {
+                                    "reagent1": "cells grown on coverslips"
+                                },
+                                {
+                                    "reagent2": "PBS"
+                                },
+                                {
+                                    "repeat": "2"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "WASH": {
+                            "emit": [
+                                {
+                                    "reagent0": "cells grown on coverslips"
+                                }
+                            ],
+                            "slot": [
+                                {
+                                    "reagent1": "cells grown on coverslips"
+                                },
+                                {
+                                    "reagent2": "PBS 1x"
+                                },
+                                {
+                                    "repeat": "3"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "**Blocking and Staining**",
+        "body": [
+            {
+                "sentence": "11)Block cells for 30&#x2019; with PBG 1X\r\n\n\n\r\n\n\n12)Stain with primary antibody diluted in PBG 1X at indicated concentration for 1h at RT \r\n\n\n\r\n\n\n13)Wash cells gently 3X5&#x2019; in PBG 1X\r\n\n\n\r\n\n\n14)Stain with secondary antibody diluited in PBG 1X for 1h at RT \r\n\n\n\r\n\n\n15)Wash cells gently 2X5&#x2019; in PBG 1x and 2X5&#x2019; in PBS 1X\r\n\n\n\r\n\n\n16)Stain with Dapi for 5' in the dark\r\n\n\n\r\n\n\n17)Mount the coverslips with 3 &#x3BC;l of Mowiol mounting medium\r\n\n\n\r\n\n\n18)Let the coverslips dry before microscope analysis",
+                "result": [
+                    {
+                        "BLOCK": {
+                            "emit": [
+                                {
+                                    "reagent0": "cells grown on coverslips"
+                                }
+                            ],
+                            "slot": [
+                                {
+                                    "reagent1": "cells grown on coverslips"
+                                },
+                                {
+                                    "reagent2": "PBG 1X"
+                                },
+                                {
+                                    "temperature": "room temperature"
+                                },
+                                {
+                                    "time": "30'"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "STAIN": {
+                            "emit": [
+                                {
+                                    "reagent0": "cells grown on coverslips"
+                                }
+                            ],
+                            "slot": [
+                                {
+                                    "reagent1": "primary antibody"
+                                },
+                                {
+                                    "reagent2": "PBG 1X"
+                                },
+                                {
+                                    "temperature": "RT"
+                                },
+                                {
+                                    "time": "1h"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "WASH": {
+                            "emit": [
+                                {
+                                    "reagent0": "cells grown on coverslips"
+                                }
+                            ],
+                            "slot": [
+                                {
+                                    "reagent1": "cells grown on coverslips"
+                                },
+                                {
+                                    "reagent2": "PBG 1X"
+                                },
+                                {
+                                    "repeat": "3"
+                                },
+                                {
+                                    "time": "5'"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "STAIN": {
+                            "emit": [
+                                {
+                                    "reagent0": "cells grown on coverslips"
+                                }
+                            ],
+                            "slot": [
+                                {
+                                    "reagent1": "secondary antibody"
+                                },
+                                {
+                                    "reagent2": "PBG 1X"
+                                },
+                                {
+                                    "temperature": "RT"
+                                },
+                                {
+                                    "time": "1h"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "WASH": {
+                            "emit": [
+                                {
+                                    "reagent0": "cells grown on coverslips"
+                                }
+                            ],
+                            "slot": [
+                                {
+                                    "reagent1": "cells grown on coverslips"
+                                },
+                                {
+                                    "reagent2": "PBG 1x and PBS 1X"
+                                },
+                                {
+                                    "repeat": "2"
+                                },
+                                {
+                                    "time": "5'"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "STAIN": {
+                            "emit": [
+                                {
+                                    "reagent0": "cells grown on coverslips"
+                                }
+                            ],
+                            "slot": [
+                                {
+                                    "reagent1": "Dapi"
+                                },
+                                {
+                                    "temperature": "RT"
+                                },
+                                {
+                                    "time": "5'"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        ]
+    }
+]

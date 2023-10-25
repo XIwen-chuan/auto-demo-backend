@@ -1,0 +1,674 @@
+[
+    {
+        "title": "1)",
+        "body": [
+            {
+                "sentence": "Prepare 300 uL of protein solution \\(50-60 \u03bcM) diluting       the dialyzed protein with buffer Hepes 20 mM \\(pH 8.0).",
+                "result": [
+                    {
+                        "PREPARE": {
+                            "emit": [
+                                {
+                                    "reagent0": "protein solution"
+                                }
+                            ],
+                            "slot": [
+                                {
+                                    "reagent1": "dialyzed protein"
+                                },
+                                {
+                                    "concentration": "50-60 \u03bcM"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "2)",
+        "body": [
+            {
+                "sentence": "Prepare ca. 100 \u03bcL of ligand solution diluting the ligand batch solution \\(50 mM in DMSO) with the dialysis buffer up to a concentration 10 times that of the protein.\r\n\n\n\r\n\n\nIn the reverse titration the protein \\(400 \u03bcM) is injected into the cell containing the ligand \\(40 \u03bcM).",
+                "result": [
+                    {
+                        "PREPARE": {
+                            "emit": [
+                                {
+                                    "reagent0": "ligand solution"
+                                }
+                            ],
+                            "slot": [
+                                {
+                                    "reagent1": "ligand batch solution"
+                                },
+                                {
+                                    "concentration": "10 times that of the protein"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "INJECT": {
+                            "emit": [
+                                {
+                                    "reagent0": "protein solution"
+                                }
+                            ],
+                            "slot": [
+                                {
+                                    "reagent1": "protein solution"
+                                },
+                                {
+                                    "reagent2/destination": "cell containing the ligand"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "3)",
+        "body": [
+            {
+                "sentence": "Perform the washing cycles of the cell and syringe to avoid interference of contaminants from previous runs.\r\n\n\n \r\n\n\n",
+                "result": [
+                    {
+                        "PERFORM": {
+                            "emit": [],
+                            "slot": [
+                                {
+                                    "procedure": "Perform the washing cycles of the cell and syringe"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            },
+            {
+                "title": "**CRITICAL STEP**",
+                "body": [
+                    {
+                        "sentence": "We found that this step is very          important to carry out a good experiment. If necessary, wash the cell with 5% v/v DECON detergent at 60\u00b0C for 1 h and then with abundant water. It is also very important to eliminate any trace of methanol from the syringe.",
+                        "result": [
+                            {
+                                "WASH": {
+                                    "emit": [
+                                        {
+                                            "reagent0": "cell"
+                                        }
+                                    ],
+                                    "slot": [
+                                        {
+                                            "reagent1": "cell"
+                                        },
+                                        {
+                                            "reagent2": "5% v/v DECON detergent"
+                                        },
+                                        {
+                                            "time": "60\u00b0C for 1 h"
+                                        },
+                                        {
+                                            "notice": "If necessary"
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "WASH": {
+                                    "emit": [
+                                        {
+                                            "reagent0": "cell"
+                                        }
+                                    ],
+                                    "slot": [
+                                        {
+                                            "reagent1": "cell"
+                                        },
+                                        {
+                                            "reagent2": "water"
+                                        }
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "4)",
+        "body": [
+            {
+                "sentence": "Perform a preliminar experiment water into water looking at the baseline stability, to be sure of the cleanness of the cell and syringe.",
+                "result": [
+                    {
+                        "PERFORM": {
+                            "emit": [],
+                            "slot": [
+                                {
+                                    "procedure": "Perform a preliminary experiment"
+                                },
+                                {
+                                    "equipment": "syringe"
+                                },
+                                {
+                                    "environment": "cell"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "5)",
+        "body": [
+            {
+                "sentence": "Rinse the sample cell with the protein buffer solution",
+                "result": [
+                    {
+                        "RINSE": {
+                            "emit": [
+                                {
+                                    "reagent0": "sample cell"
+                                }
+                            ],
+                            "slot": [
+                                {
+                                    "reagent1": "sample cell"
+                                },
+                                {
+                                    "reagent2": "protein buffer solution"
+                                },
+                                {
+                                    "repeat": "1"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "6)",
+        "body": [
+            {
+                "sentence": "Fill the sample cell with the protein solution avoiding bubbles.\r\n\n\n\r\n\n\n",
+                "result": [
+                    {
+                        "FILL": {
+                            "emit": [
+                                {
+                                    "reagent0": "protein solution"
+                                }
+                            ],
+                            "slot": [
+                                {
+                                    "reagent1": "protein solution"
+                                },
+                                {
+                                    "volume": "<blank>"
+                                },
+                                {
+                                    "container": "<blank>"
+                                },
+                                {
+                                    "notice": "Avoiding bubbles."
+                                }
+                            ]
+                        }
+                    }
+                ]
+            },
+            {
+                "title": "**CRITICAL STEP**",
+                "body": [
+                    {
+                        "sentence": "Degas all solutions using a vacuum pump or centrifuge in order to avoid air bubbles during the experiment.",
+                        "result": []
+                    }
+                ]
+            },
+            {
+                "title": "**CRITICAL STEP**",
+                "body": [
+                    {
+                        "sentence": "Filter the protein solution to eliminate        possible precipitates.",
+                        "result": [
+                            {
+                                "FILTER": {
+                                    "emit": [
+                                        {
+                                            "reagent0": "protein solution"
+                                        }
+                                    ],
+                                    "slot": [
+                                        {
+                                            "reagent1": "protein solution"
+                                        }
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "7)",
+        "body": [
+            {
+                "sentence": "Fill the syringe with the ligand solution. A couple of purge-refill cycles may be performed to avoid air bubbles in the syringe.\r\n\n\n\r\n\n\n",
+                "result": [
+                    {
+                        "FILL": {
+                            "emit": [
+                                {
+                                    "reagent0": "ligand solution"
+                                }
+                            ],
+                            "slot": [
+                                {
+                                    "reagent1": "ligand solution"
+                                },
+                                {
+                                    "volume": "<blank>"
+                                },
+                                {
+                                    "container": "syringe"
+                                },
+                                {
+                                    "notice": "A couple of purge-refill cycles may be performed to avoid air bubbles in the syringe."
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "PERFORM": {
+                            "emit": [
+                                {
+                                    "reagent0": "ligand solution"
+                                }
+                            ],
+                            "slot": [
+                                {
+                                    "procedure": "Perform a couple of purge-refill cycles."
+                                },
+                                {
+                                    "equipment": "syringe"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            },
+            {
+                "title": "**CRITICAL STEP**",
+                "body": [
+                    {
+                        "sentence": "Determine very accurately the concentration of the ligand, using for example an analytical balance. Remember that the concentration of the syringe reactant is critical to the accuracy of the binding thermodynamic parameters, whilst it is always possible to correct for errors on the protein concentration after the experiment \\(in this case only the accuracy of the molar ratio is affected).",
+                        "result": [
+                            {
+                                "DETERMINE": {
+                                    "emit": [],
+                                    "slot": [
+                                        {
+                                            "device": "analytical balance"
+                                        },
+                                        {
+                                            "reagent1": "ligand solution"
+                                        },
+                                        {
+                                            "parameter": "concentration"
+                                        }
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "8)",
+        "body": [
+            {
+                "sentence": "Rinse the surface of the needle with water in order to eliminate any trace of the ligand and then wipe it with a Kimwipe.",
+                "result": [
+                    {
+                        "RINSE": {
+                            "emit": [
+                                {
+                                    "reagent0": "needle"
+                                }
+                            ],
+                            "slot": [
+                                {
+                                    "reagent1": "needle"
+                                },
+                                {
+                                    "reagent2": "water"
+                                },
+                                {
+                                    "repeat": "1"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "WIPE": {
+                            "emit": [],
+                            "slot": [
+                                {
+                                    "target": "needle"
+                                },
+                                {
+                                    "reagent2": "Kimwipe"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "9)",
+        "body": [
+            {
+                "sentence": "Choose instrument settings for your experiments. In our experiments we set as follows: 20 injections,  initial delay 60 sec., spacing 180 sec., filter period 5 sec., injection volume 2 \u03bcL, measurement temperature of 25\u00b0C, reference power of 5 \u03bccal s<sup>-1</sup>, stirring speed of 1000 r.p.m.",
+                "result": [
+                    {
+                        "SETUP": {
+                            "emit": [],
+                            "slot": [
+                                {
+                                    "container": "instrument settings"
+                                },
+                                {
+                                    "temperature": "25\u00b0C"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "ADJUST": {
+                            "emit": [
+                                {
+                                    "reagent0": "protein solution"
+                                }
+                            ],
+                            "slot": [
+                                {
+                                    "reagent1": "protein solution"
+                                },
+                                {
+                                    "attribute": "injections"
+                                },
+                                {
+                                    "data1": "20"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "ADJUST": {
+                            "emit": [
+                                {
+                                    "reagent0": "protein solution"
+                                }
+                            ],
+                            "slot": [
+                                {
+                                    "reagent1": "protein solution"
+                                },
+                                {
+                                    "attribute": "initial delay"
+                                },
+                                {
+                                    "data1": "60 sec."
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "ADJUST": {
+                            "emit": [
+                                {
+                                    "reagent0": "protein solution"
+                                }
+                            ],
+                            "slot": [
+                                {
+                                    "reagent1": "protein solution"
+                                },
+                                {
+                                    "attribute": "spacing"
+                                },
+                                {
+                                    "data1": "180 sec."
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "ADJUST": {
+                            "emit": [
+                                {
+                                    "reagent0": "protein solution"
+                                }
+                            ],
+                            "slot": [
+                                {
+                                    "reagent1": "protein solution"
+                                },
+                                {
+                                    "attribute": "filter period"
+                                },
+                                {
+                                    "data1": "5 sec."
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "ADJUST": {
+                            "emit": [
+                                {
+                                    "reagent0": "protein solution"
+                                }
+                            ],
+                            "slot": [
+                                {
+                                    "reagent1": "protein solution"
+                                },
+                                {
+                                    "attribute": "injection volume"
+                                },
+                                {
+                                    "data1": "2 \u03bcL"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "ADJUST": {
+                            "emit": [
+                                {
+                                    "reagent0": "protein solution"
+                                }
+                            ],
+                            "slot": [
+                                {
+                                    "reagent1": "protein solution"
+                                },
+                                {
+                                    "attribute": "measurement temperature"
+                                },
+                                {
+                                    "data1": "25\u00b0C"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "ADJUST": {
+                            "emit": [
+                                {
+                                    "reagent0": "protein solution"
+                                }
+                            ],
+                            "slot": [
+                                {
+                                    "reagent1": "protein solution"
+                                },
+                                {
+                                    "attribute": "reference power"
+                                },
+                                {
+                                    "data1": "5 \u03bccal s<sup>-1</sup>"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "ADJUST": {
+                            "emit": [
+                                {
+                                    "reagent0": "protein solution"
+                                }
+                            ],
+                            "slot": [
+                                {
+                                    "reagent1": "protein solution"
+                                },
+                                {
+                                    "attribute": "stirring speed"
+                                },
+                                {
+                                    "data1": "1000 r.p.m."
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "10)",
+        "body": [
+            {
+                "sentence": "Start the experiment after gently setting the syringe in place",
+                "result": []
+            }
+        ]
+    },
+    {
+        "title": "11)",
+        "body": [
+            {
+                "sentence": "Rerun the ITC assay again for the other experiments \\(reverse titration and the titration with the ligand into the protein pre-equilibrated with a second ligand). Mantain the same ITC running parameters as in the first titration.",
+                "result": [
+                    {
+                        "MAINTAIN": {
+                            "emit": [],
+                            "slot": [
+                                {
+                                    "reagent1/data1/device": "ITC running parameters"
+                                },
+                                {
+                                    "state": "same as in the first titration"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "12)",
+        "body": [
+            {
+                "sentence": "Perform blank experiments titrating the buffer in the cell with the ligand solution.\r\n\n\n\r\n\n\n\r\n\n\n",
+                "result": [
+                    {
+                        "PERFORM": {
+                            "emit": [
+                                {
+                                    "reagent0": "protein solution"
+                                }
+                            ],
+                            "slot": [
+                                {
+                                    "procedure": "Perform blank experiments titrating the buffer in the cell with the ligand solution."
+                                }
+                            ]
+                        }
+                    }
+                ]
+            },
+            {
+                "title": "**Data analysis**",
+                "body": [
+                    ""
+                ]
+            }
+        ]
+    },
+    {
+        "title": "13)",
+        "body": [
+            {
+                "sentence": "Correct manually the integration of the peaks after adjusting the baseline to eliminate the effect of bubbles or drifting of the baseline.",
+                "result": []
+            }
+        ]
+    },
+    {
+        "title": "14)",
+        "body": [
+            {
+                "sentence": "Subtract the blank experiment to correct for dilution effects of the ligand in the buffer. The last points of the sigmoid curve after this correction should be proxime to zero.",
+                "result": []
+            }
+        ]
+    },
+    {
+        "title": "15)",
+        "body": [
+            {
+                "sentence": "Data fitting. Fit the data using for example the One set of sites model.  Look accurately at the fitting curve and at the errors on Ka and enthalpy after the fitting, to decide if the experiment is reliable.",
+                "result": [
+                    {
+                        "FIT": {
+                            "emit": [
+                                {
+                                    "object0": "protein solution"
+                                }
+                            ],
+                            "slot": [
+                                {
+                                    "device1": "protein solution"
+                                },
+                                {
+                                    "device2": "One set of sites model"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        ]
+    }
+]

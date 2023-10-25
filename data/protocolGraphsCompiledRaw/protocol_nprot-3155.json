@@ -1,0 +1,332 @@
+[
+    {
+        "title": "**Surface cleaning   TIMING ~ 8 min**",
+        "body": [
+            {
+                "title": "1.",
+                "body": [
+                    {
+                        "sentence": "The Au-coated SPR chip was cleaned by incubating with 90 \u00b5L of 1% \\(w/v) KOH for 5 min followed by extensive washing with DIW. This treatment will generate the hydroxyl groups on the Au surface.",
+                        "result": [
+                            {
+                                "INCUBATE": {
+                                    "emit": [
+                                        {
+                                            "reagent0": "Au-coated SPR chip"
+                                        }
+                                    ],
+                                    "slot": [
+                                        {
+                                            "reagent1": "1% (w/v) KOH"
+                                        },
+                                        {
+                                            "temperature": "room temperature"
+                                        },
+                                        {
+                                            "time": "5 min"
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "WASH": {
+                                    "emit": [
+                                        {
+                                            "reagent0": "Au-coated SPR chip"
+                                        }
+                                    ],
+                                    "slot": [
+                                        {
+                                            "reagent1": "Au-coated SPR chip"
+                                        },
+                                        {
+                                            "reagent2": "DIW"
+                                        }
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "**Antibody immobilization and blocking   TIMING ~ 35 min**",
+        "body": [
+            {
+                "title": "2.",
+                "body": [
+                    {
+                        "sentence": "The capture anti-HFA antibody \\(200 \u00b5g mL<sup>-1</sup>) was mixed with 1% APTES in the ratio of 1:1 v/v. Ninety microliters of this capture anti-HFA Ab solution, with a final concentration of 100 \u00b5g mL<sup>-1</sup> in 0.5% APTES, was dispensed onto the Au chip and incubated for 30 min at RT in the fume hood. The anti-HFA antibody-bound Au SPR chip was washed extensively with 10 mM HBS, pH 7.4. It was then docked into Biacore 3000 and primed.",
+                        "result": [
+                            {
+                                "MIX": {
+                                    "emit": [
+                                        {
+                                            "reagent0": "capture anti-HFA antibody (200 \u00b5g mL-1) mixed with 1% APTES"
+                                        }
+                                    ],
+                                    "slot": [
+                                        {
+                                            "reagent1": "capture anti-HFA antibody (200 \u00b5g mL-1)"
+                                        },
+                                        {
+                                            "reagent2": "1% APTES"
+                                        },
+                                        {
+                                            "ratio": "1:1 v/v"
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "DISPENSE": {
+                                    "emit": [
+                                        {
+                                            "reagent0": "capture anti-HFA Ab solution"
+                                        }
+                                    ],
+                                    "slot": [
+                                        {
+                                            "reagent1": "capture anti-HFA Ab solution"
+                                        },
+                                        {
+                                            "volume": "90 \u00b5L"
+                                        },
+                                        {
+                                            "container": "Au chip"
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "INCUBATE": {
+                                    "emit": [
+                                        {
+                                            "reagent0": "capture anti-HFA Ab solution"
+                                        }
+                                    ],
+                                    "slot": [
+                                        {
+                                            "reagent1": "capture anti-HFA Ab solution"
+                                        },
+                                        {
+                                            "temperature": "RT"
+                                        },
+                                        {
+                                            "time": "30 min"
+                                        },
+                                        {
+                                            "environment": "fume hood"
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "WASH": {
+                                    "emit": [
+                                        {
+                                            "reagent0": "Au-coated SPR chip"
+                                        }
+                                    ],
+                                    "slot": [
+                                        {
+                                            "reagent1": "Au-coated SPR chip"
+                                        },
+                                        {
+                                            "reagent2": "10 mM HBS, pH 7.4"
+                                        },
+                                        {
+                                            "repeat": "<blank>"
+                                        },
+                                        {
+                                            "time": "<blank>"
+                                        },
+                                        {
+                                            "notice": "<blank>"
+                                        }
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "**? TROUBLESHOOTING**",
+        "body": [
+            {
+                "title": "3.",
+                "body": [
+                    {
+                        "sentence": "Twenty microliters of 1% \\(w/v) BSA was then injected over all four flow cells of anti-HFA antibody-bound Au SPR chip at a flow rate of 10 \u00b5L min<sup>-1</sup>.  The procedure blocked the non-specific binding sites on the anti-HFA Ab-bound Au SPR chip.",
+                        "result": [
+                            {
+                                "INJECT": {
+                                    "emit": [],
+                                    "slot": [
+                                        {
+                                            "reagent1": "1% (w/v) BSA"
+                                        },
+                                        {
+                                            "reagent2/destination": "all four flow cells of anti-HFA antibody-bound Au SPR chip"
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "FLOW": {
+                                    "emit": [
+                                        {
+                                            "reagent0": "anti-HFA antibody-bound Au SPR chip"
+                                        }
+                                    ],
+                                    "slot": [
+                                        {
+                                            "reagent1": "1% BSA"
+                                        },
+                                        {
+                                            "reagent2": "anti-HFA antibody-bound Au SPR chip"
+                                        },
+                                        {
+                                            "flowRate": "10 \u00b5L min<sup>-1</sup>"
+                                        }
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "**CRITICAL STEP**",
+        "body": [
+            {
+                "sentence": "Use filtered BSA or filter the BSA solution prior to use to remove any microbial or other contaminants.",
+                "result": [
+                    {
+                        "FILTER": {
+                            "emit": [
+                                {
+                                    "reagent0": "filtered BSA solution"
+                                }
+                            ],
+                            "slot": [
+                                {
+                                    "reagent1": "BSA solution"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "**? TROUBLESHOOTING**",
+        "body": []
+    },
+    {
+        "title": "**HFA-detection   TIMING ~ 15 min per concentration**",
+        "body": [
+            {
+                "title": "4.",
+                "body": [
+                    {
+                        "sentence": "Fifty microliters of the running buffer \\(10 mM HBS, pH 7.4) was passed through all flow cells before HFA capture and the resultant changes in SPR response units \\(RU), corresponding to blanks, were recorded.",
+                        "result": [
+                            {
+                                "PASS": {
+                                    "emit": [
+                                        {
+                                            "reagent0": "running buffer (10 mM HBS, pH 7.4)"
+                                        }
+                                    ],
+                                    "slot": [
+                                        {
+                                            "reagent1": "running buffer (10 mM HBS, pH 7.4)"
+                                        },
+                                        {
+                                            "device": "all flow cells"
+                                        },
+                                        {
+                                            "volume": "50 microliters"
+                                        },
+                                        {
+                                            "notice": "the resultant changes in SPR response units (RU), corresponding to blanks, were recorded."
+                                        }
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "5.",
+                "body": [
+                    {
+                        "sentence": "Fifty microliters of HFA at seven different concentrations \\(0.3, 0.6, 1.2, 2.5, 5.0, 10.0 and 20.0 ng mL<sup>-1</sup>) were passed through the flow cells of an Ab-bound SPR chip in consecutive HFA detection cycles, where the Ab-bound SPR chip surface was regenerated after each analysis by treatment with 10 mM glycine-HCl, pH 2.0. The RU values obtained for blanks were subtracted from the RU values for HFA detected in the respective flow cells.",
+                        "result": [
+                            {
+                                "PASS": {
+                                    "emit": [
+                                        {
+                                            "reagent0": "HFA"
+                                        }
+                                    ],
+                                    "slot": [
+                                        {
+                                            "reagent1": "HFA"
+                                        },
+                                        {
+                                            "device": "flow cells of an Ab-bound SPR chip"
+                                        },
+                                        {
+                                            "volume": "50 microliters"
+                                        },
+                                        {
+                                            "repeat": "7"
+                                        }
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "6.",
+                "body": [
+                    {
+                        "sentence": "The SPR-based HFA detection curves were plotted with SigmaPlot software, version 11.2 using standard curve analysis based on a four parameter logistic function. The analytical parameters such as EC50 and Hillslope were generated by the software analysis report.",
+                        "result": [
+                            {
+                                "GENERATE": {
+                                    "emit": [
+                                        {
+                                            "data": "analytical parameters such as EC50 and Hillslope"
+                                        }
+                                    ],
+                                    "slot": [
+                                        {
+                                            "target": "analytical parameters"
+                                        },
+                                        {
+                                            "method": "software analysis report"
+                                        }
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+]

@@ -1,0 +1,437 @@
+[
+    {
+        "sentence": "\nSample collection and protein extract",
+        "result": [
+            {
+                "COLLECT": {
+                    "emit": [
+                        {
+                            "reagent0": "Sample"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "reagent1": "Sample"
+                        },
+                        {
+                            "container": "<blank>"
+                        }
+                    ]
+                }
+            },
+            {
+                "EXTRACT": {
+                    "emit": [
+                        {
+                            "reagent0": "Sample"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "reagent1": "Sample"
+                        },
+                        {
+                            "reagent2": "<blank>"
+                        },
+                        {
+                            "component": "<blank>"
+                        },
+                        {
+                            "device": "<blank>"
+                        },
+                        {
+                            "notice": "<blank>"
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "title": "1.",
+        "body": [
+            {
+                "sentence": "Collect approximately 5 \u00d7 108 cells expressing either untagged or HA-epitope tagged versions of protein to immunoprecipitate from exponentially growing yeast cultures.",
+                "result": [
+                    {
+                        "COLLECT": {
+                            "emit": [
+                                {
+                                    "reagent0": "Sample"
+                                }
+                            ],
+                            "slot": [
+                                {
+                                    "reagent1": "5 \u00d7 108 cells expressing either untagged or HA-epitope tagged versions of protein"
+                                },
+                                {
+                                    "container": "exponentially growing yeast cultures"
+                                },
+                                {
+                                    "purpose": "to immunoprecipitate"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "2.",
+        "body": [
+            {
+                "sentence": "Collect the cells by centrifugation at 4000xg and wash them once with H2O.",
+                "result": [
+                    {
+                        "COLLECT": {
+                            "emit": [
+                                {
+                                    "reagent0": "Sample"
+                                }
+                            ],
+                            "slot": [
+                                {
+                                    "reagent1": "cells"
+                                },
+                                {
+                                    "container": "centrifuge tube"
+                                },
+                                {
+                                    "method": "centrifugation"
+                                },
+                                {
+                                    "environment": "4000xg"
+                                },
+                                {
+                                    "purpose": "cell collection"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "WASH": {
+                            "emit": [
+                                {
+                                    "reagent0": "Sample"
+                                }
+                            ],
+                            "slot": [
+                                {
+                                    "reagent1": "Sample"
+                                },
+                                {
+                                    "reagent2": "H2O"
+                                },
+                                {
+                                    "repeat": "1"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "3.",
+        "body": [
+            {
+                "sentence": "Resuspend the cell pellet in 100 \u03bcL of Lysis buffer.",
+                "result": [
+                    {
+                        "RESUSPEND": {
+                            "emit": [
+                                {
+                                    "reagent0": "Sample"
+                                }
+                            ],
+                            "slot": [
+                                {
+                                    "reagent1": "cell pellet"
+                                },
+                                {
+                                    "reagent2": "Lysis buffer"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "4.",
+        "body": [
+            {
+                "sentence": "Lyse the cells by vigorous shaking with glass beads for 3 min at 4\u00b0C.",
+                "result": []
+            }
+        ]
+    },
+    {
+        "title": "5.",
+        "body": [
+            {
+                "sentence": "Clarify the sample at 13400xg for 5 min at 4\u00baC.",
+                "result": []
+            }
+        ]
+    },
+    {
+        "title": "6.",
+        "body": [
+            {
+                "sentence": "Keep 10 \u03bcl from the supernatant as a control of whole-cell extract \\(Input).\r\n  \r\n\n\nDynabeads Protein G preparation",
+                "result": [
+                    {
+                        "KEEP": {
+                            "emit": [
+                                {
+                                    "reagent0": "supernatant"
+                                }
+                            ],
+                            "slot": [
+                                {
+                                    "reagent1": "supernatant"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "7.",
+        "body": [
+            {
+                "sentence": "Wash twice 50\u00b5L of Dynabeads with PBS containing Tween 0.02%.",
+                "result": [
+                    {
+                        "WASH": {
+                            "emit": [
+                                {
+                                    "reagent0": "50\u00b5L of Dynabeads"
+                                }
+                            ],
+                            "slot": [
+                                {
+                                    "reagent1": "50\u00b5L of Dynabeads"
+                                },
+                                {
+                                    "reagent2": "PBS containing Tween 0.02%"
+                                },
+                                {
+                                    "repeat": "2"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "8.",
+        "body": [
+            {
+                "sentence": "Incubate for 30 min at room temperature the dried beads with 10\u00b5L of HA-probe \\(F-7) antibody \\(Santa Cruz Biotechnology Inc) supplemented with 190\u00b5L PBS-Tween 0,02%.",
+                "result": [
+                    {
+                        "INCUBATE": {
+                            "emit": [
+                                {
+                                    "reagent0": "dried beads"
+                                }
+                            ],
+                            "slot": [
+                                {
+                                    "reagent1": "HA-probe (F-7) antibody (Santa Cruz Biotechnology Inc)"
+                                },
+                                {
+                                    "reagent2": "PBS-Tween 0,02%"
+                                },
+                                {
+                                    "temperature": "room temperature"
+                                },
+                                {
+                                    "time": "30 min"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "9.",
+        "body": [
+            {
+                "sentence": "Wash the unbound antibody twice with PBS-Tween 0,02%.\r\n  \r\n\n\nImmunoprecipitation",
+                "result": [
+                    {
+                        "WASH": {
+                            "emit": [
+                                {
+                                    "reagent0": "unbound antibody"
+                                }
+                            ],
+                            "slot": [
+                                {
+                                    "reagent1": "unbound antibody"
+                                },
+                                {
+                                    "reagent2": "PBS-Tween 0,02%"
+                                },
+                                {
+                                    "repeat": "2"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "10.",
+        "body": [
+            {
+                "sentence": "Incubate the remaining volume of the whole cell extract with Dynabeads-antibody with orbital rotation for 20 min at room temperature.",
+                "result": [
+                    {
+                        "INCUBATE": {
+                            "emit": [],
+                            "slot": [
+                                {
+                                    "reagent1": "whole cell extract"
+                                },
+                                {
+                                    "reagent2": "Dynabeads-antibody"
+                                },
+                                {
+                                    "temperature": "room temperature"
+                                },
+                                {
+                                    "time": "20 min"
+                                },
+                                {
+                                    "device": "orbital rotation"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "11.",
+        "body": [
+            {
+                "sentence": "Keep 10 \u03bcL from the supernatant as a control of unbound protein.",
+                "result": [
+                    {
+                        "KEEP": {
+                            "emit": [
+                                {
+                                    "reagent0": "supernatant"
+                                }
+                            ],
+                            "slot": [
+                                {
+                                    "reagent1": "supernatant"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "12.",
+        "body": [
+            {
+                "sentence": "Wash the beads 5 times with PBS-Tween 0,02%.",
+                "result": [
+                    {
+                        "WASH": {
+                            "emit": [
+                                {
+                                    "reagent0": "beads"
+                                }
+                            ],
+                            "slot": [
+                                {
+                                    "reagent1": "beads"
+                                },
+                                {
+                                    "reagent2": "PBS-Tween 0,02%"
+                                },
+                                {
+                                    "repeat": "5"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "13.",
+        "body": [
+            {
+                "sentence": "Elute the immunoprecipitated  proteins by boiling the beads for 5 min in 2x SDS-PAGE sample solvent and analyze by SDS-polyacrylamide gel electrophoresis followed by Western blot analysis.",
+                "result": [
+                    {
+                        "ELUTE": {
+                            "emit": [
+                                {
+                                    "reagent0": "immunoprecipitated proteins"
+                                }
+                            ],
+                            "slot": [
+                                {
+                                    "reagent1": "beads"
+                                },
+                                {
+                                    "reagent2": "2x SDS-PAGE sample solvent"
+                                },
+                                {
+                                    "component": "immunoprecipitated proteins"
+                                },
+                                {
+                                    "method": "boiling"
+                                },
+                                {
+                                    "time": "5 min"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "ANALYZE": {
+                            "emit": [
+                                {
+                                    "data0": "immunoprecipitated proteins"
+                                }
+                            ],
+                            "slot": [
+                                {
+                                    "reagent1": "immunoprecipitated proteins"
+                                },
+                                {
+                                    "method": "SDS-polyacrylamide gel electrophoresis followed by Western blot analysis"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        ]
+    }
+]

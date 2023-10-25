@@ -1,0 +1,1130 @@
+{
+  "name": "nprot-374_graphData.json",
+  "nodes": [
+    {
+      "id": "ef677a30-863f-4e44-9068-d6bceb9f9de6",
+      "text": "Weigh 2.31 g sodium azide \\(35.5 mmol) and transfer to a 50 mL 1 neck round bottom flask equipped with a Teflon coated magnetic stir bar. \r\n\n\nCAUTION Sodium azide is highly toxic and care should be taken to avoid contact during transfer and workup.",
+      "instruction": "WEIGH",
+      "slots": [
+        {
+          "key": "reagent1",
+          "value": "sodium azide",
+          "id": "13816790-a3c4-4a73-ad6f-18fa44d860c7",
+          "node_id": "ef677a30-863f-4e44-9068-d6bceb9f9de6"
+        },
+        {
+          "key": "weight",
+          "value": "2.31 g",
+          "id": "7eb2920f-781c-42dc-8231-250119ca18bc",
+          "node_id": "ef677a30-863f-4e44-9068-d6bceb9f9de6"
+        },
+        {
+          "key": "container",
+          "value": "50 mL 1 neck round bottom flask",
+          "id": "e6e7d0d8-7818-4c14-8dbe-10037ea12d58",
+          "node_id": "ef677a30-863f-4e44-9068-d6bceb9f9de6"
+        },
+        {
+          "key": "device",
+          "value": "electric balance",
+          "id": "d10c24aa-2219-4932-afb4-7dc05b04644d",
+          "node_id": "ef677a30-863f-4e44-9068-d6bceb9f9de6"
+        },
+        {
+          "key": "notice",
+          "value": "CAUTION Sodium azide is highly toxic and care should be taken to avoid contact during transfer and workup.",
+          "id": "2faff631-339f-4349-bceb-2477349b7f24",
+          "node_id": "ef677a30-863f-4e44-9068-d6bceb9f9de6"
+        }
+      ],
+      "emits": [
+        {
+          "key": "reagent0",
+          "value": "sodium azide",
+          "id": "f0220f66-f069-4e13-9556-abeebab4e0fd",
+          "node_id": "ef677a30-863f-4e44-9068-d6bceb9f9de6"
+        }
+      ]
+    },
+    {
+      "id": "4e3507a1-d6b9-47f8-83fb-c61d0902a56e",
+      "text": "Weigh 2.31 g sodium azide \\(35.5 mmol) and transfer to a 50 mL 1 neck round bottom flask equipped with a Teflon coated magnetic stir bar. \r\n\n\nCAUTION Sodium azide is highly toxic and care should be taken to avoid contact during transfer and workup.",
+      "instruction": "TRANSFER",
+      "slots": [
+        {
+          "key": "destination",
+          "value": "50 mL 1 neck round bottom flask equipped with a Teflon coated magnetic stir bar",
+          "id": "57ee1d85-6321-4e33-a6da-cefd8dded74a",
+          "node_id": "4e3507a1-d6b9-47f8-83fb-c61d0902a56e"
+        },
+        {
+          "key": "reagent1",
+          "value": "sodium azide",
+          "id": "81bc5488-64d7-4585-9b0e-21e0cbeef796",
+          "node_id": "4e3507a1-d6b9-47f8-83fb-c61d0902a56e"
+        },
+        {
+          "key": "volume",
+          "value": "2.31 g",
+          "id": "19089f6d-aab5-47d3-8d3e-1950784b4f94",
+          "node_id": "4e3507a1-d6b9-47f8-83fb-c61d0902a56e"
+        },
+        {
+          "key": "notice",
+          "value": "CAUTION Sodium azide is highly toxic and care should be taken to avoid contact during transfer and workup.",
+          "id": "180face3-061a-475d-a8e4-118ceabf11fc",
+          "node_id": "4e3507a1-d6b9-47f8-83fb-c61d0902a56e"
+        }
+      ],
+      "emits": [
+        {
+          "key": "reagent0",
+          "value": "sodium azide",
+          "id": "0f16229a-dd9d-4a18-9cac-d14355e13af4",
+          "node_id": "4e3507a1-d6b9-47f8-83fb-c61d0902a56e"
+        }
+      ]
+    },
+    {
+      "id": "b5379849-d197-4dc1-bb4c-7162631abd56",
+      "text": "Suspend the solid in 5 mL of DMF. Add 3.0 mL of ethylchloroacetate dropwise to the stirred mixture by syringe. These steps are carried out in open air and no effort was made to exclude water or oxygen.",
+      "instruction": "SUSPEND",
+      "slots": [
+        {
+          "key": "reagent1",
+          "value": "sodium azide",
+          "id": "bfc8f906-27f8-4f98-8323-e352b448fd12",
+          "node_id": "b5379849-d197-4dc1-bb4c-7162631abd56"
+        },
+        {
+          "key": "reagent2",
+          "value": "DMF",
+          "id": "bfa0fbb2-0ed3-43da-97e2-3de7b8974e16",
+          "node_id": "b5379849-d197-4dc1-bb4c-7162631abd56"
+        }
+      ],
+      "emits": [
+        {
+          "key": "reagent0",
+          "value": "sodium azide",
+          "id": "41c552a7-d030-438d-a379-9f45de579af8",
+          "node_id": "b5379849-d197-4dc1-bb4c-7162631abd56"
+        }
+      ]
+    },
+    {
+      "id": "8572e5a6-a0c7-4c9f-82b2-91104ac44cb2",
+      "text": "Suspend the solid in 5 mL of DMF. Add 3.0 mL of ethylchloroacetate dropwise to the stirred mixture by syringe. These steps are carried out in open air and no effort was made to exclude water or oxygen.",
+      "instruction": "ADD",
+      "slots": [
+        {
+          "key": "reagent1",
+          "value": "sodium azide",
+          "id": "19534594-10e4-4632-bf77-4a1861089a39",
+          "node_id": "8572e5a6-a0c7-4c9f-82b2-91104ac44cb2"
+        },
+        {
+          "key": "reagent2",
+          "value": "ethylchloroacetate",
+          "id": "0de8a33a-ea7d-4005-911b-4e715802646a",
+          "node_id": "8572e5a6-a0c7-4c9f-82b2-91104ac44cb2"
+        },
+        {
+          "key": "notice",
+          "value": "These steps are carried out in open air and no effort was made to exclude water or oxygen.",
+          "id": "292c2e04-7ec3-4c4f-818c-93552ec1d044",
+          "node_id": "8572e5a6-a0c7-4c9f-82b2-91104ac44cb2"
+        }
+      ],
+      "emits": []
+    },
+    {
+      "id": "dc8814a8-3af9-4980-919c-c6ac4a8ba689",
+      "text": "Cap the reaction vessel with a rubber septum and stir at room temperature for 24 hours.",
+      "instruction": "STIR",
+      "slots": [
+        {
+          "key": "reagent1",
+          "value": "sodium azide",
+          "id": "694a471e-ec1b-4fde-9f20-6647d55fc9f8",
+          "node_id": "dc8814a8-3af9-4980-919c-c6ac4a8ba689"
+        },
+        {
+          "key": "time",
+          "value": "24 hours",
+          "id": "60185b0b-db41-4aaa-81e3-1f9f1c0d5e91",
+          "node_id": "dc8814a8-3af9-4980-919c-c6ac4a8ba689"
+        },
+        {
+          "key": "temperature",
+          "value": "room temperature",
+          "id": "c16da201-3e65-4a1d-896b-d576fc368794",
+          "node_id": "dc8814a8-3af9-4980-919c-c6ac4a8ba689"
+        },
+        {
+          "key": "device",
+          "value": "magnetic stir bar",
+          "id": "80a33918-be46-4d11-97c3-6b5222f536d3",
+          "node_id": "dc8814a8-3af9-4980-919c-c6ac4a8ba689"
+        }
+      ],
+      "emits": [
+        {
+          "key": "reagent0",
+          "value": "sodium azide",
+          "id": "6ea6bdd2-537d-4e3f-84af-a01996d21347",
+          "node_id": "dc8814a8-3af9-4980-919c-c6ac4a8ba689"
+        }
+      ]
+    },
+    {
+      "id": "73bdfdc4-f374-40fb-a440-672a69dece99",
+      "text": "After 24 hours of reaction time, dilute the reaction mixture with diethyl ether \\(~10 mL) and transfer to a 250 mL seperatory funnel. Add an additional 140 mL of diethyl ether. Wash the mixture with deionized water \\(2 &#xD7; 50 mL).",
+      "instruction": "DILUTE",
+      "slots": [
+        {
+          "key": "reagent1",
+          "value": "reaction mixture",
+          "id": "df82c99c-c2fc-477a-bdf0-1c3783e86641",
+          "node_id": "73bdfdc4-f374-40fb-a440-672a69dece99"
+        },
+        {
+          "key": "reagent2",
+          "value": "diethyl ether",
+          "id": "892f02c5-89b4-440c-8cbc-463b2743fe02",
+          "node_id": "73bdfdc4-f374-40fb-a440-672a69dece99"
+        }
+      ],
+      "emits": [
+        {
+          "key": "reagent0",
+          "value": "diluted reaction mixture",
+          "id": "5472bcea-20ea-4984-a4d2-762d25d75c4d",
+          "node_id": "73bdfdc4-f374-40fb-a440-672a69dece99"
+        }
+      ]
+    },
+    {
+      "id": "be4303da-f542-47de-b393-04a7e601a409",
+      "text": "After 24 hours of reaction time, dilute the reaction mixture with diethyl ether \\(~10 mL) and transfer to a 250 mL seperatory funnel. Add an additional 140 mL of diethyl ether. Wash the mixture with deionized water \\(2 &#xD7; 50 mL).",
+      "instruction": "TRANSFER",
+      "slots": [
+        {
+          "key": "source",
+          "value": "diluted reaction mixture",
+          "id": "d8280406-a432-482c-96ac-2f9376efa6ac",
+          "node_id": "be4303da-f542-47de-b393-04a7e601a409"
+        },
+        {
+          "key": "destination",
+          "value": "250 mL separatory funnel",
+          "id": "ddac855f-dcc7-4eda-9209-b7aca9de6c4a",
+          "node_id": "be4303da-f542-47de-b393-04a7e601a409"
+        },
+        {
+          "key": "reagent1",
+          "value": "diethyl ether",
+          "id": "858e2732-43af-43bb-9cb7-897e4d37d0c9",
+          "node_id": "be4303da-f542-47de-b393-04a7e601a409"
+        }
+      ],
+      "emits": [
+        {
+          "key": "reagent0",
+          "value": "diluted reaction mixture",
+          "id": "ece4aa9f-cb3c-4b00-9fca-4f9df8c2c761",
+          "node_id": "be4303da-f542-47de-b393-04a7e601a409"
+        }
+      ]
+    },
+    {
+      "id": "a179c2de-c449-47ab-b3ac-dd36fdf0623b",
+      "text": "After 24 hours of reaction time, dilute the reaction mixture with diethyl ether \\(~10 mL) and transfer to a 250 mL seperatory funnel. Add an additional 140 mL of diethyl ether. Wash the mixture with deionized water \\(2 &#xD7; 50 mL).",
+      "instruction": "ADD",
+      "slots": [
+        {
+          "key": "reagent1",
+          "value": "diluted reaction mixture",
+          "id": "b95dee75-389c-420f-9f7d-cf73263fee97",
+          "node_id": "a179c2de-c449-47ab-b3ac-dd36fdf0623b"
+        },
+        {
+          "key": "reagent2",
+          "value": "diethyl ether",
+          "id": "51729063-d779-47d0-9b99-e2a38b1fc5d3",
+          "node_id": "a179c2de-c449-47ab-b3ac-dd36fdf0623b"
+        }
+      ],
+      "emits": [
+        {
+          "key": "reagent0",
+          "value": "diluted reaction mixture",
+          "id": "06a57c71-2c1a-4ab4-a617-57ec64dce61c",
+          "node_id": "a179c2de-c449-47ab-b3ac-dd36fdf0623b"
+        }
+      ]
+    },
+    {
+      "id": "9a373a37-9a0e-44cf-996a-e879bb944bee",
+      "text": "After 24 hours of reaction time, dilute the reaction mixture with diethyl ether \\(~10 mL) and transfer to a 250 mL seperatory funnel. Add an additional 140 mL of diethyl ether. Wash the mixture with deionized water \\(2 &#xD7; 50 mL).",
+      "instruction": "WASH",
+      "slots": [
+        {
+          "key": "reagent1",
+          "value": "diluted reaction mixture",
+          "id": "a7914607-9c68-498f-8267-c502f7f0f3e2",
+          "node_id": "9a373a37-9a0e-44cf-996a-e879bb944bee"
+        },
+        {
+          "key": "reagent2",
+          "value": "deionized water",
+          "id": "28a2419d-eca9-4cc6-a31c-5b59e39413d2",
+          "node_id": "9a373a37-9a0e-44cf-996a-e879bb944bee"
+        },
+        {
+          "key": "repeat",
+          "value": "2",
+          "id": "590d7a4e-7519-4d10-9d83-04f29df0370b",
+          "node_id": "9a373a37-9a0e-44cf-996a-e879bb944bee"
+        }
+      ],
+      "emits": []
+    },
+    {
+      "id": "f9656480-46a2-4951-9b39-c42bfd1a21e9",
+      "text": "Dry the organic layer over Na<sub>2</sub>SO<sub>4</sub> in a 250 Erlenmyer with such an amount of Na<sub>2</sub>SO<sub>4</sub> that the solid is free flowing when the flask is swirled. At this point filter off the drying agent and rinse with 25 mL diethyl ether.",
+      "instruction": "DRY",
+      "slots": [
+        {
+          "key": "reagent1",
+          "value": "organic layer",
+          "id": "7749fa31-fa92-4cd7-b7c2-40e8a11df033",
+          "node_id": "f9656480-46a2-4951-9b39-c42bfd1a21e9"
+        },
+        {
+          "key": "device",
+          "value": "250 Erlenmyer",
+          "id": "e4b800e8-b65b-4624-a0b4-5b90190b5008",
+          "node_id": "f9656480-46a2-4951-9b39-c42bfd1a21e9"
+        }
+      ],
+      "emits": [
+        {
+          "key": "reagent0",
+          "value": "organic layer",
+          "id": "aa9d8f06-e74d-4b87-b435-d724a4f180b2",
+          "node_id": "f9656480-46a2-4951-9b39-c42bfd1a21e9"
+        }
+      ]
+    },
+    {
+      "id": "df385249-62b6-495c-97e4-7e32005601a2",
+      "text": "Dry the organic layer over Na<sub>2</sub>SO<sub>4</sub> in a 250 Erlenmyer with such an amount of Na<sub>2</sub>SO<sub>4</sub> that the solid is free flowing when the flask is swirled. At this point filter off the drying agent and rinse with 25 mL diethyl ether.",
+      "instruction": "FILTER",
+      "slots": [
+        {
+          "key": "reagent1",
+          "value": "organic layer",
+          "id": "901b590e-31df-4488-bd91-9d470c88ba8d",
+          "node_id": "df385249-62b6-495c-97e4-7e32005601a2"
+        },
+        {
+          "key": "filter",
+          "value": "Na2SO4",
+          "id": "cb6b35a4-5e52-4741-a708-ea28cc7bda9c",
+          "node_id": "df385249-62b6-495c-97e4-7e32005601a2"
+        }
+      ],
+      "emits": [
+        {
+          "key": "reagent0",
+          "value": "organic layer",
+          "id": "cb0e52a6-5bd4-4a5b-b79a-81acfc1e1b42",
+          "node_id": "df385249-62b6-495c-97e4-7e32005601a2"
+        }
+      ]
+    },
+    {
+      "id": "d7e05702-dab0-4486-83e1-288dca4914d1",
+      "text": "Dry the organic layer over Na<sub>2</sub>SO<sub>4</sub> in a 250 Erlenmyer with such an amount of Na<sub>2</sub>SO<sub>4</sub> that the solid is free flowing when the flask is swirled. At this point filter off the drying agent and rinse with 25 mL diethyl ether.",
+      "instruction": "RINSE",
+      "slots": [
+        {
+          "key": "reagent1",
+          "value": "drying agent",
+          "id": "51aa7a0c-5b1c-4e74-b82b-fb45393b483b",
+          "node_id": "d7e05702-dab0-4486-83e1-288dca4914d1"
+        },
+        {
+          "key": "reagent2",
+          "value": "diethyl ether",
+          "id": "be1bb09c-7061-417d-a072-b2ba1bd9c6bd",
+          "node_id": "d7e05702-dab0-4486-83e1-288dca4914d1"
+        }
+      ],
+      "emits": [
+        {
+          "key": "reagent0",
+          "value": "organic layer",
+          "id": "b33c795e-b1dc-4fb4-8dd7-7ce671eb182f",
+          "node_id": "d7e05702-dab0-4486-83e1-288dca4914d1"
+        }
+      ]
+    },
+    {
+      "id": "d1a32b8d-cac2-4655-9be0-d85661f1feed",
+      "text": "Concentrate the product by rotary evaporation until the volume is approximately 10 mL. This solution is to be used directly in the next step",
+      "instruction": "CONCENTRATE",
+      "slots": [
+        {
+          "key": "reagent1",
+          "value": "product",
+          "id": "77bf91ac-2c95-4823-8e39-bb451c665551",
+          "node_id": "d1a32b8d-cac2-4655-9be0-d85661f1feed"
+        },
+        {
+          "key": "targetVol",
+          "value": "10 mL",
+          "id": "552e8e7a-0301-404a-8bd5-4e6c790a4d7e",
+          "node_id": "d1a32b8d-cac2-4655-9be0-d85661f1feed"
+        },
+        {
+          "key": "method",
+          "value": "rotary evaporation",
+          "id": "d228877f-1d6c-4e14-9b57-ad9b3aea4f04",
+          "node_id": "d1a32b8d-cac2-4655-9be0-d85661f1feed"
+        }
+      ],
+      "emits": [
+        {
+          "key": "reagent0",
+          "value": "product",
+          "id": "886a44af-f34d-42a7-b22d-5d21290902f8",
+          "node_id": "d1a32b8d-cac2-4655-9be0-d85661f1feed"
+        }
+      ]
+    },
+    {
+      "id": "f842000a-3ac4-435b-9e30-ad8db550d297",
+      "text": "Seal a 100 mL 2-neck round bottom flask equipped with a Teflon coated magnetic stir bar with two rubber septa. Flush the flask with argon for 10 minutes using an argon filled balloon equipped with an 19 gauge disposable needle for both entry and another 19 gauge needle for an exit. Remove the exit needle after flushing with argon.",
+      "instruction": "SEAL",
+      "slots": [
+        {
+          "key": "reagent1",
+          "value": "100 mL 2-neck round bottom flask",
+          "id": "0c317f4e-1325-4609-9f46-0df46c51244c",
+          "node_id": "f842000a-3ac4-435b-9e30-ad8db550d297"
+        },
+        {
+          "key": "reagent2",
+          "value": "rubber septa",
+          "id": "d42e0b6a-1ee8-4863-bce6-e5e656b175e5",
+          "node_id": "f842000a-3ac4-435b-9e30-ad8db550d297"
+        }
+      ],
+      "emits": [
+        {
+          "key": "reagent0",
+          "value": "100 mL 2-neck round bottom flask",
+          "id": "eb332f8f-0967-48f2-b45f-fccd65dc4c4b",
+          "node_id": "f842000a-3ac4-435b-9e30-ad8db550d297"
+        }
+      ]
+    },
+    {
+      "id": "d2f68521-6ce0-44af-bddc-b37fdefa1e8f",
+      "text": "Seal a 100 mL 2-neck round bottom flask equipped with a Teflon coated magnetic stir bar with two rubber septa. Flush the flask with argon for 10 minutes using an argon filled balloon equipped with an 19 gauge disposable needle for both entry and another 19 gauge needle for an exit. Remove the exit needle after flushing with argon.",
+      "instruction": "FLUSH",
+      "slots": [
+        {
+          "key": "reagent1",
+          "value": "100 mL 2-neck round bottom flask",
+          "id": "54238433-9982-44a2-9d50-530254037ec3",
+          "node_id": "d2f68521-6ce0-44af-bddc-b37fdefa1e8f"
+        },
+        {
+          "key": "reagent2",
+          "value": "argon",
+          "id": "db32a605-1ba3-4228-983c-30b8b6362a7d",
+          "node_id": "d2f68521-6ce0-44af-bddc-b37fdefa1e8f"
+        },
+        {
+          "key": "time",
+          "value": "10 minutes",
+          "id": "1cf429a6-b6d5-4f54-8351-26794ee3303e",
+          "node_id": "d2f68521-6ce0-44af-bddc-b37fdefa1e8f"
+        },
+        {
+          "key": "notice",
+          "value": "Remove the exit needle after flushing with argon.",
+          "id": "92f880f0-1506-48c0-93ff-9a03eab0aecb",
+          "node_id": "d2f68521-6ce0-44af-bddc-b37fdefa1e8f"
+        }
+      ],
+      "emits": [
+        {
+          "key": "reagent0",
+          "value": "100 mL 2-neck round bottom flask",
+          "id": "da9d94e3-d5b0-4395-9a24-b45869e120db",
+          "node_id": "d2f68521-6ce0-44af-bddc-b37fdefa1e8f"
+        }
+      ]
+    },
+    {
+      "id": "da5172d9-d92b-4265-9925-bb267b5b251a",
+      "text": "Add 0.65 mL of tripropargylamine \\(4.75 mmol) and 5.0 mL of acetonitrile by syringe. Cool the solution to 0 &#xBA;C using an ice/water bath and add 0.60 mL of 2,6-lutidine by syringe to the stirred solution. Add copper\\(I) iodide as a solid; carefully but quickly removing and replacing one of the septa during the addition.",
+      "instruction": "ADD",
+      "slots": [
+        {
+          "key": "reagent1",
+          "value": "tripropargylamine",
+          "id": "374f9e15-37f0-45a3-9b10-323ba2b74cdd",
+          "node_id": "da5172d9-d92b-4265-9925-bb267b5b251a"
+        },
+        {
+          "key": "reagent2",
+          "value": "acetonitrile",
+          "id": "5ccd0602-4b51-430a-bdf2-3d9d784b16d7",
+          "node_id": "da5172d9-d92b-4265-9925-bb267b5b251a"
+        }
+      ],
+      "emits": []
+    },
+    {
+      "id": "30725291-d1c3-4af0-89e2-e39507609780",
+      "text": "Add 0.65 mL of tripropargylamine \\(4.75 mmol) and 5.0 mL of acetonitrile by syringe. Cool the solution to 0 &#xBA;C using an ice/water bath and add 0.60 mL of 2,6-lutidine by syringe to the stirred solution. Add copper\\(I) iodide as a solid; carefully but quickly removing and replacing one of the septa during the addition.",
+      "instruction": "COOL",
+      "slots": [
+        {
+          "key": "reagent1",
+          "value": "solution",
+          "id": "9290f46f-3d78-44fa-986b-f5f8e97ebf82",
+          "node_id": "30725291-d1c3-4af0-89e2-e39507609780"
+        },
+        {
+          "key": "temperature",
+          "value": "0 \u00b0C",
+          "id": "6445c3e9-c1ad-4c1b-a3f7-9cad936ce38c",
+          "node_id": "30725291-d1c3-4af0-89e2-e39507609780"
+        },
+        {
+          "key": "environment",
+          "value": "ice/water bath",
+          "id": "8ffd5d9c-ac16-41f5-9191-71d027dd75ce",
+          "node_id": "30725291-d1c3-4af0-89e2-e39507609780"
+        }
+      ],
+      "emits": [
+        {
+          "key": "reagent0",
+          "value": "solution",
+          "id": "0ee7183f-ce01-473e-88a2-b2a26f3394f4",
+          "node_id": "30725291-d1c3-4af0-89e2-e39507609780"
+        }
+      ]
+    },
+    {
+      "id": "9ed1ef8f-5486-4ded-a30c-2b6c4be55288",
+      "text": "Add 0.65 mL of tripropargylamine \\(4.75 mmol) and 5.0 mL of acetonitrile by syringe. Cool the solution to 0 &#xBA;C using an ice/water bath and add 0.60 mL of 2,6-lutidine by syringe to the stirred solution. Add copper\\(I) iodide as a solid; carefully but quickly removing and replacing one of the septa during the addition.",
+      "instruction": "ADD",
+      "slots": [
+        {
+          "key": "reagent1",
+          "value": "tripropargylamine",
+          "id": "af90d7d4-402a-4681-ba12-55489d64c8a6",
+          "node_id": "9ed1ef8f-5486-4ded-a30c-2b6c4be55288"
+        },
+        {
+          "key": "reagent2",
+          "value": "2,6-lutidine",
+          "id": "60fcf1b5-9dd5-476f-ad7b-013b267e5b18",
+          "node_id": "9ed1ef8f-5486-4ded-a30c-2b6c4be55288"
+        }
+      ],
+      "emits": [
+        {
+          "key": "reagent0",
+          "value": "stirred solution",
+          "id": "25563510-ff5d-4849-a651-ffad757e8faa",
+          "node_id": "9ed1ef8f-5486-4ded-a30c-2b6c4be55288"
+        }
+      ]
+    },
+    {
+      "id": "9e399ff9-37ff-45f7-9f7d-de81ab6c16c5",
+      "text": "Add 0.65 mL of tripropargylamine \\(4.75 mmol) and 5.0 mL of acetonitrile by syringe. Cool the solution to 0 &#xBA;C using an ice/water bath and add 0.60 mL of 2,6-lutidine by syringe to the stirred solution. Add copper\\(I) iodide as a solid; carefully but quickly removing and replacing one of the septa during the addition.",
+      "instruction": "ADD",
+      "slots": [
+        {
+          "key": "reagent1",
+          "value": "tripropargylamine",
+          "id": "ae7a392f-6a72-4abf-a861-3005927ed6e6",
+          "node_id": "9e399ff9-37ff-45f7-9f7d-de81ab6c16c5"
+        },
+        {
+          "key": "reagent2",
+          "value": "copper(I) iodide",
+          "id": "64d241ea-18b0-4fbb-b453-0f3dd1b01245",
+          "node_id": "9e399ff9-37ff-45f7-9f7d-de81ab6c16c5"
+        }
+      ],
+      "emits": [
+        {
+          "key": "reagent0",
+          "value": "copper(I) iodide",
+          "id": "d5bf3a82-675c-470c-9730-890031ec1c3e",
+          "node_id": "9e399ff9-37ff-45f7-9f7d-de81ab6c16c5"
+        }
+      ]
+    },
+    {
+      "id": "131d5eb7-b944-4e96-a404-9591b9e6006b",
+      "text": "Add 0.65 mL of tripropargylamine \\(4.75 mmol) and 5.0 mL of acetonitrile by syringe. Cool the solution to 0 &#xBA;C using an ice/water bath and add 0.60 mL of 2,6-lutidine by syringe to the stirred solution. Add copper\\(I) iodide as a solid; carefully but quickly removing and replacing one of the septa during the addition.",
+      "instruction": "REPLACE",
+      "slots": [
+        {
+          "key": "reagent1",
+          "value": "one of the septa",
+          "id": "31b261fc-adf9-405f-933e-51313626ca62",
+          "node_id": "131d5eb7-b944-4e96-a404-9591b9e6006b"
+        },
+        {
+          "key": "reagent2",
+          "value": "copper(I) iodide",
+          "id": "fa246226-c970-4e90-bb48-97c25c98f2ea",
+          "node_id": "131d5eb7-b944-4e96-a404-9591b9e6006b"
+        },
+        {
+          "key": "temperature",
+          "value": "0 \u00b0C",
+          "id": "8e9bde4c-2d67-4719-bdbc-2b5f011a42b1",
+          "node_id": "131d5eb7-b944-4e96-a404-9591b9e6006b"
+        },
+        {
+          "key": "time",
+          "value": "<blank>",
+          "id": "0a972024-0c5d-4428-878f-bfbf1661f9d5",
+          "node_id": "131d5eb7-b944-4e96-a404-9591b9e6006b"
+        },
+        {
+          "key": "position",
+          "value": "<blank>",
+          "id": "0a8d0549-3d43-4b4b-a612-78d3baab1e4a",
+          "node_id": "131d5eb7-b944-4e96-a404-9591b9e6006b"
+        },
+        {
+          "key": "frequency",
+          "value": "<blank>",
+          "id": "53ec3f2f-97ff-42f3-bc6a-ca894a90cef6",
+          "node_id": "131d5eb7-b944-4e96-a404-9591b9e6006b"
+        },
+        {
+          "key": "notice",
+          "value": "<blank>",
+          "id": "aaca5c34-3a71-4404-b531-b746e8646343",
+          "node_id": "131d5eb7-b944-4e96-a404-9591b9e6006b"
+        }
+      ],
+      "emits": [
+        {
+          "key": "reagent0",
+          "value": "copper(I) iodide",
+          "id": "b34ba3ff-4ccc-433a-b910-e75010f6b7f1",
+          "node_id": "131d5eb7-b944-4e96-a404-9591b9e6006b"
+        }
+      ]
+    },
+    {
+      "id": "3b4eca73-a625-4c12-a4a6-b955f97d6b41",
+      "text": "After all reagents have been added, flush the reaction with argon for 10 minutes. Remove the ice bath after one hour of stirring and stir at room temperature for 48 hours.",
+      "instruction": "FLUSH",
+      "slots": [
+        {
+          "key": "reagent1",
+          "value": "reaction",
+          "id": "64bc9ce3-1900-4c19-a8de-a902e1c73fa7",
+          "node_id": "3b4eca73-a625-4c12-a4a6-b955f97d6b41"
+        },
+        {
+          "key": "reagent2",
+          "value": "argon",
+          "id": "0b869d7c-2125-4701-825a-32aa97fe8785",
+          "node_id": "3b4eca73-a625-4c12-a4a6-b955f97d6b41"
+        },
+        {
+          "key": "time",
+          "value": "10 minutes",
+          "id": "e28604bd-f82c-4464-a15e-c68f84fce79a",
+          "node_id": "3b4eca73-a625-4c12-a4a6-b955f97d6b41"
+        }
+      ],
+      "emits": [
+        {
+          "key": "reagent0",
+          "value": "reaction",
+          "id": "dadb7844-b46c-4c8f-8e2b-ef4b13f8307d",
+          "node_id": "3b4eca73-a625-4c12-a4a6-b955f97d6b41"
+        }
+      ]
+    },
+    {
+      "id": "b4bf2b63-db61-4117-8f62-c799952e94d7",
+      "text": "After all reagents have been added, flush the reaction with argon for 10 minutes. Remove the ice bath after one hour of stirring and stir at room temperature for 48 hours.",
+      "instruction": "REMOVE",
+      "slots": [
+        {
+          "key": "reagent1",
+          "value": "ice bath",
+          "id": "83bf22bb-53ea-482e-bb78-595ba2f1e0ca",
+          "node_id": "b4bf2b63-db61-4117-8f62-c799952e94d7"
+        },
+        {
+          "key": "method",
+          "value": "stirring",
+          "id": "427ea88d-e1db-498f-92b8-faa8ace2bbc6",
+          "node_id": "b4bf2b63-db61-4117-8f62-c799952e94d7"
+        }
+      ],
+      "emits": []
+    },
+    {
+      "id": "03c41e70-8591-49ae-a612-b290332faafe",
+      "text": "After all reagents have been added, flush the reaction with argon for 10 minutes. Remove the ice bath after one hour of stirring and stir at room temperature for 48 hours.",
+      "instruction": "STIR",
+      "slots": [
+        {
+          "key": "reagent1",
+          "value": "solution",
+          "id": "7c2752fc-268c-49f5-a8c7-9cdb22d9e803",
+          "node_id": "03c41e70-8591-49ae-a612-b290332faafe"
+        },
+        {
+          "key": "time",
+          "value": "48 hours",
+          "id": "3536189b-8fde-4f5e-9f0a-6fc14b6462f7",
+          "node_id": "03c41e70-8591-49ae-a612-b290332faafe"
+        },
+        {
+          "key": "temperature",
+          "value": "room temperature",
+          "id": "a47f652e-a053-4b76-976f-a18cb53e75c1",
+          "node_id": "03c41e70-8591-49ae-a612-b290332faafe"
+        },
+        {
+          "key": "device",
+          "value": "magnetic stir bar",
+          "id": "98200768-c775-4b7b-9aa8-448bbadb32a8",
+          "node_id": "03c41e70-8591-49ae-a612-b290332faafe"
+        }
+      ],
+      "emits": [
+        {
+          "key": "reagent0",
+          "value": "reaction",
+          "id": "9eac1c0b-66ec-4a7b-9573-7ef9ce2394e2",
+          "node_id": "03c41e70-8591-49ae-a612-b290332faafe"
+        }
+      ]
+    },
+    {
+      "id": "71a91330-4389-4172-a7e2-4dcd8b9edfed",
+      "text": "After the prescribed reaction time, remove solvent by rotary evaporation and purify the residue by column chromatography by loading the residue onto a silica column with ethyl acetate and eluting with the same solvent. TLC analysis should be used to locate the fractions with the desired product.",
+      "instruction": "REMOVE",
+      "slots": [
+        {
+          "key": "reagent1",
+          "value": "solvent",
+          "id": "4c0c1786-c590-4dad-a9e9-9fbd83313280",
+          "node_id": "71a91330-4389-4172-a7e2-4dcd8b9edfed"
+        },
+        {
+          "key": "method",
+          "value": "rotary evaporation",
+          "id": "51cbab9d-b46b-4330-bd8c-723dadb4d458",
+          "node_id": "71a91330-4389-4172-a7e2-4dcd8b9edfed"
+        },
+        {
+          "key": "device",
+          "value": "rotary evaporator",
+          "id": "7b4dde7c-b9f2-4146-ba34-af097e97180a",
+          "node_id": "71a91330-4389-4172-a7e2-4dcd8b9edfed"
+        }
+      ],
+      "emits": [
+        {
+          "key": "reagent0",
+          "value": "residue",
+          "id": "092f30ff-3f02-43a2-b124-ab5b056930d3",
+          "node_id": "71a91330-4389-4172-a7e2-4dcd8b9edfed"
+        }
+      ]
+    },
+    {
+      "id": "7e397651-fc48-44c6-881b-4d980013553e",
+      "text": "After the prescribed reaction time, remove solvent by rotary evaporation and purify the residue by column chromatography by loading the residue onto a silica column with ethyl acetate and eluting with the same solvent. TLC analysis should be used to locate the fractions with the desired product.",
+      "instruction": "PURIFY",
+      "slots": [
+        {
+          "key": "reagent1",
+          "value": "residue",
+          "id": "40161299-5d3d-4928-902e-f5b83cf3c94e",
+          "node_id": "7e397651-fc48-44c6-881b-4d980013553e"
+        },
+        {
+          "key": "method",
+          "value": "column chromatography",
+          "id": "c26e1339-8eeb-4635-b62c-bac73b73d77d",
+          "node_id": "7e397651-fc48-44c6-881b-4d980013553e"
+        },
+        {
+          "key": "device",
+          "value": "silica column",
+          "id": "f87c3869-391f-4ffe-9ffc-6f5b26330a26",
+          "node_id": "7e397651-fc48-44c6-881b-4d980013553e"
+        }
+      ],
+      "emits": [
+        {
+          "key": "reagent0",
+          "value": "residue",
+          "id": "a7d97fea-6822-438a-b89b-1f448a1fe5fc",
+          "node_id": "7e397651-fc48-44c6-881b-4d980013553e"
+        }
+      ]
+    },
+    {
+      "id": "300ac7b7-1ce8-4f66-9806-b0b1eefe685c",
+      "text": "After the prescribed reaction time, remove solvent by rotary evaporation and purify the residue by column chromatography by loading the residue onto a silica column with ethyl acetate and eluting with the same solvent. TLC analysis should be used to locate the fractions with the desired product.",
+      "instruction": "LOAD",
+      "slots": [
+        {
+          "key": "reagent1",
+          "value": "residue",
+          "id": "acdaef62-2ccc-411a-a3d9-b8a7862a54bf",
+          "node_id": "300ac7b7-1ce8-4f66-9806-b0b1eefe685c"
+        },
+        {
+          "key": "destination",
+          "value": "silica column",
+          "id": "9c7e1cd3-56be-45db-95a6-85ea72c1e77c",
+          "node_id": "300ac7b7-1ce8-4f66-9806-b0b1eefe685c"
+        },
+        {
+          "key": "method",
+          "value": "ethyl acetate",
+          "id": "3c918fa8-b66c-4dbb-a762-e637a523e797",
+          "node_id": "300ac7b7-1ce8-4f66-9806-b0b1eefe685c"
+        }
+      ],
+      "emits": [
+        {
+          "key": "reagent0",
+          "value": "residue",
+          "id": "4c82382a-7e2e-43f5-94cd-0526d5a581ec",
+          "node_id": "300ac7b7-1ce8-4f66-9806-b0b1eefe685c"
+        }
+      ]
+    },
+    {
+      "id": "e06b8230-f955-42aa-bd46-76c59c6c0885",
+      "text": "After the prescribed reaction time, remove solvent by rotary evaporation and purify the residue by column chromatography by loading the residue onto a silica column with ethyl acetate and eluting with the same solvent. TLC analysis should be used to locate the fractions with the desired product.",
+      "instruction": "ELUTE",
+      "slots": [
+        {
+          "key": "reagent1",
+          "value": "residue",
+          "id": "6cf42e8a-ea53-46ee-afa7-ed385b45e8a8",
+          "node_id": "e06b8230-f955-42aa-bd46-76c59c6c0885"
+        },
+        {
+          "key": "reagent2",
+          "value": "ethyl acetate",
+          "id": "91daf846-73a6-4dac-9131-df803d82f474",
+          "node_id": "e06b8230-f955-42aa-bd46-76c59c6c0885"
+        },
+        {
+          "key": "component",
+          "value": "residue",
+          "id": "496b2a37-3be9-446d-bbde-58d779f49d80",
+          "node_id": "e06b8230-f955-42aa-bd46-76c59c6c0885"
+        }
+      ],
+      "emits": [
+        {
+          "key": "reagent0",
+          "value": "residue",
+          "id": "96043475-1c7c-4d1d-8995-162930e6cffe",
+          "node_id": "e06b8230-f955-42aa-bd46-76c59c6c0885"
+        }
+      ]
+    },
+    {
+      "id": "587d5652-c16d-442b-8ee7-b59b6182d141",
+      "text": "After the prescribed reaction time, remove solvent by rotary evaporation and purify the residue by column chromatography by loading the residue onto a silica column with ethyl acetate and eluting with the same solvent. TLC analysis should be used to locate the fractions with the desired product.",
+      "instruction": "ANALYZE",
+      "slots": [
+        {
+          "key": "reagent1",
+          "value": "residue",
+          "id": "ced13975-3cc4-4b2a-8815-dcf805e678a2",
+          "node_id": "587d5652-c16d-442b-8ee7-b59b6182d141"
+        },
+        {
+          "key": "method",
+          "value": "TLC analysis",
+          "id": "1f010b61-8259-495e-bc10-4d0f7311302c",
+          "node_id": "587d5652-c16d-442b-8ee7-b59b6182d141"
+        }
+      ],
+      "emits": [
+        {
+          "key": "data0",
+          "value": "fractions with the desired product",
+          "id": "6ba455b9-3c9b-4715-b783-c434901bd451",
+          "node_id": "587d5652-c16d-442b-8ee7-b59b6182d141"
+        }
+      ]
+    },
+    {
+      "id": "02bc9436-e616-46d9-90cf-bf025b4e5346",
+      "text": "Combine the fractions containing the product and remove the solvent by rotary evaporation. The product should be a white solid and can be used without additional purification.",
+      "instruction": "COMBINE",
+      "slots": [
+        {
+          "key": "reagent1",
+          "value": "fractions with the desired product",
+          "id": "303d2bbc-e8d7-4e38-abf5-50bafd1aa525",
+          "node_id": "02bc9436-e616-46d9-90cf-bf025b4e5346"
+        }
+      ],
+      "emits": [
+        {
+          "key": "reagent0",
+          "value": "fractions with the desired product",
+          "id": "66c28110-8b7c-4881-a38a-07fd43f1780a",
+          "node_id": "02bc9436-e616-46d9-90cf-bf025b4e5346"
+        }
+      ]
+    },
+    {
+      "id": "74516b4a-ea3b-4379-b3d2-ac088b6fe1c9",
+      "text": "Combine the fractions containing the product and remove the solvent by rotary evaporation. The product should be a white solid and can be used without additional purification.",
+      "instruction": "REMOVE",
+      "slots": [
+        {
+          "key": "reagent1",
+          "value": "solvent",
+          "id": "80907e17-729c-4b7a-8075-fa9c1e11aa31",
+          "node_id": "74516b4a-ea3b-4379-b3d2-ac088b6fe1c9"
+        },
+        {
+          "key": "method",
+          "value": "rotary evaporation",
+          "id": "c3c7c084-074e-420d-8b86-706b7bcd1171",
+          "node_id": "74516b4a-ea3b-4379-b3d2-ac088b6fe1c9"
+        },
+        {
+          "key": "device",
+          "value": "rotary evaporator",
+          "id": "6c09e20a-5c6a-4757-8404-2676131ca426",
+          "node_id": "74516b4a-ea3b-4379-b3d2-ac088b6fe1c9"
+        },
+        {
+          "key": "notice",
+          "value": "The product should be a white solid and can be used without additional purification.",
+          "id": "dd274ef7-fa75-4ec9-a739-9a421a298dcd",
+          "node_id": "74516b4a-ea3b-4379-b3d2-ac088b6fe1c9"
+        }
+      ],
+      "emits": [
+        {
+          "key": "reagent0",
+          "value": "residue",
+          "id": "8c4fce43-780e-43de-a720-9db4fd7c701e",
+          "node_id": "74516b4a-ea3b-4379-b3d2-ac088b6fe1c9"
+        }
+      ]
+    },
+    {
+      "id": "002c83b5-5d87-4476-915d-f594555def12",
+      "text": "The solid can be crystallized if further purification is desired. Dissolve the solid in a minimal amount of boiling methanol. Cool slowly to room temperature and add diethyl ether dropwise until the solution is cloudy. Warm gently to redissolve all material and the let stand. The compound crystallizes as small white needles that can be isolated by filtration. Drying under vacuum is recommended.",
+      "instruction": "DISSOLVE",
+      "slots": [
+        {
+          "key": "reagent1",
+          "value": "solid",
+          "id": "b8336ff6-76b4-404b-b959-47a28ff0c21e",
+          "node_id": "002c83b5-5d87-4476-915d-f594555def12"
+        },
+        {
+          "key": "reagent2",
+          "value": "boiling methanol",
+          "id": "e1cb86a2-270c-476e-8b15-0cf890f70fe2",
+          "node_id": "002c83b5-5d87-4476-915d-f594555def12"
+        }
+      ],
+      "emits": [
+        {
+          "key": "reagent0",
+          "value": "solid",
+          "id": "e1bdb97d-62bf-4154-a34d-e6dabfd8378d",
+          "node_id": "002c83b5-5d87-4476-915d-f594555def12"
+        }
+      ]
+    },
+    {
+      "id": "ef7092be-1269-46b7-9045-0d6d108b91ae",
+      "text": "The solid can be crystallized if further purification is desired. Dissolve the solid in a minimal amount of boiling methanol. Cool slowly to room temperature and add diethyl ether dropwise until the solution is cloudy. Warm gently to redissolve all material and the let stand. The compound crystallizes as small white needles that can be isolated by filtration. Drying under vacuum is recommended.",
+      "instruction": "COOL",
+      "slots": [
+        {
+          "key": "reagent1",
+          "value": "solid",
+          "id": "08448a83-8e2a-41e0-8e2a-8d6cf2bc656e",
+          "node_id": "ef7092be-1269-46b7-9045-0d6d108b91ae"
+        },
+        {
+          "key": "temperature",
+          "value": "room temperature",
+          "id": "da31cd12-9fae-4393-911c-0a37d40d3b1a",
+          "node_id": "ef7092be-1269-46b7-9045-0d6d108b91ae"
+        },
+        {
+          "key": "time",
+          "value": "<blank>",
+          "id": "6131b527-fc6e-4878-bf42-7afadda9badb",
+          "node_id": "ef7092be-1269-46b7-9045-0d6d108b91ae"
+        },
+        {
+          "key": "environment",
+          "value": "<blank>",
+          "id": "c353975e-a1bb-4a16-9b68-5d1139d3a1ea",
+          "node_id": "ef7092be-1269-46b7-9045-0d6d108b91ae"
+        },
+        {
+          "key": "notice",
+          "value": "<blank>",
+          "id": "c86da3c9-51f8-4015-beae-26518cbb37e8",
+          "node_id": "ef7092be-1269-46b7-9045-0d6d108b91ae"
+        }
+      ],
+      "emits": [
+        {
+          "key": "reagent0",
+          "value": "solid",
+          "id": "d2333ce6-0669-4e6d-8127-ea42b7ec2bd7",
+          "node_id": "ef7092be-1269-46b7-9045-0d6d108b91ae"
+        }
+      ]
+    },
+    {
+      "id": "62c509b8-9799-45d5-badc-6159c30d2541",
+      "text": "The solid can be crystallized if further purification is desired. Dissolve the solid in a minimal amount of boiling methanol. Cool slowly to room temperature and add diethyl ether dropwise until the solution is cloudy. Warm gently to redissolve all material and the let stand. The compound crystallizes as small white needles that can be isolated by filtration. Drying under vacuum is recommended.",
+      "instruction": "ADD",
+      "slots": [
+        {
+          "key": "reagent1",
+          "value": "solid",
+          "id": "e5f74d1f-4ad5-45ec-9576-bf0a58142455",
+          "node_id": "62c509b8-9799-45d5-badc-6159c30d2541"
+        },
+        {
+          "key": "reagent2",
+          "value": "diethyl ether",
+          "id": "e51cf7b3-341a-4671-a301-f52a4d791c95",
+          "node_id": "62c509b8-9799-45d5-badc-6159c30d2541"
+        }
+      ],
+      "emits": [
+        {
+          "key": "reagent0",
+          "value": "solution",
+          "id": "87ffaca9-1e9e-4190-969d-83b4bbc01ff4",
+          "node_id": "62c509b8-9799-45d5-badc-6159c30d2541"
+        }
+      ]
+    },
+    {
+      "id": "6094901f-6e3b-4ffb-a35c-4513f6e855ca",
+      "text": "The solid can be crystallized if further purification is desired. Dissolve the solid in a minimal amount of boiling methanol. Cool slowly to room temperature and add diethyl ether dropwise until the solution is cloudy. Warm gently to redissolve all material and the let stand. The compound crystallizes as small white needles that can be isolated by filtration. Drying under vacuum is recommended.",
+      "instruction": "WARM",
+      "slots": [
+        {
+          "key": "reagent1",
+          "value": "solid",
+          "id": "5ce2c221-333b-475c-9829-b4793d32900e",
+          "node_id": "6094901f-6e3b-4ffb-a35c-4513f6e855ca"
+        }
+      ],
+      "emits": [
+        {
+          "key": "reagent0",
+          "value": "solid",
+          "id": "34b08e02-15e3-40ee-b66b-2bc7d5ebf3ad",
+          "node_id": "6094901f-6e3b-4ffb-a35c-4513f6e855ca"
+        }
+      ]
+    },
+    {
+      "id": "d2a9435d-504a-461e-9863-0a23a3fad749",
+      "text": "The solid can be crystallized if further purification is desired. Dissolve the solid in a minimal amount of boiling methanol. Cool slowly to room temperature and add diethyl ether dropwise until the solution is cloudy. Warm gently to redissolve all material and the let stand. The compound crystallizes as small white needles that can be isolated by filtration. Drying under vacuum is recommended.",
+      "instruction": "FILTER",
+      "slots": [
+        {
+          "key": "reagent1",
+          "value": "solid",
+          "id": "c452a70a-1c1c-46a9-9983-caeb24a59aca",
+          "node_id": "d2a9435d-504a-461e-9863-0a23a3fad749"
+        },
+        {
+          "key": "filter",
+          "value": "filtration",
+          "id": "a5ab511c-71b1-411f-8fe3-7205662ff0be",
+          "node_id": "d2a9435d-504a-461e-9863-0a23a3fad749"
+        }
+      ],
+      "emits": [
+        {
+          "key": "reagent0",
+          "value": "small white needles",
+          "id": "e28c8b68-ab6d-4c14-9785-678950db88f3",
+          "node_id": "d2a9435d-504a-461e-9863-0a23a3fad749"
+        }
+      ]
+    },
+    {
+      "id": "4bab35b1-2842-46b1-8003-04d09e8e7110",
+      "text": "The solid can be crystallized if further purification is desired. Dissolve the solid in a minimal amount of boiling methanol. Cool slowly to room temperature and add diethyl ether dropwise until the solution is cloudy. Warm gently to redissolve all material and the let stand. The compound crystallizes as small white needles that can be isolated by filtration. Drying under vacuum is recommended.",
+      "instruction": "DRY",
+      "slots": [
+        {
+          "key": "reagent1",
+          "value": "solid",
+          "id": "21a9e634-3c29-479a-8871-501378ff77c6",
+          "node_id": "4bab35b1-2842-46b1-8003-04d09e8e7110"
+        },
+        {
+          "key": "device",
+          "value": "vacuum",
+          "id": "4c25ed3c-d54b-41a8-bb52-31a8dd26c097",
+          "node_id": "4bab35b1-2842-46b1-8003-04d09e8e7110"
+        },
+        {
+          "key": "environment",
+          "value": "vacuum",
+          "id": "aa189e19-75b6-426c-8811-f59ec4fe1a10",
+          "node_id": "4bab35b1-2842-46b1-8003-04d09e8e7110"
+        }
+      ],
+      "emits": [
+        {
+          "key": "reagent0",
+          "value": "solid",
+          "id": "c079198e-589e-4e52-ae7a-00cbd6e57655",
+          "node_id": "4bab35b1-2842-46b1-8003-04d09e8e7110"
+        }
+      ]
+    }
+  ],
+  "edges": []
+}

@@ -1,0 +1,57 @@
+{
+  "name": "nprot-3083_graphData.json",
+  "nodes": [
+    {
+      "id": "ca68d1d9-7c4c-47c2-8edc-f7e5047fdb0b",
+      "text": "Determine the absorbance within 10 min of stopping the enzyme substrate reaction.",
+      "instruction": "DETERMINE",
+      "slots": [
+        {
+          "key": "device",
+          "value": "Tecan Infinite M200 Pro microplate reader",
+          "id": "9a8d03e3-b9ec-474d-be3b-32f9e0b6265d",
+          "node_id": "ca68d1d9-7c4c-47c2-8edc-f7e5047fdb0b"
+        },
+        {
+          "key": "reagent1",
+          "value": "TMB-H<sub>2</sub>O<sub>2</sub> mixture",
+          "id": "7ab526bc-5484-4a66-bc21-4a0cd052c7b8",
+          "node_id": "ca68d1d9-7c4c-47c2-8edc-f7e5047fdb0b"
+        },
+        {
+          "key": "parameter",
+          "value": "absorbance",
+          "id": "e0d3da81-e66e-4d73-8d1e-9271003876c7",
+          "node_id": "ca68d1d9-7c4c-47c2-8edc-f7e5047fdb0b"
+        },
+        {
+          "key": "time",
+          "value": "10 min",
+          "id": "b4d8a4bc-47e3-4918-9fcf-7dcaab71fadf",
+          "node_id": "ca68d1d9-7c4c-47c2-8edc-f7e5047fdb0b"
+        },
+        {
+          "key": "wavelength",
+          "value": "450",
+          "id": "b95bd5b1-e9ee-40dd-a72f-6e11f2b3ab9a",
+          "node_id": "ca68d1d9-7c4c-47c2-8edc-f7e5047fdb0b"
+        },
+        {
+          "key": "notice",
+          "value": "taking 540 nm as the reference wavelength",
+          "id": "ead19636-d320-47cb-803e-e3c1ffe78e1f",
+          "node_id": "ca68d1d9-7c4c-47c2-8edc-f7e5047fdb0b"
+        }
+      ],
+      "emits": [
+        {
+          "key": "data0",
+          "value": "<blank>",
+          "id": "b718e44c-38d4-4172-b91b-1d89989fc9f2",
+          "node_id": "ca68d1d9-7c4c-47c2-8edc-f7e5047fdb0b"
+        }
+      ]
+    }
+  ],
+  "edges": []
+}

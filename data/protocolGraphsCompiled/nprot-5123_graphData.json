@@ -1,0 +1,348 @@
+{
+  "name": "nprot-5123_graphData.json",
+  "nodes": [
+    {
+      "id": "7b85e5f5-7a10-4d88-bed3-fe7f08c38c23",
+      "text": "Clear the lysate by centrifuging at 15,0000 rpm for 45 min. at 4\u00b0 C. If insect cells were used, incubate the cleared lysate with powdered cellulose to remove chitinase \\(about 1 ml cellulose for every 2 ml lysate).",
+      "instruction": "CENTRIFUGE",
+      "slots": [
+        {
+          "key": "reagent1",
+          "value": "lysate",
+          "id": "63038634-21af-4036-b30a-eb496adc6b71",
+          "node_id": "7b85e5f5-7a10-4d88-bed3-fe7f08c38c23"
+        },
+        {
+          "key": "intensity",
+          "value": "150000 rpm",
+          "id": "cd57f4da-5623-468a-8459-1a5e1a9d951c",
+          "node_id": "7b85e5f5-7a10-4d88-bed3-fe7f08c38c23"
+        },
+        {
+          "key": "time",
+          "value": "45 min",
+          "id": "a2597e13-8c34-4daf-9b80-47995cf5eeac",
+          "node_id": "7b85e5f5-7a10-4d88-bed3-fe7f08c38c23"
+        },
+        {
+          "key": "temperature",
+          "value": "4\u00b0 C",
+          "id": "5f4e246c-afe5-4d65-96f5-149081cc82da",
+          "node_id": "7b85e5f5-7a10-4d88-bed3-fe7f08c38c23"
+        }
+      ],
+      "emits": [
+        {
+          "key": "reagent0",
+          "value": "cleared lysate",
+          "id": "2249fb0f-4b05-4d4f-8ef6-847f1e44c8d4",
+          "node_id": "7b85e5f5-7a10-4d88-bed3-fe7f08c38c23"
+        }
+      ]
+    },
+    {
+      "id": "12e258ed-508f-49a6-a0a1-2b57581ef894",
+      "text": "Clear the lysate by centrifuging at 15,0000 rpm for 45 min. at 4\u00b0 C. If insect cells were used, incubate the cleared lysate with powdered cellulose to remove chitinase \\(about 1 ml cellulose for every 2 ml lysate).",
+      "instruction": "INCUBATE",
+      "slots": [
+        {
+          "key": "reagent1",
+          "value": "cleared lysate",
+          "id": "ed1fe50f-be26-443f-a570-3d354be7c975",
+          "node_id": "12e258ed-508f-49a6-a0a1-2b57581ef894"
+        },
+        {
+          "key": "reagent2",
+          "value": "powdered cellulose",
+          "id": "fe5c1983-fe0d-40f2-9c59-f0c3ff685053",
+          "node_id": "12e258ed-508f-49a6-a0a1-2b57581ef894"
+        },
+        {
+          "key": "temperature",
+          "value": "room temperature",
+          "id": "3ae1a0a5-0b2e-4d19-9f23-d36f6808dbd9",
+          "node_id": "12e258ed-508f-49a6-a0a1-2b57581ef894"
+        },
+        {
+          "key": "time",
+          "value": "appropriate time",
+          "id": "fc29c214-2511-475b-9ba1-5bb1713ff7bb",
+          "node_id": "12e258ed-508f-49a6-a0a1-2b57581ef894"
+        }
+      ],
+      "emits": [
+        {
+          "key": "reagent0",
+          "value": "cleared lysate",
+          "id": "c541b2d7-d825-41a4-b028-125c88e5d92b",
+          "node_id": "12e258ed-508f-49a6-a0a1-2b57581ef894"
+        }
+      ]
+    },
+    {
+      "id": "706df510-bbbd-4a1a-9a3d-483c467ffa1e",
+      "text": "In a cold room, immobilize the fusion protein on chitin resin and wash to remove impurities.",
+      "instruction": "WASH",
+      "slots": [
+        {
+          "key": "reagent1",
+          "value": "fusion protein",
+          "id": "ed326ba3-cd27-447b-9148-e767cd66ede9",
+          "node_id": "706df510-bbbd-4a1a-9a3d-483c467ffa1e"
+        },
+        {
+          "key": "reagent2",
+          "value": "chitin resin",
+          "id": "e82e0a5c-cc85-41d4-b244-97c52cc600fe",
+          "node_id": "706df510-bbbd-4a1a-9a3d-483c467ffa1e"
+        }
+      ],
+      "emits": [
+        {
+          "key": "reagent0",
+          "value": "fusion protein",
+          "id": "3d46188a-3f4e-4512-a4a6-280ed9082240",
+          "node_id": "706df510-bbbd-4a1a-9a3d-483c467ffa1e"
+        }
+      ]
+    },
+    {
+      "id": "0cc03178-47a8-46e9-9585-a5c2fba91fb3",
+      "text": "Treat the immobilized fusion protein with cleavage buffer containing 300 mM MESNA overnight at room temperature and isolate the protein thioester in the eluate.",
+      "instruction": "TREAT",
+      "slots": [
+        {
+          "key": "reagent1",
+          "value": "immobilized fusion protein",
+          "id": "cd7aabce-94dd-4d0e-a5e8-73b5b071487b",
+          "node_id": "0cc03178-47a8-46e9-9585-a5c2fba91fb3"
+        },
+        {
+          "key": "reagent2",
+          "value": "cleavage buffer containing 300 mM MESNA",
+          "id": "9f72ab8a-5ebd-458b-bc6f-e28eb30c6053",
+          "node_id": "0cc03178-47a8-46e9-9585-a5c2fba91fb3"
+        },
+        {
+          "key": "temperature",
+          "value": "room temperature",
+          "id": "e8180078-7f92-49f2-8654-8fad370c3511",
+          "node_id": "0cc03178-47a8-46e9-9585-a5c2fba91fb3"
+        },
+        {
+          "key": "time",
+          "value": "overnight",
+          "id": "00a11943-4760-4ae1-aed2-ba2f0737042f",
+          "node_id": "0cc03178-47a8-46e9-9585-a5c2fba91fb3"
+        }
+      ],
+      "emits": [
+        {
+          "key": "reagent0",
+          "value": "protein thioester",
+          "id": "e05d7123-229f-42fa-aaed-94a859e81083",
+          "node_id": "0cc03178-47a8-46e9-9585-a5c2fba91fb3"
+        }
+      ]
+    },
+    {
+      "id": "d96f7f25-0b98-421f-8ee9-1388a9c489ee",
+      "text": "Treat the immobilized fusion protein with cleavage buffer containing 300 mM MESNA overnight at room temperature and isolate the protein thioester in the eluate.",
+      "instruction": "ISOLATE",
+      "slots": [
+        {
+          "key": "component",
+          "value": "protein thioester",
+          "id": "99c8b5d6-8e1e-40b1-a626-a0615b72399f",
+          "node_id": "d96f7f25-0b98-421f-8ee9-1388a9c489ee"
+        },
+        {
+          "key": "reagent1",
+          "value": "cleavage buffer containing 300 mM MESNA",
+          "id": "fcd4aaec-5a76-4d9f-a8c4-842481de0266",
+          "node_id": "d96f7f25-0b98-421f-8ee9-1388a9c489ee"
+        },
+        {
+          "key": "environment",
+          "value": "overnight at room temperature",
+          "id": "dd695f1c-fd49-4caf-86c5-70cdf3357dda",
+          "node_id": "d96f7f25-0b98-421f-8ee9-1388a9c489ee"
+        }
+      ],
+      "emits": [
+        {
+          "key": "reagent0",
+          "value": "protein thioester",
+          "id": "fcd5b001-3f26-4d41-ab43-fb83f012870d",
+          "node_id": "d96f7f25-0b98-421f-8ee9-1388a9c489ee"
+        }
+      ]
+    },
+    {
+      "id": "5d35a405-9bd6-44c5-8175-ceb81def7e07",
+      "text": "Concentrate the protein to 1 mg/mL or greater. If not used within a day, flash-freeze for storage.",
+      "instruction": "CONCENTRATE",
+      "slots": [
+        {
+          "key": "reagent1",
+          "value": "cleared lysate",
+          "id": "dc576f28-633e-4cfd-ae2b-e498a8a8c481",
+          "node_id": "5d35a405-9bd6-44c5-8175-ceb81def7e07"
+        },
+        {
+          "key": "targetVol",
+          "value": "1 ml or greater",
+          "id": "6c6af370-f2f4-4470-a7b2-573c6ea0a4a3",
+          "node_id": "5d35a405-9bd6-44c5-8175-ceb81def7e07"
+        },
+        {
+          "key": "targetConcentration",
+          "value": "1 mg/mL",
+          "id": "a53be1b8-5ea3-42ac-8f09-013b0296cdc5",
+          "node_id": "5d35a405-9bd6-44c5-8175-ceb81def7e07"
+        }
+      ],
+      "emits": [
+        {
+          "key": "reagent0",
+          "value": "cleared lysate",
+          "id": "d6c156c8-5f40-4c8e-b3f4-4b48babc7203",
+          "node_id": "5d35a405-9bd6-44c5-8175-ceb81def7e07"
+        }
+      ]
+    },
+    {
+      "id": "873e4b10-dc5f-44f7-976e-c8075604efcc",
+      "text": "Concentrate the protein to 1 mg/mL or greater. If not used within a day, flash-freeze for storage.",
+      "instruction": "FREEZE",
+      "slots": [
+        {
+          "key": "reagent1",
+          "value": "protein",
+          "id": "3a661920-eb4f-48bf-acd6-6eb89430e396",
+          "node_id": "873e4b10-dc5f-44f7-976e-c8075604efcc"
+        },
+        {
+          "key": "temperature",
+          "value": "flash-freeze",
+          "id": "b24e2f83-352f-4e3e-946a-bc8f17ac5087",
+          "node_id": "873e4b10-dc5f-44f7-976e-c8075604efcc"
+        }
+      ],
+      "emits": [
+        {
+          "key": "reagent0",
+          "value": "protein",
+          "id": "186df7bb-b7a6-4cfb-ac46-87b45afb4e4f",
+          "node_id": "873e4b10-dc5f-44f7-976e-c8075604efcc"
+        }
+      ]
+    },
+    {
+      "id": "5b9c2d53-9c23-4c5f-b3bc-6357475797ea",
+      "text": "Mix the protein thioester \\(0.4 mg/mL or greater) with synthetic peptide \\(1-10 mM) and subtiligase \\(0.5-25 \uf06dM) in reaction at room temperature.",
+      "instruction": "MIX",
+      "slots": [
+        {
+          "key": "reagent1",
+          "value": "protein thioester",
+          "id": "48d10eb0-30cd-439d-a9ad-79466a208b0a",
+          "node_id": "5b9c2d53-9c23-4c5f-b3bc-6357475797ea"
+        },
+        {
+          "key": "reagent2",
+          "value": "synthetic peptide",
+          "id": "17c6d513-3743-452f-b75a-9af36955890c",
+          "node_id": "5b9c2d53-9c23-4c5f-b3bc-6357475797ea"
+        },
+        {
+          "key": "ratio",
+          "value": "1-10 mM",
+          "id": "21ddd822-ee4c-4c5e-88da-8e9f59a27f34",
+          "node_id": "5b9c2d53-9c23-4c5f-b3bc-6357475797ea"
+        },
+        {
+          "key": "method",
+          "value": "mixing",
+          "id": "6ea2c4b5-6550-4a32-9c2e-818abe956b2b",
+          "node_id": "5b9c2d53-9c23-4c5f-b3bc-6357475797ea"
+        },
+        {
+          "key": "temperature",
+          "value": "room temperature",
+          "id": "0cfd6421-cfbd-4daf-9c7e-348517cc2f45",
+          "node_id": "5b9c2d53-9c23-4c5f-b3bc-6357475797ea"
+        }
+      ],
+      "emits": [
+        {
+          "key": "reagent0",
+          "value": "reaction mixture",
+          "id": "fb428d6c-602b-45fc-92f9-fc17c5fe0799",
+          "node_id": "5b9c2d53-9c23-4c5f-b3bc-6357475797ea"
+        }
+      ]
+    },
+    {
+      "id": "a6d6e328-aafe-4b23-8ca1-41379c8dc0f2",
+      "text": "After 5-90 minutes, analyze the reaction mixture using SDS-PAGE to determine degree of ligation.",
+      "instruction": "ANALYZE",
+      "slots": [
+        {
+          "key": "reagent1",
+          "value": "reaction mixture",
+          "id": "f22abefa-3771-4723-9b3b-d37d31399b59",
+          "node_id": "a6d6e328-aafe-4b23-8ca1-41379c8dc0f2"
+        },
+        {
+          "key": "method",
+          "value": "SDS-PAGE",
+          "id": "c113990f-6e4a-4242-b5aa-37c7f322edf1",
+          "node_id": "a6d6e328-aafe-4b23-8ca1-41379c8dc0f2"
+        }
+      ],
+      "emits": [
+        {
+          "key": "data0",
+          "value": "degree of ligation",
+          "id": "5ba4dbe3-b572-4d22-9b38-745d21b12df5",
+          "node_id": "a6d6e328-aafe-4b23-8ca1-41379c8dc0f2"
+        }
+      ]
+    },
+    {
+      "id": "7dcb064d-a1fa-4e7e-b4ad-773349c47b7a",
+      "text": "Once the ligation is optimized, purify the ligated protein using chromatography appropriate for the protein of interest.",
+      "instruction": "PURIFY",
+      "slots": [
+        {
+          "key": "reagent1",
+          "value": "ligated protein",
+          "id": "0449f40b-7ae7-4798-ad6a-b2aea4dccd5c",
+          "node_id": "7dcb064d-a1fa-4e7e-b4ad-773349c47b7a"
+        },
+        {
+          "key": "method",
+          "value": "chromatography",
+          "id": "04bb0e20-1d9b-4e72-bb07-e4b666ba867e",
+          "node_id": "7dcb064d-a1fa-4e7e-b4ad-773349c47b7a"
+        },
+        {
+          "key": "device",
+          "value": "appropriate for the protein of interest",
+          "id": "080d38f8-5b8b-4e40-a25c-4ea3bdb7cf3b",
+          "node_id": "7dcb064d-a1fa-4e7e-b4ad-773349c47b7a"
+        }
+      ],
+      "emits": [
+        {
+          "key": "reagent0",
+          "value": "ligated protein",
+          "id": "3d983f39-f624-46ae-a7d7-55ed4af68742",
+          "node_id": "7dcb064d-a1fa-4e7e-b4ad-773349c47b7a"
+        }
+      ]
+    }
+  ],
+  "edges": []
+}

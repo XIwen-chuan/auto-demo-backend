@@ -1,0 +1,456 @@
+[
+    {
+        "title": "1.",
+        "body": [
+            {
+                "sentence": "Keep all reagents on ice. Pre-cool the centrifuge to 4\u00b0C.",
+                "result": [
+                    {
+                        "KEEP": {
+                            "emit": [
+                                {
+                                    "reagent0": "reagents"
+                                }
+                            ],
+                            "slot": [
+                                {
+                                    "reagent1": "reagents"
+                                },
+                                {
+                                    "temperature": "ice"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "2.",
+        "body": [
+            {
+                "sentence": "Label the microcentrifuge tubes and keep them on ice.",
+                "result": [
+                    {
+                        "KEEP": {
+                            "emit": [
+                                {
+                                    "reagent0": "reagents"
+                                }
+                            ],
+                            "slot": [
+                                {
+                                    "reagent1": "microcentrifuge tubes"
+                                },
+                                {
+                                    "temperature": "ice"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "3.",
+        "body": [
+            {
+                "sentence": "Prepare the polyamine binding mix in the pre-cooled microcentrifuge tubes as shown Table A & B shown in figures section.",
+                "result": [
+                    {
+                        "PREPARE": {
+                            "emit": [
+                                {
+                                    "reagent0": "polyamine binding mix"
+                                }
+                            ],
+                            "slot": [
+                                {
+                                    "reagent1": "polyamine binding mix"
+                                },
+                                {
+                                    "container": "pre-cooled microcentrifuge tubes"
+                                },
+                                {
+                                    "notice": "Refer to Table A & B in the figures section for details."
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "4.",
+        "body": [
+            {
+                "sentence": "Mix the polyamine binding mix gently and incubate on ice for 60 min.",
+                "result": [
+                    {
+                        "MIX": {
+                            "emit": [
+                                {
+                                    "reagent0": "polyamine binding mix"
+                                }
+                            ],
+                            "slot": [
+                                {
+                                    "reagent1": "polyamine binding mix"
+                                },
+                                {
+                                    "method": "gentle mixing"
+                                },
+                                {
+                                    "time": "60 min"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "INCUBATE": {
+                            "emit": [
+                                {
+                                    "reagent0": "polyamine binding mix"
+                                }
+                            ],
+                            "slot": [
+                                {
+                                    "reagent1": "polyamine binding mix"
+                                },
+                                {
+                                    "temperature": "ice"
+                                },
+                                {
+                                    "time": "60 min"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "5.",
+        "body": [
+            {
+                "sentence": "Place the filtration device in a 1.5 ml collection tube and pre-cool on ice.",
+                "result": [
+                    {
+                        "PLACE": {
+                            "emit": [
+                                {
+                                    "reagent0": "filtration device"
+                                }
+                            ],
+                            "slot": [
+                                {
+                                    "reagent1": "filtration device"
+                                },
+                                {
+                                    "destination": "1.5 ml collection tube"
+                                },
+                                {
+                                    "temperature": "ice"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "6.",
+        "body": [
+            {
+                "sentence": "After the 60 min incubation time, transfer 100 \u03bcL of the polyamine binding mix to the appropriately labelled filtration devices.",
+                "result": [
+                    {
+                        "TRANSFER": {
+                            "emit": [
+                                {
+                                    "reagent0": "polyamine binding mix"
+                                }
+                            ],
+                            "slot": [
+                                {
+                                    "destination": "filtration devices"
+                                },
+                                {
+                                    "reagent1": "polyamine binding mix"
+                                },
+                                {
+                                    "volume": "100 \u03bcL"
+                                },
+                                {
+                                    "notice": "After the 60 min incubation time"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "7.",
+        "body": [
+            {
+                "sentence": "Filter the free polyamines by spinning at 2500xg for 5 min at 4\u00b0C",
+                "result": [
+                    {
+                        "FILTER": {
+                            "emit": [
+                                {
+                                    "reagent0": "free polyamines"
+                                }
+                            ],
+                            "slot": [
+                                {
+                                    "reagent1": "free polyamines"
+                                },
+                                {
+                                    "filter": "2500xg"
+                                },
+                                {
+                                    "temperature": "4\u00b0C"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "8.",
+        "body": [
+            {
+                "sentence": "Prepare microcentrifugefuge tubes with 1 mL scintillation liquid \\(two tubes with scintillation liquid for every filter device used) and keep them at room temperature.",
+                "result": [
+                    {
+                        "PREPARE": {
+                            "emit": [
+                                {
+                                    "reagent0": "scintillation liquid"
+                                }
+                            ],
+                            "slot": [
+                                {
+                                    "reagent1": "1 mL scintillation liquid"
+                                },
+                                {
+                                    "container": "microcentrifuge tubes"
+                                },
+                                {
+                                    "temperature": "room temperature"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "KEEP": {
+                            "emit": [
+                                {
+                                    "reagent0": "microcentrifuge tubes with 1 mL scintillation liquid"
+                                }
+                            ],
+                            "slot": [
+                                {
+                                    "reagent1": "microcentrifuge tubes with 1 mL scintillation liquid"
+                                },
+                                {
+                                    "temperature": "room temperature"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "9.",
+        "body": [
+            {
+                "sentence": "Remove 10 \u03bcL of the retentate from inside the cut-off filter device and add it to microcentrifuge tube with scintillation liquid marked as \u201cretentate\u201d.",
+                "result": [
+                    {
+                        "REMOVE": {
+                            "emit": [
+                                {
+                                    "reagent0": "retentate"
+                                }
+                            ],
+                            "slot": [
+                                {
+                                    "reagent1": "retentate"
+                                },
+                                {
+                                    "method": "Remove"
+                                },
+                                {
+                                    "device": "cut-off filter device"
+                                },
+                                {
+                                    "notice": ""
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "ADD": {
+                            "emit": [
+                                {
+                                    "reagent0": "retentate"
+                                }
+                            ],
+                            "slot": [
+                                {
+                                    "reagent1": "retentate"
+                                },
+                                {
+                                    "reagent2": "scintillation liquid"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "10.",
+        "body": [
+            {
+                "sentence": "Remove 10 \u03bcL of filtrate from the collection tube of the filtration device and add it to the second microcentrifuge tube with scintillation liquid marked as \u201cfiltrate\u201d.",
+                "result": [
+                    {
+                        "REMOVE": {
+                            "emit": [
+                                {
+                                    "reagent0": "filtrate"
+                                }
+                            ],
+                            "slot": [
+                                {
+                                    "reagent1": "filtrate"
+                                },
+                                {
+                                    "method": "from the collection tube of the filtration device"
+                                },
+                                {
+                                    "device": "filtration device"
+                                },
+                                {
+                                    "notice": ""
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "ADD": {
+                            "emit": [
+                                {
+                                    "reagent0": "filtrate"
+                                }
+                            ],
+                            "slot": [
+                                {
+                                    "reagent2": "scintillation liquid"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "11.",
+        "body": [
+            {
+                "sentence": "Vortex for 10s and proceed with scintillation counting.",
+                "result": [
+                    {
+                        "VORTEX": {
+                            "emit": [
+                                {
+                                    "reagent0": "free polyamines"
+                                }
+                            ],
+                            "slot": [
+                                {
+                                    "reagent1": "free polyamines"
+                                },
+                                {
+                                    "time": "10s"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "PROCEED": {
+                            "emit": [
+                                {
+                                    "reagent0": "free polyamines"
+                                }
+                            ],
+                            "slot": [
+                                {
+                                    "procedure": "Vortex for 10s and proceed with scintillation counting"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "12.",
+        "body": [
+            {
+                "sentence": "From the resulting CPM \\(Counts per Minute) values, calculate the percentage of protein-bound polyamines using the following formula.\r\n  \r\n\n\nPercentage polyamine Binding = \\{\\(CPMretentate- CPMfiltrate)/ CPMretentate} x 100",
+                "result": [
+                    {
+                        "CALCULATE": {
+                            "emit": [
+                                {
+                                    "result": "<blank>"
+                                }
+                            ],
+                            "slot": [
+                                {
+                                    "attribute": "Percentage polyamine Binding"
+                                },
+                                {
+                                    "formula": "{(CPMretentate- CPMfiltrate)/ CPMretentate} x 100"
+                                },
+                                {
+                                    "variables": "CPMretentate, CPMfiltrate"
+                                },
+                                {
+                                    "values": "<blank>"
+                                },
+                                {
+                                    "units": "<blank>"
+                                },
+                                {
+                                    "software": "<blank>"
+                                },
+                                {
+                                    "notice": "<blank>"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        ]
+    }
+]

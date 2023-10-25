@@ -1,0 +1,488 @@
+[
+    {
+        "sentence": "\nPurification:",
+        "result": [
+            {
+                "PURIFY": {
+                    "emit": [],
+                    "slot": []
+                }
+            }
+        ]
+    },
+    {
+        "title": "1)",
+        "body": [
+            {
+                "sentence": "Quick thaw 1 L cell pellet.  Add 2 mM PMSF, 2 Roche PI tablets w/o EDTA.  Sonicate until cells have lysed \\(3x20sec, on ice 20sec in between).",
+                "result": [
+                    {
+                        "THAW": {
+                            "emit": [
+                                {
+                                    "reagent0": "1 L cell pellet"
+                                }
+                            ],
+                            "slot": [
+                                {
+                                    "reagent1": "1 L cell pellet"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "ADD": {
+                            "emit": [
+                                {
+                                    "reagent0": "1 L cell pellet"
+                                }
+                            ],
+                            "slot": [
+                                {
+                                    "reagent1": "1 L cell pellet"
+                                },
+                                {
+                                    "reagent2": "2 mM PMSF, 2 Roche PI tablets w/o EDTA"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "SONICATE": {
+                            "emit": [
+                                {
+                                    "reagent0": "1 L cell pellet"
+                                }
+                            ],
+                            "slot": [
+                                {
+                                    "reagent1": "1 L cell pellet"
+                                },
+                                {
+                                    "time": "3x20sec"
+                                },
+                                {
+                                    "temperature": "on ice 20sec in between"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "2)",
+        "body": [
+            {
+                "sentence": "Add MgCl<sub>2</sub> to 10mM.  Add 20&#xB5;l Benzenase.  Rock for 60min 4&#xB0;C until the mixture is really runny.  Save 10&#xB5;l for running on gel.",
+                "result": [
+                    {
+                        "ADD": {
+                            "emit": [
+                                {
+                                    "reagent0": "1 L cell pellet"
+                                }
+                            ],
+                            "slot": [
+                                {
+                                    "reagent1": "1 L cell pellet"
+                                },
+                                {
+                                    "reagent2": "MgCl2"
+                                },
+                                {
+                                    "ratio": "<blank>"
+                                },
+                                {
+                                    "concentration": "10mM"
+                                },
+                                {
+                                    "notice": "<blank>"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "ADD": {
+                            "emit": [
+                                {
+                                    "reagent0": "1 L cell pellet"
+                                }
+                            ],
+                            "slot": [
+                                {
+                                    "reagent1": "1 L cell pellet"
+                                },
+                                {
+                                    "reagent2": "Benzenase"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "SAVE": {
+                            "emit": [
+                                {
+                                    "reagent0": "10\u00b5l sample"
+                                }
+                            ],
+                            "slot": [
+                                {
+                                    "volume": "10\u00b5l"
+                                },
+                                {
+                                    "reagent1/data1": "10\u00b5l sample"
+                                },
+                                {
+                                    "purpose": "running on gel"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "3)",
+        "body": [
+            {
+                "sentence": "Spin:  16K, 15 min, 30 ml tubes.  Save supernatant and pellet.  Save 10&#xB5;l of each for running on a gel.",
+                "result": [
+                    {
+                        "SPIN": {
+                            "emit": [
+                                {
+                                    "reagent0": "10\u00b5l sample"
+                                }
+                            ],
+                            "slot": [
+                                {
+                                    "reagent1": "supernatant and pellet"
+                                },
+                                {
+                                    "intensity": "16K"
+                                },
+                                {
+                                    "time": "15 min"
+                                },
+                                {
+                                    "device": "30 ml tubes"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "SAVE": {
+                            "emit": [
+                                {
+                                    "reagent0": "10\u00b5l sample"
+                                }
+                            ],
+                            "slot": [
+                                {
+                                    "volume": "10\u00b5l"
+                                },
+                                {
+                                    "reagent1/data1": "supernatant and pellet"
+                                },
+                                {
+                                    "purpose": "running on a gel"
+                                },
+                                {
+                                    "device": "30 ml tubes"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "SAVE": {
+                            "emit": [
+                                {
+                                    "reagent0": "10\u00b5l sample"
+                                }
+                            ],
+                            "slot": [
+                                {
+                                    "volume": "10\u00b5l"
+                                },
+                                {
+                                    "reagent1/data1": "10\u00b5l sample"
+                                },
+                                {
+                                    "purpose": "running on a gel"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "4)",
+        "body": [
+            {
+                "sentence": "Meantime, wash Ni-NTA beads with binding buffer.  Do a 1-2ml column.",
+                "result": [
+                    {
+                        "WASH": {
+                            "emit": [
+                                {
+                                    "reagent0": "Ni-NTA beads"
+                                }
+                            ],
+                            "slot": [
+                                {
+                                    "reagent1": "Ni-NTA beads"
+                                },
+                                {
+                                    "reagent2": "binding buffer"
+                                },
+                                {
+                                    "repeat": "1-2"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "5)",
+        "body": [
+            {
+                "sentence": "Load supernatant on column.  Save flow through.  Save 10&#xB5;l for gel.",
+                "result": [
+                    {
+                        "LOAD": {
+                            "emit": [
+                                {
+                                    "reagent0": "flow through"
+                                }
+                            ],
+                            "slot": [
+                                {
+                                    "reagent1": "supernatant"
+                                },
+                                {
+                                    "destination": "column"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "SAVE": {
+                            "emit": [
+                                {
+                                    "reagent0": "flow through"
+                                }
+                            ],
+                            "slot": [
+                                {
+                                    "volume": "10\u00b5l"
+                                },
+                                {
+                                    "reagent1/data1": "flow through"
+                                },
+                                {
+                                    "purpose": "for gel"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "SAVE": {
+                            "emit": [
+                                {
+                                    "reagent0": "10\u00b5l sample"
+                                }
+                            ],
+                            "slot": [
+                                {
+                                    "volume": "10\u00b5l"
+                                },
+                                {
+                                    "reagent1/data1": "10\u00b5l sample"
+                                },
+                                {
+                                    "purpose": "for gel"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "6)",
+        "body": [
+            {
+                "sentence": "Wash 50ml binding buffer \\(BB) high salt, then 50ml BB medium salt.",
+                "result": [
+                    {
+                        "WASH": {
+                            "emit": [
+                                {
+                                    "reagent0": "BB"
+                                }
+                            ],
+                            "slot": [
+                                {
+                                    "reagent1": "50ml binding buffer (BB) high salt"
+                                },
+                                {
+                                    "reagent2": "BB"
+                                },
+                                {
+                                    "repeat": "1"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "WASH": {
+                            "emit": [
+                                {
+                                    "reagent0": "BB medium salt"
+                                }
+                            ],
+                            "slot": [
+                                {
+                                    "reagent1": "50ml BB medium salt"
+                                },
+                                {
+                                    "reagent2": "BB"
+                                },
+                                {
+                                    "repeat": "1"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "7)",
+        "body": [
+            {
+                "sentence": "Wash 50ml wash buffer \\(20mM Imidazole).",
+                "result": [
+                    {
+                        "WASH": {
+                            "emit": [
+                                {
+                                    "reagent0": "50ml wash buffer"
+                                }
+                            ],
+                            "slot": [
+                                {
+                                    "reagent1": "50ml wash buffer"
+                                },
+                                {
+                                    "reagent2": "20mM Imidazole"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "8)",
+        "body": [
+            {
+                "sentence": "Elute with 500mM Imidazole buffer.",
+                "result": [
+                    {
+                        "ELUTE": {
+                            "emit": [
+                                {
+                                    "reagent0": "500mM Imidazole buffer"
+                                }
+                            ],
+                            "slot": [
+                                {
+                                    "reagent1": "500mM Imidazole buffer"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "9)",
+        "body": [
+            {
+                "sentence": "Dialyze.",
+                "result": [
+                    {
+                        "DIALYZE": {
+                            "emit": [
+                                {
+                                    "reagent0": "flow through"
+                                }
+                            ],
+                            "slot": [
+                                {
+                                    "reagent1": "flow through"
+                                },
+                                {
+                                    "reagent2": "BB medium salt"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "10)",
+        "body": [
+            {
+                "sentence": "Run SDS PAGE.  Measure protein concentration.",
+                "result": [
+                    {
+                        "RUN": {
+                            "emit": [
+                                {
+                                    "reagent0": "10\u00b5l sample"
+                                }
+                            ],
+                            "slot": [
+                                {
+                                    "reagent1": "10\u00b5l sample"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "MEASURE": {
+                            "emit": [],
+                            "slot": [
+                                {
+                                    "device": "spectrophotometer"
+                                },
+                                {
+                                    "reagent1": "10\u00b5l sample"
+                                },
+                                {
+                                    "parameter": "protein concentration"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        ]
+    }
+]

@@ -1,0 +1,1061 @@
+{
+  "name": "nprot-4421_graphData.json",
+  "nodes": [
+    {
+      "id": "203a4c3c-057b-4728-bf70-81f58b1938ff",
+      "text": "Transfer 200 \u00b5l of biofluid into a 1.5 ml microfuge tube.",
+      "instruction": "TRANSFER",
+      "slots": [
+        {
+          "key": "source",
+          "value": "biofluid",
+          "id": "04aeaddc-a069-4e50-8db5-a26455dc3326",
+          "node_id": "203a4c3c-057b-4728-bf70-81f58b1938ff"
+        },
+        {
+          "key": "destination",
+          "value": "1.5 ml microfuge tube",
+          "id": "a31afe2a-41f4-4fa9-b579-f2b74ef5fa3f",
+          "node_id": "203a4c3c-057b-4728-bf70-81f58b1938ff"
+        },
+        {
+          "key": "reagent1",
+          "value": "biofluid",
+          "id": "bfe17d93-6e27-4ec0-8277-02607c1444fb",
+          "node_id": "203a4c3c-057b-4728-bf70-81f58b1938ff"
+        },
+        {
+          "key": "volume",
+          "value": "200 \u00b5l",
+          "id": "940c6c7d-4e32-4814-96f5-12d671a919d3",
+          "node_id": "203a4c3c-057b-4728-bf70-81f58b1938ff"
+        }
+      ],
+      "emits": [
+        {
+          "key": "reagent0",
+          "value": "biofluid",
+          "id": "35b5ef4d-bc35-40ad-9eee-31b4696c6376",
+          "node_id": "203a4c3c-057b-4728-bf70-81f58b1938ff"
+        }
+      ]
+    },
+    {
+      "id": "fec70052-0c4c-415b-b1e2-4d5efcc2a7e4",
+      "text": "Add 1000 \u00b5l \\(5x volumes) of QIAzol Lysis Reagent.",
+      "instruction": "ADD",
+      "slots": [
+        {
+          "key": "reagent1",
+          "value": "QIAzol Lysis Reagent",
+          "id": "937385ae-ea2a-4505-9edf-bbcf8dd7a2fe",
+          "node_id": "fec70052-0c4c-415b-b1e2-4d5efcc2a7e4"
+        },
+        {
+          "key": "ratio",
+          "value": "5x volumes",
+          "id": "b27cff36-809c-479f-b512-342cae9b2bd1",
+          "node_id": "fec70052-0c4c-415b-b1e2-4d5efcc2a7e4"
+        }
+      ],
+      "emits": [
+        {
+          "key": "reagent0",
+          "value": "biofluid",
+          "id": "ed432ec9-7f97-45eb-ad22-384691a01a4c",
+          "node_id": "fec70052-0c4c-415b-b1e2-4d5efcc2a7e4"
+        }
+      ]
+    },
+    {
+      "id": "699d3b5c-0465-4f24-9618-26a8af6e5f10",
+      "text": "Vortex 5 sec.",
+      "instruction": "VORTEX",
+      "slots": [
+        {
+          "key": "reagent1",
+          "value": "biofluid",
+          "id": "435ec5ae-8997-4ef2-8e4f-dd30043048db",
+          "node_id": "699d3b5c-0465-4f24-9618-26a8af6e5f10"
+        },
+        {
+          "key": "time",
+          "value": "5 sec",
+          "id": "95bca7b1-d60e-4972-8fa4-1172c4cbc9ae",
+          "node_id": "699d3b5c-0465-4f24-9618-26a8af6e5f10"
+        }
+      ],
+      "emits": [
+        {
+          "key": "reagent0",
+          "value": "biofluid",
+          "id": "cf166b6c-6ddf-45a0-aa04-4d18a1fb706b",
+          "node_id": "699d3b5c-0465-4f24-9618-26a8af6e5f10"
+        }
+      ]
+    },
+    {
+      "id": "8149e1e2-6c85-4828-97c7-fa940a730e7f",
+      "text": "Incubate for 5 min at room temperature. \\(2,3)",
+      "instruction": "INCUBATE",
+      "slots": [
+        {
+          "key": "reagent1",
+          "value": "biofluid",
+          "id": "9e0bb752-96b5-4708-b8a0-611c893cfd07",
+          "node_id": "8149e1e2-6c85-4828-97c7-fa940a730e7f"
+        },
+        {
+          "key": "temperature",
+          "value": "room temperature",
+          "id": "6ec41f0e-31d6-4844-b8a5-6fa57aba6f6a",
+          "node_id": "8149e1e2-6c85-4828-97c7-fa940a730e7f"
+        },
+        {
+          "key": "time",
+          "value": "5 min",
+          "id": "41f3437c-8b3f-4fb3-8681-35a3f9a5b8e5",
+          "node_id": "8149e1e2-6c85-4828-97c7-fa940a730e7f"
+        }
+      ],
+      "emits": [
+        {
+          "key": "reagent0",
+          "value": "biofluid",
+          "id": "4f1d2286-549d-4275-80d1-df398a1eaccc",
+          "node_id": "8149e1e2-6c85-4828-97c7-fa940a730e7f"
+        }
+      ]
+    },
+    {
+      "id": "ccda1d7f-b987-488c-8f39-21074577c686",
+      "text": "Add 200 \u00b5l chloroform.",
+      "instruction": "ADD",
+      "slots": [
+        {
+          "key": "reagent1",
+          "value": "biofluid",
+          "id": "92e159de-970b-4448-b28a-a3e9058aa2cb",
+          "node_id": "ccda1d7f-b987-488c-8f39-21074577c686"
+        },
+        {
+          "key": "reagent2",
+          "value": "chloroform",
+          "id": "415ab6d1-6a46-4451-a203-8a088fb2fcdb",
+          "node_id": "ccda1d7f-b987-488c-8f39-21074577c686"
+        }
+      ],
+      "emits": [
+        {
+          "key": "reagent0",
+          "value": "biofluid",
+          "id": "e60c4608-2c34-4e4a-b107-d8fe049ae475",
+          "node_id": "ccda1d7f-b987-488c-8f39-21074577c686"
+        }
+      ]
+    },
+    {
+      "id": "af653fe2-411a-444c-87f2-8d529a85fd66",
+      "text": "Shake vigorously for 15 seconds.",
+      "instruction": "SHAKE",
+      "slots": [
+        {
+          "key": "reagent1",
+          "value": "biofluid",
+          "id": "7105287c-818b-41f0-b305-e8d7eb1762aa",
+          "node_id": "af653fe2-411a-444c-87f2-8d529a85fd66"
+        },
+        {
+          "key": "temperature",
+          "value": "room temperature",
+          "id": "c935d2c4-723e-450e-a0a9-f9fe5a036950",
+          "node_id": "af653fe2-411a-444c-87f2-8d529a85fd66"
+        },
+        {
+          "key": "time",
+          "value": "15 seconds",
+          "id": "9a7cb8aa-2849-4c2f-9513-d1924e736619",
+          "node_id": "af653fe2-411a-444c-87f2-8d529a85fd66"
+        }
+      ],
+      "emits": [
+        {
+          "key": "reagent0",
+          "value": "biofluid",
+          "id": "fff8d443-ca2b-47db-87c8-104ff52203ab",
+          "node_id": "af653fe2-411a-444c-87f2-8d529a85fd66"
+        }
+      ]
+    },
+    {
+      "id": "13b157b7-0c1a-4c6e-9964-951f4da2f095",
+      "text": "Incubate for 3 minutes at room temperature.",
+      "instruction": "INCUBATE",
+      "slots": [
+        {
+          "key": "reagent1",
+          "value": "biofluid",
+          "id": "ce5f1d05-4e10-4646-84f5-5ed27b5649c6",
+          "node_id": "13b157b7-0c1a-4c6e-9964-951f4da2f095"
+        },
+        {
+          "key": "temperature",
+          "value": "room temperature",
+          "id": "edc59e0a-a2fc-4164-b9b8-59a7c8e530dc",
+          "node_id": "13b157b7-0c1a-4c6e-9964-951f4da2f095"
+        },
+        {
+          "key": "time",
+          "value": "3 minutes",
+          "id": "6b1f7d31-35aa-4995-8b58-a3fb44a94dc1",
+          "node_id": "13b157b7-0c1a-4c6e-9964-951f4da2f095"
+        }
+      ],
+      "emits": [
+        {
+          "key": "reagent0",
+          "value": "biofluid",
+          "id": "2695d83d-ef4b-4f63-9672-3edb9894f05c",
+          "node_id": "13b157b7-0c1a-4c6e-9964-951f4da2f095"
+        }
+      ]
+    },
+    {
+      "id": "2457d4b2-f228-426b-bdf0-c5117e7fc706",
+      "text": "Centrifuge sample for 15 min at 12,000 x g at 4\u00b0C.",
+      "instruction": "CENTRIFUGE",
+      "slots": [
+        {
+          "key": "reagent1",
+          "value": "biofluid",
+          "id": "531e9c78-c13f-4eac-8926-959a67175a94",
+          "node_id": "2457d4b2-f228-426b-bdf0-c5117e7fc706"
+        },
+        {
+          "key": "intensity",
+          "value": "12,000 x g",
+          "id": "c257964a-88df-45ed-88c4-ca55ed239fde",
+          "node_id": "2457d4b2-f228-426b-bdf0-c5117e7fc706"
+        },
+        {
+          "key": "time",
+          "value": "15 min",
+          "id": "ebcf7285-27dd-4158-84c3-a2577c44feeb",
+          "node_id": "2457d4b2-f228-426b-bdf0-c5117e7fc706"
+        },
+        {
+          "key": "temperature",
+          "value": "4\u00b0C",
+          "id": "d1f4fff6-8459-4b48-978f-aedfaaceb48b",
+          "node_id": "2457d4b2-f228-426b-bdf0-c5117e7fc706"
+        }
+      ],
+      "emits": [
+        {
+          "key": "reagent0",
+          "value": "biofluid",
+          "id": "e900e35a-f555-4d60-bef9-057561d7eb84",
+          "node_id": "2457d4b2-f228-426b-bdf0-c5117e7fc706"
+        }
+      ]
+    },
+    {
+      "id": "b129e7c0-4d68-4368-b9bc-f046da950081",
+      "text": "Transfer the upper aqueous phase to a new microcentrifuge tube \\(4). Avoid the white interphase.",
+      "instruction": "TRANSFER",
+      "slots": [
+        {
+          "key": "source",
+          "value": "biofluid",
+          "id": "c7d22d1f-b548-41d6-9f38-e0b5171190ac",
+          "node_id": "b129e7c0-4d68-4368-b9bc-f046da950081"
+        },
+        {
+          "key": "destination",
+          "value": "new microcentrifuge tube 4",
+          "id": "d25133df-ac1c-486b-857c-36f8e53c9def",
+          "node_id": "b129e7c0-4d68-4368-b9bc-f046da950081"
+        },
+        {
+          "key": "reagent1",
+          "value": "upper aqueous phase",
+          "id": "90fd218b-168c-4f44-965b-1119f44f864d",
+          "node_id": "b129e7c0-4d68-4368-b9bc-f046da950081"
+        },
+        {
+          "key": "notice",
+          "value": "Avoid the white interphase",
+          "id": "f341df5f-9f5c-4728-a687-21243f0879c9",
+          "node_id": "b129e7c0-4d68-4368-b9bc-f046da950081"
+        }
+      ],
+      "emits": [
+        {
+          "key": "reagent0",
+          "value": "upper aqueous phase",
+          "id": "7a269b61-4482-4da3-a203-dfe59c3ee7c2",
+          "node_id": "b129e7c0-4d68-4368-b9bc-f046da950081"
+        }
+      ]
+    },
+    {
+      "id": "b3852cca-863e-419a-b18e-2286a179a2c7",
+      "text": "Carefully measure the aqueous phase and add 1.5 volumes of 100% ethanol.",
+      "instruction": "MEASURE",
+      "slots": [
+        {
+          "key": "reagent1",
+          "value": "upper aqueous phase",
+          "id": "b3149605-0e30-482e-b463-99f502b0dc63",
+          "node_id": "b3852cca-863e-419a-b18e-2286a179a2c7"
+        },
+        {
+          "key": "parameter",
+          "value": "volume",
+          "id": "a06d06cf-82f5-4cc8-af25-a04d7ae1bebd",
+          "node_id": "b3852cca-863e-419a-b18e-2286a179a2c7"
+        },
+        {
+          "key": "notice",
+          "value": "Avoid the white interphase.",
+          "id": "501b03c2-ccf9-4a9b-8e56-68d447f9fab0",
+          "node_id": "b3852cca-863e-419a-b18e-2286a179a2c7"
+        }
+      ],
+      "emits": []
+    },
+    {
+      "id": "03888b1d-85d1-4b4c-8d38-2f21e3e96af7",
+      "text": "Carefully measure the aqueous phase and add 1.5 volumes of 100% ethanol.",
+      "instruction": "ADD",
+      "slots": [
+        {
+          "key": "reagent1",
+          "value": "biofluid",
+          "id": "232ebe1f-3cff-4dba-b2ce-8eb041c9fcd2",
+          "node_id": "03888b1d-85d1-4b4c-8d38-2f21e3e96af7"
+        },
+        {
+          "key": "reagent2",
+          "value": "100% ethanol",
+          "id": "4e5cb4c7-cb73-49ba-b71e-85b7de2bd905",
+          "node_id": "03888b1d-85d1-4b4c-8d38-2f21e3e96af7"
+        },
+        {
+          "key": "ratio",
+          "value": "1.5 volumes",
+          "id": "da2f0e52-553f-49b6-815b-f43e88ed911f",
+          "node_id": "03888b1d-85d1-4b4c-8d38-2f21e3e96af7"
+        }
+      ],
+      "emits": [
+        {
+          "key": "reagent0",
+          "value": "biofluid",
+          "id": "7bb9645f-57dc-4e30-9052-8d1e08953973",
+          "node_id": "03888b1d-85d1-4b4c-8d38-2f21e3e96af7"
+        }
+      ]
+    },
+    {
+      "id": "5236e1bc-19a9-4806-87d9-05ce81b3b374",
+      "text": "Mix gently and thoroughly. Do not centrifuge and do not delay moving on to the next step.",
+      "instruction": "MIX",
+      "slots": [
+        {
+          "key": "reagent1",
+          "value": "biofluid",
+          "id": "65788b86-0701-43d3-8372-63c96a74e974",
+          "node_id": "5236e1bc-19a9-4806-87d9-05ce81b3b374"
+        },
+        {
+          "key": "method",
+          "value": "gentle mixing",
+          "id": "efe8ad4f-89e7-4a60-a4e6-b54f2a37a7ab",
+          "node_id": "5236e1bc-19a9-4806-87d9-05ce81b3b374"
+        },
+        {
+          "key": "notice",
+          "value": "Do not centrifuge and do not delay moving on to the next step.",
+          "id": "f0e5446c-7fa0-4ea2-b852-c6c617b0f09c",
+          "node_id": "5236e1bc-19a9-4806-87d9-05ce81b3b374"
+        }
+      ],
+      "emits": [
+        {
+          "key": "reagent0",
+          "value": "biofluid",
+          "id": "54f30b52-f409-4964-8d17-1978623ac2c2",
+          "node_id": "5236e1bc-19a9-4806-87d9-05ce81b3b374"
+        }
+      ]
+    },
+    {
+      "id": "5e773608-c94d-45f2-a189-d15befd691bb",
+      "text": "Mix gently and thoroughly. Do not centrifuge and do not delay moving on to the next step.",
+      "instruction": "MOVE",
+      "slots": [
+        {
+          "key": "destination",
+          "value": "<blank>",
+          "id": "09bd7ee7-eec9-4216-af99-c152b0024486",
+          "node_id": "5e773608-c94d-45f2-a189-d15befd691bb"
+        },
+        {
+          "key": "reagent1",
+          "value": "<blank>",
+          "id": "1bceddc7-ad6b-4b0e-8efb-0c4c9c3a4a11",
+          "node_id": "5e773608-c94d-45f2-a189-d15befd691bb"
+        },
+        {
+          "key": "volume",
+          "value": "<blank>",
+          "id": "f95a3a9e-8f2d-479f-a2e0-f80aa4438761",
+          "node_id": "5e773608-c94d-45f2-a189-d15befd691bb"
+        },
+        {
+          "key": "equipment",
+          "value": "<blank>",
+          "id": "939aae91-b1ab-4137-83d0-4ca31033b089",
+          "node_id": "5e773608-c94d-45f2-a189-d15befd691bb"
+        },
+        {
+          "key": "notice",
+          "value": "<blank>",
+          "id": "71ed1455-aa1e-4de0-bdd9-cc79f0a3bc67",
+          "node_id": "5e773608-c94d-45f2-a189-d15befd691bb"
+        }
+      ],
+      "emits": [
+        {
+          "key": "reagent0",
+          "value": "<blank>",
+          "id": "61de4ac0-6d1b-423c-9e77-f73b333f73f9",
+          "node_id": "5e773608-c94d-45f2-a189-d15befd691bb"
+        }
+      ]
+    },
+    {
+      "id": "a920abaa-23a3-4f58-bdcb-459c3caed1ec",
+      "text": "Assemble a MinElute spin column in a new collection tube.",
+      "instruction": "ASSEMBLE",
+      "slots": [
+        {
+          "key": "reagent1",
+          "value": "MinElute spin column",
+          "id": "d138399d-2078-486b-977c-a529d094c803",
+          "node_id": "a920abaa-23a3-4f58-bdcb-459c3caed1ec"
+        },
+        {
+          "key": "device",
+          "value": "collection tube",
+          "id": "a3f9d97f-4cd9-4204-aa71-3dbbf9dbd0bf",
+          "node_id": "a920abaa-23a3-4f58-bdcb-459c3caed1ec"
+        }
+      ],
+      "emits": [
+        {
+          "key": "reagent0",
+          "value": "MinElute spin column",
+          "id": "133b2de8-9713-43fa-89a3-5ab7d24bdd83",
+          "node_id": "a920abaa-23a3-4f58-bdcb-459c3caed1ec"
+        }
+      ]
+    },
+    {
+      "id": "b3349aaa-1046-4394-9d8c-f9d94eef83a7",
+      "text": "Load up to 700 \u00b5l of the mixture from step 5, including any precipitate that may have formed, onto the column.",
+      "instruction": "LOAD",
+      "slots": [
+        {
+          "key": "reagent1",
+          "value": "mixture from step 5",
+          "id": "6c95acb0-361c-46d8-8c9f-1ef36f836746",
+          "node_id": "b3349aaa-1046-4394-9d8c-f9d94eef83a7"
+        },
+        {
+          "key": "destination",
+          "value": "column",
+          "id": "934a17fb-2fb2-4687-b5c5-7aba260daebd",
+          "node_id": "b3349aaa-1046-4394-9d8c-f9d94eef83a7"
+        },
+        {
+          "key": "volume",
+          "value": "700 \u00b5l",
+          "id": "5bb2db2c-aa9d-4399-b954-70e75516e22c",
+          "node_id": "b3349aaa-1046-4394-9d8c-f9d94eef83a7"
+        }
+      ],
+      "emits": [
+        {
+          "key": "reagent0",
+          "value": "mixture from step 5",
+          "id": "5187bbb5-59b0-411c-9708-f28bf08d88d9",
+          "node_id": "b3349aaa-1046-4394-9d8c-f9d94eef83a7"
+        }
+      ]
+    },
+    {
+      "id": "b04769d0-f0e4-401a-938d-21ef7e5a86bd",
+      "text": "Spin for 15 seconds at 8,000 x g \\(5) at room temperature \\(6).",
+      "instruction": "SPIN",
+      "slots": [
+        {
+          "key": "reagent1",
+          "value": "biofluid",
+          "id": "f564cdd2-296f-45d1-920d-6c9130ef018e",
+          "node_id": "b04769d0-f0e4-401a-938d-21ef7e5a86bd"
+        },
+        {
+          "key": "intensity",
+          "value": "8,000 x g",
+          "id": "f2086aa5-136c-41ec-954b-e583047d7bcf",
+          "node_id": "b04769d0-f0e4-401a-938d-21ef7e5a86bd"
+        },
+        {
+          "key": "time",
+          "value": "15 seconds",
+          "id": "397de4da-7a02-410a-a713-c622680d3609",
+          "node_id": "b04769d0-f0e4-401a-938d-21ef7e5a86bd"
+        },
+        {
+          "key": "temperature",
+          "value": "room temperature",
+          "id": "a6f25add-134e-4824-b02a-882ac2420615",
+          "node_id": "b04769d0-f0e4-401a-938d-21ef7e5a86bd"
+        },
+        {
+          "key": "device",
+          "value": "centrifuge",
+          "id": "aa331d82-4dfe-4362-8893-deb231a9774c",
+          "node_id": "b04769d0-f0e4-401a-938d-21ef7e5a86bd"
+        },
+        {
+          "key": "notice",
+          "value": "at room temperature",
+          "id": "b06204c9-17c8-4e14-bd08-40cc63bcf9fd",
+          "node_id": "b04769d0-f0e4-401a-938d-21ef7e5a86bd"
+        }
+      ],
+      "emits": [
+        {
+          "key": "reagent0",
+          "value": "upper aqueous phase",
+          "id": "71e984bc-019d-4faa-aef3-f565d42c223b",
+          "node_id": "b04769d0-f0e4-401a-938d-21ef7e5a86bd"
+        }
+      ]
+    },
+    {
+      "id": "f76670d7-d8c9-4a97-aaf3-0dc21cfb4708",
+      "text": "Discard flow-through.",
+      "instruction": "DISCARD",
+      "slots": [
+        {
+          "key": "reagent1",
+          "value": "flow-through",
+          "id": "df3c04ed-2064-4360-90ca-70847a786ad4",
+          "node_id": "f76670d7-d8c9-4a97-aaf3-0dc21cfb4708"
+        }
+      ],
+      "emits": [
+        {
+          "key": "reagent0",
+          "value": "flow-through",
+          "id": "8f11dc14-43ee-433a-9869-fada86acc666",
+          "node_id": "f76670d7-d8c9-4a97-aaf3-0dc21cfb4708"
+        }
+      ]
+    },
+    {
+      "id": "3cf6b5bb-5f16-4c6b-8c9e-b8890d51ee0f",
+      "text": "Add 700 \u03bcl Buffer RWT to the RNeasy MinElute spin column.",
+      "instruction": "ADD",
+      "slots": [
+        {
+          "key": "reagent1",
+          "value": "Buffer RWT",
+          "id": "c4ca6fe8-3d0d-48af-9d5c-47dbe4cff7b1",
+          "node_id": "3cf6b5bb-5f16-4c6b-8c9e-b8890d51ee0f"
+        },
+        {
+          "key": "reagent2",
+          "value": "RNeasy MinElute spin column",
+          "id": "f1e8442b-3e42-49fa-ba4d-da0d52913108",
+          "node_id": "3cf6b5bb-5f16-4c6b-8c9e-b8890d51ee0f"
+        }
+      ],
+      "emits": [
+        {
+          "key": "reagent0",
+          "value": "Buffer RWT",
+          "id": "602cd027-2514-4594-9c42-c716d6854b9b",
+          "node_id": "3cf6b5bb-5f16-4c6b-8c9e-b8890d51ee0f"
+        }
+      ]
+    },
+    {
+      "id": "215d2163-d528-49f0-82fe-c7c54e986485",
+      "text": "Centrifuge for 15 seconds at 8000 x g at room temperature to wash the column.",
+      "instruction": "CENTRIFUGE",
+      "slots": [
+        {
+          "key": "reagent1",
+          "value": "MinElute spin column",
+          "id": "573c1315-8aaa-459d-bdf7-291403631777",
+          "node_id": "215d2163-d528-49f0-82fe-c7c54e986485"
+        },
+        {
+          "key": "intensity",
+          "value": "8000 x g",
+          "id": "79b98e92-904d-42c2-9246-9e8111efbb73",
+          "node_id": "215d2163-d528-49f0-82fe-c7c54e986485"
+        },
+        {
+          "key": "time",
+          "value": "15 seconds",
+          "id": "8648ba34-6b15-4400-965e-e02f0779ac99",
+          "node_id": "215d2163-d528-49f0-82fe-c7c54e986485"
+        },
+        {
+          "key": "temperature",
+          "value": "room temperature",
+          "id": "8a51a918-4c05-42e3-bdf5-dda42cfa238e",
+          "node_id": "215d2163-d528-49f0-82fe-c7c54e986485"
+        },
+        {
+          "key": "notice",
+          "value": "to wash the column",
+          "id": "3b8a695c-fcf7-42d6-b6dc-6b2b0dd0a107",
+          "node_id": "215d2163-d528-49f0-82fe-c7c54e986485"
+        }
+      ],
+      "emits": [
+        {
+          "key": "reagent0",
+          "value": "MinElute spin column",
+          "id": "8b4a7886-1a1c-4331-b93d-a14255153ac6",
+          "node_id": "215d2163-d528-49f0-82fe-c7c54e986485"
+        }
+      ]
+    },
+    {
+      "id": "ff1171da-8a9f-4113-84e9-ae8229c8272a",
+      "text": "Discard the flow-through.",
+      "instruction": "DISCARD",
+      "slots": [
+        {
+          "key": "reagent1",
+          "value": "flow-through",
+          "id": "4ed8d061-fdd8-4a8b-980b-54450d7f9eba",
+          "node_id": "ff1171da-8a9f-4113-84e9-ae8229c8272a"
+        }
+      ],
+      "emits": [
+        {
+          "key": "reagent0",
+          "value": "flow-through",
+          "id": "ae5ad8d3-c604-49cb-8187-d7190e1cc083",
+          "node_id": "ff1171da-8a9f-4113-84e9-ae8229c8272a"
+        }
+      ]
+    },
+    {
+      "id": "39ebb11b-bf93-420f-a5fa-2d85b477d86a",
+      "text": "Pipet 500 \u03bcl Buffer RPE onto the RNeasy MinElute spin column.",
+      "instruction": "PIPETTE",
+      "slots": [
+        {
+          "key": "volume",
+          "value": "500 \u03bcl",
+          "id": "5b4a8c9f-53c0-44a2-b128-59a936508f1e",
+          "node_id": "39ebb11b-bf93-420f-a5fa-2d85b477d86a"
+        },
+        {
+          "key": "reagent1",
+          "value": "Buffer RPE",
+          "id": "fa7780f0-ba7f-4da1-89a3-c3c49475cf87",
+          "node_id": "39ebb11b-bf93-420f-a5fa-2d85b477d86a"
+        },
+        {
+          "key": "destination",
+          "value": "RNeasy MinElute spin column",
+          "id": "d3efed92-737a-4f0e-bf12-9fd85c17cfa0",
+          "node_id": "39ebb11b-bf93-420f-a5fa-2d85b477d86a"
+        }
+      ],
+      "emits": [
+        {
+          "key": "reagent0",
+          "value": "Buffer RPE",
+          "id": "a1efb235-723f-4eda-9f20-3d5cefc38721",
+          "node_id": "39ebb11b-bf93-420f-a5fa-2d85b477d86a"
+        }
+      ]
+    },
+    {
+      "id": "a3c66f14-c4b9-464b-b70a-a95db26d2908",
+      "text": "Centrifuge for 15 seconds at 8000 x g to wash the column.",
+      "instruction": "CENTRIFUGE",
+      "slots": [
+        {
+          "key": "reagent1",
+          "value": "MinElute spin column",
+          "id": "b0c16729-a1fa-4f45-98ae-5ffa7a539e9e",
+          "node_id": "a3c66f14-c4b9-464b-b70a-a95db26d2908"
+        },
+        {
+          "key": "intensity",
+          "value": "8000 x g",
+          "id": "f1f66e27-4cc5-4672-8245-1b0f42a27372",
+          "node_id": "a3c66f14-c4b9-464b-b70a-a95db26d2908"
+        },
+        {
+          "key": "time",
+          "value": "15 seconds",
+          "id": "46e31d92-91d1-45cd-9d76-ee8fd9b5a76f",
+          "node_id": "a3c66f14-c4b9-464b-b70a-a95db26d2908"
+        },
+        {
+          "key": "notice",
+          "value": "to wash the column",
+          "id": "f33ee994-3182-474d-a85c-2add54d5e1e6",
+          "node_id": "a3c66f14-c4b9-464b-b70a-a95db26d2908"
+        }
+      ],
+      "emits": [
+        {
+          "key": "reagent0",
+          "value": "MinElute spin column",
+          "id": "a50e78d3-22c4-41bd-a89a-c1343e51463e",
+          "node_id": "a3c66f14-c4b9-464b-b70a-a95db26d2908"
+        }
+      ]
+    },
+    {
+      "id": "8048d81f-6aee-4993-8bcc-5f44326ee5cf",
+      "text": "Discard the flow-through.",
+      "instruction": "DISCARD",
+      "slots": [
+        {
+          "key": "reagent1",
+          "value": "flow-through",
+          "id": "894f07dd-9518-4df0-b8f8-f6a89489b826",
+          "node_id": "8048d81f-6aee-4993-8bcc-5f44326ee5cf"
+        }
+      ],
+      "emits": [
+        {
+          "key": "reagent0",
+          "value": "flow-through",
+          "id": "f2a283ff-823c-4962-aa8b-8ed072e749a4",
+          "node_id": "8048d81f-6aee-4993-8bcc-5f44326ee5cf"
+        }
+      ]
+    },
+    {
+      "id": "754000a1-363a-408d-9bf9-b9b5e2de419f",
+      "text": "Pipet 500 \u03bcl 80% ethanol \\(7) onto the RNeasy MinElute spin column.",
+      "instruction": "PIPETTE",
+      "slots": [
+        {
+          "key": "volume",
+          "value": "500 \u03bcl",
+          "id": "a70e7850-c58f-46ff-b164-865897b34764",
+          "node_id": "754000a1-363a-408d-9bf9-b9b5e2de419f"
+        },
+        {
+          "key": "reagent1",
+          "value": "80% ethanol",
+          "id": "aa24471c-718e-48cc-85fe-8a689894c7f5",
+          "node_id": "754000a1-363a-408d-9bf9-b9b5e2de419f"
+        },
+        {
+          "key": "destination",
+          "value": "RNeasy MinElute spin column",
+          "id": "a7bc95b7-fd0a-4603-a3d2-bc5dbb7cd97e",
+          "node_id": "754000a1-363a-408d-9bf9-b9b5e2de419f"
+        }
+      ],
+      "emits": [
+        {
+          "key": "reagent0",
+          "value": "RNeasy MinElute spin column",
+          "id": "3dc66741-1972-44af-818a-44b2cfb9489e",
+          "node_id": "754000a1-363a-408d-9bf9-b9b5e2de419f"
+        }
+      ]
+    },
+    {
+      "id": "85d3bd20-c4ff-44a8-8e99-e29cdf17a7f0",
+      "text": "Centrifuge for 2 minutes at \u2265 8000 x g \\(\u226510,000 rpm) at room temperature to wash the column.",
+      "instruction": "CENTRIFUGE",
+      "slots": [
+        {
+          "key": "reagent1",
+          "value": "MinElute spin column",
+          "id": "4bb51eb5-e214-43c5-8867-5495957d2d79",
+          "node_id": "85d3bd20-c4ff-44a8-8e99-e29cdf17a7f0"
+        },
+        {
+          "key": "intensity",
+          "value": "\u2265 8000 x g (\u226510,000 rpm)",
+          "id": "47913621-dcd2-4355-93ac-63bbf4e26277",
+          "node_id": "85d3bd20-c4ff-44a8-8e99-e29cdf17a7f0"
+        },
+        {
+          "key": "time",
+          "value": "2 minutes",
+          "id": "b65860ce-2649-42f3-bb05-8d3cee5515da",
+          "node_id": "85d3bd20-c4ff-44a8-8e99-e29cdf17a7f0"
+        },
+        {
+          "key": "temperature",
+          "value": "room temperature",
+          "id": "8e8d2068-b5fe-42d9-bf58-457991e47fb7",
+          "node_id": "85d3bd20-c4ff-44a8-8e99-e29cdf17a7f0"
+        },
+        {
+          "key": "notice",
+          "value": "to wash the column",
+          "id": "1eb13dfa-16ec-4823-ab52-2989784c3356",
+          "node_id": "85d3bd20-c4ff-44a8-8e99-e29cdf17a7f0"
+        }
+      ],
+      "emits": [
+        {
+          "key": "reagent0",
+          "value": "MinElute spin column",
+          "id": "968da7ca-249d-4b47-851f-5c78dd5550b4",
+          "node_id": "85d3bd20-c4ff-44a8-8e99-e29cdf17a7f0"
+        }
+      ]
+    },
+    {
+      "id": "d7012d00-6cbc-44a0-bf8a-f9618eb3d2b7",
+      "text": "Discard the collection tube with the flow-through. \\(8)",
+      "instruction": "DISCARD",
+      "slots": [
+        {
+          "key": "reagent1",
+          "value": "collection tube",
+          "id": "f099b675-f139-42c7-8bec-840e1fbd3495",
+          "node_id": "d7012d00-6cbc-44a0-bf8a-f9618eb3d2b7"
+        },
+        {
+          "key": "method",
+          "value": "discard",
+          "id": "9319298e-d408-4059-9296-375945cb25ab",
+          "node_id": "d7012d00-6cbc-44a0-bf8a-f9618eb3d2b7"
+        }
+      ],
+      "emits": [
+        {
+          "key": "reagent0",
+          "value": "flow-through",
+          "id": "6d11781d-22d7-4df3-a3b0-a1d13ce802e5",
+          "node_id": "d7012d00-6cbc-44a0-bf8a-f9618eb3d2b7"
+        }
+      ]
+    },
+    {
+      "id": "699c7f84-7f99-42e1-882f-18d5b4b466d4",
+      "text": "Transfer the RNeasy MinElute spin column into a new 2 ml collection tube \\(supplied).",
+      "instruction": "TRANSFER",
+      "slots": [
+        {
+          "key": "source",
+          "value": "RNeasy MinElute spin column",
+          "id": "1378aee4-face-415c-9747-6dbf68f0a9f9",
+          "node_id": "699c7f84-7f99-42e1-882f-18d5b4b466d4"
+        },
+        {
+          "key": "destination",
+          "value": "new 2 ml collection tube",
+          "id": "572ed1f3-ff06-47f6-97ae-7b0f4f9b3b93",
+          "node_id": "699c7f84-7f99-42e1-882f-18d5b4b466d4"
+        },
+        {
+          "key": "reagent1",
+          "value": "RNeasy MinElute spin column",
+          "id": "9f0ecb99-aee0-462c-bd41-a8c00ca72d95",
+          "node_id": "699c7f84-7f99-42e1-882f-18d5b4b466d4"
+        }
+      ],
+      "emits": [
+        {
+          "key": "reagent0",
+          "value": "RNeasy MinElute spin column",
+          "id": "e6214ad7-28e2-4aaf-a223-cdf99938bd49",
+          "node_id": "699c7f84-7f99-42e1-882f-18d5b4b466d4"
+        }
+      ]
+    },
+    {
+      "id": "0284c458-d51e-4015-8e5e-de40904f4081",
+      "text": "Open the lid of the spin column, and centrifuge at full speed for 5 min to dry the membrane. \\(9)",
+      "instruction": "CENTRIFUGE",
+      "slots": [
+        {
+          "key": "reagent1",
+          "value": "spin column",
+          "id": "6ce25d6f-7e88-45a8-a087-5a0b5bc48201",
+          "node_id": "0284c458-d51e-4015-8e5e-de40904f4081"
+        },
+        {
+          "key": "intensity",
+          "value": "full speed",
+          "id": "04b8ddfe-011d-4ead-a951-a6d7e181ae30",
+          "node_id": "0284c458-d51e-4015-8e5e-de40904f4081"
+        },
+        {
+          "key": "time",
+          "value": "5 min",
+          "id": "6d07238f-1df3-449c-9744-9f49f0a3e6f7",
+          "node_id": "0284c458-d51e-4015-8e5e-de40904f4081"
+        }
+      ],
+      "emits": [
+        {
+          "key": "reagent0",
+          "value": "spin column",
+          "id": "88b7d1b1-993e-463b-b0fb-f855b13e49ff",
+          "node_id": "0284c458-d51e-4015-8e5e-de40904f4081"
+        }
+      ]
+    },
+    {
+      "id": "975eea45-fa2d-4930-8087-f1034c38c51d",
+      "text": "Discard the collection tube with the flow-through. \\(8)",
+      "instruction": "DISCARD",
+      "slots": [
+        {
+          "key": "reagent1",
+          "value": "collection tube",
+          "id": "71e34b61-bb20-4a49-b847-1e73d03d261c",
+          "node_id": "975eea45-fa2d-4930-8087-f1034c38c51d"
+        },
+        {
+          "key": "method",
+          "value": "discard",
+          "id": "93b9778d-6b47-4da1-99fe-70937a9abd69",
+          "node_id": "975eea45-fa2d-4930-8087-f1034c38c51d"
+        }
+      ],
+      "emits": [
+        {
+          "key": "reagent0",
+          "value": "flow-through",
+          "id": "2e945c00-d9b4-441b-8267-9e2a3391da51",
+          "node_id": "975eea45-fa2d-4930-8087-f1034c38c51d"
+        }
+      ]
+    },
+    {
+      "id": "add5b689-460f-4275-a8c0-62cc81e7a0c9",
+      "text": "Transfer the RNeasy MinElute spin column to a new 1.5 ml collection tube \\(supplied). Add 14 \u03bcl RNase-free water directly to the center of the spin column membrane. \\(10)",
+      "instruction": "TRANSFER",
+      "slots": [
+        {
+          "key": "source",
+          "value": "RNeasy MinElute spin column",
+          "id": "c66ea90a-5538-420e-a126-3fb4233b7dc6",
+          "node_id": "add5b689-460f-4275-a8c0-62cc81e7a0c9"
+        },
+        {
+          "key": "destination",
+          "value": "1.5 ml collection tube",
+          "id": "98915aa0-05b7-48b4-aba7-ec941ed1445d",
+          "node_id": "add5b689-460f-4275-a8c0-62cc81e7a0c9"
+        },
+        {
+          "key": "reagent1",
+          "value": "RNeasy MinElute spin column",
+          "id": "af10fb7c-fbac-49a1-bc1f-235a09c8f419",
+          "node_id": "add5b689-460f-4275-a8c0-62cc81e7a0c9"
+        },
+        {
+          "key": "volume",
+          "value": "14 \u03bcl",
+          "id": "d8f9d34d-f948-4677-81d6-e21043f0958b",
+          "node_id": "add5b689-460f-4275-a8c0-62cc81e7a0c9"
+        }
+      ],
+      "emits": [
+        {
+          "key": "reagent0",
+          "value": "RNeasy MinElute spin column",
+          "id": "8945b0f1-cada-44ac-b319-38ced19cad41",
+          "node_id": "add5b689-460f-4275-a8c0-62cc81e7a0c9"
+        }
+      ]
+    },
+    {
+      "id": "1944d5e2-96d5-4ce6-b03f-07d494e95494",
+      "text": "Transfer the RNeasy MinElute spin column to a new 1.5 ml collection tube \\(supplied). Add 14 \u03bcl RNase-free water directly to the center of the spin column membrane. \\(10)",
+      "instruction": "ADD",
+      "slots": [
+        {
+          "key": "reagent1",
+          "value": "RNeasy MinElute spin column",
+          "id": "9c545fbe-4c77-4d69-ba0b-2bc8eeee6aa2",
+          "node_id": "1944d5e2-96d5-4ce6-b03f-07d494e95494"
+        },
+        {
+          "key": "reagent2",
+          "value": "RNase-free water",
+          "id": "3a1eefca-ecca-4a06-9af7-4d842e8dd12c",
+          "node_id": "1944d5e2-96d5-4ce6-b03f-07d494e95494"
+        }
+      ],
+      "emits": [
+        {
+          "key": "reagent0",
+          "value": "RNeasy MinElute spin column",
+          "id": "240422dc-068d-4f6d-a4f6-a82db0f5a09e",
+          "node_id": "1944d5e2-96d5-4ce6-b03f-07d494e95494"
+        }
+      ]
+    },
+    {
+      "id": "8029ff53-a4ae-4986-a973-fa41e6bddbf8",
+      "text": "Centrifuge for 1 minute at full speed to elute the RNA.",
+      "instruction": "CENTRIFUGE",
+      "slots": [
+        {
+          "key": "reagent1",
+          "value": "RNeasy MinElute spin column",
+          "id": "f38dfe68-c13a-4e83-9342-32cc07812b51",
+          "node_id": "8029ff53-a4ae-4986-a973-fa41e6bddbf8"
+        },
+        {
+          "key": "intensity",
+          "value": "full speed",
+          "id": "8522404f-6c40-417f-850e-98a138001b2c",
+          "node_id": "8029ff53-a4ae-4986-a973-fa41e6bddbf8"
+        },
+        {
+          "key": "time",
+          "value": "1 minute",
+          "id": "cf913178-85c7-417e-8b8a-36380b571058",
+          "node_id": "8029ff53-a4ae-4986-a973-fa41e6bddbf8"
+        },
+        {
+          "key": "notice",
+          "value": "to elute the RNA",
+          "id": "1889c856-5b07-4990-9f55-5163621d1ea1",
+          "node_id": "8029ff53-a4ae-4986-a973-fa41e6bddbf8"
+        }
+      ],
+      "emits": [
+        {
+          "key": "reagent0",
+          "value": "spin column",
+          "id": "de9bcdc6-26d0-448b-a94b-a17feb35a097",
+          "node_id": "8029ff53-a4ae-4986-a973-fa41e6bddbf8"
+        }
+      ]
+    }
+  ],
+  "edges": []
+}

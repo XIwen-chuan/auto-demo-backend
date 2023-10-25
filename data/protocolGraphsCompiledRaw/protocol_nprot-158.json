@@ -1,0 +1,370 @@
+[
+    {
+        "title": "**Harvest of mouse spleens and preparation of splenic sections**",
+        "body": []
+    },
+    {
+        "title": "**1**",
+        "body": [
+            {
+                "sentence": "Harvest mouse spleens, embed them in OCT compound embedding medium and freeze in liquid nitrogen.",
+                "result": [
+                    {
+                        "HARVEST": {
+                            "emit": [
+                                {
+                                    "reagent0": "mouse spleens"
+                                }
+                            ],
+                            "slot": [
+                                {
+                                    "reagent1": "mouse spleens"
+                                },
+                                {
+                                    "container": "OCT compound embedding medium"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "FREEZE": {
+                            "emit": [
+                                {
+                                    "reagent0": "mouse spleens"
+                                }
+                            ],
+                            "slot": [
+                                {
+                                    "reagent1": "mouse spleens"
+                                },
+                                {
+                                    "temperature": "liquid nitrogen"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "**2**",
+        "body": [
+            {
+                "sentence": "Cut 7 &#xB5;m sections and mount them on Superfrost Plus slides.",
+                "result": [
+                    {
+                        "CUT": {
+                            "emit": [
+                                {
+                                    "reagent0": "mouse spleens"
+                                }
+                            ],
+                            "slot": [
+                                {
+                                    "reagent": "mouse spleens"
+                                },
+                                {
+                                    "size": "7"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "**3**",
+        "body": [
+            {
+                "sentence": "Incubate slides in humidified chambers overnight at 4 &#x2DA;C and dry them, then fix them in acetone at 4 &#x2DA;C for 10 min and block them with PBS + 5% fetal calf serum at 25 &#x2DA;C for 1 h.",
+                "result": [
+                    {
+                        "INCUBATE": {
+                            "emit": [
+                                {
+                                    "reagent0": "slides"
+                                }
+                            ],
+                            "slot": [
+                                {
+                                    "reagent1": "slides"
+                                },
+                                {
+                                    "temperature": "4 \u00b0C"
+                                },
+                                {
+                                    "time": "overnight"
+                                },
+                                {
+                                    "environment": "humidified chambers"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "DRY": {
+                            "emit": [
+                                {
+                                    "reagent0": "slides"
+                                }
+                            ],
+                            "slot": [
+                                {
+                                    "reagent1": "slides"
+                                },
+                                {
+                                    "temperature": "4 \u00b0C"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "FIX": {
+                            "emit": [
+                                {
+                                    "reagent0": "slides"
+                                }
+                            ],
+                            "slot": [
+                                {
+                                    "reagent1": "slides"
+                                },
+                                {
+                                    "reagent2": "acetone"
+                                },
+                                {
+                                    "temperature": "4 \u00b0C"
+                                },
+                                {
+                                    "time": "10 min"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "BLOCK": {
+                            "emit": [
+                                {
+                                    "reagent0": "slides"
+                                }
+                            ],
+                            "slot": [
+                                {
+                                    "reagent1": "slides"
+                                },
+                                {
+                                    "reagent2": "PBS + 5% fetal calf serum"
+                                },
+                                {
+                                    "temperature": "25 \u00b0C"
+                                },
+                                {
+                                    "time": "1 h"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "**Antibody staining and microscopy**",
+        "body": []
+    },
+    {
+        "title": "**4**",
+        "body": [
+            {
+                "sentence": "Stain blocked sections overnight at 4 &#x2DA;C with a combination of anti-CD3-phycoerythrin, anti-B220-FITC, and peanut-agglutinin-biotin, all diluted in blocking buffer \\(all the antibodies need to be titrated for optimal results; dilution 1:200 &#x2013; 1:1000) \\(1).",
+                "result": [
+                    {
+                        "STAIN": {
+                            "emit": [
+                                {
+                                    "reagent0": "blocked sections"
+                                }
+                            ],
+                            "slot": [
+                                {
+                                    "reagent1": "blocked sections"
+                                },
+                                {
+                                    "reagent2": "anti-CD3-phycoerythrin, anti-B220-FITC, and peanut-agglutinin-biotin"
+                                },
+                                {
+                                    "temperature": "4 \u00b0C"
+                                },
+                                {
+                                    "time": "overnight"
+                                },
+                                {
+                                    "notice": "all the antibodies need to be titrated for optimal results; dilution 1:200 \u2013 1:1000"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "DILUTE": {
+                            "emit": [
+                                {
+                                    "reagent0": "blocked sections"
+                                }
+                            ],
+                            "slot": [
+                                {
+                                    "reagent1": "blocked sections"
+                                },
+                                {
+                                    "reagent2": "blocking buffer"
+                                },
+                                {
+                                    "targetConcentration": "1:200 - 1:1000"
+                                },
+                                {
+                                    "notice": "all the antibodies need to be titrated for optimal results; dilution 1:200 \u2013 1:1000"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "**5**",
+        "body": [
+            {
+                "sentence": "Wash the slides 3x with PBS + 0.05% Tween",
+                "result": [
+                    {
+                        "WASH": {
+                            "emit": [
+                                {
+                                    "reagent0": "slides"
+                                }
+                            ],
+                            "slot": [
+                                {
+                                    "reagent1": "slides"
+                                },
+                                {
+                                    "reagent2": "PBS + 0.05% Tween"
+                                },
+                                {
+                                    "repeat": "3"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            },
+            {
+                "title": "20.",
+                "body": [
+                    {
+                        "sentence": "Stain sections with streptavidin-cyanin 5.5 \\(dilution 1:100) at 25 &#x2DA;C for 1 h.",
+                        "result": [
+                            {
+                                "STAIN": {
+                                    "emit": [
+                                        {
+                                            "reagent0": "blocked sections"
+                                        }
+                                    ],
+                                    "slot": [
+                                        {
+                                            "reagent1": "streptavidin-cyanin 5.5"
+                                        },
+                                        {
+                                            "temperature": "25 \u00b0C"
+                                        },
+                                        {
+                                            "time": "1 h"
+                                        }
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "**6**",
+        "body": [
+            {
+                "sentence": "Wash the slides 3x with PBS + 0.05% Tween 20, dry them and mount them with Gelmount.",
+                "result": [
+                    {
+                        "WASH": {
+                            "emit": [
+                                {
+                                    "reagent0": "slides"
+                                }
+                            ],
+                            "slot": [
+                                {
+                                    "reagent1": "slides"
+                                },
+                                {
+                                    "reagent2": "PBS + 0.05% Tween 20"
+                                },
+                                {
+                                    "repeat": "3"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "DRY": {
+                            "emit": [
+                                {
+                                    "reagent0": "slides"
+                                }
+                            ],
+                            "slot": [
+                                {
+                                    "reagent1": "slides"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "**7**",
+        "body": [
+            {
+                "sentence": "Capture images at x10 magnification with a Zeiss Axioplan microscope.",
+                "result": [
+                    {
+                        "CAPTURE": {
+                            "emit": [
+                                {
+                                    "reagent0": "images"
+                                }
+                            ],
+                            "slot": [
+                                {
+                                    "reagent1": "images"
+                                },
+                                {
+                                    "container": "Zeiss Axioplan microscope"
+                                },
+                                {
+                                    "method": "x10 magnification"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        ]
+    }
+]

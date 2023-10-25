@@ -1,0 +1,694 @@
+[
+    {
+        "sentence": "\nDay1:",
+        "result": []
+    },
+    {
+        "title": "1)",
+        "body": [
+            {
+                "sentence": "Plate cells at ~25% confluency in 24-wells plates, using standard growth medium.\r\n\n\n\r\n\n\nDay2:",
+                "result": [
+                    {
+                        "PLATE": {
+                            "emit": [
+                                {
+                                    "reagent0": "cells"
+                                }
+                            ],
+                            "slot": [
+                                {
+                                    "reagent1": "cells"
+                                },
+                                {
+                                    "reagent2": "24-wells plates"
+                                },
+                                {
+                                    "density": "~25%"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "2)",
+        "body": [
+            {
+                "sentence": "Check cells confluency \\(it shoud be ~50%) and replace the medium with 500&#x3BC;l of growth medium without antibiotics.",
+                "result": [
+                    {
+                        "CHECK": {
+                            "emit": [
+                                {
+                                    "reagent0": "cells"
+                                }
+                            ],
+                            "slot": [
+                                {
+                                    "reagent1": "cells"
+                                },
+                                {
+                                    "attribute": "confluency"
+                                },
+                                {
+                                    "method": "visual inspection"
+                                },
+                                {
+                                    "environment": "50%"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "REPLACE": {
+                            "emit": [
+                                {
+                                    "reagent0": "cells"
+                                }
+                            ],
+                            "slot": [
+                                {
+                                    "reagent1": "cells"
+                                },
+                                {
+                                    "reagent2": "growth medium without antibiotics"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "3)",
+        "body": [
+            {
+                "sentence": "Mix 600 ng  of siRNA in 50ul of Opti-MEM \\(amounts and volumes used for a single well)",
+                "result": [
+                    {
+                        "MIX": {
+                            "emit": [
+                                {
+                                    "reagent0": "siRNA-Opti-MEM mixture"
+                                }
+                            ],
+                            "slot": [
+                                {
+                                    "reagent1": "600 ng siRNA"
+                                },
+                                {
+                                    "reagent2": "Opti-MEM"
+                                },
+                                {
+                                    "notice": "amounts and volumes used for a single well"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "4)",
+        "body": [
+            {
+                "sentence": "Mix 1 ul of RNAiMAX in 50 &#x3BC;l of Opti-MEM",
+                "result": [
+                    {
+                        "MIX": {
+                            "emit": [
+                                {
+                                    "reagent0": "siRNA-Opti-MEM mixture"
+                                }
+                            ],
+                            "slot": [
+                                {
+                                    "reagent1": "RNAiMAX"
+                                },
+                                {
+                                    "reagent2": "Opti-MEM"
+                                },
+                                {
+                                    "ratio": "1:50"
+                                },
+                                {
+                                    "method": "Mix"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "5)",
+        "body": [
+            {
+                "sentence": "Combine the 2 solutions, mix gently and incubate 10 minutes at room temperature",
+                "result": [
+                    {
+                        "COMBINE": {
+                            "emit": [
+                                {
+                                    "reagent0": "combined solution"
+                                }
+                            ],
+                            "slot": [
+                                {
+                                    "reagent1": "siRNA-Opti-MEM mixture"
+                                },
+                                {
+                                    "reagent2": "growth medium without antibiotics"
+                                },
+                                {
+                                    "ratio": "1:10"
+                                },
+                                {
+                                    "method": "gentle mixing"
+                                },
+                                {
+                                    "temperature": "room temperature"
+                                },
+                                {
+                                    "time": "10 minutes"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "MIX": {
+                            "emit": [
+                                {
+                                    "reagent0": "combined solution"
+                                }
+                            ],
+                            "slot": [
+                                {
+                                    "reagent1": "combined solution"
+                                },
+                                {
+                                    "method": "gentle mixing"
+                                },
+                                {
+                                    "temperature": "room temperature"
+                                },
+                                {
+                                    "time": "10 minutes"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "INCUBATE": {
+                            "emit": [
+                                {
+                                    "reagent0": "combined solution"
+                                }
+                            ],
+                            "slot": [
+                                {
+                                    "reagent1": "combined solution"
+                                },
+                                {
+                                    "temperature": "room temperature"
+                                },
+                                {
+                                    "time": "10 minutes"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "6)",
+        "body": [
+            {
+                "sentence": "Add the solution uniformly to the cells",
+                "result": [
+                    {
+                        "ADD": {
+                            "emit": [
+                                {
+                                    "reagent0": "cells"
+                                }
+                            ],
+                            "slot": [
+                                {
+                                    "reagent2": "combined solution"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "7)",
+        "body": [
+            {
+                "sentence": "After 4-6 hours replace medium with standard growth medium",
+                "result": [
+                    {
+                        "REPLACE": {
+                            "emit": [
+                                {
+                                    "reagent0": "medium"
+                                }
+                            ],
+                            "slot": [
+                                {
+                                    "reagent1": "medium"
+                                },
+                                {
+                                    "reagent2": "standard growth medium"
+                                },
+                                {
+                                    "time": "4-6 hours"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "8)",
+        "body": [
+            {
+                "sentence": "Incubate cells for 48 hours under standard conditions.\r\n\n\n\r\n\n\nDay4:",
+                "result": [
+                    {
+                        "INCUBATE": {
+                            "emit": [
+                                {
+                                    "reagent0": "cells"
+                                }
+                            ],
+                            "slot": [
+                                {
+                                    "reagent1": "cells"
+                                },
+                                {
+                                    "temperature": "room temperature"
+                                },
+                                {
+                                    "time": "48 hours"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "9)",
+        "body": [
+            {
+                "sentence": "Replace the medium with 500ul of growth medium without antibiotics",
+                "result": [
+                    {
+                        "REPLACE": {
+                            "emit": [
+                                {
+                                    "reagent0": "medium"
+                                }
+                            ],
+                            "slot": [
+                                {
+                                    "reagent1": "medium"
+                                },
+                                {
+                                    "reagent2": "growth medium without antibiotics"
+                                },
+                                {
+                                    "notice": "After 4-6 hours."
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "10)",
+        "body": [
+            {
+                "sentence": "Mix 600ng  of miRNA, 80ng of reporter plasmid and 40ng of pCS2-lacZ plasmid in 50ul of Opti-MEM \\(amounts and volumes used for a single well; pCS2-lacZ is used as normalizer for luciferase assays)",
+                "result": [
+                    {
+                        "MIX": {
+                            "emit": [
+                                {
+                                    "reagent0": "combined solution"
+                                }
+                            ],
+                            "slot": [
+                                {
+                                    "reagent1": "600ng miRNA"
+                                },
+                                {
+                                    "reagent2": "80ng reporter plasmid and 40ng pCS2-lacZ plasmid"
+                                },
+                                {
+                                    "temperature": "room temperature"
+                                },
+                                {
+                                    "time": "10 minutes"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "11)",
+        "body": [
+            {
+                "sentence": "Mix 1ul of Lipofectamine2000 in 50&#x3BC;l of Opti-MEM",
+                "result": [
+                    {
+                        "MIX": {
+                            "emit": [
+                                {
+                                    "reagent0": "combined solution"
+                                }
+                            ],
+                            "slot": [
+                                {
+                                    "reagent1": "1ul Lipofectamine2000"
+                                },
+                                {
+                                    "reagent2": "Opti-MEM"
+                                },
+                                {
+                                    "ratio": "1:50"
+                                },
+                                {
+                                    "method": "Mix"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "12)",
+        "body": [
+            {
+                "sentence": "Combine the 2 solutions, mix gently and incubate 10 minutes at room temperature",
+                "result": [
+                    {
+                        "COMBINE": {
+                            "emit": [
+                                {
+                                    "reagent0": "combined solution"
+                                }
+                            ],
+                            "slot": [
+                                {
+                                    "reagent1": "combined solution"
+                                },
+                                {
+                                    "method": "gentle mixing"
+                                },
+                                {
+                                    "temperature": "room temperature"
+                                },
+                                {
+                                    "time": "10 minutes"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "MIX": {
+                            "emit": [
+                                {
+                                    "reagent0": "combined solution"
+                                }
+                            ],
+                            "slot": [
+                                {
+                                    "reagent1": "combined solution"
+                                },
+                                {
+                                    "method": "gentle"
+                                },
+                                {
+                                    "temperature": "room temperature"
+                                },
+                                {
+                                    "time": "10 minutes"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "INCUBATE": {
+                            "emit": [
+                                {
+                                    "reagent0": "combined solution"
+                                }
+                            ],
+                            "slot": [
+                                {
+                                    "reagent1": "combined solution"
+                                },
+                                {
+                                    "temperature": "room temperature"
+                                },
+                                {
+                                    "time": "10 minutes"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "13)",
+        "body": [
+            {
+                "sentence": "After 4-6 hours replace medium with standard growth medium\r\n\n\n\r\n\n\nDay5:",
+                "result": [
+                    {
+                        "REPLACE": {
+                            "emit": [
+                                {
+                                    "reagent0": "medium"
+                                }
+                            ],
+                            "slot": [
+                                {
+                                    "reagent1": "medium"
+                                },
+                                {
+                                    "reagent2": "standard growth medium"
+                                },
+                                {
+                                    "time": "4-6 hours"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "14)",
+        "body": [
+            {
+                "sentence": "Replace the medium with 500&#x3BC;l of growth medium containing 0.1% serum and incubate for 8 hours",
+                "result": [
+                    {
+                        "REPLACE": {
+                            "emit": [
+                                {
+                                    "reagent0": "medium"
+                                }
+                            ],
+                            "slot": [
+                                {
+                                    "reagent1": "medium"
+                                },
+                                {
+                                    "reagent2": "growth medium containing 0.1% serum"
+                                },
+                                {
+                                    "time": "8 hours"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "INCUBATE": {
+                            "emit": [
+                                {
+                                    "reagent0": "medium"
+                                }
+                            ],
+                            "slot": [
+                                {
+                                    "reagent1": "medium"
+                                },
+                                {
+                                    "temperature": "room temperature"
+                                },
+                                {
+                                    "time": "8 hours"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "15)",
+        "body": [
+            {
+                "sentence": "Dilute the protein ligand in 0.1% serum medium and add the solution to the cells",
+                "result": [
+                    {
+                        "DILUTE": {
+                            "emit": [
+                                {
+                                    "reagent0": "<blank>"
+                                }
+                            ],
+                            "slot": [
+                                {
+                                    "reagent1": "protein ligand"
+                                },
+                                {
+                                    "reagent2": "0.1% serum medium"
+                                },
+                                {
+                                    "targetConcentration": "<blank>"
+                                },
+                                {
+                                    "notice": "<blank>"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "ADD": {
+                            "emit": [
+                                {
+                                    "reagent0": "combined solution"
+                                }
+                            ],
+                            "slot": [
+                                {
+                                    "reagent1": "protein ligand"
+                                },
+                                {
+                                    "reagent2": "0.1% serum medium"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "16)",
+        "body": [
+            {
+                "sentence": "Incubate cells under standard conditions for 2-16 hours \\(according to the ligand activity)",
+                "result": [
+                    {
+                        "INCUBATE": {
+                            "emit": [
+                                {
+                                    "reagent0": "combined solution"
+                                }
+                            ],
+                            "slot": [
+                                {
+                                    "reagent1": "combined solution"
+                                },
+                                {
+                                    "temperature": "room temperature"
+                                },
+                                {
+                                    "time": "2-16 hours"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "17)",
+        "body": [
+            {
+                "sentence": "Replace medium with 200&#x3BC;l per well of luciferase lysis buffer",
+                "result": [
+                    {
+                        "REPLACE": {
+                            "emit": [
+                                {
+                                    "reagent0": "luciferase lysis buffer"
+                                }
+                            ],
+                            "slot": [
+                                {
+                                    "reagent1": "medium"
+                                },
+                                {
+                                    "reagent2": "luciferase lysis buffer"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "18)",
+        "body": [
+            {
+                "sentence": "Perform a standar luciferase assay",
+                "result": [
+                    {
+                        "PERFORM": {
+                            "emit": [],
+                            "slot": [
+                                {
+                                    "procedure": "Perform a standard luciferase assay"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        ]
+    }
+]

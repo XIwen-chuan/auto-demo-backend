@@ -1,0 +1,570 @@
+[
+    {
+        "title": "**Preparation**",
+        "body": [
+            {
+                "title": "1.",
+                "body": [
+                    {
+                        "sentence": "Select the donor, acceptor and substrate combination to perform SRET2 or SRET1 experiments \\(i.e, protein-Rluc, protein-GFP2, protein-YFP and DeepBlueC  for SRET2 experiments or protein-Rluc, protein-YFP, protein-DsRed and coelenterazine h for SRET1 experiments)",
+                        "result": [
+                            {
+                                "SELECT": {
+                                    "emit": [
+                                        {
+                                            "reagent0": "<blank>"
+                                        }
+                                    ],
+                                    "slot": [
+                                        {
+                                            "reagent1/data1": "protein-Rluc, protein-GFP2, protein-YFP and DeepBlueC for SRET2 experiments or protein-Rluc, protein-YFP, protein-DsRed and coelenterazine h for SRET1 experiments"
+                                        }
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "2.",
+                "body": [
+                    {
+                        "sentence": "Generate fusion constructs in Rluc, GFP2, YFP or DsRed expression vectors consisting of the cDNA for the protein of interest inserted in-frame with the cDNA for the bioluminescent or fluorescent donor or acceptor molecule. Remove the stop codon separating the cDNA sequences by mutagenesis so that a single fusion protein is expressed after transfection.",
+                        "result": [
+                            {
+                                "GENERATE": {
+                                    "emit": [
+                                        {
+                                            "data": "<blank>"
+                                        }
+                                    ],
+                                    "slot": [
+                                        {
+                                            "target": "fusion constructs in Rluc, GFP2, YFP or DsRed expression vectors consisting of the cDNA for the protein of interest inserted in-frame with the cDNA for the bioluminescent or fluorescent donor or acceptor molecule"
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "REMOVE": {
+                                    "emit": [
+                                        {
+                                            "reagent0": "fusion protein"
+                                        }
+                                    ],
+                                    "slot": [
+                                        {
+                                            "reagent1": "stop codon"
+                                        },
+                                        {
+                                            "method": "mutagenesis"
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "TRANSFECT": {
+                                    "emit": [
+                                        {
+                                            "reagent0": "transfected cells"
+                                        }
+                                    ],
+                                    "slot": [
+                                        {
+                                            "reagent1": "cells"
+                                        },
+                                        {
+                                            "reagent2": "fusion constructs"
+                                        },
+                                        {
+                                            "reagent3": "mutagenesis"
+                                        },
+                                        {
+                                            "method": "standard procedures"
+                                        }
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "3.",
+                "body": [
+                    {
+                        "sentence": "Validate the fusion proteins of interest, including suitable control proteins, by comparing fusion and wild-type proteins in functional assays. Check that luminescence or fluorescence is detectable \\(represent cDNA transfected versus bioluminescence or fluorescence detected). If possible, use confocal microscopy to visualize \\(by its own fluorescence or using antibodies) correct cellular localization of fusion protein.",
+                        "result": [
+                            {
+                                "COMPARE": {
+                                    "emit": [
+                                        {
+                                            "result": "bioluminescence or fluorescence detected"
+                                        }
+                                    ],
+                                    "slot": [
+                                        {
+                                            "reagent1": "fusion protein"
+                                        },
+                                        {
+                                            "reagent2": "wild-type protein"
+                                        },
+                                        {
+                                            "environment": "luminescence or fluorescence"
+                                        }
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "4.",
+                "body": [
+                    {
+                        "sentence": "Reconstitute and store the luciferase substrate stock solution containing coelenterazine h or DeepBlueC with anhydrous ethanol.",
+                        "result": [
+                            {
+                                "RECONSTITUTE": {
+                                    "emit": [
+                                        {
+                                            "reagent0": "luciferase substrate stock solution"
+                                        }
+                                    ],
+                                    "slot": [
+                                        {
+                                            "reagent1": "luciferase substrate stock solution"
+                                        },
+                                        {
+                                            "reagent2": "anhydrous ethanol"
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "STORE": {
+                                    "emit": [
+                                        {
+                                            "reagent0": "luciferase substrate stock solution"
+                                        }
+                                    ],
+                                    "slot": [
+                                        {
+                                            "reagent1": "luciferase substrate stock solution"
+                                        },
+                                        {
+                                            "temperature": "room temperature"
+                                        }
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "**Cell culture**",
+        "body": [
+            {
+                "title": "5.",
+                "body": [
+                    {
+                        "sentence": "Aliquot cells in 6-well cell culture plate in a suitable growth medium. They should be 60-80 % confluent after 24h. Maintain at 37oC, 5% CO2.",
+                        "result": [
+                            {
+                                "ALIQUOT": {
+                                    "emit": [
+                                        {
+                                            "reagent0": "cells"
+                                        }
+                                    ],
+                                    "slot": [
+                                        {
+                                            "reagent1": "cells"
+                                        },
+                                        {
+                                            "volume": "6-well cell culture plate"
+                                        },
+                                        {
+                                            "container": "suitable growth medium"
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "MAINTAIN": {
+                                    "emit": [],
+                                    "slot": [
+                                        {
+                                            "reagent1/data1/device": "cells"
+                                        },
+                                        {
+                                            "state": "Maintain at 37oC, 5% CO2"
+                                        }
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "6.",
+                "body": [
+                    {
+                        "sentence": "Transfect expression vectors corresponding to the desired fusion proteins at the suitable ratios using PEI according to the manufacturer&#x2019;s protocol. Other methods of transfection may be used as well.",
+                        "result": [
+                            {
+                                "TRANSFECT": {
+                                    "emit": [
+                                        {
+                                            "reagent0": "transfected cells"
+                                        }
+                                    ],
+                                    "slot": [
+                                        {
+                                            "reagent1": "cells"
+                                        },
+                                        {
+                                            "reagent2": "expression vectors"
+                                        },
+                                        {
+                                            "reagent3": "PEI"
+                                        },
+                                        {
+                                            "method": "PEI"
+                                        }
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "7.",
+                "body": [
+                    {
+                        "sentence": "i, Around 48 hour after transiently transfection detach the cells and resuspend in HBSS assay buffer. \r\n        ii, Wash cells twice with assay buffer for 5 minutes and resuspend in the same\r\n\n\n     buffer.\r\n\n\niii, Using an aliquot, quantify the amount of protein with Bradford solution and dilute cells to maintain the same  amount of protein in each sample.\r\n\n\niiii, Aliquot cells into 96-well white and black isoplate \\(100 &#x3BC;L per black well and 90 &#x3BC;L per white well )",
+                        "result": [
+                            {
+                                "RESUSPEND": {
+                                    "emit": [
+                                        {
+                                            "reagent0": "cells"
+                                        }
+                                    ],
+                                    "slot": [
+                                        {
+                                            "reagent1": "cells"
+                                        },
+                                        {
+                                            "reagent2": "HBSS assay buffer"
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "WASH": {
+                                    "emit": [
+                                        {
+                                            "reagent0": "cells"
+                                        }
+                                    ],
+                                    "slot": [
+                                        {
+                                            "reagent1": "cells"
+                                        },
+                                        {
+                                            "reagent2": "assay buffer"
+                                        },
+                                        {
+                                            "repeat": "2"
+                                        },
+                                        {
+                                            "time": "5 minutes"
+                                        },
+                                        {
+                                            "notice": ""
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "RESUSPEND": {
+                                    "emit": [
+                                        {
+                                            "reagent0": "cells"
+                                        }
+                                    ],
+                                    "slot": [
+                                        {
+                                            "reagent1": "cells"
+                                        },
+                                        {
+                                            "reagent2": "HBSS assay buffer"
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "ALIQUOT": {
+                                    "emit": [
+                                        {
+                                            "reagent0": "<blank>"
+                                        }
+                                    ],
+                                    "slot": [
+                                        {
+                                            "reagent1": "Bradford solution"
+                                        },
+                                        {
+                                            "volume": "<blank>"
+                                        },
+                                        {
+                                            "container": "96-well white and black isoplate"
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "ALIQUOT": {
+                                    "emit": [
+                                        {
+                                            "reagent0": "cells"
+                                        }
+                                    ],
+                                    "slot": [
+                                        {
+                                            "reagent1": "cells"
+                                        },
+                                        {
+                                            "volume": "100 \u03bcL per black well and 90 \u03bcL per white well"
+                                        },
+                                        {
+                                            "container": "96-well white and black isoplate"
+                                        }
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "**Fluorescence and luminescence detection**",
+        "body": [
+            {
+                "title": "8.",
+                "body": [
+                    {
+                        "sentence": "Use a fluorimeter to measure the relative fluorescence from aliquots of each sample \\(in 100 &#x3BC;L per well, black isoplates) by directly exciting the first \\(BRET) acceptor fluorophore with laser light at a suitable wavelength \\(410 nm for GFP2 or 485 nm for YFP) and detecting the emission \\(510 nm for GFP2 or 530 nm for YFP) or directly exciting the second \\(FRET) acceptor fluorophore with laser light at a suitable wavelength \\(485 nm for YFP or 544 nm for DsRed) and detecting the emission \\(530 nm for YFP or 590 nm for DsRed). Correct the background fluorescence with untransfected cells.",
+                        "result": [
+                            {
+                                "MEASURE": {
+                                    "emit": [],
+                                    "slot": [
+                                        {
+                                            "device": "fluorimeter"
+                                        },
+                                        {
+                                            "reagent1": "cells"
+                                        },
+                                        {
+                                            "parameter": "relative fluorescence"
+                                        },
+                                        {
+                                            "notice": "Correct the background fluorescence with untransfected cells."
+                                        }
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "9.",
+                "body": [
+                    {
+                        "sentence": "Add 10 &#x3BC;L Coehelenterazine h to aliquots of each sample \\(in 90 &#x3BC;L per well, white isoplates) and after 10 min measure luminescence at 485 nm in a luminometer. Correct the background from untransfected cells.",
+                        "result": [
+                            {
+                                "ADD": {
+                                    "emit": [
+                                        {
+                                            "reagent0": "Coehelenterazine h"
+                                        }
+                                    ],
+                                    "slot": [
+                                        {
+                                            "reagent1": "Coehelenterazine h"
+                                        },
+                                        {
+                                            "reagent2": "aliquots of each sample"
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "MEASURE": {
+                                    "emit": [
+                                        {
+                                            "data0": "<blank>"
+                                        }
+                                    ],
+                                    "slot": [
+                                        {
+                                            "device": "luminometer"
+                                        },
+                                        {
+                                            "reagent1": "Coehelenterazine h"
+                                        },
+                                        {
+                                            "parameter": "luminescence"
+                                        },
+                                        {
+                                            "time": "10 min"
+                                        },
+                                        {
+                                            "wavelength": "485"
+                                        },
+                                        {
+                                            "notice": "Correct the background from untransfected cells."
+                                        }
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "10.",
+                "body": [
+                    {
+                        "sentence": "Fluorescence quantification: YFP fluorescence in SRET2 experiments is defined as the signal detected at 530 nm minus the signal for cells expressing protein-Rluc and protein-GFP2. Linear un-mixing was done taking into account the spectral signature as described previously1. DsRed fluorescence in SRET1 experiments is defined as the signal detected at 590 nm minus the signal for cells expressing protein-Rluc and protein-YFP.",
+                        "result": [
+                            {
+                                "QUANTIFY": {
+                                    "emit": [
+                                        {
+                                            "data": "YFP fluorescence - signal for cells expressing protein-Rluc and protein-GFP2"
+                                        }
+                                    ],
+                                    "slot": [
+                                        {
+                                            "reagent1": "YFP fluorescence"
+                                        },
+                                        {
+                                            "method": "subtract signal for cells expressing protein-Rluc and protein-GFP2"
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "QUANTIFY": {
+                                    "emit": [
+                                        {
+                                            "data": "DsRed fluorescence - signal for cells expressing protein-Rluc and protein-YFP"
+                                        }
+                                    ],
+                                    "slot": [
+                                        {
+                                            "reagent1": "DsRed fluorescence"
+                                        }
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "**SRET detection**",
+        "body": [
+            {
+                "title": "11.",
+                "body": [
+                    {
+                        "sentence": "For protein-Rluc/protein-GFP2/protein-YFP transfection, the SRET2 is measured by adding 10 &#x3BC;L DeepBlueC in each 90 &#x3BC;L white well and immediately detecting emission at 530 nm and 410 nm using a luminometer. For protein-Rluc/protein-YFP/protein-DsRed transfection, the SRET1 is measured by adding 10 &#x3BC;L coelenterazine h in each 90 &#x3BC;L white well 1 minute before detecting the emission at 590 nm and at 485 nm, using a luminometer.",
+                        "result": [
+                            {
+                                "MEASURE": {
+                                    "emit": [
+                                        {
+                                            "data0": "SRET2 measurement"
+                                        }
+                                    ],
+                                    "slot": [
+                                        {
+                                            "device": "luminometer"
+                                        },
+                                        {
+                                            "reagent1": "DeepBlueC"
+                                        },
+                                        {
+                                            "parameter": "emission"
+                                        },
+                                        {
+                                            "wavelength": "530 nm and 410 nm"
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "MEASURE": {
+                                    "emit": [
+                                        {
+                                            "data0": "SRET1 measurement"
+                                        }
+                                    ],
+                                    "slot": [
+                                        {
+                                            "device": "luminometer"
+                                        },
+                                        {
+                                            "reagent1": "coelenterazine h"
+                                        },
+                                        {
+                                            "parameter": "emission at 590 nm and at 485 nm"
+                                        },
+                                        {
+                                            "time": "1 minute"
+                                        }
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "12.",
+                "body": [
+                    {
+                        "sentence": "Repeat readings within the timeframe allowed by substrate stability and cell viability.",
+                        "result": []
+                    }
+                ]
+            },
+            {
+                "title": "13.",
+                "body": [
+                    {
+                        "sentence": "SRET quantification: Net SRET1 is defined as \\[\\(emission at 590 nm)/\\( emission at 485 nm)]-Cf where Cf corresponds to \\[\\(emission at 590 nm)/\\( emission at 485 nm)] for cells expressing protein-Rluc, protein-GFP2 and the other protein partner not fused to a fluorescence protein.\r\n  Net SRET2 is defined as \\[\\(emission at 530 nm)/\\( emission at 410 nm)]-Cf where Cf corresponds to \\[\\(emission at 530 nm)/\\( emission at 410 nm)] for cells expressing protein-Rluc, protein-YFP and the other protein partner not fused to a fluorescence protein",
+                        "result": []
+                    }
+                ]
+            }
+        ]
+    }
+]

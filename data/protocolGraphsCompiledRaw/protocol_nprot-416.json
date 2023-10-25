@@ -1,0 +1,1015 @@
+[
+    {
+        "title": "**Expression**",
+        "body": [
+            {
+                "title": "1)",
+                "body": [
+                    {
+                        "sentence": "100ml o/n LB/amp culture",
+                        "result": [
+                            {
+                                "PREPARE": {
+                                    "emit": [
+                                        {
+                                            "reagent0": "100ml o/n LB/amp culture"
+                                        }
+                                    ],
+                                    "slot": [
+                                        {
+                                            "reagent1": "LB/amp"
+                                        },
+                                        {
+                                            "container": "100ml"
+                                        }
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "2)",
+                "body": [
+                    {
+                        "sentence": "Next day seed 700ml LB/amp with 100ml o/n culture, 37 &#xB0;C.",
+                        "result": [
+                            {
+                                "SEED": {
+                                    "emit": [
+                                        {
+                                            "reagent0": "100ml o/n LB/amp culture"
+                                        }
+                                    ],
+                                    "slot": [
+                                        {
+                                            "reagent1": "LB/amp"
+                                        },
+                                        {
+                                            "cellDensity": "700ml"
+                                        },
+                                        {
+                                            "environment": "37 \u00b0C"
+                                        }
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "3)",
+                "body": [
+                    {
+                        "sentence": "Grow cells until OD600 = 0.6-1.2",
+                        "result": [
+                            {
+                                "GROW": {
+                                    "emit": [
+                                        {
+                                            "reagent0": "cells"
+                                        }
+                                    ],
+                                    "slot": [
+                                        {
+                                            "reagent1": "cells"
+                                        },
+                                        {
+                                            "medium": "LB/amp"
+                                        },
+                                        {
+                                            "temperature": "37 \u00b0C"
+                                        },
+                                        {
+                                            "time": "<blank>"
+                                        },
+                                        {
+                                            "termination": "OD600 = 0.6-1.2"
+                                        },
+                                        {
+                                            "environment": "<blank>"
+                                        },
+                                        {
+                                            "device": "<blank>"
+                                        },
+                                        {
+                                            "notice": "<blank>"
+                                        }
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "4)",
+                "body": [
+                    {
+                        "sentence": "Induce with 1mM IPTG.  Grow for 4hr 37 &#xB0;C.",
+                        "result": [
+                            {
+                                "INDUCE": {
+                                    "emit": [],
+                                    "slot": [
+                                        {
+                                            "reagent1": "1mM IPTG"
+                                        },
+                                        {
+                                            "temperature": "37 \u00b0C"
+                                        },
+                                        {
+                                            "time": "4hr"
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "GROW": {
+                                    "emit": [
+                                        {
+                                            "reagent0": "cells"
+                                        }
+                                    ],
+                                    "slot": [
+                                        {
+                                            "reagent1": "cells"
+                                        },
+                                        {
+                                            "temperature": "37 \u00b0C"
+                                        },
+                                        {
+                                            "time": "4hr"
+                                        }
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "5)",
+                "body": [
+                    {
+                        "sentence": "Harvest 8krpm, 4 &#xB0;C, 10min.",
+                        "result": [
+                            {
+                                "HARVEST": {
+                                    "emit": [
+                                        {
+                                            "reagent0": "cells"
+                                        }
+                                    ],
+                                    "slot": [
+                                        {
+                                            "reagent1": "cells"
+                                        },
+                                        {
+                                            "container": "<blank>"
+                                        },
+                                        {
+                                            "method": "8krpm"
+                                        },
+                                        {
+                                            "environment": "4 \u00b0C"
+                                        },
+                                        {
+                                            "purpose": "<blank>"
+                                        },
+                                        {
+                                            "notice": "10min"
+                                        }
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "6)",
+                "body": [
+                    {
+                        "sentence": "Resuspend 800ml cell culture pellet in 20ml Ni-NTA binding buffer.  LN<sub>2</sub> freeze.",
+                        "result": [
+                            {
+                                "RESUSPEND": {
+                                    "emit": [
+                                        {
+                                            "reagent0": "800ml cell culture pellet"
+                                        }
+                                    ],
+                                    "slot": [
+                                        {
+                                            "reagent1": "800ml cell culture pellet"
+                                        },
+                                        {
+                                            "reagent2": "Ni-NTA binding buffer"
+                                        },
+                                        {
+                                            "temperature": "LN<sub>2</sub> freeze"
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "FREEZE": {
+                                    "emit": [
+                                        {
+                                            "reagent0": "800ml cell culture pellet"
+                                        }
+                                    ],
+                                    "slot": [
+                                        {
+                                            "reagent1": "800ml cell culture pellet"
+                                        },
+                                        {
+                                            "temperature": "LN2"
+                                        }
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "**Purification**",
+        "body": [
+            {
+                "title": "1)",
+                "body": [
+                    {
+                        "sentence": "Thaw 1L cells.  Add PI tablet w/o EDTA.  Add 2mM PMSF.",
+                        "result": [
+                            {
+                                "THAW": {
+                                    "emit": [
+                                        {
+                                            "reagent0": "1L cells"
+                                        }
+                                    ],
+                                    "slot": [
+                                        {
+                                            "reagent1": "1L cells"
+                                        },
+                                        {
+                                            "temperature": "room temperature"
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "ADD": {
+                                    "emit": [
+                                        {
+                                            "reagent0": "1L cells"
+                                        }
+                                    ],
+                                    "slot": [
+                                        {
+                                            "reagent1": "1L cells"
+                                        },
+                                        {
+                                            "reagent2": "PI tablet w/o EDTA"
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "ADD": {
+                                    "emit": [
+                                        {
+                                            "reagent0": "1L cells"
+                                        }
+                                    ],
+                                    "slot": [
+                                        {
+                                            "reagent1": "1L cells"
+                                        },
+                                        {
+                                            "reagent2": "2mM PMSF"
+                                        }
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "2)",
+                "body": [
+                    {
+                        "sentence": "Add 0.4mg/ml lysozyme.  Rock 15-30min until thick.",
+                        "result": [
+                            {
+                                "ADD": {
+                                    "emit": [
+                                        {
+                                            "reagent0": "1L cells"
+                                        }
+                                    ],
+                                    "slot": [
+                                        {
+                                            "reagent1": "1L cells"
+                                        },
+                                        {
+                                            "reagent2": "0.4mg/ml lysozyme"
+                                        }
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "3)",
+                "body": [
+                    {
+                        "sentence": "Add 10mM MgCl<sub>2</sub>.  Add 0.4&#xB5;g/ml DNaseI.  Rock 15-30min until loose.",
+                        "result": [
+                            {
+                                "ADD": {
+                                    "emit": [
+                                        {
+                                            "reagent0": "1L cells"
+                                        }
+                                    ],
+                                    "slot": [
+                                        {
+                                            "reagent1": "1L cells"
+                                        },
+                                        {
+                                            "reagent2": "10mM MgCl2"
+                                        },
+                                        {
+                                            "ratio": "<blank>"
+                                        },
+                                        {
+                                            "concentration": "<blank>"
+                                        },
+                                        {
+                                            "notice": "<blank>"
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "ADD": {
+                                    "emit": [
+                                        {
+                                            "reagent0": "1L cells"
+                                        }
+                                    ],
+                                    "slot": [
+                                        {
+                                            "reagent1": "1L cells"
+                                        },
+                                        {
+                                            "reagent2": "DNaseI"
+                                        },
+                                        {
+                                            "concentration": "0.4\u00b5g/ml"
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "SHAKE": {
+                                    "emit": [
+                                        {
+                                            "reagent0": "1L cells"
+                                        }
+                                    ],
+                                    "slot": [
+                                        {
+                                            "reagent1": "1L cells"
+                                        },
+                                        {
+                                            "temperature": "room temperature"
+                                        },
+                                        {
+                                            "time": "15-30min"
+                                        }
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "4)",
+                "body": [
+                    {
+                        "sentence": "Add 0.1% Tx-100.  Rock 15min.  Save 10&#xB5;l for SDS-PAGE.",
+                        "result": [
+                            {
+                                "ADD": {
+                                    "emit": [
+                                        {
+                                            "reagent0": "1L cells"
+                                        }
+                                    ],
+                                    "slot": [
+                                        {
+                                            "reagent1": "1L cells"
+                                        },
+                                        {
+                                            "reagent2": "0.1% Tx-100"
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "SAVE": {
+                                    "emit": [
+                                        {
+                                            "reagent0": "1L cells"
+                                        }
+                                    ],
+                                    "slot": [
+                                        {
+                                            "volume": "10\u00b5l"
+                                        },
+                                        {
+                                            "reagent1/data1": "1L cells"
+                                        },
+                                        {
+                                            "purpose": "SDS-PAGE"
+                                        }
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "5)",
+                "body": [
+                    {
+                        "sentence": "Spin 16krpm, 4 &#xB0;C, 15min.  Save some sup and pellet for gel.",
+                        "result": [
+                            {
+                                "SPIN": {
+                                    "emit": [
+                                        {
+                                            "reagent0": "1L cells"
+                                        }
+                                    ],
+                                    "slot": [
+                                        {
+                                            "reagent1": "1L cells"
+                                        },
+                                        {
+                                            "intensity": "16krpm"
+                                        },
+                                        {
+                                            "time": "15min"
+                                        },
+                                        {
+                                            "temperature": "4 \u00b0C"
+                                        },
+                                        {
+                                            "notice": "Save some sup and pellet for gel."
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "SAVE": {
+                                    "emit": [
+                                        {
+                                            "reagent0": "sup and pellet"
+                                        }
+                                    ],
+                                    "slot": [
+                                        {
+                                            "reagent1/data1": "sup and pellet"
+                                        }
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "6)",
+                "body": [
+                    {
+                        "sentence": "Meanwhile, wash 2ml Ni-NTA beads \\(for 4L of SH2c cells) with binding buffer.",
+                        "result": [
+                            {
+                                "WASH": {
+                                    "emit": [
+                                        {
+                                            "reagent0": "washed Ni-NTA beads"
+                                        }
+                                    ],
+                                    "slot": [
+                                        {
+                                            "reagent1": "2ml Ni-NTA beads"
+                                        },
+                                        {
+                                            "reagent2": "binding buffer"
+                                        }
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "7)",
+                "body": [
+                    {
+                        "sentence": "Load supernatant onto beads.",
+                        "result": [
+                            {
+                                "LOAD": {
+                                    "emit": [
+                                        {
+                                            "reagent0": "supernatant"
+                                        }
+                                    ],
+                                    "slot": [
+                                        {
+                                            "reagent1": "supernatant"
+                                        },
+                                        {
+                                            "destination": "beads"
+                                        }
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "8)",
+                "body": [
+                    {
+                        "sentence": "Wash with 50ml binding buffer.",
+                        "result": [
+                            {
+                                "WASH": {
+                                    "emit": [
+                                        {
+                                            "reagent0": "washed Ni-NTA beads"
+                                        }
+                                    ],
+                                    "slot": [
+                                        {
+                                            "reagent1": "washed Ni-NTA beads"
+                                        },
+                                        {
+                                            "reagent2": "binding buffer"
+                                        }
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "9)",
+                "body": [
+                    {
+                        "sentence": "Wash with 50ml wash buffer low salt.",
+                        "result": [
+                            {
+                                "WASH": {
+                                    "emit": [
+                                        {
+                                            "reagent0": "washed Ni-NTA beads"
+                                        }
+                                    ],
+                                    "slot": [
+                                        {
+                                            "reagent1": "washed Ni-NTA beads"
+                                        },
+                                        {
+                                            "reagent2": "wash buffer low salt"
+                                        }
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "10)",
+                "body": [
+                    {
+                        "sentence": "Elute with elution buffer low salt.",
+                        "result": [
+                            {
+                                "ELUTE": {
+                                    "emit": [],
+                                    "slot": [
+                                        {
+                                            "reagent1": "elution buffer"
+                                        },
+                                        {
+                                            "reagent2": "low salt"
+                                        }
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "11)",
+                "body": [
+                    {
+                        "sentence": "Dialize into dialysis buffer1 while digesting off His tag with biotinylated thrombin.  Digest for 6hr RT.  A lot of protein will ppt out of solution.  Spin 40k, 4 &#xB0;C, 20min.  Capture biotinylated thrombin with streptavidin agarose.",
+                        "result": [
+                            {
+                                "DIALYZE": {
+                                    "emit": [
+                                        {
+                                            "reagent0": "sup and pellet"
+                                        }
+                                    ],
+                                    "slot": [
+                                        {
+                                            "reagent1": "sup and pellet"
+                                        },
+                                        {
+                                            "reagent2": "dialysis buffer1"
+                                        },
+                                        {
+                                            "temperature": "RT"
+                                        },
+                                        {
+                                            "time": "6hr"
+                                        },
+                                        {
+                                            "notice": "A lot of protein will ppt out of solution. Spin 40k, 4\u00b0C, 20min. Capture biotinylated thrombin with streptavidin agarose."
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "DIGEST": {
+                                    "emit": [
+                                        {
+                                            "reagent0": "sup and pellet"
+                                        }
+                                    ],
+                                    "slot": [
+                                        {
+                                            "reagent1": "sup and pellet"
+                                        },
+                                        {
+                                            "reagent2": "biotinylated thrombin"
+                                        },
+                                        {
+                                            "temperature": "RT"
+                                        },
+                                        {
+                                            "time": "6hr"
+                                        },
+                                        {
+                                            "notice": "A lot of protein will ppt out of solution."
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "SPIN": {
+                                    "emit": [
+                                        {
+                                            "reagent0": "sup and pellet"
+                                        }
+                                    ],
+                                    "slot": [
+                                        {
+                                            "reagent1": "sup and pellet"
+                                        },
+                                        {
+                                            "intensity": "40k"
+                                        },
+                                        {
+                                            "time": "20min"
+                                        },
+                                        {
+                                            "temperature": "4 \u00b0C"
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "CAPTURE": {
+                                    "emit": [],
+                                    "slot": [
+                                        {
+                                            "reagent1": "biotinylated thrombin"
+                                        },
+                                        {
+                                            "container": "streptavidin agarose"
+                                        }
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "12)",
+                "body": [
+                    {
+                        "sentence": "Dialize flow through in FPLC Buffer A.",
+                        "result": [
+                            {
+                                "DIALYZE": {
+                                    "emit": [
+                                        {
+                                            "reagent0": "flow through"
+                                        }
+                                    ],
+                                    "slot": [
+                                        {
+                                            "reagent1": "flow through"
+                                        },
+                                        {
+                                            "reagent2": "FPLC Buffer A"
+                                        }
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "13)",
+                "body": [
+                    {
+                        "sentence": "Run SDS PAGE on purification.  Do a quick protein concentration check.",
+                        "result": [
+                            {
+                                "RUN": {
+                                    "emit": [],
+                                    "slot": [
+                                        {
+                                            "reagent1": "purification"
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "CHECK": {
+                                    "emit": [
+                                        {
+                                            "reagent0": "sup and pellet"
+                                        }
+                                    ],
+                                    "slot": [
+                                        {
+                                            "reagent1": "sup and pellet"
+                                        },
+                                        {
+                                            "attribute": "protein concentration"
+                                        },
+                                        {
+                                            "method": "spectrophotometry"
+                                        },
+                                        {
+                                            "equipment": "spectrophotometer"
+                                        }
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "**FPLC Purification**",
+        "body": [
+            {
+                "sentence": "Use 1ml Qlinear 40mlCV FPLC program.  This one gets around the computer bug that messes up the fraction collector.\r\n\n\nUse a 1ml SP-Cation Exchange column",
+                "result": []
+            },
+            {
+                "title": "1)",
+                "body": [
+                    {
+                        "sentence": "Load 2ml protein \\(~3mg/ml)",
+                        "result": [
+                            {
+                                "LOAD": {
+                                    "emit": [
+                                        {
+                                            "reagent0": "protein"
+                                        }
+                                    ],
+                                    "slot": [
+                                        {
+                                            "reagent1": "protein"
+                                        },
+                                        {
+                                            "destination": "<blank>"
+                                        },
+                                        {
+                                            "volume": "2ml"
+                                        },
+                                        {
+                                            "method": "<blank>"
+                                        },
+                                        {
+                                            "notice": "<blank>"
+                                        }
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "2)",
+                "body": [
+                    {
+                        "sentence": "Elute at: Flow rate 1ml/min\r\n\n\nGradient 0-50% FPLC Buffer B\r\n\n\nElute 40min",
+                        "result": [
+                            {
+                                "ELUTE": {
+                                    "emit": [
+                                        {
+                                            "reagent0": "protein"
+                                        }
+                                    ],
+                                    "slot": [
+                                        {
+                                            "reagent1": "sup and pellet"
+                                        },
+                                        {
+                                            "reagent2": "FPLC Buffer B"
+                                        },
+                                        {
+                                            "component": "protein"
+                                        },
+                                        {
+                                            "time": "40min"
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "FLOW": {
+                                    "emit": [
+                                        {
+                                            "reagent0": "protein"
+                                        }
+                                    ],
+                                    "slot": [
+                                        {
+                                            "reagent1": "FPLC Buffer B"
+                                        },
+                                        {
+                                            "reagent2": "FPLC Buffer A"
+                                        },
+                                        {
+                                            "flowRate": "1ml/min"
+                                        },
+                                        {
+                                            "time": "40min"
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "ELUTE": {
+                                    "emit": [
+                                        {
+                                            "reagent0": "protein"
+                                        }
+                                    ],
+                                    "slot": [
+                                        {
+                                            "reagent1": "protein"
+                                        },
+                                        {
+                                            "reagent2": "FPLC Buffer B"
+                                        },
+                                        {
+                                            "component": "protein"
+                                        },
+                                        {
+                                            "time": "40min"
+                                        }
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "3)",
+                "body": [
+                    {
+                        "sentence": "Run SDS PAGE",
+                        "result": [
+                            {
+                                "RUN": {
+                                    "emit": [
+                                        {
+                                            "reagent0": "protein"
+                                        }
+                                    ],
+                                    "slot": [
+                                        {
+                                            "reagent1": "protein"
+                                        }
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "4)",
+                "body": [
+                    {
+                        "sentence": "Dialize pure peak into buffer2.  Do concentration.  LN<sub>2</sub> freeze.",
+                        "result": [
+                            {
+                                "DIALYZE": {
+                                    "emit": [
+                                        {
+                                            "reagent0": "pure peak"
+                                        }
+                                    ],
+                                    "slot": [
+                                        {
+                                            "reagent1": "pure peak"
+                                        },
+                                        {
+                                            "reagent2": "buffer2"
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "CONCENTRATE": {
+                                    "emit": [
+                                        {
+                                            "reagent0": "protein"
+                                        }
+                                    ],
+                                    "slot": [
+                                        {
+                                            "reagent1": "protein"
+                                        },
+                                        {
+                                            "targetVol": "2ml"
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "FREEZE": {
+                                    "emit": [
+                                        {
+                                            "reagent0": "pure peak"
+                                        }
+                                    ],
+                                    "slot": [
+                                        {
+                                            "reagent1": "pure peak"
+                                        },
+                                        {
+                                            "temperature": "LN2"
+                                        }
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+]

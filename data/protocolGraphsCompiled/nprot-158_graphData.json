@@ -1,0 +1,435 @@
+{
+  "name": "nprot-158_graphData.json",
+  "nodes": [
+    {
+      "id": "1bf06cd0-7d92-49ca-803b-48d00537ad94",
+      "text": "Harvest mouse spleens, embed them in OCT compound embedding medium and freeze in liquid nitrogen.",
+      "instruction": "HARVEST",
+      "slots": [
+        {
+          "key": "reagent1",
+          "value": "mouse spleens",
+          "id": "09c0c9a5-a918-4c80-a1ea-eb52930b98a5",
+          "node_id": "1bf06cd0-7d92-49ca-803b-48d00537ad94"
+        },
+        {
+          "key": "container",
+          "value": "OCT compound embedding medium",
+          "id": "01425047-7cd9-473e-8b39-3a992acbfc5a",
+          "node_id": "1bf06cd0-7d92-49ca-803b-48d00537ad94"
+        }
+      ],
+      "emits": [
+        {
+          "key": "reagent0",
+          "value": "mouse spleens",
+          "id": "2803a01c-3aac-4705-a6f1-f7523d95196c",
+          "node_id": "1bf06cd0-7d92-49ca-803b-48d00537ad94"
+        }
+      ]
+    },
+    {
+      "id": "9d64676c-8317-457a-808d-f1cd3e17336e",
+      "text": "Harvest mouse spleens, embed them in OCT compound embedding medium and freeze in liquid nitrogen.",
+      "instruction": "FREEZE",
+      "slots": [
+        {
+          "key": "reagent1",
+          "value": "mouse spleens",
+          "id": "4038a2e2-1aa0-44da-b038-3602f4d8787f",
+          "node_id": "9d64676c-8317-457a-808d-f1cd3e17336e"
+        },
+        {
+          "key": "temperature",
+          "value": "liquid nitrogen",
+          "id": "36d42637-96c9-496a-9a7a-90c89a3b9411",
+          "node_id": "9d64676c-8317-457a-808d-f1cd3e17336e"
+        }
+      ],
+      "emits": [
+        {
+          "key": "reagent0",
+          "value": "mouse spleens",
+          "id": "178e081b-071c-4c7e-a7ca-7eeee7e10863",
+          "node_id": "9d64676c-8317-457a-808d-f1cd3e17336e"
+        }
+      ]
+    },
+    {
+      "id": "a4781294-ff38-4d72-a096-5cc7c858f4b3",
+      "text": "Cut 7 &#xB5;m sections and mount them on Superfrost Plus slides.",
+      "instruction": "CUT",
+      "slots": [
+        {
+          "key": "reagent",
+          "value": "mouse spleens",
+          "id": "64353b79-b169-46a0-9133-c087a080cf78",
+          "node_id": "a4781294-ff38-4d72-a096-5cc7c858f4b3"
+        },
+        {
+          "key": "size",
+          "value": "7",
+          "id": "e48ac4b2-864c-4f8d-a3cd-8bded35dc631",
+          "node_id": "a4781294-ff38-4d72-a096-5cc7c858f4b3"
+        }
+      ],
+      "emits": [
+        {
+          "key": "reagent0",
+          "value": "mouse spleens",
+          "id": "3e993e9d-a1a1-4a98-a1aa-0134429c10e1",
+          "node_id": "a4781294-ff38-4d72-a096-5cc7c858f4b3"
+        }
+      ]
+    },
+    {
+      "id": "df3f7cb1-8802-407b-b467-aaf4ddae9f52",
+      "text": "Incubate slides in humidified chambers overnight at 4 &#x2DA;C and dry them, then fix them in acetone at 4 &#x2DA;C for 10 min and block them with PBS + 5% fetal calf serum at 25 &#x2DA;C for 1 h.",
+      "instruction": "INCUBATE",
+      "slots": [
+        {
+          "key": "reagent1",
+          "value": "slides",
+          "id": "2660e6f8-5e08-401a-ace1-49ef15fa75f0",
+          "node_id": "df3f7cb1-8802-407b-b467-aaf4ddae9f52"
+        },
+        {
+          "key": "temperature",
+          "value": "4 \u00b0C",
+          "id": "9bc7024b-4222-4259-950a-9dd6bab46f30",
+          "node_id": "df3f7cb1-8802-407b-b467-aaf4ddae9f52"
+        },
+        {
+          "key": "time",
+          "value": "overnight",
+          "id": "4f16e993-fa04-4ea9-a37d-853aa042999e",
+          "node_id": "df3f7cb1-8802-407b-b467-aaf4ddae9f52"
+        },
+        {
+          "key": "environment",
+          "value": "humidified chambers",
+          "id": "2d9b43be-ff4e-4a3f-be52-139cdccb3eff",
+          "node_id": "df3f7cb1-8802-407b-b467-aaf4ddae9f52"
+        }
+      ],
+      "emits": [
+        {
+          "key": "reagent0",
+          "value": "slides",
+          "id": "20db89aa-a62d-4ac7-96f3-40651b7e32ce",
+          "node_id": "df3f7cb1-8802-407b-b467-aaf4ddae9f52"
+        }
+      ]
+    },
+    {
+      "id": "65acc023-8601-4be2-8d74-241060c42bff",
+      "text": "Incubate slides in humidified chambers overnight at 4 &#x2DA;C and dry them, then fix them in acetone at 4 &#x2DA;C for 10 min and block them with PBS + 5% fetal calf serum at 25 &#x2DA;C for 1 h.",
+      "instruction": "DRY",
+      "slots": [
+        {
+          "key": "reagent1",
+          "value": "slides",
+          "id": "50f851c5-f03b-40fa-8f79-7c438af1d542",
+          "node_id": "65acc023-8601-4be2-8d74-241060c42bff"
+        },
+        {
+          "key": "temperature",
+          "value": "4 \u00b0C",
+          "id": "c28ae11c-d09b-40bc-9962-2f6a89c0a7b7",
+          "node_id": "65acc023-8601-4be2-8d74-241060c42bff"
+        }
+      ],
+      "emits": [
+        {
+          "key": "reagent0",
+          "value": "slides",
+          "id": "b2bc44c0-c9fa-4978-98bf-e35ae69f7ec4",
+          "node_id": "65acc023-8601-4be2-8d74-241060c42bff"
+        }
+      ]
+    },
+    {
+      "id": "3383315f-34e8-4782-9df0-1c4e3542406b",
+      "text": "Incubate slides in humidified chambers overnight at 4 &#x2DA;C and dry them, then fix them in acetone at 4 &#x2DA;C for 10 min and block them with PBS + 5% fetal calf serum at 25 &#x2DA;C for 1 h.",
+      "instruction": "FIX",
+      "slots": [
+        {
+          "key": "reagent1",
+          "value": "slides",
+          "id": "badebc88-ef19-4469-aea8-782e57cd1dee",
+          "node_id": "3383315f-34e8-4782-9df0-1c4e3542406b"
+        },
+        {
+          "key": "reagent2",
+          "value": "acetone",
+          "id": "a69d7ed7-0c28-4d3d-924d-9454c6499a12",
+          "node_id": "3383315f-34e8-4782-9df0-1c4e3542406b"
+        },
+        {
+          "key": "temperature",
+          "value": "4 \u00b0C",
+          "id": "7de429b3-964c-40b9-afd5-e6956722597d",
+          "node_id": "3383315f-34e8-4782-9df0-1c4e3542406b"
+        },
+        {
+          "key": "time",
+          "value": "10 min",
+          "id": "f6678742-d2bf-4ff7-a522-299401faf45f",
+          "node_id": "3383315f-34e8-4782-9df0-1c4e3542406b"
+        }
+      ],
+      "emits": [
+        {
+          "key": "reagent0",
+          "value": "slides",
+          "id": "50453887-0089-4db5-b09d-db51c6971173",
+          "node_id": "3383315f-34e8-4782-9df0-1c4e3542406b"
+        }
+      ]
+    },
+    {
+      "id": "42cb0ec6-24d6-4604-995c-b89e26765c9d",
+      "text": "Incubate slides in humidified chambers overnight at 4 &#x2DA;C and dry them, then fix them in acetone at 4 &#x2DA;C for 10 min and block them with PBS + 5% fetal calf serum at 25 &#x2DA;C for 1 h.",
+      "instruction": "BLOCK",
+      "slots": [
+        {
+          "key": "reagent1",
+          "value": "slides",
+          "id": "7020c133-8ce5-4e22-b987-705755e47af0",
+          "node_id": "42cb0ec6-24d6-4604-995c-b89e26765c9d"
+        },
+        {
+          "key": "reagent2",
+          "value": "PBS + 5% fetal calf serum",
+          "id": "24d713c8-f45b-44bc-9a1d-e4e00ef61607",
+          "node_id": "42cb0ec6-24d6-4604-995c-b89e26765c9d"
+        },
+        {
+          "key": "temperature",
+          "value": "25 \u00b0C",
+          "id": "1bd31a78-92ff-4b1a-84f9-661be6b246f1",
+          "node_id": "42cb0ec6-24d6-4604-995c-b89e26765c9d"
+        },
+        {
+          "key": "time",
+          "value": "1 h",
+          "id": "45e9343e-77f5-4364-b701-07a9d3d11ee5",
+          "node_id": "42cb0ec6-24d6-4604-995c-b89e26765c9d"
+        }
+      ],
+      "emits": [
+        {
+          "key": "reagent0",
+          "value": "slides",
+          "id": "e936f3e2-2848-4b09-bc49-9187b960186f",
+          "node_id": "42cb0ec6-24d6-4604-995c-b89e26765c9d"
+        }
+      ]
+    },
+    {
+      "id": "d37ad1a5-713b-4a15-8756-924677400128",
+      "text": "Stain blocked sections overnight at 4 &#x2DA;C with a combination of anti-CD3-phycoerythrin, anti-B220-FITC, and peanut-agglutinin-biotin, all diluted in blocking buffer \\(all the antibodies need to be titrated for optimal results; dilution 1:200 &#x2013; 1:1000) \\(1).",
+      "instruction": "STAIN",
+      "slots": [
+        {
+          "key": "reagent1",
+          "value": "blocked sections",
+          "id": "183043af-f0da-4ead-94d7-59ce7ea0de2e",
+          "node_id": "d37ad1a5-713b-4a15-8756-924677400128"
+        },
+        {
+          "key": "reagent2",
+          "value": "anti-CD3-phycoerythrin, anti-B220-FITC, and peanut-agglutinin-biotin",
+          "id": "60fa5330-d66e-4a08-aee1-39431cf71e84",
+          "node_id": "d37ad1a5-713b-4a15-8756-924677400128"
+        },
+        {
+          "key": "temperature",
+          "value": "4 \u00b0C",
+          "id": "2862161f-cdd3-49f9-8c3c-e55147298098",
+          "node_id": "d37ad1a5-713b-4a15-8756-924677400128"
+        },
+        {
+          "key": "time",
+          "value": "overnight",
+          "id": "770c7db9-4124-449d-b0c6-f299f73acf40",
+          "node_id": "d37ad1a5-713b-4a15-8756-924677400128"
+        },
+        {
+          "key": "notice",
+          "value": "all the antibodies need to be titrated for optimal results; dilution 1:200 \u2013 1:1000",
+          "id": "b177c3f6-cde9-4bcd-aecf-fd36d94008e2",
+          "node_id": "d37ad1a5-713b-4a15-8756-924677400128"
+        }
+      ],
+      "emits": [
+        {
+          "key": "reagent0",
+          "value": "blocked sections",
+          "id": "caa1b047-37c8-4e4e-ad1e-37dc83221559",
+          "node_id": "d37ad1a5-713b-4a15-8756-924677400128"
+        }
+      ]
+    },
+    {
+      "id": "46092f83-d30d-43bf-b543-e873b7dac7d8",
+      "text": "Stain blocked sections overnight at 4 &#x2DA;C with a combination of anti-CD3-phycoerythrin, anti-B220-FITC, and peanut-agglutinin-biotin, all diluted in blocking buffer \\(all the antibodies need to be titrated for optimal results; dilution 1:200 &#x2013; 1:1000) \\(1).",
+      "instruction": "DILUTE",
+      "slots": [
+        {
+          "key": "reagent1",
+          "value": "blocked sections",
+          "id": "5ea32199-bed1-4ecf-b40e-adc15a0bcb80",
+          "node_id": "46092f83-d30d-43bf-b543-e873b7dac7d8"
+        },
+        {
+          "key": "reagent2",
+          "value": "blocking buffer",
+          "id": "ad263b10-06d9-44a4-8e5a-c994a83d2ea2",
+          "node_id": "46092f83-d30d-43bf-b543-e873b7dac7d8"
+        },
+        {
+          "key": "targetConcentration",
+          "value": "1:200 - 1:1000",
+          "id": "b005fd17-46b4-4ab8-853e-d61783f0924e",
+          "node_id": "46092f83-d30d-43bf-b543-e873b7dac7d8"
+        },
+        {
+          "key": "notice",
+          "value": "all the antibodies need to be titrated for optimal results; dilution 1:200 \u2013 1:1000",
+          "id": "7376ca48-2624-49d3-b4c3-35fa438dd330",
+          "node_id": "46092f83-d30d-43bf-b543-e873b7dac7d8"
+        }
+      ],
+      "emits": [
+        {
+          "key": "reagent0",
+          "value": "blocked sections",
+          "id": "77e8eb6a-e050-472f-a43c-56abcc8f3188",
+          "node_id": "46092f83-d30d-43bf-b543-e873b7dac7d8"
+        }
+      ]
+    },
+    {
+      "id": "2a697541-70ab-481a-96b3-02d92bd654b3",
+      "text": "Wash the slides 3x with PBS + 0.05% Tween",
+      "instruction": "WASH",
+      "slots": [
+        {
+          "key": "reagent1",
+          "value": "slides",
+          "id": "982f2d9d-7f4d-4448-9ac5-808f7f3b064f",
+          "node_id": "2a697541-70ab-481a-96b3-02d92bd654b3"
+        },
+        {
+          "key": "reagent2",
+          "value": "PBS + 0.05% Tween",
+          "id": "aa2d86ac-a1e0-4bdc-8961-58f8496463bc",
+          "node_id": "2a697541-70ab-481a-96b3-02d92bd654b3"
+        },
+        {
+          "key": "repeat",
+          "value": "3",
+          "id": "7f0b9441-b2df-4372-8e36-62def3d6f654",
+          "node_id": "2a697541-70ab-481a-96b3-02d92bd654b3"
+        }
+      ],
+      "emits": [
+        {
+          "key": "reagent0",
+          "value": "slides",
+          "id": "e6db2539-3850-4775-bfe9-ba272f424bed",
+          "node_id": "2a697541-70ab-481a-96b3-02d92bd654b3"
+        }
+      ]
+    },
+    {
+      "id": "c9b418fe-9a3f-4874-8b50-cf33e6489dc2",
+      "text": "Wash the slides 3x with PBS + 0.05% Tween 20, dry them and mount them with Gelmount.",
+      "instruction": "WASH",
+      "slots": [
+        {
+          "key": "reagent1",
+          "value": "slides",
+          "id": "c313a139-98a3-46a7-8f13-3715e7b6e99e",
+          "node_id": "c9b418fe-9a3f-4874-8b50-cf33e6489dc2"
+        },
+        {
+          "key": "reagent2",
+          "value": "PBS + 0.05% Tween 20",
+          "id": "bc89cfa2-3518-48d1-8265-a8466c344358",
+          "node_id": "c9b418fe-9a3f-4874-8b50-cf33e6489dc2"
+        },
+        {
+          "key": "repeat",
+          "value": "3",
+          "id": "b093ed1a-33f4-49a3-8363-5ac3acb28794",
+          "node_id": "c9b418fe-9a3f-4874-8b50-cf33e6489dc2"
+        }
+      ],
+      "emits": [
+        {
+          "key": "reagent0",
+          "value": "slides",
+          "id": "4dd09653-8798-4368-88b9-43a7ceb157a8",
+          "node_id": "c9b418fe-9a3f-4874-8b50-cf33e6489dc2"
+        }
+      ]
+    },
+    {
+      "id": "e26a18d3-e287-48be-a25b-d65c6840267f",
+      "text": "Wash the slides 3x with PBS + 0.05% Tween 20, dry them and mount them with Gelmount.",
+      "instruction": "DRY",
+      "slots": [
+        {
+          "key": "reagent1",
+          "value": "slides",
+          "id": "92a1b4d8-0244-4f5a-a0de-a9de10d5dc19",
+          "node_id": "e26a18d3-e287-48be-a25b-d65c6840267f"
+        }
+      ],
+      "emits": [
+        {
+          "key": "reagent0",
+          "value": "slides",
+          "id": "e37b07f0-ffa8-4af0-879f-623fa8f9b695",
+          "node_id": "e26a18d3-e287-48be-a25b-d65c6840267f"
+        }
+      ]
+    },
+    {
+      "id": "0a23aaba-4628-4a19-80b2-457086b63e22",
+      "text": "Capture images at x10 magnification with a Zeiss Axioplan microscope.",
+      "instruction": "CAPTURE",
+      "slots": [
+        {
+          "key": "reagent1",
+          "value": "images",
+          "id": "c1c588e6-2a0d-43a2-a24e-4eeb50ba8c04",
+          "node_id": "0a23aaba-4628-4a19-80b2-457086b63e22"
+        },
+        {
+          "key": "container",
+          "value": "Zeiss Axioplan microscope",
+          "id": "5d35c36f-3bdd-4516-8d62-9cde2077458f",
+          "node_id": "0a23aaba-4628-4a19-80b2-457086b63e22"
+        },
+        {
+          "key": "method",
+          "value": "x10 magnification",
+          "id": "4e0e68b1-d9a2-45ce-9ffc-b5e618f4422e",
+          "node_id": "0a23aaba-4628-4a19-80b2-457086b63e22"
+        }
+      ],
+      "emits": [
+        {
+          "key": "reagent0",
+          "value": "images",
+          "id": "2bcc43a7-96cb-4404-a5d5-7aa0bc55ae82",
+          "node_id": "0a23aaba-4628-4a19-80b2-457086b63e22"
+        }
+      ]
+    }
+  ],
+  "edges": []
+}

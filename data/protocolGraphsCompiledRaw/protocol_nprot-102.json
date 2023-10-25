@@ -1,0 +1,1121 @@
+[
+    {
+        "title": "1.",
+        "body": [
+            {
+                "sentence": "Streak yeast cell EGY48 with p8op-lacZ reporter plasmid on SD-Ura plate for 3-5 days \\(at 30 <sup>o</sup>C). Scrape an entire colony \\(2-3 mm in diameter) into 1 ml of YPD medium, Vortex vigorously to disperse any clumps. Transfer this into a flask containing YPD:\r\n  Small Scale: 50 ml in 250 ml flask\r\n\n\nLibrary Scale: 150 ml in 500 ml flask\r\n\n\n\r\n\n\nIncubate at 30 <sup>o</sup>C overnight \\(16-18 hr) with shaking \\(at 250 rpm) to stationary phase \\(OD<sub>600</sub> greater than/equal to 1.5).",
+                "result": [
+                    {
+                        "TRANSFER": {
+                            "emit": [
+                                {
+                                    "reagent0": "entire colony (2-3 mm in diameter)"
+                                }
+                            ],
+                            "slot": [
+                                {
+                                    "source": "1 ml of YPD medium"
+                                },
+                                {
+                                    "destination": "flask containing YPD"
+                                },
+                                {
+                                    "reagent1": "entire colony (2-3 mm in diameter)"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "INCUBATE": {
+                            "emit": [
+                                {
+                                    "reagent0": "entire colony (2-3 mm in diameter)"
+                                }
+                            ],
+                            "slot": [
+                                {
+                                    "reagent1": "YPD medium"
+                                },
+                                {
+                                    "temperature": "30 \u00b0C"
+                                },
+                                {
+                                    "time": "16-18 hr"
+                                },
+                                {
+                                    "device": "shaker"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "2.",
+        "body": [
+            {
+                "sentence": "Early the next morning, transfer overnight culture \\(enough to produce an OD<sub>600</sub>=0.2-0.3) into this volume of YPD:\r\n  Small Scale: 300 ml in 1L flask\r\n\n\nLibrary Scale: 1000 ml in 2L flask",
+                "result": [
+                    {
+                        "TRANSFER": {
+                            "emit": [
+                                {
+                                    "reagent0": "entire colony (2-3 mm in diameter)"
+                                }
+                            ],
+                            "slot": [
+                                {
+                                    "source": "overnight culture"
+                                },
+                                {
+                                    "destination": "YPD"
+                                },
+                                {
+                                    "reagent1": "overnight culture"
+                                },
+                                {
+                                    "volume": "300 ml"
+                                },
+                                {
+                                    "equipment": "1L flask"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "TRANSFER": {
+                            "emit": [
+                                {
+                                    "reagent0": "overnight culture"
+                                }
+                            ],
+                            "slot": [
+                                {
+                                    "source": "overnight culture"
+                                },
+                                {
+                                    "destination": "volume of YPD"
+                                },
+                                {
+                                    "reagent1": "overnight culture"
+                                },
+                                {
+                                    "volume": "300 ml"
+                                },
+                                {
+                                    "notice": "Small Scale: 300 ml in 1L flask"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "3.",
+        "body": [
+            {
+                "sentence": "Incubate at 30 <sup>o</sup>C for 3 hr with shaking \\(230 rpm). The OD<sub>600</sub> will be 0.5 plus/minus 0.1.",
+                "result": [
+                    {
+                        "INCUBATE": {
+                            "emit": [
+                                {
+                                    "reagent0": "entire colony (2-3 mm in diameter)"
+                                }
+                            ],
+                            "slot": [
+                                {
+                                    "reagent1": "entire colony (2-3 mm in diameter)"
+                                },
+                                {
+                                    "temperature": "30 \u00b0C"
+                                },
+                                {
+                                    "time": "3 hr"
+                                },
+                                {
+                                    "device": "shaking (230 rpm)"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "4.",
+        "body": [
+            {
+                "sentence": "Place cells in 50-ml tubes and centrifuge at 1500 rpm in floor centrifuge for 5 min at room temperature.",
+                "result": [
+                    {
+                        "PLACE": {
+                            "emit": [
+                                {
+                                    "reagent0": "cells"
+                                }
+                            ],
+                            "slot": [
+                                {
+                                    "reagent1": "cells"
+                                },
+                                {
+                                    "destination": "50-ml tubes"
+                                },
+                                {
+                                    "temperature": "room temperature"
+                                },
+                                {
+                                    "device": "floor centrifuge"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "CENTRIFUGE": {
+                            "emit": [
+                                {
+                                    "reagent0": "cells"
+                                }
+                            ],
+                            "slot": [
+                                {
+                                    "reagent1": "cells"
+                                },
+                                {
+                                    "intensity": "1500 rpm"
+                                },
+                                {
+                                    "time": "5 min"
+                                },
+                                {
+                                    "temperature": "room temperature"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "5.",
+        "body": [
+            {
+                "sentence": "Discard the supernatant and resuspend cell pellets by vortexing in this volume of sterile TE or H<sub>2</sub>O:\r\n  Small Scale: 25-50 ml\r\n\n\nLibrary Scale: 500 ml",
+                "result": [
+                    {
+                        "DISCARD": {
+                            "emit": [
+                                {
+                                    "reagent0": "cell pellets"
+                                }
+                            ],
+                            "slot": [
+                                {
+                                    "reagent1": "supernatant"
+                                },
+                                {
+                                    "method": "discard"
+                                },
+                                {
+                                    "notice": "Small Scale: 25-50 ml\\n\\n\\nLibrary Scale: 500 ml"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "RESUSPEND": {
+                            "emit": [
+                                {
+                                    "reagent0": "cell pellets"
+                                }
+                            ],
+                            "slot": [
+                                {
+                                    "reagent1": "cell pellets"
+                                },
+                                {
+                                    "reagent2": "sterile TE or H<sub>2</sub>O"
+                                },
+                                {
+                                    "notice": "Small Scale: 25-50 ml"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "6.",
+        "body": [
+            {
+                "sentence": "Pool cells in 50 ml tube and centrifuge at 1500 rpm in floor centrifuge for 5 min at room temperature.",
+                "result": [
+                    {
+                        "POOL": {
+                            "emit": [
+                                {
+                                    "reagent0": "cells"
+                                }
+                            ],
+                            "slot": [
+                                {
+                                    "reagent1": "cells"
+                                },
+                                {
+                                    "container": "50 ml tube"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "CENTRIFUGE": {
+                            "emit": [
+                                {
+                                    "reagent0": "cells"
+                                }
+                            ],
+                            "slot": [
+                                {
+                                    "reagent1": "cells"
+                                },
+                                {
+                                    "intensity": "1500 rpm"
+                                },
+                                {
+                                    "time": "5 min"
+                                },
+                                {
+                                    "temperature": "room temperature"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "7.",
+        "body": [
+            {
+                "sentence": "Decant the supernatant.",
+                "result": [
+                    {
+                        "DECANT": {
+                            "emit": [
+                                {
+                                    "reagent0": "supernatant"
+                                }
+                            ],
+                            "slot": [
+                                {
+                                    "reagent1": "supernatant"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "8.",
+        "body": [
+            {
+                "sentence": "Resuspend the cell pellet in this volume of freshly prepared, sterile 1xTE/LiAc:\r\n  Small Scale: 1.5 ml\r\n\n\nLibrary Scale: 8 ml\r\n\n\n  \r\n\n\n\\(NOTE: Cells must be used within about an hour after preparation.)",
+                "result": [
+                    {
+                        "RESUSPEND": {
+                            "emit": [
+                                {
+                                    "reagent0": "cell pellets"
+                                }
+                            ],
+                            "slot": [
+                                {
+                                    "reagent1": "cell pellets"
+                                },
+                                {
+                                    "reagent2": "1xTE/LiAc"
+                                },
+                                {
+                                    "notice": "Cells must be used within about an hour after preparation."
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "9.",
+        "body": [
+            {
+                "sentence": "Prepare PEG/LiAc solution, and this solution will be used in step #12:\r\n  Small Scale: 10ml\r\n\n\nLibrary Scale: 100ml",
+                "result": [
+                    {
+                        "PREPARE": {
+                            "emit": [
+                                {
+                                    "reagent0": "PEG/LiAc solution"
+                                }
+                            ],
+                            "slot": [
+                                {
+                                    "reagent1": "PEG/LiAc solution"
+                                },
+                                {
+                                    "notice": "Small Scale: 10ml\\n\\nLibrary Scale: 100ml"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "10.",
+        "body": [
+            {
+                "sentence": "Add the following to each tube and mix:\r\n  Small scale \\(in 1.5 ml eppt tube) \r\n\n\nLibrary scale \\(in 500 ml centrifuge tube)\r\n\n\n        \r\n\n\nBait vector- 0.2 ug \\(small), 0.6 mg \\(library)\r\n\n\nLibrary vector- 0.1 ug \\(small), 0.3 mg \\(library)\r\n\n\nHerring testes carrier DNA- 0.1 mg \\(small), 20 mg \\(library)\r\n\n\n\r\n\n\n\\(For simultaneous cotransfection, a molar ratio of 2:1 \\(Bait vector: Prey vector) is recommended). \\(Just prior to use, denature the carrier DNA by placing it in a boiling water for 20 min and immediately cooling it on ice)",
+                "result": [
+                    {
+                        "ADD": {
+                            "emit": [],
+                            "slot": [
+                                {
+                                    "reagent2": "Bait vector- 0.2 ug (small), 0.6 mg (library)\\nLibrary vector- 0.1 ug (small), 0.3 mg (library)\\nHerring testes carrier DNA- 0.1 mg (small), 20 mg (library)"
+                                },
+                                {
+                                    "ratio": "2:1"
+                                },
+                                {
+                                    "notice": "For simultaneous cotransfection, a molar ratio of 2:1 (Bait vector: Prey vector) is recommended. Just prior to use, denature the carrier DNA by placing it in a boiling water for 20 min and immediately cooling it on ice"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "MIX": {
+                            "emit": [],
+                            "slot": [
+                                {
+                                    "reagent1": "Bait vector- 0.2 ug (small), 0.6 mg (library)\\nLibrary vector- 0.1 ug (small), 0.3 mg (library)\\nHerring testes carrier DNA- 0.1 mg (small), 20 mg (library)"
+                                },
+                                {
+                                    "method": "vortexing"
+                                },
+                                {
+                                    "notice": "Just prior to use, denature the carrier DNA by placing it in a boiling water for 20 min and immediately cooling it on ice"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "ADD": {
+                            "emit": [],
+                            "slot": [
+                                {
+                                    "reagent2": "Bait vector- 0.2 ug (small), 0.6 mg (library)"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "ADD": {
+                            "emit": [],
+                            "slot": [
+                                {
+                                    "reagent1": "Small scale (in 1.5 ml eppt tube)"
+                                },
+                                {
+                                    "reagent2": "Library scale (in 500 ml centrifuge tube)"
+                                },
+                                {
+                                    "notice": "Bait vector- 0.2 ug (small), 0.6 mg (library)\\nLibrary vector- 0.1 ug (small), 0.3 mg (library)\\nHerring testes carrier DNA- 0.1 mg (small), 20 mg (library)\\n\\n(For simultaneous cotransfection, a molar ratio of 2:1 (Bait vector: Prey vector) is recommended). (Just prior to use, denature the carrier DNA by placing it in a boiling water for 20 min and immediately cooling it on ice)"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "PUT": {
+                            "emit": [
+                                {
+                                    "reagent0": "denatured carrier DNA"
+                                }
+                            ],
+                            "slot": [
+                                {
+                                    "reagent1": "Herring testes carrier DNA"
+                                },
+                                {
+                                    "destination": "boiling water"
+                                },
+                                {
+                                    "temperature": "boiling"
+                                },
+                                {
+                                    "device": "water bath"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "11.",
+        "body": [
+            {
+                "sentence": "Add this volume of yeast competent cells to each tube and mix well by vortexing:\r\n  Small Scale: 0.1 ml\r\n\n\nLibrary Scale: 8 ml",
+                "result": [
+                    {
+                        "ADD": {
+                            "emit": [
+                                {
+                                    "reagent0": "yeast competent cells"
+                                }
+                            ],
+                            "slot": [
+                                {
+                                    "reagent1": "yeast competent cells"
+                                },
+                                {
+                                    "notice": "Mix well by vortexing."
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "12.",
+        "body": [
+            {
+                "sentence": "Add sterile PEG/LiAc solution \\(made in step #9) to each tube and vortex at high speed to mix:\r\n  Small Scale: 0.6 ml\r\n\n\nLibrary Scale: 60 ml",
+                "result": [
+                    {
+                        "ADD": {
+                            "emit": [
+                                {
+                                    "reagent0": "sterile PEG/LiAc solution"
+                                }
+                            ],
+                            "slot": [
+                                {
+                                    "reagent1": "sterile PEG/LiAc solution"
+                                },
+                                {
+                                    "reagent2": "made in step #9"
+                                },
+                                {
+                                    "notice": "Vortex at high speed to mix."
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "VORTEX": {
+                            "emit": [
+                                {
+                                    "reagent0": "sterile PEG/LiAc solution"
+                                }
+                            ],
+                            "slot": [
+                                {
+                                    "reagent1": "sterile PEG/LiAc solution"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "13.",
+        "body": [
+            {
+                "sentence": "Incubate at 30 <sup>o</sup>C for 30 min with shaking \\(200 rpm).",
+                "result": [
+                    {
+                        "INCUBATE": {
+                            "emit": [],
+                            "slot": [
+                                {
+                                    "temperature": "30 \u00b0C"
+                                },
+                                {
+                                    "time": "30 min"
+                                },
+                                {
+                                    "notice": "with shaking (200 rpm)"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "14.",
+        "body": [
+            {
+                "sentence": "Add this volume of DMSO:\r\n  Small Scale: 70 ul\r\n\n\nLibrary Scale: 7 ml\r\n\n\n\r\n\n\nMix well by gentle inversion or swirling. Do not Vortex.",
+                "result": [
+                    {
+                        "ADD": {
+                            "emit": [
+                                {
+                                    "reagent0": "DMSO"
+                                }
+                            ],
+                            "slot": [
+                                {
+                                    "reagent1": "DMSO"
+                                },
+                                {
+                                    "notice": "Mix well by gentle inversion or swirling. Do not Vortex."
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "MIX": {
+                            "emit": [
+                                {
+                                    "reagent0": "DMSO"
+                                }
+                            ],
+                            "slot": [
+                                {
+                                    "reagent1": "DMSO"
+                                },
+                                {
+                                    "method": "gentle inversion or swirling"
+                                },
+                                {
+                                    "notice": "Do not Vortex"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "15.",
+        "body": [
+            {
+                "sentence": "Heat shock for 15 min in a 42 <sup>o</sup>C water bath. Swirl occasionally to mix \\(large- and library-scale only)",
+                "result": [
+                    {
+                        "HEAT": {
+                            "emit": [
+                                {
+                                    "reagent0": "yeast competent cells"
+                                }
+                            ],
+                            "slot": [
+                                {
+                                    "reagent1": "yeast competent cells"
+                                },
+                                {
+                                    "temperature": "42 \u00b0C"
+                                },
+                                {
+                                    "time": "15 min"
+                                },
+                                {
+                                    "device": "water bath"
+                                },
+                                {
+                                    "notice": "Swirl occasionally to mix (large- and library-scale only)"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "SWIRL": {
+                            "emit": [
+                                {
+                                    "reagent0": "denatured carrier DNA"
+                                }
+                            ],
+                            "slot": [
+                                {
+                                    "reagent1": "denatured carrier DNA"
+                                },
+                                {
+                                    "time": "15 min"
+                                },
+                                {
+                                    "temperature": "42 \u00b0C"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "16.",
+        "body": [
+            {
+                "sentence": "Chill cells on ice for 1-2 min.",
+                "result": []
+            }
+        ]
+    },
+    {
+        "title": "17.",
+        "body": [
+            {
+                "sentence": "Centrifuge cells for:  \r\n  Small Scale: 5 sec., room temperature - 14K rpm\r\n\n\nLibrary Scale: 5 min., room temperature - 1500 rpm",
+                "result": [
+                    {
+                        "CENTRIFUGE": {
+                            "emit": [
+                                {
+                                    "reagent0": "cells"
+                                }
+                            ],
+                            "slot": [
+                                {
+                                    "reagent1": "cells"
+                                },
+                                {
+                                    "intensity": "14K rpm"
+                                },
+                                {
+                                    "time": "5 sec."
+                                },
+                                {
+                                    "temperature": "room temperature"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "CENTRIFUGE": {
+                            "emit": [
+                                {
+                                    "reagent0": "cells"
+                                }
+                            ],
+                            "slot": [
+                                {
+                                    "reagent1": "cells"
+                                },
+                                {
+                                    "intensity": "1500 rpm"
+                                },
+                                {
+                                    "time": "5 min."
+                                },
+                                {
+                                    "temperature": "room temperature"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "18.",
+        "body": [
+            {
+                "sentence": "Remove the supernatant.",
+                "result": [
+                    {
+                        "REMOVE": {
+                            "emit": [
+                                {
+                                    "reagent0": "supernatant"
+                                }
+                            ],
+                            "slot": [
+                                {
+                                    "reagent1": "supernatant"
+                                },
+                                {
+                                    "method": "pour"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "19.",
+        "body": [
+            {
+                "sentence": "Resuspend cells in this volume of 1 x TE:\r\n  Small Scale: 0.5 ml\r\n\n\nLibrary Scale: 10 ml",
+                "result": [
+                    {
+                        "RESUSPEND": {
+                            "emit": [
+                                {
+                                    "reagent0": "cells"
+                                }
+                            ],
+                            "slot": [
+                                {
+                                    "reagent1": "cells"
+                                },
+                                {
+                                    "reagent2": "1 x TE"
+                                },
+                                {
+                                    "notice": "Small Scale: 0.5 ml"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "RESUSPEND": {
+                            "emit": [
+                                {
+                                    "reagent0": "cells"
+                                }
+                            ],
+                            "slot": [
+                                {
+                                    "reagent1": "cells"
+                                },
+                                {
+                                    "reagent2": "1 x TE"
+                                },
+                                {
+                                    "notice": "Small Scale: 0.5 ml"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "20.",
+        "body": [
+            {
+                "sentence": "Plating:\r\n   For Small-scale cotransformation: spread 200 ul per 100-mm SD-Ura-His-Trp.\r\n\n\n For large- and library-scale transformation:\r\n\n\n--- Spread 100 ul of a 1:1,000, 1:100, and 1:10 dilution on SD-Ura-His-Trp plates \\(100 mm) for cotransformation efficiency controls.\r\n\n\n--- Spread 1 ul \\(diluted in 100 ul of H<sub>2</sub>O) on SD-His-Ura and SD-Trp-Ura plates \\(100 mm) to check the transformation efficiency of each plasmid. \r\n\n\n--- Spread the remaining transformation suspension on SD-Ura-His-Trp plates \\(200 ul per 150-mm Plates)\r\n\n\n Incubate the plates at 30 <sup>o</sup>C for 3-5 days.",
+                "result": [
+                    {
+                        "INCUBATE": {
+                            "emit": [
+                                {
+                                    "reagent0": "plates"
+                                }
+                            ],
+                            "slot": [
+                                {
+                                    "reagent1": "plates"
+                                },
+                                {
+                                    "temperature": "30 oC"
+                                },
+                                {
+                                    "time": "3-5 days"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "21.",
+        "body": [
+            {
+                "sentence": "Calculating cotransformation efficiency and number of clones amplified:\r\n  \r\n\n\nA.      Cotransformation efficiency:  count the colonies \\(cfu) growing on the SD-His-Trp-Ura dilution plate that has 30-300 cfu.\r\n\n\n     \r\n\n\ncfu/ug DNA = \\(Cfu x total suspension vol. \\(ul)) / \r\n\n\n             \\(\\(Vol. Plated \\(ul)) x \\(dilution factor) x \\(amount.DNA used\\(ug)\\(Limiting plasmid)))\r\n\n\n\r\n\n\nB. The number of clones amplified:\r\n\n\ncfu/ug x amt. Of library plasmid used \\(cfu/ug) = # of clones amplified. \r\n\n\n\r\n\n\n",
+                "result": [
+                    {
+                        "COUNT": {
+                            "emit": [
+                                {
+                                    "data0": "30-300"
+                                }
+                            ],
+                            "slot": [
+                                {
+                                    "reagent1": "SD-His-Trp-Ura dilution plate"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "CALCULATE": {
+                            "emit": [
+                                {
+                                    "result": "<blank>"
+                                }
+                            ],
+                            "slot": [
+                                {
+                                    "attribute": "Cotransformation efficiency"
+                                },
+                                {
+                                    "formula": "cfu/ug DNA = (Cfu x total suspension vol. (ul)) / (Vol. Plated (ul) x dilution factor x amount.DNA used (ug) (Limiting plasmid))"
+                                },
+                                {
+                                    "variables": "Cfu, total suspension vol. (ul), Vol. Plated (ul), dilution factor, amount.DNA used (ug) (Limiting plasmid)"
+                                },
+                                {
+                                    "values": "<blank>"
+                                },
+                                {
+                                    "units": "<blank>"
+                                },
+                                {
+                                    "software": "<blank>"
+                                },
+                                {
+                                    "notice": "<blank>"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "CALCULATE": {
+                            "emit": [
+                                {
+                                    "result": "<blank>"
+                                }
+                            ],
+                            "slot": [
+                                {
+                                    "attribute": "The number of clones amplified"
+                                },
+                                {
+                                    "formula": "cfu/ug x amt. Of library plasmid used (cfu/ug) = # of clones amplified"
+                                },
+                                {
+                                    "variables": "cfu/ug, amt. Of library plasmid used (cfu/ug)"
+                                },
+                                {
+                                    "values": "<blank>"
+                                },
+                                {
+                                    "units": "<blank>"
+                                },
+                                {
+                                    "software": "<blank>"
+                                },
+                                {
+                                    "notice": "<blank>"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            },
+            {
+                "title": "****",
+                "body": [
+                    ""
+                ]
+            },
+            {
+                "title": "****",
+                "body": [
+                    ""
+                ]
+            },
+            {
+                "title": "****",
+                "body": [
+                    ""
+                ]
+            },
+            {
+                "title": "****",
+                "body": [
+                    ""
+                ]
+            },
+            {
+                "title": "****",
+                "body": [
+                    ""
+                ]
+            },
+            {
+                "title": "****",
+                "body": [
+                    ""
+                ]
+            },
+            {
+                "title": "****",
+                "body": [
+                    ""
+                ]
+            },
+            {
+                "title": "****",
+                "body": [
+                    ""
+                ]
+            },
+            {
+                "title": "****",
+                "body": [
+                    ""
+                ]
+            },
+            {
+                "title": "****",
+                "body": [
+                    ""
+                ]
+            },
+            {
+                "title": "****",
+                "body": [
+                    ""
+                ]
+            },
+            {
+                "title": "****",
+                "body": [
+                    ""
+                ]
+            },
+            {
+                "title": "****",
+                "body": [
+                    ""
+                ]
+            },
+            {
+                "title": "****",
+                "body": [
+                    ""
+                ]
+            },
+            {
+                "title": "****",
+                "body": [
+                    ""
+                ]
+            },
+            {
+                "title": "****",
+                "body": [
+                    ""
+                ]
+            },
+            {
+                "title": "****",
+                "body": [
+                    ""
+                ]
+            },
+            {
+                "title": "****",
+                "body": [
+                    ""
+                ]
+            },
+            {
+                "title": "****",
+                "body": [
+                    ""
+                ]
+            },
+            {
+                "title": "****",
+                "body": [
+                    ""
+                ]
+            },
+            {
+                "title": "****",
+                "body": [
+                    ""
+                ]
+            },
+            {
+                "title": "****",
+                "body": [
+                    ""
+                ]
+            },
+            {
+                "title": "****",
+                "body": [
+                    ""
+                ]
+            },
+            {
+                "title": "****",
+                "body": [
+                    ""
+                ]
+            },
+            {
+                "title": "****",
+                "body": [
+                    ""
+                ]
+            },
+            {
+                "title": "****",
+                "body": [
+                    ""
+                ]
+            },
+            {
+                "title": "****",
+                "body": [
+                    ""
+                ]
+            },
+            {
+                "title": "****",
+                "body": [
+                    ""
+                ]
+            },
+            {
+                "title": "****",
+                "body": [
+                    ""
+                ]
+            },
+            {
+                "title": "****",
+                "body": [
+                    {
+                        "sentence": "*",
+                        "result": []
+                    }
+                ]
+            }
+        ]
+    }
+]

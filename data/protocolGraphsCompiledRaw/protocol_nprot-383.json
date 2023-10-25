@@ -1,0 +1,451 @@
+[
+    {
+        "title": "1.",
+        "body": [
+            {
+                "sentence": "Pre-warm fixative solution to 37 degrees C.",
+                "result": []
+            }
+        ]
+    },
+    {
+        "title": "2.",
+        "body": [
+            {
+                "sentence": "Remove media from plastic tissue culture dish and rapidly pour on glutaraldehyde fixative.",
+                "result": [
+                    {
+                        "REMOVE": {
+                            "emit": [
+                                {
+                                    "reagent0": "glutaraldehyde fixative"
+                                }
+                            ],
+                            "slot": [
+                                {
+                                    "reagent1": "media"
+                                },
+                                {
+                                    "method": "pour"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "POUR": {
+                            "emit": [
+                                {
+                                    "reagent0": "glutaraldehyde fixative"
+                                }
+                            ],
+                            "slot": [
+                                {
+                                    "destination": "plastic tissue culture dish"
+                                },
+                                {
+                                    "reagent1": "glutaraldehyde fixative"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "3.",
+        "body": [
+            {
+                "sentence": "Leave 15 minutes.",
+                "result": [
+                    {
+                        "LEAVE": {
+                            "emit": [
+                                {
+                                    "reagent0": "glutaraldehyde fixative"
+                                }
+                            ],
+                            "slot": [
+                                {
+                                    "reagent1": "glutaraldehyde fixative"
+                                },
+                                {
+                                    "temperature": "room temperature"
+                                },
+                                {
+                                    "time": "15 minutes"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "4.",
+        "body": [
+            {
+                "sentence": "Rinse with buffer or PBS three times over 5 minutes.",
+                "result": [
+                    {
+                        "RINSE": {
+                            "emit": [
+                                {
+                                    "reagent0": "<blank>"
+                                }
+                            ],
+                            "slot": [
+                                {
+                                    "reagent1": "buffer or PBS"
+                                },
+                                {
+                                    "reagent2": "buffer or PBS"
+                                },
+                                {
+                                    "repeat": "3"
+                                },
+                                {
+                                    "time": "5 minutes"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "5.",
+        "body": [
+            {
+                "sentence": "Fix in OsO<sub>4</sub>, 15-30 minutes.",
+                "result": [
+                    {
+                        "FIX": {
+                            "emit": [
+                                {
+                                    "reagent0": "glutaraldehyde fixative"
+                                }
+                            ],
+                            "slot": [
+                                {
+                                    "reagent1": "OsO4"
+                                },
+                                {
+                                    "reagent2": "OsO4"
+                                },
+                                {
+                                    "temperature": "room temperature"
+                                },
+                                {
+                                    "time": "15-30 minutes"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "6.",
+        "body": [
+            {
+                "sentence": "Rinse with buffer five times over 10 minutes.",
+                "result": [
+                    {
+                        "RINSE": {
+                            "emit": [
+                                {
+                                    "reagent0": "<blank>"
+                                }
+                            ],
+                            "slot": [
+                                {
+                                    "reagent1": "buffer"
+                                },
+                                {
+                                    "reagent2": "buffer or PBS"
+                                },
+                                {
+                                    "repeat": "5"
+                                },
+                                {
+                                    "time": "10 minutes"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "7.",
+        "body": [
+            {
+                "sentence": "Incubate in freshly made 1% carbohydrazide 10-30 minutes.",
+                "result": [
+                    {
+                        "INCUBATE": {
+                            "emit": [
+                                {
+                                    "reagent0": "1% carbohydrazide"
+                                }
+                            ],
+                            "slot": [
+                                {
+                                    "reagent1": "1% carbohydrazide"
+                                },
+                                {
+                                    "temperature": "room temperature"
+                                },
+                                {
+                                    "time": "10-30 minutes"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "8.",
+        "body": [
+            {
+                "sentence": "Rinse with distilled five times over 15 minutes.",
+                "result": [
+                    {
+                        "RINSE": {
+                            "emit": [
+                                {
+                                    "reagent0": "distilled"
+                                }
+                            ],
+                            "slot": [
+                                {
+                                    "reagent1": "distilled"
+                                },
+                                {
+                                    "reagent2": "distilled"
+                                },
+                                {
+                                    "repeat": "5"
+                                },
+                                {
+                                    "time": "15 minutes"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "9.",
+        "body": [
+            {
+                "sentence": "Incubate again in 1% OsO<sub>4</sub>, 15-30 minutes",
+                "result": [
+                    {
+                        "INCUBATE": {
+                            "emit": [
+                                {
+                                    "reagent0": "1% OsO4"
+                                }
+                            ],
+                            "slot": [
+                                {
+                                    "reagent1": "1% OsO4"
+                                },
+                                {
+                                    "temperature": "room temperature"
+                                },
+                                {
+                                    "time": "15-30 minutes"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "10.",
+        "body": [
+            {
+                "sentence": "Rinse three times with distilled water over 15 minutes.  In the third rinse, cut dishes to fit the critical point dryer.  Using small diagonal wire cutters, clip and remove edge first.  Then cut bottom of dish to size.",
+                "result": [
+                    {
+                        "RINSE": {
+                            "emit": [
+                                {
+                                    "reagent0": "distilled water"
+                                }
+                            ],
+                            "slot": [
+                                {
+                                    "reagent1": "distilled water"
+                                },
+                                {
+                                    "reagent2": "distilled water"
+                                },
+                                {
+                                    "repeat": "3"
+                                },
+                                {
+                                    "time": "15 minutes"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "CUT": {
+                            "emit": [
+                                {
+                                    "reagent0": "distilled water"
+                                }
+                            ],
+                            "slot": [
+                                {
+                                    "reagent": "distilled water"
+                                },
+                                {
+                                    "device": "small diagonal wire cutters"
+                                },
+                                {
+                                    "direction": "bottom of dish to size"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "CUT": {
+                            "emit": [
+                                {
+                                    "reagent0": "distilled water"
+                                }
+                            ],
+                            "slot": [
+                                {
+                                    "reagent": "distilled water"
+                                },
+                                {
+                                    "device": "small diagonal wire cutters"
+                                },
+                                {
+                                    "direction": "bottom"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "11.",
+        "body": [
+            {
+                "sentence": "Place in another dish.",
+                "result": [
+                    {
+                        "PLACE": {
+                            "emit": [
+                                {
+                                    "reagent0": "1% carbohydrazide"
+                                }
+                            ],
+                            "slot": [
+                                {
+                                    "reagent1": "1% carbohydrazide"
+                                },
+                                {
+                                    "destination": "another dish"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "12.",
+        "body": [
+            {
+                "sentence": "Dehydrate through ethanol or hexylene glycol series beginning with 30% and changing to solutions of 50%, 70%, 90%, and three times 100%, over 30 minutes.",
+                "result": [
+                    {
+                        "DEHYDRATE": {
+                            "emit": [
+                                {
+                                    "reagent0": "ethanol or hexylene glycol series"
+                                }
+                            ],
+                            "slot": [
+                                {
+                                    "reagent1": "ethanol or hexylene glycol series"
+                                },
+                                {
+                                    "time": "30 minutes"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "13.",
+        "body": [
+            {
+                "sentence": "Dry in critical point dryer.",
+                "result": [
+                    {
+                        "DRY": {
+                            "emit": [
+                                {
+                                    "reagent0": "distilled water"
+                                }
+                            ],
+                            "slot": [
+                                {
+                                    "reagent1": "distilled water"
+                                },
+                                {
+                                    "device": "critical point dryer"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "14.",
+        "body": [
+            {
+                "sentence": "Sputter coat with 1-2 nm gold-palladium.",
+                "result": [
+                    {
+                        "COAT": {
+                            "emit": [],
+                            "slot": [
+                                {
+                                    "reagent1": "1-2 nm gold-palladium"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        ]
+    }
+]

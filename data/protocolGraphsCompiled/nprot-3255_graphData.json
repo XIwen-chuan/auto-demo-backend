@@ -1,0 +1,398 @@
+{
+  "name": "nprot-3255_graphData.json",
+  "nodes": [
+    {
+      "id": "f13d9df7-1d28-4fb7-b144-76aca2d13d66",
+      "text": "Strictly apply all the criteria described above. Discard follicles that do not meet any one of the criteria \\(see examples in",
+      "instruction": "APPLY",
+      "slots": [],
+      "emits": [
+        {
+          "key": "reagent0",
+          "value": "follicles",
+          "id": "4688a289-115d-4576-8f86-eecb8c31998c",
+          "node_id": "f13d9df7-1d28-4fb7-b144-76aca2d13d66"
+        }
+      ]
+    },
+    {
+      "id": "4d08c7a7-be58-44f5-98ca-d1376a7b08db",
+      "text": "Strictly apply all the criteria described above. Discard follicles that do not meet any one of the criteria \\(see examples in",
+      "instruction": "DISCARD",
+      "slots": [
+        {
+          "key": "reagent1",
+          "value": "follicles",
+          "id": "46eb30e3-116f-4985-b875-e188928751cc",
+          "node_id": "4d08c7a7-be58-44f5-98ca-d1376a7b08db"
+        },
+        {
+          "key": "method",
+          "value": "discard",
+          "id": "fb9d4abf-9f51-40d9-b853-b53b7951ae94",
+          "node_id": "4d08c7a7-be58-44f5-98ca-d1376a7b08db"
+        }
+      ],
+      "emits": [
+        {
+          "key": "reagent0",
+          "value": "follicles",
+          "id": "8bfa980f-7149-48be-bbaa-deb6b43e44be",
+          "node_id": "4d08c7a7-be58-44f5-98ca-d1376a7b08db"
+        }
+      ]
+    },
+    {
+      "id": "4ea03f9a-f5b4-464d-85bc-3f237e8579b3",
+      "text": ") because they will fail to grow in vitro.",
+      "instruction": "GROW",
+      "slots": [
+        {
+          "key": "reagent1",
+          "value": "follicles",
+          "id": "ce048a2f-168d-4a06-86f3-9163f2637bbf",
+          "node_id": "4ea03f9a-f5b4-464d-85bc-3f237e8579b3"
+        },
+        {
+          "key": "medium",
+          "value": "M2 medium",
+          "id": "3797f8cb-f3c3-4b23-bd72-f8481f660f1b",
+          "node_id": "4ea03f9a-f5b4-464d-85bc-3f237e8579b3"
+        },
+        {
+          "key": "temperature",
+          "value": "room temperature",
+          "id": "2c783759-8727-4487-9ec2-27df7973f538",
+          "node_id": "4ea03f9a-f5b4-464d-85bc-3f237e8579b3"
+        }
+      ],
+      "emits": [
+        {
+          "key": "reagent0",
+          "value": "follicles",
+          "id": "a3a63928-e0e9-44fb-b32f-cb7a941b785d",
+          "node_id": "4ea03f9a-f5b4-464d-85bc-3f237e8579b3"
+        }
+      ]
+    },
+    {
+      "id": "91f2e9c7-8c2f-4dd2-ab52-4d097cc13a4f",
+      "text": "6-1. Prepare an injection capillary following the protocol for pronuclear injection \\(Ittner and Gotz, 2007). The Puller protocol setting we use is: P=300, Heat=635, Pull=75, Vel=75, Del=80. Fill siRNA solution with FemtoTips.\r\n\n\n6-2. Prepare a holding pipette.\r\n\n\nThe Puller protocol setting we use is: P=500, Heat=800, Pull=80, Vel=120, Del=100. The inner diameter of holding pipettes should be 50-55 \u03bcm to hold a follicle very firmly \\(although the best diameter may depend on the instrument used, we recommend to make it larger than the one used for regular manipulation).\r\n\n\n6-3. Hold a follicle firmly \\(",
+      "instruction": "PREPARE",
+      "slots": [
+        {
+          "key": "reagent1",
+          "value": "injection capillary",
+          "id": "fac2f104-07e4-4075-b7ac-ae547d656d07",
+          "node_id": "91f2e9c7-8c2f-4dd2-ab52-4d097cc13a4f"
+        },
+        {
+          "key": "device",
+          "value": "Puller",
+          "id": "8503daa3-8088-434f-888b-b044a061ea82",
+          "node_id": "91f2e9c7-8c2f-4dd2-ab52-4d097cc13a4f"
+        },
+        {
+          "key": "method",
+          "value": "Puller protocol setting: P=300, Heat=635, Pull=75, Vel=75, Del=80",
+          "id": "21d18014-b96d-4a6a-be76-7e1937040768",
+          "node_id": "91f2e9c7-8c2f-4dd2-ab52-4d097cc13a4f"
+        }
+      ],
+      "emits": [
+        {
+          "key": "reagent0",
+          "value": "siRNA solution with FemtoTips",
+          "id": "9228ec45-097d-43f9-94bc-42d17ac6b811",
+          "node_id": "91f2e9c7-8c2f-4dd2-ab52-4d097cc13a4f"
+        }
+      ]
+    },
+    {
+      "id": "f0fcbcd0-290d-43ef-9cec-9355b9af44a1",
+      "text": "6-1. Prepare an injection capillary following the protocol for pronuclear injection \\(Ittner and Gotz, 2007). The Puller protocol setting we use is: P=300, Heat=635, Pull=75, Vel=75, Del=80. Fill siRNA solution with FemtoTips.\r\n\n\n6-2. Prepare a holding pipette.\r\n\n\nThe Puller protocol setting we use is: P=500, Heat=800, Pull=80, Vel=120, Del=100. The inner diameter of holding pipettes should be 50-55 \u03bcm to hold a follicle very firmly \\(although the best diameter may depend on the instrument used, we recommend to make it larger than the one used for regular manipulation).\r\n\n\n6-3. Hold a follicle firmly \\(",
+      "instruction": "PREPARE",
+      "slots": [
+        {
+          "key": "reagent1",
+          "value": "holding pipette",
+          "id": "2835012c-53ca-4981-b55f-afc7d0fc7532",
+          "node_id": "f0fcbcd0-290d-43ef-9cec-9355b9af44a1"
+        },
+        {
+          "key": "notice",
+          "value": "The inner diameter of holding pipettes should be 50-55 \u03bcm to hold a follicle very firmly (although the best diameter may depend on the instrument used, we recommend to make it larger than the one used for regular manipulation).",
+          "id": "395dfbf5-72ce-4e29-8eba-a255eb76418f",
+          "node_id": "f0fcbcd0-290d-43ef-9cec-9355b9af44a1"
+        }
+      ],
+      "emits": []
+    },
+    {
+      "id": "3b595d43-4e20-41ae-a058-bc3ab89e67cb",
+      "text": "6-1. Prepare an injection capillary following the protocol for pronuclear injection \\(Ittner and Gotz, 2007). The Puller protocol setting we use is: P=300, Heat=635, Pull=75, Vel=75, Del=80. Fill siRNA solution with FemtoTips.\r\n\n\n6-2. Prepare a holding pipette.\r\n\n\nThe Puller protocol setting we use is: P=500, Heat=800, Pull=80, Vel=120, Del=100. The inner diameter of holding pipettes should be 50-55 \u03bcm to hold a follicle very firmly \\(although the best diameter may depend on the instrument used, we recommend to make it larger than the one used for regular manipulation).\r\n\n\n6-3. Hold a follicle firmly \\(",
+      "instruction": "HOLD",
+      "slots": [
+        {
+          "key": "reagent1",
+          "value": "follicle",
+          "id": "74774551-11f5-4daf-8033-70500a7f6523",
+          "node_id": "3b595d43-4e20-41ae-a058-bc3ab89e67cb"
+        },
+        {
+          "key": "position",
+          "value": "firmly",
+          "id": "8c8fc451-85f1-476b-9409-d5ee8062aaee",
+          "node_id": "3b595d43-4e20-41ae-a058-bc3ab89e67cb"
+        }
+      ],
+      "emits": [
+        {
+          "key": "reagent0",
+          "value": "follicle",
+          "id": "038c3b07-6166-45d4-b0d1-506414a9b4d5",
+          "node_id": "3b595d43-4e20-41ae-a058-bc3ab89e67cb"
+        }
+      ]
+    },
+    {
+      "id": "637859df-de01-445f-9c7c-cfe3543e33b8",
+      "text": "). Adjust the injection pressure.",
+      "instruction": "ADJUST",
+      "slots": [
+        {
+          "key": "reagent1",
+          "value": "follicles",
+          "id": "c37f4c17-3aa8-4d0c-86f5-c031e9e16afc",
+          "node_id": "637859df-de01-445f-9c7c-cfe3543e33b8"
+        },
+        {
+          "key": "attribute",
+          "value": "injection pressure",
+          "id": "f835202f-e295-4cd3-9009-bf3b1c348f15",
+          "node_id": "637859df-de01-445f-9c7c-cfe3543e33b8"
+        },
+        {
+          "key": "data1",
+          "value": "<blank>",
+          "id": "b5ce2ca1-2212-4d4d-9388-0c6e2f5031c6",
+          "node_id": "637859df-de01-445f-9c7c-cfe3543e33b8"
+        },
+        {
+          "key": "method",
+          "value": "<blank>",
+          "id": "cce0c70b-7096-4e95-94a4-3d8f95aeadff",
+          "node_id": "637859df-de01-445f-9c7c-cfe3543e33b8"
+        }
+      ],
+      "emits": [
+        {
+          "key": "reagent0",
+          "value": "follicles",
+          "id": "d65f664e-d205-4bfe-a88a-1e5d465a6a09",
+          "node_id": "637859df-de01-445f-9c7c-cfe3543e33b8"
+        }
+      ]
+    },
+    {
+      "id": "5d9ad885-45ca-4443-9f5b-3d9f038d36f0",
+      "text": "It is important to adjust the injection pressure every time before penetrating the oocyte in order to inject a constant amount of siRNA into each oocyte. The amount of siRNA solution released from the capillary can be estimated by the movement of granulosa cells. \r\n\n\n6-4. Penetrate the capillary into the oocyte cytoplasm and inject siRNA. A successful injection is evident by movement of cytoplasmic granules within the oocyte.\r\n\n\n6-5. After withdrawing the injection capillary, whip the capillary along the holding pipette several times to remove debris from the capillary tip and keep it clean.",
+      "instruction": "ADJUST",
+      "slots": [
+        {
+          "key": "reagent1",
+          "value": "injection capillary",
+          "id": "bf5a6951-976a-45ea-b86b-635f5ff2dd48",
+          "node_id": "5d9ad885-45ca-4443-9f5b-3d9f038d36f0"
+        },
+        {
+          "key": "attribute",
+          "value": "injection pressure",
+          "id": "27977727-7ee1-46c2-a87b-7ba9916ae48e",
+          "node_id": "5d9ad885-45ca-4443-9f5b-3d9f038d36f0"
+        },
+        {
+          "key": "data1",
+          "value": "constant amount of siRNA",
+          "id": "ca3ba053-778b-4ce2-9efb-f964431732b3",
+          "node_id": "5d9ad885-45ca-4443-9f5b-3d9f038d36f0"
+        }
+      ],
+      "emits": [
+        {
+          "key": "reagent0",
+          "value": "follicles",
+          "id": "3eeaa53e-6e67-4fb9-ac4e-d97335f3b6e3",
+          "node_id": "5d9ad885-45ca-4443-9f5b-3d9f038d36f0"
+        }
+      ]
+    },
+    {
+      "id": "e981bc16-9ebd-4966-8dbc-3812e5d8c45e",
+      "text": "It is important to adjust the injection pressure every time before penetrating the oocyte in order to inject a constant amount of siRNA into each oocyte. The amount of siRNA solution released from the capillary can be estimated by the movement of granulosa cells. \r\n\n\n6-4. Penetrate the capillary into the oocyte cytoplasm and inject siRNA. A successful injection is evident by movement of cytoplasmic granules within the oocyte.\r\n\n\n6-5. After withdrawing the injection capillary, whip the capillary along the holding pipette several times to remove debris from the capillary tip and keep it clean.",
+      "instruction": "INJECT",
+      "slots": [
+        {
+          "key": "reagent1",
+          "value": "siRNA solution with FemtoTips",
+          "id": "00482a7d-9165-41c3-8c9f-96161a0d3d4f",
+          "node_id": "e981bc16-9ebd-4966-8dbc-3812e5d8c45e"
+        },
+        {
+          "key": "reagent2/destination",
+          "value": "oocyte cytoplasm",
+          "id": "81e3aac9-e4f9-4218-bba9-f7a5bf935ccb",
+          "node_id": "e981bc16-9ebd-4966-8dbc-3812e5d8c45e"
+        },
+        {
+          "key": "device",
+          "value": "capillary",
+          "id": "e3a855e3-144f-4acb-884f-1c97449484d2",
+          "node_id": "e981bc16-9ebd-4966-8dbc-3812e5d8c45e"
+        },
+        {
+          "key": "notice",
+          "value": "A successful injection is evident by movement of cytoplasmic granules within the oocyte.",
+          "id": "b4fa97b9-7207-494f-b88b-7fd34cc73686",
+          "node_id": "e981bc16-9ebd-4966-8dbc-3812e5d8c45e"
+        }
+      ],
+      "emits": []
+    },
+    {
+      "id": "c6711195-64eb-44f3-ab53-b01ed8b5c100",
+      "text": "Because granulosa cells are sticky, the injection capillary frequently becomes partially clogged, making it difficult to inject a constant amount of siRNA into each oocyte. To avoid this problem, the capillary should be kept clean by whipping it along the holding pipette and flushing it with the maximum pressure of FemtoJet \\(see the manufacturer\u2019s instructions of FemtoJet) every time after withdrawal from a follicle.\r\n\n\n6-6. Repeat steps 6-3 to 6-5.\r\n\n\n6-7. Ten minutes after microinjection, transfer the injected follicles into the medium \\(ii) and incubate for 1 h.",
+      "instruction": "CLEAN",
+      "slots": [
+        {
+          "key": "reagent1",
+          "value": "injection capillary",
+          "id": "803bdffb-f13c-4fd7-8691-3c22efa764e7",
+          "node_id": "c6711195-64eb-44f3-ab53-b01ed8b5c100"
+        },
+        {
+          "key": "reagent2",
+          "value": "FemtoJet",
+          "id": "55de7cf3-42bf-46ba-af04-d13c29be18eb",
+          "node_id": "c6711195-64eb-44f3-ab53-b01ed8b5c100"
+        },
+        {
+          "key": "method",
+          "value": "whipping it along the holding pipette and flushing it with the maximum pressure of FemtoJet (see the manufacturer\u2019s instructions of FemtoJet) every time after withdrawal from a follicle",
+          "id": "20a25729-1c48-4790-b4d4-6855309a1445",
+          "node_id": "c6711195-64eb-44f3-ab53-b01ed8b5c100"
+        }
+      ],
+      "emits": [
+        {
+          "key": "reagent0",
+          "value": "injection capillary",
+          "id": "9177c23f-da94-4c25-8be6-37b934d20d02",
+          "node_id": "c6711195-64eb-44f3-ab53-b01ed8b5c100"
+        }
+      ]
+    },
+    {
+      "id": "990d7192-c3b9-49dc-9355-b1a67b30f25c",
+      "text": "Because granulosa cells are sticky, the injection capillary frequently becomes partially clogged, making it difficult to inject a constant amount of siRNA into each oocyte. To avoid this problem, the capillary should be kept clean by whipping it along the holding pipette and flushing it with the maximum pressure of FemtoJet \\(see the manufacturer\u2019s instructions of FemtoJet) every time after withdrawal from a follicle.\r\n\n\n6-6. Repeat steps 6-3 to 6-5.\r\n\n\n6-7. Ten minutes after microinjection, transfer the injected follicles into the medium \\(ii) and incubate for 1 h.",
+      "instruction": "TRANSFER",
+      "slots": [
+        {
+          "key": "destination",
+          "value": "medium (ii)",
+          "id": "48092e9b-6171-45fa-8cf7-aa2703148af7",
+          "node_id": "990d7192-c3b9-49dc-9355-b1a67b30f25c"
+        },
+        {
+          "key": "reagent1",
+          "value": "injected follicles",
+          "id": "282f4d5c-f0bd-40b1-be5c-1ef5d6ea3141",
+          "node_id": "990d7192-c3b9-49dc-9355-b1a67b30f25c"
+        }
+      ],
+      "emits": [
+        {
+          "key": "reagent0",
+          "value": "injected follicles",
+          "id": "495b3706-115c-4b25-a597-40de4db03aeb",
+          "node_id": "990d7192-c3b9-49dc-9355-b1a67b30f25c"
+        }
+      ]
+    },
+    {
+      "id": "254e49ad-0cc2-4d8f-a086-2ce396359a8e",
+      "text": "Do not place the follicles close to each other to avoid aggregation during IVG. When carrying the culture dish, be careful to minimize vibrations.",
+      "instruction": "PLACE",
+      "slots": [
+        {
+          "key": "reagent1",
+          "value": "follicles",
+          "id": "4e0fa8b1-cdd1-4349-89f3-6476482b1842",
+          "node_id": "254e49ad-0cc2-4d8f-a086-2ce396359a8e"
+        },
+        {
+          "key": "destination",
+          "value": "IVG medium",
+          "id": "66e41e89-99c4-4a7a-85f8-db9e0b932bc8",
+          "node_id": "254e49ad-0cc2-4d8f-a086-2ce396359a8e"
+        },
+        {
+          "key": "notice",
+          "value": "Do not place the follicles close to each other to avoid aggregation during IVG. When carrying the culture dish, be careful to minimize vibrations.",
+          "id": "35628ddd-f81b-4f08-94c3-91f27239e4ef",
+          "node_id": "254e49ad-0cc2-4d8f-a086-2ce396359a8e"
+        }
+      ],
+      "emits": [
+        {
+          "key": "reagent0",
+          "value": "injected follicles",
+          "id": "66b2b648-9d95-4629-9645-833b12887ea1",
+          "node_id": "254e49ad-0cc2-4d8f-a086-2ce396359a8e"
+        }
+      ]
+    },
+    {
+      "id": "af886cc5-7699-428d-8491-ae09a99f075e",
+      "text": "Do not place the follicles close to each other to avoid aggregation during IVG. When carrying the culture dish, be careful to minimize vibrations.",
+      "instruction": "CARRY",
+      "slots": [
+        {
+          "key": "procedure",
+          "value": "When carrying the culture dish, be careful to minimize vibrations.",
+          "id": "bd9b345a-394d-4437-838a-255cc62f6a5b",
+          "node_id": "af886cc5-7699-428d-8491-ae09a99f075e"
+        }
+      ],
+      "emits": []
+    },
+    {
+      "id": "d79cb416-6353-4040-bab3-32f9e9095577",
+      "text": "Change the media very slowly to avoid detaching the follicles from the bottom of dish.",
+      "instruction": "CHANGE",
+      "slots": [
+        {
+          "key": "reagent1",
+          "value": "culture medium (iii)",
+          "id": "0f2f3713-6929-4606-aa57-081fb5c7322e",
+          "node_id": "d79cb416-6353-4040-bab3-32f9e9095577"
+        },
+        {
+          "key": "notice",
+          "value": "to avoid detaching the follicles from the bottom of dish.",
+          "id": "36d0b060-8459-4136-8931-36ecdf534c51",
+          "node_id": "d79cb416-6353-4040-bab3-32f9e9095577"
+        }
+      ],
+      "emits": [
+        {
+          "key": "reagent0",
+          "value": "culture medium (iii)",
+          "id": "8fc3d28a-230b-4415-bd53-e38315141150",
+          "node_id": "d79cb416-6353-4040-bab3-32f9e9095577"
+        }
+      ]
+    }
+  ],
+  "edges": []
+}

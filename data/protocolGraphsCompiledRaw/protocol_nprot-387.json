@@ -1,0 +1,390 @@
+[
+    {
+        "title": "1.",
+        "body": [
+            {
+                "sentence": "Dissect Drosophila larval brains in saline \\(0.7% NaCl),",
+                "result": [
+                    {
+                        "DISSECT": {
+                            "emit": [
+                                {
+                                    "reagent0": "Drosophila larval brains"
+                                }
+                            ],
+                            "slot": [
+                                {
+                                    "reagent1": "Drosophila larval brains"
+                                },
+                                {
+                                    "notice": "in saline (0.7% NaCl)"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "2.",
+        "body": [
+            {
+                "sentence": "Treat dissected brains for 10 min with a hypotonic solution of 0.5% sodium citrate.",
+                "result": [
+                    {
+                        "TREAT": {
+                            "emit": [
+                                {
+                                    "reagent0": "Drosophila larval brains"
+                                }
+                            ],
+                            "slot": [
+                                {
+                                    "reagent1": "Drosophila larval brains"
+                                },
+                                {
+                                    "reagent2": "0.5% sodium citrate"
+                                },
+                                {
+                                    "temperature": "room temperature"
+                                },
+                                {
+                                    "time": "10 min"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "3.",
+        "body": [
+            {
+                "sentence": "Fix for 5 min in a drop of fixing solution \\(1.8% Formaldehyde, 45% acetic acid) on a coverslip.",
+                "result": [
+                    {
+                        "FIX": {
+                            "emit": [
+                                {
+                                    "reagent0": "Drosophila larval brains"
+                                }
+                            ],
+                            "slot": [
+                                {
+                                    "reagent1": "Drosophila larval brains"
+                                },
+                                {
+                                    "reagent2": "fixing solution (1.8% Formaldehyde, 45% acetic acid)"
+                                },
+                                {
+                                    "temperature": "room temperature"
+                                },
+                                {
+                                    "time": "5 min"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "4.",
+        "body": [
+            {
+                "sentence": "Gently lean a clean slide over the coverslip and squash the brain in the same fixing solution",
+                "result": []
+            }
+        ]
+    },
+    {
+        "title": "5.",
+        "body": [
+            {
+                "sentence": "Freeze the slide in liquid nitrogen",
+                "result": [
+                    {
+                        "FREEZE": {
+                            "emit": [
+                                {
+                                    "reagent0": "slide"
+                                }
+                            ],
+                            "slot": [
+                                {
+                                    "reagent1": "slide"
+                                },
+                                {
+                                    "temperature": "liquid nitrogen"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "6.",
+        "body": [
+            {
+                "sentence": "Remove the coverslip and immerse the slide in cold ethanol \\(-20&#xB0;C) for 10 minutes.",
+                "result": [
+                    {
+                        "REMOVE": {
+                            "emit": [
+                                {
+                                    "reagent0": "slide"
+                                }
+                            ],
+                            "slot": [
+                                {
+                                    "reagent1": "coverslip"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "IMMERSE": {
+                            "emit": [
+                                {
+                                    "reagent0": "slide"
+                                }
+                            ],
+                            "slot": [
+                                {
+                                    "reagent1": "slide"
+                                },
+                                {
+                                    "temperature": "-20\u00b0C"
+                                },
+                                {
+                                    "time": "10 minutes"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "7.",
+        "body": [
+            {
+                "sentence": "Wash the slide in PBS-T \\(PBS containing 0.1% TritonX).",
+                "result": [
+                    {
+                        "WASH": {
+                            "emit": [
+                                {
+                                    "reagent0": "slide"
+                                }
+                            ],
+                            "slot": [
+                                {
+                                    "reagent1": "slide"
+                                },
+                                {
+                                    "reagent2": "PBS-T"
+                                },
+                                {
+                                    "repeat": "1"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "8.",
+        "body": [
+            {
+                "sentence": "Incubate the slide overnight with appropriate primary antibody in a humid box at 4&#xB0;C",
+                "result": [
+                    {
+                        "INCUBATE": {
+                            "emit": [
+                                {
+                                    "reagent0": "slide"
+                                }
+                            ],
+                            "slot": [
+                                {
+                                    "reagent1": "appropriate primary antibody"
+                                },
+                                {
+                                    "temperature": "4\u00b0C"
+                                },
+                                {
+                                    "time": "overnight"
+                                },
+                                {
+                                    "environment": "humid box"
+                                },
+                                {
+                                    "notice": "in a humid box at 4\u00b0C"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "9.",
+        "body": [
+            {
+                "sentence": "The next day, wash the slide twice in PBS-T for 10 minutes",
+                "result": [
+                    {
+                        "WASH": {
+                            "emit": [
+                                {
+                                    "reagent0": "slide"
+                                }
+                            ],
+                            "slot": [
+                                {
+                                    "reagent1": "slide"
+                                },
+                                {
+                                    "reagent2": "PBS-T"
+                                },
+                                {
+                                    "repeat": "2"
+                                },
+                                {
+                                    "time": "10 minutes"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "10.",
+        "body": [
+            {
+                "sentence": "Incubate the slide with the secondary antibody for 2 h at room temperature, in a humid box.",
+                "result": [
+                    {
+                        "INCUBATE": {
+                            "emit": [
+                                {
+                                    "reagent0": "slide"
+                                }
+                            ],
+                            "slot": [
+                                {
+                                    "reagent1": "secondary antibody"
+                                },
+                                {
+                                    "temperature": "room temperature"
+                                },
+                                {
+                                    "time": "2 h"
+                                },
+                                {
+                                    "environment": "humid box"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "11.",
+        "body": [
+            {
+                "sentence": "Wash the slide twice in PBS-T for 10 minutes and let it air dry.",
+                "result": [
+                    {
+                        "WASH": {
+                            "emit": [
+                                {
+                                    "reagent0": "slide"
+                                }
+                            ],
+                            "slot": [
+                                {
+                                    "reagent1": "slide"
+                                },
+                                {
+                                    "reagent2": "PBS-T"
+                                },
+                                {
+                                    "repeat": "2"
+                                },
+                                {
+                                    "time": "10 minutes"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "DRY": {
+                            "emit": [
+                                {
+                                    "reagent0": "slide"
+                                }
+                            ],
+                            "slot": [
+                                {
+                                    "reagent1": "slide"
+                                },
+                                {
+                                    "time": "10 minutes"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "12.",
+        "body": [
+            {
+                "sentence": "Mount the slide in Vectashield medium H-1200 with DAPI \\(4,6 diamidino-2-phenylindole; Vector Laboratories, Burlingame, CA) to stain DNA and reduce fluorescence fading.",
+                "result": []
+            }
+        ]
+    },
+    {
+        "title": "13.",
+        "body": [
+            {
+                "sentence": "Analyze the immunostaining with a epifluorescence microscope",
+                "result": [
+                    {
+                        "ANALYZE": {
+                            "emit": [
+                                {
+                                    "data0": "slide"
+                                }
+                            ],
+                            "slot": [
+                                {
+                                    "reagent1": "slide"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        ]
+    }
+]

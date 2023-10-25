@@ -1,0 +1,463 @@
+[
+    {
+        "title": "**KOH pretreatment   TIMING ~ 12 min**",
+        "body": [
+            {
+                "title": "1.",
+                "body": [
+                    {
+                        "sentence": "Incubate the MTP well surface with 100 \u03bcL of 1% \\(w/v) KOH in DIW for 10 min at 37\u00b0C and wash five times with 300 \u03bcL DIW per well).  CRITICAL STEP KOH treatment should not be longer than 10 min as it may cause strong aberrations in the surface that may change the surface properties.",
+                        "result": [
+                            {
+                                "INCUBATE": {
+                                    "emit": [
+                                        {
+                                            "reagent0": "MTP well surface"
+                                        }
+                                    ],
+                                    "slot": [
+                                        {
+                                            "reagent1": "1% (w/v) KOH in DIW"
+                                        },
+                                        {
+                                            "temperature": "37\u00b0C"
+                                        },
+                                        {
+                                            "time": "10 min"
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "WASH": {
+                                    "emit": [
+                                        {
+                                            "reagent0": "MTP well surface"
+                                        }
+                                    ],
+                                    "slot": [
+                                        {
+                                            "reagent1": "MTP well surface"
+                                        },
+                                        {
+                                            "reagent2": "DIW"
+                                        },
+                                        {
+                                            "repeat": "5"
+                                        }
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "**? TROUBLESHOOTING**",
+        "body": []
+    },
+    {
+        "title": "**Ab immobilization and BSA blocking   TIMING ~ 1 h 15 min**",
+        "body": [
+            {
+                "title": "2.",
+                "body": [
+                    {
+                        "sentence": "Mix EDC-activated anti-HFA capture Ab \\(8 \u00b5g mL<sup>-1</sup>) with 1% \\(v/v) APTES in a ratio of 1:1 \\(v/v). Incubate each of the desired wells of 96-well MTP with 100 \u03bcL of the freshly prepared anti-HFA capture Ab solution, with a final concentration of 4 \u00b5g mL<sup>-1</sup> in 0.5% APTES, for 30 min at 37\u00b0C. Wash five times with 300 \u03bcL of 0.1M PBS, pH 7.4. Washing can also be performed with an automatic plate washer.",
+                        "result": [
+                            {
+                                "MIX": {
+                                    "emit": [
+                                        {
+                                            "reagent0": "MTP well surface"
+                                        }
+                                    ],
+                                    "slot": [
+                                        {
+                                            "reagent1": "EDC-activated anti-HFA capture Ab"
+                                        },
+                                        {
+                                            "reagent2": "1% APTES"
+                                        },
+                                        {
+                                            "ratio": "1:1 (v/v)"
+                                        },
+                                        {
+                                            "temperature": "37\u00b0C"
+                                        },
+                                        {
+                                            "time": "30 min"
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "INCUBATE": {
+                                    "emit": [
+                                        {
+                                            "reagent0": "MTP well surface"
+                                        }
+                                    ],
+                                    "slot": [
+                                        {
+                                            "reagent1": "anti-HFA capture Ab solution"
+                                        },
+                                        {
+                                            "reagent2": "0.5% APTES"
+                                        },
+                                        {
+                                            "temperature": "37\u00b0C"
+                                        },
+                                        {
+                                            "time": "30 min"
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "WASH": {
+                                    "emit": [
+                                        {
+                                            "reagent0": "MTP well surface"
+                                        }
+                                    ],
+                                    "slot": [
+                                        {
+                                            "reagent1": "MTP well surface"
+                                        },
+                                        {
+                                            "reagent2": "0.1M PBS, pH 7.4"
+                                        },
+                                        {
+                                            "repeat": "5"
+                                        },
+                                        {
+                                            "time": "<blank>"
+                                        },
+                                        {
+                                            "notice": "Washing can also be performed with an automatic plate washer."
+                                        }
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "3.",
+                "body": [
+                    {
+                        "sentence": "Block the MTP wells by incubating with 300 \u03bcL of 1% \\(w/v) BSA for 30 min a 37\u00b0C and wash with 300 \u03bcL of 0.1M PBS, pH 7.4 five times. Washing can also be performed with an automatic plate washer. The blocking is essential to prevent non-specific binding to the unbound sites available on the MTP<sup>28</sup>.",
+                        "result": [
+                            {
+                                "INCUBATE": {
+                                    "emit": [
+                                        {
+                                            "reagent0": "MTP well surface"
+                                        }
+                                    ],
+                                    "slot": [
+                                        {
+                                            "reagent1": "1% (w/v) BSA"
+                                        },
+                                        {
+                                            "temperature": "37\u00b0C"
+                                        },
+                                        {
+                                            "time": "30 min"
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "WASH": {
+                                    "emit": [
+                                        {
+                                            "reagent0": "MTP well surface"
+                                        }
+                                    ],
+                                    "slot": [
+                                        {
+                                            "reagent1": "MTP well surface"
+                                        },
+                                        {
+                                            "reagent2": "0.1M PBS, pH 7.4"
+                                        },
+                                        {
+                                            "repeat": "5"
+                                        },
+                                        {
+                                            "notice": "Washing can also be performed with an automatic plate washer."
+                                        }
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "**CRITICAL STEP**",
+        "body": [
+            {
+                "sentence": "Use filtered BSA or filter the BSA solution prior to use to remove any microbial or other contaminants.",
+                "result": [
+                    {
+                        "FILTER": {
+                            "emit": [
+                                {
+                                    "reagent0": "filtered BSA"
+                                }
+                            ],
+                            "slot": [
+                                {
+                                    "reagent1": "BSA solution"
+                                },
+                                {
+                                    "filter": "0.2 \u03bcm filter"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "**? TROUBLESHOOTING**",
+        "body": []
+    },
+    {
+        "title": "**Developed HFA IA    TIMING 40 min**",
+        "body": [
+            {
+                "title": "4.",
+                "body": [
+                    {
+                        "sentence": "Dispense sequentially 100 \u00b5L of biotinylated anti-HFA detection Ab \\(0.17 \u00b5g mL<sup>-1</sup>) pre-conjugated to SA-HRP and 100 \u00b5L of HFA \\(varying concentrations; 0.1-243 ng mL<sup>-1</sup>) to the Ab-bound and BSA-blocked MTP wells. Incubate for 15 min at 37\u00b0C.",
+                        "result": [
+                            {
+                                "DISPENSE": {
+                                    "emit": [],
+                                    "slot": [
+                                        {
+                                            "reagent1": "biotinylated anti-HFA detection Ab"
+                                        },
+                                        {
+                                            "volume": "100 \u00b5L"
+                                        },
+                                        {
+                                            "container": "MTP wells"
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "DISPENSE": {
+                                    "emit": [
+                                        {
+                                            "reagent0": "HFA"
+                                        }
+                                    ],
+                                    "slot": [
+                                        {
+                                            "reagent1": "HFA"
+                                        },
+                                        {
+                                            "volume": "100 \u00b5L"
+                                        },
+                                        {
+                                            "container": "MTP wells"
+                                        }
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "**CRITICAL STEP**",
+        "body": [
+            {
+                "sentence": "Prepare the HFA concentrations in BSA-preblocked sample vials to minimize the analyte loss due to non-specific surface binding <sup>28</sup>.",
+                "result": [
+                    {
+                        "PREPARE": {
+                            "emit": [
+                                {
+                                    "reagent0": "HFA concentrations"
+                                }
+                            ],
+                            "slot": [
+                                {
+                                    "reagent1": "HFA concentrations"
+                                },
+                                {
+                                    "container": "BSA-preblocked sample vials"
+                                },
+                                {
+                                    "notice": "to minimize the analyte loss due to non-specific surface binding <sup>28</sup>."
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "**? TROUBLESHOOTING**",
+        "body": [
+            {
+                "title": "5.",
+                "body": [
+                    {
+                        "sentence": "Wash the resulting sandwich immune complex-bound MTP with 300 \u00b5L of 0.1M PBS, pH 7.4 five times to remove the non-specifically substances and excess IA reagents.",
+                        "result": [
+                            {
+                                "WASH": {
+                                    "emit": [
+                                        {
+                                            "reagent0": "MTP well surface"
+                                        }
+                                    ],
+                                    "slot": [
+                                        {
+                                            "reagent1": "resulting sandwich immune complex-bound MTP"
+                                        },
+                                        {
+                                            "reagent2": "0.1M PBS, pH 7.4"
+                                        },
+                                        {
+                                            "repeat": "five"
+                                        },
+                                        {
+                                            "notice": "to remove the non-specifically substances and excess IA reagents"
+                                        }
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "6.",
+                "body": [
+                    {
+                        "sentence": "Add 100 \u00b5L of the TMB-H<sub>2</sub>O<sub>2</sub> mixture to each MTP well and incubate at RT for 14 min to allow the enzymatic reaction to develop color.",
+                        "result": [
+                            {
+                                "ADD": {
+                                    "emit": [
+                                        {
+                                            "reagent0": "MTP well"
+                                        }
+                                    ],
+                                    "slot": [
+                                        {
+                                            "reagent1": "TMB-H<sub>2</sub>O<sub>2</sub> mixture"
+                                        },
+                                        {
+                                            "reagent2": "MTP well"
+                                        },
+                                        {
+                                            "notice": "Incubate at RT for 14 min to allow the enzymatic reaction to develop color"
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "INCUBATE": {
+                                    "emit": [],
+                                    "slot": [
+                                        {
+                                            "reagent1": "TMB-H<sub>2</sub>O<sub>2</sub> mixture"
+                                        },
+                                        {
+                                            "temperature": "RT"
+                                        },
+                                        {
+                                            "time": "14 min"
+                                        }
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "**? TROUBLESHOOTING**",
+        "body": [
+            {
+                "title": "7.",
+                "body": [
+                    {
+                        "sentence": "Stop the enzymatic reaction by adding 50 \u00b5L of 2N H<sub>2</sub>SO<sub>4</sub> to each MTP well.",
+                        "result": []
+                    }
+                ]
+            },
+            {
+                "title": "8.",
+                "body": [
+                    {
+                        "sentence": "Record the absorbance at a primary wavelength of 450 nm taking 540 nm as the reference wavelength in a Tecan Infinite M200 Pro microplate reader.",
+                        "result": [
+                            {
+                                "RECORD": {
+                                    "emit": [],
+                                    "slot": [
+                                        {
+                                            "information": "Record the absorbance at a primary wavelength of 450 nm taking 540 nm as the reference wavelength"
+                                        },
+                                        {
+                                            "device": "Tecan Infinite M200 Pro microplate reader"
+                                        }
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "**CRITICAL STEP**",
+        "body": [
+            {
+                "sentence": "Determine the absorbance within 10 min of stopping the enzyme substrate reaction.",
+                "result": [
+                    {
+                        "DETERMINE": {
+                            "emit": [],
+                            "slot": [
+                                {
+                                    "reagent1": "TMB-H<sub>2</sub>O<sub>2</sub> mixture"
+                                },
+                                {
+                                    "parameter": "absorbance"
+                                },
+                                {
+                                    "time": "10 min"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        ]
+    }
+]

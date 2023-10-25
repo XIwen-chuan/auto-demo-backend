@@ -1,0 +1,212 @@
+[
+    {
+        "sentence": "\n1.Wash preserved mosquitoes in sterile distilled water or phosphate buffer saline\\(PBS) to remove excess alcohol. Fresh mosquitoes can be ground directly.\r\n\n\n2.Grind mosquitoes  in  1.5 ml eppendorf  tube with micropistle in 50-100 \u00b5l 1X STE buffer \\( 50mM Nacl,50mM Tris- HCL,100mM EDTA, Ph 8.0) along with 100mM sucrose. Add 1X STE buffer to a total volume of 300-500 \u00b5l for a single mosquito and 1 ml for mosquito pool like 4,6,8,10 numbers. Then add 1% SDS ,1% Triton -X , 10 \u00b5l/ ml  Rnase A \\(20mg/ml), 20 \u00b5l/ ml  Proteinase K \\(20mg/ml) and mix it.\r\n\n\n3.Lyse for 1 hour 30 minutes at 37\u00ba celcius. Gently mix the tube by inverting every 15 minutes.\r\n\n\n4.Centrifuge at 12,000g  for 10 minutes at 4\u00ba celcius  .Transfer  the supernatant to a fresh tube.\r\n\n\n5.Add equal volume of phenol:chloroform\\(1:1) ,shake the tube well for 5 minutes and  centrifuge at 12,000g for 10 minutes at 4\u00ba celcius  .\r\n\n\n6.Repeat the above step\\(5) , then add chloroform:isoamyl alcohol\\(24:1) and centrifuge at 12,000g for 10 minutes at  4\u00ba celcius  .\r\n\n\n7.Transfer the very clear supernatant to a fresh tube , add two fold volume cold  isopropanol and keep it for 1 hour at -20\u00ba celcius  .\r\n\n\n8.Centrifuge at 12,000g for 30 minutes at 4\u00ba celcius and then  remove the supernatant .",
+        "result": [
+            {
+                "WASH": {
+                    "emit": [
+                        {
+                            "reagent0": "preserved mosquitoes"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "reagent1": "preserved mosquitoes"
+                        },
+                        {
+                            "reagent2": "sterile distilled water or phosphate buffer saline (PBS)"
+                        }
+                    ]
+                }
+            },
+            {
+                "CENTRIFUGE": {
+                    "emit": [],
+                    "slot": [
+                        {
+                            "reagent1": "preserved mosquitoes"
+                        },
+                        {
+                            "intensity": "12,000g"
+                        },
+                        {
+                            "time": "10 minutes"
+                        },
+                        {
+                            "temperature": "4\u00ba celcius"
+                        }
+                    ]
+                }
+            },
+            {
+                "ADD": {
+                    "emit": [
+                        {
+                            "reagent0": "preserved mosquitoes"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "reagent1": "phenol"
+                        },
+                        {
+                            "reagent2": "chloroform"
+                        },
+                        {
+                            "ratio": "1:1"
+                        }
+                    ]
+                }
+            },
+            {
+                "TRANSFER": {
+                    "emit": [
+                        {
+                            "reagent0": "supernatant"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "source": "supernatant"
+                        },
+                        {
+                            "destination": "fresh tube"
+                        },
+                        {
+                            "reagent1": "supernatant"
+                        },
+                        {
+                            "volume": "two fold volume"
+                        }
+                    ]
+                }
+            },
+            {
+                "CENTRIFUGE": {
+                    "emit": [
+                        {
+                            "reagent0": "supernatant"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "reagent1": "preserved mosquitoes"
+                        },
+                        {
+                            "intensity": "12,000g"
+                        },
+                        {
+                            "time": "30 minutes"
+                        },
+                        {
+                            "temperature": "4\u00ba celcius"
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "title": "9.",
+        "body": [
+            {
+                "sentence": "Wash the pellet with 70% ethanol .",
+                "result": [
+                    {
+                        "WASH": {
+                            "emit": [
+                                {
+                                    "reagent0": "pellet"
+                                }
+                            ],
+                            "slot": [
+                                {
+                                    "reagent1": "pellet"
+                                },
+                                {
+                                    "reagent2": "70% ethanol"
+                                },
+                                {
+                                    "repeat": "1"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "10.",
+        "body": [
+            {
+                "sentence": "Keep the pellet  at 37 \u00ba celcius  for  10 minutes.",
+                "result": [
+                    {
+                        "KEEP": {
+                            "emit": [
+                                {
+                                    "reagent0": "pellet"
+                                }
+                            ],
+                            "slot": [
+                                {
+                                    "reagent1": "pellet"
+                                },
+                                {
+                                    "temperature": "37 \u00ba celcius"
+                                },
+                                {
+                                    "time": "10 minutes"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "11.",
+        "body": [
+            {
+                "sentence": "Dissolve the dry pellet in nuclease free water or TE buffer \\(Ph 8.0). Store DNA at 4 \u00ba celcius  or -20 \u00ba celcius .",
+                "result": [
+                    {
+                        "DISSOLVE": {
+                            "emit": [],
+                            "slot": [
+                                {
+                                    "reagent1": "dry pellet"
+                                },
+                                {
+                                    "reagent2": "nuclease free water or TE buffer (Ph 8.0)"
+                                },
+                                {
+                                    "notice": "Store DNA at 4 \u00ba celcius or -20 \u00ba celcius"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "STORE": {
+                            "emit": [
+                                {
+                                    "reagent0": "DNA"
+                                }
+                            ],
+                            "slot": [
+                                {
+                                    "reagent1": "DNA"
+                                },
+                                {
+                                    "temperature": "4 \u00ba celcius or -20 \u00ba celcius"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        ]
+    }
+]

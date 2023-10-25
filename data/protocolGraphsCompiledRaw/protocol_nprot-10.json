@@ -1,0 +1,316 @@
+[
+    {
+        "title": "1)",
+        "body": [
+            {
+                "sentence": "Virulent _S. aureus_ MB 2865 \\(Smith strain) was grown overnight with aeration in TSB medium.",
+                "result": [
+                    {
+                        "GROW": {
+                            "emit": [
+                                {
+                                    "reagent0": "Virulent _S. aureus_ MB 2865 (Smith strain)"
+                                }
+                            ],
+                            "slot": [
+                                {
+                                    "reagent1": "Virulent _S. aureus_ MB 2865 (Smith strain)"
+                                },
+                                {
+                                    "medium": "TSB medium"
+                                },
+                                {
+                                    "temperature": "room temperature"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "2)",
+        "body": [
+            {
+                "sentence": "Bacteria were harvested and washed with fresh TSB and serially diluted to achieve an infective inoculum of 4 x 10<sup>3</sup> CFU/mL in 5% hog gastric mucin, and 0.5 mL was used to infect intraperitoneally.",
+                "result": [
+                    {
+                        "HARVEST": {
+                            "emit": [
+                                {
+                                    "reagent0": "Bacteria"
+                                }
+                            ],
+                            "slot": [
+                                {
+                                    "reagent1": "Bacteria"
+                                },
+                                {
+                                    "container": "TSB"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "WASH": {
+                            "emit": [
+                                {
+                                    "reagent0": "Bacteria"
+                                }
+                            ],
+                            "slot": [
+                                {
+                                    "reagent1": "Bacteria"
+                                },
+                                {
+                                    "reagent2": "TSB"
+                                },
+                                {
+                                    "repeat": "1"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "DILUTE": {
+                            "emit": [
+                                {
+                                    "reagent0": "Bacteria"
+                                }
+                            ],
+                            "slot": [
+                                {
+                                    "reagent1": "Bacteria"
+                                },
+                                {
+                                    "reagent2": "TSB"
+                                },
+                                {
+                                    "targetConcentration": "4 x 10^3 CFU/mL in 5% hog gastric mucin"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "3)",
+        "body": [
+            {
+                "sentence": "The infected mice were anesthetized using isoflurane \\(Abbott).  0.5 inch hollow connectors were attached to the external section of the JVC catheter and the mice were subsequently harnessed to the counter-balance arm inside a mouse cage.",
+                "result": [
+                    {
+                        "ANESTHETIZE": {
+                            "emit": [
+                                {
+                                    "reagent0": "infected mice"
+                                }
+                            ],
+                            "slot": [
+                                {
+                                    "reagent1": "infected mice"
+                                },
+                                {
+                                    "reagent2": "isoflurane (Abbott)"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "ATTACH": {
+                            "emit": [],
+                            "slot": [
+                                {
+                                    "reagent1": "0.5 inch hollow connectors"
+                                },
+                                {
+                                    "reagent2": "external section of the JVC catheter"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "4)",
+        "body": [
+            {
+                "sentence": "Fluid primed PE 20 tubings attached to individual syringes on the infusion pump were connected to the mice through the 0.5 inch hollow connector.",
+                "result": [
+                    {
+                        "ATTACH": {
+                            "emit": [],
+                            "slot": [
+                                {
+                                    "reagent1": "Fluid primed PE 20 tubings"
+                                },
+                                {
+                                    "reagent2": "individual syringes on the infusion pump"
+                                },
+                                {
+                                    "device": "0.5 inch hollow connector"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "5)",
+        "body": [
+            {
+                "sentence": "The infusion pump was initiated for 24 hours at a flow rate of 0.1 mL/hour.",
+                "result": []
+            }
+        ]
+    },
+    {
+        "title": "6)",
+        "body": [
+            {
+                "sentence": "Blood samples are taken by tail vein to determine serum drug concentration during the infusion.",
+                "result": [
+                    {
+                        "TAKE": {
+                            "emit": [
+                                {
+                                    "reagent0": "Blood samples"
+                                }
+                            ],
+                            "slot": [
+                                {
+                                    "reagent1": "Blood samples"
+                                },
+                                {
+                                    "source": "tail vein"
+                                },
+                                {
+                                    "notice": "to determine serum drug concentration during the infusion"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "7)",
+        "body": [
+            {
+                "sentence": "After the 24 hour period, the mice were euthanized and the kidneys were aseptically removed and homogenized.",
+                "result": [
+                    {
+                        "REMOVE": {
+                            "emit": [
+                                {
+                                    "reagent0": "kidneys"
+                                }
+                            ],
+                            "slot": [
+                                {
+                                    "reagent1": "kidneys"
+                                },
+                                {
+                                    "method": "aseptically"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "HOMOGENIZE": {
+                            "emit": [
+                                {
+                                    "reagent0": "kidneys"
+                                }
+                            ],
+                            "slot": [
+                                {
+                                    "reagent1": "kidneys"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "8)",
+        "body": [
+            {
+                "sentence": "Serial dilutions of the homogenates were plated on Mannitol plates and incubated overnight at 37 \u00b0C.",
+                "result": [
+                    {
+                        "DILUTE": {
+                            "emit": [
+                                {
+                                    "reagent0": "homogenates"
+                                }
+                            ],
+                            "slot": [
+                                {
+                                    "reagent1": "homogenates"
+                                },
+                                {
+                                    "reagent2": "Mannitol plates"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "INCUBATE": {
+                            "emit": [
+                                {
+                                    "reagent0": "homogenates"
+                                }
+                            ],
+                            "slot": [
+                                {
+                                    "reagent1": "homogenates"
+                                },
+                                {
+                                    "temperature": "37 \u00b0C"
+                                },
+                                {
+                                    "time": "overnight"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "9)",
+        "body": [
+            {
+                "sentence": "Bacterial counts were enumerated \\(ref. 2).",
+                "result": [
+                    {
+                        "COUNT": {
+                            "emit": [
+                                {
+                                    "data0": "<blank>"
+                                }
+                            ],
+                            "slot": [
+                                {
+                                    "reagent1": "homogenates"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        ]
+    }
+]

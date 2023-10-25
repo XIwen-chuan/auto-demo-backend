@@ -1,0 +1,690 @@
+[
+    {
+        "title": "**Expression:**",
+        "body": [
+            {
+                "sentence": "2x500ml Sf9 cells at 2x10<sup>6</sup> cell/ml\r\n\n\n10ml virus\r\n\n\n27 &#xB0;C\r\n\n\n130rpm",
+                "result": [
+                    {
+                        "PREPARE": {
+                            "emit": [
+                                {
+                                    "reagent0": "2x500ml Sf9 cells"
+                                }
+                            ],
+                            "slot": [
+                                {
+                                    "reagent1": "2x500ml Sf9 cells"
+                                },
+                                {
+                                    "concentration": "2x10^6 cell/ml"
+                                },
+                                {
+                                    "temperature": "27 \u00b0C"
+                                },
+                                {
+                                    "device": "130rpm"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "PREPARE": {
+                            "emit": [
+                                {
+                                    "reagent0": "virus"
+                                }
+                            ],
+                            "slot": [
+                                {
+                                    "reagent1": "virus"
+                                },
+                                {
+                                    "container": "10ml"
+                                },
+                                {
+                                    "temperature": "27 &#xB0;C"
+                                },
+                                {
+                                    "device": "130rpm"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "WARM": {
+                            "emit": [
+                                {
+                                    "reagent0": "2x500ml Sf9 cells"
+                                }
+                            ],
+                            "slot": [
+                                {
+                                    "reagent1": "2x500ml Sf9 cells"
+                                },
+                                {
+                                    "temperature": "27\u00b0C"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "SPIN": {
+                            "emit": [
+                                {
+                                    "reagent0": "2x500ml Sf9 cells"
+                                }
+                            ],
+                            "slot": [
+                                {
+                                    "reagent1": "2x500ml Sf9 cells"
+                                },
+                                {
+                                    "intensity": "130rpm"
+                                },
+                                {
+                                    "time": "<blank>"
+                                },
+                                {
+                                    "temperature": "27 &#xB0;C"
+                                },
+                                {
+                                    "device": "<blank>"
+                                },
+                                {
+                                    "notice": "<blank>"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            },
+            {
+                "title": "1)",
+                "body": [
+                    {
+                        "sentence": "Grow until cells are 30% dead",
+                        "result": [
+                            {
+                                "GROW": {
+                                    "emit": [],
+                                    "slot": [
+                                        {
+                                            "reagent1": "2x500ml Sf9 cells"
+                                        },
+                                        {
+                                            "temperature": "27\u00b0C"
+                                        },
+                                        {
+                                            "termination": "30% dead"
+                                        }
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "2)",
+                "body": [
+                    {
+                        "sentence": "Harvest:  2.5krpm, 15min, 4 &#xB0;C.  Resuspend in 20ml PBS/200mM NaCl\r\n\n\nLN<sub>2</sub> freeze",
+                        "result": [
+                            {
+                                "HARVEST": {
+                                    "emit": [
+                                        {
+                                            "reagent0": "2x500ml Sf9 cells"
+                                        }
+                                    ],
+                                    "slot": [
+                                        {
+                                            "reagent1": "2x500ml Sf9 cells"
+                                        },
+                                        {
+                                            "method": "2.5krpm, 15min, 4 \u00b0C"
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "RESUSPEND": {
+                                    "emit": [
+                                        {
+                                            "reagent0": "2x500ml Sf9 cells"
+                                        }
+                                    ],
+                                    "slot": [
+                                        {
+                                            "reagent1": "2x500ml Sf9 cells"
+                                        },
+                                        {
+                                            "reagent2": "PBS/200mM NaCl"
+                                        },
+                                        {
+                                            "temperature": "4 \u00b0C"
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "FREEZE": {
+                                    "emit": [
+                                        {
+                                            "reagent0": "2x500ml Sf9 cells"
+                                        }
+                                    ],
+                                    "slot": [
+                                        {
+                                            "reagent1": "2x500ml Sf9 cells"
+                                        },
+                                        {
+                                            "temperature": "LN2"
+                                        }
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "**Purification:**",
+        "body": [
+            {
+                "title": "1)",
+                "body": [
+                    {
+                        "sentence": "Thaw 2x500ml cell pellets.  Add PI tablets w/o EDTA \\(crush 2 Roche tablets in 2ml PBS/200mM NaCl.  Add 1ml/500ml cell pellet).",
+                        "result": [
+                            {
+                                "THAW": {
+                                    "emit": [
+                                        {
+                                            "reagent0": "2x500ml cell pellets"
+                                        }
+                                    ],
+                                    "slot": [
+                                        {
+                                            "reagent1": "2x500ml cell pellets"
+                                        },
+                                        {
+                                            "temperature": "room temperature"
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "ADD": {
+                                    "emit": [
+                                        {
+                                            "reagent0": "2x500ml cell pellets"
+                                        }
+                                    ],
+                                    "slot": [
+                                        {
+                                            "reagent1": "2x500ml cell pellets"
+                                        },
+                                        {
+                                            "reagent2": "PI tablets"
+                                        },
+                                        {
+                                            "ratio": "2 Roche tablets in 2ml PBS/200mM NaCl"
+                                        },
+                                        {
+                                            "notice": "Add 1ml/500ml cell pellet"
+                                        }
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "2)",
+                "body": [
+                    {
+                        "sentence": "Sonicate cells 15-20sec 5-6 times on ice.  Check cells under microscope to see if cells have busted open.",
+                        "result": [
+                            {
+                                "SONICATE": {
+                                    "emit": [
+                                        {
+                                            "reagent0": "2x500ml Sf9 cells"
+                                        }
+                                    ],
+                                    "slot": [
+                                        {
+                                            "reagent1": "2x500ml Sf9 cells"
+                                        },
+                                        {
+                                            "time": "15-20sec"
+                                        },
+                                        {
+                                            "temperature": "ice"
+                                        },
+                                        {
+                                            "notice": "Check cells under microscope to see if cells have busted open."
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "CHECK": {
+                                    "emit": [
+                                        {
+                                            "reagent0": "cells"
+                                        }
+                                    ],
+                                    "slot": [
+                                        {
+                                            "reagent1": "cells"
+                                        },
+                                        {
+                                            "attribute": "busted open"
+                                        },
+                                        {
+                                            "method": "microscope"
+                                        }
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "3)",
+                "body": [
+                    {
+                        "sentence": "Spin 19krpm, 60min, 4 &#xB0;C.",
+                        "result": [
+                            {
+                                "SPIN": {
+                                    "emit": [
+                                        {
+                                            "reagent0": "2x500ml Sf9 cells"
+                                        }
+                                    ],
+                                    "slot": [
+                                        {
+                                            "reagent1": "2x500ml Sf9 cells"
+                                        },
+                                        {
+                                            "intensity": "19krpm"
+                                        },
+                                        {
+                                            "time": "60min"
+                                        },
+                                        {
+                                            "temperature": "4 \u00b0C"
+                                        },
+                                        {
+                                            "device": "centrifuge"
+                                        }
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "4)",
+                "body": [
+                    {
+                        "sentence": "Equilibrate 2ml column with Binding buffer 1.",
+                        "result": [
+                            {
+                                "EQUILIBRATE": {
+                                    "emit": [
+                                        {
+                                            "reagent0": "2ml column"
+                                        }
+                                    ],
+                                    "slot": [
+                                        {
+                                            "reagent1": "2ml column"
+                                        },
+                                        {
+                                            "reagent2": "Binding buffer 1"
+                                        }
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "5)",
+                "body": [
+                    {
+                        "sentence": "Load column with supernatant.",
+                        "result": [
+                            {
+                                "LOAD": {
+                                    "emit": [
+                                        {
+                                            "reagent0": "supernatant"
+                                        }
+                                    ],
+                                    "slot": [
+                                        {
+                                            "reagent1": "supernatant"
+                                        },
+                                        {
+                                            "destination": "column"
+                                        }
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "6)",
+                "body": [
+                    {
+                        "sentence": "Wash column with 50ml binding buffer 1.",
+                        "result": [
+                            {
+                                "WASH": {
+                                    "emit": [
+                                        {
+                                            "reagent0": "column"
+                                        }
+                                    ],
+                                    "slot": [
+                                        {
+                                            "reagent1": "column"
+                                        },
+                                        {
+                                            "reagent2": "50ml binding buffer 1"
+                                        }
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "7)",
+                "body": [
+                    {
+                        "sentence": "Wash column with 50ml binding buffer 2.",
+                        "result": [
+                            {
+                                "WASH": {
+                                    "emit": [
+                                        {
+                                            "reagent0": "column"
+                                        }
+                                    ],
+                                    "slot": [
+                                        {
+                                            "reagent1": "column"
+                                        },
+                                        {
+                                            "reagent2": "binding buffer 2"
+                                        }
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "8)",
+                "body": [
+                    {
+                        "sentence": "Wash column with 30ml wash buffer.",
+                        "result": [
+                            {
+                                "WASH": {
+                                    "emit": [
+                                        {
+                                            "reagent0": "column"
+                                        }
+                                    ],
+                                    "slot": [
+                                        {
+                                            "reagent1": "column"
+                                        },
+                                        {
+                                            "reagent2": "wash buffer"
+                                        }
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "9)",
+                "body": [
+                    {
+                        "sentence": "Elute with elution buffer.  Collect fractions.  Pool peak.  If protein starts to crash out, use 5 M NaCl to bring back into solution up to 500 mM total.",
+                        "result": [
+                            {
+                                "ELUTE": {
+                                    "emit": [
+                                        {
+                                            "reagent0": "fractions"
+                                        }
+                                    ],
+                                    "slot": [
+                                        {
+                                            "reagent1": "elution buffer"
+                                        },
+                                        {
+                                            "reagent2": "elution buffer"
+                                        },
+                                        {
+                                            "component": "protein"
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "COLLECT": {
+                                    "emit": [
+                                        {
+                                            "reagent0": "fractions"
+                                        }
+                                    ],
+                                    "slot": [
+                                        {
+                                            "reagent1": "fractions"
+                                        },
+                                        {
+                                            "container": "<blank>"
+                                        },
+                                        {
+                                            "method": "<blank>"
+                                        },
+                                        {
+                                            "environment": "<blank>"
+                                        },
+                                        {
+                                            "purpose": "<blank>"
+                                        },
+                                        {
+                                            "notice": "<blank>"
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "POOL": {
+                                    "emit": [
+                                        {
+                                            "reagent0": "pooled peak"
+                                        }
+                                    ],
+                                    "slot": [
+                                        {
+                                            "reagent1": "fractions"
+                                        }
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "10)",
+                "body": [
+                    {
+                        "sentence": "Concentrate protein to go onto S75 gel filtration column.",
+                        "result": [
+                            {
+                                "CONCENTRATE": {
+                                    "emit": [
+                                        {
+                                            "reagent0": "protein"
+                                        }
+                                    ],
+                                    "slot": [
+                                        {
+                                            "reagent1": "protein"
+                                        },
+                                        {
+                                            "device": "S75 gel filtration column"
+                                        }
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "11)",
+                "body": [
+                    {
+                        "sentence": "Gel filtration with 1xPBS/250mM NaCl/2mM &#x3B2;-ME.  \\(with the S75 column you can load 500 &#x3BC;l sample at a time roughly at 3-5mg/ml)",
+                        "result": [
+                            {
+                                "LOAD": {
+                                    "emit": [
+                                        {
+                                            "reagent0": "500 \u03bcl sample"
+                                        }
+                                    ],
+                                    "slot": [
+                                        {
+                                            "reagent1": "500 \u03bcl sample"
+                                        },
+                                        {
+                                            "destination": "S75 column"
+                                        }
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "**Critical**",
+        "body": [
+            {
+                "sentence": ":  if you need to concentrate the protein you will need to go up in NaCl and possible glycerol to stabilize the protein.",
+                "result": [
+                    {
+                        "CONCENTRATE": {
+                            "emit": [
+                                {
+                                    "reagent0": "protein"
+                                }
+                            ],
+                            "slot": [
+                                {
+                                    "reagent1": "protein"
+                                },
+                                {
+                                    "targetVol": "<blank>"
+                                },
+                                {
+                                    "targetConcentration": "<blank>"
+                                },
+                                {
+                                    "method": "<blank>"
+                                },
+                                {
+                                    "device": "<blank>"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            },
+            {
+                "title": "12)",
+                "body": [
+                    {
+                        "sentence": "SDS PAGE on purification.  Do protein concentration.  LN<sub>2</sub> freeze protein.",
+                        "result": [
+                            {
+                                "PERFORM": {
+                                    "emit": [
+                                        {
+                                            "reagent0": "protein"
+                                        }
+                                    ],
+                                    "slot": [
+                                        {
+                                            "procedure": "SDS PAGE on purification"
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "MEASURE": {
+                                    "emit": [],
+                                    "slot": [
+                                        {
+                                            "reagent1": "protein"
+                                        },
+                                        {
+                                            "parameter": "protein concentration"
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "FREEZE": {
+                                    "emit": [
+                                        {
+                                            "reagent0": "protein"
+                                        }
+                                    ],
+                                    "slot": [
+                                        {
+                                            "reagent1": "protein"
+                                        },
+                                        {
+                                            "temperature": "LN2"
+                                        }
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+]

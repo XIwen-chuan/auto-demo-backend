@@ -1,0 +1,653 @@
+{
+  "name": "nprot-2280_graphData.json",
+  "nodes": [
+    {
+      "id": "b1a7232b-6eaa-4ec9-b0b9-60b47fee24af",
+      "text": "Dilute HeLa cell lysate \\(2.92mg/ml) to a concentration ranging from 29.2 -0.028\u00b5g total protein in 1X LDS sample buffer + 1X sample reducing agent  and load 10\u00b5l on to a NuPAGE\u00ae Novex\u00ae 4-12% Bis-Tris pre-cast SDS-PAGE gel.",
+      "instruction": "DILUTE",
+      "slots": [
+        {
+          "key": "reagent1",
+          "value": "HeLa cell lysate",
+          "id": "38ac8c22-39e0-4e46-ba9b-e39525d70b7e",
+          "node_id": "b1a7232b-6eaa-4ec9-b0b9-60b47fee24af"
+        },
+        {
+          "key": "reagent2",
+          "value": "1X LDS sample buffer + 1X sample reducing agent",
+          "id": "f662a14f-98dc-4260-876b-da0e18481b5d",
+          "node_id": "b1a7232b-6eaa-4ec9-b0b9-60b47fee24af"
+        },
+        {
+          "key": "targetConcentration",
+          "value": "29.2 - 0.028\u00b5g total protein",
+          "id": "ac09726b-42a7-476c-9d8a-901838b219db",
+          "node_id": "b1a7232b-6eaa-4ec9-b0b9-60b47fee24af"
+        }
+      ],
+      "emits": [
+        {
+          "key": "reagent0",
+          "value": "HeLa cell lysate",
+          "id": "6712bb44-6750-4379-80fa-af736bd0c7d1",
+          "node_id": "b1a7232b-6eaa-4ec9-b0b9-60b47fee24af"
+        }
+      ]
+    },
+    {
+      "id": "370d572f-ef82-47c8-a3e6-ae1683fba397",
+      "text": "Dilute HeLa cell lysate \\(2.92mg/ml) to a concentration ranging from 29.2 -0.028\u00b5g total protein in 1X LDS sample buffer + 1X sample reducing agent  and load 10\u00b5l on to a NuPAGE\u00ae Novex\u00ae 4-12% Bis-Tris pre-cast SDS-PAGE gel.",
+      "instruction": "LOAD",
+      "slots": [
+        {
+          "key": "reagent1",
+          "value": "HeLa cell lysate",
+          "id": "25f30537-2a3a-4b2a-8532-0cea829062a4",
+          "node_id": "370d572f-ef82-47c8-a3e6-ae1683fba397"
+        },
+        {
+          "key": "destination",
+          "value": "NuPAGE\u00ae Novex\u00ae 4-12% Bis-Tris pre-cast SDS-PAGE gel",
+          "id": "2a26d4f9-8b65-4eae-beff-4fba3c66b593",
+          "node_id": "370d572f-ef82-47c8-a3e6-ae1683fba397"
+        },
+        {
+          "key": "volume",
+          "value": "10\u00b5l",
+          "id": "f4b4f640-fbdd-414d-a16f-c2248ef871a3",
+          "node_id": "370d572f-ef82-47c8-a3e6-ae1683fba397"
+        }
+      ],
+      "emits": [
+        {
+          "key": "reagent0",
+          "value": "HeLa cell lysate",
+          "id": "db59d1dd-44f2-4cbe-a1cb-5452224728bf",
+          "node_id": "370d572f-ef82-47c8-a3e6-ae1683fba397"
+        }
+      ]
+    },
+    {
+      "id": "5f7c4d43-7c01-498f-86cd-c44d069f62af",
+      "text": "Load Precision All Blue marker \\(2\u00b5l) \\(BioRad) on to the gel. The blue protein marker bands autofluoresce in the 700nm channel and can therefore be visualised by the G:BOX IR<sup>6</sup> Imaging System and the Odyssey Infrared Imaging System.",
+      "instruction": "LOAD",
+      "slots": [
+        {
+          "key": "reagent1",
+          "value": "Precision All Blue marker (2\u00b5l) (BioRad)",
+          "id": "ccfe6ddf-a173-42c9-b726-f36700958d89",
+          "node_id": "5f7c4d43-7c01-498f-86cd-c44d069f62af"
+        },
+        {
+          "key": "destination",
+          "value": "the gel",
+          "id": "f7da08f2-e39a-4ea2-944c-af7579a54ad2",
+          "node_id": "5f7c4d43-7c01-498f-86cd-c44d069f62af"
+        }
+      ],
+      "emits": [
+        {
+          "key": "reagent0",
+          "value": "Precision All Blue marker (2\u00b5l) (BioRad)",
+          "id": "66e4344b-79e3-49d2-89d8-2d7421c67d1e",
+          "node_id": "5f7c4d43-7c01-498f-86cd-c44d069f62af"
+        }
+      ]
+    },
+    {
+      "id": "0524cfc2-dcc4-462d-a76c-f008b7332934",
+      "text": "Using the XCell Sure-Lock Mini-Cell, run the gel for 30 minutes at 60V and then increase the voltage to 120V until the dye front reaches the bottom \\(~1 hour 30 minutes).",
+      "instruction": "RUN",
+      "slots": [
+        {
+          "key": "reagent1",
+          "value": "XCell Sure-Lock Mini-Cell",
+          "id": "ed2e823b-bb9d-4786-90db-f9fdc8d252b9",
+          "node_id": "0524cfc2-dcc4-462d-a76c-f008b7332934"
+        },
+        {
+          "key": "device",
+          "value": "XCell Sure-Lock Mini-Cell",
+          "id": "71016585-515c-43ab-90f2-e30cf4d1de12",
+          "node_id": "0524cfc2-dcc4-462d-a76c-f008b7332934"
+        },
+        {
+          "key": "voltage",
+          "value": "60V",
+          "id": "bc9f8be1-b9d4-4337-be8c-8978303f7b0d",
+          "node_id": "0524cfc2-dcc4-462d-a76c-f008b7332934"
+        }
+      ],
+      "emits": []
+    },
+    {
+      "id": "78094c34-7710-4bdd-b0c1-a14ae2317c97",
+      "text": "Using the XCell Sure-Lock Mini-Cell, run the gel for 30 minutes at 60V and then increase the voltage to 120V until the dye front reaches the bottom \\(~1 hour 30 minutes).",
+      "instruction": "INCREASE",
+      "slots": [
+        {
+          "key": "attribute",
+          "value": "voltage",
+          "id": "7d454536-d401-4733-84c9-3cc89317cb0d",
+          "node_id": "78094c34-7710-4bdd-b0c1-a14ae2317c97"
+        },
+        {
+          "key": "value",
+          "value": "120V",
+          "id": "ed217cc2-da72-426d-9bf1-a9368917c8ae",
+          "node_id": "78094c34-7710-4bdd-b0c1-a14ae2317c97"
+        },
+        {
+          "key": "environment",
+          "value": "XCell Sure-Lock Mini-Cell",
+          "id": "84bd9c50-f5f8-450e-a407-1644562ab657",
+          "node_id": "78094c34-7710-4bdd-b0c1-a14ae2317c97"
+        }
+      ],
+      "emits": []
+    },
+    {
+      "id": "b0733fdb-2bbf-4c78-97e0-730468e2f84a",
+      "text": "Prepare the nitrocellulose membrane by wetting in 1X NuPAGE transfer buffer + 10% methanol.",
+      "instruction": "PREPARE",
+      "slots": [
+        {
+          "key": "reagent1",
+          "value": "nitrocellulose membrane",
+          "id": "5a16e439-fbf0-44e3-8ad4-5ab7757ce49e",
+          "node_id": "b0733fdb-2bbf-4c78-97e0-730468e2f84a"
+        }
+      ],
+      "emits": [
+        {
+          "key": "reagent0",
+          "value": "nitrocellulose membrane",
+          "id": "4f7e24ac-77dc-48cd-804b-6507ff359dee",
+          "node_id": "b0733fdb-2bbf-4c78-97e0-730468e2f84a"
+        }
+      ]
+    },
+    {
+      "id": "7d03ee15-2db6-488d-8587-14f6f373f177",
+      "text": "Prepare the transfer stack for the XCell II Blot Module according to manufacturers instructions and transfer proteins for 1 hour 15 minutes at 30V in 1X NuPAGE transfer buffer + 10% methanol.",
+      "instruction": "PREPARE",
+      "slots": [
+        {
+          "key": "reagent1",
+          "value": "XCell II Blot Module",
+          "id": "1e6103b9-d06c-4f83-90eb-f1725b093e7d",
+          "node_id": "7d03ee15-2db6-488d-8587-14f6f373f177"
+        }
+      ],
+      "emits": []
+    },
+    {
+      "id": "f04b2129-1562-4a2d-aecd-6e73aa77e291",
+      "text": "Prepare the transfer stack for the XCell II Blot Module according to manufacturers instructions and transfer proteins for 1 hour 15 minutes at 30V in 1X NuPAGE transfer buffer + 10% methanol.",
+      "instruction": "TRANSFER",
+      "slots": [
+        {
+          "key": "source",
+          "value": "XCell II Blot Module",
+          "id": "45218ad2-ad7d-4045-8542-7b162bd09b68",
+          "node_id": "f04b2129-1562-4a2d-aecd-6e73aa77e291"
+        },
+        {
+          "key": "destination",
+          "value": "<blank>",
+          "id": "099c04c0-df6a-4b7d-b3a5-479fe2de9555",
+          "node_id": "f04b2129-1562-4a2d-aecd-6e73aa77e291"
+        },
+        {
+          "key": "reagent1",
+          "value": "HeLa cell lysate",
+          "id": "4c320ee9-cc9b-4c16-8dd7-951a95e270a6",
+          "node_id": "f04b2129-1562-4a2d-aecd-6e73aa77e291"
+        }
+      ],
+      "emits": [
+        {
+          "key": "reagent0",
+          "value": "nitrocellulose membrane",
+          "id": "1b37e35a-1b22-43aa-bd25-cbcb22716ae5",
+          "node_id": "f04b2129-1562-4a2d-aecd-6e73aa77e291"
+        }
+      ]
+    },
+    {
+      "id": "e0a15a6f-049e-4d97-bc2c-56557ce06bf3",
+      "text": "Remove nitrocellulose membrane from the transfer stack and rinse in PBST.",
+      "instruction": "REMOVE",
+      "slots": [
+        {
+          "key": "reagent1",
+          "value": "nitrocellulose membrane",
+          "id": "16738238-34b8-466c-b3d1-8c3285b4023d",
+          "node_id": "e0a15a6f-049e-4d97-bc2c-56557ce06bf3"
+        },
+        {
+          "key": "method",
+          "value": "Remove",
+          "id": "c219ded4-06cc-4b9a-b702-017fa59fc51c",
+          "node_id": "e0a15a6f-049e-4d97-bc2c-56557ce06bf3"
+        },
+        {
+          "key": "device",
+          "value": "transfer stack",
+          "id": "6e0cd324-294a-4a19-bdd7-e8421cd21a6c",
+          "node_id": "e0a15a6f-049e-4d97-bc2c-56557ce06bf3"
+        },
+        {
+          "key": "notice",
+          "value": "",
+          "id": "f325c6fc-5c74-4c30-bc0c-5799ed63c26e",
+          "node_id": "e0a15a6f-049e-4d97-bc2c-56557ce06bf3"
+        }
+      ],
+      "emits": [
+        {
+          "key": "reagent0",
+          "value": "nitrocellulose membrane",
+          "id": "a871687e-88a4-43b4-9fc2-ac00d6bee1f3",
+          "node_id": "e0a15a6f-049e-4d97-bc2c-56557ce06bf3"
+        }
+      ]
+    },
+    {
+      "id": "97f16bc3-f617-4e2b-a7db-2494e8f2dac7",
+      "text": "Remove nitrocellulose membrane from the transfer stack and rinse in PBST.",
+      "instruction": "RINSE",
+      "slots": [
+        {
+          "key": "reagent1",
+          "value": "nitrocellulose membrane",
+          "id": "fae744ee-7e30-44a3-95b0-6cac291397c3",
+          "node_id": "97f16bc3-f617-4e2b-a7db-2494e8f2dac7"
+        },
+        {
+          "key": "reagent2",
+          "value": "PBST",
+          "id": "6a618561-0ff5-4c68-8fbf-46a38a0853e9",
+          "node_id": "97f16bc3-f617-4e2b-a7db-2494e8f2dac7"
+        }
+      ],
+      "emits": [
+        {
+          "key": "reagent0",
+          "value": "nitrocellulose membrane",
+          "id": "cdaeca0a-f748-4109-8f3d-3bff5afb883b",
+          "node_id": "97f16bc3-f617-4e2b-a7db-2494e8f2dac7"
+        }
+      ]
+    },
+    {
+      "id": "abf47655-4d5f-4ce5-ab23-4de69aaf688f",
+      "text": "Block the membrane with Odyssey Blocking Buffer for 1 hour at room temperature with gentle agitation.",
+      "instruction": "BLOCK",
+      "slots": [
+        {
+          "key": "reagent1",
+          "value": "nitrocellulose membrane",
+          "id": "6d4097fc-29c0-4776-b1ef-f11ed483c8ea",
+          "node_id": "abf47655-4d5f-4ce5-ab23-4de69aaf688f"
+        },
+        {
+          "key": "reagent2",
+          "value": "Odyssey Blocking Buffer",
+          "id": "48b17785-43a5-4002-bac6-5d771f863891",
+          "node_id": "abf47655-4d5f-4ce5-ab23-4de69aaf688f"
+        },
+        {
+          "key": "temperature",
+          "value": "room temperature",
+          "id": "7edd57f8-4fc4-4812-b153-5ef05cbb3f4d",
+          "node_id": "abf47655-4d5f-4ce5-ab23-4de69aaf688f"
+        },
+        {
+          "key": "time",
+          "value": "1 hour",
+          "id": "73ba97dc-c749-4a24-8761-6da77c32a6b0",
+          "node_id": "abf47655-4d5f-4ce5-ab23-4de69aaf688f"
+        }
+      ],
+      "emits": [
+        {
+          "key": "reagent0",
+          "value": "nitrocellulose membrane",
+          "id": "e3c834ed-9570-4bd1-8eec-7260f99fdb81",
+          "node_id": "abf47655-4d5f-4ce5-ab23-4de69aaf688f"
+        }
+      ]
+    },
+    {
+      "id": "a0926d60-e297-4b6a-97c3-cb6c83a6222f",
+      "text": "Incubate the membrane overnight at 4<sup>o</sup>C on a rocker with primary antibodies diluted in Odyssey Blocking Buffer + 0.1% Tween \\(mouse monoclonal anti-actin, 1:5000 and rabbit polyclonal anti-ERK, 1:1000).",
+      "instruction": "INCUBATE",
+      "slots": [
+        {
+          "key": "reagent1",
+          "value": "membrane",
+          "id": "e48aca5e-fe0c-4e2d-bc07-9e90fbd8d09c",
+          "node_id": "a0926d60-e297-4b6a-97c3-cb6c83a6222f"
+        },
+        {
+          "key": "reagent2",
+          "value": "Odyssey Blocking Buffer + 0.1% Tween (mouse monoclonal anti-actin, 1:5000 and rabbit polyclonal anti-ERK, 1:1000)",
+          "id": "fb436ce0-77c3-4b6c-be62-a08a9ca1123f",
+          "node_id": "a0926d60-e297-4b6a-97c3-cb6c83a6222f"
+        },
+        {
+          "key": "temperature",
+          "value": "4\u00b0C",
+          "id": "28b46b91-0724-4d18-9034-738adcc96339",
+          "node_id": "a0926d60-e297-4b6a-97c3-cb6c83a6222f"
+        },
+        {
+          "key": "time",
+          "value": "overnight",
+          "id": "05bf79f9-71ff-4db6-a6cb-58ad9a0c8af2",
+          "node_id": "a0926d60-e297-4b6a-97c3-cb6c83a6222f"
+        },
+        {
+          "key": "device",
+          "value": "rocker",
+          "id": "700d1727-8f11-458c-8e71-ea25450199a3",
+          "node_id": "a0926d60-e297-4b6a-97c3-cb6c83a6222f"
+        }
+      ],
+      "emits": [
+        {
+          "key": "reagent0",
+          "value": "membrane",
+          "id": "eea69938-3129-47fe-bc20-eddfdbe490c1",
+          "node_id": "a0926d60-e297-4b6a-97c3-cb6c83a6222f"
+        }
+      ]
+    },
+    {
+      "id": "91c984cf-6cd5-40a5-9687-f91c8e9efdf4",
+      "text": "Wash the membrane 4 times with PBST, 5 minutes each wash.",
+      "instruction": "WASH",
+      "slots": [
+        {
+          "key": "reagent1",
+          "value": "nitrocellulose membrane",
+          "id": "0512c62f-d089-4861-af73-217650f44d87",
+          "node_id": "91c984cf-6cd5-40a5-9687-f91c8e9efdf4"
+        },
+        {
+          "key": "reagent2",
+          "value": "PBST",
+          "id": "1387e065-9322-48ac-9332-d9c8756aae9b",
+          "node_id": "91c984cf-6cd5-40a5-9687-f91c8e9efdf4"
+        },
+        {
+          "key": "repeat",
+          "value": "4",
+          "id": "8c4e4b75-9ff0-44b8-9bdc-c942527241a6",
+          "node_id": "91c984cf-6cd5-40a5-9687-f91c8e9efdf4"
+        },
+        {
+          "key": "time",
+          "value": "5 minutes",
+          "id": "4feaf717-053d-4757-8796-ac5aebd114aa",
+          "node_id": "91c984cf-6cd5-40a5-9687-f91c8e9efdf4"
+        }
+      ],
+      "emits": [
+        {
+          "key": "reagent0",
+          "value": "nitrocellulose membrane",
+          "id": "2471bf11-1ca1-4ecf-8ba7-7f3c996dec06",
+          "node_id": "91c984cf-6cd5-40a5-9687-f91c8e9efdf4"
+        }
+      ]
+    },
+    {
+      "id": "26434016-5286-46e1-b096-769cd99a3e0f",
+      "text": "Incubate the membrane with secondary antibodies diluted in Odyssey Blocking Buffer + 0.1% Tween for 1 hour at room temperature in the dark with gentle agitation.",
+      "instruction": "INCUBATE",
+      "slots": [
+        {
+          "key": "reagent1",
+          "value": "secondary antibodies",
+          "id": "89161825-1c90-4565-84cb-37c3f79d04d8",
+          "node_id": "26434016-5286-46e1-b096-769cd99a3e0f"
+        },
+        {
+          "key": "reagent2",
+          "value": "Odyssey Blocking Buffer + 0.1% Tween",
+          "id": "b7cfa299-470d-4d61-aa15-802dfd1f8a15",
+          "node_id": "26434016-5286-46e1-b096-769cd99a3e0f"
+        },
+        {
+          "key": "temperature",
+          "value": "room temperature",
+          "id": "c6b69b46-2f9b-4b92-b5a1-c11131046da9",
+          "node_id": "26434016-5286-46e1-b096-769cd99a3e0f"
+        },
+        {
+          "key": "time",
+          "value": "1 hour",
+          "id": "94ec2006-7f85-4a3b-b617-dff69ccd1a5e",
+          "node_id": "26434016-5286-46e1-b096-769cd99a3e0f"
+        },
+        {
+          "key": "environment",
+          "value": "dark",
+          "id": "389c8305-accd-49b2-a653-30b3f877b1a2",
+          "node_id": "26434016-5286-46e1-b096-769cd99a3e0f"
+        }
+      ],
+      "emits": [
+        {
+          "key": "reagent0",
+          "value": "membrane",
+          "id": "09324cf7-6762-467b-80d4-f8c8c9d23838",
+          "node_id": "26434016-5286-46e1-b096-769cd99a3e0f"
+        }
+      ]
+    },
+    {
+      "id": "450ef311-8ed9-4722-b007-3008c93fc491",
+      "text": "Wash the membrane 3 times with PBST, 5 minutes each wash.",
+      "instruction": "WASH",
+      "slots": [
+        {
+          "key": "reagent1",
+          "value": "membrane",
+          "id": "8a53ab2d-d6d7-430d-9360-f89e0c1c2d32",
+          "node_id": "450ef311-8ed9-4722-b007-3008c93fc491"
+        },
+        {
+          "key": "reagent2",
+          "value": "PBST",
+          "id": "d4149e6f-fd3e-4853-928d-4731f49c475c",
+          "node_id": "450ef311-8ed9-4722-b007-3008c93fc491"
+        },
+        {
+          "key": "repeat",
+          "value": "3",
+          "id": "53200367-2139-4ccd-8eca-6ba641a7ddd6",
+          "node_id": "450ef311-8ed9-4722-b007-3008c93fc491"
+        },
+        {
+          "key": "time",
+          "value": "5 minutes",
+          "id": "c123ef9a-1a24-4947-8bb2-b837a96634d6",
+          "node_id": "450ef311-8ed9-4722-b007-3008c93fc491"
+        }
+      ],
+      "emits": [
+        {
+          "key": "reagent0",
+          "value": "membrane",
+          "id": "e64310c8-7aee-4e1e-b4b6-4e38c134f2df",
+          "node_id": "450ef311-8ed9-4722-b007-3008c93fc491"
+        }
+      ]
+    },
+    {
+      "id": "9f5de949-0b73-4e21-97d7-4f305d603a36",
+      "text": "Finally, rinse the membrane with PBS alone before scanning or using the imaging system. \r\n  \r\n\n\nVisualisation",
+      "instruction": "RINSE",
+      "slots": [
+        {
+          "key": "reagent1",
+          "value": "membrane",
+          "id": "5925390b-7b8d-49f4-bb76-a9ba017629c2",
+          "node_id": "9f5de949-0b73-4e21-97d7-4f305d603a36"
+        },
+        {
+          "key": "reagent2",
+          "value": "PBS",
+          "id": "f9e6f366-cea6-4d1e-a145-2add02d6b191",
+          "node_id": "9f5de949-0b73-4e21-97d7-4f305d603a36"
+        },
+        {
+          "key": "repeat",
+          "value": "1",
+          "id": "9d900620-acb4-4b42-85cf-a58d9bc048eb",
+          "node_id": "9f5de949-0b73-4e21-97d7-4f305d603a36"
+        },
+        {
+          "key": "notice",
+          "value": "before scanning or using the imaging system.",
+          "id": "cabe3d08-f536-42e8-a90f-40856b644430",
+          "node_id": "9f5de949-0b73-4e21-97d7-4f305d603a36"
+        }
+      ],
+      "emits": [
+        {
+          "key": "reagent0",
+          "value": "membrane",
+          "id": "5ac091e3-1b73-4860-8dd5-c6a6e124a80e",
+          "node_id": "9f5de949-0b73-4e21-97d7-4f305d603a36"
+        }
+      ]
+    },
+    {
+      "id": "dd49776c-f5ac-4b67-bbdd-05d62b5c1c40",
+      "text": "G:BOX IR<sup>6</sup> system settings for DyLight 680 are an Epi Red lighting and a Syngene 705M filter and for DyLight 800 are Epi LED IR740 lighting and a Syngene LY800 filter, 4x4 binning factor for both dyes.",
+      "instruction": "SETUP",
+      "slots": [
+        {
+          "key": "container",
+          "value": "G:BOX IR<sup>6</sup> system",
+          "id": "a458cf3b-a5ec-45f1-b725-3cf8fbc358d4",
+          "node_id": "dd49776c-f5ac-4b67-bbdd-05d62b5c1c40"
+        },
+        {
+          "key": "reagent1",
+          "value": "DyLight 680",
+          "id": "26593e23-f8df-4425-97e2-b527210fd120",
+          "node_id": "dd49776c-f5ac-4b67-bbdd-05d62b5c1c40"
+        }
+      ],
+      "emits": [
+        {
+          "key": "reagent0",
+          "value": "DyLight 680",
+          "id": "ae12cfa2-e19b-4eb5-921d-e06ce097bff8",
+          "node_id": "dd49776c-f5ac-4b67-bbdd-05d62b5c1c40"
+        }
+      ]
+    },
+    {
+      "id": "8cb53fde-fe65-461c-a85e-8c7e0132605f",
+      "text": "Odyssey system settings are preset: membrane, resolution: 169 mm, quality: medium, focus offset: 0.0, intensity 4.5 for DyLight 680 and intensity 5 for DyLight 800.",
+      "instruction": "SETUP",
+      "slots": [
+        {
+          "key": "container",
+          "value": "Odyssey system",
+          "id": "7c36c4e2-e532-4502-b109-2cc1163c5e76",
+          "node_id": "8cb53fde-fe65-461c-a85e-8c7e0132605f"
+        }
+      ],
+      "emits": [
+        {
+          "key": "reagent0",
+          "value": "membrane",
+          "id": "4eda6b02-a6c2-423b-a37a-69fe8d3b52d7",
+          "node_id": "8cb53fde-fe65-461c-a85e-8c7e0132605f"
+        }
+      ]
+    },
+    {
+      "id": "197bd7b5-b67d-4425-b7e7-81af127414f8",
+      "text": "Using the Odyssey and G:BOX IR<sup>6</sup> systems the DyLight 680 was linear over the following range \\(7.3-0.22\u00b5g) series dilution used in this experiment \\(Figure 2a and 2b).",
+      "instruction": "PERFORM",
+      "slots": [
+        {
+          "key": "procedure",
+          "value": "Using the Odyssey and G:BOX IR<sup>6</sup> systems the DyLight 680 was linear over the following range (7.3-0.22\u00b5g) series dilution used in this experiment (Figure 2a and 2b).",
+          "id": "584a7193-d756-48e8-9355-d5ff5417b62f",
+          "node_id": "197bd7b5-b67d-4425-b7e7-81af127414f8"
+        }
+      ],
+      "emits": [
+        {
+          "key": "reagent0",
+          "value": "DyLight 680",
+          "id": "d0e79415-da3f-4c71-a0bf-6f73b7de36ce",
+          "node_id": "197bd7b5-b67d-4425-b7e7-81af127414f8"
+        }
+      ]
+    },
+    {
+      "id": "c4e90d19-e75e-424a-b559-4feb73ef9975",
+      "text": "The DyLight 800 was linear with Odyssey and G:BOX IR<sup>6</sup> systems over the dilution series used in this experiment. To compare the linearity of the data and to determine LOD ERK p44 \\(DyLight 800) was used.",
+      "instruction": "COMPARE",
+      "slots": [
+        {
+          "key": "reagent1",
+          "value": "DyLight 800",
+          "id": "3720fcfb-1bd9-4fa4-9d9f-5be04431b016",
+          "node_id": "c4e90d19-e75e-424a-b559-4feb73ef9975"
+        },
+        {
+          "key": "reagent2",
+          "value": "Odyssey and G:BOX IR<sup>6</sup> systems",
+          "id": "459e9d4c-7bd4-4608-a5ab-f45497ab5163",
+          "node_id": "c4e90d19-e75e-424a-b559-4feb73ef9975"
+        }
+      ],
+      "emits": [
+        {
+          "key": "result",
+          "value": "The DyLight 800 was linear with Odyssey and G:BOX IR<sup>6</sup> systems over the dilution series used in this experiment.",
+          "id": "aa345519-5a10-43b9-9466-d541b93f4d82",
+          "node_id": "c4e90d19-e75e-424a-b559-4feb73ef9975"
+        }
+      ]
+    },
+    {
+      "id": "cbf96089-4841-4111-80af-506847f9867b",
+      "text": "The DyLight 800 was linear with Odyssey and G:BOX IR<sup>6</sup> systems over the dilution series used in this experiment. To compare the linearity of the data and to determine LOD ERK p44 \\(DyLight 800) was used.",
+      "instruction": "DETERMINE",
+      "slots": [
+        {
+          "key": "device",
+          "value": "Odyssey and G:BOX IR<sup>6</sup> systems",
+          "id": "09c9d09b-11d5-49cc-8592-db218eecb41b",
+          "node_id": "cbf96089-4841-4111-80af-506847f9867b"
+        },
+        {
+          "key": "reagent1",
+          "value": "DyLight 800",
+          "id": "774a549f-a59f-46b3-aa5a-3876a9287e3a",
+          "node_id": "cbf96089-4841-4111-80af-506847f9867b"
+        },
+        {
+          "key": "parameter",
+          "value": "LOD ERK p44",
+          "id": "6dfd8d59-1073-4d48-bb98-61880d238495",
+          "node_id": "cbf96089-4841-4111-80af-506847f9867b"
+        }
+      ],
+      "emits": []
+    }
+  ],
+  "edges": []
+}

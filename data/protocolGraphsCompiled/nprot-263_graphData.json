@@ -1,0 +1,472 @@
+{
+  "name": "nprot-263_graphData.json",
+  "nodes": [
+    {
+      "id": "991dbb4f-f95a-4955-9e79-fa7047dce938",
+      "text": "By cardiac puncture of the horseshoe crab, collect the hemolymph into pyrogen-free tubes.  The animals are handled under national and institutional guidelines of \\(National Advisory Committee for Laboratory Animal Research, Singapore).  Only partial bleeding of the horseshoe crab is performed and the animal is returned alive, to its natural habitat \\(the estuary).",
+      "instruction": "COLLECT",
+      "slots": [
+        {
+          "key": "reagent1",
+          "value": "hemolymph",
+          "id": "0fd164d3-9ec8-4e20-b5a2-40531db31c28",
+          "node_id": "991dbb4f-f95a-4955-9e79-fa7047dce938"
+        },
+        {
+          "key": "container",
+          "value": "pyrogen-free tubes",
+          "id": "ca1b1919-f01f-493d-a075-4048a5d7f81b",
+          "node_id": "991dbb4f-f95a-4955-9e79-fa7047dce938"
+        },
+        {
+          "key": "method",
+          "value": "cardiac puncture",
+          "id": "56cc1108-a9f9-4ad1-a75f-e16fba2ea3ed",
+          "node_id": "991dbb4f-f95a-4955-9e79-fa7047dce938"
+        },
+        {
+          "key": "notice",
+          "value": "By cardiac puncture of the horseshoe crab",
+          "id": "57980d9f-0e54-493f-9db2-2dac0081bd16",
+          "node_id": "991dbb4f-f95a-4955-9e79-fa7047dce938"
+        }
+      ],
+      "emits": [
+        {
+          "key": "reagent0",
+          "value": "hemolymph",
+          "id": "5e024462-dc89-4a49-bdf9-2e06460fae59",
+          "node_id": "991dbb4f-f95a-4955-9e79-fa7047dce938"
+        }
+      ]
+    },
+    {
+      "id": "33765d20-626f-4f8a-8e0a-e296808d5942",
+      "text": "By cardiac puncture of the horseshoe crab, collect the hemolymph into pyrogen-free tubes.  The animals are handled under national and institutional guidelines of \\(National Advisory Committee for Laboratory Animal Research, Singapore).  Only partial bleeding of the horseshoe crab is performed and the animal is returned alive, to its natural habitat \\(the estuary).",
+      "instruction": "RETURN",
+      "slots": [
+        {
+          "key": "destination",
+          "value": "the estuary",
+          "id": "2fdb5ffa-fa68-4a98-a723-5c5ed6151d69",
+          "node_id": "33765d20-626f-4f8a-8e0a-e296808d5942"
+        },
+        {
+          "key": "reagent1",
+          "value": "hemolymph",
+          "id": "09ff4952-e31c-4767-8a7a-562af551b95f",
+          "node_id": "33765d20-626f-4f8a-8e0a-e296808d5942"
+        },
+        {
+          "key": "notice",
+          "value": "Only partial bleeding of the horseshoe crab is performed.",
+          "id": "b078b8dd-577a-431b-a028-b912cbf170cd",
+          "node_id": "33765d20-626f-4f8a-8e0a-e296808d5942"
+        }
+      ],
+      "emits": [
+        {
+          "key": "reagent0",
+          "value": "hemolymph",
+          "id": "17295df5-e2ba-4c77-9152-c7040a01dcf6",
+          "node_id": "33765d20-626f-4f8a-8e0a-e296808d5942"
+        }
+      ]
+    },
+    {
+      "id": "ab9e8741-36c3-4b9f-8005-9c94ea56235d",
+      "text": "Carefully remove the hemocytes by centrifugation at 150 x g for 10 min at 4 &#x2DA;C.",
+      "instruction": "REMOVE",
+      "slots": [
+        {
+          "key": "reagent1",
+          "value": "hemocytes",
+          "id": "2088057f-4350-49be-b5da-7de5cc7ca597",
+          "node_id": "ab9e8741-36c3-4b9f-8005-9c94ea56235d"
+        },
+        {
+          "key": "method",
+          "value": "centrifugation",
+          "id": "20cd5add-0c46-4c20-a76a-c9b6b29b8f75",
+          "node_id": "ab9e8741-36c3-4b9f-8005-9c94ea56235d"
+        },
+        {
+          "key": "device",
+          "value": "150 x g",
+          "id": "28237ec3-eb80-44fa-a260-e32a9e456586",
+          "node_id": "ab9e8741-36c3-4b9f-8005-9c94ea56235d"
+        }
+      ],
+      "emits": [
+        {
+          "key": "reagent0",
+          "value": "hemocytes",
+          "id": "5e8c942d-4b05-48b9-b8ca-37247687247f",
+          "node_id": "ab9e8741-36c3-4b9f-8005-9c94ea56235d"
+        }
+      ]
+    },
+    {
+      "id": "c39e32a9-1a96-490f-a5d0-b062eede1248",
+      "text": "Carefully remove the hemocytes by centrifugation at 150 x g for 10 min at 4 &#x2DA;C.",
+      "instruction": "CENTRIFUGE",
+      "slots": [
+        {
+          "key": "reagent1",
+          "value": "hemocytes",
+          "id": "bb910a10-9d62-4fd3-97ce-2c7acaf9aec2",
+          "node_id": "c39e32a9-1a96-490f-a5d0-b062eede1248"
+        },
+        {
+          "key": "intensity",
+          "value": "150 x g",
+          "id": "1cadfe24-b4a8-4190-8e89-97ba3571e1a9",
+          "node_id": "c39e32a9-1a96-490f-a5d0-b062eede1248"
+        },
+        {
+          "key": "time",
+          "value": "10 min",
+          "id": "5aa608d9-34e8-411a-b5d9-3564a3ea5a83",
+          "node_id": "c39e32a9-1a96-490f-a5d0-b062eede1248"
+        },
+        {
+          "key": "temperature",
+          "value": "4 \u00b0C",
+          "id": "fb522cc8-dd94-4cbe-a549-dbbaa0116eb6",
+          "node_id": "c39e32a9-1a96-490f-a5d0-b062eede1248"
+        }
+      ],
+      "emits": [
+        {
+          "key": "reagent0",
+          "value": "hemocytes",
+          "id": "8907fe96-9a62-40fa-9f4f-a924fd55fd7a",
+          "node_id": "c39e32a9-1a96-490f-a5d0-b062eede1248"
+        }
+      ]
+    },
+    {
+      "id": "5f140696-ee11-4ea1-baf0-2d0d2e018687",
+      "text": "Quick-freeze the second supernatant \\(referred to as plasma) in liquid nitrogen and store at -80 &#x2DA;C until further use.",
+      "instruction": "FREEZE",
+      "slots": [
+        {
+          "key": "reagent1",
+          "value": "plasma",
+          "id": "f2ea8149-0279-4b78-9fd1-8e826188f020",
+          "node_id": "5f140696-ee11-4ea1-baf0-2d0d2e018687"
+        },
+        {
+          "key": "temperature",
+          "value": "liquid nitrogen",
+          "id": "444f7f71-2482-4504-b36c-00c73a562138",
+          "node_id": "5f140696-ee11-4ea1-baf0-2d0d2e018687"
+        },
+        {
+          "key": "notice",
+          "value": "Store at -80 \u00b0C until further use.",
+          "id": "9b91bd26-6241-4c15-9e0a-9a57e35321e2",
+          "node_id": "5f140696-ee11-4ea1-baf0-2d0d2e018687"
+        }
+      ],
+      "emits": [
+        {
+          "key": "reagent0",
+          "value": "plasma",
+          "id": "8f5a227d-ecb2-4ba8-b701-6431c73714a8",
+          "node_id": "5f140696-ee11-4ea1-baf0-2d0d2e018687"
+        }
+      ]
+    },
+    {
+      "id": "868bd8ca-4a53-4c6d-98bb-6c55533f4317",
+      "text": "Quick-freeze the second supernatant \\(referred to as plasma) in liquid nitrogen and store at -80 &#x2DA;C until further use.",
+      "instruction": "STORE",
+      "slots": [
+        {
+          "key": "reagent1",
+          "value": "plasma",
+          "id": "a999c2f0-8b65-45aa-a51c-2fb71de1ec07",
+          "node_id": "868bd8ca-4a53-4c6d-98bb-6c55533f4317"
+        },
+        {
+          "key": "temperature",
+          "value": "-80 \u00b0C",
+          "id": "ccddef94-8208-480a-b022-74d31d28497a",
+          "node_id": "868bd8ca-4a53-4c6d-98bb-6c55533f4317"
+        }
+      ],
+      "emits": [
+        {
+          "key": "reagent0",
+          "value": "plasma",
+          "id": "a03c5b0c-be5f-4c5a-8051-65b49d35f922",
+          "node_id": "868bd8ca-4a53-4c6d-98bb-6c55533f4317"
+        }
+      ]
+    },
+    {
+      "id": "a2aade42-7c96-430e-8ee7-42bcc97b3afa",
+      "text": "Centrifuge the plasma twice at 40,000 x g for 3 h each at 4 &#x2DA;C.",
+      "instruction": "CENTRIFUGE",
+      "slots": [
+        {
+          "key": "reagent1",
+          "value": "plasma",
+          "id": "f02a441e-e9da-4ad0-b180-fe8fddec15e5",
+          "node_id": "a2aade42-7c96-430e-8ee7-42bcc97b3afa"
+        },
+        {
+          "key": "intensity",
+          "value": "40,000 x g",
+          "id": "a5e66c82-a7c3-4d60-8686-876dfc48deb7",
+          "node_id": "a2aade42-7c96-430e-8ee7-42bcc97b3afa"
+        },
+        {
+          "key": "time",
+          "value": "3 h",
+          "id": "3363776d-b164-40eb-8e34-f6aef251c3d0",
+          "node_id": "a2aade42-7c96-430e-8ee7-42bcc97b3afa"
+        },
+        {
+          "key": "temperature",
+          "value": "4 \u00b0C",
+          "id": "cc10f216-5dce-4d5d-b1b9-19765cea83cb",
+          "node_id": "a2aade42-7c96-430e-8ee7-42bcc97b3afa"
+        }
+      ],
+      "emits": [
+        {
+          "key": "reagent0",
+          "value": "plasma",
+          "id": "1c5ff40a-6901-4391-a06c-57404b0b2546",
+          "node_id": "a2aade42-7c96-430e-8ee7-42bcc97b3afa"
+        }
+      ]
+    },
+    {
+      "id": "c15b5a63-da69-40b1-bc40-29b2d5dc475b",
+      "text": "Resuspend the plasma containing enriched HMC/PPO in 0.5 M pyrogen-free NaCl, and further dialyze against 0.1 M Tris-HCl, pH 8.0, 5 mM CaCl<sub>2</sub>, 5 mM MgCl<sub>2</sub>, at 4 &#x2DA;C overnight.",
+      "instruction": "RESUSPEND",
+      "slots": [
+        {
+          "key": "reagent1",
+          "value": "plasma",
+          "id": "43b3d6a1-4133-492c-a220-ad3d55b478f4",
+          "node_id": "c15b5a63-da69-40b1-bc40-29b2d5dc475b"
+        },
+        {
+          "key": "reagent2",
+          "value": "0.5 M pyrogen-free NaCl",
+          "id": "1e245d11-c320-44b7-aea3-12abe602e395",
+          "node_id": "c15b5a63-da69-40b1-bc40-29b2d5dc475b"
+        },
+        {
+          "key": "temperature",
+          "value": "4 \u00b0C",
+          "id": "ebca7e2c-d9d3-4239-8868-3cb6a3820fbe",
+          "node_id": "c15b5a63-da69-40b1-bc40-29b2d5dc475b"
+        }
+      ],
+      "emits": [
+        {
+          "key": "reagent0",
+          "value": "plasma",
+          "id": "61a382d1-3ee3-4f1d-b8c1-4e2939545ff3",
+          "node_id": "c15b5a63-da69-40b1-bc40-29b2d5dc475b"
+        }
+      ]
+    },
+    {
+      "id": "cb6a4a1a-c828-4491-ab39-865715d48013",
+      "text": "Resuspend the plasma containing enriched HMC/PPO in 0.5 M pyrogen-free NaCl, and further dialyze against 0.1 M Tris-HCl, pH 8.0, 5 mM CaCl<sub>2</sub>, 5 mM MgCl<sub>2</sub>, at 4 &#x2DA;C overnight.",
+      "instruction": "DIALYZE",
+      "slots": [
+        {
+          "key": "reagent1",
+          "value": "plasma",
+          "id": "1b81c834-b2c2-4c1c-98eb-1aabb6062f95",
+          "node_id": "cb6a4a1a-c828-4491-ab39-865715d48013"
+        },
+        {
+          "key": "reagent2",
+          "value": "0.1 M Tris-HCl, pH 8.0, 5 mM CaCl2, 5 mM MgCl2",
+          "id": "7498db69-826a-48a2-bc5e-15aec4515c81",
+          "node_id": "cb6a4a1a-c828-4491-ab39-865715d48013"
+        },
+        {
+          "key": "temperature",
+          "value": "4 \u00b0C",
+          "id": "d770ce05-bab7-41b7-94b2-ff304d96eb4e",
+          "node_id": "cb6a4a1a-c828-4491-ab39-865715d48013"
+        },
+        {
+          "key": "time",
+          "value": "overnight",
+          "id": "eacf7a8c-c25c-4a4a-8331-025a8f7021d4",
+          "node_id": "cb6a4a1a-c828-4491-ab39-865715d48013"
+        }
+      ],
+      "emits": [
+        {
+          "key": "reagent0",
+          "value": "plasma",
+          "id": "41ae9008-9ba3-49ca-bdad-06d513136fe3",
+          "node_id": "cb6a4a1a-c828-4491-ab39-865715d48013"
+        }
+      ]
+    },
+    {
+      "id": "41900747-ef80-4fff-a4d1-74422e989240",
+      "text": "Further purify the hemocyanin by gel filtration chromatography through Superdex S200 column \\(2 x 150 cm) using elution buffer containing 0.1 M Tris-HCl, pH 8.0, 5 mM CaCl<sub>2</sub>, 5 mM MgCl<sub>2</sub>.  Collect the eluate in 1 ml fractions.",
+      "instruction": "PURIFY",
+      "slots": [
+        {
+          "key": "reagent1",
+          "value": "hemocyanin",
+          "id": "502031c5-cc48-45c7-88f7-d660e647ff59",
+          "node_id": "41900747-ef80-4fff-a4d1-74422e989240"
+        },
+        {
+          "key": "method",
+          "value": "gel filtration chromatography",
+          "id": "d0c128a1-01fa-4f1e-bfba-02e7f2856308",
+          "node_id": "41900747-ef80-4fff-a4d1-74422e989240"
+        },
+        {
+          "key": "device",
+          "value": "Superdex S200 column (2 x 150 cm)",
+          "id": "b0c63fd7-5463-4297-960e-4e9108cf5a1b",
+          "node_id": "41900747-ef80-4fff-a4d1-74422e989240"
+        }
+      ],
+      "emits": [
+        {
+          "key": "reagent0",
+          "value": "hemocyanin",
+          "id": "ed88d59b-965d-45b3-80fb-dbdd79c0bdc2",
+          "node_id": "41900747-ef80-4fff-a4d1-74422e989240"
+        }
+      ]
+    },
+    {
+      "id": "940fa6c7-f6f4-4c94-a494-e61c24c253b4",
+      "text": "Further purify the hemocyanin by gel filtration chromatography through Superdex S200 column \\(2 x 150 cm) using elution buffer containing 0.1 M Tris-HCl, pH 8.0, 5 mM CaCl<sub>2</sub>, 5 mM MgCl<sub>2</sub>.  Collect the eluate in 1 ml fractions.",
+      "instruction": "COLLECT",
+      "slots": [
+        {
+          "key": "reagent1",
+          "value": "hemocyanin",
+          "id": "f7cd08f7-1c56-48c3-86c9-9d3dbcfba0fc",
+          "node_id": "940fa6c7-f6f4-4c94-a494-e61c24c253b4"
+        },
+        {
+          "key": "container",
+          "value": "1 ml fractions",
+          "id": "fb11eb08-c4be-40ee-8d99-f5fea00ad920",
+          "node_id": "940fa6c7-f6f4-4c94-a494-e61c24c253b4"
+        },
+        {
+          "key": "method",
+          "value": "gel filtration chromatography",
+          "id": "73a3f6bf-90b0-4026-b1b9-1bdd0f2e5642",
+          "node_id": "940fa6c7-f6f4-4c94-a494-e61c24c253b4"
+        },
+        {
+          "key": "environment",
+          "value": "Superdex S200 column (2 x 150 cm)",
+          "id": "600829ad-5e7d-4391-aaa7-b1fc010810b4",
+          "node_id": "940fa6c7-f6f4-4c94-a494-e61c24c253b4"
+        },
+        {
+          "key": "purpose",
+          "value": "Further purification",
+          "id": "028ef991-808a-4133-a3b5-b2b44efafb56",
+          "node_id": "940fa6c7-f6f4-4c94-a494-e61c24c253b4"
+        },
+        {
+          "key": "notice",
+          "value": "",
+          "id": "f4b99b6f-c3c5-4de5-992b-b55615ea9ad6",
+          "node_id": "940fa6c7-f6f4-4c94-a494-e61c24c253b4"
+        }
+      ],
+      "emits": [
+        {
+          "key": "reagent0",
+          "value": "hemocyanin",
+          "id": "dd755df6-4706-4a44-92cf-da291090aa7e",
+          "node_id": "940fa6c7-f6f4-4c94-a494-e61c24c253b4"
+        }
+      ]
+    },
+    {
+      "id": "7106b4c8-4f5c-4f41-a5ae-292f2c0f623f",
+      "text": "Analyse the protein profile for each peak by electrophoresis on 12% SDS-PAGE.",
+      "instruction": "ANALYZE",
+      "slots": [
+        {
+          "key": "reagent1",
+          "value": "hemocyanin",
+          "id": "2605be35-d459-47a3-b797-61468d8fe1e3",
+          "node_id": "7106b4c8-4f5c-4f41-a5ae-292f2c0f623f"
+        },
+        {
+          "key": "method",
+          "value": "electrophoresis on 12% SDS-PAGE",
+          "id": "9f3fbd95-dcd2-44d6-8ebd-4f8bf9610032",
+          "node_id": "7106b4c8-4f5c-4f41-a5ae-292f2c0f623f"
+        }
+      ],
+      "emits": []
+    },
+    {
+      "id": "52ae9e6a-cbb1-4c33-9c90-643eb20ff871",
+      "text": "Pool the first half of the large leading peak which contains purified hemocyanin.",
+      "instruction": "POOL",
+      "slots": [
+        {
+          "key": "reagent1",
+          "value": "hemocyanin",
+          "id": "d21d50f9-e52a-4344-a9a8-03f501be5a13",
+          "node_id": "52ae9e6a-cbb1-4c33-9c90-643eb20ff871"
+        }
+      ],
+      "emits": [
+        {
+          "key": "reagent0",
+          "value": "hemocyanin",
+          "id": "decd6c6e-c6f8-4519-9291-b9848fbedce5",
+          "node_id": "52ae9e6a-cbb1-4c33-9c90-643eb20ff871"
+        }
+      ]
+    },
+    {
+      "id": "f7f76fc5-6b53-4644-b6a9-eddd7bdf5e44",
+      "text": "Determine the concentration of the purified hemocyanin by the method of Bradford using bovine serum albumin \\(Sigma, Fraction V) as standard.",
+      "instruction": "DETERMINE",
+      "slots": [
+        {
+          "key": "reagent1",
+          "value": "Bradford method",
+          "id": "14e814f1-bf42-411e-b95f-1e43c94e6a40",
+          "node_id": "f7f76fc5-6b53-4644-b6a9-eddd7bdf5e44"
+        },
+        {
+          "key": "parameter",
+          "value": "concentration",
+          "id": "7f3573cb-92ab-407d-974e-abf2cc7e95d3",
+          "node_id": "f7f76fc5-6b53-4644-b6a9-eddd7bdf5e44"
+        },
+        {
+          "key": "notice",
+          "value": "using bovine serum albumin (Sigma, Fraction V) as standard.",
+          "id": "5d7e79d6-0fda-42a5-99bf-ef01d73e0c27",
+          "node_id": "f7f76fc5-6b53-4644-b6a9-eddd7bdf5e44"
+        }
+      ],
+      "emits": []
+    }
+  ],
+  "edges": []
+}

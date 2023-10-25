@@ -1,0 +1,200 @@
+[
+    {
+        "title": "1.",
+        "body": [
+            {
+                "sentence": "Place 10-300mg of zebrafish into microcentrifuge tubes.  Unhatched fish do not require prior dechorionation.",
+                "result": [
+                    {
+                        "PLACE": {
+                            "emit": [
+                                {
+                                    "reagent0": "zebrafish"
+                                }
+                            ],
+                            "slot": [
+                                {
+                                    "reagent1": "zebrafish"
+                                },
+                                {
+                                    "destination": "microcentrifuge tubes"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "2.",
+        "body": [
+            {
+                "sentence": "To each tube, add two masses of zirconium oxide grinding beads for each mass of sample.",
+                "result": [
+                    {
+                        "ADD": {
+                            "emit": [
+                                {
+                                    "reagent0": "zebrafish"
+                                }
+                            ],
+                            "slot": [
+                                {
+                                    "reagent1": "zebrafish"
+                                },
+                                {
+                                    "reagent2": "zirconium oxide grinding beads"
+                                },
+                                {
+                                    "ratio": "2:1"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "3.",
+        "body": [
+            {
+                "sentence": "Add 2 volumes of buffer for every mass of zebrafish \\(for example, with 100mg of fish use 200ml of buffer).  You may choose your buffer as appropriate for your downstream application.",
+                "result": [
+                    {
+                        "ADD": {
+                            "emit": [
+                                {
+                                    "reagent0": "zebrafish"
+                                }
+                            ],
+                            "slot": [
+                                {
+                                    "reagent1": "zebrafish"
+                                },
+                                {
+                                    "reagent2": "buffer"
+                                },
+                                {
+                                    "ratio": "2 volumes"
+                                },
+                                {
+                                    "notice": "You may choose your buffer as appropriate for your downstream application."
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "4.",
+        "body": [
+            {
+                "sentence": "Close the microcentrifuge tubes and place the tubes into the Bullet Blender<sup>TM</sup> \\(they do not need to be balanced).",
+                "result": [
+                    {
+                        "CLOSE": {
+                            "emit": [
+                                {
+                                    "reagent0": "microcentrifuge tubes"
+                                }
+                            ],
+                            "slot": [
+                                {
+                                    "reagent1": "microcentrifuge tubes"
+                                },
+                                {
+                                    "device": "Bullet Blender<sup>TM</sup>"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "PLACE": {
+                            "emit": [
+                                {
+                                    "reagent0": "microcentrifuge tubes"
+                                }
+                            ],
+                            "slot": [
+                                {
+                                    "reagent1": "zebrafish"
+                                },
+                                {
+                                    "destination": "Bullet Blender<sup>TM</sup>"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "5.",
+        "body": [
+            {
+                "sentence": "Set controls for SPEED 8 and TIME 3 minutes, then start the run.",
+                "result": [
+                    {
+                        "SETUP": {
+                            "emit": [],
+                            "slot": [
+                                {
+                                    "container": "microcentrifuge tubes"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "RUN": {
+                            "emit": [
+                                {
+                                    "reagent0": "zebrafish"
+                                }
+                            ],
+                            "slot": [
+                                {
+                                    "reagent1": "zebrafish"
+                                },
+                                {
+                                    "device": "Bullet Blender<sup>TM</sup>"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "6.",
+        "body": [
+            {
+                "sentence": "Remove tubes and proceed with your downstream application.",
+                "result": [
+                    {
+                        "REMOVE": {
+                            "emit": [
+                                {
+                                    "reagent0": "microcentrifuge tubes"
+                                }
+                            ],
+                            "slot": [
+                                {
+                                    "reagent1": "microcentrifuge tubes"
+                                },
+                                {
+                                    "notice": "Proceed with your downstream application."
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        ]
+    }
+]

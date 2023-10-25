@@ -1,0 +1,137 @@
+{
+  "name": "nprot-58_graphData.json",
+  "nodes": [
+    {
+      "id": "79e7f24a-7600-4705-a92d-17069eb5247a",
+      "text": "The setup is arranged on the vibration isolation table, with the laser Doppler vibrometer \\(LDV) being positioned in the centre \\(Fig. 1c). Mount the rod holding the fly on a micromanipulator and position the manipulator so that the fly is at focal distance from the LDV. Turn the rod so that the arista of one antenna is oriented perpendicular to the optical axis of the laser \\(the positioning can be controlled visually via the coaxial video capture system of the LDV; Fig. 1b). Focus the laser on the tip of the arista of one antenna, and slightly change the position via the scanning unit of the LDV until a maximum level of backscattered laser light is obtained. The arista and the third antennal segment together form the sound receiver of the fly \\(Fig. 1a). Because these antennal parts move as a unit, analyzing the vibrations of the arista-tip is sufficient to explore the mechanical intensity and frequency characteristics of the antennal receiver. The loudspeaker for broadcasting acoustic stimuli is placed at a distance of ca. 10 cm behind the fly, with its diaphragm facing both the LDV and the fly \\(Fig. 1c). The second micromanipulator is used to bring the reference microphone close \\(distance ca. 5mm) to the measured antenna. Make sure that the measured arista and the microphone are equidistant to the loudspeaker and that the microphone membrane is perpendicular to the direction of sound propagation.",
+      "instruction": "POSITION",
+      "slots": [
+        {
+          "key": "reagent1",
+          "value": "rod holding the fly",
+          "id": "ca66447e-4c00-46ff-9733-cf89f2d6cfe8",
+          "node_id": "79e7f24a-7600-4705-a92d-17069eb5247a"
+        },
+        {
+          "key": "destination",
+          "value": "micromanipulator",
+          "id": "a8d4895a-1f21-4ad1-8e5a-1979870b333f",
+          "node_id": "79e7f24a-7600-4705-a92d-17069eb5247a"
+        }
+      ],
+      "emits": [
+        {
+          "key": "reagent0",
+          "value": "fly",
+          "id": "cc3b966e-acaa-4ed9-b62e-7daf3b31952b",
+          "node_id": "79e7f24a-7600-4705-a92d-17069eb5247a"
+        }
+      ]
+    },
+    {
+      "id": "6ab76085-d5ff-4931-a3ce-d117f8fbf3ff",
+      "text": "The setup is arranged on the vibration isolation table, with the laser Doppler vibrometer \\(LDV) being positioned in the centre \\(Fig. 1c). Mount the rod holding the fly on a micromanipulator and position the manipulator so that the fly is at focal distance from the LDV. Turn the rod so that the arista of one antenna is oriented perpendicular to the optical axis of the laser \\(the positioning can be controlled visually via the coaxial video capture system of the LDV; Fig. 1b). Focus the laser on the tip of the arista of one antenna, and slightly change the position via the scanning unit of the LDV until a maximum level of backscattered laser light is obtained. The arista and the third antennal segment together form the sound receiver of the fly \\(Fig. 1a). Because these antennal parts move as a unit, analyzing the vibrations of the arista-tip is sufficient to explore the mechanical intensity and frequency characteristics of the antennal receiver. The loudspeaker for broadcasting acoustic stimuli is placed at a distance of ca. 10 cm behind the fly, with its diaphragm facing both the LDV and the fly \\(Fig. 1c). The second micromanipulator is used to bring the reference microphone close \\(distance ca. 5mm) to the measured antenna. Make sure that the measured arista and the microphone are equidistant to the loudspeaker and that the microphone membrane is perpendicular to the direction of sound propagation.",
+      "instruction": "TURN",
+      "slots": [
+        {
+          "key": "device",
+          "value": "rod",
+          "id": "c2841cd1-3513-4994-a230-a0acd476efd5",
+          "node_id": "6ab76085-d5ff-4931-a3ce-d117f8fbf3ff"
+        },
+        {
+          "key": "state",
+          "value": "turn",
+          "id": "3994e9a4-af46-4615-8155-043e47180270",
+          "node_id": "6ab76085-d5ff-4931-a3ce-d117f8fbf3ff"
+        },
+        {
+          "key": "setting",
+          "value": "arista of one antenna oriented perpendicular to the optical axis of the laser",
+          "id": "a5bd60aa-1a72-462d-bd2a-dc665f150e92",
+          "node_id": "6ab76085-d5ff-4931-a3ce-d117f8fbf3ff"
+        }
+      ],
+      "emits": []
+    },
+    {
+      "id": "b2ea6ee6-8ccc-4538-84d7-2ade031ba971",
+      "text": "The setup is arranged on the vibration isolation table, with the laser Doppler vibrometer \\(LDV) being positioned in the centre \\(Fig. 1c). Mount the rod holding the fly on a micromanipulator and position the manipulator so that the fly is at focal distance from the LDV. Turn the rod so that the arista of one antenna is oriented perpendicular to the optical axis of the laser \\(the positioning can be controlled visually via the coaxial video capture system of the LDV; Fig. 1b). Focus the laser on the tip of the arista of one antenna, and slightly change the position via the scanning unit of the LDV until a maximum level of backscattered laser light is obtained. The arista and the third antennal segment together form the sound receiver of the fly \\(Fig. 1a). Because these antennal parts move as a unit, analyzing the vibrations of the arista-tip is sufficient to explore the mechanical intensity and frequency characteristics of the antennal receiver. The loudspeaker for broadcasting acoustic stimuli is placed at a distance of ca. 10 cm behind the fly, with its diaphragm facing both the LDV and the fly \\(Fig. 1c). The second micromanipulator is used to bring the reference microphone close \\(distance ca. 5mm) to the measured antenna. Make sure that the measured arista and the microphone are equidistant to the loudspeaker and that the microphone membrane is perpendicular to the direction of sound propagation.",
+      "instruction": "PLACE",
+      "slots": [
+        {
+          "key": "reagent1",
+          "value": "loudspeaker",
+          "id": "918175b1-bdc5-44de-9129-92b235a7ff66",
+          "node_id": "b2ea6ee6-8ccc-4538-84d7-2ade031ba971"
+        },
+        {
+          "key": "destination",
+          "value": "ca. 10 cm behind the fly",
+          "id": "1397daf7-a126-4e49-9519-ae802fb8db51",
+          "node_id": "b2ea6ee6-8ccc-4538-84d7-2ade031ba971"
+        }
+      ],
+      "emits": []
+    },
+    {
+      "id": "63ffd3d8-1365-49f4-b20b-cab14c2c0182",
+      "text": "The procedures for measuring the fluctuations of the fly's antennal receiver in the absence of external stimulation are described in Box 1 \\(see also figure 1d).",
+      "instruction": "MEASURE",
+      "slots": [
+        {
+          "key": "device",
+          "value": "LDV",
+          "id": "c08e45b0-916a-4fe3-8e80-bdccce9cf26c",
+          "node_id": "63ffd3d8-1365-49f4-b20b-cab14c2c0182"
+        },
+        {
+          "key": "reagent1",
+          "value": "fly",
+          "id": "00c81044-1573-4f1a-ac28-9d9a8719d31d",
+          "node_id": "63ffd3d8-1365-49f4-b20b-cab14c2c0182"
+        },
+        {
+          "key": "parameter",
+          "value": "fluctuations of the fly's antennal receiver",
+          "id": "45ce2c2b-6691-4c47-80d9-aff62f421367",
+          "node_id": "63ffd3d8-1365-49f4-b20b-cab14c2c0182"
+        },
+        {
+          "key": "notice",
+          "value": "Refer to Box 1 (see also figure 1d) for detailed procedures.",
+          "id": "1d8876c2-39cd-4791-9e62-8037391a194d",
+          "node_id": "63ffd3d8-1365-49f4-b20b-cab14c2c0182"
+        }
+      ],
+      "emits": []
+    },
+    {
+      "id": "be23fa70-0bbd-4f0d-a1e0-f9b339dd5cab",
+      "text": "The procedures for measuring the vibrations of the fly's antennal receiver in response to pure tone stimuli are described in Box 2 \\(see also figure 1e).",
+      "instruction": "MEASURE",
+      "slots": [
+        {
+          "key": "device",
+          "value": "LDV",
+          "id": "a831d2b4-7976-4014-9092-5374383ec8d2",
+          "node_id": "be23fa70-0bbd-4f0d-a1e0-f9b339dd5cab"
+        },
+        {
+          "key": "reagent1",
+          "value": "fly",
+          "id": "cec258fd-b951-47fc-b869-f826523d491a",
+          "node_id": "be23fa70-0bbd-4f0d-a1e0-f9b339dd5cab"
+        },
+        {
+          "key": "parameter",
+          "value": "vibrations",
+          "id": "b942b31c-3ace-40e1-8570-24b2d9c9c3c5",
+          "node_id": "be23fa70-0bbd-4f0d-a1e0-f9b339dd5cab"
+        }
+      ],
+      "emits": []
+    }
+  ],
+  "edges": []
+}

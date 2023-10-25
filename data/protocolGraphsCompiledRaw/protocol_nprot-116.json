@@ -1,0 +1,2095 @@
+[
+    {
+        "title": "**Harvesting cells &#x22C5;TIMING 1 h**",
+        "body": [
+            {
+                "title": "1.",
+                "body": [
+                    {
+                        "sentence": "Culture DT40 cell lines expressing GFP- or FLAG-tagged proteins and culture wild-type cells \\(control) in four 300-cm<sup>2</sup> flasks containing 250 ml DT40 medium until cell density reaches 1 x 10<sup>6</sup>/ml.",
+                        "result": []
+                    }
+                ]
+            },
+            {
+                "title": "2.",
+                "body": [
+                    {
+                        "sentence": "Transfer the culture medium to two 500-ml centrifuge bottles and pellet cells at 200g for 10 min at 4 &#xB0;C.",
+                        "result": [
+                            {
+                                "TRANSFER": {
+                                    "emit": [
+                                        {
+                                            "reagent0": "culture medium"
+                                        }
+                                    ],
+                                    "slot": [
+                                        {
+                                            "source": "culture medium"
+                                        },
+                                        {
+                                            "destination": "two 500-ml centrifuge bottles"
+                                        },
+                                        {
+                                            "reagent1": "culture medium"
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "CENTRIFUGE": {
+                                    "emit": [
+                                        {
+                                            "reagent0": "culture medium"
+                                        }
+                                    ],
+                                    "slot": [
+                                        {
+                                            "reagent1": "culture medium"
+                                        },
+                                        {
+                                            "intensity": "200g"
+                                        },
+                                        {
+                                            "time": "10 min"
+                                        },
+                                        {
+                                            "temperature": "4 \u00b0C"
+                                        }
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "3.",
+                "body": [
+                    {
+                        "sentence": "Resuspend the cells in 50 ml PBS and centrifuge in a 50 ml conical tube at 200g for 10 min at 4 &#xB0;C. Repeat this step twice.",
+                        "result": [
+                            {
+                                "RESUSPEND": {
+                                    "emit": [
+                                        {
+                                            "reagent0": "cells"
+                                        }
+                                    ],
+                                    "slot": [
+                                        {
+                                            "reagent1": "cells"
+                                        },
+                                        {
+                                            "reagent2": "PBS"
+                                        },
+                                        {
+                                            "temperature": "4 \u00b0C"
+                                        },
+                                        {
+                                            "device": "50 ml conical tube"
+                                        },
+                                        {
+                                            "notice": "Repeat this step twice."
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "CENTRIFUGE": {
+                                    "emit": [
+                                        {
+                                            "reagent0": "cells"
+                                        }
+                                    ],
+                                    "slot": [
+                                        {
+                                            "reagent1": "cells"
+                                        },
+                                        {
+                                            "intensity": "200g"
+                                        },
+                                        {
+                                            "time": "10 min"
+                                        },
+                                        {
+                                            "temperature": "4 \u00b0C"
+                                        },
+                                        {
+                                            "notice": "Repeat this step twice."
+                                        }
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "**Preparing cell extracts &#x22C5;TIMING 1-2 h**",
+        "body": [
+            {
+                "title": "4.",
+                "body": [
+                    {
+                        "sentence": "Resuspend cell pellets to 5 ml in HDG150.",
+                        "result": [
+                            {
+                                "RESUSPEND": {
+                                    "emit": [
+                                        {
+                                            "reagent0": "cells"
+                                        }
+                                    ],
+                                    "slot": [
+                                        {
+                                            "reagent1": "cell pellets"
+                                        },
+                                        {
+                                            "reagent2": "HDG150"
+                                        }
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "5.",
+                "body": [
+                    {
+                        "sentence": "Disrupt cells with 35 strokes in a Dounce homogenizer with a tight-fitting pestle.",
+                        "result": []
+                    }
+                ]
+            },
+            {
+                "title": "6.",
+                "body": [
+                    {
+                        "sentence": "Pellet nuclei in a 15-ml conical tube at 1700g for 10 min at 4 &#xB0;C. Flash-freeze the supernatant \\(cytoplasmic fraction) in liquid nitrogen and store at -80 &#xB0;C for future use.",
+                        "result": [
+                            {
+                                "PELLET": {
+                                    "emit": [
+                                        {
+                                            "reagent0": "cytoplasmic fraction"
+                                        }
+                                    ],
+                                    "slot": [
+                                        {
+                                            "reagent1": "nuclei"
+                                        },
+                                        {
+                                            "intensity": "<blank>"
+                                        },
+                                        {
+                                            "time": "10 min"
+                                        },
+                                        {
+                                            "temperature": "4 \u00b0C"
+                                        },
+                                        {
+                                            "device": "15-ml conical tube"
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "FREEZE": {
+                                    "emit": [
+                                        {
+                                            "reagent0": "supernatant (cytoplasmic fraction)"
+                                        }
+                                    ],
+                                    "slot": [
+                                        {
+                                            "reagent1": "supernatant (cytoplasmic fraction)"
+                                        },
+                                        {
+                                            "temperature": "liquid nitrogen"
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "STORE": {
+                                    "emit": [
+                                        {
+                                            "reagent0": "supernatant (cytoplasmic fraction)"
+                                        }
+                                    ],
+                                    "slot": [
+                                        {
+                                            "reagent1": "supernatant (cytoplasmic fraction)"
+                                        },
+                                        {
+                                            "temperature": "-80 \u00b0C"
+                                        }
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "7.",
+                "body": [
+                    {
+                        "sentence": "Wash nuclei with 5 ml of HDG150 and pellet at 1700g for 10 min at 4 &#xB0;C.",
+                        "result": [
+                            {
+                                "WASH": {
+                                    "emit": [
+                                        {
+                                            "reagent0": "nuclei"
+                                        }
+                                    ],
+                                    "slot": [
+                                        {
+                                            "reagent1": "nuclei"
+                                        },
+                                        {
+                                            "reagent2": "HDG150"
+                                        },
+                                        {
+                                            "time": "10 min"
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "PELLET": {
+                                    "emit": [
+                                        {
+                                            "reagent0": "cytoplasmic fraction"
+                                        }
+                                    ],
+                                    "slot": [
+                                        {
+                                            "reagent1": "nuclei"
+                                        },
+                                        {
+                                            "intensity": "<blank>"
+                                        },
+                                        {
+                                            "time": "10 min"
+                                        },
+                                        {
+                                            "temperature": "4 \u00b0C"
+                                        },
+                                        {
+                                            "device": "<blank>"
+                                        }
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "8.",
+                "body": [
+                    {
+                        "sentence": "Resuspend nuclei in 5 ml of HDG150 and immerse in an ice-water bath.",
+                        "result": [
+                            {
+                                "RESUSPEND": {
+                                    "emit": [
+                                        {
+                                            "reagent0": "nuclei"
+                                        }
+                                    ],
+                                    "slot": [
+                                        {
+                                            "reagent1": "nuclei"
+                                        },
+                                        {
+                                            "reagent2": "HDG150"
+                                        },
+                                        {
+                                            "temperature": "ice-water bath"
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "IMMERSE": {
+                                    "emit": [
+                                        {
+                                            "reagent0": "nuclei"
+                                        }
+                                    ],
+                                    "slot": [
+                                        {
+                                            "reagent1": "nuclei"
+                                        },
+                                        {
+                                            "temperature": "ice-water bath"
+                                        }
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "9.",
+                "body": [
+                    {
+                        "sentence": "Disrupt nuclei with the handy-sonifier fitted with a micro-tip. Sonicate for 10 sec at maximum power followed by waiting for 50 sec to chill samples. Repeat this step six times for a total of 1 min of sonication time.",
+                        "result": [
+                            {
+                                "SONICATE": {
+                                    "emit": [
+                                        {
+                                            "reagent0": "nuclei"
+                                        }
+                                    ],
+                                    "slot": [
+                                        {
+                                            "reagent1": "nuclei"
+                                        },
+                                        {
+                                            "time": "10 sec"
+                                        },
+                                        {
+                                            "power": "maximum"
+                                        },
+                                        {
+                                            "device": "handy-sonifier"
+                                        },
+                                        {
+                                            "notice": "Repeat this step six times for a total of 1 min of sonication time."
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "WAIT": {
+                                    "emit": [],
+                                    "slot": [
+                                        {
+                                            "time": "50 sec"
+                                        }
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "10.",
+                "body": [
+                    {
+                        "sentence": "Divide the disrupted nuclei solution into three 2-ml microcentrifuge tubes and centrifuge at 20000g for 10 min at 4 &#xB0;C.",
+                        "result": [
+                            {
+                                "DIVIDE": {
+                                    "emit": [
+                                        {
+                                            "reagent0": "disrupted nuclei solution"
+                                        }
+                                    ],
+                                    "slot": [
+                                        {
+                                            "reagent1": "disrupted nuclei solution"
+                                        },
+                                        {
+                                            "method": "Divide"
+                                        },
+                                        {
+                                            "quantity": "3"
+                                        },
+                                        {
+                                            "container": "2-ml microcentrifuge tubes"
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "CENTRIFUGE": {
+                                    "emit": [
+                                        {
+                                            "reagent0": "supernatant (cytoplasmic fraction)"
+                                        }
+                                    ],
+                                    "slot": [
+                                        {
+                                            "reagent1": "disrupted nuclei solution"
+                                        },
+                                        {
+                                            "intensity": "20000g"
+                                        },
+                                        {
+                                            "time": "10 min"
+                                        },
+                                        {
+                                            "temperature": "4 \u00b0C"
+                                        }
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "11.",
+                "body": [
+                    {
+                        "sentence": "Combine supernatants \\(nuclear extract) in a 15-ml conical tube. Proceed to immunoprecipitation \\(",
+                        "result": [
+                            {
+                                "COMBINE": {
+                                    "emit": [
+                                        {
+                                            "reagent0": "nuclear extract"
+                                        }
+                                    ],
+                                    "slot": [
+                                        {
+                                            "reagent1": "nuclear extract"
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "PROCEED": {
+                                    "emit": [
+                                        {
+                                            "reagent0": "nuclear extract"
+                                        }
+                                    ],
+                                    "slot": [
+                                        {
+                                            "procedure": "immunoprecipitation"
+                                        }
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "**Step 30**",
+        "body": [
+            {
+                "sentence": ") or flash-freeze in liquid nitrogen and store at -80 &#xB0;C.",
+                "result": [
+                    {
+                        "STORE": {
+                            "emit": [
+                                {
+                                    "reagent0": "nuclear extract"
+                                }
+                            ],
+                            "slot": [
+                                {
+                                    "reagent1": "nuclear extract"
+                                },
+                                {
+                                    "temperature": "-80 \u00b0C"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            },
+            {
+                "title": "12.",
+                "body": [
+                    {
+                        "sentence": "Resuspend the pellets in each tube in 1.6 ml HDG150 by brief sonication.",
+                        "result": [
+                            {
+                                "RESUSPEND": {
+                                    "emit": [
+                                        {
+                                            "reagent0": "pellets"
+                                        }
+                                    ],
+                                    "slot": [
+                                        {
+                                            "reagent1": "pellets"
+                                        },
+                                        {
+                                            "reagent2": "1.6 ml HDG150"
+                                        },
+                                        {
+                                            "notice": "by brief sonication"
+                                        }
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "13.",
+                "body": [
+                    {
+                        "sentence": "Centrifuge at 20000g for 10 min at 4 &#xB0;C.",
+                        "result": [
+                            {
+                                "CENTRIFUGE": {
+                                    "emit": [
+                                        {
+                                            "reagent0": "supernatant (cytoplasmic fraction)"
+                                        }
+                                    ],
+                                    "slot": [
+                                        {
+                                            "reagent1": "disrupted nuclei solution"
+                                        },
+                                        {
+                                            "intensity": "20000g"
+                                        },
+                                        {
+                                            "time": "10 min"
+                                        },
+                                        {
+                                            "temperature": "4 \u00b0C"
+                                        }
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "14.",
+                "body": [
+                    {
+                        "sentence": "Resuspend the pellets in each tube in 1.6 ml of HDG150 by brief sonication and combine in a 15-ml conical tube \\(chromatin fraction).",
+                        "result": [
+                            {
+                                "RESUSPEND": {
+                                    "emit": [
+                                        {
+                                            "reagent0": "chromatin fraction"
+                                        }
+                                    ],
+                                    "slot": [
+                                        {
+                                            "reagent1": "pellets"
+                                        },
+                                        {
+                                            "reagent2": "HDG150"
+                                        },
+                                        {
+                                            "notice": "by brief sonication"
+                                        }
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "**Micrococcal nuclease digestion &#x22C5;TIMING 3h**",
+        "body": [
+            {
+                "title": "15.",
+                "body": [
+                    {
+                        "sentence": "Add 15 &#xB5;l 1 M CaCl<sub>2</sub> to the chromatin fraction and mix well.",
+                        "result": [
+                            {
+                                "ADD": {
+                                    "emit": [
+                                        {
+                                            "reagent0": "chromatin fraction"
+                                        }
+                                    ],
+                                    "slot": [
+                                        {
+                                            "reagent1": "chromatin fraction"
+                                        },
+                                        {
+                                            "reagent2": "15 \u00b5l 1 M CaCl2"
+                                        },
+                                        {
+                                            "notice": "Mix well."
+                                        }
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "16.",
+                "body": [
+                    {
+                        "sentence": "Add 200&#xB5;l micrococcal nuclease.",
+                        "result": [
+                            {
+                                "ADD": {
+                                    "emit": [],
+                                    "slot": [
+                                        {
+                                            "reagent2": "micrococcal nuclease"
+                                        }
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "17.",
+                "body": [
+                    {
+                        "sentence": "Rotate at 20 rpm for 60 min in a cold room \\(4 &#xB0;C).",
+                        "result": [
+                            {
+                                "ROTATE": {
+                                    "emit": [],
+                                    "slot": [
+                                        {
+                                            "time": "60 min"
+                                        },
+                                        {
+                                            "temperature": "4 \u00b0C"
+                                        },
+                                        {
+                                            "notice": "in a cold room (4 \u00b0C)"
+                                        }
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "**? TROUBLESHOOTING**",
+        "body": [
+            {
+                "title": "18.",
+                "body": [
+                    {
+                        "sentence": "Add 125 &#xB5;l 0.2 M EGTA to inactivate micrococcal nuclease.",
+                        "result": [
+                            {
+                                "ADD": {
+                                    "emit": [],
+                                    "slot": [
+                                        {
+                                            "reagent2": "0.2 M EGTA"
+                                        },
+                                        {
+                                            "notice": "to inactivate micrococcal nuclease."
+                                        }
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "19.",
+                "body": [
+                    {
+                        "sentence": "Check DNA fragment sizes by 2% agarose gel electrophoresis. Purify the DNA from 50 &#xB5;l of the digested chromatin fraction by phenol-chloroform extraction followed by ethanol precipitation. Resuspend the pellet in 30 &#xB5;l TE and load 5 &#xB5;l in each lane. A DNA ladder corresponding to mono- to tri-nucleosomes can be seen by ethidium bromide staining under UV irradiation \\(See Fig. 1).",
+                        "result": [
+                            {
+                                "CHECK": {
+                                    "emit": [
+                                        {
+                                            "reagent0": "DNA fragment"
+                                        }
+                                    ],
+                                    "slot": [
+                                        {
+                                            "reagent1": "DNA fragment"
+                                        },
+                                        {
+                                            "attribute": "sizes"
+                                        },
+                                        {
+                                            "method": "2% agarose gel electrophoresis"
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "PURIFY": {
+                                    "emit": [
+                                        {
+                                            "reagent0": "DNA"
+                                        }
+                                    ],
+                                    "slot": [
+                                        {
+                                            "reagent1": "digested chromatin fraction"
+                                        },
+                                        {
+                                            "method": "phenol-chloroform extraction followed by ethanol precipitation"
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "RESUSPEND": {
+                                    "emit": [
+                                        {
+                                            "reagent0": "pellet"
+                                        }
+                                    ],
+                                    "slot": [
+                                        {
+                                            "reagent1": "pellet"
+                                        },
+                                        {
+                                            "reagent2": "TE"
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "LOAD": {
+                                    "emit": [
+                                        {
+                                            "reagent0": "DNA"
+                                        }
+                                    ],
+                                    "slot": [
+                                        {
+                                            "reagent1": "DNA"
+                                        },
+                                        {
+                                            "destination": "each lane"
+                                        },
+                                        {
+                                            "volume": "5 \u00b5l"
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "STAIN": {
+                                    "emit": [
+                                        {
+                                            "reagent0": "DNA ladder corresponding to mono- to tri-nucleosomes"
+                                        }
+                                    ],
+                                    "slot": [
+                                        {
+                                            "reagent1": "ethidium bromide"
+                                        },
+                                        {
+                                            "temperature": "room temperature"
+                                        }
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "**Solubilization of digested chromatin DNA &#x22C5;TIMING 1 h**",
+        "body": [
+            {
+                "title": "20.",
+                "body": [
+                    {
+                        "sentence": "This step can be performed with option A or option B.",
+                        "result": [
+                            {
+                                "PERFORM": {
+                                    "emit": [
+                                        {
+                                            "reagent0": "chromatin fraction"
+                                        }
+                                    ],
+                                    "slot": [
+                                        {
+                                            "procedure": "Perform this step with option A"
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "PERFORM": {
+                                    "emit": [
+                                        {
+                                            "reagent0": "chromatin fraction"
+                                        }
+                                    ],
+                                    "slot": [
+                                        {
+                                            "procedure": "Perform this step with option B"
+                                        }
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "**Option A**",
+        "body": [
+            {
+                "sentence": "Mix 5 ml of the digested chromatin prepared in",
+                "result": [
+                    {
+                        "MIX": {
+                            "emit": [
+                                {
+                                    "reagent0": "digested chromatin"
+                                }
+                            ],
+                            "slot": [
+                                {
+                                    "reagent1": "digested chromatin"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "**step 18**",
+        "body": [
+            {
+                "sentence": "with 40 ml HDGN340 in a 50-ml conical tube. Rotate at 20 rpm for 60 min in a cold room \\(4&#xB0;C).",
+                "result": [
+                    {
+                        "MEASURE": {
+                            "emit": [],
+                            "slot": [
+                                {
+                                    "device": "50-ml conical tube"
+                                },
+                                {
+                                    "reagent1": "HDGN340"
+                                },
+                                {
+                                    "time": "60 min"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "ROTATE": {
+                            "emit": [],
+                            "slot": [
+                                {
+                                    "reagent1": "HDGN340"
+                                },
+                                {
+                                    "time": "60 min"
+                                },
+                                {
+                                    "temperature": "4\u00b0C"
+                                },
+                                {
+                                    "notice": "in a cold room (4\u00b0C)"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "**OptionB**",
+        "body": [
+            {
+                "sentence": "Add 250 &#xB5;l 3 M KCl to 5 ml of digested chromatin prepared in",
+                "result": [
+                    {
+                        "ADD": {
+                            "emit": [
+                                {
+                                    "reagent0": "digested chromatin"
+                                }
+                            ],
+                            "slot": [
+                                {
+                                    "reagent1": "digested chromatin"
+                                },
+                                {
+                                    "reagent2": "3 M KCl"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "**step 18**",
+        "body": [
+            {
+                "sentence": ". Rotate at 20rpm for 60min in a cold room \\(4&#xB0;C).",
+                "result": [
+                    {
+                        "ROTATE": {
+                            "emit": [],
+                            "slot": [
+                                {
+                                    "direction": "20rpm"
+                                },
+                                {
+                                    "time": "60min"
+                                },
+                                {
+                                    "temperature": "4\u00b0C"
+                                },
+                                {
+                                    "notice": "in a cold room (4\u00b0C)"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            },
+            {
+                "title": "21.",
+                "body": [
+                    {
+                        "sentence": "For both option A and option B precipitate insoluble materials by spinning at 8000g for 10 min at 4 &#xB0;C. Transfer supernatant to a 50-ml conical tube \\(option A) or a 15-ml conical tube \\(option B).",
+                        "result": [
+                            {
+                                "SPIN": {
+                                    "emit": [
+                                        {
+                                            "reagent0": "chromatin fraction"
+                                        }
+                                    ],
+                                    "slot": [
+                                        {
+                                            "reagent1": "chromatin fraction"
+                                        },
+                                        {
+                                            "intensity": "8000g"
+                                        },
+                                        {
+                                            "time": "10 min"
+                                        },
+                                        {
+                                            "temperature": "4 \u00b0C"
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "TRANSFER": {
+                                    "emit": [
+                                        {
+                                            "reagent0": "supernatant"
+                                        }
+                                    ],
+                                    "slot": [
+                                        {
+                                            "source": "supernatant"
+                                        },
+                                        {
+                                            "destination": "50-ml conical tube"
+                                        },
+                                        {
+                                            "reagent1": "supernatant"
+                                        },
+                                        {
+                                            "volume": "<blank>"
+                                        },
+                                        {
+                                            "equipment": "<blank>"
+                                        },
+                                        {
+                                            "notice": "<blank>"
+                                        }
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "**? TROUBLESHOOTING**",
+        "body": []
+    },
+    {
+        "title": "**Coupling anti-GFP antibody to protein A Sepharose beads &#x22C5;TIMING 1-2 h**",
+        "body": [
+            {
+                "title": "22.",
+                "body": [
+                    {
+                        "sentence": "Wash a 200 &#xB5;l bed volume of protein A Sepharose beads three times with 600 &#xB5;l PBS. The amount of beads for each reaction is 50 &#xB5;l. Thus, the amounts of the reagents used in this section should be scaled proportionally to the sample number.",
+                        "result": [
+                            {
+                                "WASH": {
+                                    "emit": [
+                                        {
+                                            "reagent0": "protein A Sepharose beads"
+                                        }
+                                    ],
+                                    "slot": [
+                                        {
+                                            "reagent1": "protein A Sepharose beads"
+                                        },
+                                        {
+                                            "reagent2": "PBS"
+                                        },
+                                        {
+                                            "repeat": "3"
+                                        }
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "23.",
+                "body": [
+                    {
+                        "sentence": "Incubate 30 &#xB5;l anti-GFP antibody with the beads in 500 &#xB5;l PBS for 15-30 min at room temperature.",
+                        "result": [
+                            {
+                                "INCUBATE": {
+                                    "emit": [
+                                        {
+                                            "reagent0": "beads"
+                                        }
+                                    ],
+                                    "slot": [
+                                        {
+                                            "reagent1": "anti-GFP antibody"
+                                        },
+                                        {
+                                            "temperature": "room temperature"
+                                        },
+                                        {
+                                            "time": "15-30 min"
+                                        }
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "**? TROUBLESHOOTING**",
+        "body": [
+            {
+                "title": "24.",
+                "body": [
+                    {
+                        "sentence": "Wash the beads five times with 500 &#xB5;l PBS.",
+                        "result": [
+                            {
+                                "WASH": {
+                                    "emit": [
+                                        {
+                                            "reagent0": "beads"
+                                        }
+                                    ],
+                                    "slot": [
+                                        {
+                                            "reagent1": "beads"
+                                        },
+                                        {
+                                            "reagent2": "PBS"
+                                        },
+                                        {
+                                            "repeat": "5"
+                                        }
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "25.",
+                "body": [
+                    {
+                        "sentence": "Resuspend the beads in 400 &#xB5;l PBS and add 25 &#xB5;l freshly prepared DSS. Rotate for 30-45 min at room temperature.",
+                        "result": [
+                            {
+                                "RESUSPEND": {
+                                    "emit": [
+                                        {
+                                            "reagent0": "beads"
+                                        }
+                                    ],
+                                    "slot": [
+                                        {
+                                            "reagent1": "beads"
+                                        },
+                                        {
+                                            "reagent2": "PBS"
+                                        },
+                                        {
+                                            "temperature": "room temperature"
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "ADD": {
+                                    "emit": [
+                                        {
+                                            "reagent0": "beads"
+                                        }
+                                    ],
+                                    "slot": [
+                                        {
+                                            "reagent1": "beads"
+                                        },
+                                        {
+                                            "reagent2": "DSS"
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "ROTATE": {
+                                    "emit": [
+                                        {
+                                            "reagent0": "beads"
+                                        }
+                                    ],
+                                    "slot": [
+                                        {
+                                            "reagent1": "beads"
+                                        },
+                                        {
+                                            "time": "30-45 min"
+                                        },
+                                        {
+                                            "temperature": "room temperature"
+                                        }
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "26.",
+                "body": [
+                    {
+                        "sentence": "Wash the beads five times with 600 &#xB5;l of 0.1 M glycine \\(pH 2.5).",
+                        "result": [
+                            {
+                                "WASH": {
+                                    "emit": [
+                                        {
+                                            "reagent0": "beads"
+                                        }
+                                    ],
+                                    "slot": [
+                                        {
+                                            "reagent1": "beads"
+                                        },
+                                        {
+                                            "reagent2": "0.1 M glycine (pH 2.5)"
+                                        },
+                                        {
+                                            "repeat": "5"
+                                        }
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "**? TROUBLESHOOTING**",
+        "body": [
+            {
+                "title": "27.",
+                "body": [
+                    {
+                        "sentence": "Wash the beads twice with 600 &#xB5;l PBS.",
+                        "result": [
+                            {
+                                "WASH": {
+                                    "emit": [
+                                        {
+                                            "reagent0": "beads"
+                                        }
+                                    ],
+                                    "slot": [
+                                        {
+                                            "reagent1": "beads"
+                                        },
+                                        {
+                                            "reagent2": "PBS"
+                                        },
+                                        {
+                                            "repeat": "2"
+                                        }
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "28.",
+                "body": [
+                    {
+                        "sentence": "Wash the beads twice with 600 &#xB5;l HDG150.",
+                        "result": [
+                            {
+                                "WASH": {
+                                    "emit": [
+                                        {
+                                            "reagent0": "beads"
+                                        }
+                                    ],
+                                    "slot": [
+                                        {
+                                            "reagent1": "beads"
+                                        },
+                                        {
+                                            "reagent2": "HDG150"
+                                        },
+                                        {
+                                            "repeat": "2"
+                                        }
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "29.",
+                "body": [
+                    {
+                        "sentence": "Resuspend the beads in 200 &#xB5;l HDG150.",
+                        "result": [
+                            {
+                                "RESUSPEND": {
+                                    "emit": [
+                                        {
+                                            "reagent0": "beads"
+                                        }
+                                    ],
+                                    "slot": [
+                                        {
+                                            "reagent1": "beads"
+                                        },
+                                        {
+                                            "reagent2": "HDG150"
+                                        }
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "**Immunoprecipitation &#x22C5;TIMING 5h to overnight**",
+        "body": [
+            {
+                "title": "30.",
+                "body": [
+                    {
+                        "sentence": "Add 50 &#xB5;l bed volume of either anti-GFP antibody-coupled beads or anti-FLAG M2 affinity beads to 5 ml of solubilized chromatin or 5 ml of nuclear extract prepared at",
+                        "result": [
+                            {
+                                "ADD": {
+                                    "emit": [
+                                        {
+                                            "reagent0": "beads"
+                                        }
+                                    ],
+                                    "slot": [
+                                        {
+                                            "reagent1": "anti-GFP antibody-coupled beads or anti-FLAG M2 affinity beads"
+                                        },
+                                        {
+                                            "reagent2": "solubilized chromatin or 5 ml of nuclear extract"
+                                        }
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "**step 21 or 11**",
+        "body": [
+            {
+                "sentence": ", respectively. Rotate at 20 rpm for 3-4 h in a cold room \\(4 &#xB0;C).",
+                "result": [
+                    {
+                        "ROTATE": {
+                            "emit": [
+                                {
+                                    "reagent0": "beads"
+                                }
+                            ],
+                            "slot": [
+                                {
+                                    "reagent1": "beads"
+                                },
+                                {
+                                    "direction": "<blank>"
+                                },
+                                {
+                                    "angle": "<blank>"
+                                },
+                                {
+                                    "intensity": "<blank>"
+                                },
+                                {
+                                    "time": "3-4 h"
+                                },
+                                {
+                                    "temperature": "4 \u00b0C"
+                                },
+                                {
+                                    "notice": "<blank>"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "**? TROUBLESHOOTING**",
+        "body": [
+            {
+                "title": "31.",
+                "body": [
+                    {
+                        "sentence": "Pellet antibody-coupled beads at 200g for 30 sec at 4 &#xB0;C.",
+                        "result": [
+                            {
+                                "PELLET": {
+                                    "emit": [
+                                        {
+                                            "reagent0": "antibody-coupled beads"
+                                        }
+                                    ],
+                                    "slot": [
+                                        {
+                                            "reagent1": "antibody-coupled beads"
+                                        },
+                                        {
+                                            "intensity": "<blank>"
+                                        },
+                                        {
+                                            "time": "30 sec"
+                                        },
+                                        {
+                                            "temperature": "4 \u00b0C"
+                                        },
+                                        {
+                                            "device": "<blank>"
+                                        }
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "**? TROUBLESHOOTING**",
+        "body": [
+            {
+                "title": "32.",
+                "body": [
+                    {
+                        "sentence": "Transfer beads to a 1.5-ml microcentrifuge tube.",
+                        "result": [
+                            {
+                                "TRANSFER": {
+                                    "emit": [
+                                        {
+                                            "reagent0": "beads"
+                                        }
+                                    ],
+                                    "slot": [
+                                        {
+                                            "source": "beads"
+                                        },
+                                        {
+                                            "destination": "1.5-ml microcentrifuge tube"
+                                        },
+                                        {
+                                            "reagent1": "beads"
+                                        }
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "33.",
+                "body": [
+                    {
+                        "sentence": "Add 1 ml HDGN320 \\(for chromatin) or HDGN150 \\(for nuclear extract) to beads. Mix well by inverting tubes. Centrifuge at 200g for 10 sec at 4 &#xB0;C. Discard supernatants. Repeat this step five times.",
+                        "result": [
+                            {
+                                "ADD": {
+                                    "emit": [
+                                        {
+                                            "reagent0": "beads"
+                                        }
+                                    ],
+                                    "slot": [
+                                        {
+                                            "reagent1": "beads"
+                                        },
+                                        {
+                                            "reagent2": "1 ml HDGN320 (for chromatin) or HDGN150 (for nuclear extract)"
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "MIX": {
+                                    "emit": [
+                                        {
+                                            "reagent0": "beads"
+                                        }
+                                    ],
+                                    "slot": [
+                                        {
+                                            "reagent1": "beads"
+                                        },
+                                        {
+                                            "reagent2": "HDGN320 (for chromatin) or HDGN150 (for nuclear extract)"
+                                        },
+                                        {
+                                            "method": "inverting tubes"
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "CENTRIFUGE": {
+                                    "emit": [
+                                        {
+                                            "reagent0": "beads"
+                                        }
+                                    ],
+                                    "slot": [
+                                        {
+                                            "reagent1": "beads"
+                                        },
+                                        {
+                                            "intensity": "200g"
+                                        },
+                                        {
+                                            "time": "10 sec"
+                                        },
+                                        {
+                                            "temperature": "4 \u00b0C"
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "DISCARD": {
+                                    "emit": [],
+                                    "slot": [
+                                        {
+                                            "reagent1": "beads"
+                                        },
+                                        {
+                                            "method": "centrifugation"
+                                        },
+                                        {
+                                            "device": "microcentrifuge tube"
+                                        }
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "**? TROUBLESHOOTING**",
+        "body": [
+            {
+                "title": "34.",
+                "body": [
+                    {
+                        "sentence": "Resuspend beads in 400 &#xB5;l HDGN340 or HDGN150 and transfer to a spin-cup column. Centrifuge at 3000g for 10 sec at 4 &#xB0;C. Discard the flow-through fraction.",
+                        "result": [
+                            {
+                                "RESUSPEND": {
+                                    "emit": [
+                                        {
+                                            "reagent0": "beads"
+                                        }
+                                    ],
+                                    "slot": [
+                                        {
+                                            "reagent1": "beads"
+                                        },
+                                        {
+                                            "reagent2": "HDGN340 or HDGN150"
+                                        },
+                                        {
+                                            "device": "spin-cup column"
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "TRANSFER": {
+                                    "emit": [
+                                        {
+                                            "reagent0": "beads"
+                                        }
+                                    ],
+                                    "slot": [
+                                        {
+                                            "source": "beads"
+                                        },
+                                        {
+                                            "destination": "spin-cup column"
+                                        },
+                                        {
+                                            "reagent1": "beads"
+                                        },
+                                        {
+                                            "volume": "400 \u00b5l"
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "CENTRIFUGE": {
+                                    "emit": [
+                                        {
+                                            "reagent0": "beads"
+                                        }
+                                    ],
+                                    "slot": [
+                                        {
+                                            "reagent1": "beads"
+                                        },
+                                        {
+                                            "intensity": "3000g"
+                                        },
+                                        {
+                                            "time": "10 sec"
+                                        },
+                                        {
+                                            "temperature": "4 \u00b0C"
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "DISCARD": {
+                                    "emit": [],
+                                    "slot": [
+                                        {
+                                            "reagent1": "flow-through fraction"
+                                        },
+                                        {
+                                            "method": "discard"
+                                        }
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "35.",
+                "body": [
+                    {
+                        "sentence": "Transfer the spin-cup column to a fresh 1.5-ml microcentrifuge tube.",
+                        "result": [
+                            {
+                                "TRANSFER": {
+                                    "emit": [
+                                        {
+                                            "reagent0": "spin-cup column"
+                                        }
+                                    ],
+                                    "slot": [
+                                        {
+                                            "source": "spin-cup column"
+                                        },
+                                        {
+                                            "destination": "1.5-ml microcentrifuge tube"
+                                        },
+                                        {
+                                            "reagent1": "spin-cup column"
+                                        }
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "36.",
+                "body": [
+                    {
+                        "sentence": "Add 50 &#xB5;l 0.1 M glycine \\(pH 2.5) to the beads. To resuspend beads, tilt the spin-cup column horizontally and rotate quickly by hand several times. Incubate 1 min at room temperature. Centrifuge at 3000g for 10 sec at 4 &#xB0;C.",
+                        "result": [
+                            {
+                                "ADD": {
+                                    "emit": [
+                                        {
+                                            "reagent0": "beads"
+                                        }
+                                    ],
+                                    "slot": [
+                                        {
+                                            "reagent1": "beads"
+                                        },
+                                        {
+                                            "reagent2": "50 \u00b5l 0.1 M glycine (pH 2.5)"
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "RESUSPEND": {
+                                    "emit": [
+                                        {
+                                            "reagent0": "beads"
+                                        }
+                                    ],
+                                    "slot": [
+                                        {
+                                            "reagent1": "beads"
+                                        },
+                                        {
+                                            "reagent2": "spin-cup column"
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "INCUBATE": {
+                                    "emit": [
+                                        {
+                                            "reagent0": "beads"
+                                        }
+                                    ],
+                                    "slot": [
+                                        {
+                                            "reagent1": "beads"
+                                        },
+                                        {
+                                            "temperature": "room temperature"
+                                        },
+                                        {
+                                            "time": "1 min"
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "CENTRIFUGE": {
+                                    "emit": [
+                                        {
+                                            "reagent0": "beads"
+                                        }
+                                    ],
+                                    "slot": [
+                                        {
+                                            "reagent1": "beads"
+                                        },
+                                        {
+                                            "intensity": "3000g"
+                                        },
+                                        {
+                                            "time": "10 sec"
+                                        },
+                                        {
+                                            "temperature": "4 \u00b0C"
+                                        }
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "37.",
+                "body": [
+                    {
+                        "sentence": "Repeat",
+                        "result": []
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "**step 36**",
+        "body": [
+            {
+                "sentence": "two more times for a total eluate volume of 150 &#xB5;l.",
+                "result": []
+            },
+            {
+                "title": "38.",
+                "body": [
+                    {
+                        "sentence": "Remove the spin-cup column and add 150 &#xB5;l 20% TCA to the eluate. Let stand at least 2 h at -20 &#xB0;C.",
+                        "result": [
+                            {
+                                "REMOVE": {
+                                    "emit": [
+                                        {
+                                            "reagent0": "spin-cup column"
+                                        }
+                                    ],
+                                    "slot": [
+                                        {
+                                            "reagent1": "spin-cup column"
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "ADD": {
+                                    "emit": [
+                                        {
+                                            "reagent0": "eluate"
+                                        }
+                                    ],
+                                    "slot": [
+                                        {
+                                            "reagent1": "spin-cup column"
+                                        },
+                                        {
+                                            "reagent2": "150 \u00b5l 20% TCA"
+                                        }
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "39.",
+                "body": [
+                    {
+                        "sentence": "Add 450 &#xB5;l of acetone and let stand for at least 2 h at -20 &#xB0;C.",
+                        "result": [
+                            {
+                                "ADD": {
+                                    "emit": [],
+                                    "slot": [
+                                        {
+                                            "reagent1": "acetone"
+                                        },
+                                        {
+                                            "notice": "let stand for at least 2 h at -20 \u00b0C"
+                                        }
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "**PAUSE POINT**",
+        "body": [
+            {
+                "sentence": "This step can be extended to overnight.",
+                "result": []
+            },
+            {
+                "title": "40.",
+                "body": [
+                    {
+                        "sentence": "Vortex vigorously to strip off precipitates stuck to the wall of the microcentrifuge tube. Centrifuge at 20000g for 15 min at 4 &#xB0;C. Remove supernatant completely.",
+                        "result": [
+                            {
+                                "VORTEX": {
+                                    "emit": [
+                                        {
+                                            "reagent0": "precipitates"
+                                        }
+                                    ],
+                                    "slot": [
+                                        {
+                                            "reagent1": "precipitates"
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "CENTRIFUGE": {
+                                    "emit": [],
+                                    "slot": [
+                                        {
+                                            "reagent1": "precipitates"
+                                        },
+                                        {
+                                            "intensity": "20000g"
+                                        },
+                                        {
+                                            "time": "15 min"
+                                        },
+                                        {
+                                            "temperature": "4 \u00b0C"
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "REMOVE": {
+                                    "emit": [],
+                                    "slot": [
+                                        {
+                                            "reagent1": "precipitates"
+                                        },
+                                        {
+                                            "method": "centrifugation"
+                                        },
+                                        {
+                                            "device": "microcentrifuge tube"
+                                        }
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "41.",
+                "body": [
+                    {
+                        "sentence": "Add 500&#xB5;l of diethylether to pellet and vortex vigorously. Centrifuge at 20000g for 10 min at 4 &#xB0;C. Remove supernatant completely.",
+                        "result": [
+                            {
+                                "ADD": {
+                                    "emit": [
+                                        {
+                                            "reagent0": "diethylether"
+                                        }
+                                    ],
+                                    "slot": [
+                                        {
+                                            "reagent1": "pellet"
+                                        },
+                                        {
+                                            "reagent2": "diethylether"
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "VORTEX": {
+                                    "emit": [
+                                        {
+                                            "reagent0": "precipitates"
+                                        }
+                                    ],
+                                    "slot": [
+                                        {
+                                            "reagent1": "precipitates"
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "CENTRIFUGE": {
+                                    "emit": [
+                                        {
+                                            "reagent0": "beads"
+                                        }
+                                    ],
+                                    "slot": [
+                                        {
+                                            "reagent1": "beads"
+                                        },
+                                        {
+                                            "intensity": "20000g"
+                                        },
+                                        {
+                                            "time": "10 min"
+                                        },
+                                        {
+                                            "temperature": "4 \u00b0C"
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "REMOVE": {
+                                    "emit": [],
+                                    "slot": [
+                                        {
+                                            "reagent1": "beads"
+                                        },
+                                        {
+                                            "method": "centrifugation"
+                                        },
+                                        {
+                                            "device": "microcentrifuge tube"
+                                        }
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "42.",
+                "body": [
+                    {
+                        "sentence": "Resuspend pellet to 10 &#xB5;l SDS sample buffer.",
+                        "result": [
+                            {
+                                "RESUSPEND": {
+                                    "emit": [
+                                        {
+                                            "reagent0": "pellet"
+                                        }
+                                    ],
+                                    "slot": [
+                                        {
+                                            "reagent1": "pellet"
+                                        },
+                                        {
+                                            "reagent2": "SDS sample buffer"
+                                        }
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "43.",
+                "body": [
+                    {
+                        "sentence": "Incubate for 1 h at 37 &#xB0;C in an air-incubator.",
+                        "result": [
+                            {
+                                "INCUBATE": {
+                                    "emit": [],
+                                    "slot": [
+                                        {
+                                            "reagent1": "eluate"
+                                        },
+                                        {
+                                            "temperature": "37 \u00b0C"
+                                        },
+                                        {
+                                            "time": "1 h"
+                                        },
+                                        {
+                                            "environment": "air-incubator"
+                                        }
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "44.",
+                "body": [
+                    {
+                        "sentence": "Apply samples on SDS-PAGE.",
+                        "result": [
+                            {
+                                "APPLY": {
+                                    "emit": [
+                                        {
+                                            "reagent0": "eluate"
+                                        }
+                                    ],
+                                    "slot": [
+                                        {
+                                            "reagent2": "eluate"
+                                        }
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+]

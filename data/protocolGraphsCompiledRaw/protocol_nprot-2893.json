@@ -1,0 +1,98 @@
+[
+    {
+        "title": "1.",
+        "body": [
+            {
+                "sentence": "Activation of polystyrene surface\r\n  \r\n\n\nThe wells of a polystyrene microtiter plate were activated by FNAB under UV light for 15 min at a wavelength of 365 nm as described earlier \\(6).",
+                "result": []
+            }
+        ]
+    },
+    {
+        "title": "2.",
+        "body": [
+            {
+                "sentence": "Detection of analyte\r\n  \r\n\n\nIn activated and untreated polystyrene microtiter plates,  analyte \\(rabbit IgG, human IgE, Epicoccum nigrum ) was detected by immobilizing capture molecule \\(anti-rabbit IgG, anti-human IgE, Epicoccum nigrum antigen) onto the activated and untreated polystyrene microtiter plates followed by blocking , binding  of analyte  and secondary antibody-conjugate. The plates were washed by washing buffer after each step. Color development was carried out by adding substrate dye buffer. After 30 min, 50 \u00b5l of 2 M NaOH were added to stop the colour development. Absorbance was recorded at 405 nm in an ELISA reader.",
+                "result": [
+                    {
+                        "BLOCK": {
+                            "emit": [
+                                {
+                                    "reagent0": "blocked plates"
+                                }
+                            ],
+                            "slot": [
+                                {
+                                    "reagent1": "activated and untreated polystyrene microtiter plates"
+                                },
+                                {
+                                    "reagent2": "blocking solution"
+                                },
+                                {
+                                    "temperature": "room temperature"
+                                },
+                                {
+                                    "time": "1 hour"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "WASH": {
+                            "emit": [
+                                {
+                                    "reagent0": "activated and untreated polystyrene microtiter plates"
+                                }
+                            ],
+                            "slot": [
+                                {
+                                    "reagent1": "activated and untreated polystyrene microtiter plates"
+                                },
+                                {
+                                    "reagent2": "washing buffer"
+                                },
+                                {
+                                    "repeat": "1"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "ADD": {
+                            "emit": [
+                                {
+                                    "reagent0": "activated and untreated polystyrene microtiter plates"
+                                }
+                            ],
+                            "slot": [
+                                {
+                                    "reagent1": "activated and untreated polystyrene microtiter plates"
+                                },
+                                {
+                                    "reagent2": "substrate dye buffer"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "RECORD": {
+                            "emit": [
+                                {
+                                    "data": "Absorbance at 405 nm"
+                                }
+                            ],
+                            "slot": [
+                                {
+                                    "information": "Absorbance at 405 nm in an ELISA reader"
+                                },
+                                {
+                                    "device": "ELISA reader"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        ]
+    }
+]

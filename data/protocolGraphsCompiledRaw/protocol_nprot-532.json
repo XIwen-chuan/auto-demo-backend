@@ -1,0 +1,452 @@
+[
+    {
+        "title": "1.",
+        "body": [
+            {
+                "sentence": "Transfect cultured hippocampal neurons at days _in vitro_ \\(DIV",
+                "result": [
+                    {
+                        "TRANSFECT": {
+                            "emit": [
+                                {
+                                    "reagent0": "<blank>"
+                                }
+                            ],
+                            "slot": [
+                                {
+                                    "reagent1": "cultured hippocampal neurons"
+                                },
+                                {
+                                    "reagent2": "<blank>"
+                                },
+                                {
+                                    "reagent3": "<blank>"
+                                },
+                                {
+                                    "method": "standard procedures"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            },
+            {
+                "title": "14)",
+                "body": [
+                    {
+                        "sentence": "with EGFP-NGL-3, followed by incubation of the neurons for 2 more days.",
+                        "result": [
+                            {
+                                "INCUBATE": {
+                                    "emit": [
+                                        {
+                                            "reagent0": "EGFP-NGL-3"
+                                        }
+                                    ],
+                                    "slot": [
+                                        {
+                                            "reagent1": "EGFP-NGL-3"
+                                        },
+                                        {
+                                            "temperature": "room temperature"
+                                        },
+                                        {
+                                            "time": "2 days"
+                                        }
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "2.",
+        "body": [
+            {
+                "sentence": "For antibody pre-clustering, mix 1 &#xB5;g of EGFP antibodies and 0.1 &#xB5;g of FITC-conjugated secondary antibodies \\(ratio of 10:1) in 500 &#xB5;l complete neurobasal media \\(CNB) and incubate the mixture for 2 hrs at 4 &#xB0;C.",
+                "result": [
+                    {
+                        "MIX": {
+                            "emit": [
+                                {
+                                    "reagent0": "EGFP antibodies and FITC-conjugated secondary antibodies mixture"
+                                }
+                            ],
+                            "slot": [
+                                {
+                                    "reagent1": "1 \u00b5g EGFP antibodies"
+                                },
+                                {
+                                    "reagent2": "0.1 \u00b5g FITC-conjugated secondary antibodies"
+                                },
+                                {
+                                    "ratio": "10:1"
+                                },
+                                {
+                                    "temperature": "4 \u00b0C"
+                                },
+                                {
+                                    "time": "2 hrs"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "INCUBATE": {
+                            "emit": [
+                                {
+                                    "reagent0": "EGFP antibodies and FITC-conjugated secondary antibodies mixture"
+                                }
+                            ],
+                            "slot": [
+                                {
+                                    "reagent1": "EGFP antibodies and FITC-conjugated secondary antibodies mixture"
+                                },
+                                {
+                                    "temperature": "4 \u00b0C"
+                                },
+                                {
+                                    "time": "2 hrs"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "3.",
+        "body": [
+            {
+                "sentence": "Transfer the transfected neurons \\(DIV",
+                "result": [
+                    {
+                        "TRANSFER": {
+                            "emit": [
+                                {
+                                    "reagent0": "<blank>"
+                                }
+                            ],
+                            "slot": [
+                                {
+                                    "destination": "DIV"
+                                },
+                                {
+                                    "reagent1": "EGFP-NGL-3"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            },
+            {
+                "title": "16)",
+                "body": [
+                    {
+                        "sentence": "to a 12-well plate containing ~400 &#xB5;l of prewarmed CNB in each well, and add 100 &#xB5;l of the preclustered antibody solution to make the final antibody concentration of 400 ng/ml. Save the conditioned culture media for step",
+                        "result": [
+                            {
+                                "ADD": {
+                                    "emit": [
+                                        {
+                                            "reagent0": "preclustered antibody solution"
+                                        }
+                                    ],
+                                    "slot": [
+                                        {
+                                            "reagent1": "EGFP antibodies and FITC-conjugated secondary antibodies mixture"
+                                        },
+                                        {
+                                            "reagent2": "preclustered antibody solution"
+                                        },
+                                        {
+                                            "concentration": "400 ng/ml"
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "MEASURE": {
+                                    "emit": [
+                                        {
+                                            "data0": "400 ng/ml"
+                                        }
+                                    ],
+                                    "slot": [
+                                        {
+                                            "device": "12-well plate"
+                                        },
+                                        {
+                                            "reagent1": "preclustered antibody solution"
+                                        },
+                                        {
+                                            "parameter": "antibody concentration"
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "SAVE": {
+                                    "emit": [
+                                        {
+                                            "reagent0": "conditioned culture media"
+                                        }
+                                    ],
+                                    "slot": [
+                                        {
+                                            "reagent1/data1": "conditioned culture media"
+                                        }
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "5.",
+        "body": []
+    },
+    {
+        "title": "4.",
+        "body": [
+            {
+                "sentence": "Incubate the neurons for 1 hr at 37 &#xB0;C.",
+                "result": [
+                    {
+                        "INCUBATE": {
+                            "emit": [
+                                {
+                                    "reagent0": "neurons"
+                                }
+                            ],
+                            "slot": [
+                                {
+                                    "reagent1": "neurons"
+                                },
+                                {
+                                    "temperature": "37 \u00b0C"
+                                },
+                                {
+                                    "time": "1 hr"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "5.",
+        "body": [
+            {
+                "sentence": "Wash the neurons three times with pre-warmed PBS, and transfer the coverslip with neurons back to the conditioned culture media.",
+                "result": [
+                    {
+                        "WASH": {
+                            "emit": [
+                                {
+                                    "reagent0": "neurons"
+                                }
+                            ],
+                            "slot": [
+                                {
+                                    "reagent1": "neurons"
+                                },
+                                {
+                                    "reagent2": "pre-warmed PBS"
+                                },
+                                {
+                                    "repeat": "3"
+                                },
+                                {
+                                    "time": "<blank>"
+                                },
+                                {
+                                    "notice": "<blank>"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "TRANSFER": {
+                            "emit": [
+                                {
+                                    "reagent0": "coverslip with neurons"
+                                }
+                            ],
+                            "slot": [
+                                {
+                                    "source": "neurons"
+                                },
+                                {
+                                    "destination": "conditioned culture media"
+                                },
+                                {
+                                    "reagent1": "coverslip with neurons"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "6.",
+        "body": [
+            {
+                "sentence": "After 24 hr incubation, fix and immunostain the neurons with primary antibodies against various postsynaptic proteins, followed by the incubation with Cy3-conjugated secondary antibodies. To boost the signal for EGFP-NGL-3 clusters, add FITC-conjugated secondary antibodies during the incubation of Cy3 secondary antibodies.",
+                "result": [
+                    {
+                        "INCUBATE": {
+                            "emit": [
+                                {
+                                    "reagent0": "neurons"
+                                }
+                            ],
+                            "slot": [
+                                {
+                                    "reagent1": "neurons"
+                                },
+                                {
+                                    "reagent2": "primary antibodies against various postsynaptic proteins"
+                                },
+                                {
+                                    "temperature": "37 \u00b0C"
+                                },
+                                {
+                                    "time": "1 hr"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "ADD": {
+                            "emit": [
+                                {
+                                    "reagent0": "Cy3-conjugated secondary antibodies"
+                                }
+                            ],
+                            "slot": [
+                                {
+                                    "reagent1": "primary antibodies against various postsynaptic proteins"
+                                },
+                                {
+                                    "reagent2": "FITC-conjugated secondary antibodies"
+                                },
+                                {
+                                    "notice": "To boost the signal for EGFP-NGL-3 clusters"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "7.",
+        "body": [
+            {
+                "sentence": "Capture Z-stacked images of the stained neurons by confocal microscopy.",
+                "result": [
+                    {
+                        "CAPTURE": {
+                            "emit": [
+                                {
+                                    "reagent0": "stained neurons"
+                                }
+                            ],
+                            "slot": [
+                                {
+                                    "reagent1": "stained neurons"
+                                },
+                                {
+                                    "container": "confocal microscopy"
+                                },
+                                {
+                                    "method": "Z-stacked"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "8.",
+        "body": [
+            {
+                "sentence": "For the analysis of the captured images, trace the boundaries of each NGL-3 clusters on dendrites. Quantify the percentage of NGL-3 clusters that are positive for postsynaptic marker proteins. In addition, quantify the average immunofluorescence intensities of coclustered postsynaptic proteins and normalize them to those in nearby dendrites.",
+                "result": [
+                    {
+                        "QUANTIFY": {
+                            "emit": [
+                                {
+                                    "data": "percentage of NGL-3 clusters that are positive for postsynaptic marker proteins"
+                                }
+                            ],
+                            "slot": [
+                                {
+                                    "reagent1": "NGL-3 clusters"
+                                },
+                                {
+                                    "method": "<blank>"
+                                },
+                                {
+                                    "standard": "<blank>"
+                                },
+                                {
+                                    "device": "<blank>"
+                                },
+                                {
+                                    "notice": "<blank>"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "QUANTIFY": {
+                            "emit": [
+                                {
+                                    "data": "percentage of NGL-3 clusters that are positive for postsynaptic marker proteins"
+                                }
+                            ],
+                            "slot": [
+                                {
+                                    "reagent1": "coclustered postsynaptic proteins"
+                                },
+                                {
+                                    "method": "average immunofluorescence intensities"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "NORMALIZE": {
+                            "emit": [
+                                {
+                                    "reagent0": "neighboring dendrites"
+                                }
+                            ],
+                            "slot": [
+                                {
+                                    "reagent1": "average immunofluorescence intensities of coclustered postsynaptic proteins"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        ]
+    }
+]

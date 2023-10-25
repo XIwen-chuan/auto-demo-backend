@@ -1,0 +1,848 @@
+{
+  "name": "nprot-330_graphData.json",
+  "nodes": [
+    {
+      "id": "008c9a09-a271-4caf-b668-47af43701267",
+      "text": "Plate cells at ~25% confluency in 24-wells plates, using standard growth medium.\r\n\n\n\r\n\n\nDay2:",
+      "instruction": "PLATE",
+      "slots": [
+        {
+          "key": "reagent1",
+          "value": "cells",
+          "id": "363469c7-de11-4896-9fef-8b62c735abf9",
+          "node_id": "008c9a09-a271-4caf-b668-47af43701267"
+        },
+        {
+          "key": "reagent2",
+          "value": "24-wells plates",
+          "id": "9386f5a1-901b-4ffb-a5a7-100588ae5c08",
+          "node_id": "008c9a09-a271-4caf-b668-47af43701267"
+        },
+        {
+          "key": "density",
+          "value": "~25%",
+          "id": "9e6b4fab-9c99-45bb-810f-e878cc020aae",
+          "node_id": "008c9a09-a271-4caf-b668-47af43701267"
+        }
+      ],
+      "emits": [
+        {
+          "key": "reagent0",
+          "value": "cells",
+          "id": "5029ef44-c6f5-4888-89b1-4aa3faf2c772",
+          "node_id": "008c9a09-a271-4caf-b668-47af43701267"
+        }
+      ]
+    },
+    {
+      "id": "6cf86c8d-67e1-4153-a210-0e49a027bdbd",
+      "text": "Check cells confluency \\(it shoud be ~50%) and replace the medium with 500&#x3BC;l of growth medium without antibiotics.",
+      "instruction": "CHECK",
+      "slots": [
+        {
+          "key": "reagent1",
+          "value": "cells",
+          "id": "385257ef-c8b0-40ce-a747-d8f03dd36808",
+          "node_id": "6cf86c8d-67e1-4153-a210-0e49a027bdbd"
+        },
+        {
+          "key": "attribute",
+          "value": "confluency",
+          "id": "30412305-567a-4d08-b272-fcb686332b8b",
+          "node_id": "6cf86c8d-67e1-4153-a210-0e49a027bdbd"
+        },
+        {
+          "key": "method",
+          "value": "visual inspection",
+          "id": "381f07ca-a473-4582-8238-fb31662b1078",
+          "node_id": "6cf86c8d-67e1-4153-a210-0e49a027bdbd"
+        },
+        {
+          "key": "environment",
+          "value": "50%",
+          "id": "01876663-de33-4d32-b0c4-2ef1280adb5b",
+          "node_id": "6cf86c8d-67e1-4153-a210-0e49a027bdbd"
+        }
+      ],
+      "emits": [
+        {
+          "key": "reagent0",
+          "value": "cells",
+          "id": "38c361e9-3fb8-4b8b-9ad9-0acd6624aa96",
+          "node_id": "6cf86c8d-67e1-4153-a210-0e49a027bdbd"
+        }
+      ]
+    },
+    {
+      "id": "90863fa8-ee6a-4047-a809-9c2fb24b72d8",
+      "text": "Check cells confluency \\(it shoud be ~50%) and replace the medium with 500&#x3BC;l of growth medium without antibiotics.",
+      "instruction": "REPLACE",
+      "slots": [
+        {
+          "key": "reagent1",
+          "value": "cells",
+          "id": "3ce8cd35-525f-4e5f-995c-a6e5a090661c",
+          "node_id": "90863fa8-ee6a-4047-a809-9c2fb24b72d8"
+        },
+        {
+          "key": "reagent2",
+          "value": "growth medium without antibiotics",
+          "id": "088fbf6b-495e-4173-99a0-35acd6cba20f",
+          "node_id": "90863fa8-ee6a-4047-a809-9c2fb24b72d8"
+        }
+      ],
+      "emits": [
+        {
+          "key": "reagent0",
+          "value": "cells",
+          "id": "0c29ed85-5def-4fee-8572-77b64fa2da53",
+          "node_id": "90863fa8-ee6a-4047-a809-9c2fb24b72d8"
+        }
+      ]
+    },
+    {
+      "id": "65558556-5aa6-470c-9222-3d6636374b7f",
+      "text": "Mix 600 ng  of siRNA in 50ul of Opti-MEM \\(amounts and volumes used for a single well)",
+      "instruction": "MIX",
+      "slots": [
+        {
+          "key": "reagent1",
+          "value": "600 ng siRNA",
+          "id": "957d4a69-840e-4338-941d-6d3f40d996ab",
+          "node_id": "65558556-5aa6-470c-9222-3d6636374b7f"
+        },
+        {
+          "key": "reagent2",
+          "value": "Opti-MEM",
+          "id": "a1d7762c-c74b-4e90-8ebf-cae8b89ab790",
+          "node_id": "65558556-5aa6-470c-9222-3d6636374b7f"
+        },
+        {
+          "key": "notice",
+          "value": "amounts and volumes used for a single well",
+          "id": "60cc4eca-d419-4f38-92b8-f9428ee220cc",
+          "node_id": "65558556-5aa6-470c-9222-3d6636374b7f"
+        }
+      ],
+      "emits": [
+        {
+          "key": "reagent0",
+          "value": "siRNA-Opti-MEM mixture",
+          "id": "26bffe8c-d41e-44c4-8aad-82b8c3d7c822",
+          "node_id": "65558556-5aa6-470c-9222-3d6636374b7f"
+        }
+      ]
+    },
+    {
+      "id": "d2fb571a-8107-464c-a8dd-efc8c9808caf",
+      "text": "Mix 1 ul of RNAiMAX in 50 &#x3BC;l of Opti-MEM",
+      "instruction": "MIX",
+      "slots": [
+        {
+          "key": "reagent1",
+          "value": "RNAiMAX",
+          "id": "50c4de9c-1f02-415b-88f5-bc838e434d7b",
+          "node_id": "d2fb571a-8107-464c-a8dd-efc8c9808caf"
+        },
+        {
+          "key": "reagent2",
+          "value": "Opti-MEM",
+          "id": "0c993a01-c819-4623-8e83-46af411287c4",
+          "node_id": "d2fb571a-8107-464c-a8dd-efc8c9808caf"
+        },
+        {
+          "key": "ratio",
+          "value": "1:50",
+          "id": "9dfdf826-c421-4cde-a726-37849d095e31",
+          "node_id": "d2fb571a-8107-464c-a8dd-efc8c9808caf"
+        },
+        {
+          "key": "method",
+          "value": "Mix",
+          "id": "a7a9704c-cc17-4be4-8246-7f4239e8da32",
+          "node_id": "d2fb571a-8107-464c-a8dd-efc8c9808caf"
+        }
+      ],
+      "emits": [
+        {
+          "key": "reagent0",
+          "value": "siRNA-Opti-MEM mixture",
+          "id": "030c412d-582e-48ee-abfb-d22eef31dcd4",
+          "node_id": "d2fb571a-8107-464c-a8dd-efc8c9808caf"
+        }
+      ]
+    },
+    {
+      "id": "3ce88cfe-748e-4966-bdd8-7859bb3e71bb",
+      "text": "Combine the 2 solutions, mix gently and incubate 10 minutes at room temperature",
+      "instruction": "COMBINE",
+      "slots": [
+        {
+          "key": "reagent1",
+          "value": "siRNA-Opti-MEM mixture",
+          "id": "88942425-495e-40e7-baa7-1d417264a26d",
+          "node_id": "3ce88cfe-748e-4966-bdd8-7859bb3e71bb"
+        },
+        {
+          "key": "reagent2",
+          "value": "growth medium without antibiotics",
+          "id": "f34d175d-0cbb-44f8-a223-a01b8b6bf728",
+          "node_id": "3ce88cfe-748e-4966-bdd8-7859bb3e71bb"
+        },
+        {
+          "key": "ratio",
+          "value": "1:10",
+          "id": "2b742be7-ffa4-4f2d-a464-2ef94a0e6738",
+          "node_id": "3ce88cfe-748e-4966-bdd8-7859bb3e71bb"
+        },
+        {
+          "key": "method",
+          "value": "gentle mixing",
+          "id": "699110cf-e2c8-4ce0-8ec1-b7d4e3ea1932",
+          "node_id": "3ce88cfe-748e-4966-bdd8-7859bb3e71bb"
+        },
+        {
+          "key": "temperature",
+          "value": "room temperature",
+          "id": "75707d0c-e3c5-438d-aa1a-50768f0981ec",
+          "node_id": "3ce88cfe-748e-4966-bdd8-7859bb3e71bb"
+        },
+        {
+          "key": "time",
+          "value": "10 minutes",
+          "id": "023ae238-0811-458c-b95e-4be2cfa0c8dc",
+          "node_id": "3ce88cfe-748e-4966-bdd8-7859bb3e71bb"
+        }
+      ],
+      "emits": [
+        {
+          "key": "reagent0",
+          "value": "combined solution",
+          "id": "b851c647-c3df-4e8c-8317-9d4a1001d55a",
+          "node_id": "3ce88cfe-748e-4966-bdd8-7859bb3e71bb"
+        }
+      ]
+    },
+    {
+      "id": "63ca2ea7-4385-4a67-8428-b24873cc3491",
+      "text": "Combine the 2 solutions, mix gently and incubate 10 minutes at room temperature",
+      "instruction": "MIX",
+      "slots": [
+        {
+          "key": "reagent1",
+          "value": "combined solution",
+          "id": "768a8788-097d-4064-bac4-87c80895880b",
+          "node_id": "63ca2ea7-4385-4a67-8428-b24873cc3491"
+        },
+        {
+          "key": "method",
+          "value": "gentle mixing",
+          "id": "155bb9b9-b627-4e39-a282-5cb4246dff47",
+          "node_id": "63ca2ea7-4385-4a67-8428-b24873cc3491"
+        },
+        {
+          "key": "temperature",
+          "value": "room temperature",
+          "id": "a68f464a-bb10-4856-a53a-7e8156a3d5dd",
+          "node_id": "63ca2ea7-4385-4a67-8428-b24873cc3491"
+        },
+        {
+          "key": "time",
+          "value": "10 minutes",
+          "id": "f7fda304-b100-447a-a308-29ab61493e97",
+          "node_id": "63ca2ea7-4385-4a67-8428-b24873cc3491"
+        }
+      ],
+      "emits": [
+        {
+          "key": "reagent0",
+          "value": "combined solution",
+          "id": "3236fae5-5c7d-4138-b08c-3b0791b4bccd",
+          "node_id": "63ca2ea7-4385-4a67-8428-b24873cc3491"
+        }
+      ]
+    },
+    {
+      "id": "e1f0dc5b-ecdf-4d41-a2ff-86889e4ce8cf",
+      "text": "Combine the 2 solutions, mix gently and incubate 10 minutes at room temperature",
+      "instruction": "INCUBATE",
+      "slots": [
+        {
+          "key": "reagent1",
+          "value": "combined solution",
+          "id": "c05dae8c-437e-4fbc-89ad-64edcd54ae49",
+          "node_id": "e1f0dc5b-ecdf-4d41-a2ff-86889e4ce8cf"
+        },
+        {
+          "key": "temperature",
+          "value": "room temperature",
+          "id": "869bc804-5577-4c86-94e7-3e3a27eb550d",
+          "node_id": "e1f0dc5b-ecdf-4d41-a2ff-86889e4ce8cf"
+        },
+        {
+          "key": "time",
+          "value": "10 minutes",
+          "id": "c16e643e-e725-4061-8926-a2a046545a1e",
+          "node_id": "e1f0dc5b-ecdf-4d41-a2ff-86889e4ce8cf"
+        }
+      ],
+      "emits": [
+        {
+          "key": "reagent0",
+          "value": "combined solution",
+          "id": "53cb4b19-584a-4b30-a300-95d08831cfa1",
+          "node_id": "e1f0dc5b-ecdf-4d41-a2ff-86889e4ce8cf"
+        }
+      ]
+    },
+    {
+      "id": "da846f8b-2929-411c-980a-16c17fe306b8",
+      "text": "Add the solution uniformly to the cells",
+      "instruction": "ADD",
+      "slots": [
+        {
+          "key": "reagent2",
+          "value": "combined solution",
+          "id": "65ea2ace-e68f-4ba0-a7ef-c667fe70560a",
+          "node_id": "da846f8b-2929-411c-980a-16c17fe306b8"
+        }
+      ],
+      "emits": [
+        {
+          "key": "reagent0",
+          "value": "cells",
+          "id": "a82ada58-ad2e-4866-96ac-5315a2ed38b4",
+          "node_id": "da846f8b-2929-411c-980a-16c17fe306b8"
+        }
+      ]
+    },
+    {
+      "id": "ead2dc44-82ab-4a3e-9eeb-8a1a73814002",
+      "text": "After 4-6 hours replace medium with standard growth medium",
+      "instruction": "REPLACE",
+      "slots": [
+        {
+          "key": "reagent1",
+          "value": "medium",
+          "id": "f291c478-0af9-4e6e-85d0-9cdfffabd137",
+          "node_id": "ead2dc44-82ab-4a3e-9eeb-8a1a73814002"
+        },
+        {
+          "key": "reagent2",
+          "value": "standard growth medium",
+          "id": "6d1e48b1-f81e-4e6c-999a-83060685353a",
+          "node_id": "ead2dc44-82ab-4a3e-9eeb-8a1a73814002"
+        },
+        {
+          "key": "time",
+          "value": "4-6 hours",
+          "id": "796d7c09-af6f-4b13-91d0-b83b7847a9a9",
+          "node_id": "ead2dc44-82ab-4a3e-9eeb-8a1a73814002"
+        }
+      ],
+      "emits": [
+        {
+          "key": "reagent0",
+          "value": "medium",
+          "id": "237238e5-a904-48ec-88b8-f077958aab9b",
+          "node_id": "ead2dc44-82ab-4a3e-9eeb-8a1a73814002"
+        }
+      ]
+    },
+    {
+      "id": "8eb0e4ee-2fb9-4a55-b697-4c0315f401af",
+      "text": "Incubate cells for 48 hours under standard conditions.\r\n\n\n\r\n\n\nDay4:",
+      "instruction": "INCUBATE",
+      "slots": [
+        {
+          "key": "reagent1",
+          "value": "cells",
+          "id": "0019d812-9d80-486a-bb2d-9acd9644fd38",
+          "node_id": "8eb0e4ee-2fb9-4a55-b697-4c0315f401af"
+        },
+        {
+          "key": "temperature",
+          "value": "room temperature",
+          "id": "ae401a25-2531-491c-b0ae-5ef15ab2b952",
+          "node_id": "8eb0e4ee-2fb9-4a55-b697-4c0315f401af"
+        },
+        {
+          "key": "time",
+          "value": "48 hours",
+          "id": "a25ac89c-0022-4aa0-bff6-aa1d6423d508",
+          "node_id": "8eb0e4ee-2fb9-4a55-b697-4c0315f401af"
+        }
+      ],
+      "emits": [
+        {
+          "key": "reagent0",
+          "value": "cells",
+          "id": "53d3b499-691a-4856-8689-0c4ea03edd80",
+          "node_id": "8eb0e4ee-2fb9-4a55-b697-4c0315f401af"
+        }
+      ]
+    },
+    {
+      "id": "e85208d0-f875-4b44-a1c8-454c6dac384e",
+      "text": "Replace the medium with 500ul of growth medium without antibiotics",
+      "instruction": "REPLACE",
+      "slots": [
+        {
+          "key": "reagent1",
+          "value": "medium",
+          "id": "bd73f13a-2073-49fa-8c3f-6213eaf19b05",
+          "node_id": "e85208d0-f875-4b44-a1c8-454c6dac384e"
+        },
+        {
+          "key": "reagent2",
+          "value": "growth medium without antibiotics",
+          "id": "1e8c0353-8671-40f7-912e-d14559e1fff4",
+          "node_id": "e85208d0-f875-4b44-a1c8-454c6dac384e"
+        },
+        {
+          "key": "notice",
+          "value": "After 4-6 hours.",
+          "id": "6ecad2f3-f51c-4cad-b2cb-47fa58a6565d",
+          "node_id": "e85208d0-f875-4b44-a1c8-454c6dac384e"
+        }
+      ],
+      "emits": [
+        {
+          "key": "reagent0",
+          "value": "medium",
+          "id": "6ca2e0cd-b117-4e0f-92d6-f8418de07cd7",
+          "node_id": "e85208d0-f875-4b44-a1c8-454c6dac384e"
+        }
+      ]
+    },
+    {
+      "id": "cb2839e6-2752-4f20-a506-0861d99f1479",
+      "text": "Mix 600ng  of miRNA, 80ng of reporter plasmid and 40ng of pCS2-lacZ plasmid in 50ul of Opti-MEM \\(amounts and volumes used for a single well; pCS2-lacZ is used as normalizer for luciferase assays)",
+      "instruction": "MIX",
+      "slots": [
+        {
+          "key": "reagent1",
+          "value": "600ng miRNA",
+          "id": "a4fec0a6-2ce7-4938-b480-5febf57068ab",
+          "node_id": "cb2839e6-2752-4f20-a506-0861d99f1479"
+        },
+        {
+          "key": "reagent2",
+          "value": "80ng reporter plasmid and 40ng pCS2-lacZ plasmid",
+          "id": "5578007b-a590-4493-81e4-8b89d023df07",
+          "node_id": "cb2839e6-2752-4f20-a506-0861d99f1479"
+        },
+        {
+          "key": "temperature",
+          "value": "room temperature",
+          "id": "2dc85984-c23d-4c95-8567-7772ab4d1ded",
+          "node_id": "cb2839e6-2752-4f20-a506-0861d99f1479"
+        },
+        {
+          "key": "time",
+          "value": "10 minutes",
+          "id": "379c742c-da98-4d90-8e6c-501613a52c00",
+          "node_id": "cb2839e6-2752-4f20-a506-0861d99f1479"
+        }
+      ],
+      "emits": [
+        {
+          "key": "reagent0",
+          "value": "combined solution",
+          "id": "3ca82c1c-34b3-486d-a379-e0e86638e504",
+          "node_id": "cb2839e6-2752-4f20-a506-0861d99f1479"
+        }
+      ]
+    },
+    {
+      "id": "db980a3c-4002-43c2-87e2-ec81927f8d04",
+      "text": "Mix 1ul of Lipofectamine2000 in 50&#x3BC;l of Opti-MEM",
+      "instruction": "MIX",
+      "slots": [
+        {
+          "key": "reagent1",
+          "value": "1ul Lipofectamine2000",
+          "id": "2bcb8f21-f751-483c-a0eb-4f67bb61937c",
+          "node_id": "db980a3c-4002-43c2-87e2-ec81927f8d04"
+        },
+        {
+          "key": "reagent2",
+          "value": "Opti-MEM",
+          "id": "b5d95f9e-46bb-49cc-82a7-cc91cb18572b",
+          "node_id": "db980a3c-4002-43c2-87e2-ec81927f8d04"
+        },
+        {
+          "key": "ratio",
+          "value": "1:50",
+          "id": "aecda15b-646c-473e-b750-748c2ccc632e",
+          "node_id": "db980a3c-4002-43c2-87e2-ec81927f8d04"
+        },
+        {
+          "key": "method",
+          "value": "Mix",
+          "id": "3a81882b-8f39-48dc-a9e4-eeaaaeb17378",
+          "node_id": "db980a3c-4002-43c2-87e2-ec81927f8d04"
+        }
+      ],
+      "emits": [
+        {
+          "key": "reagent0",
+          "value": "combined solution",
+          "id": "ac1fd6f0-96d6-4ea7-82de-d26528c0a82b",
+          "node_id": "db980a3c-4002-43c2-87e2-ec81927f8d04"
+        }
+      ]
+    },
+    {
+      "id": "074b6f9e-dbe5-447a-b46a-6f77a3827216",
+      "text": "Combine the 2 solutions, mix gently and incubate 10 minutes at room temperature",
+      "instruction": "COMBINE",
+      "slots": [
+        {
+          "key": "reagent1",
+          "value": "combined solution",
+          "id": "a4f8ddf3-21e2-4bc4-bef7-0f01e8288bb1",
+          "node_id": "074b6f9e-dbe5-447a-b46a-6f77a3827216"
+        },
+        {
+          "key": "method",
+          "value": "gentle mixing",
+          "id": "ac51236b-88af-411c-b41d-be2a365c7d5d",
+          "node_id": "074b6f9e-dbe5-447a-b46a-6f77a3827216"
+        },
+        {
+          "key": "temperature",
+          "value": "room temperature",
+          "id": "c8c3b965-44cb-4efe-8634-a9388642c3f8",
+          "node_id": "074b6f9e-dbe5-447a-b46a-6f77a3827216"
+        },
+        {
+          "key": "time",
+          "value": "10 minutes",
+          "id": "18ae424b-736f-4b6b-bafc-fdc95d0320d4",
+          "node_id": "074b6f9e-dbe5-447a-b46a-6f77a3827216"
+        }
+      ],
+      "emits": [
+        {
+          "key": "reagent0",
+          "value": "combined solution",
+          "id": "f8d5df50-1050-434f-ae42-db44063f8919",
+          "node_id": "074b6f9e-dbe5-447a-b46a-6f77a3827216"
+        }
+      ]
+    },
+    {
+      "id": "5ee20d38-88f1-4f4a-9048-7e2c03e1c7af",
+      "text": "Combine the 2 solutions, mix gently and incubate 10 minutes at room temperature",
+      "instruction": "MIX",
+      "slots": [
+        {
+          "key": "reagent1",
+          "value": "combined solution",
+          "id": "60617ff8-f700-481d-a7cd-d5664ee3fefd",
+          "node_id": "5ee20d38-88f1-4f4a-9048-7e2c03e1c7af"
+        },
+        {
+          "key": "method",
+          "value": "gentle",
+          "id": "291f9cf6-8e8b-4b28-b715-605b79f43e85",
+          "node_id": "5ee20d38-88f1-4f4a-9048-7e2c03e1c7af"
+        },
+        {
+          "key": "temperature",
+          "value": "room temperature",
+          "id": "31f4bac9-8a1b-4b12-a560-9ef4459fa97f",
+          "node_id": "5ee20d38-88f1-4f4a-9048-7e2c03e1c7af"
+        },
+        {
+          "key": "time",
+          "value": "10 minutes",
+          "id": "cfa307c3-d7fa-426e-a923-59cff6107256",
+          "node_id": "5ee20d38-88f1-4f4a-9048-7e2c03e1c7af"
+        }
+      ],
+      "emits": [
+        {
+          "key": "reagent0",
+          "value": "combined solution",
+          "id": "cf24b89d-354a-4b5e-92d5-6aca6a370003",
+          "node_id": "5ee20d38-88f1-4f4a-9048-7e2c03e1c7af"
+        }
+      ]
+    },
+    {
+      "id": "b3217d5a-a099-43f5-ab5b-7a55aac0d501",
+      "text": "Combine the 2 solutions, mix gently and incubate 10 minutes at room temperature",
+      "instruction": "INCUBATE",
+      "slots": [
+        {
+          "key": "reagent1",
+          "value": "combined solution",
+          "id": "2e1e4092-14a4-4737-9617-27ba38a337fc",
+          "node_id": "b3217d5a-a099-43f5-ab5b-7a55aac0d501"
+        },
+        {
+          "key": "temperature",
+          "value": "room temperature",
+          "id": "427597ab-605b-4728-99f9-8e427f8a93ee",
+          "node_id": "b3217d5a-a099-43f5-ab5b-7a55aac0d501"
+        },
+        {
+          "key": "time",
+          "value": "10 minutes",
+          "id": "afe29e3a-3eb7-4ec3-9afb-277520b18853",
+          "node_id": "b3217d5a-a099-43f5-ab5b-7a55aac0d501"
+        }
+      ],
+      "emits": [
+        {
+          "key": "reagent0",
+          "value": "combined solution",
+          "id": "63d037e0-d659-44d9-b665-5aa378b6d0e5",
+          "node_id": "b3217d5a-a099-43f5-ab5b-7a55aac0d501"
+        }
+      ]
+    },
+    {
+      "id": "8cc6ac18-1222-4e01-9d96-a4600f0657d5",
+      "text": "After 4-6 hours replace medium with standard growth medium\r\n\n\n\r\n\n\nDay5:",
+      "instruction": "REPLACE",
+      "slots": [
+        {
+          "key": "reagent1",
+          "value": "medium",
+          "id": "d2705dd8-33c3-4179-84ae-244fddb1fcb6",
+          "node_id": "8cc6ac18-1222-4e01-9d96-a4600f0657d5"
+        },
+        {
+          "key": "reagent2",
+          "value": "standard growth medium",
+          "id": "6a2fb7b2-b086-4d55-99e6-118ed313c392",
+          "node_id": "8cc6ac18-1222-4e01-9d96-a4600f0657d5"
+        },
+        {
+          "key": "time",
+          "value": "4-6 hours",
+          "id": "d24b24f6-9067-417b-bd7e-c1a3185034be",
+          "node_id": "8cc6ac18-1222-4e01-9d96-a4600f0657d5"
+        }
+      ],
+      "emits": [
+        {
+          "key": "reagent0",
+          "value": "medium",
+          "id": "fdf437cf-1154-496f-96ac-3ac7480c35e5",
+          "node_id": "8cc6ac18-1222-4e01-9d96-a4600f0657d5"
+        }
+      ]
+    },
+    {
+      "id": "2c485d66-3125-4ecc-a981-8d13dc7aa666",
+      "text": "Replace the medium with 500&#x3BC;l of growth medium containing 0.1% serum and incubate for 8 hours",
+      "instruction": "REPLACE",
+      "slots": [
+        {
+          "key": "reagent1",
+          "value": "medium",
+          "id": "3771df21-995f-481f-8cd3-375f84824b76",
+          "node_id": "2c485d66-3125-4ecc-a981-8d13dc7aa666"
+        },
+        {
+          "key": "reagent2",
+          "value": "growth medium containing 0.1% serum",
+          "id": "2a1f27ea-17ec-4bc2-ad7a-8e0ffc20eddf",
+          "node_id": "2c485d66-3125-4ecc-a981-8d13dc7aa666"
+        },
+        {
+          "key": "time",
+          "value": "8 hours",
+          "id": "887805b2-c59e-421b-84ac-f56ad7dfcf26",
+          "node_id": "2c485d66-3125-4ecc-a981-8d13dc7aa666"
+        }
+      ],
+      "emits": [
+        {
+          "key": "reagent0",
+          "value": "medium",
+          "id": "55d5079e-242c-4788-9d5d-e1f14bb33b79",
+          "node_id": "2c485d66-3125-4ecc-a981-8d13dc7aa666"
+        }
+      ]
+    },
+    {
+      "id": "c9ce811f-59f9-4057-a858-9395bc81113c",
+      "text": "Replace the medium with 500&#x3BC;l of growth medium containing 0.1% serum and incubate for 8 hours",
+      "instruction": "INCUBATE",
+      "slots": [
+        {
+          "key": "reagent1",
+          "value": "medium",
+          "id": "c69d403f-a03f-40d6-b334-c000bcde5e08",
+          "node_id": "c9ce811f-59f9-4057-a858-9395bc81113c"
+        },
+        {
+          "key": "temperature",
+          "value": "room temperature",
+          "id": "cafb359b-6b0d-47b4-8638-93eb4e94486e",
+          "node_id": "c9ce811f-59f9-4057-a858-9395bc81113c"
+        },
+        {
+          "key": "time",
+          "value": "8 hours",
+          "id": "d10c1984-b683-4719-8e13-6a1d18d0895a",
+          "node_id": "c9ce811f-59f9-4057-a858-9395bc81113c"
+        }
+      ],
+      "emits": [
+        {
+          "key": "reagent0",
+          "value": "medium",
+          "id": "8ffd86fb-1e82-4c9a-b6bb-21c05c92c9f0",
+          "node_id": "c9ce811f-59f9-4057-a858-9395bc81113c"
+        }
+      ]
+    },
+    {
+      "id": "009dc2ad-161d-4a42-8bdb-7cc218ec9cae",
+      "text": "Dilute the protein ligand in 0.1% serum medium and add the solution to the cells",
+      "instruction": "DILUTE",
+      "slots": [
+        {
+          "key": "reagent1",
+          "value": "protein ligand",
+          "id": "a08c72ee-c6e9-44a7-a288-85017a2b5d9c",
+          "node_id": "009dc2ad-161d-4a42-8bdb-7cc218ec9cae"
+        },
+        {
+          "key": "reagent2",
+          "value": "0.1% serum medium",
+          "id": "342d7d1e-b7fa-4e2d-a80f-bca8da812577",
+          "node_id": "009dc2ad-161d-4a42-8bdb-7cc218ec9cae"
+        },
+        {
+          "key": "targetConcentration",
+          "value": "<blank>",
+          "id": "792b53db-96fa-41d9-bd23-38b70c216bff",
+          "node_id": "009dc2ad-161d-4a42-8bdb-7cc218ec9cae"
+        },
+        {
+          "key": "notice",
+          "value": "<blank>",
+          "id": "82ce537f-1661-4d3a-9114-4f6896deb7f1",
+          "node_id": "009dc2ad-161d-4a42-8bdb-7cc218ec9cae"
+        }
+      ],
+      "emits": [
+        {
+          "key": "reagent0",
+          "value": "<blank>",
+          "id": "675ce925-bb69-4bd1-aa93-8eb340de51fd",
+          "node_id": "009dc2ad-161d-4a42-8bdb-7cc218ec9cae"
+        }
+      ]
+    },
+    {
+      "id": "9c2703c6-001e-4bf9-a893-50e20ed95781",
+      "text": "Dilute the protein ligand in 0.1% serum medium and add the solution to the cells",
+      "instruction": "ADD",
+      "slots": [
+        {
+          "key": "reagent1",
+          "value": "protein ligand",
+          "id": "bbcf14fe-e5e1-43e4-be54-f67cb021380c",
+          "node_id": "9c2703c6-001e-4bf9-a893-50e20ed95781"
+        },
+        {
+          "key": "reagent2",
+          "value": "0.1% serum medium",
+          "id": "88f6aaa2-a5cb-4736-b306-a2856f8f143b",
+          "node_id": "9c2703c6-001e-4bf9-a893-50e20ed95781"
+        }
+      ],
+      "emits": [
+        {
+          "key": "reagent0",
+          "value": "combined solution",
+          "id": "31b19570-7f6e-4442-9919-4b6c1c5a18da",
+          "node_id": "9c2703c6-001e-4bf9-a893-50e20ed95781"
+        }
+      ]
+    },
+    {
+      "id": "e45d7853-e934-4376-b292-16aa15d5c526",
+      "text": "Incubate cells under standard conditions for 2-16 hours \\(according to the ligand activity)",
+      "instruction": "INCUBATE",
+      "slots": [
+        {
+          "key": "reagent1",
+          "value": "combined solution",
+          "id": "2607c243-9fae-41a8-935f-c3f11109f729",
+          "node_id": "e45d7853-e934-4376-b292-16aa15d5c526"
+        },
+        {
+          "key": "temperature",
+          "value": "room temperature",
+          "id": "5741f370-451d-462f-8fa8-7205d63728f9",
+          "node_id": "e45d7853-e934-4376-b292-16aa15d5c526"
+        },
+        {
+          "key": "time",
+          "value": "2-16 hours",
+          "id": "6127c96c-b646-4ed3-8866-6349e7ef83d0",
+          "node_id": "e45d7853-e934-4376-b292-16aa15d5c526"
+        }
+      ],
+      "emits": [
+        {
+          "key": "reagent0",
+          "value": "combined solution",
+          "id": "1bc51c48-d298-4ec1-b377-4c9fff35a041",
+          "node_id": "e45d7853-e934-4376-b292-16aa15d5c526"
+        }
+      ]
+    },
+    {
+      "id": "6e87f1fc-7627-49d8-a80a-a1ecfa3db6ba",
+      "text": "Replace medium with 200&#x3BC;l per well of luciferase lysis buffer",
+      "instruction": "REPLACE",
+      "slots": [
+        {
+          "key": "reagent1",
+          "value": "medium",
+          "id": "892201f0-8080-4063-82ec-3ec960c93c3c",
+          "node_id": "6e87f1fc-7627-49d8-a80a-a1ecfa3db6ba"
+        },
+        {
+          "key": "reagent2",
+          "value": "luciferase lysis buffer",
+          "id": "cc01e1ae-4368-411e-b154-04291bd8efa4",
+          "node_id": "6e87f1fc-7627-49d8-a80a-a1ecfa3db6ba"
+        }
+      ],
+      "emits": [
+        {
+          "key": "reagent0",
+          "value": "luciferase lysis buffer",
+          "id": "8ceca19e-1e7b-4906-9214-1f0513590d71",
+          "node_id": "6e87f1fc-7627-49d8-a80a-a1ecfa3db6ba"
+        }
+      ]
+    },
+    {
+      "id": "f084007d-f09e-4669-93bf-3b36c196d9f4",
+      "text": "Perform a standar luciferase assay",
+      "instruction": "PERFORM",
+      "slots": [
+        {
+          "key": "procedure",
+          "value": "Perform a standard luciferase assay",
+          "id": "4be1abfb-ae15-4a07-acff-9b1e80d14ed0",
+          "node_id": "f084007d-f09e-4669-93bf-3b36c196d9f4"
+        }
+      ],
+      "emits": []
+    }
+  ],
+  "edges": []
+}

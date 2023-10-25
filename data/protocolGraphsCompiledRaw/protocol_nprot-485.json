@@ -1,0 +1,630 @@
+[
+    {
+        "title": "**Perfusion and isolation of hepatocytes**",
+        "body": [
+            {
+                "title": "1.",
+                "body": [
+                    {
+                        "sentence": "Use one month-old mice. To minimize diurnal variation start isolation of hepatocytes in the morning \\(10-11a.m.).",
+                        "result": []
+                    }
+                ]
+            },
+            {
+                "title": "2.",
+                "body": [
+                    {
+                        "sentence": "Anaesthetise mice by intraperitoneal injection of 200 &#x3BC;l of Cloralium Hydrate.",
+                        "result": [
+                            {
+                                "ANESTHETIZE": {
+                                    "emit": [
+                                        {
+                                            "reagent0": "mice"
+                                        }
+                                    ],
+                                    "slot": [
+                                        {
+                                            "reagent1": "mice"
+                                        },
+                                        {
+                                            "reagent2": "Cloralium Hydrate"
+                                        },
+                                        {
+                                            "dosage": "200 \u03bcl"
+                                        },
+                                        {
+                                            "method": "intraperitoneal injection"
+                                        }
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "3.",
+                "body": [
+                    {
+                        "sentence": "Insert the cannula in the portal vein and start perfusion with T1 solution pH 7.4. As soon as the perfusion is started, immediately cut the hepatic vein to allow perfusate to run as a waste.",
+                        "result": [
+                            {
+                                "CUT": {
+                                    "emit": [
+                                        {
+                                            "reagent0": "hepatic vein"
+                                        }
+                                    ],
+                                    "slot": [
+                                        {
+                                            "reagent": "hepatic vein"
+                                        }
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "4.",
+                "body": [
+                    {
+                        "sentence": "Flow rate is 5 ml/min. Perfuse liver for 15-20 minutes to remove completely the blood in each lobe.",
+                        "result": [
+                            {
+                                "FLOW": {
+                                    "emit": [
+                                        {
+                                            "reagent0": "hepatic vein"
+                                        }
+                                    ],
+                                    "slot": [
+                                        {
+                                            "reagent1": "hepatic vein"
+                                        },
+                                        {
+                                            "flowRate": "5 ml/min"
+                                        },
+                                        {
+                                            "time": "15-20 minutes"
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "PERFUSE": {
+                                    "emit": [
+                                        {
+                                            "reagent0": "hepatic vein"
+                                        }
+                                    ],
+                                    "slot": [
+                                        {
+                                            "procedure": "Perfuse liver for 15-20 minutes to remove completely the blood in each lobe."
+                                        }
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "5.",
+                "body": [
+                    {
+                        "sentence": "Perfuse the liver with T2 solution pH 7.4. At this stage the hepatic tissue is rapidly disaggregated. Collect the tissue with a curved spatula and transfer into a plate where the disruption of the tissue is proceeded with a scalpel. This step should be fast in order to avoid damage of hepatocytes.",
+                        "result": [
+                            {
+                                "PERFUSE": {
+                                    "emit": [
+                                        {
+                                            "reagent0": "T2 solution pH 7.4"
+                                        }
+                                    ],
+                                    "slot": [
+                                        {
+                                            "procedure": "Perfuse the liver with T2 solution pH 7.4."
+                                        },
+                                        {
+                                            "time": "15-20 minutes"
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "COLLECT": {
+                                    "emit": [
+                                        {
+                                            "reagent0": "hepatic tissue"
+                                        }
+                                    ],
+                                    "slot": [
+                                        {
+                                            "reagent1": "hepatic tissue"
+                                        },
+                                        {
+                                            "container": "plate"
+                                        },
+                                        {
+                                            "method": "curved spatula"
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "TRANSFER": {
+                                    "emit": [
+                                        {
+                                            "reagent0": "hepatic tissue"
+                                        }
+                                    ],
+                                    "slot": [
+                                        {
+                                            "destination": "plate"
+                                        },
+                                        {
+                                            "reagent1": "hepatic tissue"
+                                        },
+                                        {
+                                            "equipment": "scalpel"
+                                        },
+                                        {
+                                            "notice": "This step should be fast in order to avoid damage of hepatocytes."
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "PROCEED": {
+                                    "emit": [
+                                        {
+                                            "reagent0": "hepatic tissue"
+                                        }
+                                    ],
+                                    "slot": [
+                                        {
+                                            "procedure": "disruption of the tissue with a scalpel"
+                                        },
+                                        {
+                                            "notice": "This step should be fast in order to avoid damage of hepatocytes"
+                                        }
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "6.",
+                "body": [
+                    {
+                        "sentence": "Remove the bladder and mince the tissue with a scalpel.",
+                        "result": [
+                            {
+                                "REMOVE": {
+                                    "emit": [
+                                        {
+                                            "reagent0": "bladder"
+                                        }
+                                    ],
+                                    "slot": [
+                                        {
+                                            "reagent1": "bladder"
+                                        },
+                                        {
+                                            "method": "cut"
+                                        },
+                                        {
+                                            "device": "scalpel"
+                                        },
+                                        {
+                                            "notice": ""
+                                        }
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "7.",
+                "body": [
+                    {
+                        "sentence": "Collect minced tissue with 2 ml DMEM and filter cells through 70 &#x3BC;m cell strainer.",
+                        "result": [
+                            {
+                                "COLLECT": {
+                                    "emit": [
+                                        {
+                                            "reagent0": "minced tissue"
+                                        }
+                                    ],
+                                    "slot": [
+                                        {
+                                            "reagent1": "minced tissue"
+                                        },
+                                        {
+                                            "container": "DMEM"
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "FILTER": {
+                                    "emit": [
+                                        {
+                                            "reagent0": "minced tissue"
+                                        }
+                                    ],
+                                    "slot": [
+                                        {
+                                            "reagent1": "minced tissue"
+                                        },
+                                        {
+                                            "filter": "70 \u03bcm cell strainer"
+                                        }
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "8.",
+                "body": [
+                    {
+                        "sentence": "Centrifuge cells at 600rpm for 4min at room temperature.",
+                        "result": [
+                            {
+                                "CENTRIFUGE": {
+                                    "emit": [
+                                        {
+                                            "reagent0": "hepatic tissue"
+                                        }
+                                    ],
+                                    "slot": [
+                                        {
+                                            "reagent1": "hepatic tissue"
+                                        },
+                                        {
+                                            "intensity": "600rpm"
+                                        },
+                                        {
+                                            "time": "4min"
+                                        },
+                                        {
+                                            "temperature": "room temperature"
+                                        },
+                                        {
+                                            "notice": ""
+                                        }
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "9.",
+                "body": [
+                    {
+                        "sentence": "Remove supernatant, resuspend pellet in 3 ml DMEM and pass the hepatocytes on 37.5% PERCOLL cushion \\(30 ml) to recover viable cells.",
+                        "result": [
+                            {
+                                "REMOVE": {
+                                    "emit": [
+                                        {
+                                            "reagent0": "hepatic tissue"
+                                        }
+                                    ],
+                                    "slot": [
+                                        {
+                                            "reagent1": "supernatant"
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "RESUSPEND": {
+                                    "emit": [
+                                        {
+                                            "reagent0": "hepatic tissue"
+                                        }
+                                    ],
+                                    "slot": [
+                                        {
+                                            "reagent1": "hepatic tissue"
+                                        },
+                                        {
+                                            "reagent2": "DMEM"
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "PASS": {
+                                    "emit": [
+                                        {
+                                            "reagent0": "hepatic tissue"
+                                        }
+                                    ],
+                                    "slot": [
+                                        {
+                                            "reagent1": "hepatic tissue"
+                                        },
+                                        {
+                                            "device": "37.5% PERCOLL cushion (30 ml)"
+                                        }
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "10.",
+                "body": [
+                    {
+                        "sentence": "Centrifuge 1050 rpm for 3min at room temperature.",
+                        "result": [
+                            {
+                                "CENTRIFUGE": {
+                                    "emit": [
+                                        {
+                                            "reagent0": "hepatic tissue"
+                                        }
+                                    ],
+                                    "slot": [
+                                        {
+                                            "reagent1": "hepatic tissue"
+                                        },
+                                        {
+                                            "intensity": "1050 rpm"
+                                        },
+                                        {
+                                            "time": "3min"
+                                        },
+                                        {
+                                            "temperature": "room temperature"
+                                        }
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "11.",
+                "body": [
+                    {
+                        "sentence": "Resuspend pellet of viable cells in 2 ml of DMEM and count the hepatocytes.",
+                        "result": [
+                            {
+                                "RESUSPEND": {
+                                    "emit": [
+                                        {
+                                            "reagent0": "viable cells"
+                                        }
+                                    ],
+                                    "slot": [
+                                        {
+                                            "reagent1": "viable cells"
+                                        },
+                                        {
+                                            "reagent2": "DMEM"
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "COUNT": {
+                                    "emit": [
+                                        {
+                                            "data0": "<blank>"
+                                        }
+                                    ],
+                                    "slot": [
+                                        {
+                                            "reagent1": "viable cells"
+                                        },
+                                        {
+                                            "method": "hemocytometer"
+                                        },
+                                        {
+                                            "reagent2": "Trypan Blue"
+                                        },
+                                        {
+                                            "device": "Countess Machine"
+                                        }
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "**Recovery of hepatocytes and protein synthesis measurement**",
+        "body": [
+            {
+                "title": "12.",
+                "body": [
+                    {
+                        "sentence": "Leave the isolated primary hepatocytes in 3 ml of DMEM at 5% CO<sub>2</sub>, 37&#xB0;C for 2h and in suspension. Absence of serum is necessary to decrease the basal level of translation.",
+                        "result": [
+                            {
+                                "LEAVE": {
+                                    "emit": [
+                                        {
+                                            "reagent0": "isolated primary hepatocytes"
+                                        }
+                                    ],
+                                    "slot": [
+                                        {
+                                            "reagent1": "isolated primary hepatocytes"
+                                        },
+                                        {
+                                            "temperature": "37&#xB0;C"
+                                        },
+                                        {
+                                            "time": "2h"
+                                        },
+                                        {
+                                            "environment": "5% CO<sub>2</sub>"
+                                        }
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "13.",
+                "body": [
+                    {
+                        "sentence": "After 2h replace the medium with DMEM without methionine and cysteine and start with the metabolic labelling assay.",
+                        "result": [
+                            {
+                                "REPLACE": {
+                                    "emit": [
+                                        {
+                                            "reagent0": "DMEM without methionine and cysteine"
+                                        }
+                                    ],
+                                    "slot": [
+                                        {
+                                            "reagent1": "DMEM with methionine and cysteine"
+                                        },
+                                        {
+                                            "reagent2": "DMEM without methionine and cysteine"
+                                        },
+                                        {
+                                            "time": "2h"
+                                        }
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "14.",
+                "body": [
+                    {
+                        "sentence": "Each point of the metabolic labelling is done in triplicate. Use 15 x 10<sup>5</sup> hepatocytes/triplicate. Resuspend 5 x 10<sup>5</sup> cells in 2ml DMEM without Met/Cys and maintain the cells in a 15ml round bottom falcon tube to allow sufficient oxygenation.",
+                        "result": [
+                            {
+                                "RESUSPEND": {
+                                    "emit": [
+                                        {
+                                            "reagent0": "hepatocytes"
+                                        }
+                                    ],
+                                    "slot": [
+                                        {
+                                            "reagent1": "hepatocytes"
+                                        },
+                                        {
+                                            "reagent2": "DMEM without Met/Cys"
+                                        },
+                                        {
+                                            "device": "15ml round bottom falcon tube"
+                                        },
+                                        {
+                                            "notice": "Maintain the cells in a 15ml round bottom falcon tube to allow sufficient oxygenation."
+                                        }
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "15.",
+                "body": [
+                    {
+                        "sentence": "Add to the media the desired stimula to increase translational level \\(e.g. 100 nM Insulin) and label the cells with 20 &#x3BC;Ci/ml of <sup>35</sup>S-Met/Cys mixture for 1h.",
+                        "result": [
+                            {
+                                "ADD": {
+                                    "emit": [
+                                        {
+                                            "reagent0": "<blank>"
+                                        }
+                                    ],
+                                    "slot": [
+                                        {
+                                            "reagent1": "media"
+                                        },
+                                        {
+                                            "reagent2": "100 nM Insulin"
+                                        }
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "16.",
+                "body": [
+                    {
+                        "sentence": "After 1h, lyse the cells in 100 &#x3BC;l of Lysis Buffer: 10mM Tris HCl pH 7.4, 1% Triton X-100, 150mM NaCl, 1mM EDTA.",
+                        "result": []
+                    }
+                ]
+            },
+            {
+                "title": "17.",
+                "body": [
+                    {
+                        "sentence": "Keep 15min on ice and then clarify at 14000rpm for 10min at 4&#xB0;C.",
+                        "result": [
+                            {
+                                "KEEP": {
+                                    "emit": [],
+                                    "slot": [
+                                        {
+                                            "reagent1": "on ice"
+                                        },
+                                        {
+                                            "temperature": "4\u00b0C"
+                                        },
+                                        {
+                                            "time": "15min"
+                                        }
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "18.",
+                "body": [
+                    {
+                        "sentence": "Use 10 &#x3BC;l of the lysate to read radioactivity incorporation as previously described<sup>1</sup>.",
+                        "result": []
+                    }
+                ]
+            }
+        ]
+    }
+]

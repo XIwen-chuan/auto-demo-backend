@@ -1,0 +1,338 @@
+[
+    {
+        "title": "1)",
+        "body": [
+            {
+                "sentence": "Isolate peripheral blood lymphocytes from different healthy donors using Ficoll gradients.",
+                "result": [
+                    {
+                        "ISOLATE": {
+                            "emit": [
+                                {
+                                    "reagent0": "peripheral blood lymphocytes"
+                                }
+                            ],
+                            "slot": [
+                                {
+                                    "component": "peripheral blood lymphocytes"
+                                },
+                                {
+                                    "reagent1": "Ficoll gradients"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "2)",
+        "body": [
+            {
+                "sentence": "Isolate NK cells using the NK isolation kit II \\(Miltenyi Biotec), according to manufacturer&#x2019;s instructions.",
+                "result": [
+                    {
+                        "ISOLATE": {
+                            "emit": [
+                                {
+                                    "reagent0": "NK cells"
+                                }
+                            ],
+                            "slot": [
+                                {
+                                    "component": "NK cells"
+                                },
+                                {
+                                    "reagent1": "NK isolation kit II (Miltenyi Biotec)"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "3)",
+        "body": [
+            {
+                "sentence": "Sort 100 X 10<sup>6</sup> cells enriched for CD56+CD3-NK cells from each donor, as described below, in order to purify CD56dimCD16+CD3- and CD56brightCD16-CD3- subsets.",
+                "result": [
+                    {
+                        "SORT": {
+                            "emit": [
+                                {
+                                    "reagent0": "CD56+CD3-NK cells"
+                                }
+                            ],
+                            "slot": [
+                                {
+                                    "reagent1": "NK cells"
+                                },
+                                {
+                                    "device": "FACS"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "4)",
+        "body": [
+            {
+                "sentence": "For each experimental with NK subsets, also perform mock isolation of pbNK cells as if they were dNK cells to rule out the possibility that differences between NK subsets was due to methodological differences in isolation procedures. Achieve this by subjecting isolated pbNK cells to the same isolation protocol used for the isolation of dNK cells\\(2).\r\n\n\n\r\n\n\n",
+                "result": [
+                    {
+                        "PERFORM": {
+                            "emit": [
+                                {
+                                    "reagent0": "NK cells"
+                                }
+                            ],
+                            "slot": [
+                                {
+                                    "procedure": "Isolate NK cells using the NK isolation kit II (Miltenyi Biotec)"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            },
+            {
+                "title": "**Staining and cell sorting**",
+                "body": [
+                    ""
+                ]
+            }
+        ]
+    },
+    {
+        "title": "1)",
+        "body": [
+            {
+                "sentence": "Wash cells in PBS supplemented with 2% FCS and incubate with mAb on ice for 30 min.",
+                "result": [
+                    {
+                        "WASH": {
+                            "emit": [
+                                {
+                                    "reagent0": "cells"
+                                }
+                            ],
+                            "slot": [
+                                {
+                                    "reagent1": "cells"
+                                },
+                                {
+                                    "reagent2": "PBS supplemented with 2% FCS"
+                                },
+                                {
+                                    "time": "30 min"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "INCUBATE": {
+                            "emit": [
+                                {
+                                    "reagent0": "cells"
+                                }
+                            ],
+                            "slot": [
+                                {
+                                    "reagent1": "mAb"
+                                },
+                                {
+                                    "temperature": "ice"
+                                },
+                                {
+                                    "time": "30 min"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "2)",
+        "body": [
+            {
+                "sentence": "Wash twice.",
+                "result": [
+                    {
+                        "WASH": {
+                            "emit": [
+                                {
+                                    "reagent0": "cells"
+                                }
+                            ],
+                            "slot": [
+                                {
+                                    "reagent1": "cells"
+                                },
+                                {
+                                    "reagent2": "PBS supplemented with 2% FCS"
+                                },
+                                {
+                                    "repeat": "2"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "3)",
+        "body": [
+            {
+                "sentence": "Cell sort and measure fluorescence on a MoFlo high performance cell sorter \\(DakoCytomation).",
+                "result": [
+                    {
+                        "SORT": {
+                            "emit": [
+                                {
+                                    "reagent0": "CD56+CD3-NK cells"
+                                }
+                            ],
+                            "slot": [
+                                {
+                                    "reagent1": "CD56+CD3-NK cells"
+                                },
+                                {
+                                    "device": "MoFlo high performance cell sorter (DakoCytomation)"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "MEASURE": {
+                            "emit": [
+                                {
+                                    "data0": "<blank>"
+                                }
+                            ],
+                            "slot": [
+                                {
+                                    "device": "MoFlo high performance cell sorter (DakoCytomation)"
+                                },
+                                {
+                                    "reagent1": "<blank>"
+                                },
+                                {
+                                    "parameter": "fluorescence"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "4)",
+        "body": [
+            {
+                "sentence": "Collect data from single cell events using a standard FACScaliburTM flow cytometer \\(Immunocytometry systems; Beckton Dickinson).",
+                "result": [
+                    {
+                        "COLLECT": {
+                            "emit": [
+                                {
+                                    "reagent0": "single cell events"
+                                }
+                            ],
+                            "slot": [
+                                {
+                                    "reagent1": "single cell events"
+                                },
+                                {
+                                    "container": "standard FACScaliburTM flow cytometer"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "5)",
+        "body": [
+            {
+                "sentence": "Highly purify peripheral blood NK subsets to obtain 2 subsets: CD56dimCD16+CD3- NK \\(pbCD16+ NK) and CD56brightCD16-CD3- \\(pbCD16- NK). Decidual NK cells should be uniformly of the CD56brightCD16-CD3-phenotype \\(dNK) cells.  Subset purity should be routinely higher than 99%.",
+                "result": [
+                    {
+                        "PURIFY": {
+                            "emit": [
+                                {
+                                    "reagent0": "CD56dimCD16+CD3- NK (pbCD16+ NK)"
+                                }
+                            ],
+                            "slot": [
+                                {
+                                    "reagent1": "peripheral blood NK subsets"
+                                },
+                                {
+                                    "method": "cell sorting"
+                                },
+                                {
+                                    "device": "MoFlo high performance cell sorter (DakoCytomation)"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "OBTAIN": {
+                            "emit": [
+                                {
+                                    "reagent0": "CD56brightCD16-CD3-phenotype (dNK) cells"
+                                }
+                            ],
+                            "slot": [
+                                {
+                                    "reagent1": "peripheral blood NK subsets"
+                                },
+                                {
+                                    "notice": "Subset purity should be routinely higher than 99%."
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "6)",
+        "body": [
+            {
+                "sentence": "Perform intracellular staining with a Cytoperm-Cytofix Intracellular Staining kit \\(Pharmingen) according to the manufacturer&#x2019;s instructions.",
+                "result": [
+                    {
+                        "PERFORM": {
+                            "emit": [
+                                {
+                                    "reagent0": "Cytoperm-Cytofix Intracellular Staining kit (Pharmingen)"
+                                }
+                            ],
+                            "slot": [
+                                {
+                                    "procedure": "Perform intracellular staining with a Cytoperm-Cytofix Intracellular Staining kit (Pharmingen) according to the manufacturer's instructions."
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        ]
+    }
+]

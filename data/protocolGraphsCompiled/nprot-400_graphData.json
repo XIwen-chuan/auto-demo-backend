@@ -1,0 +1,617 @@
+{
+  "name": "nprot-400_graphData.json",
+  "nodes": [
+    {
+      "id": "94ada327-28c2-4bb7-9c2b-71b774892504",
+      "text": "Quick thaw 1 L cell pellet.  Add 2 mM PMSF, 2 Roche PI tablets w/o EDTA.  Sonicate until cells have lysed \\(3x20sec, on ice 20sec in between).",
+      "instruction": "THAW",
+      "slots": [
+        {
+          "key": "reagent1",
+          "value": "1 L cell pellet",
+          "id": "296f1bab-5ff2-4db6-b7fd-c05a31f06098",
+          "node_id": "94ada327-28c2-4bb7-9c2b-71b774892504"
+        }
+      ],
+      "emits": [
+        {
+          "key": "reagent0",
+          "value": "1 L cell pellet",
+          "id": "338a57b1-cf44-46b0-87bd-203062c1363d",
+          "node_id": "94ada327-28c2-4bb7-9c2b-71b774892504"
+        }
+      ]
+    },
+    {
+      "id": "45b1ce55-5958-4f5e-a061-da25480cc6f6",
+      "text": "Quick thaw 1 L cell pellet.  Add 2 mM PMSF, 2 Roche PI tablets w/o EDTA.  Sonicate until cells have lysed \\(3x20sec, on ice 20sec in between).",
+      "instruction": "ADD",
+      "slots": [
+        {
+          "key": "reagent1",
+          "value": "1 L cell pellet",
+          "id": "b110ee23-723f-4835-99bb-3ab35d4496df",
+          "node_id": "45b1ce55-5958-4f5e-a061-da25480cc6f6"
+        },
+        {
+          "key": "reagent2",
+          "value": "2 mM PMSF, 2 Roche PI tablets w/o EDTA",
+          "id": "aa97850b-d313-4120-a902-d146a28a63cf",
+          "node_id": "45b1ce55-5958-4f5e-a061-da25480cc6f6"
+        }
+      ],
+      "emits": [
+        {
+          "key": "reagent0",
+          "value": "1 L cell pellet",
+          "id": "a8bdd859-c164-4f65-b8ae-cdba55ee0dad",
+          "node_id": "45b1ce55-5958-4f5e-a061-da25480cc6f6"
+        }
+      ]
+    },
+    {
+      "id": "dba365c7-fccf-476c-895d-e7f59ed3d425",
+      "text": "Quick thaw 1 L cell pellet.  Add 2 mM PMSF, 2 Roche PI tablets w/o EDTA.  Sonicate until cells have lysed \\(3x20sec, on ice 20sec in between).",
+      "instruction": "SONICATE",
+      "slots": [
+        {
+          "key": "reagent1",
+          "value": "1 L cell pellet",
+          "id": "341e8133-9b51-4358-8d91-79ffda4496ef",
+          "node_id": "dba365c7-fccf-476c-895d-e7f59ed3d425"
+        },
+        {
+          "key": "time",
+          "value": "3x20sec",
+          "id": "3d5e78ad-22f2-4d62-9cdc-448953fc3c98",
+          "node_id": "dba365c7-fccf-476c-895d-e7f59ed3d425"
+        },
+        {
+          "key": "temperature",
+          "value": "on ice 20sec in between",
+          "id": "d009f3c9-13b0-4af8-a280-e8e896885eea",
+          "node_id": "dba365c7-fccf-476c-895d-e7f59ed3d425"
+        }
+      ],
+      "emits": [
+        {
+          "key": "reagent0",
+          "value": "1 L cell pellet",
+          "id": "6eeed908-3647-4c17-a252-a12e303a91ef",
+          "node_id": "dba365c7-fccf-476c-895d-e7f59ed3d425"
+        }
+      ]
+    },
+    {
+      "id": "be246979-326e-4a8b-834e-816649ce688e",
+      "text": "Add MgCl<sub>2</sub> to 10mM.  Add 20&#xB5;l Benzenase.  Rock for 60min 4&#xB0;C until the mixture is really runny.  Save 10&#xB5;l for running on gel.",
+      "instruction": "ADD",
+      "slots": [
+        {
+          "key": "reagent1",
+          "value": "1 L cell pellet",
+          "id": "3cf952a7-3ed4-486b-a496-2f174ef76faf",
+          "node_id": "be246979-326e-4a8b-834e-816649ce688e"
+        },
+        {
+          "key": "reagent2",
+          "value": "MgCl2",
+          "id": "45b5f143-3285-4b9f-b365-50edb92e1894",
+          "node_id": "be246979-326e-4a8b-834e-816649ce688e"
+        },
+        {
+          "key": "ratio",
+          "value": "<blank>",
+          "id": "188ed756-5b67-4cae-ab35-2db371b95cc2",
+          "node_id": "be246979-326e-4a8b-834e-816649ce688e"
+        },
+        {
+          "key": "concentration",
+          "value": "10mM",
+          "id": "70966827-f39f-45ff-8d34-6f296e37b8d1",
+          "node_id": "be246979-326e-4a8b-834e-816649ce688e"
+        },
+        {
+          "key": "notice",
+          "value": "<blank>",
+          "id": "26c32e7f-d7e2-4eb0-8c1f-cb683cbad91e",
+          "node_id": "be246979-326e-4a8b-834e-816649ce688e"
+        }
+      ],
+      "emits": [
+        {
+          "key": "reagent0",
+          "value": "1 L cell pellet",
+          "id": "f7d9b904-67ed-4b6b-8b59-9527f27c4dda",
+          "node_id": "be246979-326e-4a8b-834e-816649ce688e"
+        }
+      ]
+    },
+    {
+      "id": "64da87da-27b2-4ead-b9e8-4f265f2148a5",
+      "text": "Add MgCl<sub>2</sub> to 10mM.  Add 20&#xB5;l Benzenase.  Rock for 60min 4&#xB0;C until the mixture is really runny.  Save 10&#xB5;l for running on gel.",
+      "instruction": "ADD",
+      "slots": [
+        {
+          "key": "reagent1",
+          "value": "1 L cell pellet",
+          "id": "4400ed25-5359-4ea9-b170-f765403aa2a0",
+          "node_id": "64da87da-27b2-4ead-b9e8-4f265f2148a5"
+        },
+        {
+          "key": "reagent2",
+          "value": "Benzenase",
+          "id": "f350b7cd-a9f5-4ceb-af9b-622cac56f412",
+          "node_id": "64da87da-27b2-4ead-b9e8-4f265f2148a5"
+        }
+      ],
+      "emits": [
+        {
+          "key": "reagent0",
+          "value": "1 L cell pellet",
+          "id": "0d444eac-e580-4215-9010-73a94423cc32",
+          "node_id": "64da87da-27b2-4ead-b9e8-4f265f2148a5"
+        }
+      ]
+    },
+    {
+      "id": "3171b870-fab2-4c4f-9ea8-9419e8efed06",
+      "text": "Add MgCl<sub>2</sub> to 10mM.  Add 20&#xB5;l Benzenase.  Rock for 60min 4&#xB0;C until the mixture is really runny.  Save 10&#xB5;l for running on gel.",
+      "instruction": "SAVE",
+      "slots": [
+        {
+          "key": "volume",
+          "value": "10\u00b5l",
+          "id": "8018f3c5-3ea6-4e38-a981-f4aef81b51b5",
+          "node_id": "3171b870-fab2-4c4f-9ea8-9419e8efed06"
+        },
+        {
+          "key": "reagent1/data1",
+          "value": "10\u00b5l sample",
+          "id": "32674e34-ad38-4eb1-842a-9065dd6e836b",
+          "node_id": "3171b870-fab2-4c4f-9ea8-9419e8efed06"
+        },
+        {
+          "key": "purpose",
+          "value": "running on gel",
+          "id": "09e98154-57ae-431a-a468-9f60b8a90f1b",
+          "node_id": "3171b870-fab2-4c4f-9ea8-9419e8efed06"
+        }
+      ],
+      "emits": [
+        {
+          "key": "reagent0",
+          "value": "10\u00b5l sample",
+          "id": "a2a472d3-069e-4a44-aeda-591a725b676d",
+          "node_id": "3171b870-fab2-4c4f-9ea8-9419e8efed06"
+        }
+      ]
+    },
+    {
+      "id": "56ac6a77-7289-4ae6-9fad-712a5a764735",
+      "text": "Spin:  16K, 15 min, 30 ml tubes.  Save supernatant and pellet.  Save 10&#xB5;l of each for running on a gel.",
+      "instruction": "SPIN",
+      "slots": [
+        {
+          "key": "reagent1",
+          "value": "supernatant and pellet",
+          "id": "c52ee9ef-27ff-4e34-b11a-e1bb35021130",
+          "node_id": "56ac6a77-7289-4ae6-9fad-712a5a764735"
+        },
+        {
+          "key": "intensity",
+          "value": "16K",
+          "id": "b208c78d-df0a-470c-8362-663cafa9e5e2",
+          "node_id": "56ac6a77-7289-4ae6-9fad-712a5a764735"
+        },
+        {
+          "key": "time",
+          "value": "15 min",
+          "id": "a5f2e98d-80d2-4258-ad4d-ec0fca919895",
+          "node_id": "56ac6a77-7289-4ae6-9fad-712a5a764735"
+        },
+        {
+          "key": "device",
+          "value": "30 ml tubes",
+          "id": "11e171f5-cffd-44b6-94ad-e268f15e3d17",
+          "node_id": "56ac6a77-7289-4ae6-9fad-712a5a764735"
+        }
+      ],
+      "emits": [
+        {
+          "key": "reagent0",
+          "value": "10\u00b5l sample",
+          "id": "a849817b-92cd-48f6-a686-d4bf1a202aae",
+          "node_id": "56ac6a77-7289-4ae6-9fad-712a5a764735"
+        }
+      ]
+    },
+    {
+      "id": "12235a8a-dff9-43d1-9444-2c87ab62bbe2",
+      "text": "Spin:  16K, 15 min, 30 ml tubes.  Save supernatant and pellet.  Save 10&#xB5;l of each for running on a gel.",
+      "instruction": "SAVE",
+      "slots": [
+        {
+          "key": "volume",
+          "value": "10\u00b5l",
+          "id": "7329876d-ce28-4a11-b260-a536ad269454",
+          "node_id": "12235a8a-dff9-43d1-9444-2c87ab62bbe2"
+        },
+        {
+          "key": "reagent1/data1",
+          "value": "supernatant and pellet",
+          "id": "f542db5b-8dfb-4f57-a359-69c75a16d5ea",
+          "node_id": "12235a8a-dff9-43d1-9444-2c87ab62bbe2"
+        },
+        {
+          "key": "purpose",
+          "value": "running on a gel",
+          "id": "ce385219-5292-4f13-b163-1fff4a5e5298",
+          "node_id": "12235a8a-dff9-43d1-9444-2c87ab62bbe2"
+        },
+        {
+          "key": "device",
+          "value": "30 ml tubes",
+          "id": "4a7847b6-1f38-410b-9d2f-ae6912d5511c",
+          "node_id": "12235a8a-dff9-43d1-9444-2c87ab62bbe2"
+        }
+      ],
+      "emits": [
+        {
+          "key": "reagent0",
+          "value": "10\u00b5l sample",
+          "id": "cde70062-13a7-412b-8e88-8494c8a99d58",
+          "node_id": "12235a8a-dff9-43d1-9444-2c87ab62bbe2"
+        }
+      ]
+    },
+    {
+      "id": "69f65610-aad4-435b-8245-12b2f8947e01",
+      "text": "Spin:  16K, 15 min, 30 ml tubes.  Save supernatant and pellet.  Save 10&#xB5;l of each for running on a gel.",
+      "instruction": "SAVE",
+      "slots": [
+        {
+          "key": "volume",
+          "value": "10\u00b5l",
+          "id": "8ef44c47-8113-4670-b527-ffebadc36225",
+          "node_id": "69f65610-aad4-435b-8245-12b2f8947e01"
+        },
+        {
+          "key": "reagent1/data1",
+          "value": "10\u00b5l sample",
+          "id": "944feba6-f534-47d7-909d-e638999209cc",
+          "node_id": "69f65610-aad4-435b-8245-12b2f8947e01"
+        },
+        {
+          "key": "purpose",
+          "value": "running on a gel",
+          "id": "62d3ec8a-ed11-493a-9ba3-fc7a2aebd0c7",
+          "node_id": "69f65610-aad4-435b-8245-12b2f8947e01"
+        }
+      ],
+      "emits": [
+        {
+          "key": "reagent0",
+          "value": "10\u00b5l sample",
+          "id": "c0c10201-12bd-452f-9283-b240b9519fcb",
+          "node_id": "69f65610-aad4-435b-8245-12b2f8947e01"
+        }
+      ]
+    },
+    {
+      "id": "b8ec5757-f9ea-4023-905f-19c713377df9",
+      "text": "Meantime, wash Ni-NTA beads with binding buffer.  Do a 1-2ml column.",
+      "instruction": "WASH",
+      "slots": [
+        {
+          "key": "reagent1",
+          "value": "Ni-NTA beads",
+          "id": "78fa52e6-d0cc-4c2f-9e35-b564a0e68a50",
+          "node_id": "b8ec5757-f9ea-4023-905f-19c713377df9"
+        },
+        {
+          "key": "reagent2",
+          "value": "binding buffer",
+          "id": "26bc44c9-2488-420b-8a59-9e300b161d38",
+          "node_id": "b8ec5757-f9ea-4023-905f-19c713377df9"
+        },
+        {
+          "key": "repeat",
+          "value": "1-2",
+          "id": "3df0555d-844e-4921-a0be-02039bdd5ea0",
+          "node_id": "b8ec5757-f9ea-4023-905f-19c713377df9"
+        }
+      ],
+      "emits": [
+        {
+          "key": "reagent0",
+          "value": "Ni-NTA beads",
+          "id": "0444a10f-e464-418f-9c5b-ccc1a416bd3b",
+          "node_id": "b8ec5757-f9ea-4023-905f-19c713377df9"
+        }
+      ]
+    },
+    {
+      "id": "5fba5412-1e18-4a44-b4b5-abebeb686f3f",
+      "text": "Load supernatant on column.  Save flow through.  Save 10&#xB5;l for gel.",
+      "instruction": "LOAD",
+      "slots": [
+        {
+          "key": "reagent1",
+          "value": "supernatant",
+          "id": "e4c831d7-7494-4fcc-8b1d-55436c10455e",
+          "node_id": "5fba5412-1e18-4a44-b4b5-abebeb686f3f"
+        },
+        {
+          "key": "destination",
+          "value": "column",
+          "id": "47278984-225e-446e-b469-6afec4cf7d87",
+          "node_id": "5fba5412-1e18-4a44-b4b5-abebeb686f3f"
+        }
+      ],
+      "emits": [
+        {
+          "key": "reagent0",
+          "value": "flow through",
+          "id": "3e56223c-a28a-4204-9d60-553177b1a905",
+          "node_id": "5fba5412-1e18-4a44-b4b5-abebeb686f3f"
+        }
+      ]
+    },
+    {
+      "id": "20aa1a9a-e685-4e57-b86c-87cacac9d9eb",
+      "text": "Load supernatant on column.  Save flow through.  Save 10&#xB5;l for gel.",
+      "instruction": "SAVE",
+      "slots": [
+        {
+          "key": "volume",
+          "value": "10\u00b5l",
+          "id": "b9db44c4-1fef-4606-8bbd-ffe9aa73cfbf",
+          "node_id": "20aa1a9a-e685-4e57-b86c-87cacac9d9eb"
+        },
+        {
+          "key": "reagent1/data1",
+          "value": "flow through",
+          "id": "8dbb84e5-4a57-46c3-822a-c3f9dfe331f8",
+          "node_id": "20aa1a9a-e685-4e57-b86c-87cacac9d9eb"
+        },
+        {
+          "key": "purpose",
+          "value": "for gel",
+          "id": "76ea8c9c-2f4f-450a-a5b4-fb422743418b",
+          "node_id": "20aa1a9a-e685-4e57-b86c-87cacac9d9eb"
+        }
+      ],
+      "emits": [
+        {
+          "key": "reagent0",
+          "value": "flow through",
+          "id": "6ffde533-b48d-4530-b50f-4f5337ff98e1",
+          "node_id": "20aa1a9a-e685-4e57-b86c-87cacac9d9eb"
+        }
+      ]
+    },
+    {
+      "id": "a692afc1-cd94-4882-ad49-8dbfeadf8e66",
+      "text": "Load supernatant on column.  Save flow through.  Save 10&#xB5;l for gel.",
+      "instruction": "SAVE",
+      "slots": [
+        {
+          "key": "volume",
+          "value": "10\u00b5l",
+          "id": "104ce5a8-db73-4246-a7be-d8788da5b11b",
+          "node_id": "a692afc1-cd94-4882-ad49-8dbfeadf8e66"
+        },
+        {
+          "key": "reagent1/data1",
+          "value": "10\u00b5l sample",
+          "id": "4a77afa3-a331-486b-bf26-3ec763bf71a7",
+          "node_id": "a692afc1-cd94-4882-ad49-8dbfeadf8e66"
+        },
+        {
+          "key": "purpose",
+          "value": "for gel",
+          "id": "b7b42c47-2c90-48af-9bd4-138b6156a152",
+          "node_id": "a692afc1-cd94-4882-ad49-8dbfeadf8e66"
+        }
+      ],
+      "emits": [
+        {
+          "key": "reagent0",
+          "value": "10\u00b5l sample",
+          "id": "6c8ddcf1-c0e8-4974-b6d1-52b1d24b22ae",
+          "node_id": "a692afc1-cd94-4882-ad49-8dbfeadf8e66"
+        }
+      ]
+    },
+    {
+      "id": "9da5546b-d8f2-4646-a8a7-c6fb71e3048e",
+      "text": "Wash 50ml binding buffer \\(BB) high salt, then 50ml BB medium salt.",
+      "instruction": "WASH",
+      "slots": [
+        {
+          "key": "reagent1",
+          "value": "50ml binding buffer (BB) high salt",
+          "id": "9577c7c6-a258-462b-b982-3aeae9e61edc",
+          "node_id": "9da5546b-d8f2-4646-a8a7-c6fb71e3048e"
+        },
+        {
+          "key": "reagent2",
+          "value": "BB",
+          "id": "3f9575e0-18dc-4b08-99f6-d65a48599d21",
+          "node_id": "9da5546b-d8f2-4646-a8a7-c6fb71e3048e"
+        },
+        {
+          "key": "repeat",
+          "value": "1",
+          "id": "36710d15-de5d-4a61-bdae-01720e30e53b",
+          "node_id": "9da5546b-d8f2-4646-a8a7-c6fb71e3048e"
+        }
+      ],
+      "emits": [
+        {
+          "key": "reagent0",
+          "value": "BB",
+          "id": "e46697bb-bbc3-48d1-b1cb-d8b9785f6049",
+          "node_id": "9da5546b-d8f2-4646-a8a7-c6fb71e3048e"
+        }
+      ]
+    },
+    {
+      "id": "7fda7f60-9920-4f23-aac2-2b96fc1bf2bd",
+      "text": "Wash 50ml binding buffer \\(BB) high salt, then 50ml BB medium salt.",
+      "instruction": "WASH",
+      "slots": [
+        {
+          "key": "reagent1",
+          "value": "50ml BB medium salt",
+          "id": "55d127d5-9327-469a-bf2b-8741115d9f68",
+          "node_id": "7fda7f60-9920-4f23-aac2-2b96fc1bf2bd"
+        },
+        {
+          "key": "reagent2",
+          "value": "BB",
+          "id": "5a96d72f-b58e-455a-899a-645a9316272c",
+          "node_id": "7fda7f60-9920-4f23-aac2-2b96fc1bf2bd"
+        },
+        {
+          "key": "repeat",
+          "value": "1",
+          "id": "1ced9ee0-bbe2-47ce-89fe-85ad4c16e2d8",
+          "node_id": "7fda7f60-9920-4f23-aac2-2b96fc1bf2bd"
+        }
+      ],
+      "emits": [
+        {
+          "key": "reagent0",
+          "value": "BB medium salt",
+          "id": "b3355c53-01b2-4a7c-99eb-4ca483c19881",
+          "node_id": "7fda7f60-9920-4f23-aac2-2b96fc1bf2bd"
+        }
+      ]
+    },
+    {
+      "id": "d1962db0-4bf9-4373-8cf5-3d23bc025240",
+      "text": "Wash 50ml wash buffer \\(20mM Imidazole).",
+      "instruction": "WASH",
+      "slots": [
+        {
+          "key": "reagent1",
+          "value": "50ml wash buffer",
+          "id": "0e318555-847f-44a7-b405-ed68c4700e5b",
+          "node_id": "d1962db0-4bf9-4373-8cf5-3d23bc025240"
+        },
+        {
+          "key": "reagent2",
+          "value": "20mM Imidazole",
+          "id": "3ee7f330-6b5a-4c84-a24c-e665edc3b820",
+          "node_id": "d1962db0-4bf9-4373-8cf5-3d23bc025240"
+        }
+      ],
+      "emits": [
+        {
+          "key": "reagent0",
+          "value": "50ml wash buffer",
+          "id": "51518fe1-5b2e-43be-a834-8dfeacfe41d7",
+          "node_id": "d1962db0-4bf9-4373-8cf5-3d23bc025240"
+        }
+      ]
+    },
+    {
+      "id": "7ee3c6ba-27e2-4cda-ad24-3cc80898ef3c",
+      "text": "Elute with 500mM Imidazole buffer.",
+      "instruction": "ELUTE",
+      "slots": [
+        {
+          "key": "reagent1",
+          "value": "500mM Imidazole buffer",
+          "id": "fbcae2eb-3fd0-4df4-a14d-979eb1c2a956",
+          "node_id": "7ee3c6ba-27e2-4cda-ad24-3cc80898ef3c"
+        }
+      ],
+      "emits": [
+        {
+          "key": "reagent0",
+          "value": "500mM Imidazole buffer",
+          "id": "0c10060f-52b4-407f-8a20-fadaee605e7a",
+          "node_id": "7ee3c6ba-27e2-4cda-ad24-3cc80898ef3c"
+        }
+      ]
+    },
+    {
+      "id": "eb00d52d-9895-48d7-9d12-0b0d8317a5f1",
+      "text": "Dialyze.",
+      "instruction": "DIALYZE",
+      "slots": [
+        {
+          "key": "reagent1",
+          "value": "flow through",
+          "id": "e9524eb6-50d9-4999-a824-09c35cdbd09e",
+          "node_id": "eb00d52d-9895-48d7-9d12-0b0d8317a5f1"
+        },
+        {
+          "key": "reagent2",
+          "value": "BB medium salt",
+          "id": "2f7ad0ed-1773-4057-b8d0-b37e05dab02a",
+          "node_id": "eb00d52d-9895-48d7-9d12-0b0d8317a5f1"
+        }
+      ],
+      "emits": [
+        {
+          "key": "reagent0",
+          "value": "flow through",
+          "id": "2c3dc74e-b531-4e68-858c-3c643f4e2bba",
+          "node_id": "eb00d52d-9895-48d7-9d12-0b0d8317a5f1"
+        }
+      ]
+    },
+    {
+      "id": "cf895159-8a72-4f54-9513-8a121f2806d2",
+      "text": "Run SDS PAGE.  Measure protein concentration.",
+      "instruction": "RUN",
+      "slots": [
+        {
+          "key": "reagent1",
+          "value": "10\u00b5l sample",
+          "id": "f6153f19-15e4-440f-b2e1-668eadc2f687",
+          "node_id": "cf895159-8a72-4f54-9513-8a121f2806d2"
+        }
+      ],
+      "emits": [
+        {
+          "key": "reagent0",
+          "value": "10\u00b5l sample",
+          "id": "e104b903-cc35-4cca-a45b-50ea66b2e1d3",
+          "node_id": "cf895159-8a72-4f54-9513-8a121f2806d2"
+        }
+      ]
+    },
+    {
+      "id": "303a457d-7821-40d3-a216-c5ea02cd4835",
+      "text": "Run SDS PAGE.  Measure protein concentration.",
+      "instruction": "MEASURE",
+      "slots": [
+        {
+          "key": "device",
+          "value": "spectrophotometer",
+          "id": "66daad99-c0a4-497e-98b6-898b01a4ecba",
+          "node_id": "303a457d-7821-40d3-a216-c5ea02cd4835"
+        },
+        {
+          "key": "reagent1",
+          "value": "10\u00b5l sample",
+          "id": "96a2cd0b-6b7f-4163-baca-f08bcd5da14c",
+          "node_id": "303a457d-7821-40d3-a216-c5ea02cd4835"
+        },
+        {
+          "key": "parameter",
+          "value": "protein concentration",
+          "id": "88be4156-a1ac-4ca8-932a-c9a7f4d159f3",
+          "node_id": "303a457d-7821-40d3-a216-c5ea02cd4835"
+        }
+      ],
+      "emits": []
+    }
+  ],
+  "edges": []
+}

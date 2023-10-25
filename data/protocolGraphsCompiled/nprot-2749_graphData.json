@@ -1,0 +1,1105 @@
+{
+  "name": "nprot-2749_graphData.json",
+  "nodes": [
+    {
+      "id": "2e1da642-5821-42b7-acdb-f7021f08be26",
+      "text": "Sterilize de-hulled rice seeds \\(Oryza sativa L. cv. Dongjin) in 70% \\(v/v) ethanol for 5 min, wash once with sterile water, once in 3% \\(wt/v) sodium hypochlorite for 20 min, and three times with sterile water. Imbibe sterilized seeds under dark conditions at 4\u00b0C for 1 day, then grow seeds on 1% \\(wt/v) Phytagel<sup>\u00ae</sup> in a 28\u00b0C chamber \\(16 h light per day). Transplant 1-week-old seedlings into field soil and allow for growth up to the 4-6 leaf stage.",
+      "instruction": "STERILIZE",
+      "slots": [
+        {
+          "key": "reagent1",
+          "value": "de-hulled rice seeds (Oryza sativa L. cv. Dongjin)",
+          "id": "d15dcfce-2667-4403-8fcd-d50fadfe0f23",
+          "node_id": "2e1da642-5821-42b7-acdb-f7021f08be26"
+        },
+        {
+          "key": "reagent2",
+          "value": "70% (v/v) ethanol",
+          "id": "9a66bc0e-afb4-490b-931b-955cb512bc60",
+          "node_id": "2e1da642-5821-42b7-acdb-f7021f08be26"
+        },
+        {
+          "key": "time",
+          "value": "5 min",
+          "id": "e3e20e57-b278-4f73-b81b-d7ffec22462f",
+          "node_id": "2e1da642-5821-42b7-acdb-f7021f08be26"
+        }
+      ],
+      "emits": [
+        {
+          "key": "reagent0",
+          "value": "de-hulled rice seeds (Oryza sativa L. cv. Dongjin)",
+          "id": "63934950-a922-44d2-9b32-0cc41e648e14",
+          "node_id": "2e1da642-5821-42b7-acdb-f7021f08be26"
+        }
+      ]
+    },
+    {
+      "id": "351cbe60-a301-49a1-8fed-851a281c1695",
+      "text": "Sterilize de-hulled rice seeds \\(Oryza sativa L. cv. Dongjin) in 70% \\(v/v) ethanol for 5 min, wash once with sterile water, once in 3% \\(wt/v) sodium hypochlorite for 20 min, and three times with sterile water. Imbibe sterilized seeds under dark conditions at 4\u00b0C for 1 day, then grow seeds on 1% \\(wt/v) Phytagel<sup>\u00ae</sup> in a 28\u00b0C chamber \\(16 h light per day). Transplant 1-week-old seedlings into field soil and allow for growth up to the 4-6 leaf stage.",
+      "instruction": "WASH",
+      "slots": [
+        {
+          "key": "reagent1",
+          "value": "de-hulled rice seeds (Oryza sativa L. cv. Dongjin)",
+          "id": "f564a81a-c3ed-4eae-a3b2-6b7cfe705ea0",
+          "node_id": "351cbe60-a301-49a1-8fed-851a281c1695"
+        },
+        {
+          "key": "reagent2",
+          "value": "sterile water",
+          "id": "ffb71941-821e-4781-8b9e-d413c1a7c946",
+          "node_id": "351cbe60-a301-49a1-8fed-851a281c1695"
+        },
+        {
+          "key": "repeat",
+          "value": "1",
+          "id": "06f7d0ef-ef42-4243-a251-58e67dc61e64",
+          "node_id": "351cbe60-a301-49a1-8fed-851a281c1695"
+        }
+      ],
+      "emits": [
+        {
+          "key": "reagent0",
+          "value": "de-hulled rice seeds (Oryza sativa L. cv. Dongjin)",
+          "id": "380bf53d-5ff3-40a2-8deb-fd7f56e83595",
+          "node_id": "351cbe60-a301-49a1-8fed-851a281c1695"
+        }
+      ]
+    },
+    {
+      "id": "a1c816b2-81c9-4b80-bf52-cd4bbfbd7991",
+      "text": "Sterilize de-hulled rice seeds \\(Oryza sativa L. cv. Dongjin) in 70% \\(v/v) ethanol for 5 min, wash once with sterile water, once in 3% \\(wt/v) sodium hypochlorite for 20 min, and three times with sterile water. Imbibe sterilized seeds under dark conditions at 4\u00b0C for 1 day, then grow seeds on 1% \\(wt/v) Phytagel<sup>\u00ae</sup> in a 28\u00b0C chamber \\(16 h light per day). Transplant 1-week-old seedlings into field soil and allow for growth up to the 4-6 leaf stage.",
+      "instruction": "WASH",
+      "slots": [
+        {
+          "key": "reagent1",
+          "value": "de-hulled rice seeds (Oryza sativa L. cv. Dongjin)",
+          "id": "4ed994a1-7ba3-4f43-a864-90e2d70ba10c",
+          "node_id": "a1c816b2-81c9-4b80-bf52-cd4bbfbd7991"
+        },
+        {
+          "key": "reagent2",
+          "value": "3% (wt/v) sodium hypochlorite",
+          "id": "c96afcbf-a15f-4daa-a376-b26abeac5c95",
+          "node_id": "a1c816b2-81c9-4b80-bf52-cd4bbfbd7991"
+        },
+        {
+          "key": "repeat",
+          "value": "1",
+          "id": "01d9163c-06ad-4625-8a1d-28e60c460567",
+          "node_id": "a1c816b2-81c9-4b80-bf52-cd4bbfbd7991"
+        },
+        {
+          "key": "time",
+          "value": "20 min",
+          "id": "eeedb20e-0c7d-4d76-ad98-34def3e8b121",
+          "node_id": "a1c816b2-81c9-4b80-bf52-cd4bbfbd7991"
+        }
+      ],
+      "emits": [
+        {
+          "key": "reagent0",
+          "value": "de-hulled rice seeds (Oryza sativa L. cv. Dongjin)",
+          "id": "9dad48b3-3f5f-449f-9724-54b6d81ab504",
+          "node_id": "a1c816b2-81c9-4b80-bf52-cd4bbfbd7991"
+        }
+      ]
+    },
+    {
+      "id": "509e288d-65c4-428a-a50f-2942be99f9e9",
+      "text": "Sterilize de-hulled rice seeds \\(Oryza sativa L. cv. Dongjin) in 70% \\(v/v) ethanol for 5 min, wash once with sterile water, once in 3% \\(wt/v) sodium hypochlorite for 20 min, and three times with sterile water. Imbibe sterilized seeds under dark conditions at 4\u00b0C for 1 day, then grow seeds on 1% \\(wt/v) Phytagel<sup>\u00ae</sup> in a 28\u00b0C chamber \\(16 h light per day). Transplant 1-week-old seedlings into field soil and allow for growth up to the 4-6 leaf stage.",
+      "instruction": "WASH",
+      "slots": [
+        {
+          "key": "reagent1",
+          "value": "de-hulled rice seeds (Oryza sativa L. cv. Dongjin)",
+          "id": "766399a2-8ce2-488f-848e-7990975fadcf",
+          "node_id": "509e288d-65c4-428a-a50f-2942be99f9e9"
+        },
+        {
+          "key": "reagent2",
+          "value": "sterile water",
+          "id": "352d1af8-1d94-4c7d-b220-d92721f98dbf",
+          "node_id": "509e288d-65c4-428a-a50f-2942be99f9e9"
+        },
+        {
+          "key": "repeat",
+          "value": "3",
+          "id": "5672fe64-270d-4c68-a1ac-e3bbec2a3e50",
+          "node_id": "509e288d-65c4-428a-a50f-2942be99f9e9"
+        }
+      ],
+      "emits": [
+        {
+          "key": "reagent0",
+          "value": "de-hulled rice seeds (Oryza sativa L. cv. Dongjin)",
+          "id": "3b03b193-2415-4a93-bb72-0704a88deab1",
+          "node_id": "509e288d-65c4-428a-a50f-2942be99f9e9"
+        }
+      ]
+    },
+    {
+      "id": "57e6384e-8cae-4133-b4ba-44a2658005c9",
+      "text": "Sterilize de-hulled rice seeds \\(Oryza sativa L. cv. Dongjin) in 70% \\(v/v) ethanol for 5 min, wash once with sterile water, once in 3% \\(wt/v) sodium hypochlorite for 20 min, and three times with sterile water. Imbibe sterilized seeds under dark conditions at 4\u00b0C for 1 day, then grow seeds on 1% \\(wt/v) Phytagel<sup>\u00ae</sup> in a 28\u00b0C chamber \\(16 h light per day). Transplant 1-week-old seedlings into field soil and allow for growth up to the 4-6 leaf stage.",
+      "instruction": "GROW",
+      "slots": [
+        {
+          "key": "reagent1",
+          "value": "de-hulled rice seeds (Oryza sativa L. cv. Dongjin)",
+          "id": "39aabcc2-d998-4e6c-af83-0d356a244f3d",
+          "node_id": "57e6384e-8cae-4133-b4ba-44a2658005c9"
+        },
+        {
+          "key": "medium",
+          "value": "1% (wt/v) Phytagel\u00ae",
+          "id": "c5b22787-09d9-4d84-8c6f-e142c7b24e2e",
+          "node_id": "57e6384e-8cae-4133-b4ba-44a2658005c9"
+        },
+        {
+          "key": "temperature",
+          "value": "28\u00b0C",
+          "id": "77d348e9-6bfd-4591-b41b-c147ce40b26f",
+          "node_id": "57e6384e-8cae-4133-b4ba-44a2658005c9"
+        },
+        {
+          "key": "environment",
+          "value": "16 h light per day",
+          "id": "ee30b265-c668-410b-82ba-bbfeb4480160",
+          "node_id": "57e6384e-8cae-4133-b4ba-44a2658005c9"
+        },
+        {
+          "key": "device",
+          "value": "chamber",
+          "id": "2dc1e37a-2cd0-4de0-acad-d3066e0c8350",
+          "node_id": "57e6384e-8cae-4133-b4ba-44a2658005c9"
+        }
+      ],
+      "emits": [
+        {
+          "key": "reagent0",
+          "value": "de-hulled rice seeds (Oryza sativa L. cv. Dongjin)",
+          "id": "3d3a79a8-640c-4f7b-a0ee-aeb03ea4cc72",
+          "node_id": "57e6384e-8cae-4133-b4ba-44a2658005c9"
+        }
+      ]
+    },
+    {
+      "id": "530d47c7-42dc-46db-a653-5da91f6c0c38",
+      "text": "The quality of leaf sheaths strongly influences the experimental results. Ensure healthy plant growth.",
+      "instruction": "ENSURE",
+      "slots": [
+        {
+          "key": "reagent1/data1/device",
+          "value": "de-hulled rice seeds (Oryza sativa L. cv. Dongjin)",
+          "id": "24a53a1f-5638-42a4-99ca-3b8d95509ba8",
+          "node_id": "530d47c7-42dc-46db-a653-5da91f6c0c38"
+        },
+        {
+          "key": "state",
+          "value": "healthy plant growth",
+          "id": "d475ac3f-d0af-4640-86e0-aaecaa9df1d8",
+          "node_id": "530d47c7-42dc-46db-a653-5da91f6c0c38"
+        }
+      ],
+      "emits": []
+    },
+    {
+      "id": "e4532809-d3d7-4946-9641-ff4b8e7a07e1",
+      "text": "Wash 60 mg of tungsten particles with 1 ml of 95% \\(v/v) ethanol by vortexing for 5 min and incubating at room temperature for 15 min. Collect the particles with a quick spin for 10 sec at 14,000\u00d7g and remove supernatant by pipetting. Wash the particulate pellet three times with 1 ml of nuclease-free water by vortexing followed by a quick spin. Add 1 ml of nuclease-free water and aliquot 100 \u03bcl volumes into microfuge tubes.",
+      "instruction": "WASH",
+      "slots": [
+        {
+          "key": "reagent1",
+          "value": "60 mg of tungsten particles",
+          "id": "ac626bbf-d7c9-4a08-b19f-7c0cc03ed624",
+          "node_id": "e4532809-d3d7-4946-9641-ff4b8e7a07e1"
+        },
+        {
+          "key": "reagent2",
+          "value": "95% (v/v) ethanol",
+          "id": "8fc8478d-f6ad-4d47-ac3b-bf19086e6594",
+          "node_id": "e4532809-d3d7-4946-9641-ff4b8e7a07e1"
+        },
+        {
+          "key": "time",
+          "value": "5 min",
+          "id": "6dd26d16-7f2b-4f1c-9cb1-871e8613b1f6",
+          "node_id": "e4532809-d3d7-4946-9641-ff4b8e7a07e1"
+        }
+      ],
+      "emits": [
+        {
+          "key": "reagent0",
+          "value": "tungsten particles",
+          "id": "dfe4f567-3970-42dd-ae9f-226e1d546972",
+          "node_id": "e4532809-d3d7-4946-9641-ff4b8e7a07e1"
+        }
+      ]
+    },
+    {
+      "id": "99aaf1a9-3f15-4d6e-b75e-ef1e0dc6cd1b",
+      "text": "Wash 60 mg of tungsten particles with 1 ml of 95% \\(v/v) ethanol by vortexing for 5 min and incubating at room temperature for 15 min. Collect the particles with a quick spin for 10 sec at 14,000\u00d7g and remove supernatant by pipetting. Wash the particulate pellet three times with 1 ml of nuclease-free water by vortexing followed by a quick spin. Add 1 ml of nuclease-free water and aliquot 100 \u03bcl volumes into microfuge tubes.",
+      "instruction": "COLLECT",
+      "slots": [
+        {
+          "key": "reagent1",
+          "value": "tungsten particles",
+          "id": "390b209c-f945-4efe-9399-3d566d37a571",
+          "node_id": "99aaf1a9-3f15-4d6e-b75e-ef1e0dc6cd1b"
+        },
+        {
+          "key": "container",
+          "value": "<blank>",
+          "id": "03277272-064b-4205-9549-63aec3a90dc1",
+          "node_id": "99aaf1a9-3f15-4d6e-b75e-ef1e0dc6cd1b"
+        },
+        {
+          "key": "method",
+          "value": "quick spin",
+          "id": "4c554752-5020-4242-8d96-72c1841b3a0c",
+          "node_id": "99aaf1a9-3f15-4d6e-b75e-ef1e0dc6cd1b"
+        },
+        {
+          "key": "environment",
+          "value": "14,000\u00d7g",
+          "id": "35d63864-959c-45bf-a231-75579c9f9818",
+          "node_id": "99aaf1a9-3f15-4d6e-b75e-ef1e0dc6cd1b"
+        },
+        {
+          "key": "purpose",
+          "value": "<blank>",
+          "id": "bc3350b3-1967-4be0-b983-0b7ce7ff327e",
+          "node_id": "99aaf1a9-3f15-4d6e-b75e-ef1e0dc6cd1b"
+        },
+        {
+          "key": "notice",
+          "value": "<blank>",
+          "id": "d5324f14-c57b-444d-9e73-2edd9b4e0c3e",
+          "node_id": "99aaf1a9-3f15-4d6e-b75e-ef1e0dc6cd1b"
+        }
+      ],
+      "emits": [
+        {
+          "key": "reagent0",
+          "value": "tungsten particles",
+          "id": "d68590cb-784a-4e60-97bf-7318a8a412fb",
+          "node_id": "99aaf1a9-3f15-4d6e-b75e-ef1e0dc6cd1b"
+        }
+      ]
+    },
+    {
+      "id": "5f120365-ee57-4fe5-8f51-c7cfe745af8c",
+      "text": "Wash 60 mg of tungsten particles with 1 ml of 95% \\(v/v) ethanol by vortexing for 5 min and incubating at room temperature for 15 min. Collect the particles with a quick spin for 10 sec at 14,000\u00d7g and remove supernatant by pipetting. Wash the particulate pellet three times with 1 ml of nuclease-free water by vortexing followed by a quick spin. Add 1 ml of nuclease-free water and aliquot 100 \u03bcl volumes into microfuge tubes.",
+      "instruction": "WASH",
+      "slots": [
+        {
+          "key": "reagent1",
+          "value": "particulate pellet",
+          "id": "b54c58a2-f5a8-42f4-a0d7-094de3aedbd2",
+          "node_id": "5f120365-ee57-4fe5-8f51-c7cfe745af8c"
+        },
+        {
+          "key": "reagent2",
+          "value": "nuclease-free water",
+          "id": "a6b76943-6c9a-4fc9-a63d-b0b054c9bab4",
+          "node_id": "5f120365-ee57-4fe5-8f51-c7cfe745af8c"
+        },
+        {
+          "key": "repeat",
+          "value": "3",
+          "id": "8d184ac1-f369-4576-9420-6c34fcdc8ae6",
+          "node_id": "5f120365-ee57-4fe5-8f51-c7cfe745af8c"
+        },
+        {
+          "key": "time",
+          "value": "<blank>",
+          "id": "d37e3425-9f35-4e50-8d3c-725e8440affe",
+          "node_id": "5f120365-ee57-4fe5-8f51-c7cfe745af8c"
+        },
+        {
+          "key": "notice",
+          "value": "<blank>",
+          "id": "c1641a90-c9dc-4483-8b51-a1d40199b8b1",
+          "node_id": "5f120365-ee57-4fe5-8f51-c7cfe745af8c"
+        }
+      ],
+      "emits": [
+        {
+          "key": "reagent0",
+          "value": "particulate pellet",
+          "id": "614924fe-5a7b-407b-a936-2f69dcbd97db",
+          "node_id": "5f120365-ee57-4fe5-8f51-c7cfe745af8c"
+        }
+      ]
+    },
+    {
+      "id": "3315fdeb-5e32-49d3-b726-ae1d49e8b052",
+      "text": "Wash 60 mg of tungsten particles with 1 ml of 95% \\(v/v) ethanol by vortexing for 5 min and incubating at room temperature for 15 min. Collect the particles with a quick spin for 10 sec at 14,000\u00d7g and remove supernatant by pipetting. Wash the particulate pellet three times with 1 ml of nuclease-free water by vortexing followed by a quick spin. Add 1 ml of nuclease-free water and aliquot 100 \u03bcl volumes into microfuge tubes.",
+      "instruction": "ADD",
+      "slots": [
+        {
+          "key": "reagent2",
+          "value": "nuclease-free water",
+          "id": "e75b67c1-f188-47bf-bde4-3cddb66bddd6",
+          "node_id": "3315fdeb-5e32-49d3-b726-ae1d49e8b052"
+        }
+      ],
+      "emits": [
+        {
+          "key": "reagent0",
+          "value": "nuclease-free water",
+          "id": "3edbd7a3-acb9-4c80-bedf-adc72a80c8a8",
+          "node_id": "3315fdeb-5e32-49d3-b726-ae1d49e8b052"
+        }
+      ]
+    },
+    {
+      "id": "d091128b-ab86-4659-8b03-0302cc24cc90",
+      "text": "Wash 60 mg of tungsten particles with 1 ml of 95% \\(v/v) ethanol by vortexing for 5 min and incubating at room temperature for 15 min. Collect the particles with a quick spin for 10 sec at 14,000\u00d7g and remove supernatant by pipetting. Wash the particulate pellet three times with 1 ml of nuclease-free water by vortexing followed by a quick spin. Add 1 ml of nuclease-free water and aliquot 100 \u03bcl volumes into microfuge tubes.",
+      "instruction": "ALIQUOT",
+      "slots": [
+        {
+          "key": "reagent1",
+          "value": "tungsten particles",
+          "id": "bd1c79d2-c81b-4497-a058-cc3d0c40a304",
+          "node_id": "d091128b-ab86-4659-8b03-0302cc24cc90"
+        },
+        {
+          "key": "volume",
+          "value": "100 \u03bcl",
+          "id": "43a389bf-720f-4872-96c0-7e25b5ca936f",
+          "node_id": "d091128b-ab86-4659-8b03-0302cc24cc90"
+        },
+        {
+          "key": "container",
+          "value": "microfuge tubes",
+          "id": "e24a76ce-5a86-4e33-805a-1e42abf1012e",
+          "node_id": "d091128b-ab86-4659-8b03-0302cc24cc90"
+        }
+      ],
+      "emits": []
+    },
+    {
+      "id": "22d83a55-a7bc-43a4-9a4e-8b1993314f55",
+      "text": "Prepared particles can be stored at -20\u00b0C for up to 6 months.",
+      "instruction": "STORE",
+      "slots": [
+        {
+          "key": "reagent1",
+          "value": "Prepared particles",
+          "id": "9b7bdaaf-2dfc-4427-a241-082781f7cfc1",
+          "node_id": "22d83a55-a7bc-43a4-9a4e-8b1993314f55"
+        },
+        {
+          "key": "temperature",
+          "value": "-20\u00b0C",
+          "id": "85e72901-f9b9-4cd0-88b9-4c850cb04207",
+          "node_id": "22d83a55-a7bc-43a4-9a4e-8b1993314f55"
+        },
+        {
+          "key": "time",
+          "value": "6 months",
+          "id": "ac058c3c-9031-4b27-b23b-d9ab2a8e6911",
+          "node_id": "22d83a55-a7bc-43a4-9a4e-8b1993314f55"
+        }
+      ],
+      "emits": [
+        {
+          "key": "reagent0",
+          "value": "Prepared particles",
+          "id": "c30e416e-91ba-4a7c-9b43-deb4d3ff63dc",
+          "node_id": "22d83a55-a7bc-43a4-9a4e-8b1993314f55"
+        }
+      ]
+    },
+    {
+      "id": "66c44633-7e0c-4ca0-84b8-7279846648a8",
+      "text": "Immerse macrocarrier holder, rupture disks, macrocarrier disk, and stopping screens in 100% ethanol for 2 h to prevent contamination. Air-dry on a clean bench for 30 min and place the macrocarrier disk into the macrocarrier holder using tweezers.",
+      "instruction": "IMMERSE",
+      "slots": [
+        {
+          "key": "reagent1",
+          "value": "macrocarrier holder, rupture disks, macrocarrier disk, and stopping screens",
+          "id": "a6c600c7-2ece-4452-b39a-0c03943c4876",
+          "node_id": "66c44633-7e0c-4ca0-84b8-7279846648a8"
+        },
+        {
+          "key": "temperature",
+          "value": "room temperature",
+          "id": "8ece70e1-6a3c-478c-b33c-302c727c1418",
+          "node_id": "66c44633-7e0c-4ca0-84b8-7279846648a8"
+        },
+        {
+          "key": "time",
+          "value": "2 h",
+          "id": "e02d0b29-d7c6-4c01-888d-3b93672eb229",
+          "node_id": "66c44633-7e0c-4ca0-84b8-7279846648a8"
+        }
+      ],
+      "emits": [
+        {
+          "key": "reagent0",
+          "value": "macrocarrier disk",
+          "id": "ffa3fb95-cfce-4038-9e29-aeebe92cdf9b",
+          "node_id": "66c44633-7e0c-4ca0-84b8-7279846648a8"
+        }
+      ]
+    },
+    {
+      "id": "f0716d5d-d4c4-4fb2-9381-84249505dee3",
+      "text": "Immerse macrocarrier holder, rupture disks, macrocarrier disk, and stopping screens in 100% ethanol for 2 h to prevent contamination. Air-dry on a clean bench for 30 min and place the macrocarrier disk into the macrocarrier holder using tweezers.",
+      "instruction": "PLACE",
+      "slots": [
+        {
+          "key": "reagent1",
+          "value": "macrocarrier disk",
+          "id": "63295faa-29d7-4ea4-8de5-8525c6ef1bd0",
+          "node_id": "f0716d5d-d4c4-4fb2-9381-84249505dee3"
+        },
+        {
+          "key": "destination",
+          "value": "macrocarrier holder",
+          "id": "591a2867-6a2c-4b75-a373-a1520f3bbaac",
+          "node_id": "f0716d5d-d4c4-4fb2-9381-84249505dee3"
+        }
+      ],
+      "emits": [
+        {
+          "key": "reagent0",
+          "value": "macrocarrier disk",
+          "id": "e0a088c4-7b85-45df-8fe9-7f799fee82be",
+          "node_id": "f0716d5d-d4c4-4fb2-9381-84249505dee3"
+        }
+      ]
+    },
+    {
+      "id": "8a268566-0ce5-4dd9-89e7-f5f16fcef06b",
+      "text": "Cut the leaf sheaths and stems from 4-6-leaf stage rice plants \\(Fig. 1a). Cut the leaf sheath near the flag leaf auricle to a length of 2-3 cm, using a razor blade on a slide \\(Fig. 1b). Softly catch the side of the sheath and slice the sheath in parallel with the sheath section blade \\(Fig. 1c). The distance between the two blades should be 0.3-0.5 mm \\(Fig. 1d). Select leaf sheaths with smooth surfaces and trim \\(Fig. 1e). Hold the sheath by its edges with tweezers and slowly place it on to a half-strength MS plate.",
+      "instruction": "CUT",
+      "slots": [
+        {
+          "key": "reagent",
+          "value": "leaf sheaths and stems from 4-6-leaf stage rice plants",
+          "id": "f420e036-07c2-47c7-bcc7-94a12bd78555",
+          "node_id": "8a268566-0ce5-4dd9-89e7-f5f16fcef06b"
+        },
+        {
+          "key": "device",
+          "value": "razor blade on a slide",
+          "id": "d1ebbf5a-352e-4427-b9bb-4519cf6d8139",
+          "node_id": "8a268566-0ce5-4dd9-89e7-f5f16fcef06b"
+        },
+        {
+          "key": "size",
+          "value": "2-3 cm",
+          "id": "a1207a4f-096d-47b7-bab5-6ff3fff1e37c",
+          "node_id": "8a268566-0ce5-4dd9-89e7-f5f16fcef06b"
+        },
+        {
+          "key": "direction",
+          "value": "parallel with the sheath section blade",
+          "id": "1741ce53-405b-413f-a527-c6cc05de9df7",
+          "node_id": "8a268566-0ce5-4dd9-89e7-f5f16fcef06b"
+        }
+      ],
+      "emits": [
+        {
+          "key": "reagent0",
+          "value": "leaf sheaths and stems from 4-6-leaf stage rice plants",
+          "id": "63cecf2b-3719-4ebd-8b59-a162d58e1a24",
+          "node_id": "8a268566-0ce5-4dd9-89e7-f5f16fcef06b"
+        }
+      ]
+    },
+    {
+      "id": "260aee1c-4ccf-44eb-bc29-03e315e7ee26",
+      "text": "Cut the leaf sheaths and stems from 4-6-leaf stage rice plants \\(Fig. 1a). Cut the leaf sheath near the flag leaf auricle to a length of 2-3 cm, using a razor blade on a slide \\(Fig. 1b). Softly catch the side of the sheath and slice the sheath in parallel with the sheath section blade \\(Fig. 1c). The distance between the two blades should be 0.3-0.5 mm \\(Fig. 1d). Select leaf sheaths with smooth surfaces and trim \\(Fig. 1e). Hold the sheath by its edges with tweezers and slowly place it on to a half-strength MS plate.",
+      "instruction": "CUT",
+      "slots": [
+        {
+          "key": "reagent",
+          "value": "leaf sheath near the flag leaf auricle",
+          "id": "23e82e0d-02fa-4931-95b4-155949394bb1",
+          "node_id": "260aee1c-4ccf-44eb-bc29-03e315e7ee26"
+        },
+        {
+          "key": "device",
+          "value": "razor blade on a slide",
+          "id": "ed2e88e2-dc88-4fc3-9463-718eff49dc88",
+          "node_id": "260aee1c-4ccf-44eb-bc29-03e315e7ee26"
+        },
+        {
+          "key": "size",
+          "value": "2-3 cm",
+          "id": "95e55707-03a6-41b5-8b2d-75214658caba",
+          "node_id": "260aee1c-4ccf-44eb-bc29-03e315e7ee26"
+        }
+      ],
+      "emits": [
+        {
+          "key": "reagent0",
+          "value": "leaf sheath near the flag leaf auricle",
+          "id": "9687f119-eb7f-4ff1-bcb9-e4aee0789b25",
+          "node_id": "260aee1c-4ccf-44eb-bc29-03e315e7ee26"
+        }
+      ]
+    },
+    {
+      "id": "b496bd22-3d4e-450b-bd71-d0d776d08120",
+      "text": "Cut the leaf sheaths and stems from 4-6-leaf stage rice plants \\(Fig. 1a). Cut the leaf sheath near the flag leaf auricle to a length of 2-3 cm, using a razor blade on a slide \\(Fig. 1b). Softly catch the side of the sheath and slice the sheath in parallel with the sheath section blade \\(Fig. 1c). The distance between the two blades should be 0.3-0.5 mm \\(Fig. 1d). Select leaf sheaths with smooth surfaces and trim \\(Fig. 1e). Hold the sheath by its edges with tweezers and slowly place it on to a half-strength MS plate.",
+      "instruction": "SELECT",
+      "slots": [
+        {
+          "key": "reagent1/data1",
+          "value": "leaf sheaths with smooth surfaces",
+          "id": "f8c693a0-c75b-4df6-b713-c37c44bbcf44",
+          "node_id": "b496bd22-3d4e-450b-bd71-d0d776d08120"
+        }
+      ],
+      "emits": [
+        {
+          "key": "reagent0",
+          "value": "leaf sheaths with smooth surfaces",
+          "id": "af51b8e5-27fc-4f84-bf82-053cea0f6176",
+          "node_id": "b496bd22-3d4e-450b-bd71-d0d776d08120"
+        }
+      ]
+    },
+    {
+      "id": "6b2c8e60-282b-471a-a226-e428273a5f8d",
+      "text": "Cut the leaf sheaths and stems from 4-6-leaf stage rice plants \\(Fig. 1a). Cut the leaf sheath near the flag leaf auricle to a length of 2-3 cm, using a razor blade on a slide \\(Fig. 1b). Softly catch the side of the sheath and slice the sheath in parallel with the sheath section blade \\(Fig. 1c). The distance between the two blades should be 0.3-0.5 mm \\(Fig. 1d). Select leaf sheaths with smooth surfaces and trim \\(Fig. 1e). Hold the sheath by its edges with tweezers and slowly place it on to a half-strength MS plate.",
+      "instruction": "PLACE",
+      "slots": [
+        {
+          "key": "reagent1",
+          "value": "sheath",
+          "id": "e299fb4b-d361-43cb-9414-0718c64897fb",
+          "node_id": "6b2c8e60-282b-471a-a226-e428273a5f8d"
+        },
+        {
+          "key": "destination",
+          "value": "half-strength MS plate",
+          "id": "c2035f05-8e9b-4c35-8ab3-c10fd3ab4b15",
+          "node_id": "6b2c8e60-282b-471a-a226-e428273a5f8d"
+        }
+      ],
+      "emits": [
+        {
+          "key": "reagent0",
+          "value": "sheath",
+          "id": "b97bc53e-daab-45e2-98cf-318b2a530f9d",
+          "node_id": "6b2c8e60-282b-471a-a226-e428273a5f8d"
+        }
+      ]
+    },
+    {
+      "id": "5ce85f07-29d7-41b1-bb6e-73bee822cd1e",
+      "text": "Gently place 6-8 sliced sheaths onto the medium of a half-strength MS plate and incubate at 28\u00b0C for 1-2 h in the dark.",
+      "instruction": "PLACE",
+      "slots": [
+        {
+          "key": "reagent1",
+          "value": "sliced sheaths",
+          "id": "db6db495-ff8f-4296-ab4d-13f41ead0d81",
+          "node_id": "5ce85f07-29d7-41b1-bb6e-73bee822cd1e"
+        },
+        {
+          "key": "destination",
+          "value": "medium of a half-strength MS plate",
+          "id": "4c1b2ea5-6936-4913-93b4-f963d3a38779",
+          "node_id": "5ce85f07-29d7-41b1-bb6e-73bee822cd1e"
+        },
+        {
+          "key": "temperature",
+          "value": "28\u00b0C",
+          "id": "25204a08-b7ae-4c2c-8723-789e8f142ae3",
+          "node_id": "5ce85f07-29d7-41b1-bb6e-73bee822cd1e"
+        }
+      ],
+      "emits": [
+        {
+          "key": "reagent0",
+          "value": "sliced sheaths",
+          "id": "dc950635-6eda-4c40-9927-520f0684b3f7",
+          "node_id": "5ce85f07-29d7-41b1-bb6e-73bee822cd1e"
+        }
+      ]
+    },
+    {
+      "id": "99a62193-4e16-4a87-b21c-976c63365e62",
+      "text": "Gently place 6-8 sliced sheaths onto the medium of a half-strength MS plate and incubate at 28\u00b0C for 1-2 h in the dark.",
+      "instruction": "INCUBATE",
+      "slots": [
+        {
+          "key": "reagent1",
+          "value": "sliced sheaths",
+          "id": "0d0bbe8e-36ce-4359-8510-184700a682d2",
+          "node_id": "99a62193-4e16-4a87-b21c-976c63365e62"
+        },
+        {
+          "key": "temperature",
+          "value": "28\u00b0C",
+          "id": "164295c3-22c1-4d0a-b0a9-8dfe19a205e3",
+          "node_id": "99a62193-4e16-4a87-b21c-976c63365e62"
+        },
+        {
+          "key": "time",
+          "value": "1-2 h",
+          "id": "fa1f4ac8-7ff1-4e46-b747-a1ac6581d39e",
+          "node_id": "99a62193-4e16-4a87-b21c-976c63365e62"
+        },
+        {
+          "key": "environment",
+          "value": "dark",
+          "id": "db56940b-7ee1-4d36-947c-1c2ed79dd6d9",
+          "node_id": "99a62193-4e16-4a87-b21c-976c63365e62"
+        }
+      ],
+      "emits": [
+        {
+          "key": "reagent0",
+          "value": "sliced sheaths",
+          "id": "0bab6ae9-f1e8-4554-8776-bf025aac8af5",
+          "node_id": "99a62193-4e16-4a87-b21c-976c63365e62"
+        }
+      ]
+    },
+    {
+      "id": "89cde6dd-822a-4784-843d-7ba2243527ce",
+      "text": "Vortex the microcarriers for 10 min to disrupt agglomeration. Transfer 20 \u03bcl of the suspended microcarriers into a new microfuge tube.",
+      "instruction": "VORTEX",
+      "slots": [
+        {
+          "key": "reagent1",
+          "value": "microcarriers",
+          "id": "d8be9dea-61b6-4276-868a-40f97b99e9a8",
+          "node_id": "89cde6dd-822a-4784-843d-7ba2243527ce"
+        },
+        {
+          "key": "time",
+          "value": "10 min",
+          "id": "6aeb7afc-c314-4c62-b58a-bfc35f2c113c",
+          "node_id": "89cde6dd-822a-4784-843d-7ba2243527ce"
+        }
+      ],
+      "emits": [
+        {
+          "key": "reagent0",
+          "value": "suspended microcarriers",
+          "id": "aead13d3-6897-435d-a325-06fb95f82fde",
+          "node_id": "89cde6dd-822a-4784-843d-7ba2243527ce"
+        }
+      ]
+    },
+    {
+      "id": "a11a1384-0370-4738-ab86-6efa91fb7fc3",
+      "text": "Vortex the microcarriers for 10 min to disrupt agglomeration. Transfer 20 \u03bcl of the suspended microcarriers into a new microfuge tube.",
+      "instruction": "TRANSFER",
+      "slots": [
+        {
+          "key": "destination",
+          "value": "new microfuge tube",
+          "id": "af930f4b-7551-4645-b6e1-597aa76605ac",
+          "node_id": "a11a1384-0370-4738-ab86-6efa91fb7fc3"
+        },
+        {
+          "key": "reagent1",
+          "value": "suspended microcarriers",
+          "id": "faa416d0-002c-4948-91b6-5522eb1f5bec",
+          "node_id": "a11a1384-0370-4738-ab86-6efa91fb7fc3"
+        },
+        {
+          "key": "volume",
+          "value": "20 \u03bcl",
+          "id": "c21cebfc-ee26-497d-becf-59b65a247a32",
+          "node_id": "a11a1384-0370-4738-ab86-6efa91fb7fc3"
+        }
+      ],
+      "emits": [
+        {
+          "key": "reagent0",
+          "value": "suspended microcarriers",
+          "id": "dc8f2957-f96c-4fb1-a1a5-45c9bcb47042",
+          "node_id": "a11a1384-0370-4738-ab86-6efa91fb7fc3"
+        }
+      ]
+    },
+    {
+      "id": "b9c545bc-bef3-4d38-9ee6-3c928445f5c4",
+      "text": "Add to the 20 \u03bcl of tungsten microcarriers, in this order: 2 \u03bcg of plasmid DNA \\(1 \u03bcg/\u03bcl), 20 \u03bcl of 2.5 M CaCl<sub>2</sub>, and 8 \u03bcl of 0.1 M spermidine. Vortex for 2 min.",
+      "instruction": "ADD",
+      "slots": [
+        {
+          "key": "reagent1",
+          "value": "tungsten microcarriers",
+          "id": "23fcde97-d7a6-4384-9bca-a4a90467461e",
+          "node_id": "b9c545bc-bef3-4d38-9ee6-3c928445f5c4"
+        },
+        {
+          "key": "reagent2",
+          "value": "plasmid DNA",
+          "id": "18b7bf12-2ff7-4670-87f0-77901c9115d5",
+          "node_id": "b9c545bc-bef3-4d38-9ee6-3c928445f5c4"
+        },
+        {
+          "key": "ratio",
+          "value": "2 \u03bcg (1 \u03bcg/\u03bcl)",
+          "id": "0812d930-f43d-49ac-8e50-7aab41b373a6",
+          "node_id": "b9c545bc-bef3-4d38-9ee6-3c928445f5c4"
+        }
+      ],
+      "emits": [
+        {
+          "key": "reagent0",
+          "value": "tungsten microcarriers",
+          "id": "f5130620-a013-48ed-89a0-93584f4f5bea",
+          "node_id": "b9c545bc-bef3-4d38-9ee6-3c928445f5c4"
+        }
+      ]
+    },
+    {
+      "id": "3fc37c06-79d6-4205-ae9b-b7edb24a21b7",
+      "text": "Add to the 20 \u03bcl of tungsten microcarriers, in this order: 2 \u03bcg of plasmid DNA \\(1 \u03bcg/\u03bcl), 20 \u03bcl of 2.5 M CaCl<sub>2</sub>, and 8 \u03bcl of 0.1 M spermidine. Vortex for 2 min.",
+      "instruction": "VORTEX",
+      "slots": [
+        {
+          "key": "reagent1",
+          "value": "tungsten microcarriers, 2 \u03bcg of plasmid DNA (1 \u03bcg/\u03bcl), 20 \u03bcl of 2.5 M CaCl2, and 8 \u03bcl of 0.1 M spermidine",
+          "id": "5b110ec5-bc84-4e33-8955-bb5af90ec79f",
+          "node_id": "3fc37c06-79d6-4205-ae9b-b7edb24a21b7"
+        },
+        {
+          "key": "time",
+          "value": "2 min",
+          "id": "dda58a67-706e-46d1-99d9-9344e44df577",
+          "node_id": "3fc37c06-79d6-4205-ae9b-b7edb24a21b7"
+        }
+      ],
+      "emits": [
+        {
+          "key": "reagent0",
+          "value": "suspended microcarriers",
+          "id": "d2eedbaf-0f93-407d-9927-79e405383640",
+          "node_id": "3fc37c06-79d6-4205-ae9b-b7edb24a21b7"
+        }
+      ]
+    },
+    {
+      "id": "9213bded-b9f8-4bf0-895b-432a30384e64",
+      "text": "Centrifuge the samples at 14,000\u00d7g for 10 sec and discard the supernatant.",
+      "instruction": "CENTRIFUGE",
+      "slots": [
+        {
+          "key": "reagent1",
+          "value": "samples",
+          "id": "c7d50310-e7d3-4217-8d29-a22297dd32f2",
+          "node_id": "9213bded-b9f8-4bf0-895b-432a30384e64"
+        },
+        {
+          "key": "intensity",
+          "value": "14,000\u00d7g",
+          "id": "ce16990f-0875-4144-9498-c64db287c9e9",
+          "node_id": "9213bded-b9f8-4bf0-895b-432a30384e64"
+        },
+        {
+          "key": "time",
+          "value": "10 sec",
+          "id": "5960c176-cb6d-471e-b6f3-d57891e3df0b",
+          "node_id": "9213bded-b9f8-4bf0-895b-432a30384e64"
+        }
+      ],
+      "emits": []
+    },
+    {
+      "id": "943084bf-896f-492b-bf5f-ac0f284440eb",
+      "text": "Centrifuge the samples at 14,000\u00d7g for 10 sec and discard the supernatant.",
+      "instruction": "DISCARD",
+      "slots": [
+        {
+          "key": "reagent1",
+          "value": "supernatant",
+          "id": "4427fb2c-7186-4cfb-bbd6-7ce05970af97",
+          "node_id": "943084bf-896f-492b-bf5f-ac0f284440eb"
+        },
+        {
+          "key": "method",
+          "value": "centrifugation",
+          "id": "9d6e3fba-5cbf-4e8a-b356-7215a0486b70",
+          "node_id": "943084bf-896f-492b-bf5f-ac0f284440eb"
+        },
+        {
+          "key": "device",
+          "value": "centrifuge",
+          "id": "9a5e86ee-94e1-463f-a94e-a801b3bb48fc",
+          "node_id": "943084bf-896f-492b-bf5f-ac0f284440eb"
+        }
+      ],
+      "emits": []
+    },
+    {
+      "id": "12614ff1-c937-4421-b785-eef1b9df9f6e",
+      "text": "Without suspending the pellet, gently wash the pellet with 250 \u03bcl and 100 \u03bcl of 95% ethanol in series. Suspend the pellet in 20 \u03bcl 95% ethanol, transfer to the center of the macrocarrier, and air dry.",
+      "instruction": "WASH",
+      "slots": [
+        {
+          "key": "reagent1",
+          "value": "pellet",
+          "id": "b9160c60-f6c8-48b4-bc04-07871b26ca62",
+          "node_id": "12614ff1-c937-4421-b785-eef1b9df9f6e"
+        },
+        {
+          "key": "reagent2",
+          "value": "95% ethanol",
+          "id": "0013bf82-ff04-4e72-82cd-510e954060f8",
+          "node_id": "12614ff1-c937-4421-b785-eef1b9df9f6e"
+        },
+        {
+          "key": "repeat",
+          "value": "2",
+          "id": "8a4e2d9b-85c2-406f-9821-4301f4e55df3",
+          "node_id": "12614ff1-c937-4421-b785-eef1b9df9f6e"
+        },
+        {
+          "key": "notice",
+          "value": "Without suspending the pellet",
+          "id": "af3a5e90-4818-43c4-99d4-6d636ff41a21",
+          "node_id": "12614ff1-c937-4421-b785-eef1b9df9f6e"
+        }
+      ],
+      "emits": [
+        {
+          "key": "reagent0",
+          "value": "pellet",
+          "id": "025156df-453a-4559-9d73-f6a375cd8225",
+          "node_id": "12614ff1-c937-4421-b785-eef1b9df9f6e"
+        }
+      ]
+    },
+    {
+      "id": "adeb853e-87d9-43b4-bf9e-d91c652385c2",
+      "text": "Without suspending the pellet, gently wash the pellet with 250 \u03bcl and 100 \u03bcl of 95% ethanol in series. Suspend the pellet in 20 \u03bcl 95% ethanol, transfer to the center of the macrocarrier, and air dry.",
+      "instruction": "SUSPEND",
+      "slots": [
+        {
+          "key": "reagent1",
+          "value": "pellet",
+          "id": "d028a99f-e63a-4aef-a6e3-47472c44c82c",
+          "node_id": "adeb853e-87d9-43b4-bf9e-d91c652385c2"
+        },
+        {
+          "key": "reagent2",
+          "value": "95% ethanol",
+          "id": "0b997d30-ff13-4ed4-8d98-fac7af004b89",
+          "node_id": "adeb853e-87d9-43b4-bf9e-d91c652385c2"
+        },
+        {
+          "key": "notice",
+          "value": "Without suspending the pellet",
+          "id": "1c89a079-fb48-49cf-97dc-83121fa42c1d",
+          "node_id": "adeb853e-87d9-43b4-bf9e-d91c652385c2"
+        }
+      ],
+      "emits": [
+        {
+          "key": "reagent0",
+          "value": "pellet",
+          "id": "71b74dac-eb00-4c5e-8557-237abd459c71",
+          "node_id": "adeb853e-87d9-43b4-bf9e-d91c652385c2"
+        }
+      ]
+    },
+    {
+      "id": "49f28179-0e67-49e7-9687-789ee5bce759",
+      "text": "Without suspending the pellet, gently wash the pellet with 250 \u03bcl and 100 \u03bcl of 95% ethanol in series. Suspend the pellet in 20 \u03bcl 95% ethanol, transfer to the center of the macrocarrier, and air dry.",
+      "instruction": "TRANSFER",
+      "slots": [
+        {
+          "key": "source",
+          "value": "pellet",
+          "id": "0a1f7469-27ae-47cb-9470-f862f3b53c67",
+          "node_id": "49f28179-0e67-49e7-9687-789ee5bce759"
+        },
+        {
+          "key": "destination",
+          "value": "center of the macrocarrier",
+          "id": "8a074a84-4b13-45ae-89f3-b11c1b82ab7f",
+          "node_id": "49f28179-0e67-49e7-9687-789ee5bce759"
+        },
+        {
+          "key": "reagent1",
+          "value": "pellet",
+          "id": "d4b1235b-15c4-414e-9c96-29c271c5ecb0",
+          "node_id": "49f28179-0e67-49e7-9687-789ee5bce759"
+        },
+        {
+          "key": "notice",
+          "value": "Without suspending the pellet",
+          "id": "3024b54e-db5b-4620-8645-1cc0d1ca0bad",
+          "node_id": "49f28179-0e67-49e7-9687-789ee5bce759"
+        }
+      ],
+      "emits": [
+        {
+          "key": "reagent0",
+          "value": "pellet",
+          "id": "c411a11d-6649-48bc-b74b-2198874da6e9",
+          "node_id": "49f28179-0e67-49e7-9687-789ee5bce759"
+        }
+      ]
+    },
+    {
+      "id": "17fa5e18-56ef-410f-9009-e88210ccd289",
+      "text": "Without suspending the pellet, gently wash the pellet with 250 \u03bcl and 100 \u03bcl of 95% ethanol in series. Suspend the pellet in 20 \u03bcl 95% ethanol, transfer to the center of the macrocarrier, and air dry.",
+      "instruction": "DRY",
+      "slots": [
+        {
+          "key": "reagent1",
+          "value": "pellet",
+          "id": "c80b2d5f-f536-4919-b122-954d1ab56e2b",
+          "node_id": "17fa5e18-56ef-410f-9009-e88210ccd289"
+        }
+      ],
+      "emits": [
+        {
+          "key": "reagent0",
+          "value": "pellet",
+          "id": "8c1ca7ee-8a6f-40a6-b72c-e62fccf5d18f",
+          "node_id": "17fa5e18-56ef-410f-9009-e88210ccd289"
+        }
+      ]
+    },
+    {
+      "id": "66ad494e-ab3e-41fd-a20f-070260e279ef",
+      "text": "Set up the bombardment equipment as per the manufacturer\u2019s instructions and bombard the sheaths at 1,100 psi.",
+      "instruction": "SETUP",
+      "slots": [
+        {
+          "key": "container",
+          "value": "bombardment equipment",
+          "id": "9934c535-84c6-48ea-b999-cbbb1851a54c",
+          "node_id": "66ad494e-ab3e-41fd-a20f-070260e279ef"
+        }
+      ],
+      "emits": [
+        {
+          "key": "reagent0",
+          "value": "sheaths",
+          "id": "6d5d32fe-b213-40db-aa5a-d528d7ea61f1",
+          "node_id": "66ad494e-ab3e-41fd-a20f-070260e279ef"
+        }
+      ]
+    },
+    {
+      "id": "45fe172f-d5fb-48ee-a971-4ef5b42caa44",
+      "text": "Incubate the bombarded sheaths at 28\u00b0C for 1-2 days under darkness until expression of the delivered transgene is confirmed.",
+      "instruction": "INCUBATE",
+      "slots": [
+        {
+          "key": "reagent1",
+          "value": "bombarded sheaths",
+          "id": "346dce65-4a72-4568-9d85-16157078f3c3",
+          "node_id": "45fe172f-d5fb-48ee-a971-4ef5b42caa44"
+        },
+        {
+          "key": "temperature",
+          "value": "28\u00b0C",
+          "id": "c811845b-24af-4e7b-9f23-b33f33b1b610",
+          "node_id": "45fe172f-d5fb-48ee-a971-4ef5b42caa44"
+        },
+        {
+          "key": "time",
+          "value": "1-2 days",
+          "id": "723684ef-a23c-437a-a7de-c4ad0a9e2409",
+          "node_id": "45fe172f-d5fb-48ee-a971-4ef5b42caa44"
+        },
+        {
+          "key": "environment",
+          "value": "darkness",
+          "id": "35ad09c3-f7d2-4a17-9abf-986f5170a2e6",
+          "node_id": "45fe172f-d5fb-48ee-a971-4ef5b42caa44"
+        },
+        {
+          "key": "notice",
+          "value": "until expression of the delivered transgene is confirmed",
+          "id": "1e63967e-f2c5-415d-8115-c78a9caa1211",
+          "node_id": "45fe172f-d5fb-48ee-a971-4ef5b42caa44"
+        }
+      ],
+      "emits": [
+        {
+          "key": "reagent0",
+          "value": "bombarded sheaths",
+          "id": "7cc69a6f-5134-4649-bca5-8158311858b0",
+          "node_id": "45fe172f-d5fb-48ee-a971-4ef5b42caa44"
+        }
+      ]
+    },
+    {
+      "id": "51e31382-9614-42f8-9771-a9e83fb7ffff",
+      "text": "Mount a sheath in a drop of sterile, distilled water on a glass slide and cover with a cover glass. For mCherry signals, images can be generated using a laser scanning microscope with an excitation wavelength of 543 nm and the signal \\(emitted fluorescence) can be measured at 587-625 nm.",
+      "instruction": "GENERATE",
+      "slots": [
+        {
+          "key": "target",
+          "value": "mCherry signals",
+          "id": "ecb9bea5-dc90-4a57-9c2c-d3cacfaf78c0",
+          "node_id": "51e31382-9614-42f8-9771-a9e83fb7ffff"
+        },
+        {
+          "key": "method",
+          "value": "laser scanning microscope",
+          "id": "21800958-60ff-4d63-9ff0-998a046014f5",
+          "node_id": "51e31382-9614-42f8-9771-a9e83fb7ffff"
+        },
+        {
+          "key": "parameters",
+          "value": "excitation wavelength of 543 nm",
+          "id": "f74c953f-df02-4a90-a781-fe85838f8cc0",
+          "node_id": "51e31382-9614-42f8-9771-a9e83fb7ffff"
+        }
+      ],
+      "emits": [
+        {
+          "key": "data",
+          "value": "emitted fluorescence",
+          "id": "765b5a0a-b53c-4793-92d4-5f885afc57cb",
+          "node_id": "51e31382-9614-42f8-9771-a9e83fb7ffff"
+        }
+      ]
+    },
+    {
+      "id": "8d841467-c736-4bcc-89a6-42f3f98f6016",
+      "text": "Mount a sheath in a drop of sterile, distilled water on a glass slide and cover with a cover glass. For mCherry signals, images can be generated using a laser scanning microscope with an excitation wavelength of 543 nm and the signal \\(emitted fluorescence) can be measured at 587-625 nm.",
+      "instruction": "MEASURE",
+      "slots": [
+        {
+          "key": "device",
+          "value": "laser scanning microscope",
+          "id": "3cada323-4305-4214-8231-fa4c26e28db5",
+          "node_id": "8d841467-c736-4bcc-89a6-42f3f98f6016"
+        },
+        {
+          "key": "reagent1",
+          "value": "emitted fluorescence",
+          "id": "295e5e29-81aa-434f-82ef-8a7ed787b3f4",
+          "node_id": "8d841467-c736-4bcc-89a6-42f3f98f6016"
+        },
+        {
+          "key": "parameter",
+          "value": "signal",
+          "id": "688ccdbc-d382-4594-a620-7e10923dfbc8",
+          "node_id": "8d841467-c736-4bcc-89a6-42f3f98f6016"
+        },
+        {
+          "key": "wavelength",
+          "value": "587-625",
+          "id": "d404c901-a853-4657-974f-cac593cae101",
+          "node_id": "8d841467-c736-4bcc-89a6-42f3f98f6016"
+        }
+      ],
+      "emits": []
+    }
+  ],
+  "edges": []
+}

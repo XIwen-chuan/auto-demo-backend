@@ -13,7 +13,8 @@ from typing import Union
 app = FastAPI()
 
 protocols_list_dir = "./data/protocols"
-graphs_dir = "./data/protocolGraphs"
+graphs_dir = "data/protocolGraphs"
+compiled_graphs_dir = "data/protocolGraphsCompiled"
 isa_json_path = "./data/human_modified_isa/human-modified-isa.json"
 
 
@@ -60,6 +61,34 @@ async def get_graph(filename: str):
     # 构建文件名
     filename = f"{pro_type}-{num}_graphData.json"
     filepath = os.path.join(graphs_dir, filename)
+
+    # 检查文件是否存在
+    if not os.path.exists(filepath):
+        raise HTTPException(status_code=404, detail="文件不存在")
+
+    # 读取JSON文件内容
+    with open(filepath, "r", encoding="utf-8") as file:
+        try:
+            data = json.load(file)
+            return data
+        except json.JSONDecodeError:
+            raise HTTPException(status_code=400, detail="JSON解码错误")
+
+@app.get("/api/protocol/graph/compiled/")
+async def get_compiled_graph(filename: str):
+    # 使用正则表达式匹配下划线和破折号之间的内容和破折号后面的数字
+    match = re.match(r".*?_([^_-]+)-(\d+)\.json", filename)
+
+    if match:
+        # 提取下划线和破折号之间的内容和破折号后面的数字
+        pro_type = match.group(1)
+        num = int(match.group(2))
+    else:
+        raise HTTPException(status_code=404, detail="文件不存在")
+
+    # 构建文件名
+    filename = f"{pro_type}-{num}_graphData.json"
+    filepath = os.path.join(compiled_graphs_dir, filename)
 
     # 检查文件是否存在
     if not os.path.exists(filepath):

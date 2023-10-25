@@ -1,0 +1,505 @@
+[
+    {
+        "title": "**Ab immobilization and BSA blocking   TIMING 1 h**",
+        "body": [
+            {
+                "title": "1.",
+                "body": [
+                    {
+                        "sentence": "Mix anti-HFA capture Ab \\(8 \u00b5g mL<sup>-1</sup>) with 1% \\(v/v) APTES in the ratio of 1:1 \\(v/v). Incubate each of the desired wells of a 96-well MTP with 100 \u03bcL of the freshly prepared anti-HFA capture Ab solution, with a final concentration of 4 \u00b5g mL<sup>-1</sup> in 0.5% APTES, for 30 min at RT. Wash five times with 300 \u03bcL of 0.1M PBS, pH 7.4. Washing can also be performed with an automatic plate washer.",
+                        "result": [
+                            {
+                                "MIX": {
+                                    "emit": [
+                                        {
+                                            "reagent0": "anti-HFA capture Ab solution (4 \u00b5g mL-1)"
+                                        }
+                                    ],
+                                    "slot": [
+                                        {
+                                            "reagent1": "anti-HFA capture Ab (8 \u00b5g mL-1)"
+                                        },
+                                        {
+                                            "reagent2": "1% (v/v) APTES"
+                                        },
+                                        {
+                                            "ratio": "1:1 (v/v)"
+                                        },
+                                        {
+                                            "time": "30 min"
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "INCUBATE": {
+                                    "emit": [
+                                        {
+                                            "reagent0": "anti-HFA capture Ab solution (4 \u00b5g mL-1)"
+                                        }
+                                    ],
+                                    "slot": [
+                                        {
+                                            "reagent1": "anti-HFA capture Ab solution (4 \u00b5g mL-1)"
+                                        },
+                                        {
+                                            "reagent2": "0.5% APTES"
+                                        },
+                                        {
+                                            "temperature": "RT"
+                                        },
+                                        {
+                                            "time": "30 min"
+                                        },
+                                        {
+                                            "device": "96-well MTP"
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "WASH": {
+                                    "emit": [
+                                        {
+                                            "reagent0": "96-well MTP"
+                                        }
+                                    ],
+                                    "slot": [
+                                        {
+                                            "reagent1": "96-well MTP"
+                                        },
+                                        {
+                                            "reagent2": "0.1M PBS, pH 7.4"
+                                        },
+                                        {
+                                            "repeat": "5"
+                                        },
+                                        {
+                                            "notice": "Washing can also be performed with an automatic plate washer."
+                                        }
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "2.",
+                "body": [
+                    {
+                        "sentence": "Block the Ab-bound wells with 300 \u00b5L of 1% \\(w/v) BSA for 30 min at 37\u00b0C followed by extensive PBS washing \\(as mentioned in step 1).",
+                        "result": [
+                            {
+                                "BLOCK": {
+                                    "emit": [
+                                        {
+                                            "reagent0": "Ab-bound wells"
+                                        }
+                                    ],
+                                    "slot": [
+                                        {
+                                            "reagent1": "Ab-bound wells"
+                                        },
+                                        {
+                                            "reagent2": "1% (w/v) BSA"
+                                        },
+                                        {
+                                            "temperature": "37\u00b0C"
+                                        },
+                                        {
+                                            "time": "30 min"
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "WASH": {
+                                    "emit": [
+                                        {
+                                            "reagent0": "96-well MTP"
+                                        }
+                                    ],
+                                    "slot": [
+                                        {
+                                            "reagent1": "Ab-bound wells"
+                                        },
+                                        {
+                                            "reagent2": "PBS"
+                                        },
+                                        {
+                                            "repeat": "5"
+                                        }
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "**CRITICAL STEP**",
+        "body": [
+            {
+                "sentence": "Use filtered BSA to remove any microbial or other contaminants.",
+                "result": []
+            }
+        ]
+    },
+    {
+        "title": "**?TROUBLESHOOTING**",
+        "body": []
+    },
+    {
+        "title": "**HFA sandwich ELISA    TIMING 2 h 45 min**",
+        "body": [
+            {
+                "title": "3.",
+                "body": [
+                    {
+                        "sentence": "Add 100 \u00b5L of varying HFA concentrations \\(4.9 pg mL<sup>-1</sup>-20 ng mL<sup>-1</sup>) to different BSA-blocked wells. Incubate for 1 h at 37\u00b0C and wash extensively with PBS \\(as stated in step 1).",
+                        "result": [
+                            {
+                                "ADD": {
+                                    "emit": [
+                                        {
+                                            "reagent0": "BSA-blocked wells"
+                                        }
+                                    ],
+                                    "slot": [
+                                        {
+                                            "reagent1": "BSA-blocked wells"
+                                        },
+                                        {
+                                            "reagent2": "HFA concentrations"
+                                        },
+                                        {
+                                            "concentration": "4.9 pg mL<sup>-1</sup>-20 ng mL<sup>-1</sup>"
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "INCUBATE": {
+                                    "emit": [
+                                        {
+                                            "reagent0": "anti-HFA capture Ab solution (4 \u00b5g mL-1)"
+                                        }
+                                    ],
+                                    "slot": [
+                                        {
+                                            "reagent1": "anti-HFA capture Ab solution (4 \u00b5g mL-1)"
+                                        },
+                                        {
+                                            "temperature": "37\u00b0C"
+                                        },
+                                        {
+                                            "time": "1 h"
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "WASH": {
+                                    "emit": [
+                                        {
+                                            "reagent0": "BSA-blocked wells"
+                                        }
+                                    ],
+                                    "slot": [
+                                        {
+                                            "reagent1": "BSA-blocked wells"
+                                        },
+                                        {
+                                            "reagent2": "PBS"
+                                        }
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "4.",
+                "body": [
+                    {
+                        "sentence": "Add 100 \u00b5L of biotinylated anti-HFA Ab \\(200 ng mL<sup>-1</sup>) in each of the HFA-captured wells. Incubate for 1 h at 37 \u00b0C and wash extensively with PBS \\(as mentioned in step 1).",
+                        "result": [
+                            {
+                                "ADD": {
+                                    "emit": [
+                                        {
+                                            "reagent0": "HFA-captured wells"
+                                        }
+                                    ],
+                                    "slot": [
+                                        {
+                                            "reagent1": "HFA-captured wells"
+                                        },
+                                        {
+                                            "reagent2": "biotinylated anti-HFA Ab"
+                                        },
+                                        {
+                                            "concentration": "200 ng mL<sup>-1</sup>"
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "INCUBATE": {
+                                    "emit": [
+                                        {
+                                            "reagent0": "anti-HFA Ab solution (200 ng mL-1)"
+                                        }
+                                    ],
+                                    "slot": [
+                                        {
+                                            "reagent1": "anti-HFA Ab solution (200 ng mL-1)"
+                                        },
+                                        {
+                                            "temperature": "37 \u00b0C"
+                                        },
+                                        {
+                                            "time": "1 h"
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "WASH": {
+                                    "emit": [
+                                        {
+                                            "reagent0": "HFA-captured wells"
+                                        }
+                                    ],
+                                    "slot": [
+                                        {
+                                            "reagent1": "HFA-captured wells"
+                                        },
+                                        {
+                                            "reagent2": "PBS"
+                                        }
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "5.",
+                "body": [
+                    {
+                        "sentence": "Add 100 \u00b5L of streptavidin-HRP conjugate \\(diluted 1:200) to the biotinylated anti-HFA Ab treated wells. Incubate for 20 min at 37\u00b0C and wash extensively with PBS \\(as mentioned in step 1).",
+                        "result": [
+                            {
+                                "ADD": {
+                                    "emit": [
+                                        {
+                                            "reagent0": "biotinylated anti-HFA Ab treated wells"
+                                        }
+                                    ],
+                                    "slot": [
+                                        {
+                                            "reagent1": "biotinylated anti-HFA Ab treated wells"
+                                        },
+                                        {
+                                            "reagent2": "streptavidin-HRP conjugate"
+                                        },
+                                        {
+                                            "ratio": "1:200"
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "INCUBATE": {
+                                    "emit": [
+                                        {
+                                            "reagent0": "biotinylated anti-HFA Ab treated wells"
+                                        }
+                                    ],
+                                    "slot": [
+                                        {
+                                            "reagent1": "streptavidin-HRP conjugate"
+                                        },
+                                        {
+                                            "temperature": "37\u00b0C"
+                                        },
+                                        {
+                                            "time": "20 min"
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "WASH": {
+                                    "emit": [
+                                        {
+                                            "reagent0": "biotinylated anti-HFA Ab treated wells"
+                                        }
+                                    ],
+                                    "slot": [
+                                        {
+                                            "reagent1": "biotinylated anti-HFA Ab treated wells"
+                                        },
+                                        {
+                                            "reagent2": "PBS"
+                                        }
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "**?TROUBLESHOOTING**",
+        "body": [
+            {
+                "title": "6.",
+                "body": [
+                    {
+                        "sentence": "Add 100 \u00b5L of TMB-H<sub>2</sub>O<sub>2</sub> mixture to each of these wells and incubate at RT to develop color for 20 min.",
+                        "result": [
+                            {
+                                "ADD": {
+                                    "emit": [
+                                        {
+                                            "reagent0": "TMB-H<sub>2</sub>O<sub>2</sub> mixture"
+                                        }
+                                    ],
+                                    "slot": [
+                                        {
+                                            "reagent1": "TMB-H<sub>2</sub>O<sub>2</sub> mixture"
+                                        },
+                                        {
+                                            "reagent2": "100 \u00b5L"
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "INCUBATE": {
+                                    "emit": [
+                                        {
+                                            "reagent0": "TMB-H<sub>2</sub>O<sub>2</sub> mixture"
+                                        }
+                                    ],
+                                    "slot": [
+                                        {
+                                            "reagent1": "TMB-H<sub>2</sub>O<sub>2</sub> mixture"
+                                        },
+                                        {
+                                            "temperature": "RT"
+                                        },
+                                        {
+                                            "time": "20 min"
+                                        }
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "**?TROUBLESHOOTING**",
+        "body": [
+            {
+                "title": "7.",
+                "body": [
+                    {
+                        "sentence": "Stop the enzyme-substrate reaction by adding 50 \u00b5L of 1 N H<sub>2</sub>SO<sub>4</sub> to each well.",
+                        "result": []
+                    }
+                ]
+            },
+            {
+                "title": "8.",
+                "body": [
+                    {
+                        "sentence": "Determine the absorbance at a primary wavelength of 450 nm taking 540 nm as the reference wavelength in the Tecan Infinite M200 Pro microplate reader.",
+                        "result": [
+                            {
+                                "DETERMINE": {
+                                    "emit": [
+                                        {
+                                            "data0": "<blank>"
+                                        }
+                                    ],
+                                    "slot": [
+                                        {
+                                            "device": "Tecan Infinite M200 Pro microplate reader"
+                                        },
+                                        {
+                                            "reagent1": "<blank>"
+                                        },
+                                        {
+                                            "parameter": "absorbance"
+                                        },
+                                        {
+                                            "time": "<blank>"
+                                        },
+                                        {
+                                            "wavelength": "450"
+                                        },
+                                        {
+                                            "notice": "taking 540 nm as the reference wavelength"
+                                        }
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "**CRITICAL STEP**",
+        "body": [
+            {
+                "sentence": "Determine the absorbance within 10 min of stopping the enzyme substrate reaction.",
+                "result": [
+                    {
+                        "DETERMINE": {
+                            "emit": [
+                                {
+                                    "data0": "<blank>"
+                                }
+                            ],
+                            "slot": [
+                                {
+                                    "device": "Tecan Infinite M200 Pro microplate reader"
+                                },
+                                {
+                                    "reagent1": "TMB-H<sub>2</sub>O<sub>2</sub> mixture"
+                                },
+                                {
+                                    "parameter": "absorbance"
+                                },
+                                {
+                                    "time": "10 min"
+                                },
+                                {
+                                    "wavelength": "450"
+                                },
+                                {
+                                    "notice": "taking 540 nm as the reference wavelength"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        ]
+    }
+]
