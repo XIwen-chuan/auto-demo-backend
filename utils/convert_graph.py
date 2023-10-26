@@ -1,14 +1,24 @@
 import json
 import os
 
+isa_json_path = "../data/human_modified_isa/human-modified-isa.json"
 
 def convert_json_files(input_folder, output_folder):
     # 获取输入文件夹中的所有JSON文件
     input_files = [f for f in os.listdir(input_folder) if f.endswith('.json')]
 
+    # 从 isa_json_path 中提取所有 keys 组成 isa_instruction_words
+    with open(isa_json_path, 'r') as file:
+        isa_data = json.load(file)
+    isa_instruction_words = []
+    for key in isa_data.keys():
+        isa_instruction_words.append(key)
+
+    print("isa_instruction_words", isa_instruction_words)
+
     for input_file in input_files:
         input_path = os.path.join(input_folder, input_file)
-        output_file = input_file.split('.')[0] + '.json'
+        output_file = input_file.split('.')[0] + '_graphData.json'
         output_path = os.path.join(output_folder, output_file)
 
         with open(input_path, 'r') as infile:
@@ -24,12 +34,20 @@ def convert_json_files(input_folder, output_folder):
         # 处理节点
         for cell in data['cells']:
             if cell['shape'] == 'custom-react-shape':
-                print(cell['data'])
                 try:
+                    # 将 cell['data']['protoText'] 的首单词与 isa_instruction_words 中的单词逐个进行匹配，匹配成功则将 node_instruction 设置为该单词，否则设置为 ADD
+                    node_instruction = "ADD"  # 默认值
+                    first_word = cell['data']['protoText'].split()[0].lower()
+                    for word in isa_instruction_words:
+                        if first_word == word.lower():
+                            node_instruction = word.upper()
+                            break
+
+                    print(cell['data'])
                     node = {
                         "id": cell['id'],
                         "text": cell['data']['protoText'],
-                        "instruction": "ADD",
+                        "instruction": node_instruction,
                         "slots": [{
                             "key": "it's a slot key",
                             "value": "it's a slot value",

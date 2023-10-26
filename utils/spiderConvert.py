@@ -2,8 +2,8 @@ import os
 import json
 
 # 指定数据目录
-data_dir = './data'
-output_dir = './graphData'
+data_dir = '../data/protocolsFromH5'
+output_dir = '../data/oldProtocolGraphs'
 
 # 确保输出目录存在
 os.makedirs(output_dir, exist_ok=True)
@@ -25,7 +25,7 @@ for filename in os.listdir(data_dir):
                 graph_data = json.loads(graph_data_str)
 
                 # 构建输出文件名
-                output_filename = f"{os.path.splitext(filename)[0]}_graphData.json"
+                output_filename = f"{os.path.splitext(filename)[0]}.json"
 
                 # 保存新的JSON对象到输出文件
                 with open(os.path.join(output_dir, output_filename), 'w') as output_file:
