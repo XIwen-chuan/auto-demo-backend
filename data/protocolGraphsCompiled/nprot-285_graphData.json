@@ -2,898 +2,898 @@
   "name": "nprot-285_graphData.json",
   "nodes": [
     {
-      "id": "63f1f472-d463-4c4f-89a1-757cb8675985",
+      "id": "ecfa7659-162f-4923-9e46-0023eec0acea",
       "text": "Isolate mesenteric lymph nodes and spleen from sacrificed wild-type mice.",
       "instruction": "ISOLATE",
       "slots": [
         {
           "key": "component",
           "value": "mesenteric lymph nodes and spleen",
-          "id": "f33e7359-acec-4e84-a5ac-ecf203429638",
-          "node_id": "63f1f472-d463-4c4f-89a1-757cb8675985"
+          "id": "61db6c23-2226-47b6-b872-06257da3560c",
+          "node_id": "ecfa7659-162f-4923-9e46-0023eec0acea"
         },
         {
           "key": "reagent1",
           "value": "wild-type mice",
-          "id": "42077e27-b22a-4971-a523-9d6871efece7",
-          "node_id": "63f1f472-d463-4c4f-89a1-757cb8675985"
+          "id": "ea6247bb-da15-4eea-ad9a-986570b7843c",
+          "node_id": "ecfa7659-162f-4923-9e46-0023eec0acea"
         }
       ],
       "emits": [
         {
           "key": "reagent0",
           "value": "mesenteric lymph nodes and spleen",
-          "id": "ddc95390-0260-4b09-9453-b6383e6a1faf",
-          "node_id": "63f1f472-d463-4c4f-89a1-757cb8675985"
+          "id": "70d2d6a9-f9a7-4fef-a8cc-6d595be606f9",
+          "node_id": "ecfa7659-162f-4923-9e46-0023eec0acea"
         }
       ]
     },
     {
-      "id": "9744d3ae-eaab-4879-8677-1415f97d9c46",
+      "id": "74183534-fdb5-415c-9bfd-dba6b63e6fab",
       "text": "Squeeze these lymph nodes and spleen between two coverslips and lymphocytes are dropped into plastic 6-well containing RPMI-1640 medium.",
       "instruction": "DROP",
       "slots": [
         {
           "key": "reagent1",
           "value": "lymphocytes",
-          "id": "0e3eee36-f65b-48fe-8842-7975fd7f89f4",
-          "node_id": "9744d3ae-eaab-4879-8677-1415f97d9c46"
+          "id": "d924da1b-0853-43eb-be19-a4bf5e9e1e4a",
+          "node_id": "74183534-fdb5-415c-9bfd-dba6b63e6fab"
         },
         {
           "key": "destination",
           "value": "plastic 6-well containing RPMI-1640 medium",
-          "id": "812e0b21-6218-4cd8-9c9e-956948027bd1",
-          "node_id": "9744d3ae-eaab-4879-8677-1415f97d9c46"
+          "id": "7d642126-9224-41bf-b3ab-66901690b905",
+          "node_id": "74183534-fdb5-415c-9bfd-dba6b63e6fab"
         }
       ],
       "emits": [
         {
           "key": "reagent0",
           "value": "lymphocytes",
-          "id": "529e1f5b-0e1c-4c51-bb75-9086a87d5974",
-          "node_id": "9744d3ae-eaab-4879-8677-1415f97d9c46"
+          "id": "894fa9b3-4be7-4aa5-8af2-63e9b465788a",
+          "node_id": "74183534-fdb5-415c-9bfd-dba6b63e6fab"
         }
       ]
     },
     {
-      "id": "1072b081-0d2e-4a01-b44c-2f088fdd27a2",
+      "id": "c3bddde2-ee4d-4976-868a-0ba3e6506fb2",
       "text": "After passing through 70 &#x3BC;m mesh, centrifuge the medium to collect cells.",
       "instruction": "PASS",
       "slots": [
         {
           "key": "reagent1",
           "value": "mesenteric lymph nodes and spleen",
-          "id": "7c1a80c7-e2d3-4cfd-8276-fcea85113810",
-          "node_id": "1072b081-0d2e-4a01-b44c-2f088fdd27a2"
+          "id": "fbf7569b-6f1c-45e3-9ad6-2443170295ea",
+          "node_id": "c3bddde2-ee4d-4976-868a-0ba3e6506fb2"
         },
         {
           "key": "device",
           "value": "70 \u03bcm mesh",
-          "id": "c0ea2294-4777-4ce2-a722-0629ad63101d",
-          "node_id": "1072b081-0d2e-4a01-b44c-2f088fdd27a2"
+          "id": "946060e8-1762-4a88-93be-b3479af7063c",
+          "node_id": "c3bddde2-ee4d-4976-868a-0ba3e6506fb2"
         },
         {
           "key": "notice",
           "value": "centrifuge the medium to collect cells.",
-          "id": "ef626ff4-525b-41ac-ad6c-69b12db5e338",
-          "node_id": "1072b081-0d2e-4a01-b44c-2f088fdd27a2"
+          "id": "5e519eef-b895-466c-a172-a7d2fb0362bc",
+          "node_id": "c3bddde2-ee4d-4976-868a-0ba3e6506fb2"
         }
       ],
       "emits": [
         {
           "key": "reagent0",
           "value": "mesenteric lymph nodes and spleen",
-          "id": "5efc57d7-3931-4f7e-8029-589c28df3ea0",
-          "node_id": "1072b081-0d2e-4a01-b44c-2f088fdd27a2"
+          "id": "e56f1ac1-a22f-45f6-a44b-0d0205db51bf",
+          "node_id": "c3bddde2-ee4d-4976-868a-0ba3e6506fb2"
         }
       ]
     },
     {
-      "id": "0c62f71a-b409-4d6b-b608-ce4abe21e999",
+      "id": "7f296707-9789-4375-a57a-20373af51822",
       "text": "After passing through 70 &#x3BC;m mesh, centrifuge the medium to collect cells.",
       "instruction": "CENTRIFUGE",
       "slots": [
         {
           "key": "reagent1",
           "value": "medium",
-          "id": "82b82944-681f-4ccf-899b-5eed40b86ac1",
-          "node_id": "0c62f71a-b409-4d6b-b608-ce4abe21e999"
+          "id": "9cb69081-5b29-40a1-ba8d-24246a01e4b0",
+          "node_id": "7f296707-9789-4375-a57a-20373af51822"
         },
         {
           "key": "intensity",
           "value": "<blank>",
-          "id": "bb79fa50-1b0b-45c3-83ce-3529d3ff21b4",
-          "node_id": "0c62f71a-b409-4d6b-b608-ce4abe21e999"
+          "id": "44b5203a-8b39-46e7-9cdc-ce6d81ef284b",
+          "node_id": "7f296707-9789-4375-a57a-20373af51822"
         },
         {
           "key": "time",
           "value": "<blank>",
-          "id": "c9789302-1051-484e-aee7-e76de0fd06ad",
-          "node_id": "0c62f71a-b409-4d6b-b608-ce4abe21e999"
+          "id": "0305301a-ded9-4ce1-9d7c-cbb96b21da9e",
+          "node_id": "7f296707-9789-4375-a57a-20373af51822"
         },
         {
           "key": "temperature",
           "value": "room temperature",
-          "id": "5ba234f3-5a4f-4dd0-b6e6-34a68fcbc758",
-          "node_id": "0c62f71a-b409-4d6b-b608-ce4abe21e999"
+          "id": "82cf4a37-9a19-4261-a822-f7a8d990e31c",
+          "node_id": "7f296707-9789-4375-a57a-20373af51822"
         },
         {
           "key": "notice",
           "value": "<blank>",
-          "id": "df2c2db4-d748-488d-a323-25316f1b6f81",
-          "node_id": "0c62f71a-b409-4d6b-b608-ce4abe21e999"
+          "id": "d24749b0-baab-498f-99ed-1543e6813183",
+          "node_id": "7f296707-9789-4375-a57a-20373af51822"
         }
       ],
       "emits": [
         {
           "key": "reagent0",
           "value": "medium",
-          "id": "3be1a0e0-8077-4849-b7e1-5683b7812513",
-          "node_id": "0c62f71a-b409-4d6b-b608-ce4abe21e999"
+          "id": "08598217-5b7c-43b0-97d5-c4bd110d7df8",
+          "node_id": "7f296707-9789-4375-a57a-20373af51822"
         }
       ]
     },
     {
-      "id": "9df4216c-379b-4108-ab8b-d3bd5ec7c208",
+      "id": "cfd654d3-6e46-49e8-a10c-26d97506f18b",
       "text": "After passing through 70 &#x3BC;m mesh, centrifuge the medium to collect cells.",
       "instruction": "COLLECT",
       "slots": [
         {
           "key": "reagent1",
           "value": "medium",
-          "id": "64a77cc0-8850-4d31-b094-32e9b7759c05",
-          "node_id": "9df4216c-379b-4108-ab8b-d3bd5ec7c208"
+          "id": "6a0c1556-5b16-41a0-ae15-58b65e581763",
+          "node_id": "cfd654d3-6e46-49e8-a10c-26d97506f18b"
         },
         {
           "key": "container",
           "value": "<blank>",
-          "id": "3dff02aa-6855-4ae6-94b5-cfcd676ae096",
-          "node_id": "9df4216c-379b-4108-ab8b-d3bd5ec7c208"
+          "id": "028a9e4f-415d-43d7-8b91-c025218ef087",
+          "node_id": "cfd654d3-6e46-49e8-a10c-26d97506f18b"
         },
         {
           "key": "method",
           "value": "<blank>",
-          "id": "0fe0cb80-55a9-44e2-9b3a-7f3f40d3ff24",
-          "node_id": "9df4216c-379b-4108-ab8b-d3bd5ec7c208"
+          "id": "6a1acf41-cb83-41fe-a1da-6fc673630855",
+          "node_id": "cfd654d3-6e46-49e8-a10c-26d97506f18b"
         },
         {
           "key": "environment",
           "value": "<blank>",
-          "id": "bfc80ff8-cdb0-43b6-b9a8-435b08305841",
-          "node_id": "9df4216c-379b-4108-ab8b-d3bd5ec7c208"
+          "id": "bb913da9-78da-4d32-ba6d-fdf2dc102c1e",
+          "node_id": "cfd654d3-6e46-49e8-a10c-26d97506f18b"
         },
         {
           "key": "purpose",
           "value": "<blank>",
-          "id": "813f84c4-6388-434e-83a3-62a176f4b9ec",
-          "node_id": "9df4216c-379b-4108-ab8b-d3bd5ec7c208"
+          "id": "5ea42145-0f4f-43cd-a87c-c836f627c92e",
+          "node_id": "cfd654d3-6e46-49e8-a10c-26d97506f18b"
         },
         {
           "key": "notice",
           "value": "<blank>",
-          "id": "71e2609b-a91e-4c02-9957-40a38f9d53bd",
-          "node_id": "9df4216c-379b-4108-ab8b-d3bd5ec7c208"
+          "id": "6d36f8fa-617c-4354-881d-559c31d0c94c",
+          "node_id": "cfd654d3-6e46-49e8-a10c-26d97506f18b"
         }
       ],
       "emits": [
         {
           "key": "reagent0",
           "value": "medium",
-          "id": "ea2b45cb-280d-4187-b31a-65923dac6b77",
-          "node_id": "9df4216c-379b-4108-ab8b-d3bd5ec7c208"
+          "id": "60ab0dca-5737-41ec-b155-e610394f89cf",
+          "node_id": "cfd654d3-6e46-49e8-a10c-26d97506f18b"
         }
       ]
     },
     {
-      "id": "b47b95a6-6884-4145-9b8c-81f66b0af481",
+      "id": "406660c7-06b9-4036-bd1f-4d744b979fec",
       "text": "The cells are incubated with red blood cell lysis buffer at room temperature for 3 &#x2013; 5 min, then add 10 times volume of RPMI-1640 medium containing 10 % fetal bovine serum and incubate at 37 &#xB0;C for 30 min.",
       "instruction": "INCUBATE",
       "slots": [
         {
           "key": "reagent1",
           "value": "red blood cell lysis buffer",
-          "id": "69bbe770-e477-475b-a058-d679d9a83124",
-          "node_id": "b47b95a6-6884-4145-9b8c-81f66b0af481"
+          "id": "cf47c712-0997-43bc-be2b-14d211fd725c",
+          "node_id": "406660c7-06b9-4036-bd1f-4d744b979fec"
         },
         {
           "key": "temperature",
           "value": "room temperature",
-          "id": "a43ed7da-1945-4f23-80b2-787cd73f0b13",
-          "node_id": "b47b95a6-6884-4145-9b8c-81f66b0af481"
+          "id": "767fc710-ac31-4651-8178-b20ef63e6940",
+          "node_id": "406660c7-06b9-4036-bd1f-4d744b979fec"
         },
         {
           "key": "time",
           "value": "3 - 5 min",
-          "id": "43a1b920-a231-4ddf-9cbc-21a6dec4cd12",
-          "node_id": "b47b95a6-6884-4145-9b8c-81f66b0af481"
+          "id": "0b888959-cf6a-4ed6-b8e7-336c3a143c85",
+          "node_id": "406660c7-06b9-4036-bd1f-4d744b979fec"
         }
       ],
       "emits": []
     },
     {
-      "id": "3d4abb97-4ece-430d-88bb-302e44d3838a",
+      "id": "4817a5f4-36b1-4315-84cb-8bfa7abd8727",
       "text": "The cells are incubated with red blood cell lysis buffer at room temperature for 3 &#x2013; 5 min, then add 10 times volume of RPMI-1640 medium containing 10 % fetal bovine serum and incubate at 37 &#xB0;C for 30 min.",
       "instruction": "ADD",
       "slots": [
         {
           "key": "reagent1",
           "value": "red blood cell lysis buffer",
-          "id": "b8c5a519-779b-4073-ad4f-ef06d5eaa2ba",
-          "node_id": "3d4abb97-4ece-430d-88bb-302e44d3838a"
+          "id": "b2bef592-b798-4451-a6e7-7818d4ad33dd",
+          "node_id": "4817a5f4-36b1-4315-84cb-8bfa7abd8727"
         },
         {
           "key": "reagent2",
           "value": "RPMI-1640 medium containing 10 % fetal bovine serum",
-          "id": "6146ebda-8056-4ea4-b275-e40ed391c351",
-          "node_id": "3d4abb97-4ece-430d-88bb-302e44d3838a"
+          "id": "2e53a826-c6c4-4167-845d-44b88e39f0ea",
+          "node_id": "4817a5f4-36b1-4315-84cb-8bfa7abd8727"
         },
         {
           "key": "ratio",
           "value": "10 times volume",
-          "id": "57127efc-46ad-4632-9e74-febe3900376c",
-          "node_id": "3d4abb97-4ece-430d-88bb-302e44d3838a"
+          "id": "290aa987-957c-455f-a7c1-6550fc9f4eb3",
+          "node_id": "4817a5f4-36b1-4315-84cb-8bfa7abd8727"
         }
       ],
       "emits": [
         {
           "key": "reagent0",
           "value": "RPMI-1640 medium containing 10 % fetal bovine serum",
-          "id": "e2cf8f76-3ff2-4d78-aec5-88b931c6d435",
-          "node_id": "3d4abb97-4ece-430d-88bb-302e44d3838a"
+          "id": "c932c358-8c27-4ce6-9ed9-5237c96c894c",
+          "node_id": "4817a5f4-36b1-4315-84cb-8bfa7abd8727"
         }
       ]
     },
     {
-      "id": "80a5ee92-7bd3-41ac-a92a-b5b67afb3ceb",
+      "id": "a44c8630-f230-4661-81db-239f015c42aa",
       "text": "The cells are incubated with red blood cell lysis buffer at room temperature for 3 &#x2013; 5 min, then add 10 times volume of RPMI-1640 medium containing 10 % fetal bovine serum and incubate at 37 &#xB0;C for 30 min.",
       "instruction": "INCUBATE",
       "slots": [
         {
           "key": "reagent1",
           "value": "red blood cell lysis buffer",
-          "id": "3e403ad4-dd21-417e-b8a3-d62c614308c3",
-          "node_id": "80a5ee92-7bd3-41ac-a92a-b5b67afb3ceb"
+          "id": "2737e229-ed0a-4df9-b177-1204ebf2d4d7",
+          "node_id": "a44c8630-f230-4661-81db-239f015c42aa"
         },
         {
           "key": "reagent2",
           "value": "RPMI-1640 medium containing 10 % fetal bovine serum",
-          "id": "40a25182-0d05-4931-b896-7b2744fefc1e",
-          "node_id": "80a5ee92-7bd3-41ac-a92a-b5b67afb3ceb"
+          "id": "1bcb545a-0e65-4d57-901d-46bd5160b7c6",
+          "node_id": "a44c8630-f230-4661-81db-239f015c42aa"
         },
         {
           "key": "temperature",
           "value": "37 &#xB0;C",
-          "id": "413877b0-06ce-4e63-93b3-8a8e69af5cc2",
-          "node_id": "80a5ee92-7bd3-41ac-a92a-b5b67afb3ceb"
+          "id": "6a2a810a-85dc-41c1-8a63-f339ec37e26d",
+          "node_id": "a44c8630-f230-4661-81db-239f015c42aa"
         },
         {
           "key": "time",
           "value": "30 min",
-          "id": "e2505e16-3e80-4d72-aec9-1e7bea1be895",
-          "node_id": "80a5ee92-7bd3-41ac-a92a-b5b67afb3ceb"
+          "id": "35638955-42ac-4357-aba4-4fe8aff979a4",
+          "node_id": "a44c8630-f230-4661-81db-239f015c42aa"
         }
       ],
       "emits": []
     },
     {
-      "id": "75eeae0b-8b0c-4856-8339-274d4d48b7c6",
+      "id": "13105c50-67e3-40f6-ba32-5b95fca32ca2",
       "text": "After centrifuge at 1,000x g for 5 min, pellet lymphocytes are suspended in 5 ml of RPMI-1640 containing 1&#x3BC;M CMFDA solution, and incubated at 37 &#xB0;C for 30 min.\r\n  Alternatively orange tracker Orange CMRA is used insead of CMFDA using the ame conditions.",
       "instruction": "CENTRIFUGE",
       "slots": [
         {
           "key": "reagent1",
           "value": "medium",
-          "id": "c4636c79-4c0f-4c60-81ca-e48768de9d80",
-          "node_id": "75eeae0b-8b0c-4856-8339-274d4d48b7c6"
+          "id": "1efa2e48-9240-4fbc-86ac-94e89eca801f",
+          "node_id": "13105c50-67e3-40f6-ba32-5b95fca32ca2"
         },
         {
           "key": "intensity",
           "value": "1,000x g",
-          "id": "5f77c5ea-6c71-4ef6-afc2-4bddb29b31f0",
-          "node_id": "75eeae0b-8b0c-4856-8339-274d4d48b7c6"
+          "id": "a89d695a-674c-49db-9a8b-8fbc89c15a28",
+          "node_id": "13105c50-67e3-40f6-ba32-5b95fca32ca2"
         },
         {
           "key": "time",
           "value": "5 min",
-          "id": "b0fe1ecc-87d9-4f2e-b0af-e52e484b1c76",
-          "node_id": "75eeae0b-8b0c-4856-8339-274d4d48b7c6"
+          "id": "a1d059fe-06ad-4ae0-bacf-bb0360db8614",
+          "node_id": "13105c50-67e3-40f6-ba32-5b95fca32ca2"
         }
       ],
       "emits": [
         {
           "key": "reagent0",
           "value": "medium",
-          "id": "6d2991b0-b1d8-4aa8-b7f7-989f4e8e1b32",
-          "node_id": "75eeae0b-8b0c-4856-8339-274d4d48b7c6"
+          "id": "7905b432-2d8d-40ed-bfe2-5da9babdba1b",
+          "node_id": "13105c50-67e3-40f6-ba32-5b95fca32ca2"
         }
       ]
     },
     {
-      "id": "4ee9d81c-0cfd-41c5-80be-7dbef86791d0",
+      "id": "9f90da1f-48b7-44a6-baac-5c4e07f771d7",
       "text": "After centrifuge at 1,000x g for 5 min, pellet lymphocytes are suspended in 5 ml of RPMI-1640 containing 1&#x3BC;M CMFDA solution, and incubated at 37 &#xB0;C for 30 min.\r\n  Alternatively orange tracker Orange CMRA is used insead of CMFDA using the ame conditions.",
       "instruction": "PELLET",
       "slots": [
         {
           "key": "reagent1",
           "value": "lymphocytes",
-          "id": "fda1d6f6-eeac-457a-88b9-317861f0efa0",
-          "node_id": "4ee9d81c-0cfd-41c5-80be-7dbef86791d0"
+          "id": "c06f6516-df83-4f6d-af3e-0be779b64fcf",
+          "node_id": "9f90da1f-48b7-44a6-baac-5c4e07f771d7"
         },
         {
           "key": "intensity",
           "value": "<blank>",
-          "id": "2a47652e-4c03-4d1f-867f-c55a0c702095",
-          "node_id": "4ee9d81c-0cfd-41c5-80be-7dbef86791d0"
+          "id": "1a71a1d4-ad61-4969-b7eb-75622cfa061e",
+          "node_id": "9f90da1f-48b7-44a6-baac-5c4e07f771d7"
         },
         {
           "key": "time",
           "value": "5 min",
-          "id": "82d4e412-cf64-411c-9bdb-77fe9b7c7e6f",
-          "node_id": "4ee9d81c-0cfd-41c5-80be-7dbef86791d0"
+          "id": "0121ed60-fcbe-46c6-a493-ee08be31a30c",
+          "node_id": "9f90da1f-48b7-44a6-baac-5c4e07f771d7"
         },
         {
           "key": "temperature",
           "value": "37 &#xB0;C",
-          "id": "bba9e20c-5bfc-4e8f-a483-d37eae1642a2",
-          "node_id": "4ee9d81c-0cfd-41c5-80be-7dbef86791d0"
+          "id": "53c3db41-7762-43ef-823c-3c6f88641b8b",
+          "node_id": "9f90da1f-48b7-44a6-baac-5c4e07f771d7"
         },
         {
           "key": "device",
           "value": "centrifuge at 1,000x g",
-          "id": "d1b36f8d-2681-4ee3-b521-626d627501f0",
-          "node_id": "4ee9d81c-0cfd-41c5-80be-7dbef86791d0"
+          "id": "50881027-0525-46b6-821e-edc71531a6d5",
+          "node_id": "9f90da1f-48b7-44a6-baac-5c4e07f771d7"
         }
       ],
       "emits": [
         {
           "key": "reagent0",
           "value": "lymphocytes",
-          "id": "b1c86f2b-b3fb-4f88-be49-93c1a3a69490",
-          "node_id": "4ee9d81c-0cfd-41c5-80be-7dbef86791d0"
+          "id": "7ffe9b08-5732-4120-ac66-829a2fdb9585",
+          "node_id": "9f90da1f-48b7-44a6-baac-5c4e07f771d7"
         }
       ]
     },
     {
-      "id": "56291124-f58a-44b4-9343-1cbcbae13edc",
+      "id": "04aee594-cdfc-4b19-9ef9-6ab0ef64ce76",
       "text": "After centrifuge at 1,000x g for 5 min, pellet lymphocytes are suspended in 5 ml of RPMI-1640 containing 1&#x3BC;M CMFDA solution, and incubated at 37 &#xB0;C for 30 min.\r\n  Alternatively orange tracker Orange CMRA is used insead of CMFDA using the ame conditions.",
       "instruction": "SUSPEND",
       "slots": [
         {
           "key": "reagent1",
           "value": "lymphocytes",
-          "id": "54b85dec-7b7b-48ff-a9b8-60e2f15ebd18",
-          "node_id": "56291124-f58a-44b4-9343-1cbcbae13edc"
+          "id": "599434b4-6e50-4519-ba77-4e80c9113860",
+          "node_id": "04aee594-cdfc-4b19-9ef9-6ab0ef64ce76"
         },
         {
           "key": "reagent2",
           "value": "RPMI-1640 containing 1\u03bcM CMFDA solution",
-          "id": "3b01c0e7-5508-4323-befb-dc4afae7e053",
-          "node_id": "56291124-f58a-44b4-9343-1cbcbae13edc"
+          "id": "704aecd3-5e5a-4b54-8128-ef16ef057711",
+          "node_id": "04aee594-cdfc-4b19-9ef9-6ab0ef64ce76"
         },
         {
           "key": "temperature",
           "value": "37 \u00b0C",
-          "id": "458e59a6-8f1e-4b0b-a19c-7ed03e83fdca",
-          "node_id": "56291124-f58a-44b4-9343-1cbcbae13edc"
+          "id": "87abdf73-52e0-433d-be0a-7db3928d7da9",
+          "node_id": "04aee594-cdfc-4b19-9ef9-6ab0ef64ce76"
         }
       ],
       "emits": [
         {
           "key": "reagent0",
           "value": "lymphocytes",
-          "id": "43206970-b272-4e1b-b2ee-8e515442c9da",
-          "node_id": "56291124-f58a-44b4-9343-1cbcbae13edc"
+          "id": "7846031d-3221-43ba-b5eb-dbe9cf370c3a",
+          "node_id": "04aee594-cdfc-4b19-9ef9-6ab0ef64ce76"
         }
       ]
     },
     {
-      "id": "8abfd648-0053-4a11-971d-cad07fa00964",
+      "id": "9e53c5fb-ce61-43de-8d6b-f3db03e80363",
       "text": "After centrifuge at 1,000x g for 5 min, pellet lymphocytes are suspended in 5 ml of RPMI-1640 containing 1&#x3BC;M CMFDA solution, and incubated at 37 &#xB0;C for 30 min.\r\n  Alternatively orange tracker Orange CMRA is used insead of CMFDA using the ame conditions.",
       "instruction": "INCUBATE",
       "slots": [
         {
           "key": "reagent1",
           "value": "lymphocytes",
-          "id": "ee0ec949-fa1a-4aec-9278-70940be0e25b",
-          "node_id": "8abfd648-0053-4a11-971d-cad07fa00964"
+          "id": "b4c5f654-afd2-4cb6-a199-028bc4986e43",
+          "node_id": "9e53c5fb-ce61-43de-8d6b-f3db03e80363"
         },
         {
           "key": "reagent2",
           "value": "RPMI-1640 containing 1\u03bcM CMFDA solution",
-          "id": "e99ebbf2-9e41-4e2a-9725-424b5143f6b2",
-          "node_id": "8abfd648-0053-4a11-971d-cad07fa00964"
+          "id": "2fe64ed1-422c-400c-8b77-f0016c01799e",
+          "node_id": "9e53c5fb-ce61-43de-8d6b-f3db03e80363"
         },
         {
           "key": "temperature",
           "value": "37 \u00b0C",
-          "id": "8a8ced42-2255-4a7e-acf7-b4c36c5f884f",
-          "node_id": "8abfd648-0053-4a11-971d-cad07fa00964"
+          "id": "6ba4e783-6563-46be-9cf9-e6e0525b76c9",
+          "node_id": "9e53c5fb-ce61-43de-8d6b-f3db03e80363"
         },
         {
           "key": "time",
           "value": "30 min",
-          "id": "3fb23822-3003-447e-83e8-b1df29b47eb3",
-          "node_id": "8abfd648-0053-4a11-971d-cad07fa00964"
+          "id": "b4984812-5e01-4904-af35-6df0fbb24e03",
+          "node_id": "9e53c5fb-ce61-43de-8d6b-f3db03e80363"
         }
       ],
       "emits": [
         {
           "key": "reagent0",
           "value": "lymphocytes",
-          "id": "67d530e3-ce4b-42de-99af-99e07ed26912",
-          "node_id": "8abfd648-0053-4a11-971d-cad07fa00964"
+          "id": "d16bc32a-7a09-4563-bf83-904424391b3b",
+          "node_id": "9e53c5fb-ce61-43de-8d6b-f3db03e80363"
         }
       ]
     },
     {
-      "id": "5a98e2a0-eae3-4705-92c0-5c0fcc8546b5",
+      "id": "d13102d6-bb9d-4ae8-93c1-b9c9d3afb2e8",
       "text": "CMFDA-labeled lymphocytes are recovered by centrifugation at 1000 x g for 5 min, suspended in RPMI-1640 containing 10 % fetal bovine serum and incubated at 37 &#xB0;C for 30 min. Cell pellet is washed with RPMI-1640 twice and cell suspension is passed through 70 &#x3BC;m mesh, reconstituted in 0.9 % NaCl to obtain two hundred fifty thousand cells per 100  &#x3BC;l.",
       "instruction": "CENTRIFUGE",
       "slots": [
         {
           "key": "reagent1",
           "value": "CMFDA-labeled lymphocytes",
-          "id": "15fb239d-1937-40ac-a016-6f66dc802608",
-          "node_id": "5a98e2a0-eae3-4705-92c0-5c0fcc8546b5"
+          "id": "a3d119ee-5291-4fbf-9b4c-5f7ce026d612",
+          "node_id": "d13102d6-bb9d-4ae8-93c1-b9c9d3afb2e8"
         },
         {
           "key": "intensity",
           "value": "1000 x g",
-          "id": "f359c39a-b8e3-427b-9e40-19fefd1572bf",
-          "node_id": "5a98e2a0-eae3-4705-92c0-5c0fcc8546b5"
+          "id": "4ec16cb8-b48f-466a-a899-5b3827c8246f",
+          "node_id": "d13102d6-bb9d-4ae8-93c1-b9c9d3afb2e8"
         },
         {
           "key": "time",
           "value": "5 min",
-          "id": "2b0a0d55-fb76-49d0-ac5e-434c89e1db2b",
-          "node_id": "5a98e2a0-eae3-4705-92c0-5c0fcc8546b5"
+          "id": "7a6974fd-f48e-42ba-8307-3a599ec44ee1",
+          "node_id": "d13102d6-bb9d-4ae8-93c1-b9c9d3afb2e8"
         }
       ],
       "emits": [
         {
           "key": "reagent0",
           "value": "CMFDA-labeled lymphocytes",
-          "id": "3a9ce457-7aef-4856-a05e-8c02614cf378",
-          "node_id": "5a98e2a0-eae3-4705-92c0-5c0fcc8546b5"
+          "id": "4f9e2d8a-320a-414d-b200-49bea24dfffd",
+          "node_id": "d13102d6-bb9d-4ae8-93c1-b9c9d3afb2e8"
         }
       ]
     },
     {
-      "id": "6450a7fd-e821-4c62-aae9-142763dd7cd6",
+      "id": "57d9f189-af78-4694-b5ae-fa5da57cebac",
       "text": "CMFDA-labeled lymphocytes are recovered by centrifugation at 1000 x g for 5 min, suspended in RPMI-1640 containing 10 % fetal bovine serum and incubated at 37 &#xB0;C for 30 min. Cell pellet is washed with RPMI-1640 twice and cell suspension is passed through 70 &#x3BC;m mesh, reconstituted in 0.9 % NaCl to obtain two hundred fifty thousand cells per 100  &#x3BC;l.",
       "instruction": "SUSPEND",
       "slots": [
         {
           "key": "reagent1",
           "value": "CMFDA-labeled lymphocytes",
-          "id": "7052132a-04c9-4823-8859-36583fda1342",
-          "node_id": "6450a7fd-e821-4c62-aae9-142763dd7cd6"
+          "id": "3f35e171-3061-465a-acb3-91113f3b0064",
+          "node_id": "57d9f189-af78-4694-b5ae-fa5da57cebac"
         },
         {
           "key": "reagent2",
           "value": "RPMI-1640 containing 10 % fetal bovine serum",
-          "id": "49f08aa2-67f7-483d-b4e9-cbef671d3846",
-          "node_id": "6450a7fd-e821-4c62-aae9-142763dd7cd6"
+          "id": "ea908329-9a63-481a-a6fd-092ae8eb4726",
+          "node_id": "57d9f189-af78-4694-b5ae-fa5da57cebac"
         },
         {
           "key": "temperature",
           "value": "37 \u00b0C",
-          "id": "807ac64d-84ed-4807-bb2e-253c2852f035",
-          "node_id": "6450a7fd-e821-4c62-aae9-142763dd7cd6"
+          "id": "70e7660e-a341-4e75-b67b-8cc134044c47",
+          "node_id": "57d9f189-af78-4694-b5ae-fa5da57cebac"
         }
       ],
       "emits": [
         {
           "key": "reagent0",
           "value": "CMFDA-labeled lymphocytes",
-          "id": "3c30a305-15cc-4434-a1d0-d1a0f86c26f8",
-          "node_id": "6450a7fd-e821-4c62-aae9-142763dd7cd6"
+          "id": "021f4d6c-40e4-4bcf-a96d-720b38d428ae",
+          "node_id": "57d9f189-af78-4694-b5ae-fa5da57cebac"
         }
       ]
     },
     {
-      "id": "dc718dcb-bea4-496a-bdef-39c3b783198d",
+      "id": "3b0fa865-53be-4617-a419-c0ce99281d5c",
       "text": "CMFDA-labeled lymphocytes are recovered by centrifugation at 1000 x g for 5 min, suspended in RPMI-1640 containing 10 % fetal bovine serum and incubated at 37 &#xB0;C for 30 min. Cell pellet is washed with RPMI-1640 twice and cell suspension is passed through 70 &#x3BC;m mesh, reconstituted in 0.9 % NaCl to obtain two hundred fifty thousand cells per 100  &#x3BC;l.",
       "instruction": "INCUBATE",
       "slots": [
         {
           "key": "reagent1",
           "value": "CMFDA-labeled lymphocytes",
-          "id": "c12ca1f4-34f7-413e-b785-1d1177b05dd2",
-          "node_id": "dc718dcb-bea4-496a-bdef-39c3b783198d"
+          "id": "6b2f42a1-0b05-497f-8aa5-5988e33bf0f5",
+          "node_id": "3b0fa865-53be-4617-a419-c0ce99281d5c"
         },
         {
           "key": "reagent2",
           "value": "RPMI-1640 containing 10 % fetal bovine serum",
-          "id": "6c7b1689-174c-467d-a228-2f9854fe3215",
-          "node_id": "dc718dcb-bea4-496a-bdef-39c3b783198d"
+          "id": "a89054d1-3e71-4b7b-a045-baeeaee2c475",
+          "node_id": "3b0fa865-53be-4617-a419-c0ce99281d5c"
         },
         {
           "key": "temperature",
           "value": "37 \u00b0C",
-          "id": "c62eb5ee-1066-4b9f-a7a5-cf34e922a149",
-          "node_id": "dc718dcb-bea4-496a-bdef-39c3b783198d"
+          "id": "f07e12d9-4e37-488f-91a7-d8ecea512287",
+          "node_id": "3b0fa865-53be-4617-a419-c0ce99281d5c"
         },
         {
           "key": "time",
           "value": "30 min",
-          "id": "7e8c181a-5f9a-41b6-9a4d-d42393664d49",
-          "node_id": "dc718dcb-bea4-496a-bdef-39c3b783198d"
+          "id": "c76f7b78-43bc-41ea-98b4-fb019f01a699",
+          "node_id": "3b0fa865-53be-4617-a419-c0ce99281d5c"
         }
       ],
       "emits": [
         {
           "key": "reagent0",
           "value": "CMFDA-labeled lymphocytes",
-          "id": "587ad449-9399-473b-9875-881b497f3061",
-          "node_id": "dc718dcb-bea4-496a-bdef-39c3b783198d"
+          "id": "bb340d61-0482-4448-b1b5-e88c53c22144",
+          "node_id": "3b0fa865-53be-4617-a419-c0ce99281d5c"
         }
       ]
     },
     {
-      "id": "2e9588a0-b93c-4ca8-b78e-09fad486fed3",
+      "id": "baccd40a-0c34-493e-b4b6-2c959e9a3e41",
       "text": "CMFDA-labeled lymphocytes are recovered by centrifugation at 1000 x g for 5 min, suspended in RPMI-1640 containing 10 % fetal bovine serum and incubated at 37 &#xB0;C for 30 min. Cell pellet is washed with RPMI-1640 twice and cell suspension is passed through 70 &#x3BC;m mesh, reconstituted in 0.9 % NaCl to obtain two hundred fifty thousand cells per 100  &#x3BC;l.",
       "instruction": "WASH",
       "slots": [
         {
           "key": "reagent1",
           "value": "Cell pellet",
-          "id": "51998c56-fd28-4a10-b16b-90d55caa5802",
-          "node_id": "2e9588a0-b93c-4ca8-b78e-09fad486fed3"
+          "id": "fc297c7e-e040-4f94-9087-03d42266c446",
+          "node_id": "baccd40a-0c34-493e-b4b6-2c959e9a3e41"
         },
         {
           "key": "reagent2",
           "value": "RPMI-1640",
-          "id": "803fd3b3-f6b9-465e-99c4-48b7381cf4ba",
-          "node_id": "2e9588a0-b93c-4ca8-b78e-09fad486fed3"
+          "id": "a35cecfb-0ee5-44b1-aee4-0ae224c30cc6",
+          "node_id": "baccd40a-0c34-493e-b4b6-2c959e9a3e41"
         },
         {
           "key": "repeat",
           "value": "2",
-          "id": "2d72820c-98b4-4f03-88ab-5a91c4f1c91f",
-          "node_id": "2e9588a0-b93c-4ca8-b78e-09fad486fed3"
+          "id": "bdff8ad5-9dee-4de3-ac63-7e57e1ff948b",
+          "node_id": "baccd40a-0c34-493e-b4b6-2c959e9a3e41"
         }
       ],
       "emits": [
         {
           "key": "reagent0",
           "value": "Cell pellet",
-          "id": "8137fef5-5a81-4b77-bce7-4ca1c6a40027",
-          "node_id": "2e9588a0-b93c-4ca8-b78e-09fad486fed3"
+          "id": "5d87e187-a0f6-43c5-8bc9-40c03986565f",
+          "node_id": "baccd40a-0c34-493e-b4b6-2c959e9a3e41"
         }
       ]
     },
     {
-      "id": "0e30cd5e-655e-4d49-a9ce-b02d74ede039",
+      "id": "538e24d5-90e9-4cae-b813-8b11416fe95a",
       "text": "CMFDA-labeled lymphocytes are recovered by centrifugation at 1000 x g for 5 min, suspended in RPMI-1640 containing 10 % fetal bovine serum and incubated at 37 &#xB0;C for 30 min. Cell pellet is washed with RPMI-1640 twice and cell suspension is passed through 70 &#x3BC;m mesh, reconstituted in 0.9 % NaCl to obtain two hundred fifty thousand cells per 100  &#x3BC;l.",
       "instruction": "PASS",
       "slots": [
         {
           "key": "reagent1",
           "value": "cell suspension",
-          "id": "53a27026-b1b9-470c-a5db-b4516ac1829b",
-          "node_id": "0e30cd5e-655e-4d49-a9ce-b02d74ede039"
+          "id": "7ddff0c3-6fad-440e-ac31-4b90663b23c1",
+          "node_id": "538e24d5-90e9-4cae-b813-8b11416fe95a"
         },
         {
           "key": "device",
           "value": "70 \u03bcm mesh",
-          "id": "2fd8b3fe-d066-490c-a173-4be5c73f6300",
-          "node_id": "0e30cd5e-655e-4d49-a9ce-b02d74ede039"
+          "id": "748ea8aa-c748-497a-a2a7-1f75e2959fbe",
+          "node_id": "538e24d5-90e9-4cae-b813-8b11416fe95a"
         }
       ],
       "emits": [
         {
           "key": "reagent0",
           "value": "cell suspension",
-          "id": "5bbe5e13-8c49-49f7-bfe1-6947df6f1d21",
-          "node_id": "0e30cd5e-655e-4d49-a9ce-b02d74ede039"
+          "id": "9eba652f-bda9-4f59-a036-1fed39533e5a",
+          "node_id": "538e24d5-90e9-4cae-b813-8b11416fe95a"
         }
       ]
     },
     {
-      "id": "032ffe4d-bb83-4632-a8cd-c7aa2f629eae",
+      "id": "200212cf-e0fd-42da-ac09-3506c2119299",
       "text": "CMFDA-labeled lymphocytes are recovered by centrifugation at 1000 x g for 5 min, suspended in RPMI-1640 containing 10 % fetal bovine serum and incubated at 37 &#xB0;C for 30 min. Cell pellet is washed with RPMI-1640 twice and cell suspension is passed through 70 &#x3BC;m mesh, reconstituted in 0.9 % NaCl to obtain two hundred fifty thousand cells per 100  &#x3BC;l.",
       "instruction": "RECONSTITUTE",
       "slots": [
         {
           "key": "reagent1",
           "value": "CMFDA-labeled lymphocytes",
-          "id": "b880beec-bf0f-4178-ab03-5314b030c38c",
-          "node_id": "032ffe4d-bb83-4632-a8cd-c7aa2f629eae"
+          "id": "28eef5af-0f1f-4dcb-a73b-16c26c5f768a",
+          "node_id": "200212cf-e0fd-42da-ac09-3506c2119299"
         },
         {
           "key": "reagent2",
           "value": "RPMI-1640 containing 10 % fetal bovine serum",
-          "id": "8d186213-c7bb-41c3-9251-c7e9bcf047d1",
-          "node_id": "032ffe4d-bb83-4632-a8cd-c7aa2f629eae"
+          "id": "1c78bc3c-0016-4728-a60c-636536f89f63",
+          "node_id": "200212cf-e0fd-42da-ac09-3506c2119299"
         }
       ],
       "emits": [
         {
           "key": "reagent0",
           "value": "0.9 % NaCl",
-          "id": "584ea529-ae10-464d-b7ab-59256b986468",
-          "node_id": "032ffe4d-bb83-4632-a8cd-c7aa2f629eae"
+          "id": "11305769-112e-490d-92eb-f5108815beaf",
+          "node_id": "200212cf-e0fd-42da-ac09-3506c2119299"
         }
       ]
     },
     {
-      "id": "1beb24a7-1ac9-4e09-bb92-15ab15f442c2",
+      "id": "b014efeb-f605-4876-ab1e-de48abcff802",
       "text": "E-PHA \\(150 to 400 &#x3BC;g), LEA \\(150 to 300 &#x3BC;g) or Con A \\(150 &#x3BC;g) dissolved in 150 &#x3BC;l of PBS is intravenously injected through a tail vein.  One hour after the injection of a lectin, CMFDA-labeled lymphocytes \\(twenty five million cells) are injected.",
       "instruction": "DISSOLVE",
       "slots": [
         {
           "key": "reagent1",
           "value": "E-PHA (150 to 400 \u03bcg), LEA (150 to 300 \u03bcg) or Con A (150 \u03bcg)",
-          "id": "0d352a35-2200-4c60-971d-985e90210287",
-          "node_id": "1beb24a7-1ac9-4e09-bb92-15ab15f442c2"
+          "id": "1f93c685-db28-4f63-888c-6cb3975448fe",
+          "node_id": "b014efeb-f605-4876-ab1e-de48abcff802"
         },
         {
           "key": "reagent2",
           "value": "PBS",
-          "id": "74892916-ba5e-4695-8e06-0370ec6886d2",
-          "node_id": "1beb24a7-1ac9-4e09-bb92-15ab15f442c2"
+          "id": "a1e21ec5-bc6c-405c-8647-d65f5a85bde7",
+          "node_id": "b014efeb-f605-4876-ab1e-de48abcff802"
         },
         {
           "key": "targetConcentration",
           "value": "150 \u03bcl",
-          "id": "1e13ccd4-a199-4617-8137-2c527a4e0703",
-          "node_id": "1beb24a7-1ac9-4e09-bb92-15ab15f442c2"
+          "id": "779f8f34-3236-499b-ae11-6b2083bf7af1",
+          "node_id": "b014efeb-f605-4876-ab1e-de48abcff802"
         }
       ],
       "emits": []
     },
     {
-      "id": "acac9bf4-d175-4699-9ea3-6fa5d4f31d00",
+      "id": "14ddfe00-25a0-460a-a1eb-fe51c408c8d9",
       "text": "E-PHA \\(150 to 400 &#x3BC;g), LEA \\(150 to 300 &#x3BC;g) or Con A \\(150 &#x3BC;g) dissolved in 150 &#x3BC;l of PBS is intravenously injected through a tail vein.  One hour after the injection of a lectin, CMFDA-labeled lymphocytes \\(twenty five million cells) are injected.",
       "instruction": "INJECT",
       "slots": [
         {
           "key": "reagent1",
           "value": "E-PHA (150 to 400 \u03bcg), LEA (150 to 300 \u03bcg) or Con A (150 \u03bcg) dissolved in 150 \u03bcl of PBS",
-          "id": "fc443ebb-df01-4cc5-bedf-7b38c7306466",
-          "node_id": "acac9bf4-d175-4699-9ea3-6fa5d4f31d00"
+          "id": "0af5d5aa-ce15-4acb-91ef-9fcf0a6f0814",
+          "node_id": "14ddfe00-25a0-460a-a1eb-fe51c408c8d9"
         },
         {
           "key": "reagent2/destination",
           "value": "tail vein",
-          "id": "4eceb5e8-7b23-4922-984c-c403c6ecdb60",
-          "node_id": "acac9bf4-d175-4699-9ea3-6fa5d4f31d00"
+          "id": "ce7240cd-7fe9-4b71-a5c1-cf71d02b72dd",
+          "node_id": "14ddfe00-25a0-460a-a1eb-fe51c408c8d9"
         }
       ],
       "emits": [
         {
           "key": "reagent0",
           "value": "CMFDA-labeled lymphocytes (twenty five million cells)",
-          "id": "421e115f-2197-4b14-9295-92767a9c1ee1",
-          "node_id": "acac9bf4-d175-4699-9ea3-6fa5d4f31d00"
+          "id": "f8cab417-278c-4f5c-b584-a95556e12be5",
+          "node_id": "14ddfe00-25a0-460a-a1eb-fe51c408c8d9"
         }
       ]
     },
     {
-      "id": "42dc1075-6231-4cdb-8404-7558d62bc689",
+      "id": "d9510264-f44c-4840-9740-6a3518c5ae64",
       "text": "E-PHA \\(150 to 400 &#x3BC;g), LEA \\(150 to 300 &#x3BC;g) or Con A \\(150 &#x3BC;g) dissolved in 150 &#x3BC;l of PBS is intravenously injected through a tail vein.  One hour after the injection of a lectin, CMFDA-labeled lymphocytes \\(twenty five million cells) are injected.",
       "instruction": "INJECT",
       "slots": [
         {
           "key": "reagent1",
           "value": "CMFDA-labeled lymphocytes (twenty five million cells)",
-          "id": "10cab778-4c15-43b4-9a30-37475d0a9bcd",
-          "node_id": "42dc1075-6231-4cdb-8404-7558d62bc689"
+          "id": "1451fd6b-d5be-4762-b868-43201cf14e7e",
+          "node_id": "d9510264-f44c-4840-9740-6a3518c5ae64"
         },
         {
           "key": "reagent2/destination",
           "value": "tail vein",
-          "id": "9cc1abf4-faab-43d3-bfcf-680077d3b585",
-          "node_id": "42dc1075-6231-4cdb-8404-7558d62bc689"
+          "id": "1d7b32ea-2db5-4da2-b65c-34ec98d2ff75",
+          "node_id": "d9510264-f44c-4840-9740-6a3518c5ae64"
         }
       ],
       "emits": [
         {
           "key": "reagent0",
           "value": "CMFDA-labeled lymphocytes (twenty five million cells)",
-          "id": "7b358a94-6145-42e2-8bd8-ffa9cb8be14b",
-          "node_id": "42dc1075-6231-4cdb-8404-7558d62bc689"
+          "id": "df94f95e-ddf6-4d6f-a5cc-0c2be050e67c",
+          "node_id": "d9510264-f44c-4840-9740-6a3518c5ae64"
         }
       ]
     },
     {
-      "id": "ffb1fdc0-1d2a-4d3f-a016-864d6ccd8094",
+      "id": "f8f090fd-172f-4813-bc22-d6a823aa2d10",
       "text": "One to 24 h after lymphocyte injection, the mice are sacrificed and the peripheral \\( cervical and lateral axillary) lymph nodes, mesenteric lymph nodes, Peyer&#x2019;s patches, spleen, and thymus are collected.   Lymphocytes are squeezed out as described in 2 and 3, debris is removed by passing through 70 &#x3BC;m mesh and lymphocytes are suspended in 2 ml of PBS.",
       "instruction": "SACRIFICE",
       "slots": [
         {
           "key": "reagent1",
           "value": "mice",
-          "id": "f294426f-d6e2-4cf1-b2c1-a1da8aeb5b5f",
-          "node_id": "ffb1fdc0-1d2a-4d3f-a016-864d6ccd8094"
+          "id": "fdb53e95-412d-4cb6-aec8-80f71d196cbd",
+          "node_id": "f8f090fd-172f-4813-bc22-d6a823aa2d10"
         },
         {
           "key": "notice",
           "value": "One to 24 h after lymphocyte injection",
-          "id": "b7cf5647-2ed6-462a-ad97-1a80d50208cd",
-          "node_id": "ffb1fdc0-1d2a-4d3f-a016-864d6ccd8094"
+          "id": "a774870f-a901-40f1-a878-f5f845c24693",
+          "node_id": "f8f090fd-172f-4813-bc22-d6a823aa2d10"
         }
       ],
       "emits": []
     },
     {
-      "id": "ca8c60f7-8a3e-4155-8277-0d28a5462cf8",
+      "id": "278c5547-7661-49a1-95e3-11328b5a3605",
       "text": "One to 24 h after lymphocyte injection, the mice are sacrificed and the peripheral \\( cervical and lateral axillary) lymph nodes, mesenteric lymph nodes, Peyer&#x2019;s patches, spleen, and thymus are collected.   Lymphocytes are squeezed out as described in 2 and 3, debris is removed by passing through 70 &#x3BC;m mesh and lymphocytes are suspended in 2 ml of PBS.",
       "instruction": "COLLECT",
       "slots": [
         {
           "key": "reagent1",
           "value": "peripheral (cervical and lateral axillary) lymph nodes, mesenteric lymph nodes, Peyer's patches, spleen, and thymus",
-          "id": "7ec1f321-b3aa-4b93-bfc2-9decb6ba4703",
-          "node_id": "ca8c60f7-8a3e-4155-8277-0d28a5462cf8"
+          "id": "b1100de0-4864-46f9-9c60-59bac3cd485c",
+          "node_id": "278c5547-7661-49a1-95e3-11328b5a3605"
         },
         {
           "key": "notice",
           "value": "One to 24 h after lymphocyte injection",
-          "id": "b6e46c9d-9049-43ab-9600-2bc5857d9df1",
-          "node_id": "ca8c60f7-8a3e-4155-8277-0d28a5462cf8"
+          "id": "93d731e1-51cc-4fd3-9d70-03a8be3c44ff",
+          "node_id": "278c5547-7661-49a1-95e3-11328b5a3605"
         }
       ],
       "emits": [
         {
           "key": "reagent0",
           "value": "lymphocytes",
-          "id": "589620d8-31e7-4b3c-a7d7-0b476d679cbd",
-          "node_id": "ca8c60f7-8a3e-4155-8277-0d28a5462cf8"
+          "id": "864dc4d6-acc4-4f3e-842f-c7ba3565966c",
+          "node_id": "278c5547-7661-49a1-95e3-11328b5a3605"
         }
       ]
     },
     {
-      "id": "ea0cd5ef-cd0d-485b-a073-e078090f7622",
+      "id": "9690679d-59d9-408d-a040-9a79a2f16220",
       "text": "One to 24 h after lymphocyte injection, the mice are sacrificed and the peripheral \\( cervical and lateral axillary) lymph nodes, mesenteric lymph nodes, Peyer&#x2019;s patches, spleen, and thymus are collected.   Lymphocytes are squeezed out as described in 2 and 3, debris is removed by passing through 70 &#x3BC;m mesh and lymphocytes are suspended in 2 ml of PBS.",
       "instruction": "REMOVE",
       "slots": [
         {
           "key": "reagent1",
           "value": "debris",
-          "id": "42ef7406-6009-4cd3-9898-e8d84d5fb69e",
-          "node_id": "ea0cd5ef-cd0d-485b-a073-e078090f7622"
+          "id": "17b798b7-b0b6-4123-9dc3-8852f16cb5b9",
+          "node_id": "9690679d-59d9-408d-a040-9a79a2f16220"
         },
         {
           "key": "method",
           "value": "passing through",
-          "id": "5de0ce6a-5e03-4552-822b-cd2e7e99fd61",
-          "node_id": "ea0cd5ef-cd0d-485b-a073-e078090f7622"
+          "id": "0a9758fd-be19-4673-a7fe-6606442fb91b",
+          "node_id": "9690679d-59d9-408d-a040-9a79a2f16220"
         },
         {
           "key": "device",
           "value": "70 \u03bcm mesh",
-          "id": "2787c84c-17d3-49eb-8d85-4b19da4c2c8d",
-          "node_id": "ea0cd5ef-cd0d-485b-a073-e078090f7622"
+          "id": "66fe2bcb-aa12-4e56-8a39-bf8c8da4b961",
+          "node_id": "9690679d-59d9-408d-a040-9a79a2f16220"
         },
         {
           "key": "notice",
           "value": "One to 24 h after lymphocyte injection",
-          "id": "79533b68-0c5d-4a3d-897f-c062e292a403",
-          "node_id": "ea0cd5ef-cd0d-485b-a073-e078090f7622"
+          "id": "9713d81b-d883-4497-a200-3654b7337501",
+          "node_id": "9690679d-59d9-408d-a040-9a79a2f16220"
         }
       ],
       "emits": [
         {
           "key": "reagent0",
           "value": "lymphocytes",
-          "id": "97e49a8b-6454-416f-97e5-7e5305316346",
-          "node_id": "ea0cd5ef-cd0d-485b-a073-e078090f7622"
+          "id": "9934bbc0-c6a8-4f79-9db9-dc1150251dcb",
+          "node_id": "9690679d-59d9-408d-a040-9a79a2f16220"
         }
       ]
     },
     {
-      "id": "e4a28047-9c5e-4f28-9c1f-9120188a5f3d",
+      "id": "54b08245-57d1-4dd9-bba7-74379e79dd55",
       "text": "One to 24 h after lymphocyte injection, the mice are sacrificed and the peripheral \\( cervical and lateral axillary) lymph nodes, mesenteric lymph nodes, Peyer&#x2019;s patches, spleen, and thymus are collected.   Lymphocytes are squeezed out as described in 2 and 3, debris is removed by passing through 70 &#x3BC;m mesh and lymphocytes are suspended in 2 ml of PBS.",
       "instruction": "SUSPEND",
       "slots": [
         {
           "key": "reagent1",
           "value": "lymphocytes",
-          "id": "d9310fbd-002c-4a14-a878-6c363f09c4b3",
-          "node_id": "e4a28047-9c5e-4f28-9c1f-9120188a5f3d"
+          "id": "2c7f2f76-a9e0-4d62-b97d-4ffc9b09620d",
+          "node_id": "54b08245-57d1-4dd9-bba7-74379e79dd55"
         },
         {
           "key": "reagent2",
           "value": "PBS",
-          "id": "85c357c2-5c0a-4490-9242-0112fc93631c",
-          "node_id": "e4a28047-9c5e-4f28-9c1f-9120188a5f3d"
+          "id": "8fe96110-1abf-46f4-919f-ba0ff0f577af",
+          "node_id": "54b08245-57d1-4dd9-bba7-74379e79dd55"
         },
         {
           "key": "notice",
           "value": "One to 24 h after lymphocyte injection",
-          "id": "70d460b8-352c-47b2-9c37-72c0b5b78599",
-          "node_id": "e4a28047-9c5e-4f28-9c1f-9120188a5f3d"
+          "id": "8eff5bf8-73c9-48f3-a226-2e5fe41c9676",
+          "node_id": "54b08245-57d1-4dd9-bba7-74379e79dd55"
         }
       ],
       "emits": [
         {
           "key": "reagent0",
           "value": "lymphocytes",
-          "id": "b201ea5c-8479-4982-ab3a-126b22fb01e6",
-          "node_id": "e4a28047-9c5e-4f28-9c1f-9120188a5f3d"
+          "id": "9d794638-798d-463b-9e4c-7fa7e6b46813",
+          "node_id": "54b08245-57d1-4dd9-bba7-74379e79dd55"
         }
       ]
     },
     {
-      "id": "ba97ac9d-6209-4388-bc5a-c6e4c739e2be",
+      "id": "a3bdf89e-e8a5-4ab4-9855-055c3ea7ba24",
       "text": "The cell suspension \\(hundred to hundred fifty thousand  cells) is analyzed by flow cytometry.  The number of fluorescent cells is compared to the number of total cells.  Control experiments are carried out by injecting only PBS.  The ratio of control and lectin-inhibited experiments are compared.",
       "instruction": "ANALYZE",
       "slots": [
         {
           "key": "reagent1",
           "value": "cell suspension",
-          "id": "8c31cb9e-f259-4f2e-a591-21d903043c0c",
-          "node_id": "ba97ac9d-6209-4388-bc5a-c6e4c739e2be"
+          "id": "d2838007-0822-4155-b2fe-b190d63ab231",
+          "node_id": "a3bdf89e-e8a5-4ab4-9855-055c3ea7ba24"
         }
       ],
       "emits": [
         {
           "key": "data0",
           "value": "cell suspension",
-          "id": "eb1c958b-861f-4354-8125-305381a9e7ca",
-          "node_id": "ba97ac9d-6209-4388-bc5a-c6e4c739e2be"
+          "id": "75caa810-0159-4859-a19d-e47a104cce7c",
+          "node_id": "a3bdf89e-e8a5-4ab4-9855-055c3ea7ba24"
         }
       ]
     },
     {
-      "id": "e8093f5a-7e9a-4e68-937e-bd4d5bc24ee8",
+      "id": "dac25d3b-bee2-41b1-988c-31eaf12d5a0e",
       "text": "The cell suspension \\(hundred to hundred fifty thousand  cells) is analyzed by flow cytometry.  The number of fluorescent cells is compared to the number of total cells.  Control experiments are carried out by injecting only PBS.  The ratio of control and lectin-inhibited experiments are compared.",
       "instruction": "COMPARE",
       "slots": [
         {
           "key": "reagent1",
           "value": "number of fluorescent cells",
-          "id": "06808458-d3f2-44b4-a143-6236a7172a3b",
-          "node_id": "e8093f5a-7e9a-4e68-937e-bd4d5bc24ee8"
+          "id": "ca7e9f3e-6fc6-4470-8851-0436445047bf",
+          "node_id": "dac25d3b-bee2-41b1-988c-31eaf12d5a0e"
         },
         {
           "key": "reagent2",
           "value": "number of total cells",
-          "id": "d39a4a02-bbc7-4a79-b99e-6442029924cc",
-          "node_id": "e8093f5a-7e9a-4e68-937e-bd4d5bc24ee8"
+          "id": "5199479a-66b6-4f2b-bf35-a163a48f2fa0",
+          "node_id": "dac25d3b-bee2-41b1-988c-31eaf12d5a0e"
         }
       ],
       "emits": []
     },
     {
-      "id": "1dadf0b9-7e60-4cee-a51d-610b229814fe",
+      "id": "e584117f-2883-4e8f-beb2-b4565c3eb638",
       "text": "The cell suspension \\(hundred to hundred fifty thousand  cells) is analyzed by flow cytometry.  The number of fluorescent cells is compared to the number of total cells.  Control experiments are carried out by injecting only PBS.  The ratio of control and lectin-inhibited experiments are compared.",
       "instruction": "CARRY",
       "slots": [
         {
           "key": "procedure",
           "value": "Control experiments are carried out by injecting only PBS",
-          "id": "c793373e-aaf9-4e3e-8c40-10eba54764e5",
-          "node_id": "1dadf0b9-7e60-4cee-a51d-610b229814fe"
+          "id": "ef51571d-5644-4dc1-9b2d-3b07ed96873f",
+          "node_id": "e584117f-2883-4e8f-beb2-b4565c3eb638"
         }
       ],
       "emits": [
         {
           "key": "reagent0",
           "value": "PBS",
-          "id": "acfe6b7e-c610-4d92-bdff-33c44aeed7ce",
-          "node_id": "1dadf0b9-7e60-4cee-a51d-610b229814fe"
+          "id": "bbce1a3f-8059-483e-b48d-cf7badcd9817",
+          "node_id": "e584117f-2883-4e8f-beb2-b4565c3eb638"
         }
       ]
     },
     {
-      "id": "866e92e2-8ea7-4883-bbf4-0aa0cecdb981",
+      "id": "46bebe32-6d89-4fec-8786-fb1f23a4705c",
       "text": "The cell suspension \\(hundred to hundred fifty thousand  cells) is analyzed by flow cytometry.  The number of fluorescent cells is compared to the number of total cells.  Control experiments are carried out by injecting only PBS.  The ratio of control and lectin-inhibited experiments are compared.",
       "instruction": "COMPARE",
       "slots": [
         {
           "key": "reagent1",
           "value": "cell suspension",
-          "id": "dbf17b71-8a9f-4878-869c-335384e7bf5c",
-          "node_id": "866e92e2-8ea7-4883-bbf4-0aa0cecdb981"
+          "id": "552f6caf-d74b-47d8-87ad-76c8569a07aa",
+          "node_id": "46bebe32-6d89-4fec-8786-fb1f23a4705c"
         },
         {
           "key": "reagent2",
           "value": "PBS",
-          "id": "06a7ea08-b7d5-493e-8991-046639a5765a",
-          "node_id": "866e92e2-8ea7-4883-bbf4-0aa0cecdb981"
+          "id": "6f410741-d0ad-41b2-a357-ce3c4e6df69f",
+          "node_id": "46bebe32-6d89-4fec-8786-fb1f23a4705c"
         }
       ],
       "emits": []

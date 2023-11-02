@@ -2,507 +2,507 @@
   "name": "nprot-3803_graphData.json",
   "nodes": [
     {
-      "id": "bc2cb54a-8439-49cd-8d86-2266ea72a7d5",
+      "id": "f8345c57-b184-4ddf-946b-4847a3658e8c",
       "text": "prepare working standard BSA  solution of 200ug per ml from the standard BSA solution \\(1mg per ml)",
       "instruction": "PREPARE",
       "slots": [
         {
           "key": "reagent1",
           "value": "Standard BSA solution",
-          "id": "f0879966-a8c7-49f3-86c3-c70b84563ce7",
-          "node_id": "bc2cb54a-8439-49cd-8d86-2266ea72a7d5"
+          "id": "3c0f975e-76fb-4469-aa5e-51b30f9d3003",
+          "node_id": "f8345c57-b184-4ddf-946b-4847a3658e8c"
         },
         {
           "key": "concentration",
           "value": "200ug per ml",
-          "id": "944bd6bd-9793-428e-bb00-0f94356b88c9",
-          "node_id": "bc2cb54a-8439-49cd-8d86-2266ea72a7d5"
+          "id": "49b68dcd-9fd4-4e8d-90fd-b7233c6fc60f",
+          "node_id": "f8345c57-b184-4ddf-946b-4847a3658e8c"
         }
       ],
       "emits": [
         {
           "key": "reagent0",
           "value": "Standard BSA solution",
-          "id": "a50685d8-0078-46fe-ba40-9b5e35633039",
-          "node_id": "bc2cb54a-8439-49cd-8d86-2266ea72a7d5"
+          "id": "06920a69-d2d2-4eda-977c-af8f28f7bae2",
+          "node_id": "f8345c57-b184-4ddf-946b-4847a3658e8c"
         }
       ]
     },
     {
-      "id": "102e07de-e218-418b-9c9d-81b831cc7e8c",
+      "id": "2cc7c484-a251-4a5d-bb4f-00a6929c7800",
       "text": "Take 200 ul, 400 ul, 600 ul, 800 ul and 1000 ul of standard solution.",
       "instruction": "TAKE",
       "slots": [
         {
           "key": "reagent1",
           "value": "Standard Solution",
-          "id": "9f6597c6-2dec-4f3f-a5c9-7fa5076889b0",
-          "node_id": "102e07de-e218-418b-9c9d-81b831cc7e8c"
+          "id": "45d18406-58f8-4337-b0ac-9166ebf12050",
+          "node_id": "2cc7c484-a251-4a5d-bb4f-00a6929c7800"
         },
         {
           "key": "volume",
           "value": "200 ul, 400 ul, 600 ul, 800 ul and 1000 ul",
-          "id": "a4fc65fc-0e3f-4607-8477-4b8db13d33a8",
-          "node_id": "102e07de-e218-418b-9c9d-81b831cc7e8c"
+          "id": "10a0ecc6-8cde-4d75-ab87-c7638b20effe",
+          "node_id": "2cc7c484-a251-4a5d-bb4f-00a6929c7800"
         }
       ],
       "emits": [
         {
           "key": "reagent0",
           "value": "Standard Solution",
-          "id": "5ff0e807-cda4-415c-a0d7-7a89d3f133b4",
-          "node_id": "102e07de-e218-418b-9c9d-81b831cc7e8c"
+          "id": "f88d364c-9c19-40c8-862d-258f9282a629",
+          "node_id": "2cc7c484-a251-4a5d-bb4f-00a6929c7800"
         }
       ]
     },
     {
-      "id": "2a7c0259-d013-4b4c-b5cc-7a4100b2ddd1",
+      "id": "a30bf693-986a-4174-bbb3-54237aff9ff4",
       "text": "Take 200 ul, 400 ul, 600 ul, 800 ul and 1000 ul of standard solution.",
       "instruction": "TAKE",
       "slots": [
         {
           "key": "reagent1",
           "value": "Standard Solution",
-          "id": "ed9ca22c-849d-4eaa-8869-3031074ede2a",
-          "node_id": "2a7c0259-d013-4b4c-b5cc-7a4100b2ddd1"
+          "id": "d00cf3ad-8b90-4403-9a75-a93f8655eafe",
+          "node_id": "a30bf693-986a-4174-bbb3-54237aff9ff4"
         },
         {
           "key": "volume",
           "value": "400 ul",
-          "id": "073183c0-186e-4ec3-a448-fbac59fac691",
-          "node_id": "2a7c0259-d013-4b4c-b5cc-7a4100b2ddd1"
+          "id": "272810b9-29b2-4585-aa96-7ec5ac8037e0",
+          "node_id": "a30bf693-986a-4174-bbb3-54237aff9ff4"
         }
       ],
       "emits": [
         {
           "key": "reagent0",
           "value": "Standard Solution",
-          "id": "fb8902de-6940-4952-ad28-e3f4436e4b97",
-          "node_id": "2a7c0259-d013-4b4c-b5cc-7a4100b2ddd1"
+          "id": "2f7e80f4-8af6-4c68-bc71-7f8b845cd88f",
+          "node_id": "a30bf693-986a-4174-bbb3-54237aff9ff4"
         }
       ]
     },
     {
-      "id": "ecde12a9-8ed2-47bc-9ca3-74bcbd61fd94",
+      "id": "5b691066-aad1-4a3c-a657-2b0e63d2a2b1",
       "text": "Take 200 ul, 400 ul, 600 ul, 800 ul and 1000 ul of standard solution.",
       "instruction": "TAKE",
       "slots": [
         {
           "key": "reagent1",
           "value": "Standard Solution",
-          "id": "0865865a-0716-4188-a31c-705aa99d451e",
-          "node_id": "ecde12a9-8ed2-47bc-9ca3-74bcbd61fd94"
+          "id": "6236f59b-8190-4761-b98d-807b899a6daf",
+          "node_id": "5b691066-aad1-4a3c-a657-2b0e63d2a2b1"
         },
         {
           "key": "volume",
           "value": "600 ul",
-          "id": "f0b338f0-1c2f-4af6-a198-22c32ddbd583",
-          "node_id": "ecde12a9-8ed2-47bc-9ca3-74bcbd61fd94"
+          "id": "bebf7e4c-2c87-4f4d-92b6-7c36c32b521d",
+          "node_id": "5b691066-aad1-4a3c-a657-2b0e63d2a2b1"
         }
       ],
       "emits": [
         {
           "key": "reagent0",
           "value": "Standard Solution",
-          "id": "59d16332-ad1a-4263-8f15-8a0af0905c4d",
-          "node_id": "ecde12a9-8ed2-47bc-9ca3-74bcbd61fd94"
+          "id": "8ea0136f-ad3a-4192-a39e-aebe86ed1823",
+          "node_id": "5b691066-aad1-4a3c-a657-2b0e63d2a2b1"
         }
       ]
     },
     {
-      "id": "99be6463-091c-43e3-9fe6-65cf541b9daa",
+      "id": "758076d6-20ad-4c10-b826-c2c630d32695",
       "text": "Take 200 ul, 400 ul, 600 ul, 800 ul and 1000 ul of standard solution.",
       "instruction": "TAKE",
       "slots": [
         {
           "key": "reagent1",
           "value": "Standard Solution",
-          "id": "c93f3c66-8173-4490-875b-b4fb2ea6fd4b",
-          "node_id": "99be6463-091c-43e3-9fe6-65cf541b9daa"
+          "id": "933a9ed0-d5ba-4c56-ae33-85cdb2649d40",
+          "node_id": "758076d6-20ad-4c10-b826-c2c630d32695"
         },
         {
           "key": "volume",
           "value": "800 ul",
-          "id": "62cb674b-378c-417e-b5e1-947827ffd3bf",
-          "node_id": "99be6463-091c-43e3-9fe6-65cf541b9daa"
+          "id": "90041821-4070-40bd-99f5-bb8cf05cb046",
+          "node_id": "758076d6-20ad-4c10-b826-c2c630d32695"
         }
       ],
       "emits": [
         {
           "key": "reagent0",
           "value": "Standard Solution",
-          "id": "5b5a9913-71a9-41c3-8eff-ee35ba587209",
-          "node_id": "99be6463-091c-43e3-9fe6-65cf541b9daa"
+          "id": "b4a7d5ad-93c1-4a4c-8820-9fdac70526a1",
+          "node_id": "758076d6-20ad-4c10-b826-c2c630d32695"
         }
       ]
     },
     {
-      "id": "941f6c6c-b987-4c34-a99b-3c529598370e",
+      "id": "a0ee5708-574d-43ea-86d3-8a6e5981f336",
       "text": "Take 200 ul, 400 ul, 600 ul, 800 ul and 1000 ul of standard solution.",
       "instruction": "TAKE",
       "slots": [
         {
           "key": "reagent1",
           "value": "Standard Solution",
-          "id": "1ec02366-f423-4b08-833a-c36cb56e44da",
-          "node_id": "941f6c6c-b987-4c34-a99b-3c529598370e"
+          "id": "e82fb772-2d06-4596-9c6c-30dcb093de68",
+          "node_id": "a0ee5708-574d-43ea-86d3-8a6e5981f336"
         },
         {
           "key": "volume",
           "value": "1000 ul",
-          "id": "d1291f96-7242-407f-91b9-925ffe554fe2",
-          "node_id": "941f6c6c-b987-4c34-a99b-3c529598370e"
+          "id": "4b13a0eb-52fa-47ce-9bd6-9d786c4a39ec",
+          "node_id": "a0ee5708-574d-43ea-86d3-8a6e5981f336"
         }
       ],
       "emits": [
         {
           "key": "reagent0",
           "value": "Standard Solution",
-          "id": "f5b64302-fa02-44f6-be1f-4ee7df7f4079",
-          "node_id": "941f6c6c-b987-4c34-a99b-3c529598370e"
+          "id": "115eceea-4336-4974-a3fe-06cfa1455aaa",
+          "node_id": "a0ee5708-574d-43ea-86d3-8a6e5981f336"
         }
       ]
     },
     {
-      "id": "124217b4-9a5c-4397-867d-5ddd827811ea",
+      "id": "ec0b118b-590d-47a8-ba6e-83847e60e69f",
       "text": "Take 100 ul of test protein solution.",
       "instruction": "TAKE",
       "slots": [
         {
           "key": "reagent1",
           "value": "test protein solution",
-          "id": "7b203b5a-2978-4b3e-87f3-e1326d363dac",
-          "node_id": "124217b4-9a5c-4397-867d-5ddd827811ea"
+          "id": "6252131f-e669-4be4-bb0f-04b85f889ecd",
+          "node_id": "ec0b118b-590d-47a8-ba6e-83847e60e69f"
         },
         {
           "key": "volume",
           "value": "100 ul",
-          "id": "39743b37-266b-4bd2-acfa-09a1fcfa2fac",
-          "node_id": "124217b4-9a5c-4397-867d-5ddd827811ea"
+          "id": "01b3cb25-327c-46fc-8ca8-413921990b65",
+          "node_id": "ec0b118b-590d-47a8-ba6e-83847e60e69f"
         }
       ],
       "emits": [
         {
           "key": "reagent0",
           "value": "test protein solution",
-          "id": "c78d9d4b-4773-42c4-bdbe-ac613776ef87",
-          "node_id": "124217b4-9a5c-4397-867d-5ddd827811ea"
+          "id": "722edca4-9ecc-4528-a63a-b5025646c5d2",
+          "node_id": "ec0b118b-590d-47a8-ba6e-83847e60e69f"
         }
       ]
     },
     {
-      "id": "396200a6-66a9-41b8-899d-70e0ebf3b654",
+      "id": "8f8e4e16-5f47-444e-a5ac-c7ea52c92929",
       "text": "Take 1 ml of diluent as a blank.\r\n  \r\n\n\nTest Proper:",
       "instruction": "TAKE",
       "slots": [
         {
           "key": "reagent1",
           "value": "diluent",
-          "id": "8885e21a-c3cc-4dd7-9070-7c5f454912af",
-          "node_id": "396200a6-66a9-41b8-899d-70e0ebf3b654"
+          "id": "999991c8-f39b-4adc-83c1-03c9f74fa218",
+          "node_id": "8f8e4e16-5f47-444e-a5ac-c7ea52c92929"
         },
         {
           "key": "volume",
           "value": "1 ml",
-          "id": "4c5cb31d-fa7d-4845-93d7-c983cd6df837",
-          "node_id": "396200a6-66a9-41b8-899d-70e0ebf3b654"
+          "id": "564dfaf4-d82c-4321-9a0f-5b63d4309d1c",
+          "node_id": "8f8e4e16-5f47-444e-a5ac-c7ea52c92929"
         }
       ],
       "emits": [
         {
           "key": "reagent0",
           "value": "diluent",
-          "id": "21f934be-3216-4884-9452-ed22ded3d058",
-          "node_id": "396200a6-66a9-41b8-899d-70e0ebf3b654"
+          "id": "b4e210ec-54e0-4c45-b229-5f8707c0ec5a",
+          "node_id": "8f8e4e16-5f47-444e-a5ac-c7ea52c92929"
         }
       ]
     },
     {
-      "id": "745c03f8-0011-4f01-b839-a2adca7443fc",
+      "id": "e84ce4fa-3525-4974-920e-1e5f175c4790",
       "text": "Add 5 ml of Reagent C to all tubes including blank and mix vigorously.",
       "instruction": "ADD",
       "slots": [
         {
           "key": "reagent1",
           "value": "Reagent C",
-          "id": "cbfc28eb-4387-4f3c-bce8-cd0ada8b503d",
-          "node_id": "745c03f8-0011-4f01-b839-a2adca7443fc"
+          "id": "5e11070a-5eab-4e5e-8ece-4b7fd16dffea",
+          "node_id": "e84ce4fa-3525-4974-920e-1e5f175c4790"
         },
         {
           "key": "reagent2",
           "value": "Standard Solution, test protein solution, diluent",
-          "id": "878ad165-5ba2-4130-9d8f-d215dcceaba4",
-          "node_id": "745c03f8-0011-4f01-b839-a2adca7443fc"
+          "id": "b3674a44-a28d-4310-bc08-0c9dbb75a63e",
+          "node_id": "e84ce4fa-3525-4974-920e-1e5f175c4790"
         }
       ],
       "emits": [
         {
           "key": "reagent0",
           "value": "Standard Solution, test protein solution, diluent",
-          "id": "af7e681a-8254-4d14-93c6-e3e3a319507f",
-          "node_id": "745c03f8-0011-4f01-b839-a2adca7443fc"
+          "id": "2b43d97b-8569-4f52-95cd-9d87143e923b",
+          "node_id": "e84ce4fa-3525-4974-920e-1e5f175c4790"
         }
       ]
     },
     {
-      "id": "a6cc3e97-4fed-45a2-a6dd-7d1a53a5c07d",
+      "id": "625c3397-0640-4742-b26f-3fac49f63df8",
       "text": "Add 5 ml of Reagent C to all tubes including blank and mix vigorously.",
       "instruction": "MIX",
       "slots": [
         {
           "key": "reagent1",
           "value": "Reagent C",
-          "id": "a9068f7b-edbb-4baf-84ce-55dfec625cee",
-          "node_id": "a6cc3e97-4fed-45a2-a6dd-7d1a53a5c07d"
+          "id": "cffbc426-f928-44d7-a378-f5e0dff8a2d9",
+          "node_id": "625c3397-0640-4742-b26f-3fac49f63df8"
         },
         {
           "key": "method",
           "value": "vigorously",
-          "id": "5fd04c2b-ce35-4460-9e93-b7f944a06197",
-          "node_id": "a6cc3e97-4fed-45a2-a6dd-7d1a53a5c07d"
+          "id": "a7f75de0-d25d-4b4f-bd31-af8955f49ecf",
+          "node_id": "625c3397-0640-4742-b26f-3fac49f63df8"
         }
       ],
       "emits": []
     },
     {
-      "id": "bb716833-b622-4d64-a427-7b04bc55161a",
+      "id": "2de56e86-147d-4ca1-9573-996bdc63c52c",
       "text": "Mix well and allow to stand for 10 minutes.",
       "instruction": "MIX",
       "slots": [
         {
           "key": "reagent1",
           "value": "Standard Solution",
-          "id": "9076ce0e-f8a2-4d4c-a5da-261a2b336880",
-          "node_id": "bb716833-b622-4d64-a427-7b04bc55161a"
+          "id": "36b944b9-f9cb-40cd-81ad-109fc3e77f0d",
+          "node_id": "2de56e86-147d-4ca1-9573-996bdc63c52c"
         },
         {
           "key": "reagent2",
           "value": "test protein solution, diluent",
-          "id": "eb2c3116-602e-4376-980c-5ada5b3ed81f",
-          "node_id": "bb716833-b622-4d64-a427-7b04bc55161a"
+          "id": "184b57c7-a6b9-4b6c-b529-8f696a80b1a1",
+          "node_id": "2de56e86-147d-4ca1-9573-996bdc63c52c"
         },
         {
           "key": "time",
           "value": "10 minutes",
-          "id": "6392fc2d-6857-4bf1-870c-72e105aa129f",
-          "node_id": "bb716833-b622-4d64-a427-7b04bc55161a"
+          "id": "01b80c28-c617-41e3-bb5d-a5d3e9cc8c4f",
+          "node_id": "2de56e86-147d-4ca1-9573-996bdc63c52c"
         }
       ],
       "emits": [
         {
           "key": "reagent0",
           "value": "Standard Solution, test protein solution, diluent",
-          "id": "e70155b0-dc7e-4b03-9de6-8fb6548cfcff",
-          "node_id": "bb716833-b622-4d64-a427-7b04bc55161a"
+          "id": "10f9329d-ea5f-4f71-a230-3ca92ded874a",
+          "node_id": "2de56e86-147d-4ca1-9573-996bdc63c52c"
         }
       ]
     },
     {
-      "id": "f88942db-9748-4dcc-8bc6-96239e174b87",
+      "id": "e1204b22-f5e9-4133-8516-7a9006f3cfc9",
       "text": "Mix well and allow to stand for 10 minutes.",
       "instruction": "WAIT",
       "slots": [
         {
           "key": "time",
           "value": "10 minutes",
-          "id": "f8065eca-32d3-4bc6-b72d-31b7da4fe854",
-          "node_id": "f88942db-9748-4dcc-8bc6-96239e174b87"
+          "id": "6678a8c1-c078-471d-8115-5c433964f84e",
+          "node_id": "e1204b22-f5e9-4133-8516-7a9006f3cfc9"
         }
       ],
       "emits": []
     },
     {
-      "id": "b4fe78e4-0525-4a25-95b4-b3e0d86643e5",
+      "id": "c080a8e6-b4aa-4ef5-ba64-1a928e1dcc9b",
       "text": "Add 0.5 ml of reagent D \\(freshly diluted 1:1) and mix all the tubes vigorously.",
       "instruction": "ADD",
       "slots": [
         {
           "key": "reagent1",
           "value": "Standard Solution, test protein solution, diluent",
-          "id": "4fcdf480-d43d-4bc8-8a87-d11055e40e59",
-          "node_id": "b4fe78e4-0525-4a25-95b4-b3e0d86643e5"
+          "id": "6c48176a-6188-4524-8c97-3017fd81943d",
+          "node_id": "c080a8e6-b4aa-4ef5-ba64-1a928e1dcc9b"
         },
         {
           "key": "reagent2",
           "value": "reagent D",
-          "id": "d1b18135-c952-48da-95b3-6b1f5596974b",
-          "node_id": "b4fe78e4-0525-4a25-95b4-b3e0d86643e5"
+          "id": "29868c94-0e1e-4e0c-9797-478952f59a4c",
+          "node_id": "c080a8e6-b4aa-4ef5-ba64-1a928e1dcc9b"
         },
         {
           "key": "ratio",
           "value": "1:1",
-          "id": "66c470e1-ad4a-4cb0-900e-83fd6340d608",
-          "node_id": "b4fe78e4-0525-4a25-95b4-b3e0d86643e5"
+          "id": "ac075d45-983c-4f91-ac27-1ef10a4b9f68",
+          "node_id": "c080a8e6-b4aa-4ef5-ba64-1a928e1dcc9b"
         }
       ],
       "emits": [
         {
           "key": "reagent0",
           "value": "Standard Solution, test protein solution, diluent",
-          "id": "b8115aa3-3f71-436e-b99a-7420244c8eb4",
-          "node_id": "b4fe78e4-0525-4a25-95b4-b3e0d86643e5"
+          "id": "1cf53086-59f8-4079-8cac-91b2218c84c3",
+          "node_id": "c080a8e6-b4aa-4ef5-ba64-1a928e1dcc9b"
         }
       ]
     },
     {
-      "id": "7205d0f4-59fa-4b22-a575-99a9624e3138",
+      "id": "ffb93072-ccae-43ab-a751-3ed6f4633ea5",
       "text": "Add 0.5 ml of reagent D \\(freshly diluted 1:1) and mix all the tubes vigorously.",
       "instruction": "MIX",
       "slots": [
         {
           "key": "reagent1",
           "value": "Standard Solution, test protein solution, diluent",
-          "id": "abb71e0a-52ed-40c5-9ad1-9ff0957eb99e",
-          "node_id": "7205d0f4-59fa-4b22-a575-99a9624e3138"
+          "id": "256511a3-7d42-4b9f-b2ec-d5992ac8ee03",
+          "node_id": "ffb93072-ccae-43ab-a751-3ed6f4633ea5"
         },
         {
           "key": "ratio",
           "value": "1:1",
-          "id": "5c679e1e-2f91-40cd-8c49-59b43ce98788",
-          "node_id": "7205d0f4-59fa-4b22-a575-99a9624e3138"
+          "id": "1813491a-d62a-4350-8f00-492154f8a70d",
+          "node_id": "ffb93072-ccae-43ab-a751-3ed6f4633ea5"
         },
         {
           "key": "method",
           "value": "vigorously",
-          "id": "8a0b50a5-7417-4526-a8fa-26cecb758ac2",
-          "node_id": "7205d0f4-59fa-4b22-a575-99a9624e3138"
+          "id": "63832cad-7abb-430d-8ca6-414f01bef429",
+          "node_id": "ffb93072-ccae-43ab-a751-3ed6f4633ea5"
         }
       ],
       "emits": [
         {
           "key": "reagent0",
           "value": "Standard Solution, test protein solution, diluent",
-          "id": "57f40048-85c4-49b2-8b2d-0be7483257f3",
-          "node_id": "7205d0f4-59fa-4b22-a575-99a9624e3138"
+          "id": "a327f47f-aeb0-4bf9-aaa3-433c58997fbf",
+          "node_id": "ffb93072-ccae-43ab-a751-3ed6f4633ea5"
         }
       ]
     },
     {
-      "id": "e041da05-337c-477e-b625-bb1b82e83cb3",
+      "id": "78a8d63f-ec46-4c8a-8ad4-fce071e20937",
       "text": "Incubate the tubes in dark for 30 minutes.",
       "instruction": "INCUBATE",
       "slots": [
         {
           "key": "reagent1",
           "value": "Standard Solution, test protein solution, diluent",
-          "id": "523f7680-8f4d-45de-8c99-894b03388248",
-          "node_id": "e041da05-337c-477e-b625-bb1b82e83cb3"
+          "id": "ceb65c94-6aaa-41ce-9159-944268ac2f02",
+          "node_id": "78a8d63f-ec46-4c8a-8ad4-fce071e20937"
         },
         {
           "key": "temperature",
           "value": "room temperature",
-          "id": "8f05fc64-7555-49f8-92f5-a2a8435ca116",
-          "node_id": "e041da05-337c-477e-b625-bb1b82e83cb3"
+          "id": "022960e9-278c-4d56-b179-8af4eedb60fb",
+          "node_id": "78a8d63f-ec46-4c8a-8ad4-fce071e20937"
         },
         {
           "key": "time",
           "value": "30 minutes",
-          "id": "047f2c9e-3896-4743-beb4-6d80e89a378c",
-          "node_id": "e041da05-337c-477e-b625-bb1b82e83cb3"
+          "id": "c0b29a44-b552-4a2f-941d-ab8b1d6a0ab3",
+          "node_id": "78a8d63f-ec46-4c8a-8ad4-fce071e20937"
         },
         {
           "key": "environment",
           "value": "dark",
-          "id": "339a225b-fa83-4c08-a211-c2e3c5ada2bc",
-          "node_id": "e041da05-337c-477e-b625-bb1b82e83cb3"
+          "id": "9dca735a-4879-410b-bc57-5e2e562ca787",
+          "node_id": "78a8d63f-ec46-4c8a-8ad4-fce071e20937"
         }
       ],
       "emits": [
         {
           "key": "reagent0",
           "value": "Standard Solution, test protein solution, diluent",
-          "id": "1da4753d-7e43-4fee-8983-61aa3cf579c4",
-          "node_id": "e041da05-337c-477e-b625-bb1b82e83cb3"
+          "id": "45864edf-693a-4203-82fc-969cf521bcf5",
+          "node_id": "78a8d63f-ec46-4c8a-8ad4-fce071e20937"
         }
       ]
     },
     {
-      "id": "85722700-0ed2-4a49-a793-2a4fecfcf13f",
+      "id": "8c027c4a-86d0-4030-b5fb-4573d370aebd",
       "text": "Read the absorbance at 660 nm.",
       "instruction": "READ",
       "slots": [
         {
           "key": "device",
           "value": "660 nm spectrophotometer",
-          "id": "f9bd257f-a82a-43a8-9a84-7ffa40915dba",
-          "node_id": "85722700-0ed2-4a49-a793-2a4fecfcf13f"
+          "id": "8fad8254-0e98-4f3d-b35b-b4f638817e6f",
+          "node_id": "8c027c4a-86d0-4030-b5fb-4573d370aebd"
         },
         {
           "key": "data1",
           "value": "absorbance data file",
-          "id": "457f4b00-0e43-47c0-8773-cc15bed5a227",
-          "node_id": "85722700-0ed2-4a49-a793-2a4fecfcf13f"
+          "id": "8e452d12-ef62-4767-b3b6-72d53da6cd58",
+          "node_id": "8c027c4a-86d0-4030-b5fb-4573d370aebd"
         },
         {
           "key": "parameter",
           "value": "wavelength=660 nm",
-          "id": "ed57109e-83c7-454c-bb66-bf0bf3627143",
-          "node_id": "85722700-0ed2-4a49-a793-2a4fecfcf13f"
+          "id": "5aa028e5-9ba9-4176-a629-f394e244cd00",
+          "node_id": "8c027c4a-86d0-4030-b5fb-4573d370aebd"
         }
       ],
       "emits": [
         {
           "key": "data0",
           "value": "absorbance at 660 nm",
-          "id": "b0561718-46cf-4bc0-91e5-3981018b87c3",
-          "node_id": "85722700-0ed2-4a49-a793-2a4fecfcf13f"
+          "id": "ff2fc6dc-c6df-4efa-80e8-086423521fd8",
+          "node_id": "8c027c4a-86d0-4030-b5fb-4573d370aebd"
         }
       ]
     },
     {
-      "id": "b13da484-efaf-4fc1-8c71-0bd7975e5071",
+      "id": "f1c2c3d8-6934-4352-9ac8-72c97f0403f3",
       "text": "Calculate the concentration of protein in the test solution by making a standard graph.",
       "instruction": "CALCULATE",
       "slots": [
         {
           "key": "attribute",
           "value": "concentration of protein",
-          "id": "643bf72c-86a0-4672-8615-221b112bffba",
-          "node_id": "b13da484-efaf-4fc1-8c71-0bd7975e5071"
+          "id": "fa7b73f4-f487-43e9-9e25-6a4eb5ce44b0",
+          "node_id": "f1c2c3d8-6934-4352-9ac8-72c97f0403f3"
         },
         {
           "key": "formula",
           "value": "<blank>",
-          "id": "716c439b-41ad-4a6e-b386-afbbbbd06b5c",
-          "node_id": "b13da484-efaf-4fc1-8c71-0bd7975e5071"
+          "id": "1f9cafb7-d2fb-4c73-b533-7b8b5271679e",
+          "node_id": "f1c2c3d8-6934-4352-9ac8-72c97f0403f3"
         },
         {
           "key": "variables",
           "value": "<blank>",
-          "id": "4816902c-f619-4ed6-84f1-a26f9e3328d9",
-          "node_id": "b13da484-efaf-4fc1-8c71-0bd7975e5071"
+          "id": "5265b5c5-15d6-40d3-86e3-4490a6cfd03c",
+          "node_id": "f1c2c3d8-6934-4352-9ac8-72c97f0403f3"
         },
         {
           "key": "values",
           "value": "<blank>",
-          "id": "10ab7128-7ee3-4244-897f-a97198be8792",
-          "node_id": "b13da484-efaf-4fc1-8c71-0bd7975e5071"
+          "id": "f80d660a-08aa-40c9-99a0-2849ab62ef41",
+          "node_id": "f1c2c3d8-6934-4352-9ac8-72c97f0403f3"
         },
         {
           "key": "units",
           "value": "<blank>",
-          "id": "6610ff72-e0c3-42fe-aa37-36ca579f8e0d",
-          "node_id": "b13da484-efaf-4fc1-8c71-0bd7975e5071"
+          "id": "3e4943dd-b34e-4d93-91ea-62610f6f2102",
+          "node_id": "f1c2c3d8-6934-4352-9ac8-72c97f0403f3"
         },
         {
           "key": "software",
           "value": "<blank>",
-          "id": "3a2f3944-0208-47bc-b96f-d07c4c06815b",
-          "node_id": "b13da484-efaf-4fc1-8c71-0bd7975e5071"
+          "id": "522343b9-3528-4496-83a3-9bb488c7029d",
+          "node_id": "f1c2c3d8-6934-4352-9ac8-72c97f0403f3"
         },
         {
           "key": "notice",
           "value": "<blank>",
-          "id": "1e669a23-1b5c-4888-9e63-dfdadc65d4d6",
-          "node_id": "b13da484-efaf-4fc1-8c71-0bd7975e5071"
+          "id": "6fefe917-6c2d-4ad4-843b-9bc00ea757f5",
+          "node_id": "f1c2c3d8-6934-4352-9ac8-72c97f0403f3"
         }
       ],
       "emits": [
         {
           "key": "result",
           "value": "<blank>",
-          "id": "54b1d725-af83-4379-bd3c-cffc6ea5be46",
-          "node_id": "b13da484-efaf-4fc1-8c71-0bd7975e5071"
+          "id": "e7d35519-5955-47df-a15d-59c9500a30cf",
+          "node_id": "f1c2c3d8-6934-4352-9ac8-72c97f0403f3"
         }
       ]
     }

@@ -2,471 +2,471 @@
   "name": "nprot-269_graphData.json",
   "nodes": [
     {
-      "id": "32df1891-2e78-4e71-96f5-9c0f96abfe50",
+      "id": "654104df-669c-45ca-b0fe-e2b11c56aaf5",
       "text": "Prepare the bacterial culture as described in protocol #4, and then adjust the bacterial population to 10<sup>6</sup> - 10<sup>7</sup> cfu/ml.",
       "instruction": "PREPARE",
       "slots": [
         {
           "key": "reagent1",
           "value": "bacterial culture",
-          "id": "3f1cf5d4-622f-424e-ba87-6338933fc952",
-          "node_id": "32df1891-2e78-4e71-96f5-9c0f96abfe50"
+          "id": "e381e0d2-de7f-4c0a-a02c-5e38a930e634",
+          "node_id": "654104df-669c-45ca-b0fe-e2b11c56aaf5"
         }
       ],
       "emits": [
         {
           "key": "reagent0",
           "value": "bacterial culture",
-          "id": "8ffda29c-0f87-4e98-a677-b1f6b49a471e",
-          "node_id": "32df1891-2e78-4e71-96f5-9c0f96abfe50"
+          "id": "d4cbdd8e-a0fd-495a-9a32-236ad166b64c",
+          "node_id": "654104df-669c-45ca-b0fe-e2b11c56aaf5"
         }
       ]
     },
     {
-      "id": "ce919b85-7ecb-4b92-ada2-879852627c4e",
+      "id": "3ba042c9-ba19-4784-9210-78c8a0322f0b",
       "text": "Prepare the bacterial culture as described in protocol #4, and then adjust the bacterial population to 10<sup>6</sup> - 10<sup>7</sup> cfu/ml.",
       "instruction": "ADJUST",
       "slots": [
         {
           "key": "reagent1",
           "value": "bacterial culture",
-          "id": "a4c3d877-14e9-4fe8-ba92-9fbee8da0117",
-          "node_id": "ce919b85-7ecb-4b92-ada2-879852627c4e"
+          "id": "5eb86d90-d343-4e6c-9aa9-ce205b7dec00",
+          "node_id": "3ba042c9-ba19-4784-9210-78c8a0322f0b"
         },
         {
           "key": "attribute",
           "value": "bacterial population",
-          "id": "863a204c-c6e8-411f-9c43-084545de3459",
-          "node_id": "ce919b85-7ecb-4b92-ada2-879852627c4e"
+          "id": "98462a55-d41d-4508-81a5-4496f3e12ec3",
+          "node_id": "3ba042c9-ba19-4784-9210-78c8a0322f0b"
         },
         {
           "key": "data1",
           "value": "10^6 - 10^7 cfu/ml",
-          "id": "56843e01-64c9-4746-b92c-c7459b48affd",
-          "node_id": "ce919b85-7ecb-4b92-ada2-879852627c4e"
+          "id": "9f5eec18-30bf-4407-9f0e-15d93a5b6867",
+          "node_id": "3ba042c9-ba19-4784-9210-78c8a0322f0b"
         }
       ],
       "emits": [
         {
           "key": "reagent0",
           "value": "bacterial culture",
-          "id": "8cc2b5ec-99de-47cc-8fd2-99dc53f03346",
-          "node_id": "ce919b85-7ecb-4b92-ada2-879852627c4e"
+          "id": "1c75fe15-7e41-43db-9a28-94521369e0db",
+          "node_id": "3ba042c9-ba19-4784-9210-78c8a0322f0b"
         }
       ]
     },
     {
-      "id": "c33d9436-e153-4cb7-a70f-f86038fd17c7",
+      "id": "9aa5d2e4-269c-4ed5-8e6a-0168f22febe1",
       "text": "For the end-point measurement of HMC/PPO: \r\n  \\(a) incubate the bacteria under test at 10<sup>6</sup> cfu/ml with 60 &#x3BC;g purified HMC plus 100 nmol 4-methylcatechol \\(4ME) in 100 &#x3BC;l PBS at 37 &#xB0;C for 1 h. \r\n\n\n\\(b) then enumerate the remnant bacterial population in the reaction mixture by plating 100 &#x3BC;l of serially diluted samples on nutrient agar plates and incubating at 37 &#xB0;C overnight.  Perform the colony count and calculate the bacterial cfu/ml.\r\n\n\n\\(c) add 10 nmol of phenylthiourea \\(PTU) to the reactions in order to  evaluate the impact of PO activity.  \r\n\n\n\\(d) also set up controls by incubating bacteria with HMC/PPO or 4ME or PTU separately, or in combinations.",
       "instruction": "INCUBATE",
       "slots": [
         {
           "key": "reagent1",
           "value": "bacterial culture",
-          "id": "fcb9cac7-2875-4598-9315-566f08e1ba27",
-          "node_id": "c33d9436-e153-4cb7-a70f-f86038fd17c7"
+          "id": "b2009e1c-2c3d-449a-af85-f377f18f2f37",
+          "node_id": "9aa5d2e4-269c-4ed5-8e6a-0168f22febe1"
         },
         {
           "key": "reagent2",
           "value": "60 \u03bcg purified HMC plus 100 nmol 4-methylcatechol (4ME) in 100 \u03bcl PBS",
-          "id": "efd05f11-9795-417b-bb43-9c152e6a2538",
-          "node_id": "c33d9436-e153-4cb7-a70f-f86038fd17c7"
+          "id": "93e85911-ecf9-4df2-bd2f-d9ae54564ab9",
+          "node_id": "9aa5d2e4-269c-4ed5-8e6a-0168f22febe1"
         },
         {
           "key": "temperature",
           "value": "37 \u00b0C",
-          "id": "84ccb20d-ca67-44fb-bd10-657653c8e0b7",
-          "node_id": "c33d9436-e153-4cb7-a70f-f86038fd17c7"
+          "id": "eeb64b07-923c-4e35-99cf-7358480f7795",
+          "node_id": "9aa5d2e4-269c-4ed5-8e6a-0168f22febe1"
         },
         {
           "key": "time",
           "value": "1 h",
-          "id": "f7b13689-cc64-4f24-a33f-75a4abca6c3e",
-          "node_id": "c33d9436-e153-4cb7-a70f-f86038fd17c7"
+          "id": "9b6333b2-4b51-4da7-bea7-5e773682d5b6",
+          "node_id": "9aa5d2e4-269c-4ed5-8e6a-0168f22febe1"
         }
       ],
       "emits": [
         {
           "key": "reagent0",
           "value": "bacterial culture",
-          "id": "4ceda03c-91e0-422e-b27d-bed2230f1cfe",
-          "node_id": "c33d9436-e153-4cb7-a70f-f86038fd17c7"
+          "id": "1bac61b5-182e-482e-91bb-9e62a3218d93",
+          "node_id": "9aa5d2e4-269c-4ed5-8e6a-0168f22febe1"
         }
       ]
     },
     {
-      "id": "45cc962d-09d2-40e5-8823-0c48f9a13bd1",
+      "id": "86258f37-ff5f-4086-b42b-c1a448c34caf",
       "text": "For the end-point measurement of HMC/PPO: \r\n  \\(a) incubate the bacteria under test at 10<sup>6</sup> cfu/ml with 60 &#x3BC;g purified HMC plus 100 nmol 4-methylcatechol \\(4ME) in 100 &#x3BC;l PBS at 37 &#xB0;C for 1 h. \r\n\n\n\\(b) then enumerate the remnant bacterial population in the reaction mixture by plating 100 &#x3BC;l of serially diluted samples on nutrient agar plates and incubating at 37 &#xB0;C overnight.  Perform the colony count and calculate the bacterial cfu/ml.\r\n\n\n\\(c) add 10 nmol of phenylthiourea \\(PTU) to the reactions in order to  evaluate the impact of PO activity.  \r\n\n\n\\(d) also set up controls by incubating bacteria with HMC/PPO or 4ME or PTU separately, or in combinations.",
       "instruction": "PLATE",
       "slots": [
         {
           "key": "reagent1",
           "value": "bacterial culture",
-          "id": "02b7778c-a919-4a89-b85a-09a10b1ea36e",
-          "node_id": "45cc962d-09d2-40e5-8823-0c48f9a13bd1"
+          "id": "4b26f33b-ca00-4972-8341-4b46fa04633b",
+          "node_id": "86258f37-ff5f-4086-b42b-c1a448c34caf"
         },
         {
           "key": "reagent2",
           "value": "nutrient agar plates",
-          "id": "24e6b374-e0bc-4792-a774-bbb989e90e9c",
-          "node_id": "45cc962d-09d2-40e5-8823-0c48f9a13bd1"
+          "id": "2078e566-ce61-4357-9966-02379638d0b1",
+          "node_id": "86258f37-ff5f-4086-b42b-c1a448c34caf"
         }
       ],
       "emits": [
         {
           "key": "reagent0",
           "value": "remnant bacterial population",
-          "id": "6dc3441f-700a-40e2-8498-1042f7fe7f36",
-          "node_id": "45cc962d-09d2-40e5-8823-0c48f9a13bd1"
+          "id": "47ac9857-53e1-4c6b-8888-8e9f086fec39",
+          "node_id": "86258f37-ff5f-4086-b42b-c1a448c34caf"
         }
       ]
     },
     {
-      "id": "0840e9fb-1a7a-43ee-ae5b-03fe8b82ef96",
+      "id": "7864577c-6682-4641-8ae0-2aeb24cb25cc",
       "text": "For the end-point measurement of HMC/PPO: \r\n  \\(a) incubate the bacteria under test at 10<sup>6</sup> cfu/ml with 60 &#x3BC;g purified HMC plus 100 nmol 4-methylcatechol \\(4ME) in 100 &#x3BC;l PBS at 37 &#xB0;C for 1 h. \r\n\n\n\\(b) then enumerate the remnant bacterial population in the reaction mixture by plating 100 &#x3BC;l of serially diluted samples on nutrient agar plates and incubating at 37 &#xB0;C overnight.  Perform the colony count and calculate the bacterial cfu/ml.\r\n\n\n\\(c) add 10 nmol of phenylthiourea \\(PTU) to the reactions in order to  evaluate the impact of PO activity.  \r\n\n\n\\(d) also set up controls by incubating bacteria with HMC/PPO or 4ME or PTU separately, or in combinations.",
       "instruction": "COUNT",
       "slots": [
         {
           "key": "reagent1",
           "value": "bacterial culture",
-          "id": "f7edc0e4-8a8b-4b32-be05-aed0a2d628a7",
-          "node_id": "0840e9fb-1a7a-43ee-ae5b-03fe8b82ef96"
+          "id": "23948543-4ca4-4248-9a7a-74b3dd4eac3c",
+          "node_id": "7864577c-6682-4641-8ae0-2aeb24cb25cc"
         },
         {
           "key": "method",
           "value": "colony count",
-          "id": "278fd0cc-983e-4762-9ba3-dd9de0722359",
-          "node_id": "0840e9fb-1a7a-43ee-ae5b-03fe8b82ef96"
+          "id": "f2ea2049-5134-4876-bbdc-712558949905",
+          "node_id": "7864577c-6682-4641-8ae0-2aeb24cb25cc"
         }
       ],
       "emits": [
         {
           "key": "data0",
           "value": "cfu/ml",
-          "id": "3cb35eaa-1185-406d-af82-3c7a321d59b3",
-          "node_id": "0840e9fb-1a7a-43ee-ae5b-03fe8b82ef96"
+          "id": "94504e39-3bc0-448c-b8b7-59b173b906d4",
+          "node_id": "7864577c-6682-4641-8ae0-2aeb24cb25cc"
         }
       ]
     },
     {
-      "id": "b38f3dfc-1802-416d-a183-39dcc48b9c70",
+      "id": "45bc7755-9e57-4826-97d7-b0af7c77df5a",
       "text": "For the end-point measurement of HMC/PPO: \r\n  \\(a) incubate the bacteria under test at 10<sup>6</sup> cfu/ml with 60 &#x3BC;g purified HMC plus 100 nmol 4-methylcatechol \\(4ME) in 100 &#x3BC;l PBS at 37 &#xB0;C for 1 h. \r\n\n\n\\(b) then enumerate the remnant bacterial population in the reaction mixture by plating 100 &#x3BC;l of serially diluted samples on nutrient agar plates and incubating at 37 &#xB0;C overnight.  Perform the colony count and calculate the bacterial cfu/ml.\r\n\n\n\\(c) add 10 nmol of phenylthiourea \\(PTU) to the reactions in order to  evaluate the impact of PO activity.  \r\n\n\n\\(d) also set up controls by incubating bacteria with HMC/PPO or 4ME or PTU separately, or in combinations.",
       "instruction": "ADD",
       "slots": [
         {
           "key": "reagent1",
           "value": "bacterial culture",
-          "id": "8a63d900-3ad9-4937-bd91-1dd24dd8ae49",
-          "node_id": "b38f3dfc-1802-416d-a183-39dcc48b9c70"
+          "id": "8dbace68-7387-4872-ba51-e873ed2166e6",
+          "node_id": "45bc7755-9e57-4826-97d7-b0af7c77df5a"
         },
         {
           "key": "reagent2",
           "value": "phenylthiourea (PTU)",
-          "id": "d713a4db-ef2b-4b7f-8de7-7b082dd82042",
-          "node_id": "b38f3dfc-1802-416d-a183-39dcc48b9c70"
+          "id": "8d95e7a4-d977-4139-90e6-c6c774a3e447",
+          "node_id": "45bc7755-9e57-4826-97d7-b0af7c77df5a"
         },
         {
           "key": "concentration",
           "value": "10 nmol",
-          "id": "5f936faa-c2f4-4540-a940-8106d6528de0",
-          "node_id": "b38f3dfc-1802-416d-a183-39dcc48b9c70"
+          "id": "3476abb4-742d-40a4-94f5-3a256f1032c8",
+          "node_id": "45bc7755-9e57-4826-97d7-b0af7c77df5a"
         }
       ],
       "emits": []
     },
     {
-      "id": "f022321b-b6f6-426f-85dd-b2940631ba53",
+      "id": "b2bc9963-b3fa-4a14-a8c6-5f6d5434dd94",
       "text": "For the end-point measurement of HMC/PPO: \r\n  \\(a) incubate the bacteria under test at 10<sup>6</sup> cfu/ml with 60 &#x3BC;g purified HMC plus 100 nmol 4-methylcatechol \\(4ME) in 100 &#x3BC;l PBS at 37 &#xB0;C for 1 h. \r\n\n\n\\(b) then enumerate the remnant bacterial population in the reaction mixture by plating 100 &#x3BC;l of serially diluted samples on nutrient agar plates and incubating at 37 &#xB0;C overnight.  Perform the colony count and calculate the bacterial cfu/ml.\r\n\n\n\\(c) add 10 nmol of phenylthiourea \\(PTU) to the reactions in order to  evaluate the impact of PO activity.  \r\n\n\n\\(d) also set up controls by incubating bacteria with HMC/PPO or 4ME or PTU separately, or in combinations.",
       "instruction": "INCUBATE",
       "slots": [
         {
           "key": "reagent1",
           "value": "bacterial culture",
-          "id": "62659655-305d-47db-a21a-c974b8f16def",
-          "node_id": "f022321b-b6f6-426f-85dd-b2940631ba53"
+          "id": "6eeca403-36d8-4d70-a135-4e35efc96253",
+          "node_id": "b2bc9963-b3fa-4a14-a8c6-5f6d5434dd94"
         },
         {
           "key": "reagent2",
           "value": "HMC/PPO or 4ME or PTU separately, or in combinations",
-          "id": "726a6596-d151-435b-8d2e-1f2c81028d1c",
-          "node_id": "f022321b-b6f6-426f-85dd-b2940631ba53"
+          "id": "e961d074-d1d6-449c-bff7-501e9e596148",
+          "node_id": "b2bc9963-b3fa-4a14-a8c6-5f6d5434dd94"
         },
         {
           "key": "temperature",
           "value": "37 \u00b0C",
-          "id": "d6ceeb88-12c0-415c-9e02-a2dda5dd6350",
-          "node_id": "f022321b-b6f6-426f-85dd-b2940631ba53"
+          "id": "4ca8ca9d-caf5-4eaf-be41-d1c5d3689fd3",
+          "node_id": "b2bc9963-b3fa-4a14-a8c6-5f6d5434dd94"
         },
         {
           "key": "time",
           "value": "1 h",
-          "id": "958a0b40-5262-4196-8651-d52b238ef7b8",
-          "node_id": "f022321b-b6f6-426f-85dd-b2940631ba53"
+          "id": "10fb8273-dabd-4ae4-9b40-753a355043f0",
+          "node_id": "b2bc9963-b3fa-4a14-a8c6-5f6d5434dd94"
         }
       ],
       "emits": [
         {
           "key": "reagent0",
           "value": "bacterial culture",
-          "id": "a9bdb89e-83aa-4563-9888-2634bc75635e",
-          "node_id": "f022321b-b6f6-426f-85dd-b2940631ba53"
+          "id": "4265465f-6e88-4ec6-90c3-4c07cca252c0",
+          "node_id": "b2bc9963-b3fa-4a14-a8c6-5f6d5434dd94"
         }
       ]
     },
     {
-      "id": "54c3888d-7e5c-4942-a654-e9ca34bb72c0",
+      "id": "ac69b74a-ae2a-462c-8993-4076b67d1e52",
       "text": "For real-time imaging of the bacterial clearance elicited by HMC/PPO: \r\n  \\(a) mix each bacterial strain at 10<sup>7</sup> cfu/ml with 60 &#x3BC;g HMC/PPO and 100 nmol 4ME in 100 &#x3BC;l PBS.  \r\n\n\n\\(b) apply one &#x3BC;l of the mixture to fluorescence microscopy and examine it at  magnification of 63 x 1.6, with time-elapse method.  \r\n\n\n\\(c)  capture images at intervals of 30 s for 1 h, and make a movie.",
       "instruction": "MIX",
       "slots": [
         {
           "key": "reagent1",
           "value": "bacterial strain",
-          "id": "24a3553a-dc35-44da-afd1-657d1d50f9f8",
-          "node_id": "54c3888d-7e5c-4942-a654-e9ca34bb72c0"
+          "id": "4292d07f-a854-42eb-be51-5d3de2da30f5",
+          "node_id": "ac69b74a-ae2a-462c-8993-4076b67d1e52"
         },
         {
           "key": "reagent2",
           "value": "HMC/PPO and 4ME",
-          "id": "4a5f7a05-9152-475f-87f0-82ebbabb8f5f",
-          "node_id": "54c3888d-7e5c-4942-a654-e9ca34bb72c0"
+          "id": "977252e8-74b1-465b-88ec-dacff94e9584",
+          "node_id": "ac69b74a-ae2a-462c-8993-4076b67d1e52"
         },
         {
           "key": "ratio",
           "value": "10^7 cfu/ml : 60 \u03bcg : 100 nmol",
-          "id": "c3e50d52-6b66-463e-aef0-58a36789c897",
-          "node_id": "54c3888d-7e5c-4942-a654-e9ca34bb72c0"
+          "id": "6ed28a8b-6038-421a-a40a-18df3dca833d",
+          "node_id": "ac69b74a-ae2a-462c-8993-4076b67d1e52"
         },
         {
           "key": "method",
           "value": "mix",
-          "id": "177bd8e6-7b87-476b-8e99-f4b89b4ab0df",
-          "node_id": "54c3888d-7e5c-4942-a654-e9ca34bb72c0"
+          "id": "025cb278-8ea5-4374-9992-e5079bf41e79",
+          "node_id": "ac69b74a-ae2a-462c-8993-4076b67d1e52"
         }
       ],
       "emits": [
         {
           "key": "reagent0",
           "value": "mixture",
-          "id": "62ad9535-2d62-4294-b940-28969f567de0",
-          "node_id": "54c3888d-7e5c-4942-a654-e9ca34bb72c0"
+          "id": "f1f7c999-5d1b-4b5b-b679-ea7fc6ab685e",
+          "node_id": "ac69b74a-ae2a-462c-8993-4076b67d1e52"
         }
       ]
     },
     {
-      "id": "59aa057e-226b-4b6b-a3dd-850e6ed48344",
+      "id": "258cc41e-e083-4ab4-ad64-ba20232924e4",
       "text": "For real-time imaging of the bacterial clearance elicited by HMC/PPO: \r\n  \\(a) mix each bacterial strain at 10<sup>7</sup> cfu/ml with 60 &#x3BC;g HMC/PPO and 100 nmol 4ME in 100 &#x3BC;l PBS.  \r\n\n\n\\(b) apply one &#x3BC;l of the mixture to fluorescence microscopy and examine it at  magnification of 63 x 1.6, with time-elapse method.  \r\n\n\n\\(c)  capture images at intervals of 30 s for 1 h, and make a movie.",
       "instruction": "APPLY",
       "slots": [
         {
           "key": "reagent2",
           "value": "mixture",
-          "id": "4269284a-b383-4b0e-93a6-e724113d0f91",
-          "node_id": "59aa057e-226b-4b6b-a3dd-850e6ed48344"
+          "id": "163f075f-0efb-43e9-b1d6-9faf6f0b5cd1",
+          "node_id": "258cc41e-e083-4ab4-ad64-ba20232924e4"
         }
       ],
       "emits": [
         {
           "key": "reagent0",
           "value": "mixture",
-          "id": "eeef899a-86b5-459c-a2e5-76496d2f9452",
-          "node_id": "59aa057e-226b-4b6b-a3dd-850e6ed48344"
+          "id": "20b8aa74-752f-4787-b389-f9c6a41211d9",
+          "node_id": "258cc41e-e083-4ab4-ad64-ba20232924e4"
         }
       ]
     },
     {
-      "id": "501b88c9-da0b-40db-a892-f8b70466e224",
+      "id": "f5520d2f-a6eb-48d2-b4b1-f6491f6c5a97",
       "text": "For real-time imaging of the bacterial clearance elicited by HMC/PPO: \r\n  \\(a) mix each bacterial strain at 10<sup>7</sup> cfu/ml with 60 &#x3BC;g HMC/PPO and 100 nmol 4ME in 100 &#x3BC;l PBS.  \r\n\n\n\\(b) apply one &#x3BC;l of the mixture to fluorescence microscopy and examine it at  magnification of 63 x 1.6, with time-elapse method.  \r\n\n\n\\(c)  capture images at intervals of 30 s for 1 h, and make a movie.",
       "instruction": "CAPTURE",
       "slots": [
         {
           "key": "reagent1",
           "value": "bacterial strain",
-          "id": "d0f5942e-4abb-432e-84c0-0f6c4bc3a9f5",
-          "node_id": "501b88c9-da0b-40db-a892-f8b70466e224"
+          "id": "351aa4f8-d6ee-402e-b263-f257030c551b",
+          "node_id": "f5520d2f-a6eb-48d2-b4b1-f6491f6c5a97"
         },
         {
           "key": "container",
           "value": "fluorescence microscopy",
-          "id": "8011093b-606d-4859-8f30-6502a66fce57",
-          "node_id": "501b88c9-da0b-40db-a892-f8b70466e224"
+          "id": "87e6155a-9159-48a5-becf-5a41041486b2",
+          "node_id": "f5520d2f-a6eb-48d2-b4b1-f6491f6c5a97"
         },
         {
           "key": "method",
           "value": "time-elapse",
-          "id": "3143734d-0e5c-47c2-942c-79b8f4ff10f4",
-          "node_id": "501b88c9-da0b-40db-a892-f8b70466e224"
+          "id": "1d5bef85-a022-48c5-aa28-c255acf15bc7",
+          "node_id": "f5520d2f-a6eb-48d2-b4b1-f6491f6c5a97"
         },
         {
           "key": "purpose",
           "value": "real-time imaging of the bacterial clearance elicited by HMC/PPO",
-          "id": "60a34e94-77cc-40bd-9ef7-7b9f9c0eeb6e",
-          "node_id": "501b88c9-da0b-40db-a892-f8b70466e224"
+          "id": "dc57c7ba-5586-4cc4-9a95-0fc88490a446",
+          "node_id": "f5520d2f-a6eb-48d2-b4b1-f6491f6c5a97"
         }
       ],
       "emits": [
         {
           "key": "reagent0",
           "value": "movie",
-          "id": "b668d560-2226-4cc1-8fd1-5f8e0ab870c1",
-          "node_id": "501b88c9-da0b-40db-a892-f8b70466e224"
+          "id": "41a07e7e-9cef-4c1a-b04c-95299206555a",
+          "node_id": "f5520d2f-a6eb-48d2-b4b1-f6491f6c5a97"
         }
       ]
     },
     {
-      "id": "e977a6c1-c7dc-44c2-b303-039ac2fcf17c",
+      "id": "a98530a5-d58b-4f10-8d95-0af022fb8875",
       "text": "For the end-point measurement of metHb: \r\n  \\(a) incubate the bacteria under test at 10<sup>6</sup> cfu/ml with 36 &#x3BC;g metHb and 1.6 &#x3BC;mol H<sub>2</sub>O<sub>2</sub>  in 200 &#x3BC;l PBS at 37 &#xB0;C for 1 h.  \r\n\n\n\\(b) then enumerate the remnant bacterial population in the reaction mixture by plating 100 &#x3BC;l of serially diluted samples on nutrient agar plates and incubating at 37 &#xB0;C overnight.  Perform the colony count and calculate the bacterial cfu/ml.\r\n\n\n\\(c) to further prove that the antibacterial activity was indeed attributable to ROS, apply 2 &#x3BC;mol GSH to the incubation mixture to quench the superoxide ions.  \r\n\n\n\\(d) set up controls by incubating bacteria with metHb, H<sub>2</sub>O<sub>2</sub> or GSH separately or in combinations.",
       "instruction": "INCUBATE",
       "slots": [
         {
           "key": "reagent1",
           "value": "bacterial culture",
-          "id": "06ccc1a8-1514-47e3-ae0f-c5b7ae3cc095",
-          "node_id": "e977a6c1-c7dc-44c2-b303-039ac2fcf17c"
+          "id": "68da582e-803f-4a09-a138-5dc6636fa08d",
+          "node_id": "a98530a5-d58b-4f10-8d95-0af022fb8875"
         },
         {
           "key": "reagent2",
           "value": "36 \u03bcg metHb and 1.6 \u03bcmol H2O2",
-          "id": "4bdbfce1-3c94-4c4a-8537-96f781dff18f",
-          "node_id": "e977a6c1-c7dc-44c2-b303-039ac2fcf17c"
+          "id": "e13464f1-f7c0-485d-9c40-461b8549be26",
+          "node_id": "a98530a5-d58b-4f10-8d95-0af022fb8875"
         },
         {
           "key": "temperature",
           "value": "37 \u00b0C",
-          "id": "64ca419b-3dcf-4197-910c-48148f9bb9d3",
-          "node_id": "e977a6c1-c7dc-44c2-b303-039ac2fcf17c"
+          "id": "5a74db59-7b4f-49a7-bf61-478a3e2467ea",
+          "node_id": "a98530a5-d58b-4f10-8d95-0af022fb8875"
         },
         {
           "key": "time",
           "value": "1 h",
-          "id": "968416a5-df31-4935-a926-a0e3698c65bf",
-          "node_id": "e977a6c1-c7dc-44c2-b303-039ac2fcf17c"
+          "id": "81be6a49-14bb-4ae3-996e-e34fbceedfdd",
+          "node_id": "a98530a5-d58b-4f10-8d95-0af022fb8875"
         }
       ],
       "emits": [
         {
           "key": "reagent0",
           "value": "bacterial culture",
-          "id": "ebd5b999-80d0-4b14-8c2b-e05901a3e49e",
-          "node_id": "e977a6c1-c7dc-44c2-b303-039ac2fcf17c"
+          "id": "0dc1d078-7158-4472-86a2-fc7c360182eb",
+          "node_id": "a98530a5-d58b-4f10-8d95-0af022fb8875"
         }
       ]
     },
     {
-      "id": "3c4e509b-09a9-4c3e-af69-a0fb5b0990ae",
+      "id": "7b74edc5-0e52-4168-bff5-f91fecb9afd3",
       "text": "For the end-point measurement of metHb: \r\n  \\(a) incubate the bacteria under test at 10<sup>6</sup> cfu/ml with 36 &#x3BC;g metHb and 1.6 &#x3BC;mol H<sub>2</sub>O<sub>2</sub>  in 200 &#x3BC;l PBS at 37 &#xB0;C for 1 h.  \r\n\n\n\\(b) then enumerate the remnant bacterial population in the reaction mixture by plating 100 &#x3BC;l of serially diluted samples on nutrient agar plates and incubating at 37 &#xB0;C overnight.  Perform the colony count and calculate the bacterial cfu/ml.\r\n\n\n\\(c) to further prove that the antibacterial activity was indeed attributable to ROS, apply 2 &#x3BC;mol GSH to the incubation mixture to quench the superoxide ions.  \r\n\n\n\\(d) set up controls by incubating bacteria with metHb, H<sub>2</sub>O<sub>2</sub> or GSH separately or in combinations.",
       "instruction": "PLATE",
       "slots": [
         {
           "key": "reagent1",
           "value": "remnant bacterial population",
-          "id": "987d8238-5f8c-4b8a-8477-daf1448d7ac0",
-          "node_id": "3c4e509b-09a9-4c3e-af69-a0fb5b0990ae"
+          "id": "4f1864f8-4eff-469c-a413-946be1c782d7",
+          "node_id": "7b74edc5-0e52-4168-bff5-f91fecb9afd3"
         },
         {
           "key": "reagent2",
           "value": "nutrient agar plates",
-          "id": "0e64ef3f-b519-4f9d-8b88-2c91eca3e592",
-          "node_id": "3c4e509b-09a9-4c3e-af69-a0fb5b0990ae"
+          "id": "6bfcefa5-4e30-41fc-8391-9d1553150c8d",
+          "node_id": "7b74edc5-0e52-4168-bff5-f91fecb9afd3"
         }
       ],
       "emits": [
         {
           "key": "reagent0",
           "value": "remnant bacterial population",
-          "id": "5bf75c4a-48a3-459a-a0ef-970493d1bd0b",
-          "node_id": "3c4e509b-09a9-4c3e-af69-a0fb5b0990ae"
+          "id": "2d001214-067f-4a37-9cac-6750f7c6b19c",
+          "node_id": "7b74edc5-0e52-4168-bff5-f91fecb9afd3"
         }
       ]
     },
     {
-      "id": "2f159725-eb52-4349-9745-b0ed5dbc802f",
+      "id": "84de8323-9d5c-4a8c-9a37-188a49e64ece",
       "text": "For the end-point measurement of metHb: \r\n  \\(a) incubate the bacteria under test at 10<sup>6</sup> cfu/ml with 36 &#x3BC;g metHb and 1.6 &#x3BC;mol H<sub>2</sub>O<sub>2</sub>  in 200 &#x3BC;l PBS at 37 &#xB0;C for 1 h.  \r\n\n\n\\(b) then enumerate the remnant bacterial population in the reaction mixture by plating 100 &#x3BC;l of serially diluted samples on nutrient agar plates and incubating at 37 &#xB0;C overnight.  Perform the colony count and calculate the bacterial cfu/ml.\r\n\n\n\\(c) to further prove that the antibacterial activity was indeed attributable to ROS, apply 2 &#x3BC;mol GSH to the incubation mixture to quench the superoxide ions.  \r\n\n\n\\(d) set up controls by incubating bacteria with metHb, H<sub>2</sub>O<sub>2</sub> or GSH separately or in combinations.",
       "instruction": "COUNT",
       "slots": [
         {
           "key": "reagent1",
           "value": "remnant bacterial population",
-          "id": "5fdc4135-0776-449b-813d-ba507586978c",
-          "node_id": "2f159725-eb52-4349-9745-b0ed5dbc802f"
+          "id": "ebe6ee9d-90cf-4b56-ada6-e932c5a8ca2b",
+          "node_id": "84de8323-9d5c-4a8c-9a37-188a49e64ece"
         }
       ],
       "emits": [
         {
           "key": "data0",
           "value": "cfu/ml",
-          "id": "bf4636fd-b01b-472f-b437-78a8bab4859e",
-          "node_id": "2f159725-eb52-4349-9745-b0ed5dbc802f"
+          "id": "10f3eabc-c867-430c-9c72-f1fd7a5b033c",
+          "node_id": "84de8323-9d5c-4a8c-9a37-188a49e64ece"
         }
       ]
     },
     {
-      "id": "ae355701-4383-4774-bf8d-a523d41a899c",
+      "id": "c9364382-aeee-44c0-b8c5-679680c0ed9b",
       "text": "For the end-point measurement of metHb: \r\n  \\(a) incubate the bacteria under test at 10<sup>6</sup> cfu/ml with 36 &#x3BC;g metHb and 1.6 &#x3BC;mol H<sub>2</sub>O<sub>2</sub>  in 200 &#x3BC;l PBS at 37 &#xB0;C for 1 h.  \r\n\n\n\\(b) then enumerate the remnant bacterial population in the reaction mixture by plating 100 &#x3BC;l of serially diluted samples on nutrient agar plates and incubating at 37 &#xB0;C overnight.  Perform the colony count and calculate the bacterial cfu/ml.\r\n\n\n\\(c) to further prove that the antibacterial activity was indeed attributable to ROS, apply 2 &#x3BC;mol GSH to the incubation mixture to quench the superoxide ions.  \r\n\n\n\\(d) set up controls by incubating bacteria with metHb, H<sub>2</sub>O<sub>2</sub> or GSH separately or in combinations.",
       "instruction": "APPLY",
       "slots": [
         {
           "key": "reagent1",
           "value": "metHb, H2O2 or GSH",
-          "id": "2d425239-c9fc-499d-a58c-c3fd9c807c4f",
-          "node_id": "ae355701-4383-4774-bf8d-a523d41a899c"
+          "id": "cc6a1aaa-c3b9-4b78-be60-fc23100e9578",
+          "node_id": "c9364382-aeee-44c0-b8c5-679680c0ed9b"
         },
         {
           "key": "reagent2",
           "value": "GSH",
-          "id": "c5da7d57-2560-49f1-b6f2-6f8448dc1734",
-          "node_id": "ae355701-4383-4774-bf8d-a523d41a899c"
+          "id": "1ff6de5b-9a24-4470-9b24-e6678f9076b5",
+          "node_id": "c9364382-aeee-44c0-b8c5-679680c0ed9b"
         },
         {
           "key": "ratio",
           "value": "2 \u03bcmol",
-          "id": "907e5262-be16-4c46-b39c-b47c151f35d2",
-          "node_id": "ae355701-4383-4774-bf8d-a523d41a899c"
+          "id": "ee7f6287-09f7-4a6c-939b-41c6d904ffe4",
+          "node_id": "c9364382-aeee-44c0-b8c5-679680c0ed9b"
         }
       ],
       "emits": []
     },
     {
-      "id": "1cf03741-61e8-4ac6-9b7e-31b1e66813c3",
+      "id": "11a54121-48ec-4437-a069-4914a09e9065",
       "text": "For the end-point measurement of metHb: \r\n  \\(a) incubate the bacteria under test at 10<sup>6</sup> cfu/ml with 36 &#x3BC;g metHb and 1.6 &#x3BC;mol H<sub>2</sub>O<sub>2</sub>  in 200 &#x3BC;l PBS at 37 &#xB0;C for 1 h.  \r\n\n\n\\(b) then enumerate the remnant bacterial population in the reaction mixture by plating 100 &#x3BC;l of serially diluted samples on nutrient agar plates and incubating at 37 &#xB0;C overnight.  Perform the colony count and calculate the bacterial cfu/ml.\r\n\n\n\\(c) to further prove that the antibacterial activity was indeed attributable to ROS, apply 2 &#x3BC;mol GSH to the incubation mixture to quench the superoxide ions.  \r\n\n\n\\(d) set up controls by incubating bacteria with metHb, H<sub>2</sub>O<sub>2</sub> or GSH separately or in combinations.",
       "instruction": "SETUP",
       "slots": [
         {
           "key": "container",
           "value": "bacterial culture",
-          "id": "4f1032d8-330c-404b-aa90-f2eec73f8103",
-          "node_id": "1cf03741-61e8-4ac6-9b7e-31b1e66813c3"
+          "id": "2adbbc62-7cea-4e11-aa52-2bcdb1c14a8a",
+          "node_id": "11a54121-48ec-4437-a069-4914a09e9065"
         },
         {
           "key": "reagent1",
           "value": "metHb",
-          "id": "7e575d09-df54-4b6f-aea2-cdce3fa6c515",
-          "node_id": "1cf03741-61e8-4ac6-9b7e-31b1e66813c3"
+          "id": "5c66e909-81b5-49d1-8f66-09ca57b005b7",
+          "node_id": "11a54121-48ec-4437-a069-4914a09e9065"
         },
         {
           "key": "reagent2",
           "value": "H2O2 or GSH",
-          "id": "2eb4f237-227a-456f-be11-1cb5c12b1d8f",
-          "node_id": "1cf03741-61e8-4ac6-9b7e-31b1e66813c3"
+          "id": "c080b67a-842b-4fc5-9708-dddd8cb165f3",
+          "node_id": "11a54121-48ec-4437-a069-4914a09e9065"
         },
         {
           "key": "volume",
           "value": "200 \u03bcl",
-          "id": "71c631dd-ca42-4b00-a339-3489f4ddb2f6",
-          "node_id": "1cf03741-61e8-4ac6-9b7e-31b1e66813c3"
+          "id": "8a4f4e83-0f89-4bd3-950f-03970fea4e35",
+          "node_id": "11a54121-48ec-4437-a069-4914a09e9065"
         },
         {
           "key": "temperature",
           "value": "37 \u00b0C",
-          "id": "92eda8cb-e66f-461b-be84-c6ed5e069e34",
-          "node_id": "1cf03741-61e8-4ac6-9b7e-31b1e66813c3"
+          "id": "025cbc1e-e201-4a5f-8726-5dc9057a99b1",
+          "node_id": "11a54121-48ec-4437-a069-4914a09e9065"
         }
       ],
       "emits": [
         {
           "key": "reagent0",
           "value": "remnant bacterial population",
-          "id": "d14cf7e0-6f20-4cbe-b3cf-966666d85a8c",
-          "node_id": "1cf03741-61e8-4ac6-9b7e-31b1e66813c3"
+          "id": "25f2d1d8-5e6e-4c9c-9c77-e704c098ac62",
+          "node_id": "11a54121-48ec-4437-a069-4914a09e9065"
         }
       ]
     }

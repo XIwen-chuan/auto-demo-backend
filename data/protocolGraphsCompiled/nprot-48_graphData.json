@@ -2,371 +2,371 @@
   "name": "nprot-48_graphData.json",
   "nodes": [
     {
-      "id": "29cac932-6c79-4efb-b9c6-758c35cb5566",
+      "id": "f4718ec9-fdad-44ba-abc0-433c5d749299",
       "text": "Isolate peripheral blood lymphocytes from different healthy donors using Ficoll gradients.",
       "instruction": "ISOLATE",
       "slots": [
         {
           "key": "component",
           "value": "peripheral blood lymphocytes",
-          "id": "7ad13fb4-b03f-4f25-bc43-30e87bab9572",
-          "node_id": "29cac932-6c79-4efb-b9c6-758c35cb5566"
+          "id": "530d87fb-11f5-48ab-bd83-7eacf988cca8",
+          "node_id": "f4718ec9-fdad-44ba-abc0-433c5d749299"
         },
         {
           "key": "reagent1",
           "value": "Ficoll gradients",
-          "id": "ee92f911-86ec-4354-9f87-90eb11095d1e",
-          "node_id": "29cac932-6c79-4efb-b9c6-758c35cb5566"
+          "id": "d084b6ab-997c-4830-883d-12a322874439",
+          "node_id": "f4718ec9-fdad-44ba-abc0-433c5d749299"
         }
       ],
       "emits": [
         {
           "key": "reagent0",
           "value": "peripheral blood lymphocytes",
-          "id": "b45b9a17-27f2-4610-ae43-5b419ccba8fd",
-          "node_id": "29cac932-6c79-4efb-b9c6-758c35cb5566"
+          "id": "8e392acc-9851-4a93-86fe-638e832a8cc5",
+          "node_id": "f4718ec9-fdad-44ba-abc0-433c5d749299"
         }
       ]
     },
     {
-      "id": "3b7372d3-6578-4821-81c5-ec2cf737d129",
+      "id": "ee077624-6b0f-4cd4-9ad0-8588f16a92de",
       "text": "Isolate NK cells using the NK isolation kit II \\(Miltenyi Biotec), according to manufacturer&#x2019;s instructions.",
       "instruction": "ISOLATE",
       "slots": [
         {
           "key": "component",
           "value": "NK cells",
-          "id": "8bdade4b-0455-4db2-8071-bc6ab301d770",
-          "node_id": "3b7372d3-6578-4821-81c5-ec2cf737d129"
+          "id": "f104a8e8-4e95-4f41-a887-c4a510c4e891",
+          "node_id": "ee077624-6b0f-4cd4-9ad0-8588f16a92de"
         },
         {
           "key": "reagent1",
           "value": "NK isolation kit II (Miltenyi Biotec)",
-          "id": "7982610d-7df8-45f3-9ea5-22b08a2f4376",
-          "node_id": "3b7372d3-6578-4821-81c5-ec2cf737d129"
+          "id": "6829a42c-4c4f-4808-81d6-c5fea8b10fcd",
+          "node_id": "ee077624-6b0f-4cd4-9ad0-8588f16a92de"
         }
       ],
       "emits": [
         {
           "key": "reagent0",
           "value": "NK cells",
-          "id": "70e68150-6b3d-4493-a39b-adb85912cfb3",
-          "node_id": "3b7372d3-6578-4821-81c5-ec2cf737d129"
+          "id": "9114dd31-e560-4fc9-9783-514dc0d4001c",
+          "node_id": "ee077624-6b0f-4cd4-9ad0-8588f16a92de"
         }
       ]
     },
     {
-      "id": "6f10a6dc-69e1-4d06-9d48-c79dd83f4e3e",
+      "id": "dc0ea6d7-dcb8-4e3a-af92-ac194a2bfcef",
       "text": "Sort 100 X 10<sup>6</sup> cells enriched for CD56+CD3-NK cells from each donor, as described below, in order to purify CD56dimCD16+CD3- and CD56brightCD16-CD3- subsets.",
       "instruction": "SORT",
       "slots": [
         {
           "key": "reagent1",
           "value": "NK cells",
-          "id": "c36d73f2-e536-49c1-b91c-01dd569b79e2",
-          "node_id": "6f10a6dc-69e1-4d06-9d48-c79dd83f4e3e"
+          "id": "55e61779-ae00-414e-86ec-a08f1d2efb3b",
+          "node_id": "dc0ea6d7-dcb8-4e3a-af92-ac194a2bfcef"
         },
         {
           "key": "device",
           "value": "FACS",
-          "id": "b9ac5877-d87e-4978-9628-4c225cb16658",
-          "node_id": "6f10a6dc-69e1-4d06-9d48-c79dd83f4e3e"
+          "id": "87e7ad6a-e243-4e40-9063-2b344b8db72a",
+          "node_id": "dc0ea6d7-dcb8-4e3a-af92-ac194a2bfcef"
         }
       ],
       "emits": [
         {
           "key": "reagent0",
           "value": "CD56+CD3-NK cells",
-          "id": "3cf44db8-64e8-47eb-b97f-276927bad7f5",
-          "node_id": "6f10a6dc-69e1-4d06-9d48-c79dd83f4e3e"
+          "id": "82746048-1491-4d7a-9036-f11b65e3369e",
+          "node_id": "dc0ea6d7-dcb8-4e3a-af92-ac194a2bfcef"
         }
       ]
     },
     {
-      "id": "af686137-8012-43e5-9198-1c297abe98bd",
+      "id": "c9b12003-67c0-44aa-ae7c-6826d74be9aa",
       "text": "For each experimental with NK subsets, also perform mock isolation of pbNK cells as if they were dNK cells to rule out the possibility that differences between NK subsets was due to methodological differences in isolation procedures. Achieve this by subjecting isolated pbNK cells to the same isolation protocol used for the isolation of dNK cells\\(2).\r\n\n\n\r\n\n\n",
       "instruction": "PERFORM",
       "slots": [
         {
           "key": "procedure",
           "value": "Isolate NK cells using the NK isolation kit II (Miltenyi Biotec)",
-          "id": "b0a4a38a-8a2c-498c-83b8-6babd27ce7d1",
-          "node_id": "af686137-8012-43e5-9198-1c297abe98bd"
+          "id": "e4299b29-69c2-4c1c-92a5-3781f6fca115",
+          "node_id": "c9b12003-67c0-44aa-ae7c-6826d74be9aa"
         }
       ],
       "emits": [
         {
           "key": "reagent0",
           "value": "NK cells",
-          "id": "f35443aa-2e11-4561-9ae0-a7451f9ce5c4",
-          "node_id": "af686137-8012-43e5-9198-1c297abe98bd"
+          "id": "9fbdabf0-3277-42da-aa31-309215c977a8",
+          "node_id": "c9b12003-67c0-44aa-ae7c-6826d74be9aa"
         }
       ]
     },
     {
-      "id": "e414c504-e781-4d51-9315-ce8d1a12c874",
+      "id": "87f21795-b1ea-408a-9c97-4ad3220476a3",
       "text": "Wash cells in PBS supplemented with 2% FCS and incubate with mAb on ice for 30 min.",
       "instruction": "WASH",
       "slots": [
         {
           "key": "reagent1",
           "value": "cells",
-          "id": "9b56fc5c-5f2b-4d90-a18b-15a1898cd090",
-          "node_id": "e414c504-e781-4d51-9315-ce8d1a12c874"
+          "id": "4cdf8d08-b4e6-40be-990b-d8eafc155d74",
+          "node_id": "87f21795-b1ea-408a-9c97-4ad3220476a3"
         },
         {
           "key": "reagent2",
           "value": "PBS supplemented with 2% FCS",
-          "id": "40094754-063d-4933-9ff8-fa88da49c2c3",
-          "node_id": "e414c504-e781-4d51-9315-ce8d1a12c874"
+          "id": "9b3420fc-2577-4148-b75d-8a98478b5634",
+          "node_id": "87f21795-b1ea-408a-9c97-4ad3220476a3"
         },
         {
           "key": "time",
           "value": "30 min",
-          "id": "83ea76b0-4044-48c8-ac1a-891fa0aeecd6",
-          "node_id": "e414c504-e781-4d51-9315-ce8d1a12c874"
+          "id": "91f848f3-af84-4c9f-ad7e-ccd14b8937f2",
+          "node_id": "87f21795-b1ea-408a-9c97-4ad3220476a3"
         }
       ],
       "emits": [
         {
           "key": "reagent0",
           "value": "cells",
-          "id": "ebdd33db-08df-4212-9a09-2dacbfa363fd",
-          "node_id": "e414c504-e781-4d51-9315-ce8d1a12c874"
+          "id": "be5f824b-12d0-4ca9-82ce-973350fce0c9",
+          "node_id": "87f21795-b1ea-408a-9c97-4ad3220476a3"
         }
       ]
     },
     {
-      "id": "cf4ec071-eeb9-40fd-8ece-3d5f423e2a43",
+      "id": "49419483-66f7-4459-aff6-c2edead888dc",
       "text": "Wash cells in PBS supplemented with 2% FCS and incubate with mAb on ice for 30 min.",
       "instruction": "INCUBATE",
       "slots": [
         {
           "key": "reagent1",
           "value": "mAb",
-          "id": "6225953d-013b-49e1-bd6d-9546bccdcaea",
-          "node_id": "cf4ec071-eeb9-40fd-8ece-3d5f423e2a43"
+          "id": "2751ed03-ba2d-40db-8a2f-6888cdabc7bf",
+          "node_id": "49419483-66f7-4459-aff6-c2edead888dc"
         },
         {
           "key": "temperature",
           "value": "ice",
-          "id": "123669cf-e7c9-4ab5-a650-6fb63edc47fb",
-          "node_id": "cf4ec071-eeb9-40fd-8ece-3d5f423e2a43"
+          "id": "e90d4f7a-3c72-4729-b851-2d0c09a50c54",
+          "node_id": "49419483-66f7-4459-aff6-c2edead888dc"
         },
         {
           "key": "time",
           "value": "30 min",
-          "id": "782cd3fb-ae46-4ed2-9f4a-baa8d7eebf96",
-          "node_id": "cf4ec071-eeb9-40fd-8ece-3d5f423e2a43"
+          "id": "ca2bd796-f7d3-4089-9970-6ccdcbca3d24",
+          "node_id": "49419483-66f7-4459-aff6-c2edead888dc"
         }
       ],
       "emits": [
         {
           "key": "reagent0",
           "value": "cells",
-          "id": "c0beceaf-3b3e-4c01-8e99-7510d47f49eb",
-          "node_id": "cf4ec071-eeb9-40fd-8ece-3d5f423e2a43"
+          "id": "13fad962-3c2c-403d-95c5-c2bbc6c23c1f",
+          "node_id": "49419483-66f7-4459-aff6-c2edead888dc"
         }
       ]
     },
     {
-      "id": "177db6c3-e48b-478c-89a1-efba5dc02db5",
+      "id": "db606036-1b2e-4019-a108-c4816b45823e",
       "text": "Wash twice.",
       "instruction": "WASH",
       "slots": [
         {
           "key": "reagent1",
           "value": "cells",
-          "id": "fd4892f4-da19-4c44-b398-574176857d71",
-          "node_id": "177db6c3-e48b-478c-89a1-efba5dc02db5"
+          "id": "5c54af5d-02dd-43d5-8fcb-9d6c4e7c1bff",
+          "node_id": "db606036-1b2e-4019-a108-c4816b45823e"
         },
         {
           "key": "reagent2",
           "value": "PBS supplemented with 2% FCS",
-          "id": "d1bce172-a087-446a-a793-abebcde7bab7",
-          "node_id": "177db6c3-e48b-478c-89a1-efba5dc02db5"
+          "id": "983f5daa-78ad-4d20-8eea-0c602080c607",
+          "node_id": "db606036-1b2e-4019-a108-c4816b45823e"
         },
         {
           "key": "repeat",
           "value": "2",
-          "id": "db2cb2ac-7359-4517-9885-f1cb95d474e2",
-          "node_id": "177db6c3-e48b-478c-89a1-efba5dc02db5"
+          "id": "dcd2cd63-52e3-4921-8a19-43ad77aed1fb",
+          "node_id": "db606036-1b2e-4019-a108-c4816b45823e"
         }
       ],
       "emits": [
         {
           "key": "reagent0",
           "value": "cells",
-          "id": "709a0e18-bc86-43e1-a77d-b8bdd17883cd",
-          "node_id": "177db6c3-e48b-478c-89a1-efba5dc02db5"
+          "id": "f4cbed89-b690-4d69-8d2c-11f507448a93",
+          "node_id": "db606036-1b2e-4019-a108-c4816b45823e"
         }
       ]
     },
     {
-      "id": "d0ec7684-10c4-447b-bcfa-37bad4f03f8e",
+      "id": "711c06f8-0277-4867-8cd0-a1d53d900248",
       "text": "Cell sort and measure fluorescence on a MoFlo high performance cell sorter \\(DakoCytomation).",
       "instruction": "SORT",
       "slots": [
         {
           "key": "reagent1",
           "value": "CD56+CD3-NK cells",
-          "id": "b19b1747-1704-4c47-8b50-f3bcca1ad3c7",
-          "node_id": "d0ec7684-10c4-447b-bcfa-37bad4f03f8e"
+          "id": "06e243c2-750a-411d-b21e-98f1f42516cc",
+          "node_id": "711c06f8-0277-4867-8cd0-a1d53d900248"
         },
         {
           "key": "device",
           "value": "MoFlo high performance cell sorter (DakoCytomation)",
-          "id": "837284b5-8e44-4686-a297-e700f736a8eb",
-          "node_id": "d0ec7684-10c4-447b-bcfa-37bad4f03f8e"
+          "id": "bf3b5e83-0073-4dac-ba5b-7c214e042d53",
+          "node_id": "711c06f8-0277-4867-8cd0-a1d53d900248"
         }
       ],
       "emits": [
         {
           "key": "reagent0",
           "value": "CD56+CD3-NK cells",
-          "id": "c1fe7d3c-8678-4211-a9d3-b54baa3ffacb",
-          "node_id": "d0ec7684-10c4-447b-bcfa-37bad4f03f8e"
+          "id": "46c1303e-3796-4c39-bd9c-da575595e30e",
+          "node_id": "711c06f8-0277-4867-8cd0-a1d53d900248"
         }
       ]
     },
     {
-      "id": "73c20b39-383d-4327-8d28-3e4c6e2bbb38",
+      "id": "f8a7db78-cc11-4f74-9311-c8ae612777bf",
       "text": "Cell sort and measure fluorescence on a MoFlo high performance cell sorter \\(DakoCytomation).",
       "instruction": "MEASURE",
       "slots": [
         {
           "key": "device",
           "value": "MoFlo high performance cell sorter (DakoCytomation)",
-          "id": "5e75978a-9064-4b99-b6c2-b607873374e7",
-          "node_id": "73c20b39-383d-4327-8d28-3e4c6e2bbb38"
+          "id": "1cc1485e-2bda-4c93-9331-8a0c39d35977",
+          "node_id": "f8a7db78-cc11-4f74-9311-c8ae612777bf"
         },
         {
           "key": "reagent1",
           "value": "<blank>",
-          "id": "1b33310d-ffa9-43bf-8d02-999f4e864b47",
-          "node_id": "73c20b39-383d-4327-8d28-3e4c6e2bbb38"
+          "id": "15512e3b-98f3-4674-8f50-f75f2a455b39",
+          "node_id": "f8a7db78-cc11-4f74-9311-c8ae612777bf"
         },
         {
           "key": "parameter",
           "value": "fluorescence",
-          "id": "0c4469d3-11eb-4117-aaf3-8c9288db606f",
-          "node_id": "73c20b39-383d-4327-8d28-3e4c6e2bbb38"
+          "id": "0f92fbbd-3c8b-4755-91ad-4b3db653a0fb",
+          "node_id": "f8a7db78-cc11-4f74-9311-c8ae612777bf"
         }
       ],
       "emits": [
         {
           "key": "data0",
           "value": "<blank>",
-          "id": "1e6c4b85-ecb6-4ef8-9f75-3a20fdb89bb1",
-          "node_id": "73c20b39-383d-4327-8d28-3e4c6e2bbb38"
+          "id": "4f846639-ce2c-4954-8eef-3bbbb52a0d44",
+          "node_id": "f8a7db78-cc11-4f74-9311-c8ae612777bf"
         }
       ]
     },
     {
-      "id": "67d38af9-911d-49e6-a10f-7a6d8cd5abef",
+      "id": "bad9ec48-7faa-435c-b086-0aa2af17e43d",
       "text": "Collect data from single cell events using a standard FACScaliburTM flow cytometer \\(Immunocytometry systems; Beckton Dickinson).",
       "instruction": "COLLECT",
       "slots": [
         {
           "key": "reagent1",
           "value": "single cell events",
-          "id": "7d73212d-48f1-4708-8ae5-0970341daadd",
-          "node_id": "67d38af9-911d-49e6-a10f-7a6d8cd5abef"
+          "id": "8b5315f7-898d-44c8-a648-6071f0b9b0bd",
+          "node_id": "bad9ec48-7faa-435c-b086-0aa2af17e43d"
         },
         {
           "key": "container",
           "value": "standard FACScaliburTM flow cytometer",
-          "id": "b82ca5fb-805c-4f6f-be4c-1ba70c3aeec5",
-          "node_id": "67d38af9-911d-49e6-a10f-7a6d8cd5abef"
+          "id": "ddd4fc8f-b752-49cd-98d1-b36c898794af",
+          "node_id": "bad9ec48-7faa-435c-b086-0aa2af17e43d"
         }
       ],
       "emits": [
         {
           "key": "reagent0",
           "value": "single cell events",
-          "id": "5f2bdd1a-aefc-4eb1-b239-7dc1f2299247",
-          "node_id": "67d38af9-911d-49e6-a10f-7a6d8cd5abef"
+          "id": "45a3d06f-4028-4d2d-a808-c517d74bb078",
+          "node_id": "bad9ec48-7faa-435c-b086-0aa2af17e43d"
         }
       ]
     },
     {
-      "id": "57fdbb2a-41c2-4083-b878-e028966db8be",
+      "id": "92061a29-a8d7-45b4-80ed-053dccdfd0f2",
       "text": "Highly purify peripheral blood NK subsets to obtain 2 subsets: CD56dimCD16+CD3- NK \\(pbCD16+ NK) and CD56brightCD16-CD3- \\(pbCD16- NK). Decidual NK cells should be uniformly of the CD56brightCD16-CD3-phenotype \\(dNK) cells.  Subset purity should be routinely higher than 99%.",
       "instruction": "PURIFY",
       "slots": [
         {
           "key": "reagent1",
           "value": "peripheral blood NK subsets",
-          "id": "93137431-7b58-4bc3-8b64-1e7ee259c928",
-          "node_id": "57fdbb2a-41c2-4083-b878-e028966db8be"
+          "id": "3edb6a42-c76e-4141-85ad-bdf16754b7d4",
+          "node_id": "92061a29-a8d7-45b4-80ed-053dccdfd0f2"
         },
         {
           "key": "method",
           "value": "cell sorting",
-          "id": "7a7d6cd4-a7f4-4e89-8480-6a2e3f8526c6",
-          "node_id": "57fdbb2a-41c2-4083-b878-e028966db8be"
+          "id": "3dd5fb24-c097-4d6c-8853-5a17a20a25c9",
+          "node_id": "92061a29-a8d7-45b4-80ed-053dccdfd0f2"
         },
         {
           "key": "device",
           "value": "MoFlo high performance cell sorter (DakoCytomation)",
-          "id": "a8bfa7d2-a2cd-4604-a752-3e1e596edf14",
-          "node_id": "57fdbb2a-41c2-4083-b878-e028966db8be"
+          "id": "b24bf7e9-005e-4347-a6cd-45dfc73a8e6d",
+          "node_id": "92061a29-a8d7-45b4-80ed-053dccdfd0f2"
         }
       ],
       "emits": [
         {
           "key": "reagent0",
           "value": "CD56dimCD16+CD3- NK (pbCD16+ NK)",
-          "id": "be77433c-7f8f-4139-81e5-afc6eda9fd95",
-          "node_id": "57fdbb2a-41c2-4083-b878-e028966db8be"
+          "id": "f43e98a5-3f47-4a8f-89c2-414a5b9b8010",
+          "node_id": "92061a29-a8d7-45b4-80ed-053dccdfd0f2"
         }
       ]
     },
     {
-      "id": "1d061e91-e36d-4c06-b6b9-b85be26ed8b8",
+      "id": "b3e37dd2-1b35-418d-afc2-bc1985e0d5e0",
       "text": "Highly purify peripheral blood NK subsets to obtain 2 subsets: CD56dimCD16+CD3- NK \\(pbCD16+ NK) and CD56brightCD16-CD3- \\(pbCD16- NK). Decidual NK cells should be uniformly of the CD56brightCD16-CD3-phenotype \\(dNK) cells.  Subset purity should be routinely higher than 99%.",
       "instruction": "OBTAIN",
       "slots": [
         {
           "key": "reagent1",
           "value": "peripheral blood NK subsets",
-          "id": "f0855df2-70ea-4eef-a0e9-b7766a213cd7",
-          "node_id": "1d061e91-e36d-4c06-b6b9-b85be26ed8b8"
+          "id": "f95ce917-c8ed-406a-b083-01dd6e280cb5",
+          "node_id": "b3e37dd2-1b35-418d-afc2-bc1985e0d5e0"
         },
         {
           "key": "notice",
           "value": "Subset purity should be routinely higher than 99%.",
-          "id": "8c88d16f-abf2-4b38-9994-fd24730a22e1",
-          "node_id": "1d061e91-e36d-4c06-b6b9-b85be26ed8b8"
+          "id": "d1323f49-8404-4586-af8d-e113df2bc5c8",
+          "node_id": "b3e37dd2-1b35-418d-afc2-bc1985e0d5e0"
         }
       ],
       "emits": [
         {
           "key": "reagent0",
           "value": "CD56brightCD16-CD3-phenotype (dNK) cells",
-          "id": "d9be18cb-3934-4aa7-99fb-5bf44f7455e6",
-          "node_id": "1d061e91-e36d-4c06-b6b9-b85be26ed8b8"
+          "id": "b670eff1-fc59-472e-867d-f0f77fe54bf9",
+          "node_id": "b3e37dd2-1b35-418d-afc2-bc1985e0d5e0"
         }
       ]
     },
     {
-      "id": "ffc99057-4d00-4008-a523-8bc25323c52c",
+      "id": "9783c6b6-3168-4c4b-ba59-0f934ef17bc9",
       "text": "Perform intracellular staining with a Cytoperm-Cytofix Intracellular Staining kit \\(Pharmingen) according to the manufacturer&#x2019;s instructions.",
       "instruction": "PERFORM",
       "slots": [
         {
           "key": "procedure",
           "value": "Perform intracellular staining with a Cytoperm-Cytofix Intracellular Staining kit (Pharmingen) according to the manufacturer's instructions.",
-          "id": "cf7d0852-edf8-486a-a5ce-1c5acc36673c",
-          "node_id": "ffc99057-4d00-4008-a523-8bc25323c52c"
+          "id": "4fa86c69-040d-4d51-b6ec-758cf7b4173b",
+          "node_id": "9783c6b6-3168-4c4b-ba59-0f934ef17bc9"
         }
       ],
       "emits": [
         {
           "key": "reagent0",
           "value": "Cytoperm-Cytofix Intracellular Staining kit (Pharmingen)",
-          "id": "cc04dede-4cdf-4fe5-ac88-bbed9a352694",
-          "node_id": "ffc99057-4d00-4008-a523-8bc25323c52c"
+          "id": "ef597510-e504-4951-b3f3-db156cb529a3",
+          "node_id": "9783c6b6-3168-4c4b-ba59-0f934ef17bc9"
         }
       ]
     }

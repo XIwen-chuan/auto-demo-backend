@@ -2,603 +2,603 @@
   "name": "nprot-175_graphData.json",
   "nodes": [
     {
-      "id": "4c7ff177-4434-4a06-b15a-1de133c973d6",
+      "id": "8ea8fc42-7bdd-4a7f-8f2b-77b053f11bac",
       "text": "Pellet cells and resuspend in 1 mL of Trizol \\(I have difficulty isolating quality RNA from less than 1 X 10<sup>6</sup> primary T cells). 1 mL of Trizol can be used for 1 X 10<sup>6</sup> to 10 X 10<sup>6</sup>.  It is best to brush the pelleted cells along a rack to dislodge them from the bottom of the tube. Sometimes aggregates will still be visible. Do not resuspend.",
       "instruction": "PELLET",
       "slots": [
         {
           "key": "reagent1",
           "value": "cells",
-          "id": "e04fe5aa-57cd-4b73-9b5c-d780d305f86c",
-          "node_id": "4c7ff177-4434-4a06-b15a-1de133c973d6"
+          "id": "ca8e5d16-7194-40bc-abd3-d08e4a7a363f",
+          "node_id": "8ea8fc42-7bdd-4a7f-8f2b-77b053f11bac"
         },
         {
           "key": "device",
           "value": "rack",
-          "id": "c7612815-dd11-4a1e-8422-3a374f40c12c",
-          "node_id": "4c7ff177-4434-4a06-b15a-1de133c973d6"
+          "id": "e95f0af6-8ebc-4dc2-9908-c767ad7b79f0",
+          "node_id": "8ea8fc42-7bdd-4a7f-8f2b-77b053f11bac"
         }
       ],
       "emits": [
         {
           "key": "reagent0",
           "value": "cells",
-          "id": "ac38ea95-989f-43a2-b021-840141d79d45",
-          "node_id": "4c7ff177-4434-4a06-b15a-1de133c973d6"
+          "id": "d267e4e7-0378-4e2a-a250-ae98a5bf6fe1",
+          "node_id": "8ea8fc42-7bdd-4a7f-8f2b-77b053f11bac"
         }
       ]
     },
     {
-      "id": "cf2a57d8-f6d7-46e7-89d6-9aa3c8f3d671",
+      "id": "25bcb4e4-0631-4e7c-b866-0167c1cab502",
       "text": "Pellet cells and resuspend in 1 mL of Trizol \\(I have difficulty isolating quality RNA from less than 1 X 10<sup>6</sup> primary T cells). 1 mL of Trizol can be used for 1 X 10<sup>6</sup> to 10 X 10<sup>6</sup>.  It is best to brush the pelleted cells along a rack to dislodge them from the bottom of the tube. Sometimes aggregates will still be visible. Do not resuspend.",
       "instruction": "RESUSPEND",
       "slots": [
         {
           "key": "reagent1",
           "value": "cells",
-          "id": "b5da5b29-ae40-4865-812d-ba1097bce5db",
-          "node_id": "cf2a57d8-f6d7-46e7-89d6-9aa3c8f3d671"
+          "id": "70da4bb6-77bd-4981-9c9b-d27cc44e4137",
+          "node_id": "25bcb4e4-0631-4e7c-b866-0167c1cab502"
         },
         {
           "key": "reagent2",
           "value": "Trizol",
-          "id": "fac132cf-7fea-439c-ab32-815bf82e079f",
-          "node_id": "cf2a57d8-f6d7-46e7-89d6-9aa3c8f3d671"
+          "id": "57251b48-792e-48aa-b0dd-6cc79f977026",
+          "node_id": "25bcb4e4-0631-4e7c-b866-0167c1cab502"
         },
         {
           "key": "notice",
           "value": "1 mL of Trizol can be used for 1 X 10^6 to 10 X 10^6.",
-          "id": "dfb5ca84-e037-4e75-8aab-139c3ba0cc41",
-          "node_id": "cf2a57d8-f6d7-46e7-89d6-9aa3c8f3d671"
+          "id": "c48852d9-064b-4bcf-81d8-3c243b465aaf",
+          "node_id": "25bcb4e4-0631-4e7c-b866-0167c1cab502"
         }
       ],
       "emits": [
         {
           "key": "reagent0",
           "value": "cells",
-          "id": "df781358-7019-43d2-86a2-e62deb1c0eaf",
-          "node_id": "cf2a57d8-f6d7-46e7-89d6-9aa3c8f3d671"
+          "id": "bb34cd02-ec4f-4db5-8d95-1bd47879790f",
+          "node_id": "25bcb4e4-0631-4e7c-b866-0167c1cab502"
         }
       ]
     },
     {
-      "id": "9f91ae72-90ae-4825-8114-7fdf9a2b963e",
+      "id": "3ccd32c6-e73f-47c7-bae7-0b6df23757a2",
       "text": "Incubate at room temperature for 5 minutes",
       "instruction": "INCUBATE",
       "slots": [
         {
           "key": "reagent1",
           "value": "cells",
-          "id": "b378fa26-8fa8-47d2-a640-d7e7c66a09da",
-          "node_id": "9f91ae72-90ae-4825-8114-7fdf9a2b963e"
+          "id": "0e5afdfc-fdcc-4f3d-aefd-f90d5c55703e",
+          "node_id": "3ccd32c6-e73f-47c7-bae7-0b6df23757a2"
         },
         {
           "key": "temperature",
           "value": "room temperature",
-          "id": "47ff90f5-02eb-4d26-b989-3aef04119b11",
-          "node_id": "9f91ae72-90ae-4825-8114-7fdf9a2b963e"
+          "id": "00d565f2-f397-4274-af80-1e2cbe42ff36",
+          "node_id": "3ccd32c6-e73f-47c7-bae7-0b6df23757a2"
         },
         {
           "key": "time",
           "value": "5 minutes",
-          "id": "24c31406-47fb-4cdc-86c4-34417bde3f96",
-          "node_id": "9f91ae72-90ae-4825-8114-7fdf9a2b963e"
+          "id": "3adb3fe6-ce30-4c1e-8f1d-e8d77956f78f",
+          "node_id": "3ccd32c6-e73f-47c7-bae7-0b6df23757a2"
         }
       ],
       "emits": [
         {
           "key": "reagent0",
           "value": "cells",
-          "id": "de9858f1-c752-4bfa-a6e6-bdb9686e6189",
-          "node_id": "9f91ae72-90ae-4825-8114-7fdf9a2b963e"
+          "id": "c8fab282-ec2b-4b59-82fe-306e5e8285c3",
+          "node_id": "3ccd32c6-e73f-47c7-bae7-0b6df23757a2"
         }
       ]
     },
     {
-      "id": "756b0ae7-a5d3-4de6-9c88-bc7413095af6",
+      "id": "a2f0dd38-abf3-4f62-bcb6-e70383beb880",
       "text": "Add 200&#x3BC;L of Chloroform using a barrier pipette tip and shake each sample vigourously",
       "instruction": "ADD",
       "slots": [
         {
           "key": "reagent2",
           "value": "Chloroform",
-          "id": "e233d972-42ec-4fc0-847f-05ecbcc98ae0",
-          "node_id": "756b0ae7-a5d3-4de6-9c88-bc7413095af6"
+          "id": "61ffe2bc-4d2c-46e0-b395-ec692135f551",
+          "node_id": "a2f0dd38-abf3-4f62-bcb6-e70383beb880"
         },
         {
           "key": "notice",
           "value": "shake each sample vigourously",
-          "id": "fc1b8455-501f-44b3-b8b2-15fbbd22fc10",
-          "node_id": "756b0ae7-a5d3-4de6-9c88-bc7413095af6"
+          "id": "d6575b30-2aee-4431-b27d-3bece8da75dc",
+          "node_id": "a2f0dd38-abf3-4f62-bcb6-e70383beb880"
         }
       ],
       "emits": []
     },
     {
-      "id": "3bea6a92-730d-4067-96a4-98cd270a9b67",
+      "id": "f8cf3312-5bd6-4b76-8988-b81c24cae260",
       "text": "Add 200&#x3BC;L of Chloroform using a barrier pipette tip and shake each sample vigourously",
       "instruction": "SHAKE",
       "slots": [
         {
           "key": "reagent1",
           "value": "Chloroform",
-          "id": "4410c6e4-1130-422d-bf18-2a77708f2acc",
-          "node_id": "3bea6a92-730d-4067-96a4-98cd270a9b67"
+          "id": "556e9e75-cd12-438b-abaa-6235530087a8",
+          "node_id": "f8cf3312-5bd6-4b76-8988-b81c24cae260"
         },
         {
           "key": "temperature",
           "value": "room temperature",
-          "id": "0428fb48-7cde-4d2f-806a-f0302a61f13f",
-          "node_id": "3bea6a92-730d-4067-96a4-98cd270a9b67"
+          "id": "51c2ded1-13b2-4ead-8533-14afba4c966c",
+          "node_id": "f8cf3312-5bd6-4b76-8988-b81c24cae260"
         }
       ],
       "emits": [
         {
           "key": "reagent0",
           "value": "cells",
-          "id": "e1bf0ec7-6fad-47e0-8fc1-76c5a3051169",
-          "node_id": "3bea6a92-730d-4067-96a4-98cd270a9b67"
+          "id": "d28413fa-1e10-4cea-b3f9-0ee2b42087d5",
+          "node_id": "f8cf3312-5bd6-4b76-8988-b81c24cae260"
         }
       ]
     },
     {
-      "id": "c68dfede-505c-4db0-82df-d2528084c777",
+      "id": "60d91372-e258-4448-9b41-8ad8ffc7d85f",
       "text": "Incubate at room temperature for 3 minutes",
       "instruction": "INCUBATE",
       "slots": [
         {
           "key": "reagent1",
           "value": "cells",
-          "id": "b2b6a833-300e-4c27-81fa-e9d63a6c92ec",
-          "node_id": "c68dfede-505c-4db0-82df-d2528084c777"
+          "id": "a2718d5b-79f3-45b9-8240-1c8b488e44d0",
+          "node_id": "60d91372-e258-4448-9b41-8ad8ffc7d85f"
         },
         {
           "key": "temperature",
           "value": "room temperature",
-          "id": "e1744e8a-9e12-457e-8821-ffe99a019c95",
-          "node_id": "c68dfede-505c-4db0-82df-d2528084c777"
+          "id": "95ac96d9-4927-479f-93ab-3a82357f7623",
+          "node_id": "60d91372-e258-4448-9b41-8ad8ffc7d85f"
         },
         {
           "key": "time",
           "value": "3 minutes",
-          "id": "5002fcb4-5925-4ae1-a5fe-1340edea3aac",
-          "node_id": "c68dfede-505c-4db0-82df-d2528084c777"
+          "id": "858e81f2-577a-48bc-a375-1afbd9b86d96",
+          "node_id": "60d91372-e258-4448-9b41-8ad8ffc7d85f"
         }
       ],
       "emits": [
         {
           "key": "reagent0",
           "value": "cells",
-          "id": "9a479147-3579-4c3a-ab96-d6cd4ab377eb",
-          "node_id": "c68dfede-505c-4db0-82df-d2528084c777"
+          "id": "ff260a5e-27b6-4d32-84dc-9917e3ef236e",
+          "node_id": "60d91372-e258-4448-9b41-8ad8ffc7d85f"
         }
       ]
     },
     {
-      "id": "947dbf2d-3819-4b32-9cf5-4a616662e718",
+      "id": "c3914c01-c0fb-4565-a54b-e2e0438a2b99",
       "text": "Centrifuge at 12000g for 15 minutes at 4&#xB0;C",
       "instruction": "CENTRIFUGE",
       "slots": [
         {
           "key": "reagent1",
           "value": "cells",
-          "id": "c23bf573-e788-49e5-a534-14b963917122",
-          "node_id": "947dbf2d-3819-4b32-9cf5-4a616662e718"
+          "id": "72cf04da-8f3e-47b5-82ba-ae5f8d44083d",
+          "node_id": "c3914c01-c0fb-4565-a54b-e2e0438a2b99"
         },
         {
           "key": "intensity",
           "value": "12000g",
-          "id": "eb658806-accf-45e4-b054-38b430bfa923",
-          "node_id": "947dbf2d-3819-4b32-9cf5-4a616662e718"
+          "id": "68bbdada-0ebf-461d-9b39-4204e3bd3bbd",
+          "node_id": "c3914c01-c0fb-4565-a54b-e2e0438a2b99"
         },
         {
           "key": "time",
           "value": "15 minutes",
-          "id": "4e8c1dd0-ba22-4920-9cb8-c66f99598e2f",
-          "node_id": "947dbf2d-3819-4b32-9cf5-4a616662e718"
+          "id": "26457f0e-e3bc-482c-87fd-0d07dfc1b76f",
+          "node_id": "c3914c01-c0fb-4565-a54b-e2e0438a2b99"
         },
         {
           "key": "temperature",
           "value": "4\u00b0C",
-          "id": "e0ae6ba0-84f4-4724-83cd-bab1cf7742f9",
-          "node_id": "947dbf2d-3819-4b32-9cf5-4a616662e718"
+          "id": "60a20dfb-abdf-48b1-95be-7ae55f656f90",
+          "node_id": "c3914c01-c0fb-4565-a54b-e2e0438a2b99"
         }
       ],
       "emits": [
         {
           "key": "reagent0",
           "value": "cells",
-          "id": "33e8cddd-3e9d-4658-bc70-93c769155e91",
-          "node_id": "947dbf2d-3819-4b32-9cf5-4a616662e718"
+          "id": "7a29af30-6865-477a-b6bd-c946ba7e47f7",
+          "node_id": "c3914c01-c0fb-4565-a54b-e2e0438a2b99"
         }
       ]
     },
     {
-      "id": "d589b90f-3c7c-4004-b741-6b1e45f6ada9",
+      "id": "f48b6d33-6428-42ad-9f2b-67f600d05359",
       "text": "Transfer upper aqueous phase into a new RNAase free tube \\(approximately 0.8-1 mL of volume)",
       "instruction": "TRANSFER",
       "slots": [
         {
           "key": "source",
           "value": "upper aqueous phase",
-          "id": "0a3fc962-3ecb-4c9d-8da4-7060fa4cc137",
-          "node_id": "d589b90f-3c7c-4004-b741-6b1e45f6ada9"
+          "id": "9834c8d4-7348-4ed1-8104-f5ea675907a6",
+          "node_id": "f48b6d33-6428-42ad-9f2b-67f600d05359"
         },
         {
           "key": "destination",
           "value": "new RNAase free tube",
-          "id": "e5aa3c55-30df-49fd-9e76-6f76d83babe5",
-          "node_id": "d589b90f-3c7c-4004-b741-6b1e45f6ada9"
+          "id": "81aeea4b-6b3c-42a3-afb8-d5e7be3fb57f",
+          "node_id": "f48b6d33-6428-42ad-9f2b-67f600d05359"
         },
         {
           "key": "reagent1",
           "value": "upper aqueous phase",
-          "id": "c5dfbcbc-30a7-4667-88a9-74194d41dab0",
-          "node_id": "d589b90f-3c7c-4004-b741-6b1e45f6ada9"
+          "id": "81a67d78-f100-4fb9-8465-412fdcb6f0af",
+          "node_id": "f48b6d33-6428-42ad-9f2b-67f600d05359"
         },
         {
           "key": "volume",
           "value": "0.8-1 mL",
-          "id": "b26aaab7-dc16-429b-abc7-86b6d0c3abda",
-          "node_id": "d589b90f-3c7c-4004-b741-6b1e45f6ada9"
+          "id": "6217d54c-c394-4586-8c4f-fec62669e678",
+          "node_id": "f48b6d33-6428-42ad-9f2b-67f600d05359"
         }
       ],
       "emits": [
         {
           "key": "reagent0",
           "value": "upper aqueous phase",
-          "id": "59260d86-b017-43ac-a90e-22f4a557192d",
-          "node_id": "d589b90f-3c7c-4004-b741-6b1e45f6ada9"
+          "id": "970450df-a26d-4ce8-bf70-9af8f5134352",
+          "node_id": "f48b6d33-6428-42ad-9f2b-67f600d05359"
         }
       ]
     },
     {
-      "id": "44d197a6-1e44-4efd-a947-b0ff508f9cdf",
+      "id": "dfdacf2e-3191-4261-9e7e-343111096386",
       "text": "Add 0.5 mL of isopropanol/mL of Trizol used and shake vigourously",
       "instruction": "ADD",
       "slots": [
         {
           "key": "reagent1",
           "value": "Trizol",
-          "id": "1787b91a-207d-4c2d-b3d8-375e0356d6c0",
-          "node_id": "44d197a6-1e44-4efd-a947-b0ff508f9cdf"
+          "id": "e2880651-cfce-40fa-80bf-63a6e0645002",
+          "node_id": "dfdacf2e-3191-4261-9e7e-343111096386"
         },
         {
           "key": "reagent2",
           "value": "isopropanol",
-          "id": "66fb920c-c6ac-4b2b-99ce-e16e427a521c",
-          "node_id": "44d197a6-1e44-4efd-a947-b0ff508f9cdf"
+          "id": "1687c9d8-a741-4443-97fc-43e40e505d9a",
+          "node_id": "dfdacf2e-3191-4261-9e7e-343111096386"
         },
         {
           "key": "ratio",
           "value": "0.5 mL/mL",
-          "id": "94f2aeac-92b9-4f08-b75b-efae2bba599c",
-          "node_id": "44d197a6-1e44-4efd-a947-b0ff508f9cdf"
+          "id": "45ed73ee-71a6-4e1c-a139-b3e246c440c7",
+          "node_id": "dfdacf2e-3191-4261-9e7e-343111096386"
         }
       ],
       "emits": []
     },
     {
-      "id": "7acad852-a28c-404c-ace5-545b55a34613",
+      "id": "ff5a4656-0e67-485f-873b-f0fdcc33c6c7",
       "text": "Add 0.5 mL of isopropanol/mL of Trizol used and shake vigourously",
       "instruction": "SHAKE",
       "slots": [
         {
           "key": "reagent1",
           "value": "isopropanol",
-          "id": "aa2546ca-c4ca-44dc-803b-d1c7687b35da",
-          "node_id": "7acad852-a28c-404c-ace5-545b55a34613"
+          "id": "fbb4d678-fa79-49f8-95f5-e440ea2f19bb",
+          "node_id": "ff5a4656-0e67-485f-873b-f0fdcc33c6c7"
         },
         {
           "key": "temperature",
           "value": "room temperature",
-          "id": "b61f2354-099a-41d6-b533-f1f73a029472",
-          "node_id": "7acad852-a28c-404c-ace5-545b55a34613"
+          "id": "9f83589b-eebe-450a-a0f0-8a9bb43897a4",
+          "node_id": "ff5a4656-0e67-485f-873b-f0fdcc33c6c7"
         }
       ],
       "emits": [
         {
           "key": "reagent0",
           "value": "cells",
-          "id": "43dc140f-20a5-4272-9707-8daa1f017310",
-          "node_id": "7acad852-a28c-404c-ace5-545b55a34613"
+          "id": "0d3115cd-ff30-419c-88de-6c5455850e0c",
+          "node_id": "ff5a4656-0e67-485f-873b-f0fdcc33c6c7"
         }
       ]
     },
     {
-      "id": "edf2b213-a7ed-43ec-9cd7-957400b2417e",
+      "id": "2faf0367-883e-41fa-8bf1-56a8b726dfdf",
       "text": "Incubate at room temperature for 10 minutes",
       "instruction": "INCUBATE",
       "slots": [
         {
           "key": "reagent1",
           "value": "cells",
-          "id": "05564380-bfce-4234-8970-57b211b21a98",
-          "node_id": "edf2b213-a7ed-43ec-9cd7-957400b2417e"
+          "id": "2af51734-16b7-441f-aa8e-1763fd282c33",
+          "node_id": "2faf0367-883e-41fa-8bf1-56a8b726dfdf"
         },
         {
           "key": "temperature",
           "value": "room temperature",
-          "id": "e68ad4d8-93b2-4c54-8ac3-bd19544bd53f",
-          "node_id": "edf2b213-a7ed-43ec-9cd7-957400b2417e"
+          "id": "20347638-98b5-4bd8-9aaa-bc62da148421",
+          "node_id": "2faf0367-883e-41fa-8bf1-56a8b726dfdf"
         },
         {
           "key": "time",
           "value": "10 minutes",
-          "id": "b908cf5e-3b31-49e1-ab3e-7014cadc00d7",
-          "node_id": "edf2b213-a7ed-43ec-9cd7-957400b2417e"
+          "id": "0ef549db-35d2-4855-9d34-1000a475054c",
+          "node_id": "2faf0367-883e-41fa-8bf1-56a8b726dfdf"
         }
       ],
       "emits": [
         {
           "key": "reagent0",
           "value": "cells",
-          "id": "29e3367f-3bff-4575-816e-d6fede364e22",
-          "node_id": "edf2b213-a7ed-43ec-9cd7-957400b2417e"
+          "id": "ec82da27-df18-4ac1-aa48-a6bdbe4e32e9",
+          "node_id": "2faf0367-883e-41fa-8bf1-56a8b726dfdf"
         }
       ]
     },
     {
-      "id": "6bbf1655-0ee8-4c66-92e0-59754935c061",
+      "id": "44f16f98-ca4b-43bf-9e3e-9d4f3a67b28a",
       "text": "Centrifuge at 12000g for 15 minutes at 4&#xB0;C",
       "instruction": "CENTRIFUGE",
       "slots": [
         {
           "key": "reagent1",
           "value": "cells",
-          "id": "94ec6100-dec4-4552-bb16-63eeb4960cdb",
-          "node_id": "6bbf1655-0ee8-4c66-92e0-59754935c061"
+          "id": "d7281c56-93b0-466a-a146-38ea54f9342b",
+          "node_id": "44f16f98-ca4b-43bf-9e3e-9d4f3a67b28a"
         },
         {
           "key": "intensity",
           "value": "12000g",
-          "id": "1958d534-ebc1-4382-b308-b02e3209da4a",
-          "node_id": "6bbf1655-0ee8-4c66-92e0-59754935c061"
+          "id": "f8730117-880d-46c4-8b4d-29efd519c30c",
+          "node_id": "44f16f98-ca4b-43bf-9e3e-9d4f3a67b28a"
         },
         {
           "key": "time",
           "value": "15 minutes",
-          "id": "c425d241-81cd-49d7-a5ad-4422337dee1e",
-          "node_id": "6bbf1655-0ee8-4c66-92e0-59754935c061"
+          "id": "fd4470c1-8179-4a99-90eb-97702ecdedd3",
+          "node_id": "44f16f98-ca4b-43bf-9e3e-9d4f3a67b28a"
         },
         {
           "key": "temperature",
           "value": "4\u00b0C",
-          "id": "66cc8d87-dd2a-4afd-92c1-2d64b96be928",
-          "node_id": "6bbf1655-0ee8-4c66-92e0-59754935c061"
+          "id": "c74a2e88-85d5-46f8-a505-bd8fec560b75",
+          "node_id": "44f16f98-ca4b-43bf-9e3e-9d4f3a67b28a"
         }
       ],
       "emits": [
         {
           "key": "reagent0",
           "value": "cells",
-          "id": "cbd2a119-d9a2-40aa-ba3b-80f56f099801",
-          "node_id": "6bbf1655-0ee8-4c66-92e0-59754935c061"
+          "id": "77ce9063-3eee-4e2f-93de-094da649beb5",
+          "node_id": "44f16f98-ca4b-43bf-9e3e-9d4f3a67b28a"
         }
       ]
     },
     {
-      "id": "54cb37cb-e6be-4587-a50e-d88dc4554081",
+      "id": "71915286-c287-4fa4-b92e-3038dfc216f4",
       "text": "Pour off supernantant and wash pellet in with 1 mL of 75% ethanol \\( do not resuspend pellet rather squirt in ethanol so the pellet becomes dislodged from the bottom of tube)",
       "instruction": "POUR",
       "slots": [
         {
           "key": "reagent1",
           "value": "cells",
-          "id": "6185981e-964d-42ea-b49b-24f513653c8d",
-          "node_id": "54cb37cb-e6be-4587-a50e-d88dc4554081"
+          "id": "983634ff-a918-4bf4-b873-833d9f6d102c",
+          "node_id": "71915286-c287-4fa4-b92e-3038dfc216f4"
         },
         {
           "key": "volume",
           "value": "1 mL",
-          "id": "780b047f-92df-4916-938c-08497d019735",
-          "node_id": "54cb37cb-e6be-4587-a50e-d88dc4554081"
+          "id": "63ee1f4f-59dd-47f6-a16f-9b6e6d6cb8a5",
+          "node_id": "71915286-c287-4fa4-b92e-3038dfc216f4"
         }
       ],
       "emits": [
         {
           "key": "reagent0",
           "value": "supernatant",
-          "id": "99fa77bc-6c3c-4d3d-88e3-79747ab437f8",
-          "node_id": "54cb37cb-e6be-4587-a50e-d88dc4554081"
+          "id": "0777d100-3060-4303-a89a-3ea2c4299080",
+          "node_id": "71915286-c287-4fa4-b92e-3038dfc216f4"
         }
       ]
     },
     {
-      "id": "6e190e96-8901-4b87-bb1b-0d01fad567e5",
+      "id": "16c7373a-6a47-45ca-8eda-c25302ae57b1",
       "text": "Pour off supernantant and wash pellet in with 1 mL of 75% ethanol \\( do not resuspend pellet rather squirt in ethanol so the pellet becomes dislodged from the bottom of tube)",
       "instruction": "WASH",
       "slots": [
         {
           "key": "reagent1",
           "value": "pellet",
-          "id": "6203cbc8-6fcd-46ed-9b44-5d70c66a6cff",
-          "node_id": "6e190e96-8901-4b87-bb1b-0d01fad567e5"
+          "id": "46129825-fe5d-4b87-beff-b9d5f1dd4edf",
+          "node_id": "16c7373a-6a47-45ca-8eda-c25302ae57b1"
         },
         {
           "key": "reagent2",
           "value": "75% ethanol",
-          "id": "abc6dfee-f7f6-4aa9-8985-c2359009f9a0",
-          "node_id": "6e190e96-8901-4b87-bb1b-0d01fad567e5"
+          "id": "cc5293f7-a56f-46cd-b18b-8189e27b8589",
+          "node_id": "16c7373a-6a47-45ca-8eda-c25302ae57b1"
         },
         {
           "key": "repeat",
           "value": "1",
-          "id": "8c79965d-5aa3-4fc6-a88a-aa4539670b68",
-          "node_id": "6e190e96-8901-4b87-bb1b-0d01fad567e5"
+          "id": "fa88386f-ece8-4790-b620-f42de061715e",
+          "node_id": "16c7373a-6a47-45ca-8eda-c25302ae57b1"
         },
         {
           "key": "notice",
           "value": "Do not resuspend pellet rather squirt in ethanol so the pellet becomes dislodged from the bottom of tube",
-          "id": "12a74911-d531-48f1-b7ac-369422512f3b",
-          "node_id": "6e190e96-8901-4b87-bb1b-0d01fad567e5"
+          "id": "6a445ed0-1b85-41f3-95ce-e0b8e1fcb3e7",
+          "node_id": "16c7373a-6a47-45ca-8eda-c25302ae57b1"
         }
       ],
       "emits": [
         {
           "key": "reagent0",
           "value": "pellet",
-          "id": "da2ddc3d-c240-4d6c-82e1-513df1fdf55f",
-          "node_id": "6e190e96-8901-4b87-bb1b-0d01fad567e5"
+          "id": "68131456-9742-4793-8d02-09eebb986445",
+          "node_id": "16c7373a-6a47-45ca-8eda-c25302ae57b1"
         }
       ]
     },
     {
-      "id": "a2b06471-4732-4615-9ba2-53c9db55205e",
+      "id": "a47339b6-ec5c-4861-80b3-4dc8b8857447",
       "text": "Centrifuge at 12000g for 5 minutes at room temperature",
       "instruction": "CENTRIFUGE",
       "slots": [
         {
           "key": "reagent1",
           "value": "cells",
-          "id": "a5c78119-1937-40a9-af2e-e45e7cf714e3",
-          "node_id": "a2b06471-4732-4615-9ba2-53c9db55205e"
+          "id": "fe9079ed-a756-49de-960a-f3a78ba34c59",
+          "node_id": "a47339b6-ec5c-4861-80b3-4dc8b8857447"
         },
         {
           "key": "intensity",
           "value": "12000g",
-          "id": "f5f65203-1da0-4408-9cc1-17ac7ac282ac",
-          "node_id": "a2b06471-4732-4615-9ba2-53c9db55205e"
+          "id": "64537145-c068-4a71-961b-cc12e1963e85",
+          "node_id": "a47339b6-ec5c-4861-80b3-4dc8b8857447"
         },
         {
           "key": "time",
           "value": "5 minutes",
-          "id": "965df98d-805d-4d62-a2fa-3045ca11cec1",
-          "node_id": "a2b06471-4732-4615-9ba2-53c9db55205e"
+          "id": "804eb2a6-4d1a-44a6-a280-9c0aa2868f2e",
+          "node_id": "a47339b6-ec5c-4861-80b3-4dc8b8857447"
         },
         {
           "key": "temperature",
           "value": "room temperature",
-          "id": "bd1b73d9-4e40-4e2c-ab42-0324273c0f41",
-          "node_id": "a2b06471-4732-4615-9ba2-53c9db55205e"
+          "id": "3177d231-7f11-451c-9dae-5eace17fc75b",
+          "node_id": "a47339b6-ec5c-4861-80b3-4dc8b8857447"
         }
       ],
       "emits": [
         {
           "key": "reagent0",
           "value": "upper aqueous phase",
-          "id": "63686cc2-67d3-4c7c-b58c-4c951fc04047",
-          "node_id": "a2b06471-4732-4615-9ba2-53c9db55205e"
+          "id": "0db8d231-a86b-415a-bffc-8177931aca3b",
+          "node_id": "a47339b6-ec5c-4861-80b3-4dc8b8857447"
         }
       ]
     },
     {
-      "id": "100a441e-6d60-4de2-9c1e-da199266c98a",
+      "id": "7304bcde-6334-4bc2-b734-d6aec948ea06",
       "text": "Pour off supernantant and briefly dry pellet \\(can use a 10&#x3BC;L pipette or a kimwipe corner to get rid of residual ethanol)",
       "instruction": "POUR",
       "slots": [
         {
           "key": "reagent1",
           "value": "supernatant",
-          "id": "385e99b9-4bd8-4dee-af64-4bfb6a0decd7",
-          "node_id": "100a441e-6d60-4de2-9c1e-da199266c98a"
+          "id": "ae2ff84f-a442-434e-af61-b4e5d63e0845",
+          "node_id": "7304bcde-6334-4bc2-b734-d6aec948ea06"
         }
       ],
       "emits": [
         {
           "key": "reagent0",
           "value": "supernatant",
-          "id": "f5c3954a-3106-47d5-a8fe-21d346e02197",
-          "node_id": "100a441e-6d60-4de2-9c1e-da199266c98a"
+          "id": "c1ba6e06-b364-4505-b51a-a623ad560353",
+          "node_id": "7304bcde-6334-4bc2-b734-d6aec948ea06"
         }
       ]
     },
     {
-      "id": "0bcb5b75-513a-4a51-9d04-031951de5719",
+      "id": "cc6a320f-4ca6-4899-8e81-24b3c9098f1d",
       "text": "Pour off supernantant and briefly dry pellet \\(can use a 10&#x3BC;L pipette or a kimwipe corner to get rid of residual ethanol)",
       "instruction": "DRY",
       "slots": [
         {
           "key": "reagent1",
           "value": "pellet",
-          "id": "6217b0a6-b598-445d-a5bc-8033a3408d76",
-          "node_id": "0bcb5b75-513a-4a51-9d04-031951de5719"
+          "id": "5f432bfa-1368-455c-9065-11011d39728f",
+          "node_id": "cc6a320f-4ca6-4899-8e81-24b3c9098f1d"
         },
         {
           "key": "device",
           "value": "10\u03bcL pipette or a kimwipe corner",
-          "id": "ea82a8f8-0c61-4f43-a673-fb85de7494ab",
-          "node_id": "0bcb5b75-513a-4a51-9d04-031951de5719"
+          "id": "087fb336-7d36-4142-961c-245f639ecb94",
+          "node_id": "cc6a320f-4ca6-4899-8e81-24b3c9098f1d"
         },
         {
           "key": "notice",
           "value": "Can use a 10\u03bcL pipette or a kimwipe corner to get rid of residual ethanol",
-          "id": "d3f1e22e-ba60-4600-8b91-cefaeb70b942",
-          "node_id": "0bcb5b75-513a-4a51-9d04-031951de5719"
+          "id": "1afda8cb-74a9-4b8c-abbf-54707336c9b4",
+          "node_id": "cc6a320f-4ca6-4899-8e81-24b3c9098f1d"
         }
       ],
       "emits": [
         {
           "key": "reagent0",
           "value": "pellet",
-          "id": "4ef97975-be82-41b6-bb48-a00a3e7f979e",
-          "node_id": "0bcb5b75-513a-4a51-9d04-031951de5719"
+          "id": "ecf80b2c-f3d6-4c5e-ad25-ce71c73611f8",
+          "node_id": "cc6a320f-4ca6-4899-8e81-24b3c9098f1d"
         }
       ]
     },
     {
-      "id": "78e74071-d076-422f-aa70-99b4a0737886",
+      "id": "a37dd843-a4a0-4b40-a3dc-b0f5a813a2b1",
       "text": "Dissolve pellet in 30&#x3BC;L of DepC treated water and place at 55&#xB0;C for 5-10 minutes.",
       "instruction": "DISSOLVE",
       "slots": [
         {
           "key": "reagent1",
           "value": "pellet",
-          "id": "006377fa-0c52-475e-b540-3cb62b99d593",
-          "node_id": "78e74071-d076-422f-aa70-99b4a0737886"
+          "id": "835cad33-3019-490d-b0c3-cc5ee3a2d84f",
+          "node_id": "a37dd843-a4a0-4b40-a3dc-b0f5a813a2b1"
         },
         {
           "key": "reagent2",
           "value": "DepC treated water",
-          "id": "b01fe2f9-a018-4614-9bc2-7a05bdb880e5",
-          "node_id": "78e74071-d076-422f-aa70-99b4a0737886"
+          "id": "467c663b-8ecc-45b4-adf9-b1f7ea99c864",
+          "node_id": "a37dd843-a4a0-4b40-a3dc-b0f5a813a2b1"
         },
         {
           "key": "targetConcentration",
           "value": "30\u03bcL",
-          "id": "d565d3c4-705f-4a8d-9d32-f06146a33b11",
-          "node_id": "78e74071-d076-422f-aa70-99b4a0737886"
+          "id": "7792089e-89b9-416d-8fc6-84150a6c5afd",
+          "node_id": "a37dd843-a4a0-4b40-a3dc-b0f5a813a2b1"
         },
         {
           "key": "notice",
           "value": "Place at 55\u00b0C for 5-10 minutes.",
-          "id": "4a0d7d3c-9e59-4bf9-927b-c223dbfeaf3c",
-          "node_id": "78e74071-d076-422f-aa70-99b4a0737886"
+          "id": "a8a539d8-2376-4e23-9a37-835cb9cd317d",
+          "node_id": "a37dd843-a4a0-4b40-a3dc-b0f5a813a2b1"
         }
       ],
       "emits": [
         {
           "key": "reagent0",
           "value": "pellet",
-          "id": "e8bd850e-ab67-4485-9d18-7d32cc497d14",
-          "node_id": "78e74071-d076-422f-aa70-99b4a0737886"
+          "id": "e26d7b18-edbf-4a4a-acd8-b605b64a5668",
+          "node_id": "a37dd843-a4a0-4b40-a3dc-b0f5a813a2b1"
         }
       ]
     },
     {
-      "id": "c2c47150-f63e-46d2-b15a-587cfccfc588",
+      "id": "0a2c738f-4706-4b9a-800e-ae1178cd66de",
       "text": "Spec and take 2&#x3BC;g for cDNA conversion. Store the rest of the RNA at -80&#xB0;C.",
       "instruction": "STORE",
       "slots": [
         {
           "key": "reagent1",
           "value": "RNA",
-          "id": "472f1250-4d45-438e-b39e-dd0e836eb76c",
-          "node_id": "c2c47150-f63e-46d2-b15a-587cfccfc588"
+          "id": "3eb9e1c5-37a4-4206-bf3d-05382488b1e5",
+          "node_id": "0a2c738f-4706-4b9a-800e-ae1178cd66de"
         },
         {
           "key": "temperature",
           "value": "-80\u00b0C",
-          "id": "c72fea15-f031-45c4-86ef-a87d0c7e1678",
-          "node_id": "c2c47150-f63e-46d2-b15a-587cfccfc588"
+          "id": "9722a109-7b29-4448-97f1-c872db613fbc",
+          "node_id": "0a2c738f-4706-4b9a-800e-ae1178cd66de"
         }
       ],
       "emits": [
         {
           "key": "reagent0",
           "value": "RNA",
-          "id": "e1de1281-43e8-4e3b-b180-2268d46b7b61",
-          "node_id": "c2c47150-f63e-46d2-b15a-587cfccfc588"
+          "id": "21583ff2-6f8e-4bf8-9396-9eae5e2b0321",
+          "node_id": "0a2c738f-4706-4b9a-800e-ae1178cd66de"
         }
       ]
     }

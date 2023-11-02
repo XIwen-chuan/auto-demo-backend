@@ -2,334 +2,334 @@
   "name": "nprot-47_graphData.json",
   "nodes": [
     {
-      "id": "cf2f59b8-ea70-4d9e-83c1-aaf2906fc560",
+      "id": "ed2c7a1f-2208-43cd-a4ae-b4045802866f",
       "text": "Harvest cells in a collection tube.",
       "instruction": "HARVEST",
       "slots": [
         {
           "key": "reagent1",
           "value": "cells",
-          "id": "5a2293b3-ad52-4f59-b959-ddd13fd75de5",
-          "node_id": "cf2f59b8-ea70-4d9e-83c1-aaf2906fc560"
+          "id": "b0d67587-42ea-4f9b-a926-17cb0e5571f1",
+          "node_id": "ed2c7a1f-2208-43cd-a4ae-b4045802866f"
         },
         {
           "key": "container",
           "value": "collection tube",
-          "id": "45e16ed6-30bb-47d4-926c-749a82900e86",
-          "node_id": "cf2f59b8-ea70-4d9e-83c1-aaf2906fc560"
+          "id": "fb976a7f-1288-4b23-8dde-abc20710f81a",
+          "node_id": "ed2c7a1f-2208-43cd-a4ae-b4045802866f"
         }
       ],
       "emits": [
         {
           "key": "reagent0",
           "value": "cells",
-          "id": "d7b7f945-cd4f-4442-9e25-1045280140fc",
-          "node_id": "cf2f59b8-ea70-4d9e-83c1-aaf2906fc560"
+          "id": "bce96f47-4efa-4422-acdc-1a3404c8d7c1",
+          "node_id": "ed2c7a1f-2208-43cd-a4ae-b4045802866f"
         }
       ]
     },
     {
-      "id": "39512b9c-89ee-4ddd-b1f7-2600c7297d26",
+      "id": "83f57c4b-beaf-4acd-8eaf-e08a8f57a10d",
       "text": "Suspend the cells with medium that was used in the culture of the cells \\(do not exceed the half volume of the tube).",
       "instruction": "SUSPEND",
       "slots": [
         {
           "key": "reagent1",
           "value": "cells",
-          "id": "19502e8b-2f98-41b8-8f56-20aa9d0c8d5b",
-          "node_id": "39512b9c-89ee-4ddd-b1f7-2600c7297d26"
+          "id": "67a0d2ca-ba28-4a0b-a9cc-71cec8e199b8",
+          "node_id": "83f57c4b-beaf-4acd-8eaf-e08a8f57a10d"
         },
         {
           "key": "reagent2",
           "value": "medium",
-          "id": "58962543-66d8-4e03-a908-a55403a38c21",
-          "node_id": "39512b9c-89ee-4ddd-b1f7-2600c7297d26"
+          "id": "bdd64242-b79a-45ba-a7d3-65b313e8a400",
+          "node_id": "83f57c4b-beaf-4acd-8eaf-e08a8f57a10d"
         },
         {
           "key": "notice",
           "value": "Do not exceed the half volume of the tube.",
-          "id": "bb6c5ade-a0b8-441e-b15f-e361fcde081f",
-          "node_id": "39512b9c-89ee-4ddd-b1f7-2600c7297d26"
+          "id": "bd11b951-ce74-46c7-97ba-1c18c751b6fe",
+          "node_id": "83f57c4b-beaf-4acd-8eaf-e08a8f57a10d"
         }
       ],
       "emits": [
         {
           "key": "reagent0",
           "value": "cells",
-          "id": "0d5a7dee-abf8-4f6d-baa6-4a4c3a68d492",
-          "node_id": "39512b9c-89ee-4ddd-b1f7-2600c7297d26"
+          "id": "f5c1dee1-49e3-42ef-b201-ed3f1da450d7",
+          "node_id": "83f57c4b-beaf-4acd-8eaf-e08a8f57a10d"
         }
       ]
     },
     {
-      "id": "bd30c6d5-e05c-4e6e-9553-289943bcd1cc",
+      "id": "c6e8ff44-2145-4e0d-b5d2-88c3a90dcf7e",
       "text": "Add an equal amount of 0.7 N NaOH solution and mix well.",
       "instruction": "ADD",
       "slots": [
         {
           "key": "reagent1",
           "value": "cells",
-          "id": "1080f84a-8069-45ef-ba2a-058a7d92c7fb",
-          "node_id": "bd30c6d5-e05c-4e6e-9553-289943bcd1cc"
+          "id": "a10a94c2-8b82-4b87-b018-f8de89f7da3c",
+          "node_id": "c6e8ff44-2145-4e0d-b5d2-88c3a90dcf7e"
         },
         {
           "key": "reagent2",
           "value": "0.7 N NaOH solution",
-          "id": "f096c5b0-4ab5-4eb1-abd2-ffbba5a5e7cb",
-          "node_id": "bd30c6d5-e05c-4e6e-9553-289943bcd1cc"
+          "id": "3cdb4255-a367-4549-98ca-d63aea7b59e6",
+          "node_id": "c6e8ff44-2145-4e0d-b5d2-88c3a90dcf7e"
         },
         {
           "key": "ratio",
           "value": "1:1",
-          "id": "b24f04f6-36ca-4a72-a4fd-4bfb6d11c6c3",
-          "node_id": "bd30c6d5-e05c-4e6e-9553-289943bcd1cc"
+          "id": "7f083ca3-f5b7-4a3c-a912-5e9e704f0e85",
+          "node_id": "c6e8ff44-2145-4e0d-b5d2-88c3a90dcf7e"
         },
         {
           "key": "notice",
           "value": "Mix well",
-          "id": "80a0e890-2415-4e99-ab4c-e9dc65fe7115",
-          "node_id": "bd30c6d5-e05c-4e6e-9553-289943bcd1cc"
+          "id": "77be76ae-694b-4533-90ae-51939431fd28",
+          "node_id": "c6e8ff44-2145-4e0d-b5d2-88c3a90dcf7e"
         }
       ],
       "emits": [
         {
           "key": "reagent0",
           "value": "cells",
-          "id": "6c0cf869-8d1f-46d8-9315-4e676e3366ee",
-          "node_id": "bd30c6d5-e05c-4e6e-9553-289943bcd1cc"
+          "id": "92051da2-41be-45eb-9562-d2079be44514",
+          "node_id": "c6e8ff44-2145-4e0d-b5d2-88c3a90dcf7e"
         }
       ]
     },
     {
-      "id": "4bdac081-6bbd-449c-9b50-cae322cc468c",
+      "id": "70e1b91e-0530-4b36-b8eb-cca8bd12ae4b",
       "text": "Add an equal amount of 0.7 N NaOH solution and mix well.",
       "instruction": "MIX",
       "slots": [
         {
           "key": "reagent1",
           "value": "0.7 N NaOH solution",
-          "id": "f55c4200-b066-4b2e-945e-58d910e4faa2",
-          "node_id": "4bdac081-6bbd-449c-9b50-cae322cc468c"
+          "id": "c4a67d16-fd9a-40ad-b5dc-8bef0d7d9024",
+          "node_id": "70e1b91e-0530-4b36-b8eb-cca8bd12ae4b"
         },
         {
           "key": "ratio",
           "value": "1:1",
-          "id": "93f351ef-b156-43a9-9722-e923c675247c",
-          "node_id": "4bdac081-6bbd-449c-9b50-cae322cc468c"
+          "id": "a7e38d4d-62e9-416e-8d87-f443f74b774f",
+          "node_id": "70e1b91e-0530-4b36-b8eb-cca8bd12ae4b"
         },
         {
           "key": "method",
           "value": "mix well",
-          "id": "a62ade5b-6c57-4f76-82c7-c340545041ea",
-          "node_id": "4bdac081-6bbd-449c-9b50-cae322cc468c"
+          "id": "02a7bcd1-1669-4bb2-9e59-073baad1e56a",
+          "node_id": "70e1b91e-0530-4b36-b8eb-cca8bd12ae4b"
         }
       ],
       "emits": [
         {
           "key": "reagent0",
           "value": "cells",
-          "id": "5d53cefc-d85a-40b3-b411-36243274454c",
-          "node_id": "4bdac081-6bbd-449c-9b50-cae322cc468c"
+          "id": "2b56da22-0b00-4082-ae34-b3f85eb4514c",
+          "node_id": "70e1b91e-0530-4b36-b8eb-cca8bd12ae4b"
         }
       ]
     },
     {
-      "id": "29c04487-ffe1-4380-b9e5-d29cd3b36b68",
+      "id": "4a298609-a2d2-424f-bb4a-8e61ebf9c868",
       "text": "Incubate at room temperature for 3 minutes.",
       "instruction": "INCUBATE",
       "slots": [
         {
           "key": "reagent1",
           "value": "cells",
-          "id": "24e2add1-2583-4819-bb63-d15d41da4a19",
-          "node_id": "29c04487-ffe1-4380-b9e5-d29cd3b36b68"
+          "id": "91997832-4375-4130-83d1-001858faccc5",
+          "node_id": "4a298609-a2d2-424f-bb4a-8e61ebf9c868"
         },
         {
           "key": "temperature",
           "value": "room temperature",
-          "id": "4c8a5a91-d9ca-4769-8a97-008b0b26d612",
-          "node_id": "29c04487-ffe1-4380-b9e5-d29cd3b36b68"
+          "id": "f8b4d910-30e0-4e24-96af-84a6effb5c95",
+          "node_id": "4a298609-a2d2-424f-bb4a-8e61ebf9c868"
         },
         {
           "key": "time",
           "value": "3 minutes",
-          "id": "2f930a7b-005a-46a2-b63c-289cce0d6370",
-          "node_id": "29c04487-ffe1-4380-b9e5-d29cd3b36b68"
+          "id": "c5582df8-f1cd-4c13-a5cf-816630b04b43",
+          "node_id": "4a298609-a2d2-424f-bb4a-8e61ebf9c868"
         }
       ],
       "emits": [
         {
           "key": "reagent0",
           "value": "cells",
-          "id": "9d6b76bc-f73e-4c09-bc5d-808908fd8d52",
-          "node_id": "29c04487-ffe1-4380-b9e5-d29cd3b36b68"
+          "id": "54d38adb-d701-4f1b-9f50-1e49ad1eb8d9",
+          "node_id": "4a298609-a2d2-424f-bb4a-8e61ebf9c868"
         }
       ]
     },
     {
-      "id": "ead293e1-dab5-4a26-ad6d-a200664615a1",
+      "id": "a70a7d43-c980-4d50-90ff-09078fe2c7ca",
       "text": "Centrifuge the tube \\(5,000 rpm, 1 min) and discard the supernatant.",
       "instruction": "CENTRIFUGE",
       "slots": [
         {
           "key": "reagent1",
           "value": "cells",
-          "id": "e5e730ed-f5a9-4b16-a7a5-8e02850cb8b1",
-          "node_id": "ead293e1-dab5-4a26-ad6d-a200664615a1"
+          "id": "2b5fef8c-90e4-41a8-883e-80cd170194f9",
+          "node_id": "a70a7d43-c980-4d50-90ff-09078fe2c7ca"
         },
         {
           "key": "intensity",
           "value": "5,000 rpm",
-          "id": "d11622c8-c03a-486f-bcab-8d6f30af389b",
-          "node_id": "ead293e1-dab5-4a26-ad6d-a200664615a1"
+          "id": "fb7e9c86-615f-4c04-ba0f-a1862ce3dd0a",
+          "node_id": "a70a7d43-c980-4d50-90ff-09078fe2c7ca"
         },
         {
           "key": "time",
           "value": "1 min",
-          "id": "49a66847-89d9-47b7-99f3-694c1e868889",
-          "node_id": "ead293e1-dab5-4a26-ad6d-a200664615a1"
+          "id": "7b950583-c569-4972-b6b5-0db376632c52",
+          "node_id": "a70a7d43-c980-4d50-90ff-09078fe2c7ca"
         }
       ],
       "emits": []
     },
     {
-      "id": "b0bf2172-f553-49f7-bb79-56e05db9c989",
+      "id": "640224b3-d65a-4d6e-8a36-fdeaee2dd723",
       "text": "Centrifuge the tube \\(5,000 rpm, 1 min) and discard the supernatant.",
       "instruction": "DISCARD",
       "slots": [
         {
           "key": "reagent1",
           "value": "supernatant",
-          "id": "450ab839-9d00-4e3d-b3dd-943b7c49a909",
-          "node_id": "b0bf2172-f553-49f7-bb79-56e05db9c989"
+          "id": "f19dac95-28d8-4ec6-8404-5bbde0fe388e",
+          "node_id": "640224b3-d65a-4d6e-8a36-fdeaee2dd723"
         },
         {
           "key": "method",
           "value": "centrifuge",
-          "id": "a7c0e34f-21e6-44bf-b30d-b8f5bfcfb994",
-          "node_id": "b0bf2172-f553-49f7-bb79-56e05db9c989"
+          "id": "f6b72db5-f49e-4a02-ba7e-004e7ddce774",
+          "node_id": "640224b3-d65a-4d6e-8a36-fdeaee2dd723"
         },
         {
           "key": "device",
           "value": "tube",
-          "id": "d6414a63-f5ab-46c7-afb0-d9f76741fc5b",
-          "node_id": "b0bf2172-f553-49f7-bb79-56e05db9c989"
+          "id": "c7a3c0d6-38c0-44d4-a340-a674bb523d95",
+          "node_id": "640224b3-d65a-4d6e-8a36-fdeaee2dd723"
         },
         {
           "key": "notice",
           "value": "",
-          "id": "079b91d6-9aff-4fdf-af94-66eb9b641106",
-          "node_id": "b0bf2172-f553-49f7-bb79-56e05db9c989"
+          "id": "62b38412-5e3e-4550-9ee1-c50040f66564",
+          "node_id": "640224b3-d65a-4d6e-8a36-fdeaee2dd723"
         }
       ],
       "emits": [
         {
           "key": "reagent0",
           "value": "supernatant",
-          "id": "5a6cebb1-9924-4435-aed1-1f8ba4bcf054",
-          "node_id": "b0bf2172-f553-49f7-bb79-56e05db9c989"
+          "id": "953b3763-89d5-4a04-9d4e-9cce9117aec8",
+          "node_id": "640224b3-d65a-4d6e-8a36-fdeaee2dd723"
         }
       ]
     },
     {
-      "id": "116452b3-494f-404f-bc73-35fc34acb8fc",
+      "id": "e625538b-9827-4674-9bad-920a395fdd87",
       "text": "Add SDS-PAGE sample buffer and mix well.",
       "instruction": "ADD",
       "slots": [
         {
           "key": "reagent1",
           "value": "SDS-PAGE sample buffer",
-          "id": "337910f8-e4a4-4396-94d6-8ffadb97ef81",
-          "node_id": "116452b3-494f-404f-bc73-35fc34acb8fc"
+          "id": "d120020c-52e8-495f-94c2-d7b296c96348",
+          "node_id": "e625538b-9827-4674-9bad-920a395fdd87"
         }
       ],
       "emits": [
         {
           "key": "reagent0",
           "value": "cells",
-          "id": "6031e8c7-d534-4b8d-9359-11864245abbe",
-          "node_id": "116452b3-494f-404f-bc73-35fc34acb8fc"
+          "id": "d3686b73-0046-4a3a-a1ac-1c930843b7b2",
+          "node_id": "e625538b-9827-4674-9bad-920a395fdd87"
         }
       ]
     },
     {
-      "id": "bb003185-08ab-45a7-b5e0-6851e03e0d2a",
+      "id": "6c53dbc0-0453-484c-aa8f-6020136f7095",
       "text": "Add SDS-PAGE sample buffer and mix well.",
       "instruction": "MIX",
       "slots": [
         {
           "key": "reagent1",
           "value": "SDS-PAGE sample buffer",
-          "id": "57a6f48b-c025-47e0-ad89-0628aaeeff69",
-          "node_id": "bb003185-08ab-45a7-b5e0-6851e03e0d2a"
+          "id": "657c62a5-37e8-4813-ab4a-fbe670bbc763",
+          "node_id": "6c53dbc0-0453-484c-aa8f-6020136f7095"
         }
       ],
       "emits": [
         {
           "key": "reagent0",
           "value": "cells",
-          "id": "0d914e7d-8287-49dc-b960-9cece73bdb0f",
-          "node_id": "bb003185-08ab-45a7-b5e0-6851e03e0d2a"
+          "id": "f79fbf16-0191-4387-ae01-72fda6d19bcb",
+          "node_id": "6c53dbc0-0453-484c-aa8f-6020136f7095"
         }
       ]
     },
     {
-      "id": "339c0494-72b0-441c-b16f-afa9bf6547d2",
+      "id": "1bbd97b7-e8cd-48d9-8365-e58801f49ae9",
       "text": "Heat at 95-100&#x2DA;C for 5 min.",
       "instruction": "HEAT",
       "slots": [
         {
           "key": "reagent1",
           "value": "cells",
-          "id": "80ec1f8e-cc70-4e9d-acd2-c46e4a1d3c80",
-          "node_id": "339c0494-72b0-441c-b16f-afa9bf6547d2"
+          "id": "96050531-88ea-4400-a782-cdc2f4c7b594",
+          "node_id": "1bbd97b7-e8cd-48d9-8365-e58801f49ae9"
         },
         {
           "key": "temperature",
           "value": "95-100\u00b0C",
-          "id": "bf2a8da6-937e-4eca-a36e-f34eaef9c1d1",
-          "node_id": "339c0494-72b0-441c-b16f-afa9bf6547d2"
+          "id": "1fb281db-6878-483f-8864-accafac97528",
+          "node_id": "1bbd97b7-e8cd-48d9-8365-e58801f49ae9"
         },
         {
           "key": "time",
           "value": "5 min",
-          "id": "ab164118-b4af-4108-aacc-b8a6242b7454",
-          "node_id": "339c0494-72b0-441c-b16f-afa9bf6547d2"
+          "id": "c042f333-daf7-4765-8944-fd89e1b51747",
+          "node_id": "1bbd97b7-e8cd-48d9-8365-e58801f49ae9"
         }
       ],
       "emits": [
         {
           "key": "reagent0",
           "value": "cells",
-          "id": "1b54355d-1dfe-41c6-b118-6e7e2487caed",
-          "node_id": "339c0494-72b0-441c-b16f-afa9bf6547d2"
+          "id": "eb507282-cced-46b5-8a1b-a7ba56ceda5d",
+          "node_id": "1bbd97b7-e8cd-48d9-8365-e58801f49ae9"
         }
       ]
     },
     {
-      "id": "eae14b15-c1fe-43c1-ba8b-48861802a224",
+      "id": "b1f0b3a8-1025-417b-b974-a296105dddb6",
       "text": "Centrifuge at at least 3,500 rpm, and use the supernatant as the total cell lysate.",
       "instruction": "CENTRIFUGE",
       "slots": [
         {
           "key": "reagent1",
           "value": "cells",
-          "id": "df3c0269-0561-443b-961e-70701eac20e3",
-          "node_id": "eae14b15-c1fe-43c1-ba8b-48861802a224"
+          "id": "fff454ca-f8e6-443c-a569-ecd57ae93541",
+          "node_id": "b1f0b3a8-1025-417b-b974-a296105dddb6"
         },
         {
           "key": "intensity",
           "value": "at least 3,500 rpm",
-          "id": "a2de8894-7476-4834-9fd9-191e739a9d2e",
-          "node_id": "eae14b15-c1fe-43c1-ba8b-48861802a224"
+          "id": "92fed95c-0bd6-40f5-bf5f-152b0fe405ca",
+          "node_id": "b1f0b3a8-1025-417b-b974-a296105dddb6"
         }
       ],
       "emits": [
         {
           "key": "reagent0",
           "value": "supernatant",
-          "id": "88d09d82-2b27-41b6-8b80-e5d1117990d8",
-          "node_id": "eae14b15-c1fe-43c1-ba8b-48861802a224"
+          "id": "d9c02c27-6614-4fd5-a757-2e4ad92d58f2",
+          "node_id": "b1f0b3a8-1025-417b-b974-a296105dddb6"
         }
       ]
     }

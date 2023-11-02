@@ -2,401 +2,401 @@
   "name": "nprot-108_graphData.json",
   "nodes": [
     {
-      "id": "ca23aa3e-3ee6-413a-b5dd-3e17e43af3ab",
+      "id": "87363b86-bb53-4d09-8036-6cfd4b5b8ae5",
       "text": "Prepare poly-D-lysinated coverslips \\(poly D lysine 50&#x3BC;g/ml)",
       "instruction": "PREPARE",
       "slots": [
         {
           "key": "reagent1",
           "value": "poly-D-lysinated coverslips",
-          "id": "fa45e852-91b8-488e-b584-25f134f7b7ef",
-          "node_id": "ca23aa3e-3ee6-413a-b5dd-3e17e43af3ab"
+          "id": "d79209b6-87b1-40a3-817d-f2774f17ce74",
+          "node_id": "87363b86-bb53-4d09-8036-6cfd4b5b8ae5"
         },
         {
           "key": "concentration",
           "value": "50\u03bcg/ml",
-          "id": "795887b5-a056-4bee-9dd4-77009a1fc1c7",
-          "node_id": "ca23aa3e-3ee6-413a-b5dd-3e17e43af3ab"
+          "id": "d66d4a45-c3ce-4228-898e-3161fe9e6bfc",
+          "node_id": "87363b86-bb53-4d09-8036-6cfd4b5b8ae5"
         }
       ],
       "emits": [
         {
           "key": "reagent0",
           "value": "poly-D-lysinated coverslips",
-          "id": "fe147cb8-ff30-4b48-9af1-c2d2ae171bf5",
-          "node_id": "ca23aa3e-3ee6-413a-b5dd-3e17e43af3ab"
+          "id": "638c4c3e-1a52-4e88-9b1e-97e8a048a0ba",
+          "node_id": "87363b86-bb53-4d09-8036-6cfd4b5b8ae5"
         }
       ]
     },
     {
-      "id": "0effd816-f4c4-4960-8108-baa12b35d6d2",
+      "id": "ed9ce877-3239-4457-ba95-4bb8f5480d87",
       "text": "Plate 15-20 x 10<sup>3</sup> cells on coverslips 1 day before the staining",
       "instruction": "PLATE",
       "slots": [
         {
           "key": "reagent1",
           "value": "15-20 x 10^3 cells",
-          "id": "06eac30a-5f27-4a74-827f-32c4991d375b",
-          "node_id": "0effd816-f4c4-4960-8108-baa12b35d6d2"
+          "id": "ca9b3862-ac11-49ca-861f-ffb115691790",
+          "node_id": "ed9ce877-3239-4457-ba95-4bb8f5480d87"
         },
         {
           "key": "reagent2",
           "value": "coverslips",
-          "id": "6895b640-8c7b-4bf6-83d7-eae6856ab47a",
-          "node_id": "0effd816-f4c4-4960-8108-baa12b35d6d2"
+          "id": "bda2471e-8b4e-4eba-b972-8d2aab83f6a2",
+          "node_id": "ed9ce877-3239-4457-ba95-4bb8f5480d87"
         }
       ],
       "emits": [
         {
           "key": "reagent0",
           "value": "poly-D-lysinated coverslips",
-          "id": "f270637e-206b-40b0-9a28-fcc8c4c51c27",
-          "node_id": "0effd816-f4c4-4960-8108-baa12b35d6d2"
+          "id": "0de12bea-fd71-4499-ac33-afc90dcaad80",
+          "node_id": "ed9ce877-3239-4457-ba95-4bb8f5480d87"
         }
       ]
     },
     {
-      "id": "e8d81eaa-83f1-49b8-8961-715f5738a664",
+      "id": "dfab9eeb-10e7-46a4-892d-c0555d0d5ba9",
       "text": "Wash cells gently 2x5&#x2019;in PBS1x",
       "instruction": "WASH",
       "slots": [
         {
           "key": "reagent1",
           "value": "cells",
-          "id": "03d7e207-919a-4ef1-987c-4d6652a67cdd",
-          "node_id": "e8d81eaa-83f1-49b8-8961-715f5738a664"
+          "id": "06ce9f1c-4d9a-45b0-885a-69c06110e3c6",
+          "node_id": "dfab9eeb-10e7-46a4-892d-c0555d0d5ba9"
         },
         {
           "key": "reagent2",
           "value": "PBS",
-          "id": "adcde8ae-7472-4534-a6b9-1e169c8d6d5d",
-          "node_id": "e8d81eaa-83f1-49b8-8961-715f5738a664"
+          "id": "b2fef233-bafc-4fcf-ac47-e44e6fbcb260",
+          "node_id": "dfab9eeb-10e7-46a4-892d-c0555d0d5ba9"
         },
         {
           "key": "repeat",
           "value": "2",
-          "id": "eaf03b41-2c27-432e-ae76-a5898e1cfd63",
-          "node_id": "e8d81eaa-83f1-49b8-8961-715f5738a664"
+          "id": "b5a1663a-cf31-4042-b3c0-06bedce8cdcb",
+          "node_id": "dfab9eeb-10e7-46a4-892d-c0555d0d5ba9"
         },
         {
           "key": "time",
           "value": "5'",
-          "id": "601b80f2-5970-4e28-b37d-d0f205791ced",
-          "node_id": "e8d81eaa-83f1-49b8-8961-715f5738a664"
+          "id": "3df20f28-8651-4317-8115-959841db596c",
+          "node_id": "dfab9eeb-10e7-46a4-892d-c0555d0d5ba9"
         }
       ],
       "emits": [
         {
           "key": "reagent0",
           "value": "cells",
-          "id": "7143d1a3-9499-4a2b-849a-f2f8cf714ec7",
-          "node_id": "e8d81eaa-83f1-49b8-8961-715f5738a664"
+          "id": "897577da-3401-4d3e-b18c-c19b89903e49",
+          "node_id": "dfab9eeb-10e7-46a4-892d-c0555d0d5ba9"
         }
       ]
     },
     {
-      "id": "80511401-b9ea-4ac5-81b5-f3d0b5e72e92",
+      "id": "31011e4b-e1cd-4b29-8c33-e1769efb74c6",
       "text": "Fix and permeabilize cells for 2&#x2019; with methanol/aceton 1:1 at RT",
       "instruction": "FIX",
       "slots": [
         {
           "key": "reagent1",
           "value": "methanol/aceton 1:1",
-          "id": "c6649060-f95d-4945-9694-5a11d348bdb5",
-          "node_id": "80511401-b9ea-4ac5-81b5-f3d0b5e72e92"
+          "id": "298b011c-72a0-4d2c-b310-fa1d79da2181",
+          "node_id": "31011e4b-e1cd-4b29-8c33-e1769efb74c6"
         },
         {
           "key": "reagent2",
           "value": "methanol/aceton 1:1",
-          "id": "21251ab7-5798-44de-bd7b-368c5d00d6bc",
-          "node_id": "80511401-b9ea-4ac5-81b5-f3d0b5e72e92"
+          "id": "2262e06e-673c-4b4e-913f-ac6932ffe825",
+          "node_id": "31011e4b-e1cd-4b29-8c33-e1769efb74c6"
         },
         {
           "key": "temperature",
           "value": "RT",
-          "id": "c23cb8b6-8170-478f-8df3-5117ae5711fa",
-          "node_id": "80511401-b9ea-4ac5-81b5-f3d0b5e72e92"
+          "id": "1a8eca85-7a7f-432e-96b5-71833fa23e4f",
+          "node_id": "31011e4b-e1cd-4b29-8c33-e1769efb74c6"
         },
         {
           "key": "time",
           "value": "2'",
-          "id": "c1abf311-765f-4caa-a40a-87ea71f5e8ce",
-          "node_id": "80511401-b9ea-4ac5-81b5-f3d0b5e72e92"
+          "id": "7037a127-fdf8-4d78-bb79-0113bfb0f9e9",
+          "node_id": "31011e4b-e1cd-4b29-8c33-e1769efb74c6"
         }
       ],
       "emits": [
         {
           "key": "reagent0",
           "value": "cells",
-          "id": "d93cf55a-6340-4233-b698-35e0f4bdd190",
-          "node_id": "80511401-b9ea-4ac5-81b5-f3d0b5e72e92"
+          "id": "da9435f9-e7a1-4a7c-90a1-b1f224c01a67",
+          "node_id": "31011e4b-e1cd-4b29-8c33-e1769efb74c6"
         }
       ]
     },
     {
-      "id": "b45057fd-cfa7-4363-aac7-35539d12d203",
+      "id": "e3a03aa2-d01e-48fe-9f2a-630359706932",
       "text": "Block cells for 30&#x2019; with PBG1x",
       "instruction": "BLOCK",
       "slots": [
         {
           "key": "reagent1",
           "value": "cells",
-          "id": "f8d7c72b-c8a5-4dd2-b048-0347a7a2d2db",
-          "node_id": "b45057fd-cfa7-4363-aac7-35539d12d203"
+          "id": "49091361-4b75-487f-a846-aab4ea626644",
+          "node_id": "e3a03aa2-d01e-48fe-9f2a-630359706932"
         },
         {
           "key": "reagent2",
           "value": "PBG1x",
-          "id": "97ddcaad-b60b-4f49-ab3f-850e8008642a",
-          "node_id": "b45057fd-cfa7-4363-aac7-35539d12d203"
+          "id": "13d7b51f-fa9a-430a-8548-1f61e4af0ac0",
+          "node_id": "e3a03aa2-d01e-48fe-9f2a-630359706932"
         },
         {
           "key": "temperature",
           "value": "room temperature",
-          "id": "0523ca64-5d0b-4b76-a978-e2a7ee1643c7",
-          "node_id": "b45057fd-cfa7-4363-aac7-35539d12d203"
+          "id": "cbeabf3d-fd3b-43c3-925f-f533f04da7b7",
+          "node_id": "e3a03aa2-d01e-48fe-9f2a-630359706932"
         },
         {
           "key": "time",
           "value": "30'",
-          "id": "2fa1e82c-e695-4a48-ba42-ca912149a087",
-          "node_id": "b45057fd-cfa7-4363-aac7-35539d12d203"
+          "id": "6b5cb8b8-c169-4555-b63a-c933d9f67006",
+          "node_id": "e3a03aa2-d01e-48fe-9f2a-630359706932"
         }
       ],
       "emits": [
         {
           "key": "reagent0",
           "value": "cells",
-          "id": "d2255a87-1a57-4798-b850-dc4b30e00246",
-          "node_id": "b45057fd-cfa7-4363-aac7-35539d12d203"
+          "id": "07fb6a4e-4fcf-43b1-b95f-f4442044bb2e",
+          "node_id": "e3a03aa2-d01e-48fe-9f2a-630359706932"
         }
       ]
     },
     {
-      "id": "551eea52-8974-441e-a639-ebd328c3d97d",
+      "id": "9e9a8b54-a1c4-4592-bf62-b88e24716bd2",
       "text": "Stain with primary antibodies diluted in PBG1x at indicated concentration for 1h at RT in a humidified chamber",
       "instruction": "STAIN",
       "slots": [
         {
           "key": "reagent1",
           "value": "primary antibodies",
-          "id": "1417a30f-fb24-4fbb-a4a1-b36d0ab9e92e",
-          "node_id": "551eea52-8974-441e-a639-ebd328c3d97d"
+          "id": "fdb93e03-e7aa-4358-bb45-3ad822678164",
+          "node_id": "9e9a8b54-a1c4-4592-bf62-b88e24716bd2"
         },
         {
           "key": "temperature",
           "value": "RT",
-          "id": "c4989a41-9ffc-44dd-81bc-570448009b6a",
-          "node_id": "551eea52-8974-441e-a639-ebd328c3d97d"
+          "id": "5b7c122d-4a07-4c21-9f56-bbf7f4887154",
+          "node_id": "9e9a8b54-a1c4-4592-bf62-b88e24716bd2"
         },
         {
           "key": "time",
           "value": "1h",
-          "id": "361e247d-2c1e-4caf-9181-2a84305d3c44",
-          "node_id": "551eea52-8974-441e-a639-ebd328c3d97d"
+          "id": "3b786a49-162e-4320-a6f0-f55889964c4d",
+          "node_id": "9e9a8b54-a1c4-4592-bf62-b88e24716bd2"
         },
         {
           "key": "notice",
           "value": "in a humidified chamber",
-          "id": "c0ea0fa0-be7e-4265-bcab-ee6ffcf841e3",
-          "node_id": "551eea52-8974-441e-a639-ebd328c3d97d"
+          "id": "d36d68f9-7722-46d2-bf0f-d1c03e5303f7",
+          "node_id": "9e9a8b54-a1c4-4592-bf62-b88e24716bd2"
         }
       ],
       "emits": [
         {
           "key": "reagent0",
           "value": "cells",
-          "id": "e4f4c5ad-7ea9-4e88-b595-58bd3211a1e3",
-          "node_id": "551eea52-8974-441e-a639-ebd328c3d97d"
+          "id": "e77d119a-5360-4422-b877-36fbae4fb7f2",
+          "node_id": "9e9a8b54-a1c4-4592-bf62-b88e24716bd2"
         }
       ]
     },
     {
-      "id": "6f22afe3-15db-4284-9a0c-207706ba9b27",
+      "id": "0537e1ac-696e-4a5a-bb3c-29a50f1f4d15",
       "text": "Wash cells gently 3x5&#x2019;in PBG1x",
       "instruction": "WASH",
       "slots": [
         {
           "key": "reagent1",
           "value": "cells",
-          "id": "27d549d8-c48d-4b1a-8170-773c1051f846",
-          "node_id": "6f22afe3-15db-4284-9a0c-207706ba9b27"
+          "id": "19bad126-c1d4-4066-bb6a-fed12a7f5f53",
+          "node_id": "0537e1ac-696e-4a5a-bb3c-29a50f1f4d15"
         },
         {
           "key": "reagent2",
           "value": "PBG1x",
-          "id": "91e9e44b-017c-40b9-8d66-a1b6a1649d45",
-          "node_id": "6f22afe3-15db-4284-9a0c-207706ba9b27"
+          "id": "14298160-3b12-4281-91e5-3317705f9290",
+          "node_id": "0537e1ac-696e-4a5a-bb3c-29a50f1f4d15"
         },
         {
           "key": "repeat",
           "value": "3",
-          "id": "0ecf49a1-322c-4a48-b787-6ab9833e8494",
-          "node_id": "6f22afe3-15db-4284-9a0c-207706ba9b27"
+          "id": "3c753f72-e9f3-46ca-a295-6cfdf71f062f",
+          "node_id": "0537e1ac-696e-4a5a-bb3c-29a50f1f4d15"
         },
         {
           "key": "time",
           "value": "5'",
-          "id": "7632aa9c-7cc9-43cf-9ade-bd0b4c572c7a",
-          "node_id": "6f22afe3-15db-4284-9a0c-207706ba9b27"
+          "id": "569b4e49-6482-4c42-bfe8-a07c56b252cf",
+          "node_id": "0537e1ac-696e-4a5a-bb3c-29a50f1f4d15"
         }
       ],
       "emits": [
         {
           "key": "reagent0",
           "value": "cells",
-          "id": "5a2f836a-61e4-4735-8ce0-c3c31687b226",
-          "node_id": "6f22afe3-15db-4284-9a0c-207706ba9b27"
+          "id": "5265118d-4e45-40dc-bb3a-2155b429bb12",
+          "node_id": "0537e1ac-696e-4a5a-bb3c-29a50f1f4d15"
         }
       ]
     },
     {
-      "id": "da2fb60d-7d49-4409-97ae-8706b3330da7",
+      "id": "a9433cd1-6aae-48a2-8454-9675ff86894c",
       "text": "Stain with secondary antibodies diluted in PBG1x for 1h at RT in a dark humidified chamber",
       "instruction": "STAIN",
       "slots": [
         {
           "key": "reagent1",
           "value": "secondary antibodies",
-          "id": "c7078d61-adb5-44ba-b874-01fdfb725c26",
-          "node_id": "da2fb60d-7d49-4409-97ae-8706b3330da7"
+          "id": "31212f58-711c-4381-9562-48a4c3429120",
+          "node_id": "a9433cd1-6aae-48a2-8454-9675ff86894c"
         },
         {
           "key": "temperature",
           "value": "RT",
-          "id": "000362b9-298c-40c8-a380-0d92f260c215",
-          "node_id": "da2fb60d-7d49-4409-97ae-8706b3330da7"
+          "id": "05c9a647-9027-4779-b366-15bf8e618b4a",
+          "node_id": "a9433cd1-6aae-48a2-8454-9675ff86894c"
         },
         {
           "key": "time",
           "value": "1h",
-          "id": "566b6d19-7712-494a-a1a9-9cfaebe127bc",
-          "node_id": "da2fb60d-7d49-4409-97ae-8706b3330da7"
+          "id": "98b0b89d-f32b-4b76-beba-429c2e4b8115",
+          "node_id": "a9433cd1-6aae-48a2-8454-9675ff86894c"
         },
         {
           "key": "notice",
           "value": "in a dark humidified chamber",
-          "id": "1872e0e0-3c6e-4b17-a7f5-d5c963537e20",
-          "node_id": "da2fb60d-7d49-4409-97ae-8706b3330da7"
+          "id": "bba28fea-bbfb-4ed4-aaf1-2b8ae25ae68a",
+          "node_id": "a9433cd1-6aae-48a2-8454-9675ff86894c"
         }
       ],
       "emits": [
         {
           "key": "reagent0",
           "value": "cells",
-          "id": "33df9611-4f5a-4a79-ab54-b4639966a685",
-          "node_id": "da2fb60d-7d49-4409-97ae-8706b3330da7"
+          "id": "a9e75a92-9447-49f3-ac74-c97e9ee4e1da",
+          "node_id": "a9433cd1-6aae-48a2-8454-9675ff86894c"
         }
       ]
     },
     {
-      "id": "a4772298-98ef-4e64-881d-39c0bc192bfd",
+      "id": "71cc9435-a6a8-4d2e-9fa4-4055ef193ca4",
       "text": "Wash cells gently 2x5&#x2019; in PBG1x and 2x5&#x2019;in PBS1x",
       "instruction": "WASH",
       "slots": [
         {
           "key": "reagent1",
           "value": "cells",
-          "id": "a31caed4-cef0-456d-b1af-1abe665c0958",
-          "node_id": "a4772298-98ef-4e64-881d-39c0bc192bfd"
+          "id": "9bb2a763-8266-4846-9d95-33a2618ab80f",
+          "node_id": "71cc9435-a6a8-4d2e-9fa4-4055ef193ca4"
         },
         {
           "key": "reagent2",
           "value": "PBG1x",
-          "id": "6178bed6-57ef-4759-882a-946e1ab1f9f3",
-          "node_id": "a4772298-98ef-4e64-881d-39c0bc192bfd"
+          "id": "a6c73960-252c-4753-b893-6f52d98714b6",
+          "node_id": "71cc9435-a6a8-4d2e-9fa4-4055ef193ca4"
         },
         {
           "key": "repeat",
           "value": "2",
-          "id": "41949d82-328b-475f-b05c-32276f25e6d1",
-          "node_id": "a4772298-98ef-4e64-881d-39c0bc192bfd"
+          "id": "93de1ff6-8d85-45e5-a174-a334403787d2",
+          "node_id": "71cc9435-a6a8-4d2e-9fa4-4055ef193ca4"
         },
         {
           "key": "time",
           "value": "5'",
-          "id": "3c22f459-e36c-4bc4-8f12-4a57e59343a6",
-          "node_id": "a4772298-98ef-4e64-881d-39c0bc192bfd"
+          "id": "12c5a42f-ceb8-4578-bb07-d57132ca281f",
+          "node_id": "71cc9435-a6a8-4d2e-9fa4-4055ef193ca4"
         }
       ],
       "emits": [
         {
           "key": "reagent0",
           "value": "cells",
-          "id": "e5653941-be65-4386-bffc-fa2e699a03fc",
-          "node_id": "a4772298-98ef-4e64-881d-39c0bc192bfd"
+          "id": "ca253b66-ce09-4325-809f-5a0bceaab965",
+          "node_id": "71cc9435-a6a8-4d2e-9fa4-4055ef193ca4"
         }
       ]
     },
     {
-      "id": "0088f719-0742-416e-b088-673efa390033",
+      "id": "ed35f3b8-39c6-4a08-a86d-c0af6408ab92",
       "text": "Wash cells gently 2x5&#x2019; in PBG1x and 2x5&#x2019;in PBS1x",
       "instruction": "WASH",
       "slots": [
         {
           "key": "reagent1",
           "value": "cells",
-          "id": "791de2c3-9241-4aeb-a21b-d5f58a0c9c85",
-          "node_id": "0088f719-0742-416e-b088-673efa390033"
+          "id": "181ae86f-27e6-44ed-8dd4-11bdaefd99f1",
+          "node_id": "ed35f3b8-39c6-4a08-a86d-c0af6408ab92"
         },
         {
           "key": "reagent2",
           "value": "PBS1x",
-          "id": "88dd1fec-d502-4ff3-8005-55c3c5b26b3e",
-          "node_id": "0088f719-0742-416e-b088-673efa390033"
+          "id": "77e4b3ec-4677-4eee-96f7-beeb23d8dfcf",
+          "node_id": "ed35f3b8-39c6-4a08-a86d-c0af6408ab92"
         },
         {
           "key": "repeat",
           "value": "2",
-          "id": "1c44928c-25b5-4f84-a8fe-874c60a696e6",
-          "node_id": "0088f719-0742-416e-b088-673efa390033"
+          "id": "c8b72571-83bb-4e82-9668-154df4f83c51",
+          "node_id": "ed35f3b8-39c6-4a08-a86d-c0af6408ab92"
         },
         {
           "key": "time",
           "value": "5'",
-          "id": "78313364-b4a6-4c77-a047-592d8128509e",
-          "node_id": "0088f719-0742-416e-b088-673efa390033"
+          "id": "f502603f-2823-4387-9a51-1ff6cae12846",
+          "node_id": "ed35f3b8-39c6-4a08-a86d-c0af6408ab92"
         }
       ],
       "emits": [
         {
           "key": "reagent0",
           "value": "cells",
-          "id": "944e61c9-ac5f-4a2b-9cbd-c5000527057b",
-          "node_id": "0088f719-0742-416e-b088-673efa390033"
+          "id": "376a5753-43cc-4c76-a0bc-25af8708b24b",
+          "node_id": "ed35f3b8-39c6-4a08-a86d-c0af6408ab92"
         }
       ]
     },
     {
-      "id": "175ed649-4256-401b-b0dd-9da16fd3a982",
+      "id": "737d37c5-f4f1-4e09-a2af-642aeb98cf91",
       "text": "Stain with Dapi for 5&#x2019; in the dark",
       "instruction": "STAIN",
       "slots": [
         {
           "key": "reagent1",
           "value": "Dapi",
-          "id": "087708f3-8f6b-44ef-ad24-614e702f202f",
-          "node_id": "175ed649-4256-401b-b0dd-9da16fd3a982"
+          "id": "d12a02da-1bef-4047-96b4-9d52faeb825d",
+          "node_id": "737d37c5-f4f1-4e09-a2af-642aeb98cf91"
         },
         {
           "key": "temperature",
           "value": "dark",
-          "id": "d97aa986-12dc-4f5d-a9aa-e1cb6611d01a",
-          "node_id": "175ed649-4256-401b-b0dd-9da16fd3a982"
+          "id": "6e844fde-2c29-47c0-8b2c-5c2f4080546c",
+          "node_id": "737d37c5-f4f1-4e09-a2af-642aeb98cf91"
         },
         {
           "key": "time",
           "value": "5'",
-          "id": "c6e4ba62-fc4d-4f11-8656-8a86a0744a78",
-          "node_id": "175ed649-4256-401b-b0dd-9da16fd3a982"
+          "id": "e8a62bc3-4391-4e3f-bcdc-5e6d756b2a9a",
+          "node_id": "737d37c5-f4f1-4e09-a2af-642aeb98cf91"
         }
       ],
       "emits": [
         {
           "key": "reagent0",
           "value": "cells",
-          "id": "19c73694-884c-406c-be3d-fb77906be326",
-          "node_id": "175ed649-4256-401b-b0dd-9da16fd3a982"
+          "id": "8078ec0a-67ed-4872-99b0-6806250ecd12",
+          "node_id": "737d37c5-f4f1-4e09-a2af-642aeb98cf91"
         }
       ]
     }

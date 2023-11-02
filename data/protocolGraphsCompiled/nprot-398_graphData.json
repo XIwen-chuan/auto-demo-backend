@@ -2,155 +2,155 @@
   "name": "nprot-398_graphData.json",
   "nodes": [
     {
-      "id": "201fc36f-538e-4242-935f-da84e4e9cfbd",
+      "id": "dc4c71ea-0784-4b25-907c-32691f4da1fa",
       "text": "Load 0.7 ml of buffer to reference and sample cells",
       "instruction": "LOAD",
       "slots": [
         {
           "key": "reagent1",
           "value": "buffer",
-          "id": "9501cacd-4538-449e-a739-5de080c51d78",
-          "node_id": "201fc36f-538e-4242-935f-da84e4e9cfbd"
+          "id": "560abca4-ef8e-46c9-abe5-7fbd4c89bed5",
+          "node_id": "dc4c71ea-0784-4b25-907c-32691f4da1fa"
         },
         {
           "key": "destination",
           "value": "reference and sample cells",
-          "id": "ac2ea8bc-23e4-4a64-9b54-4239e05a2043",
-          "node_id": "201fc36f-538e-4242-935f-da84e4e9cfbd"
+          "id": "b3d80445-3b68-4e5b-805c-1296883f2ca8",
+          "node_id": "dc4c71ea-0784-4b25-907c-32691f4da1fa"
         },
         {
           "key": "volume",
           "value": "0.7 ml",
-          "id": "e6b27e4a-e2e1-478a-ac58-31b46381d3b2",
-          "node_id": "201fc36f-538e-4242-935f-da84e4e9cfbd"
+          "id": "b3f60f0e-f7df-4892-8e4a-98a7e98f277c",
+          "node_id": "dc4c71ea-0784-4b25-907c-32691f4da1fa"
         }
       ],
       "emits": [
         {
           "key": "reagent0",
           "value": "buffer",
-          "id": "3878a943-d840-4ab5-b670-31be008795d6",
-          "node_id": "201fc36f-538e-4242-935f-da84e4e9cfbd"
+          "id": "77b303aa-6cf4-488c-ac11-e227b61511c3",
+          "node_id": "dc4c71ea-0784-4b25-907c-32691f4da1fa"
         }
       ]
     },
     {
-      "id": "fa995f24-4c6e-4fa2-9835-f539539a5904",
+      "id": "88267ac9-e9ee-459d-8325-a78144e50dd8",
       "text": "Run 0 to 120 &#xB0;C at 1 degree/min",
       "instruction": "RUN",
       "slots": [
         {
           "key": "reagent1",
           "value": "buffer",
-          "id": "a533ea17-b0ab-4d27-b791-febf9d77b701",
-          "node_id": "fa995f24-4c6e-4fa2-9835-f539539a5904"
+          "id": "6cf9a48f-e5a7-4096-acd6-f299a19fa9b6",
+          "node_id": "88267ac9-e9ee-459d-8325-a78144e50dd8"
         },
         {
           "key": "notice",
           "value": "at 1 degree/min",
-          "id": "26138ebc-1a1e-4639-9352-eb351b43889a",
-          "node_id": "fa995f24-4c6e-4fa2-9835-f539539a5904"
+          "id": "b8d10f89-27a9-4273-ac38-667ad0fec79c",
+          "node_id": "88267ac9-e9ee-459d-8325-a78144e50dd8"
         }
       ],
       "emits": [
         {
           "key": "reagent0",
           "value": "buffer",
-          "id": "3d49d139-6603-4d6f-b23a-83996cd37278",
-          "node_id": "fa995f24-4c6e-4fa2-9835-f539539a5904"
+          "id": "0b247d19-ffe3-464b-80ab-dabe348770fa",
+          "node_id": "88267ac9-e9ee-459d-8325-a78144e50dd8"
         }
       ]
     },
     {
-      "id": "951a2c12-599b-4656-b445-69bcb614e4ae",
+      "id": "86138c43-0c6a-4327-a576-9596982757e2",
       "text": "Load 0.7 ml of fresh buffer to reference cell",
       "instruction": "LOAD",
       "slots": [
         {
           "key": "reagent1",
           "value": "buffer",
-          "id": "b0d729e6-17ad-4d60-8cbb-7480e62558e6",
-          "node_id": "951a2c12-599b-4656-b445-69bcb614e4ae"
+          "id": "cc114d32-fe8e-47b8-b0d7-a688df00acaa",
+          "node_id": "86138c43-0c6a-4327-a576-9596982757e2"
         },
         {
           "key": "destination",
           "value": "reference cell",
-          "id": "9f87bc0d-c3a4-4185-a6d6-c2c2fcf379d4",
-          "node_id": "951a2c12-599b-4656-b445-69bcb614e4ae"
+          "id": "d65875c1-0007-47fb-aded-fc6611fc2e3f",
+          "node_id": "86138c43-0c6a-4327-a576-9596982757e2"
         },
         {
           "key": "volume",
           "value": "0.7 ml",
-          "id": "206fb411-f0e4-4486-a858-c0f09fbd95bd",
-          "node_id": "951a2c12-599b-4656-b445-69bcb614e4ae"
+          "id": "52831888-c27d-4606-b848-e945142867ff",
+          "node_id": "86138c43-0c6a-4327-a576-9596982757e2"
         }
       ],
       "emits": [
         {
           "key": "reagent0",
           "value": "buffer",
-          "id": "600a2d64-0b18-44cd-8178-76d2cb852715",
-          "node_id": "951a2c12-599b-4656-b445-69bcb614e4ae"
+          "id": "946d3928-db85-453e-91b4-4e0a304b93a0",
+          "node_id": "86138c43-0c6a-4327-a576-9596982757e2"
         }
       ]
     },
     {
-      "id": "a5ce08e9-bf30-4c29-b952-cc630fc24537",
+      "id": "33a10463-b105-4a58-a7e4-f145d81e8284",
       "text": "Load 0.7 ml of protein to sample cell",
       "instruction": "LOAD",
       "slots": [
         {
           "key": "reagent1",
           "value": "protein",
-          "id": "7f4caea0-fbd4-4bbb-b225-e1cfe33e0ecc",
-          "node_id": "a5ce08e9-bf30-4c29-b952-cc630fc24537"
+          "id": "ee8ad8e8-c023-4b0e-97ea-ed709aa27297",
+          "node_id": "33a10463-b105-4a58-a7e4-f145d81e8284"
         },
         {
           "key": "destination",
           "value": "sample cell",
-          "id": "13ede70b-4f0a-4e99-8f16-f8e3cdb28b9b",
-          "node_id": "a5ce08e9-bf30-4c29-b952-cc630fc24537"
+          "id": "598ab96e-0568-4b54-8f8a-626275a9277c",
+          "node_id": "33a10463-b105-4a58-a7e4-f145d81e8284"
         },
         {
           "key": "volume",
           "value": "0.7 ml",
-          "id": "4fdb7fca-a2f2-4c49-b9f5-16ff28a37eb7",
-          "node_id": "a5ce08e9-bf30-4c29-b952-cc630fc24537"
+          "id": "685faaff-18a2-40c4-83c8-93c3d694bd3c",
+          "node_id": "33a10463-b105-4a58-a7e4-f145d81e8284"
         }
       ],
       "emits": [
         {
           "key": "reagent0",
           "value": "protein",
-          "id": "4dcc4177-0089-49b0-86a2-9ee405b69d38",
-          "node_id": "a5ce08e9-bf30-4c29-b952-cc630fc24537"
+          "id": "009cd22c-a43a-4eb7-9894-6ed7c5995b0d",
+          "node_id": "33a10463-b105-4a58-a7e4-f145d81e8284"
         }
       ]
     },
     {
-      "id": "dbeb994c-13ca-4017-9c9c-5d8ac9add55a",
+      "id": "73d57af1-c8b2-4c59-b4b2-0b3f7cc2c66a",
       "text": "Run 0 to 120 &#xB0;C at 1 degree/min",
       "instruction": "RUN",
       "slots": [
         {
           "key": "reagent1",
           "value": "buffer",
-          "id": "cf037172-7ad2-43d8-8a7d-175f0db060d6",
-          "node_id": "dbeb994c-13ca-4017-9c9c-5d8ac9add55a"
+          "id": "3c8d11c4-59c5-46e4-b6b7-fce95f338b6d",
+          "node_id": "73d57af1-c8b2-4c59-b4b2-0b3f7cc2c66a"
         },
         {
           "key": "notice",
           "value": "at 1 degree/min.",
-          "id": "e3e83d0b-7086-4e64-8ef6-e66364ab12ae",
-          "node_id": "dbeb994c-13ca-4017-9c9c-5d8ac9add55a"
+          "id": "bcf45939-536c-4eb9-bc40-ec660f268e4d",
+          "node_id": "73d57af1-c8b2-4c59-b4b2-0b3f7cc2c66a"
         }
       ],
       "emits": [
         {
           "key": "reagent0",
           "value": "buffer",
-          "id": "a540eb0d-5d39-4878-a170-e734172a49b7",
-          "node_id": "dbeb994c-13ca-4017-9c9c-5d8ac9add55a"
+          "id": "6ceffe63-30de-413a-878b-fd4f47918b88",
+          "node_id": "73d57af1-c8b2-4c59-b4b2-0b3f7cc2c66a"
         }
       ]
     }

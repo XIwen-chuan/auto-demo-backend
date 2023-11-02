@@ -2,214 +2,214 @@
   "name": "nprot-132_graphData.json",
   "nodes": [
     {
-      "id": "6d2dd42a-0505-45f1-baee-cfcef2e485aa",
+      "id": "06099cd5-0570-46e0-b717-f082c81c04ef",
       "text": "Transform and select yeast on solid YNB \\(minimal yeast medium without nitrogen) medium supplemented with 3% glucose and 1 mM arginine. For selection, grow cells in liquid YNB medium supplemented with 3% glucose and 1 mM arginine for one day, dilute 10, 100, 1000 and 10000 in water and drop 5 &#xB5;L of cells on solid YNB medium containing 50 mM Tris/MES buffered at pH 5.2, 3% glucose and 0.2, 0.4 or 2 mM ammonium chloride or, as a control, 1 mM arginine.",
       "instruction": "TRANSFORM",
       "slots": [
         {
           "key": "reagent1",
           "value": "yeast",
-          "id": "e77e34aa-e195-4dcc-9c52-bd82391558d5",
-          "node_id": "6d2dd42a-0505-45f1-baee-cfcef2e485aa"
+          "id": "f9b9c901-2a22-4c7b-89a3-eee0d20e00ce",
+          "node_id": "06099cd5-0570-46e0-b717-f082c81c04ef"
         },
         {
           "key": "reagent2",
           "value": "YNB medium",
-          "id": "694c692e-a31e-499c-95db-5b92010659c1",
-          "node_id": "6d2dd42a-0505-45f1-baee-cfcef2e485aa"
+          "id": "5dc5da4c-630e-4b2e-9628-f7f18da2b6c8",
+          "node_id": "06099cd5-0570-46e0-b717-f082c81c04ef"
         }
       ],
       "emits": [
         {
           "key": "reagent0",
           "value": "yeast",
-          "id": "05950eb8-468b-45b0-90f0-e03bfc5932fc",
-          "node_id": "6d2dd42a-0505-45f1-baee-cfcef2e485aa"
+          "id": "1fb7c3ab-d099-4cb6-82cd-bcd7f297cfb8",
+          "node_id": "06099cd5-0570-46e0-b717-f082c81c04ef"
         }
       ]
     },
     {
-      "id": "966ba0a8-2313-4fa1-827b-9ef59c245c19",
+      "id": "2a88885c-38ed-40a2-a591-446926dcbfee",
       "text": "Transform and select yeast on solid YNB \\(minimal yeast medium without nitrogen) medium supplemented with 3% glucose and 1 mM arginine. For selection, grow cells in liquid YNB medium supplemented with 3% glucose and 1 mM arginine for one day, dilute 10, 100, 1000 and 10000 in water and drop 5 &#xB5;L of cells on solid YNB medium containing 50 mM Tris/MES buffered at pH 5.2, 3% glucose and 0.2, 0.4 or 2 mM ammonium chloride or, as a control, 1 mM arginine.",
       "instruction": "GROW",
       "slots": [
         {
           "key": "reagent1",
           "value": "yeast",
-          "id": "dd3190bd-37c8-471c-bd22-287993bbc73b",
-          "node_id": "966ba0a8-2313-4fa1-827b-9ef59c245c19"
+          "id": "75721d89-1978-4c01-b617-de685cfc1d36",
+          "node_id": "2a88885c-38ed-40a2-a591-446926dcbfee"
         },
         {
           "key": "medium",
           "value": "liquid YNB medium",
-          "id": "467f0700-a6e0-4611-ab4f-3c371299958b",
-          "node_id": "966ba0a8-2313-4fa1-827b-9ef59c245c19"
+          "id": "e57f491e-2fce-4306-b20e-7e7dddfe3c2d",
+          "node_id": "2a88885c-38ed-40a2-a591-446926dcbfee"
         },
         {
           "key": "temperature",
           "value": "room temperature",
-          "id": "d3149722-d88e-492e-8a80-b210bbbb258a",
-          "node_id": "966ba0a8-2313-4fa1-827b-9ef59c245c19"
+          "id": "b71f69b1-ef14-4dc5-88a7-1682bc5e1ff2",
+          "node_id": "2a88885c-38ed-40a2-a591-446926dcbfee"
         },
         {
           "key": "time",
           "value": "one day",
-          "id": "ff2e29e0-0e5b-493c-b9e2-ee6dd53ad791",
-          "node_id": "966ba0a8-2313-4fa1-827b-9ef59c245c19"
+          "id": "d4559bbf-20c9-4fb3-a2b1-df2f7cbe5c72",
+          "node_id": "2a88885c-38ed-40a2-a591-446926dcbfee"
         }
       ],
       "emits": [
         {
           "key": "reagent0",
           "value": "yeast",
-          "id": "b0f49fe3-8a27-4b75-b2b3-f2980092e75c",
-          "node_id": "966ba0a8-2313-4fa1-827b-9ef59c245c19"
+          "id": "716ffe82-a8bd-4d48-88fc-16864519bbcc",
+          "node_id": "2a88885c-38ed-40a2-a591-446926dcbfee"
         }
       ]
     },
     {
-      "id": "39d499c5-84c7-46eb-a72a-a1f460e53add",
+      "id": "632f2895-ef33-4d63-a650-bbd52535bf6e",
       "text": "Transform and select yeast on solid YNB \\(minimal yeast medium without nitrogen) medium supplemented with 3% glucose and 1 mM arginine. For selection, grow cells in liquid YNB medium supplemented with 3% glucose and 1 mM arginine for one day, dilute 10, 100, 1000 and 10000 in water and drop 5 &#xB5;L of cells on solid YNB medium containing 50 mM Tris/MES buffered at pH 5.2, 3% glucose and 0.2, 0.4 or 2 mM ammonium chloride or, as a control, 1 mM arginine.",
       "instruction": "DILUTE",
       "slots": [
         {
           "key": "reagent1",
           "value": "yeast",
-          "id": "0ed7d82f-0c2e-4a9e-a69d-550c768627e7",
-          "node_id": "39d499c5-84c7-46eb-a72a-a1f460e53add"
+          "id": "2adaed4a-f645-4af6-a143-96d399b1caf3",
+          "node_id": "632f2895-ef33-4d63-a650-bbd52535bf6e"
         },
         {
           "key": "reagent2",
           "value": "water",
-          "id": "bbb5a0e3-8598-4470-9e39-2cd86da8d977",
-          "node_id": "39d499c5-84c7-46eb-a72a-a1f460e53add"
+          "id": "e00e8bbb-cc0e-4aec-8938-ee2b8178b538",
+          "node_id": "632f2895-ef33-4d63-a650-bbd52535bf6e"
         },
         {
           "key": "targetConcentration",
           "value": "10, 100, 1000 and 10000",
-          "id": "54731bf8-82bc-46ea-940e-8c84ca8285ff",
-          "node_id": "39d499c5-84c7-46eb-a72a-a1f460e53add"
+          "id": "a4272212-96cb-4196-a7c7-005c8f5f3736",
+          "node_id": "632f2895-ef33-4d63-a650-bbd52535bf6e"
         }
       ],
       "emits": [
         {
           "key": "reagent0",
           "value": "yeast",
-          "id": "8633f962-6f69-4782-8302-7630e3f532b1",
-          "node_id": "39d499c5-84c7-46eb-a72a-a1f460e53add"
+          "id": "763cdb55-e019-45a5-8294-37aa299d04dd",
+          "node_id": "632f2895-ef33-4d63-a650-bbd52535bf6e"
         }
       ]
     },
     {
-      "id": "3881754e-b348-4579-89f4-83fde5510552",
+      "id": "14c3658a-5f10-4896-9704-fc82a07ebfae",
       "text": "Transform and select yeast on solid YNB \\(minimal yeast medium without nitrogen) medium supplemented with 3% glucose and 1 mM arginine. For selection, grow cells in liquid YNB medium supplemented with 3% glucose and 1 mM arginine for one day, dilute 10, 100, 1000 and 10000 in water and drop 5 &#xB5;L of cells on solid YNB medium containing 50 mM Tris/MES buffered at pH 5.2, 3% glucose and 0.2, 0.4 or 2 mM ammonium chloride or, as a control, 1 mM arginine.",
       "instruction": "DROP",
       "slots": [
         {
           "key": "reagent1",
           "value": "cells",
-          "id": "f84da9d3-cbb7-4350-bff8-32b5d2b39f45",
-          "node_id": "3881754e-b348-4579-89f4-83fde5510552"
+          "id": "c2f77b50-2c39-4bba-ae9d-0aaf691457f8",
+          "node_id": "14c3658a-5f10-4896-9704-fc82a07ebfae"
         },
         {
           "key": "volume",
           "value": "5 \u00b5L",
-          "id": "87948c33-b50f-41d4-aa2b-156c3564e59f",
-          "node_id": "3881754e-b348-4579-89f4-83fde5510552"
+          "id": "87124ab3-493e-4cdf-bc36-aed92cd62bb8",
+          "node_id": "14c3658a-5f10-4896-9704-fc82a07ebfae"
         },
         {
           "key": "destination",
           "value": "solid YNB medium containing 50 mM Tris/MES buffered at pH 5.2, 3% glucose and 0.2, 0.4 or 2 mM ammonium chloride or, as a control, 1 mM arginine",
-          "id": "a69cf448-9e93-479d-b7ef-372f5a7d0af0",
-          "node_id": "3881754e-b348-4579-89f4-83fde5510552"
+          "id": "e5096563-7ab4-47e9-9ff1-d507e9d90e8e",
+          "node_id": "14c3658a-5f10-4896-9704-fc82a07ebfae"
         }
       ],
       "emits": [
         {
           "key": "reagent0",
           "value": "yeast",
-          "id": "9fde03d7-79f4-4898-ade7-916b6277ed78",
-          "node_id": "3881754e-b348-4579-89f4-83fde5510552"
+          "id": "588f2837-3486-4151-aa2d-e3c9cb0066fe",
+          "node_id": "14c3658a-5f10-4896-9704-fc82a07ebfae"
         }
       ]
     },
     {
-      "id": "b0a2eca5-e395-433d-8e1b-d8948e22b233",
+      "id": "0ceb6ad7-59fa-435b-b2d7-4805074c8ad4",
       "text": "Incubate cells 3-6 days at 28&#xBA;C and document results by\r\n\n\nscanning the plates at 600dpi in grey scale.",
       "instruction": "INCUBATE",
       "slots": [
         {
           "key": "reagent1",
           "value": "yeast",
-          "id": "d03d9d4d-3aaf-42e7-9ac1-6355bd5cb10f",
-          "node_id": "b0a2eca5-e395-433d-8e1b-d8948e22b233"
+          "id": "914d2844-faf3-4778-9bbc-e2471bc645f8",
+          "node_id": "0ceb6ad7-59fa-435b-b2d7-4805074c8ad4"
         },
         {
           "key": "temperature",
           "value": "28\u00b0C",
-          "id": "e3782c3f-1f86-40bd-aedf-3105d15c25cd",
-          "node_id": "b0a2eca5-e395-433d-8e1b-d8948e22b233"
+          "id": "fa12bfa5-56ca-4869-8d5b-f1b442415738",
+          "node_id": "0ceb6ad7-59fa-435b-b2d7-4805074c8ad4"
         },
         {
           "key": "time",
           "value": "3-6 days",
-          "id": "30e0c35f-4180-4bab-8f9d-3cdc0c6cd317",
-          "node_id": "b0a2eca5-e395-433d-8e1b-d8948e22b233"
+          "id": "af8f977c-e9ed-4ae1-b968-be4544381de2",
+          "node_id": "0ceb6ad7-59fa-435b-b2d7-4805074c8ad4"
         }
       ],
       "emits": [
         {
           "key": "reagent0",
           "value": "yeast",
-          "id": "87a4f94e-1dcb-4ac7-9dfe-b5e70547cb39",
-          "node_id": "b0a2eca5-e395-433d-8e1b-d8948e22b233"
+          "id": "2d7d547c-052d-4e23-b09c-f8e3ae073739",
+          "node_id": "0ceb6ad7-59fa-435b-b2d7-4805074c8ad4"
         }
       ]
     },
     {
-      "id": "961823cf-844c-4363-a2e9-3e5222fcd2c6",
+      "id": "030761d0-ba6f-4066-a03a-55565f560d22",
       "text": "Quantify yeast growth using ImageQuant TL software \\(v2003, Amersham). Subtract the average pixel-intensity of each 1000 dilution spots from the agar-intensity-background and normalize with intensity of controls.",
       "instruction": "QUANTIFY",
       "slots": [
         {
           "key": "reagent1",
           "value": "yeast",
-          "id": "a8ea0bb1-bc70-4c90-9d1f-cd6830d31a31",
-          "node_id": "961823cf-844c-4363-a2e9-3e5222fcd2c6"
+          "id": "371b1f8c-073a-417c-9eae-5300bb2b29c2",
+          "node_id": "030761d0-ba6f-4066-a03a-55565f560d22"
         },
         {
           "key": "method",
           "value": "ImageQuant TL software (v2003, Amersham)",
-          "id": "f50f3f58-fdd5-44f2-afa9-9182661d7d0b",
-          "node_id": "961823cf-844c-4363-a2e9-3e5222fcd2c6"
+          "id": "d44d0711-a0ce-43f0-9660-6419b9f43e79",
+          "node_id": "030761d0-ba6f-4066-a03a-55565f560d22"
         }
       ],
       "emits": []
     },
     {
-      "id": "0a109395-002a-43ae-b41a-a3a561fc732c",
+      "id": "c9dcea6c-ef79-4129-b4be-1f53f11a0b58",
       "text": "Quantify yeast growth using ImageQuant TL software \\(v2003, Amersham). Subtract the average pixel-intensity of each 1000 dilution spots from the agar-intensity-background and normalize with intensity of controls.",
       "instruction": "NORMALIZE",
       "slots": [
         {
           "key": "reagent1",
           "value": "yeast",
-          "id": "359a296d-1493-4aeb-8299-14df850b8fe5",
-          "node_id": "0a109395-002a-43ae-b41a-a3a561fc732c"
+          "id": "4a5991f3-9182-4339-815b-df5fcc69255e",
+          "node_id": "c9dcea6c-ef79-4129-b4be-1f53f11a0b58"
         },
         {
           "key": "device",
           "value": "ImageQuant TL software (v2003, Amersham)",
-          "id": "3e406772-603e-4e59-8e2c-d35e045c3e03",
-          "node_id": "0a109395-002a-43ae-b41a-a3a561fc732c"
+          "id": "87e7127d-2599-43f8-aa0e-bfb839fd0b7a",
+          "node_id": "c9dcea6c-ef79-4129-b4be-1f53f11a0b58"
         }
       ],
       "emits": [
         {
           "key": "reagent0",
           "value": "yeast",
-          "id": "d53e4c7f-2452-417c-9127-d181e7e6cf4f",
-          "node_id": "0a109395-002a-43ae-b41a-a3a561fc732c"
+          "id": "90078d92-6c41-4c4b-b160-25a2aa3feab8",
+          "node_id": "c9dcea6c-ef79-4129-b4be-1f53f11a0b58"
         }
       ]
     }

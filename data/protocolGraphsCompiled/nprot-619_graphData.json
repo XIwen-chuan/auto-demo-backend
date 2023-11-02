@@ -2,325 +2,325 @@
   "name": "nprot-619_graphData.json",
   "nodes": [
     {
-      "id": "4024886a-5e06-45d0-afea-7b361ec95879",
+      "id": "cc4ae7fb-9e18-48c9-b788-21f4c0a7e41a",
       "text": "Dissolve 3.0 mg of sodium polyacrylate \\(ASAP) in 1.0 mL of water.",
       "instruction": "DISSOLVE",
       "slots": [
         {
           "key": "reagent1",
           "value": "sodium polyacrylate (ASAP)",
-          "id": "141c7de2-2282-4dea-ab36-6a198776ab11",
-          "node_id": "4024886a-5e06-45d0-afea-7b361ec95879"
+          "id": "8d2c9e6f-6da6-4268-8bd1-12db4e784c7b",
+          "node_id": "cc4ae7fb-9e18-48c9-b788-21f4c0a7e41a"
         },
         {
           "key": "reagent2",
           "value": "water",
-          "id": "8332b25b-789f-4537-a403-aea4f318fc27",
-          "node_id": "4024886a-5e06-45d0-afea-7b361ec95879"
+          "id": "63d9a2dc-ab3c-484f-b38e-7958d4086b57",
+          "node_id": "cc4ae7fb-9e18-48c9-b788-21f4c0a7e41a"
         },
         {
           "key": "targetConcentration",
           "value": "3.0 mg/mL",
-          "id": "27ed5b34-1d78-4c6a-8e7c-52c90f9ecda9",
-          "node_id": "4024886a-5e06-45d0-afea-7b361ec95879"
+          "id": "b01c7727-bcf6-4efc-8b90-b2ce7d52b6dd",
+          "node_id": "cc4ae7fb-9e18-48c9-b788-21f4c0a7e41a"
         }
       ],
       "emits": [
         {
           "key": "reagent0",
           "value": "sodium polyacrylate (ASAP)",
-          "id": "fd487306-786a-4ea9-a365-9a4b0ba6d69c",
-          "node_id": "4024886a-5e06-45d0-afea-7b361ec95879"
+          "id": "95b027a1-7251-4d89-8bf2-ce1f89f03cba",
+          "node_id": "cc4ae7fb-9e18-48c9-b788-21f4c0a7e41a"
         }
       ]
     },
     {
-      "id": "a65bd94d-e50d-4277-9f6b-6d684b036e4f",
+      "id": "a20e1bca-af46-483f-b0ba-49c466e193aa",
       "text": "Dissolve 7.5 mg of _G3_-binder in 0.25 mL of water.",
       "instruction": "DISSOLVE",
       "slots": [
         {
           "key": "reagent1",
           "value": "_G3_-binder",
-          "id": "f524e163-e817-47a9-979e-43c1e68418ff",
-          "node_id": "a65bd94d-e50d-4277-9f6b-6d684b036e4f"
+          "id": "27488ece-e804-49e7-83e7-901463f4c170",
+          "node_id": "a20e1bca-af46-483f-b0ba-49c466e193aa"
         },
         {
           "key": "reagent2",
           "value": "water",
-          "id": "78a36069-7807-47f6-b08d-8ba7561d806e",
-          "node_id": "a65bd94d-e50d-4277-9f6b-6d684b036e4f"
+          "id": "83400065-6827-45b5-bb1d-5614fcac465b",
+          "node_id": "a20e1bca-af46-483f-b0ba-49c466e193aa"
         }
       ],
       "emits": [
         {
           "key": "reagent0",
           "value": "_G3_-binder",
-          "id": "2b6bb4f9-7ad9-4a5c-8dc7-fcf361c3f6e4",
-          "node_id": "a65bd94d-e50d-4277-9f6b-6d684b036e4f"
+          "id": "4f50d4c7-1020-48b8-9ee2-37707488cba6",
+          "node_id": "a20e1bca-af46-483f-b0ba-49c466e193aa"
         }
       ]
     },
     {
-      "id": "c3652835-b6bf-4f4e-b11b-8582683d7a61",
+      "id": "9f3889a7-afd3-443e-9cc7-58b727eef532",
       "text": "Suspend 100 mg of Clay-NS to 3.75 mL of water.",
       "instruction": "SUSPEND",
       "slots": [
         {
           "key": "reagent1",
           "value": "Clay-NS",
-          "id": "398672e8-441e-464b-aab4-81958f09ece2",
-          "node_id": "c3652835-b6bf-4f4e-b11b-8582683d7a61"
+          "id": "3234d344-a248-4275-adf6-c6d5371386f2",
+          "node_id": "9f3889a7-afd3-443e-9cc7-58b727eef532"
         },
         {
           "key": "reagent2",
           "value": "water",
-          "id": "06b7fc7a-8c69-45ab-bc6a-3a0823f30871",
-          "node_id": "c3652835-b6bf-4f4e-b11b-8582683d7a61"
+          "id": "d8327f54-1361-47b2-b5ef-a6622dcccb43",
+          "node_id": "9f3889a7-afd3-443e-9cc7-58b727eef532"
         }
       ],
       "emits": [
         {
           "key": "reagent0",
           "value": "Clay-NS",
-          "id": "92685c04-da3b-421d-9126-cd013a0b5e96",
-          "node_id": "c3652835-b6bf-4f4e-b11b-8582683d7a61"
+          "id": "44a73bf9-9058-4e84-b1f9-9f874442da98",
+          "node_id": "9f3889a7-afd3-443e-9cc7-58b727eef532"
         }
       ]
     },
     {
-      "id": "0b615601-d620-4c27-a515-a495186210db",
+      "id": "3f372f04-03f7-462e-8c09-087ae53a99c9",
       "text": "Stir the suspension of Clay-NS at room temperature such as 20 <sup>o</sup>C.",
       "instruction": "STIR",
       "slots": [
         {
           "key": "reagent1",
           "value": "Clay-NS",
-          "id": "e2581dcc-1c9b-48d7-b962-e28d3c550047",
-          "node_id": "0b615601-d620-4c27-a515-a495186210db"
+          "id": "2361c013-2bc7-4d08-a536-7a40ac13c5ba",
+          "node_id": "3f372f04-03f7-462e-8c09-087ae53a99c9"
         },
         {
           "key": "temperature",
           "value": "20 \u00b0C",
-          "id": "d20f90df-274e-4980-a354-8321052fa8b9",
-          "node_id": "0b615601-d620-4c27-a515-a495186210db"
+          "id": "422217a7-0c96-45a0-a362-c84401239769",
+          "node_id": "3f372f04-03f7-462e-8c09-087ae53a99c9"
         },
         {
           "key": "device",
           "value": "magnetic stir bar",
-          "id": "770d969e-ee89-4253-bd3a-1b5c56e03472",
-          "node_id": "0b615601-d620-4c27-a515-a495186210db"
+          "id": "3c189293-4017-4cbb-a762-a53ca00b3f0c",
+          "node_id": "3f372f04-03f7-462e-8c09-087ae53a99c9"
         }
       ],
       "emits": [
         {
           "key": "reagent0",
           "value": "Clay-NS",
-          "id": "71462fce-a564-4818-bb78-148cec4f4c2f",
-          "node_id": "0b615601-d620-4c27-a515-a495186210db"
+          "id": "001f7394-8bda-4795-8dba-d501dbf2b774",
+          "node_id": "3f372f04-03f7-462e-8c09-087ae53a99c9"
         }
       ]
     },
     {
-      "id": "946ca05f-a1ea-438b-b071-368f830c0c25",
+      "id": "b2ef6e44-b1d6-4dbf-b3b6-68c38de2c6f6",
       "text": "Add 1.0 mL of the aqueous solution of ASAP to the stirred suspension of Clay-NS at room temperature such as 20 <sup>o</sup>C.",
       "instruction": "ADD",
       "slots": [
         {
           "key": "reagent1",
           "value": "Clay-NS",
-          "id": "a92cc8a2-22ba-4a32-9a04-2eb98d803edf",
-          "node_id": "946ca05f-a1ea-438b-b071-368f830c0c25"
+          "id": "5091d3b3-fbe0-4941-9c4c-878cb5b9bcfa",
+          "node_id": "b2ef6e44-b1d6-4dbf-b3b6-68c38de2c6f6"
         },
         {
           "key": "reagent2",
           "value": "ASAP",
-          "id": "6dc8e120-79d8-4497-84cd-b8a7aee4c7c7",
-          "node_id": "946ca05f-a1ea-438b-b071-368f830c0c25"
+          "id": "0db89636-d838-47b5-9e4f-6ce28a55c607",
+          "node_id": "b2ef6e44-b1d6-4dbf-b3b6-68c38de2c6f6"
         }
       ],
       "emits": [
         {
           "key": "reagent0",
           "value": "Clay-NS",
-          "id": "baceea8f-1934-40c8-bc6c-0406cb7a9fae",
-          "node_id": "946ca05f-a1ea-438b-b071-368f830c0c25"
+          "id": "621a1724-2c59-4515-9764-827c6a62849e",
+          "node_id": "b2ef6e44-b1d6-4dbf-b3b6-68c38de2c6f6"
         }
       ]
     },
     {
-      "id": "42162339-df93-4783-abdb-cfa18f2fbd60",
+      "id": "c0b73711-6ed7-4b2d-8586-56096fbe01e4",
       "text": "Stir the ASAP-containing Clay-NS suspension for 10 minutes at room temperature such as 20 <sup>o</sup>C and confirm that it turns into a clear viscous solution.",
       "instruction": "STIR",
       "slots": [
         {
           "key": "reagent1",
           "value": "ASAP-containing Clay-NS suspension",
-          "id": "82586f32-025e-4a45-a7d9-811b83481999",
-          "node_id": "42162339-df93-4783-abdb-cfa18f2fbd60"
+          "id": "49711ad3-7ce3-460b-9c59-67f822c68b63",
+          "node_id": "c0b73711-6ed7-4b2d-8586-56096fbe01e4"
         },
         {
           "key": "time",
           "value": "10 minutes",
-          "id": "72e4bbb6-af9a-417b-96b8-e621d1af67cd",
-          "node_id": "42162339-df93-4783-abdb-cfa18f2fbd60"
+          "id": "4e75bf53-63c0-4d79-a6f9-8008b4bc919e",
+          "node_id": "c0b73711-6ed7-4b2d-8586-56096fbe01e4"
         },
         {
           "key": "temperature",
           "value": "20 \u00b0C",
-          "id": "ccea2f2c-3fe3-44a0-8622-7f30222ecb1d",
-          "node_id": "42162339-df93-4783-abdb-cfa18f2fbd60"
+          "id": "30602cd2-2bc1-4be4-bfba-cb4282a9715c",
+          "node_id": "c0b73711-6ed7-4b2d-8586-56096fbe01e4"
         },
         {
           "key": "device",
           "value": "magnetic stir bar",
-          "id": "3e511d8f-0151-4228-8c5c-1c249991f88e",
-          "node_id": "42162339-df93-4783-abdb-cfa18f2fbd60"
+          "id": "d48f32d1-6952-4dfe-9824-211e5c2d7e35",
+          "node_id": "c0b73711-6ed7-4b2d-8586-56096fbe01e4"
         }
       ],
       "emits": [
         {
           "key": "reagent0",
           "value": "ASAP-containing Clay-NS suspension",
-          "id": "7b671583-9c9b-4cb3-aed0-fcd4e0a5b309",
-          "node_id": "42162339-df93-4783-abdb-cfa18f2fbd60"
+          "id": "6a7d4769-404c-4a76-9ad8-2972c1ae2c7e",
+          "node_id": "c0b73711-6ed7-4b2d-8586-56096fbe01e4"
         }
       ]
     },
     {
-      "id": "080b653d-8bcc-4552-aa37-e2fec9b07d77",
+      "id": "90112be1-4023-495a-aebb-023cfb1769ac",
       "text": "Stir the ASAP-containing Clay-NS suspension for 10 minutes at room temperature such as 20 <sup>o</sup>C and confirm that it turns into a clear viscous solution.",
       "instruction": "CONFIRM",
       "slots": [
         {
           "key": "reagent1/data1/device",
           "value": "ASAP-containing Clay-NS suspension",
-          "id": "a82068dd-2250-4ac9-8411-16edb97d39df",
-          "node_id": "080b653d-8bcc-4552-aa37-e2fec9b07d77"
+          "id": "27370258-1674-4674-8438-9bca31873894",
+          "node_id": "90112be1-4023-495a-aebb-023cfb1769ac"
         },
         {
           "key": "state",
           "value": "clear viscous solution",
-          "id": "9c8fae9a-60fa-4c0f-8674-4ecf3f8219a8",
-          "node_id": "080b653d-8bcc-4552-aa37-e2fec9b07d77"
+          "id": "a229f767-1931-447a-b9a5-e52a3703936b",
+          "node_id": "90112be1-4023-495a-aebb-023cfb1769ac"
         },
         {
           "key": "timing",
           "value": "10 minutes",
-          "id": "f9794ff6-6456-404a-b99a-b5a7d78f2ac6",
-          "node_id": "080b653d-8bcc-4552-aa37-e2fec9b07d77"
+          "id": "8f32f7ee-2ea4-4629-b37c-d4035291b244",
+          "node_id": "90112be1-4023-495a-aebb-023cfb1769ac"
         }
       ],
       "emits": []
     },
     {
-      "id": "036f35fa-3011-484d-bcaf-d2c3bc2d907a",
+      "id": "93f57cd1-6d74-419b-a0f2-8add2df28b2f",
       "text": "Dropwise add 0.25 mL of the aqueous solution of _G3_-binder to the vigorously stirred Clay-NS/ASAP solution.",
       "instruction": "ADD",
       "slots": [
         {
           "key": "reagent1",
           "value": "Clay-NS/ASAP solution",
-          "id": "9eaa74a4-3f09-4be2-9535-0ac284a29053",
-          "node_id": "036f35fa-3011-484d-bcaf-d2c3bc2d907a"
+          "id": "dbea20e0-40a9-4322-a53a-144fb236156e",
+          "node_id": "93f57cd1-6d74-419b-a0f2-8add2df28b2f"
         },
         {
           "key": "reagent2",
           "value": "_G3_-binder",
-          "id": "74c678b6-98de-48d5-9c37-0dda508f4dcb",
-          "node_id": "036f35fa-3011-484d-bcaf-d2c3bc2d907a"
+          "id": "7514182a-83a9-40b3-8c48-941736d3e1d6",
+          "node_id": "93f57cd1-6d74-419b-a0f2-8add2df28b2f"
         }
       ],
       "emits": [
         {
           "key": "reagent0",
           "value": "Clay-NS/ASAP solution",
-          "id": "dbb0171c-4a14-4a9a-b58d-3d351c689e49",
-          "node_id": "036f35fa-3011-484d-bcaf-d2c3bc2d907a"
+          "id": "ba33dcc9-11bd-4356-80c3-4a3a19e759c8",
+          "node_id": "93f57cd1-6d74-419b-a0f2-8add2df28b2f"
         }
       ]
     },
     {
-      "id": "0f5d05cc-de4b-40a6-8047-bbf9e57e8d28",
+      "id": "3a5086ec-a494-4a1f-9bd7-a3fa6c52ee83",
       "text": "Dropwise add 0.25 mL of the aqueous solution of _G3_-binder to the vigorously stirred Clay-NS/ASAP solution.",
       "instruction": "STIR",
       "slots": [
         {
           "key": "reagent1",
           "value": "Clay-NS/ASAP solution",
-          "id": "30421352-319a-4abf-b3d5-db878bfbdad3",
-          "node_id": "0f5d05cc-de4b-40a6-8047-bbf9e57e8d28"
+          "id": "7bd7367f-f1fa-46ee-9030-1e8f23f502a2",
+          "node_id": "3a5086ec-a494-4a1f-9bd7-a3fa6c52ee83"
         },
         {
           "key": "temperature",
           "value": "20 \u00b0C",
-          "id": "55ba2d9c-082d-4752-bfa4-e7ae9decb418",
-          "node_id": "0f5d05cc-de4b-40a6-8047-bbf9e57e8d28"
+          "id": "aeab1527-09dc-4a6e-aa4d-4b4dd04001a7",
+          "node_id": "3a5086ec-a494-4a1f-9bd7-a3fa6c52ee83"
         },
         {
           "key": "device",
           "value": "magnetic stir bar",
-          "id": "9b3d977e-7621-41ab-af9a-26ef49c40317",
-          "node_id": "0f5d05cc-de4b-40a6-8047-bbf9e57e8d28"
+          "id": "1f267b75-313d-4f34-b2b1-f99d8c089fe2",
+          "node_id": "3a5086ec-a494-4a1f-9bd7-a3fa6c52ee83"
         }
       ],
       "emits": [
         {
           "key": "reagent0",
           "value": "Clay-NS/ASAP solution",
-          "id": "6ee6c07e-0eae-4fae-a712-9885537f6802",
-          "node_id": "0f5d05cc-de4b-40a6-8047-bbf9e57e8d28"
+          "id": "aafce8c4-0b5f-48b4-a648-57896d087ec8",
+          "node_id": "3a5086ec-a494-4a1f-9bd7-a3fa6c52ee83"
         }
       ]
     },
     {
-      "id": "5de7ddb7-8aed-46e4-8b43-c459c46458a8",
+      "id": "8db00f9a-de9a-4b79-814c-97580cc249ed",
       "text": "Let the resultant solution stand for 3 minutes and obtain a transparent, self-standing gel.",
       "instruction": "OBTAIN",
       "slots": [
         {
           "key": "reagent1",
           "value": "Clay-NS/ASAP solution",
-          "id": "58cb5037-9a52-4dd0-a38e-5737beefb6b5",
-          "node_id": "5de7ddb7-8aed-46e4-8b43-c459c46458a8"
+          "id": "74fcf5ec-fda0-4b5e-8c39-182b69054b79",
+          "node_id": "8db00f9a-de9a-4b79-814c-97580cc249ed"
         },
         {
           "key": "container",
           "value": "gel",
-          "id": "8ac9ff31-f7b3-4854-b8b4-a9113672cd24",
-          "node_id": "5de7ddb7-8aed-46e4-8b43-c459c46458a8"
+          "id": "ccda7ea0-5ed3-4e1f-9cf2-d314c5645b87",
+          "node_id": "8db00f9a-de9a-4b79-814c-97580cc249ed"
         },
         {
           "key": "method",
           "value": "stand",
-          "id": "d6d7f9b5-6e62-459f-8f98-ffe336f2bf1b",
-          "node_id": "5de7ddb7-8aed-46e4-8b43-c459c46458a8"
+          "id": "322fdb07-a0c0-4414-b958-1ad9e8775d5e",
+          "node_id": "8db00f9a-de9a-4b79-814c-97580cc249ed"
         },
         {
           "key": "environment",
           "value": "room temperature",
-          "id": "cb556cd6-f0fe-4f84-b509-63d1732b664a",
-          "node_id": "5de7ddb7-8aed-46e4-8b43-c459c46458a8"
+          "id": "71778dbe-bbcc-4c45-9984-9a40016482ed",
+          "node_id": "8db00f9a-de9a-4b79-814c-97580cc249ed"
         },
         {
           "key": "purpose",
           "value": "obtain a transparent, self-standing gel",
-          "id": "ce943f09-f9e3-4205-852a-bcf01739ce61",
-          "node_id": "5de7ddb7-8aed-46e4-8b43-c459c46458a8"
+          "id": "ddc891b5-7177-4393-858f-edb9170328f9",
+          "node_id": "8db00f9a-de9a-4b79-814c-97580cc249ed"
         },
         {
           "key": "notice",
           "value": "",
-          "id": "5da5ee10-da39-4b1d-94bf-ff30d5379160",
-          "node_id": "5de7ddb7-8aed-46e4-8b43-c459c46458a8"
+          "id": "1afc518b-55f5-432c-9023-5d75d72af5d0",
+          "node_id": "8db00f9a-de9a-4b79-814c-97580cc249ed"
         }
       ],
       "emits": [
         {
           "key": "reagent0",
           "value": "gel",
-          "id": "684078d3-7b74-4e3b-838d-7cd3c1b5d75b",
-          "node_id": "5de7ddb7-8aed-46e4-8b43-c459c46458a8"
+          "id": "eea71c8c-a91a-470b-8b37-ac03f0bce970",
+          "node_id": "8db00f9a-de9a-4b79-814c-97580cc249ed"
         }
       ]
     }

@@ -2,87 +2,87 @@
   "name": "nprot-3659_graphData.json",
   "nodes": [
     {
-      "id": "b410a3de-2f2d-4a06-8a80-b63514a82b8a",
+      "id": "d99f2a37-1cbf-4dfc-8486-9542786fa52d",
       "text": "Use filtered BSA or filter the BSA solution prior to use to remove any microbial or other contaminants.",
       "instruction": "FILTER",
       "slots": [
         {
           "key": "reagent1",
           "value": "BSA solution",
-          "id": "a8a0ec04-8a63-46e7-8d40-b6f1670ad08d",
-          "node_id": "b410a3de-2f2d-4a06-8a80-b63514a82b8a"
+          "id": "cb390021-54f3-43fd-8c7f-564d4fd3ac21",
+          "node_id": "d99f2a37-1cbf-4dfc-8486-9542786fa52d"
         },
         {
           "key": "filter",
           "value": "0.2 \u03bcm filter",
-          "id": "087ca4bd-32ce-47dd-94f6-edacc0832681",
-          "node_id": "b410a3de-2f2d-4a06-8a80-b63514a82b8a"
+          "id": "72202678-1643-4637-a2c0-3ecb686c3c0b",
+          "node_id": "d99f2a37-1cbf-4dfc-8486-9542786fa52d"
         }
       ],
       "emits": [
         {
           "key": "reagent0",
           "value": "filtered BSA",
-          "id": "e71a6804-011f-4d24-9c42-76385f399321",
-          "node_id": "b410a3de-2f2d-4a06-8a80-b63514a82b8a"
+          "id": "41eec32d-6e3c-4689-8416-9413b529827f",
+          "node_id": "d99f2a37-1cbf-4dfc-8486-9542786fa52d"
         }
       ]
     },
     {
-      "id": "4ef1cae8-b878-4f8e-9b38-e9567333ff6f",
+      "id": "66b991f2-1b6d-4e66-a652-ad068a29cdb3",
       "text": "Prepare the HFA concentrations in BSA-preblocked sample vials to minimize the analyte loss due to non-specific surface binding <sup>28</sup>.",
       "instruction": "PREPARE",
       "slots": [
         {
           "key": "reagent1",
           "value": "HFA concentrations",
-          "id": "1924ba9e-e7b5-4de9-acfd-22492e65319d",
-          "node_id": "4ef1cae8-b878-4f8e-9b38-e9567333ff6f"
+          "id": "2de7a272-4d44-4442-b63d-8ba76d4f0b6a",
+          "node_id": "66b991f2-1b6d-4e66-a652-ad068a29cdb3"
         },
         {
           "key": "container",
           "value": "BSA-preblocked sample vials",
-          "id": "c2a4e7f3-2725-414b-ac9a-d29311fc0609",
-          "node_id": "4ef1cae8-b878-4f8e-9b38-e9567333ff6f"
+          "id": "4ac0af30-3ee6-4f11-8fa9-9b66df8e5817",
+          "node_id": "66b991f2-1b6d-4e66-a652-ad068a29cdb3"
         },
         {
           "key": "notice",
           "value": "to minimize the analyte loss due to non-specific surface binding <sup>28</sup>.",
-          "id": "f322d40c-6002-4f1f-9927-7e4893c3fbed",
-          "node_id": "4ef1cae8-b878-4f8e-9b38-e9567333ff6f"
+          "id": "fc42e7b2-839b-4605-b82b-48e1ebddcb6b",
+          "node_id": "66b991f2-1b6d-4e66-a652-ad068a29cdb3"
         }
       ],
       "emits": [
         {
           "key": "reagent0",
           "value": "HFA concentrations",
-          "id": "feed916c-77b2-4c4a-8925-dfbedc4c51fa",
-          "node_id": "4ef1cae8-b878-4f8e-9b38-e9567333ff6f"
+          "id": "5a781bad-66f2-4c1d-a553-8316055c36db",
+          "node_id": "66b991f2-1b6d-4e66-a652-ad068a29cdb3"
         }
       ]
     },
     {
-      "id": "581e4504-742a-4e8e-a0f9-36a4d68011bc",
+      "id": "1de85683-f056-4d41-9b07-dbc41c6aaef8",
       "text": "Determine the absorbance within 10 min of stopping the enzyme substrate reaction.",
       "instruction": "DETERMINE",
       "slots": [
         {
           "key": "reagent1",
           "value": "TMB-H<sub>2</sub>O<sub>2</sub> mixture",
-          "id": "43c9c2a8-9214-4583-bc38-ff3184d09f8b",
-          "node_id": "581e4504-742a-4e8e-a0f9-36a4d68011bc"
+          "id": "a95af0b6-d022-4c64-8af8-e43dfcda21d9",
+          "node_id": "1de85683-f056-4d41-9b07-dbc41c6aaef8"
         },
         {
           "key": "parameter",
           "value": "absorbance",
-          "id": "fba09e2f-dd1b-49a4-be11-0070bf834fbc",
-          "node_id": "581e4504-742a-4e8e-a0f9-36a4d68011bc"
+          "id": "f52b9536-22a8-408e-8b9f-a23574484edf",
+          "node_id": "1de85683-f056-4d41-9b07-dbc41c6aaef8"
         },
         {
           "key": "time",
           "value": "10 min",
-          "id": "1869aedc-54c8-4a89-b48b-bd6668f8e760",
-          "node_id": "581e4504-742a-4e8e-a0f9-36a4d68011bc"
+          "id": "93da54d2-99d8-474c-94b6-d7485cbbf562",
+          "node_id": "1de85683-f056-4d41-9b07-dbc41c6aaef8"
         }
       ],
       "emits": []

@@ -2,332 +2,332 @@
   "name": "nprot-133_graphData.json",
   "nodes": [
     {
-      "id": "e03e7732-13c8-4c10-a1ba-2c25c72a0b30",
+      "id": "435aac23-edf7-44bc-ae4c-c7f405313e42",
       "text": "For uptake measurements, grow yeast cells to logarithmic phase in YNB medium supplemented with 3% glucose and 1 mM L-arginine.",
       "instruction": "GROW",
       "slots": [
         {
           "key": "reagent1",
           "value": "yeast cells",
-          "id": "50cdfde7-5c84-4581-aa76-e09886d72bd5",
-          "node_id": "e03e7732-13c8-4c10-a1ba-2c25c72a0b30"
+          "id": "3bf2bd87-0565-4720-afa1-d0ebb3ccd0a0",
+          "node_id": "435aac23-edf7-44bc-ae4c-c7f405313e42"
         },
         {
           "key": "medium",
           "value": "YNB medium supplemented with 3% glucose and 1 mM L-arginine",
-          "id": "e5a73171-d894-400a-bf80-c0e444c93dd5",
-          "node_id": "e03e7732-13c8-4c10-a1ba-2c25c72a0b30"
+          "id": "eb4daee3-ae0a-4281-b536-557957ef058a",
+          "node_id": "435aac23-edf7-44bc-ae4c-c7f405313e42"
         },
         {
           "key": "temperature",
           "value": "room temperature",
-          "id": "586417c8-d0f2-45ce-91af-357277a9fc54",
-          "node_id": "e03e7732-13c8-4c10-a1ba-2c25c72a0b30"
+          "id": "732da691-e005-4e9e-8005-b91e54c57d0f",
+          "node_id": "435aac23-edf7-44bc-ae4c-c7f405313e42"
         }
       ],
       "emits": [
         {
           "key": "reagent0",
           "value": "yeast cells",
-          "id": "ba40d668-7f6f-4753-83a1-31c40f163e66",
-          "node_id": "e03e7732-13c8-4c10-a1ba-2c25c72a0b30"
+          "id": "9ab50ad9-60b6-419f-9115-7c65d32a300b",
+          "node_id": "435aac23-edf7-44bc-ae4c-c7f405313e42"
         }
       ]
     },
     {
-      "id": "3514a53e-b6a5-45c5-a04f-ac4fd30d7c33",
+      "id": "690af31e-0316-426b-9f69-1657c387b7f2",
       "text": "Harvest cells at OD<sub>600</sub> of 0.6 to 0.8, wash, and resuspend in 40 mM potassium phosphate buffer, pH 7, to a final OD<sub>600</sub> of 8.",
       "instruction": "HARVEST",
       "slots": [
         {
           "key": "reagent1",
           "value": "yeast cells",
-          "id": "27bbf2ef-d5c8-4547-9fcf-8cd4b1a13f47",
-          "node_id": "3514a53e-b6a5-45c5-a04f-ac4fd30d7c33"
+          "id": "c93b39db-9bcb-4133-8b5f-bcad580e1855",
+          "node_id": "690af31e-0316-426b-9f69-1657c387b7f2"
         },
         {
           "key": "container",
           "value": "40 mM potassium phosphate buffer, pH 7",
-          "id": "5e504d97-162f-45b1-a805-32cff047f860",
-          "node_id": "3514a53e-b6a5-45c5-a04f-ac4fd30d7c33"
+          "id": "dfebac65-b737-4aa5-a072-1408145852fe",
+          "node_id": "690af31e-0316-426b-9f69-1657c387b7f2"
         }
       ],
       "emits": [
         {
           "key": "reagent0",
           "value": "yeast cells",
-          "id": "06cadd18-2bec-4307-9fdc-e86c595560f3",
-          "node_id": "3514a53e-b6a5-45c5-a04f-ac4fd30d7c33"
+          "id": "9af264ff-224f-43a0-8aa6-561ed099c7fd",
+          "node_id": "690af31e-0316-426b-9f69-1657c387b7f2"
         }
       ]
     },
     {
-      "id": "b0191dc9-63e2-4045-ac0a-a46a2564f673",
+      "id": "79bf590f-af89-4dcc-8627-0d76c3e64879",
       "text": "Harvest cells at OD<sub>600</sub> of 0.6 to 0.8, wash, and resuspend in 40 mM potassium phosphate buffer, pH 7, to a final OD<sub>600</sub> of 8.",
       "instruction": "WASH",
       "slots": [
         {
           "key": "reagent1",
           "value": "yeast cells",
-          "id": "fe92e4f7-d6a2-4eee-afde-7f69c3d65625",
-          "node_id": "b0191dc9-63e2-4045-ac0a-a46a2564f673"
+          "id": "3d7f469a-10a4-492f-960d-f9b7e960cc6c",
+          "node_id": "79bf590f-af89-4dcc-8627-0d76c3e64879"
         },
         {
           "key": "reagent2",
           "value": "40 mM potassium phosphate buffer, pH 7",
-          "id": "62277810-7fe2-47c3-abed-3f5bad244882",
-          "node_id": "b0191dc9-63e2-4045-ac0a-a46a2564f673"
+          "id": "76735786-cf2e-4b66-99b5-70ed686adc3f",
+          "node_id": "79bf590f-af89-4dcc-8627-0d76c3e64879"
         }
       ],
       "emits": [
         {
           "key": "reagent0",
           "value": "yeast cells",
-          "id": "a9a65f8c-f07f-41f8-b8b2-c49b1efc1735",
-          "node_id": "b0191dc9-63e2-4045-ac0a-a46a2564f673"
+          "id": "c6070207-6a6d-4797-8548-1a0a2dee1c4a",
+          "node_id": "79bf590f-af89-4dcc-8627-0d76c3e64879"
         }
       ]
     },
     {
-      "id": "306e3946-49d5-4931-82e4-0f9746edc67b",
+      "id": "72e3d62b-0f0e-40fd-a6b0-140fff520af6",
       "text": "Harvest cells at OD<sub>600</sub> of 0.6 to 0.8, wash, and resuspend in 40 mM potassium phosphate buffer, pH 7, to a final OD<sub>600</sub> of 8.",
       "instruction": "RESUSPEND",
       "slots": [
         {
           "key": "reagent1",
           "value": "yeast cells",
-          "id": "d5c09bff-69f3-4e53-bbc0-c84b7a4cb20d",
-          "node_id": "306e3946-49d5-4931-82e4-0f9746edc67b"
+          "id": "b9f8d854-daa7-4ebd-a0a3-6d01ac78bc37",
+          "node_id": "72e3d62b-0f0e-40fd-a6b0-140fff520af6"
         },
         {
           "key": "reagent2",
           "value": "40 mM potassium phosphate buffer, pH 7",
-          "id": "af38b00c-b91a-4b43-9c5d-32c16e5a3af3",
-          "node_id": "306e3946-49d5-4931-82e4-0f9746edc67b"
+          "id": "d0b3b0ce-a31a-431b-b361-17b59399ac4c",
+          "node_id": "72e3d62b-0f0e-40fd-a6b0-140fff520af6"
         },
         {
           "key": "notice",
           "value": "to a final OD<sub>600</sub> of 8",
-          "id": "572a6a8d-6cd9-4b96-a80e-5463b49c43b6",
-          "node_id": "306e3946-49d5-4931-82e4-0f9746edc67b"
+          "id": "1734cf72-b8a9-417b-a0e8-a6f69a3720e7",
+          "node_id": "72e3d62b-0f0e-40fd-a6b0-140fff520af6"
         }
       ],
       "emits": [
         {
           "key": "reagent0",
           "value": "yeast cells",
-          "id": "a8729e66-d3d3-4f8b-8e1d-0a461d602cc8",
-          "node_id": "306e3946-49d5-4931-82e4-0f9746edc67b"
+          "id": "c9a2356c-bb1c-42b0-8d04-2c7411598d63",
+          "node_id": "72e3d62b-0f0e-40fd-a6b0-140fff520af6"
         }
       ]
     },
     {
-      "id": "19d8662c-97a6-4af1-92f3-ccb698a527f5",
+      "id": "d7f0c409-3989-4f17-9669-82d34af6715a",
       "text": "Five minutes before the uptake measurement, supplement cells  with 6% glucose and incubate at 30&#xBA;C.",
       "instruction": "SUPPLEMENT",
       "slots": [
         {
           "key": "reagent1",
           "value": "glucose",
-          "id": "81659804-eb65-4527-b802-f4d5f82debec",
-          "node_id": "19d8662c-97a6-4af1-92f3-ccb698a527f5"
+          "id": "1415b9b2-9899-4af3-88e9-e1c945467e04",
+          "node_id": "d7f0c409-3989-4f17-9669-82d34af6715a"
         },
         {
           "key": "targetConcentration",
           "value": "6%",
-          "id": "c581a4fe-f33b-4d0a-a68e-4f2f6f1b5753",
-          "node_id": "19d8662c-97a6-4af1-92f3-ccb698a527f5"
+          "id": "270586ef-22b1-4a78-bc94-b0a31400c556",
+          "node_id": "d7f0c409-3989-4f17-9669-82d34af6715a"
         },
         {
           "key": "timing",
           "value": "Five minutes before the uptake measurement",
-          "id": "ecd587cc-0dda-41de-a682-3d6679781a6e",
-          "node_id": "19d8662c-97a6-4af1-92f3-ccb698a527f5"
+          "id": "8761ed35-b03c-4477-a0e3-e15cad8329f1",
+          "node_id": "d7f0c409-3989-4f17-9669-82d34af6715a"
         }
       ],
       "emits": []
     },
     {
-      "id": "35262ec2-8a36-47d8-92cc-cf144ec9dfcb",
+      "id": "ce5f587f-c5c3-41fa-8000-6d6f59705ff2",
       "text": "Five minutes before the uptake measurement, supplement cells  with 6% glucose and incubate at 30&#xBA;C.",
       "instruction": "INCUBATE",
       "slots": [
         {
           "key": "reagent1",
           "value": "yeast cells",
-          "id": "cde78a24-1c0c-44ed-9a92-c7b7006d6b2c",
-          "node_id": "35262ec2-8a36-47d8-92cc-cf144ec9dfcb"
+          "id": "df8e220b-2a57-485d-9e0c-45809a76237f",
+          "node_id": "ce5f587f-c5c3-41fa-8000-6d6f59705ff2"
         },
         {
           "key": "reagent2",
           "value": "6% glucose",
-          "id": "4e7c5e2f-c734-4a9f-a31f-a53eb209d6b5",
-          "node_id": "35262ec2-8a36-47d8-92cc-cf144ec9dfcb"
+          "id": "e5092dc0-776a-4128-9346-855b3ff78e7e",
+          "node_id": "ce5f587f-c5c3-41fa-8000-6d6f59705ff2"
         },
         {
           "key": "temperature",
           "value": "30\u00b0C",
-          "id": "598beeaa-d13c-4d2f-b9e4-622909e09ac7",
-          "node_id": "35262ec2-8a36-47d8-92cc-cf144ec9dfcb"
+          "id": "9132b634-cb91-4355-b749-501c3199948e",
+          "node_id": "ce5f587f-c5c3-41fa-8000-6d6f59705ff2"
         },
         {
           "key": "notice",
           "value": "Five minutes before the uptake measurement",
-          "id": "bfe2b1ef-26de-4809-abfe-26db1d3e878b",
-          "node_id": "35262ec2-8a36-47d8-92cc-cf144ec9dfcb"
+          "id": "87cdfd43-a8b1-4db0-9772-6a64d47dd3cc",
+          "node_id": "ce5f587f-c5c3-41fa-8000-6d6f59705ff2"
         }
       ],
       "emits": [
         {
           "key": "reagent0",
           "value": "yeast cells",
-          "id": "453d0be8-3561-4925-b017-236e897bb4ac",
-          "node_id": "35262ec2-8a36-47d8-92cc-cf144ec9dfcb"
+          "id": "a2ea1b20-e4b8-4f83-bab3-a3b38b2901cc",
+          "node_id": "ce5f587f-c5c3-41fa-8000-6d6f59705ff2"
         }
       ]
     },
     {
-      "id": "61589384-edc5-4720-9df0-a85a058a652e",
+      "id": "2e505534-269a-4768-a722-07a0e6065102",
       "text": "To start the reaction, add 450 &#xB5;L of cell suspension to 400 &#xB5;L of the same buffer containing 200 &#xB5;M methylammonium and 10 nM <sup>14</sup>C-methylammonium \\(2.11 Gbq/mmol; Amersham).",
       "instruction": "ADD",
       "slots": [
         {
           "key": "reagent1",
           "value": "cell suspension",
-          "id": "55731237-08b9-4fa9-a8ca-57a5c038c88d",
-          "node_id": "61589384-edc5-4720-9df0-a85a058a652e"
+          "id": "c7d9bf8a-2180-4b0c-a333-dcf6354caa56",
+          "node_id": "2e505534-269a-4768-a722-07a0e6065102"
         },
         {
           "key": "reagent2",
           "value": "the same buffer",
-          "id": "9ac2c4a8-627e-4e06-871c-1a8ac9f9062a",
-          "node_id": "61589384-edc5-4720-9df0-a85a058a652e"
+          "id": "d32b6712-c963-47ab-b261-f968d8def4bd",
+          "node_id": "2e505534-269a-4768-a722-07a0e6065102"
         },
         {
           "key": "concentration",
           "value": "200 \u00b5M methylammonium and 10 nM 14C-methylammonium (2.11 Gbq/mmol; Amersham)",
-          "id": "7932fcd8-e6b2-4e77-9ed9-4a86b742dcb0",
-          "node_id": "61589384-edc5-4720-9df0-a85a058a652e"
+          "id": "3ce61b61-42d4-4d89-868e-e9194a912a76",
+          "node_id": "2e505534-269a-4768-a722-07a0e6065102"
         }
       ],
       "emits": [
         {
           "key": "reagent0",
           "value": "cell suspension",
-          "id": "86852aa8-ed06-4633-8318-8440140f2300",
-          "node_id": "61589384-edc5-4720-9df0-a85a058a652e"
+          "id": "3654797f-02cf-4b00-bac4-2b7358cef242",
+          "node_id": "2e505534-269a-4768-a722-07a0e6065102"
         }
       ]
     },
     {
-      "id": "8efa8436-277b-475d-bd34-bee3e1a425f2",
+      "id": "2093a007-37e8-4ff4-958d-8f9604b4eef2",
       "text": "After 0.5, 1, 2, and 4 min, withdraw 200 &#xB5;L aliquots, dilute in 5 mL ice-cold potassium phosphate buffer containing 200 mM methylammonium, and filter through glass fiber filters \\(GF/C; Whatman).",
       "instruction": "DILUTE",
       "slots": [
         {
           "key": "reagent1",
           "value": "yeast cells",
-          "id": "3943f365-6834-4bc2-918a-f05e38c0e30b",
-          "node_id": "8efa8436-277b-475d-bd34-bee3e1a425f2"
+          "id": "5fc8a8b1-08cc-4e94-a263-d22b97a634ed",
+          "node_id": "2093a007-37e8-4ff4-958d-8f9604b4eef2"
         },
         {
           "key": "reagent2",
           "value": "potassium phosphate buffer",
-          "id": "e4b59efe-6a59-48f8-bdab-ca840475ee3e",
-          "node_id": "8efa8436-277b-475d-bd34-bee3e1a425f2"
+          "id": "32dff483-c2f2-442e-ac0d-e63fac3627f3",
+          "node_id": "2093a007-37e8-4ff4-958d-8f9604b4eef2"
         },
         {
           "key": "targetConcentration",
           "value": "200 mM methylammonium",
-          "id": "a7cb53e5-ecf0-484b-812a-2b0a7e565796",
-          "node_id": "8efa8436-277b-475d-bd34-bee3e1a425f2"
+          "id": "7ca8d9da-cc93-4ab7-b4d3-e5c3415cee00",
+          "node_id": "2093a007-37e8-4ff4-958d-8f9604b4eef2"
         }
       ],
       "emits": [
         {
           "key": "reagent0",
           "value": "yeast cells",
-          "id": "8df09f25-97ae-486a-a194-a4636dd032c1",
-          "node_id": "8efa8436-277b-475d-bd34-bee3e1a425f2"
+          "id": "38ed56a2-4e2f-48c1-b94d-1f92b576444b",
+          "node_id": "2093a007-37e8-4ff4-958d-8f9604b4eef2"
         }
       ]
     },
     {
-      "id": "b131379a-9c3d-4eb3-9869-7e1b7d45cb28",
+      "id": "8550344c-5018-41f4-8e28-ea69c4c47147",
       "text": "After 0.5, 1, 2, and 4 min, withdraw 200 &#xB5;L aliquots, dilute in 5 mL ice-cold potassium phosphate buffer containing 200 mM methylammonium, and filter through glass fiber filters \\(GF/C; Whatman).",
       "instruction": "FILTER",
       "slots": [
         {
           "key": "reagent1",
           "value": "yeast cells",
-          "id": "18be31ca-23b0-4248-823c-44ae78963a62",
-          "node_id": "b131379a-9c3d-4eb3-9869-7e1b7d45cb28"
+          "id": "8bdd00f8-5e8b-4532-b796-2abb121dabd0",
+          "node_id": "8550344c-5018-41f4-8e28-ea69c4c47147"
         },
         {
           "key": "filter",
           "value": "GF/C; Whatman",
-          "id": "f452ea70-d128-4db8-ae02-3b2d7ff63d99",
-          "node_id": "b131379a-9c3d-4eb3-9869-7e1b7d45cb28"
+          "id": "28918a71-4eea-4db9-8b5c-e1d4fba7f554",
+          "node_id": "8550344c-5018-41f4-8e28-ea69c4c47147"
         }
       ],
       "emits": [
         {
           "key": "reagent0",
           "value": "yeast cells",
-          "id": "a4d51368-5c73-4343-bf8b-328a14542f82",
-          "node_id": "b131379a-9c3d-4eb3-9869-7e1b7d45cb28"
+          "id": "e842fc1c-4e90-44c9-a868-381bac771736",
+          "node_id": "8550344c-5018-41f4-8e28-ea69c4c47147"
         }
       ]
     },
     {
-      "id": "fbaafdaa-cecd-46fe-bd12-6392b38d7efc",
+      "id": "c86d90d6-ed02-44ff-b650-57c5b335d635",
       "text": "Wash filters twice with 5 mL of cold deionized water and analyze by liquid scintillation spectrometry.",
       "instruction": "WASH",
       "slots": [
         {
           "key": "reagent1",
           "value": "filters",
-          "id": "07b1ec90-5054-4e18-9a6a-bacdca758682",
-          "node_id": "fbaafdaa-cecd-46fe-bd12-6392b38d7efc"
+          "id": "e469e3d2-a91a-4c68-881e-25984b979985",
+          "node_id": "c86d90d6-ed02-44ff-b650-57c5b335d635"
         },
         {
           "key": "reagent2",
           "value": "deionized water",
-          "id": "e4abcc17-7fb7-481e-b2f8-b0a409f36749",
-          "node_id": "fbaafdaa-cecd-46fe-bd12-6392b38d7efc"
+          "id": "d338638f-9125-4aba-879d-4df6dea21595",
+          "node_id": "c86d90d6-ed02-44ff-b650-57c5b335d635"
         },
         {
           "key": "repeat",
           "value": "2",
-          "id": "37201e52-f903-497a-940b-2f3fe08848f0",
-          "node_id": "fbaafdaa-cecd-46fe-bd12-6392b38d7efc"
+          "id": "1f47253f-49be-45bd-bd04-d9d650e9f168",
+          "node_id": "c86d90d6-ed02-44ff-b650-57c5b335d635"
         }
       ],
       "emits": [
         {
           "key": "reagent0",
           "value": "filters",
-          "id": "d627ba72-95da-41c2-887e-0f3ae9fbb51c",
-          "node_id": "fbaafdaa-cecd-46fe-bd12-6392b38d7efc"
+          "id": "0d8634a7-276f-4d78-b6ee-25f66a2d820e",
+          "node_id": "c86d90d6-ed02-44ff-b650-57c5b335d635"
         }
       ]
     },
     {
-      "id": "c2dbf5b3-1f84-4654-ac4c-d4a74858fff0",
+      "id": "a26dab55-e1f7-4933-aa52-82f9c6a5bc37",
       "text": "Wash filters twice with 5 mL of cold deionized water and analyze by liquid scintillation spectrometry.",
       "instruction": "ANALYZE",
       "slots": [
         {
           "key": "reagent1",
           "value": "filters",
-          "id": "4e0ad376-3961-4230-9ff3-4fdf1e70dde1",
-          "node_id": "c2dbf5b3-1f84-4654-ac4c-d4a74858fff0"
+          "id": "c401ef38-c068-4d51-9596-f63e29918496",
+          "node_id": "a26dab55-e1f7-4933-aa52-82f9c6a5bc37"
         },
         {
           "key": "method",
           "value": "liquid scintillation spectrometry",
-          "id": "34eec09f-0cb1-4c90-a672-974ec2c7ef60",
-          "node_id": "c2dbf5b3-1f84-4654-ac4c-d4a74858fff0"
+          "id": "3d679476-93e2-4444-9aba-3cd562a296f5",
+          "node_id": "a26dab55-e1f7-4933-aa52-82f9c6a5bc37"
         }
       ],
       "emits": []

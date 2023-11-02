@@ -2,363 +2,363 @@
   "name": "nprot-10_graphData.json",
   "nodes": [
     {
-      "id": "1ce450d0-c5f2-450d-808f-d063efb4c529",
+      "id": "c6ecb3d7-599c-43da-961f-9326962e5cfb",
       "text": "Virulent _S. aureus_ MB 2865 \\(Smith strain) was grown overnight with aeration in TSB medium.",
       "instruction": "GROW",
       "slots": [
         {
           "key": "reagent1",
           "value": "Virulent _S. aureus_ MB 2865 (Smith strain)",
-          "id": "a43c358d-b9e4-4746-a652-dfb5572dea48",
-          "node_id": "1ce450d0-c5f2-450d-808f-d063efb4c529"
+          "id": "c9eb31d9-41f9-4dd5-8f1c-9be6190e874d",
+          "node_id": "c6ecb3d7-599c-43da-961f-9326962e5cfb"
         },
         {
           "key": "medium",
           "value": "TSB medium",
-          "id": "0922aabc-0cb8-426d-b3fe-b31ea42dcfbf",
-          "node_id": "1ce450d0-c5f2-450d-808f-d063efb4c529"
+          "id": "ae607453-1708-42fd-a476-c8984216c3e2",
+          "node_id": "c6ecb3d7-599c-43da-961f-9326962e5cfb"
         },
         {
           "key": "temperature",
           "value": "room temperature",
-          "id": "6c4cdb76-05d8-4739-af48-9ff48c4b96ca",
-          "node_id": "1ce450d0-c5f2-450d-808f-d063efb4c529"
+          "id": "457a141c-8aad-478c-b3c4-92150c22be72",
+          "node_id": "c6ecb3d7-599c-43da-961f-9326962e5cfb"
         }
       ],
       "emits": [
         {
           "key": "reagent0",
           "value": "Virulent _S. aureus_ MB 2865 (Smith strain)",
-          "id": "3f4a1e61-0d96-451e-abb9-f56326320f5c",
-          "node_id": "1ce450d0-c5f2-450d-808f-d063efb4c529"
+          "id": "7253e965-cba5-4dee-8f36-862dfda44d81",
+          "node_id": "c6ecb3d7-599c-43da-961f-9326962e5cfb"
         }
       ]
     },
     {
-      "id": "967537e3-3944-4704-8772-335214881be4",
+      "id": "0910d5fa-f41a-4b1d-8f12-c06498a27f8e",
       "text": "Bacteria were harvested and washed with fresh TSB and serially diluted to achieve an infective inoculum of 4 x 10<sup>3</sup> CFU/mL in 5% hog gastric mucin, and 0.5 mL was used to infect intraperitoneally.",
       "instruction": "HARVEST",
       "slots": [
         {
           "key": "reagent1",
           "value": "Bacteria",
-          "id": "c34b747d-93d7-4dd4-8557-c170b6d105d4",
-          "node_id": "967537e3-3944-4704-8772-335214881be4"
+          "id": "df661a67-dbbc-47e1-8bae-80974efbb729",
+          "node_id": "0910d5fa-f41a-4b1d-8f12-c06498a27f8e"
         },
         {
           "key": "container",
           "value": "TSB",
-          "id": "fbbfa263-a344-4d4a-83d5-339b92856405",
-          "node_id": "967537e3-3944-4704-8772-335214881be4"
+          "id": "f0219900-a865-445c-9a89-c6745006f6f2",
+          "node_id": "0910d5fa-f41a-4b1d-8f12-c06498a27f8e"
         }
       ],
       "emits": [
         {
           "key": "reagent0",
           "value": "Bacteria",
-          "id": "13e09b93-0ee5-4acf-8181-92a718508fac",
-          "node_id": "967537e3-3944-4704-8772-335214881be4"
+          "id": "4363629d-a7c8-4659-9eae-2fdaf2762430",
+          "node_id": "0910d5fa-f41a-4b1d-8f12-c06498a27f8e"
         }
       ]
     },
     {
-      "id": "8f566dbb-8889-41be-aa12-e4cdf6e32ec7",
+      "id": "0dedebf3-eb77-4d74-95f5-7189819933c1",
       "text": "Bacteria were harvested and washed with fresh TSB and serially diluted to achieve an infective inoculum of 4 x 10<sup>3</sup> CFU/mL in 5% hog gastric mucin, and 0.5 mL was used to infect intraperitoneally.",
       "instruction": "WASH",
       "slots": [
         {
           "key": "reagent1",
           "value": "Bacteria",
-          "id": "47050d9f-13a4-45fa-887f-42b3c489f634",
-          "node_id": "8f566dbb-8889-41be-aa12-e4cdf6e32ec7"
+          "id": "f004599b-f9b1-4ec0-a0db-4aab6a52739b",
+          "node_id": "0dedebf3-eb77-4d74-95f5-7189819933c1"
         },
         {
           "key": "reagent2",
           "value": "TSB",
-          "id": "3b37663f-87a3-442e-a404-d83c31efd9e1",
-          "node_id": "8f566dbb-8889-41be-aa12-e4cdf6e32ec7"
+          "id": "c790ea50-7c90-41dd-bee2-bf768d4a16b5",
+          "node_id": "0dedebf3-eb77-4d74-95f5-7189819933c1"
         },
         {
           "key": "repeat",
           "value": "1",
-          "id": "44ae0f16-c96e-4d1b-a32c-9946c6d02388",
-          "node_id": "8f566dbb-8889-41be-aa12-e4cdf6e32ec7"
+          "id": "b7466c32-8265-4388-b044-2c69614be785",
+          "node_id": "0dedebf3-eb77-4d74-95f5-7189819933c1"
         }
       ],
       "emits": [
         {
           "key": "reagent0",
           "value": "Bacteria",
-          "id": "e44fd92a-f4b5-40a7-aec9-831ee84d537a",
-          "node_id": "8f566dbb-8889-41be-aa12-e4cdf6e32ec7"
+          "id": "dac8c8e2-595e-4176-8885-da576b2e761a",
+          "node_id": "0dedebf3-eb77-4d74-95f5-7189819933c1"
         }
       ]
     },
     {
-      "id": "80f8e12e-93be-4ffd-8eeb-5a5c633fc46b",
+      "id": "9febe833-ca5a-4fb6-a197-eb187034132a",
       "text": "Bacteria were harvested and washed with fresh TSB and serially diluted to achieve an infective inoculum of 4 x 10<sup>3</sup> CFU/mL in 5% hog gastric mucin, and 0.5 mL was used to infect intraperitoneally.",
       "instruction": "DILUTE",
       "slots": [
         {
           "key": "reagent1",
           "value": "Bacteria",
-          "id": "a71ca9a6-497c-4e24-a74b-6fe96da974ce",
-          "node_id": "80f8e12e-93be-4ffd-8eeb-5a5c633fc46b"
+          "id": "448593c6-13d4-4cc5-9551-b4a0ced56a87",
+          "node_id": "9febe833-ca5a-4fb6-a197-eb187034132a"
         },
         {
           "key": "reagent2",
           "value": "TSB",
-          "id": "6a2f6e4a-087c-4338-8460-f9fcbf08c00b",
-          "node_id": "80f8e12e-93be-4ffd-8eeb-5a5c633fc46b"
+          "id": "cbdaf0d5-16f8-4b43-ae69-300def2f6f8f",
+          "node_id": "9febe833-ca5a-4fb6-a197-eb187034132a"
         },
         {
           "key": "targetConcentration",
           "value": "4 x 10^3 CFU/mL in 5% hog gastric mucin",
-          "id": "83924d90-be92-4fe6-8060-95249261a874",
-          "node_id": "80f8e12e-93be-4ffd-8eeb-5a5c633fc46b"
+          "id": "51feaff8-fed2-4efc-8e4c-126ff1eab8f7",
+          "node_id": "9febe833-ca5a-4fb6-a197-eb187034132a"
         }
       ],
       "emits": [
         {
           "key": "reagent0",
           "value": "Bacteria",
-          "id": "a931e08f-b399-4775-8bb1-d8eba9f56f6a",
-          "node_id": "80f8e12e-93be-4ffd-8eeb-5a5c633fc46b"
+          "id": "0ac76afe-1436-416e-871f-85c516154e58",
+          "node_id": "9febe833-ca5a-4fb6-a197-eb187034132a"
         }
       ]
     },
     {
-      "id": "ad4fd795-04e2-4816-ad0b-c4361ebc1df6",
+      "id": "8f30b342-2c13-48b2-aed1-0f7af3cbe28d",
       "text": "The infected mice were anesthetized using isoflurane \\(Abbott).  0.5 inch hollow connectors were attached to the external section of the JVC catheter and the mice were subsequently harnessed to the counter-balance arm inside a mouse cage.",
       "instruction": "ANESTHETIZE",
       "slots": [
         {
           "key": "reagent1",
           "value": "infected mice",
-          "id": "8fe1f8e7-d8d2-4402-af09-13d3620f2314",
-          "node_id": "ad4fd795-04e2-4816-ad0b-c4361ebc1df6"
+          "id": "567f17fc-8a8d-484b-9590-5521ee657a54",
+          "node_id": "8f30b342-2c13-48b2-aed1-0f7af3cbe28d"
         },
         {
           "key": "reagent2",
           "value": "isoflurane (Abbott)",
-          "id": "a3336db9-7c78-4129-8102-68db97a0d855",
-          "node_id": "ad4fd795-04e2-4816-ad0b-c4361ebc1df6"
+          "id": "69338785-10ce-4e82-b0d3-5dcf353ee303",
+          "node_id": "8f30b342-2c13-48b2-aed1-0f7af3cbe28d"
         }
       ],
       "emits": [
         {
           "key": "reagent0",
           "value": "infected mice",
-          "id": "a11737b8-584c-487c-b94d-41b40cd4a197",
-          "node_id": "ad4fd795-04e2-4816-ad0b-c4361ebc1df6"
+          "id": "4910986a-d6fc-42be-a0ea-2d26cc2721ce",
+          "node_id": "8f30b342-2c13-48b2-aed1-0f7af3cbe28d"
         }
       ]
     },
     {
-      "id": "aeee0f0d-a1d0-4bd9-a8a5-ff98f41dc6e9",
+      "id": "6bbccaf7-7818-4f22-9d6f-b33d9cbc7d27",
       "text": "The infected mice were anesthetized using isoflurane \\(Abbott).  0.5 inch hollow connectors were attached to the external section of the JVC catheter and the mice were subsequently harnessed to the counter-balance arm inside a mouse cage.",
       "instruction": "ATTACH",
       "slots": [
         {
           "key": "reagent1",
           "value": "0.5 inch hollow connectors",
-          "id": "d431dd6b-54fb-4aa2-98f7-0c2012735ef9",
-          "node_id": "aeee0f0d-a1d0-4bd9-a8a5-ff98f41dc6e9"
+          "id": "f4e4fd6b-6161-44a6-80f6-3c79822480f9",
+          "node_id": "6bbccaf7-7818-4f22-9d6f-b33d9cbc7d27"
         },
         {
           "key": "reagent2",
           "value": "external section of the JVC catheter",
-          "id": "10426cf8-6e69-409e-8716-e5b6438841ea",
-          "node_id": "aeee0f0d-a1d0-4bd9-a8a5-ff98f41dc6e9"
+          "id": "cd3560bc-e201-4c20-9f23-6385ac62dcef",
+          "node_id": "6bbccaf7-7818-4f22-9d6f-b33d9cbc7d27"
         }
       ],
       "emits": []
     },
     {
-      "id": "436dee05-2d85-49c5-b697-20c4f24fb756",
+      "id": "8dfe7eae-92d9-4a56-ab44-3972cb080ccd",
       "text": "Fluid primed PE 20 tubings attached to individual syringes on the infusion pump were connected to the mice through the 0.5 inch hollow connector.",
       "instruction": "ATTACH",
       "slots": [
         {
           "key": "reagent1",
           "value": "Fluid primed PE 20 tubings",
-          "id": "e1fa2beb-9251-4e12-9953-af4f1a47074d",
-          "node_id": "436dee05-2d85-49c5-b697-20c4f24fb756"
+          "id": "b77a14b0-7f19-49e1-9201-bd5a3ae9cf21",
+          "node_id": "8dfe7eae-92d9-4a56-ab44-3972cb080ccd"
         },
         {
           "key": "reagent2",
           "value": "individual syringes on the infusion pump",
-          "id": "b85fb812-734e-422c-ab92-f602e3d17bd2",
-          "node_id": "436dee05-2d85-49c5-b697-20c4f24fb756"
+          "id": "a2684818-350a-4d45-864b-0cd16f4a706d",
+          "node_id": "8dfe7eae-92d9-4a56-ab44-3972cb080ccd"
         },
         {
           "key": "device",
           "value": "0.5 inch hollow connector",
-          "id": "14dc5cc8-3cc3-4ccd-8c8e-1be8b5ea9a57",
-          "node_id": "436dee05-2d85-49c5-b697-20c4f24fb756"
+          "id": "c69b0316-abf3-43f7-9e40-7a45748aecaa",
+          "node_id": "8dfe7eae-92d9-4a56-ab44-3972cb080ccd"
         }
       ],
       "emits": []
     },
     {
-      "id": "fbcd7bb1-dff3-4ee7-8992-40343adb0558",
+      "id": "58ce1285-3a5a-4692-9a99-76b6f2dea6d8",
       "text": "Blood samples are taken by tail vein to determine serum drug concentration during the infusion.",
       "instruction": "TAKE",
       "slots": [
         {
           "key": "reagent1",
           "value": "Blood samples",
-          "id": "4154f21f-176a-49df-abc9-a3fc5a1fe05a",
-          "node_id": "fbcd7bb1-dff3-4ee7-8992-40343adb0558"
+          "id": "44f985f3-527c-4080-9b3c-1969a56a9bb5",
+          "node_id": "58ce1285-3a5a-4692-9a99-76b6f2dea6d8"
         },
         {
           "key": "source",
           "value": "tail vein",
-          "id": "eae8a7d1-616c-4898-a4fe-379464845d10",
-          "node_id": "fbcd7bb1-dff3-4ee7-8992-40343adb0558"
+          "id": "75fca5fd-2d32-42d4-9253-74dfd3df26ef",
+          "node_id": "58ce1285-3a5a-4692-9a99-76b6f2dea6d8"
         },
         {
           "key": "notice",
           "value": "to determine serum drug concentration during the infusion",
-          "id": "3574e9f8-4c8f-4dfa-bb88-17c4e3a32905",
-          "node_id": "fbcd7bb1-dff3-4ee7-8992-40343adb0558"
+          "id": "032a5fa6-7aca-4a44-a7f7-92acfb950f31",
+          "node_id": "58ce1285-3a5a-4692-9a99-76b6f2dea6d8"
         }
       ],
       "emits": [
         {
           "key": "reagent0",
           "value": "Blood samples",
-          "id": "81729e95-07df-45ca-b731-fd8804b29e77",
-          "node_id": "fbcd7bb1-dff3-4ee7-8992-40343adb0558"
+          "id": "5fa3fc1a-eb6e-44e7-acd5-648b86884b82",
+          "node_id": "58ce1285-3a5a-4692-9a99-76b6f2dea6d8"
         }
       ]
     },
     {
-      "id": "e319fb5a-8a96-480d-80f7-90c424cfd34b",
+      "id": "4c199ff1-54c6-4eca-8284-d20face55e44",
       "text": "After the 24 hour period, the mice were euthanized and the kidneys were aseptically removed and homogenized.",
       "instruction": "REMOVE",
       "slots": [
         {
           "key": "reagent1",
           "value": "kidneys",
-          "id": "c78654da-b9d3-4b52-a476-c70c0e34e2d0",
-          "node_id": "e319fb5a-8a96-480d-80f7-90c424cfd34b"
+          "id": "694d6ad2-a37e-4df3-bb87-e91adceadb5c",
+          "node_id": "4c199ff1-54c6-4eca-8284-d20face55e44"
         },
         {
           "key": "method",
           "value": "aseptically",
-          "id": "50e87122-4ba2-438d-bae4-c03fb099346d",
-          "node_id": "e319fb5a-8a96-480d-80f7-90c424cfd34b"
+          "id": "d10edf3c-fc62-4a36-84e6-7cf994418631",
+          "node_id": "4c199ff1-54c6-4eca-8284-d20face55e44"
         }
       ],
       "emits": [
         {
           "key": "reagent0",
           "value": "kidneys",
-          "id": "a818bab7-f698-4c3b-805a-02f808e4ede4",
-          "node_id": "e319fb5a-8a96-480d-80f7-90c424cfd34b"
+          "id": "98048e71-8987-456c-b23b-2b4d8bc1e134",
+          "node_id": "4c199ff1-54c6-4eca-8284-d20face55e44"
         }
       ]
     },
     {
-      "id": "055694a0-6901-4764-a758-da5965ca7066",
+      "id": "248143ad-ce66-4e09-89fa-000fa10132e9",
       "text": "After the 24 hour period, the mice were euthanized and the kidneys were aseptically removed and homogenized.",
       "instruction": "HOMOGENIZE",
       "slots": [
         {
           "key": "reagent1",
           "value": "kidneys",
-          "id": "4c11e055-a9b1-42ad-a3ed-2ab0129518c8",
-          "node_id": "055694a0-6901-4764-a758-da5965ca7066"
+          "id": "3d58ef79-dddc-43bf-a2a6-7491412f1f86",
+          "node_id": "248143ad-ce66-4e09-89fa-000fa10132e9"
         }
       ],
       "emits": [
         {
           "key": "reagent0",
           "value": "kidneys",
-          "id": "f3774ad2-a9cf-41ae-85c4-b89efe6a24c1",
-          "node_id": "055694a0-6901-4764-a758-da5965ca7066"
+          "id": "985528e7-94aa-4c9b-aa86-f2e4a34aebde",
+          "node_id": "248143ad-ce66-4e09-89fa-000fa10132e9"
         }
       ]
     },
     {
-      "id": "d0763f7c-b566-491a-b867-5e8670fe0c0d",
+      "id": "078ebd83-bd9f-450a-b4e9-c011d9e403ad",
       "text": "Serial dilutions of the homogenates were plated on Mannitol plates and incubated overnight at 37 \u00b0C.",
       "instruction": "DILUTE",
       "slots": [
         {
           "key": "reagent1",
           "value": "homogenates",
-          "id": "bfb2291c-5594-49f0-92a0-66e59fab59c7",
-          "node_id": "d0763f7c-b566-491a-b867-5e8670fe0c0d"
+          "id": "a46c1eec-01c1-45e3-be87-d81032589dfa",
+          "node_id": "078ebd83-bd9f-450a-b4e9-c011d9e403ad"
         },
         {
           "key": "reagent2",
           "value": "Mannitol plates",
-          "id": "f25afe8d-9ee0-472f-a0f1-2d06b09a7de6",
-          "node_id": "d0763f7c-b566-491a-b867-5e8670fe0c0d"
+          "id": "0460c662-d59e-4f1f-99c6-6ed9698851d7",
+          "node_id": "078ebd83-bd9f-450a-b4e9-c011d9e403ad"
         }
       ],
       "emits": [
         {
           "key": "reagent0",
           "value": "homogenates",
-          "id": "cca5f6f9-a287-4892-b84b-bafbe3034cb3",
-          "node_id": "d0763f7c-b566-491a-b867-5e8670fe0c0d"
+          "id": "7f100d05-f18a-447a-badf-7093c0943a67",
+          "node_id": "078ebd83-bd9f-450a-b4e9-c011d9e403ad"
         }
       ]
     },
     {
-      "id": "6d93cf24-8028-4420-b0a1-6617dfb7ee09",
+      "id": "986d1030-68ce-45c7-9b73-3eef2ce370fa",
       "text": "Serial dilutions of the homogenates were plated on Mannitol plates and incubated overnight at 37 \u00b0C.",
       "instruction": "INCUBATE",
       "slots": [
         {
           "key": "reagent1",
           "value": "homogenates",
-          "id": "d96b7d5d-7768-4867-9f5f-eca16a0b143e",
-          "node_id": "6d93cf24-8028-4420-b0a1-6617dfb7ee09"
+          "id": "b3fba967-48ba-46ff-907c-9ef7e8b754b9",
+          "node_id": "986d1030-68ce-45c7-9b73-3eef2ce370fa"
         },
         {
           "key": "temperature",
           "value": "37 \u00b0C",
-          "id": "904a6eb4-048b-4abe-9b79-c8b9c6df4b7e",
-          "node_id": "6d93cf24-8028-4420-b0a1-6617dfb7ee09"
+          "id": "c7f42e12-238e-4a4e-81cc-52401ab99e96",
+          "node_id": "986d1030-68ce-45c7-9b73-3eef2ce370fa"
         },
         {
           "key": "time",
           "value": "overnight",
-          "id": "60aeca75-821a-4653-992f-fda80f771b52",
-          "node_id": "6d93cf24-8028-4420-b0a1-6617dfb7ee09"
+          "id": "763e48ce-66d7-44e4-9819-e0ee8444f17d",
+          "node_id": "986d1030-68ce-45c7-9b73-3eef2ce370fa"
         }
       ],
       "emits": [
         {
           "key": "reagent0",
           "value": "homogenates",
-          "id": "611e9492-22b8-4c3e-b130-0ed7f7affa44",
-          "node_id": "6d93cf24-8028-4420-b0a1-6617dfb7ee09"
+          "id": "7a088b57-571b-4188-9444-eaeb7cf8cf8d",
+          "node_id": "986d1030-68ce-45c7-9b73-3eef2ce370fa"
         }
       ]
     },
     {
-      "id": "640f9ee9-c0d9-471b-b8c0-a15930613607",
+      "id": "21bb008b-fcf7-4c06-aa83-544965ce5bed",
       "text": "Bacterial counts were enumerated \\(ref. 2).",
       "instruction": "COUNT",
       "slots": [
         {
           "key": "reagent1",
           "value": "homogenates",
-          "id": "404f4c55-a81a-4f18-ace8-11198c5cafb1",
-          "node_id": "640f9ee9-c0d9-471b-b8c0-a15930613607"
+          "id": "cd5f75ad-70bf-4df2-b4e8-9c013f0016d3",
+          "node_id": "21bb008b-fcf7-4c06-aa83-544965ce5bed"
         }
       ],
       "emits": [
         {
           "key": "data0",
           "value": "<blank>",
-          "id": "e82e2f53-d069-4871-994d-ccbda6a15e53",
-          "node_id": "640f9ee9-c0d9-471b-b8c0-a15930613607"
+          "id": "85d07fa3-1d10-49c3-97e7-6253dd1219b5",
+          "node_id": "21bb008b-fcf7-4c06-aa83-544965ce5bed"
         }
       ]
     }

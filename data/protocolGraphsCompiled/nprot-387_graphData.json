@@ -2,431 +2,431 @@
   "name": "nprot-387_graphData.json",
   "nodes": [
     {
-      "id": "0d3ae3b5-228d-4d97-8cd4-0ae365999baa",
+      "id": "e9fe517e-b213-458c-b1ad-9af3ec5ef830",
       "text": "Dissect Drosophila larval brains in saline \\(0.7% NaCl),",
       "instruction": "DISSECT",
       "slots": [
         {
           "key": "reagent1",
           "value": "Drosophila larval brains",
-          "id": "e9c5c2fe-fd32-4148-b012-736d526ecb0e",
-          "node_id": "0d3ae3b5-228d-4d97-8cd4-0ae365999baa"
+          "id": "6c9b5263-c4dd-47c9-8369-94e0a23fd964",
+          "node_id": "e9fe517e-b213-458c-b1ad-9af3ec5ef830"
         },
         {
           "key": "notice",
           "value": "in saline (0.7% NaCl)",
-          "id": "f04d5113-fa8b-4733-a8e3-4ed3190d4168",
-          "node_id": "0d3ae3b5-228d-4d97-8cd4-0ae365999baa"
+          "id": "ecd575be-74a8-43de-b5dc-3f91108458fc",
+          "node_id": "e9fe517e-b213-458c-b1ad-9af3ec5ef830"
         }
       ],
       "emits": [
         {
           "key": "reagent0",
           "value": "Drosophila larval brains",
-          "id": "9c7e8993-e33f-4965-8850-c04ec38d0315",
-          "node_id": "0d3ae3b5-228d-4d97-8cd4-0ae365999baa"
+          "id": "0987fd48-8219-4f1d-98da-b77c349e16a6",
+          "node_id": "e9fe517e-b213-458c-b1ad-9af3ec5ef830"
         }
       ]
     },
     {
-      "id": "b7609719-d102-487f-a234-95f4ea8a9e6a",
+      "id": "35649574-16b6-427b-a82a-6bcbc50df6e6",
       "text": "Treat dissected brains for 10 min with a hypotonic solution of 0.5% sodium citrate.",
       "instruction": "TREAT",
       "slots": [
         {
           "key": "reagent1",
           "value": "Drosophila larval brains",
-          "id": "435781c2-deb6-4a41-915f-2a2ed366ec61",
-          "node_id": "b7609719-d102-487f-a234-95f4ea8a9e6a"
+          "id": "d2f63da0-25b2-4678-a2a3-0d68de1d8777",
+          "node_id": "35649574-16b6-427b-a82a-6bcbc50df6e6"
         },
         {
           "key": "reagent2",
           "value": "0.5% sodium citrate",
-          "id": "5f73d9bc-7f11-4790-8443-7da9e7855589",
-          "node_id": "b7609719-d102-487f-a234-95f4ea8a9e6a"
+          "id": "ae496c5e-0bb8-4194-a58e-4875423404b1",
+          "node_id": "35649574-16b6-427b-a82a-6bcbc50df6e6"
         },
         {
           "key": "temperature",
           "value": "room temperature",
-          "id": "09f1e00d-c830-4b62-9d87-b10cb32462fa",
-          "node_id": "b7609719-d102-487f-a234-95f4ea8a9e6a"
+          "id": "b9870ccb-6081-4dac-8aa8-c228c7cb531e",
+          "node_id": "35649574-16b6-427b-a82a-6bcbc50df6e6"
         },
         {
           "key": "time",
           "value": "10 min",
-          "id": "6b4fe88b-9915-48ec-a5c3-1da5bf685eea",
-          "node_id": "b7609719-d102-487f-a234-95f4ea8a9e6a"
+          "id": "02da8a5d-f3ac-4e1b-8600-d7d8c7e67bfa",
+          "node_id": "35649574-16b6-427b-a82a-6bcbc50df6e6"
         }
       ],
       "emits": [
         {
           "key": "reagent0",
           "value": "Drosophila larval brains",
-          "id": "97ee768b-e5fc-47e8-b203-2f41f0e59a62",
-          "node_id": "b7609719-d102-487f-a234-95f4ea8a9e6a"
+          "id": "23c64174-ed9a-4bde-bc4f-0d4cec7fb4a7",
+          "node_id": "35649574-16b6-427b-a82a-6bcbc50df6e6"
         }
       ]
     },
     {
-      "id": "b5300866-e12b-4cde-9621-f6dcb14b08d7",
+      "id": "0449af21-176c-43ca-926a-ef7447ad6ddd",
       "text": "Fix for 5 min in a drop of fixing solution \\(1.8% Formaldehyde, 45% acetic acid) on a coverslip.",
       "instruction": "FIX",
       "slots": [
         {
           "key": "reagent1",
           "value": "Drosophila larval brains",
-          "id": "7bb73846-f4ba-4f6b-995a-4c1475801ef7",
-          "node_id": "b5300866-e12b-4cde-9621-f6dcb14b08d7"
+          "id": "e3ac2dd4-bb72-44bb-8c21-6640adc1c937",
+          "node_id": "0449af21-176c-43ca-926a-ef7447ad6ddd"
         },
         {
           "key": "reagent2",
           "value": "fixing solution (1.8% Formaldehyde, 45% acetic acid)",
-          "id": "999f9f1e-50de-431a-b384-f80b32a6f49e",
-          "node_id": "b5300866-e12b-4cde-9621-f6dcb14b08d7"
+          "id": "1744bbb1-25d3-4ee0-9acb-e41d40ab12e7",
+          "node_id": "0449af21-176c-43ca-926a-ef7447ad6ddd"
         },
         {
           "key": "temperature",
           "value": "room temperature",
-          "id": "1e34ea58-50f2-463c-85eb-7f6c48d3a5ac",
-          "node_id": "b5300866-e12b-4cde-9621-f6dcb14b08d7"
+          "id": "e6e800a9-cf8e-482e-a453-8edf53ce0c8b",
+          "node_id": "0449af21-176c-43ca-926a-ef7447ad6ddd"
         },
         {
           "key": "time",
           "value": "5 min",
-          "id": "7996a186-14f2-45f7-92c7-8d9cef48f373",
-          "node_id": "b5300866-e12b-4cde-9621-f6dcb14b08d7"
+          "id": "dd45a7f4-5cc2-4cc4-85de-67293d1acafd",
+          "node_id": "0449af21-176c-43ca-926a-ef7447ad6ddd"
         }
       ],
       "emits": [
         {
           "key": "reagent0",
           "value": "Drosophila larval brains",
-          "id": "7a8c8edb-90b8-464f-9061-3c1dcc0a9544",
-          "node_id": "b5300866-e12b-4cde-9621-f6dcb14b08d7"
+          "id": "b66bfc2a-54a3-46a8-bad3-f6d635b8befa",
+          "node_id": "0449af21-176c-43ca-926a-ef7447ad6ddd"
         }
       ]
     },
     {
-      "id": "b71de6f8-1c4e-4b18-9fdb-4044887d6852",
+      "id": "a4457f54-1452-4213-b602-739eb9806dee",
       "text": "Freeze the slide in liquid nitrogen",
       "instruction": "FREEZE",
       "slots": [
         {
           "key": "reagent1",
           "value": "slide",
-          "id": "9401ac06-b1f7-49dd-b918-667709498740",
-          "node_id": "b71de6f8-1c4e-4b18-9fdb-4044887d6852"
+          "id": "8cc91367-5809-478a-9d1c-ed16291d652e",
+          "node_id": "a4457f54-1452-4213-b602-739eb9806dee"
         },
         {
           "key": "temperature",
           "value": "liquid nitrogen",
-          "id": "66a72e0b-845c-48fe-93fa-75981005ac1a",
-          "node_id": "b71de6f8-1c4e-4b18-9fdb-4044887d6852"
+          "id": "49499200-d992-4459-9795-5a14d39435b8",
+          "node_id": "a4457f54-1452-4213-b602-739eb9806dee"
         }
       ],
       "emits": [
         {
           "key": "reagent0",
           "value": "slide",
-          "id": "395af2e3-fdd1-409f-9e3d-b2d935628b82",
-          "node_id": "b71de6f8-1c4e-4b18-9fdb-4044887d6852"
+          "id": "5c9e5bea-e47c-486d-a13d-d5c596960a2b",
+          "node_id": "a4457f54-1452-4213-b602-739eb9806dee"
         }
       ]
     },
     {
-      "id": "3edff654-5e6f-4b64-be8f-dde5baa0f029",
+      "id": "09015bda-d369-4bdf-bd84-b4a515a1022a",
       "text": "Remove the coverslip and immerse the slide in cold ethanol \\(-20&#xB0;C) for 10 minutes.",
       "instruction": "REMOVE",
       "slots": [
         {
           "key": "reagent1",
           "value": "coverslip",
-          "id": "3e4e3682-d490-4af3-8536-04441a497d42",
-          "node_id": "3edff654-5e6f-4b64-be8f-dde5baa0f029"
+          "id": "891aac81-6c71-497c-a5a8-e9304714c622",
+          "node_id": "09015bda-d369-4bdf-bd84-b4a515a1022a"
         }
       ],
       "emits": [
         {
           "key": "reagent0",
           "value": "slide",
-          "id": "5de8261e-fd23-4fe0-84c7-dbaa2d8928a9",
-          "node_id": "3edff654-5e6f-4b64-be8f-dde5baa0f029"
+          "id": "dd1833f6-af8c-4f92-a992-4789a8f223f4",
+          "node_id": "09015bda-d369-4bdf-bd84-b4a515a1022a"
         }
       ]
     },
     {
-      "id": "98393555-58be-4925-9027-3c8ae211a941",
+      "id": "d9e0320b-a256-4950-a795-9e37297f5979",
       "text": "Remove the coverslip and immerse the slide in cold ethanol \\(-20&#xB0;C) for 10 minutes.",
       "instruction": "IMMERSE",
       "slots": [
         {
           "key": "reagent1",
           "value": "slide",
-          "id": "c56cb9e7-0b35-4af2-a736-22739c0deb05",
-          "node_id": "98393555-58be-4925-9027-3c8ae211a941"
+          "id": "df8e24b0-19f9-4f90-8b89-ecca5e35d90e",
+          "node_id": "d9e0320b-a256-4950-a795-9e37297f5979"
         },
         {
           "key": "temperature",
           "value": "-20\u00b0C",
-          "id": "2f26f587-26f0-47a6-914d-77ed416b9f62",
-          "node_id": "98393555-58be-4925-9027-3c8ae211a941"
+          "id": "30807e13-4467-452e-8559-345145a867fc",
+          "node_id": "d9e0320b-a256-4950-a795-9e37297f5979"
         },
         {
           "key": "time",
           "value": "10 minutes",
-          "id": "ec5f4e0e-7a53-4dfe-af6d-845f1ab9066e",
-          "node_id": "98393555-58be-4925-9027-3c8ae211a941"
+          "id": "2c8bde7c-7622-4aac-a51e-136bc04a7112",
+          "node_id": "d9e0320b-a256-4950-a795-9e37297f5979"
         }
       ],
       "emits": [
         {
           "key": "reagent0",
           "value": "slide",
-          "id": "e500cfed-5a36-48e5-8fbd-fba754c8b502",
-          "node_id": "98393555-58be-4925-9027-3c8ae211a941"
+          "id": "3236f09f-427a-425c-9871-7ee40c7f2c00",
+          "node_id": "d9e0320b-a256-4950-a795-9e37297f5979"
         }
       ]
     },
     {
-      "id": "fbddf6b0-e602-4ef4-879a-af466a9828ae",
+      "id": "6def2398-f8e8-40a1-9a57-d06c63b88d93",
       "text": "Wash the slide in PBS-T \\(PBS containing 0.1% TritonX).",
       "instruction": "WASH",
       "slots": [
         {
           "key": "reagent1",
           "value": "slide",
-          "id": "53ce4e75-c6c8-4604-9acc-18e96b755920",
-          "node_id": "fbddf6b0-e602-4ef4-879a-af466a9828ae"
+          "id": "9703f2ce-6f7f-463c-ae7b-c59a7b9ba7ef",
+          "node_id": "6def2398-f8e8-40a1-9a57-d06c63b88d93"
         },
         {
           "key": "reagent2",
           "value": "PBS-T",
-          "id": "ccc7a879-7b63-47a1-ab32-da552a8b6fdd",
-          "node_id": "fbddf6b0-e602-4ef4-879a-af466a9828ae"
+          "id": "ea779860-b575-4af3-a69f-7712a3813771",
+          "node_id": "6def2398-f8e8-40a1-9a57-d06c63b88d93"
         },
         {
           "key": "repeat",
           "value": "1",
-          "id": "d019ac98-8715-4e1f-95bc-e59d5e2233b5",
-          "node_id": "fbddf6b0-e602-4ef4-879a-af466a9828ae"
+          "id": "8b36a2e9-3e65-4e0b-b064-26e1e68c8e9a",
+          "node_id": "6def2398-f8e8-40a1-9a57-d06c63b88d93"
         }
       ],
       "emits": [
         {
           "key": "reagent0",
           "value": "slide",
-          "id": "0b39c768-5a13-4972-89cf-c75cfdd2de6c",
-          "node_id": "fbddf6b0-e602-4ef4-879a-af466a9828ae"
+          "id": "d5db8296-2fe1-4543-b162-ccda432f8a31",
+          "node_id": "6def2398-f8e8-40a1-9a57-d06c63b88d93"
         }
       ]
     },
     {
-      "id": "b608830e-a8e1-42de-bd52-e2a61d806778",
+      "id": "4d5e3a72-c480-4ee8-9be3-d2c7e95cda6f",
       "text": "Incubate the slide overnight with appropriate primary antibody in a humid box at 4&#xB0;C",
       "instruction": "INCUBATE",
       "slots": [
         {
           "key": "reagent1",
           "value": "appropriate primary antibody",
-          "id": "2b20982d-d52e-40b0-acb9-9482d826a044",
-          "node_id": "b608830e-a8e1-42de-bd52-e2a61d806778"
+          "id": "5fbc6489-ee61-4bd8-89e3-4271bfe46d46",
+          "node_id": "4d5e3a72-c480-4ee8-9be3-d2c7e95cda6f"
         },
         {
           "key": "temperature",
           "value": "4\u00b0C",
-          "id": "aaacdd29-7e7b-49a8-b0a8-9cc860fd679b",
-          "node_id": "b608830e-a8e1-42de-bd52-e2a61d806778"
+          "id": "bf8302ca-5436-4e75-a5ee-d85a9c1cefd8",
+          "node_id": "4d5e3a72-c480-4ee8-9be3-d2c7e95cda6f"
         },
         {
           "key": "time",
           "value": "overnight",
-          "id": "12f5f67c-a95d-4e7e-a016-38c1127b8714",
-          "node_id": "b608830e-a8e1-42de-bd52-e2a61d806778"
+          "id": "ade6b78e-52c6-4da0-8634-77d6a6876602",
+          "node_id": "4d5e3a72-c480-4ee8-9be3-d2c7e95cda6f"
         },
         {
           "key": "environment",
           "value": "humid box",
-          "id": "231dc6e7-ae19-427e-9800-2b9934a5582b",
-          "node_id": "b608830e-a8e1-42de-bd52-e2a61d806778"
+          "id": "181c6c56-2f7e-459b-a567-b6b805650edc",
+          "node_id": "4d5e3a72-c480-4ee8-9be3-d2c7e95cda6f"
         },
         {
           "key": "notice",
           "value": "in a humid box at 4\u00b0C",
-          "id": "a5fd6b45-edb2-4d2b-bf36-75ba2aecc499",
-          "node_id": "b608830e-a8e1-42de-bd52-e2a61d806778"
+          "id": "41887190-bab4-43e2-b807-ef9039680338",
+          "node_id": "4d5e3a72-c480-4ee8-9be3-d2c7e95cda6f"
         }
       ],
       "emits": [
         {
           "key": "reagent0",
           "value": "slide",
-          "id": "f151bf3e-130a-4f17-8428-624afd26b4df",
-          "node_id": "b608830e-a8e1-42de-bd52-e2a61d806778"
+          "id": "36130eb6-e146-4055-ba36-5fe8f2551662",
+          "node_id": "4d5e3a72-c480-4ee8-9be3-d2c7e95cda6f"
         }
       ]
     },
     {
-      "id": "da3de007-4c06-4f3f-964e-c4907dec5ea1",
+      "id": "24b2de13-bbdf-4da9-8488-be8aa0a980d5",
       "text": "The next day, wash the slide twice in PBS-T for 10 minutes",
       "instruction": "WASH",
       "slots": [
         {
           "key": "reagent1",
           "value": "slide",
-          "id": "59185e60-a912-4b88-9090-3120914e1988",
-          "node_id": "da3de007-4c06-4f3f-964e-c4907dec5ea1"
+          "id": "e71f632f-678d-4857-8451-fe3d2f585d35",
+          "node_id": "24b2de13-bbdf-4da9-8488-be8aa0a980d5"
         },
         {
           "key": "reagent2",
           "value": "PBS-T",
-          "id": "7d511b61-50de-4405-bee8-ee47cabc3f34",
-          "node_id": "da3de007-4c06-4f3f-964e-c4907dec5ea1"
+          "id": "c8329d05-6712-4361-b05a-943c75978ec3",
+          "node_id": "24b2de13-bbdf-4da9-8488-be8aa0a980d5"
         },
         {
           "key": "repeat",
           "value": "2",
-          "id": "4eb57e48-4d33-48fb-bf2a-50f9970cefe9",
-          "node_id": "da3de007-4c06-4f3f-964e-c4907dec5ea1"
+          "id": "613bcb81-76cf-4b30-879b-49b509f8fe8d",
+          "node_id": "24b2de13-bbdf-4da9-8488-be8aa0a980d5"
         },
         {
           "key": "time",
           "value": "10 minutes",
-          "id": "48294369-251f-4f86-8611-1e2019595012",
-          "node_id": "da3de007-4c06-4f3f-964e-c4907dec5ea1"
+          "id": "24a96365-6ece-4e4d-8c5e-f10ec01a3d4d",
+          "node_id": "24b2de13-bbdf-4da9-8488-be8aa0a980d5"
         }
       ],
       "emits": [
         {
           "key": "reagent0",
           "value": "slide",
-          "id": "c461c432-f001-41c2-92c4-30aee1f15139",
-          "node_id": "da3de007-4c06-4f3f-964e-c4907dec5ea1"
+          "id": "5cbb99af-596d-4744-9bb2-ded44e8cf4d8",
+          "node_id": "24b2de13-bbdf-4da9-8488-be8aa0a980d5"
         }
       ]
     },
     {
-      "id": "e6e12d46-a5eb-4479-92b8-1301e18e2e17",
+      "id": "df2fd8bd-5e50-4aa1-baa0-9638d418c8dd",
       "text": "Incubate the slide with the secondary antibody for 2 h at room temperature, in a humid box.",
       "instruction": "INCUBATE",
       "slots": [
         {
           "key": "reagent1",
           "value": "secondary antibody",
-          "id": "ea7e50cf-3497-41bb-8c47-918153aff7f2",
-          "node_id": "e6e12d46-a5eb-4479-92b8-1301e18e2e17"
+          "id": "2fb511c4-658b-42d3-9831-61d4228d859c",
+          "node_id": "df2fd8bd-5e50-4aa1-baa0-9638d418c8dd"
         },
         {
           "key": "temperature",
           "value": "room temperature",
-          "id": "570282ea-93ed-46b7-993a-d46a944bbdc9",
-          "node_id": "e6e12d46-a5eb-4479-92b8-1301e18e2e17"
+          "id": "d0bec956-4931-4faa-9e88-9e338da713d5",
+          "node_id": "df2fd8bd-5e50-4aa1-baa0-9638d418c8dd"
         },
         {
           "key": "time",
           "value": "2 h",
-          "id": "4abc7384-8857-4d8e-9296-308c69b10c5a",
-          "node_id": "e6e12d46-a5eb-4479-92b8-1301e18e2e17"
+          "id": "8329d338-d024-4c52-8a76-c6daa7b19717",
+          "node_id": "df2fd8bd-5e50-4aa1-baa0-9638d418c8dd"
         },
         {
           "key": "environment",
           "value": "humid box",
-          "id": "b502d184-486d-4b81-ad99-99e7dd01927e",
-          "node_id": "e6e12d46-a5eb-4479-92b8-1301e18e2e17"
+          "id": "9b3da42f-e6e3-4ba7-9cd9-3d09fd379296",
+          "node_id": "df2fd8bd-5e50-4aa1-baa0-9638d418c8dd"
         }
       ],
       "emits": [
         {
           "key": "reagent0",
           "value": "slide",
-          "id": "8ab1683a-9e07-43f4-8612-44f7c9a7575d",
-          "node_id": "e6e12d46-a5eb-4479-92b8-1301e18e2e17"
+          "id": "77bbaf74-78e7-42a2-ab84-74855a40b728",
+          "node_id": "df2fd8bd-5e50-4aa1-baa0-9638d418c8dd"
         }
       ]
     },
     {
-      "id": "83e4949a-804b-4870-817b-a491f8fc5c0c",
+      "id": "a6a749f9-f305-46c1-b761-d3758e81a2e4",
       "text": "Wash the slide twice in PBS-T for 10 minutes and let it air dry.",
       "instruction": "WASH",
       "slots": [
         {
           "key": "reagent1",
           "value": "slide",
-          "id": "abf1da18-dd3e-467b-ae01-ab9395d5421e",
-          "node_id": "83e4949a-804b-4870-817b-a491f8fc5c0c"
+          "id": "a22cbfc1-9eaf-42f2-9d08-2c6b5fa194b1",
+          "node_id": "a6a749f9-f305-46c1-b761-d3758e81a2e4"
         },
         {
           "key": "reagent2",
           "value": "PBS-T",
-          "id": "4695a93b-9831-409f-bb22-f81dd378eb07",
-          "node_id": "83e4949a-804b-4870-817b-a491f8fc5c0c"
+          "id": "12d84d6e-bf3e-4022-b570-5589a70cf9dc",
+          "node_id": "a6a749f9-f305-46c1-b761-d3758e81a2e4"
         },
         {
           "key": "repeat",
           "value": "2",
-          "id": "9fcfe5fb-52d1-49cb-ab27-a116c1e7f651",
-          "node_id": "83e4949a-804b-4870-817b-a491f8fc5c0c"
+          "id": "5940fa25-8006-4e63-9789-726dee6c5502",
+          "node_id": "a6a749f9-f305-46c1-b761-d3758e81a2e4"
         },
         {
           "key": "time",
           "value": "10 minutes",
-          "id": "69e16d2e-54a9-4e92-9e85-4ed7f4e5654a",
-          "node_id": "83e4949a-804b-4870-817b-a491f8fc5c0c"
+          "id": "422536b6-6a66-4672-bd06-5df8833df026",
+          "node_id": "a6a749f9-f305-46c1-b761-d3758e81a2e4"
         }
       ],
       "emits": [
         {
           "key": "reagent0",
           "value": "slide",
-          "id": "c1c38d86-cfcf-4a25-91c7-44638edcde87",
-          "node_id": "83e4949a-804b-4870-817b-a491f8fc5c0c"
+          "id": "ab30271c-ba3a-4228-a770-3a12b3d737f5",
+          "node_id": "a6a749f9-f305-46c1-b761-d3758e81a2e4"
         }
       ]
     },
     {
-      "id": "9a879905-37c1-4ff1-b451-e02124a45bcc",
+      "id": "e04819a2-bb35-4670-9caa-ed08726bcb24",
       "text": "Wash the slide twice in PBS-T for 10 minutes and let it air dry.",
       "instruction": "DRY",
       "slots": [
         {
           "key": "reagent1",
           "value": "slide",
-          "id": "c661c2ad-d1bb-49af-bb75-d2b6bead191f",
-          "node_id": "9a879905-37c1-4ff1-b451-e02124a45bcc"
+          "id": "80427277-eaef-4209-8ca4-d3031c7c5c46",
+          "node_id": "e04819a2-bb35-4670-9caa-ed08726bcb24"
         },
         {
           "key": "time",
           "value": "10 minutes",
-          "id": "5baeddc1-16ba-4cb0-bba5-51b37de3f361",
-          "node_id": "9a879905-37c1-4ff1-b451-e02124a45bcc"
+          "id": "ce51ec0d-b09e-40b6-b2a6-5f41ec62fe08",
+          "node_id": "e04819a2-bb35-4670-9caa-ed08726bcb24"
         }
       ],
       "emits": [
         {
           "key": "reagent0",
           "value": "slide",
-          "id": "17d92016-49d5-4698-90f2-4b7f78fad362",
-          "node_id": "9a879905-37c1-4ff1-b451-e02124a45bcc"
+          "id": "8f145205-a4d1-4621-8b2b-f47fe76352c8",
+          "node_id": "e04819a2-bb35-4670-9caa-ed08726bcb24"
         }
       ]
     },
     {
-      "id": "bb089ab3-2790-4c6d-b997-aadab99a2322",
+      "id": "1f0c7fea-7e14-47a4-b850-308f3516a147",
       "text": "Analyze the immunostaining with a epifluorescence microscope",
       "instruction": "ANALYZE",
       "slots": [
         {
           "key": "reagent1",
           "value": "slide",
-          "id": "13469fc3-a789-47d6-8d09-07d173b50b24",
-          "node_id": "bb089ab3-2790-4c6d-b997-aadab99a2322"
+          "id": "5d782931-3518-4b72-a894-b4e91bbc502b",
+          "node_id": "1f0c7fea-7e14-47a4-b850-308f3516a147"
         }
       ],
       "emits": [
         {
           "key": "data0",
           "value": "slide",
-          "id": "983452d9-86bc-4a0f-8fa9-aff210f19206",
-          "node_id": "bb089ab3-2790-4c6d-b997-aadab99a2322"
+          "id": "960e3468-1ea3-43b8-8b5c-02f49dac8000",
+          "node_id": "1f0c7fea-7e14-47a4-b850-308f3516a147"
         }
       ]
     }

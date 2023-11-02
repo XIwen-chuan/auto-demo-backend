@@ -2,223 +2,223 @@
   "name": "nprot-611_graphData.json",
   "nodes": [
     {
-      "id": "7d5ef6a3-3571-46dd-9073-912bab8a7380",
+      "id": "88210ac8-1924-464e-be61-e55fb2905d94",
       "text": "Place 10-300mg of zebrafish into microcentrifuge tubes.  Unhatched fish do not require prior dechorionation.",
       "instruction": "PLACE",
       "slots": [
         {
           "key": "reagent1",
           "value": "zebrafish",
-          "id": "b713acbb-6cde-46ae-abf7-d153343e17fd",
-          "node_id": "7d5ef6a3-3571-46dd-9073-912bab8a7380"
+          "id": "2840dd2f-895c-4bbf-8d6a-7c9a35eb6656",
+          "node_id": "88210ac8-1924-464e-be61-e55fb2905d94"
         },
         {
           "key": "destination",
           "value": "microcentrifuge tubes",
-          "id": "d4bfbb78-2683-42f7-b8c6-72b6a0d55e22",
-          "node_id": "7d5ef6a3-3571-46dd-9073-912bab8a7380"
+          "id": "6a28ca3d-3d96-467d-949e-5ebc7cd5dc2e",
+          "node_id": "88210ac8-1924-464e-be61-e55fb2905d94"
         }
       ],
       "emits": [
         {
           "key": "reagent0",
           "value": "zebrafish",
-          "id": "1975c244-c707-426b-bc55-0e4fe6240d0d",
-          "node_id": "7d5ef6a3-3571-46dd-9073-912bab8a7380"
+          "id": "753aaa6f-4da9-46fd-9f60-a7fd59d01e41",
+          "node_id": "88210ac8-1924-464e-be61-e55fb2905d94"
         }
       ]
     },
     {
-      "id": "8131aba5-fa51-47f7-9b11-999681fd5554",
+      "id": "30c29af2-58b8-4a10-9d35-bbd70f7a3914",
       "text": "To each tube, add two masses of zirconium oxide grinding beads for each mass of sample.",
       "instruction": "ADD",
       "slots": [
         {
           "key": "reagent1",
           "value": "zebrafish",
-          "id": "e8160eb8-371b-471e-a309-f5fc0f15d850",
-          "node_id": "8131aba5-fa51-47f7-9b11-999681fd5554"
+          "id": "0ca3e441-cd33-4cc6-a7cb-648a27f6fb2c",
+          "node_id": "30c29af2-58b8-4a10-9d35-bbd70f7a3914"
         },
         {
           "key": "reagent2",
           "value": "zirconium oxide grinding beads",
-          "id": "8d4041f8-54e8-4974-b220-26e8310fd9a8",
-          "node_id": "8131aba5-fa51-47f7-9b11-999681fd5554"
+          "id": "80243711-b109-4f85-b18d-08e5d9960699",
+          "node_id": "30c29af2-58b8-4a10-9d35-bbd70f7a3914"
         },
         {
           "key": "ratio",
           "value": "2:1",
-          "id": "d653dadb-8e49-4075-836f-b43d76bd4e70",
-          "node_id": "8131aba5-fa51-47f7-9b11-999681fd5554"
+          "id": "d0826cf4-2631-402c-90c0-149bee7216f3",
+          "node_id": "30c29af2-58b8-4a10-9d35-bbd70f7a3914"
         }
       ],
       "emits": [
         {
           "key": "reagent0",
           "value": "zebrafish",
-          "id": "1e0b9674-1e99-4736-8b10-adbad1fea598",
-          "node_id": "8131aba5-fa51-47f7-9b11-999681fd5554"
+          "id": "00f729a3-3149-48bf-9419-5f2761999599",
+          "node_id": "30c29af2-58b8-4a10-9d35-bbd70f7a3914"
         }
       ]
     },
     {
-      "id": "0f23d27d-3417-4488-9275-998af4db9471",
+      "id": "f98c91dc-f892-436f-8ecf-c9f67ab36178",
       "text": "Add 2 volumes of buffer for every mass of zebrafish \\(for example, with 100mg of fish use 200ml of buffer).  You may choose your buffer as appropriate for your downstream application.",
       "instruction": "ADD",
       "slots": [
         {
           "key": "reagent1",
           "value": "zebrafish",
-          "id": "7de07680-446b-4e95-a888-d8599fb26548",
-          "node_id": "0f23d27d-3417-4488-9275-998af4db9471"
+          "id": "2787b1f2-3245-47cc-8190-b6a706810f2f",
+          "node_id": "f98c91dc-f892-436f-8ecf-c9f67ab36178"
         },
         {
           "key": "reagent2",
           "value": "buffer",
-          "id": "a95225a4-df63-4287-96f1-0aafaab4c0e3",
-          "node_id": "0f23d27d-3417-4488-9275-998af4db9471"
+          "id": "292488db-3dbc-4469-a2b5-1d96e3e09d6c",
+          "node_id": "f98c91dc-f892-436f-8ecf-c9f67ab36178"
         },
         {
           "key": "ratio",
           "value": "2 volumes",
-          "id": "2e43a546-a5f5-43f2-a578-59f5c1afb274",
-          "node_id": "0f23d27d-3417-4488-9275-998af4db9471"
+          "id": "04accaa4-ea3e-4f98-8697-1f100d9c29e1",
+          "node_id": "f98c91dc-f892-436f-8ecf-c9f67ab36178"
         },
         {
           "key": "notice",
           "value": "You may choose your buffer as appropriate for your downstream application.",
-          "id": "af60640d-1391-4599-b11c-5bb5134d487c",
-          "node_id": "0f23d27d-3417-4488-9275-998af4db9471"
+          "id": "8ea8ce78-7673-4a1f-abd6-334ef3f6c29b",
+          "node_id": "f98c91dc-f892-436f-8ecf-c9f67ab36178"
         }
       ],
       "emits": [
         {
           "key": "reagent0",
           "value": "zebrafish",
-          "id": "d0cefe93-18b1-45c4-bb18-f41fa425470a",
-          "node_id": "0f23d27d-3417-4488-9275-998af4db9471"
+          "id": "47ecb8c6-0403-4a4c-8b15-3360725a406e",
+          "node_id": "f98c91dc-f892-436f-8ecf-c9f67ab36178"
         }
       ]
     },
     {
-      "id": "73b56374-8a03-4afc-b0a6-00f5d3a7dc8a",
+      "id": "74cf928d-1ca0-47bb-b2bd-d363c376fe12",
       "text": "Close the microcentrifuge tubes and place the tubes into the Bullet Blender<sup>TM</sup> \\(they do not need to be balanced).",
       "instruction": "CLOSE",
       "slots": [
         {
           "key": "reagent1",
           "value": "microcentrifuge tubes",
-          "id": "3be44ce5-e3e5-4650-b2f1-8d452bbbb98c",
-          "node_id": "73b56374-8a03-4afc-b0a6-00f5d3a7dc8a"
+          "id": "e42ac1ac-0103-42d8-b176-8fe1f36b3970",
+          "node_id": "74cf928d-1ca0-47bb-b2bd-d363c376fe12"
         },
         {
           "key": "device",
           "value": "Bullet Blender<sup>TM</sup>",
-          "id": "15ed688e-9bac-4f14-9838-21f7160faaf5",
-          "node_id": "73b56374-8a03-4afc-b0a6-00f5d3a7dc8a"
+          "id": "fb5d0ab2-4f01-4c41-a19a-e09885cbc19d",
+          "node_id": "74cf928d-1ca0-47bb-b2bd-d363c376fe12"
         }
       ],
       "emits": [
         {
           "key": "reagent0",
           "value": "microcentrifuge tubes",
-          "id": "8873443b-aa7f-4e1d-beb1-011e91d6caec",
-          "node_id": "73b56374-8a03-4afc-b0a6-00f5d3a7dc8a"
+          "id": "ad0b1a1a-56e5-457d-8872-6fd5a0d5aff5",
+          "node_id": "74cf928d-1ca0-47bb-b2bd-d363c376fe12"
         }
       ]
     },
     {
-      "id": "0763fb5e-e5a7-4503-ad61-6b7099ddf151",
+      "id": "2e5404e1-f004-40e4-a480-eef0c194b1b6",
       "text": "Close the microcentrifuge tubes and place the tubes into the Bullet Blender<sup>TM</sup> \\(they do not need to be balanced).",
       "instruction": "PLACE",
       "slots": [
         {
           "key": "reagent1",
           "value": "zebrafish",
-          "id": "8d4a96e6-0735-4bef-9ada-d62b91825403",
-          "node_id": "0763fb5e-e5a7-4503-ad61-6b7099ddf151"
+          "id": "aa775ade-1729-42cd-8c03-a5eb2e14e298",
+          "node_id": "2e5404e1-f004-40e4-a480-eef0c194b1b6"
         },
         {
           "key": "destination",
           "value": "Bullet Blender<sup>TM</sup>",
-          "id": "c2b20697-3ea9-47da-b6f5-b6445935bbf3",
-          "node_id": "0763fb5e-e5a7-4503-ad61-6b7099ddf151"
+          "id": "d3b15b18-e3ad-461b-b660-f26c01c7ed39",
+          "node_id": "2e5404e1-f004-40e4-a480-eef0c194b1b6"
         }
       ],
       "emits": [
         {
           "key": "reagent0",
           "value": "microcentrifuge tubes",
-          "id": "2cd49afc-c1e3-4355-8375-0bb394fd7e37",
-          "node_id": "0763fb5e-e5a7-4503-ad61-6b7099ddf151"
+          "id": "f5d98968-95b2-45f7-b5e9-9de0583304d5",
+          "node_id": "2e5404e1-f004-40e4-a480-eef0c194b1b6"
         }
       ]
     },
     {
-      "id": "07d4c507-09b9-42ec-8d5b-3374ac511e4b",
+      "id": "d3e298fa-c024-49db-8e3f-2da6ff74e29d",
       "text": "Set controls for SPEED 8 and TIME 3 minutes, then start the run.",
       "instruction": "SETUP",
       "slots": [
         {
           "key": "container",
           "value": "microcentrifuge tubes",
-          "id": "ec4ed13e-e2ee-4dac-93cc-2af84877f204",
-          "node_id": "07d4c507-09b9-42ec-8d5b-3374ac511e4b"
+          "id": "173e7aa7-364e-433c-a3e0-670ff1165e14",
+          "node_id": "d3e298fa-c024-49db-8e3f-2da6ff74e29d"
         }
       ],
       "emits": []
     },
     {
-      "id": "ede85f8f-47de-4616-807b-a78b2e7b325a",
+      "id": "fb3c038f-97ff-40a2-8ec3-d9e38534cbcd",
       "text": "Set controls for SPEED 8 and TIME 3 minutes, then start the run.",
       "instruction": "RUN",
       "slots": [
         {
           "key": "reagent1",
           "value": "zebrafish",
-          "id": "cdbca195-7687-40d9-86d1-65bd87626548",
-          "node_id": "ede85f8f-47de-4616-807b-a78b2e7b325a"
+          "id": "50c6a93d-ec88-40a3-9e40-58cbff48f3f2",
+          "node_id": "fb3c038f-97ff-40a2-8ec3-d9e38534cbcd"
         },
         {
           "key": "device",
           "value": "Bullet Blender<sup>TM</sup>",
-          "id": "c3a39b9c-eada-4fef-9a56-b9a68023df6a",
-          "node_id": "ede85f8f-47de-4616-807b-a78b2e7b325a"
+          "id": "e6e8865a-aa8f-404e-b3c9-c75245b4d461",
+          "node_id": "fb3c038f-97ff-40a2-8ec3-d9e38534cbcd"
         }
       ],
       "emits": [
         {
           "key": "reagent0",
           "value": "zebrafish",
-          "id": "4ca8d7f5-5a96-47c7-bade-1c70163d6eac",
-          "node_id": "ede85f8f-47de-4616-807b-a78b2e7b325a"
+          "id": "a2570cd4-db6b-4725-a3a5-6812e2548f28",
+          "node_id": "fb3c038f-97ff-40a2-8ec3-d9e38534cbcd"
         }
       ]
     },
     {
-      "id": "ff1c15db-a7a5-4175-ade7-d05425bcab4f",
+      "id": "0535e0ae-d774-4b98-af52-1ee25229fd46",
       "text": "Remove tubes and proceed with your downstream application.",
       "instruction": "REMOVE",
       "slots": [
         {
           "key": "reagent1",
           "value": "microcentrifuge tubes",
-          "id": "1f108eb8-98c3-47db-9dd8-1ac1b498b3e0",
-          "node_id": "ff1c15db-a7a5-4175-ade7-d05425bcab4f"
+          "id": "e1fa8e0b-097e-44d8-95d2-bbae3101ec99",
+          "node_id": "0535e0ae-d774-4b98-af52-1ee25229fd46"
         },
         {
           "key": "notice",
           "value": "Proceed with your downstream application.",
-          "id": "02810d75-9156-45fe-8979-1c3c88f618b4",
-          "node_id": "ff1c15db-a7a5-4175-ade7-d05425bcab4f"
+          "id": "92fbd7ae-ab2d-4e42-95eb-4ce8a27a0149",
+          "node_id": "0535e0ae-d774-4b98-af52-1ee25229fd46"
         }
       ],
       "emits": [
         {
           "key": "reagent0",
           "value": "microcentrifuge tubes",
-          "id": "66a8175c-9a61-4095-ab7d-c897f11314f2",
-          "node_id": "ff1c15db-a7a5-4175-ade7-d05425bcab4f"
+          "id": "fad5841c-522e-4043-afe2-8ceaa8a00b84",
+          "node_id": "0535e0ae-d774-4b98-af52-1ee25229fd46"
         }
       ]
     }

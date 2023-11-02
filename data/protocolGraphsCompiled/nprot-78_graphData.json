@@ -2,255 +2,255 @@
   "name": "nprot-78_graphData.json",
   "nodes": [
     {
-      "id": "aaa010d5-7b08-40a9-ae87-61a238855edd",
+      "id": "22f087ba-c78e-49ac-9bc8-d96f1ffc18ca",
       "text": "Step 1: Isolate Complement factor C3 by PEG precipitation from EDTA-treated human blood plasma and purify by DEAE and blue sepharose affinity chromatography \\(Smith, S.A., _et al._, Biochim Biophys Acta,",
       "instruction": "ISOLATE",
       "slots": [
         {
           "key": "component",
           "value": "Complement factor C3",
-          "id": "0b07f0fb-abf4-4d6b-b740-e11bca40659f",
-          "node_id": "aaa010d5-7b08-40a9-ae87-61a238855edd"
+          "id": "7b3b0a34-053e-49d4-80b1-67d58e0cce5f",
+          "node_id": "22f087ba-c78e-49ac-9bc8-d96f1ffc18ca"
         },
         {
           "key": "reagent1",
           "value": "EDTA-treated human blood plasma",
-          "id": "029aa824-9eaa-4965-9354-0fee9a6742af",
-          "node_id": "aaa010d5-7b08-40a9-ae87-61a238855edd"
+          "id": "0f8b64b6-a9af-4078-965a-578f4fb45cc6",
+          "node_id": "22f087ba-c78e-49ac-9bc8-d96f1ffc18ca"
         },
         {
           "key": "method",
           "value": "PEG precipitation",
-          "id": "fbc68935-5e46-43ce-8592-1db86554c533",
-          "node_id": "aaa010d5-7b08-40a9-ae87-61a238855edd"
+          "id": "e30fb296-14d1-416d-b585-0dac66a75a1c",
+          "node_id": "22f087ba-c78e-49ac-9bc8-d96f1ffc18ca"
         }
       ],
       "emits": [
         {
           "key": "reagent0",
           "value": "Complement factor C3",
-          "id": "d8b37c3d-1ec8-412a-b40f-2c765171d7a4",
-          "node_id": "aaa010d5-7b08-40a9-ae87-61a238855edd"
+          "id": "a43b3908-0d02-4683-bc5c-88a4905d68c5",
+          "node_id": "22f087ba-c78e-49ac-9bc8-d96f1ffc18ca"
         }
       ]
     },
     {
-      "id": "613256d4-3b03-4ff0-9638-8b253a50b3cb",
+      "id": "669e41da-c965-4cc1-b722-fcdd59c82fe9",
       "text": "Step 1: Isolate Complement factor C3 by PEG precipitation from EDTA-treated human blood plasma and purify by DEAE and blue sepharose affinity chromatography \\(Smith, S.A., _et al._, Biochim Biophys Acta,",
       "instruction": "PURIFY",
       "slots": [
         {
           "key": "reagent1",
           "value": "Complement factor C3",
-          "id": "ebb71be9-bf1a-4b51-8afb-7d4c56c8cea3",
-          "node_id": "613256d4-3b03-4ff0-9638-8b253a50b3cb"
+          "id": "c1b394c3-7796-40a6-ba48-c26d9095c458",
+          "node_id": "669e41da-c965-4cc1-b722-fcdd59c82fe9"
         },
         {
           "key": "method",
           "value": "DEAE and blue sepharose affinity chromatography",
-          "id": "0eb060dc-1d20-48cf-b1b8-7219fec2953f",
-          "node_id": "613256d4-3b03-4ff0-9638-8b253a50b3cb"
+          "id": "f82d6b08-d81d-406d-8e5d-0c569e317215",
+          "node_id": "669e41da-c965-4cc1-b722-fcdd59c82fe9"
         }
       ],
       "emits": [
         {
           "key": "reagent0",
           "value": "Complement factor C3",
-          "id": "f11e6ab2-1bb5-4e12-8efc-6cdfb1a4ea3c",
-          "node_id": "613256d4-3b03-4ff0-9638-8b253a50b3cb"
+          "id": "70af055d-9846-42aa-8803-964cce509a49",
+          "node_id": "669e41da-c965-4cc1-b722-fcdd59c82fe9"
         }
       ]
     },
     {
-      "id": "05d52302-0410-46e6-9f06-8c00066904b1",
+      "id": "cd735452-b277-4460-a504-843620f946f5",
       "text": "Step 2: Prepare purified C3b by performing limited trypsin digestion of C3 with sequencing grade trypsin \\(Roche). Perform the cleavage in the presence of N-Acetlyl-L-Threonine \\(AcT) to provide a nucleophile for covalent attachment of the side chain carbonyl of Gln991.  Activate the internal thioester \\(Law, A.S.K. &amp; Dodds, A.W. Protein Science,",
       "instruction": "PREPARE",
       "slots": [
         {
           "key": "reagent1",
           "value": "C3",
-          "id": "66faa474-e395-45ba-bd6c-58313145a1a5",
-          "node_id": "05d52302-0410-46e6-9f06-8c00066904b1"
+          "id": "af60f783-764b-4b44-9ab7-3767b20ae630",
+          "node_id": "cd735452-b277-4460-a504-843620f946f5"
         },
         {
           "key": "method",
           "value": "limited trypsin digestion",
-          "id": "8131c4f5-fc0b-4179-a6eb-e9f4f16ccede",
-          "node_id": "05d52302-0410-46e6-9f06-8c00066904b1"
+          "id": "a3326929-84bd-4f5b-a002-e91a28a478b7",
+          "node_id": "cd735452-b277-4460-a504-843620f946f5"
         }
       ],
       "emits": [
         {
           "key": "reagent0",
           "value": "C3b",
-          "id": "da44a194-97ed-4784-9b66-229891089284",
-          "node_id": "05d52302-0410-46e6-9f06-8c00066904b1"
+          "id": "2e5d1355-5f57-4fbb-8084-e9c7c2998c5d",
+          "node_id": "cd735452-b277-4460-a504-843620f946f5"
         }
       ]
     },
     {
-      "id": "3899c5d9-4b99-4bfc-a6d2-b24e68288738",
+      "id": "b941ba0c-5a59-413f-b1a3-952619f9153f",
       "text": "Step 2: Prepare purified C3b by performing limited trypsin digestion of C3 with sequencing grade trypsin \\(Roche). Perform the cleavage in the presence of N-Acetlyl-L-Threonine \\(AcT) to provide a nucleophile for covalent attachment of the side chain carbonyl of Gln991.  Activate the internal thioester \\(Law, A.S.K. &amp; Dodds, A.W. Protein Science,",
       "instruction": "PERFORM",
       "slots": [
         {
           "key": "procedure",
           "value": "Perform the cleavage in the presence of N-Acetlyl-L-Threonine (AcT) to provide a nucleophile for covalent attachment of the side chain carbonyl of Gln991.",
-          "id": "f0d08553-8575-4d5f-90d8-705e5eb44d2f",
-          "node_id": "3899c5d9-4b99-4bfc-a6d2-b24e68288738"
+          "id": "8a622fa6-cdc5-40ee-ba96-45307abf837d",
+          "node_id": "b941ba0c-5a59-413f-b1a3-952619f9153f"
         }
       ],
       "emits": [
         {
           "key": "reagent0",
           "value": "C3b",
-          "id": "370f488f-caaa-4234-a094-95771a523eb5",
-          "node_id": "3899c5d9-4b99-4bfc-a6d2-b24e68288738"
+          "id": "70335883-aac6-459d-b888-568e5dc006c6",
+          "node_id": "b941ba0c-5a59-413f-b1a3-952619f9153f"
         }
       ]
     },
     {
-      "id": "fb83c1ee-6782-4382-87f3-e370206e82d3",
+      "id": "f91f63f3-2df9-415b-8196-37454ff31992",
       "text": ", 263-274, 1997) with 5% trypsin \\(w/w) for 2 min at 37&#xB0;C, before adding 5% \\(w/w) soybean trypsin inhibitor \\(SBTI) \\(Sigma) to stop the reaction.\r\n\n\n \r\n\n\nStep 3: Remove trypsin and SBTI by perfusion chromatography using a BioCAD 20HQ column. \r\n\n\n \r\n\n\nStep 4: Visualize C3 and C3b by SDS-PAGE \\(4&#x2013;12% gel) with Coomassie blue staining.  \r\n\n\n \r\n\n\nStep 5: Confirm esterification via mass spectroscopic analysis on tryptic digests of modified C3b. \r\n\n\n \r\n\n\nStep 6: Store modified protein at a concentration of 7.7 mg/ml in 20mM TRIS, pH 7.5 and a protein inhibitor cocktail \\(1M KH2PO4, 0.2 M EDTA, 0.2 M Benzamidine-HCl and 1mM PmSF).",
       "instruction": "REMOVE",
       "slots": [
         {
           "key": "reagent1",
           "value": "trypsin and SBTI",
-          "id": "6c9cdda0-792e-4517-86db-94ea06240e86",
-          "node_id": "fb83c1ee-6782-4382-87f3-e370206e82d3"
+          "id": "91954dbc-068f-4287-bc08-daa5e8a1212b",
+          "node_id": "f91f63f3-2df9-415b-8196-37454ff31992"
         },
         {
           "key": "method",
           "value": "perfusion chromatography",
-          "id": "94b9eb4b-5c0d-45db-adf6-d660a1bb15d1",
-          "node_id": "fb83c1ee-6782-4382-87f3-e370206e82d3"
+          "id": "88b99f5d-9785-4295-9d5b-79b7a5a10090",
+          "node_id": "f91f63f3-2df9-415b-8196-37454ff31992"
         },
         {
           "key": "device",
           "value": "BioCAD 20HQ column",
-          "id": "4ef0e11b-fbc4-4668-8b6e-ce845ea6a340",
-          "node_id": "fb83c1ee-6782-4382-87f3-e370206e82d3"
+          "id": "9d5045a6-f471-40df-bc03-6fe83842a29d",
+          "node_id": "f91f63f3-2df9-415b-8196-37454ff31992"
         }
       ],
       "emits": []
     },
     {
-      "id": "a43440f0-84a7-4606-b4e9-e5f3cdb8303d",
+      "id": "0dab5140-e483-4244-a358-bf0d16731e91",
       "text": ", 263-274, 1997) with 5% trypsin \\(w/w) for 2 min at 37&#xB0;C, before adding 5% \\(w/w) soybean trypsin inhibitor \\(SBTI) \\(Sigma) to stop the reaction.\r\n\n\n \r\n\n\nStep 3: Remove trypsin and SBTI by perfusion chromatography using a BioCAD 20HQ column. \r\n\n\n \r\n\n\nStep 4: Visualize C3 and C3b by SDS-PAGE \\(4&#x2013;12% gel) with Coomassie blue staining.  \r\n\n\n \r\n\n\nStep 5: Confirm esterification via mass spectroscopic analysis on tryptic digests of modified C3b. \r\n\n\n \r\n\n\nStep 6: Store modified protein at a concentration of 7.7 mg/ml in 20mM TRIS, pH 7.5 and a protein inhibitor cocktail \\(1M KH2PO4, 0.2 M EDTA, 0.2 M Benzamidine-HCl and 1mM PmSF).",
       "instruction": "CONFIRM",
       "slots": [
         {
           "key": "reagent1/data1/device",
           "value": "tryptic digests of modified C3b",
-          "id": "a64edba9-79ec-424c-a30d-b18cadc3ff60",
-          "node_id": "a43440f0-84a7-4606-b4e9-e5f3cdb8303d"
+          "id": "2cb1bc05-33eb-4c05-ae6f-96c043507a6e",
+          "node_id": "0dab5140-e483-4244-a358-bf0d16731e91"
         },
         {
           "key": "state",
           "value": "esterification",
-          "id": "d769bd07-1bce-4308-b9bc-fabc862c836f",
-          "node_id": "a43440f0-84a7-4606-b4e9-e5f3cdb8303d"
+          "id": "6be96f15-5225-4b95-8cc8-7d4e978c0fdc",
+          "node_id": "0dab5140-e483-4244-a358-bf0d16731e91"
         }
       ],
       "emits": []
     },
     {
-      "id": "f38a4814-bdd4-4ddf-96b1-b8470dfdbdd4",
+      "id": "ba57fe7c-7788-44a1-bc0f-fee174b8a691",
       "text": ", 263-274, 1997) with 5% trypsin \\(w/w) for 2 min at 37&#xB0;C, before adding 5% \\(w/w) soybean trypsin inhibitor \\(SBTI) \\(Sigma) to stop the reaction.\r\n\n\n \r\n\n\nStep 3: Remove trypsin and SBTI by perfusion chromatography using a BioCAD 20HQ column. \r\n\n\n \r\n\n\nStep 4: Visualize C3 and C3b by SDS-PAGE \\(4&#x2013;12% gel) with Coomassie blue staining.  \r\n\n\n \r\n\n\nStep 5: Confirm esterification via mass spectroscopic analysis on tryptic digests of modified C3b. \r\n\n\n \r\n\n\nStep 6: Store modified protein at a concentration of 7.7 mg/ml in 20mM TRIS, pH 7.5 and a protein inhibitor cocktail \\(1M KH2PO4, 0.2 M EDTA, 0.2 M Benzamidine-HCl and 1mM PmSF).",
       "instruction": "STORE",
       "slots": [
         {
           "key": "reagent1",
           "value": "modified protein",
-          "id": "6eab77d6-ff85-4e79-a7fb-94ee8f9d5dfd",
-          "node_id": "f38a4814-bdd4-4ddf-96b1-b8470dfdbdd4"
+          "id": "0512df9d-97a7-443b-a4da-a47d72f9fcbc",
+          "node_id": "ba57fe7c-7788-44a1-bc0f-fee174b8a691"
         },
         {
           "key": "temperature",
           "value": "room temperature",
-          "id": "ff14e757-96b5-422f-9ede-b65beb5863c8",
-          "node_id": "f38a4814-bdd4-4ddf-96b1-b8470dfdbdd4"
+          "id": "e87bcc65-43a1-4008-88d9-285dbea54282",
+          "node_id": "ba57fe7c-7788-44a1-bc0f-fee174b8a691"
         }
       ],
       "emits": [
         {
           "key": "reagent0",
           "value": "modified protein",
-          "id": "3f7532fc-5934-4335-ad08-13e5513d0d87",
-          "node_id": "f38a4814-bdd4-4ddf-96b1-b8470dfdbdd4"
+          "id": "66fce712-d6bb-4db6-bcb1-584fad16a4a9",
+          "node_id": "ba57fe7c-7788-44a1-bc0f-fee174b8a691"
         }
       ]
     },
     {
-      "id": "35bb9904-6f4a-4488-8db8-c2be8a3ed6f2",
+      "id": "85373441-e8e7-4b34-91b4-6c57e3f9e4eb",
       "text": "Step 7: Obtain crystals through vapor diffusion from 2 &#x3BC;l of the protein solution mixed with an equal volume of well solution.  Wells should contain 200 mM TRIS, pH 7.5, 100 mM NaCl, 20 mM LiCl and 15% PEG6000.",
       "instruction": "OBTAIN",
       "slots": [
         {
           "key": "reagent1",
           "value": "protein solution",
-          "id": "5bcdd16a-6ecb-4d6a-b6e1-1527d736a848",
-          "node_id": "35bb9904-6f4a-4488-8db8-c2be8a3ed6f2"
+          "id": "15b888bf-a65b-4ac3-81b0-26070a96a2f0",
+          "node_id": "85373441-e8e7-4b34-91b4-6c57e3f9e4eb"
         },
         {
           "key": "container",
           "value": "well solution",
-          "id": "2e3dc969-6ac4-472a-9caf-26d5e46ae00b",
-          "node_id": "35bb9904-6f4a-4488-8db8-c2be8a3ed6f2"
+          "id": "54968841-712a-4687-82f7-e82f19579527",
+          "node_id": "85373441-e8e7-4b34-91b4-6c57e3f9e4eb"
         },
         {
           "key": "method",
           "value": "vapor diffusion",
-          "id": "e0e10679-3b24-4b1b-a632-0f135dc9f8bb",
-          "node_id": "35bb9904-6f4a-4488-8db8-c2be8a3ed6f2"
+          "id": "db01d26b-7217-4360-8165-6628091c088d",
+          "node_id": "85373441-e8e7-4b34-91b4-6c57e3f9e4eb"
         }
       ],
       "emits": [
         {
           "key": "reagent0",
           "value": "crystals",
-          "id": "07836a12-8455-4ebe-8e29-c31ac10cceec",
-          "node_id": "35bb9904-6f4a-4488-8db8-c2be8a3ed6f2"
+          "id": "24519513-5b8a-41e6-8590-eaa1db7b5a35",
+          "node_id": "85373441-e8e7-4b34-91b4-6c57e3f9e4eb"
         }
       ]
     },
     {
-      "id": "18bd9e92-9afb-433c-96ae-a338807697cd",
+      "id": "b974b357-4480-4ff4-a7d7-a3181d4964af",
       "text": "Step 7: Obtain crystals through vapor diffusion from 2 &#x3BC;l of the protein solution mixed with an equal volume of well solution.  Wells should contain 200 mM TRIS, pH 7.5, 100 mM NaCl, 20 mM LiCl and 15% PEG6000.",
       "instruction": "MIX",
       "slots": [
         {
           "key": "reagent1",
           "value": "protein solution",
-          "id": "620ebe80-44db-450b-a8a7-23e5e59c4338",
-          "node_id": "18bd9e92-9afb-433c-96ae-a338807697cd"
+          "id": "bd165f7b-2412-40a4-9073-0587abb5f1ad",
+          "node_id": "b974b357-4480-4ff4-a7d7-a3181d4964af"
         },
         {
           "key": "reagent2",
           "value": "well solution",
-          "id": "587dac3d-950f-4851-805b-f275aab85320",
-          "node_id": "18bd9e92-9afb-433c-96ae-a338807697cd"
+          "id": "b39ebc37-57e8-4755-b651-8cde0d92655e",
+          "node_id": "b974b357-4480-4ff4-a7d7-a3181d4964af"
         },
         {
           "key": "ratio",
           "value": "1:1",
-          "id": "402e56f5-3b5b-4b09-8a5e-3c9691a497b8",
-          "node_id": "18bd9e92-9afb-433c-96ae-a338807697cd"
+          "id": "09d64346-9443-4a79-8c21-001fbe27320d",
+          "node_id": "b974b357-4480-4ff4-a7d7-a3181d4964af"
         },
         {
           "key": "method",
           "value": "vapor diffusion",
-          "id": "229a6307-8a46-45f4-b00a-11d9a35cf8a5",
-          "node_id": "18bd9e92-9afb-433c-96ae-a338807697cd"
+          "id": "4a0089ea-9359-47ce-9eb7-64474d341cee",
+          "node_id": "b974b357-4480-4ff4-a7d7-a3181d4964af"
         }
       ],
       "emits": [
         {
           "key": "reagent0",
           "value": "crystals",
-          "id": "cb409640-f693-4d75-9043-473a100a4a1b",
-          "node_id": "18bd9e92-9afb-433c-96ae-a338807697cd"
+          "id": "bbd99001-4f25-4c87-90c0-8afa1817b87c",
+          "node_id": "b974b357-4480-4ff4-a7d7-a3181d4964af"
         }
       ]
     }

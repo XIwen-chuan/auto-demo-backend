@@ -2,148 +2,148 @@
   "name": "nprot-51_graphData.json",
   "nodes": [
     {
-      "id": "6f8ee2a0-2bd9-435e-a5c0-ea587e4e0c48",
+      "id": "212c7e75-dbc8-43e3-afa3-bb0b1e407da1",
       "text": "Perform immunohistochemistry for chemokine receptors CXCR1, CXCR3 and CXCR4 on first trimester human placental paraffin-embedded sections as previously described \\[1], with microwave antigen retrieval using sodium citrate buffer \\(Zymed Laboratory Inc, San- Francisco, CA, USA).",
       "instruction": "PERFORM",
       "slots": [
         {
           "key": "procedure",
           "value": "immunohistochemistry for chemokine receptors CXCR1, CXCR3 and CXCR4 on first trimester human placental paraffin-embedded sections",
-          "id": "0592e7c1-56a9-4e6c-be01-4a1196028ec5",
-          "node_id": "6f8ee2a0-2bd9-435e-a5c0-ea587e4e0c48"
+          "id": "407dac20-eae4-4881-aae2-2fd26026f785",
+          "node_id": "212c7e75-dbc8-43e3-afa3-bb0b1e407da1"
         },
         {
           "key": "equipment",
           "value": "microwave",
-          "id": "6627c222-2686-4b92-905c-7c0acafc626b",
-          "node_id": "6f8ee2a0-2bd9-435e-a5c0-ea587e4e0c48"
+          "id": "c7ee5e43-7e0c-44a2-bf60-7821d75a0fed",
+          "node_id": "212c7e75-dbc8-43e3-afa3-bb0b1e407da1"
         }
       ],
       "emits": []
     },
     {
-      "id": "b6ea9754-2e24-4602-96c0-e03bbbcbd9ac",
+      "id": "bad598b9-1fb6-42e3-8b62-bc85a2da427e",
       "text": "Stain with the same concentration of isotype match controls for each chemokine receptor on the same serial sections as controls.",
       "instruction": "STAIN",
       "slots": [
         {
           "key": "reagent1",
           "value": "isotype match controls",
-          "id": "2c1a15a4-0437-41ba-81c6-f89d80dfb647",
-          "node_id": "b6ea9754-2e24-4602-96c0-e03bbbcbd9ac"
+          "id": "1210a356-5d3d-423c-887e-94af0a56ac35",
+          "node_id": "bad598b9-1fb6-42e3-8b62-bc85a2da427e"
         },
         {
           "key": "temperature",
           "value": "room temperature",
-          "id": "e41ae61e-a74e-4f14-8c7f-2e27bd4919c8",
-          "node_id": "b6ea9754-2e24-4602-96c0-e03bbbcbd9ac"
+          "id": "64e9a734-454d-4f30-af57-38830464178f",
+          "node_id": "bad598b9-1fb6-42e3-8b62-bc85a2da427e"
         },
         {
           "key": "notice",
           "value": "on the same serial sections as controls",
-          "id": "d53f7886-bdea-46c0-8c05-2b12307cd6f4",
-          "node_id": "b6ea9754-2e24-4602-96c0-e03bbbcbd9ac"
+          "id": "1fab70c2-47a1-4988-a6cf-6ecb18774547",
+          "node_id": "bad598b9-1fb6-42e3-8b62-bc85a2da427e"
         }
       ],
       "emits": [
         {
           "key": "reagent0",
           "value": "isotype match controls",
-          "id": "5afb77da-3a6c-4dd0-a260-7f83cb88d724",
-          "node_id": "b6ea9754-2e24-4602-96c0-e03bbbcbd9ac"
+          "id": "acc2696d-385e-4cd0-b963-ff4eb4719f0b",
+          "node_id": "bad598b9-1fb6-42e3-8b62-bc85a2da427e"
         }
       ]
     },
     {
-      "id": "01285d2f-e5fc-4e7b-9627-942b75573d49",
+      "id": "6a8a3e13-1687-4fb6-b09b-9d4b3fa9b6ca",
       "text": "Perform immunohistochemistry on decidual sections with NCR-Fc fusion proteins \\(prepared as previously described",
       "instruction": "PERFORM",
       "slots": [
         {
           "key": "procedure",
           "value": "Perform immunohistochemistry on decidual sections with NCR-Fc fusion proteins (prepared as previously described)",
-          "id": "58c36d7e-4956-40b8-a591-2f1a46dc9972",
-          "node_id": "01285d2f-e5fc-4e7b-9627-942b75573d49"
+          "id": "ea340545-dccb-42e0-9d78-8157ff4e5c25",
+          "node_id": "6a8a3e13-1687-4fb6-b09b-9d4b3fa9b6ca"
         }
       ],
       "emits": [
         {
           "key": "reagent0",
           "value": "NCR-Fc fusion proteins",
-          "id": "db58f19e-5bb7-434a-a246-8ec0e9724d59",
-          "node_id": "01285d2f-e5fc-4e7b-9627-942b75573d49"
+          "id": "f1ea4020-e543-4007-afb5-dc2e263922f2",
+          "node_id": "6a8a3e13-1687-4fb6-b09b-9d4b3fa9b6ca"
         }
       ]
     },
     {
-      "id": "474607e7-d6c7-4c65-9118-ecfef3c140c9",
+      "id": "b2003e28-6e0a-486b-9594-01cab48293ad",
       "text": "by microwave heating the formalin-fixed, paraffin embedded tissue sections in citrate buffer in order to retrieve antigens.",
       "instruction": "HEAT",
       "slots": [
         {
           "key": "reagent1",
           "value": "formalin-fixed, paraffin embedded tissue sections",
-          "id": "e5264a47-1aee-4ed5-bc68-abd93640321e",
-          "node_id": "474607e7-d6c7-4c65-9118-ecfef3c140c9"
+          "id": "47ee4ae8-45c1-4192-9257-df40b2dddd97",
+          "node_id": "b2003e28-6e0a-486b-9594-01cab48293ad"
         },
         {
           "key": "temperature",
           "value": "citrate buffer",
-          "id": "94c56e9e-6c5c-48bb-b89e-de6471530379",
-          "node_id": "474607e7-d6c7-4c65-9118-ecfef3c140c9"
+          "id": "cdf9488b-a1da-49c7-a5b3-841a00fa97e0",
+          "node_id": "b2003e28-6e0a-486b-9594-01cab48293ad"
         },
         {
           "key": "device",
           "value": "microwave",
-          "id": "9352ee66-d82a-49b2-b735-1f6bb82a00d6",
-          "node_id": "474607e7-d6c7-4c65-9118-ecfef3c140c9"
+          "id": "9a0b94a1-da6c-450c-982f-b131a51378f5",
+          "node_id": "b2003e28-6e0a-486b-9594-01cab48293ad"
         },
         {
           "key": "notice",
           "value": "in order to retrieve antigens",
-          "id": "79d7ec5a-ef64-4404-b43c-5c08c7fae4b2",
-          "node_id": "474607e7-d6c7-4c65-9118-ecfef3c140c9"
+          "id": "8aa31b1a-1890-4e91-af55-e95482466519",
+          "node_id": "b2003e28-6e0a-486b-9594-01cab48293ad"
         }
       ],
       "emits": [
         {
           "key": "reagent0",
           "value": "formalin-fixed, paraffin embedded tissue sections",
-          "id": "8c9bc409-89fa-487e-a713-26a0942e2bb8",
-          "node_id": "474607e7-d6c7-4c65-9118-ecfef3c140c9"
+          "id": "afcb3c7a-694f-49e4-b728-a2d58f18a722",
+          "node_id": "b2003e28-6e0a-486b-9594-01cab48293ad"
         }
       ]
     },
     {
-      "id": "aa2eeb7a-8d03-44ee-a3ae-705715086be9",
+      "id": "32119a24-a26a-46d3-b150-b57643f165cc",
       "text": "Then stain sections with the different NCR-Fc fusion proteins or control-Fc \\(8 &#xB5;g/ml, final concentration) followed by biotinylated-goat-anti-human-Fc \\(Jackson ImmunoResearch, West Grove, PA).",
       "instruction": "STAIN",
       "slots": [
         {
           "key": "reagent1",
           "value": "NCR-Fc fusion proteins or control-Fc",
-          "id": "7f00d0b4-7eb9-45ba-b7fc-2301b3b525e9",
-          "node_id": "aa2eeb7a-8d03-44ee-a3ae-705715086be9"
+          "id": "b54dbdba-6c8e-4296-8e1d-ce43e05f446f",
+          "node_id": "32119a24-a26a-46d3-b150-b57643f165cc"
         },
         {
           "key": "reagent2",
           "value": "biotinylated-goat-anti-human-Fc",
-          "id": "b569bbdf-bf68-4ef0-b705-5bd253bb91db",
-          "node_id": "aa2eeb7a-8d03-44ee-a3ae-705715086be9"
+          "id": "aa901e84-ee73-45e8-80b6-4b1ea5ef737e",
+          "node_id": "32119a24-a26a-46d3-b150-b57643f165cc"
         },
         {
           "key": "temperature",
           "value": "room temperature",
-          "id": "ea06833f-3e19-488b-8058-1591cec63519",
-          "node_id": "aa2eeb7a-8d03-44ee-a3ae-705715086be9"
+          "id": "9bcfa0d4-8a54-42b6-973a-fcdf71630f15",
+          "node_id": "32119a24-a26a-46d3-b150-b57643f165cc"
         }
       ],
       "emits": [
         {
           "key": "reagent0",
           "value": "NCR-Fc fusion proteins or control-Fc",
-          "id": "d0d7cec3-7761-4341-9405-279c7ef558b5",
-          "node_id": "aa2eeb7a-8d03-44ee-a3ae-705715086be9"
+          "id": "61286d8a-451e-4060-95ea-c742af26ce06",
+          "node_id": "32119a24-a26a-46d3-b150-b57643f165cc"
         }
       ]
     }

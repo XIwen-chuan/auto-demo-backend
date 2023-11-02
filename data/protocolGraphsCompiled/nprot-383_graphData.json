@@ -2,510 +2,510 @@
   "name": "nprot-383_graphData.json",
   "nodes": [
     {
-      "id": "0c9a4a46-76fb-4f0a-a882-fca442070220",
+      "id": "30641069-3d06-42bf-9ee7-b4629fa435e0",
       "text": "Remove media from plastic tissue culture dish and rapidly pour on glutaraldehyde fixative.",
       "instruction": "REMOVE",
       "slots": [
         {
           "key": "reagent1",
           "value": "media",
-          "id": "6510b99c-aa66-4fb1-93ce-8d9a9100442a",
-          "node_id": "0c9a4a46-76fb-4f0a-a882-fca442070220"
+          "id": "a7c73405-f761-4be2-8217-a1d787a8d701",
+          "node_id": "30641069-3d06-42bf-9ee7-b4629fa435e0"
         },
         {
           "key": "method",
           "value": "pour",
-          "id": "48730d75-9303-43aa-8d6f-fcdbf6d1c5b0",
-          "node_id": "0c9a4a46-76fb-4f0a-a882-fca442070220"
+          "id": "edd30acd-4ef4-40e1-87fa-10f168056f88",
+          "node_id": "30641069-3d06-42bf-9ee7-b4629fa435e0"
         }
       ],
       "emits": [
         {
           "key": "reagent0",
           "value": "glutaraldehyde fixative",
-          "id": "5e389b26-ffc8-4090-addd-38b19ec07477",
-          "node_id": "0c9a4a46-76fb-4f0a-a882-fca442070220"
+          "id": "1a22d1f0-8175-4fe3-9db3-5f7d517b38e7",
+          "node_id": "30641069-3d06-42bf-9ee7-b4629fa435e0"
         }
       ]
     },
     {
-      "id": "195b7647-b1ec-4514-b159-29418544e04e",
+      "id": "bb7fbd3f-86b7-4438-aed0-b37908d7e6d5",
       "text": "Remove media from plastic tissue culture dish and rapidly pour on glutaraldehyde fixative.",
       "instruction": "POUR",
       "slots": [
         {
           "key": "destination",
           "value": "plastic tissue culture dish",
-          "id": "85415ffd-e309-48dc-8cb5-346756655324",
-          "node_id": "195b7647-b1ec-4514-b159-29418544e04e"
+          "id": "bbc94fd2-d289-4007-9d5d-1b86b438b65a",
+          "node_id": "bb7fbd3f-86b7-4438-aed0-b37908d7e6d5"
         },
         {
           "key": "reagent1",
           "value": "glutaraldehyde fixative",
-          "id": "e8d73946-bbfe-4418-aeb1-5de4cdfa0349",
-          "node_id": "195b7647-b1ec-4514-b159-29418544e04e"
+          "id": "30a662de-8654-4e7d-8342-3f17fd5a3ab9",
+          "node_id": "bb7fbd3f-86b7-4438-aed0-b37908d7e6d5"
         }
       ],
       "emits": [
         {
           "key": "reagent0",
           "value": "glutaraldehyde fixative",
-          "id": "29c0647e-d8fa-488c-ac31-6dd722fefc2a",
-          "node_id": "195b7647-b1ec-4514-b159-29418544e04e"
+          "id": "cc6b37b4-b625-4fe6-82c9-c94f112edc06",
+          "node_id": "bb7fbd3f-86b7-4438-aed0-b37908d7e6d5"
         }
       ]
     },
     {
-      "id": "8c11deda-69eb-47c9-89a0-a231286a23d1",
+      "id": "3a70f518-fa96-428e-9e53-943e574285e8",
       "text": "Leave 15 minutes.",
       "instruction": "LEAVE",
       "slots": [
         {
           "key": "reagent1",
           "value": "glutaraldehyde fixative",
-          "id": "5bd42842-9337-4db6-9792-327f94f0a7f0",
-          "node_id": "8c11deda-69eb-47c9-89a0-a231286a23d1"
+          "id": "7f089e5a-ce64-4175-9f72-9958991cb817",
+          "node_id": "3a70f518-fa96-428e-9e53-943e574285e8"
         },
         {
           "key": "temperature",
           "value": "room temperature",
-          "id": "865d7cc0-833e-4761-9035-5c2e15a2b994",
-          "node_id": "8c11deda-69eb-47c9-89a0-a231286a23d1"
+          "id": "b5a91e2b-b2d4-49b4-9187-1f8f8c72f238",
+          "node_id": "3a70f518-fa96-428e-9e53-943e574285e8"
         },
         {
           "key": "time",
           "value": "15 minutes",
-          "id": "dc9f7765-06c5-44aa-87e7-93b9a6672258",
-          "node_id": "8c11deda-69eb-47c9-89a0-a231286a23d1"
+          "id": "7e7549ae-e7d3-455a-ba62-51539602c149",
+          "node_id": "3a70f518-fa96-428e-9e53-943e574285e8"
         }
       ],
       "emits": [
         {
           "key": "reagent0",
           "value": "glutaraldehyde fixative",
-          "id": "b829857a-bc12-452d-b641-1b04bc21c8a9",
-          "node_id": "8c11deda-69eb-47c9-89a0-a231286a23d1"
+          "id": "efeb5017-d26b-4e75-af60-0ccb28a24328",
+          "node_id": "3a70f518-fa96-428e-9e53-943e574285e8"
         }
       ]
     },
     {
-      "id": "d3ee0b19-7b6d-47af-8cf0-fb0c772c826f",
+      "id": "ce20de51-24b7-4164-88c9-d164f081aabe",
       "text": "Rinse with buffer or PBS three times over 5 minutes.",
       "instruction": "RINSE",
       "slots": [
         {
           "key": "reagent1",
           "value": "buffer or PBS",
-          "id": "285005ea-e2ed-4031-9795-cc09a9c79c4b",
-          "node_id": "d3ee0b19-7b6d-47af-8cf0-fb0c772c826f"
+          "id": "2570c32d-ab6a-443d-8577-5d3d26e3931e",
+          "node_id": "ce20de51-24b7-4164-88c9-d164f081aabe"
         },
         {
           "key": "reagent2",
           "value": "buffer or PBS",
-          "id": "4c4c41d4-28b2-4a44-bef4-3b197b78a0f5",
-          "node_id": "d3ee0b19-7b6d-47af-8cf0-fb0c772c826f"
+          "id": "4cdc19e3-e1fb-41c0-a82f-f4cb1d412c4a",
+          "node_id": "ce20de51-24b7-4164-88c9-d164f081aabe"
         },
         {
           "key": "repeat",
           "value": "3",
-          "id": "91162f7d-7703-43fb-8a65-db2e482d8206",
-          "node_id": "d3ee0b19-7b6d-47af-8cf0-fb0c772c826f"
+          "id": "4762f78f-218d-452b-ad67-69185f46a8ca",
+          "node_id": "ce20de51-24b7-4164-88c9-d164f081aabe"
         },
         {
           "key": "time",
           "value": "5 minutes",
-          "id": "090b5d21-5929-46e7-b4fa-27a8342cbab4",
-          "node_id": "d3ee0b19-7b6d-47af-8cf0-fb0c772c826f"
+          "id": "63583e0a-4d78-4adb-878f-14b970b7ce0e",
+          "node_id": "ce20de51-24b7-4164-88c9-d164f081aabe"
         }
       ],
       "emits": [
         {
           "key": "reagent0",
           "value": "<blank>",
-          "id": "d9d5dd77-ccc0-4b6f-bb9a-c1ed9bb59f69",
-          "node_id": "d3ee0b19-7b6d-47af-8cf0-fb0c772c826f"
+          "id": "7d21e9ca-0241-484b-b617-d1f15fa0dd42",
+          "node_id": "ce20de51-24b7-4164-88c9-d164f081aabe"
         }
       ]
     },
     {
-      "id": "5efb71b4-1800-4e17-9016-55163a1fdc22",
+      "id": "03c348a0-3184-4fac-ae31-64b4173c88bd",
       "text": "Fix in OsO<sub>4</sub>, 15-30 minutes.",
       "instruction": "FIX",
       "slots": [
         {
           "key": "reagent1",
           "value": "OsO4",
-          "id": "c6c23275-4634-43d4-b27e-cf77f56c40ae",
-          "node_id": "5efb71b4-1800-4e17-9016-55163a1fdc22"
+          "id": "ff9d25ca-e6d3-4876-b6ee-0ff4125d83db",
+          "node_id": "03c348a0-3184-4fac-ae31-64b4173c88bd"
         },
         {
           "key": "reagent2",
           "value": "OsO4",
-          "id": "1e91fb66-b395-47ec-a06b-726f24bad7f4",
-          "node_id": "5efb71b4-1800-4e17-9016-55163a1fdc22"
+          "id": "264749b2-9a5b-408e-a04e-96bc0f476fba",
+          "node_id": "03c348a0-3184-4fac-ae31-64b4173c88bd"
         },
         {
           "key": "temperature",
           "value": "room temperature",
-          "id": "a7d8e903-11b4-43d4-a10f-bab58c4e3e1d",
-          "node_id": "5efb71b4-1800-4e17-9016-55163a1fdc22"
+          "id": "e772ebd8-f6c5-42d7-b212-c448c55fd301",
+          "node_id": "03c348a0-3184-4fac-ae31-64b4173c88bd"
         },
         {
           "key": "time",
           "value": "15-30 minutes",
-          "id": "69f2c0f0-7d2b-4062-a1d2-3ad775b29744",
-          "node_id": "5efb71b4-1800-4e17-9016-55163a1fdc22"
+          "id": "9b1afa54-a095-4934-a89b-e6aabd723d53",
+          "node_id": "03c348a0-3184-4fac-ae31-64b4173c88bd"
         }
       ],
       "emits": [
         {
           "key": "reagent0",
           "value": "glutaraldehyde fixative",
-          "id": "695801d5-b039-4e2e-9d0c-abfad86d87d5",
-          "node_id": "5efb71b4-1800-4e17-9016-55163a1fdc22"
+          "id": "e0003a34-a2e5-48f7-8e05-97e0a07a58ad",
+          "node_id": "03c348a0-3184-4fac-ae31-64b4173c88bd"
         }
       ]
     },
     {
-      "id": "536fcce8-d09c-43f9-97c8-87e87f1eded7",
+      "id": "8b4cdd24-5784-44f1-a23f-ef179641d145",
       "text": "Rinse with buffer five times over 10 minutes.",
       "instruction": "RINSE",
       "slots": [
         {
           "key": "reagent1",
           "value": "buffer",
-          "id": "d66c2ea2-544b-44c6-8b3d-46366839fa4e",
-          "node_id": "536fcce8-d09c-43f9-97c8-87e87f1eded7"
+          "id": "c36a8417-b615-4473-bcf1-a8c51735ff80",
+          "node_id": "8b4cdd24-5784-44f1-a23f-ef179641d145"
         },
         {
           "key": "reagent2",
           "value": "buffer or PBS",
-          "id": "9bf1b5ad-3f0d-430f-8b97-bf43ba27b609",
-          "node_id": "536fcce8-d09c-43f9-97c8-87e87f1eded7"
+          "id": "c220bf7e-9bfd-4f30-a542-f61fdc91d628",
+          "node_id": "8b4cdd24-5784-44f1-a23f-ef179641d145"
         },
         {
           "key": "repeat",
           "value": "5",
-          "id": "87e73bae-008a-4897-b10d-ce9781a187d9",
-          "node_id": "536fcce8-d09c-43f9-97c8-87e87f1eded7"
+          "id": "4de6cf99-6cae-4c45-bb3e-4507f182adb4",
+          "node_id": "8b4cdd24-5784-44f1-a23f-ef179641d145"
         },
         {
           "key": "time",
           "value": "10 minutes",
-          "id": "396755e4-425a-418b-8974-d245a0ea84a7",
-          "node_id": "536fcce8-d09c-43f9-97c8-87e87f1eded7"
+          "id": "0709d670-fa32-4668-ba52-75e6f0dc6fea",
+          "node_id": "8b4cdd24-5784-44f1-a23f-ef179641d145"
         }
       ],
       "emits": [
         {
           "key": "reagent0",
           "value": "<blank>",
-          "id": "21fb3374-3743-41a3-aee2-a4c748bde004",
-          "node_id": "536fcce8-d09c-43f9-97c8-87e87f1eded7"
+          "id": "7b1614f2-8132-443a-b779-f5d2e6e1c865",
+          "node_id": "8b4cdd24-5784-44f1-a23f-ef179641d145"
         }
       ]
     },
     {
-      "id": "178a87f9-ce2d-47aa-9e83-dcf2b7f80505",
+      "id": "d2748032-345b-4cfe-a410-54184610cc85",
       "text": "Incubate in freshly made 1% carbohydrazide 10-30 minutes.",
       "instruction": "INCUBATE",
       "slots": [
         {
           "key": "reagent1",
           "value": "1% carbohydrazide",
-          "id": "5173b9a1-3c3f-4dd9-bd5e-cc90f753793e",
-          "node_id": "178a87f9-ce2d-47aa-9e83-dcf2b7f80505"
+          "id": "24121952-25bb-4ca9-ac69-15cdb7ac8a88",
+          "node_id": "d2748032-345b-4cfe-a410-54184610cc85"
         },
         {
           "key": "temperature",
           "value": "room temperature",
-          "id": "ecfdc017-bc12-4a39-9955-562b9a12842c",
-          "node_id": "178a87f9-ce2d-47aa-9e83-dcf2b7f80505"
+          "id": "a62540b9-677e-4c5c-a9f1-7d0ea6e28f1c",
+          "node_id": "d2748032-345b-4cfe-a410-54184610cc85"
         },
         {
           "key": "time",
           "value": "10-30 minutes",
-          "id": "f0792bc0-30c6-422f-a4a7-27bedb102e3b",
-          "node_id": "178a87f9-ce2d-47aa-9e83-dcf2b7f80505"
+          "id": "698a1358-e652-405d-b777-fce0cabb39dd",
+          "node_id": "d2748032-345b-4cfe-a410-54184610cc85"
         }
       ],
       "emits": [
         {
           "key": "reagent0",
           "value": "1% carbohydrazide",
-          "id": "4e973cec-68e6-4d45-b1f8-7013ac45144b",
-          "node_id": "178a87f9-ce2d-47aa-9e83-dcf2b7f80505"
+          "id": "2d9cc81d-0365-4e2c-902d-f40d5f5f02c1",
+          "node_id": "d2748032-345b-4cfe-a410-54184610cc85"
         }
       ]
     },
     {
-      "id": "cef03616-0462-4197-abc8-ff8d2def4bf0",
+      "id": "a6484b53-54d9-4426-9967-cbff119695d7",
       "text": "Rinse with distilled five times over 15 minutes.",
       "instruction": "RINSE",
       "slots": [
         {
           "key": "reagent1",
           "value": "distilled",
-          "id": "24c161cd-3e8e-4550-b003-d05f5fa44e0c",
-          "node_id": "cef03616-0462-4197-abc8-ff8d2def4bf0"
+          "id": "6c107bae-bc4a-4ef5-ab5a-bbbbf83e6599",
+          "node_id": "a6484b53-54d9-4426-9967-cbff119695d7"
         },
         {
           "key": "reagent2",
           "value": "distilled",
-          "id": "3cbce29b-3ff1-4667-9472-e7b5a3496e7f",
-          "node_id": "cef03616-0462-4197-abc8-ff8d2def4bf0"
+          "id": "b54dc317-8ba3-482e-b8a3-794f10865391",
+          "node_id": "a6484b53-54d9-4426-9967-cbff119695d7"
         },
         {
           "key": "repeat",
           "value": "5",
-          "id": "055afbbb-cef2-486f-8f4b-3712ca58c787",
-          "node_id": "cef03616-0462-4197-abc8-ff8d2def4bf0"
+          "id": "7f525956-3522-4105-bd55-0e25ce1c1d27",
+          "node_id": "a6484b53-54d9-4426-9967-cbff119695d7"
         },
         {
           "key": "time",
           "value": "15 minutes",
-          "id": "e52cbe2b-6f1d-4aca-8ff7-7ccbfb891904",
-          "node_id": "cef03616-0462-4197-abc8-ff8d2def4bf0"
+          "id": "2587c5d6-65f8-47e5-a247-0a6cf9b08104",
+          "node_id": "a6484b53-54d9-4426-9967-cbff119695d7"
         }
       ],
       "emits": [
         {
           "key": "reagent0",
           "value": "distilled",
-          "id": "08431b0b-e732-4543-8681-a3001f6e6582",
-          "node_id": "cef03616-0462-4197-abc8-ff8d2def4bf0"
+          "id": "c2ebf364-fa17-4758-8aa8-939c84b83275",
+          "node_id": "a6484b53-54d9-4426-9967-cbff119695d7"
         }
       ]
     },
     {
-      "id": "38543b80-9f99-45f8-9408-beda6652efb3",
+      "id": "f2f6d5d4-6f65-496d-906e-cd0c54a0c997",
       "text": "Incubate again in 1% OsO<sub>4</sub>, 15-30 minutes",
       "instruction": "INCUBATE",
       "slots": [
         {
           "key": "reagent1",
           "value": "1% OsO4",
-          "id": "ec4dbc63-0adf-4be4-85c0-89eaa62e36be",
-          "node_id": "38543b80-9f99-45f8-9408-beda6652efb3"
+          "id": "09b8c95f-455e-4b37-aaf6-6ccd3e818dbc",
+          "node_id": "f2f6d5d4-6f65-496d-906e-cd0c54a0c997"
         },
         {
           "key": "temperature",
           "value": "room temperature",
-          "id": "c55db5f0-fffb-42e5-9803-ba4609560d0c",
-          "node_id": "38543b80-9f99-45f8-9408-beda6652efb3"
+          "id": "9aabd543-46d8-4491-9dff-015598f38a6b",
+          "node_id": "f2f6d5d4-6f65-496d-906e-cd0c54a0c997"
         },
         {
           "key": "time",
           "value": "15-30 minutes",
-          "id": "497afef5-82ac-4fef-8d6f-cc6b6dc7529a",
-          "node_id": "38543b80-9f99-45f8-9408-beda6652efb3"
+          "id": "e5d74ab9-6294-4d49-816a-348376473f46",
+          "node_id": "f2f6d5d4-6f65-496d-906e-cd0c54a0c997"
         }
       ],
       "emits": [
         {
           "key": "reagent0",
           "value": "1% OsO4",
-          "id": "9fe632ba-b723-4a98-881c-2b3a940ca8da",
-          "node_id": "38543b80-9f99-45f8-9408-beda6652efb3"
+          "id": "6c699209-fdf6-4223-a34a-13140acaaa76",
+          "node_id": "f2f6d5d4-6f65-496d-906e-cd0c54a0c997"
         }
       ]
     },
     {
-      "id": "4cc839a7-0a19-452d-98fb-cfc37ab43423",
+      "id": "3e16b4cc-a97d-407d-8491-aaf279178e5f",
       "text": "Rinse three times with distilled water over 15 minutes.  In the third rinse, cut dishes to fit the critical point dryer.  Using small diagonal wire cutters, clip and remove edge first.  Then cut bottom of dish to size.",
       "instruction": "RINSE",
       "slots": [
         {
           "key": "reagent1",
           "value": "distilled water",
-          "id": "b5df0dee-eba9-4eab-a35a-5fa1c5343fc5",
-          "node_id": "4cc839a7-0a19-452d-98fb-cfc37ab43423"
+          "id": "d3d9c86d-5a3f-423f-a453-15354e7f1710",
+          "node_id": "3e16b4cc-a97d-407d-8491-aaf279178e5f"
         },
         {
           "key": "reagent2",
           "value": "distilled water",
-          "id": "2c6d1822-0684-4e9f-9039-1cf821061839",
-          "node_id": "4cc839a7-0a19-452d-98fb-cfc37ab43423"
+          "id": "7103c152-cc74-4701-ac63-df53e4f11086",
+          "node_id": "3e16b4cc-a97d-407d-8491-aaf279178e5f"
         },
         {
           "key": "repeat",
           "value": "3",
-          "id": "afa91089-adee-44cc-b48d-e794d816a919",
-          "node_id": "4cc839a7-0a19-452d-98fb-cfc37ab43423"
+          "id": "b4029fec-8483-42ad-96a3-37b094aca022",
+          "node_id": "3e16b4cc-a97d-407d-8491-aaf279178e5f"
         },
         {
           "key": "time",
           "value": "15 minutes",
-          "id": "50009b60-c27a-47d5-8089-0b285ea96430",
-          "node_id": "4cc839a7-0a19-452d-98fb-cfc37ab43423"
+          "id": "a05ff61d-113f-4f8c-8f7b-58295341bdec",
+          "node_id": "3e16b4cc-a97d-407d-8491-aaf279178e5f"
         }
       ],
       "emits": [
         {
           "key": "reagent0",
           "value": "distilled water",
-          "id": "c3fa9ac1-4c3a-483a-94b8-43bb9f914a00",
-          "node_id": "4cc839a7-0a19-452d-98fb-cfc37ab43423"
+          "id": "ba35a02e-6520-4dd1-a00f-d3bdbe92e997",
+          "node_id": "3e16b4cc-a97d-407d-8491-aaf279178e5f"
         }
       ]
     },
     {
-      "id": "af78dabf-8056-4dc4-88d4-0bb9f3d7b21f",
+      "id": "ce8efafc-e452-4e1e-978c-8241c6c053ca",
       "text": "Rinse three times with distilled water over 15 minutes.  In the third rinse, cut dishes to fit the critical point dryer.  Using small diagonal wire cutters, clip and remove edge first.  Then cut bottom of dish to size.",
       "instruction": "CUT",
       "slots": [
         {
           "key": "reagent",
           "value": "distilled water",
-          "id": "d78ae2ea-fd99-466e-abd0-ec639032a48d",
-          "node_id": "af78dabf-8056-4dc4-88d4-0bb9f3d7b21f"
+          "id": "e86bca12-43a4-49fd-bdf5-8a14f595e5c9",
+          "node_id": "ce8efafc-e452-4e1e-978c-8241c6c053ca"
         },
         {
           "key": "device",
           "value": "small diagonal wire cutters",
-          "id": "ce43ac51-7c2f-4e5b-8c8a-41a43887e0d5",
-          "node_id": "af78dabf-8056-4dc4-88d4-0bb9f3d7b21f"
+          "id": "661d1a24-1946-436b-a992-561df9131aea",
+          "node_id": "ce8efafc-e452-4e1e-978c-8241c6c053ca"
         },
         {
           "key": "direction",
           "value": "bottom of dish to size",
-          "id": "b9d2135a-3d10-4bf1-82ef-639d436639e0",
-          "node_id": "af78dabf-8056-4dc4-88d4-0bb9f3d7b21f"
+          "id": "e2f1fc5c-e9ca-461f-a667-4ca7b9353f77",
+          "node_id": "ce8efafc-e452-4e1e-978c-8241c6c053ca"
         }
       ],
       "emits": [
         {
           "key": "reagent0",
           "value": "distilled water",
-          "id": "3eddea01-aad9-46d1-8e63-8c475c38cd98",
-          "node_id": "af78dabf-8056-4dc4-88d4-0bb9f3d7b21f"
+          "id": "5a75f9a5-4593-4d8a-af63-a843ed679d1f",
+          "node_id": "ce8efafc-e452-4e1e-978c-8241c6c053ca"
         }
       ]
     },
     {
-      "id": "809c2a56-fc1e-4fcd-9e68-a1fb5e193792",
+      "id": "53b8a81e-161d-4207-a407-4863110138ac",
       "text": "Rinse three times with distilled water over 15 minutes.  In the third rinse, cut dishes to fit the critical point dryer.  Using small diagonal wire cutters, clip and remove edge first.  Then cut bottom of dish to size.",
       "instruction": "CUT",
       "slots": [
         {
           "key": "reagent",
           "value": "distilled water",
-          "id": "e240db65-b1c4-4251-a444-514a74d17d9b",
-          "node_id": "809c2a56-fc1e-4fcd-9e68-a1fb5e193792"
+          "id": "bd5f35b3-018d-4591-8d4a-db1b6957f3d2",
+          "node_id": "53b8a81e-161d-4207-a407-4863110138ac"
         },
         {
           "key": "device",
           "value": "small diagonal wire cutters",
-          "id": "3132a7d0-6a15-4e7b-8e6f-b20dac211445",
-          "node_id": "809c2a56-fc1e-4fcd-9e68-a1fb5e193792"
+          "id": "3f968468-51a3-4475-acaf-ba862ebc2835",
+          "node_id": "53b8a81e-161d-4207-a407-4863110138ac"
         },
         {
           "key": "direction",
           "value": "bottom",
-          "id": "374d0ace-4a4e-4d6c-a917-5a26ad1f1946",
-          "node_id": "809c2a56-fc1e-4fcd-9e68-a1fb5e193792"
+          "id": "1dc7bc94-1ef2-410d-9ed5-170bd006328b",
+          "node_id": "53b8a81e-161d-4207-a407-4863110138ac"
         }
       ],
       "emits": [
         {
           "key": "reagent0",
           "value": "distilled water",
-          "id": "c0c49076-0b26-4876-9b7f-d930a18eb00c",
-          "node_id": "809c2a56-fc1e-4fcd-9e68-a1fb5e193792"
+          "id": "06a6e868-fc2f-4202-8bb1-22e6f56e829c",
+          "node_id": "53b8a81e-161d-4207-a407-4863110138ac"
         }
       ]
     },
     {
-      "id": "c6000b17-ee90-4a28-a8b3-4a3677d33506",
+      "id": "36c90dec-9b1d-424e-b531-a28fc91a8cdf",
       "text": "Place in another dish.",
       "instruction": "PLACE",
       "slots": [
         {
           "key": "reagent1",
           "value": "1% carbohydrazide",
-          "id": "164f7f3c-1421-4275-af8c-d6bc674cea0d",
-          "node_id": "c6000b17-ee90-4a28-a8b3-4a3677d33506"
+          "id": "eb6417f2-cc03-4a89-9cf7-0970ee7aeb0d",
+          "node_id": "36c90dec-9b1d-424e-b531-a28fc91a8cdf"
         },
         {
           "key": "destination",
           "value": "another dish",
-          "id": "c691ecb0-4ec2-4b06-8148-69b18f6abddf",
-          "node_id": "c6000b17-ee90-4a28-a8b3-4a3677d33506"
+          "id": "b3ddc6fb-4d40-4a4c-ae17-8374170be295",
+          "node_id": "36c90dec-9b1d-424e-b531-a28fc91a8cdf"
         }
       ],
       "emits": [
         {
           "key": "reagent0",
           "value": "1% carbohydrazide",
-          "id": "8dd9822f-27e3-477e-90d7-0a60088cc6f7",
-          "node_id": "c6000b17-ee90-4a28-a8b3-4a3677d33506"
+          "id": "1a798e0b-20e2-4d56-a495-c5cd25884771",
+          "node_id": "36c90dec-9b1d-424e-b531-a28fc91a8cdf"
         }
       ]
     },
     {
-      "id": "029fa98b-26a4-4fe2-8d0a-7c0dbf8fde9b",
+      "id": "a6db5375-1d75-461e-ba24-86056c1de91c",
       "text": "Dehydrate through ethanol or hexylene glycol series beginning with 30% and changing to solutions of 50%, 70%, 90%, and three times 100%, over 30 minutes.",
       "instruction": "DEHYDRATE",
       "slots": [
         {
           "key": "reagent1",
           "value": "ethanol or hexylene glycol series",
-          "id": "d7996762-a77e-4fee-820d-9e029e34b612",
-          "node_id": "029fa98b-26a4-4fe2-8d0a-7c0dbf8fde9b"
+          "id": "0644f9e0-6dce-4608-8b49-4b8cf952febd",
+          "node_id": "a6db5375-1d75-461e-ba24-86056c1de91c"
         },
         {
           "key": "time",
           "value": "30 minutes",
-          "id": "edccd271-cd16-4f85-85c6-f66ca8065b07",
-          "node_id": "029fa98b-26a4-4fe2-8d0a-7c0dbf8fde9b"
+          "id": "8ea45cc2-5581-4dfc-b351-ca0fab7aaedf",
+          "node_id": "a6db5375-1d75-461e-ba24-86056c1de91c"
         }
       ],
       "emits": [
         {
           "key": "reagent0",
           "value": "ethanol or hexylene glycol series",
-          "id": "fcc354b7-2397-433d-8680-fd8a14561192",
-          "node_id": "029fa98b-26a4-4fe2-8d0a-7c0dbf8fde9b"
+          "id": "40bae294-91cb-4bf4-ae4c-25db1a2796da",
+          "node_id": "a6db5375-1d75-461e-ba24-86056c1de91c"
         }
       ]
     },
     {
-      "id": "71722dc2-1f5f-42f4-b2c4-c340979e80a5",
+      "id": "b34f7a34-9d9c-448a-b000-a651ca3dffb7",
       "text": "Dry in critical point dryer.",
       "instruction": "DRY",
       "slots": [
         {
           "key": "reagent1",
           "value": "distilled water",
-          "id": "40f39d0b-0cf3-41e9-9b26-47f3cf4503f9",
-          "node_id": "71722dc2-1f5f-42f4-b2c4-c340979e80a5"
+          "id": "96437e17-ba19-4027-8873-09990bc4c393",
+          "node_id": "b34f7a34-9d9c-448a-b000-a651ca3dffb7"
         },
         {
           "key": "device",
           "value": "critical point dryer",
-          "id": "400dfffc-41a1-428c-9a7c-b17970ef58fd",
-          "node_id": "71722dc2-1f5f-42f4-b2c4-c340979e80a5"
+          "id": "f7e831ab-3a9f-4019-bfdd-dcf5ea037b4d",
+          "node_id": "b34f7a34-9d9c-448a-b000-a651ca3dffb7"
         }
       ],
       "emits": [
         {
           "key": "reagent0",
           "value": "distilled water",
-          "id": "123c198e-54a3-4ac7-a2fb-acabf0bf00ad",
-          "node_id": "71722dc2-1f5f-42f4-b2c4-c340979e80a5"
+          "id": "5b1ea9f5-860c-4587-9288-f701601d5565",
+          "node_id": "b34f7a34-9d9c-448a-b000-a651ca3dffb7"
         }
       ]
     },
     {
-      "id": "a3c06bef-1a8c-437f-9b02-3be5624f1c28",
+      "id": "91b04524-d0bc-4294-b446-e976a251f77d",
       "text": "Sputter coat with 1-2 nm gold-palladium.",
       "instruction": "COAT",
       "slots": [
         {
           "key": "reagent1",
           "value": "1-2 nm gold-palladium",
-          "id": "0d5299ff-0934-4a4c-9f4f-6ab0c5026125",
-          "node_id": "a3c06bef-1a8c-437f-9b02-3be5624f1c28"
+          "id": "ffbeb23d-af91-4ed8-ac06-4dda840f94d3",
+          "node_id": "91b04524-d0bc-4294-b446-e976a251f77d"
         }
       ],
       "emits": []

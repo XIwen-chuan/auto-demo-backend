@@ -2,430 +2,430 @@
   "name": "nprot-7285_graphData.json",
   "nodes": [
     {
-      "id": "8283ff2c-9137-4db7-9e0a-0498a459618f",
+      "id": "50f88619-5708-4807-9740-ccee21571ab9",
       "text": "Collect approximately 5 \u00d7 108 cells expressing either untagged or HA-epitope tagged versions of protein to immunoprecipitate from exponentially growing yeast cultures.",
       "instruction": "COLLECT",
       "slots": [
         {
           "key": "reagent1",
           "value": "5 \u00d7 108 cells expressing either untagged or HA-epitope tagged versions of protein",
-          "id": "0e6f92d5-7793-4b89-9903-570e0455bdf0",
-          "node_id": "8283ff2c-9137-4db7-9e0a-0498a459618f"
+          "id": "ba8814e1-c3ca-441c-a90b-9abfa6a39e41",
+          "node_id": "50f88619-5708-4807-9740-ccee21571ab9"
         },
         {
           "key": "container",
           "value": "exponentially growing yeast cultures",
-          "id": "26b8b2f0-e389-4b3d-ac0a-d454919c9d92",
-          "node_id": "8283ff2c-9137-4db7-9e0a-0498a459618f"
+          "id": "e81f3f1e-39a8-4aab-b389-5ac488dcb27d",
+          "node_id": "50f88619-5708-4807-9740-ccee21571ab9"
         },
         {
           "key": "purpose",
           "value": "to immunoprecipitate",
-          "id": "3d43c6f7-e18e-4e0e-8dd9-71f9574a29ee",
-          "node_id": "8283ff2c-9137-4db7-9e0a-0498a459618f"
+          "id": "30f0ec8e-314e-4ce6-ade8-eaca608ebfb4",
+          "node_id": "50f88619-5708-4807-9740-ccee21571ab9"
         }
       ],
       "emits": [
         {
           "key": "reagent0",
           "value": "Sample",
-          "id": "c8b6adff-b88a-4b77-964a-0cd29822eb76",
-          "node_id": "8283ff2c-9137-4db7-9e0a-0498a459618f"
+          "id": "c6ac4d1d-d353-4df8-a02f-b17cb8f2a6ba",
+          "node_id": "50f88619-5708-4807-9740-ccee21571ab9"
         }
       ]
     },
     {
-      "id": "b50a00f8-252b-4153-b46c-5f4c1bfe5f89",
+      "id": "26fda960-c3e1-4006-820a-d3a7bbff5faf",
       "text": "Collect the cells by centrifugation at 4000xg and wash them once with H2O.",
       "instruction": "COLLECT",
       "slots": [
         {
           "key": "reagent1",
           "value": "cells",
-          "id": "fe4a1869-be2a-41bd-a1c1-1dfdef4387a9",
-          "node_id": "b50a00f8-252b-4153-b46c-5f4c1bfe5f89"
+          "id": "c4fd9a32-b9da-4ca8-9e64-ad817a315101",
+          "node_id": "26fda960-c3e1-4006-820a-d3a7bbff5faf"
         },
         {
           "key": "container",
           "value": "centrifuge tube",
-          "id": "19d2c5c3-5457-4a2d-afdd-32359ed5af44",
-          "node_id": "b50a00f8-252b-4153-b46c-5f4c1bfe5f89"
+          "id": "38d23bb7-8512-46ec-8899-436c95f5cbdc",
+          "node_id": "26fda960-c3e1-4006-820a-d3a7bbff5faf"
         },
         {
           "key": "method",
           "value": "centrifugation",
-          "id": "ede5dfaa-c15f-46df-a920-62d0486a5563",
-          "node_id": "b50a00f8-252b-4153-b46c-5f4c1bfe5f89"
+          "id": "4f1176f0-9a5c-465e-828d-e6acc23f92f5",
+          "node_id": "26fda960-c3e1-4006-820a-d3a7bbff5faf"
         },
         {
           "key": "environment",
           "value": "4000xg",
-          "id": "37d13fe9-a3fc-457c-bb51-fb2b30f6f0c5",
-          "node_id": "b50a00f8-252b-4153-b46c-5f4c1bfe5f89"
+          "id": "c415a596-9f3d-466a-bfd7-c68c37b7233f",
+          "node_id": "26fda960-c3e1-4006-820a-d3a7bbff5faf"
         },
         {
           "key": "purpose",
           "value": "cell collection",
-          "id": "24664d73-73d6-4ed2-98de-78e666582515",
-          "node_id": "b50a00f8-252b-4153-b46c-5f4c1bfe5f89"
+          "id": "ebfb8b1c-0fae-4cf2-9bbd-80be76f655f6",
+          "node_id": "26fda960-c3e1-4006-820a-d3a7bbff5faf"
         }
       ],
       "emits": [
         {
           "key": "reagent0",
           "value": "Sample",
-          "id": "38602092-f7b8-4c60-93ff-663336163d41",
-          "node_id": "b50a00f8-252b-4153-b46c-5f4c1bfe5f89"
+          "id": "f9737614-00eb-4c31-b435-07edb794f960",
+          "node_id": "26fda960-c3e1-4006-820a-d3a7bbff5faf"
         }
       ]
     },
     {
-      "id": "b956bd01-6de9-40d2-b0ee-1c8f19f6d12a",
+      "id": "d8268398-b20f-429f-a620-957817bec74f",
       "text": "Collect the cells by centrifugation at 4000xg and wash them once with H2O.",
       "instruction": "WASH",
       "slots": [
         {
           "key": "reagent1",
           "value": "Sample",
-          "id": "212044ba-d9df-4e60-b361-86d04183c6a5",
-          "node_id": "b956bd01-6de9-40d2-b0ee-1c8f19f6d12a"
+          "id": "3d60e131-f649-4d64-ba76-e81bd7f368af",
+          "node_id": "d8268398-b20f-429f-a620-957817bec74f"
         },
         {
           "key": "reagent2",
           "value": "H2O",
-          "id": "a07f92df-9f63-4bb3-b2dc-306f6e6298d8",
-          "node_id": "b956bd01-6de9-40d2-b0ee-1c8f19f6d12a"
+          "id": "2de7f7c5-7d44-4297-8194-9c0350232c15",
+          "node_id": "d8268398-b20f-429f-a620-957817bec74f"
         },
         {
           "key": "repeat",
           "value": "1",
-          "id": "a465d9cc-ca78-47b9-844e-8d9d0a3da0f9",
-          "node_id": "b956bd01-6de9-40d2-b0ee-1c8f19f6d12a"
+          "id": "75b1ffed-57b5-4531-aa3c-f8a42c5ffb2f",
+          "node_id": "d8268398-b20f-429f-a620-957817bec74f"
         }
       ],
       "emits": [
         {
           "key": "reagent0",
           "value": "Sample",
-          "id": "fa83d802-2bfb-4603-99f4-34c55e8c2121",
-          "node_id": "b956bd01-6de9-40d2-b0ee-1c8f19f6d12a"
+          "id": "61e15440-a54b-487a-9a5d-ebb63fe1aa50",
+          "node_id": "d8268398-b20f-429f-a620-957817bec74f"
         }
       ]
     },
     {
-      "id": "21ab67c0-8b72-4e1d-a6cc-c0f1e96497d2",
+      "id": "ea6fc49b-29e3-4a8e-be09-d47b8a6109db",
       "text": "Resuspend the cell pellet in 100 \u03bcL of Lysis buffer.",
       "instruction": "RESUSPEND",
       "slots": [
         {
           "key": "reagent1",
           "value": "cell pellet",
-          "id": "d2735a1c-65ca-4e2a-a0d4-da6e3a06e65f",
-          "node_id": "21ab67c0-8b72-4e1d-a6cc-c0f1e96497d2"
+          "id": "174cf622-79cd-47fb-8798-2c4f1c78b5d4",
+          "node_id": "ea6fc49b-29e3-4a8e-be09-d47b8a6109db"
         },
         {
           "key": "reagent2",
           "value": "Lysis buffer",
-          "id": "dddc97ec-965f-4c68-90bf-232586b49b96",
-          "node_id": "21ab67c0-8b72-4e1d-a6cc-c0f1e96497d2"
+          "id": "c388e0a2-4e08-4171-8cf2-046fda058cc8",
+          "node_id": "ea6fc49b-29e3-4a8e-be09-d47b8a6109db"
         }
       ],
       "emits": [
         {
           "key": "reagent0",
           "value": "Sample",
-          "id": "231648a2-ae8e-4da4-a678-c18326831082",
-          "node_id": "21ab67c0-8b72-4e1d-a6cc-c0f1e96497d2"
+          "id": "d5bcdd13-27f4-4689-a30a-1d2c2e10b8bf",
+          "node_id": "ea6fc49b-29e3-4a8e-be09-d47b8a6109db"
         }
       ]
     },
     {
-      "id": "f538acce-f987-4f32-b1dd-927e82818e91",
+      "id": "6bdbeb1b-54bd-4bf6-b77b-411408969416",
       "text": "Keep 10 \u03bcl from the supernatant as a control of whole-cell extract \\(Input).\r\n  \r\n\n\nDynabeads Protein G preparation",
       "instruction": "KEEP",
       "slots": [
         {
           "key": "reagent1",
           "value": "supernatant",
-          "id": "3eefc2ef-ee1b-4d3f-bd24-ef6e2e3490bf",
-          "node_id": "f538acce-f987-4f32-b1dd-927e82818e91"
+          "id": "421c311a-31c9-46e6-bee6-8741634bd93f",
+          "node_id": "6bdbeb1b-54bd-4bf6-b77b-411408969416"
         }
       ],
       "emits": [
         {
           "key": "reagent0",
           "value": "supernatant",
-          "id": "189af88e-cd49-47e0-8d40-689653f7a4a8",
-          "node_id": "f538acce-f987-4f32-b1dd-927e82818e91"
+          "id": "a4c046a3-10d9-442e-897d-5ca8e4382504",
+          "node_id": "6bdbeb1b-54bd-4bf6-b77b-411408969416"
         }
       ]
     },
     {
-      "id": "e1dc6772-e6b3-4ce6-ac8e-c06ec69e969d",
+      "id": "53e50969-46b2-4c09-acdf-9b4f4f754a22",
       "text": "Wash twice 50\u00b5L of Dynabeads with PBS containing Tween 0.02%.",
       "instruction": "WASH",
       "slots": [
         {
           "key": "reagent1",
           "value": "50\u00b5L of Dynabeads",
-          "id": "33a7971f-9c44-4769-8548-c3cb5a4912ac",
-          "node_id": "e1dc6772-e6b3-4ce6-ac8e-c06ec69e969d"
+          "id": "39ba4f46-c087-4b4f-a4b3-db9d4593acf4",
+          "node_id": "53e50969-46b2-4c09-acdf-9b4f4f754a22"
         },
         {
           "key": "reagent2",
           "value": "PBS containing Tween 0.02%",
-          "id": "4062499f-4e82-4490-ada0-127d8ebeaa11",
-          "node_id": "e1dc6772-e6b3-4ce6-ac8e-c06ec69e969d"
+          "id": "af8f2ace-2368-4ace-a776-38cc8e981e64",
+          "node_id": "53e50969-46b2-4c09-acdf-9b4f4f754a22"
         },
         {
           "key": "repeat",
           "value": "2",
-          "id": "e7801602-fee8-4f4c-8e3d-3bf3f0311233",
-          "node_id": "e1dc6772-e6b3-4ce6-ac8e-c06ec69e969d"
+          "id": "1ada7296-80c8-40b1-abe7-8471fe9afa41",
+          "node_id": "53e50969-46b2-4c09-acdf-9b4f4f754a22"
         }
       ],
       "emits": [
         {
           "key": "reagent0",
           "value": "50\u00b5L of Dynabeads",
-          "id": "ddab17c5-ebd9-40e6-b57f-cb826f2aab1b",
-          "node_id": "e1dc6772-e6b3-4ce6-ac8e-c06ec69e969d"
+          "id": "8dc93f86-6ae8-4c89-b166-85820a7cbe60",
+          "node_id": "53e50969-46b2-4c09-acdf-9b4f4f754a22"
         }
       ]
     },
     {
-      "id": "8b9cadbe-e90e-4695-8254-896201525b12",
+      "id": "3f4102f4-59e8-4a15-9454-dc5ac5d604c1",
       "text": "Incubate for 30 min at room temperature the dried beads with 10\u00b5L of HA-probe \\(F-7) antibody \\(Santa Cruz Biotechnology Inc) supplemented with 190\u00b5L PBS-Tween 0,02%.",
       "instruction": "INCUBATE",
       "slots": [
         {
           "key": "reagent1",
           "value": "HA-probe (F-7) antibody (Santa Cruz Biotechnology Inc)",
-          "id": "8c9ea651-e210-4e1c-ab51-b3279144abd7",
-          "node_id": "8b9cadbe-e90e-4695-8254-896201525b12"
+          "id": "53684867-c499-41e2-ace4-14c949b847b2",
+          "node_id": "3f4102f4-59e8-4a15-9454-dc5ac5d604c1"
         },
         {
           "key": "reagent2",
           "value": "PBS-Tween 0,02%",
-          "id": "1c0bbe1b-4820-4146-806d-08b3eaf50224",
-          "node_id": "8b9cadbe-e90e-4695-8254-896201525b12"
+          "id": "5a0eba77-f579-4d39-be6d-1c5202c28761",
+          "node_id": "3f4102f4-59e8-4a15-9454-dc5ac5d604c1"
         },
         {
           "key": "temperature",
           "value": "room temperature",
-          "id": "d9569d00-4855-46a7-8a94-2b5f53427be0",
-          "node_id": "8b9cadbe-e90e-4695-8254-896201525b12"
+          "id": "b18a498e-8606-43d9-9a86-7440643a011c",
+          "node_id": "3f4102f4-59e8-4a15-9454-dc5ac5d604c1"
         },
         {
           "key": "time",
           "value": "30 min",
-          "id": "66611b49-4fb9-4380-ad41-3127509ebc91",
-          "node_id": "8b9cadbe-e90e-4695-8254-896201525b12"
+          "id": "35f2842c-2bdc-4fe2-9fa5-1047bd69b05c",
+          "node_id": "3f4102f4-59e8-4a15-9454-dc5ac5d604c1"
         }
       ],
       "emits": [
         {
           "key": "reagent0",
           "value": "dried beads",
-          "id": "eba6fa2b-23d3-40ba-8bed-8a41e6ce60eb",
-          "node_id": "8b9cadbe-e90e-4695-8254-896201525b12"
+          "id": "4b2c4916-2031-4a7b-b94b-f7f1701a1a7e",
+          "node_id": "3f4102f4-59e8-4a15-9454-dc5ac5d604c1"
         }
       ]
     },
     {
-      "id": "567b8740-7afd-41ac-a213-6430edb88817",
+      "id": "d73cb72b-92d9-453b-ba0d-68ebe93890dc",
       "text": "Wash the unbound antibody twice with PBS-Tween 0,02%.\r\n  \r\n\n\nImmunoprecipitation",
       "instruction": "WASH",
       "slots": [
         {
           "key": "reagent1",
           "value": "unbound antibody",
-          "id": "5f0a7182-664e-4a6d-863e-3dcf01035804",
-          "node_id": "567b8740-7afd-41ac-a213-6430edb88817"
+          "id": "e8626165-ed7f-4d97-922e-66ed935569c1",
+          "node_id": "d73cb72b-92d9-453b-ba0d-68ebe93890dc"
         },
         {
           "key": "reagent2",
           "value": "PBS-Tween 0,02%",
-          "id": "63c94568-b100-4c2d-892e-c29c073739bc",
-          "node_id": "567b8740-7afd-41ac-a213-6430edb88817"
+          "id": "869dc4dc-7675-477a-87e6-ae3c3e6722a2",
+          "node_id": "d73cb72b-92d9-453b-ba0d-68ebe93890dc"
         },
         {
           "key": "repeat",
           "value": "2",
-          "id": "6b43badf-0acf-47f0-9c47-b43cc40753a8",
-          "node_id": "567b8740-7afd-41ac-a213-6430edb88817"
+          "id": "5459993b-4c98-4a66-b49b-d3670ea7f189",
+          "node_id": "d73cb72b-92d9-453b-ba0d-68ebe93890dc"
         }
       ],
       "emits": [
         {
           "key": "reagent0",
           "value": "unbound antibody",
-          "id": "547f4ca3-9674-496d-a81a-6a4686e943b2",
-          "node_id": "567b8740-7afd-41ac-a213-6430edb88817"
+          "id": "4fd32346-5756-42eb-b18a-b9ac710c36d4",
+          "node_id": "d73cb72b-92d9-453b-ba0d-68ebe93890dc"
         }
       ]
     },
     {
-      "id": "8e9d1d73-4131-4a49-8fe5-2db30a780afb",
+      "id": "aac494e7-a6b9-4687-8644-5dfaabdbc9ac",
       "text": "Incubate the remaining volume of the whole cell extract with Dynabeads-antibody with orbital rotation for 20 min at room temperature.",
       "instruction": "INCUBATE",
       "slots": [
         {
           "key": "reagent1",
           "value": "whole cell extract",
-          "id": "e4d84aa2-be9a-460b-be76-c62630faa249",
-          "node_id": "8e9d1d73-4131-4a49-8fe5-2db30a780afb"
+          "id": "783e19b0-33f7-4e1e-a937-7a9235b3c5bf",
+          "node_id": "aac494e7-a6b9-4687-8644-5dfaabdbc9ac"
         },
         {
           "key": "reagent2",
           "value": "Dynabeads-antibody",
-          "id": "efdb3c02-bb5e-44c5-b93c-62806e7d2893",
-          "node_id": "8e9d1d73-4131-4a49-8fe5-2db30a780afb"
+          "id": "08a57fad-868a-4f65-9e2f-ee5c45946012",
+          "node_id": "aac494e7-a6b9-4687-8644-5dfaabdbc9ac"
         },
         {
           "key": "temperature",
           "value": "room temperature",
-          "id": "17d40929-b579-4217-a6a8-3dd811fd03fa",
-          "node_id": "8e9d1d73-4131-4a49-8fe5-2db30a780afb"
+          "id": "16d59d80-8976-484b-9c85-740df727426b",
+          "node_id": "aac494e7-a6b9-4687-8644-5dfaabdbc9ac"
         },
         {
           "key": "time",
           "value": "20 min",
-          "id": "3983a73a-a4c8-444b-897b-048e0bf5b282",
-          "node_id": "8e9d1d73-4131-4a49-8fe5-2db30a780afb"
+          "id": "9fa02491-e2ce-411d-8375-6a685713a86e",
+          "node_id": "aac494e7-a6b9-4687-8644-5dfaabdbc9ac"
         },
         {
           "key": "device",
           "value": "orbital rotation",
-          "id": "b12e4953-a1d9-47ff-8706-bb21e6950058",
-          "node_id": "8e9d1d73-4131-4a49-8fe5-2db30a780afb"
+          "id": "e946a90d-5d31-4d7b-a9cb-881f330468c9",
+          "node_id": "aac494e7-a6b9-4687-8644-5dfaabdbc9ac"
         }
       ],
       "emits": []
     },
     {
-      "id": "9b3d7544-e6bb-404e-8a62-cfd9c22a0f87",
+      "id": "6fd21dff-4c91-4daf-b9e4-43d3f25e123c",
       "text": "Keep 10 \u03bcL from the supernatant as a control of unbound protein.",
       "instruction": "KEEP",
       "slots": [
         {
           "key": "reagent1",
           "value": "supernatant",
-          "id": "796f65fd-98f6-43de-a2b7-413b97092850",
-          "node_id": "9b3d7544-e6bb-404e-8a62-cfd9c22a0f87"
+          "id": "1004eddc-7968-4ce5-a321-4b2175123ca4",
+          "node_id": "6fd21dff-4c91-4daf-b9e4-43d3f25e123c"
         }
       ],
       "emits": [
         {
           "key": "reagent0",
           "value": "supernatant",
-          "id": "506cd3b2-99f8-41c1-b1b9-84b628740548",
-          "node_id": "9b3d7544-e6bb-404e-8a62-cfd9c22a0f87"
+          "id": "9105b41e-5150-4dcf-ac75-6cf188a4603a",
+          "node_id": "6fd21dff-4c91-4daf-b9e4-43d3f25e123c"
         }
       ]
     },
     {
-      "id": "595c2d9d-c4e2-4246-8876-31f1e788153e",
+      "id": "18e41181-aca8-4ef9-8e7c-82f7d831fe92",
       "text": "Wash the beads 5 times with PBS-Tween 0,02%.",
       "instruction": "WASH",
       "slots": [
         {
           "key": "reagent1",
           "value": "beads",
-          "id": "4f38b15d-1d27-494f-b312-b4d0e0ebf361",
-          "node_id": "595c2d9d-c4e2-4246-8876-31f1e788153e"
+          "id": "668e4bd7-9f02-456f-bc80-d2dff62147a0",
+          "node_id": "18e41181-aca8-4ef9-8e7c-82f7d831fe92"
         },
         {
           "key": "reagent2",
           "value": "PBS-Tween 0,02%",
-          "id": "98985f53-3594-4665-9bef-c62ae224f83f",
-          "node_id": "595c2d9d-c4e2-4246-8876-31f1e788153e"
+          "id": "fc22696c-8af5-4476-be83-ddcc775241ee",
+          "node_id": "18e41181-aca8-4ef9-8e7c-82f7d831fe92"
         },
         {
           "key": "repeat",
           "value": "5",
-          "id": "5c64a9c7-b13e-4814-93ab-dab773200daf",
-          "node_id": "595c2d9d-c4e2-4246-8876-31f1e788153e"
+          "id": "e49addab-a482-453f-a39c-d720944dd20b",
+          "node_id": "18e41181-aca8-4ef9-8e7c-82f7d831fe92"
         }
       ],
       "emits": [
         {
           "key": "reagent0",
           "value": "beads",
-          "id": "fabc0439-0f26-429e-a66f-c9e7bafb4b49",
-          "node_id": "595c2d9d-c4e2-4246-8876-31f1e788153e"
+          "id": "cde465e2-598b-4565-b40d-c9731a0f4fac",
+          "node_id": "18e41181-aca8-4ef9-8e7c-82f7d831fe92"
         }
       ]
     },
     {
-      "id": "10222f72-8f01-440e-9d66-527d0aa1bc9f",
+      "id": "63c7aa6d-1259-47db-a68b-d40223c003d6",
       "text": "Elute the immunoprecipitated  proteins by boiling the beads for 5 min in 2x SDS-PAGE sample solvent and analyze by SDS-polyacrylamide gel electrophoresis followed by Western blot analysis.",
       "instruction": "ELUTE",
       "slots": [
         {
           "key": "reagent1",
           "value": "beads",
-          "id": "d0ef3f2b-4198-4990-8c8c-2c692c613eae",
-          "node_id": "10222f72-8f01-440e-9d66-527d0aa1bc9f"
+          "id": "426f89e6-3d9e-4c33-bf6e-b8232db72dcb",
+          "node_id": "63c7aa6d-1259-47db-a68b-d40223c003d6"
         },
         {
           "key": "reagent2",
           "value": "2x SDS-PAGE sample solvent",
-          "id": "209a3327-f389-4aa4-933f-ccf01c3c5fac",
-          "node_id": "10222f72-8f01-440e-9d66-527d0aa1bc9f"
+          "id": "f53d1237-ffae-40dd-b6da-9ab2acdc92b6",
+          "node_id": "63c7aa6d-1259-47db-a68b-d40223c003d6"
         },
         {
           "key": "component",
           "value": "immunoprecipitated proteins",
-          "id": "b4c998b4-ab4e-4f4f-b8d7-e892d5c828b8",
-          "node_id": "10222f72-8f01-440e-9d66-527d0aa1bc9f"
+          "id": "41e37b6e-5ce0-4cb6-9557-80377c821752",
+          "node_id": "63c7aa6d-1259-47db-a68b-d40223c003d6"
         },
         {
           "key": "method",
           "value": "boiling",
-          "id": "35518333-099c-488f-b131-b2816acdc214",
-          "node_id": "10222f72-8f01-440e-9d66-527d0aa1bc9f"
+          "id": "9e608b70-5215-4da1-a371-2415317b5347",
+          "node_id": "63c7aa6d-1259-47db-a68b-d40223c003d6"
         },
         {
           "key": "time",
           "value": "5 min",
-          "id": "cf2e5e4b-82fa-44b5-8c42-4940cdc9c091",
-          "node_id": "10222f72-8f01-440e-9d66-527d0aa1bc9f"
+          "id": "cea6a59a-3b84-4770-b4c7-f4c0bfa1be7b",
+          "node_id": "63c7aa6d-1259-47db-a68b-d40223c003d6"
         }
       ],
       "emits": [
         {
           "key": "reagent0",
           "value": "immunoprecipitated proteins",
-          "id": "63333b5a-f073-4720-84b9-3e3720d1321c",
-          "node_id": "10222f72-8f01-440e-9d66-527d0aa1bc9f"
+          "id": "a63b4c81-0223-4927-a54e-f778eba1e20f",
+          "node_id": "63c7aa6d-1259-47db-a68b-d40223c003d6"
         }
       ]
     },
     {
-      "id": "4155aa09-0217-4434-87f4-d10112975726",
+      "id": "3d700580-5bfd-4536-acf5-dc697d746dcf",
       "text": "Elute the immunoprecipitated  proteins by boiling the beads for 5 min in 2x SDS-PAGE sample solvent and analyze by SDS-polyacrylamide gel electrophoresis followed by Western blot analysis.",
       "instruction": "ANALYZE",
       "slots": [
         {
           "key": "reagent1",
           "value": "immunoprecipitated proteins",
-          "id": "a1646bca-384e-4e20-ad7c-1e3868763cf9",
-          "node_id": "4155aa09-0217-4434-87f4-d10112975726"
+          "id": "40c876a1-d44f-43b3-bb6f-2bba03595e77",
+          "node_id": "3d700580-5bfd-4536-acf5-dc697d746dcf"
         },
         {
           "key": "method",
           "value": "SDS-polyacrylamide gel electrophoresis followed by Western blot analysis",
-          "id": "f2313285-f28a-4d8f-91f5-c38f4f764e34",
-          "node_id": "4155aa09-0217-4434-87f4-d10112975726"
+          "id": "f7d23a03-cd33-4753-bce1-6aac1eb8b793",
+          "node_id": "3d700580-5bfd-4536-acf5-dc697d746dcf"
         }
       ],
       "emits": [
         {
           "key": "data0",
           "value": "immunoprecipitated proteins",
-          "id": "a98da3cc-fcaf-42a0-989e-c762e84783cb",
-          "node_id": "4155aa09-0217-4434-87f4-d10112975726"
+          "id": "dfb4a9dd-63e9-4c6e-8242-20e4e8a02af6",
+          "node_id": "3d700580-5bfd-4536-acf5-dc697d746dcf"
         }
       ]
     }
