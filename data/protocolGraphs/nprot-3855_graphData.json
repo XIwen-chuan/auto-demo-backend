@@ -1,273 +1,355 @@
 {
-  "name": "nprot-3855.json",
+  "name": "nprot-3855_graphData.json",
   "nodes": [
     {
-      "id": "79168b31-b0cc-465e-b10f-9d2db699646d",
-      "text": "Incubate the MTP well surface with 100 \u03bcL of 1% (w/v) KOH in DIW for 10 min and wash five times with 300 \u03bcL DIW per well). CRITICAL STEP KOH treatment should not be over 10 min as it may cause strong aberrations in the surface that may change the surface properties. ",
-      "instruction": "INCUBATE",
+      "id": "67666fbc-768e-4b0a-a4a9-5d619b8ada7d",
+      "text": "KOH treatment should not be over 10 min as it may cause strong aberrations in the surface that may change the surface properties.",
+      "instruction": "TREAT",
       "slots": [
         {
-          "key": "it's a slot key",
-          "value": "it's a slot value",
-          "id": "79168b31-b0cc-465e-b10f-9d2db699646d",
-          "node_id": "79168b31-b0cc-465e-b10f-9d2db699646d"
+          "key": "reagent1",
+          "value": "MTP well surface",
+          "id": "6a8459f5-81da-4a25-9f54-da0be5b0254b",
+          "node_id": "67666fbc-768e-4b0a-a4a9-5d619b8ada7d"
+        },
+        {
+          "key": "reagent2",
+          "value": "1% (w/v) KOH in DIW",
+          "id": "987728af-45e5-4800-a090-1bf6ed8e9ea4",
+          "node_id": "67666fbc-768e-4b0a-a4a9-5d619b8ada7d"
+        },
+        {
+          "key": "temperature",
+          "value": "room temperature",
+          "id": "d756f470-02b1-4d74-a450-6e9d5a6c29f8",
+          "node_id": "67666fbc-768e-4b0a-a4a9-5d619b8ada7d"
+        },
+        {
+          "key": "time",
+          "value": "10 min",
+          "id": "1da43a8f-e2b7-4808-a144-4a95e8038e1a",
+          "node_id": "67666fbc-768e-4b0a-a4a9-5d619b8ada7d"
+        },
+        {
+          "key": "notice",
+          "value": "It may cause strong aberrations in the surface that may change the surface properties.",
+          "id": "eb89aad3-d77a-416a-86e0-881178900841",
+          "node_id": "67666fbc-768e-4b0a-a4a9-5d619b8ada7d"
+        }
+      ],
+      "emits": [
+        {
+          "key": "reagent0",
+          "value": "MTP well surface",
+          "id": "f4a9b408-5417-41b1-8109-bc5689a8959e",
+          "node_id": "67666fbc-768e-4b0a-a4a9-5d619b8ada7d"
+        }
+      ]
+    },
+    {
+      "id": "4006fb2a-d0be-4ec1-9889-ee0c3078a1ed",
+      "text": "Use filtered BSA or filter the BSA solution prior to use to remove any microbial or other contaminants.",
+      "instruction": "FILTER",
+      "slots": [
+        {
+          "key": "reagent1",
+          "value": "BSA solution",
+          "id": "58d91c48-0299-4358-b7ea-a5f4a248467b",
+          "node_id": "4006fb2a-d0be-4ec1-9889-ee0c3078a1ed"
+        },
+        {
+          "key": "filter",
+          "value": "0.22 \u03bcm filter",
+          "id": "bcb8f56a-da26-4305-a6f6-ac146e2a3d8a",
+          "node_id": "4006fb2a-d0be-4ec1-9889-ee0c3078a1ed"
+        }
+      ],
+      "emits": [
+        {
+          "key": "reagent0",
+          "value": "filtered BSA solution",
+          "id": "0cbc37fc-a120-4fe6-a683-f1a2e9a39001",
+          "node_id": "4006fb2a-d0be-4ec1-9889-ee0c3078a1ed"
+        }
+      ]
+    },
+    {
+      "id": "a34c14aa-0700-4b5d-9ab2-7bc6779463d3",
+      "text": "Prepare the human CRP concentrations in BSA-preblocked sample vials to minimize the analyte loss due to non-specific surface binding <sup>39</sup>.",
+      "instruction": "PREPARE",
+      "slots": [
+        {
+          "key": "reagent1",
+          "value": "human CRP concentrations",
+          "id": "134f80e7-6258-4494-8129-604845f53d52",
+          "node_id": "a34c14aa-0700-4b5d-9ab2-7bc6779463d3"
+        },
+        {
+          "key": "container",
+          "value": "BSA-preblocked sample vials",
+          "id": "abed2a50-371e-4323-a833-7215de257e10",
+          "node_id": "a34c14aa-0700-4b5d-9ab2-7bc6779463d3"
+        },
+        {
+          "key": "notice",
+          "value": "to minimize the analyte loss due to non-specific surface binding",
+          "id": "865a2072-c5b6-4916-8284-1937967baed9",
+          "node_id": "a34c14aa-0700-4b5d-9ab2-7bc6779463d3"
+        }
+      ],
+      "emits": [
+        {
+          "key": "reagent0",
+          "value": "human CRP concentrations",
+          "id": "1df35e46-4e11-47ec-952e-8e6af57fd09b",
+          "node_id": "a34c14aa-0700-4b5d-9ab2-7bc6779463d3"
+        }
+      ]
+    },
+    {
+      "id": "3fb680ea-84f1-4484-a377-71b4b50dceb9",
+      "text": "). Place the iPAD mini in the designated groove of the base holder followed by placing the 96-well MTP on the iPAD mini\u2019s screensaver that provides white light-based bottom illumination only in the specific regions corresponding to the bottom of the MTP\u2019s wells. Put the dark box on top of the base holder in the alignment groove. Perform the Samsung SIII mini\u2019s back camera based imaging of the colorimetric reaction in the MTP by placing the smartphone inside the designated groove on top of the dark hood.",
+      "instruction": "PLACE",
+      "slots": [
+        {
+          "key": "reagent1",
+          "value": "iPAD mini",
+          "id": "07ad8fa0-7d89-4c1e-b1ab-f175d5687938",
+          "node_id": "3fb680ea-84f1-4484-a377-71b4b50dceb9"
+        },
+        {
+          "key": "destination",
+          "value": "designated groove of the base holder",
+          "id": "253f637a-e963-4157-b137-a85a5e1a4787",
+          "node_id": "3fb680ea-84f1-4484-a377-71b4b50dceb9"
+        }
+      ],
+      "emits": [
+        {
+          "key": "reagent0",
+          "value": "iPAD mini",
+          "id": "33f23145-b92b-45f8-938c-8af22a56a3bc",
+          "node_id": "3fb680ea-84f1-4484-a377-71b4b50dceb9"
+        }
+      ]
+    },
+    {
+      "id": "cfd5a7b2-696a-459f-9222-221f79759060",
+      "text": "). Place the iPAD mini in the designated groove of the base holder followed by placing the 96-well MTP on the iPAD mini\u2019s screensaver that provides white light-based bottom illumination only in the specific regions corresponding to the bottom of the MTP\u2019s wells. Put the dark box on top of the base holder in the alignment groove. Perform the Samsung SIII mini\u2019s back camera based imaging of the colorimetric reaction in the MTP by placing the smartphone inside the designated groove on top of the dark hood.",
+      "instruction": "PLACE",
+      "slots": [
+        {
+          "key": "reagent1",
+          "value": "96-well MTP",
+          "id": "beaf23b0-3b9b-48ee-86a4-7694c5659993",
+          "node_id": "cfd5a7b2-696a-459f-9222-221f79759060"
+        },
+        {
+          "key": "destination",
+          "value": "iPAD mini\u2019s screensaver",
+          "id": "ba06def4-f082-4647-8405-62fcf7e9b96c",
+          "node_id": "cfd5a7b2-696a-459f-9222-221f79759060"
+        }
+      ],
+      "emits": [
+        {
+          "key": "reagent0",
+          "value": "96-well MTP",
+          "id": "7efaa8bd-d9cb-4a2e-96f2-966bd46333b7",
+          "node_id": "cfd5a7b2-696a-459f-9222-221f79759060"
+        }
+      ]
+    },
+    {
+      "id": "202b588f-48be-413d-b5cc-dba450a6d740",
+      "text": "). Place the iPAD mini in the designated groove of the base holder followed by placing the 96-well MTP on the iPAD mini\u2019s screensaver that provides white light-based bottom illumination only in the specific regions corresponding to the bottom of the MTP\u2019s wells. Put the dark box on top of the base holder in the alignment groove. Perform the Samsung SIII mini\u2019s back camera based imaging of the colorimetric reaction in the MTP by placing the smartphone inside the designated groove on top of the dark hood.",
+      "instruction": "PUT",
+      "slots": [
+        {
+          "key": "reagent1",
+          "value": "dark box",
+          "id": "b538e822-3300-452d-b341-9cb7cb68c345",
+          "node_id": "202b588f-48be-413d-b5cc-dba450a6d740"
+        },
+        {
+          "key": "destination",
+          "value": "top of the base holder in the alignment groove",
+          "id": "2064c821-e24b-4b62-9d1e-79def6326106",
+          "node_id": "202b588f-48be-413d-b5cc-dba450a6d740"
         }
       ],
       "emits": []
     },
     {
-      "id": "42e86240-f85e-4e75-9d62-dfcda4754d22",
-      "text": "Mix EDC-activated Ab with GNPs (1 mg mL-1) in 0.25% APTES in the ratio of 1:1 (v/v). Add 100 \u00b5L of the resulting anti-human CRP Ab solution (2 \u00b5g mL-1, 0.5 mg mL-1 GNPs and 0.125% APTES) to the MTP wells and incubate for 30 min at RT. Wash the resulting Ab-bound and GNPs-functionalized MTP wells five times with 300 \u03bcL of PBST.",
-      "instruction": "MIX",
-      "slots": [
-        {
-          "key": "it's a slot key",
-          "value": "it's a slot value",
-          "id": "42e86240-f85e-4e75-9d62-dfcda4754d22",
-          "node_id": "42e86240-f85e-4e75-9d62-dfcda4754d22"
-        }
-      ],
-      "emits": []
-    },
-    {
-      "id": "4ad57286-fb8a-4e38-97ad-275a12a2de61",
-      "text": "Block the MTP wells by incubating with 300 \u03bcL of 5% (w/v) BSA for 30 min a 37 \u00b0C and wash with 300 \u03bcL of wash buffer five times. Washing can also be performed with an automatic plate washer. The blocking is essential to prevent non-specific binding to the unbound sites available on the GNPs and the MTP",
-      "instruction": "BLOCK",
-      "slots": [
-        {
-          "key": "it's a slot key",
-          "value": "it's a slot value",
-          "id": "4ad57286-fb8a-4e38-97ad-275a12a2de61",
-          "node_id": "4ad57286-fb8a-4e38-97ad-275a12a2de61"
-        }
-      ],
-      "emits": []
-    },
-    {
-      "id": "dc7ee0e4-a71d-43ba-b47d-5e31287e4b5a",
-      "text": "CRITICAL STEP Use filtered BSA or filter the BSA solution prior to use to remove any microbial or other contaminants.",
-      "instruction": "ADD",
-      "slots": [
-        {
-          "key": "it's a slot key",
-          "value": "it's a slot value",
-          "id": "dc7ee0e4-a71d-43ba-b47d-5e31287e4b5a",
-          "node_id": "dc7ee0e4-a71d-43ba-b47d-5e31287e4b5a"
-        }
-      ],
-      "emits": []
-    },
-    {
-      "id": "ff07aa56-95b6-4b53-a42c-893f2e2b0f8d",
-      "text": "Dispense sequentially 100 \u00b5L of biotinylated anti-CRP detection Ab (0.17 \u00b5g mL-1) pre-conjugated to SA-HRP and 100 \u00b5L of CRP (varying concentrations; 0.3-81 ng mL-1) to the Ab-bound and BSA-blocked MTP wells. Incubate for 15 min at 37 \u00b0C. CRITICAL STEP Prepare the human CRP concentrations in BSA-preblocked sample vials to minimize the analyte loss due to non-specific surface binding ",
-      "instruction": "DISPENSE",
-      "slots": [
-        {
-          "key": "it's a slot key",
-          "value": "it's a slot value",
-          "id": "ff07aa56-95b6-4b53-a42c-893f2e2b0f8d",
-          "node_id": "ff07aa56-95b6-4b53-a42c-893f2e2b0f8d"
-        }
-      ],
-      "emits": []
-    },
-    {
-      "id": "284f4160-392e-498a-8540-efd9cbd9a6ce",
-      "text": "Wash the resulting sandwich immune complex-bound MTP with 300 \u00b5L of PBST five times to remove the non-specifically substances and excess IA reagents",
-      "instruction": "ADD",
-      "slots": [
-        {
-          "key": "it's a slot key",
-          "value": "it's a slot value",
-          "id": "284f4160-392e-498a-8540-efd9cbd9a6ce",
-          "node_id": "284f4160-392e-498a-8540-efd9cbd9a6ce"
-        }
-      ],
-      "emits": []
-    },
-    {
-      "id": "32cd143f-8651-47d5-914b-95157becbdd6",
-      "text": "Add 100 \u00b5L of the TMB-H2O2 mixture to each MTP well and incubate at RT for 4 min to allow the enzymatic reaction to develop color",
-      "instruction": "ADD",
-      "slots": [
-        {
-          "key": "it's a slot key",
-          "value": "it's a slot value",
-          "id": "32cd143f-8651-47d5-914b-95157becbdd6",
-          "node_id": "32cd143f-8651-47d5-914b-95157becbdd6"
-        }
-      ],
-      "emits": []
-    },
-    {
-      "id": "08f2d072-81bc-46d8-9d4a-89bdd0c0233e",
-      "text": "Stop the enzymatic reaction by adding 50 \u00b5L of 2N H2SO4 to each MTP well.",
-      "instruction": "ADD",
-      "slots": [
-        {
-          "key": "it's a slot key",
-          "value": "it's a slot value",
-          "id": "08f2d072-81bc-46d8-9d4a-89bdd0c0233e",
-          "node_id": "08f2d072-81bc-46d8-9d4a-89bdd0c0233e"
-        }
-      ],
-      "emits": []
-    },
-    {
-      "id": "99fc8b12-9593-408f-97f2-f5600c1d65a4",
-      "text": "Perform the colorimetric readout of the MTP by smartphone imaging using our developed SBCR set up. Place the iPAD mini in the designated groove of the base holder followed by placing the 96-well MTP on the iPAD mini\u2019s screensaver that provides white light-based bottom illumination only in the specific regions corresponding to the bottom of the MTP\u2019s wells. Put the dark box on top of the base holder in the alignment groove. Perform the Samsung SIII mini\u2019s back camera based imaging of the colorimetric reaction in the MTP by placing the smartphone inside the designated groove on top of the dark hood",
+      "id": "5bac4ffe-85ac-4906-8262-aa6f15486fd8",
+      "text": "). Place the iPAD mini in the designated groove of the base holder followed by placing the 96-well MTP on the iPAD mini\u2019s screensaver that provides white light-based bottom illumination only in the specific regions corresponding to the bottom of the MTP\u2019s wells. Put the dark box on top of the base holder in the alignment groove. Perform the Samsung SIII mini\u2019s back camera based imaging of the colorimetric reaction in the MTP by placing the smartphone inside the designated groove on top of the dark hood.",
       "instruction": "PERFORM",
       "slots": [
         {
-          "key": "it's a slot key",
-          "value": "it's a slot value",
-          "id": "99fc8b12-9593-408f-97f2-f5600c1d65a4",
-          "node_id": "99fc8b12-9593-408f-97f2-f5600c1d65a4"
+          "key": "procedure",
+          "value": "Perform the Samsung SIII mini\u2019s back camera based imaging of the colorimetric reaction in the MTP by placing the smartphone inside the designated groove on top of the dark hood.",
+          "id": "dde768b0-405a-46e5-9f04-3253d4e01c3b",
+          "node_id": "5bac4ffe-85ac-4906-8262-aa6f15486fd8"
+        },
+        {
+          "key": "equipment",
+          "value": "iPAD mini",
+          "id": "8cc1276a-b50d-4cc1-8e1f-ffc444a96c69",
+          "node_id": "5bac4ffe-85ac-4906-8262-aa6f15486fd8"
         }
       ],
       "emits": []
     },
     {
-      "id": "ab6c589c-7deb-418c-b748-528c589356dd",
-      "text": "Determine the desired pixel intensity (PI) of the captured smartphone image by Image J (http://imagej.nih.gov/ij) . Split the color channel of the image and identify the pixel coordinate of individual MTP well\u2019s center using the red channel image. A mean of neighboring pixels (varies based on the resolution of the camera) from the center was calculated for all the channels individually. The composite mean PI (CMPI) was derived from the following color-weighted formula [CMPI = 0.7 MPIBlue + 0.2 MPIGreen + 0.1 MPIRed]. The desired PI was then determined as 255 \u2013 CMPITest Conc \u2013 CMPIBlank. Plot the resulting CMPI against their respective logarithmic CRP concentrations using the four-parameter logistic based standard curve analysis. Determine the concentration of unknown CRP samples on the basis of their PI from the resulting calibration plot.",
-      "instruction": "ADD",
+      "id": "3c7e8c0b-daa9-40e7-b966-532c06a7ff44",
+      "text": "). Split the color channel of the image and identify the pixel coordinate of individual MTP well\u2019s center using the red channel image. A mean of neighboring pixels \\(varies based on the resolution of the camera) from the center was calculated for all the channels individually. The composite mean PI \\(CMPI) was derived from the following color-weighted formula \\[CMPI = 0.7 MPI<sub>Blue</sub> + 0.2 MPI<sub>Green</sub> + 0.1 MPI<sub>Red</sub>].  The desired PI was then determined as 255 \u2013 CMPI<sub>Test Conc</sub> \u2013 CMPI<sub>Blank</sub>. Plot the resulting CMPI against their respective logarithmic CRP concentrations using the four-parameter logistic based standard curve analysis. Determine the concentration of unknown CRP samples on the basis of their PI from the resulting calibration plot.",
+      "instruction": "SPLIT",
       "slots": [
         {
-          "key": "it's a slot key",
-          "value": "it's a slot value",
-          "id": "ab6c589c-7deb-418c-b748-528c589356dd",
-          "node_id": "ab6c589c-7deb-418c-b748-528c589356dd"
+          "key": "reagent1",
+          "value": "image",
+          "id": "b2c42fd1-1e5e-4407-87f5-ec71bad06030",
+          "node_id": "3c7e8c0b-daa9-40e7-b966-532c06a7ff44"
+        },
+        {
+          "key": "destination",
+          "value": "color channel",
+          "id": "c93f6a50-8b1c-4664-8347-54bc05417300",
+          "node_id": "3c7e8c0b-daa9-40e7-b966-532c06a7ff44"
         }
       ],
-      "emits": []
+      "emits": [
+        {
+          "key": "reagent0",
+          "value": "image",
+          "id": "b2e09c9d-3e0b-40e6-bafd-d1bd111e7501",
+          "node_id": "3c7e8c0b-daa9-40e7-b966-532c06a7ff44"
+        }
+      ]
+    },
+    {
+      "id": "34ea075e-1fa6-4390-8226-af7ab3023dac",
+      "text": "). Split the color channel of the image and identify the pixel coordinate of individual MTP well\u2019s center using the red channel image. A mean of neighboring pixels \\(varies based on the resolution of the camera) from the center was calculated for all the channels individually. The composite mean PI \\(CMPI) was derived from the following color-weighted formula \\[CMPI = 0.7 MPI<sub>Blue</sub> + 0.2 MPI<sub>Green</sub> + 0.1 MPI<sub>Red</sub>].  The desired PI was then determined as 255 \u2013 CMPI<sub>Test Conc</sub> \u2013 CMPI<sub>Blank</sub>. Plot the resulting CMPI against their respective logarithmic CRP concentrations using the four-parameter logistic based standard curve analysis. Determine the concentration of unknown CRP samples on the basis of their PI from the resulting calibration plot.",
+      "instruction": "CALCULATE",
+      "slots": [
+        {
+          "key": "attribute",
+          "value": "mean of neighboring pixels",
+          "id": "bfb96adf-5ee7-486a-924e-b5edb18de7ce",
+          "node_id": "34ea075e-1fa6-4390-8226-af7ab3023dac"
+        },
+        {
+          "key": "formula",
+          "value": "<blank>",
+          "id": "357e62b5-4b41-4405-9280-c2cf47bdc1b0",
+          "node_id": "34ea075e-1fa6-4390-8226-af7ab3023dac"
+        },
+        {
+          "key": "variables",
+          "value": "<blank>",
+          "id": "7a254448-e5f9-4772-84d1-83a61548f67f",
+          "node_id": "34ea075e-1fa6-4390-8226-af7ab3023dac"
+        },
+        {
+          "key": "values",
+          "value": "<blank>",
+          "id": "d3c0ecfb-2910-4b0f-aa22-8fdb0d6ec7cd",
+          "node_id": "34ea075e-1fa6-4390-8226-af7ab3023dac"
+        },
+        {
+          "key": "units",
+          "value": "<blank>",
+          "id": "7d27eac2-3b92-41f5-af5f-34c7dc206a26",
+          "node_id": "34ea075e-1fa6-4390-8226-af7ab3023dac"
+        },
+        {
+          "key": "software",
+          "value": "<blank>",
+          "id": "791b069a-2b94-4a1c-8abf-e4e6703d1c57",
+          "node_id": "34ea075e-1fa6-4390-8226-af7ab3023dac"
+        },
+        {
+          "key": "notice",
+          "value": "<blank>",
+          "id": "9e3fb041-c23c-4cd4-bda6-9a7dd2cba314",
+          "node_id": "34ea075e-1fa6-4390-8226-af7ab3023dac"
+        }
+      ],
+      "emits": [
+        {
+          "key": "result",
+          "value": "<blank>",
+          "id": "a72264cf-68ce-4fd6-9c73-bd11d5bb4e3b",
+          "node_id": "34ea075e-1fa6-4390-8226-af7ab3023dac"
+        }
+      ]
+    },
+    {
+      "id": "d5e332ec-914a-404e-b5e8-4e835637b86b",
+      "text": "). Split the color channel of the image and identify the pixel coordinate of individual MTP well\u2019s center using the red channel image. A mean of neighboring pixels \\(varies based on the resolution of the camera) from the center was calculated for all the channels individually. The composite mean PI \\(CMPI) was derived from the following color-weighted formula \\[CMPI = 0.7 MPI<sub>Blue</sub> + 0.2 MPI<sub>Green</sub> + 0.1 MPI<sub>Red</sub>].  The desired PI was then determined as 255 \u2013 CMPI<sub>Test Conc</sub> \u2013 CMPI<sub>Blank</sub>. Plot the resulting CMPI against their respective logarithmic CRP concentrations using the four-parameter logistic based standard curve analysis. Determine the concentration of unknown CRP samples on the basis of their PI from the resulting calibration plot.",
+      "instruction": "DETERMINE",
+      "slots": [
+        {
+          "key": "device",
+          "value": "iPAD mini",
+          "id": "de3ab027-b3bf-4824-a841-e3333e1b72ac",
+          "node_id": "d5e332ec-914a-404e-b5e8-4e835637b86b"
+        },
+        {
+          "key": "reagent1",
+          "value": "Ab-bound and BSA-blocked MTP wells",
+          "id": "347d3edb-0976-4418-8251-df698f2b91dd",
+          "node_id": "d5e332ec-914a-404e-b5e8-4e835637b86b"
+        },
+        {
+          "key": "parameter",
+          "value": "PI",
+          "id": "80de62aa-a53e-4b87-8baa-6df5501a46e4",
+          "node_id": "d5e332ec-914a-404e-b5e8-4e835637b86b"
+        }
+      ],
+      "emits": [
+        {
+          "key": "data0",
+          "value": "255 - CMPI<sub>Test Conc</sub> - CMPI<sub>Blank</sub>",
+          "id": "7149cd82-685a-4b90-9b44-b6c93b2f05d0",
+          "node_id": "d5e332ec-914a-404e-b5e8-4e835637b86b"
+        }
+      ]
+    },
+    {
+      "id": "7daffea2-7e60-4126-b492-f66a23ab9153",
+      "text": "). Split the color channel of the image and identify the pixel coordinate of individual MTP well\u2019s center using the red channel image. A mean of neighboring pixels \\(varies based on the resolution of the camera) from the center was calculated for all the channels individually. The composite mean PI \\(CMPI) was derived from the following color-weighted formula \\[CMPI = 0.7 MPI<sub>Blue</sub> + 0.2 MPI<sub>Green</sub> + 0.1 MPI<sub>Red</sub>].  The desired PI was then determined as 255 \u2013 CMPI<sub>Test Conc</sub> \u2013 CMPI<sub>Blank</sub>. Plot the resulting CMPI against their respective logarithmic CRP concentrations using the four-parameter logistic based standard curve analysis. Determine the concentration of unknown CRP samples on the basis of their PI from the resulting calibration plot.",
+      "instruction": "DETERMINE",
+      "slots": [
+        {
+          "key": "device",
+          "value": "iPAD mini",
+          "id": "0d941379-4206-4a55-9fed-31e939c9b5c2",
+          "node_id": "7daffea2-7e60-4126-b492-f66a23ab9153"
+        },
+        {
+          "key": "reagent1",
+          "value": "Ab-bound and BSA-blocked MTP wells",
+          "id": "185ab159-eed6-4ef1-bb57-d7bdf715d338",
+          "node_id": "7daffea2-7e60-4126-b492-f66a23ab9153"
+        },
+        {
+          "key": "parameter",
+          "value": "PI",
+          "id": "beef4244-1948-4323-aa00-00cd8b2a0c40",
+          "node_id": "7daffea2-7e60-4126-b492-f66a23ab9153"
+        }
+      ],
+      "emits": [
+        {
+          "key": "data0",
+          "value": "255 - CMPI<sub>Test Conc</sub> - CMPI<sub>Blank</sub>",
+          "id": "cec9d6fe-0b02-46e5-8516-7f35e491540a",
+          "node_id": "7daffea2-7e60-4126-b492-f66a23ab9153"
+        }
+      ]
     }
   ],
-  "edges": [
-    {
-      "id": "169ed58e-4a3e-430b-91f3-13895eb1f45b",
-      "source": {
-        "text": "Incubate the MTP well surface with 100 \u03bcL of 1% (w/v) KOH in DIW for 10 min and wash five times with 300 \u03bcL DIW per well). CRITICAL STEP KOH treatment should not be over 10 min as it may cause strong aberrations in the surface that may change the surface properties. ",
-        "node_id": "79168b31-b0cc-465e-b10f-9d2db699646d",
-        "attr_id": "79168b31-b0cc-465e-b10f-9d2db699646d"
-      },
-      "target": {
-        "text": "Mix EDC-activated Ab with GNPs (1 mg mL-1) in 0.25% APTES in the ratio of 1:1 (v/v). Add 100 \u00b5L of the resulting anti-human CRP Ab solution (2 \u00b5g mL-1, 0.5 mg mL-1 GNPs and 0.125% APTES) to the MTP wells and incubate for 30 min at RT. Wash the resulting Ab-bound and GNPs-functionalized MTP wells five times with 300 \u03bcL of PBST.",
-        "node_id": "42e86240-f85e-4e75-9d62-dfcda4754d22",
-        "attr_id": "42e86240-f85e-4e75-9d62-dfcda4754d22"
-      },
-      "text": "it's a edge text"
-    },
-    {
-      "id": "047b34f7-91aa-41c7-b044-85eaafa7de1d",
-      "source": {
-        "text": "Mix EDC-activated Ab with GNPs (1 mg mL-1) in 0.25% APTES in the ratio of 1:1 (v/v). Add 100 \u00b5L of the resulting anti-human CRP Ab solution (2 \u00b5g mL-1, 0.5 mg mL-1 GNPs and 0.125% APTES) to the MTP wells and incubate for 30 min at RT. Wash the resulting Ab-bound and GNPs-functionalized MTP wells five times with 300 \u03bcL of PBST.",
-        "node_id": "42e86240-f85e-4e75-9d62-dfcda4754d22",
-        "attr_id": "42e86240-f85e-4e75-9d62-dfcda4754d22"
-      },
-      "target": {
-        "text": "Block the MTP wells by incubating with 300 \u03bcL of 5% (w/v) BSA for 30 min a 37 \u00b0C and wash with 300 \u03bcL of wash buffer five times. Washing can also be performed with an automatic plate washer. The blocking is essential to prevent non-specific binding to the unbound sites available on the GNPs and the MTP",
-        "node_id": "4ad57286-fb8a-4e38-97ad-275a12a2de61",
-        "attr_id": "4ad57286-fb8a-4e38-97ad-275a12a2de61"
-      },
-      "text": "it's a edge text"
-    },
-    {
-      "id": "a4c07ec1-79a9-4074-bc99-9f00faf4794f",
-      "source": {
-        "text": "CRITICAL STEP Use filtered BSA or filter the BSA solution prior to use to remove any microbial or other contaminants.",
-        "node_id": "dc7ee0e4-a71d-43ba-b47d-5e31287e4b5a",
-        "attr_id": "dc7ee0e4-a71d-43ba-b47d-5e31287e4b5a"
-      },
-      "target": {
-        "text": "Block the MTP wells by incubating with 300 \u03bcL of 5% (w/v) BSA for 30 min a 37 \u00b0C and wash with 300 \u03bcL of wash buffer five times. Washing can also be performed with an automatic plate washer. The blocking is essential to prevent non-specific binding to the unbound sites available on the GNPs and the MTP",
-        "node_id": "4ad57286-fb8a-4e38-97ad-275a12a2de61",
-        "attr_id": "4ad57286-fb8a-4e38-97ad-275a12a2de61"
-      },
-      "text": "it's a edge text"
-    },
-    {
-      "id": "708a8cd0-8a9d-4c1d-b3fd-3b149883ce75",
-      "source": {
-        "text": "Block the MTP wells by incubating with 300 \u03bcL of 5% (w/v) BSA for 30 min a 37 \u00b0C and wash with 300 \u03bcL of wash buffer five times. Washing can also be performed with an automatic plate washer. The blocking is essential to prevent non-specific binding to the unbound sites available on the GNPs and the MTP",
-        "node_id": "4ad57286-fb8a-4e38-97ad-275a12a2de61",
-        "attr_id": "4ad57286-fb8a-4e38-97ad-275a12a2de61"
-      },
-      "target": {
-        "text": "Dispense sequentially 100 \u00b5L of biotinylated anti-CRP detection Ab (0.17 \u00b5g mL-1) pre-conjugated to SA-HRP and 100 \u00b5L of CRP (varying concentrations; 0.3-81 ng mL-1) to the Ab-bound and BSA-blocked MTP wells. Incubate for 15 min at 37 \u00b0C. CRITICAL STEP Prepare the human CRP concentrations in BSA-preblocked sample vials to minimize the analyte loss due to non-specific surface binding ",
-        "node_id": "ff07aa56-95b6-4b53-a42c-893f2e2b0f8d",
-        "attr_id": "ff07aa56-95b6-4b53-a42c-893f2e2b0f8d"
-      },
-      "text": "it's a edge text"
-    },
-    {
-      "id": "9777bb1c-4e0d-4ca7-9c60-a185f442827d",
-      "source": {
-        "text": "Dispense sequentially 100 \u00b5L of biotinylated anti-CRP detection Ab (0.17 \u00b5g mL-1) pre-conjugated to SA-HRP and 100 \u00b5L of CRP (varying concentrations; 0.3-81 ng mL-1) to the Ab-bound and BSA-blocked MTP wells. Incubate for 15 min at 37 \u00b0C. CRITICAL STEP Prepare the human CRP concentrations in BSA-preblocked sample vials to minimize the analyte loss due to non-specific surface binding ",
-        "node_id": "ff07aa56-95b6-4b53-a42c-893f2e2b0f8d",
-        "attr_id": "ff07aa56-95b6-4b53-a42c-893f2e2b0f8d"
-      },
-      "target": {
-        "text": "Wash the resulting sandwich immune complex-bound MTP with 300 \u00b5L of PBST five times to remove the non-specifically substances and excess IA reagents",
-        "node_id": "284f4160-392e-498a-8540-efd9cbd9a6ce",
-        "attr_id": "284f4160-392e-498a-8540-efd9cbd9a6ce"
-      },
-      "text": "it's a edge text"
-    },
-    {
-      "id": "b9cba23a-2a9b-4737-978f-74ef5324133c",
-      "source": {
-        "text": "Wash the resulting sandwich immune complex-bound MTP with 300 \u00b5L of PBST five times to remove the non-specifically substances and excess IA reagents",
-        "node_id": "284f4160-392e-498a-8540-efd9cbd9a6ce",
-        "attr_id": "284f4160-392e-498a-8540-efd9cbd9a6ce"
-      },
-      "target": {
-        "text": "Add 100 \u00b5L of the TMB-H2O2 mixture to each MTP well and incubate at RT for 4 min to allow the enzymatic reaction to develop color",
-        "node_id": "32cd143f-8651-47d5-914b-95157becbdd6",
-        "attr_id": "32cd143f-8651-47d5-914b-95157becbdd6"
-      },
-      "text": "it's a edge text"
-    },
-    {
-      "id": "3477b1bd-c76d-4017-ac18-d5bfad6371ba",
-      "source": {
-        "text": "Add 100 \u00b5L of the TMB-H2O2 mixture to each MTP well and incubate at RT for 4 min to allow the enzymatic reaction to develop color",
-        "node_id": "32cd143f-8651-47d5-914b-95157becbdd6",
-        "attr_id": "32cd143f-8651-47d5-914b-95157becbdd6"
-      },
-      "target": {
-        "text": "Stop the enzymatic reaction by adding 50 \u00b5L of 2N H2SO4 to each MTP well.",
-        "node_id": "08f2d072-81bc-46d8-9d4a-89bdd0c0233e",
-        "attr_id": "08f2d072-81bc-46d8-9d4a-89bdd0c0233e"
-      },
-      "text": "it's a edge text"
-    },
-    {
-      "id": "707ced92-d9c8-49e7-ba99-0ed01ab4fd23",
-      "source": {
-        "text": "Stop the enzymatic reaction by adding 50 \u00b5L of 2N H2SO4 to each MTP well.",
-        "node_id": "08f2d072-81bc-46d8-9d4a-89bdd0c0233e",
-        "attr_id": "08f2d072-81bc-46d8-9d4a-89bdd0c0233e"
-      },
-      "target": {
-        "text": "Perform the colorimetric readout of the MTP by smartphone imaging using our developed SBCR set up. Place the iPAD mini in the designated groove of the base holder followed by placing the 96-well MTP on the iPAD mini\u2019s screensaver that provides white light-based bottom illumination only in the specific regions corresponding to the bottom of the MTP\u2019s wells. Put the dark box on top of the base holder in the alignment groove. Perform the Samsung SIII mini\u2019s back camera based imaging of the colorimetric reaction in the MTP by placing the smartphone inside the designated groove on top of the dark hood",
-        "node_id": "99fc8b12-9593-408f-97f2-f5600c1d65a4",
-        "attr_id": "99fc8b12-9593-408f-97f2-f5600c1d65a4"
-      },
-      "text": "it's a edge text"
-    },
-    {
-      "id": "bb2a7a32-8491-4c45-b1c9-ccdfb5253d80",
-      "source": {
-        "text": "Perform the colorimetric readout of the MTP by smartphone imaging using our developed SBCR set up. Place the iPAD mini in the designated groove of the base holder followed by placing the 96-well MTP on the iPAD mini\u2019s screensaver that provides white light-based bottom illumination only in the specific regions corresponding to the bottom of the MTP\u2019s wells. Put the dark box on top of the base holder in the alignment groove. Perform the Samsung SIII mini\u2019s back camera based imaging of the colorimetric reaction in the MTP by placing the smartphone inside the designated groove on top of the dark hood",
-        "node_id": "99fc8b12-9593-408f-97f2-f5600c1d65a4",
-        "attr_id": "99fc8b12-9593-408f-97f2-f5600c1d65a4"
-      },
-      "target": {
-        "text": "Determine the desired pixel intensity (PI) of the captured smartphone image by Image J (http://imagej.nih.gov/ij) . Split the color channel of the image and identify the pixel coordinate of individual MTP well\u2019s center using the red channel image. A mean of neighboring pixels (varies based on the resolution of the camera) from the center was calculated for all the channels individually. The composite mean PI (CMPI) was derived from the following color-weighted formula [CMPI = 0.7 MPIBlue + 0.2 MPIGreen + 0.1 MPIRed]. The desired PI was then determined as 255 \u2013 CMPITest Conc \u2013 CMPIBlank. Plot the resulting CMPI against their respective logarithmic CRP concentrations using the four-parameter logistic based standard curve analysis. Determine the concentration of unknown CRP samples on the basis of their PI from the resulting calibration plot.",
-        "node_id": "ab6c589c-7deb-418c-b748-528c589356dd",
-        "attr_id": "ab6c589c-7deb-418c-b748-528c589356dd"
-      },
-      "text": "it's a edge text"
-    }
-  ]
+  "edges": []
 }

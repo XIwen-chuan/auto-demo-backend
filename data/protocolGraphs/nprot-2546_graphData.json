@@ -1,553 +1,670 @@
 {
-  "name": "nprot-2546.json",
+  "name": "nprot-2546_graphData.json",
   "nodes": [
     {
-      "id": "4ffcd518-9326-423b-b842-23798efb81a3",
-      "text": "Prepare 300 uL of protein solution (50-60 \u03bcM) diluting the dialyzed protein with buffer Hepes 20 mM (pH 8.0).",
+      "id": "d7ecfd59-6273-4e74-8506-c9c95a061284",
+      "text": "Prepare 300 uL of protein solution \\(50-60 \u03bcM) diluting       the dialyzed protein with buffer Hepes 20 mM \\(pH 8.0).",
       "instruction": "PREPARE",
       "slots": [
         {
-          "key": "it's a slot key",
-          "value": "it's a slot value",
-          "id": "4ffcd518-9326-423b-b842-23798efb81a3",
-          "node_id": "4ffcd518-9326-423b-b842-23798efb81a3"
+          "key": "reagent1",
+          "value": "dialyzed protein",
+          "id": "a51e1cac-a021-451e-b484-ee8e4ffb7a90",
+          "node_id": "d7ecfd59-6273-4e74-8506-c9c95a061284"
+        },
+        {
+          "key": "concentration",
+          "value": "50-60 \u03bcM",
+          "id": "6ae29d9d-ed09-4e82-9813-4befd073087e",
+          "node_id": "d7ecfd59-6273-4e74-8506-c9c95a061284"
         }
       ],
-      "emits": []
+      "emits": [
+        {
+          "key": "reagent0",
+          "value": "protein solution",
+          "id": "3df1b2c0-1af8-4834-9213-28794d7879b7",
+          "node_id": "d7ecfd59-6273-4e74-8506-c9c95a061284"
+        }
+      ]
     },
     {
-      "id": "900afb12-9dd6-4c87-9c7a-76b317c62415",
-      "text": "Prepare ca. 100 \u03bcL of ligand solution diluting the ligand batch solution (50 mM in DMSO) with the dialysis buffer up to a concentration 10 times that of the protein",
+      "id": "25113fab-9e96-4746-84c4-5f9de26aea44",
+      "text": "Prepare ca. 100 \u03bcL of ligand solution diluting the ligand batch solution \\(50 mM in DMSO) with the dialysis buffer up to a concentration 10 times that of the protein.\r\n\n\n\r\n\n\nIn the reverse titration the protein \\(400 \u03bcM) is injected into the cell containing the ligand \\(40 \u03bcM).",
       "instruction": "PREPARE",
       "slots": [
         {
-          "key": "it's a slot key",
-          "value": "it's a slot value",
-          "id": "900afb12-9dd6-4c87-9c7a-76b317c62415",
-          "node_id": "900afb12-9dd6-4c87-9c7a-76b317c62415"
+          "key": "reagent1",
+          "value": "ligand batch solution",
+          "id": "9357aca9-e2b8-4989-a258-b87cb83beb06",
+          "node_id": "25113fab-9e96-4746-84c4-5f9de26aea44"
+        },
+        {
+          "key": "concentration",
+          "value": "10 times that of the protein",
+          "id": "d27f4a92-0a05-456b-b314-e75c78e348b5",
+          "node_id": "25113fab-9e96-4746-84c4-5f9de26aea44"
         }
       ],
-      "emits": []
+      "emits": [
+        {
+          "key": "reagent0",
+          "value": "ligand solution",
+          "id": "7ae1116c-4310-4b62-b09a-28619c28371c",
+          "node_id": "25113fab-9e96-4746-84c4-5f9de26aea44"
+        }
+      ]
     },
     {
-      "id": "e95970a7-8940-4f25-b5c6-8aa6bf3f39f1",
-      "text": "Perform the washing cycles of the cell and syringe to avoid interference of contaminants from previous runs.",
+      "id": "01b391ff-575d-4b22-92ea-6f78b1d6d162",
+      "text": "Prepare ca. 100 \u03bcL of ligand solution diluting the ligand batch solution \\(50 mM in DMSO) with the dialysis buffer up to a concentration 10 times that of the protein.\r\n\n\n\r\n\n\nIn the reverse titration the protein \\(400 \u03bcM) is injected into the cell containing the ligand \\(40 \u03bcM).",
+      "instruction": "INJECT",
+      "slots": [
+        {
+          "key": "reagent1",
+          "value": "protein solution",
+          "id": "05cbd2f2-3256-4137-8dcf-5992cb607a9d",
+          "node_id": "01b391ff-575d-4b22-92ea-6f78b1d6d162"
+        },
+        {
+          "key": "reagent2/destination",
+          "value": "cell containing the ligand",
+          "id": "772339fb-4b4c-434e-889b-71183e146c44",
+          "node_id": "01b391ff-575d-4b22-92ea-6f78b1d6d162"
+        }
+      ],
+      "emits": [
+        {
+          "key": "reagent0",
+          "value": "protein solution",
+          "id": "4653c5d2-ef8f-4e45-ba6f-65ef2256a41c",
+          "node_id": "01b391ff-575d-4b22-92ea-6f78b1d6d162"
+        }
+      ]
+    },
+    {
+      "id": "a9d1d4b6-8aef-4510-b41e-3ce6aecc503c",
+      "text": "Perform the washing cycles of the cell and syringe to avoid interference of contaminants from previous runs.\r\n\n\n \r\n\n\n",
       "instruction": "PERFORM",
       "slots": [
         {
-          "key": "it's a slot key",
-          "value": "it's a slot value",
-          "id": "e95970a7-8940-4f25-b5c6-8aa6bf3f39f1",
-          "node_id": "e95970a7-8940-4f25-b5c6-8aa6bf3f39f1"
+          "key": "procedure",
+          "value": "Perform the washing cycles of the cell and syringe",
+          "id": "7fa9413e-2429-4448-b1a4-ad39bf94963e",
+          "node_id": "a9d1d4b6-8aef-4510-b41e-3ce6aecc503c"
         }
       ],
       "emits": []
     },
     {
-      "id": "cefe1a2b-b139-49a6-8741-e2e5c05f1607",
-      "text": "In the reverse titration the protein (400 \u03bcM) is injected into the cell containing the ligand (40 \u03bcM)",
-      "instruction": "ADD",
-      "slots": [
-        {
-          "key": "it's a slot key",
-          "value": "it's a slot value",
-          "id": "cefe1a2b-b139-49a6-8741-e2e5c05f1607",
-          "node_id": "cefe1a2b-b139-49a6-8741-e2e5c05f1607"
-        }
-      ],
-      "emits": []
-    },
-    {
-      "id": "fe25a5f1-e508-4658-91be-95c32882a022",
-      "text": "CRITICAL STEP We found that this step is very important to carry out a good experiment. If necessary, wash the cell with 5% v/v DECON detergent at 60\u00b0C for 1 h and then with abundant water. It is also very important to eliminate any trace of methanol from the syringe.",
-      "instruction": "ADD",
-      "slots": [
-        {
-          "key": "it's a slot key",
-          "value": "it's a slot value",
-          "id": "fe25a5f1-e508-4658-91be-95c32882a022",
-          "node_id": "fe25a5f1-e508-4658-91be-95c32882a022"
-        }
-      ],
-      "emits": []
-    },
-    {
-      "id": "c7fd8f22-e2a9-4e8b-b579-55919e721715",
-      "text": "Perform a preliminar experiment water into water looking at the baseline stability, to be sure of the cleanness of the cell and syringe",
+      "id": "e0242a3d-8e75-4e73-9025-e6aea9f514a9",
+      "text": "Perform a preliminar experiment water into water looking at the baseline stability, to be sure of the cleanness of the cell and syringe.",
       "instruction": "PERFORM",
       "slots": [
         {
-          "key": "it's a slot key",
-          "value": "it's a slot value",
-          "id": "c7fd8f22-e2a9-4e8b-b579-55919e721715",
-          "node_id": "c7fd8f22-e2a9-4e8b-b579-55919e721715"
+          "key": "procedure",
+          "value": "Perform a preliminary experiment",
+          "id": "17f8a192-c1a9-4487-9768-0fe8e0f80b88",
+          "node_id": "e0242a3d-8e75-4e73-9025-e6aea9f514a9"
+        },
+        {
+          "key": "equipment",
+          "value": "syringe",
+          "id": "23eba59e-0719-4885-8b53-92c243823b76",
+          "node_id": "e0242a3d-8e75-4e73-9025-e6aea9f514a9"
+        },
+        {
+          "key": "environment",
+          "value": "cell",
+          "id": "d9c870d6-6b19-488c-9ac6-b8775fa55ea6",
+          "node_id": "e0242a3d-8e75-4e73-9025-e6aea9f514a9"
         }
       ],
       "emits": []
     },
     {
-      "id": "57d5b6e3-ebb5-4814-ba43-d3a1633178e9",
+      "id": "6c5d3157-5ccd-47d1-90f5-0824caa93c67",
       "text": "Rinse the sample cell with the protein buffer solution",
       "instruction": "RINSE",
       "slots": [
         {
-          "key": "it's a slot key",
-          "value": "it's a slot value",
-          "id": "57d5b6e3-ebb5-4814-ba43-d3a1633178e9",
-          "node_id": "57d5b6e3-ebb5-4814-ba43-d3a1633178e9"
+          "key": "reagent1",
+          "value": "sample cell",
+          "id": "6d4787d9-876c-47f2-a588-96baafbca5d6",
+          "node_id": "6c5d3157-5ccd-47d1-90f5-0824caa93c67"
+        },
+        {
+          "key": "reagent2",
+          "value": "protein buffer solution",
+          "id": "e491ee61-ffb5-4020-a51b-3a94075f1201",
+          "node_id": "6c5d3157-5ccd-47d1-90f5-0824caa93c67"
+        },
+        {
+          "key": "repeat",
+          "value": "1",
+          "id": "dadf6214-0986-45b8-ad42-15ee7821aa88",
+          "node_id": "6c5d3157-5ccd-47d1-90f5-0824caa93c67"
         }
       ],
-      "emits": []
+      "emits": [
+        {
+          "key": "reagent0",
+          "value": "sample cell",
+          "id": "719ace45-a5a5-49c3-9374-03f9dd9ff73b",
+          "node_id": "6c5d3157-5ccd-47d1-90f5-0824caa93c67"
+        }
+      ]
     },
     {
-      "id": "653d71eb-33ea-4d85-9bef-3ef39e924517",
-      "text": "Fill the sample cell with the protein solution avoiding bubbles",
+      "id": "aaf05913-7163-4473-ba31-8f358b838ad4",
+      "text": "Fill the sample cell with the protein solution avoiding bubbles.\r\n\n\n\r\n\n\n",
       "instruction": "FILL",
       "slots": [
         {
-          "key": "it's a slot key",
-          "value": "it's a slot value",
-          "id": "653d71eb-33ea-4d85-9bef-3ef39e924517",
-          "node_id": "653d71eb-33ea-4d85-9bef-3ef39e924517"
-        }
-      ],
-      "emits": []
-    },
-    {
-      "id": "8fcca1a6-784f-4761-8e0e-df4573b6a3c1",
-      "text": "Degas all solutions using a vacuum pump or centrifuge in order to avoid air bubbles during the experiment.",
-      "instruction": "ADD",
-      "slots": [
+          "key": "reagent1",
+          "value": "protein solution",
+          "id": "9165b595-31c8-479d-ba28-918038b46b4e",
+          "node_id": "aaf05913-7163-4473-ba31-8f358b838ad4"
+        },
         {
-          "key": "it's a slot key",
-          "value": "it's a slot value",
-          "id": "8fcca1a6-784f-4761-8e0e-df4573b6a3c1",
-          "node_id": "8fcca1a6-784f-4761-8e0e-df4573b6a3c1"
-        }
-      ],
-      "emits": []
-    },
-    {
-      "id": "4c2cc51a-552c-4bb8-855d-b4de73eb4e86",
-      "text": "Filter the protein solution to eliminate possible precipitates",
-      "instruction": "FILTER",
-      "slots": [
+          "key": "volume",
+          "value": "<blank>",
+          "id": "e1e0b900-9bd7-4475-aef2-d20ad0060764",
+          "node_id": "aaf05913-7163-4473-ba31-8f358b838ad4"
+        },
         {
-          "key": "it's a slot key",
-          "value": "it's a slot value",
-          "id": "4c2cc51a-552c-4bb8-855d-b4de73eb4e86",
-          "node_id": "4c2cc51a-552c-4bb8-855d-b4de73eb4e86"
+          "key": "container",
+          "value": "<blank>",
+          "id": "732f412b-a894-4719-906b-0e6fc4a32ae3",
+          "node_id": "aaf05913-7163-4473-ba31-8f358b838ad4"
+        },
+        {
+          "key": "notice",
+          "value": "Avoiding bubbles.",
+          "id": "4a66c672-d471-4f1b-8359-4123d20f4766",
+          "node_id": "aaf05913-7163-4473-ba31-8f358b838ad4"
         }
       ],
-      "emits": []
+      "emits": [
+        {
+          "key": "reagent0",
+          "value": "protein solution",
+          "id": "7cdae471-7447-40fa-b041-278eebd1f951",
+          "node_id": "aaf05913-7163-4473-ba31-8f358b838ad4"
+        }
+      ]
     },
     {
-      "id": "688741af-7cef-42c6-8207-2372cb6f091e",
-      "text": "Fill the syringe with the ligand solution. A couple of purge-refill cycles may be performed to avoid air bubbles in the syringe",
+      "id": "698f466f-4eeb-4e54-8a3b-ae42cdb829fe",
+      "text": "Fill the syringe with the ligand solution. A couple of purge-refill cycles may be performed to avoid air bubbles in the syringe.\r\n\n\n\r\n\n\n",
       "instruction": "FILL",
       "slots": [
         {
-          "key": "it's a slot key",
-          "value": "it's a slot value",
-          "id": "688741af-7cef-42c6-8207-2372cb6f091e",
-          "node_id": "688741af-7cef-42c6-8207-2372cb6f091e"
-        }
-      ],
-      "emits": []
-    },
-    {
-      "id": "4ccd1cea-c39f-44f5-9924-0cf6625282b3",
-      "text": "Determine very accurately the concentration of the ligand, using for example an analytical balance. Remember that the concentration of the syringe reactant is critical to the accuracy of the binding thermodynamic parameters, whilst it is always possible to correct for errors on the protein concentration after the experiment (in this case only the accuracy of the molar ratio is affected).",
-      "instruction": "ADD",
-      "slots": [
+          "key": "reagent1",
+          "value": "ligand solution",
+          "id": "600c430a-e132-4e69-af3a-859a12c63eba",
+          "node_id": "698f466f-4eeb-4e54-8a3b-ae42cdb829fe"
+        },
         {
-          "key": "it's a slot key",
-          "value": "it's a slot value",
-          "id": "4ccd1cea-c39f-44f5-9924-0cf6625282b3",
-          "node_id": "4ccd1cea-c39f-44f5-9924-0cf6625282b3"
-        }
-      ],
-      "emits": []
-    },
-    {
-      "id": "27e63ef9-0923-43d5-ad4b-f9a4a315c754",
-      "text": "Rinse the surface of the needle with water in order to eliminate any trace of the ligand and then wipe it with a Kimwipe",
-      "instruction": "RINSE",
-      "slots": [
+          "key": "volume",
+          "value": "<blank>",
+          "id": "b9303159-960e-4777-ac11-a927cf05a599",
+          "node_id": "698f466f-4eeb-4e54-8a3b-ae42cdb829fe"
+        },
         {
-          "key": "it's a slot key",
-          "value": "it's a slot value",
-          "id": "27e63ef9-0923-43d5-ad4b-f9a4a315c754",
-          "node_id": "27e63ef9-0923-43d5-ad4b-f9a4a315c754"
-        }
-      ],
-      "emits": []
-    },
-    {
-      "id": "c38d5b84-f3c7-4c36-8c22-d408e0dfa774",
-      "text": "Choose instrument settings for your experiments. In our experiments we set as follows: 20 injections, initial delay 60 sec., spacing 180 sec., filter period 5 sec., injection volume 2 \u03bcL, measurement temperature of 25\u00b0C, reference power of 5 \u03bccal s-1, stirring speed of 1000 r.p.m.",
-      "instruction": "ADD",
-      "slots": [
+          "key": "container",
+          "value": "syringe",
+          "id": "36a208c0-1482-41e7-ba82-a266c597aa51",
+          "node_id": "698f466f-4eeb-4e54-8a3b-ae42cdb829fe"
+        },
         {
-          "key": "it's a slot key",
-          "value": "it's a slot value",
-          "id": "c38d5b84-f3c7-4c36-8c22-d408e0dfa774",
-          "node_id": "c38d5b84-f3c7-4c36-8c22-d408e0dfa774"
+          "key": "notice",
+          "value": "A couple of purge-refill cycles may be performed to avoid air bubbles in the syringe.",
+          "id": "47017055-5c2f-4155-9ef2-0df65bd56091",
+          "node_id": "698f466f-4eeb-4e54-8a3b-ae42cdb829fe"
         }
       ],
-      "emits": []
-    },
-    {
-      "id": "a568d053-00bf-4361-8343-ce96542ed7d5",
-      "text": "Start the experiment after gently setting the syringe in place",
-      "instruction": "ADD",
-      "slots": [
+      "emits": [
         {
-          "key": "it's a slot key",
-          "value": "it's a slot value",
-          "id": "a568d053-00bf-4361-8343-ce96542ed7d5",
-          "node_id": "a568d053-00bf-4361-8343-ce96542ed7d5"
+          "key": "reagent0",
+          "value": "ligand solution",
+          "id": "f8b239d7-522d-4da2-b930-32bc20e63a43",
+          "node_id": "698f466f-4eeb-4e54-8a3b-ae42cdb829fe"
         }
-      ],
-      "emits": []
+      ]
     },
     {
-      "id": "73f6fa52-f446-40f9-8fea-a9d336e375ac",
-      "text": "Rerun the ITC assay again for the other experiments (reverse titration and the titration with the ligand into the protein pre-equilibrated with a second ligand). Mantain the same ITC running parameters as in the first titration.",
-      "instruction": "ADD",
-      "slots": [
-        {
-          "key": "it's a slot key",
-          "value": "it's a slot value",
-          "id": "73f6fa52-f446-40f9-8fea-a9d336e375ac",
-          "node_id": "73f6fa52-f446-40f9-8fea-a9d336e375ac"
-        }
-      ],
-      "emits": []
-    },
-    {
-      "id": "eb941395-c821-4715-acbe-f48fcc3bc1f9",
-      "text": "Perform blank experiments titrating the buffer in the cell with the ligand solution",
+      "id": "1d917a6d-4bf6-4b4b-a4aa-61f046889045",
+      "text": "Fill the syringe with the ligand solution. A couple of purge-refill cycles may be performed to avoid air bubbles in the syringe.\r\n\n\n\r\n\n\n",
       "instruction": "PERFORM",
       "slots": [
         {
-          "key": "it's a slot key",
-          "value": "it's a slot value",
-          "id": "eb941395-c821-4715-acbe-f48fcc3bc1f9",
-          "node_id": "eb941395-c821-4715-acbe-f48fcc3bc1f9"
+          "key": "procedure",
+          "value": "Perform a couple of purge-refill cycles.",
+          "id": "9bfab37f-2212-48bc-b9b9-8076be865fd4",
+          "node_id": "1d917a6d-4bf6-4b4b-a4aa-61f046889045"
+        },
+        {
+          "key": "equipment",
+          "value": "syringe",
+          "id": "6a3c264c-217c-43a2-82a6-a87473ba8a97",
+          "node_id": "1d917a6d-4bf6-4b4b-a4aa-61f046889045"
+        }
+      ],
+      "emits": [
+        {
+          "key": "reagent0",
+          "value": "ligand solution",
+          "id": "bad9f3c9-f243-4687-9cd0-85d0b9b313a1",
+          "node_id": "1d917a6d-4bf6-4b4b-a4aa-61f046889045"
+        }
+      ]
+    },
+    {
+      "id": "647b6d24-5b77-433e-9c20-4491c5027f94",
+      "text": "Rinse the surface of the needle with water in order to eliminate any trace of the ligand and then wipe it with a Kimwipe.",
+      "instruction": "RINSE",
+      "slots": [
+        {
+          "key": "reagent1",
+          "value": "needle",
+          "id": "6a62fd59-b0bc-4367-967a-a47766b79720",
+          "node_id": "647b6d24-5b77-433e-9c20-4491c5027f94"
+        },
+        {
+          "key": "reagent2",
+          "value": "water",
+          "id": "98b7425a-c891-4854-a5aa-fe5c3f0713cb",
+          "node_id": "647b6d24-5b77-433e-9c20-4491c5027f94"
+        },
+        {
+          "key": "repeat",
+          "value": "1",
+          "id": "74dcf0e0-8416-4bcc-a951-2d32079b5f97",
+          "node_id": "647b6d24-5b77-433e-9c20-4491c5027f94"
+        }
+      ],
+      "emits": [
+        {
+          "key": "reagent0",
+          "value": "needle",
+          "id": "7035e7a0-2772-409e-b5e3-e009e04255aa",
+          "node_id": "647b6d24-5b77-433e-9c20-4491c5027f94"
+        }
+      ]
+    },
+    {
+      "id": "94cb33a5-bb71-4018-9a21-839e3e433307",
+      "text": "Rinse the surface of the needle with water in order to eliminate any trace of the ligand and then wipe it with a Kimwipe.",
+      "instruction": "WIPE",
+      "slots": [
+        {
+          "key": "target",
+          "value": "needle",
+          "id": "a09465c6-4c03-426b-b857-68c2319d467f",
+          "node_id": "94cb33a5-bb71-4018-9a21-839e3e433307"
+        },
+        {
+          "key": "reagent2",
+          "value": "Kimwipe",
+          "id": "e5aa9844-99f8-466d-80f5-be24432b4fa6",
+          "node_id": "94cb33a5-bb71-4018-9a21-839e3e433307"
         }
       ],
       "emits": []
     },
     {
-      "id": "78bcd0b6-d983-4771-aec2-c4582939e0a7",
-      "text": "Correct manually the integration of the peaks after adjusting the baseline to eliminate the effect of bubbles or drifting of the baseline",
-      "instruction": "ADD",
+      "id": "b4289e82-898c-4150-b70d-2f26b1a70a84",
+      "text": "Choose instrument settings for your experiments. In our experiments we set as follows: 20 injections,  initial delay 60 sec., spacing 180 sec., filter period 5 sec., injection volume 2 \u03bcL, measurement temperature of 25\u00b0C, reference power of 5 \u03bccal s<sup>-1</sup>, stirring speed of 1000 r.p.m.",
+      "instruction": "SETUP",
       "slots": [
         {
-          "key": "it's a slot key",
-          "value": "it's a slot value",
-          "id": "78bcd0b6-d983-4771-aec2-c4582939e0a7",
-          "node_id": "78bcd0b6-d983-4771-aec2-c4582939e0a7"
+          "key": "container",
+          "value": "instrument settings",
+          "id": "55f27cb6-2b13-4810-bc76-a9bc03bed245",
+          "node_id": "b4289e82-898c-4150-b70d-2f26b1a70a84"
+        },
+        {
+          "key": "temperature",
+          "value": "25\u00b0C",
+          "id": "e74d1ea0-3da5-4f0c-932c-2a2d6227f8db",
+          "node_id": "b4289e82-898c-4150-b70d-2f26b1a70a84"
         }
       ],
       "emits": []
     },
     {
-      "id": "e9e91448-d96b-4851-9158-7ae54970e54a",
-      "text": "Subtract the blank experiment to correct for dilution effects of the ligand in the buffer. The last points of the sigmoid curve after this correction should be proxime to zero",
-      "instruction": "ADD",
+      "id": "2acf1314-0132-4dc8-909d-7d2fa7ddd300",
+      "text": "Choose instrument settings for your experiments. In our experiments we set as follows: 20 injections,  initial delay 60 sec., spacing 180 sec., filter period 5 sec., injection volume 2 \u03bcL, measurement temperature of 25\u00b0C, reference power of 5 \u03bccal s<sup>-1</sup>, stirring speed of 1000 r.p.m.",
+      "instruction": "ADJUST",
       "slots": [
         {
-          "key": "it's a slot key",
-          "value": "it's a slot value",
-          "id": "e9e91448-d96b-4851-9158-7ae54970e54a",
-          "node_id": "e9e91448-d96b-4851-9158-7ae54970e54a"
+          "key": "reagent1",
+          "value": "protein solution",
+          "id": "49dec8f0-2fbf-4282-8928-a0f8abeef668",
+          "node_id": "2acf1314-0132-4dc8-909d-7d2fa7ddd300"
+        },
+        {
+          "key": "attribute",
+          "value": "injections",
+          "id": "ad86265b-2a40-48b4-93b1-1417f84f0b23",
+          "node_id": "2acf1314-0132-4dc8-909d-7d2fa7ddd300"
+        },
+        {
+          "key": "data1",
+          "value": "20",
+          "id": "1b6efb99-0f7e-4b4a-a395-228cba39e550",
+          "node_id": "2acf1314-0132-4dc8-909d-7d2fa7ddd300"
+        }
+      ],
+      "emits": [
+        {
+          "key": "reagent0",
+          "value": "protein solution",
+          "id": "5639d21e-adb0-4f53-862a-68eec3a39a91",
+          "node_id": "2acf1314-0132-4dc8-909d-7d2fa7ddd300"
+        }
+      ]
+    },
+    {
+      "id": "6f02fca1-77ae-4c1d-82a9-538752d7e839",
+      "text": "Choose instrument settings for your experiments. In our experiments we set as follows: 20 injections,  initial delay 60 sec., spacing 180 sec., filter period 5 sec., injection volume 2 \u03bcL, measurement temperature of 25\u00b0C, reference power of 5 \u03bccal s<sup>-1</sup>, stirring speed of 1000 r.p.m.",
+      "instruction": "ADJUST",
+      "slots": [
+        {
+          "key": "reagent1",
+          "value": "protein solution",
+          "id": "96efe9da-d5af-4b6e-833c-3eb512e888ba",
+          "node_id": "6f02fca1-77ae-4c1d-82a9-538752d7e839"
+        },
+        {
+          "key": "attribute",
+          "value": "initial delay",
+          "id": "fc1f73be-0a2a-41eb-9b99-0b2eb5f4ca96",
+          "node_id": "6f02fca1-77ae-4c1d-82a9-538752d7e839"
+        },
+        {
+          "key": "data1",
+          "value": "60 sec.",
+          "id": "d08a1fd9-348c-43f8-b7a9-768963d4bdc7",
+          "node_id": "6f02fca1-77ae-4c1d-82a9-538752d7e839"
+        }
+      ],
+      "emits": [
+        {
+          "key": "reagent0",
+          "value": "protein solution",
+          "id": "02a871a4-5d01-4559-92d4-605b993e40db",
+          "node_id": "6f02fca1-77ae-4c1d-82a9-538752d7e839"
+        }
+      ]
+    },
+    {
+      "id": "0263985f-d8dc-4da0-afc2-0674aab8055b",
+      "text": "Choose instrument settings for your experiments. In our experiments we set as follows: 20 injections,  initial delay 60 sec., spacing 180 sec., filter period 5 sec., injection volume 2 \u03bcL, measurement temperature of 25\u00b0C, reference power of 5 \u03bccal s<sup>-1</sup>, stirring speed of 1000 r.p.m.",
+      "instruction": "ADJUST",
+      "slots": [
+        {
+          "key": "reagent1",
+          "value": "protein solution",
+          "id": "cdd37e60-8180-4921-a4f8-d7a2c600cd56",
+          "node_id": "0263985f-d8dc-4da0-afc2-0674aab8055b"
+        },
+        {
+          "key": "attribute",
+          "value": "spacing",
+          "id": "ec48a8b0-e625-4443-97b2-f466e3f3cc7c",
+          "node_id": "0263985f-d8dc-4da0-afc2-0674aab8055b"
+        },
+        {
+          "key": "data1",
+          "value": "180 sec.",
+          "id": "37863c9e-2bd8-4f6a-b586-6ae720edef89",
+          "node_id": "0263985f-d8dc-4da0-afc2-0674aab8055b"
+        }
+      ],
+      "emits": [
+        {
+          "key": "reagent0",
+          "value": "protein solution",
+          "id": "5bce9af9-df07-47f9-8e23-b8225e90ea9d",
+          "node_id": "0263985f-d8dc-4da0-afc2-0674aab8055b"
+        }
+      ]
+    },
+    {
+      "id": "c3fe6acf-e07a-43e4-9ce2-f9d597bec893",
+      "text": "Choose instrument settings for your experiments. In our experiments we set as follows: 20 injections,  initial delay 60 sec., spacing 180 sec., filter period 5 sec., injection volume 2 \u03bcL, measurement temperature of 25\u00b0C, reference power of 5 \u03bccal s<sup>-1</sup>, stirring speed of 1000 r.p.m.",
+      "instruction": "ADJUST",
+      "slots": [
+        {
+          "key": "reagent1",
+          "value": "protein solution",
+          "id": "094197a8-c168-43e5-aed0-cd8d3d9390ab",
+          "node_id": "c3fe6acf-e07a-43e4-9ce2-f9d597bec893"
+        },
+        {
+          "key": "attribute",
+          "value": "filter period",
+          "id": "b8ba2b8a-4209-42b6-8c80-559600a5257e",
+          "node_id": "c3fe6acf-e07a-43e4-9ce2-f9d597bec893"
+        },
+        {
+          "key": "data1",
+          "value": "5 sec.",
+          "id": "405d6c34-c490-40b8-9965-5fc9102e8b62",
+          "node_id": "c3fe6acf-e07a-43e4-9ce2-f9d597bec893"
+        }
+      ],
+      "emits": [
+        {
+          "key": "reagent0",
+          "value": "protein solution",
+          "id": "8fa43aec-71b3-44f6-9b1c-f183b1ae695e",
+          "node_id": "c3fe6acf-e07a-43e4-9ce2-f9d597bec893"
+        }
+      ]
+    },
+    {
+      "id": "73b7b0b9-1587-466a-a318-ec04606b83b8",
+      "text": "Choose instrument settings for your experiments. In our experiments we set as follows: 20 injections,  initial delay 60 sec., spacing 180 sec., filter period 5 sec., injection volume 2 \u03bcL, measurement temperature of 25\u00b0C, reference power of 5 \u03bccal s<sup>-1</sup>, stirring speed of 1000 r.p.m.",
+      "instruction": "ADJUST",
+      "slots": [
+        {
+          "key": "reagent1",
+          "value": "protein solution",
+          "id": "01aa1a14-781c-4a34-b1c2-c47e3f428f48",
+          "node_id": "73b7b0b9-1587-466a-a318-ec04606b83b8"
+        },
+        {
+          "key": "attribute",
+          "value": "injection volume",
+          "id": "17ceda23-14c6-41e3-9f2c-570cd398a1e7",
+          "node_id": "73b7b0b9-1587-466a-a318-ec04606b83b8"
+        },
+        {
+          "key": "data1",
+          "value": "2 \u03bcL",
+          "id": "7f930f65-bcdb-492d-a534-ee748e10c53a",
+          "node_id": "73b7b0b9-1587-466a-a318-ec04606b83b8"
+        }
+      ],
+      "emits": [
+        {
+          "key": "reagent0",
+          "value": "protein solution",
+          "id": "2db04ba7-39a0-42d5-bc23-50e722e266a1",
+          "node_id": "73b7b0b9-1587-466a-a318-ec04606b83b8"
+        }
+      ]
+    },
+    {
+      "id": "02b75167-c213-439c-ac87-87fa6c898236",
+      "text": "Choose instrument settings for your experiments. In our experiments we set as follows: 20 injections,  initial delay 60 sec., spacing 180 sec., filter period 5 sec., injection volume 2 \u03bcL, measurement temperature of 25\u00b0C, reference power of 5 \u03bccal s<sup>-1</sup>, stirring speed of 1000 r.p.m.",
+      "instruction": "ADJUST",
+      "slots": [
+        {
+          "key": "reagent1",
+          "value": "protein solution",
+          "id": "4cedb597-383b-40df-99d3-9e43c4043c13",
+          "node_id": "02b75167-c213-439c-ac87-87fa6c898236"
+        },
+        {
+          "key": "attribute",
+          "value": "measurement temperature",
+          "id": "294f06ed-3dff-419c-9b67-463953f9f650",
+          "node_id": "02b75167-c213-439c-ac87-87fa6c898236"
+        },
+        {
+          "key": "data1",
+          "value": "25\u00b0C",
+          "id": "eb669230-65db-4187-9d20-07b5ca7fa542",
+          "node_id": "02b75167-c213-439c-ac87-87fa6c898236"
+        }
+      ],
+      "emits": [
+        {
+          "key": "reagent0",
+          "value": "protein solution",
+          "id": "f8e92e63-7d41-4443-ae55-693cb76da438",
+          "node_id": "02b75167-c213-439c-ac87-87fa6c898236"
+        }
+      ]
+    },
+    {
+      "id": "3d31e3c0-742e-44e1-b5ff-9927f152435e",
+      "text": "Choose instrument settings for your experiments. In our experiments we set as follows: 20 injections,  initial delay 60 sec., spacing 180 sec., filter period 5 sec., injection volume 2 \u03bcL, measurement temperature of 25\u00b0C, reference power of 5 \u03bccal s<sup>-1</sup>, stirring speed of 1000 r.p.m.",
+      "instruction": "ADJUST",
+      "slots": [
+        {
+          "key": "reagent1",
+          "value": "protein solution",
+          "id": "a53f6bb0-8158-4951-81fb-ffc73bba8446",
+          "node_id": "3d31e3c0-742e-44e1-b5ff-9927f152435e"
+        },
+        {
+          "key": "attribute",
+          "value": "reference power",
+          "id": "3404d36b-39f6-420d-8df2-94b8ddf879a4",
+          "node_id": "3d31e3c0-742e-44e1-b5ff-9927f152435e"
+        },
+        {
+          "key": "data1",
+          "value": "5 \u03bccal s<sup>-1</sup>",
+          "id": "93890d0d-ebbc-4c1f-b61a-b3b8a9742300",
+          "node_id": "3d31e3c0-742e-44e1-b5ff-9927f152435e"
+        }
+      ],
+      "emits": [
+        {
+          "key": "reagent0",
+          "value": "protein solution",
+          "id": "7e5b1ac9-5b42-4be6-85f2-f0f09a8115f4",
+          "node_id": "3d31e3c0-742e-44e1-b5ff-9927f152435e"
+        }
+      ]
+    },
+    {
+      "id": "48aad236-e12d-4ddc-95b2-a5a3154ac3aa",
+      "text": "Choose instrument settings for your experiments. In our experiments we set as follows: 20 injections,  initial delay 60 sec., spacing 180 sec., filter period 5 sec., injection volume 2 \u03bcL, measurement temperature of 25\u00b0C, reference power of 5 \u03bccal s<sup>-1</sup>, stirring speed of 1000 r.p.m.",
+      "instruction": "ADJUST",
+      "slots": [
+        {
+          "key": "reagent1",
+          "value": "protein solution",
+          "id": "df6edc04-7e49-4089-b000-9be110b63237",
+          "node_id": "48aad236-e12d-4ddc-95b2-a5a3154ac3aa"
+        },
+        {
+          "key": "attribute",
+          "value": "stirring speed",
+          "id": "0980c8b4-87df-43a9-9c4a-07149a50696c",
+          "node_id": "48aad236-e12d-4ddc-95b2-a5a3154ac3aa"
+        },
+        {
+          "key": "data1",
+          "value": "1000 r.p.m.",
+          "id": "8eff13a5-338a-4262-a387-e7081207737c",
+          "node_id": "48aad236-e12d-4ddc-95b2-a5a3154ac3aa"
+        }
+      ],
+      "emits": [
+        {
+          "key": "reagent0",
+          "value": "protein solution",
+          "id": "c3d66294-1a86-4b70-94a4-3d7d874f8023",
+          "node_id": "48aad236-e12d-4ddc-95b2-a5a3154ac3aa"
+        }
+      ]
+    },
+    {
+      "id": "24431c3a-8f83-4633-b01a-d9b794baf6b9",
+      "text": "Rerun the ITC assay again for the other experiments \\(reverse titration and the titration with the ligand into the protein pre-equilibrated with a second ligand). Mantain the same ITC running parameters as in the first titration.",
+      "instruction": "MAINTAIN",
+      "slots": [
+        {
+          "key": "reagent1/data1/device",
+          "value": "ITC running parameters",
+          "id": "72f05892-a347-4d60-9e09-38869a33eb27",
+          "node_id": "24431c3a-8f83-4633-b01a-d9b794baf6b9"
+        },
+        {
+          "key": "state",
+          "value": "same as in the first titration",
+          "id": "6f925b21-d9fa-407f-a192-4ea3adb6bdc3",
+          "node_id": "24431c3a-8f83-4633-b01a-d9b794baf6b9"
         }
       ],
       "emits": []
     },
     {
-      "id": "36ddebb2-d4e6-4f91-ae18-26bfc18a7548",
-      "text": "Data fitting. Fit the data using for example the One set of sites model. Look accurately at the fitting curve and at the errors on Ka and enthalpy after the fitting, to decide if the experiment is reliable",
-      "instruction": "ADD",
+      "id": "083ac5d9-a951-4686-9502-25e310df331b",
+      "text": "Perform blank experiments titrating the buffer in the cell with the ligand solution.\r\n\n\n\r\n\n\n\r\n\n\n",
+      "instruction": "PERFORM",
       "slots": [
         {
-          "key": "it's a slot key",
-          "value": "it's a slot value",
-          "id": "36ddebb2-d4e6-4f91-ae18-26bfc18a7548",
-          "node_id": "36ddebb2-d4e6-4f91-ae18-26bfc18a7548"
+          "key": "procedure",
+          "value": "Perform blank experiments titrating the buffer in the cell with the ligand solution.",
+          "id": "7d44c105-53da-4fc3-bd0e-d4937c727ab4",
+          "node_id": "083ac5d9-a951-4686-9502-25e310df331b"
         }
       ],
-      "emits": []
+      "emits": [
+        {
+          "key": "reagent0",
+          "value": "protein solution",
+          "id": "3b5ff89f-67c8-4fb6-af54-359c7e8b5275",
+          "node_id": "083ac5d9-a951-4686-9502-25e310df331b"
+        }
+      ]
+    },
+    {
+      "id": "3b179b30-b1c5-4375-9b68-03798c317c64",
+      "text": "Data fitting. Fit the data using for example the One set of sites model.  Look accurately at the fitting curve and at the errors on Ka and enthalpy after the fitting, to decide if the experiment is reliable.",
+      "instruction": "FIT",
+      "slots": [
+        {
+          "key": "device1",
+          "value": "protein solution",
+          "id": "b8be0a6f-e39e-44eb-b54b-4d5ab56e2248",
+          "node_id": "3b179b30-b1c5-4375-9b68-03798c317c64"
+        },
+        {
+          "key": "device2",
+          "value": "One set of sites model",
+          "id": "b9ede353-890b-429b-9194-5308d3dcf70e",
+          "node_id": "3b179b30-b1c5-4375-9b68-03798c317c64"
+        }
+      ],
+      "emits": [
+        {
+          "key": "object0",
+          "value": "protein solution",
+          "id": "e429f1e9-00fd-459f-8514-fbb711302286",
+          "node_id": "3b179b30-b1c5-4375-9b68-03798c317c64"
+        }
+      ]
     }
   ],
-  "edges": [
-    {
-      "id": "4d143fac-e44c-458c-bc73-6c0c5451e29f",
-      "source": {
-        "text": "Prepare 300 uL of protein solution (50-60 \u03bcM) diluting the dialyzed protein with buffer Hepes 20 mM (pH 8.0).",
-        "node_id": "4ffcd518-9326-423b-b842-23798efb81a3",
-        "attr_id": "4ffcd518-9326-423b-b842-23798efb81a3"
-      },
-      "target": {
-        "text": "Prepare ca. 100 \u03bcL of ligand solution diluting the ligand batch solution (50 mM in DMSO) with the dialysis buffer up to a concentration 10 times that of the protein",
-        "node_id": "900afb12-9dd6-4c87-9c7a-76b317c62415",
-        "attr_id": "900afb12-9dd6-4c87-9c7a-76b317c62415"
-      },
-      "text": "it's a edge text"
-    },
-    {
-      "id": "4c9347aa-f969-4902-acc5-3c7a3073c5ec",
-      "source": {
-        "text": "Prepare ca. 100 \u03bcL of ligand solution diluting the ligand batch solution (50 mM in DMSO) with the dialysis buffer up to a concentration 10 times that of the protein",
-        "node_id": "900afb12-9dd6-4c87-9c7a-76b317c62415",
-        "attr_id": "900afb12-9dd6-4c87-9c7a-76b317c62415"
-      },
-      "target": {
-        "text": "Perform the washing cycles of the cell and syringe to avoid interference of contaminants from previous runs.",
-        "node_id": "e95970a7-8940-4f25-b5c6-8aa6bf3f39f1",
-        "attr_id": "e95970a7-8940-4f25-b5c6-8aa6bf3f39f1"
-      },
-      "text": "it's a edge text"
-    },
-    {
-      "id": "43bc3b6c-5942-4bb9-a464-9883aa2ba668",
-      "source": {
-        "text": "In the reverse titration the protein (400 \u03bcM) is injected into the cell containing the ligand (40 \u03bcM)",
-        "node_id": "cefe1a2b-b139-49a6-8741-e2e5c05f1607",
-        "attr_id": "cefe1a2b-b139-49a6-8741-e2e5c05f1607"
-      },
-      "target": {
-        "text": "Prepare ca. 100 \u03bcL of ligand solution diluting the ligand batch solution (50 mM in DMSO) with the dialysis buffer up to a concentration 10 times that of the protein",
-        "node_id": "900afb12-9dd6-4c87-9c7a-76b317c62415",
-        "attr_id": "900afb12-9dd6-4c87-9c7a-76b317c62415"
-      },
-      "text": "it's a edge text"
-    },
-    {
-      "id": "ff5e42a6-50ca-4ad9-8ed8-aff57a50804a",
-      "source": {
-        "text": "CRITICAL STEP We found that this step is very important to carry out a good experiment. If necessary, wash the cell with 5% v/v DECON detergent at 60\u00b0C for 1 h and then with abundant water. It is also very important to eliminate any trace of methanol from the syringe.",
-        "node_id": "fe25a5f1-e508-4658-91be-95c32882a022",
-        "attr_id": "fe25a5f1-e508-4658-91be-95c32882a022"
-      },
-      "target": {
-        "text": "Perform the washing cycles of the cell and syringe to avoid interference of contaminants from previous runs.",
-        "node_id": "e95970a7-8940-4f25-b5c6-8aa6bf3f39f1",
-        "attr_id": "e95970a7-8940-4f25-b5c6-8aa6bf3f39f1"
-      },
-      "text": "it's a edge text"
-    },
-    {
-      "id": "501f8b6e-a122-4157-8308-b753b7412d59",
-      "source": {
-        "text": "Perform the washing cycles of the cell and syringe to avoid interference of contaminants from previous runs.",
-        "node_id": "e95970a7-8940-4f25-b5c6-8aa6bf3f39f1",
-        "attr_id": "e95970a7-8940-4f25-b5c6-8aa6bf3f39f1"
-      },
-      "target": {
-        "text": "Perform a preliminar experiment water into water looking at the baseline stability, to be sure of the cleanness of the cell and syringe",
-        "node_id": "c7fd8f22-e2a9-4e8b-b579-55919e721715",
-        "attr_id": "c7fd8f22-e2a9-4e8b-b579-55919e721715"
-      },
-      "text": "it's a edge text"
-    },
-    {
-      "id": "855c015b-c2e2-4910-9789-5bc329ef4975",
-      "source": {
-        "text": "Perform a preliminar experiment water into water looking at the baseline stability, to be sure of the cleanness of the cell and syringe",
-        "node_id": "c7fd8f22-e2a9-4e8b-b579-55919e721715",
-        "attr_id": "c7fd8f22-e2a9-4e8b-b579-55919e721715"
-      },
-      "target": {
-        "text": "Rinse the sample cell with the protein buffer solution",
-        "node_id": "57d5b6e3-ebb5-4814-ba43-d3a1633178e9",
-        "attr_id": "57d5b6e3-ebb5-4814-ba43-d3a1633178e9"
-      },
-      "text": "it's a edge text"
-    },
-    {
-      "id": "594beb57-027c-4517-9105-1c2df2938464",
-      "source": {
-        "text": "Rinse the sample cell with the protein buffer solution",
-        "node_id": "57d5b6e3-ebb5-4814-ba43-d3a1633178e9",
-        "attr_id": "57d5b6e3-ebb5-4814-ba43-d3a1633178e9"
-      },
-      "target": {
-        "text": "Fill the sample cell with the protein solution avoiding bubbles",
-        "node_id": "653d71eb-33ea-4d85-9bef-3ef39e924517",
-        "attr_id": "653d71eb-33ea-4d85-9bef-3ef39e924517"
-      },
-      "text": "it's a edge text"
-    },
-    {
-      "id": "7bb8072c-eb12-4028-b676-923f657d18f4",
-      "source": {
-        "text": "Degas all solutions using a vacuum pump or centrifuge in order to avoid air bubbles during the experiment.",
-        "node_id": "8fcca1a6-784f-4761-8e0e-df4573b6a3c1",
-        "attr_id": "8fcca1a6-784f-4761-8e0e-df4573b6a3c1"
-      },
-      "target": {
-        "text": "Fill the sample cell with the protein solution avoiding bubbles",
-        "node_id": "653d71eb-33ea-4d85-9bef-3ef39e924517",
-        "attr_id": "653d71eb-33ea-4d85-9bef-3ef39e924517"
-      },
-      "text": "it's a edge text"
-    },
-    {
-      "id": "1f6815b8-6a0c-4b5e-85a0-aee8b00c8ef9",
-      "source": {
-        "text": "Filter the protein solution to eliminate possible precipitates",
-        "node_id": "4c2cc51a-552c-4bb8-855d-b4de73eb4e86",
-        "attr_id": "4c2cc51a-552c-4bb8-855d-b4de73eb4e86"
-      },
-      "target": {
-        "text": "Fill the sample cell with the protein solution avoiding bubbles",
-        "node_id": "653d71eb-33ea-4d85-9bef-3ef39e924517",
-        "attr_id": "653d71eb-33ea-4d85-9bef-3ef39e924517"
-      },
-      "text": "it's a edge text"
-    },
-    {
-      "id": "753f7dab-6fbf-4ec7-8188-310acab8c2b4",
-      "source": {
-        "text": "Fill the sample cell with the protein solution avoiding bubbles",
-        "node_id": "653d71eb-33ea-4d85-9bef-3ef39e924517",
-        "attr_id": "653d71eb-33ea-4d85-9bef-3ef39e924517"
-      },
-      "target": {
-        "text": "Fill the syringe with the ligand solution. A couple of purge-refill cycles may be performed to avoid air bubbles in the syringe",
-        "node_id": "688741af-7cef-42c6-8207-2372cb6f091e",
-        "attr_id": "688741af-7cef-42c6-8207-2372cb6f091e"
-      },
-      "text": "it's a edge text"
-    },
-    {
-      "id": "4bbc2565-7d67-4d47-aa6f-59528f447161",
-      "source": {
-        "text": "Determine very accurately the concentration of the ligand, using for example an analytical balance. Remember that the concentration of the syringe reactant is critical to the accuracy of the binding thermodynamic parameters, whilst it is always possible to correct for errors on the protein concentration after the experiment (in this case only the accuracy of the molar ratio is affected).",
-        "node_id": "4ccd1cea-c39f-44f5-9924-0cf6625282b3",
-        "attr_id": "4ccd1cea-c39f-44f5-9924-0cf6625282b3"
-      },
-      "target": {
-        "text": "Fill the syringe with the ligand solution. A couple of purge-refill cycles may be performed to avoid air bubbles in the syringe",
-        "node_id": "688741af-7cef-42c6-8207-2372cb6f091e",
-        "attr_id": "688741af-7cef-42c6-8207-2372cb6f091e"
-      },
-      "text": "it's a edge text"
-    },
-    {
-      "id": "09a38354-3531-4854-9b40-0af1c9d09762",
-      "source": {
-        "text": "Fill the syringe with the ligand solution. A couple of purge-refill cycles may be performed to avoid air bubbles in the syringe",
-        "node_id": "688741af-7cef-42c6-8207-2372cb6f091e",
-        "attr_id": "688741af-7cef-42c6-8207-2372cb6f091e"
-      },
-      "target": {
-        "text": "Rinse the surface of the needle with water in order to eliminate any trace of the ligand and then wipe it with a Kimwipe",
-        "node_id": "27e63ef9-0923-43d5-ad4b-f9a4a315c754",
-        "attr_id": "27e63ef9-0923-43d5-ad4b-f9a4a315c754"
-      },
-      "text": "it's a edge text"
-    },
-    {
-      "id": "dbeab805-dd80-47ba-8816-686f7640dd9f",
-      "source": {
-        "text": "Rinse the surface of the needle with water in order to eliminate any trace of the ligand and then wipe it with a Kimwipe",
-        "node_id": "27e63ef9-0923-43d5-ad4b-f9a4a315c754",
-        "attr_id": "27e63ef9-0923-43d5-ad4b-f9a4a315c754"
-      },
-      "target": {
-        "text": "Choose instrument settings for your experiments. In our experiments we set as follows: 20 injections, initial delay 60 sec., spacing 180 sec., filter period 5 sec., injection volume 2 \u03bcL, measurement temperature of 25\u00b0C, reference power of 5 \u03bccal s-1, stirring speed of 1000 r.p.m.",
-        "node_id": "c38d5b84-f3c7-4c36-8c22-d408e0dfa774",
-        "attr_id": "c38d5b84-f3c7-4c36-8c22-d408e0dfa774"
-      },
-      "text": "it's a edge text"
-    },
-    {
-      "id": "7eba70f7-406e-417e-a41c-ba8be387e089",
-      "source": {
-        "text": "Choose instrument settings for your experiments. In our experiments we set as follows: 20 injections, initial delay 60 sec., spacing 180 sec., filter period 5 sec., injection volume 2 \u03bcL, measurement temperature of 25\u00b0C, reference power of 5 \u03bccal s-1, stirring speed of 1000 r.p.m.",
-        "node_id": "c38d5b84-f3c7-4c36-8c22-d408e0dfa774",
-        "attr_id": "c38d5b84-f3c7-4c36-8c22-d408e0dfa774"
-      },
-      "target": {
-        "text": "Start the experiment after gently setting the syringe in place",
-        "node_id": "a568d053-00bf-4361-8343-ce96542ed7d5",
-        "attr_id": "a568d053-00bf-4361-8343-ce96542ed7d5"
-      },
-      "text": "it's a edge text"
-    },
-    {
-      "id": "3fb4bdf2-ffe4-45ee-b367-d6a4cc7e5ea3",
-      "source": {
-        "text": "Start the experiment after gently setting the syringe in place",
-        "node_id": "a568d053-00bf-4361-8343-ce96542ed7d5",
-        "attr_id": "a568d053-00bf-4361-8343-ce96542ed7d5"
-      },
-      "target": {
-        "text": "Rerun the ITC assay again for the other experiments (reverse titration and the titration with the ligand into the protein pre-equilibrated with a second ligand). Mantain the same ITC running parameters as in the first titration.",
-        "node_id": "73f6fa52-f446-40f9-8fea-a9d336e375ac",
-        "attr_id": "73f6fa52-f446-40f9-8fea-a9d336e375ac"
-      },
-      "text": "it's a edge text"
-    },
-    {
-      "id": "76c3764d-d958-4038-a6b8-408352a4c8dc",
-      "source": {
-        "text": "Rerun the ITC assay again for the other experiments (reverse titration and the titration with the ligand into the protein pre-equilibrated with a second ligand). Mantain the same ITC running parameters as in the first titration.",
-        "node_id": "73f6fa52-f446-40f9-8fea-a9d336e375ac",
-        "attr_id": "73f6fa52-f446-40f9-8fea-a9d336e375ac"
-      },
-      "target": {
-        "text": "Perform blank experiments titrating the buffer in the cell with the ligand solution",
-        "node_id": "eb941395-c821-4715-acbe-f48fcc3bc1f9",
-        "attr_id": "eb941395-c821-4715-acbe-f48fcc3bc1f9"
-      },
-      "text": "it's a edge text"
-    },
-    {
-      "id": "46ed7d39-2ce2-40f0-8a2e-1a9bbd6b5902",
-      "source": {
-        "text": "Perform blank experiments titrating the buffer in the cell with the ligand solution",
-        "node_id": "eb941395-c821-4715-acbe-f48fcc3bc1f9",
-        "attr_id": "eb941395-c821-4715-acbe-f48fcc3bc1f9"
-      },
-      "target": {
-        "text": "Correct manually the integration of the peaks after adjusting the baseline to eliminate the effect of bubbles or drifting of the baseline",
-        "node_id": "78bcd0b6-d983-4771-aec2-c4582939e0a7",
-        "attr_id": "78bcd0b6-d983-4771-aec2-c4582939e0a7"
-      },
-      "text": "it's a edge text"
-    },
-    {
-      "id": "ad2b5fdf-66be-4cfd-942c-3166596cdf88",
-      "source": {
-        "text": "Correct manually the integration of the peaks after adjusting the baseline to eliminate the effect of bubbles or drifting of the baseline",
-        "node_id": "78bcd0b6-d983-4771-aec2-c4582939e0a7",
-        "attr_id": "78bcd0b6-d983-4771-aec2-c4582939e0a7"
-      },
-      "target": {
-        "text": "Subtract the blank experiment to correct for dilution effects of the ligand in the buffer. The last points of the sigmoid curve after this correction should be proxime to zero",
-        "node_id": "e9e91448-d96b-4851-9158-7ae54970e54a",
-        "attr_id": "e9e91448-d96b-4851-9158-7ae54970e54a"
-      },
-      "text": "it's a edge text"
-    },
-    {
-      "id": "9a0865b1-ecce-46e8-8fbd-29208a617964",
-      "source": {
-        "text": "Subtract the blank experiment to correct for dilution effects of the ligand in the buffer. The last points of the sigmoid curve after this correction should be proxime to zero",
-        "node_id": "e9e91448-d96b-4851-9158-7ae54970e54a",
-        "attr_id": "e9e91448-d96b-4851-9158-7ae54970e54a"
-      },
-      "target": {
-        "text": "Data fitting. Fit the data using for example the One set of sites model. Look accurately at the fitting curve and at the errors on Ka and enthalpy after the fitting, to decide if the experiment is reliable",
-        "node_id": "36ddebb2-d4e6-4f91-ae18-26bfc18a7548",
-        "attr_id": "36ddebb2-d4e6-4f91-ae18-26bfc18a7548"
-      },
-      "text": "it's a edge text"
-    }
-  ]
+  "edges": []
 }
