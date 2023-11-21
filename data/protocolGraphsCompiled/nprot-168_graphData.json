@@ -2,458 +2,598 @@
   "name": "nprot-168_graphData.json",
   "nodes": [
     {
-      "id": "254fdc0b-157a-45a9-8009-f43e88180a55",
-      "text": "Two days prior to your experiment plate out 100,000 SAMBOK APCs \\(ref.",
+      "id": "fdf656f5-2ec4-4954-93ee-9b4a00858e03",
+      "text": "Two days prior to your experiment plate out 100,000 SAMBOK APCs \\(ref. 1) in complete media supplemented with 4ng/ml of IFN-g \\(Peprotech 315-05) per well in a 12 well plate.Use one 12 well plate per spleen",
       "instruction": "PLATE",
       "slots": [
         {
           "key": "reagent1",
           "value": "SAMBOK APCs",
-          "id": "c8880a68-bee6-4b54-ae32-2582f646324b",
-          "node_id": "254fdc0b-157a-45a9-8009-f43e88180a55"
+          "id": "7acf2d41-3c53-434c-8dc7-04d52bf6cd5f",
+          "node_id": "fdf656f5-2ec4-4954-93ee-9b4a00858e03"
         },
         {
           "key": "reagent2",
-          "value": "plate",
-          "id": "d064ae9b-b05b-48ee-9698-d83c4121cb89",
-          "node_id": "254fdc0b-157a-45a9-8009-f43e88180a55"
+          "value": "complete media supplemented with 4ng/ml of IFN-g",
+          "id": "77241650-f1d5-4f9e-b72b-8d53af2feb08",
+          "node_id": "fdf656f5-2ec4-4954-93ee-9b4a00858e03"
         },
         {
           "key": "density",
-          "value": "100,000",
-          "id": "ff5b6610-714e-4fbd-9c37-5e6e3a53d285",
-          "node_id": "254fdc0b-157a-45a9-8009-f43e88180a55"
+          "value": "100,000 cells per well",
+          "id": "a81864e1-68be-4a91-a255-ca4ef5de7178",
+          "node_id": "fdf656f5-2ec4-4954-93ee-9b4a00858e03"
         }
       ],
       "emits": [
         {
-          "key": "reagent0",
-          "value": "cells",
-          "id": "a900fabf-776e-46b3-b743-8c829f47faa3",
-          "node_id": "254fdc0b-157a-45a9-8009-f43e88180a55"
+          "key": "output",
+          "value": "SAMBOK APCs",
+          "id": "67538ec1-9f10-401a-bd5e-92af58c121cf",
+          "node_id": "fdf656f5-2ec4-4954-93ee-9b4a00858e03"
         }
       ]
     },
     {
-      "id": "77622040-f3ae-4370-8c70-a39aa4ddfe76",
-      "text": "in complete media supplemented with 4ng/ml of IFN-g \\(Peprotech 315-05) per well in a 12 well plate.  Use one 12 well plate per spleen.",
-      "instruction": "SUPPLEMENT",
-      "slots": [
-        {
-          "key": "reagent1",
-          "value": "complete media",
-          "id": "26d24e12-84f2-478f-b394-e1c818fa817c",
-          "node_id": "77622040-f3ae-4370-8c70-a39aa4ddfe76"
-        },
-        {
-          "key": "reagent2",
-          "value": "IFN-g (Peprotech 315-05)",
-          "id": "c8a70cc0-88e2-4e75-8fe5-2af33f36a695",
-          "node_id": "77622040-f3ae-4370-8c70-a39aa4ddfe76"
-        },
-        {
-          "key": "targetConcentration",
-          "value": "4ng/ml",
-          "id": "5db34a96-67fa-439d-b726-21b5bfb1da88",
-          "node_id": "77622040-f3ae-4370-8c70-a39aa4ddfe76"
-        }
-      ],
-      "emits": [
-        {
-          "key": "reagent0",
-          "value": "cells",
-          "id": "840dbed2-4dd2-452f-a846-c24d5d4cfa42",
-          "node_id": "77622040-f3ae-4370-8c70-a39aa4ddfe76"
-        }
-      ]
-    },
-    {
-      "id": "9a050ebe-8ce0-440a-8d99-57bce363561a",
-      "text": "On the day of experiment collect spleen and lymph nodes from CD8+OT-1 TCR transgenic mice and make single cell suspensions. Pool cells and count",
+      "id": "217cf4a8-0c1b-43bf-bfab-157db86a7afa",
+      "text": "On the day of experiment collect spleen and lymph nodes from CD8+OT-1 TCR transgenic mice and make single cell suspensions.",
       "instruction": "COLLECT",
       "slots": [
         {
           "key": "reagent1",
-          "value": "spleen and lymph nodes from CD8+OT-1 TCR transgenic mice",
-          "id": "56af20ca-9f77-4d46-abd8-1494f6d1f4ff",
-          "node_id": "9a050ebe-8ce0-440a-8d99-57bce363561a"
+          "value": "spleen and lymph nodes",
+          "id": "5838aec3-8aaa-4a6c-99e6-e84997b048f5",
+          "node_id": "217cf4a8-0c1b-43bf-bfab-157db86a7afa"
         },
         {
           "key": "container",
+          "value": "15 ml tube",
+          "id": "ca68ae7f-3cab-46ad-a064-33be95e3f8f2",
+          "node_id": "217cf4a8-0c1b-43bf-bfab-157db86a7afa"
+        },
+        {
+          "key": "source",
+          "value": "well",
+          "id": "332b5c93-b78c-4bb4-8cf0-ad4f9975a57c",
+          "node_id": "217cf4a8-0c1b-43bf-bfab-157db86a7afa"
+        },
+        {
+          "key": "method",
+          "value": "using a pipette",
+          "id": "652b415d-ced5-45ed-a152-6212efc1956d",
+          "node_id": "217cf4a8-0c1b-43bf-bfab-157db86a7afa"
+        }
+      ],
+      "emits": [
+        {
+          "key": "output",
           "value": "single cell suspensions",
-          "id": "aac792d0-0b01-4a69-92b5-4e991a6c44fb",
-          "node_id": "9a050ebe-8ce0-440a-8d99-57bce363561a"
+          "id": "732b908e-ec0a-4d9b-9f30-a11106860777",
+          "node_id": "217cf4a8-0c1b-43bf-bfab-157db86a7afa"
+        }
+      ]
+    },
+    {
+      "id": "26a141f1-4bc6-4719-97eb-abd8dffda85c",
+      "text": "On the day of experiment collect spleen and lymph nodes from CD8+OT-1 TCR transgenic mice and make single cell suspensions.",
+      "instruction": "MAKE",
+      "slots": [
+        {
+          "key": "reagent1",
+          "value": "spleen and lymph nodes",
+          "id": "670fe284-83be-4618-acd3-4efbb925a05e",
+          "node_id": "26a141f1-4bc6-4719-97eb-abd8dffda85c"
+        },
+        {
+          "key": "reagent2",
+          "value": "complete media supplemented with 4ng/ml of IFN-g",
+          "id": "57032a48-10af-40b7-b3d8-321688095d16",
+          "node_id": "26a141f1-4bc6-4719-97eb-abd8dffda85c"
         }
       ],
       "emits": [
         {
           "key": "reagent0",
-          "value": "cells",
-          "id": "e5c19fd9-7cc1-4ce3-a9d3-f2412dd32a81",
-          "node_id": "9a050ebe-8ce0-440a-8d99-57bce363561a"
+          "value": "single cell suspensions",
+          "id": "a11c40ca-bb22-4ac9-ad46-c84f636f7fe7",
+          "node_id": "26a141f1-4bc6-4719-97eb-abd8dffda85c"
         }
       ]
     },
     {
-      "id": "a8827192-b0a6-44f7-b59e-e266d817defa",
-      "text": "On the day of experiment collect spleen and lymph nodes from CD8+OT-1 TCR transgenic mice and make single cell suspensions. Pool cells and count",
+      "id": "15faa34d-2a96-49af-91e3-c8fb4e51c1db",
+      "text": "Pool cells and count ",
       "instruction": "POOL",
       "slots": [
         {
           "key": "reagent1",
-          "value": "cells",
-          "id": "bcd3a372-2cce-43ab-852c-e3374ff4a3a5",
-          "node_id": "a8827192-b0a6-44f7-b59e-e266d817defa"
+          "value": "single cell suspensions",
+          "id": "42209edf-4e84-464f-bdd0-163e54b1e6a8",
+          "node_id": "15faa34d-2a96-49af-91e3-c8fb4e51c1db"
+        },
+        {
+          "key": "reagent2",
+          "value": "",
+          "id": "69d7f76f-92fd-4d4e-999f-2b45705e9cd4",
+          "node_id": "15faa34d-2a96-49af-91e3-c8fb4e51c1db"
+        },
+        {
+          "key": "container",
+          "value": "flask",
+          "id": "5d04f406-1de3-4970-bfb9-ef3f32366625",
+          "node_id": "15faa34d-2a96-49af-91e3-c8fb4e51c1db"
+        },
+        {
+          "key": "device",
+          "value": "",
+          "id": "f3efeb7b-f7e9-4d32-adfa-f44000b6164e",
+          "node_id": "15faa34d-2a96-49af-91e3-c8fb4e51c1db"
+        },
+        {
+          "key": "notice",
+          "value": "",
+          "id": "42f24a74-804d-42a4-9ea7-c31b675b6e9b",
+          "node_id": "15faa34d-2a96-49af-91e3-c8fb4e51c1db"
         }
       ],
       "emits": [
         {
-          "key": "reagent0",
-          "value": "cells",
-          "id": "b165d2f6-c1b7-41a3-8a12-79aa1b54b477",
-          "node_id": "a8827192-b0a6-44f7-b59e-e266d817defa"
+          "key": "output",
+          "value": "single cell suspensions",
+          "id": "23c58714-1936-43b6-b144-7d9b5a9de31b",
+          "node_id": "15faa34d-2a96-49af-91e3-c8fb4e51c1db"
         }
       ]
     },
     {
-      "id": "3bedf0c4-1a49-4806-83b9-6a3fa5bade23",
-      "text": "On the day of experiment collect spleen and lymph nodes from CD8+OT-1 TCR transgenic mice and make single cell suspensions. Pool cells and count",
+      "id": "29ae3044-c09f-4a9e-9a8c-b698d601771c",
+      "text": "Pool cells and count ",
       "instruction": "COUNT",
       "slots": [
         {
           "key": "reagent1",
-          "value": "cells",
-          "id": "128493d5-6feb-4d35-a46c-544706421a6f",
-          "node_id": "3bedf0c4-1a49-4806-83b9-6a3fa5bade23"
+          "value": "single cell suspensions",
+          "id": "8e53c16e-a353-44ab-abfd-619b3bbbc85b",
+          "node_id": "29ae3044-c09f-4a9e-9a8c-b698d601771c"
         },
         {
           "key": "method",
-          "value": "hemocytometer",
-          "id": "8bea154c-1da1-4a24-9f8d-38956eaaf4fd",
-          "node_id": "3bedf0c4-1a49-4806-83b9-6a3fa5bade23"
+          "value": "<blank>",
+          "id": "d2e3406d-d3b0-469e-afa5-093e70124e32",
+          "node_id": "29ae3044-c09f-4a9e-9a8c-b698d601771c"
         },
         {
           "key": "reagent2",
-          "value": "Trypan Blue",
-          "id": "381a0c23-307c-4228-936e-e500bb939a68",
-          "node_id": "3bedf0c4-1a49-4806-83b9-6a3fa5bade23"
+          "value": "trypan blue live dead stain",
+          "id": "ac969273-00a3-473e-9d1f-ef16cda54018",
+          "node_id": "29ae3044-c09f-4a9e-9a8c-b698d601771c"
         },
         {
           "key": "device",
-          "value": "Countess Machine",
-          "id": "09c5e1cd-9b5b-44aa-96ff-f3ff45bb3791",
-          "node_id": "3bedf0c4-1a49-4806-83b9-6a3fa5bade23"
+          "value": "cell counter",
+          "id": "46977220-6c61-4f64-b058-a4b49fb5541c",
+          "node_id": "29ae3044-c09f-4a9e-9a8c-b698d601771c"
         }
       ],
       "emits": [
         {
-          "key": "data0",
-          "value": "<blank>",
-          "id": "353fa17a-1bb4-40eb-aa35-b0b06bf96245",
-          "node_id": "3bedf0c4-1a49-4806-83b9-6a3fa5bade23"
+          "key": "output",
+          "value": "counted cells",
+          "id": "54a31758-7fe5-4574-90a4-422af1bdbca7",
+          "node_id": "29ae3044-c09f-4a9e-9a8c-b698d601771c"
         }
       ]
     },
     {
-      "id": "e572fe53-cde3-41d5-b2ae-5a9d9ef596d0",
-      "text": "Keep cells at 2 X 10<sup>7</sup> /ml in complete media for primary splenic cultures.",
+      "id": "3279d6f2-4e63-4e7c-adb0-17ad63863936",
+      "text": "Keep cells at 2 X 107 /ml in complete media for primary splenic cultures",
       "instruction": "KEEP",
       "slots": [
         {
           "key": "reagent1",
           "value": "cells",
-          "id": "a2156626-9688-47e9-b79d-ece4b9b6b1e2",
-          "node_id": "e572fe53-cde3-41d5-b2ae-5a9d9ef596d0"
+          "id": "022661ec-ff86-491a-9ccc-9f98f019d227",
+          "node_id": "3279d6f2-4e63-4e7c-adb0-17ad63863936"
+        },
+        {
+          "key": "temperature",
+          "value": "room temperature",
+          "id": "6669ab5a-267d-4fc6-9822-3ec2ff8f0ec8",
+          "node_id": "3279d6f2-4e63-4e7c-adb0-17ad63863936"
+        },
+        {
+          "key": "time",
+          "value": "<blank>",
+          "id": "4f604c45-a4a7-466d-a1a3-c361ffa82be6",
+          "node_id": "3279d6f2-4e63-4e7c-adb0-17ad63863936"
+        },
+        {
+          "key": "environment",
+          "value": "<blank>",
+          "id": "e604b99b-7d9b-4c37-ad0e-69c20cffd277",
+          "node_id": "3279d6f2-4e63-4e7c-adb0-17ad63863936"
+        },
+        {
+          "key": "container",
+          "value": "complete media",
+          "id": "3b868aa0-0d89-4f5d-95e4-91a682f48889",
+          "node_id": "3279d6f2-4e63-4e7c-adb0-17ad63863936"
+        },
+        {
+          "key": "notice",
+          "value": "<blank>",
+          "id": "dfd948e0-87c2-479a-b584-c4527fb30ff8",
+          "node_id": "3279d6f2-4e63-4e7c-adb0-17ad63863936"
         }
       ],
       "emits": [
         {
-          "key": "reagent0",
+          "key": "output",
           "value": "cells",
-          "id": "1854279f-1cea-40d3-83cd-aea17fa7e765",
-          "node_id": "e572fe53-cde3-41d5-b2ae-5a9d9ef596d0"
+          "id": "077c02da-4b2c-41c0-9b20-00fadb909747",
+          "node_id": "3279d6f2-4e63-4e7c-adb0-17ad63863936"
         }
       ]
     },
     {
-      "id": "ea231f67-f468-473b-844a-29be20d65bc6",
-      "text": "Wash SAMBOK APCs in PBS once to get rid of any residual media and IFN-g.",
+      "id": "029ff8e0-69bb-40a0-9f32-10d41cb46b4b",
+      "text": "Wash SAMBOK APCs in PBS once to get rid of any residual media and IFN-g",
       "instruction": "WASH",
       "slots": [
         {
           "key": "reagent1",
           "value": "SAMBOK APCs",
-          "id": "6e9129d5-d9b3-4738-bedf-7f18e1a02a95",
-          "node_id": "ea231f67-f468-473b-844a-29be20d65bc6"
+          "id": "19045911-4fb0-46e0-b586-438df9db2762",
+          "node_id": "029ff8e0-69bb-40a0-9f32-10d41cb46b4b"
         },
         {
           "key": "reagent2",
           "value": "PBS",
-          "id": "f3934742-1c84-4217-9f4c-a3da36144850",
-          "node_id": "ea231f67-f468-473b-844a-29be20d65bc6"
+          "id": "5b657030-23a8-4a21-a50d-f7da59920fb6",
+          "node_id": "029ff8e0-69bb-40a0-9f32-10d41cb46b4b"
         },
         {
           "key": "repeat",
           "value": "1",
-          "id": "b42556da-32b2-456e-8ff5-3e3ab6b26e65",
-          "node_id": "ea231f67-f468-473b-844a-29be20d65bc6"
-        },
-        {
-          "key": "notice",
-          "value": "to get rid of any residual media and IFN-g",
-          "id": "0e0d3726-e1fc-455f-a72c-a44502426d23",
-          "node_id": "ea231f67-f468-473b-844a-29be20d65bc6"
-        }
-      ],
-      "emits": [
-        {
-          "key": "reagent0",
-          "value": "SAMBOK APCs",
-          "id": "3f8d704e-a3a1-4f23-b8f7-e6a656259855",
-          "node_id": "ea231f67-f468-473b-844a-29be20d65bc6"
-        }
-      ]
-    },
-    {
-      "id": "344323ed-c175-4c07-bcbd-c4a07e47559e",
-      "text": "Place 1 mL of cells onto SAMBOK APCs and culture for 48 hours. Ensure that the media does not become too yellow. It is best to place an additional 1ml of media in each well after 24 hours.",
-      "instruction": "PLACE",
-      "slots": [
-        {
-          "key": "reagent1",
-          "value": "1 mL of cells",
-          "id": "99ec4d2a-05f1-441a-abca-5493f81f7933",
-          "node_id": "344323ed-c175-4c07-bcbd-c4a07e47559e"
-        },
-        {
-          "key": "destination",
-          "value": "SAMBOK APCs",
-          "id": "bf89a267-c841-487d-a51e-09639d557c09",
-          "node_id": "344323ed-c175-4c07-bcbd-c4a07e47559e"
-        },
-        {
-          "key": "notice",
-          "value": "Ensure that the media does not become too yellow. It is best to place an additional 1ml of media in each well after 24 hours.",
-          "id": "15c997b1-18b4-4612-b736-cb49ce80c8a6",
-          "node_id": "344323ed-c175-4c07-bcbd-c4a07e47559e"
-        }
-      ],
-      "emits": [
-        {
-          "key": "reagent0",
-          "value": "1 mL of cells",
-          "id": "36f497e5-ae3d-44d9-8103-c22b65931430",
-          "node_id": "344323ed-c175-4c07-bcbd-c4a07e47559e"
-        }
-      ]
-    },
-    {
-      "id": "ec276fa1-7760-48d8-9291-d69c9809fa74",
-      "text": "Place 1 mL of cells onto SAMBOK APCs and culture for 48 hours. Ensure that the media does not become too yellow. It is best to place an additional 1ml of media in each well after 24 hours.",
-      "instruction": "PLACE",
-      "slots": [
-        {
-          "key": "reagent1",
-          "value": "1 mL of cells",
-          "id": "cb9d460e-e407-4e0e-bf36-aa4eb122bb6b",
-          "node_id": "ec276fa1-7760-48d8-9291-d69c9809fa74"
-        },
-        {
-          "key": "destination",
-          "value": "SAMBOK APCs",
-          "id": "364274ca-e832-484c-a73c-5dfc5607caf3",
-          "node_id": "ec276fa1-7760-48d8-9291-d69c9809fa74"
-        },
-        {
-          "key": "notice",
-          "value": "Ensure that the media does not become too yellow.",
-          "id": "a1e05304-d2ab-4421-83b7-ab73c3f1eb5f",
-          "node_id": "ec276fa1-7760-48d8-9291-d69c9809fa74"
-        }
-      ],
-      "emits": [
-        {
-          "key": "reagent0",
-          "value": "1ml of media",
-          "id": "e7e08576-801d-444b-9f48-54aa7ea266d0",
-          "node_id": "ec276fa1-7760-48d8-9291-d69c9809fa74"
-        }
-      ]
-    },
-    {
-      "id": "11eab809-a589-4f78-827c-f90fd3e4e404",
-      "text": "Pool all cells in and spin down in a 50 mL conical and resuspend in complete media for primary splenic cultures supplemented with 200 U/ml of IL-2 at 2 X 10<sup>7</sup>/ml.  Allow these cells to sit for an additional 48 hours in a 24 well plate \\(1ml/well).",
-      "instruction": "POOL",
-      "slots": [
-        {
-          "key": "reagent1",
-          "value": "cells",
-          "id": "6b1883bb-2495-4968-bd20-f46fe210895d",
-          "node_id": "11eab809-a589-4f78-827c-f90fd3e4e404"
-        },
-        {
-          "key": "container",
-          "value": "50 mL conical",
-          "id": "79cfff04-f5b3-4513-8271-897fe274db36",
-          "node_id": "11eab809-a589-4f78-827c-f90fd3e4e404"
-        }
-      ],
-      "emits": [
-        {
-          "key": "reagent0",
-          "value": "cells",
-          "id": "80b79afe-ead7-4626-be01-496a3068dfa2",
-          "node_id": "11eab809-a589-4f78-827c-f90fd3e4e404"
-        }
-      ]
-    },
-    {
-      "id": "bb0dd70c-0858-44f5-a202-4a4b28cbc7a6",
-      "text": "Pool all cells in and spin down in a 50 mL conical and resuspend in complete media for primary splenic cultures supplemented with 200 U/ml of IL-2 at 2 X 10<sup>7</sup>/ml.  Allow these cells to sit for an additional 48 hours in a 24 well plate \\(1ml/well).",
-      "instruction": "SPIN",
-      "slots": [
-        {
-          "key": "reagent1",
-          "value": "cells",
-          "id": "05fa8b6a-9b44-4a8d-891a-550ce8066f82",
-          "node_id": "bb0dd70c-0858-44f5-a202-4a4b28cbc7a6"
-        },
-        {
-          "key": "intensity",
-          "value": "<blank>",
-          "id": "7262c294-bed2-4c5b-92f9-259e3b93f937",
-          "node_id": "bb0dd70c-0858-44f5-a202-4a4b28cbc7a6"
+          "id": "e44273d9-652a-420a-9cfd-1139474ea9f0",
+          "node_id": "029ff8e0-69bb-40a0-9f32-10d41cb46b4b"
         },
         {
           "key": "time",
           "value": "<blank>",
-          "id": "617ffe40-77dc-4b5d-b883-0df243b0e66e",
-          "node_id": "bb0dd70c-0858-44f5-a202-4a4b28cbc7a6"
-        },
-        {
-          "key": "temperature",
-          "value": "room temperature",
-          "id": "56c810b4-7de5-467f-8dae-7af16f1ecc76",
-          "node_id": "bb0dd70c-0858-44f5-a202-4a4b28cbc7a6"
-        },
-        {
-          "key": "device",
-          "value": "centrifuge",
-          "id": "49c757c1-b266-4fa5-8a9e-295c11cacd57",
-          "node_id": "bb0dd70c-0858-44f5-a202-4a4b28cbc7a6"
+          "id": "6c0e33f9-6c86-482e-91e3-6e7bc14d9ef3",
+          "node_id": "029ff8e0-69bb-40a0-9f32-10d41cb46b4b"
         },
         {
           "key": "notice",
-          "value": "",
-          "id": "8206e874-76a7-4e93-acb1-ce63fcaa4fca",
-          "node_id": "bb0dd70c-0858-44f5-a202-4a4b28cbc7a6"
+          "value": "<blank>",
+          "id": "974218f6-0db8-4706-92c8-d4e5a9048145",
+          "node_id": "029ff8e0-69bb-40a0-9f32-10d41cb46b4b"
         }
       ],
       "emits": [
         {
-          "key": "reagent0",
-          "value": "cells",
-          "id": "b85792d2-4447-455c-8d58-5c417e0dc9c1",
-          "node_id": "bb0dd70c-0858-44f5-a202-4a4b28cbc7a6"
+          "key": "output",
+          "value": "SAMBOK APCs",
+          "id": "76c6113e-0894-44f8-98ca-301b7f7bb61a",
+          "node_id": "029ff8e0-69bb-40a0-9f32-10d41cb46b4b"
         }
       ]
     },
     {
-      "id": "0241fd26-5616-4ab9-a7be-1c41e80633fb",
-      "text": "Pool all cells in and spin down in a 50 mL conical and resuspend in complete media for primary splenic cultures supplemented with 200 U/ml of IL-2 at 2 X 10<sup>7</sup>/ml.  Allow these cells to sit for an additional 48 hours in a 24 well plate \\(1ml/well).",
+      "id": "a40d9e1a-e6f1-4cb4-b806-f05b99de4919",
+      "text": "Place 1 mL of cells onto SAMBOK APCs and culture for 48 hours",
+      "instruction": "PLACE",
+      "slots": [
+        {
+          "key": "reagent1",
+          "value": "1 mL of cells",
+          "id": "15ce334f-51fd-4e4f-90a7-85d66b397541",
+          "node_id": "a40d9e1a-e6f1-4cb4-b806-f05b99de4919"
+        },
+        {
+          "key": "destination",
+          "value": "SAMBOK APCs",
+          "id": "cdeee56e-f135-4e2a-b77a-6ad8badda85e",
+          "node_id": "a40d9e1a-e6f1-4cb4-b806-f05b99de4919"
+        },
+        {
+          "key": "temperature",
+          "value": "<blank>",
+          "id": "60c2256a-754c-4464-aa0c-8f361b211e8a",
+          "node_id": "a40d9e1a-e6f1-4cb4-b806-f05b99de4919"
+        },
+        {
+          "key": "device",
+          "value": "<blank>",
+          "id": "57ff3ed6-a0cc-40c1-b24c-708c238b6f8f",
+          "node_id": "a40d9e1a-e6f1-4cb4-b806-f05b99de4919"
+        },
+        {
+          "key": "notice",
+          "value": "Culture for 48 hours",
+          "id": "b53e34e5-87b1-4a1a-9dcd-3e155f7731ee",
+          "node_id": "a40d9e1a-e6f1-4cb4-b806-f05b99de4919"
+        }
+      ],
+      "emits": [
+        {
+          "key": "output",
+          "value": "SAMBOK APCs with cells",
+          "id": "9b3c1c99-8515-42f9-a404-e27e8fe7271b",
+          "node_id": "a40d9e1a-e6f1-4cb4-b806-f05b99de4919"
+        }
+      ]
+    },
+    {
+      "id": "3a7b7573-abe1-4add-a052-6de1b5aa1aa4",
+      "text": "Ensure that the media does not become too yellow.It is best to place an additional 1ml of media in each well after 24 hours",
+      "instruction": "ENSURE",
+      "slots": [
+        {
+          "key": "reagent1/data1/device",
+          "value": "media",
+          "id": "0bb6b6be-55c0-416a-89ac-7c1b52526337",
+          "node_id": "3a7b7573-abe1-4add-a052-6de1b5aa1aa4"
+        },
+        {
+          "key": "state",
+          "value": "not too yellow",
+          "id": "f8e2c616-0a76-4740-adff-05ced6973355",
+          "node_id": "3a7b7573-abe1-4add-a052-6de1b5aa1aa4"
+        },
+        {
+          "key": "timing",
+          "value": "",
+          "id": "b3b0d133-484e-46b9-b712-ce56b7b63dad",
+          "node_id": "3a7b7573-abe1-4add-a052-6de1b5aa1aa4"
+        },
+        {
+          "key": "notice",
+          "value": "It is best to place an additional 1ml of media in each well after 24 hours",
+          "id": "9a3d1805-c76b-425b-b524-87ea148b1afe",
+          "node_id": "3a7b7573-abe1-4add-a052-6de1b5aa1aa4"
+        }
+      ],
+      "emits": []
+    },
+    {
+      "id": "46c876e9-cdae-4af5-8fca-26b0586351df",
+      "text": "Ensure that the media does not become too yellow.It is best to place an additional 1ml of media in each well after 24 hours",
+      "instruction": "ADD",
+      "slots": [
+        {
+          "key": "reagent1",
+          "value": "media",
+          "id": "f75ecece-6253-41fd-a1cd-77191dbd7dba",
+          "node_id": "46c876e9-cdae-4af5-8fca-26b0586351df"
+        },
+        {
+          "key": "reagent2",
+          "value": "1ml",
+          "id": "43cdbbaf-2576-4eda-ac19-373fafd1b7da",
+          "node_id": "46c876e9-cdae-4af5-8fca-26b0586351df"
+        }
+      ],
+      "emits": [
+        {
+          "key": "output",
+          "value": "media",
+          "id": "abdd9428-0469-4bfe-8921-f90bcd2916d3",
+          "node_id": "46c876e9-cdae-4af5-8fca-26b0586351df"
+        }
+      ]
+    },
+    {
+      "id": "fd26cfd2-4d9a-4ecf-94d3-ba7194d1ec63",
+      "text": "Pool all cells in and spin down in a 50 mL conical",
+      "instruction": "POOL",
+      "slots": [
+        {
+          "key": "reagent1",
+          "value": "all cells",
+          "id": "74e667f7-aff3-4997-a630-82281086a4e2",
+          "node_id": "fd26cfd2-4d9a-4ecf-94d3-ba7194d1ec63"
+        },
+        {
+          "key": "reagent2",
+          "value": "",
+          "id": "59d20fa7-ed28-4fa8-98ae-1efb399e3d8e",
+          "node_id": "fd26cfd2-4d9a-4ecf-94d3-ba7194d1ec63"
+        },
+        {
+          "key": "container",
+          "value": "50 mL conical",
+          "id": "438c523a-699a-43fe-b78f-57e3346eb6ef",
+          "node_id": "fd26cfd2-4d9a-4ecf-94d3-ba7194d1ec63"
+        },
+        {
+          "key": "device",
+          "value": "",
+          "id": "6589a454-d23d-4aa2-9cbf-481fb62263bf",
+          "node_id": "fd26cfd2-4d9a-4ecf-94d3-ba7194d1ec63"
+        },
+        {
+          "key": "notice",
+          "value": "",
+          "id": "b84d9b5d-552e-4322-9eac-9d0fd54d0a93",
+          "node_id": "fd26cfd2-4d9a-4ecf-94d3-ba7194d1ec63"
+        }
+      ],
+      "emits": [
+        {
+          "key": "output",
+          "value": "single cell suspensions",
+          "id": "dbcc7df2-c73f-4cdd-b4fd-f294e8706a65",
+          "node_id": "fd26cfd2-4d9a-4ecf-94d3-ba7194d1ec63"
+        }
+      ]
+    },
+    {
+      "id": "2388047b-8201-4355-91be-06954965ec40",
+      "text": "Pool all cells in and spin down in a 50 mL conical",
+      "instruction": "SPIN",
+      "slots": [
+        {
+          "key": "reagent1",
+          "value": "single cell suspensions",
+          "id": "ffd8db5e-4170-499b-b9c4-e93b7f323e3a",
+          "node_id": "2388047b-8201-4355-91be-06954965ec40"
+        },
+        {
+          "key": "intensity",
+          "value": "440 g",
+          "id": "8936f767-a848-44e6-8f15-36d9e753672c",
+          "node_id": "2388047b-8201-4355-91be-06954965ec40"
+        },
+        {
+          "key": "time",
+          "value": "5 minutes",
+          "id": "6ab59898-0937-4e5c-b0a9-80c3675be549",
+          "node_id": "2388047b-8201-4355-91be-06954965ec40"
+        },
+        {
+          "key": "temperature",
+          "value": "4\u00b0C",
+          "id": "eaccd8cc-e82e-4d9f-8728-db1caeba0ce4",
+          "node_id": "2388047b-8201-4355-91be-06954965ec40"
+        }
+      ],
+      "emits": [
+        {
+          "key": "output",
+          "value": "single cell suspensions",
+          "id": "3dffffdf-698d-46eb-afe6-0b54542fea59",
+          "node_id": "2388047b-8201-4355-91be-06954965ec40"
+        }
+      ]
+    },
+    {
+      "id": "eca6a51d-ae63-4663-86d3-61ed280902d8",
+      "text": "Resuspend cells in complete media for primary splenic cultures supplemented with 200 U/ml of IL-2 at 2 X 107/ml.",
       "instruction": "RESUSPEND",
       "slots": [
         {
           "key": "reagent1",
           "value": "cells",
-          "id": "5e9a1ec6-33c4-4f0f-84a8-f16ce12a324a",
-          "node_id": "0241fd26-5616-4ab9-a7be-1c41e80633fb"
+          "id": "ee1413d6-3d14-4472-a4e9-5b8b65e6e88a",
+          "node_id": "eca6a51d-ae63-4663-86d3-61ed280902d8"
         },
         {
           "key": "reagent2",
           "value": "complete media",
-          "id": "d685ad62-d2a6-43b3-8e52-eeb690078f85",
-          "node_id": "0241fd26-5616-4ab9-a7be-1c41e80633fb"
+          "id": "6162686b-aac3-45c5-8a9c-5df2fb6a9958",
+          "node_id": "eca6a51d-ae63-4663-86d3-61ed280902d8"
+        },
+        {
+          "key": "temperature",
+          "value": "37 \u02daC",
+          "id": "5b680403-8e26-40a0-a803-0cfb9531ed13",
+          "node_id": "eca6a51d-ae63-4663-86d3-61ed280902d8"
+        },
+        {
+          "key": "device",
+          "value": "",
+          "id": "4de62fb1-57e0-47f1-be7b-4d3221c17e9c",
+          "node_id": "eca6a51d-ae63-4663-86d3-61ed280902d8"
         },
         {
           "key": "notice",
-          "value": "Allow these cells to sit for an additional 48 hours in a 24 well plate (1ml/well).",
-          "id": "6e8e0eaf-f22f-4f01-baa1-d7a2bc9df09a",
-          "node_id": "0241fd26-5616-4ab9-a7be-1c41e80633fb"
+          "value": "",
+          "id": "078024c5-7e6a-47bc-9586-01733b4baeb9",
+          "node_id": "eca6a51d-ae63-4663-86d3-61ed280902d8"
+        }
+      ],
+      "emits": [
+        {
+          "key": "output",
+          "value": "cells",
+          "id": "57003a79-c5ce-486b-9858-d68163a94f3a",
+          "node_id": "eca6a51d-ae63-4663-86d3-61ed280902d8"
+        }
+      ]
+    },
+    {
+      "id": "b0dcbab3-5d05-4dc1-88ba-9a0bc1319c2a",
+      "text": "Allow these cells to sit for an additional 48 hours in a 24 well plate \\(1ml/well)",
+      "instruction": "ALLOW",
+      "slots": [
+        {
+          "key": "input",
+          "value": "counted cells",
+          "id": "2210fbc9-a99b-451c-99f2-1031f37974bd",
+          "node_id": "b0dcbab3-5d05-4dc1-88ba-9a0bc1319c2a"
+        },
+        {
+          "key": "time",
+          "value": "48 hours",
+          "id": "d928ea47-067f-4712-9203-38f418e748c1",
+          "node_id": "b0dcbab3-5d05-4dc1-88ba-9a0bc1319c2a"
         }
       ],
       "emits": [
         {
           "key": "reagent0",
-          "value": "cells",
-          "id": "f060cad3-abb1-48fe-8dcb-c16b91a2297d",
-          "node_id": "0241fd26-5616-4ab9-a7be-1c41e80633fb"
+          "value": "counted cells",
+          "id": "2a56861b-dc0d-4c72-b255-feab1b8f7ad4",
+          "node_id": "b0dcbab3-5d05-4dc1-88ba-9a0bc1319c2a"
         }
       ]
     },
     {
-      "id": "d6b481f0-a037-4cfa-88f1-89e9df3af3ff",
-      "text": "After 48 hours take some cells for FACs analysis to check purity of the population should be &gt; 95% CD8 T cells.",
+      "id": "bc2a0cab-5414-42cc-a230-6bde9286ea9f",
+      "text": "After 48 hours take some cells for FACs analysis to check purity of the population should be > 95% CD8 T cells.",
       "instruction": "TAKE",
       "slots": [
         {
           "key": "reagent1",
           "value": "cells",
-          "id": "1b5fed12-f524-4cc5-89c4-e49c85db3c48",
-          "node_id": "d6b481f0-a037-4cfa-88f1-89e9df3af3ff"
+          "id": "c829c1ee-8056-4e19-8f9a-bdc5691ff23d",
+          "node_id": "bc2a0cab-5414-42cc-a230-6bde9286ea9f"
+        },
+        {
+          "key": "reagent2",
+          "value": "",
+          "id": "7287b37e-e63d-48d7-821f-cdc009988f7e",
+          "node_id": "bc2a0cab-5414-42cc-a230-6bde9286ea9f"
+        },
+        {
+          "key": "volume",
+          "value": "",
+          "id": "6765e794-8064-46f4-b4d0-887aaaa6ee00",
+          "node_id": "bc2a0cab-5414-42cc-a230-6bde9286ea9f"
+        },
+        {
+          "key": "temperature",
+          "value": "",
+          "id": "4c5bbc74-fe1b-457a-bca0-609d1168b055",
+          "node_id": "bc2a0cab-5414-42cc-a230-6bde9286ea9f"
+        },
+        {
+          "key": "device",
+          "value": "",
+          "id": "94fbee5d-88cb-4610-abff-81bd03d965d9",
+          "node_id": "bc2a0cab-5414-42cc-a230-6bde9286ea9f"
+        },
+        {
+          "key": "source",
+          "value": "",
+          "id": "917c3452-ad15-4d8c-981f-5c2f9de567da",
+          "node_id": "bc2a0cab-5414-42cc-a230-6bde9286ea9f"
         },
         {
           "key": "notice",
-          "value": "After 48 hours take some cells for FACs analysis to check purity of the population should be > 95% CD8 T cells.",
-          "id": "6da578fc-0655-49cc-bdac-881c28ed4072",
-          "node_id": "d6b481f0-a037-4cfa-88f1-89e9df3af3ff"
+          "value": "",
+          "id": "cf6fb6ae-6ba6-430b-b274-0ab553758b23",
+          "node_id": "bc2a0cab-5414-42cc-a230-6bde9286ea9f"
         }
       ],
       "emits": [
         {
-          "key": "reagent0",
-          "value": "cells",
-          "id": "1df93e28-1e07-4457-89d2-35e010ed4cfe",
-          "node_id": "d6b481f0-a037-4cfa-88f1-89e9df3af3ff"
-        }
-      ]
-    },
-    {
-      "id": "2b836b64-0089-42b8-9297-28fdebec2d0b",
-      "text": "After 48 hours take some cells for FACs analysis to check purity of the population should be &gt; 95% CD8 T cells.",
-      "instruction": "CHECK",
-      "slots": [
-        {
-          "key": "reagent1",
-          "value": "cells",
-          "id": "473b20ba-cddb-4be3-b74a-ec0ab5dce00d",
-          "node_id": "2b836b64-0089-42b8-9297-28fdebec2d0b"
-        },
-        {
-          "key": "attribute",
-          "value": "purity of the population",
-          "id": "c51db070-12e0-4df5-9a01-98d3018e28a1",
-          "node_id": "2b836b64-0089-42b8-9297-28fdebec2d0b"
-        },
-        {
-          "key": "method",
+          "key": "output",
           "value": "FACs analysis",
-          "id": "6d6be403-21e2-485a-be64-80f8072d4e3d",
-          "node_id": "2b836b64-0089-42b8-9297-28fdebec2d0b"
-        },
-        {
-          "key": "environment",
-          "value": "> 95% CD8 T cells",
-          "id": "e1e84e0d-0cd8-4ac9-b140-08589a81e86d",
-          "node_id": "2b836b64-0089-42b8-9297-28fdebec2d0b"
-        }
-      ],
-      "emits": [
-        {
-          "key": "reagent0",
-          "value": "cells",
-          "id": "b2f82c4d-9126-4521-af71-757531b364dc",
-          "node_id": "2b836b64-0089-42b8-9297-28fdebec2d0b"
+          "id": "f4d438d0-346c-43c0-b02b-60702666bc3e",
+          "node_id": "bc2a0cab-5414-42cc-a230-6bde9286ea9f"
         }
       ]
     }

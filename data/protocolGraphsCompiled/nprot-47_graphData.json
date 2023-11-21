@@ -2,334 +2,407 @@
   "name": "nprot-47_graphData.json",
   "nodes": [
     {
-      "id": "ed2c7a1f-2208-43cd-a4ae-b4045802866f",
+      "id": "e492d995-e361-4d16-9987-5084c4bc7c67",
+      "text": "Culture S. pombe cells in an appropriate medium.",
+      "instruction": "CULTURE",
+      "slots": [
+        {
+          "key": "reagent1",
+          "value": "S. pombe cells",
+          "id": "c809309e-a5d1-46fc-9275-f75023b56c67",
+          "node_id": "e492d995-e361-4d16-9987-5084c4bc7c67"
+        },
+        {
+          "key": "reagent2",
+          "value": "appropriate medium",
+          "id": "7ae07c44-431c-44d7-b449-3ba4c9cb6cc2",
+          "node_id": "e492d995-e361-4d16-9987-5084c4bc7c67"
+        }
+      ],
+      "emits": [
+        {
+          "key": "reagent0",
+          "value": "cultured cells",
+          "id": "ecee0a07-8d58-48b7-8b59-e2926a0b6c2c",
+          "node_id": "e492d995-e361-4d16-9987-5084c4bc7c67"
+        }
+      ]
+    },
+    {
+      "id": "938c2a03-c9ce-4305-93a4-b6dce61c3e2d",
       "text": "Harvest cells in a collection tube.",
       "instruction": "HARVEST",
       "slots": [
         {
           "key": "reagent1",
-          "value": "cells",
-          "id": "b0d67587-42ea-4f9b-a926-17cb0e5571f1",
-          "node_id": "ed2c7a1f-2208-43cd-a4ae-b4045802866f"
+          "value": "cultured cells",
+          "id": "85d1ab9a-9b97-40fc-b065-62525085b0da",
+          "node_id": "938c2a03-c9ce-4305-93a4-b6dce61c3e2d"
         },
         {
           "key": "container",
           "value": "collection tube",
-          "id": "fb976a7f-1288-4b23-8dde-abc20710f81a",
-          "node_id": "ed2c7a1f-2208-43cd-a4ae-b4045802866f"
+          "id": "c3eb0983-4157-469f-8717-205a49e762fa",
+          "node_id": "938c2a03-c9ce-4305-93a4-b6dce61c3e2d"
+        },
+        {
+          "key": "source",
+          "value": "well",
+          "id": "9f914b91-e00a-4afe-967d-a851a4ba79f6",
+          "node_id": "938c2a03-c9ce-4305-93a4-b6dce61c3e2d"
+        },
+        {
+          "key": "method",
+          "value": "using a pipette",
+          "id": "79998d26-2d53-4e55-ae8a-6050a04e859d",
+          "node_id": "938c2a03-c9ce-4305-93a4-b6dce61c3e2d"
         }
       ],
       "emits": [
         {
-          "key": "reagent0",
-          "value": "cells",
-          "id": "bce96f47-4efa-4422-acdc-1a3404c8d7c1",
-          "node_id": "ed2c7a1f-2208-43cd-a4ae-b4045802866f"
+          "key": "output",
+          "value": "cultured cells",
+          "id": "98897639-7a59-4c11-916a-ad9286bca242",
+          "node_id": "938c2a03-c9ce-4305-93a4-b6dce61c3e2d"
         }
       ]
     },
     {
-      "id": "83f57c4b-beaf-4acd-8eaf-e08a8f57a10d",
-      "text": "Suspend the cells with medium that was used in the culture of the cells \\(do not exceed the half volume of the tube).",
+      "id": "3f89d135-6976-4c60-aedb-20ae6b6bc832",
+      "text": "Suspend the cells with medium that was used in the culture of the cells ",
       "instruction": "SUSPEND",
       "slots": [
         {
           "key": "reagent1",
-          "value": "cells",
-          "id": "67a0d2ca-ba28-4a0b-a9cc-71cec8e199b8",
-          "node_id": "83f57c4b-beaf-4acd-8eaf-e08a8f57a10d"
+          "value": "cultured cells",
+          "id": "339f2d95-5c5c-44cf-bae0-62d4b64a380f",
+          "node_id": "3f89d135-6976-4c60-aedb-20ae6b6bc832"
         },
         {
           "key": "reagent2",
-          "value": "medium",
-          "id": "bdd64242-b79a-45ba-a7d3-65b313e8a400",
-          "node_id": "83f57c4b-beaf-4acd-8eaf-e08a8f57a10d"
+          "value": "medium that was used in the culture of the cells",
+          "id": "968e8bca-b7e3-461d-a6de-64d8f376c878",
+          "node_id": "3f89d135-6976-4c60-aedb-20ae6b6bc832"
+        },
+        {
+          "key": "temperature",
+          "value": "37 \u02daC",
+          "id": "867af789-1b38-41ee-b391-1e6966ddeee3",
+          "node_id": "3f89d135-6976-4c60-aedb-20ae6b6bc832"
+        },
+        {
+          "key": "device",
+          "value": "",
+          "id": "4f5b229a-c3ed-4c2d-97d8-8340401417b7",
+          "node_id": "3f89d135-6976-4c60-aedb-20ae6b6bc832"
         },
         {
           "key": "notice",
-          "value": "Do not exceed the half volume of the tube.",
-          "id": "bd11b951-ce74-46c7-97ba-1c18c751b6fe",
-          "node_id": "83f57c4b-beaf-4acd-8eaf-e08a8f57a10d"
+          "value": "",
+          "id": "751aaf7b-7aca-4b36-9640-4b0cc85bb9cd",
+          "node_id": "3f89d135-6976-4c60-aedb-20ae6b6bc832"
         }
       ],
       "emits": [
         {
-          "key": "reagent0",
-          "value": "cells",
-          "id": "f5c1dee1-49e3-42ef-b201-ed3f1da450d7",
-          "node_id": "83f57c4b-beaf-4acd-8eaf-e08a8f57a10d"
+          "key": "output",
+          "value": "cultured cells",
+          "id": "8ccdfd3a-ec90-47a1-8205-bc17c21af5e3",
+          "node_id": "3f89d135-6976-4c60-aedb-20ae6b6bc832"
         }
       ]
     },
     {
-      "id": "c6e8ff44-2145-4e0d-b5d2-88c3a90dcf7e",
+      "id": "67a5fb15-47e8-481d-b41b-4496092c67d1",
       "text": "Add an equal amount of 0.7 N NaOH solution and mix well.",
       "instruction": "ADD",
       "slots": [
         {
           "key": "reagent1",
-          "value": "cells",
-          "id": "a10a94c2-8b82-4b87-b018-f8de89f7da3c",
-          "node_id": "c6e8ff44-2145-4e0d-b5d2-88c3a90dcf7e"
+          "value": "PCR tube that contains samples and 1st NTC",
+          "id": "7e60e88c-5202-4d6b-9edb-27e04d2c8183",
+          "node_id": "67a5fb15-47e8-481d-b41b-4496092c67d1"
         },
         {
           "key": "reagent2",
           "value": "0.7 N NaOH solution",
-          "id": "3cdb4255-a367-4549-98ca-d63aea7b59e6",
-          "node_id": "c6e8ff44-2145-4e0d-b5d2-88c3a90dcf7e"
-        },
-        {
-          "key": "ratio",
-          "value": "1:1",
-          "id": "7f083ca3-f5b7-4a3c-a912-5e9e704f0e85",
-          "node_id": "c6e8ff44-2145-4e0d-b5d2-88c3a90dcf7e"
-        },
-        {
-          "key": "notice",
-          "value": "Mix well",
-          "id": "77be76ae-694b-4533-90ae-51939431fd28",
-          "node_id": "c6e8ff44-2145-4e0d-b5d2-88c3a90dcf7e"
+          "id": "39bfed9a-b600-4ace-b08d-94c305eeb815",
+          "node_id": "67a5fb15-47e8-481d-b41b-4496092c67d1"
         }
       ],
       "emits": [
         {
-          "key": "reagent0",
-          "value": "cells",
-          "id": "92051da2-41be-45eb-9562-d2079be44514",
-          "node_id": "c6e8ff44-2145-4e0d-b5d2-88c3a90dcf7e"
+          "key": "output",
+          "value": "cultured cells",
+          "id": "020d1328-88d5-4832-b738-c55442c31cf7",
+          "node_id": "67a5fb15-47e8-481d-b41b-4496092c67d1"
         }
       ]
     },
     {
-      "id": "70e1b91e-0530-4b36-b8eb-cca8bd12ae4b",
-      "text": "Add an equal amount of 0.7 N NaOH solution and mix well.",
-      "instruction": "MIX",
-      "slots": [
-        {
-          "key": "reagent1",
-          "value": "0.7 N NaOH solution",
-          "id": "c4a67d16-fd9a-40ad-b5dc-8bef0d7d9024",
-          "node_id": "70e1b91e-0530-4b36-b8eb-cca8bd12ae4b"
-        },
-        {
-          "key": "ratio",
-          "value": "1:1",
-          "id": "a7e38d4d-62e9-416e-8d87-f443f74b774f",
-          "node_id": "70e1b91e-0530-4b36-b8eb-cca8bd12ae4b"
-        },
-        {
-          "key": "method",
-          "value": "mix well",
-          "id": "02a7bcd1-1669-4bb2-9e59-073baad1e56a",
-          "node_id": "70e1b91e-0530-4b36-b8eb-cca8bd12ae4b"
-        }
-      ],
-      "emits": [
-        {
-          "key": "reagent0",
-          "value": "cells",
-          "id": "2b56da22-0b00-4082-ae34-b3f85eb4514c",
-          "node_id": "70e1b91e-0530-4b36-b8eb-cca8bd12ae4b"
-        }
-      ]
-    },
-    {
-      "id": "4a298609-a2d2-424f-bb4a-8e61ebf9c868",
+      "id": "0e7bf6e0-e843-4dd9-9e33-17618d62de8a",
       "text": "Incubate at room temperature for 3 minutes.",
       "instruction": "INCUBATE",
       "slots": [
         {
           "key": "reagent1",
-          "value": "cells",
-          "id": "91997832-4375-4130-83d1-001858faccc5",
-          "node_id": "4a298609-a2d2-424f-bb4a-8e61ebf9c868"
+          "value": "protein-DNA complexes",
+          "id": "42775381-fbdd-4802-a12f-9704136381b8",
+          "node_id": "0e7bf6e0-e843-4dd9-9e33-17618d62de8a"
+        },
+        {
+          "key": "reagent2",
+          "value": "",
+          "id": "08f4a1bd-fae1-48c2-a4f7-3cc5184afa59",
+          "node_id": "0e7bf6e0-e843-4dd9-9e33-17618d62de8a"
         },
         {
           "key": "temperature",
           "value": "room temperature",
-          "id": "f8b4d910-30e0-4e24-96af-84a6effb5c95",
-          "node_id": "4a298609-a2d2-424f-bb4a-8e61ebf9c868"
+          "id": "c9627d33-28f2-4f55-9e34-65839e1abdab",
+          "node_id": "0e7bf6e0-e843-4dd9-9e33-17618d62de8a"
         },
         {
           "key": "time",
           "value": "3 minutes",
-          "id": "c5582df8-f1cd-4c13-a5cf-816630b04b43",
-          "node_id": "4a298609-a2d2-424f-bb4a-8e61ebf9c868"
+          "id": "cda4af5f-51a8-4e19-9a26-55539f7e0625",
+          "node_id": "0e7bf6e0-e843-4dd9-9e33-17618d62de8a"
+        },
+        {
+          "key": "environment",
+          "value": "",
+          "id": "47556372-e1ee-47e1-89df-e243ac79f248",
+          "node_id": "0e7bf6e0-e843-4dd9-9e33-17618d62de8a"
+        },
+        {
+          "key": "device",
+          "value": "",
+          "id": "1a195951-445b-4952-8469-62179fddb8af",
+          "node_id": "0e7bf6e0-e843-4dd9-9e33-17618d62de8a"
+        },
+        {
+          "key": "thermoProgram",
+          "value": "",
+          "id": "b5541c3e-db6d-495c-9d70-fbed0f116334",
+          "node_id": "0e7bf6e0-e843-4dd9-9e33-17618d62de8a"
+        },
+        {
+          "key": "notice",
+          "value": "",
+          "id": "65a999d7-9821-400a-beda-7bf727073630",
+          "node_id": "0e7bf6e0-e843-4dd9-9e33-17618d62de8a"
         }
       ],
       "emits": [
         {
-          "key": "reagent0",
-          "value": "cells",
-          "id": "54d38adb-d701-4f1b-9f50-1e49ad1eb8d9",
-          "node_id": "4a298609-a2d2-424f-bb4a-8e61ebf9c868"
+          "key": "output",
+          "value": "protein-DNA complexes",
+          "id": "ef2aaf46-a44b-40fc-95d3-6b9294a9e09c",
+          "node_id": "0e7bf6e0-e843-4dd9-9e33-17618d62de8a"
         }
       ]
     },
     {
-      "id": "a70a7d43-c980-4d50-90ff-09078fe2c7ca",
-      "text": "Centrifuge the tube \\(5,000 rpm, 1 min) and discard the supernatant.",
+      "id": "74df918a-07a6-4728-b0dd-c5c1536d300c",
+      "text": "Centrifuge the tube (5,000 rpm, 1 min) and discard the supernatant.",
       "instruction": "CENTRIFUGE",
       "slots": [
         {
           "key": "reagent1",
-          "value": "cells",
-          "id": "2b5fef8c-90e4-41a8-883e-80cd170194f9",
-          "node_id": "a70a7d43-c980-4d50-90ff-09078fe2c7ca"
+          "value": "tube",
+          "id": "a55f7473-417f-4d7b-857f-792375ac74c9",
+          "node_id": "74df918a-07a6-4728-b0dd-c5c1536d300c"
         },
         {
           "key": "intensity",
           "value": "5,000 rpm",
-          "id": "fb7e9c86-615f-4c04-ba0f-a1862ce3dd0a",
-          "node_id": "a70a7d43-c980-4d50-90ff-09078fe2c7ca"
+          "id": "2169638f-ea62-4420-a71b-1993e0ea6394",
+          "node_id": "74df918a-07a6-4728-b0dd-c5c1536d300c"
         },
         {
           "key": "time",
           "value": "1 min",
-          "id": "7b950583-c569-4972-b6b5-0db376632c52",
-          "node_id": "a70a7d43-c980-4d50-90ff-09078fe2c7ca"
+          "id": "fbd824cb-6239-4915-bd49-554a5bd0a372",
+          "node_id": "74df918a-07a6-4728-b0dd-c5c1536d300c"
+        },
+        {
+          "key": "temperature",
+          "value": "room temperature",
+          "id": "12e769a3-b853-414d-ac8d-b334a0c7c753",
+          "node_id": "74df918a-07a6-4728-b0dd-c5c1536d300c"
         }
       ],
-      "emits": []
+      "emits": [
+        {
+          "key": "output",
+          "value": "tube",
+          "id": "ad323a46-9bb4-4c6a-8e42-1b5ccde2796e",
+          "node_id": "74df918a-07a6-4728-b0dd-c5c1536d300c"
+        }
+      ]
     },
     {
-      "id": "640224b3-d65a-4d6e-8a36-fdeaee2dd723",
-      "text": "Centrifuge the tube \\(5,000 rpm, 1 min) and discard the supernatant.",
+      "id": "3d4ac3e6-758e-416f-9085-f006798f16ec",
+      "text": "Centrifuge the tube (5,000 rpm, 1 min) and discard the supernatant.",
       "instruction": "DISCARD",
       "slots": [
         {
           "key": "reagent1",
           "value": "supernatant",
-          "id": "f19dac95-28d8-4ec6-8404-5bbde0fe388e",
-          "node_id": "640224b3-d65a-4d6e-8a36-fdeaee2dd723"
+          "id": "30106ce9-0513-467f-ad75-0aa34a4bc295",
+          "node_id": "3d4ac3e6-758e-416f-9085-f006798f16ec"
         },
         {
           "key": "method",
-          "value": "centrifuge",
-          "id": "f6b72db5-f49e-4a02-ba7e-004e7ddce774",
-          "node_id": "640224b3-d65a-4d6e-8a36-fdeaee2dd723"
-        },
-        {
-          "key": "device",
-          "value": "tube",
-          "id": "c7a3c0d6-38c0-44d4-a340-a674bb523d95",
-          "node_id": "640224b3-d65a-4d6e-8a36-fdeaee2dd723"
-        },
-        {
-          "key": "notice",
-          "value": "",
-          "id": "62b38412-5e3e-4550-9ee1-c50040f66564",
-          "node_id": "640224b3-d65a-4d6e-8a36-fdeaee2dd723"
+          "value": "aspiration",
+          "id": "a0fde8cf-0115-4e39-ac0a-6989fb8bdb0a",
+          "node_id": "3d4ac3e6-758e-416f-9085-f006798f16ec"
         }
       ],
       "emits": [
         {
-          "key": "reagent0",
-          "value": "supernatant",
-          "id": "953b3763-89d5-4a04-9d4e-9cce9117aec8",
-          "node_id": "640224b3-d65a-4d6e-8a36-fdeaee2dd723"
+          "key": "output",
+          "value": "tube",
+          "id": "0d626025-ae83-40a0-aaac-897d2194498d",
+          "node_id": "3d4ac3e6-758e-416f-9085-f006798f16ec"
         }
       ]
     },
     {
-      "id": "e625538b-9827-4674-9bad-920a395fdd87",
+      "id": "7bdd1c35-50cf-42ff-86c3-d71971540aad",
       "text": "Add SDS-PAGE sample buffer and mix well.",
       "instruction": "ADD",
       "slots": [
         {
           "key": "reagent1",
           "value": "SDS-PAGE sample buffer",
-          "id": "d120020c-52e8-495f-94c2-d7b296c96348",
-          "node_id": "e625538b-9827-4674-9bad-920a395fdd87"
+          "id": "d34e04a2-54ed-4b4f-90dd-c7084b110302",
+          "node_id": "7bdd1c35-50cf-42ff-86c3-d71971540aad"
+        },
+        {
+          "key": "reagent2",
+          "value": "<blank>",
+          "id": "72cbe14c-4fa9-4d80-bd38-22693dddcc09",
+          "node_id": "7bdd1c35-50cf-42ff-86c3-d71971540aad"
+        },
+        {
+          "key": "ratio",
+          "value": "<blank>",
+          "id": "38bb0b65-2704-4e85-8115-c4278f74b39a",
+          "node_id": "7bdd1c35-50cf-42ff-86c3-d71971540aad"
+        },
+        {
+          "key": "concentration",
+          "value": "<blank>",
+          "id": "b1b11795-346f-4e95-accc-25e52e6bd54a",
+          "node_id": "7bdd1c35-50cf-42ff-86c3-d71971540aad"
+        },
+        {
+          "key": "notice",
+          "value": "<blank>",
+          "id": "85bcb215-5d6c-45c7-88d8-85650ce6cf98",
+          "node_id": "7bdd1c35-50cf-42ff-86c3-d71971540aad"
         }
       ],
       "emits": [
         {
-          "key": "reagent0",
-          "value": "cells",
-          "id": "d3686b73-0046-4a3a-a1ac-1c930843b7b2",
-          "node_id": "e625538b-9827-4674-9bad-920a395fdd87"
+          "key": "output",
+          "value": "<blank>",
+          "id": "b34a9cf7-fe3b-40f2-8d96-98e0f4261720",
+          "node_id": "7bdd1c35-50cf-42ff-86c3-d71971540aad"
         }
       ]
     },
     {
-      "id": "6c53dbc0-0453-484c-aa8f-6020136f7095",
-      "text": "Add SDS-PAGE sample buffer and mix well.",
-      "instruction": "MIX",
-      "slots": [
-        {
-          "key": "reagent1",
-          "value": "SDS-PAGE sample buffer",
-          "id": "657c62a5-37e8-4813-ab4a-fbe670bbc763",
-          "node_id": "6c53dbc0-0453-484c-aa8f-6020136f7095"
-        }
-      ],
-      "emits": [
-        {
-          "key": "reagent0",
-          "value": "cells",
-          "id": "f79fbf16-0191-4387-ae01-72fda6d19bcb",
-          "node_id": "6c53dbc0-0453-484c-aa8f-6020136f7095"
-        }
-      ]
-    },
-    {
-      "id": "1bbd97b7-e8cd-48d9-8365-e58801f49ae9",
-      "text": "Heat at 95-100&#x2DA;C for 5 min.",
+      "id": "9c0acc7a-4261-4c9c-9593-38eeaa291d33",
+      "text": "Heat at 95-100\u02daC for 5 min.",
       "instruction": "HEAT",
       "slots": [
         {
           "key": "reagent1",
-          "value": "cells",
-          "id": "96050531-88ea-4400-a782-cdc2f4c7b594",
-          "node_id": "1bbd97b7-e8cd-48d9-8365-e58801f49ae9"
+          "value": "tube containing RNA and adapter",
+          "id": "6f36c965-f0aa-4041-9d24-3b03c7026315",
+          "node_id": "9c0acc7a-4261-4c9c-9593-38eeaa291d33"
         },
         {
           "key": "temperature",
-          "value": "95-100\u00b0C",
-          "id": "1fb281db-6878-483f-8864-accafac97528",
-          "node_id": "1bbd97b7-e8cd-48d9-8365-e58801f49ae9"
+          "value": "95-100\u02daC",
+          "id": "d9f6da56-f6bb-4455-bacd-9ff88f35f64d",
+          "node_id": "9c0acc7a-4261-4c9c-9593-38eeaa291d33"
         },
         {
           "key": "time",
           "value": "5 min",
-          "id": "c042f333-daf7-4765-8944-fd89e1b51747",
-          "node_id": "1bbd97b7-e8cd-48d9-8365-e58801f49ae9"
+          "id": "de94ba4a-2da1-4703-9bf6-247588f5e28c",
+          "node_id": "9c0acc7a-4261-4c9c-9593-38eeaa291d33"
         }
       ],
       "emits": [
         {
-          "key": "reagent0",
-          "value": "cells",
-          "id": "eb507282-cced-46b5-8a1b-a7ba56ceda5d",
-          "node_id": "1bbd97b7-e8cd-48d9-8365-e58801f49ae9"
+          "key": "output",
+          "value": "tube containing RNA and adapter",
+          "id": "e398617a-b1b5-4f61-93c0-c0f871358bcf",
+          "node_id": "9c0acc7a-4261-4c9c-9593-38eeaa291d33"
         }
       ]
     },
     {
-      "id": "b1f0b3a8-1025-417b-b974-a296105dddb6",
+      "id": "adbf8d73-ba16-4808-b4c6-d1e5fbe57091",
       "text": "Centrifuge at at least 3,500 rpm, and use the supernatant as the total cell lysate.",
       "instruction": "CENTRIFUGE",
       "slots": [
         {
           "key": "reagent1",
-          "value": "cells",
-          "id": "fff454ca-f8e6-443c-a569-ecd57ae93541",
-          "node_id": "b1f0b3a8-1025-417b-b974-a296105dddb6"
+          "value": "cultured cells",
+          "id": "1bb946d4-8220-470f-a636-86781d898901",
+          "node_id": "adbf8d73-ba16-4808-b4c6-d1e5fbe57091"
         },
         {
           "key": "intensity",
           "value": "at least 3,500 rpm",
-          "id": "92fed95c-0bd6-40f5-bf5f-152b0fe405ca",
-          "node_id": "b1f0b3a8-1025-417b-b974-a296105dddb6"
+          "id": "675923a0-963a-4f8a-9e6a-41987bd161ec",
+          "node_id": "adbf8d73-ba16-4808-b4c6-d1e5fbe57091"
+        },
+        {
+          "key": "time",
+          "value": "20 min",
+          "id": "efcaccfa-259a-41f5-b963-4b446324bd90",
+          "node_id": "adbf8d73-ba16-4808-b4c6-d1e5fbe57091"
+        },
+        {
+          "key": "temperature",
+          "value": "room temperature",
+          "id": "9df7b3d2-6737-4a7f-beeb-26fe13a8afa4",
+          "node_id": "adbf8d73-ba16-4808-b4c6-d1e5fbe57091"
+        }
+      ],
+      "emits": [
+        {
+          "key": "output",
+          "value": "supernatant",
+          "id": "5bb55104-ddec-4673-b814-5226b0325914",
+          "node_id": "adbf8d73-ba16-4808-b4c6-d1e5fbe57091"
+        }
+      ]
+    },
+    {
+      "id": "ddc566a3-69fd-4730-a7b8-6e22eee2e9d5",
+      "text": "Centrifuge at at least 3,500 rpm, and use the supernatant as the total cell lysate.",
+      "instruction": "USE",
+      "slots": [
+        {
+          "key": "reagent1",
+          "value": "supernatant",
+          "id": "3a3f21f4-fbb7-43cd-af00-c32f302653b9",
+          "node_id": "ddc566a3-69fd-4730-a7b8-6e22eee2e9d5"
         }
       ],
       "emits": [
         {
           "key": "reagent0",
-          "value": "supernatant",
-          "id": "d9c02c27-6614-4fd5-a757-2e4ad92d58f2",
-          "node_id": "b1f0b3a8-1025-417b-b974-a296105dddb6"
+          "value": "total cell lysate",
+          "id": "c9796ce9-d875-45ac-ad17-408e28f7b27b",
+          "node_id": "ddc566a3-69fd-4730-a7b8-6e22eee2e9d5"
         }
       ]
     }
