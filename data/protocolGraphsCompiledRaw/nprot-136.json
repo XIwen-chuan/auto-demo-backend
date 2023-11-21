@@ -1,0 +1,584 @@
+[
+    {
+        "sentence": "Grow yeast cells carrying the empty vector, pDR-AMT1;1, pDRAMT1;1-T460A or pDR-AMT1;1-T460D plasmids, in liquid YNB media supplemented with 3% glucose and 5mM arginine.",
+        "result": [
+            {
+                "GROW": {
+                    "emit": [
+                        {
+                            "output": "yeast cells carrying the empty vector, pDR-AMT1;1, pDRAMT1;1-T460A or pDR-AMT1;1-T460D plasmids"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "reagent1": "yeast cells carrying the empty vector, pDR-AMT1;1, pDRAMT1;1-T460A or pDR-AMT1;1-T460D plasmids"
+                        },
+                        {
+                            "reagent2": "liquid YNB media supplemented with 3% glucose and 5mM arginine"
+                        },
+                        {
+                            "temperature": "room temperature"
+                        }
+                    ]
+                },
+                "sentence": "Grow yeast cells carrying the empty vector, pDR-AMT1;1, pDRAMT1;1-T460A or pDR-AMT1;1-T460D plasmids, in liquid YNB media supplemented with 3% glucose and 5mM arginine."
+            }
+        ]
+    },
+    {
+        "sentence": "Harvest cells at OD600 0.6-0.8 and chill on ice.",
+        "result": [
+            {
+                "HARVEST": {
+                    "emit": [
+                        {
+                            "output": "cell culture media"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "reagent1": "liquid YNB media supplemented with 3% glucose and 5mM arginine"
+                        },
+                        {
+                            "container": "15 ml tube"
+                        },
+                        {
+                            "source": "well"
+                        },
+                        {
+                            "method": "using a pipette"
+                        },
+                        {
+                            "environment": "<blank>"
+                        },
+                        {
+                            "purpose": "<blank>"
+                        },
+                        {
+                            "notice": "and chill on ice"
+                        }
+                    ]
+                },
+                "sentence": "Harvest cells at OD600 0.6-0.8\nnotice:\nand chill on ice."
+            }
+        ]
+    },
+    {
+        "sentence": "Harvest cells from 100 mL culture by centrifugation at 5,000g for 10 min at 4°C and wash once with half volume of chilled water.",
+        "result": [
+            {
+                "HARVEST": {
+                    "emit": [
+                        {
+                            "output": "cell culture media"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "reagent1": "cell culture media"
+                        },
+                        {
+                            "container": "15 ml tube"
+                        },
+                        {
+                            "source": "well"
+                        },
+                        {
+                            "method": "using a pipette"
+                        },
+                        {
+                            "environment": "chilled"
+                        },
+                        {
+                            "purpose": "to collect the cells"
+                        },
+                        {
+                            "notice": "and wash once with half volume of chilled water"
+                        }
+                    ]
+                },
+                "sentence": "Harvest cells from 100 mL culture by centrifugation at 5,000g for 10 min at 4°C\nnotice:\nand wash once with half volume of chilled water."
+            }
+        ]
+    },
+    {
+        "sentence": "Resuspend cells in 200 µL of chilled extraction buffer (20 mM Tris-HCl, 10 mM MgCl2, 1 mM EDTA, 5% Glycerol, 1 mM DTT, 1 mM PMSF and 1x protease inhibitor cocktail (Sigma-Aldrich, St. Louis, Mo), pH 8) and disrupt with glass beads.",
+        "result": [
+            {
+                "RESUSPEND": {
+                    "emit": [
+                        {
+                            "output": "yeast cells carrying the empty vector, pDR-AMT1;1, pDRAMT1;1-T460A or pDR-AMT1;1-T460D plasmids"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "reagent1": "yeast cells carrying the empty vector, pDR-AMT1;1, pDRAMT1;1-T460A or pDR-AMT1;1-T460D plasmids"
+                        },
+                        {
+                            "reagent2": "chilled extraction buffer (20 mM Tris-HCl, 10 mM MgCl2, 1 mM EDTA, 5% Glycerol, 1 mM DTT, 1 mM PMSF and 1x protease inhibitor cocktail (Sigma-Aldrich, St. Louis, Mo), pH 8)"
+                        },
+                        {
+                            "temperature": "chilled"
+                        }
+                    ]
+                },
+                "sentence": "Resuspend cells in 200 µL of chilled extraction buffer (20 mM Tris-HCl, 10 mM MgCl2, 1 mM EDTA, 5% Glycerol, 1 mM DTT, 1 mM PMSF and 1x protease inhibitor cocktail (Sigma-Aldrich, St. Louis, Mo), pH 8)"
+            },
+            {
+                "DISRUPT": {
+                    "emit": [
+                        {
+                            "reagent0": "disrupted cells"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "reagent1": "yeast cells carrying the empty vector, pDR-AMT1;1, pDRAMT1;1-T460A or pDR-AMT1;1-T460D plasmids"
+                        },
+                        {
+                            "reagent2": "glass beads"
+                        }
+                    ]
+                },
+                "warning": "DISRUPT not in ISA, using own knowledge to generate instruction.",
+                "sentence": "Disrupt with glass beads."
+            }
+        ]
+    },
+    {
+        "sentence": "Lyze cells with 10 vortex cycles (30 sec each) alternating with ice incubation.",
+        "result": [
+            {
+                "VORTEX": {
+                    "emit": [
+                        {
+                            "output": "disrupted cells"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "reagent1": "disrupted cells"
+                        },
+                        {
+                            "time": "30 sec"
+                        },
+                        {
+                            "intensity": "intermediate intensity"
+                        },
+                        {
+                            "frequency": "10"
+                        },
+                        {
+                            "device": "standard vortexer"
+                        }
+                    ]
+                },
+                "sentence": "Lyze cells with 10 vortex cycles (30 sec each) alternating with ice incubation."
+            }
+        ]
+    },
+    {
+        "sentence": "Collect supernatants after centrifugation at 12,000g for 5 min.",
+        "result": [
+            {
+                "COLLECT": {
+                    "emit": [
+                        {
+                            "output": "supernatants"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "reagent1": "supernatants"
+                        },
+                        {
+                            "container": "15 ml tube"
+                        },
+                        {
+                            "source": "well"
+                        },
+                        {
+                            "method": "using a pipette"
+                        }
+                    ]
+                },
+                "sentence": "Collect supernatants after centrifugation at 12,000g for 5 min."
+            }
+        ]
+    },
+    {
+        "sentence": "Resuspend cell debris and glass beads in 1mL of extraction buffer, vortex twice for 30 sec and centrifuge again.",
+        "result": [
+            {
+                "RESUSPEND": {
+                    "emit": [
+                        {
+                            "output": "<blank>"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "reagent1": "cell debris and glass beads"
+                        },
+                        {
+                            "reagent2": "extraction buffer"
+                        },
+                        {
+                            "temperature": "<blank>"
+                        },
+                        {
+                            "device": "<blank>"
+                        },
+                        {
+                            "notice": "<blank>"
+                        }
+                    ]
+                },
+                "sentence": "Resuspend cell debris and glass beads in 1mL of extraction buffer."
+            },
+            {
+                "VORTEX": {
+                    "emit": [
+                        {
+                            "output": "disrupted cells"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "reagent1": "cell debris and glass beads"
+                        },
+                        {
+                            "time": "30 sec"
+                        },
+                        {
+                            "intensity": "intermediate intensity"
+                        },
+                        {
+                            "device": "standard vortexer"
+                        }
+                    ]
+                },
+                "sentence": "Vortex twice for 30 sec."
+            },
+            {
+                "CENTRIFUGE": {
+                    "emit": [
+                        {
+                            "output": "resuspended cells"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "reagent1": "cell debris and glass beads"
+                        },
+                        {
+                            "intensity": "5,000g"
+                        },
+                        {
+                            "time": "10 min"
+                        },
+                        {
+                            "temperature": "4°C"
+                        }
+                    ]
+                },
+                "sentence": "Centrifuge again."
+            }
+        ]
+    },
+    {
+        "sentence": "Collect the supernatant and pool with the first one.",
+        "result": [
+            {
+                "COLLECT": {
+                    "emit": [
+                        {
+                            "output": "supernatants"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "reagent1": "supernatants"
+                        },
+                        {
+                            "container": "15 ml tube"
+                        },
+                        {
+                            "source": "well"
+                        },
+                        {
+                            "method": "using a pipette"
+                        }
+                    ]
+                },
+                "sentence": "Collect the supernatant"
+            },
+            {
+                "POOL": {
+                    "emit": [
+                        {
+                            "output": "pooled supernatant"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "reagent1": "supernatant"
+                        },
+                        {
+                            "reagent2": "cell culture media"
+                        },
+                        {
+                            "container": "tube"
+                        }
+                    ]
+                },
+                "sentence": "and pool with the first one."
+            }
+        ]
+    },
+    {
+        "sentence": "Harvest the microsomal fraction by centrifugation at 100,000g for 50 min at 4°C.",
+        "result": [
+            {
+                "CENTRIFUGE": {
+                    "emit": [
+                        {
+                            "output": "microsomal fraction"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "reagent1": "resuspended cells"
+                        },
+                        {
+                            "intensity": "100,000g"
+                        },
+                        {
+                            "time": "50 min"
+                        },
+                        {
+                            "temperature": "4°C"
+                        }
+                    ]
+                },
+                "sentence": "Harvest the microsomal fraction by centrifugation at 100,000g for 50 min at 4°C."
+            }
+        ]
+    },
+    {
+        "sentence": "Resuspend the pellet in 200 µL of storage buffer (20 mM Tris-Cl, 0.1 mM EDTA, 10% glycerol, 100 mM KCl, 1 mM DTT, 1 mM PMSF and 1x protease inhibitor cocktail, pH7.5).",
+        "result": [
+            {
+                "RESUSPEND": {
+                    "emit": [
+                        {
+                            "output": "disrupted cells"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "reagent1": "disrupted cells"
+                        },
+                        {
+                            "reagent2": "storage buffer"
+                        },
+                        {
+                            "temperature": "4°C"
+                        },
+                        {
+                            "device": "<blank>"
+                        },
+                        {
+                            "notice": "<blank>"
+                        }
+                    ]
+                },
+                "sentence": "Resuspend the pellet in 200 µL of storage buffer (20 mM Tris-Cl, 0.1 mM EDTA, 10% glycerol, 100 mM KCl, 1 mM DTT, 1 mM PMSF and 1x protease inhibitor cocktail, pH7.5)."
+            }
+        ]
+    },
+    {
+        "sentence": "Estimate protein concentration by Bradford protein assay (Bio-Rad, Hercules, CA) using BSA as standard.",
+        "result": [
+            {
+                "ESTIMATE": {
+                    "emit": [
+                        {
+                            "reagent0": "protein concentration"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "reagent1": "pooled supernatant"
+                        },
+                        {
+                            "reagent2": "BSA"
+                        },
+                        {
+                            "standard": "BSA"
+                        },
+                        {
+                            "assay": "Bradford protein assay (Bio-Rad, Hercules, CA)"
+                        }
+                    ]
+                },
+                "warning": "ESTIMATE not in ISA, using own knowledge to generate instruction.",
+                "sentence": "Estimate protein concentration by Bradford protein assay (Bio-Rad, Hercules, CA) using BSA as standard."
+            }
+        ]
+    },
+    {
+        "sentence": "Denature proteins (5 µg per lane) in loading buffer (62.5 mM Tris-HCl pH 6.8, 10% v/v glycerol, 2% w/v SDS, 2.5% v/v β-mercaptoethanol, 0.01% w/v bromophenol blue) at 37°C for 30 min",
+        "result": [
+            {
+                "DENATURE": {
+                    "emit": [
+                        {
+                            "output": "denatured proteins"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "reagent1": "proteins"
+                        },
+                        {
+                            "reagent2": "loading buffer (62.5 mM Tris-HCl pH 6.8, 10% v/v glycerol, 2% w/v SDS, 2.5% v/v β-mercaptoethanol, 0.01% w/v bromophenol blue)"
+                        },
+                        {
+                            "temperature": "37°C"
+                        },
+                        {
+                            "time": "30 min"
+                        }
+                    ]
+                },
+                "sentence": "Denature proteins (5 µg per lane) in loading buffer (62.5 mM Tris-HCl pH 6.8, 10% v/v glycerol, 2% w/v SDS, 2.5% v/v β-mercaptoethanol, 0.01% w/v bromophenol blue) at 37°C for 30 min"
+            }
+        ]
+    },
+    {
+        "sentence": "separate on 10% SDS-PAGE gels and transfer to PVDF membrane.",
+        "result": [
+            {
+                "SEPARATE": {
+                    "emit": [
+                        {
+                            "output": "protein bands"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "component": "protein"
+                        },
+                        {
+                            "reagent1": "denatured proteins"
+                        },
+                        {
+                            "method": "SDS-PAGE"
+                        },
+                        {
+                            "device": "gels"
+                        },
+                        {
+                            "environment": "10% SDS-PAGE gels"
+                        }
+                    ]
+                },
+                "sentence": "Separate on 10% SDS-PAGE gels"
+            },
+            {
+                "TRANSFER": {
+                    "emit": [
+                        {
+                            "output": "protein bands"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "source": "10% SDS-PAGE gels"
+                        },
+                        {
+                            "destination": "PVDF membrane"
+                        },
+                        {
+                            "reagent1": "protein bands"
+                        }
+                    ]
+                },
+                "sentence": "Transfer to PVDF membrane."
+            }
+        ]
+    },
+    {
+        "sentence": "Dilute the primary antibody (1/1,000) and secondary antibody (1/10,000; peroxidase-conjugated anti-rabbit IgG - Pierce Biotechnology, Rockford, IL) in blocking solution. ",
+        "result": [
+            {
+                "DILUTE": {
+                    "emit": [
+                        {
+                            "output": "diluted antibody solution"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "reagent1": "primary antibody (1/1,000) and secondary antibody (1/10,000; peroxidase-conjugated anti-rabbit IgG - Pierce Biotechnology, Rockford, IL)"
+                        },
+                        {
+                            "reagent2": "blocking solution"
+                        },
+                        {
+                            "targetConcentration": "diluted concentration"
+                        }
+                    ]
+                },
+                "sentence": "Dilute the primary antibody (1/1,000) and secondary antibody (1/10,000; peroxidase-conjugated anti-rabbit IgG - Pierce Biotechnology, Rockford, IL) in blocking solution."
+            }
+        ]
+    },
+    {
+        "sentence": "Use rainbow marker (Amersham Biosciences, Piscataway, NJ) as a molecular mass marker.",
+        "result": [
+            {
+                "USE": {
+                    "emit": [
+                        {
+                            "reagent0": "molecular mass marker"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "reagent1": "rainbow marker (Amersham Biosciences, Piscataway, NJ)"
+                        }
+                    ]
+                },
+                "warning": "USE not in ISA, using own knowledge to generate instruction.",
+                "sentence": "Use rainbow marker (Amersham Biosciences, Piscataway, NJ) as a molecular mass marker."
+            }
+        ]
+    },
+    {
+        "sentence": "Develop blots using SuperSignal West Pico Chemiluminescent Substrate (Pierce Biotechnology, Rockford, IL).",
+        "result": [
+            {
+                "DEVELOP": {
+                    "emit": [
+                        {
+                            "reagent0": "developed blots"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "reagent1": "protein bands"
+                        },
+                        {
+                            "reagent2": "SuperSignal West Pico Chemiluminescent Substrate (Pierce Biotechnology, Rockford, IL)"
+                        }
+                    ]
+                },
+                "warning": "DEVELOP not in ISA, using own knowledge to generate instruction.",
+                "sentence": "Develop blots using SuperSignal West Pico Chemiluminescent Substrate (Pierce Biotechnology, Rockford, IL)."
+            }
+        ]
+    }
+]

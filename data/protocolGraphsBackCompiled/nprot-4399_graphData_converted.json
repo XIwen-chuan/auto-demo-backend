@@ -1,0 +1,110 @@
+[
+  {
+    "title": "",
+    "body": [
+      {
+        "sentence": "plate cells at a concentration of 1 million cells / mL",
+        "result": {
+          "PLATE": {
+            "emit": [],
+            "slot": [
+              {
+                "it's a slot key": "it's a slot value"
+              }
+            ]
+          }
+        }
+      }
+    ]
+  },
+  {
+    "title": "",
+    "body": [
+      {
+        "sentence": "24 hours after plating, switch to serum-free or EV-cleared media",
+        "result": {
+          "ADD": {
+            "emit": [],
+            "slot": [
+              {
+                "it's a slot key": "it's a slot value"
+              }
+            ]
+          }
+        }
+      }
+    ]
+  },
+  {
+    "title": "",
+    "body": [
+      {
+        "sentence": "Collect supernatant after 24 hr \\(hESCs) or 48 hr \\(NRVMs or KMBCs)",
+        "result": {
+          "COLLECT": {
+            "emit": [],
+            "slot": [
+              {
+                "it's a slot key": "it's a slot value"
+              }
+            ]
+          }
+        }
+      }
+    ]
+  },
+  {
+    "title": "",
+    "body": [
+      {
+        "sentence": " Centrifuge at 500 x g for 10 min.",
+        "result": {
+          "CENTRIFUGE": {
+            "emit": [],
+            "slot": [
+              {
+                "it's a slot key": "it's a slot value"
+              }
+            ]
+          }
+        }
+      }
+    ]
+  },
+  {
+    "title": "",
+    "body": [
+      {
+        "sentence": "Transfer supernatant to a fresh tube and centrifuge at 2,000 x g for 10 min",
+        "result": {
+          "TRANSFER": {
+            "emit": [],
+            "slot": [
+              {
+                "it's a slot key": "it's a slot value"
+              }
+            ]
+          }
+        }
+      }
+    ]
+  },
+  {
+    "title": "",
+    "body": [
+      {
+        "sentence": "Store cell-free supernatant at -80\u00b0C.",
+        "result": {
+          "STORE": {
+            "emit": [],
+            "slot": [
+              {
+                "it's a slot key": "it's a slot value"
+              }
+            ]
+          }
+        }
+      }
+    ]
+  }
+]

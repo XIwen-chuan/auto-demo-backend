@@ -1,0 +1,200 @@
+[
+  {
+    "title": "",
+    "body": [
+      {
+        "sentence": "Incubate the MTP well surface with 100 \u03bcL of 1% (w/v) KOH in DIW for 10 min at 37\u00b0C and wash five times with 300 \u03bcL DIW per well).",
+        "result": {
+          "INCUBATE": {
+            "emit": [],
+            "slot": [
+              {
+                "it's a slot key": "it's a slot value"
+              }
+            ]
+          }
+        }
+      }
+    ]
+  },
+  {
+    "title": "",
+    "body": [
+      {
+        "sentence": "Mix EDC-activated anti-HFA capture Ab (8 \u00b5g mL-1) with 1% (v/v) APTES in a ratio of 1:1 (v/v). ",
+        "result": {
+          "MIX": {
+            "emit": [],
+            "slot": [
+              {
+                "it's a slot key": "it's a slot value"
+              }
+            ]
+          }
+        }
+      }
+    ]
+  },
+  {
+    "title": "",
+    "body": [
+      {
+        "sentence": "Incubate each of the desired wells of 96-well MTP with 100 \u03bcL of the freshly prepared anti-HFA capture Ab solution, with a final concentration of 4 \u00b5g mL-1 in 0.5% APTES, for 30 min at 37\u00b0C.",
+        "result": {
+          "INCUBATE": {
+            "emit": [],
+            "slot": [
+              {
+                "it's a slot key": "it's a slot value"
+              }
+            ]
+          }
+        }
+      }
+    ]
+  },
+  {
+    "title": "",
+    "body": [
+      {
+        "sentence": "Wash five times with 300 \u03bcL of 0.1M PBS, pH 7.4. ",
+        "result": {
+          "ADD": {
+            "emit": [],
+            "slot": [
+              {
+                "it's a slot key": "it's a slot value"
+              }
+            ]
+          }
+        }
+      }
+    ]
+  },
+  {
+    "title": "",
+    "body": [
+      {
+        "sentence": "Block the MTP wells by incubating with 300 \u03bcL of 1% (w/v) BSA for 30 min a 37\u00b0C and wash with 300 \u03bcL of 0.1M PBS, pH 7.4 five times. ",
+        "result": {
+          "BLOCK": {
+            "emit": [],
+            "slot": [
+              {
+                "it's a slot key": "it's a slot value"
+              }
+            ]
+          }
+        }
+      }
+    ]
+  },
+  {
+    "title": "",
+    "body": [
+      {
+        "sentence": "Dispense sequentially 100 \u00b5L of biotinylated anti-HFA detection Ab (0.17 \u00b5g mL-1) pre-conjugated to SA-HRP and 100 \u00b5L of HFA (varying concentrations; 0.1-243 ng mL-1) to the Ab-bound and BSA-blocked MTP wells. ",
+        "result": {
+          "DISPENSE": {
+            "emit": [],
+            "slot": [
+              {
+                "it's a slot key": "it's a slot value"
+              }
+            ]
+          }
+        }
+      }
+    ]
+  },
+  {
+    "title": "",
+    "body": [
+      {
+        "sentence": "Incubate for 15 min at 37\u00b0C",
+        "result": {
+          "INCUBATE": {
+            "emit": [],
+            "slot": [
+              {
+                "it's a slot key": "it's a slot value"
+              }
+            ]
+          }
+        }
+      }
+    ]
+  },
+  {
+    "title": "",
+    "body": [
+      {
+        "sentence": "Wash the resulting sandwich immune complex-bound MTP with 300 \u00b5L of 0.1M PBS, pH 7.4 five times to remove the non-specifically substances and excess IA reagents.",
+        "result": {
+          "ADD": {
+            "emit": [],
+            "slot": [
+              {
+                "it's a slot key": "it's a slot value"
+              }
+            ]
+          }
+        }
+      }
+    ]
+  },
+  {
+    "title": "",
+    "body": [
+      {
+        "sentence": "Add 100 \u00b5L of the TMB-H2O2 mixture to each MTP well and incubate at RT for 14 min to allow the enzymatic reaction to develop color",
+        "result": {
+          "ADD": {
+            "emit": [],
+            "slot": [
+              {
+                "it's a slot key": "it's a slot value"
+              }
+            ]
+          }
+        }
+      }
+    ]
+  },
+  {
+    "title": "",
+    "body": [
+      {
+        "sentence": "Stop the enzymatic reaction by adding 50 \u00b5L of 2N H2SO4 to each MTP well.",
+        "result": {
+          "ADD": {
+            "emit": [],
+            "slot": [
+              {
+                "it's a slot key": "it's a slot value"
+              }
+            ]
+          }
+        }
+      }
+    ]
+  },
+  {
+    "title": "",
+    "body": [
+      {
+        "sentence": "Record the absorbance at a primary wavelength of 450 nm taking 540 nm as the reference wavelength in a Tecan Infinite M200 Pro microplate reader.",
+        "result": {
+          "RECORD": {
+            "emit": [],
+            "slot": [
+              {
+                "it's a slot key": "it's a slot value"
+              }
+            ]
+          }
+        }
+      }
+    ]
+  }
+]

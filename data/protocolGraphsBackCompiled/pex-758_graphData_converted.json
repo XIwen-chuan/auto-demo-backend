@@ -1,0 +1,776 @@
+[
+  {
+    "title": "",
+    "body": [
+      {
+        "sentence": "Medium1:Add 20 ml FCS to 30 ml RPMI 1640",
+        "result": {
+          "ADD": {
+            "emit": [],
+            "slot": [
+              {
+                "it's a slot key": "it's a slot value"
+              }
+            ]
+          }
+        }
+      }
+    ]
+  },
+  {
+    "title": "",
+    "body": [
+      {
+        "sentence": "Medium2:Add 10 ml DMSO to 40 ml FCS",
+        "result": {
+          "ADD": {
+            "emit": [],
+            "slot": [
+              {
+                "it's a slot key": "it's a slot value"
+              }
+            ]
+          }
+        }
+      }
+    ]
+  },
+  {
+    "title": "",
+    "body": [
+      {
+        "sentence": "Culture medium:Add 9.3 ml of RPMI 1640 into a falcon tube;Add 0.5 ml of human AB serum (HABS) ;Add 0.1 ml of GlutaMax ;Add 0.1 ml of Pen-Strep",
+        "result": {
+          "ADD": {
+            "emit": [],
+            "slot": [
+              {
+                "it's a slot key": "it's a slot value"
+              }
+            ]
+          }
+        }
+      }
+    ]
+  },
+  {
+    "title": "",
+    "body": [
+      {
+        "sentence": "CELL FREEZING\n1.Add 1 ml Freezing Medium 1 to up to 20 x 106 pelleted PBMC.2.Incubate 20 min on ice.3.Slowly add 1 ml cold Freezing Medium 2.Mix by gently pipetting.4.Transfer 1 ml of cell suspension (10 x 106 cells/ml) per cryotube.5.Place cryotubes in a freezing container and store at -80\u00b0C.6.After 1 day, remove cryotubes from freezing container and store them at -80\u00b0C for up to 6 months.",
+        "result": {
+          "ADD": {
+            "emit": [],
+            "slot": [
+              {
+                "it's a slot key": "it's a slot value"
+              }
+            ]
+          }
+        }
+      }
+    ]
+  },
+  {
+    "title": "",
+    "body": [
+      {
+        "sentence": "CELL THAWING",
+        "result": {
+          "ADD": {
+            "emit": [],
+            "slot": [
+              {
+                "it's a slot key": "it's a slot value"
+              }
+            ]
+          }
+        }
+      }
+    ]
+  },
+  {
+    "title": "",
+    "body": [
+      {
+        "sentence": "Pre-warm water bath to 37\u00b0C",
+        "result": {
+          "ADD": {
+            "emit": [],
+            "slot": [
+              {
+                "it's a slot key": "it's a slot value"
+              }
+            ]
+          }
+        }
+      }
+    ]
+  },
+  {
+    "title": "",
+    "body": [
+      {
+        "sentence": "Thaw cells quickly by swirling the cryotube in the water bath (<60 seconds)",
+        "result": {
+          "THAW": {
+            "emit": [],
+            "slot": [
+              {
+                "it's a slot key": "it's a slot value"
+              }
+            ]
+          }
+        }
+      }
+    ]
+  },
+  {
+    "title": "",
+    "body": [
+      {
+        "sentence": "Transfer the content of the cryotube into a falcon tube",
+        "result": {
+          "TRANSFER": {
+            "emit": [],
+            "slot": [
+              {
+                "it's a slot key": "it's a slot value"
+              }
+            ]
+          }
+        }
+      }
+    ]
+  },
+  {
+    "title": "",
+    "body": [
+      {
+        "sentence": "Add 10 ml of cold PBS containing 10% human AB serum dropwise",
+        "result": {
+          "ADD": {
+            "emit": [],
+            "slot": [
+              {
+                "it's a slot key": "it's a slot value"
+              }
+            ]
+          }
+        }
+      }
+    ]
+  },
+  {
+    "title": "",
+    "body": [
+      {
+        "sentence": "Centrifuge at 200 g for 10 min.Aspirate supernatant using vacuum pump",
+        "result": {
+          "CENTRIFUGE": {
+            "emit": [],
+            "slot": [
+              {
+                "it's a slot key": "it's a slot value"
+              }
+            ]
+          }
+        }
+      }
+    ]
+  },
+  {
+    "title": "",
+    "body": [
+      {
+        "sentence": "Resuspend cell pellet in culture medium at up to 10 x 106/ml",
+        "result": {
+          "ADD": {
+            "emit": [],
+            "slot": [
+              {
+                "it's a slot key": "it's a slot value"
+              }
+            ]
+          }
+        }
+      }
+    ]
+  },
+  {
+    "title": "",
+    "body": [
+      {
+        "sentence": "Add 150 \u00b5l of cell suspension per well in a 96-well plate",
+        "result": {
+          "ADD": {
+            "emit": [],
+            "slot": [
+              {
+                "it's a slot key": "it's a slot value"
+              }
+            ]
+          }
+        }
+      }
+    ]
+  },
+  {
+    "title": "",
+    "body": [
+      {
+        "sentence": "Incubate for 6 hours at 37\u00b0C 5% CO2 before proceeding with stimulation",
+        "result": {
+          "INCUBATE": {
+            "emit": [],
+            "slot": [
+              {
+                "it's a slot key": "it's a slot value"
+              }
+            ]
+          }
+        }
+      }
+    ]
+  },
+  {
+    "title": "",
+    "body": [
+      {
+        "sentence": "Add 5 \u00b5g/ml CMV lysate to each well.",
+        "result": {
+          "ADD": {
+            "emit": [],
+            "slot": [
+              {
+                "it's a slot key": "it's a slot value"
+              }
+            ]
+          }
+        }
+      }
+    ]
+  },
+  {
+    "title": "",
+    "body": [
+      {
+        "sentence": "Add 1\u00b5g/ml \u03b1CD28 and \u03b1CD49d to each well.",
+        "result": {
+          "ADD": {
+            "emit": [],
+            "slot": [
+              {
+                "it's a slot key": "it's a slot value"
+              }
+            ]
+          }
+        }
+      }
+    ]
+  },
+  {
+    "title": "",
+    "body": [
+      {
+        "sentence": "Optionally, add 5\u00b5g/ml \u03b1PD1, \u03b1CTLA-4 or isotype control to the corresponding wells",
+        "result": {
+          "ADD": {
+            "emit": [],
+            "slot": [
+              {
+                "it's a slot key": "it's a slot value"
+              }
+            ]
+          }
+        }
+      }
+    ]
+  },
+  {
+    "title": "",
+    "body": [
+      {
+        "sentence": "Incubate for 18 hours at 37\u00b0C 5% CO2",
+        "result": {
+          "INCUBATE": {
+            "emit": [],
+            "slot": [
+              {
+                "it's a slot key": "it's a slot value"
+              }
+            ]
+          }
+        }
+      }
+    ]
+  },
+  {
+    "title": "",
+    "body": [
+      {
+        "sentence": "In the last 4 hours of incubation, add 2 \u00b5l/ml Protein Transport Inhibitor Cocktail to all the wells (0.3 \u00b5l 500X stock per well containing 150 \u00b5l medium)",
+        "result": {
+          "ADD": {
+            "emit": [],
+            "slot": [
+              {
+                "it's a slot key": "it's a slot value"
+              }
+            ]
+          }
+        }
+      }
+    ]
+  },
+  {
+    "title": "",
+    "body": [
+      {
+        "sentence": "As a positive control, add 10 \u00b5g/ml SEB for 18 hours or alternatively 2 \u00b5l/ml Cell Stimulation Cocktail to one well for the last 4 hours.",
+        "result": {
+          "ADD": {
+            "emit": [],
+            "slot": [
+              {
+                "it's a slot key": "it's a slot value"
+              }
+            ]
+          }
+        }
+      }
+    ]
+  },
+  {
+    "title": "",
+    "body": [
+      {
+        "sentence": "Transfer cells from culture wells into a polypropylene V bottom 96 well plate.",
+        "result": {
+          "TRANSFER": {
+            "emit": [],
+            "slot": [
+              {
+                "it's a slot key": "it's a slot value"
+              }
+            ]
+          }
+        }
+      }
+    ]
+  },
+  {
+    "title": "",
+    "body": [
+      {
+        "sentence": "Centrifuge at 1400rpm for 3 min",
+        "result": {
+          "CENTRIFUGE": {
+            "emit": [],
+            "slot": [
+              {
+                "it's a slot key": "it's a slot value"
+              }
+            ]
+          }
+        }
+      }
+    ]
+  },
+  {
+    "title": "",
+    "body": [
+      {
+        "sentence": "Resuspend pellet in 20 \u00b5l PBS containing ViaKrome Fixable Viability Dye 808 (32,5\u00b5l dye/ml)",
+        "result": {
+          "ADD": {
+            "emit": [],
+            "slot": [
+              {
+                "it's a slot key": "it's a slot value"
+              }
+            ]
+          }
+        }
+      }
+    ]
+  },
+  {
+    "title": "",
+    "body": [
+      {
+        "sentence": "Incubate for 20 min at RT in the dark",
+        "result": {
+          "INCUBATE": {
+            "emit": [],
+            "slot": [
+              {
+                "it's a slot key": "it's a slot value"
+              }
+            ]
+          }
+        }
+      }
+    ]
+  },
+  {
+    "title": "",
+    "body": [
+      {
+        "sentence": "Wash samples with 180 \u00b5l Cell Staining Buffer (CSB) by centrifugation at 1400 rpm for 3 min",
+        "result": {
+          "ADD": {
+            "emit": [],
+            "slot": [
+              {
+                "it's a slot key": "it's a slot value"
+              }
+            ]
+          }
+        }
+      }
+    ]
+  },
+  {
+    "title": "",
+    "body": [
+      {
+        "sentence": "Aspirate supernatant using vacuum pump",
+        "result": {
+          "ASPIRATE": {
+            "emit": [],
+            "slot": [
+              {
+                "it's a slot key": "it's a slot value"
+              }
+            ]
+          }
+        }
+      }
+    ]
+  },
+  {
+    "title": "",
+    "body": [
+      {
+        "sentence": "Add 10 \u00b5l 10% FcR block in CSB and shake at 800 rpm for 60'' in a rotary shake",
+        "result": {
+          "ADD": {
+            "emit": [],
+            "slot": [
+              {
+                "it's a slot key": "it's a slot value"
+              }
+            ]
+          }
+        }
+      }
+    ]
+  },
+  {
+    "title": "",
+    "body": [
+      {
+        "sentence": "Incubate at 4 \u00b0C for 15 min in the dark",
+        "result": {
+          "INCUBATE": {
+            "emit": [],
+            "slot": [
+              {
+                "it's a slot key": "it's a slot value"
+              }
+            ]
+          }
+        }
+      }
+    ]
+  },
+  {
+    "title": "",
+    "body": [
+      {
+        "sentence": "Add 20 \u00b5l surface antibodies mastermix",
+        "result": {
+          "ADD": {
+            "emit": [],
+            "slot": [
+              {
+                "it's a slot key": "it's a slot value"
+              }
+            ]
+          }
+        }
+      }
+    ]
+  },
+  {
+    "title": "",
+    "body": [
+      {
+        "sentence": "Shake at 800 rpm for 5 min and incubate for further 25 min at 4\u00b0C in the dark",
+        "result": {
+          "SHAKE": {
+            "emit": [],
+            "slot": [
+              {
+                "it's a slot key": "it's a slot value"
+              }
+            ]
+          }
+        }
+      }
+    ]
+  },
+  {
+    "title": "",
+    "body": [
+      {
+        "sentence": "Wash samples with 170 \u00b5l CSB by centrifugation at 1400 rpm for 3 min",
+        "result": {
+          "ADD": {
+            "emit": [],
+            "slot": [
+              {
+                "it's a slot key": "it's a slot value"
+              }
+            ]
+          }
+        }
+      }
+    ]
+  },
+  {
+    "title": "",
+    "body": [
+      {
+        "sentence": "Aspirate supernatant using vacuum pump",
+        "result": {
+          "ASPIRATE": {
+            "emit": [],
+            "slot": [
+              {
+                "it's a slot key": "it's a slot value"
+              }
+            ]
+          }
+        }
+      }
+    ]
+  },
+  {
+    "title": "",
+    "body": [
+      {
+        "sentence": "Add 50 \u00b5l IC Fixation Buffer",
+        "result": {
+          "ADD": {
+            "emit": [],
+            "slot": [
+              {
+                "it's a slot key": "it's a slot value"
+              }
+            ]
+          }
+        }
+      }
+    ]
+  },
+  {
+    "title": "",
+    "body": [
+      {
+        "sentence": "Add 40 \u00b5l CSB to each well and resuspend cell pellets",
+        "result": {
+          "ADD": {
+            "emit": [],
+            "slot": [
+              {
+                "it's a slot key": "it's a slot value"
+              }
+            ]
+          }
+        }
+      }
+    ]
+  },
+  {
+    "title": "",
+    "body": [
+      {
+        "sentence": "Incubate for 30 min at RT in the dark",
+        "result": {
+          "INCUBATE": {
+            "emit": [],
+            "slot": [
+              {
+                "it's a slot key": "it's a slot value"
+              }
+            ]
+          }
+        }
+      }
+    ]
+  },
+  {
+    "title": "",
+    "body": [
+      {
+        "sentence": "Wash samples with 110 \u00b5l Perm Buffer by centrifugation at 1400 rpm for 3 min",
+        "result": {
+          "ADD": {
+            "emit": [],
+            "slot": [
+              {
+                "it's a slot key": "it's a slot value"
+              }
+            ]
+          }
+        }
+      }
+    ]
+  },
+  {
+    "title": "",
+    "body": [
+      {
+        "sentence": " Aspirate supernatant using vacuum pump",
+        "result": {
+          "ASPIRATE": {
+            "emit": [],
+            "slot": [
+              {
+                "it's a slot key": "it's a slot value"
+              }
+            ]
+          }
+        }
+      }
+    ]
+  },
+  {
+    "title": "",
+    "body": [
+      {
+        "sentence": "Add 40 \u00b5l intracellular antibody mastermix",
+        "result": {
+          "ADD": {
+            "emit": [],
+            "slot": [
+              {
+                "it's a slot key": "it's a slot value"
+              }
+            ]
+          }
+        }
+      }
+    ]
+  },
+  {
+    "title": "",
+    "body": [
+      {
+        "sentence": " Shake at 800 rpm for 5 min and incubate for further 25 min at RT in the dark",
+        "result": {
+          "SHAKE": {
+            "emit": [],
+            "slot": [
+              {
+                "it's a slot key": "it's a slot value"
+              }
+            ]
+          }
+        }
+      }
+    ]
+  },
+  {
+    "title": "",
+    "body": [
+      {
+        "sentence": "Wash samples with 160 \u00b5l Perm Buffer by centrifugation at 1400 rpm for 3 min",
+        "result": {
+          "ADD": {
+            "emit": [],
+            "slot": [
+              {
+                "it's a slot key": "it's a slot value"
+              }
+            ]
+          }
+        }
+      }
+    ]
+  },
+  {
+    "title": "",
+    "body": [
+      {
+        "sentence": "Aspirate supernatant using vacuum pump",
+        "result": {
+          "ASPIRATE": {
+            "emit": [],
+            "slot": [
+              {
+                "it's a slot key": "it's a slot value"
+              }
+            ]
+          }
+        }
+      }
+    ]
+  },
+  {
+    "title": "",
+    "body": [
+      {
+        "sentence": "Wash samples with 200 \u00b5l Perm Buffer by centrifugation at 1400 rpm for 3 min",
+        "result": {
+          "ADD": {
+            "emit": [],
+            "slot": [
+              {
+                "it's a slot key": "it's a slot value"
+              }
+            ]
+          }
+        }
+      }
+    ]
+  },
+  {
+    "title": "",
+    "body": [
+      {
+        "sentence": "Aspirate supernatant using vacuum pump",
+        "result": {
+          "ASPIRATE": {
+            "emit": [],
+            "slot": [
+              {
+                "it's a slot key": "it's a slot value"
+              }
+            ]
+          }
+        }
+      }
+    ]
+  },
+  {
+    "title": "",
+    "body": [
+      {
+        "sentence": "Resuspend in 150 \u00b5l CSB for analysis by flow cytometry",
+        "result": {
+          "ADD": {
+            "emit": [],
+            "slot": [
+              {
+                "it's a slot key": "it's a slot value"
+              }
+            ]
+          }
+        }
+      }
+    ]
+  }
+]

@@ -1,0 +1,740 @@
+[
+  {
+    "title": "",
+    "body": [
+      {
+        "sentence": "Culture cells",
+        "result": {
+          "ADD": {
+            "emit": [],
+            "slot": [
+              {
+                "it's a slot key": "it's a slot value"
+              }
+            ]
+          }
+        }
+      }
+    ]
+  },
+  {
+    "title": "",
+    "body": [
+      {
+        "sentence": "1.Detach with trypsinization \n2.Wash twice with PBS",
+        "result": {
+          "ADD": {
+            "emit": [],
+            "slot": [
+              {
+                "it's a slot key": "it's a slot value"
+              }
+            ]
+          }
+        }
+      }
+    ]
+  },
+  {
+    "title": "",
+    "body": [
+      {
+        "sentence": "50 mM HEPES pH 7.5, with complete protease inhibitor cocktail and phosphatase inhibitor tablets",
+        "result": {
+          "ADD": {
+            "emit": [],
+            "slot": [
+              {
+                "it's a slot key": "it's a slot value"
+              }
+            ]
+          }
+        }
+      }
+    ]
+  },
+  {
+    "title": "",
+    "body": [
+      {
+        "sentence": "Resuspend in 12mL HEPES",
+        "result": {
+          "ADD": {
+            "emit": [],
+            "slot": [
+              {
+                "it's a slot key": "it's a slot value"
+              }
+            ]
+          }
+        }
+      }
+    ]
+  },
+  {
+    "title": "",
+    "body": [
+      {
+        "sentence": "Lyse the resuspended cells by five freeze-thaw cycles in multiple 1.5 mL eppendorfs using liquid nitrogen.",
+        "result": {
+          "ADD": {
+            "emit": [],
+            "slot": [
+              {
+                "it's a slot key": "it's a slot value"
+              }
+            ]
+          }
+        }
+      }
+    ]
+  },
+  {
+    "title": "",
+    "body": [
+      {
+        "sentence": "Centrifuge the cell lysate at 21,000 g for 10 min at 4\u00b0C and collect the soluble fraction",
+        "result": {
+          "CENTRIFUGE": {
+            "emit": [],
+            "slot": [
+              {
+                "it's a slot key": "it's a slot value"
+              }
+            ]
+          }
+        }
+      }
+    ]
+  },
+  {
+    "title": "",
+    "body": [
+      {
+        "sentence": "Measure protein concentration in the lysate using BCA assay.",
+        "result": {
+          "MEASURE": {
+            "emit": [],
+            "slot": [
+              {
+                "it's a slot key": "it's a slot value"
+              }
+            ]
+          }
+        }
+      }
+    ]
+  },
+  {
+    "title": "",
+    "body": [
+      {
+        "sentence": "Distribute the lysate equally into 8 aliquots (1.1-1.2 mL each).",
+        "result": {
+          "ADD": {
+            "emit": [],
+            "slot": [
+              {
+                "it's a slot key": "it's a slot value"
+              }
+            ]
+          }
+        }
+      }
+    ]
+  },
+  {
+    "title": "",
+    "body": [
+      {
+        "sentence": "vehicle, 500 \u00b5M ATP, 500 nM AKT1 or with AKT1+ATP",
+        "result": {
+          "ADD": {
+            "emit": [],
+            "slot": [
+              {
+                "it's a slot key": "it's a slot value"
+              }
+            ]
+          }
+        }
+      }
+    ]
+  },
+  {
+    "title": "",
+    "body": [
+      {
+        "sentence": "Incubate on a thermomixer at 37\u00b0C for 30 min",
+        "result": {
+          "INCUBATE": {
+            "emit": [],
+            "slot": [
+              {
+                "it's a slot key": "it's a slot value"
+              }
+            ]
+          }
+        }
+      }
+    ]
+  },
+  {
+    "title": "",
+    "body": [
+      {
+        "sentence": "1.Aliquot each replicate into 10 PCR microtubes (100 \u03bcL each) \n2.Incubate each for 3 min in the thermocycler at the corresponding temperature points of 37, 41, 44, 47, 50, 53, 56, 59, 63, and 67\u00b0C.\n3.Cool down for 3 min at room temperature and afterwards keep on ice.",
+        "result": {
+          "ADD": {
+            "emit": [],
+            "slot": [
+              {
+                "it's a slot key": "it's a slot value"
+              }
+            ]
+          }
+        }
+      }
+    ]
+  },
+  {
+    "title": "",
+    "body": [
+      {
+        "sentence": "Transfer the samples into polycarbonate thickwall tubes and centrifuge at 100,000 g and 4\u00b0C for 20 min.Collect the soluble protein fractions and transfer them.",
+        "result": {
+          "TRANSFER": {
+            "emit": [],
+            "slot": [
+              {
+                "it's a slot key": "it's a slot value"
+              }
+            ]
+          }
+        }
+      }
+    ]
+  },
+  {
+    "title": "",
+    "body": [
+      {
+        "sentence": " Measure protein concentration in the samples treated at lowest temperature points (37 and 41\u00b0C) using BCA Assay.Determine the volume containing 50 \u00b5g of protein .",
+        "result": {
+          "MEASURE": {
+            "emit": [],
+            "slot": [
+              {
+                "it's a slot key": "it's a slot value"
+              }
+            ]
+          }
+        }
+      }
+    ]
+  },
+  {
+    "title": "",
+    "body": [
+      {
+        "sentence": "Transfer the same volume (calculated above) from each sample to new Eppendorf tubes.",
+        "result": {
+          "TRANSFER": {
+            "emit": [],
+            "slot": [
+              {
+                "it's a slot key": "it's a slot value"
+              }
+            ]
+          }
+        }
+      }
+    ]
+  },
+  {
+    "title": "",
+    "body": [
+      {
+        "sentence": "Add urea to the final concentration of 4 M.Add DTT to a final concentration of 10 mM",
+        "result": {
+          "ADD": {
+            "emit": [],
+            "slot": [
+              {
+                "it's a slot key": "it's a slot value"
+              }
+            ]
+          }
+        }
+      }
+    ]
+  },
+  {
+    "title": "",
+    "body": [
+      {
+        "sentence": "Incubate for 1 h at room temperature.",
+        "result": {
+          "INCUBATE": {
+            "emit": [],
+            "slot": [
+              {
+                "it's a slot key": "it's a slot value"
+              }
+            ]
+          }
+        }
+      }
+    ]
+  },
+  {
+    "title": "",
+    "body": [
+      {
+        "sentence": "Incubate for 1 h at room temperature in the dark.",
+        "result": {
+          "INCUBATE": {
+            "emit": [],
+            "slot": [
+              {
+                "it's a slot key": "it's a slot value"
+              }
+            ]
+          }
+        }
+      }
+    ]
+  },
+  {
+    "title": "",
+    "body": [
+      {
+        "sentence": "Add an additional 10 mM of DTT.",
+        "result": {
+          "ADD": {
+            "emit": [],
+            "slot": [
+              {
+                "it's a slot key": "it's a slot value"
+              }
+            ]
+          }
+        }
+      }
+    ]
+  },
+  {
+    "title": "",
+    "body": [
+      {
+        "sentence": "Add IAA to a final concentration of 50 mM",
+        "result": {
+          "ADD": {
+            "emit": [],
+            "slot": [
+              {
+                "it's a slot key": "it's a slot value"
+              }
+            ]
+          }
+        }
+      }
+    ]
+  },
+  {
+    "title": "",
+    "body": [
+      {
+        "sentence": "Quench the reaction",
+        "result": {
+          "QUENCH": {
+            "emit": [],
+            "slot": [
+              {
+                "it's a slot key": "it's a slot value"
+              }
+            ]
+          }
+        }
+      }
+    ]
+  },
+  {
+    "title": "",
+    "body": [
+      {
+        "sentence": "Add 4 volumes of methanol to the samples and vortex.",
+        "result": {
+          "ADD": {
+            "emit": [],
+            "slot": [
+              {
+                "it's a slot key": "it's a slot value"
+              }
+            ]
+          }
+        }
+      }
+    ]
+  },
+  {
+    "title": "",
+    "body": [
+      {
+        "sentence": "Add 1 volume of chloroform to the samples and vortex",
+        "result": {
+          "ADD": {
+            "emit": [],
+            "slot": [
+              {
+                "it's a slot key": "it's a slot value"
+              }
+            ]
+          }
+        }
+      }
+    ]
+  },
+  {
+    "title": "",
+    "body": [
+      {
+        "sentence": "Add 3 volumes of deionized water to the samples.",
+        "result": {
+          "ADD": {
+            "emit": [],
+            "slot": [
+              {
+                "it's a slot key": "it's a slot value"
+              }
+            ]
+          }
+        }
+      }
+    ]
+  },
+  {
+    "title": "",
+    "body": [
+      {
+        "sentence": "Centrifuge the samples at 21,000 g for 10 min.Discard the aqueous layer above the pellet as much as possible",
+        "result": {
+          "CENTRIFUGE": {
+            "emit": [],
+            "slot": [
+              {
+                "it's a slot key": "it's a slot value"
+              }
+            ]
+          }
+        }
+      }
+    ]
+  },
+  {
+    "title": "",
+    "body": [
+      {
+        "sentence": "Add 1 volume of methanol, disrupt the pellet by pipetting and wash the pellet by centrifugation at 21,000 g for 10 min.Discard the supernatant and let the pellets dry",
+        "result": {
+          "ADD": {
+            "emit": [],
+            "slot": [
+              {
+                "it's a slot key": "it's a slot value"
+              }
+            ]
+          }
+        }
+      }
+    ]
+  },
+  {
+    "title": "",
+    "body": [
+      {
+        "sentence": "Dissolve the semi-dry protein pellet in 20 mM EPPS (pH=8.5) with 8 M urea.",
+        "result": {
+          "ADD": {
+            "emit": [],
+            "slot": [
+              {
+                "it's a slot key": "it's a slot value"
+              }
+            ]
+          }
+        }
+      }
+    ]
+  },
+  {
+    "title": "",
+    "body": [
+      {
+        "sentence": "Dilute urea to 4 M.",
+        "result": {
+          "DILUTE": {
+            "emit": [],
+            "slot": [
+              {
+                "it's a slot key": "it's a slot value"
+              }
+            ]
+          }
+        }
+      }
+    ]
+  },
+  {
+    "title": "",
+    "body": [
+      {
+        "sentence": "Dissolve LysC in 20 mM EPPS, add 1:100 w/w enzyme to protein (e.g. 0.5 \u03bcg enzyme to 50 \u03bcg protein) and incubate the samples at room temperature overnight.",
+        "result": {
+          "ADD": {
+            "emit": [],
+            "slot": [
+              {
+                "it's a slot key": "it's a slot value"
+              }
+            ]
+          }
+        }
+      }
+    ]
+  },
+  {
+    "title": "",
+    "body": [
+      {
+        "sentence": "Dilute the urea to 1 M.",
+        "result": {
+          "DILUTE": {
+            "emit": [],
+            "slot": [
+              {
+                "it's a slot key": "it's a slot value"
+              }
+            ]
+          }
+        }
+      }
+    ]
+  },
+  {
+    "title": "",
+    "body": [
+      {
+        "sentence": "Dissolve sequencing-grade trypsin in 20 mM EPPS and add 1:100 w/w enzyme to protein (e.g. 0.5 \u03bcg enzyme to 50 \u03bcg protein) and incubate the samples at room temperature for 6 h.",
+        "result": {
+          "ADD": {
+            "emit": [],
+            "slot": [
+              {
+                "it's a slot key": "it's a slot value"
+              }
+            ]
+          }
+        }
+      }
+    ]
+  },
+  {
+    "title": "",
+    "body": [
+      {
+        "sentence": "Add acetonitrile to a fi nal concentration of 20%.",
+        "result": {
+          "ADD": {
+            "emit": [],
+            "slot": [
+              {
+                "it's a slot key": "it's a slot value"
+              }
+            ]
+          }
+        }
+      }
+    ]
+  },
+  {
+    "title": "",
+    "body": [
+      {
+        "sentence": "Dissolve TMT10 reagents and add 4x by weight to the samples",
+        "result": {
+          "ADD": {
+            "emit": [],
+            "slot": [
+              {
+                "it's a slot key": "it's a slot value"
+              }
+            ]
+          }
+        }
+      }
+    ]
+  },
+  {
+    "title": "",
+    "body": [
+      {
+        "sentence": "Incubate the samples for 2 h at room temperature.",
+        "result": {
+          "INCUBATE": {
+            "emit": [],
+            "slot": [
+              {
+                "it's a slot key": "it's a slot value"
+              }
+            ]
+          }
+        }
+      }
+    ]
+  },
+  {
+    "title": "",
+    "body": [
+      {
+        "sentence": "Quench the reaction by addition of 0.5% hydroxylamine for 15 min at room temperature.",
+        "result": {
+          "QUENCH": {
+            "emit": [],
+            "slot": [
+              {
+                "it's a slot key": "it's a slot value"
+              }
+            ]
+          }
+        }
+      }
+    ]
+  },
+  {
+    "title": "",
+    "body": [
+      {
+        "sentence": "Pool the labeled samples from each replicate",
+        "result": {
+          "POOL": {
+            "emit": [],
+            "slot": [
+              {
+                "it's a slot key": "it's a slot value"
+              }
+            ]
+          }
+        }
+      }
+    ]
+  },
+  {
+    "title": "",
+    "body": [
+      {
+        "sentence": "Dry at least 30% of the samples to reduce the acetonitrile content to <5%",
+        "result": {
+          "DRY": {
+            "emit": [],
+            "slot": [
+              {
+                "it's a slot key": "it's a slot value"
+              }
+            ]
+          }
+        }
+      }
+    ]
+  },
+  {
+    "title": "",
+    "body": [
+      {
+        "sentence": "Acidify the samples to pH 1-3 using TFA",
+        "result": {
+          "ADD": {
+            "emit": [],
+            "slot": [
+              {
+                "it's a slot key": "it's a slot value"
+              }
+            ]
+          }
+        }
+      }
+    ]
+  },
+  {
+    "title": "",
+    "body": [
+      {
+        "sentence": "Clean the samples using Sep-Pak cartridges",
+        "result": {
+          "CLEAN": {
+            "emit": [],
+            "slot": [
+              {
+                "it's a slot key": "it's a slot value"
+              }
+            ]
+          }
+        }
+      }
+    ]
+  },
+  {
+    "title": "",
+    "body": [
+      {
+        "sentence": "Dry the samples using DNA 120 SpeedVac concentrator.",
+        "result": {
+          "DRY": {
+            "emit": [],
+            "slot": [
+              {
+                "it's a slot key": "it's a slot value"
+              }
+            ]
+          }
+        }
+      }
+    ]
+  },
+  {
+    "title": "",
+    "body": [
+      {
+        "sentence": "Fractionate the samples: resuspend the samples in 20 mM ammonium hydroxide and fractionate into 96 fractions on an XBrigde BEH C18 2.1x150 mm column, using a Dionex Ultimate 3000 LC system. The samples can then be concatenated into as many fractions as desired",
+        "result": {
+          "ADD": {
+            "emit": [],
+            "slot": [
+              {
+                "it's a slot key": "it's a slot value"
+              }
+            ]
+          }
+        }
+      }
+    ]
+  },
+  {
+    "title": "",
+    "body": [
+      {
+        "sentence": "Dry the samples in a concentrator and store peptide pellets at -80\u00b0C",
+        "result": {
+          "DRY": {
+            "emit": [],
+            "slot": [
+              {
+                "it's a slot key": "it's a slot value"
+              }
+            ]
+          }
+        }
+      }
+    ]
+  }
+]

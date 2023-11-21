@@ -1,0 +1,110 @@
+[
+  {
+    "title": "",
+    "body": [
+      {
+        "sentence": "Block the MTP wells by incubating with 300 \u03bcL of 5% (w/v) BSA for 30 min a 37 \u00b0C and wash with 300 \u03bcL of wash buffer five times. Washing can also be performed with an automatic plate washer. The preblocking is essential to prevent non-specific binding of IA reagents to the MTP wells. CRITICAL STEP Use filtered BSA or filter the BSA solution prior to use to remove any microbial or other contaminants",
+        "result": {
+          "BLOCK": {
+            "emit": [],
+            "slot": [
+              {
+                "it's a slot key": "it's a slot value"
+              }
+            ]
+          }
+        }
+      }
+    ]
+  },
+  {
+    "title": "",
+    "body": [
+      {
+        "sentence": "Dispense in the BSA-blocked MTP wells sequentially 2 \u00b5L of the diluted stock solution of anti-CRP capture Ab-bound Dynabeads\u00ae (diluted 1:10 in binding buffer), 38 \u00b5L of the binding buffer and 40 \u00b5L of biotinylated anti-CRP detection Ab (0.17 \u00b5g mL-1) pre-conjugated to SA-HRP (diluted 1:3000). Finally, dispense 40 \u00b5L of CRP (varying concentrations; 0.3-81 ng mL-1) in the respective MTP wells in triplicate. Place the MTP on the magnetic holder and incubate at 37 \u00b0C for 15 min so that the magnets capture the Dynabead\u00ae-bound sandwich immune complex. Take out the excess reagents by sucking back the solution using a 300 \u00b5L multi-channel pipette.",
+        "result": {
+          "DISPENSE": {
+            "emit": [],
+            "slot": [
+              {
+                "it's a slot key": "it's a slot value"
+              }
+            ]
+          }
+        }
+      }
+    ]
+  },
+  {
+    "title": "",
+    "body": [
+      {
+        "sentence": "Wash the magnetically-captured sandwich immune complex-bound Dynabeads\u00ae twice by dispensing and sucking back 300 \u00b5L of the washing buffer using a 300 \u00b5L multi-channel pipette. Thereafter, suspend the washed magnetically-captured sandwich immune complex-bound Dynabeads\u00ae in 50 \u00b5L of the binding buffer.",
+        "result": {
+          "ADD": {
+            "emit": [],
+            "slot": [
+              {
+                "it's a slot key": "it's a slot value"
+              }
+            ]
+          }
+        }
+      }
+    ]
+  },
+  {
+    "title": "",
+    "body": [
+      {
+        "sentence": "Add 100 \u00b5L of the TMB-H2O2 mixture to each MTP well and incubate at RT for 4 min to allow the enzymatic reaction to develop color",
+        "result": {
+          "ADD": {
+            "emit": [],
+            "slot": [
+              {
+                "it's a slot key": "it's a slot value"
+              }
+            ]
+          }
+        }
+      }
+    ]
+  },
+  {
+    "title": "",
+    "body": [
+      {
+        "sentence": "Stop the enzymatic reaction by adding 50 \u00b5L of 2N H2SO4 to each MTP well.",
+        "result": {
+          "ADD": {
+            "emit": [],
+            "slot": [
+              {
+                "it's a slot key": "it's a slot value"
+              }
+            ]
+          }
+        }
+      }
+    ]
+  },
+  {
+    "title": "",
+    "body": [
+      {
+        "sentence": "Measure the absorbance at a primary wavelength of 450 nm and 540 nm as the reference wavelength in the Tecan Infinite M200 Pro microplate reader. CRITICAL STEP Determine the absorbance within 10 min of stopping the enzymatic reaction",
+        "result": {
+          "MEASURE": {
+            "emit": [],
+            "slot": [
+              {
+                "it's a slot key": "it's a slot value"
+              }
+            ]
+          }
+        }
+      }
+    ]
+  }
+]

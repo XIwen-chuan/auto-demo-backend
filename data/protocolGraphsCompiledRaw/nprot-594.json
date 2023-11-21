@@ -1,0 +1,747 @@
+[
+    {
+        "sentence": "After stimulation, rinse cells twice with ice-cold HBS",
+        "result": [
+            {
+                "RINSE": {
+                    "emit": [
+                        {
+                            "output": "<blank>"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "reagent1": "cells"
+                        },
+                        {
+                            "reagent2": "ice-cold HBS"
+                        },
+                        {
+                            "repeat": "2"
+                        },
+                        {
+                            "time": "<blank>"
+                        },
+                        {
+                            "notice": "<blank>"
+                        }
+                    ]
+                },
+                "sentence": "After stimulation, rinse cells twice with ice-cold HBS."
+            }
+        ]
+    },
+    {
+        "sentence": "Following steps should be done on ice or at 4oc",
+        "result": [
+            {
+                "PERFORM": {
+                    "emit": [
+                        {
+                            "output": "<blank>"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "procedure": "RINSE"
+                        },
+                        {
+                            "reagent1": "ice-cold HBS"
+                        },
+                        {
+                            "equipment": "<blank>"
+                        },
+                        {
+                            "environment": "on ice or at 4°C"
+                        },
+                        {
+                            "repeat": "<blank>"
+                        },
+                        {
+                            "time": "<blank>"
+                        }
+                    ]
+                },
+                "sentence": "Following steps should be done on ice or at 4°C."
+            }
+        ]
+    },
+    {
+        "sentence": "Add 1.0 ml of RIPA buffer to a 100 mm cell culture dish and incubate for 15 min.",
+        "result": [
+            {
+                "ADD": {
+                    "emit": [
+                        {
+                            "output": "<blank>"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "reagent1": "100 mm cell culture dish"
+                        },
+                        {
+                            "reagent2": "RIPA buffer"
+                        },
+                        {
+                            "ratio": "<blank>"
+                        },
+                        {
+                            "concentration": "<blank>"
+                        },
+                        {
+                            "notice": "Incubate for 15 min."
+                        }
+                    ]
+                },
+                "sentence": "Add 1.0 ml of RIPA buffer to a 100 mm cell culture dish\nnotice:\nIncubate for 15 min."
+            }
+        ]
+    },
+    {
+        "sentence": "Harvest lysed cells with a cell scraper",
+        "result": [
+            {
+                "HARVEST": {
+                    "emit": [
+                        {
+                            "output": "lysed cells"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "reagent1": "lysed cells"
+                        },
+                        {
+                            "container": "cell culture dish"
+                        },
+                        {
+                            "source": "well"
+                        },
+                        {
+                            "method": "with a cell scraper"
+                        }
+                    ]
+                },
+                "sentence": "Harvest lysed cells with a cell scraper."
+            }
+        ]
+    },
+    {
+        "sentence": "Collect supernatants after centrifugation at 20,000 g for 15 min",
+        "result": [
+            {
+                "COLLECT": {
+                    "emit": [
+                        {
+                            "output": "supernatants"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "reagent1": "supernatants"
+                        },
+                        {
+                            "container": "15 ml tube"
+                        },
+                        {
+                            "source": "well"
+                        },
+                        {
+                            "method": "using a pipette"
+                        }
+                    ]
+                },
+                "sentence": "Collect supernatants after centrifugation at 20,000 g for 15 min."
+            }
+        ]
+    },
+    {
+        "sentence": "Add Laemmli sample buffer, mix, and heat at 95oc for 10 min",
+        "result": [
+            {
+                "ADD": {
+                    "emit": [
+                        {
+                            "output": "<blank>"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "reagent1": "Laemmli sample buffer"
+                        },
+                        {
+                            "reagent2": "<blank>"
+                        },
+                        {
+                            "ratio": "<blank>"
+                        },
+                        {
+                            "concentration": "<blank>"
+                        },
+                        {
+                            "notice": "<blank>"
+                        }
+                    ]
+                },
+                "sentence": "Add Laemmli sample buffer."
+            },
+            {
+                "MIX": {
+                    "emit": [
+                        {
+                            "output": "<blank>"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "reagent1": "Laemmli sample buffer"
+                        },
+                        {
+                            "reagent2": "<blank>"
+                        },
+                        {
+                            "ratio": "<blank>"
+                        },
+                        {
+                            "method": "<blank>"
+                        },
+                        {
+                            "temperature": "95°C"
+                        },
+                        {
+                            "time": "10 min"
+                        },
+                        {
+                            "device": "<blank>"
+                        },
+                        {
+                            "notice": "<blank>"
+                        }
+                    ]
+                },
+                "sentence": "Mix the sample buffer."
+            },
+            {
+                "HEAT": {
+                    "emit": [
+                        {
+                            "output": "lysed cells"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "reagent1": "Laemmli sample buffer"
+                        },
+                        {
+                            "temperature": "95°C"
+                        },
+                        {
+                            "time": "10 min"
+                        }
+                    ]
+                },
+                "sentence": "Heat at 95°C for 10 min."
+            }
+        ]
+    },
+    {
+        "sentence": "Store samples at -80oc until use",
+        "result": [
+            {
+                "STORE": {
+                    "emit": [
+                        {
+                            "output": "samples"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "reagent1": "samples"
+                        },
+                        {
+                            "temperature": "-80°C"
+                        },
+                        {
+                            "time": "<blank>"
+                        },
+                        {
+                            "environment": "on dry ice"
+                        },
+                        {
+                            "container": "cyrotubes"
+                        },
+                        {
+                            "notice": "<blank>"
+                        }
+                    ]
+                },
+                "sentence": "Store samples at -80oc until use."
+            }
+        ]
+    },
+    {
+        "sentence": " Phosphate-affinity polyacrylamide gel electrophoresis",
+        "result": []
+    },
+    {
+        "sentence": "Prepare the separating gel containing Mn2+-Phos-tag. We routinely use 7.5% polyacrylamide gel with 25 micro M Phos-tag and 50 micro M MnCl2. These conditions may need to be optimized for proteins of interest",
+        "result": [
+            {
+                "PREPARE": {
+                    "emit": [
+                        {
+                            "output": "separating gel"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "reagent1": "7.5% polyacrylamide gel with 25 micro M Phos-tag and 50 micro M MnCl2"
+                        },
+                        {
+                            "container": "separating gel container"
+                        }
+                    ]
+                },
+                "sentence": "Prepare the separating gel containing Mn2+-Phos-tag."
+            },
+            {
+                "ADD": {
+                    "emit": [
+                        {
+                            "output": "separating gel"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "reagent1": "7.5% polyacrylamide gel with 25 micro M Phos-tag and 50 micro M MnCl2"
+                        },
+                        {
+                            "reagent2": "Mn2+-Phos-tag"
+                        }
+                    ]
+                },
+                "sentence": "We routinely use 7.5% polyacrylamide gel with 25 micro M Phos-tag and 50 micro M MnCl2."
+            },
+            {
+                "OPTIMIZE": {
+                    "emit": [
+                        {
+                            "reagent0": "lysed cells"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "input": "lysed cells"
+                        },
+                        {
+                            "conditions": "proteins of interest"
+                        }
+                    ]
+                },
+                "warning": "OPTIMIZE not in ISA, using own knowledge to generate instruction.",
+                "sentence": "These conditions may need to be optimized for proteins of interest."
+            }
+        ]
+    },
+    {
+        "sentence": "Prepare the normal stacking gel.",
+        "result": [
+            {
+                "PREPARE": {
+                    "emit": [
+                        {
+                            "output": "separating gel"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "reagent1": "separating gel"
+                        },
+                        {
+                            "container": "1.5 ml Eppendorf tube"
+                        }
+                    ]
+                },
+                "sentence": "Prepare the normal stacking gel."
+            }
+        ]
+    },
+    {
+        "sentence": "Load samples onto the gel. Note that lanes adjacent to prestained molecular weight markers are strongly disordered during electrophoresis",
+        "result": [
+            {
+                "LOAD": {
+                    "emit": [
+                        {
+                            "output": "images"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "reagent1": "samples"
+                        },
+                        {
+                            "destination": "the gel"
+                        },
+                        {
+                            "method": "drag and drop method"
+                        }
+                    ]
+                },
+                "sentence": "Load samples onto the gel."
+            },
+            {
+                "NOTE": {
+                    "emit": [
+                        {
+                            "reagent0": "strongly disordered during electrophoresis"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "condition": "lanes adjacent to prestained molecular weight markers"
+                        }
+                    ]
+                },
+                "warning": "NOTE not in ISA, using own knowledge to generate instruction.",
+                "sentence": "Note that lanes adjacent to prestained molecular weight markers are strongly disordered during electrophoresis."
+            }
+        ]
+    },
+    {
+        "sentence": "Run the gel at 5 to 15 mA. Phosphorylation-dependent mobility shifts of some proteins are dramatically improved by lowering the current as reported previously3, although the bands become fuzzy",
+        "result": [
+            {
+                "RUN": {
+                    "emit": [
+                        {
+                            "output": "images"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "reagent1": "10 ul or 200 ng of ligation products"
+                        },
+                        {
+                            "reagent2": "7.5% polyacrylamide gel with 25 micro M Phos-tag and 50 micro M MnCl2"
+                        },
+                        {
+                            "voltage": "5 to 15 mA"
+                        }
+                    ]
+                },
+                "sentence": "Run the gel at 5 to 15 mA."
+            }
+        ]
+    },
+    {
+        "sentence": "Electrophoretic transfer",
+        "result": [
+            {
+                "TRANSFER": {
+                    "emit": [
+                        {
+                            "output": "frozen samples"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "source": "lysed cells"
+                        },
+                        {
+                            "destination": "storage box"
+                        },
+                        {
+                            "reagent1": "frozen samples"
+                        }
+                    ]
+                },
+                "sentence": "Electrophoretic transfer"
+            }
+        ]
+    },
+    {
+        "sentence": "Incubate the gel with gentle agitation in transfer buffer B supplemented with 1 mM EDTA for 10 min.\n\n",
+        "result": [
+            {
+                "INCUBATE": {
+                    "emit": [
+                        {
+                            "output": "gel"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "reagent1": "gel"
+                        },
+                        {
+                            "reagent2": "transfer buffer B supplemented with 1 mM EDTA"
+                        },
+                        {
+                            "temperature": "room temperature"
+                        },
+                        {
+                            "time": "10 min"
+                        },
+                        {
+                            "environment": ""
+                        },
+                        {
+                            "device": ""
+                        },
+                        {
+                            "thermoProgram": ""
+                        },
+                        {
+                            "notice": "prior to measurements"
+                        }
+                    ]
+                },
+                "sentence": "Incubate the gel with gentle agitation in transfer buffer B supplemented with 1 mM EDTA for 10 min."
+            }
+        ]
+    },
+    {
+        "sentence": "Incubate the gel with gentle agitation in transfer buffer B without EDTA for further 10 min",
+        "result": [
+            {
+                "INCUBATE": {
+                    "emit": [
+                        {
+                            "output": "gel"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "reagent1": "gel"
+                        },
+                        {
+                            "reagent2": "transfer buffer B"
+                        },
+                        {
+                            "temperature": "room temperature"
+                        },
+                        {
+                            "time": "10 min"
+                        },
+                        {
+                            "environment": ""
+                        },
+                        {
+                            "device": ""
+                        },
+                        {
+                            "thermoProgram": ""
+                        },
+                        {
+                            "notice": ""
+                        }
+                    ]
+                },
+                "sentence": "Incubate the gel with gentle agitation in transfer buffer B without EDTA for further 10 min."
+            }
+        ]
+    },
+    {
+        "sentence": "Prepare PVDF membrane by wetting it in MeOH for 30 sec and then soaking it in transfer buffer B for more than 30 min.",
+        "result": [
+            {
+                "PREPARE": {
+                    "emit": [
+                        {
+                            "output": "PVDF membrane"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "reagent1": "PVDF membrane"
+                        },
+                        {
+                            "container": "MeOH"
+                        }
+                    ]
+                },
+                "sentence": "Prepare PVDF membrane by wetting it in MeOH for 30 sec and then soaking it in transfer buffer B for more than 30 min."
+            }
+        ]
+    },
+    {
+        "sentence": "Electrophoretically transfer proteins in the gel onto the membrane using a semi-dry blotting apparatus at 20 V for 90 min according to the method of Kyhse-Andersen4. Briefly, assemble the gel, PVDF membrane, and filter papers in the following order: the anode, two layers of filter paper soaked in transfer buffer A, one layer of filter paper soaked in transfer buffer B, PVDF membrane, the gel, three layers of filter paper soaked in transfer buffer C, and the cathode",
+        "result": [
+            {
+                "TRANSFER": {
+                    "emit": [
+                        {
+                            "output": "membrane"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "source": "gel"
+                        },
+                        {
+                            "destination": "membrane"
+                        },
+                        {
+                            "reagent1": "proteins"
+                        },
+                        {
+                            "volume": "<blank>"
+                        },
+                        {
+                            "equipment": "semi-dry blotting apparatus"
+                        },
+                        {
+                            "notice": "<blank>"
+                        }
+                    ]
+                },
+                "sentence": "Electrophoretically transfer proteins in the gel onto the membrane using a semi-dry blotting apparatus at 20 V for 90 min according to the method of Kyhse-Andersen4."
+            },
+            {
+                "ASSEMBLE": {
+                    "emit": [
+                        {
+                            "output": "gel, PVDF membrane, and filter papers"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "reagent1": "gel, PVDF membrane, and filter papers"
+                        },
+                        {
+                            "reagent2": "the anode, two layers of filter paper soaked in transfer buffer A, one layer of filter paper soaked in transfer buffer B, PVDF membrane, the gel, three layers of filter paper soaked in transfer buffer C, and the cathode"
+                        }
+                    ]
+                },
+                "sentence": "Briefly, assemble the gel, PVDF membrane, and filter papers in the following order: the anode, two layers of filter paper soaked in transfer buffer A, one layer of filter paper soaked in transfer buffer B, PVDF membrane, the gel, three layers of filter paper soaked in transfer buffer C, and the cathode."
+            }
+        ]
+    },
+    {
+        "sentence": "Blocking, incubation with antibodies, and detection",
+        "result": [
+            {
+                "BLOCK": {
+                    "emit": [
+                        {
+                            "output": "blocked membrane"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "reagent1": "membrane"
+                        },
+                        {
+                            "reagent2": "10% fat-free skim milk in TBST buffer"
+                        },
+                        {
+                            "temperature": "room temperature"
+                        },
+                        {
+                            "time": "1 hour"
+                        }
+                    ]
+                },
+                "sentence": "Blocking"
+            },
+            {
+                "INCUBATE": {
+                    "emit": [
+                        {
+                            "output": "protein-DNA complexes"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "reagent1": "antibodies"
+                        },
+                        {
+                            "reagent2": ""
+                        },
+                        {
+                            "temperature": "room temperature"
+                        },
+                        {
+                            "time": "30 minutes"
+                        },
+                        {
+                            "environment": ""
+                        },
+                        {
+                            "device": ""
+                        },
+                        {
+                            "thermoProgram": ""
+                        },
+                        {
+                            "notice": "prior to measurements"
+                        }
+                    ]
+                },
+                "sentence": "Incubation with antibodies"
+            },
+            {
+                "DETECT": {
+                    "emit": [
+                        {
+                            "reagent0": "images"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "reagent1": "supernatants"
+                        },
+                        {
+                            "reagent2": "separating gel"
+                        },
+                        {
+                            "reagent3": "lysed cells"
+                        },
+                        {
+                            "reagent4": "images"
+                        },
+                        {
+                            "reagent5": "frozen samples"
+                        },
+                        {
+                            "reagent6": "PVDF membrane"
+                        },
+                        {
+                            "reagent7": "gel, PVDF membrane, and filter papers"
+                        },
+                        {
+                            "reagent8": "blocked membrane"
+                        },
+                        {
+                            "reagent9": "protein-DNA complexes"
+                        }
+                    ]
+                },
+                "warning": "DETECT not in ISA, using own knowledge to generate instruction.",
+                "sentence": "Detection"
+            }
+        ]
+    },
+    {
+        "sentence": "Process the membrane according to standard Western blotting procedures.",
+        "result": [
+            {
+                "PROCESS": {
+                    "emit": [
+                        {
+                            "output": "membrane"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "procedure": "standard Western blotting procedures"
+                        }
+                    ]
+                },
+                "sentence": "Process the membrane according to standard Western blotting procedures."
+            }
+        ]
+    }
+]

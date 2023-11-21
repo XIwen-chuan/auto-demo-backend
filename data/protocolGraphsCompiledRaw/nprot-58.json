@@ -1,0 +1,915 @@
+[
+    {
+        "sentence": "Calibrate the Brüel & Kjaer pressure microphone with the acoustic calibrator, which generates a 1 kHz tone of 94 dB SPL (SPL = sound pressure level). Sample the output voltage signal of the microphone and cut the time trace into N time windows of length T. To obtain a frequency spectrum with a resolution, Δf, of 1 Hz, the length of each time window, T = 1/Δf, should be set to 1 s and the sampling frequency, f[S] = N[S]/T, should be 4096 or 8192 Hz, corresponding to a number of samples, N[S], of 212 and 213, respectively. Choosing N[S] to be a power of two makes it possible to apply Fast Fourier transformation (FFT analysis is implemented in many software packages, including the analysis software that comes with the PSV laser Doppler vibrometer). Determine the Fourier amplitude of the voltage signal at the stimulus frequency (1kHz).",
+        "result": [
+            {
+                "CALIBRATE": {
+                    "emit": [
+                        {
+                            "reagent0": "calibrated microphone"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "instrument": "Brüel & Kjaer pressure microphone"
+                        },
+                        {
+                            "calibrator": "acoustic calibrator"
+                        },
+                        {
+                            "tone_frequency": "1 kHz"
+                        },
+                        {
+                            "tone_level": "94 dB SPL"
+                        }
+                    ]
+                },
+                "warning": "CALIBRATE not in ISA, using own knowledge to generate instruction.",
+                "sentence": "Calibrate the Brüel & Kjaer pressure microphone with the acoustic calibrator, which generates a 1 kHz tone of 94 dB SPL (SPL = sound pressure level)."
+            },
+            {
+                "SAMPLE": {
+                    "emit": [
+                        {
+                            "reagent0": "time trace"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "input": "calibrated microphone"
+                        },
+                        {
+                            "N": "N"
+                        },
+                        {
+                            "T": "length"
+                        },
+                        {
+                            "instruction": "Sample the output voltage signal of the microphone and cut the time trace into N time windows of length T."
+                        }
+                    ]
+                },
+                "warning": "SAMPLE not in ISA, using own knowledge to generate instruction.",
+                "sentence": "Sample the output voltage signal of the microphone and cut the time trace into N time windows of length T."
+            },
+            {
+                "DETERMINE": {
+                    "emit": [
+                        {
+                            "output": "Fourier amplitude of the voltage signal at the stimulus frequency (1kHz)"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "device": "Brüel & Kjaer pressure microphone"
+                        },
+                        {
+                            "reagent1": "voltage signal"
+                        },
+                        {
+                            "attribute": "Fourier amplitude"
+                        },
+                        {
+                            "time": "1kHz"
+                        },
+                        {
+                            "wavelength": "<blank>"
+                        },
+                        {
+                            "notice": "<blank>"
+                        }
+                    ]
+                },
+                "sentence": "Determine the Fourier amplitude of the voltage signal at the stimulus frequency (1kHz)."
+            }
+        ]
+    },
+    {
+        "sentence": "Place the pressure microphone and the reference microphone side by side in the acoustic far field of a loudspeaker for cross-calibration (acoustic far-field conditions are met if the distance from the loudspeaker is ≥ 2 lamda, where lambda is the wavelength of sound; when calibrated with a 1 kHz tone, the microphones should be placed ≥ ca. 0.64 m from the loudspeaker). Make sure that the diaphragm of the reference microphone faces the loudspeaker.",
+        "result": [
+            {
+                "PLACE": {
+                    "emit": [
+                        {
+                            "output": "<blank>"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "reagent1": "pressure microphone and the reference microphone"
+                        },
+                        {
+                            "destination": "acoustic far field of a loudspeaker"
+                        },
+                        {
+                            "temperature": "<blank>"
+                        },
+                        {
+                            "device": "<blank>"
+                        },
+                        {
+                            "notice": "<blank>"
+                        }
+                    ]
+                },
+                "sentence": "Place the pressure microphone and the reference microphone side by side in the acoustic far field of a loudspeaker for cross-calibration (acoustic far-field conditions are met if the distance from the loudspeaker is ≥ 2 lamda, where lambda is the wavelength of sound; when calibrated with a 1 kHz tone, the microphones should be placed ≥ ca. 0.64 m from the loudspeaker)."
+            },
+            {
+                "MAKE SURE": {
+                    "emit": [
+                        {
+                            "reagent0": "diaphragm of the reference microphone"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "condition": "diaphragm of the reference microphone faces the loudspeaker"
+                        }
+                    ]
+                },
+                "warning": "MAKE SURE not in ISA, using own knowledge to generate instruction.",
+                "sentence": "Make sure that the diaphragm of the reference microphone faces the loudspeaker."
+            }
+        ]
+    },
+    {
+        "sentence": "Generate a continuous 1 kHz signal with the function generator, pass it through the step attenuator and the audio amplifier, and broadcast it via the loudspeaker. Sample the output signals of both microphones and subject them to Fast Fourier transforms (see step 1). Determine the respective Fourier amplitudes at 1 kHz. Assume that the amplitude obtained for the pressure microphone is 50 mV, and that the calibration at 94 dB SPL (step 1) yielded an amplitude of 100 mV. The sound pressure corresponding to the 50 mV output is then calculated as 94 dB SPL + 20 log (50/100) = 88 dB SPL. Acoustic power per unit area is the product of the pressure, p, and the particle velocity, u, in the sound wave (under far field conditions), whereby a power of 0 dB (= 10–12 W m–2) is equivalent to p = 2 x 10–5 N m-2 and u = 5 x 10-8 m s-1. In the far field, the pressure p is proportional to the particle velocity u, so a pressure of 88 dB SPL corresponds to a particle velocity of 5 x 10-8 m s–1 x 1088/20 ≈ 1.3 mm s–1, providing a calibration factor for converting the voltage output of the reference microphone into particle velocities. The calibration should be performed for different stimulus intensities and frequencies to assay the intensity and the frequency characteristics of the reference microphone.",
+        "result": [
+            {
+                "GENERATE": {
+                    "emit": [
+                        {
+                            "output": "continuous 1 kHz signal"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "target": "continuous 1 kHz signal"
+                        },
+                        {
+                            "method": "function generator"
+                        }
+                    ]
+                },
+                "sentence": "Generate a continuous 1 kHz signal with the function generator."
+            },
+            {
+                "PASS": {
+                    "emit": [
+                        {
+                            "output": "output signal"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "reagent1": "generated signal"
+                        },
+                        {
+                            "device": "step attenuator and the audio amplifier"
+                        },
+                        {
+                            "container": ""
+                        },
+                        {
+                            "volume": ""
+                        },
+                        {
+                            "repeat": ""
+                        },
+                        {
+                            "notice": ""
+                        }
+                    ]
+                },
+                "sentence": "Pass the generated signal through the step attenuator and the audio amplifier."
+            },
+            {
+                "BROADCAST": {
+                    "emit": [
+                        {
+                            "reagent0": "broadcasted signal"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "reagent1": "output signal"
+                        },
+                        {
+                            "reagent2": "loudspeaker"
+                        }
+                    ]
+                },
+                "warning": "BROADCAST not in ISA, using own knowledge to generate instruction.",
+                "sentence": "Broadcast the signal via the loudspeaker."
+            },
+            {
+                "SAMPLE": {
+                    "emit": [
+                        {
+                            "reagent0": "time trace"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "reagent1": "microphone output signal"
+                        }
+                    ]
+                },
+                "warning": "SAMPLE not in ISA, using own knowledge to generate instruction.",
+                "sentence": "Sample the output signals of both microphones."
+            },
+            {
+                "SUBJECT": {
+                    "emit": [
+                        {
+                            "reagent0": "Fourier transformed signals"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "reagent1": "output signals"
+                        },
+                        {
+                            "process": "Fast Fourier transforms"
+                        }
+                    ]
+                },
+                "warning": "SUBJECT not in ISA, using own knowledge to generate instruction.",
+                "sentence": "Subject the output signals to Fast Fourier transforms."
+            },
+            {
+                "DETERMINE": {
+                    "emit": [
+                        {
+                            "output": "Fourier amplitude of the voltage signal at 1 kHz"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "device": "microphone"
+                        },
+                        {
+                            "reagent1": "voltage signal"
+                        },
+                        {
+                            "attribute": "Fourier amplitude"
+                        },
+                        {
+                            "time": "<blank>"
+                        },
+                        {
+                            "wavelength": "1 kHz"
+                        },
+                        {
+                            "notice": "<blank>"
+                        }
+                    ]
+                },
+                "sentence": "Determine the respective Fourier amplitudes at 1 kHz."
+            }
+        ]
+    },
+    {
+        "sentence": "1.Microphone calibration",
+        "result": [
+            {
+                "CALIBRATE": {
+                    "emit": [],
+                    "slot": [
+                        {
+                            "step1": {
+                                "instruction": "Sample the output voltage signal of the microphone and cut the time trace into N time windows of length T.",
+                                "output": "time trace"
+                            }
+                        },
+                        {
+                            "step2": {
+                                "instruction": "Determine the Fourier amplitude of the voltage signal at the stimulus frequency (1kHz).",
+                                "input": "time trace",
+                                "output": "Fourier amplitude"
+                            }
+                        },
+                        {
+                            "step3": {
+                                "instruction": "Make sure that the diaphragm of the reference microphone faces the loudspeaker.",
+                                "output": "diaphragm of the reference microphone"
+                            }
+                        },
+                        {
+                            "step4": {
+                                "instruction": "Generate a continuous 1 kHz signal with the function generator.",
+                                "output": "continuous 1 kHz signal"
+                            }
+                        },
+                        {
+                            "step5": {
+                                "instruction": "Broadcast the signal via the loudspeaker.",
+                                "output": "broadcasted signal"
+                            }
+                        },
+                        {
+                            "step6": {
+                                "instruction": "Sample the output signals of both microphones.",
+                                "output": "time trace"
+                            }
+                        },
+                        {
+                            "step7": {
+                                "instruction": "Subject the output signals to Fast Fourier transforms.",
+                                "input": "time trace",
+                                "output": "Fourier transformed signals"
+                            }
+                        },
+                        {
+                            "step8": {
+                                "instruction": "Determine the respective Fourier amplitudes at 1 kHz.",
+                                "input": "Fourier transformed signals",
+                                "output": "Fourier amplitude at 1 kHz"
+                            }
+                        }
+                    ]
+                },
+                "warning": "CALIBRATE not in ISA, using own knowledge to generate instruction.",
+                "sentence": "Microphone calibration"
+            }
+        ]
+    },
+    {
+        "sentence": "2.Animal preparation",
+        "result": [
+            {
+                "PREPARE": {
+                    "emit": [
+                        {
+                            "output": "1 ml of PBS"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "reagent1": "PBS"
+                        },
+                        {
+                            "container": "1.5 ml Eppendorf tube"
+                        }
+                    ]
+                },
+                "sentence": "Animal preparation"
+            }
+        ]
+    },
+    {
+        "sentence": "Heat the soldering iron to ca. 220ºC",
+        "result": [
+            {
+                "HEAT": {
+                    "emit": [
+                        {
+                            "output": "soldering iron"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "reagent1": "soldering iron"
+                        },
+                        {
+                            "temperature": "ca. 220ºC"
+                        },
+                        {
+                            "time": "<blank>"
+                        },
+                        {
+                            "device": "<blank>"
+                        },
+                        {
+                            "notice": "<blank>"
+                        }
+                    ]
+                },
+                "sentence": "Heat the soldering iron to ca. 220ºC."
+            }
+        ]
+    },
+    {
+        "sentence": "Briefly anesthetize the fly with CO2",
+        "result": [
+            {
+                "ANESTHETIZE": {
+                    "emit": [
+                        {
+                            "output": "anesthetized fly"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "reagent1": "fly"
+                        },
+                        {
+                            "reagent2": "CO2"
+                        },
+                        {
+                            "dosage": "<blank>"
+                        },
+                        {
+                            "method": "<blank>"
+                        }
+                    ]
+                },
+                "sentence": "Briefly anesthetize the fly with CO2"
+            }
+        ]
+    },
+    {
+        "sentence": "Melt a drop of wax to the tip of the Teflon rod. Use tweezers to grab the fly by its wings and wax it to the rod with its legs",
+        "result": [
+            {
+                "MELT": {
+                    "emit": [
+                        {
+                            "reagent0": "melted wax"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "reagent1": "wax"
+                        },
+                        {
+                            "reagent2": "Teflon rod"
+                        }
+                    ]
+                },
+                "warning": "MELT not in ISA, using own knowledge to generate instruction.",
+                "sentence": "Melt a drop of wax to the tip of the Teflon rod."
+            },
+            {
+                "USE": {
+                    "emit": [
+                        {
+                            "reagent0": "fly with waxed legs"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "tool": "tweezers"
+                        },
+                        {
+                            "target": "fly"
+                        },
+                        {
+                            "method": "grab by wings"
+                        }
+                    ]
+                },
+                "warning": "USE not in ISA, using own knowledge to generate instruction.",
+                "sentence": "Use tweezers to grab the fly by its wings and wax it to the rod with its legs."
+            }
+        ]
+    },
+    {
+        "sentence": "Use the additional, fine tips of the soldering iron to carefully wax the fly’s coxae to the rod so that the thorax is fixed and that the arista is oriented ca. perpendicular to the longitudinal axis of the rod (Fig. 1). Be careful not to touch the antenna with the wire since to avoid damaging the ear",
+        "result": [
+            {
+                "USE": {
+                    "emit": [
+                        {
+                            "reagent0": "fly with waxed legs"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "reagent1": "fly with waxed legs"
+                        },
+                        {
+                            "reagent2": "rod"
+                        }
+                    ]
+                },
+                "warning": "USE not in ISA, using own knowledge to generate instruction.",
+                "sentence": "Use the additional, fine tips of the soldering iron to carefully wax the fly’s coxae to the rod so that the thorax is fixed and that the arista is oriented ca. perpendicular to the longitudinal axis of the rod (Fig. 1).\nnotice:\nBe careful not to touch the antenna with the wire since to avoid damaging the ear."
+            }
+        ]
+    },
+    {
+        "sentence": "Wax the postero-lateral side of the head to the thorax and stabilize the halteres, wing-hinges, and proboscis with small drops of wax to minimize movements",
+        "result": [
+            {
+                "WAX": {
+                    "emit": [
+                        {
+                            "reagent0": "fly with waxed legs"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "reagent1": "anesthetized fly"
+                        },
+                        {
+                            "reagent2": "melted wax"
+                        }
+                    ]
+                },
+                "warning": "WAX not in ISA, using own knowledge to generate instruction.",
+                "sentence": "Wax the postero-lateral side of the head to the thorax and stabilize the halteres, wing-hinges, and proboscis with small drops of wax to minimize movements."
+            }
+        ]
+    },
+    {
+        "sentence": "Blow on the antenna to test whether it still can move. This rough check helps uncovering eventual damage caused by the preparation",
+        "result": [
+            {
+                "BLOW": {
+                    "emit": [
+                        {
+                            "reagent0": "antenna"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "reagent1": "antenna"
+                        },
+                        {
+                            "condition": "can move"
+                        }
+                    ]
+                },
+                "warning": "BLOW not in ISA, using own knowledge to generate instruction.",
+                "sentence": "Blow on the antenna to test whether it still can move.\nnotice:\nThis rough check helps uncovering eventual damage caused by the preparation."
+            }
+        ]
+    },
+    {
+        "sentence": "3.Mechanical measurements",
+        "result": []
+    },
+    {
+        "sentence": "The setup is arranged on the vibration isolation table, with the laser Doppler vibrometer (LDV) being positioned in the centre .  ",
+        "result": [
+            {
+                "ARRANGE": {
+                    "emit": [
+                        {
+                            "reagent0": "laser Doppler vibrometer (LDV)"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "setup": "vibration isolation table"
+                        },
+                        {
+                            "position": "centre"
+                        }
+                    ]
+                },
+                "warning": "ARRANGE not in ISA, using own knowledge to generate instruction.",
+                "sentence": "The setup is arranged on the vibration isolation table, with the laser Doppler vibrometer (LDV) being positioned in the centre."
+            }
+        ]
+    },
+    {
+        "sentence": "Mount the rod holding the fly on a micromanipulator and position the manipulator so that the fly is at focal distance from the LDV.",
+        "result": [
+            {
+                "MOUNT": {
+                    "emit": [
+                        {
+                            "reagent0": "fly with waxed legs"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "reagent1": "fly with waxed legs"
+                        },
+                        {
+                            "reagent2": "micromanipulator"
+                        }
+                    ]
+                },
+                "warning": "MOUNT not in ISA, using own knowledge to generate instruction.",
+                "sentence": "Mount the rod holding the fly on a micromanipulator."
+            },
+            {
+                "POSITION": {
+                    "emit": [
+                        {
+                            "output": "fly with waxed legs"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "reagent1": "fly with waxed legs"
+                        },
+                        {
+                            "destination": "micromanipulator"
+                        }
+                    ]
+                },
+                "sentence": "Position the manipulator so that the fly is at focal distance from the LDV."
+            }
+        ]
+    },
+    {
+        "sentence": "Turn the rod so that the arista of one antenna is oriented perpendicular to the optical axis of the laser (the positioning can be controlled visually via the coaxial video capture system of the LDV.",
+        "result": [
+            {
+                "TURN": {
+                    "emit": [],
+                    "slot": [
+                        {
+                            "device": "rod"
+                        },
+                        {
+                            "state": "so that the arista of one antenna is oriented perpendicular to the optical axis of the laser"
+                        },
+                        {
+                            "setting": "via the coaxial video capture system of the LDV"
+                        },
+                        {
+                            "notice": ""
+                        }
+                    ]
+                },
+                "sentence": "Turn the rod so that the arista of one antenna is oriented perpendicular to the optical axis of the laser (the positioning can be controlled visually via the coaxial video capture system of the LDV)."
+            }
+        ]
+    },
+    {
+        "sentence": "Focus the laser on the tip of the arista of one antenna, and slightly change the position via the scanning unit of the LDV until a maximum level of backscattered laser light is obtained. The arista and the third antennal segment together form the sound receiver of the fly ",
+        "result": [
+            {
+                "FOCUS": {
+                    "emit": [
+                        {
+                            "reagent0": "fly with waxed legs"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "input": "fly with waxed legs"
+                        }
+                    ]
+                },
+                "warning": "FOCUS not in ISA, using own knowledge to generate instruction.",
+                "sentence": "Focus the laser on the tip of the arista of one antenna, and slightly change the position via the scanning unit of the LDV until a maximum level of backscattered laser light is obtained."
+            }
+        ]
+    },
+    {
+        "sentence": "Because these antennal parts move as a unit, analyzing the vibrations of the arista-tip is sufficient to explore the mechanical intensity and frequency characteristics of the antennal receiver. The loudspeaker for broadcasting acoustic stimuli is placed at a distance of ca. 10 cm behind the fly, with its diaphragm facing both the LDV and the fly",
+        "result": [
+            {
+                "ANALYZE": {
+                    "emit": [
+                        {
+                            "output": "mechanical intensity and frequency characteristics of the antennal receiver"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "reagent1": "vibrations of the arista-tip"
+                        },
+                        {
+                            "data1": "<blank>"
+                        },
+                        {
+                            "environment": "<blank>"
+                        },
+                        {
+                            "software": "<blank>"
+                        },
+                        {
+                            "settings": "<blank>"
+                        },
+                        {
+                            "method": "<blank>"
+                        },
+                        {
+                            "notice": "<blank>"
+                        }
+                    ]
+                },
+                "sentence": "Analyzing the vibrations of the arista-tip is sufficient to explore the mechanical intensity and frequency characteristics of the antennal receiver."
+            },
+            {
+                "PLACE": {
+                    "emit": [
+                        {
+                            "output": "loudspeaker"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "reagent1": "loudspeaker"
+                        },
+                        {
+                            "destination": "10 cm behind the fly"
+                        }
+                    ]
+                },
+                "sentence": "The loudspeaker for broadcasting acoustic stimuli is placed at a distance of ca. 10 cm behind the fly, with its diaphragm facing both the LDV and the fly."
+            }
+        ]
+    },
+    {
+        "sentence": "The second micromanipulator is used to bring the reference microphone close (distance ca. 5mm) to the measured antenna. Make sure that the measured arista and the microphone are equidistant to the loudspeaker and that the microphone membrane is perpendicular to the direction of sound propagation.",
+        "result": [
+            {
+                "BRING": {
+                    "emit": [
+                        {
+                            "output": "<blank>"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "reagent1": "reference microphone"
+                        },
+                        {
+                            "reagent2": "<blank>"
+                        },
+                        {
+                            "volume": "<blank>"
+                        },
+                        {
+                            "temperature": "<blank>"
+                        },
+                        {
+                            "device": "second micromanipulator"
+                        },
+                        {
+                            "source": "<blank>"
+                        },
+                        {
+                            "notice": "Make sure that the measured arista and the microphone are equidistant to the loudspeaker and that the microphone membrane is perpendicular to the direction of sound propagation."
+                        }
+                    ]
+                },
+                "sentence": "The second micromanipulator is used to bring the reference microphone close (distance ca. 5mm) to the measured antenna."
+            },
+            {
+                "MAKE SURE": {
+                    "emit": [],
+                    "slot": [
+                        {
+                            "condition1": "measured arista and the microphone are equidistant to the loudspeaker"
+                        },
+                        {
+                            "condition2": "microphone membrane is perpendicular to the direction of sound propagation"
+                        }
+                    ]
+                },
+                "warning": "MAKE SURE not in ISA, using own knowledge to generate instruction.",
+                "sentence": "Make sure that the measured arista and the microphone are equidistant to the loudspeaker and that the microphone membrane is perpendicular to the direction of sound propagation."
+            }
+        ]
+    },
+    {
+        "sentence": "4.Receiver vibrations in the absence of sound",
+        "result": [
+            {
+                "REMOVE": {
+                    "emit": [
+                        {
+                            "output": "Receiver vibrations in the absence of sound"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "reagent1": "Receiver vibrations in the absence of sound"
+                        },
+                        {
+                            "method": "sampling"
+                        },
+                        {
+                            "device": "microphone"
+                        }
+                    ]
+                },
+                "sentence": "Receiver vibrations in the absence of sound"
+            }
+        ]
+    },
+    {
+        "sentence": "The procedures for measuring the fluctuations of the fly's antennal receiver in the absence of external stimulation are described in Box 1 ",
+        "result": [
+            {
+                "DESCRIBE": {
+                    "emit": [
+                        {
+                            "reagent0": "Receiver vibrations in the absence of sound"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "input1": "time trace"
+                        },
+                        {
+                            "input2": "Fourier amplitude of the voltage signal at the stimulus frequency (1kHz)"
+                        },
+                        {
+                            "input3": "diaphragm of the reference microphone"
+                        },
+                        {
+                            "input4": "continuous 1 kHz signal"
+                        },
+                        {
+                            "input5": "broadcasted signal"
+                        },
+                        {
+                            "input6": "time trace"
+                        },
+                        {
+                            "input7": "Fourier transformed signals"
+                        },
+                        {
+                            "input8": "Fourier amplitude of the voltage signal at 1 kHz"
+                        },
+                        {
+                            "input9": "1 ml of PBS"
+                        },
+                        {
+                            "input10": "soldering iron"
+                        },
+                        {
+                            "input11": "antenna"
+                        },
+                        {
+                            "input12": "laser Doppler vibrometer (LDV)"
+                        },
+                        {
+                            "input13": "fly with waxed legs"
+                        },
+                        {
+                            "input14": "fly with waxed legs"
+                        },
+                        {
+                            "input15": "mechanical intensity and frequency characteristics of the antennal receiver"
+                        },
+                        {
+                            "input16": "loudspeaker"
+                        },
+                        {
+                            "input17": "<blank>"
+                        }
+                    ]
+                },
+                "warning": "DESCRIBE not in ISA, using own knowledge to generate instruction.",
+                "sentence": "The procedures for measuring the fluctuations of the fly's antennal receiver in the absence of external stimulation are described in Box 1."
+            }
+        ]
+    },
+    {
+        "sentence": "5.Receiver vibrations in response to sound",
+        "result": [
+            {
+                "VIBRATE": {
+                    "emit": [
+                        {
+                            "reagent0": "Receiver vibrations in response to sound"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "input": "Receiver vibrations in the absence of sound"
+                        }
+                    ]
+                },
+                "warning": "VIBRATE not in ISA, using own knowledge to generate instruction.",
+                "sentence": "Receiver vibrations in response to sound"
+            }
+        ]
+    },
+    {
+        "sentence": "The procedures for measuring the vibrations of the fly's antennal receiver in response to pure tone stimuli are described in Box 2",
+        "result": [
+            {
+                "MEASURE": {
+                    "emit": [
+                        {
+                            "output": "vibrations of the fly's antennal receiver"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "device": "LDV"
+                        },
+                        {
+                            "reagent1": "fly's antennal receiver"
+                        },
+                        {
+                            "attribute": "vibrations"
+                        },
+                        {
+                            "time": "Box 2"
+                        },
+                        {
+                            "wavelength": "<blank>"
+                        },
+                        {
+                            "notice": "<blank>"
+                        }
+                    ]
+                },
+                "sentence": "The procedures for measuring the vibrations of the fly's antennal receiver in response to pure tone stimuli are described in Box 2."
+            }
+        ]
+    }
+]

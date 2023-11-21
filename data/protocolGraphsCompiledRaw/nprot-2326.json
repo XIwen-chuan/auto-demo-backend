@@ -1,0 +1,454 @@
+[
+    {
+        "sentence": "Bacteria Freezing",
+        "result": [
+            {
+                "FREEZE": {
+                    "emit": [
+                        {
+                            "output": "frozen compound"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "reagent1": "compound"
+                        },
+                        {
+                            "reagent2": "cooled 2-methyl butane"
+                        },
+                        {
+                            "environment": "liquid nitrogen bath"
+                        }
+                    ]
+                },
+                "sentence": "Bacteria Freezing"
+            }
+        ]
+    },
+    {
+        "sentence": "maintain the bacterial preparation at 4°C by placing it in a boat-reservoir in CoolSinkBX50 and/or ThermalTray on ice",
+        "result": [
+            {
+                "MAINTAIN": {
+                    "emit": [],
+                    "slot": [
+                        {
+                            "reagent1/data1/device": "bacterial preparation"
+                        },
+                        {
+                            "state": "maintained at 4°C"
+                        },
+                        {
+                            "timing": ""
+                        },
+                        {
+                            "notice": ""
+                        }
+                    ]
+                },
+                "sentence": "maintain the bacterial preparation at 4°C by placing it in a boat-reservoir in CoolSinkBX50 and/or ThermalTray on ice."
+            }
+        ]
+    },
+    {
+        "sentence": "Prepare a bacteria glycerol stock by diluting the bacterial preparation with a sterile glycerol solution for a \u0000final 15-50% v/v glycerol concentration",
+        "result": [
+            {
+                "PREPARE": {
+                    "emit": [
+                        {
+                            "output": "bacteria glycerol stock"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "reagent1": "bacterial preparation"
+                        },
+                        {
+                            "container": "sterile glycerol solution"
+                        },
+                        {
+                            "concentration": "15-50% v/v glycerol"
+                        }
+                    ]
+                },
+                "sentence": "Prepare a bacteria glycerol stock by diluting the bacterial preparation with a sterile glycerol solution for a final 15-50% v/v glycerol concentration."
+            }
+        ]
+    },
+    {
+        "sentence": "Dispense 1 ml of stock \\(or desired amount) in a pre-labeled TrueCool cryovial",
+        "result": [
+            {
+                "DISPENSE": {
+                    "emit": [
+                        {
+                            "output": "bacteria glycerol stock"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "reagent1": "bacteria glycerol stock"
+                        },
+                        {
+                            "volume": "1 ml"
+                        },
+                        {
+                            "container": "pre-labeled TrueCool cryovial"
+                        }
+                    ]
+                },
+                "sentence": "Dispense 1 ml of stock (or desired amount) in a pre-labeled TrueCool cryovial."
+            }
+        ]
+    },
+    {
+        "sentence": "To avoid titer reduction maintain the vials on a CoolRackCFT30 in the CoolBox at 4°C",
+        "result": [
+            {
+                "MAINTAIN": {
+                    "emit": [],
+                    "slot": [
+                        {
+                            "reagent1/data1/device": "CoolRackCFT30"
+                        },
+                        {
+                            "state": "maintained at 4°C"
+                        },
+                        {
+                            "timing": "<blank>"
+                        },
+                        {
+                            "notice": "<blank>"
+                        }
+                    ]
+                },
+                "sentence": "To avoid titer reduction maintain the vials on a CoolRackCFT30 in the CoolBox at 4°C."
+            }
+        ]
+    },
+    {
+        "sentence": "The CoolRackCFT30 reduces contamination and spill accidents by allowing one-handed opening/closing of the cryovials.",
+        "result": []
+    },
+    {
+        "sentence": "While bacteria samples are kept cold at 4°C in the CoolRackCFT30, equilibrate a CoolRackCF on dry-ice for 10 minutes",
+        "result": [
+            {
+                "EQUILIBRATE": {
+                    "emit": [
+                        {
+                            "output": "CoolRackCF"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "reagent1": "CoolRackCF"
+                        },
+                        {
+                            "reagent2": "dry-ice"
+                        },
+                        {
+                            "time": "10 minutes"
+                        }
+                    ]
+                },
+                "sentence": "Equilibrate a CoolRackCF on dry-ice for 10 minutes."
+            }
+        ]
+    },
+    {
+        "sentence": "Place the cryotubes directly on the pre-equilibrated CoolRackCF and snap-freeze the samples for 3-5 minutes",
+        "result": [
+            {
+                "PLACE": {
+                    "emit": [
+                        {
+                            "output": "<blank>"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "reagent1": "cryotubes"
+                        },
+                        {
+                            "destination": "CoolRackCF"
+                        },
+                        {
+                            "temperature": "<blank>"
+                        },
+                        {
+                            "device": "<blank>"
+                        },
+                        {
+                            "notice": "<blank>"
+                        }
+                    ]
+                },
+                "sentence": "Place the cryotubes directly on the pre-equilibrated CoolRackCF"
+            },
+            {
+                "FREEZE": {
+                    "emit": [
+                        {
+                            "output": "frozen compound"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "reagent1": "bacteria glycerol stock"
+                        },
+                        {
+                            "reagent2": "CoolRackCF"
+                        },
+                        {
+                            "environment": "liquid nitrogen bath"
+                        }
+                    ]
+                },
+                "sentence": "snap-freeze the samples for 3-5 minutes"
+            }
+        ]
+    },
+    {
+        "sentence": "Transfer the frozen samples to a storage box and place it in the -80°C freezer for long-term storage.",
+        "result": [
+            {
+                "TRANSFER": {
+                    "emit": [
+                        {
+                            "output": "frozen samples"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "source": "frozen compound"
+                        },
+                        {
+                            "destination": "storage box"
+                        },
+                        {
+                            "reagent1": "frozen samples"
+                        }
+                    ]
+                },
+                "sentence": "Transfer the frozen samples to a storage box"
+            },
+            {
+                "PLACE": {
+                    "emit": [
+                        {
+                            "output": "frozen samples"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "reagent1": "frozen samples"
+                        },
+                        {
+                            "destination": "-80°C freezer"
+                        }
+                    ]
+                },
+                "sentence": "and place it in the -80°C freezer for long-term storage."
+            }
+        ]
+    },
+    {
+        "sentence": "Bacteria Thawing",
+        "result": [
+            {
+                "THAW": {
+                    "emit": [
+                        {
+                            "output": "TRI reagent lysed cells"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "reagent1": "TRI reagent lysed cells"
+                        },
+                        {
+                            "temperature": "room temperature"
+                        },
+                        {
+                            "environment": "on ice"
+                        },
+                        {
+                            "time": "<blank>"
+                        },
+                        {
+                            "device": "<blank>"
+                        },
+                        {
+                            "notice": "<blank>"
+                        }
+                    ]
+                },
+                "sentence": "Bacteria Thawing"
+            }
+        ]
+    },
+    {
+        "sentence": "Place the cryovials from the -80°C freezer in a CoolBoxCFT30 with a -12°C frozen cartridge inside ",
+        "result": [
+            {
+                "PLACE": {
+                    "emit": [
+                        {
+                            "output": "cryovials"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "reagent1": "cryovials"
+                        },
+                        {
+                            "destination": "CoolBoxCFT30"
+                        },
+                        {
+                            "temperature": "-12°C"
+                        },
+                        {
+                            "device": "freezer"
+                        }
+                    ]
+                },
+                "sentence": "Place the cryovials from the -80°C freezer in a CoolBoxCFT30 with a -12°C frozen cartridge inside."
+            }
+        ]
+    },
+    {
+        "sentence": "Place the vials directly in a 37°C water bath, and manually slowly agitate the vials to enable the thawing process",
+        "result": [
+            {
+                "PLACE": {
+                    "emit": [
+                        {
+                            "output": "vials"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "reagent1": "vials"
+                        },
+                        {
+                            "destination": "37°C water bath"
+                        },
+                        {
+                            "temperature": "37°C"
+                        },
+                        {
+                            "device": ""
+                        },
+                        {
+                            "notice": ""
+                        }
+                    ]
+                },
+                "sentence": "Place the vials directly in a 37°C water bath"
+            },
+            {
+                "AGITATE": {
+                    "emit": [
+                        {
+                            "reagent0": "agitated vials"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "reagent1": "vials"
+                        },
+                        {
+                            "method": "manual"
+                        },
+                        {
+                            "speed": "slow"
+                        }
+                    ]
+                },
+                "warning": "AGITATE not in ISA, using own knowledge to generate instruction.",
+                "sentence": "manually slowly agitate the vials to enable the thawing process"
+            }
+        ]
+    },
+    {
+        "sentence": "Just before the whole liquid is completely thawed, remove the vial from the 37°C water bath and place it on a CoolRackCFT30 previously equilibrated on ice",
+        "result": [
+            {
+                "REMOVE": {
+                    "emit": [
+                        {
+                            "output": "frozen compound"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "reagent1": "frozen compound"
+                        },
+                        {
+                            "method": "lifting"
+                        },
+                        {
+                            "device": "hand"
+                        }
+                    ]
+                },
+                "sentence": "Just before the whole liquid is completely thawed, remove the vial from the 37°C water bath"
+            },
+            {
+                "PLACE": {
+                    "emit": [
+                        {
+                            "output": "frozen compound"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "reagent1": "frozen compound"
+                        },
+                        {
+                            "destination": "CoolRackCFT30"
+                        },
+                        {
+                            "temperature": "ice"
+                        },
+                        {
+                            "device": "CoolRackCFT30"
+                        }
+                    ]
+                },
+                "sentence": "and place it on a CoolRackCFT30 previously equilibrated on ice."
+            }
+        ]
+    },
+    {
+        "sentence": "Samples are ready for experimental procedures or titer assessment.\n",
+        "result": [
+            {
+                "ASSESS": {
+                    "emit": [
+                        {
+                            "output": "quality assessment result"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "reagent1": "Samples"
+                        },
+                        {
+                            "method": "experimental procedures or titer assessment"
+                        },
+                        {
+                            "attribute": "quality"
+                        },
+                        {
+                            "device": "2100 Bioanalyzer system"
+                        }
+                    ]
+                },
+                "sentence": "Samples are ready for experimental procedures or titer assessment."
+            }
+        ]
+    }
+]

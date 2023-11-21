@@ -1,0 +1,885 @@
+[
+    {
+        "sentence": "PBS:Add a BupH Phosphate Buffered Saline Pack to 100 mL of autoclaved DIW, dissolve well and make the volume up to 500 mL using autoclaved DIW.Each pack makes 500 mL of PBS at pH 7.2, which can be stored at RT for a week and at 4 °C for up to four weeks",
+        "result": [
+            {
+                "ADD": {
+                    "emit": [
+                        {
+                            "output": "PBS"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "reagent1": "autoclaved DIW"
+                        },
+                        {
+                            "reagent2": "BupH Phosphate Buffered Saline Pack"
+                        },
+                        {
+                            "ratio": "1 pack per 100 mL"
+                        },
+                        {
+                            "concentration": "500 mL"
+                        }
+                    ]
+                },
+                "sentence": "Add a BupH Phosphate Buffered Saline Pack to 100 mL of autoclaved DIW, dissolve well and make the volume up to 500 mL using autoclaved DIW."
+            },
+            {
+                "DISSOLVE": {
+                    "emit": [
+                        {
+                            "output": "PBS"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "reagent1": "BupH Phosphate Buffered Saline Pack"
+                        },
+                        {
+                            "reagent2": "autoclaved DIW"
+                        },
+                        {
+                            "targetConcentration": "500 mL"
+                        }
+                    ]
+                },
+                "sentence": "Dissolve well and make the volume up to 500 mL using autoclaved DIW."
+            },
+            {
+                "STORE": {
+                    "emit": [
+                        {
+                            "output": "PBS"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "reagent1": "PBS"
+                        },
+                        {
+                            "temperature": "4 °C"
+                        },
+                        {
+                            "time": "four weeks"
+                        },
+                        {
+                            "environment": "RT"
+                        },
+                        {
+                            "container": "autoclaved DIW"
+                        }
+                    ]
+                },
+                "sentence": "Each pack makes 500 mL of PBS at pH 7.2, which can be stored at RT for a week and at 4 °C for up to four weeks."
+            }
+        ]
+    },
+    {
+        "sentence": "MES:Add a BupH MES Buffered Saline Pack to 100 mL of autoclaved DIW, dissolve well and make the volume up to 500 mL using autoclaved DIW.Each pack makes 500 mL of MES at pH 4.7, which can be stored at RT for two weeks",
+        "result": [
+            {
+                "ADD": {
+                    "emit": [
+                        {
+                            "output": "500 mL of MES"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "reagent1": "100 mL of autoclaved DIW"
+                        },
+                        {
+                            "reagent2": "BupH MES Buffered Saline Pack"
+                        },
+                        {
+                            "ratio": "<blank>"
+                        },
+                        {
+                            "concentration": "<blank>"
+                        },
+                        {
+                            "notice": "<blank>"
+                        }
+                    ]
+                },
+                "sentence": "Add a BupH MES Buffered Saline Pack to 100 mL of autoclaved DIW, dissolve well and make the volume up to 500 mL using autoclaved DIW."
+            }
+        ]
+    },
+    {
+        "sentence": "APTES：The procured APTES solution has a purity of 99%. Reconstitute in autoclaved DIW to make 2% \\(v/v) APTES just before functionalization",
+        "result": [
+            {
+                "RECONSTITUTE": {
+                    "emit": [
+                        {
+                            "output": "2% (v/v) APTES"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "reagent1": "APTES"
+                        },
+                        {
+                            "reagent2": "autoclaved DIW"
+                        },
+                        {
+                            "timing": "just before functionalization"
+                        }
+                    ]
+                },
+                "sentence": "Reconstitute in autoclaved DIW to make 2% (v/v) APTES just before functionalization."
+            }
+        ]
+    },
+    {
+        "sentence": "EDC:The commercial pack contains 25 g EDC. Reconstitute in 0.1M MES buffer, pH 4.7 to make 8 mg/mL. Aliquots can be stored effectively for six months at -20°C",
+        "result": [
+            {
+                "RECONSTITUTE": {
+                    "emit": [
+                        {
+                            "output": "EDC solution"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "reagent1": "EDC"
+                        },
+                        {
+                            "reagent2": "0.1M MES buffer, pH 4.7"
+                        },
+                        {
+                            "timing": ""
+                        }
+                    ]
+                },
+                "sentence": "Reconstitute in 0.1M MES buffer, pH 4.7 to make 8 mg/mL."
+            },
+            {
+                "STORE": {
+                    "emit": [
+                        {
+                            "output": "EDC solution"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "reagent1": "EDC solution"
+                        },
+                        {
+                            "temperature": "-20°C"
+                        },
+                        {
+                            "time": "six months"
+                        },
+                        {
+                            "environment": "at -20°C"
+                        },
+                        {
+                            "container": "aliquots"
+                        }
+                    ]
+                },
+                "sentence": "Aliquots can be stored effectively for six months at -20°C."
+            }
+        ]
+    },
+    {
+        "sentence": "SulfoNHS:The commercial pack contains 5 g SulfoNHS. Reconstitute in 0.1 M MES, pH 4.7 to make 22 mg/mL. Aliquots can be stored effectively for six months at -20 °C",
+        "result": [
+            {
+                "RECONSTITUTE": {
+                    "emit": [
+                        {
+                            "output": "SulfoNHS"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "reagent1": "5 g SulfoNHS"
+                        },
+                        {
+                            "reagent2": "0.1 M MES, pH 4.7"
+                        },
+                        {
+                            "timing": ""
+                        }
+                    ]
+                },
+                "sentence": "Reconstitute in 0.1 M MES, pH 4.7 to make 22 mg/mL."
+            },
+            {
+                "STORE": {
+                    "emit": [
+                        {
+                            "output": "SulfoNHS"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "reagent1": "SulfoNHS"
+                        },
+                        {
+                            "temperature": "-20 °C"
+                        },
+                        {
+                            "time": "six months"
+                        },
+                        {
+                            "environment": "freezer"
+                        },
+                        {
+                            "container": "vials"
+                        }
+                    ]
+                },
+                "sentence": "Aliquots can be stored effectively for six months at -20 °C."
+            }
+        ]
+    },
+    {
+        "sentence": "Incubate each of the desired wells of 96-well CMTP with 100 μL of 1% \\(w/v) KOH for 10 min at 37 °C",
+        "result": [
+            {
+                "INCUBATE": {
+                    "emit": [
+                        {
+                            "output": "protein-DNA complexes"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "reagent1": "96-well CMTP"
+                        },
+                        {
+                            "reagent2": "1% (w/v) KOH"
+                        },
+                        {
+                            "temperature": "37 °C"
+                        },
+                        {
+                            "time": "10 min"
+                        },
+                        {
+                            "environment": ""
+                        },
+                        {
+                            "device": ""
+                        },
+                        {
+                            "thermoProgram": ""
+                        },
+                        {
+                            "notice": "prior to measurements"
+                        }
+                    ]
+                },
+                "sentence": "Incubate each of the desired wells of 96-well CMTP with 100 μL of 1% (w/v) KOH for 10 min at 37 °C."
+            }
+        ]
+    },
+    {
+        "sentence": "wash \u0000five times with 300 μL of DIW per well",
+        "result": [
+            {
+                "WASH": {
+                    "emit": [
+                        {
+                            "output": "well"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "reagent1": "well"
+                        },
+                        {
+                            "reagent2": "300 μL of DIW"
+                        },
+                        {
+                            "repeat": "5"
+                        },
+                        {
+                            "time": "<blank>"
+                        },
+                        {
+                            "notice": "<blank>"
+                        }
+                    ]
+                },
+                "sentence": "wash five times with 300 μL of DIW per well"
+            }
+        ]
+    },
+    {
+        "sentence": "Incubate the KOH-treated CMTP with 100 μL of 2% \\(v/v) APTES for 1 h at RT inside the fume cabinet",
+        "result": [
+            {
+                "INCUBATE": {
+                    "emit": [
+                        {
+                            "output": "KOH-treated CMTP"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "reagent1": "KOH-treated CMTP"
+                        },
+                        {
+                            "reagent2": "2% (v/v) APTES"
+                        },
+                        {
+                            "temperature": "RT"
+                        },
+                        {
+                            "time": "1 h"
+                        },
+                        {
+                            "environment": "fume cabinet"
+                        },
+                        {
+                            "device": ""
+                        },
+                        {
+                            "thermoProgram": ""
+                        },
+                        {
+                            "notice": "inside the fume cabinet"
+                        }
+                    ]
+                },
+                "sentence": "Incubate the KOH-treated CMTP with 100 μL of 2% (v/v) APTES for 1 h at RT inside the fume cabinet."
+            }
+        ]
+    },
+    {
+        "sentence": "Wash five times the APTES-modi\u0000ed wells extensively with DIW",
+        "result": []
+    },
+    {
+        "sentence": "Mix 5 μL each of EDC \\(8 mg/mL) SulfoNHS \\(22 mg/mL) to make 10 μL of pre-mixed EDC-SulfoNHS solution.",
+        "result": [
+            {
+                "MIX": {
+                    "emit": [
+                        {
+                            "output": "pre-mixed EDC-SulfoNHS solution"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "reagent1": "EDC (8 mg/mL)"
+                        },
+                        {
+                            "reagent2": "SulfoNHS (22 mg/mL)"
+                        },
+                        {
+                            "ratio": "1:1"
+                        }
+                    ]
+                },
+                "sentence": "Mix 5 μL each of EDC (8 mg/mL) SulfoNHS (22 mg/mL) to make 10 μL of pre-mixed EDC-SulfoNHS solution."
+            }
+        ]
+    },
+    {
+        "sentence": "Incubate 990 μL of anti-HFA capture antibody with 10 μL of EDC-SulfoNHS solution for 15 min at 37°C.",
+        "result": [
+            {
+                "INCUBATE": {
+                    "emit": [
+                        {
+                            "output": "protein-DNA complexes"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "reagent1": "anti-HFA capture antibody"
+                        },
+                        {
+                            "reagent2": "EDC-SulfoNHS solution"
+                        },
+                        {
+                            "temperature": "37°C"
+                        },
+                        {
+                            "time": "15 min"
+                        },
+                        {
+                            "environment": ""
+                        },
+                        {
+                            "device": ""
+                        },
+                        {
+                            "thermoProgram": ""
+                        },
+                        {
+                            "notice": "prior to measurements"
+                        }
+                    ]
+                },
+                "sentence": "Incubate 990 μL of anti-HFA capture antibody with 10 μL of EDC-SulfoNHS solution for 15 min at 37°C."
+            }
+        ]
+    },
+    {
+        "sentence": "Incubate the EDC-SulfoNHS activated antibody in APTES-functionalized wells for 1 h at 37°C",
+        "result": [
+            {
+                "INCUBATE": {
+                    "emit": [
+                        {
+                            "output": "protein-DNA complexes"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "reagent1": "EDC-SulfoNHS activated antibody"
+                        },
+                        {
+                            "reagent2": "APTES-functionalized wells"
+                        },
+                        {
+                            "temperature": "37°C"
+                        },
+                        {
+                            "time": "1 h"
+                        },
+                        {
+                            "environment": ""
+                        },
+                        {
+                            "device": ""
+                        },
+                        {
+                            "thermoProgram": ""
+                        },
+                        {
+                            "notice": "prior to measurements"
+                        }
+                    ]
+                },
+                "sentence": "Incubate the EDC-SulfoNHS activated antibody in APTES-functionalized wells for 1 h at 37°C."
+            }
+        ]
+    },
+    {
+        "sentence": "wash \u0000five times with 300 μL of 0.1M PBS, pH 7.4",
+        "result": [
+            {
+                "WASH": {
+                    "emit": [
+                        {
+                            "output": "well"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "reagent1": "well"
+                        },
+                        {
+                            "reagent2": "0.1M PBS, pH 7.4"
+                        },
+                        {
+                            "repeat": "5"
+                        },
+                        {
+                            "time": "10 seconds"
+                        }
+                    ]
+                },
+                "sentence": "wash five times with 300 μL of 0.1M PBS, pH 7.4"
+            }
+        ]
+    },
+    {
+        "sentence": "Block the antibody-bound wells with 300 μL of 1% \\ (w/v) BSA for 30 min at 37 °C followed by extensive PBS washing",
+        "result": [
+            {
+                "BLOCK": {
+                    "emit": [
+                        {
+                            "output": "blocked wells"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "reagent1": "antibody-bound wells"
+                        },
+                        {
+                            "reagent2": "1% (w/v) BSA"
+                        },
+                        {
+                            "temperature": "37 °C"
+                        },
+                        {
+                            "time": "30 min"
+                        }
+                    ]
+                },
+                "sentence": "Block the antibody-bound wells with 300 μL of 1% (w/v) BSA for 30 min at 37 °C\nnotice:\nfollowed by extensive PBS washing."
+            }
+        ]
+    },
+    {
+        "sentence": "Add 100 μL of varying HFA concentrations \\(0.3 pg/mL-20 ng/mL) to different BSA-blocked wells",
+        "result": [
+            {
+                "ADD": {
+                    "emit": [
+                        {
+                            "output": "BSA-blocked wells"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "reagent1": "BSA-blocked wells"
+                        },
+                        {
+                            "reagent2": "varying HFA concentrations (0.3 pg/mL-20 ng/mL)"
+                        }
+                    ]
+                },
+                "sentence": "Add 100 μL of varying HFA concentrations (0.3 pg/mL-20 ng/mL) to different BSA-blocked wells."
+            }
+        ]
+    },
+    {
+        "sentence": "Incubate for 1 h at 37°C and wash extensively with PBS ",
+        "result": [
+            {
+                "INCUBATE": {
+                    "emit": [
+                        {
+                            "output": "protein-DNA complexes"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "reagent1": "protein-DNA complexes"
+                        },
+                        {
+                            "reagent2": ""
+                        },
+                        {
+                            "temperature": "37°C"
+                        },
+                        {
+                            "time": "1 h"
+                        },
+                        {
+                            "environment": ""
+                        },
+                        {
+                            "device": ""
+                        },
+                        {
+                            "thermoProgram": ""
+                        },
+                        {
+                            "notice": "and wash extensively with PBS"
+                        }
+                    ]
+                },
+                "sentence": "Incubate for 1 h at 37°C"
+            },
+            {
+                "WASH": {
+                    "emit": [
+                        {
+                            "output": "<blank>"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "reagent1": "wafer"
+                        },
+                        {
+                            "reagent2": "PBS"
+                        },
+                        {
+                            "repeat": "<blank>"
+                        },
+                        {
+                            "time": "<blank>"
+                        },
+                        {
+                            "notice": "extensively"
+                        }
+                    ]
+                },
+                "sentence": "wash extensively with PBS"
+            }
+        ]
+    },
+    {
+        "sentence": "add 100 μL of biotinylated anti-HFA antibody in each of the HFA-captured wells",
+        "result": [
+            {
+                "ADD": {
+                    "emit": [
+                        {
+                            "output": "HFA-captured wells"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "reagent1": "HFA-captured wells"
+                        },
+                        {
+                            "reagent2": "biotinylated anti-HFA antibody"
+                        }
+                    ]
+                },
+                "sentence": "add 100 μL of biotinylated anti-HFA antibody in each of the HFA-captured wells"
+            }
+        ]
+    },
+    {
+        "sentence": "Incubate for 1 h at 37 °C and wash extensively with PBS",
+        "result": [
+            {
+                "INCUBATE": {
+                    "emit": [
+                        {
+                            "output": "protein-DNA complexes"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "reagent1": "protein-DNA complexes"
+                        },
+                        {
+                            "reagent2": ""
+                        },
+                        {
+                            "temperature": "37 °C"
+                        },
+                        {
+                            "time": "1 h"
+                        },
+                        {
+                            "environment": ""
+                        },
+                        {
+                            "device": ""
+                        },
+                        {
+                            "thermoProgram": ""
+                        },
+                        {
+                            "notice": "wash extensively with PBS"
+                        }
+                    ]
+                },
+                "sentence": "Incubate for 1 h at 37 °C"
+            },
+            {
+                "WASH": {
+                    "emit": [
+                        {
+                            "output": "protein-DNA complexes"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "reagent1": "protein-DNA complexes"
+                        },
+                        {
+                            "reagent2": "PBS"
+                        },
+                        {
+                            "repeat": "<blank>"
+                        },
+                        {
+                            "time": "<blank>"
+                        },
+                        {
+                            "notice": "extensively"
+                        }
+                    ]
+                },
+                "sentence": "wash extensively with PBS"
+            }
+        ]
+    },
+    {
+        "sentence": "Add 100 μL of streptavidin-HRP conjugate to the biotinylated anti-HFA antibody treated wells",
+        "result": [
+            {
+                "ADD": {
+                    "emit": [
+                        {
+                            "output": "biotinylated anti-HFA antibody treated wells"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "reagent1": "HFA-captured wells"
+                        },
+                        {
+                            "reagent2": "streptavidin-HRP conjugate"
+                        }
+                    ]
+                },
+                "sentence": "Add 100 μL of streptavidin-HRP conjugate to the biotinylated anti-HFA antibody treated wells."
+            }
+        ]
+    },
+    {
+        "sentence": "Incubate for 20 min at 37°C and wash extensively with PBS",
+        "result": [
+            {
+                "INCUBATE": {
+                    "emit": [
+                        {
+                            "output": "protein-DNA complexes"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "reagent1": "protein-DNA complexes"
+                        },
+                        {
+                            "reagent2": ""
+                        },
+                        {
+                            "temperature": "37°C"
+                        },
+                        {
+                            "time": "20 min"
+                        },
+                        {
+                            "environment": ""
+                        },
+                        {
+                            "device": ""
+                        },
+                        {
+                            "thermoProgram": ""
+                        },
+                        {
+                            "notice": ""
+                        }
+                    ]
+                },
+                "sentence": "Incubate for 20 min at 37°C"
+            },
+            {
+                "WASH": {
+                    "emit": [
+                        {
+                            "output": "protein-DNA complexes"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "reagent1": "protein-DNA complexes"
+                        },
+                        {
+                            "reagent2": "PBS"
+                        },
+                        {
+                            "repeat": "<blank>"
+                        },
+                        {
+                            "time": "20 min"
+                        },
+                        {
+                            "notice": "<blank>"
+                        }
+                    ]
+                },
+                "sentence": "wash extensively with PBS"
+            }
+        ]
+    },
+    {
+        "sentence": "Add 100 μL of working solution, formed by mixing equal parts of SuperSignal ELISA Femto Luminol/Enhancer and SuperSignal ELISA Femto Stable Peroxide Solution , to each of the CMTP wells and incubate at RT for 5 min",
+        "result": [
+            {
+                "ADD": {
+                    "emit": [
+                        {
+                            "output": "working solution"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "reagent1": "CMTP wells"
+                        },
+                        {
+                            "reagent2": "SuperSignal ELISA Femto Luminol/Enhancer and SuperSignal ELISA Femto Stable Peroxide Solution"
+                        },
+                        {
+                            "ratio": "equal parts"
+                        }
+                    ]
+                },
+                "sentence": "Add 100 μL of working solution, formed by mixing equal parts of SuperSignal ELISA Femto Luminol/Enhancer and SuperSignal ELISA Femto Stable Peroxide Solution, to each of the CMTP wells."
+            },
+            {
+                "INCUBATE": {
+                    "emit": [
+                        {
+                            "output": "protein-DNA complexes"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "reagent1": "protein-DNA complexes"
+                        },
+                        {
+                            "reagent2": ""
+                        },
+                        {
+                            "temperature": "RT"
+                        },
+                        {
+                            "time": "5 min"
+                        },
+                        {
+                            "environment": ""
+                        },
+                        {
+                            "device": ""
+                        },
+                        {
+                            "thermoProgram": ""
+                        },
+                        {
+                            "notice": ""
+                        }
+                    ]
+                },
+                "sentence": "Incubate at RT for 5 min."
+            }
+        ]
+    },
+    {
+        "sentence": "Record the chemiluminescent intensity at 425 nm in the Tecan In\u0000nite M200 Pro microplate reader",
+        "result": [
+            {
+                "RECORD": {
+                    "emit": [
+                        {
+                            "output": "chemiluminescent intensity"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "information": "chemiluminescent intensity at 425 nm"
+                        },
+                        {
+                            "device": "Tecan Infinite M200 Pro microplate reader"
+                        }
+                    ]
+                },
+                "sentence": "Record the chemiluminescent intensity at 425 nm in the Tecan Infinite M200 Pro microplate reader."
+            }
+        ]
+    }
+]

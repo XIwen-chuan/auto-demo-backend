@@ -1,0 +1,1870 @@
+[
+    {
+        "sentence": "noculate 5ml of LB broth with ampicillin (100 μg ml−1) in a culture vial with a single colony of BL21 strain of E.coli (transformed with empty pGEX4T-2 or protein of interest cloned in pGEX4T-2) and incubate overnight at 37° C with shaking at 200 rpm.",
+        "result": [
+            {
+                "INOCULATE": {
+                    "emit": [
+                        {
+                            "output": "BL21 strain of E.coli (transformed with empty pGEX4T-2 or protein of interest cloned in pGEX4T-2)"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "reagent1": "single colony of BL21 strain of E.coli (transformed with empty pGEX4T-2 or protein of interest cloned in pGEX4T-2)"
+                        },
+                        {
+                            "reagent2": "LB broth"
+                        },
+                        {
+                            "container": "culture vial"
+                        }
+                    ]
+                },
+                "sentence": "Inoculate 5ml of LB broth with ampicillin (100 μg ml−1) in a culture vial with a single colony of BL21 strain of E.coli (transformed with empty pGEX4T-2 or protein of interest cloned in pGEX4T-2) and incubate overnight at 37° C with shaking at 200 rpm."
+            }
+        ]
+    },
+    {
+        "sentence": "Inoculate1% of overnight grown culture into 100 ml of LB ampicillin (100 μg ml−1) in a conical flask (capacity of 500 ml) and incubate at 37° C with shaking until",
+        "result": [
+            {
+                "INOCULATE": {
+                    "emit": [
+                        {
+                            "output": "BL21 strain of E.coli (transformed with empty pGEX4T-2 or protein of interest cloned in pGEX4T-2)"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "reagent1": "BL21 strain of E.coli (transformed with empty pGEX4T-2 or protein of interest cloned in pGEX4T-2)"
+                        },
+                        {
+                            "reagent2": "LB ampicillin (100 μg ml−1)"
+                        },
+                        {
+                            "container": "conical flask (capacity of 500 ml)"
+                        }
+                    ]
+                },
+                "sentence": "Inoculate 1% of overnight grown culture into 100 ml of LB ampicillin (100 μg ml−1) in a conical flask (capacity of 500 ml)\nnotice:\nIncubate at 37° C with shaking until..."
+            }
+        ]
+    },
+    {
+        "sentence": "Induce the culture with 0.3mM conc. of IPTG for 4 hrs. Harvest the cells by centrifugation at 5500 rpm at 4° C for 15 min",
+        "result": [
+            {
+                "INDUCE": {
+                    "emit": [
+                        {
+                            "output": "<blank>"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "reagent1": "BL21 strain of E.coli (transformed with empty pGEX4T-2 or protein of interest cloned in pGEX4T-2)"
+                        },
+                        {
+                            "reagent2": "0.3mM conc. of IPTG"
+                        },
+                        {
+                            "state": "induction"
+                        },
+                        {
+                            "temperature": "37° C"
+                        },
+                        {
+                            "time": "4 hrs"
+                        },
+                        {
+                            "method": "<blank>"
+                        },
+                        {
+                            "notice": "<blank>"
+                        }
+                    ]
+                },
+                "sentence": "Induce the culture with 0.3mM conc. of IPTG for 4 hrs."
+            },
+            {
+                "HARVEST": {
+                    "emit": [
+                        {
+                            "output": "cell pellet"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "reagent1": "cell culture media"
+                        },
+                        {
+                            "container": "15 ml tube"
+                        },
+                        {
+                            "source": "well"
+                        },
+                        {
+                            "method": "using a pipette"
+                        },
+                        {
+                            "environment": "4° C"
+                        },
+                        {
+                            "purpose": "Harvesting the cells"
+                        },
+                        {
+                            "notice": ""
+                        }
+                    ]
+                },
+                "sentence": "Harvest the cells by centrifugation at 5500 rpm at 4° C for 15 min."
+            }
+        ]
+    },
+    {
+        "sentence": "Wash the cells twice with 1 X PBS. Resuspend the pellet in protein extraction buffer. Add lysozyme to the concentration of 1mg/ml and incubate on ice for 30 min. with occasional mixing in between.",
+        "result": [
+            {
+                "WASH": {
+                    "emit": [
+                        {
+                            "output": "cell pellet"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "reagent1": "cells"
+                        },
+                        {
+                            "reagent2": "1 X PBS"
+                        },
+                        {
+                            "repeat": "2"
+                        },
+                        {
+                            "time": "<blank>"
+                        },
+                        {
+                            "notice": "<blank>"
+                        }
+                    ]
+                },
+                "sentence": "Wash the cells twice with 1 X PBS."
+            },
+            {
+                "RESUSPEND": {
+                    "emit": [
+                        {
+                            "output": "protein extract"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "reagent1": "cell pellet"
+                        },
+                        {
+                            "reagent2": "protein extraction buffer"
+                        },
+                        {
+                            "temperature": "on ice"
+                        },
+                        {
+                            "device": ""
+                        },
+                        {
+                            "notice": ""
+                        }
+                    ]
+                },
+                "sentence": "Resuspend the pellet in protein extraction buffer."
+            },
+            {
+                "ADD": {
+                    "emit": [
+                        {
+                            "output": "<blank>"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "reagent1": "protein extract"
+                        },
+                        {
+                            "reagent2": "lysozyme"
+                        },
+                        {
+                            "ratio": "<blank>"
+                        },
+                        {
+                            "concentration": "1mg/ml"
+                        },
+                        {
+                            "notice": "<blank>"
+                        }
+                    ]
+                },
+                "sentence": "Add lysozyme to the concentration of 1mg/ml and incubate on ice for 30 min. with occasional mixing in between."
+            }
+        ]
+    },
+    {
+        "sentence": "Add Triton X 100 (0. 2%) and DNase (5µg/ml) to the above mix followed by vigorous shaking.\nIncubate for 1 hr at 4° C with gentle shaking to solubilize the fusion protein.",
+        "result": [
+            {
+                "ADD": {
+                    "emit": [
+                        {
+                            "output": "<blank>"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "reagent1": "cell pellet"
+                        },
+                        {
+                            "reagent2": "Triton X 100 (0.2%) and DNase (5µg/ml)"
+                        },
+                        {
+                            "ratio": "<blank>"
+                        },
+                        {
+                            "concentration": "<blank>"
+                        },
+                        {
+                            "notice": "<blank>"
+                        }
+                    ]
+                },
+                "sentence": "Add Triton X 100 (0.2%) and DNase (5µg/ml) to the above mix followed by vigorous shaking."
+            },
+            {
+                "INCUBATE": {
+                    "emit": [
+                        {
+                            "output": "<blank>"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "reagent1": "protein-DNA complexes"
+                        },
+                        {
+                            "reagent2": "Triton X 100 (0.2%) and DNase (5µg/ml)"
+                        },
+                        {
+                            "temperature": "4° C"
+                        },
+                        {
+                            "time": "1 hr"
+                        },
+                        {
+                            "environment": "gentle shaking"
+                        },
+                        {
+                            "device": "<blank>"
+                        },
+                        {
+                            "thermoProgram": "<blank>"
+                        },
+                        {
+                            "notice": "to solubilize the fusion protein"
+                        }
+                    ]
+                },
+                "sentence": "Incubate for 1 hr at 4° C with gentle shaking to solubilize the fusion protein."
+            }
+        ]
+    },
+    {
+        "sentence": "Spin at 10,000 rpm for 10 minutes. Clarify the above supernatant by filtration through 0.4µ filters.\nNote: Cell lysate from BL21 expressing GST (Empty pGEX4T-2) is used as control to compare with the cell lysate expressing GST fusion protein. Both samples are processed simultaneously",
+        "result": [
+            {
+                "SPIN": {
+                    "emit": [
+                        {
+                            "output": "clarified supernatant"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "reagent1": "supernatant"
+                        },
+                        {
+                            "intensity": "10,000 rpm"
+                        },
+                        {
+                            "time": "10 minutes"
+                        },
+                        {
+                            "temperature": "room temperature"
+                        },
+                        {
+                            "device": "centrifuge"
+                        },
+                        {
+                            "notice": ""
+                        }
+                    ]
+                },
+                "sentence": "Spin at 10,000 rpm for 10 minutes."
+            },
+            {
+                "FILTER": {
+                    "emit": [
+                        {
+                            "output": "filtered supernatant"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "reagent1": "clarified supernatant"
+                        },
+                        {
+                            "filter": "0.4µ filters"
+                        }
+                    ]
+                },
+                "sentence": "Clarify the above supernatant by filtration through 0.4µ filters."
+            }
+        ]
+    },
+    {
+        "sentence": "Prepare 50% slurry of Glutathione Sepharose 4B from 75% slurry. Gently shake the vial of Glutathione Sepharose 4B resin to suspend the slurry. Transfer 1.33ml of slurry into a 15ml Falcon tube for generating 1ml bed volume",
+        "result": [
+            {
+                "PREPARE": {
+                    "emit": [
+                        {
+                            "output": "50% slurry of Glutathione Sepharose 4B"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "reagent1": "75% slurry of Glutathione Sepharose 4B"
+                        },
+                        {
+                            "container": "15ml Falcon tube"
+                        }
+                    ]
+                },
+                "sentence": "Prepare 50% slurry of Glutathione Sepharose 4B from 75% slurry."
+            },
+            {
+                "SHAKE": {
+                    "emit": [
+                        {
+                            "output": "Glutathione Sepharose 4B resin"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "reagent1": "Glutathione Sepharose 4B resin"
+                        },
+                        {
+                            "temperature": "room temperature"
+                        },
+                        {
+                            "time": "appropriate time"
+                        },
+                        {
+                            "intensity": "gentle"
+                        },
+                        {
+                            "device": "vial"
+                        },
+                        {
+                            "purpose": "suspend the slurry"
+                        }
+                    ]
+                },
+                "sentence": "Gently shake the vial of Glutathione Sepharose 4B resin to suspend the slurry."
+            },
+            {
+                "TRANSFER": {
+                    "emit": [
+                        {
+                            "output": "<blank>"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "source": "75% slurry"
+                        },
+                        {
+                            "destination": "15ml Falcon tube"
+                        },
+                        {
+                            "reagent1": "1.33ml slurry"
+                        },
+                        {
+                            "volume": "1ml bed volume"
+                        },
+                        {
+                            "equipment": "<blank>"
+                        },
+                        {
+                            "notice": "<blank>"
+                        }
+                    ]
+                },
+                "sentence": "Transfer 1.33ml of slurry into a 15ml Falcon tube for generating 1ml bed volume."
+            }
+        ]
+    },
+    {
+        "sentence": "Spin at 2100 rpm for 5min. Decant the supernatant carefully and add 10 bed volume of ice cold 1X PBS and mix well by inverting. Spin at 2100 rpm for 5 min. followed by decanting of\nsupernatant.",
+        "result": [
+            {
+                "SPIN": {
+                    "emit": [
+                        {
+                            "output": "supernatant"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "reagent1": "supernatant"
+                        },
+                        {
+                            "intensity": "2100 rpm"
+                        },
+                        {
+                            "time": "5 min"
+                        },
+                        {
+                            "temperature": "room temperature"
+                        },
+                        {
+                            "device": "centrifuge"
+                        }
+                    ]
+                },
+                "sentence": "Spin at 2100 rpm for 5 min."
+            },
+            {
+                "DECANT": {
+                    "emit": [
+                        {
+                            "output": "<blank>"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "source": "supernatant"
+                        },
+                        {
+                            "destination": "waste container"
+                        },
+                        {
+                            "reagent1": "supernatant"
+                        },
+                        {
+                            "volume": "<blank>"
+                        },
+                        {
+                            "equipment": "<blank>"
+                        },
+                        {
+                            "notice": "<blank>"
+                        }
+                    ]
+                },
+                "sentence": "Decant the supernatant carefully."
+            },
+            {
+                "ADD": {
+                    "emit": [
+                        {
+                            "output": "supernatant"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "reagent1": "supernatant"
+                        },
+                        {
+                            "reagent2": "10 bed volume of ice cold 1X PBS"
+                        },
+                        {
+                            "ratio": "<blank>"
+                        },
+                        {
+                            "concentration": "<blank>"
+                        },
+                        {
+                            "notice": "<blank>"
+                        }
+                    ]
+                },
+                "sentence": "Add 10 bed volume of ice cold 1X PBS and mix well by inverting."
+            },
+            {
+                "SPIN": {
+                    "emit": [
+                        {
+                            "output": "supernatant"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "reagent1": "supernatant"
+                        },
+                        {
+                            "intensity": "2100 rpm"
+                        },
+                        {
+                            "time": "5 min"
+                        },
+                        {
+                            "temperature": "room temperature"
+                        },
+                        {
+                            "device": "centrifuge"
+                        }
+                    ]
+                },
+                "sentence": "Spin at 2100 rpm for 5 min."
+            },
+            {
+                "DECANT": {
+                    "emit": [
+                        {
+                            "output": "waste container"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "source": "supernatant"
+                        },
+                        {
+                            "destination": "waste container"
+                        },
+                        {
+                            "reagent1": "supernatant"
+                        },
+                        {
+                            "volume": "<blank>"
+                        },
+                        {
+                            "equipment": "<blank>"
+                        },
+                        {
+                            "notice": "<blank>"
+                        }
+                    ]
+                },
+                "sentence": "Decanting of supernatant."
+            }
+        ]
+    },
+    {
+        "sentence": "Repeat the above step 2 more times",
+        "result": [
+            {
+                "REPEAT": {
+                    "emit": [
+                        {
+                            "reagent0": "filtered supernatant"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "step": "FILTER"
+                        },
+                        {
+                            "repeat": "2"
+                        }
+                    ]
+                },
+                "warning": "REPEAT not in ISA, using own knowledge to generate instruction.",
+                "sentence": "Repeat the above step 2 more times"
+            }
+        ]
+    },
+    {
+        "sentence": "add 1.0 ml of 1X PBS to the above slurry to prepare 50% slurry.",
+        "result": [
+            {
+                "ADD": {
+                    "emit": [
+                        {
+                            "output": "50% slurry of Glutathione Sepharose 4B"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "reagent1": "50% slurry of Glutathione Sepharose 4B"
+                        },
+                        {
+                            "reagent2": "1.0 ml of 1X PBS"
+                        }
+                    ]
+                },
+                "sentence": "add 1.0 ml of 1X PBS to the above slurry to prepare 50% slurry."
+            }
+        ]
+    },
+    {
+        "sentence": "Incubate the clarified crude cell lysate expressing GST or GST fusion protein (described above) with 50% slurry for 2-4 hours at 4° C with gentle shaking",
+        "result": [
+            {
+                "INCUBATE": {
+                    "emit": [
+                        {
+                            "output": "protein-DNA complexes"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "reagent1": "clarified crude cell lysate expressing GST or GST fusion protein"
+                        },
+                        {
+                            "reagent2": "50% slurry of Glutathione Sepharose 4B"
+                        },
+                        {
+                            "temperature": "4° C"
+                        },
+                        {
+                            "time": "2-4 hours"
+                        },
+                        {
+                            "environment": ""
+                        },
+                        {
+                            "device": ""
+                        },
+                        {
+                            "thermoProgram": ""
+                        },
+                        {
+                            "notice": "with gentle shaking"
+                        }
+                    ]
+                },
+                "sentence": "Incubate the clarified crude cell lysate expressing GST or GST fusion protein (described above) with 50% slurry for 2-4 hours at 4° C with gentle shaking."
+            }
+        ]
+    },
+    {
+        "sentence": "Spin at 500 x g for 5 min. Wash the column three times with 10 bed volume of ice cold 1X PBS",
+        "result": [
+            {
+                "SPIN": {
+                    "emit": [
+                        {
+                            "output": "cells"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "reagent1": "cells"
+                        },
+                        {
+                            "intensity": "500 x g"
+                        },
+                        {
+                            "time": "5 min"
+                        },
+                        {
+                            "temperature": "room temperature"
+                        },
+                        {
+                            "device": "centrifuge"
+                        }
+                    ]
+                },
+                "sentence": "Spin at 500 x g for 5 min."
+            },
+            {
+                "WASH": {
+                    "emit": [
+                        {
+                            "output": "column"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "reagent1": "column"
+                        },
+                        {
+                            "reagent2": "1X PBS"
+                        },
+                        {
+                            "repeat": "3"
+                        },
+                        {
+                            "time": "10 bed volume"
+                        }
+                    ]
+                },
+                "sentence": "Wash the column three times with 10 bed volume of ice cold 1X PBS."
+            }
+        ]
+    },
+    {
+        "sentence": "Prepare the cell lysate according to the source organism. For bacteria, the method described above can be followed. However, yeast cells can be disrupted by glass beads and plant cells can be crushed in liquid nitrogen using mortar and pestle",
+        "result": [
+            {
+                "PREPARE": {
+                    "emit": [
+                        {
+                            "output": "1 ml of PBS"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "reagent1": "PBS"
+                        },
+                        {
+                            "container": "1.5 ml Eppendorf tube"
+                        }
+                    ]
+                },
+                "sentence": "Prepare the cell lysate according to the source organism."
+            },
+            {
+                "FOLLOW": {
+                    "emit": [
+                        {
+                            "reagent0": "filtered supernatant"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "input": "filtered supernatant"
+                        }
+                    ]
+                },
+                "warning": "FOLLOW not in ISA, using own knowledge to generate instruction.",
+                "sentence": "For bacteria, the method described above can be followed."
+            },
+            {
+                "DISRUPT": {
+                    "emit": [
+                        {
+                            "reagent0": "disrupted cells"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "reagent1": "yeast cells"
+                        },
+                        {
+                            "reagent2": "glass beads"
+                        }
+                    ]
+                },
+                "warning": "DISRUPT not in ISA, using own knowledge to generate instruction.",
+                "sentence": "Yeast cells can be disrupted by glass beads."
+            },
+            {
+                "CRUSH": {
+                    "emit": [
+                        {
+                            "reagent0": "crushed cells"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "reagent1": "plant cells"
+                        },
+                        {
+                            "reagent2": "liquid nitrogen"
+                        },
+                        {
+                            "reagent3": "mortar and pestle"
+                        }
+                    ]
+                },
+                "warning": "CRUSH not in ISA, using own knowledge to generate instruction.",
+                "sentence": "Plant cells can be crushed in liquid nitrogen using mortar and pestle."
+            }
+        ]
+    },
+    {
+        "sentence": "Add the clarified cell lysate to the Glutathione Sepharose 4B column with immobilized GST/ GST fusion protein and incubate for 2-4 hours at 4ºC.",
+        "result": [
+            {
+                "ADD": {
+                    "emit": [
+                        {
+                            "output": "Glutathione Sepharose 4B column with immobilized GST/ GST fusion protein and clarified cell lysate"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "reagent1": "Glutathione Sepharose 4B column with immobilized GST/ GST fusion protein"
+                        },
+                        {
+                            "reagent2": "clarified cell lysate"
+                        },
+                        {
+                            "ratio": "<blank>"
+                        },
+                        {
+                            "concentration": "<blank>"
+                        },
+                        {
+                            "notice": "<blank>"
+                        }
+                    ]
+                },
+                "sentence": "Add the clarified cell lysate to the Glutathione Sepharose 4B column with immobilized GST/ GST fusion protein."
+            },
+            {
+                "INCUBATE": {
+                    "emit": [
+                        {
+                            "output": "protein-DNA complexes"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "reagent1": "protein-DNA complexes"
+                        },
+                        {
+                            "reagent2": ""
+                        },
+                        {
+                            "temperature": "4ºC"
+                        },
+                        {
+                            "time": "2-4 hours"
+                        },
+                        {
+                            "environment": ""
+                        },
+                        {
+                            "device": ""
+                        },
+                        {
+                            "thermoProgram": ""
+                        },
+                        {
+                            "notice": "prior to measurements"
+                        }
+                    ]
+                },
+                "sentence": "Incubate for 2-4 hours at 4ºC."
+            }
+        ]
+    },
+    {
+        "sentence": "Spin at 500 x g for 5 min. Wash the column three times with 10 bed volume of ice cold 1X PBS",
+        "result": [
+            {
+                "SPIN": {
+                    "emit": [
+                        {
+                            "output": "cells"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "reagent1": "cells"
+                        },
+                        {
+                            "intensity": "500 x g"
+                        },
+                        {
+                            "time": "5 min"
+                        },
+                        {
+                            "temperature": "room temperature"
+                        },
+                        {
+                            "device": "centrifuge"
+                        }
+                    ]
+                },
+                "sentence": "Spin at 500 x g for 5 min."
+            },
+            {
+                "WASH": {
+                    "emit": [
+                        {
+                            "output": "column"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "reagent1": "column"
+                        },
+                        {
+                            "reagent2": "ice cold 1X PBS"
+                        },
+                        {
+                            "repeat": "3"
+                        },
+                        {
+                            "time": "10 bed volume"
+                        }
+                    ]
+                },
+                "sentence": "Wash the column three times with 10 bed volume of ice cold 1X PBS."
+            }
+        ]
+    },
+    {
+        "sentence": "Elute the interacting protein complex by incubating with 1 bed volume of glutathione elution buffer for 15 min. at RT and spin at 500 x g",
+        "result": [
+            {
+                "ELUTE": {
+                    "emit": [
+                        {
+                            "output": "DNA"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "reagent1": "beads"
+                        },
+                        {
+                            "reagent2": "1 bed volume of glutathione elution buffer"
+                        },
+                        {
+                            "component": "interacting protein complex"
+                        },
+                        {
+                            "method": "incubating"
+                        },
+                        {
+                            "time": "15 min."
+                        },
+                        {
+                            "temperature": "RT"
+                        }
+                    ]
+                },
+                "sentence": "Elute the interacting protein complex by incubating with 1 bed volume of glutathione elution buffer for 15 min. at RT and spin at 500 x g"
+            }
+        ]
+    },
+    {
+        "sentence": "Repeat this step twice. Collect each elute separately",
+        "result": [
+            {
+                "REPEAT": {
+                    "emit": [
+                        {
+                            "reagent0": "filtered supernatant"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "reagent1": "filtered supernatant"
+                        },
+                        {
+                            "repeat": "2"
+                        }
+                    ]
+                },
+                "warning": "REPEAT not in ISA, using own knowledge to generate instruction.",
+                "sentence": "Repeat this step twice."
+            },
+            {
+                "COLLECT": {
+                    "emit": [
+                        {
+                            "output": "filtered supernatant"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "reagent1": "filtered supernatant"
+                        },
+                        {
+                            "container": "15 ml tube"
+                        },
+                        {
+                            "source": "well"
+                        },
+                        {
+                            "method": "using a pipette"
+                        }
+                    ]
+                },
+                "sentence": "Collect each elute separately."
+            }
+        ]
+    },
+    {
+        "sentence": "The elutes thus obtained both from column containing both immobilized GST and GST fusion proteins are loaded adjacent to each other on a 10% SDS PAGE gel with appropriate molecular weight marker",
+        "result": [
+            {
+                "LOAD": {
+                    "emit": [
+                        {
+                            "output": "10% SDS PAGE gel"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "reagent1": "elutes"
+                        },
+                        {
+                            "destination": "10% SDS PAGE gel"
+                        },
+                        {
+                            "method": "adjacent to each other"
+                        }
+                    ]
+                },
+                "sentence": "The elutes thus obtained both from column containing both immobilized GST and GST fusion proteins are loaded adjacent to each other on a 10% SDS PAGE gel with appropriate molecular weight marker."
+            }
+        ]
+    },
+    {
+        "sentence": "Stain the gel with either silver stain or Comassie",
+        "result": [
+            {
+                "STAIN": {
+                    "emit": [
+                        {
+                            "output": "stained gel"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "reagent1": "gel"
+                        },
+                        {
+                            "reagent2": "silver stain or Comassie"
+                        },
+                        {
+                            "temperature": "room temperature"
+                        },
+                        {
+                            "time": "<blank>"
+                        },
+                        {
+                            "method": "<blank>"
+                        },
+                        {
+                            "notice": "<blank>"
+                        }
+                    ]
+                },
+                "sentence": "Stain the gel with either silver stain or Comassie."
+            }
+        ]
+    },
+    {
+        "sentence": "Excise the protein bands from the gel for further processing",
+        "result": [
+            {
+                "EXCISE": {
+                    "emit": [
+                        {
+                            "reagent0": "protein bands"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "reagent1": "stained gel"
+                        }
+                    ]
+                },
+                "warning": "EXCISE not in ISA, using own knowledge to generate instruction.",
+                "sentence": "Excise the protein bands from the gel for further processing"
+            }
+        ]
+    },
+    {
+        "sentence": "Wash the gel with sufficient water and place it on a light box to excise the desired bands with a clean scalpel.",
+        "result": [
+            {
+                "WASH": {
+                    "emit": [
+                        {
+                            "output": "washed gel"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "reagent1": "gel"
+                        },
+                        {
+                            "reagent2": "water"
+                        },
+                        {
+                            "repeat": "sufficient"
+                        },
+                        {
+                            "time": "<blank>"
+                        },
+                        {
+                            "notice": "<blank>"
+                        }
+                    ]
+                },
+                "sentence": "Wash the gel with sufficient water."
+            },
+            {
+                "PLACE": {
+                    "emit": [
+                        {
+                            "output": "excised bands"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "reagent1": "gel"
+                        },
+                        {
+                            "destination": "light box"
+                        }
+                    ]
+                },
+                "sentence": "Place it on a light box to excise the desired bands with a clean scalpel."
+            }
+        ]
+    },
+    {
+        "sentence": "Cut the bands in to small pieces (1x1 or 2x2mm) and transfer into a microcentrifuge tube containing water. Tube can be stored at 4ºC until further processing.",
+        "result": [
+            {
+                "CUT": {
+                    "emit": [
+                        {
+                            "output": "small pieces of bands"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "reagent": "bands"
+                        },
+                        {
+                            "device": "<blank>"
+                        },
+                        {
+                            "size": "1x1 or 2x2mm"
+                        },
+                        {
+                            "direction": "along the caudal to rostral"
+                        },
+                        {
+                            "environment": "<blank>"
+                        }
+                    ]
+                },
+                "sentence": "Cut the bands into small pieces (1x1 or 2x2mm)"
+            },
+            {
+                "TRANSFER": {
+                    "emit": [
+                        {
+                            "output": "microcentrifuge tube containing water"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "source": "microcentrifuge tube"
+                        },
+                        {
+                            "destination": "water"
+                        },
+                        {
+                            "reagent1": "small pieces of bands"
+                        }
+                    ]
+                },
+                "sentence": "transfer into a microcentrifuge tube containing water."
+            },
+            {
+                "STORE": {
+                    "emit": [
+                        {
+                            "output": "microcentrifuge tube containing water"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "reagent1": "small pieces of bands"
+                        },
+                        {
+                            "temperature": "4ºC"
+                        },
+                        {
+                            "time": "<blank>"
+                        },
+                        {
+                            "environment": "in a microcentrifuge tube containing water"
+                        },
+                        {
+                            "container": "microcentrifuge tube"
+                        },
+                        {
+                            "notice": "<blank>"
+                        }
+                    ]
+                },
+                "sentence": "Tube can be stored at 4ºC until further processing."
+            }
+        ]
+    },
+    {
+        "sentence": "Add 200µl of destaining solution to the gel pieces and keep at 37ºC for 30 min. with slow shaking",
+        "result": [
+            {
+                "ADD": {
+                    "emit": [
+                        {
+                            "output": "<blank>"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "reagent1": "gel pieces"
+                        },
+                        {
+                            "reagent2": "destaining solution"
+                        },
+                        {
+                            "ratio": "<blank>"
+                        },
+                        {
+                            "concentration": "<blank>"
+                        },
+                        {
+                            "notice": "<blank>"
+                        }
+                    ]
+                },
+                "sentence": "Add 200µl of destaining solution to the gel pieces."
+            },
+            {
+                "KEEP": {
+                    "emit": [
+                        {
+                            "output": "<blank>"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "reagent1": "gel pieces"
+                        },
+                        {
+                            "temperature": "37ºC"
+                        },
+                        {
+                            "time": "30 min."
+                        },
+                        {
+                            "environment": "with slow shaking"
+                        },
+                        {
+                            "container": "<blank>"
+                        },
+                        {
+                            "notice": "<blank>"
+                        }
+                    ]
+                },
+                "sentence": "Keep at 37ºC for 30 min. with slow shaking."
+            }
+        ]
+    },
+    {
+        "sentence": " Discard distaining solution and repeat the step",
+        "result": [
+            {
+                "DISCARD": {
+                    "emit": [
+                        {
+                            "output": "distaining solution"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "reagent1": "distaining solution"
+                        },
+                        {
+                            "method": "pouring"
+                        }
+                    ]
+                },
+                "sentence": "Discard distaining solution."
+            },
+            {
+                "REPEAT": {
+                    "emit": [
+                        {
+                            "reagent0": "filtered supernatant"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "reagent1": "filtered supernatant"
+                        },
+                        {
+                            "repeat": "2"
+                        }
+                    ]
+                },
+                "warning": "REPEAT not in ISA, using own knowledge to generate instruction.",
+                "sentence": "Repeat the step."
+            }
+        ]
+    },
+    {
+        "sentence": "Add 200 µl 100% ACN to the gel pieces and incubate for 10 min with occasional shaking. The gel pieces should now appear white (translucent)",
+        "result": [
+            {
+                "ADD": {
+                    "emit": [
+                        {
+                            "output": "<blank>"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "reagent1": "gel pieces"
+                        },
+                        {
+                            "reagent2": "100% ACN"
+                        },
+                        {
+                            "ratio": "<blank>"
+                        },
+                        {
+                            "concentration": "<blank>"
+                        },
+                        {
+                            "notice": "Incubate for 10 min with occasional shaking. The gel pieces should now appear white (translucent)."
+                        }
+                    ]
+                },
+                "sentence": "Add 200 µl 100% ACN to the gel pieces\nnotice:\nIncubate for 10 min with occasional shaking. The gel pieces should now appear white (translucent)."
+            }
+        ]
+    },
+    {
+        "sentence": "Remove ACN from the tube",
+        "result": [
+            {
+                "REMOVE": {
+                    "emit": [
+                        {
+                            "output": "empty tube"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "reagent1": "ACN"
+                        },
+                        {
+                            "method": "aspiration"
+                        }
+                    ]
+                },
+                "sentence": "Remove ACN from the tube."
+            }
+        ]
+    },
+    {
+        "sentence": "Add 100-200 µl of reducing buffer and incubate at 60 ºC for 1 hr",
+        "result": [
+            {
+                "ADD": {
+                    "emit": [
+                        {
+                            "output": "1 µl lysis buffer (LB)"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "reagent1": "PCR tube that contains samples and 1st NTC"
+                        },
+                        {
+                            "reagent2": "100-200 µl of reducing buffer"
+                        }
+                    ]
+                },
+                "sentence": "Add 100-200 µl of reducing buffer"
+            },
+            {
+                "INCUBATE": {
+                    "emit": [
+                        {
+                            "output": "protein-DNA complexes"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "reagent1": "protein-DNA complexes"
+                        },
+                        {
+                            "reagent2": ""
+                        },
+                        {
+                            "temperature": "60 ºC"
+                        },
+                        {
+                            "time": "1 hr"
+                        },
+                        {
+                            "environment": ""
+                        },
+                        {
+                            "device": ""
+                        },
+                        {
+                            "thermoProgram": ""
+                        },
+                        {
+                            "notice": ""
+                        }
+                    ]
+                },
+                "sentence": "incubate at 60 ºC for 1 hr"
+            }
+        ]
+    },
+    {
+        "sentence": "Remove the reducing buffer and allow to cool at room temperature.",
+        "result": [
+            {
+                "REMOVE": {
+                    "emit": [
+                        {
+                            "output": "empty tube"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "reagent1": "reducing buffer"
+                        },
+                        {
+                            "method": "pouring out"
+                        }
+                    ]
+                },
+                "sentence": "Remove the reducing buffer"
+            },
+            {
+                "COOL": {
+                    "emit": [
+                        {
+                            "output": "reducing buffer"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "reagent1": "reducing buffer"
+                        },
+                        {
+                            "temperature": "room temperature"
+                        },
+                        {
+                            "time": "10 min"
+                        },
+                        {
+                            "environment": "in the dark"
+                        }
+                    ]
+                },
+                "sentence": "Allow to cool at room temperature."
+            }
+        ]
+    },
+    {
+        "sentence": "Add 200 µl of alkylating buffer for 30 min. in dark at room temperature",
+        "result": [
+            {
+                "ADD": {
+                    "emit": [
+                        {
+                            "output": "PCR tube that contains samples and 1st NTC"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "reagent1": "PCR tube that contains samples and 1st NTC"
+                        },
+                        {
+                            "reagent2": "1 µl lysis buffer (LB)"
+                        }
+                    ]
+                },
+                "sentence": "Add 200 µl of alkylating buffer for 30 min. in dark at room temperature."
+            }
+        ]
+    },
+    {
+        "sentence": "Remove and discard alkylating buffer",
+        "result": [
+            {
+                "REMOVE": {
+                    "emit": [
+                        {
+                            "output": "alkylating buffer"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "reagent1": "alkylating buffer"
+                        },
+                        {
+                            "method": "discarding"
+                        }
+                    ]
+                },
+                "sentence": "Remove and discard alkylating buffer."
+            }
+        ]
+    },
+    {
+        "sentence": "Wash the sample by adding 200 µl of destaining solution and incubate at 37ºC for 15 minutes. Then discard destaining solution.",
+        "result": [
+            {
+                "WASH": {
+                    "emit": [
+                        {
+                            "output": "sample"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "reagent1": "sample"
+                        },
+                        {
+                            "reagent2": "destaining solution"
+                        },
+                        {
+                            "repeat": "1"
+                        },
+                        {
+                            "time": "15 minutes"
+                        },
+                        {
+                            "notice": "Then discard destaining solution."
+                        }
+                    ]
+                },
+                "sentence": "Wash the sample by adding 200 µl of destaining solution and incubate at 37ºC for 15 minutes.\nnotice:\nThen discard destaining solution."
+            }
+        ]
+    },
+    {
+        "sentence": "Repeat the above step once more",
+        "result": [
+            {
+                "REPEAT": {
+                    "emit": [
+                        {
+                            "reagent0": "filtered supernatant"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "reagent1": "filtered supernatant"
+                        },
+                        {
+                            "reagent2": "filtered supernatant"
+                        },
+                        {
+                            "repeat": "1"
+                        }
+                    ]
+                },
+                "warning": "REPEAT not in ISA, using own knowledge to generate instruction.",
+                "sentence": "Repeat the above step once more."
+            }
+        ]
+    },
+    {
+        "sentence": "Add 10 µl of the trypsin solution to the tube containing the shrunken gel pieces. Incubate in ice for 10 min and allow gel pieces to swell and absorb the trypsin solution. If 10 µl is not sufficient to cover and fully swell gel pieces, use additional 10ul.",
+        "result": [
+            {
+                "ADD": {
+                    "emit": [
+                        {
+                            "output": "PCR tube that contains samples and 1st NTC"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "reagent1": "PCR tube that contains samples and 1st NTC"
+                        },
+                        {
+                            "reagent2": "10 µl of the trypsin solution"
+                        },
+                        {
+                            "ratio": "<blank>"
+                        },
+                        {
+                            "concentration": "<blank>"
+                        },
+                        {
+                            "notice": "<blank>"
+                        }
+                    ]
+                },
+                "sentence": "Add 10 µl of the trypsin solution to the tube containing the shrunken gel pieces."
+            },
+            {
+                "INCUBATE": {
+                    "emit": [
+                        {
+                            "output": "protein-DNA complexes"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "reagent1": "protein-DNA complexes"
+                        },
+                        {
+                            "reagent2": ""
+                        },
+                        {
+                            "temperature": "ice"
+                        },
+                        {
+                            "time": "10 min"
+                        },
+                        {
+                            "environment": ""
+                        },
+                        {
+                            "device": ""
+                        },
+                        {
+                            "thermoProgram": ""
+                        },
+                        {
+                            "notice": ""
+                        }
+                    ]
+                },
+                "sentence": "Incubate in ice for 10 min and allow gel pieces to swell and absorb the trypsin solution."
+            },
+            {
+                "USE": {
+                    "emit": [
+                        {
+                            "reagent0": "20 µl"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "reagent1": "10 µl"
+                        },
+                        {
+                            "condition": "not sufficient to cover and fully swell gel pieces"
+                        },
+                        {
+                            "reagent2": "additional 10 µl"
+                        }
+                    ]
+                },
+                "warning": "USE not in ISA, using own knowledge to generate instruction.",
+                "sentence": "If 10 µl is not sufficient to cover and fully swell gel pieces, use additional 10ul."
+            }
+        ]
+    },
+    {
+        "sentence": "Add 25 µl of digestion buffer to the tube. Incubate sample at 37ºC for four hrs or at 30 ºC overnight with shaking",
+        "result": [
+            {
+                "ADD": {
+                    "emit": [
+                        {
+                            "output": "PCR tube that contains samples and 1st NTC"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "reagent1": "PCR tube that contains samples and 1st NTC"
+                        },
+                        {
+                            "reagent2": "25 µl of digestion buffer"
+                        }
+                    ]
+                },
+                "sentence": "Add 25 µl of digestion buffer to the tube."
+            },
+            {
+                "INCUBATE": {
+                    "emit": [
+                        {
+                            "output": "protein-DNA complexes"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "reagent1": "protein-DNA complexes"
+                        },
+                        {
+                            "reagent2": ""
+                        },
+                        {
+                            "temperature": "37ºC"
+                        },
+                        {
+                            "time": "4 hrs or at 30 ºC overnight"
+                        },
+                        {
+                            "environment": ""
+                        },
+                        {
+                            "device": ""
+                        },
+                        {
+                            "thermoProgram": ""
+                        },
+                        {
+                            "notice": "prior to measurements"
+                        }
+                    ]
+                },
+                "sentence": "Incubate sample at 37ºC for four hrs or at 30 ºC overnight with shaking."
+            }
+        ]
+    },
+    {
+        "sentence": " Remove digestion mixture and place in a clean tube",
+        "result": [
+            {
+                "REMOVE": {
+                    "emit": [
+                        {
+                            "output": "empty tube"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "reagent1": "digestion mixture"
+                        },
+                        {
+                            "method": "aspiration"
+                        },
+                        {
+                            "device": "clean tube"
+                        }
+                    ]
+                },
+                "sentence": "Remove digestion mixture"
+            },
+            {
+                "PLACE": {
+                    "emit": [
+                        {
+                            "output": "clean tube"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "reagent1": "digestion mixture"
+                        },
+                        {
+                            "destination": "clean tube"
+                        }
+                    ]
+                },
+                "sentence": "place in a clean tube"
+            }
+        ]
+    },
+    {
+        "sentence": "To further extract peptides, add 10 µl of 0.5% trifluoroacetic acid or 1% formic acid solution to gel pieces and incubate for 5 minutes. Remove extraction solution and add to digestion mixture. This step also serves to inactivate trypsin.",
+        "result": [
+            {
+                "ADD": {
+                    "emit": [
+                        {
+                            "output": "PCR tube that contains samples and 1st NTC"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "reagent1": "PCR tube that contains samples and 1st NTC"
+                        },
+                        {
+                            "reagent2": "10 µl of 0.5% trifluoroacetic acid or 1% formic acid solution"
+                        },
+                        {
+                            "ratio": "<blank>"
+                        },
+                        {
+                            "concentration": "<blank>"
+                        },
+                        {
+                            "notice": "<blank>"
+                        }
+                    ]
+                },
+                "sentence": "Add 10 µl of 0.5% trifluoroacetic acid or 1% formic acid solution to gel pieces and incubate for 5 minutes."
+            },
+            {
+                "REMOVE": {
+                    "emit": [
+                        {
+                            "output": "digestion mixture"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "reagent1": "extraction solution"
+                        },
+                        {
+                            "method": "aspiration"
+                        }
+                    ]
+                },
+                "sentence": "Remove extraction solution and add to digestion mixture."
+            }
+        ]
+    },
+    {
+        "sentence": "Centrifuge to remove any gel particles to prevent clogging or damage of columns. Transfer to a fresh eppendorf and store at 4ºC",
+        "result": [
+            {
+                "CENTRIFUGE": {
+                    "emit": [
+                        {
+                            "output": "samples"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "reagent1": "samples"
+                        },
+                        {
+                            "intensity": "2,000 rpm"
+                        },
+                        {
+                            "time": "20 min"
+                        },
+                        {
+                            "temperature": "room temperature"
+                        }
+                    ]
+                },
+                "sentence": "Centrifuge to remove any gel particles to prevent clogging or damage of columns."
+            },
+            {
+                "TRANSFER": {
+                    "emit": [
+                        {
+                            "output": "fresh eppendorf"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "source": "microcentrifuge tube containing water"
+                        },
+                        {
+                            "destination": "fresh eppendorf"
+                        },
+                        {
+                            "reagent1": "frozen samples"
+                        }
+                    ]
+                },
+                "sentence": "Transfer to a fresh eppendorf and store at 4ºC."
+            }
+        ]
+    }
+]

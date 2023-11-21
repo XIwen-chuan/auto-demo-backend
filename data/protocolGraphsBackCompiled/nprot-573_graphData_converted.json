@@ -1,0 +1,128 @@
+[
+  {
+    "title": "",
+    "body": [
+      {
+        "sentence": "Extract total RNA from at least 2 x 106 cells using TRIZOL reagent and the appropriate RNeasy RNA extraction kit",
+        "result": {
+          "EXTRACT": {
+            "emit": [],
+            "slot": [
+              {
+                "it's a slot key": "it's a slot value"
+              }
+            ]
+          }
+        }
+      }
+    ]
+  },
+  {
+    "title": "",
+    "body": [
+      {
+        "sentence": "Reverse-transcribe 60 ng of total RNA with a High-capacity cDNA Reverse Transcription kit in a reaction volume of 200 microl",
+        "result": {
+          "ADD": {
+            "emit": [],
+            "slot": [
+              {
+                "it's a slot key": "it's a slot value"
+              }
+            ]
+          }
+        }
+      }
+    ]
+  },
+  {
+    "title": "",
+    "body": [
+      {
+        "sentence": "Prepare a reaction mix \\(25 \u03bcl) according to the following recipe: 2X Sybr Green PCR Master Mix - 12,5 microl 1 \u03bcM primer mix - 2,5 microl cDNA \\(5 ng/microl) - 2 microl water - 8 microl",
+        "result": {
+          "PREPARE": {
+            "emit": [],
+            "slot": [
+              {
+                "it's a slot key": "it's a slot value"
+              }
+            ]
+          }
+        }
+      }
+    ]
+  },
+  {
+    "title": "",
+    "body": [
+      {
+        "sentence": "Perform Real-Time PCR on 10 ng of cDNA using a Power Sybr Green PCR Master MIX",
+        "result": {
+          "PERFORM": {
+            "emit": [],
+            "slot": [
+              {
+                "it's a slot key": "it's a slot value"
+              }
+            ]
+          }
+        }
+      }
+    ]
+  },
+  {
+    "title": "",
+    "body": [
+      {
+        "sentence": "Start the ampli\u0000cation procedure according to the following standard 7500 run protocol: 50\u00b0C \\(2min) - 95\u00b0C \\(10min) - 95\u00b0C \\ (15sec), 60\u00b0C \\(1min), 40 cycles - 95\u00b0C \\(15sec), 60\u00b0C",
+        "result": {
+          "ADD": {
+            "emit": [],
+            "slot": [
+              {
+                "it's a slot key": "it's a slot value"
+              }
+            ]
+          }
+        }
+      }
+    ]
+  },
+  {
+    "title": "",
+    "body": [
+      {
+        "sentence": "Perform a dissociation assay to evaluate any problem related to primer unspeci\u0000c annealing or secondary structure formation",
+        "result": {
+          "PERFORM": {
+            "emit": [],
+            "slot": [
+              {
+                "it's a slot key": "it's a slot value"
+              }
+            ]
+          }
+        }
+      }
+    ]
+  },
+  {
+    "title": "",
+    "body": [
+      {
+        "sentence": "Analyze data with built-in SDS Analysis Software.",
+        "result": {
+          "ANALYZE": {
+            "emit": [],
+            "slot": [
+              {
+                "it's a slot key": "it's a slot value"
+              }
+            ]
+          }
+        }
+      }
+    ]
+  }
+]

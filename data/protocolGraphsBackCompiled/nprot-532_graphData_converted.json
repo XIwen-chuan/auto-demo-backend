@@ -1,0 +1,146 @@
+[
+  {
+    "title": "",
+    "body": [
+      {
+        "sentence": "Transfect cultured hippocampal neurons at days in vitro (DIV 14) with EGFP-NGL-3, followed by incubation of the neurons for 2 more days",
+        "result": {
+          "TRANSFECT": {
+            "emit": [],
+            "slot": [
+              {
+                "it's a slot key": "it's a slot value"
+              }
+            ]
+          }
+        }
+      }
+    ]
+  },
+  {
+    "title": "",
+    "body": [
+      {
+        "sentence": "For antibody pre-clustering, mix 1 \u00b5g of EGFP antibodies and 0.1 \u00b5g of FITC-conjugated secondary antibodies (ratio of 10:1) in 500 \u00b5l complete neurobasal media (CNB) and incubate the mixture for 2 hrs at 4 \u00b0C.",
+        "result": {
+          "ADD": {
+            "emit": [],
+            "slot": [
+              {
+                "it's a slot key": "it's a slot value"
+              }
+            ]
+          }
+        }
+      }
+    ]
+  },
+  {
+    "title": "",
+    "body": [
+      {
+        "sentence": "Transfer the transfected neurons (DIV 16) to a 12-well plate containing ~400 \u00b5l of prewarmed CNB in each well, and add 100 \u00b5l of the preclustered antibody solution to make the final antibody concentration of 400 ng/ml. ",
+        "result": {
+          "TRANSFER": {
+            "emit": [],
+            "slot": [
+              {
+                "it's a slot key": "it's a slot value"
+              }
+            ]
+          }
+        }
+      }
+    ]
+  },
+  {
+    "title": "",
+    "body": [
+      {
+        "sentence": "Incubate the neurons for 1 hr at 37 \u00b0C",
+        "result": {
+          "INCUBATE": {
+            "emit": [],
+            "slot": [
+              {
+                "it's a slot key": "it's a slot value"
+              }
+            ]
+          }
+        }
+      }
+    ]
+  },
+  {
+    "title": "",
+    "body": [
+      {
+        "sentence": "Wash the neurons three times with pre-warmed PBS, and transfer the coverslip with neurons back to the conditioned culture media",
+        "result": {
+          "ADD": {
+            "emit": [],
+            "slot": [
+              {
+                "it's a slot key": "it's a slot value"
+              }
+            ]
+          }
+        }
+      }
+    ]
+  },
+  {
+    "title": "",
+    "body": [
+      {
+        "sentence": "After 24 hr incubation, fix and immunostain the neurons with primary antibodies against various postsynaptic proteins, followed by the incubation with Cy3-conjugated secondary antibodies. To boost the signal for EGFP-NGL-3 clusters, add FITC-conjugated secondary antibodies during the incubation of Cy3 secondary antibodies",
+        "result": {
+          "ADD": {
+            "emit": [],
+            "slot": [
+              {
+                "it's a slot key": "it's a slot value"
+              }
+            ]
+          }
+        }
+      }
+    ]
+  },
+  {
+    "title": "",
+    "body": [
+      {
+        "sentence": "Capture Z-stacked images of the stained neurons by confocal microscopy",
+        "result": {
+          "ADD": {
+            "emit": [],
+            "slot": [
+              {
+                "it's a slot key": "it's a slot value"
+              }
+            ]
+          }
+        }
+      }
+    ]
+  },
+  {
+    "title": "",
+    "body": [
+      {
+        "sentence": "For the analysis of the captured images, trace the boundaries of each NGL-3 clusters on dendrites. Quantify the percentage of NGL-3 clusters that are positive for postsynaptic marker proteins. In addition, quantify the average immunofluorescence intensities of coclustered postsynaptic proteins and normalize them to those in nearby dendrites",
+        "result": {
+          "ADD": {
+            "emit": [],
+            "slot": [
+              {
+                "it's a slot key": "it's a slot value"
+              }
+            ]
+          }
+        }
+      }
+    ]
+  }
+]

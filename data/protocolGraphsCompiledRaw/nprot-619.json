@@ -1,0 +1,268 @@
+[
+    {
+        "sentence": "Dissolve 3.0 mg of sodium polyacrylate (ASAP) in 1.0 mL of water.",
+        "result": [
+            {
+                "DISSOLVE": {
+                    "emit": [
+                        {
+                            "output": "sodium polyacrylate (ASAP) solution"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "reagent1": "sodium polyacrylate (ASAP)"
+                        },
+                        {
+                            "reagent2": "water"
+                        },
+                        {
+                            "targetConcentration": "3.0 mg/mL"
+                        }
+                    ]
+                },
+                "sentence": "Dissolve 3.0 mg of sodium polyacrylate (ASAP) in 1.0 mL of water."
+            }
+        ]
+    },
+    {
+        "sentence": "Dissolve 7.5 mg of G3-binder in 0.25 mL of water.",
+        "result": [
+            {
+                "DISSOLVE": {
+                    "emit": [
+                        {
+                            "output": "G3-binder solution"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "reagent1": "G3-binder"
+                        },
+                        {
+                            "reagent2": "water"
+                        },
+                        {
+                            "targetConcentration": "<blank>"
+                        },
+                        {
+                            "notice": "<blank>"
+                        }
+                    ]
+                },
+                "sentence": "Dissolve 7.5 mg of G3-binder in 0.25 mL of water."
+            }
+        ]
+    },
+    {
+        "sentence": "Suspend 100 mg of Clay-NS to 3.75 mL of water.",
+        "result": [
+            {
+                "SUSPEND": {
+                    "emit": [
+                        {
+                            "output": "suspended Clay-NS"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "reagent1": "100 mg of Clay-NS"
+                        },
+                        {
+                            "reagent2": "water"
+                        },
+                        {
+                            "temperature": "<blank>"
+                        },
+                        {
+                            "device": "<blank>"
+                        },
+                        {
+                            "notice": "<blank>"
+                        }
+                    ]
+                },
+                "sentence": "Suspend 100 mg of Clay-NS to 3.75 mL of water."
+            }
+        ]
+    },
+    {
+        "sentence": "Stir the suspension of Clay-NS at room temperature such as 20 oC.",
+        "result": [
+            {
+                "STIR": {
+                    "emit": [
+                        {
+                            "output": "suspended Clay-NS"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "reagent1": "suspended Clay-NS"
+                        },
+                        {
+                            "time": "5 minutes"
+                        },
+                        {
+                            "temperature": "20 oC"
+                        },
+                        {
+                            "device": "magnetic stir bar"
+                        }
+                    ]
+                },
+                "sentence": "Stir the suspension of Clay-NS at room temperature such as 20 oC."
+            }
+        ]
+    },
+    {
+        "sentence": "Add 1.0 mL of the aqueous solution of ASAP to the stirred suspension of Clay-NS at room temperature such as 20 oC.",
+        "result": [
+            {
+                "ADD": {
+                    "emit": [
+                        {
+                            "output": "suspended Clay-NS"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "reagent1": "stirred suspension of Clay-NS"
+                        },
+                        {
+                            "reagent2": "aqueous solution of ASAP"
+                        },
+                        {
+                            "ratio": "<blank>"
+                        },
+                        {
+                            "concentration": "<blank>"
+                        },
+                        {
+                            "notice": "<blank>"
+                        }
+                    ]
+                },
+                "sentence": "Add 1.0 mL of the aqueous solution of ASAP to the stirred suspension of Clay-NS at room temperature such as 20 oC."
+            }
+        ]
+    },
+    {
+        "sentence": "Stir the ASAP-containing Clay-NS suspension for 10 minutes at room temperature such as 20 oC and confirm that it turns into a clear viscous solution.",
+        "result": [
+            {
+                "STIR": {
+                    "emit": [
+                        {
+                            "output": "ASAP-containing Clay-NS suspension"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "reagent1": "ASAP-containing Clay-NS suspension"
+                        },
+                        {
+                            "time": "10 minutes"
+                        },
+                        {
+                            "temperature": "room temperature such as 20 oC"
+                        },
+                        {
+                            "device": "magnetic stir bar"
+                        },
+                        {
+                            "intensity": "<blank>"
+                        },
+                        {
+                            "notice": "Confirm that it turns into a clear viscous solution"
+                        }
+                    ]
+                },
+                "sentence": "Stir the ASAP-containing Clay-NS suspension for 10 minutes at room temperature such as 20 oC\nnotice:\nConfirm that it turns into a clear viscous solution."
+            }
+        ]
+    },
+    {
+        "sentence": "Dropwise add 0.25 mL of the aqueous solution of G3-binder to the vigorously stirred Clay-NS/ASAP solution.",
+        "result": [
+            {
+                "DROP": {
+                    "emit": [
+                        {
+                            "output": "Clay-NS/ASAP solution"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "reagent1": "G3-binder solution"
+                        },
+                        {
+                            "volume": "0.25 mL"
+                        },
+                        {
+                            "destination": "Clay-NS/ASAP solution"
+                        }
+                    ]
+                },
+                "sentence": "Dropwise add 0.25 mL of the aqueous solution of G3-binder to the vigorously stirred Clay-NS/ASAP solution."
+            }
+        ]
+    },
+    {
+        "sentence": "Let the resultant solution stand for 3 minutes and obtain a transparent, self-standing gel.",
+        "result": [
+            {
+                "LET": {
+                    "emit": [
+                        {
+                            "reagent0": "ASAP-containing Clay-NS suspension"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "solution": "ASAP-containing Clay-NS suspension"
+                        },
+                        {
+                            "time": "3 minutes"
+                        }
+                    ]
+                },
+                "warning": "LET not in ISA, using own knowledge to generate instruction.",
+                "sentence": "Let the resultant solution stand for 3 minutes"
+            },
+            {
+                "OBTAIN": {
+                    "emit": [
+                        {
+                            "output": "transparent, self-standing gel"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "reagent1": "ASAP-containing Clay-NS suspension"
+                        },
+                        {
+                            "container": "N/A"
+                        },
+                        {
+                            "source": "resultant solution"
+                        },
+                        {
+                            "method": "N/A"
+                        },
+                        {
+                            "environment": "N/A"
+                        },
+                        {
+                            "purpose": "N/A"
+                        },
+                        {
+                            "notice": "N/A"
+                        }
+                    ]
+                },
+                "sentence": "obtain a transparent, self-standing gel."
+            }
+        ]
+    }
+]

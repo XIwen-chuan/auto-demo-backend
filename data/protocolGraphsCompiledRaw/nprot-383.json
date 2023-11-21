@@ -1,0 +1,566 @@
+[
+    {
+        "sentence": "Pre-warm fix\u0000ative solution to 37°C",
+        "result": [
+            {
+                "PRE-WARM": {
+                    "emit": [
+                        {
+                            "reagent0": "fixative solution"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "reagent1": "fixative solution"
+                        },
+                        {
+                            "temperature": "37°C"
+                        }
+                    ]
+                },
+                "warning": "PRE-WARM not in ISA, using own knowledge to generate instruction.",
+                "sentence": "Pre-warm fixative solution to 37°C"
+            }
+        ]
+    },
+    {
+        "sentence": "Remove media from plastic tissue culture dish",
+        "result": [
+            {
+                "REMOVE": {
+                    "emit": [
+                        {
+                            "output": "empty tissue culture dish"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "reagent1": "media"
+                        },
+                        {
+                            "method": "aspiration"
+                        }
+                    ]
+                },
+                "sentence": "Remove media from plastic tissue culture dish"
+            }
+        ]
+    },
+    {
+        "sentence": "rapidly pour on glutaraldehyde \u0000fixative",
+        "result": [
+            {
+                "POUR": {
+                    "emit": [
+                        {
+                            "output": "glutaraldehyde fixative"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "source": "glutaraldehyde fixative"
+                        },
+                        {
+                            "destination": "<blank>"
+                        },
+                        {
+                            "reagent1": "glutaraldehyde fixative"
+                        },
+                        {
+                            "volume": "<blank>"
+                        },
+                        {
+                            "equipment": "<blank>"
+                        },
+                        {
+                            "notice": "<blank>"
+                        }
+                    ]
+                },
+                "sentence": "rapidly pour on glutaraldehyde fixative"
+            }
+        ]
+    },
+    {
+        "sentence": "Leave 15 minutes",
+        "result": [
+            {
+                "LEAVE": {
+                    "emit": [
+                        {
+                            "output": "empty tissue culture dish"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "reagent1": "empty tissue culture dish"
+                        },
+                        {
+                            "temperature": "room temperature"
+                        },
+                        {
+                            "time": "15 minutes"
+                        },
+                        {
+                            "environment": ""
+                        },
+                        {
+                            "device": ""
+                        },
+                        {
+                            "notice": "untouched"
+                        }
+                    ]
+                },
+                "sentence": "Leave 15 minutes"
+            }
+        ]
+    },
+    {
+        "sentence": "Rinse with buffer or PBS three times over 5 minutes",
+        "result": [
+            {
+                "RINSE": {
+                    "emit": [
+                        {
+                            "output": "buffer or PBS"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "reagent1": "buffer or PBS"
+                        },
+                        {
+                            "reagent2": "buffer or PBS"
+                        },
+                        {
+                            "repeat": "3"
+                        },
+                        {
+                            "time": "5 minutes"
+                        }
+                    ]
+                },
+                "sentence": "Rinse with buffer or PBS three times over 5 minutes."
+            }
+        ]
+    },
+    {
+        "sentence": "Fix in OsO4, 15-30 minutes",
+        "result": [
+            {
+                "FIX": {
+                    "emit": [
+                        {
+                            "output": "fixed samples"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "reagent1": "samples"
+                        },
+                        {
+                            "reagent2": "OsO4"
+                        },
+                        {
+                            "temperature": "room temperature"
+                        },
+                        {
+                            "time": "15-30 minutes"
+                        }
+                    ]
+                },
+                "sentence": "Fix in OsO4, 15-30 minutes"
+            }
+        ]
+    },
+    {
+        "sentence": "Rinse with buffer \u0000five times over 10 minutes",
+        "result": [
+            {
+                "RINSE": {
+                    "emit": [
+                        {
+                            "output": "buffer or PBS"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "reagent1": "buffer or PBS"
+                        },
+                        {
+                            "reagent2": "buffer or PBS"
+                        },
+                        {
+                            "repeat": "5"
+                        },
+                        {
+                            "time": "10 minutes"
+                        },
+                        {
+                            "notice": ""
+                        }
+                    ]
+                },
+                "sentence": "Rinse with buffer five times over 10 minutes."
+            }
+        ]
+    },
+    {
+        "sentence": "Incubate in freshly made 1% carbohydrazide 10-30 minutes",
+        "result": [
+            {
+                "INCUBATE": {
+                    "emit": [
+                        {
+                            "output": "protein-DNA complexes"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "reagent1": "1% carbohydrazide"
+                        },
+                        {
+                            "reagent2": ""
+                        },
+                        {
+                            "temperature": "room temperature"
+                        },
+                        {
+                            "time": "10-30 minutes"
+                        },
+                        {
+                            "environment": ""
+                        },
+                        {
+                            "device": ""
+                        },
+                        {
+                            "thermoProgram": ""
+                        },
+                        {
+                            "notice": "prior to measurements"
+                        }
+                    ]
+                },
+                "sentence": "Incubate in freshly made 1% carbohydrazide 10-30 minutes"
+            }
+        ]
+    },
+    {
+        "sentence": "Rinse with distilled \u0000five times over 15 minutes",
+        "result": [
+            {
+                "RINSE": {
+                    "emit": [
+                        {
+                            "output": "wafer"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "reagent1": "wafer"
+                        },
+                        {
+                            "reagent2": "distilled water"
+                        },
+                        {
+                            "repeat": "5"
+                        },
+                        {
+                            "time": "15 minutes"
+                        },
+                        {
+                            "notice": ""
+                        }
+                    ]
+                },
+                "sentence": "Rinse with distilled water five times over 15 minutes."
+            }
+        ]
+    },
+    {
+        "sentence": "Incubate again in 1% OsO4, 15-30 minutes",
+        "result": [
+            {
+                "INCUBATE": {
+                    "emit": [
+                        {
+                            "output": "fixed samples"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "reagent1": "1% OsO4"
+                        },
+                        {
+                            "reagent2": ""
+                        },
+                        {
+                            "temperature": "room temperature"
+                        },
+                        {
+                            "time": "15-30 minutes"
+                        },
+                        {
+                            "environment": ""
+                        },
+                        {
+                            "device": ""
+                        },
+                        {
+                            "thermoProgram": ""
+                        },
+                        {
+                            "notice": "prior to measurements"
+                        }
+                    ]
+                },
+                "sentence": "Incubate again in 1% OsO4, 15-30 minutes"
+            }
+        ]
+    },
+    {
+        "sentence": "Rinse three times with distilled water over 15 minutes. In the third rinse, cut dishes to \u0000fit the critical point dryer",
+        "result": [
+            {
+                "RINSE": {
+                    "emit": [
+                        {
+                            "output": "wafer"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "reagent1": "wafer"
+                        },
+                        {
+                            "reagent2": "distilled water"
+                        },
+                        {
+                            "repeat": "3"
+                        },
+                        {
+                            "time": "15 minutes"
+                        },
+                        {
+                            "notice": ""
+                        }
+                    ]
+                },
+                "sentence": "Rinse three times with distilled water over 15 minutes."
+            },
+            {
+                "CUT": {
+                    "emit": [
+                        {
+                            "output": "cut dishes"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "reagent": "dishes"
+                        },
+                        {
+                            "device": "critical point dryer"
+                        },
+                        {
+                            "size": "<blank>"
+                        },
+                        {
+                            "direction": "<blank>"
+                        },
+                        {
+                            "environment": "<blank>"
+                        }
+                    ]
+                },
+                "sentence": "In the third rinse, cut dishes to fit the critical point dryer."
+            }
+        ]
+    },
+    {
+        "sentence": "Using small diagonal wire cutters, clip and remove edge fi\u0000rst",
+        "result": [
+            {
+                "CLIP": {
+                    "emit": [
+                        {
+                            "reagent0": "clipped dishes"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "reagent1": "cut dishes"
+                        },
+                        {
+                            "reagent2": "small diagonal wire cutters"
+                        }
+                    ]
+                },
+                "warning": "CLIP not in ISA, using own knowledge to generate instruction.",
+                "sentence": "Using small diagonal wire cutters, clip and remove edge first."
+            },
+            {
+                "REMOVE": {
+                    "emit": [
+                        {
+                            "output": "clipped dishes"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "reagent1": "clipped dishes"
+                        },
+                        {
+                            "method": "using small diagonal wire cutters"
+                        }
+                    ]
+                },
+                "sentence": "Using small diagonal wire cutters, clip and remove edge first."
+            }
+        ]
+    },
+    {
+        "sentence": "Then cut bottom of dish to size",
+        "result": [
+            {
+                "CUT": {
+                    "emit": [
+                        {
+                            "output": "clipped dishes"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "reagent": "empty tissue culture dish"
+                        },
+                        {
+                            "device": "small diagonal wire cutters"
+                        },
+                        {
+                            "size": "to size"
+                        },
+                        {
+                            "direction": "along the caudal to rostral"
+                        },
+                        {
+                            "environment": "<blank>"
+                        }
+                    ]
+                },
+                "sentence": "Then cut bottom of dish to size"
+            }
+        ]
+    },
+    {
+        "sentence": "Place in another dish",
+        "result": [
+            {
+                "PLACE": {
+                    "emit": [
+                        {
+                            "output": "clipped dishes"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "reagent1": "clipped dishes"
+                        },
+                        {
+                            "destination": "another dish"
+                        }
+                    ]
+                },
+                "sentence": "Place in another dish."
+            }
+        ]
+    },
+    {
+        "sentence": "Dehydrate through ethanol or hexylene glycol series beginning with 30% and changing to solutions of 50%, 70%, 90%, and three times 100%, over 30 minutes.",
+        "result": [
+            {
+                "DEHYDRATE": {
+                    "emit": [
+                        {
+                            "output": "slides"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "reagent1": "slides"
+                        },
+                        {
+                            "reagent2": "ethanol"
+                        },
+                        {
+                            "time": "30 s each"
+                        }
+                    ]
+                },
+                "sentence": "Dehydrate through ethanol or hexylene glycol series beginning with 30% and changing to solutions of 50%, 70%, 90%, and three times 100%, over 30 minutes."
+            }
+        ]
+    },
+    {
+        "sentence": "Dry in critical point dryer.",
+        "result": [
+            {
+                "DRY": {
+                    "emit": [
+                        {
+                            "output": "wafer"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "reagent1": "wafer"
+                        },
+                        {
+                            "device": "critical point dryer"
+                        },
+                        {
+                            "temperature": "<blank>"
+                        },
+                        {
+                            "time": "<blank>"
+                        },
+                        {
+                            "environment": "<blank>"
+                        },
+                        {
+                            "notice": "<blank>"
+                        }
+                    ]
+                },
+                "sentence": "Dry in critical point dryer."
+            }
+        ]
+    },
+    {
+        "sentence": "Sputter coat with 1-2 nm gold-palladium",
+        "result": [
+            {
+                "COAT": {
+                    "emit": [
+                        {
+                            "output": "coated samples"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "reagent1": "samples"
+                        },
+                        {
+                            "reagent2": "1-2 nm gold-palladium"
+                        },
+                        {
+                            "device": "sputter coater"
+                        }
+                    ]
+                },
+                "sentence": "Sputter coat with 1-2 nm gold-palladium."
+            }
+        ]
+    }
+]

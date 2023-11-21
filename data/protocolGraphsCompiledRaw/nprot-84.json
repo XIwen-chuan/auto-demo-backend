@@ -1,0 +1,508 @@
+[
+    {
+        "sentence": "Transfect cultured neurons with a form of NGL-2 in which EGFP was tagged to the N terminus (EGFP-NGL-2) at DIV 14, and incubate for 2 days.",
+        "result": [
+            {
+                "TRANSFECT": {
+                    "emit": [
+                        {
+                            "output": "transfected neurons"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "reagent1": "cultured neurons"
+                        },
+                        {
+                            "reagent2": "EGFP-NGL-2"
+                        },
+                        {
+                            "reagent3": ""
+                        },
+                        {
+                            "method": ""
+                        }
+                    ]
+                },
+                "sentence": "Transfect cultured neurons with a form of NGL-2 in which EGFP was tagged to the N terminus (EGFP-NGL-2) at DIV 14."
+            },
+            {
+                "INCUBATE": {
+                    "emit": [
+                        {
+                            "output": "transfected neurons"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "reagent1": "EGFP-NGL-2"
+                        },
+                        {
+                            "reagent2": ""
+                        },
+                        {
+                            "temperature": "room temperature"
+                        },
+                        {
+                            "time": "2 days"
+                        },
+                        {
+                            "environment": ""
+                        },
+                        {
+                            "device": ""
+                        },
+                        {
+                            "thermoProgram": ""
+                        },
+                        {
+                            "notice": "after transfection"
+                        }
+                    ]
+                },
+                "sentence": "Incubate for 2 days."
+            }
+        ]
+    },
+    {
+        "sentence": "Mix 5 μg of biotin-conjugated EGFP antibodies (Rockland) and 2 μL of neutravidin-conjugated FluoSphere beads (Molecular Probes; 1 μm diameter), and incubate for 1 h.",
+        "result": [
+            {
+                "MIX": {
+                    "emit": [
+                        {
+                            "output": "<blank>"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "reagent1": "5 μg of biotin-conjugated EGFP antibodies (Rockland)"
+                        },
+                        {
+                            "reagent2": "2 μL of neutravidin-conjugated FluoSphere beads (Molecular Probes; 1 μm diameter)"
+                        },
+                        {
+                            "ratio": "<blank>"
+                        },
+                        {
+                            "method": "<blank>"
+                        },
+                        {
+                            "temperature": "<blank>"
+                        },
+                        {
+                            "time": "1 h"
+                        },
+                        {
+                            "device": "<blank>"
+                        },
+                        {
+                            "notice": "<blank>"
+                        }
+                    ]
+                },
+                "sentence": "Mix 5 μg of biotin-conjugated EGFP antibodies (Rockland) and 2 μL of neutravidin-conjugated FluoSphere beads (Molecular Probes; 1 μm diameter), and incubate for 1 h."
+            }
+        ]
+    },
+    {
+        "sentence": "Increase the volume of the mixture to 1 mL by adding Hank’s balanced salt solution (HBSS), and centrifuge at 13,000 rpm for 1 min in a microcentrifuge",
+        "result": [
+            {
+                "INCREASE": {
+                    "emit": [],
+                    "slot": [
+                        {
+                            "attribute": "volume"
+                        },
+                        {
+                            "value": "1 mL"
+                        },
+                        {
+                            "time": "<blank>"
+                        },
+                        {
+                            "environment": "<blank>"
+                        },
+                        {
+                            "device": "<blank>"
+                        },
+                        {
+                            "notice": "<blank>"
+                        }
+                    ]
+                },
+                "sentence": "Increase the volume of the mixture to 1 mL by adding Hank’s balanced salt solution (HBSS)"
+            },
+            {
+                "CENTRIFUGE": {
+                    "emit": [
+                        {
+                            "output": "transfected neurons"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "reagent1": "transfected neurons"
+                        },
+                        {
+                            "intensity": "13,000 rpm"
+                        },
+                        {
+                            "time": "1 min"
+                        },
+                        {
+                            "temperature": "room temperature"
+                        }
+                    ]
+                },
+                "sentence": "centrifuge at 13,000 rpm for 1 min in a microcentrifuge"
+            }
+        ]
+    },
+    {
+        "sentence": "Carefully remove the supernatant, and resuspend the precipitates in 100 μL of conditioned media where neurons were growing",
+        "result": [
+            {
+                "REMOVE": {
+                    "emit": [
+                        {
+                            "output": "resuspended precipitates"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "reagent1": "supernatant"
+                        },
+                        {
+                            "method": "aspiration"
+                        }
+                    ]
+                },
+                "sentence": "Carefully remove the supernatant."
+            },
+            {
+                "RESUSPEND": {
+                    "emit": [
+                        {
+                            "output": "resuspended precipitates"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "reagent1": "resuspended precipitates"
+                        },
+                        {
+                            "reagent2": "conditioned media where neurons were growing"
+                        },
+                        {
+                            "temperature": "<blank>"
+                        },
+                        {
+                            "device": "<blank>"
+                        },
+                        {
+                            "notice": "<blank>"
+                        }
+                    ]
+                },
+                "sentence": "Resuspend the precipitates in 100 μL of conditioned media where neurons were growing."
+            }
+        ]
+    },
+    {
+        "sentence": "Place the coverslips containing transfected neurons (DIV16) face-up on 6-well (or larger) dishes. ",
+        "result": [
+            {
+                "PLACE": {
+                    "emit": [
+                        {
+                            "output": "coverslips containing transfected neurons (DIV16)"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "reagent1": "coverslips containing transfected neurons (DIV16)"
+                        },
+                        {
+                            "destination": "6-well (or larger) dishes"
+                        }
+                    ]
+                },
+                "sentence": "Place the coverslips containing transfected neurons (DIV16) face-up on 6-well (or larger) dishes."
+            }
+        ]
+    },
+    {
+        "sentence": "Add 100 μL of the resuspended beads onto the neurons and incubate at 37 oC for 30 min.",
+        "result": [
+            {
+                "ADD": {
+                    "emit": [
+                        {
+                            "output": "transfected neurons"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "reagent1": "transfected neurons"
+                        },
+                        {
+                            "reagent2": "resuspended beads"
+                        }
+                    ]
+                },
+                "sentence": "Add 100 μL of the resuspended beads onto the neurons"
+            },
+            {
+                "INCUBATE": {
+                    "emit": [
+                        {
+                            "output": "protein-DNA complexes"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "reagent1": "resuspended beads"
+                        },
+                        {
+                            "reagent2": ""
+                        },
+                        {
+                            "temperature": "37 oC"
+                        },
+                        {
+                            "time": "30 min"
+                        },
+                        {
+                            "environment": ""
+                        },
+                        {
+                            "device": ""
+                        },
+                        {
+                            "thermoProgram": ""
+                        },
+                        {
+                            "notice": "prior to measurements"
+                        }
+                    ]
+                },
+                "sentence": "incubate at 37 oC for 30 min."
+            }
+        ]
+    },
+    {
+        "sentence": "Wash the neurons twice with HBSS, and place the coverslip back into the culture media",
+        "result": [
+            {
+                "WASH": {
+                    "emit": [
+                        {
+                            "output": "neurons"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "reagent1": "neurons"
+                        },
+                        {
+                            "reagent2": "HBSS"
+                        },
+                        {
+                            "repeat": "2"
+                        },
+                        {
+                            "time": "<blank>"
+                        },
+                        {
+                            "notice": "<blank>"
+                        }
+                    ]
+                },
+                "sentence": "Wash the neurons twice with HBSS."
+            },
+            {
+                "PLACE": {
+                    "emit": [
+                        {
+                            "output": "coverslip"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "reagent1": "coverslip"
+                        },
+                        {
+                            "destination": "culture media"
+                        }
+                    ]
+                },
+                "sentence": "Place the coverslip back into the culture media."
+            }
+        ]
+    },
+    {
+        "sentence": "After 24 h of incubation, fix and immunostain the neurons with primary antibodies against various synaptic proteins and fluorophore-conjugated secondary antibodies",
+        "result": [
+            {
+                "FIX": {
+                    "emit": [
+                        {
+                            "output": "fixed neurons"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "reagent1": "neurons"
+                        },
+                        {
+                            "reagent2": "glutaraldehyde fixative"
+                        },
+                        {
+                            "temperature": "4°C"
+                        },
+                        {
+                            "time": "overnight"
+                        }
+                    ]
+                },
+                "sentence": "After 24 h of incubation, fix and immunostain the neurons with primary antibodies against various synaptic proteins and fluorophore-conjugated secondary antibodies."
+            }
+        ]
+    },
+    {
+        "sentence": "Capture Z-stacked images by confocal immunofluorescence microscopy as well as DIC imaging",
+        "result": [
+            {
+                "CAPTURE": {
+                    "emit": [
+                        {
+                            "output": "Z-stacked images"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "reagent1": "coverslips containing transfected neurons (DIV16)"
+                        },
+                        {
+                            "container": "6-well (or larger) dishes"
+                        },
+                        {
+                            "source": "coverslip"
+                        },
+                        {
+                            "method": "confocal immunofluorescence microscopy as well as DIC imaging"
+                        }
+                    ]
+                },
+                "sentence": "Capture Z-stacked images by confocal immunofluorescence microscopy as well as DIC imaging."
+            }
+        ]
+    },
+    {
+        "sentence": "For quantitation, manually trace the boundaries of the beads. Copy a boundary to a nearby dendritic area for normalization.",
+        "result": [
+            {
+                "TRACE": {
+                    "emit": [
+                        {
+                            "reagent0": "boundaries of the beads"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "reagent1": "transfected neurons"
+                        },
+                        {
+                            "reagent2": "resuspended precipitates"
+                        }
+                    ]
+                },
+                "warning": "TRACE not in ISA, using own knowledge to generate instruction.",
+                "sentence": "For quantitation, manually trace the boundaries of the beads."
+            },
+            {
+                "COPY": {
+                    "emit": [
+                        {
+                            "reagent0": "normalized dendritic area"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "source": "boundaries of the beads"
+                        },
+                        {
+                            "destination": "nearby dendritic area"
+                        }
+                    ]
+                },
+                "warning": "COPY not in ISA, using own knowledge to generate instruction.",
+                "sentence": "Copy a boundary to a nearby dendritic area for normalization."
+            }
+        ]
+    },
+    {
+        "sentence": "An average immunofluorescence intensity of a synaptic marker from a bead area was measured and normalized to that from a nearby control area",
+        "result": [
+            {
+                "MEASURE": {
+                    "emit": [
+                        {
+                            "output": "average immunofluorescence intensity of synaptic marker"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "device": "confocal immunofluorescence microscopy"
+                        },
+                        {
+                            "reagent1": "synaptic marker"
+                        },
+                        {
+                            "attribute": "average immunofluorescence intensity"
+                        },
+                        {
+                            "time": "30 min"
+                        },
+                        {
+                            "wavelength": "N/A"
+                        },
+                        {
+                            "notice": ""
+                        }
+                    ]
+                },
+                "sentence": "An average immunofluorescence intensity of a synaptic marker from a bead area was measured"
+            },
+            {
+                "NORMALIZE": {
+                    "emit": [
+                        {
+                            "output": "normalized dendritic area"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "reagent1": "average immunofluorescence intensity of synaptic marker"
+                        },
+                        {
+                            "targetConcentration": "between 0.3 and 0.6 µg/µl"
+                        },
+                        {
+                            "device": "<blank>"
+                        },
+                        {
+                            "method": "<blank>"
+                        },
+                        {
+                            "notice": "<blank>"
+                        }
+                    ]
+                },
+                "sentence": "and normalized to that from a nearby control area."
+            }
+        ]
+    }
+]

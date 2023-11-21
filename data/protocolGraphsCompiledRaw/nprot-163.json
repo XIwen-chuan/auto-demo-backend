@@ -1,0 +1,739 @@
+[
+    {
+        "sentence": "Harvest splenocytes by grinding of spleens in RPMI-1640 medium between two frosted microscope slides. ",
+        "result": [
+            {
+                "HARVEST": {
+                    "emit": [
+                        {
+                            "output": "splenocytes"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "reagent1": "spleens"
+                        },
+                        {
+                            "container": "RPMI-1640 medium"
+                        },
+                        {
+                            "source": "frosted microscope slides"
+                        },
+                        {
+                            "method": "grinding"
+                        }
+                    ]
+                },
+                "sentence": "Harvest splenocytes by grinding of spleens in RPMI-1640 medium between two frosted microscope slides."
+            }
+        ]
+    },
+    {
+        "sentence": "Spin cells at 1000 RPM for 5 min. ",
+        "result": [
+            {
+                "SPIN": {
+                    "emit": [
+                        {
+                            "output": "splenocytes"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "reagent1": "splenocytes"
+                        },
+                        {
+                            "intensity": "1000 RPM"
+                        },
+                        {
+                            "time": "5 min"
+                        },
+                        {
+                            "temperature": "room temperature"
+                        },
+                        {
+                            "device": "centrifuge"
+                        }
+                    ]
+                },
+                "sentence": "Spin cells at 1000 RPM for 5 min."
+            }
+        ]
+    },
+    {
+        "sentence": "Remove erythrocytes by adding one equivalent volume of ACK Lysing Buffer to the remaining pellet. ",
+        "result": [
+            {
+                "REMOVE": {
+                    "emit": [
+                        {
+                            "output": "splenocytes"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "reagent1": "ACK Lysing Buffer"
+                        },
+                        {
+                            "method": "adding"
+                        }
+                    ]
+                },
+                "sentence": "Remove erythrocytes by adding one equivalent volume of ACK Lysing Buffer to the remaining pellet."
+            }
+        ]
+    },
+    {
+        "sentence": " Gently resuspend, swirl tube for 1 min. ",
+        "result": [
+            {
+                "SWIRL": {
+                    "emit": [
+                        {
+                            "output": "tube"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "reagent1": "tube"
+                        },
+                        {
+                            "time": "1 min"
+                        }
+                    ]
+                },
+                "sentence": "Gently resuspend, swirl tube for 1 min."
+            }
+        ]
+    },
+    {
+        "sentence": "Fill tube with 10 ml of RPMI-1640, centrifuge at 1000 RPM for 5 min",
+        "result": [
+            {
+                "FILL": {
+                    "emit": [
+                        {
+                            "output": "tube"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "reagent1": "RPMI-1640"
+                        },
+                        {
+                            "volume": "10 ml"
+                        },
+                        {
+                            "container": "tube"
+                        }
+                    ]
+                },
+                "sentence": "Fill tube with 10 ml of RPMI-1640"
+            },
+            {
+                "CENTRIFUGE": {
+                    "emit": [
+                        {
+                            "output": "splenocytes"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "reagent1": "tube"
+                        },
+                        {
+                            "intensity": "1000 RPM"
+                        },
+                        {
+                            "time": "5 min"
+                        },
+                        {
+                            "temperature": "room temperature"
+                        }
+                    ]
+                },
+                "sentence": "centrifuge at 1000 RPM for 5 min"
+            }
+        ]
+    },
+    {
+        "sentence": "Resuspend in 10 ml of RPMI-1640.",
+        "result": [
+            {
+                "RESUSPEND": {
+                    "emit": [
+                        {
+                            "output": "splenocytes"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "reagent1": "splenocytes"
+                        },
+                        {
+                            "reagent2": "RPMI-1640"
+                        },
+                        {
+                            "temperature": "37 ˚C"
+                        },
+                        {
+                            "device": ""
+                        },
+                        {
+                            "notice": ""
+                        }
+                    ]
+                },
+                "sentence": "Resuspend in 10 ml of RPMI-1640."
+            }
+        ]
+    },
+    {
+        "sentence": "Filter through 70 μm nylon cell strainer. ",
+        "result": [
+            {
+                "FILTER": {
+                    "emit": [
+                        {
+                            "output": "filtered cells"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "reagent1": "10mL of DPBS containing cells"
+                        },
+                        {
+                            "filter": "70 μm nylon cell strainer"
+                        }
+                    ]
+                },
+                "sentence": "Filter through 70 μm nylon cell strainer."
+            }
+        ]
+    },
+    {
+        "sentence": "Centrifuge at 1000 RPM for 5 min.",
+        "result": [
+            {
+                "CENTRIFUGE": {
+                    "emit": [
+                        {
+                            "output": "splenocytes"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "reagent1": "splenocytes"
+                        },
+                        {
+                            "intensity": "1000 RPM"
+                        },
+                        {
+                            "time": "5 min"
+                        },
+                        {
+                            "temperature": "room temperature"
+                        }
+                    ]
+                },
+                "sentence": "Centrifuge at 1000 RPM for 5 min."
+            }
+        ]
+    },
+    {
+        "sentence": "Resuspend 1 × 107 cells in 500 μl of FACS buffer.",
+        "result": [
+            {
+                "RESUSPEND": {
+                    "emit": [
+                        {
+                            "output": "1 × 107 cells"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "reagent1": "1 × 107 cells"
+                        },
+                        {
+                            "reagent2": "FACS buffer"
+                        },
+                        {
+                            "temperature": "<blank>"
+                        },
+                        {
+                            "device": "<blank>"
+                        },
+                        {
+                            "notice": "<blank>"
+                        }
+                    ]
+                },
+                "sentence": "Resuspend 1 × 107 cells in 500 μl of FACS buffer."
+            }
+        ]
+    },
+    {
+        "sentence": "Obtain B cells by CD43 negative purification using anti-CD43 magnetic beads.",
+        "result": [
+            {
+                "OBTAIN": {
+                    "emit": [
+                        {
+                            "output": "B cells"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "reagent1": "anti-CD43 magnetic beads"
+                        },
+                        {
+                            "container": "15 ml tube"
+                        },
+                        {
+                            "source": "splenocytes"
+                        },
+                        {
+                            "method": "CD43 negative purification"
+                        }
+                    ]
+                },
+                "sentence": "Obtain B cells by CD43 negative purification using anti-CD43 magnetic beads."
+            }
+        ]
+    },
+    {
+        "sentence": "Dilute CD43- B cells to a concentration of 5×10^5 cells/ml in B cell complete medium.",
+        "result": [
+            {
+                "DILUTE": {
+                    "emit": [
+                        {
+                            "output": "diluted CD43- B cells"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "reagent1": "CD43- B cells"
+                        },
+                        {
+                            "reagent2": "B cell complete medium"
+                        },
+                        {
+                            "targetConcentration": "5×10^5 cells/ml"
+                        }
+                    ]
+                },
+                "sentence": "Dilute CD43- B cells to a concentration of 5×10^5 cells/ml in B cell complete medium."
+            }
+        ]
+    },
+    {
+        "sentence": "Incubate 5×105 B cells in presence of 10 μg/ml of anti-CD40 (clone 3/23)",
+        "result": [
+            {
+                "INCUBATE": {
+                    "emit": [
+                        {
+                            "output": "protein-DNA complexes"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "reagent1": "anti-CD40 (clone 3/23)"
+                        },
+                        {
+                            "reagent2": ""
+                        },
+                        {
+                            "temperature": "room temperature"
+                        },
+                        {
+                            "time": "30 minutes"
+                        },
+                        {
+                            "environment": ""
+                        },
+                        {
+                            "device": ""
+                        },
+                        {
+                            "thermoProgram": ""
+                        },
+                        {
+                            "notice": "prior to measurements"
+                        }
+                    ]
+                },
+                "sentence": "Incubate 5×105 B cells in presence of 10 μg/ml of anti-CD40 (clone 3/23)"
+            }
+        ]
+    },
+    {
+        "sentence": "plus 10 ng/ml of recombinant mouse IL-4 for IgG1 analysis",
+        "result": [
+            {
+                "ADD": {
+                    "emit": [
+                        {
+                            "output": "B cells"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "reagent1": "B cells"
+                        },
+                        {
+                            "reagent2": "recombinant mouse IL-4"
+                        },
+                        {
+                            "ratio": "10 ng/ml"
+                        }
+                    ]
+                },
+                "sentence": "plus 10 ng/ml of recombinant mouse IL-4 for IgG1 analysis"
+            }
+        ]
+    },
+    {
+        "sentence": "Incubate for 4 d in a humidified 37 oC, 5% CO2 incubator.",
+        "result": [
+            {
+                "INCUBATE": {
+                    "emit": [
+                        {
+                            "output": "protein-DNA complexes"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "reagent1": "protein-DNA complexes"
+                        },
+                        {
+                            "reagent2": ""
+                        },
+                        {
+                            "temperature": "37 oC"
+                        },
+                        {
+                            "time": "4 d"
+                        },
+                        {
+                            "environment": "humidified"
+                        },
+                        {
+                            "device": "incubator"
+                        },
+                        {
+                            "thermoProgram": ""
+                        },
+                        {
+                            "notice": ""
+                        }
+                    ]
+                },
+                "sentence": "Incubate for 4 d in a humidified 37 oC, 5% CO2 incubator."
+            }
+        ]
+    },
+    {
+        "sentence": "Wash cells with FACS buffer.",
+        "result": [
+            {
+                "WASH": {
+                    "emit": [
+                        {
+                            "output": "splenocytes"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "reagent1": "splenocytes"
+                        },
+                        {
+                            "reagent2": "FACS buffer"
+                        },
+                        {
+                            "repeat": "1"
+                        },
+                        {
+                            "time": "<blank>"
+                        },
+                        {
+                            "notice": "<blank>"
+                        }
+                    ]
+                },
+                "sentence": "Wash cells with FACS buffer."
+            }
+        ]
+    },
+    {
+        "sentence": "Preincubate cells on ice for 10 min in presence of Fc blocker (anti-CD16/CD32)",
+        "result": [
+            {
+                "PREINCUBATE": {
+                    "emit": [
+                        {
+                            "reagent0": "splenocytes"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "reagent1": "splenocytes"
+                        },
+                        {
+                            "reagent2": "Fc blocker (anti-CD16/CD32)"
+                        },
+                        {
+                            "time": "10 min"
+                        },
+                        {
+                            "temperature": "ice"
+                        }
+                    ]
+                },
+                "warning": "PREINCUBATE not in ISA, using own knowledge to generate instruction.",
+                "sentence": "Preincubate cells on ice for 10 min in presence of Fc blocker (anti-CD16/CD32)"
+            }
+        ]
+    },
+    {
+        "sentence": "Stain cells with biotinylated anti-IgG1, anti-IgG2a-2b",
+        "result": [
+            {
+                "STAIN": {
+                    "emit": [
+                        {
+                            "output": "stained cells"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "reagent1": "biotinylated anti-IgG1, anti-IgG2a-2b"
+                        },
+                        {
+                            "reagent2": ""
+                        },
+                        {
+                            "temperature": "4°C"
+                        },
+                        {
+                            "time": "30 minutes"
+                        },
+                        {
+                            "method": ""
+                        },
+                        {
+                            "notice": ""
+                        }
+                    ]
+                },
+                "sentence": "Stain cells with biotinylated anti-IgG1, anti-IgG2a-2b."
+            }
+        ]
+    },
+    {
+        "sentence": "used the antibodies at a dilution of 1:200 in a total volume of 100 μl",
+        "result": [
+            {
+                "DILUTE": {
+                    "emit": [
+                        {
+                            "output": "diluted antibodies"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "reagent1": "antibodies"
+                        },
+                        {
+                            "reagent2": "100 μl"
+                        },
+                        {
+                            "targetConcentration": "1:200"
+                        }
+                    ]
+                },
+                "sentence": "used the antibodies at a dilution of 1:200 in a total volume of 100 μl"
+            }
+        ]
+    },
+    {
+        "sentence": "Incubate on ice for 20 min. ",
+        "result": [
+            {
+                "INCUBATE": {
+                    "emit": [
+                        {
+                            "output": "protein-DNA complexes"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "reagent1": "protein-DNA complexes"
+                        },
+                        {
+                            "reagent2": ""
+                        },
+                        {
+                            "temperature": "ice"
+                        },
+                        {
+                            "time": "20 min"
+                        },
+                        {
+                            "environment": ""
+                        },
+                        {
+                            "device": ""
+                        },
+                        {
+                            "thermoProgram": ""
+                        },
+                        {
+                            "notice": ""
+                        }
+                    ]
+                },
+                "sentence": "Incubate on ice for 20 min."
+            }
+        ]
+    },
+    {
+        "sentence": "Wash 2x with FACS buffer.",
+        "result": [
+            {
+                "WASH": {
+                    "emit": [
+                        {
+                            "output": "splenocytes"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "reagent1": "splenocytes"
+                        },
+                        {
+                            "reagent2": "FACS buffer"
+                        },
+                        {
+                            "repeat": "2"
+                        },
+                        {
+                            "time": "<blank>"
+                        },
+                        {
+                            "notice": "<blank>"
+                        }
+                    ]
+                },
+                "sentence": "Wash 2x with FACS buffer."
+            }
+        ]
+    },
+    {
+        "sentence": "Stain cells with streptavidin conjugate of your choosing.",
+        "result": [
+            {
+                "STAIN": {
+                    "emit": [
+                        {
+                            "output": "stained cells"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "reagent1": "streptavidin conjugate"
+                        },
+                        {
+                            "reagent2": ""
+                        },
+                        {
+                            "temperature": "4°C"
+                        },
+                        {
+                            "time": "30 minutes"
+                        },
+                        {
+                            "method": ""
+                        },
+                        {
+                            "notice": ""
+                        }
+                    ]
+                },
+                "sentence": "Stain cells with streptavidin conjugate of your choosing."
+            }
+        ]
+    },
+    {
+        "sentence": "Wash 2x with FACS buffer.",
+        "result": [
+            {
+                "WASH": {
+                    "emit": [
+                        {
+                            "output": "splenocytes"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "reagent1": "splenocytes"
+                        },
+                        {
+                            "reagent2": "FACS buffer"
+                        },
+                        {
+                            "repeat": "2"
+                        },
+                        {
+                            "time": "<blank>"
+                        },
+                        {
+                            "notice": "<blank>"
+                        }
+                    ]
+                },
+                "sentence": "Wash 2x with FACS buffer."
+            }
+        ]
+    },
+    {
+        "sentence": "Analyze by flow cytometry.",
+        "result": [
+            {
+                "ANALYZE": {
+                    "emit": [
+                        {
+                            "output": "splenocytes"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "reagent1": "splenocytes"
+                        },
+                        {
+                            "data1": "stained cells"
+                        },
+                        {
+                            "environment": ""
+                        },
+                        {
+                            "software": "FlowJo"
+                        },
+                        {
+                            "settings": "default settings"
+                        },
+                        {
+                            "method": ""
+                        },
+                        {
+                            "notice": ""
+                        }
+                    ]
+                },
+                "sentence": "Analyze by flow cytometry."
+            }
+        ]
+    }
+]

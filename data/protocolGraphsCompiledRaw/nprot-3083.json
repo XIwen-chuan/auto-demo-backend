@@ -1,0 +1,557 @@
+[
+    {
+        "sentence": "Mix anti-HFA capture Ab \\(8 μg mL-1) with 1% \\ (v/v) APTES in the ratio of 1:1 \\(v/v)",
+        "result": [
+            {
+                "MIX": {
+                    "emit": [
+                        {
+                            "output": "<blank>"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "reagent1": "anti-HFA capture Ab (8 μg mL-1)"
+                        },
+                        {
+                            "reagent2": "1% (v/v) APTES"
+                        },
+                        {
+                            "ratio": "1:1 (v/v)"
+                        }
+                    ]
+                },
+                "sentence": "Mix anti-HFA capture Ab (8 μg mL-1) with 1% (v/v) APTES in the ratio of 1:1 (v/v)"
+            }
+        ]
+    },
+    {
+        "sentence": "Incubate each of the desired wells of a 96-well MTP with 100 μL of the freshly prepared anti-HFA capture Ab solution, with a \u0000nal concentration of 4 μg mL-1 in 0.5% APTES, for 30 min at RT",
+        "result": [
+            {
+                "INCUBATE": {
+                    "emit": [
+                        {
+                            "output": "<blank>"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "reagent1": "anti-HFA capture Ab solution"
+                        },
+                        {
+                            "reagent2": "0.5% APTES"
+                        },
+                        {
+                            "temperature": "RT"
+                        },
+                        {
+                            "time": "30 min"
+                        },
+                        {
+                            "environment": ""
+                        },
+                        {
+                            "device": ""
+                        },
+                        {
+                            "thermoProgram": ""
+                        },
+                        {
+                            "notice": "prior to measurements"
+                        }
+                    ]
+                },
+                "sentence": "Incubate each of the desired wells of a 96-well MTP with 100 μL of the freshly prepared anti-HFA capture Ab solution, with a final concentration of 4 μg mL-1 in 0.5% APTES, for 30 min at RT."
+            }
+        ]
+    },
+    {
+        "sentence": "Wash fi\u0000ve times with 300 μL of 0.1M PBS, pH 7.4",
+        "result": [
+            {
+                "WASH": {
+                    "emit": [
+                        {
+                            "output": "<blank>"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "reagent1": "wafer"
+                        },
+                        {
+                            "reagent2": "0.1M PBS, pH 7.4"
+                        },
+                        {
+                            "repeat": "5"
+                        },
+                        {
+                            "time": "10 seconds"
+                        },
+                        {
+                            "notice": ""
+                        }
+                    ]
+                },
+                "sentence": "Wash five times with 300 μL of 0.1M PBS, pH 7.4"
+            }
+        ]
+    },
+    {
+        "sentence": "Washing can also be performed with an automatic plate washer",
+        "result": [
+            {
+                "PERFORM": {
+                    "emit": [
+                        {
+                            "output": "<blank>"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "procedure": "Washing"
+                        },
+                        {
+                            "reagent1": "automatic plate washer"
+                        }
+                    ]
+                },
+                "sentence": "Washing can also be performed with an automatic plate washer."
+            }
+        ]
+    },
+    {
+        "sentence": "Block the Ab-bound wells with 300 μL of 1% \\(w/v) BSA for 30 min at 37°C followed by extensive PBS washing ",
+        "result": [
+            {
+                "BLOCK": {
+                    "emit": [
+                        {
+                            "output": "blocked wells"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "reagent1": "Ab-bound wells"
+                        },
+                        {
+                            "reagent2": "1% (w/v) BSA"
+                        },
+                        {
+                            "temperature": "37°C"
+                        },
+                        {
+                            "time": "30 min"
+                        }
+                    ]
+                },
+                "sentence": "Block the Ab-bound wells with 300 μL of 1% (w/v) BSA for 30 min at 37°C\nnotice:\nfollowed by extensive PBS washing."
+            }
+        ]
+    },
+    {
+        "sentence": "Add 100 μL of varying HFA concentrations \\(4.9 pg mL-1-20 ng mL-1) to different BSA- blocked wells",
+        "result": [
+            {
+                "ADD": {
+                    "emit": [
+                        {
+                            "output": "<blank>"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "reagent1": "BSA-blocked wells"
+                        },
+                        {
+                            "reagent2": "varying HFA concentrations"
+                        },
+                        {
+                            "ratio": "<blank>"
+                        },
+                        {
+                            "concentration": "<blank>"
+                        },
+                        {
+                            "notice": "<blank>"
+                        }
+                    ]
+                },
+                "sentence": "Add 100 μL of varying HFA concentrations (4.9 pg mL-1-20 ng mL-1) to different BSA-blocked wells."
+            }
+        ]
+    },
+    {
+        "sentence": "Incubate for 1 h at 37°C and wash extensively with PBS",
+        "result": [
+            {
+                "INCUBATE": {
+                    "emit": [
+                        {
+                            "output": "<blank>"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "reagent1": "protein-DNA complexes"
+                        },
+                        {
+                            "reagent2": ""
+                        },
+                        {
+                            "temperature": "37°C"
+                        },
+                        {
+                            "time": "1 h"
+                        },
+                        {
+                            "environment": ""
+                        },
+                        {
+                            "device": ""
+                        },
+                        {
+                            "thermoProgram": ""
+                        },
+                        {
+                            "notice": "prior to measurements"
+                        }
+                    ]
+                },
+                "sentence": "Incubate for 1 h at 37°C"
+            },
+            {
+                "WASH": {
+                    "emit": [
+                        {
+                            "output": "blocked wells"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "reagent1": "blocked wells"
+                        },
+                        {
+                            "reagent2": "PBS"
+                        },
+                        {
+                            "repeat": "extensively"
+                        },
+                        {
+                            "time": "N/A"
+                        },
+                        {
+                            "notice": "N/A"
+                        }
+                    ]
+                },
+                "sentence": "wash extensively with PBS"
+            }
+        ]
+    },
+    {
+        "sentence": "Add 100 μL of biotinylated anti-HFA Ab \\(200 ng mL-1) in each of the HFA-captured wells",
+        "result": [
+            {
+                "ADD": {
+                    "emit": [
+                        {
+                            "output": "HFA-captured wells"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "reagent1": "HFA-captured wells"
+                        },
+                        {
+                            "reagent2": "biotinylated anti-HFA Ab (200 ng mL-1)"
+                        }
+                    ]
+                },
+                "sentence": "Add 100 μL of biotinylated anti-HFA Ab (200 ng mL-1) in each of the HFA-captured wells."
+            }
+        ]
+    },
+    {
+        "sentence": "Incubate for 1 h at 37 °C and wash extensively with PBS ",
+        "result": [
+            {
+                "INCUBATE": {
+                    "emit": [
+                        {
+                            "output": "<blank>"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "reagent1": "protein-DNA complexes"
+                        },
+                        {
+                            "reagent2": ""
+                        },
+                        {
+                            "temperature": "37 °C"
+                        },
+                        {
+                            "time": "1 h"
+                        },
+                        {
+                            "environment": ""
+                        },
+                        {
+                            "device": ""
+                        },
+                        {
+                            "thermoProgram": ""
+                        },
+                        {
+                            "notice": "prior to measurements"
+                        }
+                    ]
+                },
+                "sentence": "Incubate for 1 h at 37 °C"
+            },
+            {
+                "WASH": {
+                    "emit": [
+                        {
+                            "output": "blocked wells"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "reagent1": "blocked wells"
+                        },
+                        {
+                            "reagent2": "PBS"
+                        },
+                        {
+                            "repeat": "<blank>"
+                        },
+                        {
+                            "time": "<blank>"
+                        },
+                        {
+                            "notice": "<blank>"
+                        }
+                    ]
+                },
+                "sentence": "wash extensively with PBS"
+            }
+        ]
+    },
+    {
+        "sentence": "Add 100 μL of streptavidin-HRP conjugate \\ (diluted 1:200) to the biotinylated anti-HFA Ab treated wells",
+        "result": [
+            {
+                "ADD": {
+                    "emit": [
+                        {
+                            "output": "HFA-captured wells"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "reagent1": "HFA-captured wells"
+                        },
+                        {
+                            "reagent2": "streptavidin-HRP conjugate (diluted 1:200)"
+                        }
+                    ]
+                },
+                "sentence": "Add 100 μL of streptavidin-HRP conjugate (diluted 1:200) to the biotinylated anti-HFA Ab treated wells."
+            }
+        ]
+    },
+    {
+        "sentence": "Incubate for 20 min at 37°C and wash extensively with PBS ",
+        "result": [
+            {
+                "INCUBATE": {
+                    "emit": [
+                        {
+                            "output": "<blank>"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "reagent1": "protein-DNA complexes"
+                        },
+                        {
+                            "reagent2": ""
+                        },
+                        {
+                            "temperature": "37°C"
+                        },
+                        {
+                            "time": "20 min"
+                        },
+                        {
+                            "environment": ""
+                        },
+                        {
+                            "device": ""
+                        },
+                        {
+                            "thermoProgram": ""
+                        },
+                        {
+                            "notice": "prior to measurements"
+                        }
+                    ]
+                },
+                "sentence": "Incubate for 20 min at 37°C"
+            },
+            {
+                "WASH": {
+                    "emit": [
+                        {
+                            "output": "blocked wells"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "reagent1": "blocked wells"
+                        },
+                        {
+                            "reagent2": "PBS"
+                        },
+                        {
+                            "repeat": "<blank>"
+                        },
+                        {
+                            "time": "20 min"
+                        },
+                        {
+                            "notice": "<blank>"
+                        }
+                    ]
+                },
+                "sentence": "wash extensively with PBS"
+            }
+        ]
+    },
+    {
+        "sentence": "Add 100 μL of TMB-H2O2 mixture to each of these wells ",
+        "result": [
+            {
+                "ADD": {
+                    "emit": [
+                        {
+                            "output": "wells"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "reagent1": "wells"
+                        },
+                        {
+                            "reagent2": "TMB-H2O2 mixture"
+                        }
+                    ]
+                },
+                "sentence": "Add 100 μL of TMB-H2O2 mixture to each of these wells."
+            }
+        ]
+    },
+    {
+        "sentence": "incubate at RT to develop color for 20 min",
+        "result": [
+            {
+                "INCUBATE": {
+                    "emit": [
+                        {
+                            "output": "<blank>"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "reagent1": "protein-DNA complexes"
+                        },
+                        {
+                            "reagent2": ""
+                        },
+                        {
+                            "temperature": "RT"
+                        },
+                        {
+                            "time": "20 min"
+                        },
+                        {
+                            "environment": ""
+                        },
+                        {
+                            "device": ""
+                        },
+                        {
+                            "thermoProgram": ""
+                        },
+                        {
+                            "notice": "prior to measurements"
+                        }
+                    ]
+                },
+                "sentence": "Incubate at RT to develop color for 20 min."
+            }
+        ]
+    },
+    {
+        "sentence": "Stop the enzyme-substrate reaction by adding 50 μL of 1 N H2SO4 to each well",
+        "result": [
+            {
+                "ADD": {
+                    "emit": [
+                        {
+                            "output": "enzyme-substrate reaction"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "reagent1": "enzyme-substrate reaction"
+                        },
+                        {
+                            "reagent2": "50 μL of 1 N H2SO4"
+                        }
+                    ]
+                },
+                "sentence": "Stop the enzyme-substrate reaction by adding 50 μL of 1 N H2SO4 to each well."
+            }
+        ]
+    },
+    {
+        "sentence": "Determine the absorbance at a primary wavelength of 450 nm taking 540 nm as the reference wavelength in the Tecan In\u0000nite M200 Pro microplate reader",
+        "result": [
+            {
+                "DETERMINE": {
+                    "emit": [
+                        {
+                            "output": "<blank>"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "device": "Tecan Infinite M200 Pro microplate reader"
+                        },
+                        {
+                            "reagent1": "<blank>"
+                        },
+                        {
+                            "attribute": "absorbance"
+                        },
+                        {
+                            "time": "<blank>"
+                        },
+                        {
+                            "wavelength": "450 nm"
+                        },
+                        {
+                            "notice": "<blank>"
+                        }
+                    ]
+                },
+                "sentence": "Determine the absorbance at a primary wavelength of 450 nm taking 540 nm as the reference wavelength in the Tecan Infinite M200 Pro microplate reader."
+            }
+        ]
+    }
+]

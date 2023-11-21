@@ -1,0 +1,885 @@
+[
+    {
+        "sentence": "Transfer 200 µl of biofluid into a 1.5 ml microfuge tube.",
+        "result": [
+            {
+                "TRANSFER": {
+                    "emit": [
+                        {
+                            "output": "biofluid in 1.5 ml microfuge tube"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "source": ""
+                        },
+                        {
+                            "destination": "1.5 ml microfuge tube"
+                        },
+                        {
+                            "reagent1": "biofluid"
+                        },
+                        {
+                            "volume": "200 µl"
+                        },
+                        {
+                            "equipment": ""
+                        },
+                        {
+                            "notice": ""
+                        }
+                    ]
+                },
+                "sentence": "Transfer 200 µl of biofluid into a 1.5 ml microfuge tube."
+            }
+        ]
+    },
+    {
+        "sentence": "Add 1000 µl (5x volumes) of QIAzol Lysis Reagent.",
+        "result": [
+            {
+                "ADD": {
+                    "emit": [
+                        {
+                            "output": "biofluid in 1.5 ml microfuge tube with QIAzol Lysis Reagent"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "reagent1": "biofluid in 1.5 ml microfuge tube"
+                        },
+                        {
+                            "reagent2": "1000 µl of QIAzol Lysis Reagent"
+                        },
+                        {
+                            "ratio": "5x volumes"
+                        }
+                    ]
+                },
+                "sentence": "Add 1000 µl (5x volumes) of QIAzol Lysis Reagent."
+            }
+        ]
+    },
+    {
+        "sentence": "Vortex 5 sec.",
+        "result": [
+            {
+                "VORTEX": {
+                    "emit": [
+                        {
+                            "output": "biofluid in 1.5 ml microfuge tube with QIAzol Lysis Reagent"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "reagent1": "biofluid in 1.5 ml microfuge tube with QIAzol Lysis Reagent"
+                        },
+                        {
+                            "time": "5 sec"
+                        }
+                    ]
+                },
+                "sentence": "Vortex 5 sec."
+            }
+        ]
+    },
+    {
+        "sentence": "Incubate for 5 min at room temperature. ",
+        "result": [
+            {
+                "INCUBATE": {
+                    "emit": [
+                        {
+                            "output": "incubated biofluid"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "reagent1": "biofluid in 1.5 ml microfuge tube with QIAzol Lysis Reagent"
+                        },
+                        {
+                            "temperature": "room temperature"
+                        },
+                        {
+                            "time": "5 min"
+                        }
+                    ]
+                },
+                "sentence": "Incubate for 5 min at room temperature."
+            }
+        ]
+    },
+    {
+        "sentence": "Shake vigorously for 15 seconds.",
+        "result": [
+            {
+                "SHAKE": {
+                    "emit": [
+                        {
+                            "output": "shaken incubated biofluid"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "reagent1": "incubated biofluid"
+                        },
+                        {
+                            "temperature": "room temperature"
+                        },
+                        {
+                            "time": "15 seconds"
+                        },
+                        {
+                            "intensity": "vigorously"
+                        }
+                    ]
+                },
+                "sentence": "Shake vigorously for 15 seconds."
+            }
+        ]
+    },
+    {
+        "sentence": "Add 200 µl chloroform.",
+        "result": [
+            {
+                "ADD": {
+                    "emit": [
+                        {
+                            "output": "shaken incubated biofluid with chloroform"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "reagent1": "shaken incubated biofluid"
+                        },
+                        {
+                            "reagent2": "200 µl chloroform"
+                        }
+                    ]
+                },
+                "sentence": "Add 200 µl chloroform."
+            }
+        ]
+    },
+    {
+        "sentence": "Incubate for 3 minutes at room temperature.",
+        "result": [
+            {
+                "INCUBATE": {
+                    "emit": [
+                        {
+                            "output": "shaken incubated biofluid with chloroform"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "reagent1": "shaken incubated biofluid with chloroform"
+                        },
+                        {
+                            "temperature": "room temperature"
+                        },
+                        {
+                            "time": "3 minutes"
+                        }
+                    ]
+                },
+                "sentence": "Incubate for 3 minutes at room temperature."
+            }
+        ]
+    },
+    {
+        "sentence": "Centrifuge sample for 15 min at 12,000 x g at 4°C.",
+        "result": [
+            {
+                "CENTRIFUGE": {
+                    "emit": [
+                        {
+                            "output": "centrifuged sample"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "reagent1": "shaken incubated biofluid with chloroform"
+                        },
+                        {
+                            "intensity": "12,000 x g"
+                        },
+                        {
+                            "time": "15 min"
+                        },
+                        {
+                            "temperature": "4°C"
+                        }
+                    ]
+                },
+                "sentence": "Centrifuge sample for 15 min at 12,000 x g at 4°C."
+            }
+        ]
+    },
+    {
+        "sentence": "Transfer the upper aqueous phase to a new microcentrifuge tube ",
+        "result": [
+            {
+                "TRANSFER": {
+                    "emit": [
+                        {
+                            "output": "transferred upper aqueous phase"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "source": "centrifuged sample"
+                        },
+                        {
+                            "destination": "new microcentrifuge tube"
+                        },
+                        {
+                            "reagent1": "upper aqueous phase"
+                        }
+                    ]
+                },
+                "sentence": "Transfer the upper aqueous phase to a new microcentrifuge tube"
+            }
+        ]
+    },
+    {
+        "sentence": "Carefully measure the aqueous phase and add 1.5 volumes of 100% ethanol.",
+        "result": [
+            {
+                "MEASURE": {
+                    "emit": [
+                        {
+                            "output": "measured volume of aqueous phase"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "device": ""
+                        },
+                        {
+                            "reagent1": "transferred upper aqueous phase"
+                        },
+                        {
+                            "attribute": "volume"
+                        },
+                        {
+                            "time": ""
+                        },
+                        {
+                            "wavelength": ""
+                        },
+                        {
+                            "notice": ""
+                        }
+                    ]
+                },
+                "sentence": "Carefully measure the aqueous phase"
+            },
+            {
+                "ADD": {
+                    "emit": [
+                        {
+                            "output": "mixture of aqueous phase and ethanol"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "reagent1": "measured volume of aqueous phase"
+                        },
+                        {
+                            "reagent2": "100% ethanol"
+                        },
+                        {
+                            "ratio": "1.5 volumes"
+                        }
+                    ]
+                },
+                "sentence": "add 1.5 volumes of 100% ethanol."
+            }
+        ]
+    },
+    {
+        "sentence": "Mix gently and thoroughly.",
+        "result": [
+            {
+                "MIX": {
+                    "emit": [
+                        {
+                            "output": "mixture of aqueous phase and ethanol"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "reagent1": "mixture of aqueous phase and ethanol"
+                        },
+                        {
+                            "reagent2": "100% ethanol"
+                        },
+                        {
+                            "ratio": "1.5:1"
+                        },
+                        {
+                            "method": "gently and thoroughly"
+                        }
+                    ]
+                },
+                "sentence": "Mix gently and thoroughly."
+            }
+        ]
+    },
+    {
+        "sentence": "Assemble a MinElute spin column in a new collection tube.",
+        "result": [
+            {
+                "ASSEMBLE": {
+                    "emit": [
+                        {
+                            "output": "assembled MinElute spin column in a new collection tube"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "reagent1": "MinElute spin column"
+                        },
+                        {
+                            "reagent2": "new collection tube"
+                        }
+                    ]
+                },
+                "sentence": "Assemble a MinElute spin column in a new collection tube."
+            }
+        ]
+    },
+    {
+        "sentence": "Load up to 700 µl of the mixture from step 5, including any precipitate that may have formed, onto the column.",
+        "result": [
+            {
+                "LOAD": {
+                    "emit": [
+                        {
+                            "output": "loaded mixture on column"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "reagent1": "mixture of aqueous phase and ethanol"
+                        },
+                        {
+                            "destination": "column"
+                        },
+                        {
+                            "volume": "700 µl"
+                        }
+                    ]
+                },
+                "sentence": "Load up to 700 µl of the mixture from step 5, including any precipitate that may have formed, onto the column."
+            }
+        ]
+    },
+    {
+        "sentence": "Spin for 15 seconds at 8,000 x g (5) at room temperature (6)",
+        "result": [
+            {
+                "SPIN": {
+                    "emit": [
+                        {
+                            "output": "spun down mixture on column"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "reagent1": "loaded mixture on column"
+                        },
+                        {
+                            "intensity": "8,000 x g"
+                        },
+                        {
+                            "time": "15 seconds"
+                        },
+                        {
+                            "temperature": "room temperature"
+                        }
+                    ]
+                },
+                "sentence": "Spin for 15 seconds at 8,000 x g (5) at room temperature (6)"
+            }
+        ]
+    },
+    {
+        "sentence": "Discard flow-through.",
+        "result": [
+            {
+                "DISCARD": {
+                    "emit": [
+                        {
+                            "output": "empty collection tube"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "reagent1": "flow-through"
+                        }
+                    ]
+                },
+                "sentence": "Discard flow-through."
+            }
+        ]
+    },
+    {
+        "sentence": "Repeat steps 13-15 until the entire sample has been loaded.",
+        "result": [
+            {
+                "REPEAT": {
+                    "emit": [],
+                    "slot": [
+                        {
+                            "steps": [
+                                13,
+                                14,
+                                15
+                            ]
+                        },
+                        {
+                            "condition": "until the entire sample has been loaded"
+                        },
+                        {
+                            "step13": {
+                                "instruction": "ASSEMBLE",
+                                "output": "assembled MinElute spin column in a new collection tube"
+                            }
+                        },
+                        {
+                            "step14": {
+                                "instruction": "SPIN",
+                                "output": "spun down mixture on column"
+                            }
+                        },
+                        {
+                            "step15": {
+                                "instruction": "DISCARD",
+                                "output": "empty collection tube"
+                            }
+                        }
+                    ]
+                },
+                "warning": "REPEAT not in ISA, using own knowledge to generate instruction.",
+                "sentence": "Repeat steps 13-15 until the entire sample has been loaded."
+            }
+        ]
+    },
+    {
+        "sentence": "Add 700 μl Buffer RWT to the RNeasy MinElute spin column.",
+        "result": [
+            {
+                "ADD": {
+                    "emit": [
+                        {
+                            "output": "RNeasy MinElute spin column with Buffer RWT"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "reagent1": "RNeasy MinElute spin column"
+                        },
+                        {
+                            "reagent2": "700 μl Buffer RWT"
+                        }
+                    ]
+                },
+                "sentence": "Add 700 μl Buffer RWT to the RNeasy MinElute spin column."
+            }
+        ]
+    },
+    {
+        "sentence": "Centrifuge for 15 seconds at 8000 x g at room temperature to wash the column.",
+        "result": [
+            {
+                "CENTRIFUGE": {
+                    "emit": [
+                        {
+                            "output": "spun down mixture on column"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "reagent1": "assembled MinElute spin column in a new collection tube"
+                        },
+                        {
+                            "intensity": "8000 x g"
+                        },
+                        {
+                            "time": "15 seconds"
+                        },
+                        {
+                            "temperature": "room temperature"
+                        }
+                    ]
+                },
+                "sentence": "Centrifuge for 15 seconds at 8000 x g at room temperature to wash the column."
+            }
+        ]
+    },
+    {
+        "sentence": "Discard the flow-through.",
+        "result": [
+            {
+                "DISCARD": {
+                    "emit": [
+                        {
+                            "output": "empty collection tube"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "reagent1": "flow-through"
+                        }
+                    ]
+                },
+                "sentence": "Discard the flow-through."
+            }
+        ]
+    },
+    {
+        "sentence": "Pipet 500 μl Buffer RPE onto the RNeasy MinElute spin column.",
+        "result": [
+            {
+                "PIPETTE": {
+                    "emit": [
+                        {
+                            "output": "RNeasy MinElute spin column with Buffer RPE"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "volume": "500 μl"
+                        },
+                        {
+                            "reagent1": "Buffer RPE"
+                        },
+                        {
+                            "destination": "RNeasy MinElute spin column"
+                        }
+                    ]
+                },
+                "sentence": "Pipet 500 μl Buffer RPE onto the RNeasy MinElute spin column."
+            }
+        ]
+    },
+    {
+        "sentence": "Centrifuge for 15 seconds at 8000 x g to wash the column.",
+        "result": [
+            {
+                "CENTRIFUGE": {
+                    "emit": [
+                        {
+                            "output": "spun down mixture on column"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "reagent1": "RNeasy MinElute spin column with Buffer RWT"
+                        },
+                        {
+                            "intensity": "8000 x g"
+                        },
+                        {
+                            "time": "15 seconds"
+                        },
+                        {
+                            "temperature": "room temperature"
+                        }
+                    ]
+                },
+                "sentence": "Centrifuge for 15 seconds at 8000 x g to wash the column."
+            }
+        ]
+    },
+    {
+        "sentence": "Discard the flow-through.",
+        "result": [
+            {
+                "DISCARD": {
+                    "emit": [
+                        {
+                            "output": "empty collection tube"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "reagent1": "flow-through"
+                        }
+                    ]
+                },
+                "sentence": "Discard the flow-through."
+            }
+        ]
+    },
+    {
+        "sentence": "Pipet 500 μl 80% ethanol (7) onto the RNeasy MinElute spin column.",
+        "result": [
+            {
+                "PIPETTE": {
+                    "emit": [
+                        {
+                            "output": "RNeasy MinElute spin column with Buffer RPE"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "volume": "500 μl"
+                        },
+                        {
+                            "reagent1": "80% ethanol"
+                        },
+                        {
+                            "destination": "RNeasy MinElute spin column"
+                        }
+                    ]
+                },
+                "sentence": "Pipet 500 μl 80% ethanol (7) onto the RNeasy MinElute spin column."
+            }
+        ]
+    },
+    {
+        "sentence": "Centrifuge for 2 minutes at ≥ 8000 x g (≥10,000 rpm) at room temperature to wash the column.",
+        "result": [
+            {
+                "CENTRIFUGE": {
+                    "emit": [
+                        {
+                            "output": "washed column"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "reagent1": "column"
+                        },
+                        {
+                            "intensity": "8000 x g"
+                        },
+                        {
+                            "time": "2 minutes"
+                        },
+                        {
+                            "temperature": "room temperature"
+                        }
+                    ]
+                },
+                "sentence": "Centrifuge for 2 minutes at ≥ 8000 x g (≥10,000 rpm) at room temperature to wash the column."
+            }
+        ]
+    },
+    {
+        "sentence": "Discard the collection tube with the flow-through.",
+        "result": [
+            {
+                "DISCARD": {
+                    "emit": [
+                        {
+                            "output": "empty collection tube"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "reagent1": "collection tube with the flow-through"
+                        },
+                        {
+                            "method": "discard"
+                        }
+                    ]
+                },
+                "sentence": "Discard the collection tube with the flow-through."
+            }
+        ]
+    },
+    {
+        "sentence": "Transfer the RNeasy MinElute spin column into a new 2 ml collection tube (supplied).",
+        "result": [
+            {
+                "TRANSFER": {
+                    "emit": [
+                        {
+                            "output": "RNeasy MinElute spin column in new 2 ml collection tube"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "source": "empty collection tube"
+                        },
+                        {
+                            "destination": "new 2 ml collection tube"
+                        },
+                        {
+                            "reagent1": "RNeasy MinElute spin column"
+                        }
+                    ]
+                },
+                "sentence": "Transfer the RNeasy MinElute spin column into a new 2 ml collection tube (supplied)."
+            }
+        ]
+    },
+    {
+        "sentence": "Open the lid of the spin column, and centrifuge at full speed for 5 min to dry the membrane. ",
+        "result": [
+            {
+                "OPEN": {
+                    "emit": [
+                        {
+                            "reagent0": "open spin column"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "object": "spin column"
+                        }
+                    ]
+                },
+                "warning": "OPEN not in ISA, using own knowledge to generate instruction.",
+                "sentence": "Open the lid of the spin column"
+            },
+            {
+                "CENTRIFUGE": {
+                    "emit": [
+                        {
+                            "output": "dry membrane"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "reagent1": "open spin column"
+                        },
+                        {
+                            "intensity": "full speed"
+                        },
+                        {
+                            "time": "5 min"
+                        }
+                    ]
+                },
+                "sentence": "and centrifuge at full speed for 5 min to dry the membrane."
+            }
+        ]
+    },
+    {
+        "sentence": "Discard the collection tube with the flow-through",
+        "result": [
+            {
+                "DISCARD": {
+                    "emit": [
+                        {
+                            "output": "empty collection tube"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "reagent1": "collection tube with the flow-through"
+                        }
+                    ]
+                },
+                "sentence": "Discard the collection tube with the flow-through"
+            }
+        ]
+    },
+    {
+        "sentence": "Transfer the RNeasy MinElute spin column to a new 1.5 ml collection tube (supplied). ",
+        "result": [
+            {
+                "TRANSFER": {
+                    "emit": [
+                        {
+                            "output": "RNeasy MinElute spin column in new 1.5 ml collection tube"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "source": "RNeasy MinElute spin column"
+                        },
+                        {
+                            "destination": "new 1.5 ml collection tube"
+                        },
+                        {
+                            "reagent1": "RNeasy MinElute spin column"
+                        }
+                    ]
+                },
+                "sentence": "Transfer the RNeasy MinElute spin column to a new 1.5 ml collection tube (supplied)."
+            }
+        ]
+    },
+    {
+        "sentence": "Add 14 μl RNase-free water directly to the center of the spin column membrane. ",
+        "result": [
+            {
+                "ADD": {
+                    "emit": [
+                        {
+                            "output": "spin column membrane with RNase-free water"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "reagent1": "spin column membrane"
+                        },
+                        {
+                            "reagent2": "14 μl RNase-free water"
+                        }
+                    ]
+                },
+                "sentence": "Add 14 μl RNase-free water directly to the center of the spin column membrane."
+            }
+        ]
+    },
+    {
+        "sentence": "Centrifuge for 1 minute at full speed to elute the RNA.",
+        "result": [
+            {
+                "CENTRIFUGE": {
+                    "emit": [
+                        {
+                            "output": "eluted RNA"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "reagent1": "RNA"
+                        },
+                        {
+                            "intensity": "full speed"
+                        },
+                        {
+                            "time": "1 minute"
+                        }
+                    ]
+                },
+                "sentence": "Centrifuge for 1 minute at full speed"
+            },
+            {
+                "ELUTE": {
+                    "emit": [
+                        {
+                            "output": "eluted RNA"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "reagent1": "spin column membrane"
+                        },
+                        {
+                            "reagent2": "RNase-free water"
+                        },
+                        {
+                            "component": "RNA"
+                        },
+                        {
+                            "method": "Centrifuge"
+                        },
+                        {
+                            "time": "1 minute"
+                        }
+                    ]
+                },
+                "sentence": "to elute the RNA."
+            }
+        ]
+    }
+]

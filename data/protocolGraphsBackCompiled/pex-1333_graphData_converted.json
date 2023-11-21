@@ -1,0 +1,1190 @@
+[
+  {
+    "title": "",
+    "body": [
+      {
+        "sentence": "Remove media, wash cells once with 4\u00b0-16\u00b0 PBS and aspirate PBS.",
+        "result": {
+          "REMOVE": {
+            "emit": [],
+            "slot": [
+              {
+                "it's a slot key": "it's a slot value"
+              }
+            ]
+          }
+        }
+      }
+    ]
+  },
+  {
+    "title": "",
+    "body": [
+      {
+        "sentence": "Remove media, wash cells once with 4\u00b0-16\u00b0 PBS and aspirate PBS.",
+        "result": {
+          "REMOVE": {
+            "emit": [],
+            "slot": [
+              {
+                "it's a slot key": "it's a slot value"
+              }
+            ]
+          }
+        }
+      }
+    ]
+  },
+  {
+    "title": "",
+    "body": [
+      {
+        "sentence": "Add ~1 ml CLIP lysis buffer per 15 cm plate and scrape to collect.",
+        "result": {
+          "ADD": {
+            "emit": [],
+            "slot": [
+              {
+                "it's a slot key": "it's a slot value"
+              }
+            ]
+          }
+        }
+      }
+    ]
+  },
+  {
+    "title": "",
+    "body": [
+      {
+        "sentence": "CLIP lysis buffer (Tris pH 7.5 50 mM, NaCl 200 mM, EDTA 1 mM, glycerol 10%, NP40 0.1%, Triton-X 100 1%, N-lauroylsarcosine 0.5%)",
+        "result": {
+          "ADD": {
+            "emit": [],
+            "slot": [
+              {
+                "it's a slot key": "it's a slot value"
+              }
+            ]
+          }
+        }
+      }
+    ]
+  },
+  {
+    "title": "",
+    "body": [
+      {
+        "sentence": " Freeze in dry ice and store at -80\u00b0.",
+        "result": {
+          "ADD": {
+            "emit": [],
+            "slot": [
+              {
+                "it's a slot key": "it's a slot value"
+              }
+            ]
+          }
+        }
+      }
+    ]
+  },
+  {
+    "title": "",
+    "body": [
+      {
+        "sentence": "Thaw lysates by hand and then keep at 4\u00b0.",
+        "result": {
+          "THAW": {
+            "emit": [],
+            "slot": [
+              {
+                "it's a slot key": "it's a slot value"
+              }
+            ]
+          }
+        }
+      }
+    ]
+  },
+  {
+    "title": "",
+    "body": [
+      {
+        "sentence": "Sonicate lysate for 20-30 seconds at 7 second bursts with microtip sonicator at 10% power",
+        "result": {
+          "SONICATE": {
+            "emit": [],
+            "slot": [
+              {
+                "it's a slot key": "it's a slot value"
+              }
+            ]
+          }
+        }
+      }
+    ]
+  },
+  {
+    "title": "",
+    "body": [
+      {
+        "sentence": "Spin lysate at 14 krcf for 10 min at 4\u00b0; transfer cleared lysate to new tube",
+        "result": {
+          "SPIN": {
+            "emit": [],
+            "slot": [
+              {
+                "it's a slot key": "it's a slot value"
+              }
+            ]
+          }
+        }
+      }
+    ]
+  },
+  {
+    "title": "",
+    "body": [
+      {
+        "sentence": "Add lysates to anti-HA or antibody-precojugated protein G beads. IP 1 h at 4\u00b0.",
+        "result": {
+          "ADD": {
+            "emit": [],
+            "slot": [
+              {
+                "it's a slot key": "it's a slot value"
+              }
+            ]
+          }
+        }
+      }
+    ]
+  },
+  {
+    "title": "",
+    "body": [
+      {
+        "sentence": "Wash beads 1X High Str, 1X High Salt, 10min each at 4\u00b0 w/rotation, then 1X Low Salt (1 mL all)",
+        "result": {
+          "ADD": {
+            "emit": [],
+            "slot": [
+              {
+                "it's a slot key": "it's a slot value"
+              }
+            ]
+          }
+        }
+      }
+    ]
+  },
+  {
+    "title": "",
+    "body": [
+      {
+        "sentence": "High stringency buffer (Tris pH 7.5 15 mM, EDTA 5 mM, Triton X-100 1%, Na-deoxycholate 1%, SDS 0.1%, NaCl 120 mM, KCl 25 mM)",
+        "result": {
+          "ADD": {
+            "emit": [],
+            "slot": [
+              {
+                "it's a slot key": "it's a slot value"
+              }
+            ]
+          }
+        }
+      }
+    ]
+  },
+  {
+    "title": "",
+    "body": [
+      {
+        "sentence": "High salt buffer (Tris pH 7.5 15 mM, EDTA 5 mM, Triton X-100 1%, Na-deoxycholate 1%, SDS 0.1%, NaCl 1 M)",
+        "result": {
+          "ADD": {
+            "emit": [],
+            "slot": [
+              {
+                "it's a slot key": "it's a slot value"
+              }
+            ]
+          }
+        }
+      }
+    ]
+  },
+  {
+    "title": "",
+    "body": [
+      {
+        "sentence": "Low salt buffer (Tris pH 7.5 15 mM, EDTA 5 mM)",
+        "result": {
+          "ADD": {
+            "emit": [],
+            "slot": [
+              {
+                "it's a slot key": "it's a slot value"
+              }
+            ]
+          }
+        }
+      }
+    ]
+  },
+  {
+    "title": "",
+    "body": [
+      {
+        "sentence": "Perform nuclease digestion: 30\u00b0, 15s 1350 rpm, 45s rest, for 3-10 minutes with 0.01-0.1 U/\u00b5L RNAse\nONE",
+        "result": {
+          "PERFORM": {
+            "emit": [],
+            "slot": [
+              {
+                "it's a slot key": "it's a slot value"
+              }
+            ]
+          }
+        }
+      }
+    ]
+  },
+  {
+    "title": "",
+    "body": [
+      {
+        "sentence": "Remove RNAse mixture and add 1 mL of 4\u00b0 High Str buffer to deactivate RNAse ONE.",
+        "result": {
+          "REMOVE": {
+            "emit": [],
+            "slot": [
+              {
+                "it's a slot key": "it's a slot value"
+              }
+            ]
+          }
+        }
+      }
+    ]
+  },
+  {
+    "title": "",
+    "body": [
+      {
+        "sentence": "Wash beads 2X 1 mL NT2, then step down volume in NT2.",
+        "result": {
+          "ADD": {
+            "emit": [],
+            "slot": [
+              {
+                "it's a slot key": "it's a slot value"
+              }
+            ]
+          }
+        }
+      }
+    ]
+  },
+  {
+    "title": "",
+    "body": [
+      {
+        "sentence": "NT2 buffer (Tris pH 7.5 50 mM, NaCl 150 mM, MgCl2 1 mM, Igepal CA-630 0.05%)",
+        "result": {
+          "ADD": {
+            "emit": [],
+            "slot": [
+              {
+                "it's a slot key": "it's a slot value"
+              }
+            ]
+          }
+        }
+      }
+    ]
+  },
+  {
+    "title": "",
+    "body": [
+      {
+        "sentence": "Resuspend beads in 36 \u00b5l of PNK-3' Mix. Inucbate at 37\u00b0 for 30min, 15s 1350rpm, 90s rest.",
+        "result": {
+          "ADD": {
+            "emit": [],
+            "slot": [
+              {
+                "it's a slot key": "it's a slot value"
+              }
+            ]
+          }
+        }
+      }
+    ]
+  },
+  {
+    "title": "",
+    "body": [
+      {
+        "sentence": "Place on magnet and remove PNK reaction (no wash required before ligation).",
+        "result": {
+          "PLACE": {
+            "emit": [],
+            "slot": [
+              {
+                "it's a slot key": "it's a slot value"
+              }
+            ]
+          }
+        }
+      }
+    ]
+  },
+  {
+    "title": "",
+    "body": [
+      {
+        "sentence": "Ligate 2h to overnight in thermomixer at 16\u00b0 in 36 \u00b5l of 3' Ligation Mix. 15s 1350 rpm, 90s rest",
+        "result": {
+          "ADD": {
+            "emit": [],
+            "slot": [
+              {
+                "it's a slot key": "it's a slot value"
+              }
+            ]
+          }
+        }
+      }
+    ]
+  },
+  {
+    "title": "",
+    "body": [
+      {
+        "sentence": "Wash 1X H. Salt or H. Str, 2X NT2.",
+        "result": {
+          "ADD": {
+            "emit": [],
+            "slot": [
+              {
+                "it's a slot key": "it's a slot value"
+              }
+            ]
+          }
+        }
+      }
+    ]
+  },
+  {
+    "title": "",
+    "body": [
+      {
+        "sentence": " Resuspend beads in 70 \u00b5L of 5'PNK reaction.",
+        "result": {
+          "ADD": {
+            "emit": [],
+            "slot": [
+              {
+                "it's a slot key": "it's a slot value"
+              }
+            ]
+          }
+        }
+      }
+    ]
+  },
+  {
+    "title": "",
+    "body": [
+      {
+        "sentence": "Incubate in thermomixer at 37\u00b0 for 15', 15 s 1000 RPM, 15 s rest.",
+        "result": {
+          "INCUBATE": {
+            "emit": [],
+            "slot": [
+              {
+                "it's a slot key": "it's a slot value"
+              }
+            ]
+          }
+        }
+      }
+    ]
+  },
+  {
+    "title": "",
+    "body": [
+      {
+        "sentence": "5' PNK buffer (Tris pH 7.5 50 mM, MgCl2 5 mM, PEG400 16.7%, ATP 1 mM, DTT 5 mM, SUPERase\u2022In 0.33 U/\u00b5L, T4 PNK 0.5 U/\u00b5L)",
+        "result": {
+          "ADD": {
+            "emit": [],
+            "slot": [
+              {
+                "it's a slot key": "it's a slot value"
+              }
+            ]
+          }
+        }
+      }
+    ]
+  },
+  {
+    "title": "",
+    "body": [
+      {
+        "sentence": "3' PNK buffer (Tris pH 6.8 50 mM, MgCl2 5 mM, PEG400 16.7%, DTT 5 mM, SUPERase\u2022In 0.067 U/\u00b5L, T4 PNK 0.5 U/\u00b5L)",
+        "result": {
+          "ADD": {
+            "emit": [],
+            "slot": [
+              {
+                "it's a slot key": "it's a slot value"
+              }
+            ]
+          }
+        }
+      }
+    ]
+  },
+  {
+    "title": "",
+    "body": [
+      {
+        "sentence": "Nuclease digestion buffer (per reaction: 50 \u00b5L NT2 buffer with enzyme, 10 \u00b5L PEG400)",
+        "result": {
+          "ADD": {
+            "emit": [],
+            "slot": [
+              {
+                "it's a slot key": "it's a slot value"
+              }
+            ]
+          }
+        }
+      }
+    ]
+  },
+  {
+    "title": "",
+    "body": [
+      {
+        "sentence": "3' ligation buffer (Tris pH 7.5 50 mM, MgCl2 10 mM, PEG400 16.7%, DTT 5 mM, SUPERase\u2022In 0.13 U/\u00b5L, 3' linker oligo 33 nM, T4 RNA ligase I 1 U/\u00b5L)",
+        "result": {
+          "ADD": {
+            "emit": [],
+            "slot": [
+              {
+                "it's a slot key": "it's a slot value"
+              }
+            ]
+          }
+        }
+      }
+    ]
+  },
+  {
+    "title": "",
+    "body": [
+      {
+        "sentence": "5' ligation buffer (Tris pH 7.5 50 mM, MgCl2 10 mM, PEG400 16.7%, ATP 0.67 mM, DTT 5 mM, SUPERase\u2022In 0.13 U/\u00b5L, 5' linker oligo 167 nM, T4 RNA ligase I 0.5 U/\u00b5L)",
+        "result": {
+          "ADD": {
+            "emit": [],
+            "slot": [
+              {
+                "it's a slot key": "it's a slot value"
+              }
+            ]
+          }
+        }
+      }
+    ]
+  },
+  {
+    "title": "",
+    "body": [
+      {
+        "sentence": "Wash 2X NT2 and step down volume in NT2.",
+        "result": {
+          "ADD": {
+            "emit": [],
+            "slot": [
+              {
+                "it's a slot key": "it's a slot value"
+              }
+            ]
+          }
+        }
+      }
+    ]
+  },
+  {
+    "title": "",
+    "body": [
+      {
+        "sentence": " Resuspend beads in 70 \u00b5L of 5' ligation reaction.",
+        "result": {
+          "ADD": {
+            "emit": [],
+            "slot": [
+              {
+                "it's a slot key": "it's a slot value"
+              }
+            ]
+          }
+        }
+      }
+    ]
+  },
+  {
+    "title": "",
+    "body": [
+      {
+        "sentence": "Incubate at 16\u00b0 for 2 h, 15 s 1350 RPM, 90 s rest.",
+        "result": {
+          "INCUBATE": {
+            "emit": [],
+            "slot": [
+              {
+                "it's a slot key": "it's a slot value"
+              }
+            ]
+          }
+        }
+      }
+    ]
+  },
+  {
+    "title": "",
+    "body": [
+      {
+        "sentence": " Wash 1-2X with NT2 and step down volume in NT1.",
+        "result": {
+          "ADD": {
+            "emit": [],
+            "slot": [
+              {
+                "it's a slot key": "it's a slot value"
+              }
+            ]
+          }
+        }
+      }
+    ]
+  },
+  {
+    "title": "",
+    "body": [
+      {
+        "sentence": " Optionally freeze 10% for WB.",
+        "result": {
+          "ADD": {
+            "emit": [],
+            "slot": [
+              {
+                "it's a slot key": "it's a slot value"
+              }
+            ]
+          }
+        }
+      }
+    ]
+  },
+  {
+    "title": "",
+    "body": [
+      {
+        "sentence": "Resuspend beads in 20 \u00b5L 1.6X LDS.",
+        "result": {
+          "ADD": {
+            "emit": [],
+            "slot": [
+              {
+                "it's a slot key": "it's a slot value"
+              }
+            ]
+          }
+        }
+      }
+    ]
+  },
+  {
+    "title": "",
+    "body": [
+      {
+        "sentence": " Heat 75\u00b0 for 15min.",
+        "result": {
+          "HEAT": {
+            "emit": [],
+            "slot": [
+              {
+                "it's a slot key": "it's a slot value"
+              }
+            ]
+          }
+        }
+      }
+    ]
+  },
+  {
+    "title": "",
+    "body": [
+      {
+        "sentence": "Run samples in NuPAGE gel, 180V 30-50 minutes, transfer to .45 \u00b5m nitrocellulose at 400 mA for 27'.",
+        "result": {
+          "RUN": {
+            "emit": [],
+            "slot": [
+              {
+                "it's a slot key": "it's a slot value"
+              }
+            ]
+          }
+        }
+      }
+    ]
+  },
+  {
+    "title": "",
+    "body": [
+      {
+        "sentence": " Rinse membrane 1xPBS, scan on Odessy CLx (lowest quality/resolution OK)",
+        "result": {
+          "RINSE": {
+            "emit": [],
+            "slot": [
+              {
+                "it's a slot key": "it's a slot value"
+              }
+            ]
+          }
+        }
+      }
+    ]
+  },
+  {
+    "title": "",
+    "body": [
+      {
+        "sentence": " For each sample, add 375 \u00b5L PK buffer and 25 \u00b5L of Proteinase K (Ambion, 20mg/mL) to a DNA LoBind tube (Eppendorf)",
+        "result": {
+          "ADD": {
+            "emit": [],
+            "slot": [
+              {
+                "it's a slot key": "it's a slot value"
+              }
+            ]
+          }
+        }
+      }
+    ]
+  },
+  {
+    "title": "",
+    "body": [
+      {
+        "sentence": " Place the nitrocellulose on PBS-soaked fi lter paper and cut with a scalpel in each hand. We usually cut the minimal region and everything higher. Use a scalpel to transfer the slices of membrane to the Proteinase K mixture.",
+        "result": {
+          "PLACE": {
+            "emit": [],
+            "slot": [
+              {
+                "it's a slot key": "it's a slot value"
+              }
+            ]
+          }
+        }
+      }
+    ]
+  },
+  {
+    "title": "",
+    "body": [
+      {
+        "sentence": " Incubate at 50-55\u00b0 for 45min in thermomixer. 15s 900rpm, 45s rest.",
+        "result": {
+          "INCUBATE": {
+            "emit": [],
+            "slot": [
+              {
+                "it's a slot key": "it's a slot value"
+              }
+            ]
+          }
+        }
+      }
+    ]
+  },
+  {
+    "title": "",
+    "body": [
+      {
+        "sentence": "Wash 20 \u00b5L of oligo(dT)-dynabeads with BIB and leave in 600 \u00b5L BIB.",
+        "result": {
+          "ADD": {
+            "emit": [],
+            "slot": [
+              {
+                "it's a slot key": "it's a slot value"
+              }
+            ]
+          }
+        }
+      }
+    ]
+  },
+  {
+    "title": "",
+    "body": [
+      {
+        "sentence": " Transfer Proteinase K extract to the oligo(dT) mixture in a DNA LoBind tube. 20 min at 4\u00b0 with rotation.",
+        "result": {
+          "TRANSFER": {
+            "emit": [],
+            "slot": [
+              {
+                "it's a slot key": "it's a slot value"
+              }
+            ]
+          }
+        }
+      }
+    ]
+  },
+  {
+    "title": "",
+    "body": [
+      {
+        "sentence": "Wash 1X BIB, transfer to PCR tube, wash 2X NT2, and 3X with 4\u00b0 PBS. Include RNAse inhibitor.",
+        "result": {
+          "ADD": {
+            "emit": [],
+            "slot": [
+              {
+                "it's a slot key": "it's a slot value"
+              }
+            ]
+          }
+        }
+      }
+    ]
+  },
+  {
+    "title": "",
+    "body": [
+      {
+        "sentence": "Resuspend dT-beads in 12.4 \u00b5L water and 3 \u00b5L cDNA synthesis primer.",
+        "result": {
+          "ADD": {
+            "emit": [],
+            "slot": [
+              {
+                "it's a slot key": "it's a slot value"
+              }
+            ]
+          }
+        }
+      }
+    ]
+  },
+  {
+    "title": "",
+    "body": [
+      {
+        "sentence": " Heat 95\u00b0 3' and transfer 13.3 \u00b5L sup to new PCR tube",
+        "result": {
+          "HEAT": {
+            "emit": [],
+            "slot": [
+              {
+                "it's a slot key": "it's a slot value"
+              }
+            ]
+          }
+        }
+      }
+    ]
+  },
+  {
+    "title": "",
+    "body": [
+      {
+        "sentence": "Place tubes at 4\u00b0 for 5min.",
+        "result": {
+          "PLACE": {
+            "emit": [],
+            "slot": [
+              {
+                "it's a slot key": "it's a slot value"
+              }
+            ]
+          }
+        }
+      }
+    ]
+  },
+  {
+    "title": "",
+    "body": [
+      {
+        "sentence": "Add the rest of the annealing mix (6.7 \u00b5L)",
+        "result": {
+          "ADD": {
+            "emit": [],
+            "slot": [
+              {
+                "it's a slot key": "it's a slot value"
+              }
+            ]
+          }
+        }
+      }
+    ]
+  },
+  {
+    "title": "",
+    "body": [
+      {
+        "sentence": "Incubate 53\u00b0 for 40 min, 55\u00b0 for 10 min, 80\u00b0 for 10 min.",
+        "result": {
+          "INCUBATE": {
+            "emit": [],
+            "slot": [
+              {
+                "it's a slot key": "it's a slot value"
+              }
+            ]
+          }
+        }
+      }
+    ]
+  },
+  {
+    "title": "",
+    "body": [
+      {
+        "sentence": "node",
+        "result": {
+          "ADD": {
+            "emit": [],
+            "slot": [
+              {
+                "it's a slot key": "it's a slot value"
+              }
+            ]
+          }
+        }
+      }
+    ]
+  },
+  {
+    "title": "",
+    "body": [
+      {
+        "sentence": "Distribute 47 \u00b5L of PCR1 mix to 7 tubes and add \u2264 3.3 \u00b5L RT product to each.",
+        "result": {
+          "ADD": {
+            "emit": [],
+            "slot": [
+              {
+                "it's a slot key": "it's a slot value"
+              }
+            ]
+          }
+        }
+      }
+    ]
+  },
+  {
+    "title": "",
+    "body": [
+      {
+        "sentence": "node",
+        "result": {
+          "ADD": {
+            "emit": [],
+            "slot": [
+              {
+                "it's a slot key": "it's a slot value"
+              }
+            ]
+          }
+        }
+      }
+    ]
+  },
+  {
+    "title": "",
+    "body": [
+      {
+        "sentence": " Purify PCR reactions using a NucleoSpin\u00ae Gel and PCR Clean-up kit (MACHEREY-NAGEL). Instead of the kit's wash buffer, use freshly prepared 85% ethanol. Libraries are ready for quantification and sequencing.",
+        "result": {
+          "PURIFY": {
+            "emit": [],
+            "slot": [
+              {
+                "it's a slot key": "it's a slot value"
+              }
+            ]
+          }
+        }
+      }
+    ]
+  },
+  {
+    "title": "",
+    "body": [
+      {
+        "sentence": "Creation of a protein standard",
+        "result": {
+          "ADD": {
+            "emit": [],
+            "slot": [
+              {
+                "it's a slot key": "it's a slot value"
+              }
+            ]
+          }
+        }
+      }
+    ]
+  },
+  {
+    "title": "",
+    "body": [
+      {
+        "sentence": "Quantify the protein concentration of the standard by coomassie gel with a BSA standard curve, or other suitable protein quantification method.",
+        "result": {
+          "QUANTIFY": {
+            "emit": [],
+            "slot": [
+              {
+                "it's a slot key": "it's a slot value"
+              }
+            ]
+          }
+        }
+      }
+    ]
+  },
+  {
+    "title": "",
+    "body": [
+      {
+        "sentence": "Dilute in protein dilution buffer (0.5X Dulbecco's PBS, 0-5% glycerol, 0.05% Tween-20, 0.15 mg/mL BSA) to 200 ng/\u00b5L.",
+        "result": {
+          "DILUTE": {
+            "emit": [],
+            "slot": [
+              {
+                "it's a slot key": "it's a slot value"
+              }
+            ]
+          }
+        }
+      }
+    ]
+  },
+  {
+    "title": "",
+    "body": [
+      {
+        "sentence": "Make two-fold dilutions down from 20-200 ng/\u00b5L, depending on how protein is available, for a total of 8 concentrations of protein.",
+        "result": {
+          "ADD": {
+            "emit": [],
+            "slot": [
+              {
+                "it's a slot key": "it's a slot value"
+              }
+            ]
+          }
+        }
+      }
+    ]
+  },
+  {
+    "title": "",
+    "body": [
+      {
+        "sentence": "Aliquot ~14 \u00b5L of each concentration into striptubes and freeze until use at -80\u00b0.",
+        "result": {
+          "ALIQUOT": {
+            "emit": [],
+            "slot": [
+              {
+                "it's a slot key": "it's a slot value"
+              }
+            ]
+          }
+        }
+      }
+    ]
+  },
+  {
+    "title": "",
+    "body": [
+      {
+        "sentence": "Creation of RNA standard",
+        "result": {
+          "ADD": {
+            "emit": [],
+            "slot": [
+              {
+                "it's a slot key": "it's a slot value"
+              }
+            ]
+          }
+        }
+      }
+    ]
+  },
+  {
+    "title": "",
+    "body": [
+      {
+        "sentence": "Add four replicates of 906-1600 \u00b5g of 293T/HCT116 lysate from cross-linked cells to ~20 \u00b5L Protein G Dynabeads coupled with 25 \u00b5L (5 \u00b5g) anti-hnRNP C (4F4) antibody per replicate.\n",
+        "result": {
+          "ADD": {
+            "emit": [],
+            "slot": [
+              {
+                "it's a slot key": "it's a slot value"
+              }
+            ]
+          }
+        }
+      }
+    ]
+  },
+  {
+    "title": "",
+    "body": [
+      {
+        "sentence": "Immunoprecipitate at 4\u00b0 for ~1 hour.",
+        "result": {
+          "ADD": {
+            "emit": [],
+            "slot": [
+              {
+                "it's a slot key": "it's a slot value"
+              }
+            ]
+          }
+        }
+      }
+    ]
+  },
+  {
+    "title": "",
+    "body": [
+      {
+        "sentence": "NAse digest with 0.1 U/\u00b5L RNAse ONE for 10 minutes.",
+        "result": {
+          "ADD": {
+            "emit": [],
+            "slot": [
+              {
+                "it's a slot key": "it's a slot value"
+              }
+            ]
+          }
+        }
+      }
+    ]
+  },
+  {
+    "title": "",
+    "body": [
+      {
+        "sentence": "Perform PNK reaction for 14 minutes at 37\u00b0.",
+        "result": {
+          "PERFORM": {
+            "emit": [],
+            "slot": [
+              {
+                "it's a slot key": "it's a slot value"
+              }
+            ]
+          }
+        }
+      }
+    ]
+  },
+  {
+    "title": "",
+    "body": [
+      {
+        "sentence": " Ligate overnight (17 hours) with 20 pmol labeled L5, and 2 \u00b5L high concentration T4 RNA ligase (NEB).",
+        "result": {
+          "ADD": {
+            "emit": [],
+            "slot": [
+              {
+                "it's a slot key": "it's a slot value"
+              }
+            ]
+          }
+        }
+      }
+    ]
+  },
+  {
+    "title": "",
+    "body": [
+      {
+        "sentence": "Combine samples and split into ~20 aliquots comprising 2.5% of the beads (~10 ng hnRNP C each, ~400 ng total purified) in ~15 \u00b5L 1.6X NuPAGE buffer, freeze in dry ice and keep long term at -80\u00b0.",
+        "result": {
+          "ADD": {
+            "emit": [],
+            "slot": [
+              {
+                "it's a slot key": "it's a slot value"
+              }
+            ]
+          }
+        }
+      }
+    ]
+  },
+  {
+    "title": "",
+    "body": [
+      {
+        "sentence": "Immunoblot with ~1:3000 \u03b1hnRNP C conjugated to AF790, or other suitable antibody, in PBS blocking buffer (LI-COR) for ~1 hour at room temperature. Use protein standards to quantify the amount of hnRNP C in the L5-ligated band by quantitative western blotting. ~5000 fluorescence units per fmol is a typical result.\n",
+        "result": {
+          "ADD": {
+            "emit": [],
+            "slot": [
+              {
+                "it's a slot key": "it's a slot value"
+              }
+            ]
+          }
+        }
+      }
+    ]
+  },
+  {
+    "title": "",
+    "body": [
+      {
+        "sentence": "Cross-link rate determination using standards",
+        "result": {
+          "ADD": {
+            "emit": [],
+            "slot": [
+              {
+                "it's a slot key": "it's a slot value"
+              }
+            ]
+          }
+        }
+      }
+    ]
+  }
+]

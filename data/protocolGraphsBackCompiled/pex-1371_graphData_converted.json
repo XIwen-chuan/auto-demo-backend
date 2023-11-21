@@ -1,0 +1,110 @@
+[
+  {
+    "title": "",
+    "body": [
+      {
+        "sentence": "Download the standalone version of BacEffl uxPred.",
+        "result": {
+          "ADD": {
+            "emit": [],
+            "slot": [
+              {
+                "it's a slot key": "it's a slot value"
+              }
+            ]
+          }
+        }
+      }
+    ]
+  },
+  {
+    "title": "",
+    "body": [
+      {
+        "sentence": "Unpack \"baceffl uxpred.tar.gz\" using command: tar -xvf baceffl uxpred.tar.gz",
+        "result": {
+          "ADD": {
+            "emit": [],
+            "slot": [
+              {
+                "it's a slot key": "it's a slot value"
+              }
+            ]
+          }
+        }
+      }
+    ]
+  },
+  {
+    "title": "",
+    "body": [
+      {
+        "sentence": "Download Blast package from ftp://ftp.ncbi.nlm.nih.gov/blast/executables/release and install it to run PSI-BLAST into BacEffl uxPred installation folder.",
+        "result": {
+          "ADD": {
+            "emit": [],
+            "slot": [
+              {
+                "it's a slot key": "it's a slot value"
+              }
+            ]
+          }
+        }
+      }
+    ]
+  },
+  {
+    "title": "",
+    "body": [
+      {
+        "sentence": "Defi ne the path for 'blastpgp of Blast package' and the 'database' at the end of the psiblast_pssm.pl (specifi ed as $path_blastpgp and $path_database).",
+        "result": {
+          "ADD": {
+            "emit": [],
+            "slot": [
+              {
+                "it's a slot key": "it's a slot value"
+              }
+            ]
+          }
+        }
+      }
+    ]
+  },
+  {
+    "title": "",
+    "body": [
+      {
+        "sentence": "Download and install the SVMLight package using the link: http://download.joachims.org/svm_light/current/svm_light.tar.gz in directory of BacEffl uxPred. Extract the content of tar fi le (svm_light.tar) and copy the program svm_classify into the BacEffl uxPred folder.",
+        "result": {
+          "ADD": {
+            "emit": [],
+            "slot": [
+              {
+                "it's a slot key": "it's a slot value"
+              }
+            ]
+          }
+        }
+      }
+    ]
+  },
+  {
+    "title": "",
+    "body": [
+      {
+        "sentence": "node",
+        "result": {
+          "ADD": {
+            "emit": [],
+            "slot": [
+              {
+                "it's a slot key": "it's a slot value"
+              }
+            ]
+          }
+        }
+      }
+    ]
+  }
+]

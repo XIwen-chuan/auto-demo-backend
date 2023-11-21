@@ -1,0 +1,436 @@
+[
+    {
+        "sentence": "General: Measure the fluorescein-labeled DNA both for its approximate DNA concentration (1 A260=50 microgram/ml) and fluorescein stoichiometry (e.g. 6-FAM 6-carboxyfluorescein, extinction coefficient at A495=83,000). Incubate protein-DNA complexes at ambient temperature (for the experiments described here, 21-23 Celsius) for 30 minutes prior to measurements. Measure anisotropy using a Safire (Tecan Group Ltd.) fluorescent plate reader. Determine G-factor by measuring 1:1 complexes of each protein bound to its respective fluorophore-labeled substrate at the highest protein concentration and polarization calculations are adjusted accordingly using the instrument’s software (XFluor). Perform all anisotropy measurements in triplicate and perform comparable measurements using proteins from different purification batches.",
+        "result": [
+            {
+                "MEASURE": {
+                    "emit": [
+                        {
+                            "output": "DNA concentration and fluorescein stoichiometry measurements"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "device": "Safire (Tecan Group Ltd.) fluorescent plate reader"
+                        },
+                        {
+                            "reagent1": "fluorescein-labeled DNA"
+                        },
+                        {
+                            "attribute": "DNA concentration and fluorescein stoichiometry"
+                        },
+                        {
+                            "time": "30 minutes"
+                        },
+                        {
+                            "wavelength": "A260 and A495"
+                        }
+                    ]
+                },
+                "sentence": "Measure the fluorescein-labeled DNA both for its approximate DNA concentration (1 A260=50 microgram/ml) and fluorescein stoichiometry (e.g. 6-FAM 6-carboxyfluorescein, extinction coefficient at A495=83,000)."
+            },
+            {
+                "INCUBATE": {
+                    "emit": [
+                        {
+                            "output": "incubated protein-DNA complexes"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "reagent1": "protein-DNA complexes"
+                        },
+                        {
+                            "temperature": "21-23 Celsius"
+                        },
+                        {
+                            "time": "30 minutes"
+                        },
+                        {
+                            "notice": "prior to measurements"
+                        }
+                    ]
+                },
+                "sentence": "Incubate protein-DNA complexes at ambient temperature (for the experiments described here, 21-23 Celsius) for 30 minutes prior to measurements."
+            },
+            {
+                "MEASURE": {
+                    "emit": [
+                        {
+                            "output": "anisotropy measurements"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "device": "Safire (Tecan Group Ltd.) fluorescent plate reader"
+                        },
+                        {
+                            "reagent1": "protein-DNA complexes"
+                        },
+                        {
+                            "attribute": "anisotropy"
+                        },
+                        {
+                            "time": "30 minutes"
+                        }
+                    ]
+                },
+                "sentence": "Measure anisotropy using a Safire (Tecan Group Ltd.) fluorescent plate reader."
+            },
+            {
+                "DETERMINE": {
+                    "emit": [
+                        {
+                            "output": "G-factor"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "device": "XFluor"
+                        },
+                        {
+                            "reagent1": "1:1 complexes of each protein bound to its respective fluorophore-labeled substrate"
+                        },
+                        {
+                            "attribute": "G-factor"
+                        },
+                        {
+                            "time": "not specified"
+                        },
+                        {
+                            "wavelength": "not specified"
+                        },
+                        {
+                            "notice": "polarization calculations are adjusted accordingly"
+                        }
+                    ]
+                },
+                "sentence": "Determine G-factor by measuring 1:1 complexes of each protein bound to its respective fluorophore-labeled substrate at the highest protein concentration and polarization calculations are adjusted accordingly using the instrument’s software (XFluor)."
+            },
+            {
+                "PERFORM": {
+                    "emit": [
+                        {
+                            "output": "anisotropy measurements"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "procedure": "anisotropy measurements"
+                        },
+                        {
+                            "reagent1": "proteins from different purification batches"
+                        },
+                        {
+                            "equipment": "Safire (Tecan Group Ltd.) fluorescent plate reader"
+                        },
+                        {
+                            "environment": "ambient temperature"
+                        },
+                        {
+                            "repeat": "3"
+                        },
+                        {
+                            "time": "30 minutes"
+                        }
+                    ]
+                },
+                "sentence": "Perform all anisotropy measurements in triplicate and perform comparable measurements using proteins from different purification batches."
+            }
+        ]
+    },
+    {
+        "sentence": "Measuring association binding constants: Add purified proteins at increasing concentrations with a constant concentration (1.0 nanomolar) of fluorescein-labeled DNA . Fit binding curves of anisotropy (actual or relative) versus protein concentration to a single-ligand binding model and determine Kd by: (Bmax)([S])/Kd+[S], where [S] is the concentration of the fluorescein-labeled DNA, and Bmax and Kd are derived from the single-ligand binding plot.",
+        "result": [
+            {
+                "ADD": {
+                    "emit": [
+                        {
+                            "output": "protein-DNA complexes"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "reagent1": "fluorescein-labeled DNA"
+                        },
+                        {
+                            "reagent2": "purified proteins"
+                        },
+                        {
+                            "ratio": "increasing concentrations"
+                        },
+                        {
+                            "concentration": "1.0 nanomolar"
+                        }
+                    ]
+                },
+                "sentence": "Add purified proteins at increasing concentrations with a constant concentration (1.0 nanomolar) of fluorescein-labeled DNA."
+            },
+            {
+                "FIT": {
+                    "emit": [
+                        {
+                            "output": "single-ligand binding model"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "device1": "anisotropy"
+                        },
+                        {
+                            "device2": "protein concentration"
+                        }
+                    ]
+                },
+                "sentence": "Fit binding curves of anisotropy (actual or relative) versus protein concentration to a single-ligand binding model."
+            },
+            {
+                "DETERMINE": {
+                    "emit": [
+                        {
+                            "output": "Kd value"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "device": ""
+                        },
+                        {
+                            "reagent1": "fluorescein-labeled DNA"
+                        },
+                        {
+                            "attribute": "Kd"
+                        },
+                        {
+                            "time": ""
+                        },
+                        {
+                            "wavelength": ""
+                        },
+                        {
+                            "notice": ""
+                        }
+                    ]
+                },
+                "sentence": "determine Kd by: (Bmax)([S])/Kd+[S], where [S] is the concentration of the fluorescein-labeled DNA, and Bmax and Kd are derived from the single-ligand binding plot."
+            }
+        ]
+    },
+    {
+        "sentence": "Estimation of an equilibrium binding affinity for a low-affinity substrate: A 10 nanomolar complex is formed between MSH2MSH3 and (CA)4-loop DNA (high affinity ligand) labeled with fluorescein, and increasing concentrations of unlabeled homoduplex DNA added up to concentrations of 1000 µM. Allow the reactions to come to equilibrium by incubation at ambient temperature for 60 minutes. Plot data as change in anisotropy versus the concentration of added ligand, homoduplex DNA (low affinity). (Figure 2) Fit the dissociation curve to a 3-parameter hyperbolic decay curve with Sigmaplot. Use the resulting EC50 to calculate the Ki using the following equation: Ki=EC50/ (1+[s])/kd, where [S] is the concentration of the fluorescein-labeled DNA, Kd is for MSH2MSH3 binding to (CA)4-loop DNA (high affinity). The resulting Ki, then, yields an indirect estimate of Kd for a low affinity substrate, since saturation with protein would not have been feasible by direct association",
+        "result": [
+            {
+                "ADD": {
+                    "emit": [
+                        {
+                            "output": "equilibrium binding affinity"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "reagent1": "10 nanomolar complex of MSH2MSH3 and (CA)4-loop DNA"
+                        },
+                        {
+                            "reagent2": "unlabeled homoduplex DNA"
+                        },
+                        {
+                            "ratio": "increasing concentrations"
+                        },
+                        {
+                            "concentration": "up to 1000 µM"
+                        }
+                    ]
+                },
+                "sentence": "A 10 nanomolar complex is formed between MSH2MSH3 and (CA)4-loop DNA (high affinity ligand) labeled with fluorescein, and increasing concentrations of unlabeled homoduplex DNA added up to concentrations of 1000 µM."
+            },
+            {
+                "INCUBATE": {
+                    "emit": [
+                        {
+                            "output": "equilibrium binding affinity"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "reagent1": "10 nanomolar complex of MSH2MSH3 and (CA)4-loop DNA"
+                        },
+                        {
+                            "reagent2": "unlabeled homoduplex DNA"
+                        },
+                        {
+                            "temperature": "ambient temperature"
+                        },
+                        {
+                            "time": "60 minutes"
+                        }
+                    ]
+                },
+                "sentence": "Allow the reactions to come to equilibrium by incubation at ambient temperature for 60 minutes."
+            },
+            {
+                "CALCULATE": {
+                    "emit": [
+                        {
+                            "output": "Ki for a low affinity substrate"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "attribute": "Ki"
+                        },
+                        {
+                            "formula": "Ki=EC50/ (1+[s])/kd"
+                        },
+                        {
+                            "variables": "[S], kd"
+                        },
+                        {
+                            "values": "concentration of the fluorescein-labeled DNA, MSH2MSH3 binding to (CA)4-loop DNA"
+                        },
+                        {
+                            "units": "nanomolar, µM"
+                        },
+                        {
+                            "software": "Sigmaplot"
+                        }
+                    ]
+                },
+                "sentence": "Use the resulting EC50 to calculate the Ki using the following equation: Ki=EC50/ (1+[s])/kd, where [S] is the concentration of the fluorescein-labeled DNA, Kd is for MSH2MSH3 binding to (CA)4-loop DNA (high affinity)."
+            },
+            {
+                "FIT": {
+                    "emit": [
+                        {
+                            "output": "fitted curve"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "device1": "dissociation curve"
+                        },
+                        {
+                            "device2": "3-parameter hyperbolic decay curve"
+                        }
+                    ]
+                },
+                "sentence": "Fit the dissociation curve to a 3-parameter hyperbolic decay curve with Sigmaplot."
+            }
+        ]
+    },
+    {
+        "sentence": "Measuring unimolecular dissociation rate constant (koff): The setup is similar to (3), except that the competitor, in this case an excess of a second ligand (i.e. ADP or ATP), is added at time 0, and the instrument is programed to read over a specified time period at defined intervals (kinetic mode).  Fit plots of anisotropy versus time to the first order decay equation: At=e-kt. Alternatively, calculate the rate constant, (koff), from the half life using the equation: t1/2=0.693/Koff.",
+        "result": [
+            {
+                "SETUP": {
+                    "emit": [
+                        {
+                            "output": "unimolecular dissociation rate constant"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "container": "instrument"
+                        },
+                        {
+                            "reagent1": "second ligand"
+                        },
+                        {
+                            "reagent2": "competitor"
+                        }
+                    ]
+                },
+                "sentence": "Measuring unimolecular dissociation rate constant (koff): The setup is similar to (3), except that the competitor, in this case an excess of a second ligand (i.e. ADP or ATP), is added at time 0, and the instrument is programed to read over a specified time period at defined intervals (kinetic mode)."
+            },
+            {
+                "ADD": {
+                    "emit": [
+                        {
+                            "output": "unimolecular dissociation rate constant"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "reagent1": "second ligand"
+                        },
+                        {
+                            "reagent2": "ADP or ATP"
+                        }
+                    ]
+                },
+                "sentence": "The competitor, in this case an excess of a second ligand (i.e. ADP or ATP), is added at time 0"
+            },
+            {
+                "READ": {
+                    "emit": [
+                        {
+                            "output": "unimolecular dissociation rate constant"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "device": "instrument"
+                        },
+                        {
+                            "data1": "anisotropy"
+                        },
+                        {
+                            "attribute": "kinetic mode"
+                        },
+                        {
+                            "method": "programed"
+                        }
+                    ]
+                },
+                "sentence": "The instrument is programed to read over a specified time period at defined intervals (kinetic mode)."
+            },
+            {
+                "FIT": {
+                    "emit": [
+                        {
+                            "output": "unimolecular dissociation rate constant"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "device1": "anisotropy versus time plots"
+                        },
+                        {
+                            "device2": "first order decay equation: At=e-kt"
+                        }
+                    ]
+                },
+                "sentence": "Fit plots of anisotropy versus time to the first order decay equation: At=e-kt."
+            },
+            {
+                "CALCULATE": {
+                    "emit": [
+                        {
+                            "output": "koff"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "attribute": "rate constant (koff)"
+                        },
+                        {
+                            "formula": "t1/2=0.693/Koff"
+                        },
+                        {
+                            "variables": "t1/2, Koff"
+                        },
+                        {
+                            "values": ""
+                        },
+                        {
+                            "units": ""
+                        },
+                        {
+                            "software": ""
+                        }
+                    ]
+                },
+                "sentence": "Alternatively, calculate the rate constant, (koff), from the half life using the equation: t1/2=0.693/Koff."
+            }
+        ]
+    }
+]

@@ -1,0 +1,272 @@
+[
+  {
+    "title": "",
+    "body": [
+      {
+        "sentence": "Select the donor, acceptor and substrate combination to perform SRET2 or SRET1 experiments (i.e, protein-Rluc, protein-GFP2, protein-YFP and DeepBlueC for SRET2 experiments or protein-Rluc, protein-YFP, protein-DsRed and coelenterazine h for SRET1 experiments)",
+        "result": {
+          "SELECT": {
+            "emit": [],
+            "slot": [
+              {
+                "it's a slot key": "it's a slot value"
+              }
+            ]
+          }
+        }
+      }
+    ]
+  },
+  {
+    "title": "",
+    "body": [
+      {
+        "sentence": "Generate fusion constructs in Rluc, GFP2, YFP or DsRed expression vectors consisting of the cDNA for the protein of interest inserted in-frame with the cDNA for the bioluminescent or fluorescent donor or acceptor molecule. Remove the stop codon separating the cDNA sequences by mutagenesis so that a single fusion protein is expressed after transfection.",
+        "result": {
+          "GENERATE": {
+            "emit": [],
+            "slot": [
+              {
+                "it's a slot key": "it's a slot value"
+              }
+            ]
+          }
+        }
+      }
+    ]
+  },
+  {
+    "title": "",
+    "body": [
+      {
+        "sentence": "Validate the fusion proteins of interest, including suitable control proteins, by comparing fusion and wild-type proteins in functional assays. Check that luminescence or fluorescence is detectable (represent cDNA transfected versus bioluminescence or fluorescence detected). If possible, use confocal microscopy to visualize (by its own fluorescence or using antibodies) correct cellular localization of fusion protein.",
+        "result": {
+          "ADD": {
+            "emit": [],
+            "slot": [
+              {
+                "it's a slot key": "it's a slot value"
+              }
+            ]
+          }
+        }
+      }
+    ]
+  },
+  {
+    "title": "",
+    "body": [
+      {
+        "sentence": "Reconstitute and store the luciferase substrate stock solution containing coelenterazine h or DeepBlueC with anhydrous ethanol.\n Cell culture",
+        "result": {
+          "RECONSTITUTE": {
+            "emit": [],
+            "slot": [
+              {
+                "it's a slot key": "it's a slot value"
+              }
+            ]
+          }
+        }
+      }
+    ]
+  },
+  {
+    "title": "",
+    "body": [
+      {
+        "sentence": "Aliquot cells in 6-well cell culture plate in a suitable growth medium. They should be 60-80 % confluent after 24h. Maintain at 37oC, 5% CO2.",
+        "result": {
+          "ALIQUOT": {
+            "emit": [],
+            "slot": [
+              {
+                "it's a slot key": "it's a slot value"
+              }
+            ]
+          }
+        }
+      }
+    ]
+  },
+  {
+    "title": "",
+    "body": [
+      {
+        "sentence": "Transfect expression vectors corresponding to the desired fusion proteins at the suitable ratios using PEI according to the manufacturer\u2019s protocol. Other methods of transfection may be used as well",
+        "result": {
+          "TRANSFECT": {
+            "emit": [],
+            "slot": [
+              {
+                "it's a slot key": "it's a slot value"
+              }
+            ]
+          }
+        }
+      }
+    ]
+  },
+  {
+    "title": "",
+    "body": [
+      {
+        "sentence": "Around 48 hour after transiently transfection detach the cells and resuspend in HBSS assay buffer.\n ii, Wash cells twice with assay buffer for 5 minutes and resuspend in the same\nbuffer.",
+        "result": {
+          "ADD": {
+            "emit": [],
+            "slot": [
+              {
+                "it's a slot key": "it's a slot value"
+              }
+            ]
+          }
+        }
+      }
+    ]
+  },
+  {
+    "title": "",
+    "body": [
+      {
+        "sentence": "Using an aliquot, quantify the amount of protein with Bradford solution and dilute cells to maintain the same amount of protein in each sample.",
+        "result": {
+          "ADD": {
+            "emit": [],
+            "slot": [
+              {
+                "it's a slot key": "it's a slot value"
+              }
+            ]
+          }
+        }
+      }
+    ]
+  },
+  {
+    "title": "",
+    "body": [
+      {
+        "sentence": "Aliquot cells into 96-well white and black isoplate (100 \u03bcL per black well and 90 \u03bcL per white well )",
+        "result": {
+          "ALIQUOT": {
+            "emit": [],
+            "slot": [
+              {
+                "it's a slot key": "it's a slot value"
+              }
+            ]
+          }
+        }
+      }
+    ]
+  },
+  {
+    "title": "",
+    "body": [
+      {
+        "sentence": "Use a fluorimeter to measure the relative fluorescence from aliquots of each sample (in 100 \u03bcL per well, black isoplates) by directly exciting the first (BRET) acceptor fluorophore with laser light at a suitable wavelength (410 nm for GFP2 or 485 nm for YFP) and detecting the emission (510 nm for GFP2 or 530 nm for YFP) or directly exciting the second (FRET) acceptor fluorophore with laser light at a suitable wavelength (485 nm for YFP or 544 nm for DsRed) and detecting the emission (530 nm for YFP or 590 nm for DsRed). Correct the background fluorescence with untransfected cells",
+        "result": {
+          "ADD": {
+            "emit": [],
+            "slot": [
+              {
+                "it's a slot key": "it's a slot value"
+              }
+            ]
+          }
+        }
+      }
+    ]
+  },
+  {
+    "title": "",
+    "body": [
+      {
+        "sentence": "Add 10 \u03bcL Coehelenterazine h to aliquots of each sample (in 90 \u03bcL per well, white isoplates) and after 10 min measure luminescence at 485 nm in a luminometer. Correct the background from untransfected cells.",
+        "result": {
+          "ADD": {
+            "emit": [],
+            "slot": [
+              {
+                "it's a slot key": "it's a slot value"
+              }
+            ]
+          }
+        }
+      }
+    ]
+  },
+  {
+    "title": "",
+    "body": [
+      {
+        "sentence": "Fluorescence quantification: YFP fluorescence in SRET2 experiments is defined as the signal detected at 530 nm minus the signal for cells expressing protein-Rluc and protein-GFP2. Linear un-mixing was done taking into account the spectral signature as described previously1. DsRed fluorescence in SRET1 experiments is defined as the signal detected at 590 nm minus the signal for cells expressing protein-Rluc and protein-YFP.\n ",
+        "result": {
+          "ADD": {
+            "emit": [],
+            "slot": [
+              {
+                "it's a slot key": "it's a slot value"
+              }
+            ]
+          }
+        }
+      }
+    ]
+  },
+  {
+    "title": "",
+    "body": [
+      {
+        "sentence": "For protein-Rluc/protein-GFP2/protein-YFP transfection, the SRET2 is measured by adding 10 \u03bcL DeepBlueC in each 90 \u03bcL white well and immediately detecting emission at 530 nm and 410 nm using a luminometer. For protein-Rluc/protein-YFP/protein-DsRed transfection, the SRET1 is measured by adding 10 \u03bcL coelenterazine h in each 90 \u03bcL white well 1 minute before detecting the emission at 590 nm and at 485 nm, using a luminometer.",
+        "result": {
+          "ADD": {
+            "emit": [],
+            "slot": [
+              {
+                "it's a slot key": "it's a slot value"
+              }
+            ]
+          }
+        }
+      }
+    ]
+  },
+  {
+    "title": "",
+    "body": [
+      {
+        "sentence": "Repeat readings within the timeframe allowed by substrate stability and cell viability",
+        "result": {
+          "ADD": {
+            "emit": [],
+            "slot": [
+              {
+                "it's a slot key": "it's a slot value"
+              }
+            ]
+          }
+        }
+      }
+    ]
+  },
+  {
+    "title": "",
+    "body": [
+      {
+        "sentence": "SRET quantification: Net SRET1 is defined as [(emission at 590 nm)/( emission at 485 nm)]-Cf where Cf corresponds to [(emission at 590 nm)/( emission at 485 nm)] for cells expressing protein-Rluc, protein-GFP2 and the other protein partner not fused to a fluorescence protein.\n Net SRET2 is defined as [(emission at 530 nm)/( emission at 410 nm)]-Cf where Cf corresponds to [(emission at 530 nm)/( emission at 410 nm)] for cells expressing protein-Rluc, protein-YFP and the other protein partner not fused to a fluorescence protein",
+        "result": {
+          "ADD": {
+            "emit": [],
+            "slot": [
+              {
+                "it's a slot key": "it's a slot value"
+              }
+            ]
+          }
+        }
+      }
+    ]
+  }
+]

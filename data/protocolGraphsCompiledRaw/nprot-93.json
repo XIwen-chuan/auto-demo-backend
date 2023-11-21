@@ -1,0 +1,1125 @@
+[
+    {
+        "sentence": "Grow 200 ml yeast cells expressing V5-His6 tagged protein in YPG \\(yeast extract/peptone/galactose) to A600 of approximately 0.6",
+        "result": [
+            {
+                "GROW": {
+                    "emit": [
+                        {
+                            "output": "200 ml yeast cells expressing V5-His6 tagged protein"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "reagent1": "200 ml yeast cells expressing V5-His6 tagged protein"
+                        },
+                        {
+                            "reagent2": "YPG"
+                        },
+                        {
+                            "temperature": "room temperature"
+                        },
+                        {
+                            "time": "<blank>"
+                        },
+                        {
+                            "termination": "<blank>"
+                        },
+                        {
+                            "environment": "<blank>"
+                        },
+                        {
+                            "device": "<blank>"
+                        },
+                        {
+                            "notice": "<blank>"
+                        }
+                    ]
+                },
+                "sentence": "Grow 200 ml yeast cells expressing V5-His6 tagged protein in YPG (yeast extract/peptone/galactose) to A600 of approximately 0.6"
+            }
+        ]
+    },
+    {
+        "sentence": "After UV \\(100 J/m2) or mock treatment, incubate cells at 30 °C in the dark for one hour",
+        "result": [
+            {
+                "INCUBATE": {
+                    "emit": [
+                        {
+                            "output": "<blank>"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "reagent1": "UV-treated cells"
+                        },
+                        {
+                            "reagent2": "mock-treated cells"
+                        },
+                        {
+                            "temperature": "30 °C"
+                        },
+                        {
+                            "time": "one hour"
+                        },
+                        {
+                            "environment": "dark"
+                        },
+                        {
+                            "device": "<blank>"
+                        },
+                        {
+                            "thermoProgram": "<blank>"
+                        },
+                        {
+                            "notice": "after UV or mock treatment"
+                        }
+                    ]
+                },
+                "sentence": "After UV (100 J/m2) or mock treatment, incubate cells at 30 °C in the dark for one hour."
+            }
+        ]
+    },
+    {
+        "sentence": "Add formaldehyde directly to the culture to 1% \\(final concentration).",
+        "result": [
+            {
+                "ADD": {
+                    "emit": [
+                        {
+                            "output": "<blank>"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "reagent1": "200 ml yeast cells expressing V5-His6 tagged protein"
+                        },
+                        {
+                            "reagent2": "formaldehyde"
+                        },
+                        {
+                            "concentration": "1%"
+                        }
+                    ]
+                },
+                "sentence": "Add formaldehyde directly to the culture to 1% (final concentration)."
+            }
+        ]
+    },
+    {
+        "sentence": " incubate cells for 20 min at room temperature",
+        "result": [
+            {
+                "INCUBATE": {
+                    "emit": [
+                        {
+                            "output": "protein-DNA complexes"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "reagent1": "cells"
+                        },
+                        {
+                            "reagent2": ""
+                        },
+                        {
+                            "temperature": "room temperature"
+                        },
+                        {
+                            "time": "20 min"
+                        },
+                        {
+                            "environment": ""
+                        },
+                        {
+                            "device": ""
+                        },
+                        {
+                            "thermoProgram": ""
+                        },
+                        {
+                            "notice": ""
+                        }
+                    ]
+                },
+                "sentence": "incubate cells for 20 min at room temperature"
+            }
+        ]
+    },
+    {
+        "sentence": "quench cross-linking by addition of 0.5 M glycine \\(final concentration)",
+        "result": [
+            {
+                "ADD": {
+                    "emit": [
+                        {
+                            "output": "<blank>"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "reagent1": "formaldehyde"
+                        },
+                        {
+                            "reagent2": "0.5 M glycine"
+                        },
+                        {
+                            "ratio": "<blank>"
+                        },
+                        {
+                            "concentration": "<blank>"
+                        },
+                        {
+                            "notice": "<blank>"
+                        }
+                    ]
+                },
+                "sentence": "quench cross-linking by addition of 0.5 M glycine (final concentration)"
+            }
+        ]
+    },
+    {
+        "sentence": "wash cells with cold Tris-buffered saline followed by cold lysis buffer \\(50 mM HEPES-KOH, pH 7.5, 10 mM MgCl2, 200 mM KCl, 0.1 mM EDTA, 10% glycerol and 1% Triton X-100).",
+        "result": [
+            {
+                "WASH": {
+                    "emit": [
+                        {
+                            "output": "cells"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "reagent1": "cells"
+                        },
+                        {
+                            "reagent2": "cold Tris-buffered saline"
+                        },
+                        {
+                            "repeat": "<blank>"
+                        },
+                        {
+                            "time": "<blank>"
+                        },
+                        {
+                            "notice": "<blank>"
+                        }
+                    ]
+                },
+                "sentence": "wash cells with cold Tris-buffered saline followed by cold lysis buffer (50 mM HEPES-KOH, pH 7.5, 10 mM MgCl2, 200 mM KCl, 0.1 mM EDTA, 10% glycerol and 1% Triton X-100)."
+            }
+        ]
+    },
+    {
+        "sentence": "Resuspend approximately 0.5 ml yeast cells in 1 ml of lysis buffer containing 1 mM\nphenylmethylsulfonyl fluoride and protease inhibitor mixture",
+        "result": [
+            {
+                "RESUSPEND": {
+                    "emit": [
+                        {
+                            "output": "suspended cells"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "reagent1": "0.5 ml yeast cells"
+                        },
+                        {
+                            "reagent2": "lysis buffer containing 1 mM phenylmethylsulfonyl fluoride and protease inhibitor mixture"
+                        },
+                        {
+                            "temperature": "room temperature"
+                        }
+                    ]
+                },
+                "sentence": "Resuspend approximately 0.5 ml yeast cells in 1 ml of lysis buffer containing 1 mM phenylmethylsulfonyl fluoride and protease inhibitor mixture."
+            }
+        ]
+    },
+    {
+        "sentence": "Disrupt the cells by votexing in the presence of 0.5 ml glass beads",
+        "result": [
+            {
+                "DISRUPT": {
+                    "emit": [
+                        {
+                            "reagent0": "disrupted cells"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "reagent1": "suspended cells"
+                        },
+                        {
+                            "reagent2": "0.5 ml glass beads"
+                        }
+                    ]
+                },
+                "warning": "DISRUPT not in ISA, using own knowledge to generate instruction.",
+                "sentence": "Disrupt the cells by votexing in the presence of 0.5 ml glass beads."
+            }
+        ]
+    },
+    {
+        "sentence": "Sonicate the lysate \\(the average size of DNA fragments should be less than 1 kb) ",
+        "result": [
+            {
+                "SONICATE": {
+                    "emit": [
+                        {
+                            "output": "protein-DNA complexes"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "reagent1": "disrupted cells"
+                        },
+                        {
+                            "time": "2 min"
+                        },
+                        {
+                            "temperature": "room temperature"
+                        },
+                        {
+                            "power": "<blank>"
+                        },
+                        {
+                            "device": "Fisher sonic 60 dismembrator"
+                        },
+                        {
+                            "program": "<blank>"
+                        },
+                        {
+                            "notice": "power output setting at 10"
+                        }
+                    ]
+                },
+                "sentence": "Sonicate the lysate (the average size of DNA fragments should be less than 1 kb)."
+            }
+        ]
+    },
+    {
+        "sentence": "centrifuge cells for 20 min at 10,000 g",
+        "result": [
+            {
+                "CENTRIFUGE": {
+                    "emit": [
+                        {
+                            "output": "protein-DNA complexes"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "reagent1": "cells"
+                        },
+                        {
+                            "intensity": "10,000 g"
+                        },
+                        {
+                            "time": "20 min"
+                        },
+                        {
+                            "temperature": "room temperature"
+                        }
+                    ]
+                },
+                "sentence": "Centrifuge cells for 20 min at 10,000 g."
+            }
+        ]
+    },
+    {
+        "sentence": "incubate 0.5ml cell-free extracts \\(approximately 20 mg/ml protein) and 0.1 ml Ni-NTA-Agarose beads overnight at 4 °C",
+        "result": [
+            {
+                "INCUBATE": {
+                    "emit": [
+                        {
+                            "output": "protein-DNA complexes"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "reagent1": "0.5ml cell-free extracts (approximately 20 mg/ml protein)"
+                        },
+                        {
+                            "reagent2": "0.1 ml Ni-NTA-Agarose beads"
+                        },
+                        {
+                            "temperature": "4 °C"
+                        },
+                        {
+                            "time": "overnight"
+                        },
+                        {
+                            "notice": "prior to measurements"
+                        }
+                    ]
+                },
+                "sentence": "incubate 0.5ml cell-free extracts (approximately 20 mg/ml protein) and 0.1 ml Ni-NTA-Agarose beads overnight at 4 °C"
+            }
+        ]
+    },
+    {
+        "sentence": "Transfer the beads to a 2 ml tube",
+        "result": [
+            {
+                "TRANSFER": {
+                    "emit": [
+                        {
+                            "output": "beads"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "source": "beads"
+                        },
+                        {
+                            "destination": "2 ml tube"
+                        },
+                        {
+                            "reagent1": "beads"
+                        }
+                    ]
+                },
+                "sentence": "Transfer the beads to a 2 ml tube"
+            }
+        ]
+    },
+    {
+        "sentence": "wash three times with 1.5 ml lysis buffer, three times with 1.5 ml of the same buffer but with 20 mM imidazol and twice with 1.5 ml of TE \\(10 mM Tris-Page 3/4 HCl, pH 8.0, 1 mM EDTA)",
+        "result": [
+            {
+                "WASH": {
+                    "emit": [
+                        {
+                            "output": "protein-DNA complexes"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "reagent1": "protein-DNA complexes"
+                        },
+                        {
+                            "reagent2": "lysis buffer"
+                        },
+                        {
+                            "repeat": "3"
+                        }
+                    ]
+                },
+                "sentence": "wash three times with 1.5 ml lysis buffer"
+            },
+            {
+                "WASH": {
+                    "emit": [
+                        {
+                            "output": "protein-DNA complexes"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "reagent1": "protein-DNA complexes"
+                        },
+                        {
+                            "reagent2": "1.5 ml lysis buffer"
+                        },
+                        {
+                            "repeat": "3"
+                        },
+                        {
+                            "time": "<blank>"
+                        },
+                        {
+                            "notice": "<blank>"
+                        }
+                    ]
+                },
+                "sentence": "wash three times with 1.5 ml of the same buffer but with 20 mM imidazol"
+            },
+            {
+                "WASH": {
+                    "emit": [
+                        {
+                            "output": "protein-DNA complexes"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "reagent1": "protein-DNA complexes"
+                        },
+                        {
+                            "reagent2": "1.5 ml of TE (10 mM Tris-HCl, pH 8.0, 1 mM EDTA)"
+                        },
+                        {
+                            "repeat": "2"
+                        }
+                    ]
+                },
+                "sentence": "twice with 1.5 ml of TE (10 mM Tris-HCl, pH 8.0, 1 mM EDTA)"
+            }
+        ]
+    },
+    {
+        "sentence": "Transfer the beads to a 1.5 ml microcentrifuge tube with TE and pellet",
+        "result": [
+            {
+                "TRANSFER": {
+                    "emit": [
+                        {
+                            "output": "beads"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "source": "beads"
+                        },
+                        {
+                            "destination": "1.5 ml microcentrifuge tube"
+                        },
+                        {
+                            "reagent1": "beads"
+                        },
+                        {
+                            "volume": "<blank>"
+                        },
+                        {
+                            "equipment": "<blank>"
+                        },
+                        {
+                            "notice": "<blank>"
+                        }
+                    ]
+                },
+                "sentence": "Transfer the beads to a 1.5 ml microcentrifuge tube with TE and pellet"
+            },
+            {
+                "PELLET": {
+                    "emit": [
+                        {
+                            "output": "beads"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "reagent1": "beads"
+                        },
+                        {
+                            "intensity": "<blank>"
+                        },
+                        {
+                            "time": "<blank>"
+                        },
+                        {
+                            "temperature": "<blank>"
+                        },
+                        {
+                            "device": "<blank>"
+                        }
+                    ]
+                },
+                "sentence": "Transfer the beads to a 1.5 ml microcentrifuge tube with TE and pellet"
+            }
+        ]
+    },
+    {
+        "sentence": "Add SDS-PAGE sample buffer \\(2x, 0.1 ml) and cross-links reversed by boiling for 20 min",
+        "result": [
+            {
+                "ADD": {
+                    "emit": [
+                        {
+                            "output": "protein-DNA complexes"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "reagent1": "SDS-PAGE sample buffer (2x)"
+                        },
+                        {
+                            "reagent2": "0.1 ml"
+                        }
+                    ]
+                },
+                "sentence": "Add SDS-PAGE sample buffer (2x, 0.1 ml)"
+            },
+            {
+                "BOIL": {
+                    "emit": [
+                        {
+                            "reagent0": "protein-DNA complexes"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "reagent1": "protein-DNA complexes"
+                        },
+                        {
+                            "temperature": "100 °C"
+                        },
+                        {
+                            "time": "20 min"
+                        }
+                    ]
+                },
+                "warning": "BOIL not in ISA, using own knowledge to generate instruction.",
+                "sentence": "cross-links reversed by boiling for 20 min"
+            }
+        ]
+    },
+    {
+        "sentence": "Analyze samples by Western blotting using antibodies specific for DNA repair proteins Rad4 and Rad23",
+        "result": [
+            {
+                "ANALYZE": {
+                    "emit": [
+                        {
+                            "output": "protein-DNA complexes"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "reagent1": "protein-DNA complexes"
+                        },
+                        {
+                            "data1": "<blank>"
+                        },
+                        {
+                            "environment": "<blank>"
+                        },
+                        {
+                            "software": "<blank>"
+                        },
+                        {
+                            "settings": "<blank>"
+                        },
+                        {
+                            "method": "<blank>"
+                        },
+                        {
+                            "notice": "<blank>"
+                        }
+                    ]
+                },
+                "sentence": "Analyze samples by Western blotting using antibodies specific for DNA repair proteins Rad4 and Rad23."
+            }
+        ]
+    },
+    {
+        "sentence": "Strip the PVDF membrane and reprobe with V5 antibody",
+        "result": [
+            {
+                "STRIP": {
+                    "emit": [
+                        {
+                            "reagent0": "stripped PVDF membrane"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "reagent1": "protein-DNA complexes"
+                        },
+                        {
+                            "reagent2": "PVDF membrane"
+                        }
+                    ]
+                },
+                "warning": "STRIP not in ISA, using own knowledge to generate instruction.",
+                "sentence": "Strip the PVDF membrane"
+            },
+            {
+                "REPROBE": {
+                    "emit": [
+                        {
+                            "reagent0": "protein-DNA complexes"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "reagent1": "protein-DNA complexes"
+                        },
+                        {
+                            "reagent2": "V5 antibody"
+                        }
+                    ]
+                },
+                "warning": "REPROBE not in ISA, using own knowledge to generate instruction.",
+                "sentence": "reprobe with V5 antibody"
+            }
+        ]
+    },
+    {
+        "sentence": "Use the detected Snf6-V5His6 and/or LacZ-V5His6 as loading controls",
+        "result": [
+            {
+                "USE": {
+                    "emit": [
+                        {
+                            "reagent0": "protein-DNA complexes"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "reagent1": "detected Snf6-V5His6"
+                        },
+                        {
+                            "reagent2": "LacZ-V5His6"
+                        }
+                    ]
+                },
+                "warning": "USE not in ISA, using own knowledge to generate instruction.",
+                "sentence": "Use the detected Snf6-V5His6 and/or LacZ-V5His6 as loading controls."
+            }
+        ]
+    },
+    {
+        "sentence": "To purify TAP-tagged Rad4, incubate Human IgG-Agarose beads \\(0.1 ml, sigma) with 0.5 ml cell-free extracts overnight at 4 °C",
+        "result": [
+            {
+                "INCUBATE": {
+                    "emit": [
+                        {
+                            "output": "protein-DNA complexes"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "reagent1": "Human IgG-Agarose beads (0.1 ml, sigma)"
+                        },
+                        {
+                            "reagent2": ""
+                        },
+                        {
+                            "temperature": "4 °C"
+                        },
+                        {
+                            "time": "overnight"
+                        },
+                        {
+                            "environment": ""
+                        },
+                        {
+                            "device": ""
+                        },
+                        {
+                            "thermoProgram": ""
+                        },
+                        {
+                            "notice": "prior to measurements"
+                        }
+                    ]
+                },
+                "sentence": "To purify TAP-tagged Rad4, incubate Human IgG-Agarose beads (0.1 ml, sigma) with 0.5 ml cell-free extracts overnight at 4 °C."
+            }
+        ]
+    },
+    {
+        "sentence": "Transfer the beads to a 2 ml tube",
+        "result": [
+            {
+                "TRANSFER": {
+                    "emit": [
+                        {
+                            "output": "beads"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "source": "beads"
+                        },
+                        {
+                            "destination": "2 ml tube"
+                        },
+                        {
+                            "reagent1": "beads"
+                        }
+                    ]
+                },
+                "sentence": "Transfer the beads to a 2 ml tube"
+            }
+        ]
+    },
+    {
+        "sentence": "wash beads three times with 1.5 ml lysis buffer\nand twice with 1.5 ml of TE \\(10 mM Tris-HCl, pH 8.0, 1 mM EDTA)",
+        "result": [
+            {
+                "WASH": {
+                    "emit": [
+                        {
+                            "output": "beads"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "reagent1": "beads"
+                        },
+                        {
+                            "reagent2": "1.5 ml lysis buffer"
+                        },
+                        {
+                            "repeat": "3"
+                        }
+                    ]
+                },
+                "sentence": "wash beads three times with 1.5 ml lysis buffer"
+            },
+            {
+                "WASH": {
+                    "emit": [
+                        {
+                            "output": "beads"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "reagent1": "beads"
+                        },
+                        {
+                            "reagent2": "TE (10 mM Tris-HCl, pH 8.0, 1 mM EDTA)"
+                        },
+                        {
+                            "repeat": "2"
+                        },
+                        {
+                            "time": "<blank>"
+                        },
+                        {
+                            "notice": "<blank>"
+                        }
+                    ]
+                },
+                "sentence": "wash beads twice with 1.5 ml of TE (10 mM Tris-HCl, pH 8.0, 1 mM EDTA)"
+            }
+        ]
+    },
+    {
+        "sentence": "Add SDS-PAGE sample buffer \\(2x, 0.1 ml) and cross-links reversed by boiling for 20 min",
+        "result": [
+            {
+                "ADD": {
+                    "emit": [
+                        {
+                            "output": "protein-DNA complexes"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "reagent1": "protein-DNA complexes"
+                        },
+                        {
+                            "reagent2": "SDS-PAGE sample buffer (2x, 0.1 ml)"
+                        }
+                    ]
+                },
+                "sentence": "Add SDS-PAGE sample buffer (2x, 0.1 ml)"
+            },
+            {
+                "BOIL": {
+                    "emit": [
+                        {
+                            "reagent0": "protein-DNA complexes"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "reagent1": "protein-DNA complexes"
+                        },
+                        {
+                            "time": "20 min"
+                        }
+                    ]
+                },
+                "warning": "BOIL not in ISA, using own knowledge to generate instruction.",
+                "sentence": "cross-links reversed by boiling for 20 min"
+            }
+        ]
+    },
+    {
+        "sentence": "Analyze samples by Western blotting using antibodies specific for DNA repair proteins Rad4 and Rad23",
+        "result": [
+            {
+                "ANALYZE": {
+                    "emit": [
+                        {
+                            "output": "protein-DNA complexes"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "reagent1": "samples"
+                        },
+                        {
+                            "data1": "Western blotting"
+                        }
+                    ]
+                },
+                "sentence": "Analyze samples by Western blotting using antibodies specific for DNA repair proteins Rad4 and Rad23."
+            }
+        ]
+    },
+    {
+        "sentence": "To perform DNase I digestion, resuspend 0.01ml washed Ni-NTA-Agarose beads  in 0.2 ml 1X DNase I buffer and treat with 5 units of DNaseI \\(New England Biolabs) for 3 hours at 37 °C. ",
+        "result": [
+            {
+                "RESUSPEND": {
+                    "emit": [
+                        {
+                            "output": "0.01ml washed Ni-NTA-Agarose beads"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "reagent1": "0.01ml washed Ni-NTA-Agarose beads"
+                        },
+                        {
+                            "reagent2": "0.2 ml 1X DNase I buffer"
+                        },
+                        {
+                            "temperature": "37 °C"
+                        }
+                    ]
+                },
+                "sentence": "To perform DNase I digestion, resuspend 0.01ml washed Ni-NTA-Agarose beads in 0.2 ml 1X DNase I buffer"
+            },
+            {
+                "TREAT": {
+                    "emit": [
+                        {
+                            "output": "protein-DNA complexes"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "reagent1": "0.01ml washed Ni-NTA-Agarose beads"
+                        },
+                        {
+                            "reagent2": "1X DNase I buffer"
+                        },
+                        {
+                            "temperature": "37 °C"
+                        },
+                        {
+                            "time": "3 hours"
+                        }
+                    ]
+                },
+                "sentence": "and treat with 5 units of DNaseI (New England Biolabs) for 3 hours at 37 °C."
+            }
+        ]
+    },
+    {
+        "sentence": "Wash beads twice with 1.5 ml of TE \\(10 mM Tris-HCl, pH8.0, 1 mM EDTA)",
+        "result": [
+            {
+                "WASH": {
+                    "emit": [
+                        {
+                            "output": "beads"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "reagent1": "beads"
+                        },
+                        {
+                            "reagent2": "TE (10 mM Tris-HCl, pH8.0, 1 mM EDTA)"
+                        },
+                        {
+                            "repeat": "2"
+                        },
+                        {
+                            "time": "<blank>"
+                        },
+                        {
+                            "notice": "<blank>"
+                        }
+                    ]
+                },
+                "sentence": "Wash beads twice with 1.5 ml of TE (10 mM Tris-HCl, pH8.0, 1 mM EDTA)"
+            }
+        ]
+    },
+    {
+        "sentence": "Incubate cell-free extracts \\(0.5 ml, approximately 20 mg/ml protein) and 0.1 ml Ni-NTA-Agarose beads \\(Qiagen) overnight at 4 °C in the presence of various amount of ethidium bromide \\(from 0.05 to 0.5 mg/ml",
+        "result": [
+            {
+                "INCUBATE": {
+                    "emit": [
+                        {
+                            "output": "protein-DNA complexes"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "reagent1": "cell-free extracts (0.5 ml, approximately 20 mg/ml protein)"
+                        },
+                        {
+                            "reagent2": "0.1 ml Ni-NTA-Agarose beads (Qiagen)"
+                        },
+                        {
+                            "temperature": "4 °C"
+                        },
+                        {
+                            "time": "overnight"
+                        },
+                        {
+                            "environment": ""
+                        },
+                        {
+                            "device": ""
+                        },
+                        {
+                            "thermoProgram": ""
+                        },
+                        {
+                            "notice": "in the presence of various amount of ethidium bromide (from 0.05 to 0.5 mg/ml)"
+                        }
+                    ]
+                },
+                "sentence": "Incubate cell-free extracts (0.5 ml, approximately 20 mg/ml protein) and 0.1 ml Ni-NTA-Agarose beads (Qiagen) overnight at 4 °C in the presence of various amount of ethidium bromide (from 0.05 to 0.5 mg/ml)"
+            }
+        ]
+    },
+    {
+        "sentence": "Wash Ni-NTA-agarose beads gently three times with the following buffer: 25mM HEPES-KOH, pH 7.5, 50 \\(or 200) mM KCl, 10% glycerol",
+        "result": [
+            {
+                "WASH": {
+                    "emit": [
+                        {
+                            "output": "Ni-NTA-agarose beads"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "reagent1": "Ni-NTA-agarose beads"
+                        },
+                        {
+                            "reagent2": "buffer: 25mM HEPES-KOH, pH 7.5, 50 (or 200) mM KCl, 10% glycerol"
+                        },
+                        {
+                            "repeat": "3"
+                        }
+                    ]
+                },
+                "sentence": "Wash Ni-NTA-agarose beads gently three times with the following buffer: 25mM HEPES-KOH, pH 7.5, 50 (or 200) mM KCl, 10% glycerol."
+            }
+        ]
+    },
+    {
+        "sentence": "Transfer the beads to a 1.5 ml microcentrifuge tube with TE and pellet.",
+        "result": [
+            {
+                "TRANSFER": {
+                    "emit": [
+                        {
+                            "output": "beads"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "source": "beads"
+                        },
+                        {
+                            "destination": "1.5 ml microcentrifuge tube"
+                        },
+                        {
+                            "reagent1": "TE"
+                        }
+                    ]
+                },
+                "sentence": "Transfer the beads to a 1.5 ml microcentrifuge tube with TE and pellet."
+            },
+            {
+                "PELLET": {
+                    "emit": [
+                        {
+                            "output": "beads"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "reagent1": "beads"
+                        }
+                    ]
+                },
+                "sentence": "Transfer the beads to a 1.5 ml microcentrifuge tube with TE and pellet."
+            }
+        ]
+    },
+    {
+        "sentence": " Add SDS-PAGE sample buffer \\(2x, 0.1 ml) and cross-links reversed by boiling for 20 min. ",
+        "result": [
+            {
+                "ADD": {
+                    "emit": [
+                        {
+                            "output": "<blank>"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "reagent1": "SDS-PAGE sample buffer (2x, 0.1 ml)"
+                        },
+                        {
+                            "reagent2": "<blank>"
+                        },
+                        {
+                            "ratio": "<blank>"
+                        },
+                        {
+                            "concentration": "<blank>"
+                        },
+                        {
+                            "notice": "<blank>"
+                        }
+                    ]
+                },
+                "sentence": "Add SDS-PAGE sample buffer (2x, 0.1 ml)"
+            },
+            {
+                "BOIL": {
+                    "emit": [
+                        {
+                            "reagent0": "protein-DNA complexes"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "reagent1": "protein-DNA complexes"
+                        },
+                        {
+                            "time": "20 min"
+                        }
+                    ]
+                },
+                "warning": "BOIL not in ISA, using own knowledge to generate instruction.",
+                "sentence": "cross-links reversed by boiling for 20 min."
+            }
+        ]
+    },
+    {
+        "sentence": "Analyze samples by Western blotting using antibodies specific for DNA repair proteins Rad4 and Rad23",
+        "result": [
+            {
+                "ANALYZE": {
+                    "emit": [
+                        {
+                            "output": "Western blotting results"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "reagent1": "samples"
+                        },
+                        {
+                            "data1": "Western blotting"
+                        }
+                    ]
+                },
+                "sentence": "Analyze samples by Western blotting using antibodies specific for DNA repair proteins Rad4 and Rad23."
+            }
+        ]
+    }
+]

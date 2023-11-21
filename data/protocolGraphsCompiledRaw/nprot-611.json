@@ -1,0 +1,235 @@
+[
+    {
+        "sentence": "Place 10-300mg of zebrafish into microcentrifuge tubes.",
+        "result": [
+            {
+                "PLACE": {
+                    "emit": [
+                        {
+                            "output": "zebrafish in microcentrifuge tubes"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "reagent1": "10-300mg of zebrafish"
+                        },
+                        {
+                            "destination": "microcentrifuge tubes"
+                        }
+                    ]
+                },
+                "sentence": "Place 10-300mg of zebrafish into microcentrifuge tubes."
+            }
+        ]
+    },
+    {
+        "sentence": "To each tube, add two masses of zirconium oxide grinding beads for each mass of sample.",
+        "result": [
+            {
+                "ADD": {
+                    "emit": [
+                        {
+                            "output": "zebrafish in microcentrifuge tubes with zirconium oxide grinding beads"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "reagent1": "zebrafish in microcentrifuge tubes"
+                        },
+                        {
+                            "reagent2": "zirconium oxide grinding beads"
+                        },
+                        {
+                            "ratio": "two masses of zirconium oxide grinding beads for each mass of sample"
+                        }
+                    ]
+                },
+                "sentence": "To each tube, add two masses of zirconium oxide grinding beads for each mass of sample."
+            }
+        ]
+    },
+    {
+        "sentence": "Add 2 volumes of buffer for every mass of zebrafish ",
+        "result": [
+            {
+                "ADD": {
+                    "emit": [
+                        {
+                            "output": "zebrafish in microcentrifuge tubes with zirconium oxide grinding beads"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "reagent1": "zebrafish"
+                        },
+                        {
+                            "reagent2": "buffer"
+                        },
+                        {
+                            "ratio": "2 volumes for every mass"
+                        }
+                    ]
+                },
+                "sentence": "Add 2 volumes of buffer for every mass of zebrafish"
+            }
+        ]
+    },
+    {
+        "sentence": "Close the microcentrifuge tubes",
+        "result": [
+            {
+                "CLOSE": {
+                    "emit": [
+                        {
+                            "output": "closed microcentrifuge tubes"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "reagent1": "microcentrifuge tubes"
+                        }
+                    ]
+                },
+                "sentence": "Close the microcentrifuge tubes"
+            }
+        ]
+    },
+    {
+        "sentence": "place the tubes into the Bullet Blender",
+        "result": [
+            {
+                "PLACE": {
+                    "emit": [
+                        {
+                            "output": "closed microcentrifuge tubes in Bullet Blender"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "reagent1": "closed microcentrifuge tubes"
+                        },
+                        {
+                            "destination": "Bullet Blender"
+                        }
+                    ]
+                },
+                "sentence": "place the tubes into the Bullet Blender"
+            }
+        ]
+    },
+    {
+        "sentence": "Set controls for SPEED 8 and TIME 3 minutes and run",
+        "result": [
+            {
+                "SETUP": {
+                    "emit": [
+                        {
+                            "output": "processed zebrafish sample"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "container": "Bullet Blender"
+                        },
+                        {
+                            "reagent1": "zebrafish in microcentrifuge tubes with zirconium oxide grinding beads"
+                        },
+                        {
+                            "reagent2": ""
+                        },
+                        {
+                            "volume": ""
+                        },
+                        {
+                            "temperature": ""
+                        },
+                        {
+                            "environment": ""
+                        },
+                        {
+                            "notice": "Set controls for SPEED 8 and TIME 3 minutes"
+                        }
+                    ]
+                },
+                "sentence": "Set controls for SPEED 8 and TIME 3 minutes\nnotice:\n"
+            },
+            {
+                "RUN": {
+                    "emit": [
+                        {
+                            "output": "processed zebrafish sample"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "reagent1": "zebrafish in microcentrifuge tubes with zirconium oxide grinding beads"
+                        },
+                        {
+                            "reagent2": ""
+                        },
+                        {
+                            "volume": ""
+                        },
+                        {
+                            "device": "Bullet Blender"
+                        },
+                        {
+                            "program": "SPEED 8 and TIME 3 minutes"
+                        },
+                        {
+                            "voltage": ""
+                        },
+                        {
+                            "notice": ""
+                        }
+                    ]
+                },
+                "sentence": "and run\nnotice:\n"
+            }
+        ]
+    },
+    {
+        "sentence": "Remove tubes and proceed with your downstream application",
+        "result": [
+            {
+                "REMOVE": {
+                    "emit": [
+                        {
+                            "output": "tubes"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "reagent1": "tubes"
+                        },
+                        {
+                            "method": ""
+                        },
+                        {
+                            "device": ""
+                        },
+                        {
+                            "notice": ""
+                        }
+                    ]
+                },
+                "sentence": "Remove tubes"
+            },
+            {
+                "PROCEED": {
+                    "emit": [
+                        {
+                            "output": "processed zebrafish sample"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "procedure": "downstream application"
+                        }
+                    ]
+                },
+                "sentence": "proceed with your downstream application"
+            }
+        ]
+    }
+]

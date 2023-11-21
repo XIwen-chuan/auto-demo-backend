@@ -1,0 +1,393 @@
+[
+    {
+        "sentence": "Incubate the MTP well surface with 100 μL of 1% (w/v) KOH in DIW for 10 min at 37°C and wash five times with 300 μL DIW per well).",
+        "result": [
+            {
+                "INCUBATE": {
+                    "emit": [
+                        {
+                            "output": "incubated MTP well surface"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "reagent1": "MTP well surface"
+                        },
+                        {
+                            "reagent2": "1% (w/v) KOH in DIW"
+                        },
+                        {
+                            "temperature": "37°C"
+                        },
+                        {
+                            "time": "10 min"
+                        }
+                    ]
+                },
+                "sentence": "Incubate the MTP well surface with 100 μL of 1% (w/v) KOH in DIW for 10 min at 37°C"
+            },
+            {
+                "WASH": {
+                    "emit": [
+                        {
+                            "output": "washed MTP well surface"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "reagent1": "incubated MTP well surface"
+                        },
+                        {
+                            "reagent2": "300 μL DIW"
+                        },
+                        {
+                            "repeat": "5"
+                        }
+                    ]
+                },
+                "sentence": "and wash five times with 300 μL DIW per well)."
+            }
+        ]
+    },
+    {
+        "sentence": "Mix EDC-activated anti-HFA capture Ab (8 µg mL-1) with 1% (v/v) APTES in a ratio of 1:1 (v/v). ",
+        "result": [
+            {
+                "MIX": {
+                    "emit": [
+                        {
+                            "output": "mixture of EDC-activated anti-HFA capture Ab and APTES"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "reagent1": "EDC-activated anti-HFA capture Ab"
+                        },
+                        {
+                            "reagent2": "1% (v/v) APTES"
+                        },
+                        {
+                            "ratio": "1:1 (v/v)"
+                        }
+                    ]
+                },
+                "sentence": "Mix EDC-activated anti-HFA capture Ab (8 µg mL-1) with 1% (v/v) APTES in a ratio of 1:1 (v/v)."
+            }
+        ]
+    },
+    {
+        "sentence": "Incubate each of the desired wells of 96-well MTP with 100 μL of the freshly prepared anti-HFA capture Ab solution, with a final concentration of 4 µg mL-1 in 0.5% APTES, for 30 min at 37°C.",
+        "result": [
+            {
+                "INCUBATE": {
+                    "emit": [
+                        {
+                            "output": "incubated anti-HFA capture Ab solution"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "reagent1": "anti-HFA capture Ab solution"
+                        },
+                        {
+                            "reagent2": "0.5% APTES"
+                        },
+                        {
+                            "temperature": "37°C"
+                        },
+                        {
+                            "time": "30 min"
+                        }
+                    ]
+                },
+                "sentence": "Incubate each of the desired wells of 96-well MTP with 100 μL of the freshly prepared anti-HFA capture Ab solution, with a final concentration of 4 µg mL-1 in 0.5% APTES, for 30 min at 37°C."
+            }
+        ]
+    },
+    {
+        "sentence": "Wash five times with 300 μL of 0.1M PBS, pH 7.4. ",
+        "result": [
+            {
+                "WASH": {
+                    "emit": [
+                        {
+                            "output": "washed MTP well surface"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "reagent1": "MTP well surface"
+                        },
+                        {
+                            "reagent2": "0.1M PBS, pH 7.4"
+                        },
+                        {
+                            "repeat": "5"
+                        }
+                    ]
+                },
+                "sentence": "Wash five times with 300 μL of 0.1M PBS, pH 7.4."
+            }
+        ]
+    },
+    {
+        "sentence": "Block the MTP wells by incubating with 300 μL of 1% (w/v) BSA for 30 min a 37°C and wash with 300 μL of 0.1M PBS, pH 7.4 five times. ",
+        "result": [
+            {
+                "BLOCK": {
+                    "emit": [
+                        {
+                            "output": "blocked MTP wells"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "reagent1": "MTP wells"
+                        },
+                        {
+                            "reagent2": "1% (w/v) BSA"
+                        },
+                        {
+                            "temperature": "37°C"
+                        },
+                        {
+                            "time": "30 min"
+                        }
+                    ]
+                },
+                "sentence": "Block the MTP wells by incubating with 300 μL of 1% (w/v) BSA for 30 min a 37°C"
+            },
+            {
+                "WASH": {
+                    "emit": [
+                        {
+                            "output": "washed MTP well surface"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "reagent1": "MTP wells"
+                        },
+                        {
+                            "reagent2": "0.1M PBS, pH 7.4"
+                        },
+                        {
+                            "repeat": "5"
+                        }
+                    ]
+                },
+                "sentence": "and wash with 300 μL of 0.1M PBS, pH 7.4 five times."
+            }
+        ]
+    },
+    {
+        "sentence": "Dispense sequentially 100 µL of biotinylated anti-HFA detection Ab (0.17 µg mL-1) pre-conjugated to SA-HRP and 100 µL of HFA (varying concentrations; 0.1-243 ng mL-1) to the Ab-bound and BSA-blocked MTP wells. ",
+        "result": [
+            {
+                "DISPENSE": {
+                    "emit": [
+                        {
+                            "output": "Ab-bound and BSA-blocked MTP wells with dispensed reagent"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "reagent1": "biotinylated anti-HFA detection Ab pre-conjugated to SA-HRP"
+                        },
+                        {
+                            "volume": "100 µL"
+                        },
+                        {
+                            "container": "Ab-bound and BSA-blocked MTP wells"
+                        }
+                    ]
+                },
+                "sentence": "Dispense sequentially 100 µL of biotinylated anti-HFA detection Ab (0.17 µg mL-1) pre-conjugated to SA-HRP\nnotice:\n"
+            },
+            {
+                "DISPENSE": {
+                    "emit": [
+                        {
+                            "output": "Ab-bound and BSA-blocked MTP wells with dispensed reagent"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "reagent1": "biotinylated anti-HFA detection Ab and HFA"
+                        },
+                        {
+                            "volume": "100 µL"
+                        },
+                        {
+                            "container": "Ab-bound and BSA-blocked MTP wells"
+                        }
+                    ]
+                },
+                "sentence": "and 100 µL of HFA (varying concentrations; 0.1-243 ng mL-1) to the Ab-bound and BSA-blocked MTP wells.\nnotice:\n"
+            }
+        ]
+    },
+    {
+        "sentence": "Incubate for 15 min at 37°C",
+        "result": [
+            {
+                "INCUBATE": {
+                    "emit": [
+                        {
+                            "output": "incubated anti-HFA capture Ab solution"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "reagent1": "incubated anti-HFA capture Ab solution"
+                        },
+                        {
+                            "temperature": "37°C"
+                        },
+                        {
+                            "time": "15 min"
+                        }
+                    ]
+                },
+                "sentence": "Incubate for 15 min at 37°C"
+            }
+        ]
+    },
+    {
+        "sentence": "Wash the resulting sandwich immune complex-bound MTP with 300 µL of 0.1M PBS, pH 7.4 five times to remove the non-specifically substances and excess IA reagents.",
+        "result": [
+            {
+                "WASH": {
+                    "emit": [
+                        {
+                            "output": "washed MTP well surface"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "reagent1": "sandwich immune complex-bound MTP"
+                        },
+                        {
+                            "reagent2": "0.1M PBS, pH 7.4"
+                        },
+                        {
+                            "repeat": "5"
+                        }
+                    ]
+                },
+                "sentence": "Wash the resulting sandwich immune complex-bound MTP with 300 µL of 0.1M PBS, pH 7.4 five times"
+            },
+            {
+                "REMOVE": {
+                    "emit": [
+                        {
+                            "output": "washed MTP well surface"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "reagent1": "non-specifically substances and excess IA reagents"
+                        },
+                        {
+                            "method": "washing"
+                        },
+                        {
+                            "device": "MTP"
+                        }
+                    ]
+                },
+                "sentence": "to remove the non-specifically substances and excess IA reagents."
+            }
+        ]
+    },
+    {
+        "sentence": "Add 100 µL of the TMB-H2O2 mixture to each MTP well and incubate at RT for 14 min to allow the enzymatic reaction to develop color",
+        "result": [
+            {
+                "ADD": {
+                    "emit": [
+                        {
+                            "output": "MTP well with TMB-H2O2 mixture"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "reagent1": "MTP well"
+                        },
+                        {
+                            "reagent2": "100 µL of the TMB-H2O2 mixture"
+                        }
+                    ]
+                },
+                "sentence": "Add 100 µL of the TMB-H2O2 mixture to each MTP well"
+            },
+            {
+                "INCUBATE": {
+                    "emit": [
+                        {
+                            "output": "MTP well with developed color"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "reagent1": "MTP well with TMB-H2O2 mixture"
+                        },
+                        {
+                            "temperature": "RT"
+                        },
+                        {
+                            "time": "14 min"
+                        }
+                    ]
+                },
+                "sentence": "incubate at RT for 14 min to allow the enzymatic reaction to develop color"
+            }
+        ]
+    },
+    {
+        "sentence": "Stop the enzymatic reaction by adding 50 µL of 2N H2SO4 to each MTP well.",
+        "result": [
+            {
+                "ADD": {
+                    "emit": [
+                        {
+                            "output": "MTP well with stopped enzymatic reaction"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "reagent1": "MTP well"
+                        },
+                        {
+                            "reagent2": "50 µL of 2N H2SO4"
+                        }
+                    ]
+                },
+                "sentence": "Stop the enzymatic reaction by adding 50 µL of 2N H2SO4 to each MTP well."
+            }
+        ]
+    },
+    {
+        "sentence": "Record the absorbance at a primary wavelength of 450 nm taking 540 nm as the reference wavelength in a Tecan Infinite M200 Pro microplate reader.",
+        "result": [
+            {
+                "RECORD": {
+                    "emit": [
+                        {
+                            "output": "absorbance data"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "information": "absorbance at a primary wavelength of 450 nm taking 540 nm as the reference wavelength"
+                        },
+                        {
+                            "device": "Tecan Infinite M200 Pro microplate reader"
+                        }
+                    ]
+                },
+                "sentence": "Record the absorbance at a primary wavelength of 450 nm taking 540 nm as the reference wavelength in a Tecan Infinite M200 Pro microplate reader."
+            }
+        ]
+    }
+]

@@ -1,0 +1,290 @@
+[
+  {
+    "title": "",
+    "body": [
+      {
+        "sentence": "Grow yeast cells carrying the empty vector, pDR-AMT1;1, pDRAMT1;1-T460A or pDR-AMT1;1-T460D plasmids, in liquid YNB media supplemented with 3% glucose and 5mM arginine.",
+        "result": {
+          "GROW": {
+            "emit": [],
+            "slot": [
+              {
+                "it's a slot key": "it's a slot value"
+              }
+            ]
+          }
+        }
+      }
+    ]
+  },
+  {
+    "title": "",
+    "body": [
+      {
+        "sentence": "Harvest cells at OD600 0.6-0.8 and chill on ice.",
+        "result": {
+          "ADD": {
+            "emit": [],
+            "slot": [
+              {
+                "it's a slot key": "it's a slot value"
+              }
+            ]
+          }
+        }
+      }
+    ]
+  },
+  {
+    "title": "",
+    "body": [
+      {
+        "sentence": "Harvest cells from 100 mL culture by centrifugation at 5,000g for 10 min at 4\u00b0C and wash once with half volume of chilled water.",
+        "result": {
+          "ADD": {
+            "emit": [],
+            "slot": [
+              {
+                "it's a slot key": "it's a slot value"
+              }
+            ]
+          }
+        }
+      }
+    ]
+  },
+  {
+    "title": "",
+    "body": [
+      {
+        "sentence": "Resuspend cells in 200 \u00b5L of chilled extraction buffer (20 mM Tris-HCl, 10 mM MgCl2, 1 mM EDTA, 5% Glycerol, 1 mM DTT, 1 mM PMSF and 1x protease inhibitor cocktail (Sigma-Aldrich, St. Louis, Mo), pH 8) and disrupt with glass beads.",
+        "result": {
+          "ADD": {
+            "emit": [],
+            "slot": [
+              {
+                "it's a slot key": "it's a slot value"
+              }
+            ]
+          }
+        }
+      }
+    ]
+  },
+  {
+    "title": "",
+    "body": [
+      {
+        "sentence": "Lyze cells with 10 vortex cycles (30 sec each) alternating with ice incubation.",
+        "result": {
+          "ADD": {
+            "emit": [],
+            "slot": [
+              {
+                "it's a slot key": "it's a slot value"
+              }
+            ]
+          }
+        }
+      }
+    ]
+  },
+  {
+    "title": "",
+    "body": [
+      {
+        "sentence": "Collect supernatants after centrifugation at 12,000g for 5 min.",
+        "result": {
+          "COLLECT": {
+            "emit": [],
+            "slot": [
+              {
+                "it's a slot key": "it's a slot value"
+              }
+            ]
+          }
+        }
+      }
+    ]
+  },
+  {
+    "title": "",
+    "body": [
+      {
+        "sentence": "Resuspend cell debris and glass beads in 1mL of extraction buffer, vortex twice for 30 sec and centrifuge again.",
+        "result": {
+          "ADD": {
+            "emit": [],
+            "slot": [
+              {
+                "it's a slot key": "it's a slot value"
+              }
+            ]
+          }
+        }
+      }
+    ]
+  },
+  {
+    "title": "",
+    "body": [
+      {
+        "sentence": "Collect the supernatant and pool with the first one.",
+        "result": {
+          "COLLECT": {
+            "emit": [],
+            "slot": [
+              {
+                "it's a slot key": "it's a slot value"
+              }
+            ]
+          }
+        }
+      }
+    ]
+  },
+  {
+    "title": "",
+    "body": [
+      {
+        "sentence": "Harvest the microsomal fraction by centrifugation at 100,000g for 50 min at 4\u00b0C.",
+        "result": {
+          "ADD": {
+            "emit": [],
+            "slot": [
+              {
+                "it's a slot key": "it's a slot value"
+              }
+            ]
+          }
+        }
+      }
+    ]
+  },
+  {
+    "title": "",
+    "body": [
+      {
+        "sentence": "Resuspend the pellet in 200 \u00b5L of storage buffer (20 mM Tris-Cl, 0.1 mM EDTA, 10% glycerol, 100 mM KCl, 1 mM DTT, 1 mM PMSF and 1x protease inhibitor cocktail, pH7.5).",
+        "result": {
+          "ADD": {
+            "emit": [],
+            "slot": [
+              {
+                "it's a slot key": "it's a slot value"
+              }
+            ]
+          }
+        }
+      }
+    ]
+  },
+  {
+    "title": "",
+    "body": [
+      {
+        "sentence": "Estimate protein concentration by Bradford protein assay (Bio-Rad, Hercules, CA) using BSA as standard.",
+        "result": {
+          "ADD": {
+            "emit": [],
+            "slot": [
+              {
+                "it's a slot key": "it's a slot value"
+              }
+            ]
+          }
+        }
+      }
+    ]
+  },
+  {
+    "title": "",
+    "body": [
+      {
+        "sentence": "Denature proteins (5 \u00b5g per lane) in loading buffer (62.5 mM Tris-HCl pH 6.8, 10% v/v glycerol, 2% w/v SDS, 2.5% v/v \u03b2-mercaptoethanol, 0.01% w/v bromophenol blue) at 37\u00b0C for 30 min",
+        "result": {
+          "DENATURE": {
+            "emit": [],
+            "slot": [
+              {
+                "it's a slot key": "it's a slot value"
+              }
+            ]
+          }
+        }
+      }
+    ]
+  },
+  {
+    "title": "",
+    "body": [
+      {
+        "sentence": "separate on 10% SDS-PAGE gels and transfer to PVDF membrane.",
+        "result": {
+          "SEPARATE": {
+            "emit": [],
+            "slot": [
+              {
+                "it's a slot key": "it's a slot value"
+              }
+            ]
+          }
+        }
+      }
+    ]
+  },
+  {
+    "title": "",
+    "body": [
+      {
+        "sentence": "Dilute the primary antibody (1/1,000) and secondary antibody (1/10,000; peroxidase-conjugated anti-rabbit IgG - Pierce Biotechnology, Rockford, IL) in blocking solution. ",
+        "result": {
+          "DILUTE": {
+            "emit": [],
+            "slot": [
+              {
+                "it's a slot key": "it's a slot value"
+              }
+            ]
+          }
+        }
+      }
+    ]
+  },
+  {
+    "title": "",
+    "body": [
+      {
+        "sentence": "Use rainbow marker (Amersham Biosciences, Piscataway, NJ) as a molecular mass marker.",
+        "result": {
+          "ADD": {
+            "emit": [],
+            "slot": [
+              {
+                "it's a slot key": "it's a slot value"
+              }
+            ]
+          }
+        }
+      }
+    ]
+  },
+  {
+    "title": "",
+    "body": [
+      {
+        "sentence": "Develop blots using SuperSignal West Pico Chemiluminescent Substrate (Pierce Biotechnology, Rockford, IL).",
+        "result": {
+          "ADD": {
+            "emit": [],
+            "slot": [
+              {
+                "it's a slot key": "it's a slot value"
+              }
+            ]
+          }
+        }
+      }
+    ]
+  }
+]

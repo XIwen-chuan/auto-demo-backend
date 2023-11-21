@@ -1,0 +1,295 @@
+[
+    {
+        "sentence": "Activation of Polystyrene Surface The wells of a polystyrene microtiter plate were loaded with FNAB \\ (10 μmol/50 μl methanol/well)",
+        "result": [
+            {
+                "LOAD": {
+                    "emit": [
+                        {
+                            "output": "FNAB (10 μmol/50 μl methanol/well)"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "reagent1": "FNAB (10 μmol/50 μl methanol/well)"
+                        },
+                        {
+                            "destination": "polystyrene microtiter plate"
+                        }
+                    ]
+                },
+                "sentence": "The wells of a polystyrene microtiter plate were loaded with FNAB (10 μmol/50 μl methanol/well)"
+            }
+        ]
+    },
+    {
+        "sentence": " air dry in the dark in a fume hood to get FNAB coated polymer surface",
+        "result": [
+            {
+                "AIR DRY": {
+                    "emit": [
+                        {
+                            "reagent0": "FNAB coated polymer surface"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "reagent1": "FNAB (10 μmol/50 μl methanol/well)"
+                        },
+                        {
+                            "condition": "dark"
+                        },
+                        {
+                            "location": "fume hood"
+                        }
+                    ]
+                },
+                "warning": "AIR DRY not in ISA, using own knowledge to generate instruction.",
+                "sentence": "air dry in the dark in a fume hood to get FNAB coated polymer surface."
+            }
+        ]
+    },
+    {
+        "sentence": "FNAB coated polymer was then exposed to UV light at a wavelength of 365 nm for 20 min.",
+        "result": [
+            {
+                "EXPOSE": {
+                    "emit": [
+                        {
+                            "output": "FNAB coated polymer surface"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "reagent1": "FNAB coated polymer"
+                        },
+                        {
+                            "method": "UV light"
+                        },
+                        {
+                            "time": "20 min"
+                        }
+                    ]
+                },
+                "sentence": "FNAB coated polymer was then exposed to UV light at a wavelength of 365 nm for 20 min."
+            }
+        ]
+    },
+    {
+        "sentence": "The wells were washed thrice by ethanol followed by methanol.",
+        "result": [
+            {
+                "WASH": {
+                    "emit": [
+                        {
+                            "output": "methanol"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "reagent1": "wells"
+                        },
+                        {
+                            "reagent2": "ethanol"
+                        },
+                        {
+                            "repeat": "3"
+                        }
+                    ]
+                },
+                "sentence": "The wells were washed thrice by ethanol followed by methanol."
+            }
+        ]
+    },
+    {
+        "sentence": "The activated plates were dried and used further for enzyme \\(biomolecule) immobilization",
+        "result": [
+            {
+                "DRY": {
+                    "emit": [
+                        {
+                            "output": "activated plates"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "reagent1": "activated plates"
+                        },
+                        {
+                            "device": "oven"
+                        },
+                        {
+                            "temperature": "room temperature"
+                        },
+                        {
+                            "time": "30 minutes"
+                        }
+                    ]
+                },
+                "sentence": "The activated plates were dried and used further for enzyme (biomolecule) immobilization."
+            }
+        ]
+    },
+    {
+        "sentence": "Optimization of incubation time for immobilisation of HRP on the Activated Polystyrene Surface A stock solution of HRP was made in PBS \\(pH 7.2, 0.01 M)",
+        "result": []
+    },
+    {
+        "sentence": "Different amounts of HRP \\(0–15 μg/well) were loaded into FNAB treated as well as untreated polystyrene wells and the \u0000final volume of each well was made up to 300 μl by adding buffer",
+        "result": [
+            {
+                "LOAD": {
+                    "emit": [
+                        {
+                            "output": "HRP"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "reagent1": "HRP"
+                        },
+                        {
+                            "destination": "FNAB treated as well as untreated polystyrene wells"
+                        },
+                        {
+                            "volume": "0-15 μg/well"
+                        },
+                        {
+                            "method": "buffer"
+                        }
+                    ]
+                },
+                "sentence": "Different amounts of HRP (0–15 μg/well) were loaded into FNAB treated as well as untreated polystyrene wells."
+            },
+            {
+                "ADD": {
+                    "emit": [
+                        {
+                            "output": "300 μl"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "reagent1": "FNAB treated as well as untreated polystyrene wells"
+                        },
+                        {
+                            "reagent2": "buffer"
+                        }
+                    ]
+                },
+                "sentence": "the final volume of each well was made up to 300 μl by adding buffer."
+            }
+        ]
+    },
+    {
+        "sentence": "The plates were incubated at 37°C for different time periods \\(45 min and 4 h)",
+        "result": [
+            {
+                "INCUBATE": {
+                    "emit": [
+                        {
+                            "output": "protein-DNA complexes"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "reagent1": "protein-DNA complexes"
+                        },
+                        {
+                            "reagent2": ""
+                        },
+                        {
+                            "temperature": "37°C"
+                        },
+                        {
+                            "time": "45 min and 4 h"
+                        },
+                        {
+                            "environment": ""
+                        },
+                        {
+                            "device": ""
+                        },
+                        {
+                            "thermoProgram": ""
+                        },
+                        {
+                            "notice": "prior to measurements"
+                        }
+                    ]
+                },
+                "sentence": "The plates were incubated at 37°C for different time periods (45 min and 4 h)."
+            }
+        ]
+    },
+    {
+        "sentence": "each well was washed thoroughly with washing buffer followed by the addition of substrate- dye buffer \\(300 ml/well).",
+        "result": [
+            {
+                "WASH": {
+                    "emit": [
+                        {
+                            "output": "well"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "reagent1": "well"
+                        },
+                        {
+                            "reagent2": "washing buffer"
+                        },
+                        {
+                            "repeat": "1"
+                        },
+                        {
+                            "time": "<blank>"
+                        },
+                        {
+                            "notice": "<blank>"
+                        }
+                    ]
+                },
+                "sentence": "each well was washed thoroughly with washing buffer"
+            },
+            {
+                "ADD": {
+                    "emit": [
+                        {
+                            "output": "well"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "reagent1": "washing buffer"
+                        },
+                        {
+                            "reagent2": "substrate-dye buffer"
+                        }
+                    ]
+                },
+                "sentence": "followed by the addition of substrate-dye buffer (300 ml/well)."
+            }
+        ]
+    },
+    {
+        "sentence": "The absorbance was recorded at 490 nm.\n",
+        "result": [
+            {
+                "RECORD": {
+                    "emit": [
+                        {
+                            "output": "The absorbance value"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "information": "The absorbance at 490 nm"
+                        }
+                    ]
+                },
+                "sentence": "The absorbance was recorded at 490 nm."
+            }
+        ]
+    }
+]

@@ -1,0 +1,541 @@
+[
+    {
+        "sentence": "Assemble minigel glasses and spacers. We use 100 mm x 100 mm x 1 mm minigel apparatus from Nihon Eido (Tokyo, Japan)",
+        "result": [
+            {
+                "ASSEMBLE": {
+                    "emit": [
+                        {
+                            "output": "assembled minigel apparatus"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "reagent1": "minigel glasses and spacers"
+                        },
+                        {
+                            "reagent2": "Nihon Eido minigel apparatus"
+                        }
+                    ]
+                },
+                "sentence": "Assemble minigel glasses and spacers."
+            }
+        ]
+    },
+    {
+        "sentence": "Prepare Phos-tag separation gel solution by mixing solutions A+B+D+E with DW. We normally use 5% gel with 3.5 μM Phos-tag and 7 μM MnCl2 for 150 kDa protein. Add TEMED and solution F. Mix then pour. Allow to polymerize for 1 h.",
+        "result": [
+            {
+                "PREPARE": {
+                    "emit": [
+                        {
+                            "output": "Phos-tag separation gel solution"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "reagent1": "Phos-tag separation gel solution"
+                        },
+                        {
+                            "container": "mixing container"
+                        }
+                    ]
+                },
+                "sentence": "Prepare Phos-tag separation gel solution by mixing solutions A+B+D+E with DW."
+            },
+            {
+                "ADD": {
+                    "emit": [
+                        {
+                            "output": "Phos-tag separation gel solution"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "reagent1": "Phos-tag separation gel solution"
+                        },
+                        {
+                            "reagent2": "TEMED and solution F"
+                        }
+                    ]
+                },
+                "sentence": "Add TEMED and solution F."
+            },
+            {
+                "MIX": {
+                    "emit": [
+                        {
+                            "output": "Phos-tag separation gel solution"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "reagent1": "Phos-tag separation gel solution"
+                        },
+                        {
+                            "reagent2": "TEMED and solution F"
+                        }
+                    ]
+                },
+                "sentence": "Mix then pour."
+            },
+            {
+                "ALLOW": {
+                    "emit": [
+                        {
+                            "reagent0": "assembled minigel apparatus, Phos-tag separation gel solution"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "input": "assembled minigel apparatus, Phos-tag separation gel solution"
+                        },
+                        {
+                            "time": "1 h"
+                        }
+                    ]
+                },
+                "warning": "ALLOW not in ISA, using own knowledge to generate instruction.",
+                "sentence": "Allow to polymerize for 1 h."
+            }
+        ]
+    },
+    {
+        "sentence": "Prepare stacking gel solution by mixing solutions A+C with DW. Add TEMED and solution F. Mix then pour. Allow to polymerize for ~ 1 h.",
+        "result": [
+            {
+                "PREPARE": {
+                    "emit": [
+                        {
+                            "output": "stacking gel solution"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "reagent1": "stacking gel solution"
+                        },
+                        {
+                            "container": "1.5 ml Eppendorf tube"
+                        }
+                    ]
+                },
+                "sentence": "Prepare stacking gel solution by mixing solutions A+C with DW."
+            },
+            {
+                "ADD": {
+                    "emit": [
+                        {
+                            "output": "stacking gel solution"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "reagent1": "stacking gel solution"
+                        },
+                        {
+                            "reagent2": "TEMED and solution F"
+                        },
+                        {
+                            "ratio": "<blank>"
+                        },
+                        {
+                            "concentration": "<blank>"
+                        },
+                        {
+                            "notice": "<blank>"
+                        }
+                    ]
+                },
+                "sentence": "Add TEMED and solution F."
+            },
+            {
+                "MIX": {
+                    "emit": [
+                        {
+                            "output": "Phos-tag separation gel solution"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "reagent1": "Phos-tag separation gel solution"
+                        },
+                        {
+                            "reagent2": "TEMED and solution F"
+                        }
+                    ]
+                },
+                "sentence": "Mix then pour."
+            },
+            {
+                "ALLOW": {
+                    "emit": [
+                        {
+                            "reagent0": "assembled minigel apparatus, Phos-tag separation gel solution"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "reagent1": "assembled minigel apparatus, Phos-tag separation gel solution"
+                        },
+                        {
+                            "time": "1 h"
+                        }
+                    ]
+                },
+                "warning": "ALLOW not in ISA, using own knowledge to generate instruction.",
+                "sentence": "Allow to polymerize for ~ 1 h."
+            }
+        ]
+    },
+    {
+        "sentence": "Prepare sample by mixing whole cell lysate (or immunoprecipitates) with sample buffer.",
+        "result": [
+            {
+                "PREPARE": {
+                    "emit": [
+                        {
+                            "output": "prepared sample"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "reagent1": "whole cell lysate (or immunoprecipitates)"
+                        },
+                        {
+                            "container": "sample buffer"
+                        }
+                    ]
+                },
+                "sentence": "Prepare sample by mixing whole cell lysate (or immunoprecipitates) with sample buffer."
+            }
+        ]
+    },
+    {
+        "sentence": "Load samples onto the gel. Avoid loading dissimilar samples (i.e. salt concentrations etc.) to two adjoining wells, since this will cause severe distortion of the bands. It is necessary to set a vacant lane between samples and molecular weight markers to avoid such problems",
+        "result": [
+            {
+                "LOAD": {
+                    "emit": [
+                        {
+                            "output": "images"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "reagent1": "prepared sample"
+                        },
+                        {
+                            "destination": "gel"
+                        },
+                        {
+                            "method": "carefully"
+                        },
+                        {
+                            "notice": "Avoid loading dissimilar samples (i.e. salt concentrations etc.) to two adjoining wells, since this will cause severe distortion of the bands. It is necessary to set a vacant lane between samples and molecular weight markers to avoid such problems."
+                        }
+                    ]
+                },
+                "sentence": "Load samples onto the gel.\nnotice:\nAvoid loading dissimilar samples (i.e. salt concentrations etc.) to two adjoining wells, since this will cause severe distortion of the bands. It is necessary to set a vacant lane between samples and molecular weight markers to avoid such problems."
+            }
+        ]
+    },
+    {
+        "sentence": "Run the gel at very slow speed with low constant current (~5 mA). It will require a long time; for our apparatus, it takes about 12 h to finish separation. It seems important to spend a long time for electrophoresis to obtain good separation. It is also important to use the separation gel buffer with appropriate pH (8.8). We experienced strong effect on gel running speed due to small fluctuations in the buffer pH.",
+        "result": [
+            {
+                "RUN": {
+                    "emit": [
+                        {
+                            "output": "<blank>"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "reagent1": "10 ul or 200 ng of ligation products"
+                        },
+                        {
+                            "reagent2": "1% agarose gel with 0.5 ug/ml ethidium bromide in 1X TAE buffer"
+                        },
+                        {
+                            "volume": "<blank>"
+                        },
+                        {
+                            "device": "<blank>"
+                        },
+                        {
+                            "program": "<blank>"
+                        },
+                        {
+                            "voltage": "<blank>"
+                        },
+                        {
+                            "notice": "<blank>"
+                        }
+                    ]
+                },
+                "sentence": "Run the gel at very slow speed with low constant current (~5 mA)."
+            },
+            {
+                "TAKE": {
+                    "emit": [
+                        {
+                            "output": "images"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "reagent1": "Phos-tag separation gel solution"
+                        },
+                        {
+                            "reagent2": ""
+                        },
+                        {
+                            "volume": ""
+                        },
+                        {
+                            "temperature": ""
+                        },
+                        {
+                            "device": "minigel apparatus"
+                        },
+                        {
+                            "source": ""
+                        },
+                        {
+                            "notice": ""
+                        }
+                    ]
+                },
+                "sentence": "It will require a long time; for our apparatus, it takes about 12 h to finish separation."
+            },
+            {
+                "USE": {
+                    "emit": [
+                        {
+                            "reagent0": "separation gel buffer"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "reagent1": "separation gel buffer"
+                        },
+                        {
+                            "pH": "8.8"
+                        }
+                    ]
+                },
+                "warning": "USE not in ISA, using own knowledge to generate instruction.",
+                "sentence": "It is also important to use the separation gel buffer with appropriate pH (8.8)."
+            }
+        ]
+    },
+    {
+        "sentence": "Equilibrate the gel with transfer buffer supplemented with 1 mM EDTA for 10 min. This is required to enhance efficiency of transfer. Then continue equilibration with transfer buffer without EDTA for additional 10 min.",
+        "result": [
+            {
+                "EQUILIBRATE": {
+                    "emit": [
+                        {
+                            "output": "gel"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "reagent1": "gel"
+                        },
+                        {
+                            "reagent2": "transfer buffer supplemented with 1 mM EDTA"
+                        },
+                        {
+                            "volume": "<blank>"
+                        },
+                        {
+                            "time": "10 min"
+                        },
+                        {
+                            "temperature": "<blank>"
+                        },
+                        {
+                            "device": "<blank>"
+                        },
+                        {
+                            "flowRate": "<blank>"
+                        },
+                        {
+                            "notice": "This is required to enhance efficiency of transfer."
+                        }
+                    ]
+                },
+                "sentence": "Equilibrate the gel with transfer buffer supplemented with 1 mM EDTA for 10 min.\nnotice:\nThis is required to enhance efficiency of transfer."
+            },
+            {
+                "CONTINUE": {
+                    "emit": [
+                        {
+                            "reagent0": "gel"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "reagent1": "gel"
+                        },
+                        {
+                            "reagent2": "transfer buffer without EDTA"
+                        },
+                        {
+                            "time": "10 min"
+                        }
+                    ]
+                },
+                "warning": "CONTINUE not in ISA, using own knowledge to generate instruction.",
+                "sentence": "Then continue equilibration with transfer buffer without EDTA for additional 10 min."
+            }
+        ]
+    },
+    {
+        "sentence": "Wet PVDF membrane with the transfer buffer",
+        "result": [
+            {
+                "WET": {
+                    "emit": [
+                        {
+                            "reagent0": "wet PVDF membrane"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "reagent1": "PVDF membrane"
+                        },
+                        {
+                            "reagent2": "transfer buffer"
+                        }
+                    ]
+                },
+                "warning": "WET not in ISA, using own knowledge to generate instruction.",
+                "sentence": "Wet PVDF membrane with the transfer buffer."
+            }
+        ]
+    },
+    {
+        "sentence": "Assemble gel-membrane stack with 3MM filter paper",
+        "result": [
+            {
+                "ASSEMBLE": {
+                    "emit": [
+                        {
+                            "output": "assembled minigel apparatus"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "reagent1": "gel-membrane stack"
+                        },
+                        {
+                            "reagent2": "3MM filter paper"
+                        }
+                    ]
+                },
+                "sentence": "Assemble gel-membrane stack with 3MM filter paper."
+            }
+        ]
+    },
+    {
+        "sentence": "Transfer in a submarine-type apparatus for 60 min at 100 V constant voltage. Keep the apparatus at low temperature with plenty of ice",
+        "result": [
+            {
+                "TRANSFER": {
+                    "emit": [
+                        {
+                            "output": "frozen samples"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "source": "assembled minigel apparatus"
+                        },
+                        {
+                            "destination": "submarine-type apparatus"
+                        },
+                        {
+                            "reagent1": "frozen samples"
+                        },
+                        {
+                            "volume": "60 min"
+                        },
+                        {
+                            "equipment": "100 V constant voltage"
+                        },
+                        {
+                            "notice": "Keep the apparatus at low temperature with plenty of ice"
+                        }
+                    ]
+                },
+                "sentence": "Transfer in a submarine-type apparatus for 60 min at 100 V constant voltage."
+            },
+            {
+                "KEEP": {
+                    "emit": [
+                        {
+                            "output": "frozen samples"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "reagent1": "frozen samples"
+                        },
+                        {
+                            "temperature": "low temperature"
+                        },
+                        {
+                            "time": "60 min"
+                        },
+                        {
+                            "environment": "with plenty of ice"
+                        },
+                        {
+                            "container": "submarine-type apparatus"
+                        }
+                    ]
+                },
+                "sentence": "Keep the apparatus at low temperature with plenty of ice."
+            }
+        ]
+    },
+    {
+        "sentence": "This can be done with a standard Western protocol. We found it important not to block too strongly; this may erase faint bands. We normally use 2% BSA/TBS-T overnight at 4°C. Dilution and incubation length should be optimized with each antibody used. Quality of the antibody is particularly important, since non-specific bands may confound interpretation of the data. Thus it is desirable to include appropriate control (i.e. expression of mutant protein lacking phosphorylation sites)",
+        "result": [
+            {
+                "OPTIMIZE": {
+                    "emit": [
+                        {
+                            "reagent0": "optimized conditions"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "reagent1": "antibody"
+                        }
+                    ]
+                },
+                "warning": "OPTIMIZE not in ISA, using own knowledge to generate instruction.",
+                "sentence": "Dilution and incubation length should be optimized with each antibody used."
+            },
+            {
+                "INCLUDE": {
+                    "emit": [
+                        {
+                            "reagent0": "mutant protein lacking phosphorylation sites"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "control": "mutant protein lacking phosphorylation sites"
+                        }
+                    ]
+                },
+                "warning": "INCLUDE not in ISA, using own knowledge to generate instruction.",
+                "sentence": "It is desirable to include appropriate control (i.e. expression of mutant protein lacking phosphorylation sites)."
+            }
+        ]
+    }
+]

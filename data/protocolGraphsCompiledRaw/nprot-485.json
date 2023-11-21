@@ -1,0 +1,893 @@
+[
+    {
+        "sentence": "Use one month-old mice. To minimize diurnal variation start isolation of hepatocytes in the morning (10-11a.m.).",
+        "result": [
+            {
+                "USE": {
+                    "emit": [
+                        {
+                            "reagent0": "one month-old mice"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "reagent1": "one month-old mice"
+                        }
+                    ]
+                },
+                "warning": "USE not in ISA, using own knowledge to generate instruction.",
+                "sentence": "Use one month-old mice."
+            },
+            {
+                "START": {
+                    "emit": [
+                        {
+                            "reagent0": "hepatocytes"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "input": "one month-old mice"
+                        },
+                        {
+                            "time": "10-11a.m."
+                        }
+                    ]
+                },
+                "warning": "START not in ISA, using own knowledge to generate instruction.",
+                "sentence": "To minimize diurnal variation start isolation of hepatocytes in the morning (10-11a.m.)."
+            }
+        ]
+    },
+    {
+        "sentence": "Anaesthetise mice by intraperitoneal injection of 200 μl of Cloralium Hydrate",
+        "result": [
+            {
+                "INJECT": {
+                    "emit": [
+                        {
+                            "output": "hepatocytes"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "reagent1": "200 μl of Cloralium Hydrate"
+                        },
+                        {
+                            "reagent2/destination": "mice"
+                        },
+                        {
+                            "device": "<blank>"
+                        },
+                        {
+                            "notice": "<blank>"
+                        }
+                    ]
+                },
+                "sentence": "Anaesthetise mice by intraperitoneal injection of 200 μl of Cloralium Hydrate."
+            }
+        ]
+    },
+    {
+        "sentence": "Insert the cannula in the portal vein and start perfusion with T1 solution pH 7.4. As soon as the perfusion is started, immediately cut the hepatic vein to allow perfusate to run as a waste.",
+        "result": [
+            {
+                "INSERT": {
+                    "emit": [
+                        {
+                            "reagent0": "cannula in the portal vein"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "reagent1": "cannula"
+                        },
+                        {
+                            "reagent2": "portal vein"
+                        }
+                    ]
+                },
+                "warning": "INSERT not in ISA, using own knowledge to generate instruction.",
+                "sentence": "Insert the cannula in the portal vein."
+            },
+            {
+                "START": {
+                    "emit": [
+                        {
+                            "reagent0": "hepatocytes"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "reagent1": "T1 solution"
+                        },
+                        {
+                            "pH": "7.4"
+                        }
+                    ]
+                },
+                "warning": "START not in ISA, using own knowledge to generate instruction.",
+                "sentence": "Start perfusion with T1 solution pH 7.4."
+            },
+            {
+                "CUT": {
+                    "emit": [
+                        {
+                            "output": "hepatic vein"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "reagent": "hepatic vein"
+                        },
+                        {
+                            "device": "<blank>"
+                        },
+                        {
+                            "size": "<blank>"
+                        },
+                        {
+                            "direction": "to allow perfusate to run as a waste"
+                        },
+                        {
+                            "environment": "<blank>"
+                        }
+                    ]
+                },
+                "sentence": "As soon as the perfusion is started, immediately cut the hepatic vein to allow perfusate to run as a waste."
+            }
+        ]
+    },
+    {
+        "sentence": "Flow rate is 5 ml/min. Perfuse liver for 15-20 minutes to remove completely the blood in each lobe",
+        "result": [
+            {
+                "PERFUSE": {
+                    "emit": [
+                        {
+                            "output": "perfused liver"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "reagent1": "liver"
+                        },
+                        {
+                            "reagent2": "T1 solution"
+                        },
+                        {
+                            "location": "portal vein"
+                        },
+                        {
+                            "method": "transcardially"
+                        },
+                        {
+                            "purpose": "<blank>"
+                        }
+                    ]
+                },
+                "sentence": "Perfuse liver for 15-20 minutes to remove completely the blood in each lobe."
+            }
+        ]
+    },
+    {
+        "sentence": "Perfuse the liver with T2 solution pH 7.4. At this stage the hepatic tissue is rapidly disaggregated. Collect the tissue with a curved spatula and transfer into a plate where the disruption of the tissue is proceeded with a scalpel. This step should be fast in order to avoid damage of hepatocytes.",
+        "result": [
+            {
+                "PERFUSE": {
+                    "emit": [
+                        {
+                            "output": "perfused liver"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "reagent1": "liver"
+                        },
+                        {
+                            "reagent2": "T2 solution pH 7.4"
+                        },
+                        {
+                            "location": "portal vein"
+                        },
+                        {
+                            "method": "transcardially"
+                        }
+                    ]
+                },
+                "sentence": "Perfuse the liver with T2 solution pH 7.4."
+            },
+            {
+                "COLLECT": {
+                    "emit": [
+                        {
+                            "output": "hepatic tissue"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "reagent1": "hepatic tissue"
+                        },
+                        {
+                            "container": "plate"
+                        },
+                        {
+                            "source": "liver"
+                        },
+                        {
+                            "method": "curved spatula"
+                        }
+                    ]
+                },
+                "sentence": "Collect the tissue with a curved spatula."
+            },
+            {
+                "TRANSFER": {
+                    "emit": [
+                        {
+                            "output": "hepatic tissue"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "source": "curved spatula"
+                        },
+                        {
+                            "destination": "plate"
+                        },
+                        {
+                            "reagent1": "hepatic tissue"
+                        }
+                    ]
+                },
+                "sentence": "Transfer the tissue into a plate."
+            },
+            {
+                "PROCEED": {
+                    "emit": [
+                        {
+                            "output": "hepatic tissue"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "procedure": "the disruption of the tissue with a scalpel"
+                        },
+                        {
+                            "environment": ""
+                        },
+                        {
+                            "notice": ""
+                        }
+                    ]
+                },
+                "sentence": "Proceed with the disruption of the tissue with a scalpel."
+            }
+        ]
+    },
+    {
+        "sentence": "Remove the bladder and mince the tissue with a scalpel.",
+        "result": [
+            {
+                "REMOVE": {
+                    "emit": [
+                        {
+                            "output": "bladder"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "reagent1": "bladder"
+                        },
+                        {
+                            "method": "dissection"
+                        }
+                    ]
+                },
+                "sentence": "Remove the bladder"
+            },
+            {
+                "CUT": {
+                    "emit": [
+                        {
+                            "output": "hepatic tissue"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "reagent": "hepatic tissue"
+                        },
+                        {
+                            "device": "scalpel"
+                        },
+                        {
+                            "size": "<blank>"
+                        },
+                        {
+                            "direction": "with a scalpel"
+                        },
+                        {
+                            "environment": "<blank>"
+                        }
+                    ]
+                },
+                "sentence": "and mince the tissue with a scalpel."
+            }
+        ]
+    },
+    {
+        "sentence": "Collect minced tissue with 2 ml DMEM and filter cells through 70 μm cell strainer",
+        "result": [
+            {
+                "COLLECT": {
+                    "emit": [
+                        {
+                            "output": "2 ml DMEM"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "reagent1": "2 ml DMEM"
+                        },
+                        {
+                            "container": "15 ml tube"
+                        },
+                        {
+                            "source": "well"
+                        },
+                        {
+                            "method": "using a pipette"
+                        }
+                    ]
+                },
+                "sentence": "Collect minced tissue with 2 ml DMEM"
+            },
+            {
+                "FILTER": {
+                    "emit": [
+                        {
+                            "output": "filtered cells"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "reagent1": "2 ml DMEM"
+                        },
+                        {
+                            "filter": "70 μm cell strainer"
+                        }
+                    ]
+                },
+                "sentence": "filter cells through 70 μm cell strainer"
+            }
+        ]
+    },
+    {
+        "sentence": "Centrifuge cells at 600rpm for 4min at room temperature.",
+        "result": [
+            {
+                "CENTRIFUGE": {
+                    "emit": [
+                        {
+                            "output": "hepatocytes"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "reagent1": "hepatocytes"
+                        },
+                        {
+                            "intensity": "600rpm"
+                        },
+                        {
+                            "time": "4min"
+                        },
+                        {
+                            "temperature": "room temperature"
+                        }
+                    ]
+                },
+                "sentence": "Centrifuge cells at 600rpm for 4min at room temperature."
+            }
+        ]
+    },
+    {
+        "sentence": "Remove supernatant, resuspend pellet in 3 ml DMEM and pass the hepatocytes on 37.5% PERCOLL cushion (30 ml) to recover viable cells.",
+        "result": [
+            {
+                "REMOVE": {
+                    "emit": [
+                        {
+                            "output": "pellet"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "reagent1": "supernatant"
+                        },
+                        {
+                            "method": "aspiration"
+                        }
+                    ]
+                },
+                "sentence": "Remove supernatant."
+            },
+            {
+                "RESUSPEND": {
+                    "emit": [
+                        {
+                            "output": "hepatocytes"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "reagent1": "pellet"
+                        },
+                        {
+                            "reagent2": "DMEM"
+                        },
+                        {
+                            "temperature": "37 ˚C"
+                        },
+                        {
+                            "device": ""
+                        },
+                        {
+                            "notice": ""
+                        }
+                    ]
+                },
+                "sentence": "Resuspend pellet in 3 ml DMEM."
+            },
+            {
+                "PASS": {
+                    "emit": [
+                        {
+                            "output": "hepatocytes"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "reagent1": "hepatocytes"
+                        },
+                        {
+                            "device": "37.5% PERCOLL cushion"
+                        },
+                        {
+                            "container": "<blank>"
+                        },
+                        {
+                            "volume": "30 ml"
+                        },
+                        {
+                            "repeat": "<blank>"
+                        },
+                        {
+                            "notice": "<blank>"
+                        }
+                    ]
+                },
+                "sentence": "Pass the hepatocytes on 37.5% PERCOLL cushion (30 ml) to recover viable cells."
+            }
+        ]
+    },
+    {
+        "sentence": "Centrifuge 1050 rpm for 3min at room temperature",
+        "result": [
+            {
+                "CENTRIFUGE": {
+                    "emit": [
+                        {
+                            "output": "hepatocytes"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "reagent1": "hepatocytes"
+                        },
+                        {
+                            "intensity": "1050 rpm"
+                        },
+                        {
+                            "time": "3min"
+                        },
+                        {
+                            "temperature": "room temperature"
+                        }
+                    ]
+                },
+                "sentence": "Centrifuge 1050 rpm for 3min at room temperature"
+            }
+        ]
+    },
+    {
+        "sentence": "Resuspend pellet of viable cells in 2 ml of DMEM and count the hepatocytes.",
+        "result": [
+            {
+                "RESUSPEND": {
+                    "emit": [
+                        {
+                            "output": "hepatocytes"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "reagent1": "hepatocytes"
+                        },
+                        {
+                            "reagent2": "DMEM"
+                        },
+                        {
+                            "temperature": "37 ˚C"
+                        },
+                        {
+                            "device": ""
+                        },
+                        {
+                            "notice": ""
+                        }
+                    ]
+                },
+                "sentence": "Resuspend pellet of viable cells in 2 ml of DMEM."
+            },
+            {
+                "COUNT": {
+                    "emit": [
+                        {
+                            "output": "hepatocyte count"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "reagent1": "hepatocytes"
+                        },
+                        {
+                            "method": "<blank>"
+                        },
+                        {
+                            "reagent2": "trypan blue live dead stain"
+                        },
+                        {
+                            "device": "cell counter"
+                        }
+                    ]
+                },
+                "sentence": "Count the hepatocytes."
+            }
+        ]
+    },
+    {
+        "sentence": "Leave the isolated primary hepatocytes in 3 ml of DMEM at 5% CO2, 37°C for 2h and in suspension. Absence of serum is necessary to decrease the basal level of translation.",
+        "result": [
+            {
+                "LEAVE": {
+                    "emit": [
+                        {
+                            "output": "isolated primary hepatocytes"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "reagent1": "isolated primary hepatocytes"
+                        },
+                        {
+                            "temperature": "37°C"
+                        },
+                        {
+                            "time": "2h"
+                        },
+                        {
+                            "environment": "5% CO2"
+                        },
+                        {
+                            "device": "DMEM"
+                        },
+                        {
+                            "notice": "Absence of serum is necessary to decrease the basal level of translation."
+                        }
+                    ]
+                },
+                "sentence": "Leave the isolated primary hepatocytes in 3 ml of DMEM at 5% CO2, 37°C for 2h and in suspension.\nnotice:\nAbsence of serum is necessary to decrease the basal level of translation."
+            }
+        ]
+    },
+    {
+        "sentence": "After 2h replace the medium with DMEM without methionine and cysteine and start with the metabolic labelling assay.",
+        "result": [
+            {
+                "REPLACE": {
+                    "emit": [
+                        {
+                            "output": "DMEM without methionine and cysteine"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "reagent1": "medium"
+                        },
+                        {
+                            "reagent2": "DMEM without methionine and cysteine"
+                        },
+                        {
+                            "time": "2h"
+                        },
+                        {
+                            "notice": "start with the metabolic labelling assay"
+                        }
+                    ]
+                },
+                "sentence": "After 2h replace the medium with DMEM without methionine and cysteine."
+            },
+            {
+                "START": {
+                    "emit": [
+                        {
+                            "reagent0": "cannula in the portal vein"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "reagent1": "cannula in the portal vein"
+                        },
+                        {
+                            "reagent2": "hepatic vein"
+                        },
+                        {
+                            "reagent3": "perfused liver"
+                        },
+                        {
+                            "reagent4": "hepatic tissue"
+                        },
+                        {
+                            "reagent5": "bladder"
+                        },
+                        {
+                            "reagent6": "filtered cells"
+                        },
+                        {
+                            "reagent7": "hepatocytes"
+                        },
+                        {
+                            "reagent8": "hepatocyte count"
+                        },
+                        {
+                            "reagent9": "isolated primary hepatocytes"
+                        },
+                        {
+                            "reagent10": "DMEM without methionine and cysteine"
+                        }
+                    ]
+                },
+                "warning": "START not in ISA, using own knowledge to generate instruction.",
+                "sentence": "Start with the metabolic labelling assay."
+            }
+        ]
+    },
+    {
+        "sentence": "Each point of the metabolic labelling is done in triplicate. Use 15 x 105 hepatocytes/triplicate. Resuspend 5 x 105 cells in 2ml DMEM without Met/Cys and maintain the cells in a 15ml round bottom falcon tube to allow sufficient oxygenation.",
+        "result": [
+            {
+                "USE": {
+                    "emit": [
+                        {
+                            "reagent0": "hepatocytes"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "reagent1": "hepatocytes"
+                        },
+                        {
+                            "amount": "15 x 105"
+                        }
+                    ]
+                },
+                "warning": "USE not in ISA, using own knowledge to generate instruction.",
+                "sentence": "Use 15 x 105 hepatocytes/triplicate."
+            },
+            {
+                "RESUSPEND": {
+                    "emit": [
+                        {
+                            "output": "hepatocytes"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "reagent1": "5 x 105 cells"
+                        },
+                        {
+                            "reagent2": "2ml DMEM without Met/Cys"
+                        },
+                        {
+                            "temperature": "37 ˚C"
+                        }
+                    ]
+                },
+                "sentence": "Resuspend 5 x 105 cells in 2ml DMEM without Met/Cys."
+            },
+            {
+                "MAINTAIN": {
+                    "emit": [],
+                    "slot": [
+                        {
+                            "reagent1/data1/device": "15ml round bottom falcon tube"
+                        },
+                        {
+                            "state": "maintained"
+                        },
+                        {
+                            "timing": ""
+                        },
+                        {
+                            "notice": ""
+                        }
+                    ]
+                },
+                "sentence": "Maintain the cells in a 15ml round bottom falcon tube to allow sufficient oxygenation."
+            }
+        ]
+    },
+    {
+        "sentence": "Add to the media the desired stimula to increase translational level (e.g. 100 nM Insulin) and label the cells with 20 μCi/ml of S-Met/Cys mixture for 1h.",
+        "result": [
+            {
+                "ADD": {
+                    "emit": [
+                        {
+                            "output": "media"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "reagent1": "media"
+                        },
+                        {
+                            "reagent2": "100 nM Insulin"
+                        }
+                    ]
+                },
+                "sentence": "Add to the media the desired stimula to increase translational level (e.g. 100 nM Insulin)"
+            },
+            {
+                "LABEL": {
+                    "emit": [
+                        {
+                            "reagent0": "labeled cells"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "reagent1": "hepatocytes"
+                        },
+                        {
+                            "reagent2": "S-Met/Cys mixture"
+                        },
+                        {
+                            "concentration": "20 μCi/ml"
+                        },
+                        {
+                            "duration": "1h"
+                        }
+                    ]
+                },
+                "warning": "LABEL not in ISA, using own knowledge to generate instruction.",
+                "sentence": "label the cells with 20 μCi/ml of S-Met/Cys mixture for 1h."
+            }
+        ]
+    },
+    {
+        "sentence": "After 1h, lyse the cells in 100 μl of Lysis Buffer: 10mM Tris HCl pH 7.4, 1% Triton X-100, 150mM NaCl, 1mM EDTA.",
+        "result": [
+            {
+                "LYSE": {
+                    "emit": [
+                        {
+                            "reagent0": "lysed cells"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "reagent1": "labeled cells"
+                        },
+                        {
+                            "reagent2": "Lysis Buffer: 10mM Tris HCl pH 7.4, 1% Triton X-100, 150mM NaCl, 1mM EDTA"
+                        },
+                        {
+                            "incubation_time": "1h"
+                        }
+                    ]
+                },
+                "warning": "LYSE not in ISA, using own knowledge to generate instruction.",
+                "sentence": "After 1h, lyse the cells in 100 μl of Lysis Buffer: 10mM Tris HCl pH 7.4, 1% Triton X-100, 150mM NaCl, 1mM EDTA."
+            }
+        ]
+    },
+    {
+        "sentence": "Keep 15min on ice and then clarify at 14000rpm for 10min at 4°C.",
+        "result": [
+            {
+                "KEEP": {
+                    "emit": [
+                        {
+                            "output": "hepatic tissue"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "reagent1": "hepatic tissue"
+                        },
+                        {
+                            "temperature": "on ice"
+                        },
+                        {
+                            "time": "15min"
+                        },
+                        {
+                            "environment": "on ice"
+                        },
+                        {
+                            "container": "N/A"
+                        },
+                        {
+                            "notice": "N/A"
+                        }
+                    ]
+                },
+                "sentence": "Keep 15min on ice"
+            },
+            {
+                "CLARIFY": {
+                    "emit": [
+                        {
+                            "reagent0": "clarified cells"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "reagent1": "lysed cells"
+                        },
+                        {
+                            "speed": "14000rpm"
+                        },
+                        {
+                            "time": "10min"
+                        },
+                        {
+                            "temperature": "4°C"
+                        }
+                    ]
+                },
+                "warning": "CLARIFY not in ISA, using own knowledge to generate instruction.",
+                "sentence": "clarify at 14000rpm for 10min at 4°C."
+            }
+        ]
+    },
+    {
+        "sentence": "Use 10 μl of the lysate to read radioactivity incorporation as previously described",
+        "result": [
+            {
+                "USE": {
+                    "emit": [
+                        {
+                            "reagent0": "radioactivity incorporation"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "reagent1": "hepatocytes"
+                        },
+                        {
+                            "reagent2": "lysate"
+                        },
+                        {
+                            "volume": "10 μl"
+                        }
+                    ]
+                },
+                "warning": "USE not in ISA, using own knowledge to generate instruction.",
+                "sentence": "Use 10 μl of the lysate to read radioactivity incorporation as previously described."
+            }
+        ]
+    }
+]

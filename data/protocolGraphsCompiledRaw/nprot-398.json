@@ -1,0 +1,186 @@
+[
+    {
+        "sentence": "Load 0.7 ml of buffer to reference and sample cells",
+        "result": [
+            {
+                "LOAD": {
+                    "emit": [
+                        {
+                            "output": "loaded cells"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "reagent1": "buffer"
+                        },
+                        {
+                            "destination": "reference and sample cells"
+                        },
+                        {
+                            "volume": "0.7 ml"
+                        }
+                    ]
+                },
+                "sentence": "Load 0.7 ml of buffer to reference and sample cells"
+            }
+        ]
+    },
+    {
+        "sentence": "Hepes or Heppso",
+        "result": []
+    },
+    {
+        "sentence": "Run 0 to 120 °C at 1 degree/min",
+        "result": [
+            {
+                "RUN": {
+                    "emit": [
+                        {
+                            "output": "loaded cells"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "reagent1": "loaded cells"
+                        },
+                        {
+                            "reagent2": "buffer"
+                        },
+                        {
+                            "volume": "0.7 ml"
+                        },
+                        {
+                            "device": ""
+                        },
+                        {
+                            "program": "0 to 120 °C at 1 degree/min"
+                        },
+                        {
+                            "voltage": ""
+                        },
+                        {
+                            "notice": ""
+                        }
+                    ]
+                },
+                "sentence": "Run 0 to 120 °C at 1 degree/min"
+            }
+        ]
+    },
+    {
+        "sentence": "Load 0.7 ml of fresh buffer to reference cell",
+        "result": [
+            {
+                "LOAD": {
+                    "emit": [
+                        {
+                            "output": "loaded cells"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "reagent1": "fresh buffer"
+                        },
+                        {
+                            "destination": "reference cell"
+                        },
+                        {
+                            "volume": "0.7 ml"
+                        }
+                    ]
+                },
+                "sentence": "Load 0.7 ml of fresh buffer to reference cell"
+            }
+        ]
+    },
+    {
+        "sentence": "Load 0.7 ml of protein to sample cell",
+        "result": [
+            {
+                "LOAD": {
+                    "emit": [
+                        {
+                            "output": "loaded cells"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "reagent1": "protein"
+                        },
+                        {
+                            "destination": "sample cell"
+                        },
+                        {
+                            "volume": "0.7 ml"
+                        }
+                    ]
+                },
+                "sentence": "Load 0.7 ml of protein to sample cell"
+            }
+        ]
+    },
+    {
+        "sentence": "Run 0 to 120 °C at 1 degree/min",
+        "result": [
+            {
+                "RUN": {
+                    "emit": [
+                        {
+                            "output": "loaded cells"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "reagent1": "loaded cells"
+                        },
+                        {
+                            "reagent2": ""
+                        },
+                        {
+                            "volume": ""
+                        },
+                        {
+                            "device": ""
+                        },
+                        {
+                            "program": "0 to 120 °C at 1 degree/min"
+                        },
+                        {
+                            "voltage": ""
+                        },
+                        {
+                            "notice": ""
+                        }
+                    ]
+                },
+                "sentence": "Run 0 to 120 °C at 1 degree/min"
+            }
+        ]
+    },
+    {
+        "sentence": "700 μl of at least 0.4mg/ml protein ",
+        "result": [
+            {
+                "PREPARE": {
+                    "emit": [
+                        {
+                            "output": "loaded cells"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "reagent1": "protein"
+                        },
+                        {
+                            "container": "sample cell"
+                        },
+                        {
+                            "concentration": "0.4mg/ml"
+                        }
+                    ]
+                },
+                "sentence": "700 μl of at least 0.4mg/ml protein"
+            }
+        ]
+    }
+]

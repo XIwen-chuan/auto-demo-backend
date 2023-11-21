@@ -1,0 +1,398 @@
+[
+  {
+    "title": "",
+    "body": [
+      {
+        "sentence": "PBS:Add a BupH Phosphate Buffered Saline Pack to 100 mL of autoclaved DIW, dissolve well and make the volume up to 500 mL using autoclaved DIW.Each pack makes 500 mL of PBS at pH 7.2, which can be stored at RT for a week and at 4 \u00b0C for up to four weeks",
+        "result": {
+          "ADD": {
+            "emit": [],
+            "slot": [
+              {
+                "it's a slot key": "it's a slot value"
+              }
+            ]
+          }
+        }
+      }
+    ]
+  },
+  {
+    "title": "",
+    "body": [
+      {
+        "sentence": "MES:Add a BupH MES Buffered Saline Pack to 100 mL of autoclaved DIW, dissolve well and make the volume up to 500 mL using autoclaved DIW.Each pack makes 500 mL of MES at pH 4.7, which can be stored at RT for two weeks",
+        "result": {
+          "ADD": {
+            "emit": [],
+            "slot": [
+              {
+                "it's a slot key": "it's a slot value"
+              }
+            ]
+          }
+        }
+      }
+    ]
+  },
+  {
+    "title": "",
+    "body": [
+      {
+        "sentence": "APTES\uff1aThe procured APTES solution has a purity of 99%. Reconstitute in autoclaved DIW to make 2% \\(v/v) APTES just before functionalization",
+        "result": {
+          "ADD": {
+            "emit": [],
+            "slot": [
+              {
+                "it's a slot key": "it's a slot value"
+              }
+            ]
+          }
+        }
+      }
+    ]
+  },
+  {
+    "title": "",
+    "body": [
+      {
+        "sentence": "EDC:The commercial pack contains 25 g EDC. Reconstitute in 0.1M MES buffer, pH 4.7 to make 8 mg/mL. Aliquots can be stored effectively for six months at -20\u00b0C",
+        "result": {
+          "ADD": {
+            "emit": [],
+            "slot": [
+              {
+                "it's a slot key": "it's a slot value"
+              }
+            ]
+          }
+        }
+      }
+    ]
+  },
+  {
+    "title": "",
+    "body": [
+      {
+        "sentence": "SulfoNHS:The commercial pack contains 5 g SulfoNHS. Reconstitute in 0.1 M MES, pH 4.7 to make 22 mg/mL. Aliquots can be stored effectively for six months at -20 \u00b0C",
+        "result": {
+          "ADD": {
+            "emit": [],
+            "slot": [
+              {
+                "it's a slot key": "it's a slot value"
+              }
+            ]
+          }
+        }
+      }
+    ]
+  },
+  {
+    "title": "",
+    "body": [
+      {
+        "sentence": "Incubate each of the desired wells of 96-well CMTP with 100 \u03bcL of 1% \\(w/v) KOH for 10 min at 37 \u00b0C",
+        "result": {
+          "INCUBATE": {
+            "emit": [],
+            "slot": [
+              {
+                "it's a slot key": "it's a slot value"
+              }
+            ]
+          }
+        }
+      }
+    ]
+  },
+  {
+    "title": "",
+    "body": [
+      {
+        "sentence": "wash \u0000five times with 300 \u03bcL of DIW per well",
+        "result": {
+          "ADD": {
+            "emit": [],
+            "slot": [
+              {
+                "it's a slot key": "it's a slot value"
+              }
+            ]
+          }
+        }
+      }
+    ]
+  },
+  {
+    "title": "",
+    "body": [
+      {
+        "sentence": "Incubate the KOH-treated CMTP with 100 \u03bcL of 2% \\(v/v) APTES for 1 h at RT inside the fume cabinet",
+        "result": {
+          "INCUBATE": {
+            "emit": [],
+            "slot": [
+              {
+                "it's a slot key": "it's a slot value"
+              }
+            ]
+          }
+        }
+      }
+    ]
+  },
+  {
+    "title": "",
+    "body": [
+      {
+        "sentence": "Wash five times the APTES-modi\u0000ed wells extensively with DIW",
+        "result": {
+          "ADD": {
+            "emit": [],
+            "slot": [
+              {
+                "it's a slot key": "it's a slot value"
+              }
+            ]
+          }
+        }
+      }
+    ]
+  },
+  {
+    "title": "",
+    "body": [
+      {
+        "sentence": "Mix 5 \u03bcL each of EDC \\(8 mg/mL) SulfoNHS \\(22 mg/mL) to make 10 \u03bcL of pre-mixed EDC-SulfoNHS solution.",
+        "result": {
+          "MIX": {
+            "emit": [],
+            "slot": [
+              {
+                "it's a slot key": "it's a slot value"
+              }
+            ]
+          }
+        }
+      }
+    ]
+  },
+  {
+    "title": "",
+    "body": [
+      {
+        "sentence": "Incubate 990 \u03bcL of anti-HFA capture antibody with 10 \u03bcL of EDC-SulfoNHS solution for 15 min at 37\u00b0C.",
+        "result": {
+          "INCUBATE": {
+            "emit": [],
+            "slot": [
+              {
+                "it's a slot key": "it's a slot value"
+              }
+            ]
+          }
+        }
+      }
+    ]
+  },
+  {
+    "title": "",
+    "body": [
+      {
+        "sentence": "Incubate the EDC-SulfoNHS activated antibody in APTES-functionalized wells for 1 h at 37\u00b0C",
+        "result": {
+          "INCUBATE": {
+            "emit": [],
+            "slot": [
+              {
+                "it's a slot key": "it's a slot value"
+              }
+            ]
+          }
+        }
+      }
+    ]
+  },
+  {
+    "title": "",
+    "body": [
+      {
+        "sentence": "wash \u0000five times with 300 \u03bcL of 0.1M PBS, pH 7.4",
+        "result": {
+          "ADD": {
+            "emit": [],
+            "slot": [
+              {
+                "it's a slot key": "it's a slot value"
+              }
+            ]
+          }
+        }
+      }
+    ]
+  },
+  {
+    "title": "",
+    "body": [
+      {
+        "sentence": "Block the antibody-bound wells with 300 \u03bcL of 1% \\ (w/v) BSA for 30 min at 37 \u00b0C followed by extensive PBS washing",
+        "result": {
+          "BLOCK": {
+            "emit": [],
+            "slot": [
+              {
+                "it's a slot key": "it's a slot value"
+              }
+            ]
+          }
+        }
+      }
+    ]
+  },
+  {
+    "title": "",
+    "body": [
+      {
+        "sentence": "Add 100 \u03bcL of varying HFA concentrations \\(0.3 pg/mL-20 ng/mL) to different BSA-blocked wells",
+        "result": {
+          "ADD": {
+            "emit": [],
+            "slot": [
+              {
+                "it's a slot key": "it's a slot value"
+              }
+            ]
+          }
+        }
+      }
+    ]
+  },
+  {
+    "title": "",
+    "body": [
+      {
+        "sentence": "Incubate for 1 h at 37\u00b0C and wash extensively with PBS ",
+        "result": {
+          "INCUBATE": {
+            "emit": [],
+            "slot": [
+              {
+                "it's a slot key": "it's a slot value"
+              }
+            ]
+          }
+        }
+      }
+    ]
+  },
+  {
+    "title": "",
+    "body": [
+      {
+        "sentence": "add 100 \u03bcL of biotinylated anti-HFA antibody in each of the HFA-captured wells",
+        "result": {
+          "ADD": {
+            "emit": [],
+            "slot": [
+              {
+                "it's a slot key": "it's a slot value"
+              }
+            ]
+          }
+        }
+      }
+    ]
+  },
+  {
+    "title": "",
+    "body": [
+      {
+        "sentence": "Incubate for 1 h at 37 \u00b0C and wash extensively with PBS",
+        "result": {
+          "INCUBATE": {
+            "emit": [],
+            "slot": [
+              {
+                "it's a slot key": "it's a slot value"
+              }
+            ]
+          }
+        }
+      }
+    ]
+  },
+  {
+    "title": "",
+    "body": [
+      {
+        "sentence": "Add 100 \u03bcL of streptavidin-HRP conjugate to the biotinylated anti-HFA antibody treated wells",
+        "result": {
+          "ADD": {
+            "emit": [],
+            "slot": [
+              {
+                "it's a slot key": "it's a slot value"
+              }
+            ]
+          }
+        }
+      }
+    ]
+  },
+  {
+    "title": "",
+    "body": [
+      {
+        "sentence": "Incubate for 20 min at 37\u00b0C and wash extensively with PBS",
+        "result": {
+          "INCUBATE": {
+            "emit": [],
+            "slot": [
+              {
+                "it's a slot key": "it's a slot value"
+              }
+            ]
+          }
+        }
+      }
+    ]
+  },
+  {
+    "title": "",
+    "body": [
+      {
+        "sentence": "Add 100 \u03bcL of working solution, formed by mixing equal parts of SuperSignal ELISA Femto Luminol/Enhancer and SuperSignal ELISA Femto Stable Peroxide Solution , to each of the CMTP wells and incubate at RT for 5 min",
+        "result": {
+          "ADD": {
+            "emit": [],
+            "slot": [
+              {
+                "it's a slot key": "it's a slot value"
+              }
+            ]
+          }
+        }
+      }
+    ]
+  },
+  {
+    "title": "",
+    "body": [
+      {
+        "sentence": "Record the chemiluminescent intensity at 425 nm in the Tecan In\u0000nite M200 Pro microplate reader",
+        "result": {
+          "RECORD": {
+            "emit": [],
+            "slot": [
+              {
+                "it's a slot key": "it's a slot value"
+              }
+            ]
+          }
+        }
+      }
+    ]
+  }
+]

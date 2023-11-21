@@ -1,0 +1,830 @@
+[
+  {
+    "title": "",
+    "body": [
+      {
+        "sentence": "Culture DT40 cell lines expressing GFP- or FLAG-tagged proteins and culture wild-type cells (control) in four 300-cm2 flasks containing 250 ml DT40 medium until cell density reaches 1 x 106/ml.",
+        "result": {
+          "ADD": {
+            "emit": [],
+            "slot": [
+              {
+                "it's a slot key": "it's a slot value"
+              }
+            ]
+          }
+        }
+      }
+    ]
+  },
+  {
+    "title": "",
+    "body": [
+      {
+        "sentence": "Transfer the culture medium to two 500-ml centrifuge bottles and pellet cells at 200g for 10 min at 4 \u00b0C",
+        "result": {
+          "TRANSFER": {
+            "emit": [],
+            "slot": [
+              {
+                "it's a slot key": "it's a slot value"
+              }
+            ]
+          }
+        }
+      }
+    ]
+  },
+  {
+    "title": "",
+    "body": [
+      {
+        "sentence": "Resuspend the cells in 50 ml PBS and centrifuge in a 50 ml conical tube at 200g for 10 min at 4 \u00b0C. Repeat this step twice",
+        "result": {
+          "ADD": {
+            "emit": [],
+            "slot": [
+              {
+                "it's a slot key": "it's a slot value"
+              }
+            ]
+          }
+        }
+      }
+    ]
+  },
+  {
+    "title": "",
+    "body": [
+      {
+        "sentence": "Resuspend cell pellets to 5 ml in HDG150",
+        "result": {
+          "ADD": {
+            "emit": [],
+            "slot": [
+              {
+                "it's a slot key": "it's a slot value"
+              }
+            ]
+          }
+        }
+      }
+    ]
+  },
+  {
+    "title": "",
+    "body": [
+      {
+        "sentence": "Disrupt cells with 35 strokes in a Dounce homogenizer with a tight-fitting pestle",
+        "result": {
+          "ADD": {
+            "emit": [],
+            "slot": [
+              {
+                "it's a slot key": "it's a slot value"
+              }
+            ]
+          }
+        }
+      }
+    ]
+  },
+  {
+    "title": "",
+    "body": [
+      {
+        "sentence": "Pellet nuclei in a 15-ml conical tube at 1700g for 10 min at 4 \u00b0C. Flash-freeze the supernatant (cytoplasmic fraction) in liquid nitrogen and store at -80 \u00b0C for future use",
+        "result": {
+          "PELLET": {
+            "emit": [],
+            "slot": [
+              {
+                "it's a slot key": "it's a slot value"
+              }
+            ]
+          }
+        }
+      }
+    ]
+  },
+  {
+    "title": "",
+    "body": [
+      {
+        "sentence": "Wash nuclei with 5 ml of HDG150 and pellet at 1700g for 10 min at 4 \u00b0C",
+        "result": {
+          "ADD": {
+            "emit": [],
+            "slot": [
+              {
+                "it's a slot key": "it's a slot value"
+              }
+            ]
+          }
+        }
+      }
+    ]
+  },
+  {
+    "title": "",
+    "body": [
+      {
+        "sentence": "Resuspend nuclei in 5 ml of HDG150 and immerse in an ice-water bath",
+        "result": {
+          "ADD": {
+            "emit": [],
+            "slot": [
+              {
+                "it's a slot key": "it's a slot value"
+              }
+            ]
+          }
+        }
+      }
+    ]
+  },
+  {
+    "title": "",
+    "body": [
+      {
+        "sentence": "Disrupt nuclei with the handy-sonifier fitted with a micro-tip. Sonicate for 10 sec at maximum power followed by waiting for 50 sec to chill samples. Repeat this step six times for a total of 1 min of sonication time.",
+        "result": {
+          "ADD": {
+            "emit": [],
+            "slot": [
+              {
+                "it's a slot key": "it's a slot value"
+              }
+            ]
+          }
+        }
+      }
+    ]
+  },
+  {
+    "title": "",
+    "body": [
+      {
+        "sentence": "Divide the disrupted nuclei solution into three 2-ml microcentrifuge tubes and centrifuge at 20000g for 10 min at 4 \u00b0C.",
+        "result": {
+          "DIVIDE": {
+            "emit": [],
+            "slot": [
+              {
+                "it's a slot key": "it's a slot value"
+              }
+            ]
+          }
+        }
+      }
+    ]
+  },
+  {
+    "title": "",
+    "body": [
+      {
+        "sentence": "Combine supernatants (nuclear extract) in a 15-ml conical tube. Proceed to immunoprecipitation (Step 30) or flash-freeze in liquid nitrogen and store at -80 \u00b0C.",
+        "result": {
+          "ADD": {
+            "emit": [],
+            "slot": [
+              {
+                "it's a slot key": "it's a slot value"
+              }
+            ]
+          }
+        }
+      }
+    ]
+  },
+  {
+    "title": "",
+    "body": [
+      {
+        "sentence": "Resuspend the pellets in each tube in 1.6 ml HDG150 by brief sonication",
+        "result": {
+          "ADD": {
+            "emit": [],
+            "slot": [
+              {
+                "it's a slot key": "it's a slot value"
+              }
+            ]
+          }
+        }
+      }
+    ]
+  },
+  {
+    "title": "",
+    "body": [
+      {
+        "sentence": "Centrifuge at 20000g for 10 min at 4 \u00b0C.",
+        "result": {
+          "CENTRIFUGE": {
+            "emit": [],
+            "slot": [
+              {
+                "it's a slot key": "it's a slot value"
+              }
+            ]
+          }
+        }
+      }
+    ]
+  },
+  {
+    "title": "",
+    "body": [
+      {
+        "sentence": "Resuspend the pellets in each tube in 1.6 ml of HDG150 by brief sonication and combine in a 15-ml conical tube (chromatin fraction)",
+        "result": {
+          "ADD": {
+            "emit": [],
+            "slot": [
+              {
+                "it's a slot key": "it's a slot value"
+              }
+            ]
+          }
+        }
+      }
+    ]
+  },
+  {
+    "title": "",
+    "body": [
+      {
+        "sentence": "Add 15 \u00b5l 1 M CaCl2 to the chromatin fraction and mix well",
+        "result": {
+          "ADD": {
+            "emit": [],
+            "slot": [
+              {
+                "it's a slot key": "it's a slot value"
+              }
+            ]
+          }
+        }
+      }
+    ]
+  },
+  {
+    "title": "",
+    "body": [
+      {
+        "sentence": "Add 200\u00b5l micrococcal nuclease.",
+        "result": {
+          "ADD": {
+            "emit": [],
+            "slot": [
+              {
+                "it's a slot key": "it's a slot value"
+              }
+            ]
+          }
+        }
+      }
+    ]
+  },
+  {
+    "title": "",
+    "body": [
+      {
+        "sentence": "Rotate at 20 rpm for 60 min in a cold room (4 \u00b0C)",
+        "result": {
+          "ROTATE": {
+            "emit": [],
+            "slot": [
+              {
+                "it's a slot key": "it's a slot value"
+              }
+            ]
+          }
+        }
+      }
+    ]
+  },
+  {
+    "title": "",
+    "body": [
+      {
+        "sentence": "Add 125 \u00b5l 0.2 M EGTA to inactivate micrococcal nuclease",
+        "result": {
+          "ADD": {
+            "emit": [],
+            "slot": [
+              {
+                "it's a slot key": "it's a slot value"
+              }
+            ]
+          }
+        }
+      }
+    ]
+  },
+  {
+    "title": "",
+    "body": [
+      {
+        "sentence": "Check DNA fragment sizes by 2% agarose gel electrophoresis. Purify the DNA from 50 \u00b5l of the digested chromatin fraction by phenol-chloroform extraction followed by ethanol precipitation. Resuspend the pellet in 30 \u00b5l TE and load 5 \u00b5l in each lane. A DNA ladder corresponding to mono- to tri-nucleosomes can be seen by ethidium bromide staining under UV irradiation ",
+        "result": {
+          "CHECK": {
+            "emit": [],
+            "slot": [
+              {
+                "it's a slot key": "it's a slot value"
+              }
+            ]
+          }
+        }
+      }
+    ]
+  },
+  {
+    "title": "",
+    "body": [
+      {
+        "sentence": "This step can be performed with option A or option B",
+        "result": {
+          "ADD": {
+            "emit": [],
+            "slot": [
+              {
+                "it's a slot key": "it's a slot value"
+              }
+            ]
+          }
+        }
+      }
+    ]
+  },
+  {
+    "title": "",
+    "body": [
+      {
+        "sentence": "OptionB: Add 250 \u00b5l 3 M KCl to 5 ml of digested chromatin prepared in step 18. Rotate at 20rpm for 60min in a cold room (4\u00b0C).",
+        "result": {
+          "ADD": {
+            "emit": [],
+            "slot": [
+              {
+                "it's a slot key": "it's a slot value"
+              }
+            ]
+          }
+        }
+      }
+    ]
+  },
+  {
+    "title": "",
+    "body": [
+      {
+        "sentence": "Option A: Mix 5 ml of the digested chromatin prepared in step 18 with 40 ml HDGN340 in a 50-ml conical tube. Rotate at 20 rpm for 60 min in a cold room (4\u00b0C). ",
+        "result": {
+          "ADD": {
+            "emit": [],
+            "slot": [
+              {
+                "it's a slot key": "it's a slot value"
+              }
+            ]
+          }
+        }
+      }
+    ]
+  },
+  {
+    "title": "",
+    "body": [
+      {
+        "sentence": "For both option A and option B precipitate insoluble materials by spinning at 8000g for 10 min at 4 \u00b0C. Transfer supernatant to a 50-ml conical tube (option A) or a 15-ml conical tube (option B)",
+        "result": {
+          "ADD": {
+            "emit": [],
+            "slot": [
+              {
+                "it's a slot key": "it's a slot value"
+              }
+            ]
+          }
+        }
+      }
+    ]
+  },
+  {
+    "title": "",
+    "body": [
+      {
+        "sentence": "Wash a 200 \u00b5l bed volume of protein A Sepharose beads three times with 600 \u00b5l PBS. The amount of beads for each reaction is 50 \u00b5l. Thus, the amounts of the reagents used in this section should be scaled proportionally to the sample number.",
+        "result": {
+          "ADD": {
+            "emit": [],
+            "slot": [
+              {
+                "it's a slot key": "it's a slot value"
+              }
+            ]
+          }
+        }
+      }
+    ]
+  },
+  {
+    "title": "",
+    "body": [
+      {
+        "sentence": "Incubate 30 \u00b5l anti-GFP antibody with the beads in 500 \u00b5l PBS for 15-30 min at room temperature",
+        "result": {
+          "INCUBATE": {
+            "emit": [],
+            "slot": [
+              {
+                "it's a slot key": "it's a slot value"
+              }
+            ]
+          }
+        }
+      }
+    ]
+  },
+  {
+    "title": "",
+    "body": [
+      {
+        "sentence": "Wash the beads five times with 500 \u00b5l PBS",
+        "result": {
+          "ADD": {
+            "emit": [],
+            "slot": [
+              {
+                "it's a slot key": "it's a slot value"
+              }
+            ]
+          }
+        }
+      }
+    ]
+  },
+  {
+    "title": "",
+    "body": [
+      {
+        "sentence": "Resuspend the beads in 400 \u00b5l PBS and add 25 \u00b5l freshly prepared DSS. Rotate for 30-45 min at room temperature.",
+        "result": {
+          "ADD": {
+            "emit": [],
+            "slot": [
+              {
+                "it's a slot key": "it's a slot value"
+              }
+            ]
+          }
+        }
+      }
+    ]
+  },
+  {
+    "title": "",
+    "body": [
+      {
+        "sentence": "Wash the beads five times with 600 \u00b5l of 0.1 M glycine (pH 2.5)",
+        "result": {
+          "ADD": {
+            "emit": [],
+            "slot": [
+              {
+                "it's a slot key": "it's a slot value"
+              }
+            ]
+          }
+        }
+      }
+    ]
+  },
+  {
+    "title": "",
+    "body": [
+      {
+        "sentence": "Wash the beads twice with 600 \u00b5l PBS",
+        "result": {
+          "ADD": {
+            "emit": [],
+            "slot": [
+              {
+                "it's a slot key": "it's a slot value"
+              }
+            ]
+          }
+        }
+      }
+    ]
+  },
+  {
+    "title": "",
+    "body": [
+      {
+        "sentence": "Wash the beads twice with 600 \u00b5l HDG150",
+        "result": {
+          "ADD": {
+            "emit": [],
+            "slot": [
+              {
+                "it's a slot key": "it's a slot value"
+              }
+            ]
+          }
+        }
+      }
+    ]
+  },
+  {
+    "title": "",
+    "body": [
+      {
+        "sentence": "Resuspend the beads in 200 \u00b5l HDG150",
+        "result": {
+          "ADD": {
+            "emit": [],
+            "slot": [
+              {
+                "it's a slot key": "it's a slot value"
+              }
+            ]
+          }
+        }
+      }
+    ]
+  },
+  {
+    "title": "",
+    "body": [
+      {
+        "sentence": "Add 50 \u00b5l bed volume of either anti-GFP antibody-coupled beads or anti-FLAG M2 affinity beads to 5 ml of solubilized chromatin or 5 ml of nuclear extract prepared at step 21 or 11, respectively. Rotate at 20 rpm for 3-4 h in a cold room (4 \u00b0C)",
+        "result": {
+          "ADD": {
+            "emit": [],
+            "slot": [
+              {
+                "it's a slot key": "it's a slot value"
+              }
+            ]
+          }
+        }
+      }
+    ]
+  },
+  {
+    "title": "",
+    "body": [
+      {
+        "sentence": "Pellet antibody-coupled beads at 200g for 30 sec at 4 \u00b0C",
+        "result": {
+          "PELLET": {
+            "emit": [],
+            "slot": [
+              {
+                "it's a slot key": "it's a slot value"
+              }
+            ]
+          }
+        }
+      }
+    ]
+  },
+  {
+    "title": "",
+    "body": [
+      {
+        "sentence": "Transfer beads to a 1.5-ml microcentrifuge tube",
+        "result": {
+          "TRANSFER": {
+            "emit": [],
+            "slot": [
+              {
+                "it's a slot key": "it's a slot value"
+              }
+            ]
+          }
+        }
+      }
+    ]
+  },
+  {
+    "title": "",
+    "body": [
+      {
+        "sentence": "Add 1 ml HDGN320 (for chromatin) or HDGN150 (for nuclear extract) to beads. Mix well by inverting tubes. Centrifuge at 200g for 10 sec at 4 \u00b0C. Discard supernatants. Repeat this step five times",
+        "result": {
+          "ADD": {
+            "emit": [],
+            "slot": [
+              {
+                "it's a slot key": "it's a slot value"
+              }
+            ]
+          }
+        }
+      }
+    ]
+  },
+  {
+    "title": "",
+    "body": [
+      {
+        "sentence": "Resuspend beads in 400 \u00b5l HDGN340 or HDGN150 and transfer to a spin-cup column. Centrifuge at 3000g for 10 sec at 4 \u00b0C. Discard the flow-through fraction",
+        "result": {
+          "ADD": {
+            "emit": [],
+            "slot": [
+              {
+                "it's a slot key": "it's a slot value"
+              }
+            ]
+          }
+        }
+      }
+    ]
+  },
+  {
+    "title": "",
+    "body": [
+      {
+        "sentence": "Transfer the spin-cup column to a fresh 1.5-ml microcentrifuge tube",
+        "result": {
+          "TRANSFER": {
+            "emit": [],
+            "slot": [
+              {
+                "it's a slot key": "it's a slot value"
+              }
+            ]
+          }
+        }
+      }
+    ]
+  },
+  {
+    "title": "",
+    "body": [
+      {
+        "sentence": "Add 50 \u00b5l 0.1 M glycine (pH 2.5) to the beads. To resuspend beads, tilt the spin-cup column horizontally and rotate quickly by hand several times. Incubate 1 min at room temperature. Centrifuge at 3000g for 10 sec at 4 \u00b0C.",
+        "result": {
+          "ADD": {
+            "emit": [],
+            "slot": [
+              {
+                "it's a slot key": "it's a slot value"
+              }
+            ]
+          }
+        }
+      }
+    ]
+  },
+  {
+    "title": "",
+    "body": [
+      {
+        "sentence": "Repeat two more times for a total eluate volume of 150 \u00b5l.",
+        "result": {
+          "ADD": {
+            "emit": [],
+            "slot": [
+              {
+                "it's a slot key": "it's a slot value"
+              }
+            ]
+          }
+        }
+      }
+    ]
+  },
+  {
+    "title": "",
+    "body": [
+      {
+        "sentence": "Remove the spin-cup column and add 150 \u00b5l 20% TCA to the eluate. Let stand at least 2 h at -20 \u00b0C",
+        "result": {
+          "REMOVE": {
+            "emit": [],
+            "slot": [
+              {
+                "it's a slot key": "it's a slot value"
+              }
+            ]
+          }
+        }
+      }
+    ]
+  },
+  {
+    "title": "",
+    "body": [
+      {
+        "sentence": "Add 450 \u00b5l of acetone and let stand for at least 2 h at -20 \u00b0C.\n PAUSE POINT This step can be extended to overnight",
+        "result": {
+          "ADD": {
+            "emit": [],
+            "slot": [
+              {
+                "it's a slot key": "it's a slot value"
+              }
+            ]
+          }
+        }
+      }
+    ]
+  },
+  {
+    "title": "",
+    "body": [
+      {
+        "sentence": "Vortex vigorously to strip off precipitates stuck to the wall of the microcentrifuge tube. Centrifuge at 20000g for 15 min at 4 \u00b0C. Remove supernatant completely",
+        "result": {
+          "VORTEX": {
+            "emit": [],
+            "slot": [
+              {
+                "it's a slot key": "it's a slot value"
+              }
+            ]
+          }
+        }
+      }
+    ]
+  },
+  {
+    "title": "",
+    "body": [
+      {
+        "sentence": "Add 500\u00b5l of diethylether to pellet and vortex vigorously. Centrifuge at 20000g for 10 min at 4 \u00b0C. Remove supernatant completely",
+        "result": {
+          "ADD": {
+            "emit": [],
+            "slot": [
+              {
+                "it's a slot key": "it's a slot value"
+              }
+            ]
+          }
+        }
+      }
+    ]
+  },
+  {
+    "title": "",
+    "body": [
+      {
+        "sentence": "Resuspend pellet to 10 \u00b5l SDS sample buffer",
+        "result": {
+          "ADD": {
+            "emit": [],
+            "slot": [
+              {
+                "it's a slot key": "it's a slot value"
+              }
+            ]
+          }
+        }
+      }
+    ]
+  },
+  {
+    "title": "",
+    "body": [
+      {
+        "sentence": "Incubate for 1 h at 37 \u00b0C in an air-incubator",
+        "result": {
+          "INCUBATE": {
+            "emit": [],
+            "slot": [
+              {
+                "it's a slot key": "it's a slot value"
+              }
+            ]
+          }
+        }
+      }
+    ]
+  },
+  {
+    "title": "",
+    "body": [
+      {
+        "sentence": "Apply samples on SDS-PAGE",
+        "result": {
+          "ADD": {
+            "emit": [],
+            "slot": [
+              {
+                "it's a slot key": "it's a slot value"
+              }
+            ]
+          }
+        }
+      }
+    ]
+  }
+]

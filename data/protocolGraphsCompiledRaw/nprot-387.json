@@ -1,0 +1,436 @@
+[
+    {
+        "sentence": "Dissect Drosophila larval brains in saline (0.7% NaCl)",
+        "result": [
+            {
+                "DISSECT": {
+                    "emit": [
+                        {
+                            "output": "<blank>"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "reagent1": "Drosophila larval brains"
+                        },
+                        {
+                            "reagent2": "saline (0.7% NaCl)"
+                        },
+                        {
+                            "device": "<blank>"
+                        },
+                        {
+                            "location": "<blank>"
+                        },
+                        {
+                            "notice": "<blank>"
+                        }
+                    ]
+                },
+                "sentence": "Dissect Drosophila larval brains in saline (0.7% NaCl)"
+            }
+        ]
+    },
+    {
+        "sentence": "Treat dissected brains for 10 min with a hypotonic solution of 0.5% sodium citrate",
+        "result": [
+            {
+                "TREAT": {
+                    "emit": [
+                        {
+                            "output": "<blank>"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "reagent1": "dissected brains"
+                        },
+                        {
+                            "reagent2": "0.5% sodium citrate"
+                        },
+                        {
+                            "temperature": "room temperature"
+                        },
+                        {
+                            "time": "10 min"
+                        }
+                    ]
+                },
+                "sentence": "Treat dissected brains for 10 min with a hypotonic solution of 0.5% sodium citrate."
+            }
+        ]
+    },
+    {
+        "sentence": "Fix for 5 min in a drop of fixing solution (1.8% Formaldehyde, 45% acetic acid) on a coverslip",
+        "result": [
+            {
+                "FIX": {
+                    "emit": [
+                        {
+                            "output": "fixed samples"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "reagent1": "fixing solution"
+                        },
+                        {
+                            "reagent2": "1.8% Formaldehyde, 45% acetic acid"
+                        },
+                        {
+                            "temperature": "room temperature"
+                        },
+                        {
+                            "time": "5 min"
+                        }
+                    ]
+                },
+                "sentence": "Fix for 5 min in a drop of fixing solution (1.8% Formaldehyde, 45% acetic acid) on a coverslip."
+            }
+        ]
+    },
+    {
+        "sentence": "Gently lean a clean slide over the coverslip and squash the brain in the same fixing solution",
+        "result": [
+            {
+                "LEAN": {
+                    "emit": [
+                        {
+                            "reagent0": "fixed samples"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "reagent1": "fixed samples"
+                        },
+                        {
+                            "reagent2": "clean slide"
+                        }
+                    ]
+                },
+                "warning": "LEAN not in ISA, using own knowledge to generate instruction.",
+                "sentence": "Gently lean a clean slide over the coverslip"
+            },
+            {
+                "SQUASH": {
+                    "emit": [
+                        {
+                            "reagent0": "squashed brain"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "reagent1": "fixed samples"
+                        },
+                        {
+                            "reagent2": "fixing solution"
+                        }
+                    ]
+                },
+                "warning": "SQUASH not in ISA, using own knowledge to generate instruction.",
+                "sentence": "squash the brain in the same fixing solution"
+            }
+        ]
+    },
+    {
+        "sentence": "Freeze the slide in liquid nitrogen",
+        "result": [
+            {
+                "FREEZE": {
+                    "emit": [
+                        {
+                            "output": "frozen slide"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "reagent1": "slide"
+                        },
+                        {
+                            "reagent2": "liquid nitrogen"
+                        },
+                        {
+                            "environment": "liquid nitrogen bath"
+                        }
+                    ]
+                },
+                "sentence": "Freeze the slide in liquid nitrogen."
+            }
+        ]
+    },
+    {
+        "sentence": "Remove the coverslip and immerse the slide in cold ethanol (-20°C) for 10 minutes",
+        "result": [
+            {
+                "REMOVE": {
+                    "emit": [
+                        {
+                            "output": "slide"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "reagent1": "coverslip"
+                        },
+                        {
+                            "method": "lifting"
+                        },
+                        {
+                            "device": "forceps"
+                        }
+                    ]
+                },
+                "sentence": "Remove the coverslip"
+            },
+            {
+                "IMMERSE": {
+                    "emit": [
+                        {
+                            "output": "slide"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "reagent1": "slide"
+                        },
+                        {
+                            "reagent2": "cold ethanol (-20°C)"
+                        },
+                        {
+                            "temperature": "cold ethanol (-20°C)"
+                        },
+                        {
+                            "time": "10 minutes"
+                        }
+                    ]
+                },
+                "sentence": "immerse the slide in cold ethanol (-20°C) for 10 minutes"
+            }
+        ]
+    },
+    {
+        "sentence": "Wash the slide in PBS-T (PBS containing 0.1% TritonX)",
+        "result": [
+            {
+                "WASH": {
+                    "emit": [
+                        {
+                            "output": "slide"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "reagent1": "slide"
+                        },
+                        {
+                            "reagent2": "PBS-T"
+                        },
+                        {
+                            "repeat": "1"
+                        },
+                        {
+                            "time": "<blank>"
+                        },
+                        {
+                            "notice": "<blank>"
+                        }
+                    ]
+                },
+                "sentence": "Wash the slide in PBS-T (PBS containing 0.1% TritonX)"
+            }
+        ]
+    },
+    {
+        "sentence": "Incubate the slide overnight with appropriate primary antibody in a humid box at 4°C",
+        "result": [
+            {
+                "INCUBATE": {
+                    "emit": [
+                        {
+                            "output": "protein-DNA complexes"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "reagent1": "appropriate primary antibody"
+                        },
+                        {
+                            "reagent2": ""
+                        },
+                        {
+                            "temperature": "4°C"
+                        },
+                        {
+                            "time": "overnight"
+                        },
+                        {
+                            "environment": ""
+                        },
+                        {
+                            "device": "humid box"
+                        },
+                        {
+                            "thermoProgram": ""
+                        },
+                        {
+                            "notice": "prior to measurements"
+                        }
+                    ]
+                },
+                "sentence": "Incubate the slide overnight with appropriate primary antibody in a humid box at 4°C."
+            }
+        ]
+    },
+    {
+        "sentence": "The next day, wash the slide twice in PBS-T for 10 minutes",
+        "result": [
+            {
+                "WASH": {
+                    "emit": [
+                        {
+                            "output": "slide"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "reagent1": "slide"
+                        },
+                        {
+                            "reagent2": "PBS-T"
+                        },
+                        {
+                            "repeat": "2"
+                        },
+                        {
+                            "time": "10 minutes"
+                        },
+                        {
+                            "notice": ""
+                        }
+                    ]
+                },
+                "sentence": "Wash the slide twice in PBS-T for 10 minutes."
+            }
+        ]
+    },
+    {
+        "sentence": "Incubate the slide with the secondary antibody for 2 h at room temperature, in a humid box.",
+        "result": [
+            {
+                "INCUBATE": {
+                    "emit": [
+                        {
+                            "output": "slide"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "reagent1": "secondary antibody"
+                        },
+                        {
+                            "reagent2": ""
+                        },
+                        {
+                            "temperature": "room temperature"
+                        },
+                        {
+                            "time": "2 h"
+                        },
+                        {
+                            "environment": ""
+                        },
+                        {
+                            "device": ""
+                        },
+                        {
+                            "thermoProgram": ""
+                        },
+                        {
+                            "notice": ""
+                        }
+                    ]
+                },
+                "sentence": "Incubate the slide with the secondary antibody for 2 h at room temperature, in a humid box."
+            }
+        ]
+    },
+    {
+        "sentence": "Wash the slide twice in PBS-T for 10 minutes and let it air dry",
+        "result": [
+            {
+                "WASH": {
+                    "emit": [
+                        {
+                            "output": "slide"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "reagent1": "slide"
+                        },
+                        {
+                            "reagent2": "PBS-T"
+                        },
+                        {
+                            "repeat": "2"
+                        },
+                        {
+                            "time": "10 minutes"
+                        },
+                        {
+                            "notice": "Let it air dry"
+                        }
+                    ]
+                },
+                "sentence": "Wash the slide twice in PBS-T for 10 minutes\nnotice:\nLet it air dry."
+            }
+        ]
+    },
+    {
+        "sentence": "Mount the slide in Vectashield medium H-1200 with DAPI (4,6 diamidino-2-phenylindole; Vector Laboratories, Burlingame, CA) to stain DNA and reduce fluorescence fading",
+        "result": [
+            {
+                "MOUNT": {
+                    "emit": [
+                        {
+                            "reagent0": "mounted slide"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "reagent1": "slide"
+                        },
+                        {
+                            "reagent2": "Vectashield medium H-1200 with DAPI"
+                        }
+                    ]
+                },
+                "warning": "MOUNT not in ISA, using own knowledge to generate instruction.",
+                "sentence": "Mount the slide in Vectashield medium H-1200 with DAPI (4,6 diamidino-2-phenylindole; Vector Laboratories, Burlingame, CA) to stain DNA and reduce fluorescence fading."
+            }
+        ]
+    },
+    {
+        "sentence": "Analyze the immunostaining with a epifluorescence microscope",
+        "result": [
+            {
+                "ANALYZE": {
+                    "emit": [
+                        {
+                            "output": "analyzed data"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "reagent1": "immunostaining"
+                        },
+                        {
+                            "data1": "epifluorescence microscope"
+                        }
+                    ]
+                },
+                "sentence": "Analyze the immunostaining with a epifluorescence microscope."
+            }
+        ]
+    }
+]

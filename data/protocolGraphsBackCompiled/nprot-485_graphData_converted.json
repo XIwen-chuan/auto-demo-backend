@@ -1,0 +1,326 @@
+[
+  {
+    "title": "",
+    "body": [
+      {
+        "sentence": "Use one month-old mice. To minimize diurnal variation start isolation of hepatocytes in the morning (10-11a.m.).",
+        "result": {
+          "ADD": {
+            "emit": [],
+            "slot": [
+              {
+                "it's a slot key": "it's a slot value"
+              }
+            ]
+          }
+        }
+      }
+    ]
+  },
+  {
+    "title": "",
+    "body": [
+      {
+        "sentence": "Anaesthetise mice by intraperitoneal injection of 200 \u03bcl of Cloralium Hydrate",
+        "result": {
+          "ADD": {
+            "emit": [],
+            "slot": [
+              {
+                "it's a slot key": "it's a slot value"
+              }
+            ]
+          }
+        }
+      }
+    ]
+  },
+  {
+    "title": "",
+    "body": [
+      {
+        "sentence": "Insert the cannula in the portal vein and start perfusion with T1 solution pH 7.4. As soon as the perfusion is started, immediately cut the hepatic vein to allow perfusate to run as a waste.",
+        "result": {
+          "ADD": {
+            "emit": [],
+            "slot": [
+              {
+                "it's a slot key": "it's a slot value"
+              }
+            ]
+          }
+        }
+      }
+    ]
+  },
+  {
+    "title": "",
+    "body": [
+      {
+        "sentence": "Flow rate is 5 ml/min. Perfuse liver for 15-20 minutes to remove completely the blood in each lobe",
+        "result": {
+          "FLOW": {
+            "emit": [],
+            "slot": [
+              {
+                "it's a slot key": "it's a slot value"
+              }
+            ]
+          }
+        }
+      }
+    ]
+  },
+  {
+    "title": "",
+    "body": [
+      {
+        "sentence": "Perfuse the liver with T2 solution pH 7.4. At this stage the hepatic tissue is rapidly disaggregated. Collect the tissue with a curved spatula and transfer into a plate where the disruption of the tissue is proceeded with a scalpel. This step should be fast in order to avoid damage of hepatocytes.",
+        "result": {
+          "ADD": {
+            "emit": [],
+            "slot": [
+              {
+                "it's a slot key": "it's a slot value"
+              }
+            ]
+          }
+        }
+      }
+    ]
+  },
+  {
+    "title": "",
+    "body": [
+      {
+        "sentence": "Remove the bladder and mince the tissue with a scalpel.",
+        "result": {
+          "REMOVE": {
+            "emit": [],
+            "slot": [
+              {
+                "it's a slot key": "it's a slot value"
+              }
+            ]
+          }
+        }
+      }
+    ]
+  },
+  {
+    "title": "",
+    "body": [
+      {
+        "sentence": "Collect minced tissue with 2 ml DMEM and filter cells through 70 \u03bcm cell strainer",
+        "result": {
+          "COLLECT": {
+            "emit": [],
+            "slot": [
+              {
+                "it's a slot key": "it's a slot value"
+              }
+            ]
+          }
+        }
+      }
+    ]
+  },
+  {
+    "title": "",
+    "body": [
+      {
+        "sentence": "Centrifuge cells at 600rpm for 4min at room temperature.",
+        "result": {
+          "CENTRIFUGE": {
+            "emit": [],
+            "slot": [
+              {
+                "it's a slot key": "it's a slot value"
+              }
+            ]
+          }
+        }
+      }
+    ]
+  },
+  {
+    "title": "",
+    "body": [
+      {
+        "sentence": "Remove supernatant, resuspend pellet in 3 ml DMEM and pass the hepatocytes on 37.5% PERCOLL cushion (30 ml) to recover viable cells.",
+        "result": {
+          "REMOVE": {
+            "emit": [],
+            "slot": [
+              {
+                "it's a slot key": "it's a slot value"
+              }
+            ]
+          }
+        }
+      }
+    ]
+  },
+  {
+    "title": "",
+    "body": [
+      {
+        "sentence": "Centrifuge 1050 rpm for 3min at room temperature",
+        "result": {
+          "CENTRIFUGE": {
+            "emit": [],
+            "slot": [
+              {
+                "it's a slot key": "it's a slot value"
+              }
+            ]
+          }
+        }
+      }
+    ]
+  },
+  {
+    "title": "",
+    "body": [
+      {
+        "sentence": "Resuspend pellet of viable cells in 2 ml of DMEM and count the hepatocytes.",
+        "result": {
+          "ADD": {
+            "emit": [],
+            "slot": [
+              {
+                "it's a slot key": "it's a slot value"
+              }
+            ]
+          }
+        }
+      }
+    ]
+  },
+  {
+    "title": "",
+    "body": [
+      {
+        "sentence": "Leave the isolated primary hepatocytes in 3 ml of DMEM at 5% CO2, 37\u00b0C for 2h and in suspension. Absence of serum is necessary to decrease the basal level of translation.",
+        "result": {
+          "LEAVE": {
+            "emit": [],
+            "slot": [
+              {
+                "it's a slot key": "it's a slot value"
+              }
+            ]
+          }
+        }
+      }
+    ]
+  },
+  {
+    "title": "",
+    "body": [
+      {
+        "sentence": "After 2h replace the medium with DMEM without methionine and cysteine and start with the metabolic labelling assay.",
+        "result": {
+          "ADD": {
+            "emit": [],
+            "slot": [
+              {
+                "it's a slot key": "it's a slot value"
+              }
+            ]
+          }
+        }
+      }
+    ]
+  },
+  {
+    "title": "",
+    "body": [
+      {
+        "sentence": "Each point of the metabolic labelling is done in triplicate. Use 15 x 105 hepatocytes/triplicate. Resuspend 5 x 105 cells in 2ml DMEM without Met/Cys and maintain the cells in a 15ml round bottom falcon tube to allow sufficient oxygenation.",
+        "result": {
+          "ADD": {
+            "emit": [],
+            "slot": [
+              {
+                "it's a slot key": "it's a slot value"
+              }
+            ]
+          }
+        }
+      }
+    ]
+  },
+  {
+    "title": "",
+    "body": [
+      {
+        "sentence": "Add to the media the desired stimula to increase translational level (e.g. 100 nM Insulin) and label the cells with 20 \u03bcCi/ml of S-Met/Cys mixture for 1h.",
+        "result": {
+          "ADD": {
+            "emit": [],
+            "slot": [
+              {
+                "it's a slot key": "it's a slot value"
+              }
+            ]
+          }
+        }
+      }
+    ]
+  },
+  {
+    "title": "",
+    "body": [
+      {
+        "sentence": "After 1h, lyse the cells in 100 \u03bcl of Lysis Buffer: 10mM Tris HCl pH 7.4, 1% Triton X-100, 150mM NaCl, 1mM EDTA.",
+        "result": {
+          "ADD": {
+            "emit": [],
+            "slot": [
+              {
+                "it's a slot key": "it's a slot value"
+              }
+            ]
+          }
+        }
+      }
+    ]
+  },
+  {
+    "title": "",
+    "body": [
+      {
+        "sentence": "Keep 15min on ice and then clarify at 14000rpm for 10min at 4\u00b0C.",
+        "result": {
+          "ADD": {
+            "emit": [],
+            "slot": [
+              {
+                "it's a slot key": "it's a slot value"
+              }
+            ]
+          }
+        }
+      }
+    ]
+  },
+  {
+    "title": "",
+    "body": [
+      {
+        "sentence": "Use 10 \u03bcl of the lysate to read radioactivity incorporation as previously described",
+        "result": {
+          "ADD": {
+            "emit": [],
+            "slot": [
+              {
+                "it's a slot key": "it's a slot value"
+              }
+            ]
+          }
+        }
+      }
+    ]
+  }
+]

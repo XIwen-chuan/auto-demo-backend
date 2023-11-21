@@ -1,0 +1,800 @@
+[
+    {
+        "sentence": "Prepare the bacterial culture",
+        "result": [
+            {
+                "PREPARE": {
+                    "emit": [
+                        {
+                            "output": "bacterial culture"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "reagent1": "bacterial culture"
+                        },
+                        {
+                            "container": "1.5 ml Eppendorf tube"
+                        }
+                    ]
+                },
+                "sentence": "Prepare the bacterial culture"
+            }
+        ]
+    },
+    {
+        "sentence": "adjust the bacterial population to 106 - 107 cfu/ml",
+        "result": [
+            {
+                "ADJUST": {
+                    "emit": [
+                        {
+                            "output": "bacterial culture"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "reagent1": "bacterial culture"
+                        },
+                        {
+                            "attribute": "bacterial population"
+                        },
+                        {
+                            "data1": "106 - 107 cfu/ml"
+                        }
+                    ]
+                },
+                "sentence": "adjust the bacterial population to 106 - 107 cfu/ml"
+            }
+        ]
+    },
+    {
+        "sentence": "incubate the bacteria under test at\n106 cfu/ml with 60 μg puri\u0000ed HMC plus 100 nmol 4-methylcatechol \\(4ME) in 100 μl PBS at 37 °C for 1 h.",
+        "result": []
+    },
+    {
+        "sentence": "enumerate the remnant bacterial population in the reaction mixture by plating 100 μl of serially diluted samples on nutrient agar plates",
+        "result": [
+            {
+                "ENUMERATE": {
+                    "emit": [
+                        {
+                            "reagent0": "enumerated bacterial population"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "reagent1": "bacterial culture"
+                        }
+                    ]
+                },
+                "warning": "ENUMERATE not in ISA, using own knowledge to generate instruction.",
+                "sentence": "enumerate the remnant bacterial population in the reaction mixture"
+            },
+            {
+                "PLATE": {
+                    "emit": [
+                        {
+                            "output": "enumerated bacterial population"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "reagent1": "serially diluted samples"
+                        },
+                        {
+                            "reagent2": "nutrient agar plates"
+                        },
+                        {
+                            "density": "100 μl"
+                        }
+                    ]
+                },
+                "sentence": "plating 100 μl of serially diluted samples on nutrient agar plates"
+            }
+        ]
+    },
+    {
+        "sentence": "incubate the plate at 37 °C overnight",
+        "result": [
+            {
+                "INCUBATE": {
+                    "emit": [
+                        {
+                            "output": "plate"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "reagent1": "plate"
+                        },
+                        {
+                            "reagent2": ""
+                        },
+                        {
+                            "temperature": "37 °C"
+                        },
+                        {
+                            "time": "overnight"
+                        },
+                        {
+                            "environment": ""
+                        },
+                        {
+                            "device": ""
+                        },
+                        {
+                            "thermoProgram": ""
+                        },
+                        {
+                            "notice": ""
+                        }
+                    ]
+                },
+                "sentence": "incubate the plate at 37 °C overnight"
+            }
+        ]
+    },
+    {
+        "sentence": "Perform the colony count and calculate the bacterial cfu/ml",
+        "result": [
+            {
+                "PERFORM": {
+                    "emit": [
+                        {
+                            "output": "enumerated bacterial population"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "procedure": "colony count and calculate the bacterial cfu/ml"
+                        },
+                        {
+                            "reagent1": "nutrient agar plates"
+                        }
+                    ]
+                },
+                "sentence": "Perform the colony count and calculate the bacterial cfu/ml."
+            },
+            {
+                "COUNT": {
+                    "emit": [
+                        {
+                            "output": "bacterial cfu/ml"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "reagent1": "enumerated bacterial population"
+                        },
+                        {
+                            "method": "colony count"
+                        },
+                        {
+                            "reagent2": ""
+                        },
+                        {
+                            "device": "hemocytometer"
+                        }
+                    ]
+                },
+                "sentence": "Perform the colony count and calculate the bacterial cfu/ml."
+            },
+            {
+                "CALCULATE": {
+                    "emit": [
+                        {
+                            "output": "<blank>"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "attribute": "bacterial cfu/ml"
+                        },
+                        {
+                            "formula": "<blank>"
+                        },
+                        {
+                            "variables": "<blank>"
+                        },
+                        {
+                            "values": "<blank>"
+                        },
+                        {
+                            "units": "<blank>"
+                        },
+                        {
+                            "software": "<blank>"
+                        },
+                        {
+                            "notice": "<blank>"
+                        }
+                    ]
+                },
+                "sentence": "Perform the colony count and calculate the bacterial cfu/ml."
+            }
+        ]
+    },
+    {
+        "sentence": "add 10 nmol of phenylthiourea \\(PTU) to the reactions in order to evaluate the impact of PO activity",
+        "result": [
+            {
+                "ADD": {
+                    "emit": [
+                        {
+                            "output": "<blank>"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "reagent1": "phenylthiourea (PTU)"
+                        },
+                        {
+                            "reagent2": "reactions"
+                        },
+                        {
+                            "ratio": "<blank>"
+                        },
+                        {
+                            "concentration": "<blank>"
+                        },
+                        {
+                            "notice": "<blank>"
+                        }
+                    ]
+                },
+                "sentence": "Add 10 nmol of phenylthiourea (PTU) to the reactions in order to evaluate the impact of PO activity."
+            }
+        ]
+    },
+    {
+        "sentence": "also set up controls by incubating bacteria with HMC/PPO or 4ME or PTU separately, or in combinations. ",
+        "result": [
+            {
+                "SET UP": {
+                    "emit": [
+                        {
+                            "reagent0": "<blank>"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "reagent1": "bacteria"
+                        },
+                        {
+                            "reagent2": [
+                                "HMC/PPO",
+                                "4ME",
+                                "PTU"
+                            ]
+                        }
+                    ]
+                },
+                "warning": "SET UP not in ISA, using own knowledge to generate instruction.",
+                "sentence": "also set up controls by incubating bacteria with HMC/PPO or 4ME or PTU separately, or in combinations."
+            }
+        ]
+    },
+    {
+        "sentence": "For real-time imaging of the bacterial clearance elicited by HMC/PPO",
+        "result": [
+            {
+                "PERFUSE": {
+                    "emit": [
+                        {
+                            "output": "enumerated bacterial population"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "reagent1": "mice"
+                        },
+                        {
+                            "reagent2": "phenylthiourea (PTU)"
+                        },
+                        {
+                            "location": "reactions"
+                        },
+                        {
+                            "method": "Add"
+                        },
+                        {
+                            "purpose": "evaluate the impact of PO activity"
+                        }
+                    ]
+                },
+                "sentence": "For real-time imaging of the bacterial clearance elicited by HMC/PPO"
+            }
+        ]
+    },
+    {
+        "sentence": "mix each bacterial strain at 107 cfu/ml with 60 μg HMC/PPO and 100 nmol 4ME in 100 μl PBS",
+        "result": [
+            {
+                "MIX": {
+                    "emit": [
+                        {
+                            "output": "mixed bacterial strain"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "reagent1": "each bacterial strain at 107 cfu/ml"
+                        },
+                        {
+                            "reagent2": "60 μg HMC/PPO and 100 nmol 4ME"
+                        },
+                        {
+                            "ratio": "1:1"
+                        }
+                    ]
+                },
+                "sentence": "mix each bacterial strain at 107 cfu/ml with 60 μg HMC/PPO and 100 nmol 4ME in 100 μl PBS"
+            }
+        ]
+    },
+    {
+        "sentence": "apply one μl of the mixture to \u0000uorescence microscopy ",
+        "result": [
+            {
+                "APPLY": {
+                    "emit": [
+                        {
+                            "output": "mixed bacterial strain"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "reagent1": "mixed bacterial strain"
+                        },
+                        {
+                            "reagent2": "fluorescence microscopy"
+                        }
+                    ]
+                },
+                "sentence": "apply one μl of the mixture to fluorescence microscopy"
+            }
+        ]
+    },
+    {
+        "sentence": "examine it at magni\u0000cation of 63 x 1.6, with time-elapse method",
+        "result": [
+            {
+                "EXAMINE": {
+                    "emit": [
+                        {
+                            "output": "enumerated bacterial population"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "reagent1": "mixed bacterial strain"
+                        },
+                        {
+                            "attribute": "magnification"
+                        },
+                        {
+                            "method": "time-elapse"
+                        },
+                        {
+                            "device": "fluorescence microscopy"
+                        }
+                    ]
+                },
+                "sentence": "examine it at magnification of 63 x 1.6, with time-elapse method"
+            }
+        ]
+    },
+    {
+        "sentence": "capture images at intervals of 30 s for 1 h, and make a movie.",
+        "result": [
+            {
+                "CAPTURE": {
+                    "emit": [
+                        {
+                            "output": "enumerated bacterial population"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "reagent1": "enumerated bacterial population"
+                        },
+                        {
+                            "container": "N/A"
+                        },
+                        {
+                            "source": "enumerated bacterial population"
+                        },
+                        {
+                            "method": "time-lapse imaging"
+                        },
+                        {
+                            "environment": "N/A"
+                        },
+                        {
+                            "purpose": "real-time imaging of bacterial clearance"
+                        },
+                        {
+                            "notice": ""
+                        }
+                    ]
+                },
+                "sentence": "Capture images at intervals of 30 s for 1 h."
+            },
+            {
+                "MAKE": {
+                    "emit": [
+                        {
+                            "reagent0": "enumerated bacterial population"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "reagent1": "plate"
+                        },
+                        {
+                            "reagent2": "enumerated bacterial population"
+                        },
+                        {
+                            "reagent3": "phenylthiourea (PTU)"
+                        },
+                        {
+                            "reagent4": "HMC/PPO or 4ME or PTU"
+                        },
+                        {
+                            "repeat": "1"
+                        }
+                    ]
+                },
+                "warning": "MAKE not in ISA, using own knowledge to generate instruction.",
+                "sentence": "Make a movie."
+            }
+        ]
+    },
+    {
+        "sentence": "For the end-point measurement of metHb",
+        "result": [
+            {
+                "MEASURE": {
+                    "emit": [
+                        {
+                            "output": "absorbance data"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "device": "spectrophotometer"
+                        },
+                        {
+                            "reagent1": "metHb"
+                        },
+                        {
+                            "attribute": "absorbance"
+                        },
+                        {
+                            "time": "2 min"
+                        },
+                        {
+                            "wavelength": "550 nm"
+                        }
+                    ]
+                },
+                "sentence": "For the end-point measurement of metHb"
+            }
+        ]
+    },
+    {
+        "sentence": "incubate the bacteria under test at 106 cfu/ml with 36 μg metHb and 1.6 μmol H2O2 in 200 μl PBS at 37 °C for 1 h",
+        "result": [
+            {
+                "INCUBATE": {
+                    "emit": [
+                        {
+                            "output": "protein-DNA complexes"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "reagent1": "bacteria under test"
+                        },
+                        {
+                            "reagent2": "36 μg metHb and 1.6 μmol H2O2 in 200 μl PBS"
+                        },
+                        {
+                            "temperature": "37 °C"
+                        },
+                        {
+                            "time": "1 h"
+                        },
+                        {
+                            "environment": ""
+                        },
+                        {
+                            "device": ""
+                        },
+                        {
+                            "thermoProgram": ""
+                        },
+                        {
+                            "notice": "prior to measurements"
+                        }
+                    ]
+                },
+                "sentence": "incubate the bacteria under test at 106 cfu/ml with 36 μg metHb and 1.6 μmol H2O2 in 200 μl PBS at 37 °C for 1 h"
+            }
+        ]
+    },
+    {
+        "sentence": "enumerate the remnant bacterial population in the reaction mixture by plating 100 μl of serially diluted samples on nutrient agar plates and incubating at 37 °C overnight",
+        "result": [
+            {
+                "ENUMERATE": {
+                    "emit": [
+                        {
+                            "reagent0": "enumerated bacterial population"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "reagent1": "enumerated bacterial population"
+                        },
+                        {
+                            "reagent2": "reaction mixture"
+                        }
+                    ]
+                },
+                "warning": "ENUMERATE not in ISA, using own knowledge to generate instruction.",
+                "sentence": "enumerate the remnant bacterial population in the reaction mixture"
+            },
+            {
+                "PLATE": {
+                    "emit": [
+                        {
+                            "output": "enumerated bacterial population"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "reagent1": "serially diluted samples"
+                        },
+                        {
+                            "reagent2": "nutrient agar plates"
+                        },
+                        {
+                            "density": "100 μl"
+                        }
+                    ]
+                },
+                "sentence": "plating 100 μl of serially diluted samples on nutrient agar plates"
+            },
+            {
+                "INCUBATE": {
+                    "emit": [
+                        {
+                            "output": "enumerated bacterial population"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "reagent1": "protein-DNA complexes"
+                        },
+                        {
+                            "reagent2": ""
+                        },
+                        {
+                            "temperature": "37 °C"
+                        },
+                        {
+                            "time": "overnight"
+                        },
+                        {
+                            "environment": ""
+                        },
+                        {
+                            "device": ""
+                        },
+                        {
+                            "thermoProgram": ""
+                        },
+                        {
+                            "notice": "prior to measurements"
+                        }
+                    ]
+                },
+                "sentence": "incubating at 37 °C overnight"
+            }
+        ]
+    },
+    {
+        "sentence": "Perform the colony count and calculate the bacterial cfu/ml",
+        "result": [
+            {
+                "PERFORM": {
+                    "emit": [
+                        {
+                            "output": "enumerated bacterial population"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "procedure": "colony count and calculate the bacterial cfu/ml"
+                        },
+                        {
+                            "reagent1": "nutrient agar plates"
+                        },
+                        {
+                            "equipment": "microscope"
+                        },
+                        {
+                            "environment": "37 °C"
+                        }
+                    ]
+                },
+                "sentence": "Perform the colony count and calculate the bacterial cfu/ml."
+            },
+            {
+                "CALCULATE": {
+                    "emit": [
+                        {
+                            "output": "<blank>"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "attribute": "bacterial cfu/ml"
+                        },
+                        {
+                            "formula": "<blank>"
+                        },
+                        {
+                            "variables": "<blank>"
+                        },
+                        {
+                            "values": "<blank>"
+                        },
+                        {
+                            "units": "<blank>"
+                        },
+                        {
+                            "software": "<blank>"
+                        },
+                        {
+                            "notice": "<blank>"
+                        }
+                    ]
+                },
+                "sentence": "Perform the colony count and calculate the bacterial cfu/ml."
+            }
+        ]
+    },
+    {
+        "sentence": "to further prove that the antibacterial activity was indeed attributable to ROS, apply 2 μmol GSH to the incubation mixture to quench the superoxide ions.",
+        "result": [
+            {
+                "APPLY": {
+                    "emit": [
+                        {
+                            "output": "<blank>"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "reagent1": "incubation mixture"
+                        },
+                        {
+                            "reagent2": "2 μmol GSH"
+                        },
+                        {
+                            "ratio": "<blank>"
+                        },
+                        {
+                            "concentration": "<blank>"
+                        },
+                        {
+                            "notice": "<blank>"
+                        }
+                    ]
+                },
+                "sentence": "apply 2 μmol GSH to the incubation mixture to quench the superoxide ions."
+            }
+        ]
+    },
+    {
+        "sentence": "set up controls by incubating bacteria with metHb, H2O2 or GSH separately or in combinations.",
+        "result": [
+            {
+                "SET UP": {
+                    "emit": [
+                        {
+                            "reagent0": "enumerated bacterial population"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "reagent1": "bacteria"
+                        },
+                        {
+                            "reagent2": "metHb"
+                        },
+                        {
+                            "reagent3": "H2O2"
+                        },
+                        {
+                            "reagent4": "GSH"
+                        }
+                    ]
+                },
+                "warning": "SET UP not in ISA, using own knowledge to generate instruction.",
+                "sentence": "Set up controls by incubating bacteria with metHb, H2O2 or GSH separately or in combinations."
+            },
+            {
+                "INCUBATE": {
+                    "emit": [
+                        {
+                            "output": "<blank>"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "reagent1": "metHb, H2O2 or GSH separately or in combinations"
+                        },
+                        {
+                            "reagent2": "<blank>"
+                        },
+                        {
+                            "temperature": "37 °C"
+                        },
+                        {
+                            "time": "overnight"
+                        },
+                        {
+                            "environment": "<blank>"
+                        },
+                        {
+                            "device": "<blank>"
+                        },
+                        {
+                            "thermoProgram": "<blank>"
+                        },
+                        {
+                            "notice": "to set up controls"
+                        }
+                    ]
+                },
+                "sentence": "Incubate bacteria with metHb, H2O2 or GSH separately or in combinations."
+            }
+        ]
+    },
+    {
+        "sentence": "For the end-point measurement of HMC/PPO",
+        "result": [
+            {
+                "CUT": {
+                    "emit": [
+                        {
+                            "output": "HMC/PPO sections"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "reagent": "HMC/PPO"
+                        },
+                        {
+                            "device": "<blank>"
+                        },
+                        {
+                            "size": "<blank>"
+                        },
+                        {
+                            "direction": "along the caudal to rostral"
+                        },
+                        {
+                            "environment": "<blank>"
+                        }
+                    ]
+                },
+                "sentence": "For the end-point measurement of HMC/PPO"
+            }
+        ]
+    }
+]

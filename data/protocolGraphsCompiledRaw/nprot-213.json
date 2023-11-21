@@ -1,0 +1,478 @@
+[
+    {
+        "sentence": "Cultivate cells endogenously expressing or stably overexpressing CXCR2 \\(i.e. HEK293-CXCR2 cells) \\(105 cells/mL) in a 24-well plate in DMEM medium plus 10% FCS overnight",
+        "result": [
+            {
+                "CULTIVATE": {
+                    "emit": [
+                        {
+                            "reagent0": "cultivated cells"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "reagent1": "DMEM medium plus 10% FCS"
+                        },
+                        {
+                            "reagent2": "HEK293-CXCR2 cells"
+                        },
+                        {
+                            "concentration": "105 cells/mL"
+                        },
+                        {
+                            "container": "24-well plate"
+                        },
+                        {
+                            "duration": "overnight"
+                        }
+                    ]
+                },
+                "warning": "CULTIVATE not in ISA, using own knowledge to generate instruction.",
+                "sentence": "Cultivate cells endogenously expressing or stably overexpressing CXCR2 (i.e. HEK293-CXCR2 cells) (105 cells/mL) in a 24-well plate in DMEM medium plus 10% FCS overnight."
+            },
+            {
+                "PLATE": {
+                    "emit": [
+                        {
+                            "output": "cultivated cells"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "reagent1": "HEK293-CXCR2 cells"
+                        },
+                        {
+                            "reagent2": "24-well plate"
+                        },
+                        {
+                            "density": "105 cells/mL"
+                        }
+                    ]
+                },
+                "sentence": "Cultivate cells endogenously expressing or stably overexpressing CXCR2 (i.e. HEK293-CXCR2 cells) (105 cells/mL) in a 24-well plate in DMEM medium plus 10% FCS overnight."
+            },
+            {
+                "ADD": {
+                    "emit": [
+                        {
+                            "output": "cultivated cells"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "reagent1": "24-well plate"
+                        },
+                        {
+                            "reagent2": "DMEM medium plus 10% FCS"
+                        }
+                    ]
+                },
+                "sentence": "Cultivate cells endogenously expressing or stably overexpressing CXCR2 (i.e. HEK293-CXCR2 cells) (105 cells/mL) in a 24-well plate in DMEM medium plus 10% FCS overnight."
+            },
+            {
+                "INCUBATE": {
+                    "emit": [
+                        {
+                            "output": "cultivated cells"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "reagent1": "cultivated cells"
+                        },
+                        {
+                            "reagent2": ""
+                        },
+                        {
+                            "temperature": "room temperature"
+                        },
+                        {
+                            "time": "overnight"
+                        },
+                        {
+                            "environment": ""
+                        },
+                        {
+                            "device": ""
+                        },
+                        {
+                            "thermoProgram": ""
+                        },
+                        {
+                            "notice": "prior to measurements"
+                        }
+                    ]
+                },
+                "sentence": "Cultivate cells endogenously expressing or stably overexpressing CXCR2 (i.e. HEK293-CXCR2 cells) (105 cells/mL) in a 24-well plate in DMEM medium plus 10% FCS overnight."
+            }
+        ]
+    },
+    {
+        "sentence": "Remove the medium and add binding buffer \\\n(medium without FCS)",
+        "result": [
+            {
+                "REMOVE": {
+                    "emit": [
+                        {
+                            "output": "cultivated cells"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "reagent1": "medium"
+                        },
+                        {
+                            "method": "aspiration"
+                        }
+                    ]
+                },
+                "sentence": "Remove the medium"
+            },
+            {
+                "ADD": {
+                    "emit": [
+                        {
+                            "output": "cultivated cells"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "reagent1": "cultivated cells"
+                        },
+                        {
+                            "reagent2": "binding buffer"
+                        }
+                    ]
+                },
+                "sentence": "add binding buffer (medium without FCS)"
+            }
+        ]
+    },
+    {
+        "sentence": "Put the plate on ice for 10 min",
+        "result": [
+            {
+                "PUT": {
+                    "emit": [
+                        {
+                            "output": "plate"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "reagent1": "plate"
+                        },
+                        {
+                            "destination": "ice"
+                        },
+                        {
+                            "temperature": "10 min"
+                        }
+                    ]
+                },
+                "sentence": "Put the plate on ice for 10 min"
+            }
+        ]
+    },
+    {
+        "sentence": "Add cold agonist, i.e. rMIF or cold CXCL8 \\(0\n– 1 µM) together with the tracer \\(40 pM of 125I -labeled recombinant CXCL8)",
+        "result": [
+            {
+                "ADD": {
+                    "emit": [
+                        {
+                            "output": "cultivated cells"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "reagent1": "cultivated cells"
+                        },
+                        {
+                            "reagent2": "rMIF or cold CXCL8 (0 – 1 µM) together with the tracer (40 pM of 125I-labeled recombinant CXCL8)"
+                        }
+                    ]
+                },
+                "sentence": "Add cold agonist, i.e. rMIF or cold CXCL8 (0 – 1 µM) together with the tracer (40 pM of 125I-labeled recombinant CXCL8)."
+            }
+        ]
+    },
+    {
+        "sentence": "Perform equilibrium receptor binding for 90 min at 4 °C",
+        "result": [
+            {
+                "PERFORM": {
+                    "emit": [
+                        {
+                            "output": "<blank>"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "procedure": "equilibrium receptor binding"
+                        },
+                        {
+                            "reagent1": "<blank>"
+                        },
+                        {
+                            "equipment": "<blank>"
+                        },
+                        {
+                            "environment": "4 °C"
+                        },
+                        {
+                            "repeat": "<blank>"
+                        },
+                        {
+                            "time": "90 min"
+                        }
+                    ]
+                },
+                "sentence": "Perform equilibrium receptor binding for 90 min at 4 °C."
+            }
+        ]
+    },
+    {
+        "sentence": "Remove the medium and wash the cells twice with cold medium",
+        "result": [
+            {
+                "REMOVE": {
+                    "emit": [
+                        {
+                            "output": "cultivated cells"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "reagent1": "medium"
+                        },
+                        {
+                            "method": "aspiration"
+                        }
+                    ]
+                },
+                "sentence": "Remove the medium"
+            },
+            {
+                "WASH": {
+                    "emit": [
+                        {
+                            "output": "cultivated cells"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "reagent1": "cultivated cells"
+                        },
+                        {
+                            "reagent2": "cold medium"
+                        },
+                        {
+                            "repeat": "2"
+                        },
+                        {
+                            "time": "<blank>"
+                        },
+                        {
+                            "notice": "<blank>"
+                        }
+                    ]
+                },
+                "sentence": "wash the cells twice with cold medium"
+            }
+        ]
+    },
+    {
+        "sentence": "Harvest the cells by adding 0.5 M NaOH",
+        "result": [
+            {
+                "HARVEST": {
+                    "emit": [
+                        {
+                            "output": "cell culture media"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "reagent1": "0.5 M NaOH"
+                        },
+                        {
+                            "container": "15 ml tube"
+                        },
+                        {
+                            "source": "well"
+                        },
+                        {
+                            "method": "using a pipette"
+                        }
+                    ]
+                },
+                "sentence": "Harvest the cells by adding 0.5 M NaOH"
+            }
+        ]
+    },
+    {
+        "sentence": "Transfer the lysate to a liquid scintillation tube",
+        "result": [
+            {
+                "TRANSFER": {
+                    "emit": [
+                        {
+                            "output": "lysate"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "source": "lysate"
+                        },
+                        {
+                            "destination": "liquid scintillation tube"
+                        },
+                        {
+                            "reagent1": "lysate"
+                        }
+                    ]
+                },
+                "sentence": "Transfer the lysate to a liquid scintillation tube"
+            }
+        ]
+    },
+    {
+        "sentence": "Add Aquasafe 500 plus LSC cocktail and mix well.",
+        "result": [
+            {
+                "ADD": {
+                    "emit": [
+                        {
+                            "output": "Aquasafe 500 plus LSC cocktail"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "reagent1": "Aquasafe 500 plus LSC cocktail"
+                        },
+                        {
+                            "reagent2": "Aquasafe 500 plus LSC cocktail"
+                        }
+                    ]
+                },
+                "sentence": "Add Aquasafe 500 plus LSC cocktail and mix well."
+            },
+            {
+                "MIX": {
+                    "emit": [
+                        {
+                            "output": "Aquasafe 500 plus LSC cocktail"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "reagent1": "Aquasafe 500 plus LSC cocktail"
+                        },
+                        {
+                            "reagent2": ""
+                        },
+                        {
+                            "ratio": ""
+                        },
+                        {
+                            "method": ""
+                        },
+                        {
+                            "temperature": ""
+                        },
+                        {
+                            "time": ""
+                        },
+                        {
+                            "device": ""
+                        },
+                        {
+                            "notice": ""
+                        }
+                    ]
+                },
+                "sentence": "Add Aquasafe 500 plus LSC cocktail and mix well."
+            }
+        ]
+    },
+    {
+        "sentence": "Determine the cell-bound radioactivity by liquid scintillation counting",
+        "result": [
+            {
+                "DETERMINE": {
+                    "emit": [
+                        {
+                            "output": "cell-bound radioactivity"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "device": "liquid scintillation counter"
+                        },
+                        {
+                            "reagent1": "cell lysate"
+                        },
+                        {
+                            "attribute": "cell-bound radioactivity"
+                        },
+                        {
+                            "time": "10 min"
+                        },
+                        {
+                            "wavelength": "N/A"
+                        }
+                    ]
+                },
+                "sentence": "Determine the cell-bound radioactivity by liquid scintillation counting."
+            }
+        ]
+    },
+    {
+        "sentence": "For most agonist-receptor interactions, assume that receptor binding inhibition by agonist \\(i.e. rMIF or cold CXCL8) follows a one-site model.",
+        "result": [
+            {
+                "ASSUME": {
+                    "emit": [
+                        {
+                            "reagent0": "cell-bound radioactivity"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "model": "one-site"
+                        }
+                    ]
+                },
+                "warning": "ASSUME not in ISA, using own knowledge to generate instruction.",
+                "sentence": "For most agonist-receptor interactions, assume that receptor binding inhibition by agonist (i.e. rMIF or cold CXCL8) follows a one-site model."
+            }
+        ]
+    },
+    {
+        "sentence": "Calculate the EC50, Ki and Kd values by using the equation of Cheng and Prusoff for heterologous competition experiments, applying the GraphPad software.",
+        "result": [
+            {
+                "CALCULATE": {
+                    "emit": [
+                        {
+                            "output": "<blank>"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "attribute": "EC50, Ki and Kd values"
+                        },
+                        {
+                            "formula": "equation of Cheng and Prusoff"
+                        },
+                        {
+                            "software": "GraphPad"
+                        }
+                    ]
+                },
+                "sentence": "Calculate the EC50, Ki and Kd values by using the equation of Cheng and Prusoff for heterologous competition experiments, applying the GraphPad software."
+            }
+        ]
+    }
+]

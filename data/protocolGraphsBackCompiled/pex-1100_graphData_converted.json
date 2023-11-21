@@ -1,0 +1,398 @@
+[
+  {
+    "title": "",
+    "body": [
+      {
+        "sentence": "1 litre of 50X concentrate: DMEM/F12 (Used neat to make mixture up to 1 litre), L-ascorbic acid (3200mg/L), Sodium selenium (700\u00b5g/L), Insulin (970mg/L), NaHCO3 (27.15g/L), Transferrin (535mg/L), Glutamax (50X, 500ml), FGF2 (5mg/L) and TGFB1 (100\u00b5g/L).",
+        "result": {
+          "ADD": {
+            "emit": [],
+            "slot": [
+              {
+                "it's a slot key": "it's a slot value"
+              }
+            ]
+          }
+        }
+      }
+    ]
+  },
+  {
+    "title": "",
+    "body": [
+      {
+        "sentence": "1 litre of E8: DMEM/F12 (Used neat to make mixture up to 1 litre), L-ascorbic acid (64mg/L), Sodium selenium (14\u00b5g/L), Insulin (19.4mg/L), NaHCO3 (543mg/L), Transferrin (10.7mg/L), Glutamax (1X, 10ml/L), FGF2 (100\u00b5g/L) and TGFB1 (2\u00b5g/L).",
+        "result": {
+          "ADD": {
+            "emit": [],
+            "slot": [
+              {
+                "it's a slot key": "it's a slot value"
+              }
+            ]
+          }
+        }
+      }
+    ]
+  },
+  {
+    "title": "",
+    "body": [
+      {
+        "sentence": "PRIMO Plus medium:1. CHIR99021: resuspend the powder in DMSO at 10mM. 2. IWP-2: resuspend the powder in DMSO at 5mM. 3. Cholesterol: resuspend the powder in 100% ethanol at 20mM. 4. LPA: resuspend the powder in PBS with 0.1% Fatty acid free BSA at 381\u00b5M.",
+        "result": {
+          "ADD": {
+            "emit": [],
+            "slot": [
+              {
+                "it's a slot key": "it's a slot value"
+              }
+            ]
+          }
+        }
+      }
+    ]
+  },
+  {
+    "title": "",
+    "body": [
+      {
+        "sentence": "40ml 5X stock\uff1a1. Dissolve 400mg of BSA (1% in fi nal volume) in 5ml of E8 media at 37\u02dac. 2. Add ~0.5ml (amount for 4.8 \u00b5M in 40ml) of LPA and incubate for 5 minutes. 3. Add 40\u00b5l of 20mM Cholesterol (20\u00b5M in 40ml) and incubate for a further 5 minutes. 4. Add ~34.5ml of E8. 5. Filter sterilise with a 0.22\u00b5M fi lter. 6. Freeze or make smaller aliquots and freeze at -20\u02dac",
+        "result": {
+          "ADD": {
+            "emit": [],
+            "slot": [
+              {
+                "it's a slot key": "it's a slot value"
+              }
+            ]
+          }
+        }
+      }
+    ]
+  },
+  {
+    "title": "",
+    "body": [
+      {
+        "sentence": "PRIMO Plus:1. Dilute 5X stock 1 in 5 with E8 media, ie 10ml of stock with 40ml of E8. 2. Add CHIR99021 at 3\u00b5M. 3. Add IWP-2 at 1\u00b5M.",
+        "result": {
+          "ADD": {
+            "emit": [],
+            "slot": [
+              {
+                "it's a slot key": "it's a slot value"
+              }
+            ]
+          }
+        }
+      }
+    ]
+  },
+  {
+    "title": "",
+    "body": [
+      {
+        "sentence": "PRIMO Plus complete: Desired mL of E8 as basal, Fatty Acid Free BSA (0.2%), Cholesterol (4\u00b5M), LPA (0.96\u00b5M), CHIR99021 (3\u00b5M) and IWP-2 (1\u00b5M).",
+        "result": {
+          "ADD": {
+            "emit": [],
+            "slot": [
+              {
+                "it's a slot key": "it's a slot value"
+              }
+            ]
+          }
+        }
+      }
+    ]
+  },
+  {
+    "title": "",
+    "body": [
+      {
+        "sentence": "PRIMO Plus Composition: 5x stock: Desired mL of E8 as basal, Fatty Acid Free BSA (1%), Cholesterol (20\u00b5M), and LPA (4.8\u00b5M).",
+        "result": {
+          "ADD": {
+            "emit": [],
+            "slot": [
+              {
+                "it's a slot key": "it's a slot value"
+              }
+            ]
+          }
+        }
+      }
+    ]
+  },
+  {
+    "title": "",
+    "body": [
+      {
+        "sentence": "Dilute Vitronectin at 1:100 in 1X PBS.",
+        "result": {
+          "DILUTE": {
+            "emit": [],
+            "slot": [
+              {
+                "it's a slot key": "it's a slot value"
+              }
+            ]
+          }
+        }
+      }
+    ]
+  },
+  {
+    "title": "",
+    "body": [
+      {
+        "sentence": "Coat the surface of a Tissue Culture flask with Vitronectin (3ml per T25, 2ml per T12.5) and leave at room temperature for minimum of 1 hour.",
+        "result": {
+          "COAT": {
+            "emit": [],
+            "slot": [
+              {
+                "it's a slot key": "it's a slot value"
+              }
+            ]
+          }
+        }
+      }
+    ]
+  },
+  {
+    "title": "",
+    "body": [
+      {
+        "sentence": "Aspirate Vitronectin and replace with PRIMO PLUS; 3ml per T25/ 1.5ml per T12.5, place flasks in the incubator until cells harvested",
+        "result": {
+          "ASPIRATE": {
+            "emit": [],
+            "slot": [
+              {
+                "it's a slot key": "it's a slot value"
+              }
+            ]
+          }
+        }
+      }
+    ]
+  },
+  {
+    "title": "",
+    "body": [
+      {
+        "sentence": "Remove media from confluent flask of hPSCs and wash gently with 1X PBS.",
+        "result": {
+          "REMOVE": {
+            "emit": [],
+            "slot": [
+              {
+                "it's a slot key": "it's a slot value"
+              }
+            ]
+          }
+        }
+      }
+    ]
+  },
+  {
+    "title": "",
+    "body": [
+      {
+        "sentence": "Add 1ml ReleSR to the bottom of flask",
+        "result": {
+          "ADD": {
+            "emit": [],
+            "slot": [
+              {
+                "it's a slot key": "it's a slot value"
+              }
+            ]
+          }
+        }
+      }
+    ]
+  },
+  {
+    "title": "",
+    "body": [
+      {
+        "sentence": "Rock the flask back and forth to ensure all cells have been coated,incubate for ~20 seconds at RT",
+        "result": {
+          "ADD": {
+            "emit": [],
+            "slot": [
+              {
+                "it's a slot key": "it's a slot value"
+              }
+            ]
+          }
+        }
+      }
+    ]
+  },
+  {
+    "title": "",
+    "body": [
+      {
+        "sentence": "Tilt the flask sufficiently that ReleSR pools in one of the bottom corners of the flask and aspirate away the ReleSR",
+        "result": {
+          "ADD": {
+            "emit": [],
+            "slot": [
+              {
+                "it's a slot key": "it's a slot value"
+              }
+            ]
+          }
+        }
+      }
+    ]
+  },
+  {
+    "title": "",
+    "body": [
+      {
+        "sentence": "Incubate cells for 2-4 minutes at room temperature",
+        "result": {
+          "INCUBATE": {
+            "emit": [],
+            "slot": [
+              {
+                "it's a slot key": "it's a slot value"
+              }
+            ]
+          }
+        }
+      }
+    ]
+  },
+  {
+    "title": "",
+    "body": [
+      {
+        "sentence": " Inactivate ReleSR by adding 2ml of PRIMO PLUS medium and slowly rocking back and forth, cells can be encouraged to detach by tapping the flask",
+        "result": {
+          "ADD": {
+            "emit": [],
+            "slot": [
+              {
+                "it's a slot key": "it's a slot value"
+              }
+            ]
+          }
+        }
+      }
+    ]
+  },
+  {
+    "title": "",
+    "body": [
+      {
+        "sentence": "Check cells under the microscope to assess colony size",
+        "result": {
+          "CHECK": {
+            "emit": [],
+            "slot": [
+              {
+                "it's a slot key": "it's a slot value"
+              }
+            ]
+          }
+        }
+      }
+    ]
+  },
+  {
+    "title": "",
+    "body": [
+      {
+        "sentence": "Resuspend pellet in appropriate volume of PRIMO Plus medium and distribute into prepared flasks as relevant for the desired splitting ratio. Normally passaged as small clumps using ReleSR at a ratio of 1:6, sometimes 1:12, every 3-4 days ",
+        "result": {
+          "ADD": {
+            "emit": [],
+            "slot": [
+              {
+                "it's a slot key": "it's a slot value"
+              }
+            ]
+          }
+        }
+      }
+    ]
+  },
+  {
+    "title": "",
+    "body": [
+      {
+        "sentence": " Final volume of media in flasks or plates should be kept to a low volume, for a T25 this should be~ 3ml.",
+        "result": {
+          "ADD": {
+            "emit": [],
+            "slot": [
+              {
+                "it's a slot key": "it's a slot value"
+              }
+            ]
+          }
+        }
+      }
+    ]
+  },
+  {
+    "title": "",
+    "body": [
+      {
+        "sentence": "Place cells into 37\u02dac 5% CO2 Incubator for culture",
+        "result": {
+          "PLACE": {
+            "emit": [],
+            "slot": [
+              {
+                "it's a slot key": "it's a slot value"
+              }
+            ]
+          }
+        }
+      }
+    ]
+  },
+  {
+    "title": "",
+    "body": [
+      {
+        "sentence": " Medium must be replaced daily because of LPAs short half-life.",
+        "result": {
+          "ADD": {
+            "emit": [],
+            "slot": [
+              {
+                "it's a slot key": "it's a slot value"
+              }
+            ]
+          }
+        }
+      }
+    ]
+  },
+  {
+    "title": "",
+    "body": [
+      {
+        "sentence": " Cells should be passaged again before reaching high confluency (over 90%), dense areas will lead to differentiation.",
+        "result": {
+          "ADD": {
+            "emit": [],
+            "slot": [
+              {
+                "it's a slot key": "it's a slot value"
+              }
+            ]
+          }
+        }
+      }
+    ]
+  }
+]

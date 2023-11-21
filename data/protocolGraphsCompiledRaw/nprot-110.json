@@ -1,0 +1,542 @@
+[
+    {
+        "sentence": "Prepare poly-D-lysinated coverslips (poly D lysine 50μg/ml)",
+        "result": [
+            {
+                "PREPARE": {
+                    "emit": [
+                        {
+                            "output": "poly-D-lysinated coverslips"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "reagent1": "poly D lysine"
+                        },
+                        {
+                            "container": "coverslips"
+                        },
+                        {
+                            "concentration": "50μg/ml"
+                        }
+                    ]
+                },
+                "sentence": "Prepare poly-D-lysinated coverslips (poly D lysine 50μg/ml)"
+            }
+        ]
+    },
+    {
+        "sentence": "Plate 15-20x10^3 cells on coverslips 1 day before the staining",
+        "result": [
+            {
+                "PLATE": {
+                    "emit": [
+                        {
+                            "output": "cells on coverslips"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "reagent1": "15-20x10^3 cells"
+                        },
+                        {
+                            "reagent2": "poly-D-lysinated coverslips"
+                        },
+                        {
+                            "density": "15-20x10^3 cells"
+                        }
+                    ]
+                },
+                "sentence": "Plate 15-20x10^3 cells on coverslips 1 day before the staining"
+            }
+        ]
+    },
+    {
+        "sentence": "Wash cells grown on coverslips gently 2x with ice-cold PBS 1x",
+        "result": [
+            {
+                "WASH": {
+                    "emit": [
+                        {
+                            "output": "washed cells on coverslips"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "reagent1": "cells on coverslips"
+                        },
+                        {
+                            "reagent2": "ice-cold PBS"
+                        },
+                        {
+                            "repeat": "2"
+                        }
+                    ]
+                },
+                "sentence": "Wash cells grown on coverslips gently 2x with ice-cold PBS 1x"
+            }
+        ]
+    },
+    {
+        "sentence": "Treat the cells with ice-cold cytoskeleton buffer 5’ on ice",
+        "result": [
+            {
+                "TREAT": {
+                    "emit": [
+                        {
+                            "output": "treated cells"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "reagent1": "cells"
+                        },
+                        {
+                            "reagent2": "ice-cold cytoskeleton buffer"
+                        },
+                        {
+                            "temperature": "0°C"
+                        },
+                        {
+                            "time": "5 minutes"
+                        },
+                        {
+                            "environment": "on ice"
+                        }
+                    ]
+                },
+                "sentence": "Treat the cells with ice-cold cytoskeleton buffer 5’ on ice"
+            }
+        ]
+    },
+    {
+        "sentence": "Aspirate and add an ice-cold cytoskeleton stripping buffer for 5’ on ice",
+        "result": [
+            {
+                "ASPIRATE": {
+                    "emit": [
+                        {
+                            "output": "treated cells"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "reagent1": "ice-cold cytoskeleton stripping buffer"
+                        }
+                    ]
+                },
+                "sentence": "Aspirate"
+            },
+            {
+                "ADD": {
+                    "emit": [
+                        {
+                            "output": "treated cells"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "reagent1": "washed cells on coverslips"
+                        },
+                        {
+                            "reagent2": "ice-cold cytoskeleton stripping buffer"
+                        }
+                    ]
+                },
+                "sentence": "add an ice-cold cytoskeleton stripping buffer for 5’ on ice"
+            }
+        ]
+    },
+    {
+        "sentence": "Wash 3x with ice-cold PBS",
+        "result": [
+            {
+                "WASH": {
+                    "emit": [
+                        {
+                            "output": "treated cells"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "reagent1": "treated cells"
+                        },
+                        {
+                            "reagent2": "ice-cold PBS"
+                        },
+                        {
+                            "repeat": "3"
+                        }
+                    ]
+                },
+                "sentence": "Wash 3x with ice-cold PBS"
+            }
+        ]
+    },
+    {
+        "sentence": "Fix the cells in fixative for 30’ RT",
+        "result": [
+            {
+                "FIX": {
+                    "emit": [
+                        {
+                            "output": "fixed cells"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "reagent1": "treated cells"
+                        },
+                        {
+                            "reagent2": "fixative"
+                        },
+                        {
+                            "temperature": "RT"
+                        },
+                        {
+                            "time": "30'"
+                        }
+                    ]
+                },
+                "sentence": "Fix the cells in fixative for 30’ RT"
+            }
+        ]
+    },
+    {
+        "sentence": "Wash in 2x PBS 1x",
+        "result": [
+            {
+                "WASH": {
+                    "emit": [
+                        {
+                            "output": "treated cells"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "reagent1": "treated cells"
+                        },
+                        {
+                            "reagent2": "2x PBS"
+                        },
+                        {
+                            "repeat": "1"
+                        }
+                    ]
+                },
+                "sentence": "Wash in 2x PBS 1x"
+            }
+        ]
+    },
+    {
+        "sentence": "Permeabilize for 15’ at RT with permeabilization buffer",
+        "result": [
+            {
+                "PERFUSE": {
+                    "emit": [
+                        {
+                            "output": "permeabilized cells"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "reagent1": "treated cells"
+                        },
+                        {
+                            "reagent2": "permeabilization buffer"
+                        },
+                        {
+                            "location": "RT"
+                        },
+                        {
+                            "method": ""
+                        },
+                        {
+                            "purpose": ""
+                        }
+                    ]
+                },
+                "sentence": "Permeabilize for 15’ at RT with permeabilization buffer"
+            }
+        ]
+    },
+    {
+        "sentence": "Wash 3x in PBS 1x",
+        "result": [
+            {
+                "WASH": {
+                    "emit": [
+                        {
+                            "output": "treated cells"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "reagent1": "fixed cells"
+                        },
+                        {
+                            "reagent2": "PBS 1x"
+                        },
+                        {
+                            "repeat": "3"
+                        }
+                    ]
+                },
+                "sentence": "Wash 3x in PBS 1x"
+            }
+        ]
+    },
+    {
+        "sentence": "Block cells for 30’ with PBG 1X",
+        "result": [
+            {
+                "BLOCK": {
+                    "emit": [
+                        {
+                            "output": "blocked cells"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "reagent1": "treated cells"
+                        },
+                        {
+                            "reagent2": "PBG 1X"
+                        },
+                        {
+                            "temperature": "room temperature"
+                        },
+                        {
+                            "time": "30 minutes"
+                        }
+                    ]
+                },
+                "sentence": "Block cells for 30’ with PBG 1X"
+            }
+        ]
+    },
+    {
+        "sentence": "Stain with primary antibody diluted in PBG 1X at indicated concentration for 1h at RT",
+        "result": [
+            {
+                "STAIN": {
+                    "emit": [
+                        {
+                            "output": "stained cells"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "reagent1": "blocked cells"
+                        },
+                        {
+                            "reagent2": "primary antibody"
+                        },
+                        {
+                            "temperature": "RT"
+                        },
+                        {
+                            "time": "1h"
+                        }
+                    ]
+                },
+                "sentence": "Stain with primary antibody diluted in PBG 1X at indicated concentration for 1h at RT"
+            }
+        ]
+    },
+    {
+        "sentence": "Wash cells gently 3X5’ in PBG 1X",
+        "result": [
+            {
+                "WASH": {
+                    "emit": [
+                        {
+                            "output": "treated cells"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "reagent1": "cells"
+                        },
+                        {
+                            "reagent2": "PBG 1X"
+                        },
+                        {
+                            "repeat": "3"
+                        },
+                        {
+                            "time": "5'"
+                        },
+                        {
+                            "notice": "gently"
+                        }
+                    ]
+                },
+                "sentence": "Wash cells gently 3X5’ in PBG 1X"
+            }
+        ]
+    },
+    {
+        "sentence": "Stain with secondary antibody diluited in PBG 1X for 1h at RT",
+        "result": [
+            {
+                "STAIN": {
+                    "emit": [
+                        {
+                            "output": "stained cells"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "reagent1": "treated cells"
+                        },
+                        {
+                            "reagent2": "secondary antibody"
+                        },
+                        {
+                            "temperature": "RT"
+                        },
+                        {
+                            "time": "1h"
+                        }
+                    ]
+                },
+                "sentence": "Stain with secondary antibody diluited in PBG 1X for 1h at RT"
+            }
+        ]
+    },
+    {
+        "sentence": "Wash cells gently 2X5’ in PBG 1x and 2X5’ in PBS 1X",
+        "result": [
+            {
+                "WASH": {
+                    "emit": [
+                        {
+                            "output": "treated cells"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "reagent1": "cells"
+                        },
+                        {
+                            "reagent2": "PBG 1x"
+                        },
+                        {
+                            "repeat": "2"
+                        },
+                        {
+                            "time": "5'"
+                        },
+                        {
+                            "notice": "gently"
+                        }
+                    ]
+                },
+                "sentence": "Wash cells gently 2X5’ in PBG 1x\nnotice:\n"
+            },
+            {
+                "WASH": {
+                    "emit": [
+                        {
+                            "output": "treated cells"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "reagent1": "cells"
+                        },
+                        {
+                            "reagent2": "PBS 1X"
+                        },
+                        {
+                            "repeat": "2"
+                        },
+                        {
+                            "time": "5'"
+                        },
+                        {
+                            "notice": ""
+                        }
+                    ]
+                },
+                "sentence": "and 2X5’ in PBS 1X\nnotice:\n"
+            }
+        ]
+    },
+    {
+        "sentence": "Stain with Dapi for 5' in the dark",
+        "result": [
+            {
+                "STAIN": {
+                    "emit": [
+                        {
+                            "output": "stained cells"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "reagent1": "treated cells"
+                        },
+                        {
+                            "reagent2": "Dapi"
+                        },
+                        {
+                            "temperature": "room temperature"
+                        },
+                        {
+                            "time": "5'"
+                        },
+                        {
+                            "method": "in the dark"
+                        }
+                    ]
+                },
+                "sentence": "Stain with Dapi for 5' in the dark"
+            }
+        ]
+    },
+    {
+        "sentence": "Mount the coverslips with 3 μl of Mowiol mounting medium",
+        "result": [
+            {
+                "PLACE": {
+                    "emit": [
+                        {
+                            "output": "mounted coverslips"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "reagent1": "coverslips"
+                        },
+                        {
+                            "destination": "Mowiol mounting medium"
+                        }
+                    ]
+                },
+                "sentence": "Mount the coverslips with 3 μl of Mowiol mounting medium"
+            }
+        ]
+    },
+    {
+        "sentence": "Let the coverslips dry before microscope analysis",
+        "result": [
+            {
+                "DRY": {
+                    "emit": [
+                        {
+                            "output": "dry coverslips"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "reagent1": "mounted coverslips"
+                        }
+                    ]
+                },
+                "sentence": "Let the coverslips dry before microscope analysis"
+            }
+        ]
+    }
+]

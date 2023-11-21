@@ -1,0 +1,272 @@
+[
+  {
+    "title": "",
+    "body": [
+      {
+        "sentence": "node",
+        "result": {
+          "ADD": {
+            "emit": [],
+            "slot": [
+              {
+                "it's a slot key": "it's a slot value"
+              }
+            ]
+          }
+        }
+      }
+    ]
+  },
+  {
+    "title": "",
+    "body": [
+      {
+        "sentence": "Overnight Culturing of Inoculating Bacteria\uff1a\nUse an inoculating loop to transfer freshly streaked bacterial culture (G. soli) into a 50 mL conical tube containing 10 mL of tryptic soy broth.",
+        "result": {
+          "ADD": {
+            "emit": [],
+            "slot": [
+              {
+                "it's a slot key": "it's a slot value"
+              }
+            ]
+          }
+        }
+      }
+    ]
+  },
+  {
+    "title": "",
+    "body": [
+      {
+        "sentence": "Pipette two 1 mL aliquots of overnight solution into separate microcentrifuge tube and spin at 9000 \u00d7 g for 4 minutes.",
+        "result": {
+          "PIPETTE": {
+            "emit": [],
+            "slot": [
+              {
+                "it's a slot key": "it's a slot value"
+              }
+            ]
+          }
+        }
+      }
+    ]
+  },
+  {
+    "title": "",
+    "body": [
+      {
+        "sentence": "Remove supernatant fl uid, resuspend each bacterial pellet in 1 mL sterilized potable water and repeat centrifugation to rinse cells.",
+        "result": {
+          "REMOVE": {
+            "emit": [],
+            "slot": [
+              {
+                "it's a slot key": "it's a slot value"
+              }
+            ]
+          }
+        }
+      }
+    ]
+  },
+  {
+    "title": "",
+    "body": [
+      {
+        "sentence": "Remove supernatant fl uid and resuspend each bacterial pellet in 1 mL sterilized potable water. Combine resuspended bacterial pellets to form inoculum",
+        "result": {
+          "REMOVE": {
+            "emit": [],
+            "slot": [
+              {
+                "it's a slot key": "it's a slot value"
+              }
+            ]
+          }
+        }
+      }
+    ]
+  },
+  {
+    "title": "",
+    "body": [
+      {
+        "sentence": "Using a dilution series consisting of 7 microcentrifuge tubes fi lled with 900 \u00b5L of PBS, successively dilute 100 \u00b5L of the inoculum by a factor of 100-107.",
+        "result": {
+          "ADD": {
+            "emit": [],
+            "slot": [
+              {
+                "it's a slot key": "it's a slot value"
+              }
+            ]
+          }
+        }
+      }
+    ]
+  },
+  {
+    "title": "",
+    "body": [
+      {
+        "sentence": "Individually dispense ten 10 \u00b5L drops of each of the 105, 106, and 107 dilutions of the inoculum onto nutrient agar plates and incubate at optimal solid growth parameters (inverted when dried, 30 \u00b0C for G. soli).",
+        "result": {
+          "ADD": {
+            "emit": [],
+            "slot": [
+              {
+                "it's a slot key": "it's a slot value"
+              }
+            ]
+          }
+        }
+      }
+    ]
+  },
+  {
+    "title": "",
+    "body": [
+      {
+        "sentence": "Prepare triplicate samples of antimicrobial-treated and untreated control materials by cutting and placing 4 cm2 coupons into labelled, empty Petri dishes.",
+        "result": {
+          "PREPARE": {
+            "emit": [],
+            "slot": [
+              {
+                "it's a slot key": "it's a slot value"
+              }
+            ]
+          }
+        }
+      }
+    ]
+  },
+  {
+    "title": "",
+    "body": [
+      {
+        "sentence": "Pipette 100 \u00b5L of the 100 inoculums onto each of the treated and control samples, cover and place on a benchtop to dry",
+        "result": {
+          "PIPETTE": {
+            "emit": [],
+            "slot": [
+              {
+                "it's a slot key": "it's a slot value"
+              }
+            ]
+          }
+        }
+      }
+    ]
+  },
+  {
+    "title": "",
+    "body": [
+      {
+        "sentence": "Individually place each inoculated sample into its own 50 mL conical tube containing 5 mL of PBS.",
+        "result": {
+          "ADD": {
+            "emit": [],
+            "slot": [
+              {
+                "it's a slot key": "it's a slot value"
+              }
+            ]
+          }
+        }
+      }
+    ]
+  },
+  {
+    "title": "",
+    "body": [
+      {
+        "sentence": "Vortex each tube at max speed for 60 seconds to remove any adhered cells from the sample surface.",
+        "result": {
+          "VORTEX": {
+            "emit": [],
+            "slot": [
+              {
+                "it's a slot key": "it's a slot value"
+              }
+            ]
+          }
+        }
+      }
+    ]
+  },
+  {
+    "title": "",
+    "body": [
+      {
+        "sentence": "Using a dilution series consisting of 3 microcentrifuge tubes fi lled with 900 \u00b5L of PBS for each inoculated sample, successively dilute 100 \u00b5L of the sample by a factor of 100-103.",
+        "result": {
+          "ADD": {
+            "emit": [],
+            "slot": [
+              {
+                "it's a slot key": "it's a slot value"
+              }
+            ]
+          }
+        }
+      }
+    ]
+  },
+  {
+    "title": "",
+    "body": [
+      {
+        "sentence": "For each sample, individually dispense ten 10 \u00b5L drops of each of the 100, 101, 102, and 103 diluted sample rinse solution onto individually labelled nutrient agar plates and incubate at room temperature for 3-7 days.",
+        "result": {
+          "ADD": {
+            "emit": [],
+            "slot": [
+              {
+                "it's a slot key": "it's a slot value"
+              }
+            ]
+          }
+        }
+      }
+    ]
+  },
+  {
+    "title": "",
+    "body": [
+      {
+        "sentence": "Using the lowest dilution factor (DF) that can be reasonably counted (between 20 to 200 CFU), determine the number of bacterial colonies present per sample and for the inoculum.",
+        "result": {
+          "ADD": {
+            "emit": [],
+            "slot": [
+              {
+                "it's a slot key": "it's a slot value"
+              }
+            ]
+          }
+        }
+      }
+    ]
+  },
+  {
+    "title": "",
+    "body": [
+      {
+        "sentence": "Use the following equation to determine the number of viable bacterial cells per sample",
+        "result": {
+          "ADD": {
+            "emit": [],
+            "slot": [
+              {
+                "it's a slot key": "it's a slot value"
+              }
+            ]
+          }
+        }
+      }
+    ]
+  }
+]

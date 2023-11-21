@@ -1,0 +1,1399 @@
+[
+    {
+        "sentence": "For removal of oocytes, a Xenopus frog is anaesthetized for 15-30 min in half a liter of ethyl m-aminobenzoate solution",
+        "result": [
+            {
+                "ANAESTHETIZE": {
+                    "emit": [
+                        {
+                            "reagent0": "anaesthetized frog"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "reagent1": "Xenopus frog"
+                        },
+                        {
+                            "reagent2": "ethyl m-aminobenzoate solution"
+                        },
+                        {
+                            "volume": "0.5 liter"
+                        },
+                        {
+                            "duration": "15-30 min"
+                        }
+                    ]
+                },
+                "warning": "ANAESTHETIZE not in ISA, using own knowledge to generate instruction.",
+                "sentence": "For removal of oocytes, a Xenopus frog is anaesthetized for 15-30 min in half a liter of ethyl m-aminobenzoate solution."
+            }
+        ]
+    },
+    {
+        "sentence": "The frog is then placed on top of crushed ice covered with wet tissue paper, to avoid the skin from drying out. A small incision is made in the upper skin of about 1 cm length, and a 0.5 cm cut in the inner skin and the muscular layer",
+        "result": [
+            {
+                "PLACE": {
+                    "emit": [
+                        {
+                            "output": "anaesthetized frog"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "reagent1": "frog"
+                        },
+                        {
+                            "destination": "crushed ice covered with wet tissue paper"
+                        }
+                    ]
+                },
+                "sentence": "The frog is then placed on top of crushed ice covered with wet tissue paper, to avoid the skin from drying out."
+            },
+            {
+                "CUT": {
+                    "emit": [
+                        {
+                            "output": "hemisphere"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "reagent": "anaesthetized frog"
+                        },
+                        {
+                            "device": "<blank>"
+                        },
+                        {
+                            "size": "0.5 cm"
+                        },
+                        {
+                            "direction": "in the inner skin and the muscular layer"
+                        },
+                        {
+                            "environment": "<blank>"
+                        }
+                    ]
+                },
+                "sentence": "A small incision is made in the upper skin of about 1 cm length, and a 0.5 cm cut in the inner skin and the muscular layer."
+            }
+        ]
+    },
+    {
+        "sentence": "Using forceps, small clumps of oocytes (depending on the amount required, usually 500–1500 oocytes) are removed and are treated twice for 90 minutes in collagenase A (or D), having low trypsin activity in a calcium free ORII solution, in order to remove follicular layers. Typically, 10 ml of collagenase solution is placed in a sterile 15 ml tube, and after cutting the ovarian lobes into small clusters of oocytes, up to 3 ml of oocytes are added per tube.",
+        "result": [
+            {
+                "REMOVE": {
+                    "emit": [
+                        {
+                            "output": "small clumps of oocytes"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "reagent1": "small clumps of oocytes"
+                        },
+                        {
+                            "method": "treatment"
+                        },
+                        {
+                            "device": "forceps"
+                        }
+                    ]
+                },
+                "sentence": "Using forceps, small clumps of oocytes (depending on the amount required, usually 500–1500 oocytes) are removed and are treated twice for 90 minutes in collagenase A (or D), having low trypsin activity in a calcium free ORII solution, in order to remove follicular layers."
+            },
+            {
+                "ADD": {
+                    "emit": [
+                        {
+                            "output": "oocytes"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "reagent1": "collagenase solution"
+                        },
+                        {
+                            "reagent2": "oocytes"
+                        },
+                        {
+                            "ratio": "<blank>"
+                        },
+                        {
+                            "concentration": "<blank>"
+                        },
+                        {
+                            "notice": "<blank>"
+                        }
+                    ]
+                },
+                "sentence": "Typically, 10 ml of collagenase solution is placed in a sterile 15 ml tube, and after cutting the ovarian lobes into small clusters of oocytes, up to 3 ml of oocytes are added per tube."
+            }
+        ]
+    },
+    {
+        "sentence": "The tube is rotated in the dark at 18°C on an orbital rotor spinning at low speed (20 rpm) for 90 min. and then replaced by a new collagenase-ORII solution for another 90 min",
+        "result": [
+            {
+                "ROTATE": {
+                    "emit": [
+                        {
+                            "output": "tube"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "reagent1": "tube"
+                        },
+                        {
+                            "direction": "<blank>"
+                        },
+                        {
+                            "angle": "<blank>"
+                        },
+                        {
+                            "intensity": "<blank>"
+                        },
+                        {
+                            "time": "90 min"
+                        },
+                        {
+                            "temperature": "18°C"
+                        },
+                        {
+                            "notice": "<blank>"
+                        }
+                    ]
+                },
+                "sentence": "The tube is rotated in the dark at 18°C on an orbital rotor spinning at low speed (20 rpm) for 90 min."
+            },
+            {
+                "REPLACE": {
+                    "emit": [
+                        {
+                            "output": "new collagenase-ORII solution"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "reagent1": "ultrapure water (1.8 mL) in the recording chamber"
+                        },
+                        {
+                            "reagent2": "new collagenase-ORII solution"
+                        },
+                        {
+                            "temperature": "18°C"
+                        },
+                        {
+                            "time": "90 min"
+                        }
+                    ]
+                },
+                "sentence": "and then replaced by a new collagenase-ORII solution for another 90 min."
+            }
+        ]
+    },
+    {
+        "sentence": "The oocytes are then washed thoroughly 5 times with ORII solution, followed by 5 times with modified Barth’s solution",
+        "result": [
+            {
+                "WASH": {
+                    "emit": [
+                        {
+                            "output": "oocytes"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "reagent1": "oocytes"
+                        },
+                        {
+                            "reagent2": "ORII solution"
+                        },
+                        {
+                            "repeat": "5"
+                        }
+                    ]
+                },
+                "sentence": "The oocytes are then washed thoroughly 5 times with ORII solution."
+            },
+            {
+                "WASH": {
+                    "emit": [
+                        {
+                            "output": "oocytes"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "reagent1": "oocytes"
+                        },
+                        {
+                            "reagent2": "ORII solution"
+                        },
+                        {
+                            "repeat": "5"
+                        }
+                    ]
+                },
+                "sentence": "followed by 5 times with modified Barth’s solution."
+            }
+        ]
+    },
+    {
+        "sentence": "The oocytes are sorted for morphologically intact, healthy looking stage V–VI oocytes. The oocytes are subsequently maintained in MBS at 18 °C (kept in the dark).",
+        "result": [
+            {
+                "SORT": {
+                    "emit": [
+                        {
+                            "output": "sorted oocytes"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "reagent1/data1": "oocytes"
+                        },
+                        {
+                            "container": "tube"
+                        },
+                        {
+                            "reagent2": "MBS"
+                        }
+                    ]
+                },
+                "sentence": "The oocytes are sorted for morphologically intact, healthy looking stage V–VI oocytes."
+            },
+            {
+                "MAINTAIN": {
+                    "emit": [],
+                    "slot": [
+                        {
+                            "reagent1/data1/device": "MBS"
+                        },
+                        {
+                            "state": "maintained at 18 °C (kept in the dark)"
+                        },
+                        {
+                            "timing": "<blank>"
+                        },
+                        {
+                            "notice": "<blank>"
+                        }
+                    ]
+                },
+                "sentence": "The oocytes are subsequently maintained in MBS at 18 °C (kept in the dark)."
+            }
+        ]
+    },
+    {
+        "sentence": "Usually on the next day, healthy looking stage V–VI oocytes are injected with either 50 nl water (control) or mRNA (at concentrations varying from 0 to 1 µg/µl), using a semiautomatic injector. Oocytes are then kept at 18°C in MBS for 1 to 7 days, with changes of MBS solution every 1–2 days",
+        "result": [
+            {
+                "INJECT": {
+                    "emit": [
+                        {
+                            "output": "injected oocytes"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "reagent1": "mRNA"
+                        },
+                        {
+                            "reagent2/destination": "oocytes"
+                        },
+                        {
+                            "device": "semiautomatic injector"
+                        }
+                    ]
+                },
+                "sentence": "healthy looking stage V–VI oocytes are injected with either 50 nl water (control) or mRNA (at concentrations varying from 0 to 1 µg/µl), using a semiautomatic injector."
+            },
+            {
+                "KEEP": {
+                    "emit": [
+                        {
+                            "output": "oocytes"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "reagent1": "oocytes"
+                        },
+                        {
+                            "temperature": "18°C"
+                        },
+                        {
+                            "time": "1 to 7 days"
+                        },
+                        {
+                            "environment": "MBS solution"
+                        },
+                        {
+                            "container": "N/A"
+                        },
+                        {
+                            "notice": "Changes of MBS solution every 1–2 days"
+                        }
+                    ]
+                },
+                "sentence": "Oocytes are then kept at 18°C in MBS for 1 to 7 days, with changes of MBS solution every 1–2 days."
+            }
+        ]
+    },
+    {
+        "sentence": "Oocytes (7–10 oocytes per individual data point) are first washed for 1–2 minutes in solution A. This solution is then replaced by 100 µl of solution A supplemented with the desired concentration of substrate (eg. 1 mM K2SO4), at the desired specific activity for the isotope. The specific activities for the different substrates used (eg. 32PO42-, 35SO42-) are usually between 10–40 µCi/ml. Uptakes are routinely performed in the presence of sodium (100 mM NaCl) or in its absence (100 mM choline chloride) and incubated in a water bath at 25°C for various times (1–60 min.).",
+        "result": [
+            {
+                "WASH": {
+                    "emit": [
+                        {
+                            "output": "washed oocytes"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "reagent1": "Oocytes"
+                        },
+                        {
+                            "reagent2": "solution A"
+                        },
+                        {
+                            "repeat": "1"
+                        },
+                        {
+                            "time": "1-2 minutes"
+                        },
+                        {
+                            "notice": ""
+                        }
+                    ]
+                },
+                "sentence": "Oocytes (7–10 oocytes per individual data point) are first washed for 1–2 minutes in solution A."
+            },
+            {
+                "REPLACE": {
+                    "emit": [
+                        {
+                            "output": "washed oocytes"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "reagent1": "solution A"
+                        },
+                        {
+                            "reagent2": "solution A supplemented with the desired concentration of substrate (eg. 1 mM K2SO4)"
+                        },
+                        {
+                            "temperature": "25°C"
+                        }
+                    ]
+                },
+                "sentence": "This solution is then replaced by 100 µl of solution A supplemented with the desired concentration of substrate (eg. 1 mM K2SO4), at the desired specific activity for the isotope."
+            },
+            {
+                "INCUBATE": {
+                    "emit": [
+                        {
+                            "output": "protein-DNA complexes"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "reagent1": "washed oocytes"
+                        },
+                        {
+                            "reagent2": "100 µl solution A supplemented with the desired concentration of substrate (eg. 1 mM K2SO4), at the desired specific activity for the isotope"
+                        },
+                        {
+                            "temperature": "25°C"
+                        },
+                        {
+                            "time": "1–60 min"
+                        },
+                        {
+                            "environment": ""
+                        },
+                        {
+                            "device": ""
+                        },
+                        {
+                            "thermoProgram": ""
+                        },
+                        {
+                            "notice": "prior to measurements"
+                        }
+                    ]
+                },
+                "sentence": "Uptakes are routinely performed in the presence of sodium (100 mM NaCl) or in its absence (100 mM choline chloride) and incubated in a water bath at 25°C for various times (1–60 min)."
+            }
+        ]
+    },
+    {
+        "sentence": "After the incubation, the uptake solution is removed and the oocytes are washed 3 times with 3 ml of ice cold stop solution (solution A)",
+        "result": [
+            {
+                "REMOVE": {
+                    "emit": [
+                        {
+                            "output": "oocytes"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "reagent1": "uptake solution"
+                        },
+                        {
+                            "method": "aspiration"
+                        }
+                    ]
+                },
+                "sentence": "After the incubation, the uptake solution is removed"
+            },
+            {
+                "WASH": {
+                    "emit": [
+                        {
+                            "output": "washed oocytes"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "reagent1": "oocytes"
+                        },
+                        {
+                            "reagent2": "ice cold stop solution (solution A)"
+                        },
+                        {
+                            "repeat": "3"
+                        },
+                        {
+                            "time": "<blank>"
+                        },
+                        {
+                            "notice": "<blank>"
+                        }
+                    ]
+                },
+                "sentence": "the oocytes are washed 3 times with 3 ml of ice cold stop solution (solution A)"
+            }
+        ]
+    },
+    {
+        "sentence": "Each single oocyte is then placed into a separate scintillation vial, dissolved in 200 µl of 1% SDS (allowed to shake vigorously for 45 min at room temp).",
+        "result": [
+            {
+                "PLACE": {
+                    "emit": [
+                        {
+                            "output": "single oocyte"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "reagent1": "single oocyte"
+                        },
+                        {
+                            "destination": "scintillation vial"
+                        }
+                    ]
+                },
+                "sentence": "Each single oocyte is then placed into a separate scintillation vial."
+            },
+            {
+                "DISSOLVE": {
+                    "emit": [
+                        {
+                            "output": "dissolved oocyte"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "reagent1": "oocyte"
+                        },
+                        {
+                            "reagent2": "1% SDS"
+                        },
+                        {
+                            "targetConcentration": "200 µl"
+                        }
+                    ]
+                },
+                "sentence": "Dissolve the oocyte in 200 µl of 1% SDS.\nnotice:\nAllow to shake vigorously for 45 min at room temp."
+            }
+        ]
+    },
+    {
+        "sentence": "When the ooyctes have completely dissolved, they are supplemented by 2 ml scintillation fluid. Isotopic uptake (transport assay) is measured by liquid scintillation spectrometry (normally counted for 2 min/vial).",
+        "result": [
+            {
+                "SUPPLEMENT": {
+                    "emit": [
+                        {
+                            "output": "ooyctes"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "reagent1": "ooyctes"
+                        },
+                        {
+                            "reagent2": "2 ml scintillation fluid"
+                        }
+                    ]
+                },
+                "sentence": "When the ooyctes have completely dissolved, they are supplemented by 2 ml scintillation fluid."
+            },
+            {
+                "MEASURE": {
+                    "emit": [
+                        {
+                            "output": "absorbance"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "device": "liquid scintillation spectrometry"
+                        },
+                        {
+                            "reagent1": "scintillation fluid"
+                        },
+                        {
+                            "attribute": "isotopic uptake (transport assay)"
+                        },
+                        {
+                            "time": "2 min"
+                        },
+                        {
+                            "wavelength": "550 nm"
+                        }
+                    ]
+                },
+                "sentence": "Isotopic uptake (transport assay) is measured by liquid scintillation spectrometry (normally counted for 2 min/vial)."
+            }
+        ]
+    },
+    {
+        "sentence": "Using a functionally positive unfractionated or size-fractionated mRNA as starting material, a directional cDNA library is constructed using a commercial kit, following the manufacturers protocol (in our case the SuperScript plasmid system, pSPORT-1 vector, Gibco/BRL; SuperScript reverse transcriptase having no RNase H activity). The total library, usually in the range of 105–106 clones, is subdivided into pools of 1,000 colonies, which are plated onto 9 cm Luria Broth plates (containing ampicillin 100 µg/ml)",
+        "result": [
+            {
+                "CONSTRUCT": {
+                    "emit": [
+                        {
+                            "reagent0": "directional cDNA library"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "starting_material": "functionally positive unfractionated or size-fractionated mRNA"
+                        },
+                        {
+                            "kit": "SuperScript plasmid system, pSPORT-1 vector, Gibco/BRL"
+                        },
+                        {
+                            "reverse_transcriptase": "SuperScript reverse transcriptase"
+                        }
+                    ]
+                },
+                "warning": "CONSTRUCT not in ISA, using own knowledge to generate instruction.",
+                "sentence": "Using a functionally positive unfractionated or size-fractionated mRNA as starting material, a directional cDNA library is constructed using a commercial kit, following the manufacturers protocol (in our case the SuperScript plasmid system, pSPORT-1 vector, Gibco/BRL; SuperScript reverse transcriptase having no RNase H activity)."
+            },
+            {
+                "SUBDIVIDE": {
+                    "emit": [
+                        {
+                            "reagent0": "pooled libraries"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "reagent1": "total library"
+                        },
+                        {
+                            "reagent2": "pools"
+                        },
+                        {
+                            "number_of_pools": "1000"
+                        }
+                    ]
+                },
+                "warning": "SUBDIVIDE not in ISA, using own knowledge to generate instruction.",
+                "sentence": "The total library, usually in the range of 105–106 clones, is subdivided into pools of 1,000 colonies."
+            },
+            {
+                "PLATE": {
+                    "emit": [
+                        {
+                            "output": "pooled libraries"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "reagent1": "pooled libraries"
+                        },
+                        {
+                            "reagent2": "9 cm Luria Broth plates (containing ampicillin 100 µg/ml)"
+                        },
+                        {
+                            "density": "1,000 colonies"
+                        }
+                    ]
+                },
+                "sentence": "The pools of 1,000 colonies are plated onto 9 cm Luria Broth plates (containing ampicillin 100 µg/ml)."
+            }
+        ]
+    },
+    {
+        "sentence": "When the colonies are visible, two replicas are made onto nitrocellulose or nylon filters with both replica filters being placed on top of LB plates (colonies side up) for about 6 hours until colonies are visible (1 mm diameter).",
+        "result": [
+            {
+                "MAKE": {
+                    "emit": [
+                        {
+                            "reagent0": "visible colonies"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "reagent1": "pooled libraries"
+                        },
+                        {
+                            "reagent2": "nitrocellulose or nylon filters"
+                        },
+                        {
+                            "repeat": "2"
+                        },
+                        {
+                            "incubation_time": "6 hours"
+                        }
+                    ]
+                },
+                "warning": "MAKE not in ISA, using own knowledge to generate instruction.",
+                "sentence": "two replicas are made onto nitrocellulose or nylon filters with both replica filters being placed on top of LB plates (colonies side up) for about 6 hours until colonies are visible (1 mm diameter)."
+            },
+            {
+                "PLACE": {
+                    "emit": [
+                        {
+                            "output": "visible colonies"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "reagent1": "replica filters"
+                        },
+                        {
+                            "destination": "top of LB plates (colonies side up)"
+                        }
+                    ]
+                },
+                "sentence": "both replica filters being placed on top of LB plates (colonies side up) for about 6 hours until colonies are visible (1 mm diameter)."
+            },
+            {
+                "WAIT": {
+                    "emit": [],
+                    "slot": [
+                        {
+                            "time": "6 hours"
+                        },
+                        {
+                            "termination": "colonies are visible (1 mm diameter)"
+                        },
+                        {
+                            "timing": "<blank>"
+                        },
+                        {
+                            "environment": "<blank>"
+                        },
+                        {
+                            "purpose": "<blank>"
+                        },
+                        {
+                            "temperature": "<blank>"
+                        },
+                        {
+                            "notice": "<blank>"
+                        }
+                    ]
+                },
+                "sentence": "both replica filters being placed on top of LB plates (colonies side up) for about 6 hours until colonies are visible (1 mm diameter)."
+            }
+        ]
+    },
+    {
+        "sentence": "One filter is placed on top of an agar/glycerol plate, with the colonies side up and kept as a master plate at –80°C (sealed with parafilm). The second replica is submerged into 10ml Luria Broth containing ampicillin (100 µg/ml) and grown overnight at 37°C with shaking (300 rpm).",
+        "result": [
+            {
+                "PLACE": {
+                    "emit": [
+                        {
+                            "output": "master plate"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "reagent1": "filter"
+                        },
+                        {
+                            "destination": "agar/glycerol plate"
+                        },
+                        {
+                            "temperature": "-80°C"
+                        },
+                        {
+                            "device": "sealed with parafilm"
+                        }
+                    ]
+                },
+                "sentence": "One filter is placed on top of an agar/glycerol plate, with the colonies side up and kept as a master plate at –80°C (sealed with parafilm)."
+            },
+            {
+                "SUBMERGE": {
+                    "emit": [
+                        {
+                            "reagent0": "grown replica"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "reagent1": "second replica"
+                        },
+                        {
+                            "reagent2": "10ml Luria Broth containing ampicillin (100 µg/ml)"
+                        },
+                        {
+                            "temperature": "37°C"
+                        },
+                        {
+                            "shaking": "300 rpm"
+                        },
+                        {
+                            "time": "overnight"
+                        }
+                    ]
+                },
+                "warning": "SUBMERGE not in ISA, using own knowledge to generate instruction.",
+                "sentence": "The second replica is submerged into 10ml Luria Broth containing ampicillin (100 µg/ml) and grown overnight at 37°C with shaking (300 rpm)."
+            }
+        ]
+    },
+    {
+        "sentence": "The cells are pelleted by centrifugation for 1 min and plasmids are isolated using a general plasmid (alkaline lysis) method. About 1–2 µg of plasmid are digested with an appropriate restriction enzyme cutting at the 3´ end of the insert (in our case NotI). An aliquot is run through an agarose gel to check if the digestion was complete and the rest is extracted twice with a mixture of 0.1 M Tris pH 8 saturated phenol: chloroform: isoamylalcohol (25:24:1) and then precipitated with 0.1 volume 3 M sodium acetate and 2.5 volume cold 100% ethanol at –20ºC for 2 hours. Plasmids are then dissolved in 10 µl of water and used for in vitro transcription, using the appropriate RNA polymerase (in our case T7)",
+        "result": [
+            {
+                "CENTRIFUGE": {
+                    "emit": [
+                        {
+                            "output": "pelleted cells"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "reagent1": "cells"
+                        },
+                        {
+                            "intensity": "1,000 xg"
+                        },
+                        {
+                            "time": "1 min"
+                        },
+                        {
+                            "temperature": "room temperature"
+                        }
+                    ]
+                },
+                "sentence": "The cells are pelleted by centrifugation for 1 min"
+            },
+            {
+                "ISOLATE": {
+                    "emit": [
+                        {
+                            "output": "plasmids"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "component": "plasmids"
+                        },
+                        {
+                            "reagent1": "general plasmid (alkaline lysis) method"
+                        }
+                    ]
+                },
+                "sentence": "plasmids are isolated using a general plasmid (alkaline lysis) method."
+            },
+            {
+                "DIGEST": {
+                    "emit": [
+                        {
+                            "output": "digested plasmids"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "reagent1": "plasmid"
+                        },
+                        {
+                            "reagent2": "NotI"
+                        },
+                        {
+                            "temperature": "room temperature"
+                        },
+                        {
+                            "time": "1 hour"
+                        },
+                        {
+                            "device": ""
+                        },
+                        {
+                            "notice": ""
+                        }
+                    ]
+                },
+                "sentence": "About 1–2 µg of plasmid are digested with an appropriate restriction enzyme cutting at the 3´ end of the insert (in our case NotI)."
+            },
+            {
+                "RUN": {
+                    "emit": [
+                        {
+                            "output": "digested plasmids"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "reagent1": "digested plasmids"
+                        },
+                        {
+                            "reagent2": "1% agarose gel with 0.5 ug/ml ethidium bromide in 1X TAE buffer"
+                        },
+                        {
+                            "volume": "10 ul or 200 ng"
+                        },
+                        {
+                            "device": "gel electrophoresis apparatus"
+                        },
+                        {
+                            "program": "REQ"
+                        },
+                        {
+                            "voltage": "<blank>"
+                        },
+                        {
+                            "notice": "<blank>"
+                        }
+                    ]
+                },
+                "sentence": "An aliquot is run through an agarose gel to check if the digestion was complete"
+            },
+            {
+                "EXTRACT": {
+                    "emit": [
+                        {
+                            "output": "plasmid DNA"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "reagent1": "plasmid DNA"
+                        },
+                        {
+                            "reagent2": "0.1 M Tris pH 8 saturated phenol: chloroform: isoamylalcohol (25:24:1)"
+                        },
+                        {
+                            "component": "plasmid DNA"
+                        }
+                    ]
+                },
+                "sentence": "the rest is extracted twice with a mixture of 0.1 M Tris pH 8 saturated phenol: chloroform: isoamylalcohol (25:24:1)"
+            },
+            {
+                "PRECIPITATE": {
+                    "emit": [
+                        {
+                            "output": "precipitated plasmids"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "reagent1": "plasmid DNA"
+                        },
+                        {
+                            "reagent2": "ethanol"
+                        },
+                        {
+                            "component": "plasmids"
+                        },
+                        {
+                            "temperature": "-20ºC"
+                        },
+                        {
+                            "time": "2 hours"
+                        }
+                    ]
+                },
+                "sentence": "and then precipitated with 0.1 volume 3 M sodium acetate and 2.5 volume cold 100% ethanol at –20ºC for 2 hours."
+            },
+            {
+                "DISSOLVE": {
+                    "emit": [
+                        {
+                            "output": "plasmids"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "reagent1": "plasmids"
+                        },
+                        {
+                            "reagent2": "water"
+                        },
+                        {
+                            "targetConcentration": "10 µl"
+                        }
+                    ]
+                },
+                "sentence": "Plasmids are then dissolved in 10 µl of water"
+            },
+            {
+                "USE": {
+                    "emit": [
+                        {
+                            "reagent0": "in vitro transcribed RNA"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "reagent1": "plasmids"
+                        },
+                        {
+                            "reagent2": "T7 RNA polymerase"
+                        }
+                    ]
+                },
+                "warning": "USE not in ISA, using own knowledge to generate instruction.",
+                "sentence": "and used for in vitro transcription, using the appropriate RNA polymerase (in our case T7)."
+            }
+        ]
+    },
+    {
+        "sentence": "For in vitro transcription, the whole 10 µl (approx. 1 µg) of linearized plasmid DNA is used and is added to 40 µl of the transcription mixture. The reaction is incubated at 37°C for 1 hour",
+        "result": [
+            {
+                "ADD": {
+                    "emit": [
+                        {
+                            "output": "PCR tube that contains samples and 1st NTC"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "reagent1": "PCR tube that contains samples and 1st NTC"
+                        },
+                        {
+                            "reagent2": "10 µl lysis buffer (LB)"
+                        }
+                    ]
+                },
+                "sentence": "For in vitro transcription, the whole 10 µl (approx. 1 µg) of linearized plasmid DNA is used and is added to 40 µl of the transcription mixture."
+            },
+            {
+                "INCUBATE": {
+                    "emit": [
+                        {
+                            "output": "protein-DNA complexes"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "reagent1": "protein-DNA complexes"
+                        },
+                        {
+                            "reagent2": ""
+                        },
+                        {
+                            "temperature": "37°C"
+                        },
+                        {
+                            "time": "1 hour"
+                        },
+                        {
+                            "environment": ""
+                        },
+                        {
+                            "device": ""
+                        },
+                        {
+                            "thermoProgram": ""
+                        },
+                        {
+                            "notice": "prior to measurements"
+                        }
+                    ]
+                },
+                "sentence": "The reaction is incubated at 37°C for 1 hour."
+            }
+        ]
+    },
+    {
+        "sentence": "Then 50 units of RNAase inhibitor and 10 units of DNAase I, RNAase free, are added to the samples and incubated for 15 minutes at 37°C to digest the remaining DNA",
+        "result": [
+            {
+                "ADD": {
+                    "emit": [
+                        {
+                            "output": "PCR tube that contains samples and 1st NTC"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "reagent1": "PCR tube that contains samples and 1st NTC"
+                        },
+                        {
+                            "reagent2": "50 units of RNAase inhibitor and 10 units of DNAase I, RNAase free"
+                        }
+                    ]
+                },
+                "sentence": "Then 50 units of RNAase inhibitor and 10 units of DNAase I, RNAase free, are added to the samples"
+            },
+            {
+                "INCUBATE": {
+                    "emit": [
+                        {
+                            "output": "protein-DNA complexes"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "reagent1": "50 units of RNAase inhibitor and 10 units of DNAase I, RNAase free"
+                        },
+                        {
+                            "reagent2": ""
+                        },
+                        {
+                            "temperature": "37°C"
+                        },
+                        {
+                            "time": "15 minutes"
+                        },
+                        {
+                            "environment": ""
+                        },
+                        {
+                            "device": ""
+                        },
+                        {
+                            "thermoProgram": ""
+                        },
+                        {
+                            "notice": ""
+                        }
+                    ]
+                },
+                "sentence": "and incubated for 15 minutes at 37°C to digest the remaining DNA."
+            }
+        ]
+    },
+    {
+        "sentence": "The samples are then extracted twice with phenol:chloroform:isoamylalcohol (25:24:1) and precipitated by adding one volume of ammonium acetate 5 M and 2.5 volumes of ethanol, in order to remove free nucleotides.\n Alternatively, after the extractions with phenol: chloroform:isoamyl alcohol, samples can be passed through RNase-free Sephadex G-50 Quick Spin columns to remove free nucleotides, then precipitated with sodium acetate and ethanol as described above.",
+        "result": [
+            {
+                "EXTRACT": {
+                    "emit": [
+                        {
+                            "output": "extracted DNA"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "reagent1": "plasmid DNA"
+                        },
+                        {
+                            "reagent2": "phenol:chloroform:isoamylalcohol (25:24:1)"
+                        },
+                        {
+                            "component": "DNA"
+                        }
+                    ]
+                },
+                "sentence": "The samples are then extracted twice with phenol:chloroform:isoamylalcohol (25:24:1) and precipitated by adding one volume of ammonium acetate 5 M and 2.5 volumes of ethanol, in order to remove free nucleotides."
+            },
+            {
+                "REMOVE": {
+                    "emit": [
+                        {
+                            "output": "extracted DNA"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "reagent1": "free nucleotides"
+                        },
+                        {
+                            "method": "extraction"
+                        },
+                        {
+                            "device": "phenol:chloroform:isoamyl alcohol"
+                        }
+                    ]
+                },
+                "sentence": "Alternatively, after the extractions with phenol: chloroform:isoamyl alcohol, samples can be passed through RNase-free Sephadex G-50 Quick Spin columns to remove free nucleotides, then precipitated with sodium acetate and ethanol as described above."
+            }
+        ]
+    },
+    {
+        "sentence": "The samples are precipitated at –80ºC for at least 3 hours and then are centrifuged for 45 min at 4ºC, pellets rinsed with 70% ethanol and vacuum dried for 5 min",
+        "result": [
+            {
+                "PRECIPITATE": {
+                    "emit": [
+                        {
+                            "output": "precipitated RNA"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "reagent1": "samples"
+                        },
+                        {
+                            "reagent2": "isopropyl alcohol"
+                        },
+                        {
+                            "component": "RNA"
+                        },
+                        {
+                            "temperature": "-80ºC"
+                        },
+                        {
+                            "time": "at least 3 hours"
+                        },
+                        {
+                            "method": "<blank>"
+                        },
+                        {
+                            "notice": "<blank>"
+                        }
+                    ]
+                },
+                "sentence": "The samples are precipitated at –80ºC for at least 3 hours"
+            },
+            {
+                "CENTRIFUGE": {
+                    "emit": [
+                        {
+                            "output": "pelleted cells"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "reagent1": "samples"
+                        },
+                        {
+                            "intensity": "2,000 rpm"
+                        },
+                        {
+                            "time": "45 min"
+                        },
+                        {
+                            "temperature": "4ºC"
+                        }
+                    ]
+                },
+                "sentence": "and then are centrifuged for 45 min at 4ºC"
+            },
+            {
+                "RINSE": {
+                    "emit": [
+                        {
+                            "output": "pelleted cells"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "reagent1": "pellets"
+                        },
+                        {
+                            "reagent2": "70% ethanol"
+                        },
+                        {
+                            "repeat": "<blank>"
+                        },
+                        {
+                            "time": "<blank>"
+                        },
+                        {
+                            "notice": "<blank>"
+                        }
+                    ]
+                },
+                "sentence": "pellets rinsed with 70% ethanol"
+            },
+            {
+                "DRY": {
+                    "emit": [
+                        {
+                            "output": "vacuum dried cells"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "reagent1": "pelleted cells"
+                        },
+                        {
+                            "device": "vacuum"
+                        },
+                        {
+                            "temperature": "room temperature"
+                        },
+                        {
+                            "time": "5 min"
+                        },
+                        {
+                            "environment": "vacuum"
+                        }
+                    ]
+                },
+                "sentence": "and vacuum dried for 5 min"
+            }
+        ]
+    },
+    {
+        "sentence": "The pellet is resuspended in 15µl of water. 1 µl is used to measure the RNA concentration spectrophotometrically at OD260 and 1-2 µl is run through a 1% agarose formaldehyde RNA gel, to check for integrity of the transcripts, with the rest being used for injection",
+        "result": [
+            {
+                "RESUSPEND": {
+                    "emit": [
+                        {
+                            "output": "resuspended cells"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "reagent1": "pelleted cells"
+                        },
+                        {
+                            "reagent2": "water"
+                        },
+                        {
+                            "temperature": "room temperature"
+                        },
+                        {
+                            "device": ""
+                        },
+                        {
+                            "notice": ""
+                        }
+                    ]
+                },
+                "sentence": "The pellet is resuspended in 15µl of water."
+            },
+            {
+                "MEASURE": {
+                    "emit": [
+                        {
+                            "output": "absorbance"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "device": "spectrophotometer"
+                        },
+                        {
+                            "reagent1": "RNA"
+                        },
+                        {
+                            "attribute": "concentration"
+                        },
+                        {
+                            "time": "2 min"
+                        },
+                        {
+                            "wavelength": "260 nm"
+                        }
+                    ]
+                },
+                "sentence": "1 µl is used to measure the RNA concentration spectrophotometrically at OD260."
+            },
+            {
+                "RUN": {
+                    "emit": [
+                        {
+                            "output": "<blank>"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "reagent1": "1-2 µl"
+                        },
+                        {
+                            "reagent2": "1% agarose formaldehyde RNA gel"
+                        },
+                        {
+                            "volume": "10 ul or 200 ng of ligation products"
+                        },
+                        {
+                            "device": "<blank>"
+                        },
+                        {
+                            "program": "<blank>"
+                        },
+                        {
+                            "voltage": "<blank>"
+                        },
+                        {
+                            "notice": "<blank>"
+                        }
+                    ]
+                },
+                "sentence": "1-2 µl is run through a 1% agarose formaldehyde RNA gel, to check for integrity of the transcripts."
+            },
+            {
+                "USE": {
+                    "emit": [
+                        {
+                            "reagent0": "in vitro transcribed RNA"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "reagent1": "precipitated RNA"
+                        },
+                        {
+                            "reagent2": "in vitro transcription reagents"
+                        }
+                    ]
+                },
+                "warning": "USE not in ISA, using own knowledge to generate instruction.",
+                "sentence": "with the rest being used for injection."
+            }
+        ]
+    },
+    {
+        "sentence": "The in vitro transcribed RNA (cRNA) is directly injected into oocytes and after 1–6 days post injection, the protein (transport) assay can be measured (as described above).",
+        "result": [
+            {
+                "INJECT": {
+                    "emit": [
+                        {
+                            "output": "protein (transport) assay"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "reagent1": "in vitro transcribed RNA (cRNA)"
+                        },
+                        {
+                            "reagent2/destination": "oocytes"
+                        },
+                        {
+                            "device": "a semiautomatic injector"
+                        }
+                    ]
+                },
+                "sentence": "The in vitro transcribed RNA (cRNA) is directly injected into oocytes."
+            }
+        ]
+    }
+]

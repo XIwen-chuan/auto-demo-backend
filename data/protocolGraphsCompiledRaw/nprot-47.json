@@ -1,0 +1,301 @@
+[
+    {
+        "sentence": "Culture S. pombe cells in an appropriate medium.",
+        "result": [
+            {
+                "CULTURE": {
+                    "emit": [
+                        {
+                            "reagent0": "cultured cells"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "reagent1": "S. pombe cells"
+                        },
+                        {
+                            "reagent2": "appropriate medium"
+                        }
+                    ]
+                },
+                "warning": "CULTURE not in ISA, using own knowledge to generate instruction.",
+                "sentence": "Culture S. pombe cells in an appropriate medium."
+            }
+        ]
+    },
+    {
+        "sentence": "Harvest cells in a collection tube.",
+        "result": [
+            {
+                "HARVEST": {
+                    "emit": [
+                        {
+                            "output": "cultured cells"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "reagent1": "cultured cells"
+                        },
+                        {
+                            "container": "collection tube"
+                        },
+                        {
+                            "source": "well"
+                        },
+                        {
+                            "method": "using a pipette"
+                        }
+                    ]
+                },
+                "sentence": "Harvest cells in a collection tube."
+            }
+        ]
+    },
+    {
+        "sentence": "Suspend the cells with medium that was used in the culture of the cells ",
+        "result": [
+            {
+                "SUSPEND": {
+                    "emit": [
+                        {
+                            "output": "cultured cells"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "reagent1": "cultured cells"
+                        },
+                        {
+                            "reagent2": "medium that was used in the culture of the cells"
+                        },
+                        {
+                            "temperature": "37 ˚C"
+                        },
+                        {
+                            "device": ""
+                        },
+                        {
+                            "notice": ""
+                        }
+                    ]
+                },
+                "sentence": "Suspend the cells with medium that was used in the culture of the cells."
+            }
+        ]
+    },
+    {
+        "sentence": "Add an equal amount of 0.7 N NaOH solution and mix well.",
+        "result": [
+            {
+                "ADD": {
+                    "emit": [
+                        {
+                            "output": "cultured cells"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "reagent1": "PCR tube that contains samples and 1st NTC"
+                        },
+                        {
+                            "reagent2": "0.7 N NaOH solution"
+                        }
+                    ]
+                },
+                "sentence": "Add an equal amount of 0.7 N NaOH solution and mix well."
+            }
+        ]
+    },
+    {
+        "sentence": "Incubate at room temperature for 3 minutes.",
+        "result": [
+            {
+                "INCUBATE": {
+                    "emit": [
+                        {
+                            "output": "protein-DNA complexes"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "reagent1": "protein-DNA complexes"
+                        },
+                        {
+                            "reagent2": ""
+                        },
+                        {
+                            "temperature": "room temperature"
+                        },
+                        {
+                            "time": "3 minutes"
+                        },
+                        {
+                            "environment": ""
+                        },
+                        {
+                            "device": ""
+                        },
+                        {
+                            "thermoProgram": ""
+                        },
+                        {
+                            "notice": ""
+                        }
+                    ]
+                },
+                "sentence": "Incubate at room temperature for 3 minutes."
+            }
+        ]
+    },
+    {
+        "sentence": "Centrifuge the tube (5,000 rpm, 1 min) and discard the supernatant.",
+        "result": [
+            {
+                "CENTRIFUGE": {
+                    "emit": [
+                        {
+                            "output": "tube"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "reagent1": "tube"
+                        },
+                        {
+                            "intensity": "5,000 rpm"
+                        },
+                        {
+                            "time": "1 min"
+                        },
+                        {
+                            "temperature": "room temperature"
+                        }
+                    ]
+                },
+                "sentence": "Centrifuge the tube (5,000 rpm, 1 min)"
+            },
+            {
+                "DISCARD": {
+                    "emit": [
+                        {
+                            "output": "tube"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "reagent1": "supernatant"
+                        },
+                        {
+                            "method": "aspiration"
+                        }
+                    ]
+                },
+                "sentence": "and discard the supernatant."
+            }
+        ]
+    },
+    {
+        "sentence": "Add SDS-PAGE sample buffer and mix well.",
+        "result": [
+            {
+                "ADD": {
+                    "emit": [
+                        {
+                            "output": "<blank>"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "reagent1": "SDS-PAGE sample buffer"
+                        },
+                        {
+                            "reagent2": "<blank>"
+                        },
+                        {
+                            "ratio": "<blank>"
+                        },
+                        {
+                            "concentration": "<blank>"
+                        },
+                        {
+                            "notice": "<blank>"
+                        }
+                    ]
+                },
+                "sentence": "Add SDS-PAGE sample buffer and mix well."
+            }
+        ]
+    },
+    {
+        "sentence": "Heat at 95-100˚C for 5 min.",
+        "result": [
+            {
+                "HEAT": {
+                    "emit": [
+                        {
+                            "output": "tube containing RNA and adapter"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "reagent1": "tube containing RNA and adapter"
+                        },
+                        {
+                            "temperature": "95-100˚C"
+                        },
+                        {
+                            "time": "5 min"
+                        }
+                    ]
+                },
+                "sentence": "Heat at 95-100˚C for 5 min."
+            }
+        ]
+    },
+    {
+        "sentence": "Centrifuge at at least 3,500 rpm, and use the supernatant as the total cell lysate.",
+        "result": [
+            {
+                "CENTRIFUGE": {
+                    "emit": [
+                        {
+                            "output": "supernatant"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "reagent1": "cultured cells"
+                        },
+                        {
+                            "intensity": "at least 3,500 rpm"
+                        },
+                        {
+                            "time": "20 min"
+                        },
+                        {
+                            "temperature": "room temperature"
+                        }
+                    ]
+                },
+                "sentence": "Centrifuge at at least 3,500 rpm"
+            },
+            {
+                "USE": {
+                    "emit": [
+                        {
+                            "reagent0": "total cell lysate"
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "reagent1": "supernatant"
+                        }
+                    ]
+                },
+                "warning": "USE not in ISA, using own knowledge to generate instruction.",
+                "sentence": "use the supernatant as the total cell lysate."
+            }
+        ]
+    }
+]
