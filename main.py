@@ -496,3 +496,22 @@ async def get_human_modified_isa():
         print(f"发生错误: {e}")
         return {"error": "e"}
 
+@app.post("/api/checked/")
+async def toggle_protocol_checked(filename: str):
+    # 构建完整的文件路径
+    filepath = os.path.join(protocols_list_dir, filename)
+
+    # 检查文件是否存在
+    if not os.path.exists(filepath):
+        return {"error": "文件不存在"}
+
+    # 读取JSON文件内容
+    with open(filepath, "r", encoding="utf-8") as file:
+        try:
+            data = json.load(file)
+            data["checked"] = not data["checked"]
+            with open(filepath, "w", encoding="utf-8") as file:
+                json.dump(data, file, indent=2)
+            return data
+        except json.JSONDecodeError:
+            return {"error": "JSON解码错误"}
