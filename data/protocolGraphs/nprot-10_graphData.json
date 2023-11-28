@@ -2,6 +2,7 @@
   "name": "nprot-10_graphData.json",
   "nodes": [
     {
+<<<<<<< Updated upstream
       "id": "c6ecb3d7-599c-43da-961f-9326962e5cfb",
       "text": "Virulent _S. aureus_ MB 2865 \\(Smith strain) was grown overnight with aeration in TSB medium.",
       "instruction": "GROW",
@@ -33,6 +34,13 @@
           "node_id": "c6ecb3d7-599c-43da-961f-9326962e5cfb"
         }
       ]
+=======
+      "id": "17389e05-a65c-4ce0-9a28-9861774b022a",
+      "text": "Virulent S. aureus MB 2865 was grown overnight with aeration in TSB medium.",
+      "instruction": "ADD",
+      "slots": [],
+      "emits": []
+>>>>>>> Stashed changes
     },
     {
       "id": "0910d5fa-f41a-4b1d-8f12-c06498a27f8e",
@@ -299,6 +307,7 @@
           "node_id": "078ebd83-bd9f-450a-b4e9-c011d9e403ad"
         }
       ],
+<<<<<<< Updated upstream
       "emits": [
         {
           "key": "reagent0",
@@ -307,6 +316,109 @@
           "node_id": "078ebd83-bd9f-450a-b4e9-c011d9e403ad"
         }
       ]
+=======
+      "emits": []
+    }
+  ],
+  "edges": [
+    {
+      "id": "d11efbe5-b2b7-420e-afc6-3bf23526c529",
+      "source": {
+        "text": "Bacteria were harvested and washed with fresh TSB",
+        "node_id": "8acea72a-978a-436a-8d3c-67c0621ae3c3",
+        "attr_id": "8acea72a-978a-436a-8d3c-67c0621ae3c3"
+      },
+      "target": {
+        "text": "serially diluted to achieve an infective inoculum of 4 x 10^3 CFU/mL in 5% hog gastric mucin, and 0.5 mL was used to infect intraperitoneally.",
+        "node_id": "6eb5f5e4-2dc8-434c-90be-f00e70ec671b",
+        "attr_id": "6eb5f5e4-2dc8-434c-90be-f00e70ec671b"
+      },
+      "text": "it's a edge text"
+    },
+    {
+      "id": "cc1e8c62-46cc-4bd0-b95b-91a690649e82",
+      "source": {
+        "text": "serially diluted to achieve an infective inoculum of 4 x 10^3 CFU/mL in 5% hog gastric mucin, and 0.5 mL was used to infect intraperitoneally.",
+        "node_id": "6eb5f5e4-2dc8-434c-90be-f00e70ec671b",
+        "attr_id": "6eb5f5e4-2dc8-434c-90be-f00e70ec671b"
+      },
+      "target": {
+        "text": " 0.5 inch hollow connectors were attached to the external section of the JVC cathete",
+        "node_id": "aec3c3df-988a-4fe4-8a04-98c071ac83f9",
+        "attr_id": "aec3c3df-988a-4fe4-8a04-98c071ac83f9"
+      },
+      "text": "it's a edge text"
+    },
+    {
+      "id": "b997d41d-e435-42f0-bd63-267c653e590a",
+      "source": {
+        "text": " 0.5 inch hollow connectors were attached to the external section of the JVC cathete",
+        "node_id": "aec3c3df-988a-4fe4-8a04-98c071ac83f9",
+        "attr_id": "aec3c3df-988a-4fe4-8a04-98c071ac83f9"
+      },
+      "target": {
+        "text": " the mice were subsequently harnessed to the counter-balance arm inside a mouse cage.",
+        "node_id": "abbdd4c7-4d83-44a9-8d2c-cb5b5532268d",
+        "attr_id": "abbdd4c7-4d83-44a9-8d2c-cb5b5532268d"
+      },
+      "text": "it's a edge text"
+    },
+    {
+      "id": "7c25ab54-1780-4910-97de-c3c4b16dffdc",
+      "source": {
+        "text": " the mice were subsequently harnessed to the counter-balance arm inside a mouse cage.",
+        "node_id": "abbdd4c7-4d83-44a9-8d2c-cb5b5532268d",
+        "attr_id": "abbdd4c7-4d83-44a9-8d2c-cb5b5532268d"
+      },
+      "target": {
+        "text": "Fluid primed PE 20 tubings attached to individual syringes on the infusion pump were connected to the mice through the 0.5 inch hollow connector.",
+        "node_id": "deeaaec8-6140-496d-8d24-282a8b165860",
+        "attr_id": "deeaaec8-6140-496d-8d24-282a8b165860"
+      },
+      "text": "it's a edge text"
+    },
+    {
+      "id": "decdca9f-2fc5-45a1-8b1e-72fdb751812a",
+      "source": {
+        "text": "Fluid primed PE 20 tubings attached to individual syringes on the infusion pump were connected to the mice through the 0.5 inch hollow connector.",
+        "node_id": "deeaaec8-6140-496d-8d24-282a8b165860",
+        "attr_id": "deeaaec8-6140-496d-8d24-282a8b165860"
+      },
+      "target": {
+        "text": "The infusion pump was initiated for 24 hours at a flow rate of 0.1 mL/hour.",
+        "node_id": "a94ef0a8-65ed-4c37-a844-8a1be686f951",
+        "attr_id": "a94ef0a8-65ed-4c37-a844-8a1be686f951"
+      },
+      "text": "it's a edge text"
+    },
+    {
+      "id": "1c7e3f14-efa7-40d9-bd2e-eff0611e1ba3",
+      "source": {
+        "text": "The infusion pump was initiated for 24 hours at a flow rate of 0.1 mL/hour.",
+        "node_id": "a94ef0a8-65ed-4c37-a844-8a1be686f951",
+        "attr_id": "a94ef0a8-65ed-4c37-a844-8a1be686f951"
+      },
+      "target": {
+        "text": "Blood samples are taken by tail vein to determine serum drug concentration during the infusion.",
+        "node_id": "cbcc0151-05c8-45e4-83da-decf0c30b4e1",
+        "attr_id": "cbcc0151-05c8-45e4-83da-decf0c30b4e1"
+      },
+      "text": "it's a edge text"
+    },
+    {
+      "id": "5fbb34a2-d08b-48a0-817e-15c441e43502",
+      "source": {
+        "text": "Blood samples are taken by tail vein to determine serum drug concentration during the infusion.",
+        "node_id": "cbcc0151-05c8-45e4-83da-decf0c30b4e1",
+        "attr_id": "cbcc0151-05c8-45e4-83da-decf0c30b4e1"
+      },
+      "target": {
+        "text": "After the 24 hour period, the mice were euthanized and the kidneys were aseptically removed and homogenized.",
+        "node_id": "8313f14f-fe11-441f-9d92-8389f15ceebc",
+        "attr_id": "8313f14f-fe11-441f-9d92-8389f15ceebc"
+      },
+      "text": "it's a edge text"
+>>>>>>> Stashed changes
     },
     {
       "id": "986d1030-68ce-45c7-9b73-3eef2ce370fa",

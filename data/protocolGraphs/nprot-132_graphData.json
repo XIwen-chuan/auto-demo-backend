@@ -11,9 +11,34 @@
           "value": "it's a slot value",
           "id": "3713f0ff-8c57-4e90-9a3d-fff4de065807",
           "node_id": "3713f0ff-8c57-4e90-9a3d-fff4de065807"
+        },
+        {
+          "key": "medium",
+          "node_id": "3713f0ff-8c57-4e90-9a3d-fff4de065807",
+          "value": "liquid YNB medium supplemented with 3% glucose and 1 mM arginine",
+          "id": "f047b3778e40d5a64b237782220099938256d4285ec562437934f4c06cd9a54c"
+        },
+        {
+          "key": "reagent1",
+          "node_id": "3713f0ff-8c57-4e90-9a3d-fff4de065807",
+          "value": "cells",
+          "id": "fcfec555487d692f5cb3d86c16a3d5fa7f6130ced545292531d00b83939ddd8a"
+        },
+        {
+          "key": "time",
+          "node_id": "3713f0ff-8c57-4e90-9a3d-fff4de065807",
+          "value": "one day",
+          "id": "a3f64bc6b0e6d184d38fd24df5abfae9dd0e54e00b319618feab75e1ca4c2ed2"
         }
       ],
-      "emits": []
+      "emits": [
+        {
+          "key": "reagent0",
+          "node_id": "3713f0ff-8c57-4e90-9a3d-fff4de065807",
+          "value": "yeast cells",
+          "id": "a3c5196ab2c23922a2573b564c8acaa6ff8a81196e7e25ebbb28388a2f5219d9"
+        }
+      ]
     },
     {
       "id": "0a2b99d2-ad39-459d-9359-3b0e65622f8d",
@@ -25,9 +50,40 @@
           "value": "it's a slot value",
           "id": "0a2b99d2-ad39-459d-9359-3b0e65622f8d",
           "node_id": "0a2b99d2-ad39-459d-9359-3b0e65622f8d"
+        },
+        {
+          "key": "reagent1",
+          "node_id": "0a2b99d2-ad39-459d-9359-3b0e65622f8d",
+          "value": "yeast cells ",
+          "id": "9d88edcb9cdb22338fca045acce6e668555f2b7a1f43bda2579c0a28d9a94eec"
+        },
+        {
+          "key": "reagent2",
+          "node_id": "0a2b99d2-ad39-459d-9359-3b0e65622f8d",
+          "value": "water",
+          "id": "68ba299ce7684819218bf4beccd94f85ce0f5ccb3eedcf6e212a7cc9ea6d839e"
+        },
+        {
+          "key": "targetConcentration",
+          "node_id": "0a2b99d2-ad39-459d-9359-3b0e65622f8d",
+          "value": "10, 100, 1000 and 10000 ",
+          "id": "b13aca148d4e951b074e15b3b5f4a98a25fa061b94c4cd4e12005decbab365e0"
         }
       ],
-      "emits": []
+      "emits": [
+        {
+          "key": "reagent0",
+          "node_id": "0a2b99d2-ad39-459d-9359-3b0e65622f8d",
+          "value": "cells",
+          "id": "36443ff38ddcbca3c5e18750df551c7ef8fc79926a5687efef90f35be30d27d1"
+        },
+        {
+          "key": "reagent0",
+          "node_id": "0a2b99d2-ad39-459d-9359-3b0e65622f8d",
+          "value": "cells",
+          "id": "68e197629926ec5f2eea93ff86bab16ed2e1ab59370cb0ab26f2352ffdecfaee"
+        }
+      ]
     },
     {
       "id": "65c53a47-da92-46b4-8eb7-0fd128eb7d3c",
@@ -39,9 +95,40 @@
           "value": "it's a slot value",
           "id": "65c53a47-da92-46b4-8eb7-0fd128eb7d3c",
           "node_id": "65c53a47-da92-46b4-8eb7-0fd128eb7d3c"
+        },
+        {
+          "key": "reagent1",
+          "node_id": "65c53a47-da92-46b4-8eb7-0fd128eb7d3c",
+          "value": "cells",
+          "id": "037a283753352005e991a345754574af05b60851141d1e4d07e25bb2e2442347"
+        },
+        {
+          "key": "volume",
+          "node_id": "65c53a47-da92-46b4-8eb7-0fd128eb7d3c",
+          "value": "5 \u00b5L ",
+          "id": "3b1b0673aa1884e68875a3b03f5676cc7d53c02bdc4b4ab7a51b2e6f2a6076ce"
+        },
+        {
+          "key": "reagent2",
+          "node_id": "65c53a47-da92-46b4-8eb7-0fd128eb7d3c",
+          "value": "solid YNB medium containing 50 mM Tris/MES buffered at pH 5.2, 3% glucose and 0.2, 0.4 or 2 mM ammonium chloride ",
+          "id": "51aa3efc21ff12153ff718b1f6cfef62dc118cc8f2fd33c3b10d77f504cf62f1"
+        },
+        {
+          "key": "notice",
+          "node_id": "65c53a47-da92-46b4-8eb7-0fd128eb7d3c",
+          "value": "as a control, 1 mM arginine",
+          "id": "361a4090f6bc5509cbab862fd6e099b0ba4bc7441013bfc537ecac71943474b5"
         }
       ],
-      "emits": []
+      "emits": [
+        {
+          "key": "reagent0",
+          "node_id": "65c53a47-da92-46b4-8eb7-0fd128eb7d3c",
+          "value": "cells",
+          "id": "e89a040c0fe3fa4f509c3c52ed3ff1bf3b9e922d199b3d7eb8a1d3358e89da92"
+        }
+      ]
     },
     {
       "id": "b8420dd9-0702-4d07-8aca-ec32cb4ef500",
@@ -53,9 +140,34 @@
           "value": "it's a slot value",
           "id": "b8420dd9-0702-4d07-8aca-ec32cb4ef500",
           "node_id": "b8420dd9-0702-4d07-8aca-ec32cb4ef500"
+        },
+        {
+          "key": "reagent1",
+          "node_id": "b8420dd9-0702-4d07-8aca-ec32cb4ef500",
+          "value": "cells",
+          "id": "7d991349cc38fff8f8b3c6334538efdf2a9250b41e5d74aa02dc211befd72b14"
+        },
+        {
+          "key": "temperature",
+          "node_id": "b8420dd9-0702-4d07-8aca-ec32cb4ef500",
+          "value": "28\u2103",
+          "id": "58aa84f25612d87c040903b3b6a4d2343ea619b45f12b14b85514a040e304219"
+        },
+        {
+          "key": "time",
+          "node_id": "b8420dd9-0702-4d07-8aca-ec32cb4ef500",
+          "value": "3-6 days",
+          "id": "3361ce3d837390cada7c7e2f88167de073bdf10f1d88f0e24cba661c37287df3"
         }
       ],
-      "emits": []
+      "emits": [
+        {
+          "key": "reagent0",
+          "node_id": "b8420dd9-0702-4d07-8aca-ec32cb4ef500",
+          "value": "yeast cells",
+          "id": "30cb6b80e1e2ba2079011f1fbdaf0e7281229afe9356d1a340765ec31ca9d1c8"
+        }
+      ]
     },
     {
       "id": "ac1f7710-b3d0-409c-b468-277a4ad23d2f",
@@ -67,9 +179,28 @@
           "value": "it's a slot value",
           "id": "ac1f7710-b3d0-409c-b468-277a4ad23d2f",
           "node_id": "ac1f7710-b3d0-409c-b468-277a4ad23d2f"
+        },
+        {
+          "key": "reagent1",
+          "node_id": "ac1f7710-b3d0-409c-b468-277a4ad23d2f",
+          "value": "yeast cells",
+          "id": "b240d71e04a7ba1d8e0c85a858c714d55d16bf40fd75505ada6c92478106e22b"
+        },
+        {
+          "key": "notice",
+          "node_id": "ac1f7710-b3d0-409c-b468-277a4ad23d2f",
+          "value": "at 600dpi in grey scale",
+          "id": "6c2cde6d05ed7a7110539d4459c1ef41de8907420a9e3b1ef58b795fa85de54d"
         }
       ],
-      "emits": []
+      "emits": [
+        {
+          "key": "reagent0",
+          "node_id": "ac1f7710-b3d0-409c-b468-277a4ad23d2f",
+          "value": "result",
+          "id": "9bc9d3ff4bed732a6091b304306a0a64bb0e7c9502731b99676cc3b9f4292de7"
+        }
+      ]
     },
     {
       "id": "c62fc65c-af3e-4d03-b352-486514bd3ac7",
@@ -81,9 +212,28 @@
           "value": "it's a slot value",
           "id": "c62fc65c-af3e-4d03-b352-486514bd3ac7",
           "node_id": "c62fc65c-af3e-4d03-b352-486514bd3ac7"
+        },
+        {
+          "key": "device",
+          "node_id": "c62fc65c-af3e-4d03-b352-486514bd3ac7",
+          "value": "ImageQuant TL software \\(v2003, Amersham)",
+          "id": "98877e57a9be29250b17105db55d546cb13d4653a80251f6b331c14fcdeaec5d"
+        },
+        {
+          "key": "data",
+          "node_id": "c62fc65c-af3e-4d03-b352-486514bd3ac7",
+          "value": "result",
+          "id": "a11ccc8cd28f59b0bceb815c187ac0585a25af28461dcb7fee58c562c35d5fd4"
         }
       ],
-      "emits": []
+      "emits": [
+        {
+          "key": "data0",
+          "node_id": "c62fc65c-af3e-4d03-b352-486514bd3ac7",
+          "value": "yeast growth result",
+          "id": "86aa0118e4109bdf5ab7926610638eb8806ebf006dceeb7caf5aaba7c58fbd62"
+        }
+      ]
     },
     {
       "id": "cae80ec3-ec0f-429d-9e8e-819c9a6c6d6d",
@@ -95,9 +245,28 @@
           "value": "it's a slot value",
           "id": "cae80ec3-ec0f-429d-9e8e-819c9a6c6d6d",
           "node_id": "cae80ec3-ec0f-429d-9e8e-819c9a6c6d6d"
+        },
+        {
+          "key": "data",
+          "node_id": "cae80ec3-ec0f-429d-9e8e-819c9a6c6d6d",
+          "value": "yeast growth result",
+          "id": "93dab83f3fdd3a17027a252306361dfa01314c8d73a46ab1b80786113eb5624e"
+        },
+        {
+          "key": "method",
+          "node_id": "cae80ec3-ec0f-429d-9e8e-819c9a6c6d6d",
+          "value": "Subtract the average pixel-intensity of each 1000 dilution spots from the agar-intensity-background and normalize with intensity of controls.",
+          "id": "2718f75a11c9482440f86840ee892703a6e83729f1026545360e4c3cd1013464"
         }
       ],
-      "emits": []
+      "emits": [
+        {
+          "key": "data0",
+          "node_id": "cae80ec3-ec0f-429d-9e8e-819c9a6c6d6d",
+          "value": "yeast growth result",
+          "id": "af73207bd40eb1a6c1abe38af37e0113aaaebd7dfd2fbe8fc493f8fba471aa32"
+        }
+      ]
     }
   ],
   "edges": [
@@ -184,6 +353,62 @@
         "attr_id": "cae80ec3-ec0f-429d-9e8e-819c9a6c6d6d"
       },
       "text": "it's a edge text"
+    },
+    {
+      "id": "f85cea98b0e66b636e3b808059e704e063110086b0392bbfe9162f547b6e863d",
+      "source": {
+        "text": "dilute yeast cells for 10, 100, 1000 and 10000 in water ",
+        "node_id": "0a2b99d2-ad39-459d-9359-3b0e65622f8d",
+        "attr_id": "36443ff38ddcbca3c5e18750df551c7ef8fc79926a5687efef90f35be30d27d1"
+      },
+      "target": {
+        "text": "drop 5 \u00b5L of cells on solid YNB medium containing 50 mM Tris/MES buffered at pH 5.2, 3% glucose and 0.2, 0.4 or 2 mM ammonium chloride or, as a control, 1 mM arginine",
+        "node_id": "65c53a47-da92-46b4-8eb7-0fd128eb7d3c",
+        "attr_id": "037a283753352005e991a345754574af05b60851141d1e4d07e25bb2e2442347"
+      },
+      "text": "reagent1"
+    },
+    {
+      "id": "131ddd36e69e1b6e08ba3077cf1df51e7e5ffa5ff721865668b1ca25ba28e0f6",
+      "source": {
+        "text": "Incubate cells 3-6 days at 28\u00baC ",
+        "node_id": "b8420dd9-0702-4d07-8aca-ec32cb4ef500",
+        "attr_id": "30cb6b80e1e2ba2079011f1fbdaf0e7281229afe9356d1a340765ec31ca9d1c8"
+      },
+      "target": {
+        "text": "document results by scanning the plates at 600dpi in grey scale",
+        "node_id": "ac1f7710-b3d0-409c-b468-277a4ad23d2f",
+        "attr_id": "b240d71e04a7ba1d8e0c85a858c714d55d16bf40fd75505ada6c92478106e22b"
+      },
+      "text": "reagent1"
+    },
+    {
+      "id": "e7e49d5685aae30b85a94076c96ba9ab09cbd60990ced1368456c28e54ac2f69",
+      "source": {
+        "text": "document results by scanning the plates at 600dpi in grey scale",
+        "node_id": "ac1f7710-b3d0-409c-b468-277a4ad23d2f",
+        "attr_id": "9bc9d3ff4bed732a6091b304306a0a64bb0e7c9502731b99676cc3b9f4292de7"
+      },
+      "target": {
+        "text": "Quantify yeast growth using ImageQuant TL software \\(v2003, Amersham)",
+        "node_id": "c62fc65c-af3e-4d03-b352-486514bd3ac7",
+        "attr_id": "a11ccc8cd28f59b0bceb815c187ac0585a25af28461dcb7fee58c562c35d5fd4"
+      },
+      "text": "data"
+    },
+    {
+      "id": "0875e75c45fbc288243fa4c050a1c01903c1cbce94720a02487c5c41b72bb5f2",
+      "source": {
+        "text": "Quantify yeast growth using ImageQuant TL software \\(v2003, Amersham)",
+        "node_id": "c62fc65c-af3e-4d03-b352-486514bd3ac7",
+        "attr_id": "86aa0118e4109bdf5ab7926610638eb8806ebf006dceeb7caf5aaba7c58fbd62"
+      },
+      "target": {
+        "text": "Subtract the average pixel-intensity of each 1000 dilution spots from the agar-intensity-background and normalize with intensity of controls.",
+        "node_id": "cae80ec3-ec0f-429d-9e8e-819c9a6c6d6d",
+        "attr_id": "93dab83f3fdd3a17027a252306361dfa01314c8d73a46ab1b80786113eb5624e"
+      },
+      "text": "data"
     }
   ]
 }

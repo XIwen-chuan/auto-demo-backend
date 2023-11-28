@@ -11,9 +11,22 @@
           "value": "it's a slot value",
           "id": "f075cf7e-e179-449e-aacf-b961108233dc",
           "node_id": "f075cf7e-e179-449e-aacf-b961108233dc"
+        },
+        {
+          "key": "reagent1",
+          "node_id": "f075cf7e-e179-449e-aacf-b961108233dc",
+          "value": "poly D lysine 50\u03bcg/ml",
+          "id": "b3a8d1cd666b0007700714898fbdd9c843e100dcec77b29c46c2103d5d3f89f1"
         }
       ],
-      "emits": []
+      "emits": [
+        {
+          "key": "reagent0",
+          "node_id": "f075cf7e-e179-449e-aacf-b961108233dc",
+          "value": "poly-D-lysinated coverslips",
+          "id": "5ad97a3ae5ec168745c106c14bd878333265ae01eab1ce58ca2961a9b1d0cace"
+        }
+      ]
     },
     {
       "id": "20a881b3-ce4d-4a80-be71-1e1a8b7a1318",
@@ -25,9 +38,28 @@
           "value": "it's a slot value",
           "id": "20a881b3-ce4d-4a80-be71-1e1a8b7a1318",
           "node_id": "20a881b3-ce4d-4a80-be71-1e1a8b7a1318"
+        },
+        {
+          "key": "reagent1",
+          "node_id": "20a881b3-ce4d-4a80-be71-1e1a8b7a1318",
+          "value": "poly-D-lysinated coverslips",
+          "id": "2b6623b9440e69f9a08948166614273a05ddeec10c1c6add2fb31ae9876799a8"
+        },
+        {
+          "key": "reagent2",
+          "node_id": "20a881b3-ce4d-4a80-be71-1e1a8b7a1318",
+          "value": "15-20 x 10^3 cells",
+          "id": "cb14409470173b344a0e4ebb9822176dd3ef935babfc0434243afe7508699137"
         }
       ],
-      "emits": []
+      "emits": [
+        {
+          "key": "reagent0",
+          "node_id": "20a881b3-ce4d-4a80-be71-1e1a8b7a1318",
+          "value": "cells",
+          "id": "7c2c7b48d568d8ced7485ef97703c9bca60f7d341d3a616cb0dcfde5cdda0355"
+        }
+      ]
     },
     {
       "id": "26c5db93-959a-4ad7-b58c-cfb3cdf77dc7",
@@ -39,9 +71,40 @@
           "value": "it's a slot value",
           "id": "26c5db93-959a-4ad7-b58c-cfb3cdf77dc7",
           "node_id": "26c5db93-959a-4ad7-b58c-cfb3cdf77dc7"
+        },
+        {
+          "key": "reagent1",
+          "node_id": "26c5db93-959a-4ad7-b58c-cfb3cdf77dc7",
+          "value": "cells",
+          "id": "d3ef059472fc2d7ad6b36588d773fcf330b3684de222192ef7b059c90c5fc921"
+        },
+        {
+          "key": "reagent2",
+          "node_id": "26c5db93-959a-4ad7-b58c-cfb3cdf77dc7",
+          "value": "PBS1x",
+          "id": "fd299a208694d29061b39f04ec9e3ee01e258a3ab44f1bc43d5f0f346ea19654"
+        },
+        {
+          "key": "ratio",
+          "node_id": "26c5db93-959a-4ad7-b58c-cfb3cdf77dc7",
+          "value": "2x5\u2019",
+          "id": "afddadeffc7f00cf8e0b2d7fcf545e6418128e936c4f8a778749f9d4bdda8889"
+        },
+        {
+          "key": "notice",
+          "node_id": "26c5db93-959a-4ad7-b58c-cfb3cdf77dc7",
+          "value": "gently",
+          "id": "aaf5948652ebe3f91bd342a4d166fb0f76b20cd17098292d0ce5d9195c635c00"
         }
       ],
-      "emits": []
+      "emits": [
+        {
+          "key": "reagent0",
+          "node_id": "26c5db93-959a-4ad7-b58c-cfb3cdf77dc7",
+          "value": "cells",
+          "id": "6cd6496df0658da101417caeee742768818e29b2d8c5d9f06408a70921d32c7c"
+        }
+      ]
     },
     {
       "id": "10544c2a-c137-4bc6-99d1-c9a6e8498636",
@@ -53,9 +116,40 @@
           "value": "it's a slot value",
           "id": "10544c2a-c137-4bc6-99d1-c9a6e8498636",
           "node_id": "10544c2a-c137-4bc6-99d1-c9a6e8498636"
+        },
+        {
+          "key": "reagent1",
+          "node_id": "10544c2a-c137-4bc6-99d1-c9a6e8498636",
+          "value": "cells",
+          "id": "71dc1d545a401d752ee14aa764a42ab228e6888f215ae748e9dacc658887332f"
+        },
+        {
+          "key": "reagent2",
+          "node_id": "10544c2a-c137-4bc6-99d1-c9a6e8498636",
+          "value": "methanol/aceton 1:1",
+          "id": "09100d6aea1091e08b4dc3473902f3020f87e877c0bdb15192787ead5cf77062"
+        },
+        {
+          "key": "temperature",
+          "node_id": "10544c2a-c137-4bc6-99d1-c9a6e8498636",
+          "value": "RT",
+          "id": "37a3e2aacda4b8e45573d6dbea812dff86310ced01c024e425a4bcae77f31424"
+        },
+        {
+          "key": "time",
+          "node_id": "10544c2a-c137-4bc6-99d1-c9a6e8498636",
+          "value": "2\u2019",
+          "id": "9393270441434b9cfa5bd87785f06463ee91f00f477f5cdf49a59704f1a51e9c"
         }
       ],
-      "emits": []
+      "emits": [
+        {
+          "key": "reagent0",
+          "node_id": "10544c2a-c137-4bc6-99d1-c9a6e8498636",
+          "value": "cells",
+          "id": "421925586dad76df3d87e71e911051658a9d66ca0693b5132da9f397510093ad"
+        }
+      ]
     },
     {
       "id": "2786ec9c-9460-4d85-9efa-115c796a9e24",
@@ -67,9 +161,34 @@
           "value": "it's a slot value",
           "id": "2786ec9c-9460-4d85-9efa-115c796a9e24",
           "node_id": "2786ec9c-9460-4d85-9efa-115c796a9e24"
+        },
+        {
+          "key": "reagent1",
+          "node_id": "2786ec9c-9460-4d85-9efa-115c796a9e24",
+          "value": "cells",
+          "id": "ca3e75697347c4cbf8630c72497025ecdce4db249281daf0a8e0ed8b5ea491f7"
+        },
+        {
+          "key": "reagent2",
+          "node_id": "2786ec9c-9460-4d85-9efa-115c796a9e24",
+          "value": "PBG1x",
+          "id": "735b65760d87af43de2b87391fcbe77e1a02ca7b85e42b500bf8ded1e81e7fe0"
+        },
+        {
+          "key": "time",
+          "node_id": "2786ec9c-9460-4d85-9efa-115c796a9e24",
+          "value": " 30\u2019",
+          "id": "b43bf8d07845a7eb2012960f45945d4ea238b4de188b3bd02b37cd12a9a79bae"
         }
       ],
-      "emits": []
+      "emits": [
+        {
+          "key": "reagent0",
+          "node_id": "2786ec9c-9460-4d85-9efa-115c796a9e24",
+          "value": "cells",
+          "id": "cbd02010b8e2ff6baec1e07b5389a6a0d36cbd01e5061274150e3c60e06d7ab2"
+        }
+      ]
     },
     {
       "id": "52e65493-e48e-407d-8419-57ffcb30751b",
@@ -81,9 +200,46 @@
           "value": "it's a slot value",
           "id": "52e65493-e48e-407d-8419-57ffcb30751b",
           "node_id": "52e65493-e48e-407d-8419-57ffcb30751b"
+        },
+        {
+          "key": "reagent1",
+          "node_id": "52e65493-e48e-407d-8419-57ffcb30751b",
+          "value": "cells",
+          "id": "36afcfe635385fb33cf7414055ef1256f68c06dc0853554b29a5fc966a373c63"
+        },
+        {
+          "key": "reagent2",
+          "node_id": "52e65493-e48e-407d-8419-57ffcb30751b",
+          "value": "primary antibodies diluted in PBG1x at indicated concentration ",
+          "id": "1684f8a666f9300bef87b079405d17d2873fda48d2c22b2066c0567db8faeaf7"
+        },
+        {
+          "key": "time",
+          "node_id": "52e65493-e48e-407d-8419-57ffcb30751b",
+          "value": "1h ",
+          "id": "b28b071c1d0a59ebb28ea8e7bda309397ac90eb842912bcdb08f3ae7466099a7"
+        },
+        {
+          "key": "temperature",
+          "node_id": "52e65493-e48e-407d-8419-57ffcb30751b",
+          "value": "RT",
+          "id": "b39b06f46a0f8bb6a76fb932090f29dbd74a2241942abca711e38ca942c684d2"
+        },
+        {
+          "key": "device",
+          "node_id": "52e65493-e48e-407d-8419-57ffcb30751b",
+          "value": "humidified chamber",
+          "id": "575eacceb156cb7f0b2d03c40a93936f7abc49fb009b7c5e3d43cb1aa97ace3f"
         }
       ],
-      "emits": []
+      "emits": [
+        {
+          "key": "reagent0",
+          "node_id": "52e65493-e48e-407d-8419-57ffcb30751b",
+          "value": "cells",
+          "id": "a433a34ad4f1d5270581426ef2713f7f993d3f82fa8a4ef3a4e16d797aecb8f2"
+        }
+      ]
     },
     {
       "id": "8b9d82bd-7cdb-44c2-9425-044ee0e835f8",
@@ -95,9 +251,40 @@
           "value": "it's a slot value",
           "id": "8b9d82bd-7cdb-44c2-9425-044ee0e835f8",
           "node_id": "8b9d82bd-7cdb-44c2-9425-044ee0e835f8"
+        },
+        {
+          "key": "reagent1",
+          "node_id": "8b9d82bd-7cdb-44c2-9425-044ee0e835f8",
+          "value": "cells",
+          "id": "e10b43a4760ba553bf5d662e50a6101ae05a6bfbb589aa60b8d0434ebaca820e"
+        },
+        {
+          "key": "reagent2",
+          "node_id": "8b9d82bd-7cdb-44c2-9425-044ee0e835f8",
+          "value": "PBG1x",
+          "id": "975de091cfb4711cbebeb4937d51b87ede9a1a815bbc90b9b7f4d26ab510caf5"
+        },
+        {
+          "key": "ratio",
+          "node_id": "8b9d82bd-7cdb-44c2-9425-044ee0e835f8",
+          "value": "3x5\u2019",
+          "id": "375c654f9b4405475eb72007b15ae71879ca603c83dc12f5eb9a36f09bb12b19"
+        },
+        {
+          "key": "notice",
+          "node_id": "8b9d82bd-7cdb-44c2-9425-044ee0e835f8",
+          "value": "gently",
+          "id": "6695aa8c55cef5b956e4a03fc5edc0eb3c13fe7ddd6f94fab791f6904ce5a99e"
         }
       ],
-      "emits": []
+      "emits": [
+        {
+          "key": "reagent0",
+          "node_id": "8b9d82bd-7cdb-44c2-9425-044ee0e835f8",
+          "value": "cells",
+          "id": "bedc485d5863998e4dd1b62210fcdde078bc25c86efb268007da2b436c58dfec"
+        }
+      ]
     },
     {
       "id": "8b827296-803d-4bfb-adcf-ff9cac69189d",
@@ -109,9 +296,52 @@
           "value": "it's a slot value",
           "id": "8b827296-803d-4bfb-adcf-ff9cac69189d",
           "node_id": "8b827296-803d-4bfb-adcf-ff9cac69189d"
+        },
+        {
+          "key": "reagent1",
+          "node_id": "8b827296-803d-4bfb-adcf-ff9cac69189d",
+          "value": "cells",
+          "id": "15a1ca354250587f2a7fbfca66f038c247f2b1b78609fdb892aeb5123b31e301"
+        },
+        {
+          "key": "reagent2",
+          "node_id": "8b827296-803d-4bfb-adcf-ff9cac69189d",
+          "value": "secondary antibodies diluted in PBG1x ",
+          "id": "bb7cee832c202380a16b8f67b9bebe7479cb8b4361dc3b46c8d9911abe9c7d21"
+        },
+        {
+          "key": "time",
+          "node_id": "8b827296-803d-4bfb-adcf-ff9cac69189d",
+          "value": "1h",
+          "id": "dc555f28d9b0bb48741fb762411ca61d1b80584fe27937fade2ad56365b15544"
+        },
+        {
+          "key": "temperature",
+          "node_id": "8b827296-803d-4bfb-adcf-ff9cac69189d",
+          "value": "RT",
+          "id": "c67111cb875777bd8c0586634e2d5e718b6d0b19810a695a74fd263079947fe6"
+        },
+        {
+          "key": "environment",
+          "node_id": "8b827296-803d-4bfb-adcf-ff9cac69189d",
+          "value": "dark",
+          "id": "2a1e6a2635bf4c423b7766dbddeaf7359faa25f695401d4ac8036af758af24de"
+        },
+        {
+          "key": "device",
+          "node_id": "8b827296-803d-4bfb-adcf-ff9cac69189d",
+          "value": "humidified chamber",
+          "id": "a7035a006e7a8984adcaf518ef9e208821d900bb3397f94f797811f0951936ae"
         }
       ],
-      "emits": []
+      "emits": [
+        {
+          "key": "reagent0",
+          "node_id": "8b827296-803d-4bfb-adcf-ff9cac69189d",
+          "value": "cells",
+          "id": "14b70069f1323a5a577a4b16a09a26e1ee38c4825270bb22623bebf1ea53914f"
+        }
+      ]
     },
     {
       "id": "304804b7-2eb1-4dfc-b398-f36efb6886ec",
@@ -123,9 +353,46 @@
           "value": "it's a slot value",
           "id": "304804b7-2eb1-4dfc-b398-f36efb6886ec",
           "node_id": "304804b7-2eb1-4dfc-b398-f36efb6886ec"
+        },
+        {
+          "key": "reagent1",
+          "node_id": "304804b7-2eb1-4dfc-b398-f36efb6886ec",
+          "value": "cells",
+          "id": "7dd8f1a89449ad752806ecb7e7337211eaf7a9e0f50995d6401a18d44499f0f0"
+        },
+        {
+          "key": "reagent2",
+          "node_id": "304804b7-2eb1-4dfc-b398-f36efb6886ec",
+          "value": "PBG1x",
+          "id": "2b88f0ffe3f90779866e6465308d81a80a6a230f7354352ef99b54dba3ac62e1"
+        },
+        {
+          "key": "ratio",
+          "node_id": "304804b7-2eb1-4dfc-b398-f36efb6886ec",
+          "value": "2x5\u2019",
+          "id": "4d57535e4c5a3df35d0e59d63e2422c1a72644d2c0ec42d88abd294cd1297aa6"
+        },
+        {
+          "key": "reagent3",
+          "node_id": "304804b7-2eb1-4dfc-b398-f36efb6886ec",
+          "value": "PBS1x",
+          "id": "c4b97dd07bd566f046b6fc82081d6b2bc5fc4a13a58e88e8d1fc277f007d1e46"
+        },
+        {
+          "key": "notice",
+          "node_id": "304804b7-2eb1-4dfc-b398-f36efb6886ec",
+          "value": "gently",
+          "id": "c317b6a3a51269c6af6f76cba96ffd28e85c79a112a1c308ee8c2e3a1a7f03d2"
         }
       ],
-      "emits": []
+      "emits": [
+        {
+          "key": "reagent0",
+          "node_id": "304804b7-2eb1-4dfc-b398-f36efb6886ec",
+          "value": "cells",
+          "id": "26beee5c1b5c1b4627a47b4ad9bff93879efa25c6066c9e568616fd947f3fd15"
+        }
+      ]
     },
     {
       "id": "081c094d-2422-462a-8946-f583e4ff8238",
@@ -137,9 +404,40 @@
           "value": "it's a slot value",
           "id": "081c094d-2422-462a-8946-f583e4ff8238",
           "node_id": "081c094d-2422-462a-8946-f583e4ff8238"
+        },
+        {
+          "key": "reagent1",
+          "node_id": "081c094d-2422-462a-8946-f583e4ff8238",
+          "value": "cells",
+          "id": "ccc077bf100751dbf28c211b7af874bdb5cea4add7595c438a88e8f4eb3a0b24"
+        },
+        {
+          "key": "reagent2",
+          "node_id": "081c094d-2422-462a-8946-f583e4ff8238",
+          "value": " Dapi ",
+          "id": "87e326d1b349613594a5ce6134bf87d7bc511d84a61bfa541bd856dbcfcd90ee"
+        },
+        {
+          "key": "time",
+          "node_id": "081c094d-2422-462a-8946-f583e4ff8238",
+          "value": "5\u2019",
+          "id": "ddf43e8314700237b9449c0663381bd160de4e95d593f4817268d9eb6780ca7f"
+        },
+        {
+          "key": "environment",
+          "node_id": "081c094d-2422-462a-8946-f583e4ff8238",
+          "value": "in the dark",
+          "id": "999b54df29af3c318c70f5df26533218a2d07fb03abd57610c5a40bbbeb777a4"
         }
       ],
-      "emits": []
+      "emits": [
+        {
+          "key": "reagent0",
+          "node_id": "081c094d-2422-462a-8946-f583e4ff8238",
+          "value": "cells",
+          "id": "4f6c0865c8ae34d080bf3c05e5162277894ef074a840d1bc93cc386a18387b15"
+        }
+      ]
     },
     {
       "id": "5e125689-08b7-44c7-9ef3-ffb108ec95d5",
@@ -151,9 +449,34 @@
           "value": "it's a slot value",
           "id": "5e125689-08b7-44c7-9ef3-ffb108ec95d5",
           "node_id": "5e125689-08b7-44c7-9ef3-ffb108ec95d5"
+        },
+        {
+          "key": "reagent1",
+          "node_id": "5e125689-08b7-44c7-9ef3-ffb108ec95d5",
+          "value": "cells",
+          "id": "adc894ddca7278757388124cfd8e2aac6828235b5fb566e17afbbd2a554b4499"
+        },
+        {
+          "key": "reagent2",
+          "node_id": "5e125689-08b7-44c7-9ef3-ffb108ec95d5",
+          "value": "Mowiol mounting medium",
+          "id": "d3397e33f945f656aa444d794a6b14b79d7e2ea22deec9fa35bb37a8ae606a1c"
+        },
+        {
+          "key": "volume",
+          "node_id": "5e125689-08b7-44c7-9ef3-ffb108ec95d5",
+          "value": "3uL",
+          "id": "1d2cd240742cddaf8c5d61cb6edd8bfa3876e63318baca5eebceeaf7abd4b50e"
         }
       ],
-      "emits": []
+      "emits": [
+        {
+          "key": "reagent0",
+          "node_id": "5e125689-08b7-44c7-9ef3-ffb108ec95d5",
+          "value": "coverslips",
+          "id": "87994fe4371a4eae7ddddb7067e2910c7485515685c707a6a1d9438e1d5e857c"
+        }
+      ]
     },
     {
       "id": "527e2c22-9572-4735-b533-4360d9bd3108",
@@ -165,9 +488,28 @@
           "value": "it's a slot value",
           "id": "527e2c22-9572-4735-b533-4360d9bd3108",
           "node_id": "527e2c22-9572-4735-b533-4360d9bd3108"
+        },
+        {
+          "key": "reagent1",
+          "node_id": "527e2c22-9572-4735-b533-4360d9bd3108",
+          "value": "coverslips",
+          "id": "fa4a582dbe38d5b8a8fba7eb688ddb232d513ffcfae388d4515965e85bc0061a"
+        },
+        {
+          "key": "notice",
+          "node_id": "527e2c22-9572-4735-b533-4360d9bd3108",
+          "value": "dry before microscope analysis",
+          "id": "bb17cd280eb8fe937c190cd0b13f4a02df198ce85db7f84f642cbd8c05dd8d5f"
         }
       ],
-      "emits": []
+      "emits": [
+        {
+          "key": "reagent0",
+          "node_id": "527e2c22-9572-4735-b533-4360d9bd3108",
+          "value": "result",
+          "id": "7217d0ee6faa06049d1985825038c538edd551232d200180852220ff53a899b7"
+        }
+      ]
     }
   ],
   "edges": [
@@ -324,6 +666,160 @@
         "attr_id": "527e2c22-9572-4735-b533-4360d9bd3108"
       },
       "text": "it's a edge text"
+    },
+    {
+      "id": "cdbf31301a77f9f49adcfa02759d420807c53643229f7b7ad1b5ddffbc129ef2",
+      "source": {
+        "text": "Prepare poly-D-lysinated coverslips (poly D lysine 50\u03bcg/ml)",
+        "node_id": "f075cf7e-e179-449e-aacf-b961108233dc",
+        "attr_id": "5ad97a3ae5ec168745c106c14bd878333265ae01eab1ce58ca2961a9b1d0cace"
+      },
+      "target": {
+        "text": "Plate 15-20 x 10^3 cells on coverslips 1 day before the staining",
+        "node_id": "20a881b3-ce4d-4a80-be71-1e1a8b7a1318",
+        "attr_id": "2b6623b9440e69f9a08948166614273a05ddeec10c1c6add2fb31ae9876799a8"
+      },
+      "text": "reagent1"
+    },
+    {
+      "id": "d68c27c3af6ab2bcd24530e958b20c490be0239c7fcf5561d5e7f76ebea611db",
+      "source": {
+        "text": "Plate 15-20 x 10^3 cells on coverslips 1 day before the staining",
+        "node_id": "20a881b3-ce4d-4a80-be71-1e1a8b7a1318",
+        "attr_id": "7c2c7b48d568d8ced7485ef97703c9bca60f7d341d3a616cb0dcfde5cdda0355"
+      },
+      "target": {
+        "text": "Wash cells gently 2x5\u2019in PBS1x",
+        "node_id": "26c5db93-959a-4ad7-b58c-cfb3cdf77dc7",
+        "attr_id": "d3ef059472fc2d7ad6b36588d773fcf330b3684de222192ef7b059c90c5fc921"
+      },
+      "text": "reagent1"
+    },
+    {
+      "id": "2b533bc557083c2d2735f5fe71951cf7caaa9b1416cd5e23d219a1c8277aa303",
+      "source": {
+        "text": "Wash cells gently 2x5\u2019in PBS1x",
+        "node_id": "26c5db93-959a-4ad7-b58c-cfb3cdf77dc7",
+        "attr_id": "6cd6496df0658da101417caeee742768818e29b2d8c5d9f06408a70921d32c7c"
+      },
+      "target": {
+        "text": "Fix and permeabilize cells for 2\u2019 with methanol/aceton 1:1 at RT",
+        "node_id": "10544c2a-c137-4bc6-99d1-c9a6e8498636",
+        "attr_id": "71dc1d545a401d752ee14aa764a42ab228e6888f215ae748e9dacc658887332f"
+      },
+      "text": "reagent1"
+    },
+    {
+      "id": "12c3c4de7c85670927ed89b34995899de1f8ff3359b5567b17480a3be7860480",
+      "source": {
+        "text": "Fix and permeabilize cells for 2\u2019 with methanol/aceton 1:1 at RT",
+        "node_id": "10544c2a-c137-4bc6-99d1-c9a6e8498636",
+        "attr_id": "421925586dad76df3d87e71e911051658a9d66ca0693b5132da9f397510093ad"
+      },
+      "target": {
+        "text": "Block cells for 30\u2019 with PBG1x",
+        "node_id": "2786ec9c-9460-4d85-9efa-115c796a9e24",
+        "attr_id": "ca3e75697347c4cbf8630c72497025ecdce4db249281daf0a8e0ed8b5ea491f7"
+      },
+      "text": "reagent1"
+    },
+    {
+      "id": "a4e19ae8a0b529c3251cbd42cc27cce00a1e63a96558cac202d6fd453d747117",
+      "source": {
+        "text": "Block cells for 30\u2019 with PBG1x",
+        "node_id": "2786ec9c-9460-4d85-9efa-115c796a9e24",
+        "attr_id": "cbd02010b8e2ff6baec1e07b5389a6a0d36cbd01e5061274150e3c60e06d7ab2"
+      },
+      "target": {
+        "text": "Stain with primary antibodies diluted in PBG1x at indicated concentration for 1h at RT in a humidified chamber",
+        "node_id": "52e65493-e48e-407d-8419-57ffcb30751b",
+        "attr_id": "36afcfe635385fb33cf7414055ef1256f68c06dc0853554b29a5fc966a373c63"
+      },
+      "text": "reagent1"
+    },
+    {
+      "id": "60cec2c81ba0d17d3040d3ba03c756e4ac87f5be8049f62023d72f471e339328",
+      "source": {
+        "text": "Stain with primary antibodies diluted in PBG1x at indicated concentration for 1h at RT in a humidified chamber",
+        "node_id": "52e65493-e48e-407d-8419-57ffcb30751b",
+        "attr_id": "a433a34ad4f1d5270581426ef2713f7f993d3f82fa8a4ef3a4e16d797aecb8f2"
+      },
+      "target": {
+        "text": "Wash cells gently 3x5\u2019in PBG1x",
+        "node_id": "8b9d82bd-7cdb-44c2-9425-044ee0e835f8",
+        "attr_id": "e10b43a4760ba553bf5d662e50a6101ae05a6bfbb589aa60b8d0434ebaca820e"
+      },
+      "text": "reagent1"
+    },
+    {
+      "id": "c40c06f8b25f86185cd989656332b76a53db226ddf900528a5b7776af5c55ff7",
+      "source": {
+        "text": "Wash cells gently 3x5\u2019in PBG1x",
+        "node_id": "8b9d82bd-7cdb-44c2-9425-044ee0e835f8",
+        "attr_id": "bedc485d5863998e4dd1b62210fcdde078bc25c86efb268007da2b436c58dfec"
+      },
+      "target": {
+        "text": "Stain with secondary antibodies diluted in PBG1x for 1h at RT in a dark humidified chamber",
+        "node_id": "8b827296-803d-4bfb-adcf-ff9cac69189d",
+        "attr_id": "15a1ca354250587f2a7fbfca66f038c247f2b1b78609fdb892aeb5123b31e301"
+      },
+      "text": "reagent1"
+    },
+    {
+      "id": "794434526c473dc3eeb20a7c82cff92f0def6a453c1defff425d546a08fc9771",
+      "source": {
+        "text": "Stain with secondary antibodies diluted in PBG1x for 1h at RT in a dark humidified chamber",
+        "node_id": "8b827296-803d-4bfb-adcf-ff9cac69189d",
+        "attr_id": "14b70069f1323a5a577a4b16a09a26e1ee38c4825270bb22623bebf1ea53914f"
+      },
+      "target": {
+        "text": "Wash cells gently 2x5\u2019 in PBG1x and 2x5\u2019in PBS1x",
+        "node_id": "304804b7-2eb1-4dfc-b398-f36efb6886ec",
+        "attr_id": "7dd8f1a89449ad752806ecb7e7337211eaf7a9e0f50995d6401a18d44499f0f0"
+      },
+      "text": "reagent1"
+    },
+    {
+      "id": "25eacc1f33487ed54dca362a2a7b91b293172252caef1b969f7005ebfc10cd1b",
+      "source": {
+        "text": "Wash cells gently 2x5\u2019 in PBG1x and 2x5\u2019in PBS1x",
+        "node_id": "304804b7-2eb1-4dfc-b398-f36efb6886ec",
+        "attr_id": "26beee5c1b5c1b4627a47b4ad9bff93879efa25c6066c9e568616fd947f3fd15"
+      },
+      "target": {
+        "text": "Stain with Dapi for 5\u2019 in the dark",
+        "node_id": "081c094d-2422-462a-8946-f583e4ff8238",
+        "attr_id": "ccc077bf100751dbf28c211b7af874bdb5cea4add7595c438a88e8f4eb3a0b24"
+      },
+      "text": "reagent1"
+    },
+    {
+      "id": "dcf13b2ca2a20ca894d18f7ddaea0dcf3a5f4682297cfd0f11c01f535b949475",
+      "source": {
+        "text": "Stain with Dapi for 5\u2019 in the dark",
+        "node_id": "081c094d-2422-462a-8946-f583e4ff8238",
+        "attr_id": "4f6c0865c8ae34d080bf3c05e5162277894ef074a840d1bc93cc386a18387b15"
+      },
+      "target": {
+        "text": "Mount coverslips with 3\u03bcl of Mowiol mounting medium",
+        "node_id": "5e125689-08b7-44c7-9ef3-ffb108ec95d5",
+        "attr_id": "adc894ddca7278757388124cfd8e2aac6828235b5fb566e17afbbd2a554b4499"
+      },
+      "text": "reagent1"
+    },
+    {
+      "id": "70986b3f7c68d1ec0ffcdc6f44dad2e84ed26220ed11af28a5a3112c110317ce",
+      "source": {
+        "text": "Mount coverslips with 3\u03bcl of Mowiol mounting medium",
+        "node_id": "5e125689-08b7-44c7-9ef3-ffb108ec95d5",
+        "attr_id": "87994fe4371a4eae7ddddb7067e2910c7485515685c707a6a1d9438e1d5e857c"
+      },
+      "target": {
+        "text": "Let the coverslips dry before microscope analysis",
+        "node_id": "527e2c22-9572-4735-b533-4360d9bd3108",
+        "attr_id": "fa4a582dbe38d5b8a8fba7eb688ddb232d513ffcfae388d4515965e85bc0061a"
+      },
+      "text": "reagent1"
     }
   ]
 }

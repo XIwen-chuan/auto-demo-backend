@@ -4,30 +4,80 @@
     {
       "id": "5c8358fc-b77f-4d05-8052-0a9ccf5aaa7b",
       "text": "Streak yeast cell EGY48 with p8op-lacZ reporter plasmid on SD-Ura plate for 3-5 days \\(at 30 \u00b0C)",
-      "instruction": "ADD",
+      "instruction": "GROW",
       "slots": [
         {
           "key": "it's a slot key",
           "value": "it's a slot value",
           "id": "5c8358fc-b77f-4d05-8052-0a9ccf5aaa7b",
           "node_id": "5c8358fc-b77f-4d05-8052-0a9ccf5aaa7b"
+        },
+        {
+          "key": "medium",
+          "node_id": "5c8358fc-b77f-4d05-8052-0a9ccf5aaa7b",
+          "value": "SD-Ura plate",
+          "id": "c14de1b6f92dd0fbd7c06c9dfb14f0800ab2c7a8e33c3e0e4fd230a721d05bf3"
+        },
+        {
+          "key": "time",
+          "node_id": "5c8358fc-b77f-4d05-8052-0a9ccf5aaa7b",
+          "value": "3-5 days",
+          "id": "b6c60802d64228c6d1db0a30c8db603a0794581584d20b770325d0551777b3c0"
+        },
+        {
+          "key": "temperature",
+          "node_id": "5c8358fc-b77f-4d05-8052-0a9ccf5aaa7b",
+          "value": "30\u2103",
+          "id": "789e4ef02f72ed180cf1b7a737ba035e12983dc1395868897095cb146d1c0448"
+        },
+        {
+          "key": "reagent1",
+          "node_id": "5c8358fc-b77f-4d05-8052-0a9ccf5aaa7b",
+          "value": "yeast cell EGY48 with p8op-lacZ reporter plasmid",
+          "id": "8fab5e29c8181d6e134d52cd6e57f1208b67fb814064f615425339b617fad98c"
         }
       ],
-      "emits": []
+      "emits": [
+        {
+          "key": "reagent0",
+          "node_id": "5c8358fc-b77f-4d05-8052-0a9ccf5aaa7b",
+          "value": "yeast colony",
+          "id": "9f2bd3d28051f448c87b3d93fe5774a13ee7a94e2992b5f1567c18e58bd9595a"
+        }
+      ]
     },
     {
       "id": "97f4960f-4ff4-4cba-9616-fdc1f3838ccd",
       "text": "Scrape an entire colony \\(2-3 mm in diameter) into 1 ml of YPD medium",
-      "instruction": "ADD",
+      "instruction": "GROW",
       "slots": [
         {
           "key": "it's a slot key",
           "value": "it's a slot value",
           "id": "97f4960f-4ff4-4cba-9616-fdc1f3838ccd",
           "node_id": "97f4960f-4ff4-4cba-9616-fdc1f3838ccd"
+        },
+        {
+          "key": "medium",
+          "node_id": "97f4960f-4ff4-4cba-9616-fdc1f3838ccd",
+          "value": "1 ml of YPD medium",
+          "id": "f0069e1dd73c1b85095aedf17c1e34a2266dfef04f70976d65a5bc6180100447"
+        },
+        {
+          "key": "reagent1",
+          "node_id": "97f4960f-4ff4-4cba-9616-fdc1f3838ccd",
+          "value": "yeast colony",
+          "id": "5d7383dc3f02172dcf1a1bac955f4ac68fb04d497983b1c0c12bbb23bb47ad68"
         }
       ],
-      "emits": []
+      "emits": [
+        {
+          "key": "reagent0",
+          "node_id": "97f4960f-4ff4-4cba-9616-fdc1f3838ccd",
+          "value": "yeast colony",
+          "id": "b55c9a42eb67d87f909a2b85332aee11bc6ce45cb503871775c2eb8907e2aa86"
+        }
+      ]
     },
     {
       "id": "2e1164f6-bef3-4d5f-a21e-2fcf0defa4c3",
@@ -39,9 +89,28 @@
           "value": "it's a slot value",
           "id": "2e1164f6-bef3-4d5f-a21e-2fcf0defa4c3",
           "node_id": "2e1164f6-bef3-4d5f-a21e-2fcf0defa4c3"
+        },
+        {
+          "key": "reagent1",
+          "node_id": "2e1164f6-bef3-4d5f-a21e-2fcf0defa4c3",
+          "value": "yeast colony",
+          "id": "e2465bc635b7a19a8cc81a18b1f455ad367a576099b82ea4a6032b1a331f898d"
         }
       ],
-      "emits": []
+      "emits": [
+        {
+          "key": "reagent0",
+          "node_id": "2e1164f6-bef3-4d5f-a21e-2fcf0defa4c3",
+          "value": "yeast mixture",
+          "id": "506b26c9f14ead797b072fd8a354f73dac04f84b1db00fa99b5315cc8c27577f"
+        },
+        {
+          "key": "reagent0",
+          "node_id": "2e1164f6-bef3-4d5f-a21e-2fcf0defa4c3",
+          "value": "yeast mixture",
+          "id": "143ae04e5daa433cf77fee68133967dd0e748988af660f26451b3fffb9c24bd6"
+        }
+      ]
     },
     {
       "id": "484a84d0-8e52-4eda-925c-3401d7ba9cfb",
@@ -53,9 +122,28 @@
           "value": "it's a slot value",
           "id": "484a84d0-8e52-4eda-925c-3401d7ba9cfb",
           "node_id": "484a84d0-8e52-4eda-925c-3401d7ba9cfb"
+        },
+        {
+          "key": "reagent1",
+          "node_id": "484a84d0-8e52-4eda-925c-3401d7ba9cfb",
+          "value": "yeast mixture",
+          "id": "ef752301955c222e020201dd2f895327d65f29c24f70b0029d74982760bd8177"
+        },
+        {
+          "key": "medium",
+          "node_id": "484a84d0-8e52-4eda-925c-3401d7ba9cfb",
+          "value": "ask containing YPD",
+          "id": "0779cfc80f6e8a290a64f2dad49082251894b65457ef01624340d98ef1827e95"
         }
       ],
-      "emits": []
+      "emits": [
+        {
+          "key": "reagent0",
+          "node_id": "484a84d0-8e52-4eda-925c-3401d7ba9cfb",
+          "value": "yeast mixture",
+          "id": "3dba1706b0946934aebf8a3a504563c87710761c3d2ae264d5357b3c8d2f3708"
+        }
+      ]
     },
     {
       "id": "85867496-04eb-48fa-b6da-c468428927cd",
@@ -67,23 +155,79 @@
           "value": "it's a slot value",
           "id": "85867496-04eb-48fa-b6da-c468428927cd",
           "node_id": "85867496-04eb-48fa-b6da-c468428927cd"
+        },
+        {
+          "key": "temperature",
+          "node_id": "85867496-04eb-48fa-b6da-c468428927cd",
+          "value": "30\u2103",
+          "id": "4775575598fa8c6ba40c587acb5feda89cf9ce43ee0e3c79b3d1bab19e68580c"
+        },
+        {
+          "key": "time",
+          "node_id": "85867496-04eb-48fa-b6da-c468428927cd",
+          "value": "overnight",
+          "id": "470b07366461e9631c1dd2ab8676b890bb7bc0e95483dfb3660f588ece6c3bfb"
+        },
+        {
+          "key": "device",
+          "node_id": "85867496-04eb-48fa-b6da-c468428927cd",
+          "value": "shaker at 250rpm",
+          "id": "57c9420055fe0442e3776d8ac20361983c42fa8237498af07087a7ec12a9aece"
         }
       ],
-      "emits": []
+      "emits": [
+        {
+          "key": "reagent0",
+          "node_id": "85867496-04eb-48fa-b6da-c468428927cd",
+          "value": "yeast cells at OD=1.5",
+          "id": "6faa77224782cd12fea5714d0b4ce19ed34cdb190c7384f47dab84d2f5468458"
+        }
+      ]
     },
     {
       "id": "2c04081a-359f-466e-bfe7-c1652f53158b",
       "text": "Early the next morning, transfer overnight culture \\(enough to produce an OD600=0.2-0.3) into this volume of YPD: Small Scale: 300 ml in 1L \u0000ask Library Scale: 1000 ml in 2L \u0000ask",
-      "instruction": "ADD",
+      "instruction": "TRANSFER",
       "slots": [
         {
           "key": "it's a slot key",
           "value": "it's a slot value",
           "id": "2c04081a-359f-466e-bfe7-c1652f53158b",
           "node_id": "2c04081a-359f-466e-bfe7-c1652f53158b"
+        },
+        {
+          "key": "reagent1",
+          "node_id": "2c04081a-359f-466e-bfe7-c1652f53158b",
+          "value": "yeast cells at OD=1.5",
+          "id": "a7300a53c8d83c9972ce63557472b315ed5a8168c1184e3795d88622b54148ab"
+        },
+        {
+          "key": "volume",
+          "node_id": "2c04081a-359f-466e-bfe7-c1652f53158b",
+          "value": "Small Scale: 300 ml in 1L ask ",
+          "id": "5a66cecaf2b025d5e1ca3b87269b1adcd2c7729bc2461f5508317e3d14dece78"
+        },
+        {
+          "key": "volume",
+          "node_id": "2c04081a-359f-466e-bfe7-c1652f53158b",
+          "value": "Small Scale: 300 ml in 1L ask ",
+          "id": "276b1caa218a4b29621b64e54c63970d4061f4bf7c1a0b3eb9cdf841658b87e2"
+        },
+        {
+          "key": "medium",
+          "node_id": "2c04081a-359f-466e-bfe7-c1652f53158b",
+          "value": "YPD",
+          "id": "bd74f2e61f9f2304618c25b5a1f22c0ca74d37278875ec27c2076acf09b68164"
         }
       ],
-      "emits": []
+      "emits": [
+        {
+          "key": "reagent0",
+          "node_id": "2c04081a-359f-466e-bfe7-c1652f53158b",
+          "value": "yeast mixture",
+          "id": "b77b09ca2951346def0850e14f5ef2d3186bf4a7a8771b8bb4e83731344457b1"
+        }
+      ]
     },
     {
       "id": "ebcb3c34-2c5d-4ba8-aca6-39f41d99cfc2",
@@ -95,9 +239,40 @@
           "value": "it's a slot value",
           "id": "ebcb3c34-2c5d-4ba8-aca6-39f41d99cfc2",
           "node_id": "ebcb3c34-2c5d-4ba8-aca6-39f41d99cfc2"
+        },
+        {
+          "key": "time",
+          "node_id": "ebcb3c34-2c5d-4ba8-aca6-39f41d99cfc2",
+          "value": "3h",
+          "id": "1340e3f5a3301411d4cf920930f9509c20a28cef2c9150e923ea49a597673955"
+        },
+        {
+          "key": "reagent1",
+          "node_id": "ebcb3c34-2c5d-4ba8-aca6-39f41d99cfc2",
+          "value": "yeast mixture",
+          "id": "44af5cb026b6534726be234f13bcb00dc9cd5f6c2fa99099e0dc7e84822e7d26"
+        },
+        {
+          "key": "temperature",
+          "node_id": "ebcb3c34-2c5d-4ba8-aca6-39f41d99cfc2",
+          "value": "30\u2103",
+          "id": "11ed572163a9d7d93899197b6feaf30d3cfba2eda81912c8fd60ec3539165a1d"
+        },
+        {
+          "key": "device",
+          "node_id": "ebcb3c34-2c5d-4ba8-aca6-39f41d99cfc2",
+          "value": "shaker at 230rm",
+          "id": "adad0b520bc68f354d6f1aeb1654278a699a6235582a4afba57e58333aecc9c5"
         }
       ],
-      "emits": []
+      "emits": [
+        {
+          "key": "reagent0",
+          "node_id": "ebcb3c34-2c5d-4ba8-aca6-39f41d99cfc2",
+          "value": "yeast mixture",
+          "id": "850ba6ac560825fe3c4e82a897aa9411d861d68ce78180b42f89d03056499da6"
+        }
+      ]
     },
     {
       "id": "8099321b-6e5d-4c97-a0b5-4dad710d1024",
@@ -109,23 +284,73 @@
           "value": "it's a slot value",
           "id": "8099321b-6e5d-4c97-a0b5-4dad710d1024",
           "node_id": "8099321b-6e5d-4c97-a0b5-4dad710d1024"
+        },
+        {
+          "key": "reagent1",
+          "node_id": "8099321b-6e5d-4c97-a0b5-4dad710d1024",
+          "value": "yeast mixture",
+          "id": "6c874cb15a4181057f2116a5d790528b61a06836109ccebe649016baff1a8d93"
+        },
+        {
+          "key": "device",
+          "node_id": "8099321b-6e5d-4c97-a0b5-4dad710d1024",
+          "value": "50-ml tubes",
+          "id": "f7a56becdc0c696cd6b7c0bff7fc67e2b7f2241611663cdda258335ef0ec07e0"
+        },
+        {
+          "key": "temperature",
+          "node_id": "8099321b-6e5d-4c97-a0b5-4dad710d1024",
+          "value": "room temperature",
+          "id": "ccb9d46aa25882197f90cd7276c0d8b548465f05783de5b2ba4c5e3226943d6e"
+        },
+        {
+          "key": "device",
+          "node_id": "8099321b-6e5d-4c97-a0b5-4dad710d1024",
+          "value": "centrifuge at 1500 rpm in floor centrifuge for 5 min",
+          "id": "22ab796265233bd19de5e83d85a89cce1a69ad9d4edd976f0d73f889420986da"
         }
       ],
-      "emits": []
+      "emits": [
+        {
+          "key": "reagent0",
+          "node_id": "8099321b-6e5d-4c97-a0b5-4dad710d1024",
+          "value": "yeast cells",
+          "id": "5a04915f646f775e82f19ab495795674ca7f9d49c8413fb6bffe0fd74957ab0e"
+        }
+      ]
     },
     {
       "id": "266c99e8-bd86-40a7-8be3-e51c70cc1772",
       "text": "Discard the supernatant ",
-      "instruction": "ADD",
+      "instruction": "TAKE",
       "slots": [
         {
           "key": "it's a slot key",
           "value": "it's a slot value",
           "id": "266c99e8-bd86-40a7-8be3-e51c70cc1772",
           "node_id": "266c99e8-bd86-40a7-8be3-e51c70cc1772"
+        },
+        {
+          "key": "reagent1",
+          "node_id": "266c99e8-bd86-40a7-8be3-e51c70cc1772",
+          "value": "yeast cells",
+          "id": "66c12349da9385d79704f16f2122c6685ed4485261e3dc390d2ffb5199ff0291"
+        },
+        {
+          "key": "reagent2",
+          "node_id": "266c99e8-bd86-40a7-8be3-e51c70cc1772",
+          "value": "supernatant",
+          "id": "88bef702615c4dccaadcffaaa11852d645437c275baa1168cdf1d187da6d8999"
         }
       ],
-      "emits": []
+      "emits": [
+        {
+          "key": "reagent0",
+          "node_id": "266c99e8-bd86-40a7-8be3-e51c70cc1772",
+          "value": "cell pellets",
+          "id": "1969a616586c925fbf14571f74bafce4525a91b9b1623493c162c14a64a8b61a"
+        }
+      ]
     },
     {
       "id": "d5e9130e-2143-4c02-8180-8a9f30025141",
@@ -137,9 +362,34 @@
           "value": "it's a slot value",
           "id": "d5e9130e-2143-4c02-8180-8a9f30025141",
           "node_id": "d5e9130e-2143-4c02-8180-8a9f30025141"
+        },
+        {
+          "key": "reagent1",
+          "node_id": "d5e9130e-2143-4c02-8180-8a9f30025141",
+          "value": "cell pellets",
+          "id": "b8cd4c284e45890245589181928bc6cc41afa0da02a3eb8f6196c2569db40853"
+        },
+        {
+          "key": "notice",
+          "node_id": "d5e9130e-2143-4c02-8180-8a9f30025141",
+          "value": "Small Scale: 25-50 ml Library Scale: 500 ml",
+          "id": "dce10d75010dad32f7ea306de8ed8c49658e1083281ac98d0626abd0222fac2f"
+        },
+        {
+          "key": "reagent2",
+          "node_id": "d5e9130e-2143-4c02-8180-8a9f30025141",
+          "value": "sterile TE or H2O",
+          "id": "36469417fe9ca17a796df97570d3f46fc92bc14a93d98fc82c8f6a0a807a09eb"
         }
       ],
-      "emits": []
+      "emits": [
+        {
+          "key": "reagent0",
+          "node_id": "d5e9130e-2143-4c02-8180-8a9f30025141",
+          "value": "yeast mixture",
+          "id": "284c626ad61aa96e126a32332eca868d7d42c9d82b180f2145d1fa2dada50a58"
+        }
+      ]
     },
     {
       "id": "fa19a776-fa6b-4098-9439-4167a8c567cd",
@@ -151,9 +401,40 @@
           "value": "it's a slot value",
           "id": "fa19a776-fa6b-4098-9439-4167a8c567cd",
           "node_id": "fa19a776-fa6b-4098-9439-4167a8c567cd"
+        },
+        {
+          "key": "reagent1",
+          "node_id": "fa19a776-fa6b-4098-9439-4167a8c567cd",
+          "value": "yeast mixture",
+          "id": "764f1af8f1249a588b1f092c43eacfc130190759873f3373618442564b02ed6f"
+        },
+        {
+          "key": "container",
+          "node_id": "fa19a776-fa6b-4098-9439-4167a8c567cd",
+          "value": "50mL tube",
+          "id": "fd2926182ecbcf06ed56f48a247d00d9e09efeaff6244e00f5a082840bf39dcf"
+        },
+        {
+          "key": "device",
+          "node_id": "fa19a776-fa6b-4098-9439-4167a8c567cd",
+          "value": "centrifuge at 1500 rpm for 5 min",
+          "id": "38cbd2b446a8942bd259dcce8415ac264cd7bda3f1ad12481a2db9e329d6d0b9"
+        },
+        {
+          "key": "temperature ",
+          "node_id": "fa19a776-fa6b-4098-9439-4167a8c567cd",
+          "value": "room temperature ",
+          "id": "0e2df001523e0ec87b8a526d907f550299ce568539110c8251d9f60e2084d65c"
         }
       ],
-      "emits": []
+      "emits": [
+        {
+          "key": "reagent0",
+          "node_id": "fa19a776-fa6b-4098-9439-4167a8c567cd",
+          "value": "yeast mixture",
+          "id": "6f797a1213ad4b22fb50b1e50951ab07810fbb6f36e2dae4b418a50b96c1869c"
+        }
+      ]
     },
     {
       "id": "c4dfafbf-5bdd-45bd-8bb4-430b51456876",
@@ -165,9 +446,28 @@
           "value": "it's a slot value",
           "id": "c4dfafbf-5bdd-45bd-8bb4-430b51456876",
           "node_id": "c4dfafbf-5bdd-45bd-8bb4-430b51456876"
+        },
+        {
+          "key": "reagent1",
+          "node_id": "c4dfafbf-5bdd-45bd-8bb4-430b51456876",
+          "value": "yeast mixture",
+          "id": "88edf9fca685d53c57e9dbd3312bf79cc55670dd02bcc1831818a463c9db4302"
+        },
+        {
+          "key": "",
+          "node_id": "c4dfafbf-5bdd-45bd-8bb4-430b51456876",
+          "value": "",
+          "id": "ac751350f022848d631a99426b790c2afe18cd98049280ee9f561a1f89b394f6"
         }
       ],
-      "emits": []
+      "emits": [
+        {
+          "key": "reagent0",
+          "node_id": "c4dfafbf-5bdd-45bd-8bb4-430b51456876",
+          "value": " cell pellet",
+          "id": "bcbbd14fcd494d4f792568d47951947b12a3467849d1963e8e4e1bf046c22fb4"
+        }
+      ]
     },
     {
       "id": "d2f08b41-5ccf-48a6-b3b2-f9c740ea2619",
@@ -179,9 +479,46 @@
           "value": "it's a slot value",
           "id": "d2f08b41-5ccf-48a6-b3b2-f9c740ea2619",
           "node_id": "d2f08b41-5ccf-48a6-b3b2-f9c740ea2619"
+        },
+        {
+          "key": "reagent1",
+          "node_id": "d2f08b41-5ccf-48a6-b3b2-f9c740ea2619",
+          "value": " cell pellet",
+          "id": "1f941bf5eb8b804c2639ba9bdb76e43ea5c3d835ee206ea150e9076e2fb9fc53"
+        },
+        {
+          "key": "reagent2",
+          "node_id": "d2f08b41-5ccf-48a6-b3b2-f9c740ea2619",
+          "value": "sterile 1xTE/LiAc",
+          "id": "5089c9cfd19ff46782e60b645f7f5d442ef8ce3ba54c00e72f131834d8453c4b"
+        },
+        {
+          "key": "volume",
+          "node_id": "d2f08b41-5ccf-48a6-b3b2-f9c740ea2619",
+          "value": "Small Scale: 1.5 ml Library Scale: 8 ml",
+          "id": "3f89c4a97289f366ed96571964b67c2774520ae680f5a2df7d5422eb5637bf9a"
+        },
+        {
+          "key": "notice",
+          "node_id": "d2f08b41-5ccf-48a6-b3b2-f9c740ea2619",
+          "value": "Cells must be used within about an hour after preparation",
+          "id": "cd2586fa18a1b6b1ddf8b7e2a9707fdf6e40e8ce6577b7daffa587d6eab581b3"
         }
       ],
-      "emits": []
+      "emits": [
+        {
+          "key": "reagent0",
+          "node_id": "d2f08b41-5ccf-48a6-b3b2-f9c740ea2619",
+          "value": "yeast mixture",
+          "id": "29feee09f484fe942dc87528c1812d05cd9ca6390d1bdb1f4a4006a84b652936"
+        },
+        {
+          "key": "reagent0",
+          "node_id": "d2f08b41-5ccf-48a6-b3b2-f9c740ea2619",
+          "value": "yeast mixture",
+          "id": "5aa7988ddd15f12638a6fbf66e03c6cd3f2fd3dc88dfd1b02c38b6e67136355f"
+        }
+      ]
     },
     {
       "id": "9f4ef7f1-bb32-40b2-b29b-c2cf3d9b444b",
@@ -193,9 +530,22 @@
           "value": "it's a slot value",
           "id": "9f4ef7f1-bb32-40b2-b29b-c2cf3d9b444b",
           "node_id": "9f4ef7f1-bb32-40b2-b29b-c2cf3d9b444b"
+        },
+        {
+          "key": "reagent1",
+          "node_id": "9f4ef7f1-bb32-40b2-b29b-c2cf3d9b444b",
+          "value": "PEG/LiAc solution",
+          "id": "a70526bd69d188b2bc6676915fe2f8fb1d77e07c2902a17e24f145de7c762d8f"
         }
       ],
-      "emits": []
+      "emits": [
+        {
+          "key": "reagent0",
+          "node_id": "9f4ef7f1-bb32-40b2-b29b-c2cf3d9b444b",
+          "value": "PEG/LiAc solution",
+          "id": "15e508d03a90b101ae4ceb1d5ade7fb58b0cd9de86a4ebb0e492013c227c2a16"
+        }
+      ]
     },
     {
       "id": "09bdbb1d-44cc-4d26-826a-c74676ab2e5c",
@@ -207,9 +557,40 @@
           "value": "it's a slot value",
           "id": "09bdbb1d-44cc-4d26-826a-c74676ab2e5c",
           "node_id": "09bdbb1d-44cc-4d26-826a-c74676ab2e5c"
+        },
+        {
+          "key": "reagent1",
+          "node_id": "09bdbb1d-44cc-4d26-826a-c74676ab2e5c",
+          "value": "Bait vector",
+          "id": "1900010f5937c4881d4a47985964f6b7774731546ea769c1a89bbe23abc6c399"
+        },
+        {
+          "key": "reagent2",
+          "node_id": "09bdbb1d-44cc-4d26-826a-c74676ab2e5c",
+          "value": "Library vector",
+          "id": "de11e8213ac9c3423c00b7ea5b2544a56d001ce91018faa565155f3c6d0fd7f7"
+        },
+        {
+          "key": "reagent3",
+          "node_id": "09bdbb1d-44cc-4d26-826a-c74676ab2e5c",
+          "value": "Herring testes carrier DNA",
+          "id": "576c9a2c840b5fa8835178c8817026d30cf24bd9b3bce8503d2cb56b8eeb4984"
+        },
+        {
+          "key": "notice",
+          "node_id": "09bdbb1d-44cc-4d26-826a-c74676ab2e5c",
+          "value": "Just prior to use, denature the carrier DNA by placing it in a boiling water for 20 min and immediately cooling it on ice)",
+          "id": "4cf8e73a412351bcf703ec2992bdf0343f921dac9926a2885f2c9e1d5d8a94ac"
         }
       ],
-      "emits": []
+      "emits": [
+        {
+          "key": "reagent0",
+          "node_id": "09bdbb1d-44cc-4d26-826a-c74676ab2e5c",
+          "value": "mixture",
+          "id": "80f3e02d05fe0278a57750596d1a1d22b022b3e168e06ccac9b9cec34a999595"
+        }
+      ]
     },
     {
       "id": "74277289-7d57-404c-ac61-d2fc6a857a03",
@@ -221,9 +602,28 @@
           "value": "it's a slot value",
           "id": "74277289-7d57-404c-ac61-d2fc6a857a03",
           "node_id": "74277289-7d57-404c-ac61-d2fc6a857a03"
+        },
+        {
+          "key": "reagent1",
+          "node_id": "74277289-7d57-404c-ac61-d2fc6a857a03",
+          "value": "yeast cells",
+          "id": "611735758827d5fdf8cda1b83c7493e0eb8a5159dd897cbfc1b2a3812962a560"
+        },
+        {
+          "key": "volume",
+          "node_id": "74277289-7d57-404c-ac61-d2fc6a857a03",
+          "value": "Small Scale: 0.1 ml Library Scale: 8 ml",
+          "id": "9a0cb91eb38aa72a0c4c82abfd1b9ba2204c666da7ad9d7e206efa57d36e6911"
         }
       ],
-      "emits": []
+      "emits": [
+        {
+          "key": "reagent0",
+          "node_id": "74277289-7d57-404c-ac61-d2fc6a857a03",
+          "value": "mixture",
+          "id": "071bf55bd7f630cb8c459b8a2616152bf705801a493ac4c80b32b7f570bd88f8"
+        }
+      ]
     },
     {
       "id": "4b3d91ac-404a-4e65-83d7-fc43aef9ceb9",
@@ -235,9 +635,28 @@
           "value": "it's a slot value",
           "id": "4b3d91ac-404a-4e65-83d7-fc43aef9ceb9",
           "node_id": "4b3d91ac-404a-4e65-83d7-fc43aef9ceb9"
+        },
+        {
+          "key": "reagent1",
+          "node_id": "4b3d91ac-404a-4e65-83d7-fc43aef9ceb9",
+          "value": "sterile PEG/LiAc solution",
+          "id": "7e8c7e7a4f87dd8d9567a73dad3968ed1f0774206d2b8d9d29575332f3b81961"
+        },
+        {
+          "key": "volume",
+          "node_id": "4b3d91ac-404a-4e65-83d7-fc43aef9ceb9",
+          "value": "Small Scale: 0.6 ml Library Scale: 60 ml",
+          "id": "b5f0e8d3470cd3c2795430e87fe7b449c9ec8d843cc3de8903b81e772cbd38c7"
         }
       ],
-      "emits": []
+      "emits": [
+        {
+          "key": "reagent0",
+          "node_id": "4b3d91ac-404a-4e65-83d7-fc43aef9ceb9",
+          "value": "mixture",
+          "id": "25bd342a233413bc5ce59f2ad2fbde230a366652fc802bbab178f1dd01b11b93"
+        }
+      ]
     },
     {
       "id": "575c3965-14eb-4b8b-b940-a1be4d830608",
@@ -249,9 +668,40 @@
           "value": "it's a slot value",
           "id": "575c3965-14eb-4b8b-b940-a1be4d830608",
           "node_id": "575c3965-14eb-4b8b-b940-a1be4d830608"
+        },
+        {
+          "key": "reagent1",
+          "node_id": "575c3965-14eb-4b8b-b940-a1be4d830608",
+          "value": "mixture",
+          "id": "6fc8ced5f141cc7c0e53a71034de7f69ece044b51b51e9cb2e551b7c223bf0fa"
+        },
+        {
+          "key": "temperature",
+          "node_id": "575c3965-14eb-4b8b-b940-a1be4d830608",
+          "value": "30\u2103",
+          "id": "aff050876cac9906550f23d129630bf3207b32c75b982bb37238325bdaf7a315"
+        },
+        {
+          "key": "time",
+          "node_id": "575c3965-14eb-4b8b-b940-a1be4d830608",
+          "value": "30min",
+          "id": "4a23647065f6467e8687d5efd830f2014ec560834b94bff41a80fd14e52ac5be"
+        },
+        {
+          "key": "device",
+          "node_id": "575c3965-14eb-4b8b-b940-a1be4d830608",
+          "value": "shaker at 220rpm",
+          "id": "b49b6a39cd1f6ecc966601a9b3c1baf6b614e185988bff81599448cda1299a87"
         }
       ],
-      "emits": []
+      "emits": [
+        {
+          "key": "reagent0",
+          "node_id": "575c3965-14eb-4b8b-b940-a1be4d830608",
+          "value": "mixture",
+          "id": "bad4c9689bde8f36e543a87b37b8b395c6b9abe4d1f3135d24cd850a910393ba"
+        }
+      ]
     },
     {
       "id": "5fe8eb0a-2db4-4c8e-b706-c8b96bceeea5",
@@ -263,9 +713,34 @@
           "value": "it's a slot value",
           "id": "5fe8eb0a-2db4-4c8e-b706-c8b96bceeea5",
           "node_id": "5fe8eb0a-2db4-4c8e-b706-c8b96bceeea5"
+        },
+        {
+          "key": "reagent1",
+          "node_id": "5fe8eb0a-2db4-4c8e-b706-c8b96bceeea5",
+          "value": "mixture",
+          "id": "a2b7404022b74f62c95e94b1a5e955da981ff45a71294b27e462ec0808970b27"
+        },
+        {
+          "key": "reagent2",
+          "node_id": "5fe8eb0a-2db4-4c8e-b706-c8b96bceeea5",
+          "value": "DMSO",
+          "id": "6591eec59c3e9afcb6643356f232e247967259c0404223ff1f193dd0eaa05503"
+        },
+        {
+          "key": "volume",
+          "node_id": "5fe8eb0a-2db4-4c8e-b706-c8b96bceeea5",
+          "value": "Small Scale: 70 ul Library Scale: 7 ml",
+          "id": "ddf3b5796de2e234e858c21558210472fd09b29984b84d55f0d93b97b0aaa9c9"
         }
       ],
-      "emits": []
+      "emits": [
+        {
+          "key": "reagent0",
+          "node_id": "5fe8eb0a-2db4-4c8e-b706-c8b96bceeea5",
+          "value": "mixture",
+          "id": "50e76fd468d43976de1cca86bb1c375905fcbfb72a0c147e74490c796a229b05"
+        }
+      ]
     },
     {
       "id": "dfdb506c-5a65-473b-8ab1-79d63ac1220e",
@@ -277,9 +752,28 @@
           "value": "it's a slot value",
           "id": "dfdb506c-5a65-473b-8ab1-79d63ac1220e",
           "node_id": "dfdb506c-5a65-473b-8ab1-79d63ac1220e"
+        },
+        {
+          "key": "reagent1",
+          "node_id": "dfdb506c-5a65-473b-8ab1-79d63ac1220e",
+          "value": "mixture",
+          "id": "067bd221e560b65b818eca1274fca9aba1d2e2b692094adf7ce38b73f958ad84"
+        },
+        {
+          "key": "method",
+          "node_id": "dfdb506c-5a65-473b-8ab1-79d63ac1220e",
+          "value": "gentle inversion or swirling",
+          "id": "de513b983be6f07ddb8d113772dfae8ac5029cc1c74ecaca32b670cc1e3518d9"
         }
       ],
-      "emits": []
+      "emits": [
+        {
+          "key": "reagent0",
+          "node_id": "dfdb506c-5a65-473b-8ab1-79d63ac1220e",
+          "value": "mixture",
+          "id": "8cc6d436dd01cc80b6f1f4e86e443eed95e85bd236f2db61210b3d022394c559"
+        }
+      ]
     },
     {
       "id": "d7b0702f-8d86-44d0-94cd-609e2352cf52",
@@ -291,23 +785,67 @@
           "value": "it's a slot value",
           "id": "d7b0702f-8d86-44d0-94cd-609e2352cf52",
           "node_id": "d7b0702f-8d86-44d0-94cd-609e2352cf52"
+        },
+        {
+          "key": "temperature",
+          "node_id": "d7b0702f-8d86-44d0-94cd-609e2352cf52",
+          "value": "42\u2103",
+          "id": "7de1a86587dd2c454a75b2020245db8a51b04f89a75b3e702c5b8ef0018f0a42"
+        },
+        {
+          "key": "device",
+          "node_id": "d7b0702f-8d86-44d0-94cd-609e2352cf52",
+          "value": "water bath",
+          "id": "3749e8059c0bd079c5ebee71055fb6c01b935c0614d10bcb01726c4f371279cf"
+        },
+        {
+          "key": "time",
+          "node_id": "d7b0702f-8d86-44d0-94cd-609e2352cf52",
+          "value": "15min",
+          "id": "a2c984e96e43fea62f4533155c3864b8bb61b8ee914c3982f95734646a7c3e02"
         }
       ],
-      "emits": []
+      "emits": [
+        {
+          "key": "reagent0",
+          "node_id": "d7b0702f-8d86-44d0-94cd-609e2352cf52",
+          "value": "mixture",
+          "id": "8de4357d730018ed842449587693bb2d6d2f07d58fca2f42c98b2ac33d9006a0"
+        }
+      ]
     },
     {
       "id": "6a56ba3d-7b6f-4200-9cb0-3def6111853a",
       "text": "Swirl occasionally to mix \\(large- and library-scale only)",
-      "instruction": "ADD",
+      "instruction": "MIX",
       "slots": [
         {
           "key": "it's a slot key",
           "value": "it's a slot value",
           "id": "6a56ba3d-7b6f-4200-9cb0-3def6111853a",
           "node_id": "6a56ba3d-7b6f-4200-9cb0-3def6111853a"
+        },
+        {
+          "key": "notice",
+          "node_id": "6a56ba3d-7b6f-4200-9cb0-3def6111853a",
+          "value": "Swirl occasionally to mix",
+          "id": "15dace3bc692f8591f43b3b54a0d99a6d3f80e189a4150fd14576a53d57ea44e"
+        },
+        {
+          "key": "reagent1",
+          "node_id": "6a56ba3d-7b6f-4200-9cb0-3def6111853a",
+          "value": "mixture",
+          "id": "9a81bd8ff9483f1c017427cd316ab8e6be31d68fe422128fa999f326a211e1f6"
         }
       ],
-      "emits": []
+      "emits": [
+        {
+          "key": "reagent0",
+          "node_id": "6a56ba3d-7b6f-4200-9cb0-3def6111853a",
+          "value": "mixture",
+          "id": "31ddfa7f1ccd10104e419a4cf81a9b93c6545fa340a953a9ba8913f1f27c878d"
+        }
+      ]
     },
     {
       "id": "c3fbe13d-9911-4e75-9459-bc23a223f582",
@@ -319,9 +857,34 @@
           "value": "it's a slot value",
           "id": "c3fbe13d-9911-4e75-9459-bc23a223f582",
           "node_id": "c3fbe13d-9911-4e75-9459-bc23a223f582"
+        },
+        {
+          "key": "reagent1",
+          "node_id": "c3fbe13d-9911-4e75-9459-bc23a223f582",
+          "value": "mixture",
+          "id": "65280d4daff3e46f5f937efe6a33f87bf17d32465b7ff3cd707b895b4e6f8971"
+        },
+        {
+          "key": "environment",
+          "node_id": "c3fbe13d-9911-4e75-9459-bc23a223f582",
+          "value": "ice",
+          "id": "c5633164322d2ed8ad40080cbd14b07988209cf38b72eacd0475de85378c9a86"
+        },
+        {
+          "key": "time",
+          "node_id": "c3fbe13d-9911-4e75-9459-bc23a223f582",
+          "value": "1-2min",
+          "id": "ae625849015f45fe3d5ea6a0961110bfd3c3f4c124a16b3a856b7162159b99c1"
         }
       ],
-      "emits": []
+      "emits": [
+        {
+          "key": "reagent0",
+          "node_id": "c3fbe13d-9911-4e75-9459-bc23a223f582",
+          "value": "mixture",
+          "id": "066252701f5c6a52cd5ecbaa8f38ce84e2c001d3f44ffcf1aa6581ca84c0adc1"
+        }
+      ]
     },
     {
       "id": "3f4852fa-7ce3-4ada-9812-4adf15a930b0",
@@ -333,9 +896,28 @@
           "value": "it's a slot value",
           "id": "3f4852fa-7ce3-4ada-9812-4adf15a930b0",
           "node_id": "3f4852fa-7ce3-4ada-9812-4adf15a930b0"
+        },
+        {
+          "key": "reagent1",
+          "node_id": "3f4852fa-7ce3-4ada-9812-4adf15a930b0",
+          "value": "mixture",
+          "id": "44c12bd82f57eb5bdd64550582443ea525d06cf91198ee395ce2be1f0fbc3351"
+        },
+        {
+          "key": "notice",
+          "node_id": "3f4852fa-7ce3-4ada-9812-4adf15a930b0",
+          "value": "Centrifuge cells for: Small Scale: 5 sec., room temperature - 14K rpm Library Scale: 5 min., room temperature - 1500 rpm",
+          "id": "0cb118cc5d67cff006b7059713e54ca8b884fd70fd21cbe4ddccf2f7bc22abb4"
         }
       ],
-      "emits": []
+      "emits": [
+        {
+          "key": "reagent0",
+          "node_id": "3f4852fa-7ce3-4ada-9812-4adf15a930b0",
+          "value": "cell pellet",
+          "id": "d4a36894f8f6b53b159c628f2222a1d9a9cc8d87888c8b98cb2dc8e5f08400a9"
+        }
+      ]
     },
     {
       "id": "7374efbd-88eb-4edc-9c33-0defb26763ff",
@@ -347,9 +929,22 @@
           "value": "it's a slot value",
           "id": "7374efbd-88eb-4edc-9c33-0defb26763ff",
           "node_id": "7374efbd-88eb-4edc-9c33-0defb26763ff"
+        },
+        {
+          "key": "reagent1",
+          "node_id": "7374efbd-88eb-4edc-9c33-0defb26763ff",
+          "value": "cell pellet",
+          "id": "ae9ed6eb14b58d7b005e3a1c46325b8f3077c52a1e6521707e6412ef68aa3e5d"
         }
       ],
-      "emits": []
+      "emits": [
+        {
+          "key": "reagent0",
+          "node_id": "7374efbd-88eb-4edc-9c33-0defb26763ff",
+          "value": "cell pellet",
+          "id": "2d032d8c20280b56eb46c891333ca8c12deff8722a8788ac38edf14efa0f362e"
+        }
+      ]
     },
     {
       "id": "df1c395d-f5a5-4120-9a00-c8417439881a",
@@ -361,9 +956,34 @@
           "value": "it's a slot value",
           "id": "df1c395d-f5a5-4120-9a00-c8417439881a",
           "node_id": "df1c395d-f5a5-4120-9a00-c8417439881a"
+        },
+        {
+          "key": "reagent1",
+          "node_id": "df1c395d-f5a5-4120-9a00-c8417439881a",
+          "value": "cell pellet",
+          "id": "c1b7fb0da8b1aa4844bb7db62cf03c29ddaccd7a648d42eba20a59cfb28549fa"
+        },
+        {
+          "key": "reagent2",
+          "node_id": "df1c395d-f5a5-4120-9a00-c8417439881a",
+          "value": "1 x TE",
+          "id": "0975a67c8dc5862bf25faeae804cc283336361e9f4ded6f6573295aa6a180dab"
+        },
+        {
+          "key": "volume",
+          "node_id": "df1c395d-f5a5-4120-9a00-c8417439881a",
+          "value": "Scale: 0.5 ml Library Scale: 10 ml",
+          "id": "820998ef3f6c21d27a083f18093f9d43441fb71cac7ae4f6cfca111c58dc4f73"
         }
       ],
-      "emits": []
+      "emits": [
+        {
+          "key": "reagent0",
+          "node_id": "df1c395d-f5a5-4120-9a00-c8417439881a",
+          "value": "mixture",
+          "id": "7525c70804d91b2dd3b428f370463887b0e9b9ab8dd8af3f746362eb53ef5d60"
+        }
+      ]
     },
     {
       "id": "1ceecdc7-7d71-4573-a571-9f37d7fba889",
@@ -375,9 +995,34 @@
           "value": "it's a slot value",
           "id": "1ceecdc7-7d71-4573-a571-9f37d7fba889",
           "node_id": "1ceecdc7-7d71-4573-a571-9f37d7fba889"
+        },
+        {
+          "key": "reagent1",
+          "node_id": "1ceecdc7-7d71-4573-a571-9f37d7fba889",
+          "value": "mixture",
+          "id": "8de27fbc7f779f047f593088aaf21f3b3600e0da496c8323e2dc6c7c5f569c70"
+        },
+        {
+          "key": "reagent2",
+          "node_id": "1ceecdc7-7d71-4573-a571-9f37d7fba889",
+          "value": "SD-Ura-His-Trp plates",
+          "id": "dfc6c574c819775a54b18e300b25c5c80135f7f2506459d611d7a251f7145229"
+        },
+        {
+          "key": "ratio",
+          "node_id": "1ceecdc7-7d71-4573-a571-9f37d7fba889",
+          "value": "For large- and library- scale transformation: --- Spread 100 ul of a 1:1,000, 1:100, and 1:10 dilution on SD-Ura-His-Trp plates \\(100 mm)",
+          "id": "ae9b00d805ace5bffaa7ba0c2c4709f453da097eca55a110ae52d8c8a6ef0658"
         }
       ],
-      "emits": []
+      "emits": [
+        {
+          "key": "reagent0",
+          "node_id": "1ceecdc7-7d71-4573-a571-9f37d7fba889",
+          "value": "plate",
+          "id": "321444cbb34c392901ef9e60c60322d49d76b9d6c80e0c91084428b19824b0be"
+        }
+      ]
     },
     {
       "id": "8e80385c-15d4-41a2-9341-cc847ccaf534",
@@ -389,23 +1034,67 @@
           "value": "it's a slot value",
           "id": "8e80385c-15d4-41a2-9341-cc847ccaf534",
           "node_id": "8e80385c-15d4-41a2-9341-cc847ccaf534"
+        },
+        {
+          "key": "reagent1",
+          "node_id": "8e80385c-15d4-41a2-9341-cc847ccaf534",
+          "value": "plate",
+          "id": "d0303fee1f8a61caaa1a042ad27e1fbc039c6146d14ef21f0287b53940bd391a"
+        },
+        {
+          "key": "temperature",
+          "node_id": "8e80385c-15d4-41a2-9341-cc847ccaf534",
+          "value": "30\u2103",
+          "id": "fc2feaeeb9ce5d09a9bdd2708604bd7fe5998551ce4264b89813f0c2fe15cb38"
+        },
+        {
+          "key": "time",
+          "node_id": "8e80385c-15d4-41a2-9341-cc847ccaf534",
+          "value": "3-5 days",
+          "id": "0ab2790c1ce68c935df60c6cbfa4298cb856d95baf7556f1dec770ba779596b0"
         }
       ],
-      "emits": []
+      "emits": [
+        {
+          "key": "reagent0",
+          "node_id": "8e80385c-15d4-41a2-9341-cc847ccaf534",
+          "value": "yeast colony",
+          "id": "c3b72dc1ef7edf6787220f99a2f1ce6042b33a30b63f13043a5daa850a6b8e9a"
+        }
+      ]
     },
     {
       "id": "028e967b-d9b6-407b-b6b2-de5e3b81dce0",
       "text": "Calculating cotransformation e\u0000ciency and number of clones ampli\u0000ed: A. Cotransformation e\u0000ciency: count the colonies \\(cfu) growing on the SD-His-Trp-Ura dilution plate that has 30-300 cfu. cfu/ug DNA = \\(Cfu x total suspension vol. \\(ul)) / \\(\\(Vol. Plated \\(ul)) x \\(dilution factor) x \\(amount.DNA used\\(ug)\\(Limiting plasmid))) B. The number of clones ampli\u0000ed: cfu/ug x amt. Of library plasmid used \\(cfu/ug) = # of clones ampli\u0000ed.",
-      "instruction": "ADD",
+      "instruction": "CALCULATE",
       "slots": [
         {
           "key": "it's a slot key",
           "value": "it's a slot value",
           "id": "028e967b-d9b6-407b-b6b2-de5e3b81dce0",
           "node_id": "028e967b-d9b6-407b-b6b2-de5e3b81dce0"
+        },
+        {
+          "key": "values",
+          "node_id": "028e967b-d9b6-407b-b6b2-de5e3b81dce0",
+          "value": "Cotransformation eciency: count the colonies \\(cfu) growing on the SD-His-Trp-Ura dilution plate that has 30-300 cfu.  cfu/ug DNA = \\(Cfu x total suspension vol. \\(ul)) / \\(\\(Vol.  Plated \\(ul)) x \\(dilution factor) x \\(amount. DNA used\\(ug)\\(Limiting plasmid)))",
+          "id": "cbbe0a68080a5e87e67045e1702636c2a2a0324ce228825d1e4d44009a423732"
+        },
+        {
+          "key": "values",
+          "node_id": "028e967b-d9b6-407b-b6b2-de5e3b81dce0",
+          "value": "The number of clones amplied: cfu/ug x amt.  Of library plasmid used \\(cfu/ug) = # of clones amplied.",
+          "id": "ff02274801134fe52d9926ccb8e5ae1ffe969b83624a1f86844bd64ef11aee4f"
         }
       ],
-      "emits": []
+      "emits": [
+        {
+          "key": "result",
+          "node_id": "028e967b-d9b6-407b-b6b2-de5e3b81dce0",
+          "value": "",
+          "id": "2794f1c21e5f2800ca39e982ea2d3ef623183fb229684bf8bebb1543fb07f4d5"
+        }
+      ]
     }
   ],
   "edges": [
