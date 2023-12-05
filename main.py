@@ -13,6 +13,7 @@ from typing import Union
 app = FastAPI()
 
 protocols_list_dir = "./data/protocols"
+protocols_labeled_list_dir = "./data/protocolsLabeled"
 graphs_dir = "data/protocolGraphs"
 compiled_graphs_dir = "data/protocolGraphsCompiled"
 isa_json_path = "./data/human_modified_isa/human-modified-isa.json"
@@ -30,7 +31,7 @@ async def say_hello(name: str):
 
 @app.get("/api/protocol/list/")
 async def get_protocols_list(skip: int = 0, limit: int = 30):
-    folder_path = protocols_list_dir  # 替换为你的 JSON 文件所在文件夹的路径
+    folder_path = protocols_labeled_list_dir  # 替换为你的 JSON 文件所在文件夹的路径
     files = os.listdir(folder_path)
     files.sort()  # 确保文件按字母顺序排序
 
