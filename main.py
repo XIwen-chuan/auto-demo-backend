@@ -107,7 +107,7 @@ async def get_compiled_graph(filename: str):
 @app.get("/api/protocol/")
 async def get_protocol(filename: str):
     # 构建完整的文件路径
-    filepath = os.path.join(protocols_list_dir, filename)
+    filepath = os.path.join(protocols_labeled_list_dir, filename)
 
     # 检查文件是否存在
     if not os.path.exists(filepath):
@@ -500,7 +500,7 @@ async def get_human_modified_isa():
 @app.post("/api/checked/")
 async def toggle_protocol_checked(filename: str):
     # 构建完整的文件路径
-    filepath = os.path.join(protocols_list_dir, filename)
+    filepath = os.path.join(protocols_labeled_list_dir, filename)
 
     # 检查文件是否存在
     if not os.path.exists(filepath):
